@@ -44,8 +44,8 @@ jobs:
           path: |
             documentation.patch
 
-  build-documentation:
-    name: Build Documentation
+  build-dummy-documentation:
+    name: Build Dummy Documentation
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -70,3 +70,30 @@ jobs:
           #Build dummy documentation
           source env/bin/activate
           make dummy
+
+  build-full-documentation:
+    name: Build Full Documentation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          #Install dependencies
+          sudo apt-get update
+          sudo apt-get install -y \
+          python3-virtualenv
+
+      - name: Configure Sphinx environment
+        run: |
+          #Configure Sphinx environment
+          virtualenv env
+          source env/bin/activate
+          pip install -r requirements.txt
+
+      - name: Sphinx parallel build
+        run: |
+          #Build Sphinx documentation using parallel jobs
+          source env/bin/activate
+          python -m sphinx -j auto -T -b html -d _build/doctrees -D language=en . _build
