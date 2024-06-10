@@ -6,13 +6,12 @@
 # 3. Options for internationalization
 # 4. Options for HTML output
 # 5. Options for HTML help output
-# 6. Options for the linkcheck builder
-# 7. Options for Docutils
-#   7.1 restructuredText Directives
-# 8. Extensions
-#   8.1 Sphinx not found page extension
-#   8.2 Sphinx auto section label extension
-#   8.3 Sphinx opengraph extension
+# 6. Options for Docutils
+#   6.1 restructuredText Directives
+# 7. Extensions
+#   7.1 Sphinx not found page extension
+#   7.2 Sphinx auto section label extension
+#   7.3 Sphinx opengraph extension
 
 import logging
 import os
@@ -140,17 +139,10 @@ html_static_path = [
 htmlhelp_basename = "RebelDocumentation"
 
 
-# 6. Options for the linkcheck builder
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-the-linkcheck-builder
-
-linkcheck_anchors = False
-linkcheck_timeout = 10
-
-
-# 7. Options for Docutils
+# 6. Options for Docutils
 # https://www.docutils.org/docs/user/config.html
 
-# 7.1 restructuredText Directives
+# 6.1 restructuredText Directives
 # https://www.docutils.org/docs/ref/rst/directives.html
 
 # To avoid potential security holes in the csv-table, include and
@@ -158,9 +150,9 @@ linkcheck_timeout = 10
 file_insertion_enabled = False
 raw_enabled = False
 
-# 8. Extensions
+# 7. Extensions
 
-# 8.1 Sphinx not found extension
+# 7.1 Sphinx not found extension
 # https://sphinx-notfound-page.readthedocs.io
 
 notfound_context = {
@@ -187,13 +179,13 @@ notfound_context = {
 }
 
 
-# 8.2 Sphinx auto section label extension
+# 7.2 Sphinx auto section label extension
 # https://www.sphinx-doc.org/en/master/usage/extensions/autosectionlabel.html
 
 autosectionlabel_prefix_document = True
 
 
-# 8.3 Sphinx opengraph extension
+# 7.3 Sphinx opengraph extension
 # https://github.com/wpilibsuite/sphinxext-opengraph
 
 ogp_site_url = "https://docs.rebeltoolbox.com"

@@ -6,6 +6,7 @@ SPHINXOPTS    ?=
 SPHINXBUILD   ?= sphinx-build
 SOURCEDIR     = .
 BUILDDIR      = _build
+LINKCHECKDIR  = _linkcheck
 
 # User-friendly check for sphinx-build.
 ifneq ($(shell which $(SPHINXBUILD) >/dev/null 2>&1; echo $$?), 0)
@@ -19,7 +20,12 @@ endif
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
-.PHONY: help Makefile
+linkcheck:
+	@$(SPHINXBUILD) -b linkcheck "$(SOURCEDIR)" "$(LINKCHECKDIR)" $(SPHINXOPTS) $(O)
+	@echo
+	@echo "Check finished. Report is in $(LINKCHECKDIR)."
+
+.PHONY: help linkcheck Makefile
 
 # Catch-all target:
 # Route all unknown targets to Sphinx using "make mode" option.
