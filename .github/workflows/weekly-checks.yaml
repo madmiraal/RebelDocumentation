@@ -1,0 +1,42 @@
+name: Weekly Checks
+on:
+  schedule:
+    # Run a test every week: on Sunday night at midnight.
+    - cron: '0 0 * * 1'
+
+jobs:
+  check-links:
+    name: Check links
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          #Install dependencies
+          sudo apt-get update
+          sudo apt-get install -y \
+          python3-virtualenv
+
+      - name: Configure Sphinx environment
+        run: |
+          #Configure Sphinx environment
+          virtualenv env
+          source env/bin/activate
+          pip install -r requirements.txt
+
+      - name: Check links
+        run: |
+          #Check links
+          source env/bin/activate
+          make linkcheck
+
+      - name: Upload output files
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: output-files
+          path: |
+            _linkcheck/output.txt
+
