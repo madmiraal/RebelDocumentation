@@ -14,7 +14,7 @@ The following steps detail what is needed to set up the Android SDK and the engi
 Install OpenJDK 11
 ------------------
 
-Download and install  `OpenJDK 11 <https://adoptium.net/?variant=openjdk11>`__.
+Download and install  `OpenJDK 11 <https://adoptium.net/temurin/releases/?variant=openjdk11>`__.
 
 Download the Android SDK
 ------------------------
@@ -35,7 +35,7 @@ Download and install the Android SDK.
 
 - You can install it using the `command line tools <https://developer.android.com/studio/#command-tools>`__.
 
-  - Once the command line tools are installed, run the `sdkmanager <https://developer.android.com/studio/command-line/sdkmanager>`__ command to complete the setup process:
+  - Once the command line tools are installed, run the `sdkmanager <https://developer.android.com/tools/sdkmanager>`__ command to complete the setup process:
 
 ::
 
@@ -104,7 +104,7 @@ Launcher icons are used by Android launcher apps to represent your application t
 There are two types of icons required by Rebel Android projects:
 
 - **Main Icon:** The "classic" icon. This will be used on all Android versions up to Android 8 (Oreo), exclusive. Must be at least 192×192 px.
-- **Adaptive Icons:** Starting from Android 8 (inclusive), `Adaptive Icons <https://developer.android.com/guide/practices/ui_guidelines/icon_design_adaptive>`_ were introduced. Applications will need to include separate background and foreground icons to have a native look. The user's launcher application will control the icon's animation and masking. Must be at least 432×432 px.
+- **Adaptive Icons:** Starting from Android 8 (inclusive), `Adaptive Icons <https://developer.android.com/develop/ui/views/launch/icon_design_adaptive>`_ were introduced. Applications will need to include separate background and foreground icons to have a native look. The user's launcher application will control the icon's animation and masking. Must be at least 432×432 px.
 
 .. seealso:: It's important to adhere to some rules when designing adaptive icons. `Google Design has provided a nice article <https://medium.com/google-design/designing-adaptive-icons-515af294c783>`_ that helps to understand those rules and some of the capabilities of adaptive icons.
 

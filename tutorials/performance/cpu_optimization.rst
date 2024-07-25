@@ -53,7 +53,7 @@ Although the Rebel Editor profiler is very convenient and useful, sometimes you
 need more power, and the ability to profile the Rebel Engine source code itself.
 
 You can use a number of third party profilers to do this including
-`Valgrind <https://www.valgrind.org/>`__,
+`Valgrind <https://valgrind.org/>`__,
 `VerySleepy <http://www.codersnotes.com/sleepy/>`__,
 `HotSpot <https://github.com/KDAB/hotspot>`__,
 `Visual Studio <https://visualstudio.microsoft.com/>`__ and

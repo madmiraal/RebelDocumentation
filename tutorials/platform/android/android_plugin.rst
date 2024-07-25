@@ -102,7 +102,7 @@ The instructions below assumes that you're using Android Studio.
         - The filepath can be relative (e.g.: ``MyPlugin.aar``) in which case it's relative to the ``res://android/plugins`` directory.
         - The filepath can be absolute: ``res://some_path/MyPlugin.aar``.
 
-      - If **binary_type** is ``remote``, then this should be a declaration for a `remote gradle binary <https://developer.android.com/studio/build/dependencies#dependency-types>`_ (e.g.: ``com.example:my-plugin:0.0.0``).
+      - If **binary_type** is ``remote``, then this should be a declaration for a `remote gradle binary <https://developer.android.com/build/dependencies>`_ (e.g.: ``com.example:my-plugin:0.0.0``).
 
     The ``dependencies`` section and fields are optional and defined as follow:
 
