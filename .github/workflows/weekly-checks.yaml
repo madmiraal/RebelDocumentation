@@ -1,5 +1,6 @@
 name: Weekly Checks
 on:
+  push:
   schedule:
     # Run a test every week: on Sunday night at midnight.
     - cron: '0 0 * * 1'
