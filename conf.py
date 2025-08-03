@@ -43,6 +43,7 @@ extensions = [
     "sphinx_tabs.tabs",
     "sphinx.ext.autosectionlabel",
     "sphinxext.opengraph",
+    "sphinx_design",
 ]
 
 exclude_patterns = [

@@ -21,3 +21,7 @@ sphinxext-opengraph==0.13.0
 # Matplotlib
 # https://pypi.org/project/matplotlib/
 matplotlib==3.10.8
+
+# Sphinx design
+# https://sphinx-design.readthedocs.io/
+sphinx_design==0.6.1

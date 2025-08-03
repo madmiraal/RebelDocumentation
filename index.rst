@@ -1,102 +1,127 @@
 Rebel Toolbox - Better tools for better games
 =============================================
 
-.. toctree::
-   :maxdepth: 1
-   :caption: What's New
 
-   what_is_new/rebel_1_0
+.. grid:: 1 1 2 2
+   :gutter: 1 2 3 4
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Getting Started
+   .. grid-item::
+      :outline:
 
-   getting_started/introduction/index
-   getting_started/step_by_step/index
-   getting_started/first_2d_game/index
-   getting_started/first_3d_game/index
+      .. toctree::
+         :maxdepth: 1
+         :caption: What's New
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Tutorials
+         what_is_new/rebel_1_0
 
-   tutorials/2d/index
-   tutorials/3d/index
-   tutorials/animation/index
-   tutorials/assets_pipeline/index
-   tutorials/audio/index
-   tutorials/best_practices/index
-   tutorials/editor/index
-   tutorials/export/index
-   tutorials/i18n/index
-   tutorials/inputs/index
-   tutorials/io/index
-   tutorials/math/index
-   tutorials/navigation/index
-   tutorials/networking/index
-   tutorials/performance/index
-   tutorials/physics/index
-   tutorials/platforms/index
-   tutorials/plugins/index
-   tutorials/rendering/index
-   tutorials/scripting/index
-   tutorials/shaders/index
-   tutorials/ui/index
-   tutorials/vr/index
+   .. grid-item::
+      :outline:
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Class Reference
+      .. toctree::
+         :maxdepth: 1
+         :caption: Getting Started
 
-   api/index
+         getting_started/introduction/index
+         getting_started/step_by_step/index
+         getting_started/first_2d_game/index
+         getting_started/first_3d_game/index
 
-A comprehensive view of every class, every method and every property.
+   .. grid-item::
+      :outline:
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contributing
+      .. toctree::
+         :maxdepth: 1
+         :caption: Tutorials
 
-   contributing/how_can_i_contribute
+         tutorials/2d/index
+         tutorials/3d/index
+         tutorials/animation/index
+         tutorials/assets_pipeline/index
+         tutorials/audio/index
+         tutorials/best_practices/index
+         tutorials/editor/index
+         tutorials/export/index
+         tutorials/i18n/index
+         tutorials/inputs/index
+         tutorials/io/index
+         tutorials/math/index
+         tutorials/navigation/index
+         tutorials/networking/index
+         tutorials/performance/index
+         tutorials/physics/index
+         tutorials/platforms/index
+         tutorials/plugins/index
+         tutorials/rendering/index
+         tutorials/scripting/index
+         tutorials/shaders/index
+         tutorials/ui/index
+         tutorials/vr/index
 
-There are lots of ways to contribute to Rebel Toolbox.
-You don't need to be a coder to contribute.
-Start by using Rebel Editor to create games with Rebel Engine, and
-tell everyone you know about your experience.
+   .. grid-item::
+      :outline:
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Development
+      .. toctree::
+         :maxdepth: 1
+         :caption: Class Reference
 
-   development/compiling/index
-   development/cpp/index
-   development/editor/index
-   development/file_formats/index
+         api/index
 
-If you are a coder.
-If you want to fix, enhance, add, improve or modify any of the Rebel Toolbox tools,
-this section will help you understand how.
+      A comprehensive view of every class, every method and every property.
 
-.. toctree::
-   :maxdepth: 1
-   :caption: About
+   .. grid-item::
+      :outline:
 
-   about/what_is_rebel
-   about/faq
-   about/troubleshooting
-   about/list_of_features
-   about/release_policy
-   about/complying_with_licenses
+      .. toctree::
+         :maxdepth: 2
+         :caption: Contributing
 
-For the curious.
-For those with questions that we probably have answers for.
-For those who want to know more about Rebel Toolbox:
-why it exists,
-who it's for,
-why we do it,
-how we do it, or
-simply what it is.
-If this section does not have the answers you're looking for,
-Visit our website: http://rebeltoolbox.com/ for more information and other ways to contact us.
+         contributing/how_can_i_contribute
+
+      There are lots of ways to contribute to Rebel Toolbox.
+      You don't need to be a coder to contribute.
+      Start by using Rebel Editor to create games with Rebel Engine, and
+      tell everyone you know about your experience.
+
+   .. grid-item::
+      :outline:
+
+      .. toctree::
+         :maxdepth: 1
+         :caption: Development
+
+         development/compiling/index
+         development/cpp/index
+         development/editor/index
+         development/file_formats/index
+
+      If you are a coder.
+      If you want to fix, enhance, add, improve or modify any of the Rebel Toolbox tools,
+      this section will help you understand how.
+
+   .. grid-item::
+      :outline:
+
+      .. toctree::
+         :maxdepth: 1
+         :caption: About
+
+         about/what_is_rebel
+         about/faq
+         about/troubleshooting
+         about/list_of_features
+         about/release_policy
+         about/complying_with_licenses
+
+      For the curious.
+      For those with questions that we probably have answers for.
+      For those who want to know more about Rebel Toolbox:
+      why it exists,
+      who it's for,
+      why we do it,
+      how we do it, or
+      simply what it is.
+      If this section does not have the answers you're looking for,
+      Visit our website: http://rebeltoolbox.com/ for more information and other ways to contact us.
 
 .. Indices and tables
 .. ------------------
