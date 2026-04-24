@@ -1,0 +1,234 @@
+name: Update Translations
+on:
+  workflow_dispatch:
+  schedule:
+    # Check for updates every day at midnight.
+    - cron: '0 0 * * *'
+
+jobs:
+  update-translation-files:
+    name: Update Translation Files
+    # Don't run on forks.
+    if: github.repository == 'RebelToolbox/RebelDocumentation'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Rebel Documentation
+        uses: actions/checkout@v6
+
+      - name: Install dependencies
+        shell: bash
+        run: |
+          #Install dependencies
+          sudo apt-get update
+          sudo apt-get install -y gettext
+
+      - name: Create branch
+        run: |
+          #Create branch
+          git fetch origin
+          echo "::group::git switch main"
+          if ! git switch main 2>/dev/null ; then
+            git switch -c main origin/main
+          fi
+          echo "::endgroup::"
+          echo "::group::git switch -c update-translation-files"
+          if git ls-remote                                     \
+            --exit-code                                        \
+            --heads origin refs/heads/update-translation-files \
+            >/dev/null
+          then
+            echo "Use existing branch"
+            git switch -c update-translation-files origin/update-translation-files
+            echo "existing_branch=yes" >> "$GITHUB_ENV"
+          else
+            echo "Create new branch"
+            git switch -c update-translation-files
+          fi
+          echo "::endgroup::"
+
+      - name: Update existing branch
+        if: env.existing_branch == 'yes'
+        run: |
+          #Update existing branch
+          echo "::group::git rebase main"
+          if ! git rebase main >/dev/null ; then
+            git rebase --abort
+            echo "Rebase merge conflict!"
+            echo "Previous changes need to be overwritten."
+            echo "recreate_branch=yes" >> "$GITHUB_ENV"
+          else
+            git push -f
+          fi
+          echo "::endgroup::"
+
+      - name: Recreate branch
+        if: env.recreate_branch == 'yes'
+        run: |
+          git switch main
+          git branch -D update-translation-files
+          git switch -c update-translation-files
+          git push -u -f origin update-translation-files
+
+      - name: Update translation template
+        run: |
+          #Update translation template
+          # Create template files from rst files.
+          make gettext
+          # We use the Rebel Engine API translations.
+          rm _build/gettext/api.pot
+          # Merge template files into single template file.
+          msgcat --output-file=_translations/docs.pot _build/gettext/*.pot
+          # Update header.
+          sed -i '1d' _translations/docs.pot
+          sed -i '1i # SPDX-FileCopyrightText: 2023 Rebel Documentation contributors' _translations/docs.pot
+          sed -i '2i #' _translations/docs.pot
+          sed -i '3i # SPDX-License-Identifier: CC-BY-4.0' _translations/docs.pot
+          sed -i '4i #' _translations/docs.pot
+          sed -i '5i # LANGUAGE translation of the Rebel Documentation' _translations/docs.pot
+          sed -i '8i #' _translations/docs.pot
+          sed -i 's|^\"Report-Msgid-Bugs-To: |\"Report-Msgid-Bugs-To: https://github.com/RebelToolbox/RebelDocumentation|' _translations/docs.pot
+          sed -i 's|^#: ../../|#: |g' _translations/docs.pot
+
+      - name: Update translation strings
+        run: |
+          #Update translation strings
+          for po_file in _translations/*.po; do
+            echo "Updating strings in $po_file..."
+            msgmerge --update --backup=none --width=79 $po_file _translations/docs.pot
+            echo "Removing obsolete messages in $po_file..."
+            msgattrib --no-obsolete --output-file=$po_file $po_file
+          done
+
+      - name: Update locales
+        run: |
+          #Update locales
+          if [ -z "$(ls -A locale/)" ]; then
+            echo "No existing locales to update."
+            echo "Exiting!"
+          else
+            for locale_dir in locale/*; do
+              locale=$(basename $locale_dir)
+              po_file=_translations/$locale.po
+              echo "Removing old $locale translation..."
+              rm -rf $locale_dir
+              if [ ! -f $po_file ]; then
+                echo "$po_file file not found!"
+                echo "Unable to create translation for $locale."
+                echo "Skipping."
+                continue
+              fi
+              echo "Updating locale: $locale"
+              lc_messages=$locale_dir/LC_MESSAGES
+              mkdir -p $lc_messages
+              for pot_file in _build/gettext/*.pot; do
+                section=$(basename $pot_file .pot)
+                output_file=$lc_messages/$section.po
+                echo "Creating po file for section: $section..."
+                msgmerge --lang="$locale" --no-location --output=$output_file $po_file $pot_file
+                echo "Removing obsolete messages in $output_file..."
+                msgattrib --no-obsolete --output-file=$output_file $output_file
+                echo "Removing authors list from $output_file..."
+                sed -i '9,/^#$/d' $output_file
+              done
+            done
+          fi
+
+      - name: Check for changes
+        run: |
+          #git diff
+          if git diff --exit-code ; then
+            echo "No files have changed."
+          else
+            echo "Translation files have been updated."
+            echo "has_changes=yes" >> "$GITHUB_ENV"
+          fi
+
+      - name: Create commit
+        if: env.has_changes == 'yes'
+        run: |
+          #Create commit
+          git config user.name "Rebel Documentation"
+          git config user.email "158277139+RebelDocumentation@users.noreply.github.com"
+          echo "Adding files"
+          git add .
+          echo "Creating commit"
+          git commit -m "Update translation files"
+          echo "Pushing changes"
+          git push -u origin update-translation-files
+
+      - name: Create Pull Request
+        if: env.has_changes == 'yes'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          #Create Pull Request
+          if gh pr list --state open --head update-translation-files \
+            --json state | grep state
+          then
+            echo "Existing Pull Request updated"
+            echo "Please merge the Pull Request"
+          else
+            gh pr create                                                                          \
+              --base main                                                                         \
+              --head update-translation-files                                                     \
+              --title "Update Translation Files"                                                  \
+              --body "Updates the Rebel Documentation translation files with the latest changes." \
+              --label "PR Type: Maintenance"
+            echo "New Pull Request created"
+          fi
+
+  update-translations:
+    name: Update Translations
+    # Don't run on forks.
+    if: github.repository == 'RebelToolbox/RebelDocumentation'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Rebel Documentation
+        uses: actions/checkout@v6
+
+      - name: Pull updates from Weblate
+        run: |
+          #Pull updates from Weblate
+          git fetch origin
+          echo "::group::git switch main"
+          if ! git switch main 2>/dev/null ; then
+            git switch -c main origin/main
+          fi
+          echo "::endgroup::"
+          git remote add weblate https://hosted.weblate.org/git/rebel-toolbox/rebel-documentation/
+          git fetch weblate
+          git switch -c weblate weblate/main
+          git push -f origin weblate
+
+      - name: Check for changes
+        run: |
+          #git diff
+          if git diff --exit-code main -- ; then
+            echo "No new translations."
+          else
+            echo "New translations available from Weblate!"
+            echo "weblate_has_updates=yes" >> "$GITHUB_ENV"
+          fi
+
+      - name: Create Pull Request
+        if: env.weblate_has_updates == 'yes'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          #Create Pull Request
+          if gh pr list --state open --head weblate \
+            --json state | grep state
+          then
+            echo "Existing Pull Request updated"
+            echo "Please merge the Pull Request"
+          else
+            gh pr create                              \
+              --base main                             \
+              --head weblate                          \
+              --title "Update Translations"           \
+              --body "New translations from Weblate." \
+              --label "PR Type: Enhancement"
+            echo "New Pull Request created"
+          fi
