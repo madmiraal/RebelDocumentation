@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Rebel Documentation 1.0\n"
 "Report-Msgid-Bugs-To: https://github.com/RebelToolbox/RebelDocumentation\n"
-"POT-Creation-Date: 2026-04-29 13:00+0200\n"
+"POT-Creation-Date: 2026-05-09 13:16+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -302,7 +302,7 @@ msgstr ""
 msgid "FAQ"
 msgstr ""
 
-#: about/faq.rst:5 ../../tutorials/performance/batching.rst:470
+#: about/faq.rst:5 tutorials/performance/batching.rst:470
 msgid "Frequently asked questions"
 msgstr ""
 
@@ -373,7 +373,7 @@ msgstr ""
 msgid "**For the editor:**"
 msgstr ""
 
-#: about/faq.rst:33 ../../about/faq.rst:181
+#: about/faq.rst:33 about/faq.rst:181
 #: contributing/building_the_documentation.rst:130
 #: contributing/building_the_documentation.rst:172
 #: contributing/building_the_documentation.rst:195
@@ -385,7 +385,8 @@ msgstr ""
 msgid "Windows"
 msgstr ""
 
-#: about/faq.rst:34 ../../about/faq.rst:40 ../../about/faq.rst:192
+#: about/faq.rst:34 about/faq.rst:40
+#: about/faq.rst:192
 #: contributing/building_the_documentation.rst:123
 #: contributing/building_the_documentation.rst:166
 #: contributing/building_the_documentation.rst:189
@@ -410,7 +411,7 @@ msgstr ""
 msgid "macOS"
 msgstr ""
 
-#: about/faq.rst:35 ../../about/faq.rst:41
+#: about/faq.rst:35 about/faq.rst:41
 msgid "X11 (Linux, \\*BSD)"
 msgstr ""
 
@@ -1334,7 +1335,8 @@ msgstr ""
 msgid "Editor"
 msgstr ""
 
-#: about/list_of_features.rst:41 ../../about/list_of_features.rst:84
+#: about/list_of_features.rst:41
+#: about/list_of_features.rst:84
 #: about/list_of_features.rst:377
 msgid "**Features:**"
 msgstr ""
@@ -1416,23 +1418,28 @@ msgstr ""
 msgid "2D graphics"
 msgstr ""
 
-#: about/list_of_features.rst:74 ../../about/list_of_features.rst:141
+#: about/list_of_features.rst:74
+#: about/list_of_features.rst:141
 msgid "**Two renderers available:**"
 msgstr ""
 
-#: about/list_of_features.rst:76 ../../about/list_of_features.rst:143
+#: about/list_of_features.rst:76
+#: about/list_of_features.rst:143
 msgid "OpenGL ES 3.0 renderer (uses OpenGL 3.3 on desktop platforms)."
 msgstr ""
 
-#: about/list_of_features.rst:78 ../../about/list_of_features.rst:145
+#: about/list_of_features.rst:78
+#: about/list_of_features.rst:145
 msgid "High-end visuals. Recommended on desktop platforms."
 msgstr ""
 
-#: about/list_of_features.rst:80 ../../about/list_of_features.rst:150
+#: about/list_of_features.rst:80
+#: about/list_of_features.rst:150
 msgid "OpenGL ES 2.0 renderer (uses OpenGL 2.1 on desktop platforms)."
 msgstr ""
 
-#: about/list_of_features.rst:82 ../../about/list_of_features.rst:152
+#: about/list_of_features.rst:82
+#: about/list_of_features.rst:152
 msgid "Recommended on mobile and Web platforms."
 msgstr ""
 
@@ -1495,7 +1502,8 @@ msgstr ""
 msgid "GPU-based particles with support for custom particle shaders."
 msgstr ""
 
-#: about/list_of_features.rst:108 ../../about/list_of_features.rst:236
+#: about/list_of_features.rst:108
+#: about/list_of_features.rst:236
 msgid "CPU-based particles."
 msgstr ""
 
@@ -1511,7 +1519,8 @@ msgstr ""
 msgid "Path2D node to represent a path in 2D space."
 msgstr ""
 
-#: about/list_of_features.rst:116 ../../about/list_of_features.rst:289
+#: about/list_of_features.rst:116
+#: about/list_of_features.rst:289
 msgid "Can be drawn in the editor or generated procedurally."
 msgstr ""
 
@@ -1531,31 +1540,38 @@ msgstr ""
 msgid "2D physics"
 msgstr ""
 
-#: about/list_of_features.rst:125 ../../about/list_of_features.rst:298
+#: about/list_of_features.rst:125
+#: about/list_of_features.rst:298
 msgid "**Physics bodies:**"
 msgstr ""
 
-#: about/list_of_features.rst:127 ../../about/list_of_features.rst:300
+#: about/list_of_features.rst:127
+#: about/list_of_features.rst:300
 msgid "Static bodies."
 msgstr ""
 
-#: about/list_of_features.rst:128 ../../about/list_of_features.rst:301
+#: about/list_of_features.rst:128
+#: about/list_of_features.rst:301
 msgid "Rigid bodies."
 msgstr ""
 
-#: about/list_of_features.rst:129 ../../about/list_of_features.rst:302
+#: about/list_of_features.rst:129
+#: about/list_of_features.rst:302
 msgid "Kinematic bodies."
 msgstr ""
 
-#: about/list_of_features.rst:130 ../../about/list_of_features.rst:304
+#: about/list_of_features.rst:130
+#: about/list_of_features.rst:304
 msgid "Joints."
 msgstr ""
 
-#: about/list_of_features.rst:131 ../../about/list_of_features.rst:307
+#: about/list_of_features.rst:131
+#: about/list_of_features.rst:307
 msgid "Areas to detect bodies entering or leaving it."
 msgstr ""
 
-#: about/list_of_features.rst:133 ../../about/list_of_features.rst:309
+#: about/list_of_features.rst:133
+#: about/list_of_features.rst:309
 msgid "**Collision detection:**"
 msgstr ""
 
@@ -1988,7 +2004,8 @@ msgid ""
 "Generate one or several convex collision shapes for any mesh from the editor."
 msgstr ""
 
-#: about/list_of_features.rst:316 ../../tutorials/shaders/index.rst:2
+#: about/list_of_features.rst:316
+#: tutorials/shaders/index.rst:2
 msgid "Shaders"
 msgstr ""
 
@@ -2141,7 +2158,7 @@ msgstr ""
 msgid "Use any build system and language features you wish."
 msgstr ""
 
-#: about/list_of_features.rst:375 ../../tutorials/audio/index.rst:2
+#: about/list_of_features.rst:375 tutorials/audio/index.rst:2
 #: tutorials/export/exporting_for_web.rst:164
 msgid "Audio"
 msgstr ""
@@ -2322,7 +2339,8 @@ msgid ""
 "Gamepad, keyboard and mouse input support are also available on Android."
 msgstr ""
 
-#: about/list_of_features.rst:445 ../../tutorials/navigation/index.rst:2
+#: about/list_of_features.rst:445
+#: tutorials/navigation/index.rst:2
 msgid "Navigation"
 msgstr ""
 
@@ -2390,7 +2408,7 @@ msgid ""
 "server behind a NAT."
 msgstr ""
 
-#: about/list_of_features.rst:472 ../../tutorials/i18n/index.rst:2
+#: about/list_of_features.rst:472 tutorials/i18n/index.rst:2
 msgid "Internationalization"
 msgstr ""
 
@@ -3637,13 +3655,15 @@ msgstr ""
 #: development/engine/custom_servers.rst:5
 #: getting_started/introduction/index.rst:2
 #: tutorials/2d/2d_lights_and_shadows.rst:5
-#: tutorials/2d/2d_meshes.rst:5 ../../tutorials/2d/2d_movement.rst:5
+#: tutorials/2d/2d_meshes.rst:5
+#: tutorials/2d/2d_movement.rst:5
 #: tutorials/2d/2d_sprite_animation.rst:5
 #: tutorials/2d/2d_transforms.rst:5
 #: tutorials/2d/custom_drawing_in_2d.rst:5
 #: tutorials/2d/using_tilemaps.rst:5
 #: tutorials/3d/3d_rendering_limitations.rst:11
-#: tutorials/3d/baked_lightmaps.rst:5 ../../tutorials/3d/gi_probes.rst:5
+#: tutorials/3d/baked_lightmaps.rst:5
+#: tutorials/3d/gi_probes.rst:5
 #: tutorials/3d/high_dynamic_range.rst:5
 #: tutorials/3d/lights_and_shadows.rst:5
 #: tutorials/3d/portals/rooms_and_portals_example.rst:8
@@ -15806,7 +15826,7 @@ msgstr ""
 msgid "Variant class"
 msgstr ""
 
-#: development/engine/variant_class.rst:5 ../../index.rst:80
+#: development/engine/variant_class.rst:5 index.rst:80
 #: tutorials/inputs/mouse_and_input_coordinates.rst:5
 #: tutorials/scripting/gdscript/gdscript_advanced.rst:5
 msgid "About"
@@ -24958,7 +24978,8 @@ msgstr ""
 #: tutorials/io/binary_serialization_api.rst:469
 #: tutorials/io/binary_serialization_api.rst:482
 #: tutorials/io/binary_serialization_api.rst:497
-#: tutorials/io/data_paths.rst:43 ../../tutorials/io/data_paths.rst:71
+#: tutorials/io/data_paths.rst:43
+#: tutorials/io/data_paths.rst:71
 #: tutorials/plugins/editor/import_plugins.rst:244
 #: tutorials/shaders/converting_glsl_to_rebel_shaders.rst:96
 #: tutorials/shaders/converting_glsl_to_rebel_shaders.rst:169
@@ -25455,7 +25476,8 @@ msgid ""
 "information."
 msgstr ""
 
-#: tutorials/2d/index.rst:2 ../../tutorials/performance/index.rst:70
+#: tutorials/2d/index.rst:2
+#: tutorials/performance/index.rst:70
 msgid "2D"
 msgstr ""
 
@@ -28878,7 +28900,8 @@ msgid ""
 "information, see :doc:`environment_and_post_processing`."
 msgstr ""
 
-#: tutorials/3d/index.rst:2 ../../tutorials/performance/index.rst:79
+#: tutorials/3d/index.rst:2
+#: tutorials/performance/index.rst:79
 #: tutorials/platforms/mobile_rendering_limitations.rst:31
 msgid "3D"
 msgstr ""
@@ -37644,7 +37667,8 @@ msgstr ""
 
 #: tutorials/assets_pipeline/importing_scenes.rst:179
 #: tutorials/export/exporting_for_macos.rst:113
-#: tutorials/io/data_paths.rst:43 ../../tutorials/io/data_paths.rst:71
+#: tutorials/io/data_paths.rst:43
+#: tutorials/io/data_paths.rst:71
 msgid "Location"
 msgstr ""
 
@@ -54866,11 +54890,13 @@ msgstr ""
 msgid "On desktop platforms, the actual directory paths for ``user://`` are:"
 msgstr ""
 
-#: tutorials/io/data_paths.rst:45 ../../tutorials/io/data_paths.rst:73
+#: tutorials/io/data_paths.rst:45
+#: tutorials/io/data_paths.rst:73
 msgid "User data"
 msgstr ""
 
-#: tutorials/io/data_paths.rst:45 ../../tutorials/io/data_paths.rst:73
+#: tutorials/io/data_paths.rst:45
+#: tutorials/io/data_paths.rst:73
 msgid "Windows: ``%APPDATA%\\Rebel\\app_userdata\\[project_name]``"
 msgstr ""
 
@@ -54883,19 +54909,23 @@ msgstr ""
 msgid "Linux: ``~/.local/share/rebel/app_userdata/[project_name]``"
 msgstr ""
 
-#: tutorials/io/data_paths.rst:49 ../../tutorials/io/data_paths.rst:77
+#: tutorials/io/data_paths.rst:49
+#: tutorials/io/data_paths.rst:77
 msgid "User data (when ``use_custom_user_dir`` project setting is ``true``)"
 msgstr ""
 
-#: tutorials/io/data_paths.rst:49 ../../tutorials/io/data_paths.rst:77
+#: tutorials/io/data_paths.rst:49
+#: tutorials/io/data_paths.rst:77
 msgid "Windows: ``%APPDATA%\\[project_name]``"
 msgstr ""
 
-#: tutorials/io/data_paths.rst:50 ../../tutorials/io/data_paths.rst:78
+#: tutorials/io/data_paths.rst:50
+#: tutorials/io/data_paths.rst:78
 msgid "macOS: ``~/Library/Application Support/[project_name]``"
 msgstr ""
 
-#: tutorials/io/data_paths.rst:51 ../../tutorials/io/data_paths.rst:79
+#: tutorials/io/data_paths.rst:51
+#: tutorials/io/data_paths.rst:79
 msgid "Linux: ``~/.local/share/[project_name]``"
 msgstr ""
 
