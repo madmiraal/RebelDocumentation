@@ -1,0 +1,3616 @@
+# SPDX-FileCopyrightText: 2023 Rebel Documentation contributors
+# SPDX-FileCopyrightText: 2018-2023 Godot Documentation contributors
+#
+# SPDX-License-Identifier: CC-BY-4.0
+#
+# Spanish translation of the Rebel Documentation.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Rebel Documentation 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-04 08:09+0200\n"
+"PO-Revision-Date: 2023-08-06 10:10+0000\n"
+"Last-Translator: Braulio León Madrid Escobar "
+"<brauliomadrid.developer@gmail.com>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/rebel-toolbox/"
+"rebel-documentation/es/>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Weblate 5.0-dev\n"
+
+msgid "Complying with licenses"
+msgstr "Cumplir con las licencias"
+
+msgid "What are licenses?"
+msgstr "¿Qué son las licencias?"
+
+#, fuzzy
+msgid ""
+"Rebel Engine is created and distributed under the `MIT License <https://"
+"opensource.org/license/MIT>`__. It doesn't have a sole owner either, as "
+"every contributor that submits code to the project does it under this same "
+"license and keeps ownership of the contribution."
+msgstr ""
+"Rebel Engine es creado y distribuido bajo la `Licencia MIT <https://"
+"opensource.org/licenses/MIT>`_. No tiene un único propietario, ya que cada "
+"colaborador que envía código al proyecto lo hace bajo esta misma licencia y "
+"conserva la propiedad de la contribución."
+
+msgid ""
+"The license is the legal requirement for you (or your company) to use and "
+"distribute the software (and derivative projects, including games made with "
+"it). Your game or project can have a different license, but it still needs "
+"to comply with the original one."
+msgstr ""
+"La licencia es el requerimiento legal para ti (o tu compañía) para usar y "
+"distribuir el software (y proyectos derivados, incluyendo juegos hechos con "
+"el mismo). Tu juego o proyecto puede tener una licencia diferente, pero aún "
+"debe cumplir con la original."
+
+msgid ""
+"In your project's credits screen, remember to also list third-party notices "
+"for assets you're using, such as textures, models, sounds, music and fonts."
+msgstr ""
+"En la pantalla de créditos de su proyecto, recuerde incluir también avisos "
+"de terceros para los activos que está utilizando, como texturas, modelos, "
+"sonidos, música y fuentes."
+
+msgid ""
+"Free assets in particular often come with licenses that require attribution. "
+"Double-check their license before using those assets in a project."
+msgstr ""
+"Los activos gratuitos en particular a menudo vienen con licencias que "
+"requieren atribución. Verifique dos veces su licencia antes de usar esos "
+"recursos en un proyecto."
+
+msgid "Requirements"
+msgstr "Requerimientos"
+
+msgid ""
+"In the case of the MIT license, the only requirement is to include the "
+"license text somewhere in your game or derivative project."
+msgstr ""
+"En el caso de la licencia MIT, el único requisito es incluir el texto de la "
+"licencia en algún lugar de su juego o proyecto derivado."
+
+msgid "This text reads as follows:"
+msgstr "Este texto dice lo siguiente:"
+
+#, fuzzy
+msgid "MIT License"
+msgstr "Licencia"
+
+#, fuzzy
+msgid "Copyright (c) 2022 Rebel Toolbox"
+msgstr "Derechos de autor (c) 2002-2020 Lee Salzman"
+
+msgid ""
+"Permission is hereby granted, free of charge, to any person obtaining a copy "
+"of this software and associated documentation files (the \"Software\"), to "
+"deal in the Software without restriction, including without limitation the "
+"rights to use, copy, modify, merge, publish, distribute, sublicense, and/or "
+"sell copies of the Software, and to permit persons to whom the Software is "
+"furnished to do so, subject to the following conditions:"
+msgstr ""
+"Por la presente se otorga permiso, sin cargo, a cualquier persona que "
+"obtenga una copia de este software y los archivos de documentación asociados "
+"(el \"Software\"), para operar con el Software sin restricciones, "
+"incluyendo, entre otros, los derechos de uso, copia, modificación, fusión , "
+"publicar, distribuir, sublicenciar y / o vender copias del Software, y "
+"permitir que las personas a quienes se les proporcione el Software lo hagan, "
+"sujeto a las siguientes condiciones:"
+
+msgid ""
+"The above copyright notice and this permission notice shall be included in "
+"all copies or substantial portions of the Software."
+msgstr ""
+"El aviso de copyright anterior y este aviso de permiso se incluirán en todas "
+"las copias o partes sustanciales del Software."
+
+msgid ""
+"THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR "
+"IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, "
+"FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE "
+"AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER "
+"LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING "
+"FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS "
+"IN THE SOFTWARE."
+msgstr ""
+"EL SOFTWARE SE PROPORCIONA \"TAL CUAL\", SIN GARANTÍA DE NINGÚN TIPO, "
+"EXPRESA O IMPLÍCITA, INCLUYENDO, PERO NO LIMITADO A, LAS GARANTÍAS DE "
+"COMERCIABILIDAD, APTITUD PARA UN PROPÓSITO PARTICULAR Y NO INFRACCIÓN. EN "
+"NINGÚN CASO LOS AUTORES O TITULARES DE LOS DERECHOS DE AUTOR SERÁN "
+"RESPONSABLES DE CUALQUIER RECLAMO, DAÑOS U OTRA RESPONSABILIDAD, YA SEA EN "
+"UNA ACCIÓN DE CONTRATO, AGRAVIO O DE OTRO MODO, QUE SURJA DE, FUERA DE O EN "
+"RELACIÓN CON EL SOFTWARE O EL USO U OTRAS NEGOCIACIONES EN EL SOFTWARE."
+
+#, fuzzy
+msgid ""
+"Your games do not need to be under the same license. You are free to release "
+"your Rebel projects under any license and to create commercial games with "
+"the engine."
+msgstr ""
+"No es necesario que sus juegos estén bajo la misma licencia. Eres libre de "
+"publicar tus proyectos de Rebel bajo cualquier licencia y de crear juegos "
+"comerciales con el motor."
+
+msgid "Inclusion"
+msgstr "Inclusión"
+
+msgid ""
+"The license does not specify how it has to be included, so anything is valid "
+"as long as it can be displayed under some condition. These are the most "
+"common approaches (only need to implement one of them, not all)."
+msgstr ""
+"La licencia no especifica cómo debe incluirse, por lo que cualquier cosa es "
+"válida siempre que pueda mostrarse bajo alguna condición. Estos son los "
+"enfoques más comunes (solo es necesario implementar uno de ellos, no todos)."
+
+msgid "Credits screen"
+msgstr "Pantalla de créditos"
+
+msgid ""
+"Include the above license text somewhere in the credits screen. It can be at "
+"the bottom after showing the rest of the credits. Most large studios use "
+"this approach with open source licenses."
+msgstr ""
+"Incluya el texto de la licencia anterior en algún lugar de la pantalla de "
+"créditos. Puede estar en la parte inferior después de mostrar el resto de "
+"créditos. La mayoría de los grandes estudios utilizan este enfoque con "
+"licencias de código abierto."
+
+msgid "Licenses screen"
+msgstr "Pantalla de licencias"
+
+msgid ""
+"Some games have a special menu (often in the settings) to display licenses."
+msgstr ""
+"Algunos juegos tienen un menú especial (a menudo en la configuración) para "
+"mostrar las licencias."
+
+msgid "Output log"
+msgstr "Registro de salida"
+
+msgid ""
+"Just printing the licensing text using the :ref:`print() "
+"<class_@GDScript_method_print>` function may be enough on platforms where a "
+"global output log is readable. This is the case on desktop platforms, "
+"Android and HTML5 (but not iOS and UWP)."
+msgstr ""
+"Simplemente imprima el texto de la licencia con :ref:`print() "
+"<class_@GDScript_method_print>` La función puede ser suficiente en "
+"plataformas donde se puede leer un registro de salida global. Este es el "
+"caso de las plataformas de escritorio, Android y HTML5 (pero no iOS y UWP)."
+
+msgid "Accompanying file"
+msgstr "Archivo adjunto"
+
+msgid ""
+"If the game is distributed on desktop platforms, a file containing the "
+"license can be added to the software that is installed to the user PC."
+msgstr ""
+"Si el juego se distribuye en plataformas de escritorio, se puede agregar un "
+"archivo que contiene la licencia al software que está instalado en la PC del "
+"usuario."
+
+msgid "Printed manual"
+msgstr "Manual impreso"
+
+msgid ""
+"If the game includes printed manuals, license text can be included there."
+msgstr ""
+"Si el juego incluye manuales impresos, el texto de la licencia se puede "
+"incluir allí."
+
+msgid "Link to the license"
+msgstr "Vincular la(s) licencia(s)"
+
+#, fuzzy
+msgid ""
+"The Rebel Toolbox Contributors consider that a link to ``rebeltoolbox.com/"
+"license`` in your game documentation or credits would be an acceptable way "
+"to satisfy the license terms."
+msgstr ""
+"Los desarrolladores de Rebel Toolbox consideran que un enlace a "
+"``rebeltoolbox.com/license`` en la documentación o los créditos del juego "
+"sería una forma aceptable de cumplir con los términos de la licencia."
+
+msgid "Third-party licenses"
+msgstr "Licencias de terceros"
+
+#, fuzzy
+msgid ""
+"Rebel Engine contains software written by `third parties <https://github.com/"
+"RebelToolbox/RebelEngine/blob/main/copyright>`__. Most of it does not "
+"require license inclusion, but some do. Make sure to do it if these are "
+"compiled in your Rebel Engine export template. If you're using the official "
+"export templates, all libraries are enabled. This means you need to provide "
+"attribution for all the libraries listed below."
+msgstr ""
+"El propio Rebel Engine contiene software escrito por `terceros <https://"
+"github.com/RebelToolbox/RebelEngine/blob/main/copyright>` _. La mayor parte "
+"no requiere la inclusión de una licencia, pero algunos sí. Asegúrese de "
+"hacerlo si están compilados en su plantilla de exportación de Rebel Engine. "
+"Si está utilizando las plantillas de exportación oficiales, todas las "
+"bibliotecas están habilitadas. Esto significa que debe proporcionar "
+"atribución para todas las bibliotecas que se enumeran a continuación."
+
+msgid "Here's a list of libraries requiring attribution:"
+msgstr "Aquí hay una lista de bibliotecas que requieren atribución:"
+
+msgid "FreeType"
+msgstr "FreeType"
+
+#, fuzzy
+msgid ""
+"Rebel Engine uses `FreeType <https://freetype.org/>`__ to render fonts. Its "
+"license requires attribution, so the following text must be included "
+"together with the Rebel Toolbox license:"
+msgstr ""
+"Rebel Engine usa `FreeType <https://www.freetype.org/>` _ para renderizar "
+"fuentes. Su licencia requiere atribución, por lo que el siguiente texto debe "
+"incluirse junto con la licencia de Rebel Toolbox:"
+
+msgid ""
+"Portions of this software are copyright © <year> The FreeType Project "
+"(www.freetype.org).  All rights reserved."
+msgstr ""
+"Partes de este software tienen copyright © <año> The FreeType Project "
+"(www.freetype.org). Reservados todos los derechos."
+
+msgid ""
+"<year> should correspond to the value from the FreeType version used in your "
+"build. This information can be found in the editor by opening the **Help > "
+"About** dialog and going to the **Third-party Licenses** tab."
+msgstr ""
+"<año> debe corresponder al valor de la versión de FreeType utilizada en su "
+"compilación. Esta información puede encontrarse en el editor abriendo el "
+"cuadro de diálogo **Ayuda > Acerca de** y yendo a la pestaña **Licencias de "
+"terceros**."
+
+msgid "ENet"
+msgstr "ENet"
+
+#, fuzzy
+msgid ""
+"Rebel Engine uses the `ENet <http://enet.bespin.org/>`__ library to handle "
+"high-level multiplayer. ENet has similar licensing terms as Rebel Engine:"
+msgstr ""
+"Rebel Engine incluye la biblioteca `ENet <http://enet.bespin.org/>` _ para "
+"manejar multijugador de alto nivel. ENet tiene términos de licencia "
+"similares a los de Rebel Engine:"
+
+msgid "Copyright (c) 2002-2020 Lee Salzman"
+msgstr "Derechos de autor (c) 2002-2020 Lee Salzman"
+
+msgid "mbed TLS"
+msgstr "mbed TLS"
+
+#, fuzzy
+msgid ""
+"Rebel Engine uses `mbed TLS <https://www.trustedfirmware.org/projects/mbed-"
+"tls/>`__. The Apache license needs to be complied to by including the "
+"following text:"
+msgstr ""
+"Rebel Engine utiliza SSL (generalmente a través de solicitudes HTTP), la "
+"licencia `MBedTLS <https://tls.mbed.org>` -Apache debe cumplirse incluyendo "
+"el siguiente texto:"
+
+msgid "Copyright The Mbed TLS Contributors"
+msgstr "Derechos de autor Los colaboradores de Mbed TLS"
+
+msgid ""
+"Licensed under the Apache License, Version 2.0 (the \"License\"); you may "
+"not use this file except in compliance with the License. You may obtain a "
+"copy of the License at"
+msgstr ""
+"Con licencia de Apache License, Versión 2.0 (la \"Licencia\"); no puede "
+"utilizar este archivo excepto de conformidad con la Licencia. Puede obtener "
+"una copia de la licencia en"
+
+#, fuzzy
+msgid "https://www.apache.org/licenses/LICENSE-2.0"
+msgstr "http://www.apache.org/licenses/LICENSE-2.0"
+
+msgid ""
+"Unless required by applicable law or agreed to in writing, software "
+"distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT "
+"WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the "
+"License for the specific language governing permissions and limitations "
+"under the License."
+msgstr ""
+"A menos que lo exija la ley aplicable o se acuerde por escrito, el software "
+"distribuido bajo la Licencia se distribuye \"TAL CUAL\", SIN GARANTÍAS NI "
+"CONDICIONES DE NINGÚN TIPO, ya sea expresa o implícita. Consulte la Licencia "
+"para conocer el idioma específico que rige los permisos y las limitaciones "
+"de la Licencia."
+
+#, fuzzy
+msgid ""
+"If you exported your project using a :doc:`custom build with specific "
+"modules disabled </development/compiling/optimizing_for_size>`, you don't "
+"need to list the disabled modules' licenses in your exported project."
+msgstr ""
+"Si exportó su proyecto usando una :doc:`compilación personalizada con "
+"módulos específicos deshabilitados </development/compiling/"
+"optimizing_for_size>`, no necesita enumerar las licencias de los módulos "
+"deshabilitados en su proyecto exportado."
+
+msgid "FAQ"
+msgstr "Preguntas frecuentes"
+
+msgid "Frequently asked questions"
+msgstr "Preguntas Frecuentes"
+
+#, fuzzy
+msgid ""
+"What can I do with Rebel Toolbox? How much does it cost? What are the "
+"license terms?"
+msgstr ""
+"¿Qué puedo hacer con Rebel Toolbox? ¿Cuánto cuesta? ¿Dónde están los "
+"términos de licencia?"
+
+#, fuzzy
+msgid ""
+"Rebel Engine is `Free and Open-Source Software <https://en.wikipedia.org/"
+"wiki/Free_and_open-source_software>`__ available under the `OSI-approved "
+"<https://opensource.org/license/MIT>`__ MIT license. This means it is free "
+"as in \"free speech\" as well as in \"free beer.\""
+msgstr ""
+"Rebel Engine es `Software libre y de código abierto <https://"
+"es.wikipedia.org/wiki/Software_libre_y_de_c%C3%B3digo_abierto>`__ disponible "
+"bajo la licencia MIT `aprobada por la OSI <https://opensource.org/licenses/"
+"MIT>`__ Licencia MIT. Esto significa que es gratuito en el sentido de "
+"\"libertad de expresión\" así como en \"libre acceso.\""
+
+msgid "In short:"
+msgstr "En pocas palabras:"
+
+#, fuzzy
+msgid ""
+"You are free to download and use Rebel Engine for any purpose: personal, non-"
+"profit, commercial, or otherwise."
+msgstr ""
+"Eres libre de descargar y usar Rebel Engine para cualquier propósito: "
+"personal, sin ánimo de lucro, comercial o de otro tipo."
+
+#, fuzzy
+msgid ""
+"You are free to modify, distribute, redistribute, and remix Rebel Engine to "
+"your heart's content, for any reason, both non-commercially and commercially."
+msgstr ""
+"Eres libre de modificar, distribuir, redistribuir y mezclar Rebel Engine "
+"como quieras, por cualquier razón, ya sea no comercial o comercialmente."
+
+#, fuzzy
+msgid ""
+"All the contents of this accompanying documentation are published under the "
+"permissive Creative Commons Attribution 4.0 (`CC-BY 4.0 <https://"
+"creativecommons.org/licenses/by/4.0/>`__) license, with attribution to "
+"\"Rebel Toolbox Contributors\""
+msgstr ""
+"Todo el contenido de esta documentación adjunta se publica bajo la licencia "
+"permisiva Creative Commons Attribution 4.0 (`CC-BY 4.0 <https://"
+"creativecommons.org/licenses/by/4.0/>`_), con atribución a \"Rebel Toolbox "
+"Contributors\""
+
+#, fuzzy
+msgid ""
+"Logos and icons are generally under the same Creative Commons license. Note "
+"that some third-party libraries included with Rebel Engine's source code may "
+"have different licenses."
+msgstr ""
+"Los logos e iconos están generalmente bajo la misma licencia Creative "
+"Commons. Ten en cuenta que algunas librerías de terceros, incluídas en el "
+"código fuente de Rebel Engine, pueden tener licencias diferentes."
+
+#, fuzzy
+msgid ""
+"For full details, look at the `COPYRIGHT.txt <https://github.com/"
+"RebelToolbox/RebelEngine/blob/main/copyright>`__ and the `LICENSE <https://"
+"github.com/RebelToolbox/RebelEngine/blob/main/LICENSE>`__ files in the Rebel "
+"Engine repository."
+msgstr ""
+"Para más detalles, revisa los archivos `COPYRIGHT.txt <https://github.com/"
+"RebelToolbox/RebelEngine/blob/main/copyright>`__ al igual que `LICENSE.txt "
+"<https://github.com/RebelToolbox/RebelEngine/blob/main/LICENSE>`__ en el "
+"repositorio de Rebel Engine."
+
+#, fuzzy
+msgid ""
+"Also, see `the license page on the Rebel Toolbox website <https://"
+"rebeltoolbox.com/license>`__."
+msgstr ""
+"Mira también `la página de la licencia en el sitio web de Rebel Toolbox "
+"<https://rebeltoolbox.com/license>`_."
+
+#, fuzzy
+msgid "Which platforms are supported by Rebel Engine?"
+msgstr "¿Que plataformas soporta Rebel Engine?"
+
+msgid "**For the editor:**"
+msgstr "**Para el editor:**"
+
+msgid "Windows"
+msgstr "Windows"
+
+msgid "macOS"
+msgstr "macOS"
+
+msgid "X11 (Linux, \\*BSD)"
+msgstr "X11 (Linux, \\*BSD)"
+
+msgid "**For exporting your games:**"
+msgstr "**Para exportar tus juegos:**"
+
+msgid "Windows (and UWP)"
+msgstr "Windows (y UWP)"
+
+msgid "Android"
+msgstr "Android"
+
+msgid "iOS"
+msgstr "iOS"
+
+msgid "Web"
+msgstr "Web"
+
+msgid ""
+"Both 32- and 64-bit binaries are supported where it makes sense, with 64 "
+"being the default."
+msgstr ""
+"Ambos binarios (de 32 y 64 bits) son soportados para la ejecución en "
+"distintas arquitecturas, siendo la de 64 bits la predeterminada."
+
+#, fuzzy
+msgid ""
+"Some users also report building and using Rebel Engine successfully on ARM-"
+"based systems with Linux, like the Raspberry Pi."
+msgstr ""
+"Algunos usuarios también reportan haber compilado y usado Rebel Engine en "
+"sistemas basados en ARM con Linux, como la Raspberry Pi."
+
+msgid ""
+"Additionally, there is some unofficial third-party work being done on "
+"building for some consoles. However, none of this is included in the default "
+"build scripts or export templates at this time."
+msgstr ""
+"Además, hay algunos trabajos no oficiales de terceros que se están llevando "
+"a cabo para compilar en algunas consolas. Sin embargo, nada de esto está "
+"incluido en los scripts de compilación o en las plantillas de exportación "
+"por defecto en este momento."
+
+#, fuzzy
+msgid ""
+"For more on this, see the sections on :ref:`exporting <toc-learn-workflow-"
+"export>` and :ref:`compiling Rebel Engine yourself <toc-devel-compiling>`."
+msgstr ""
+"Para más información sobre este tema, consulta las secciones "
+"sobre :ref:`exportación <toc-learn-workflow-export>` y :ref:`compilación de "
+"Rebel Engine <toc-devel-compiling>`."
+
+#, fuzzy
+msgid "Which programming languages are supported in Rebel Engine?"
+msgstr "¿Qué lenguajes de programación están soportados en Rebel Engine?"
+
+#, fuzzy
+msgid ""
+"The officially supported languages for Rebel Engine are GDScript, Visual "
+"Scripting, C#, and C++. See the subcategories for each language in "
+"the :ref:`scripting <toc-learn-scripting>` section."
+msgstr ""
+"Los lenguajes soportados oficialmente por Rebel Engine son GDScript, Visual "
+"Scripting, C# y C++. Ve las subcategorías para cada lenguaje en la sección "
+"de :ref:`scripting <toc-learn-scripting>`."
+
+#, fuzzy
+msgid ""
+"If you are just starting out with either Rebel Engine or game development in "
+"general, GDScript is the recommended language to learn and use since it is "
+"native to Rebel Engine. While scripting languages tend to be less performant "
+"than lower-level languages in the long run, for prototyping, developing "
+"Minimum Viable Products (MVPs), and focusing on Time-To-Market (TTM), "
+"GDScript will provide a fast, friendly, and capable way of developing your "
+"games."
+msgstr ""
+"Si estás empezando con Rebel Engine o con el desarrollo de juegos en "
+"general, GDScript es el lenguaje recomendado para aprender y usar ya que es "
+"nativo de Rebel Engine. Mientras que los lenguajes de scripting tienden a "
+"ser menos eficientes que los lenguajes de bajo nivel a largo plazo, para la "
+"creación de prototipos, el desarrollo de Productos Mínimos Viables (MVPs) y "
+"el enfoque en el Plazo de Comercialización (TTM), GDScript proveerá de una "
+"manera rápida, amigable y capaz para el desarrollo de tus videojuegos."
+
+#, fuzzy
+msgid ""
+"Note that C# support is still relatively new, and as such, you may encounter "
+"some issues along the way. Our friendly and hard-working development "
+"community is always ready to tackle new problems as they arise, but since "
+"this is an open-source project, we recommend that you first do some due "
+"diligence yourself. Searching through discussions on `open issues <https://"
+"github.com/RebelToolbox/RebelEngine/issues>`__ is a great way to start your "
+"troubleshooting."
+msgstr ""
+"Hay que tener en cuenta que el soporte para C# todavía es relativamente "
+"nuevo y como tal, es posible que encuentres algunos inconvenientes en el "
+"camino. Nuestra amigable y trabajadora comunidad de desarrollo siempre está "
+"dispuesta a abordar nuevos problemas a medida que surjan, pero como se trata "
+"de un proyecto de código abierto, recomendamos que primero hagas tú mismo "
+"las comprobaciones necesarias. Buscar en las discusiones sobre `problemas "
+"abiertos <https://github.com/RebelToolbox/RebelEngine/issues>`__ es una "
+"buena manera de empezar a resolver problemas."
+
+msgid "What is GDScript and why should I use it?"
+msgstr "¿Qué es GDScript y por qué debería usarlo?"
+
+#, fuzzy
+msgid ""
+"GDScript is Rebel Engine's integrated scripting language. It was built from "
+"the ground up to maximize Rebel Engine's potential in the least amount of "
+"code, affording both novice and expert developers alike to capitalize on "
+"Rebel Engine's strengths as fast as possible. If you've ever written "
+"anything in a language like Python before then you'll feel right at home. "
+"For examples, history, and a complete overview of the power GDScript offers "
+"you, check out the :doc:`GDScript scripting guide </tutorials/scripting/"
+"gdscript/gdscript_basics>`."
+msgstr ""
+"GDScript es el lenguaje de scripts integrado en Rebel Engine. Fue creado "
+"desde cero para maximizar el potencial de Rebel Engine hasta la última "
+"porción de código, permitiendo a desarrolladores tanto expertos como novatos "
+"aprovechar las fortalezas de Rebel Engine tan rápido como sea posible. Si "
+"alguna vez has escrito algo en un lenguaje como Python, entonces te sentirás "
+"como en casa. Para ejemplos, la historia y un resumen completo del poder que "
+"GDScript te ofrece, revisa la :doc:`guía de scripting en GDScript </"
+"tutorials/scripting/gdscript/gdscript_basics>`."
+
+msgid ""
+"There are several reasons to use GDScript--especially when you are "
+"prototyping, in alpha/beta stages of your project, or are not creating the "
+"next AAA title--but the most salient reason is the overall **reduction of "
+"complexity**."
+msgstr ""
+"Hay varias razones para usar GDScript--especialmente cuando estás haciendo "
+"prototipos, versiones alfa/beta de tu proyecto, o no estás creando el "
+"próximo título AAA--pero la razón más sobresaliente es la **reducción de "
+"complejidad** en general."
+
+#, fuzzy
+msgid ""
+"The intent of a tightly integrated, custom scripting language for Rebel "
+"Engine is two-fold: first, it reduces the amount of time necessary to get up "
+"and running with Rebel Engine, giving developers a rapid way of exposing "
+"themselves to the engine with a focus on productivity; second, it reduces "
+"the overall burden of maintenance, attenuates the dimensionality of issues, "
+"and allows the developers of the engine to focus on squashing bugs and "
+"improving features related to the engine core--rather than spending a lot of "
+"time trying to get a small set of incremental features working across a "
+"large set of languages."
+msgstr ""
+"La intención original de crear un lenguaje de scripts estrechamente "
+"integrado para Rebel Engine tenía dos propósitos: primero, reduce la "
+"cantidad de tiempo necesaria para prepararse y arrancar con Rebel Engine, "
+"dando a los desarrolladores una manera rápida de exponerse al motor con un "
+"enfoque en la productividad; segundo, reduce la carga de mantenimiento en "
+"general, atenúa la dimensión de los problemas y permite a los "
+"desarrolladores enfocarse en deshacerse de bugs y mejorar características "
+"relacionadas al núcleo del motor, en vez se pasar un montón de tiempo "
+"tratando de hacer funcionar un pequeño conjunto de características "
+"incrementales a través de diferentes lenguajes."
+
+#, fuzzy
+msgid ""
+"Since Rebel Engine is an open-source project, it was imperative from the "
+"start to prioritize a more integrated and seamless experience over "
+"attracting additional users by supporting more familiar programming "
+"languages--especially when supporting those more familiar languages would "
+"result in a worse experience. We understand if you would rather use another "
+"language in Rebel Engine (see the list of supported options above). That "
+"being said, if you haven't given GDScript a try, try it for **three days**. "
+"Just like Rebel Engine, once you see how powerful it is and rapid your "
+"development becomes, we think GDScript will grow on you."
+msgstr ""
+"Dado que Rebel Engine es un proyecto de código abierto, era imperativo desde "
+"el principio priorizar una experiencia más integrada y sin fisuras por "
+"encima de la atracción de usuarios adicionales mediante el soporte de "
+"lenguajes de programación más familiares, especialmente cuando el soporte de "
+"esos lenguajes más familiares resultaría en una experiencia peor. Entendemos "
+"si prefieres usar otro lenguaje en Rebel Engine (ver lista de opciones "
+"soportadas arriba). Dicho esto, si no has probado GDScript, inténtalo "
+"durante **tres días**. Al igual que Rebel Engine, una vez que veas lo "
+"poderoso que es y lo rápido que se vuelve tu desarrollo, creemos que "
+"GDScript te gustará."
+
+#, fuzzy
+msgid ""
+"More information about getting comfortable with GDScript or dynamically "
+"typed languages can be found in the :doc:`/tutorials/scripting/gdscript/"
+"gdscript_advanced` tutorial."
+msgstr ""
+"Puedes encontrar más información sobre GDScript, y los lenguajes de tipo "
+"dinámico en general, en el tutorial :doc:`/tutorials/scripting/gdscript/"
+"gdscript_advanced`."
+
+msgid "What were the motivations behind creating GDScript?"
+msgstr "¿Cuáles son las motivaciones detrás de la creación de GDScript?"
+
+msgid ""
+"In the early days, the engine used the `Lua <https://www.lua.org>`__ "
+"scripting language. Lua is fast, but creating bindings to an object oriented "
+"system (by using fallbacks) was complex and slow and took an enormous amount "
+"of code. After some experiments with `Python <https://www.python.org>`__, it "
+"also proved difficult to embed."
+msgstr ""
+"En los primeros días, el motor utilizaba el lenguaje de scripting `Lua "
+"<https://www.lua.org>`__. Lua es rápido, pero crear enlaces a un sistema "
+"orientado a objetos (mediante el uso de retrocesos) fue complejo y lento y "
+"requirió una enorme cantidad de código. Después de algunos experimentos con "
+"`Python <https://www.python.org>`__, también resultó difícil de insertar."
+
+#, fuzzy
+msgid "The main reasons for a custom scripting language for Rebel Engine are:"
+msgstr ""
+"Las razones principales para crear un lenguaje de scripts personalizado para "
+"Rebel Engine fueron:"
+
+#, fuzzy
+msgid ""
+"Poor threading support in most script VMs, and Rebel Engine uses threads "
+"(Lua, Python, Squirrel, JavaScript, ActionScript, etc.)."
+msgstr ""
+"No hay buen soporte de hilos en la mayoría de las VMs, y Rebel Engine usa "
+"hilos (Lua, Python, Squirrel, JavaScript, ActionScript, etc.)."
+
+#, fuzzy
+msgid ""
+"Poor class-extending support in most script VMs, and adapting to the way "
+"Rebel Engine works is highly inefficient (Lua, Python, JavaScript)."
+msgstr ""
+"El bajo soporte para extensión de clases en la mayoria de las VMs de "
+"scripts, y adaptarlos a la forma en que Rebel Engine funciona es altamente "
+"ineficiente (Lua, Python, JavaScript)."
+
+msgid ""
+"Many existing languages have horrible interfaces for binding to C++, "
+"resulting in large amount of code, bugs, bottlenecks, and general "
+"inefficiency (Lua, Python, Squirrel, JavaScript, etc.) We wanted to focus on "
+"a great engine, not a great amount of integrations."
+msgstr ""
+"Muchos lenguajes existentes tienen interfaces horribles para enlazar a C++, "
+"lo que resulta en una gran cantidad de código, errores, cuellos de botella e "
+"ineficiencia general (Lua, Python, Squirrel, JS, etc.). Queríamos centrarnos "
+"en un gran motor, no en una gran cantidad de integraciones."
+
+msgid ""
+"No native vector types (vector3, matrix4, etc.), resulting in highly reduced "
+"performance when using custom types (Lua, Python, Squirrel, JavaScript, "
+"ActionScript, etc.)."
+msgstr ""
+"No hay tipos nativos para vectores (vector3, matrix4, etc.), lo que resulta "
+"en un desempeño bastante reducido al usar tipos personalizados (Lua, Python, "
+"Squirrel, JavaScript, ActionScript, etc.)."
+
+msgid ""
+"Garbage collector results in stalls or unnecessarily large memory usage "
+"(Lua, Python, JavaScript, ActionScript, etc.)."
+msgstr ""
+"El recolector de basura da como resultado paradas o un uso innecesariamente "
+"grande de memoria (Lua, Python, JS, AS, etc.)."
+
+msgid ""
+"Difficulty to integrate with the code editor for providing code completion, "
+"live editing, etc. (all of them). This is well-supported by GDScript."
+msgstr ""
+"Dificultad para integrarse con el editor de código para proporcionar "
+"completado de código, edición en vivo, etc. (todos ellos). Esto está muy "
+"bien soportado por GDScript."
+
+msgid "GDScript was designed to curtail the issues above, and more."
+msgstr "GDScript fue diseñado para acabar con los problemas anteriores y más."
+
+#, fuzzy
+msgid "What type of 3D model formats does Rebel Engine support?"
+msgstr "¿Qué tipo de formatos para modelos 3D soporta Rebel Engine?"
+
+#, fuzzy
+msgid ""
+"Rebel Engine supports Collada via the `OpenCollada <https://github.com/"
+"KhronosGroup/OpenCOLLADA/wiki/OpenCOLLADA-Tools>`__ exporter (Maya, 3DSMax). "
+"If you are using Blender, take a look at Godot's `Collada Exporter <https://"
+"github.com/godotengine/collada-exporter>`__."
+msgstr ""
+"Rebel Engine soporta Collada a través de `OpenCollada <https://github.com/"
+"KhronosGroup/OpenCOLLADA/wiki/OpenCOLLADA-Tools>`__ (Maya, 3DS Max). Si "
+"estás usando Blender, echa un vistazo a `Collada Exporter <https://"
+"github.com/godotengine/collada-exporter>`__ de Godot."
+
+#, fuzzy
+msgid "glTF is supported."
+msgstr "glTF es soportado."
+
+msgid ""
+"FBX is supported via the Open Asset Import library. However, FBX is "
+"proprietary so we recommend using other formats listed above, if suitable "
+"for your workflow."
+msgstr ""
+"FBX es compatible a través de la biblioteca Open Asset Import. Sin embargo, "
+"FBX es propietario, por lo que recomendamos utilizar otros formatos "
+"enumerados anteriormente, si son idóneos para su flujo de trabajo."
+
+#, fuzzy
+msgid ""
+"Will [insert closed SDK such as FMOD, GameWorks, etc.] be supported in Rebel "
+"Engine?"
+msgstr ""
+"¿Será [Inserte aquí un SDK cerrado como PhysX, GameWorks, etc.] soportado "
+"por Rebel Engine?"
+
+#, fuzzy
+msgid ""
+"The aim of Rebel Toolbox is to create a free and open-source MIT-licensed "
+"software that is modular and extendable. There are no plans for Rebel "
+"Toolbox to support any third-party, closed-source/proprietary SDKs, as "
+"integrating with these would go against Rebel Toolbox's ethos."
+msgstr ""
+"El objetivo de Rebel Toolbox es crear un motor con licencia MIT libre y de "
+"código abierto que sea modular y ampliable. No hay planes para que la "
+"comunidad central de desarrollo de motores admita ningún SDK de código "
+"cerrado/propietario de terceros, ya que la integración con ellos iría en "
+"contra del espíritu de Rebel Toolbox."
+
+#, fuzzy
+msgid ""
+"That said, because Rebel Engine is open-source and modular, nothing prevents "
+"you or anyone else interested in adding those libraries as a module and "
+"shipping your game with them--as either open- or closed-source."
+msgstr ""
+"Dicho esto, como Rebel Engine es de código abierto y modular, nada te impide "
+"a ti ni a nadie interesado en añadir esas bibliotecas como módulo y "
+"distribuir tu juego con ellas, ya sea como código abierto o como código "
+"cerrado."
+
+msgid ""
+"To see how support for your SDK of choice could still be provided, look at "
+"the Plugins question below."
+msgstr ""
+"Para ver cómo se puede seguir ofreciendo soporte para el SDK de tu elección, "
+"consulta la sección de Plugins a continuación."
+
+#, fuzzy
+msgid ""
+"If you know of a third-party SDK that is not supported by Rebel Engine but "
+"that offers free and open-source integration, consider starting the "
+"integration work yourself. Rebel Engine is not owned by one person; it "
+"belongs to the community, and it grows along with ambitious community "
+"contributors like you."
+msgstr ""
+"Si conoces algún SDK de terceros que no es soportado por Rebel Engine, pero "
+"que ofrece integración gratuita y de código abierto, considera iniciar el "
+"trabajo de integración por ti mismo. Rebel Engine no es propiedad de una "
+"persona; pertenece a la comunidad y crece junto con los contribuyentes "
+"ambiciosos de la comunidad, justo como vos."
+
+#, fuzzy
+msgid ""
+"How do I install the Rebel Engine on my system (for desktop integration)?"
+msgstr ""
+"¿Cómo instalo el Rebel Engine en mi sistema (para la integración de "
+"escritorio)?"
+
+msgid ""
+"Since you don't need to actually install Rebel Engine on your system to run "
+"it, this means desktop integration is not performed automatically. You can "
+"manually perform the steps that an installer would do for you:"
+msgstr ""
+
+#, fuzzy
+msgid ""
+"Move the Rebel Engine executable to a stable location (i.e. outside of your "
+"Downloads folder), so you don't accidentally move it and break the shortcut "
+"in the future."
+msgstr ""
+"Mueve el ejecutable de Rebel Engine a una ubicación estable (es decir, fuera "
+"de tu carpeta de descargas), para que no lo muevas accidentalmente y rompas "
+"el acceso directo en el futuro."
+
+#, fuzzy
+msgid "Right-click the Rebel Engine executable and choose **Create Shortcut**."
+msgstr ""
+"Haz click derecho sobre el archivo ejecutable de Rebel Engine y selecciona "
+"**Crear acceso directo**."
+
+#, fuzzy
+msgid ""
+"Move the created shortcut to ``%LOCALAPPDATA%\\Microsoft\\Windows\\Start "
+"Menu\\Programs``. This is the user-wide location for shortcuts that will "
+"appear in the Start menu. You can also pin Rebel Engine in the task bar by "
+"right-clicking the executable and choosing **Pin to Task Bar**."
+msgstr ""
+"Mueva el acceso directo creado a ``%LOCALAPPDATA%\\Microsoft\\Windows\\Start "
+"Menu\\Programs``. Esta es la ubicación de todo el usuario para los accesos "
+"directos que aparecerán en el menú Inicio. También puedes anclar a Rebel "
+"Engine en la barra de tareas haciendo clic con el botón derecho en el "
+"ejecutable y seleccionando **Anclar a la barra de tareas**."
+
+#, fuzzy
+msgid ""
+"Drag the extracted Rebel Engine application to ``/Applications/"
+"RebelEngine.app``, then drag it to the Dock if desired. Spotlight will be "
+"able to find Rebel Engine as long as it's in ``/Applications`` or ``~/"
+"Applications``."
+msgstr ""
+"Arrastra la aplicación Rebel Engine extraída a ``/Applications/"
+"RebelEngine.app``, luego arrástrala al Dock si lo deseas. Spotlight podrá "
+"encontrar a Rebel Engine siempre que esté en ``/Aplicaciones`` o ``~/"
+"Aplicaciones``."
+
+msgid "Linux"
+msgstr "Linux"
+
+#, fuzzy
+msgid ""
+"Move the Rebel Engine binary to a stable location (i.e. outside of your "
+"Downloads folder), so you don't accidentally move it and break the shortcut "
+"in the future."
+msgstr ""
+"Mueve el archivo ejecutable de Rebel Engine a una localización definitiva "
+"(por ejemplo fuera de tu directorio de descargas), de esta forma después "
+"nunca lo moverás accidentalmente y romperás los accesos directos en el "
+"futuro."
+
+#, fuzzy
+msgid ""
+"Rename and move the Rebel Engine binary to a location present in your "
+"``PATH`` environment variable. This is typically ``/usr/local/bin/rebel`` or "
+"``/usr/bin/rebel``. Doing this requires administrator privileges, but this "
+"also allows you to :doc:`run Rebel Engine from a terminal </tutorials/editor/"
+"command_line_tutorial>` by entering ``rebel``."
+msgstr ""
+"Renombra y mueve el binario de Rebel Engine a una ubicación presente en tu "
+"variable de entorno ``PATH``. Esto suele ser ``/usr/local/bin/rebel`` o ``/"
+"usr/bin/rebel``. Hacer esto requiere privilegios de administrador, pero "
+"también te permite :doc:`ejecutar el Rebel Engine desde una terminal </"
+"tutorials/editor/command_line_tutorial>` ingresando ``rebel``."
+
+#, fuzzy
+msgid ""
+"If you cannot move the Rebel Engine binary to a protected location, you can "
+"keep the binary somewhere in your home directory, and modify the ``Path=`` "
+"line in the ``.desktop`` file linked below to contain the full *absolute* "
+"path to the Rebel Engine binary."
+msgstr ""
+"Si no puede mover el binario del Rebel Engine a una ubicación protegida, "
+"puede mantener el binario en algún lugar de su directorio de inicio y "
+"modificar la línea ``Path=`` en el archivo ``.desktop`` vinculado a "
+"continuación para que contenga la *ruta absoluta* completa al binario de "
+"Rebel Engine."
+
+#, fuzzy
+msgid ""
+"Save `this .desktop file <https://github.com/RebelToolbox/RebelEngine/blob/"
+"main/tools/dist/linux/com.rebeltoolbox.rebelengine.desktop>`__ to "
+"``$HOME/.local/share/applications/``. If you have administrator privileges, "
+"you can also save the ``.desktop`` file to ``/usr/local/share/applications`` "
+"to make the shortcut available for all users."
+msgstr ""
+"Guarde `este archivo .desktop <https://github.com/RebelToolbox/RebelEngine/"
+"blob/main/tools/dist/linux/com.rebeltoolbox.rebelengine.desktop>`__ en "
+"``$HOME/.local/ compartir/aplicaciones/``. Si tiene privilegios de "
+"administrador, también puede guardar el archivo ``.desktop`` en ``/usr/local/"
+"share/applications`` para que el acceso directo esté disponible para todos "
+"los usuarios."
+
+#, fuzzy
+msgid "Is the Rebel Engine editor a portable application?"
+msgstr "¿El editor de Rebel Engine es una aplicación portátil?"
+
+#, fuzzy
+msgid ""
+"In its default configuration, Rebel Engine is *semi-portable*. Its "
+"executable can run from any location (including non-writable locations) and "
+"never requires administrator privileges."
+msgstr ""
+"En su configuración por defecto, Rebel Engine es *semi-portátil*. Su "
+"ejecutable puede ejecutarse desde cualquier ubicación (incluidas las "
+"ubicaciones en las que no se puede escribir) y nunca requiere privilegios de "
+"administrador."
+
+#, fuzzy
+msgid ""
+"However, configuration files will be written to the user-wide configuration "
+"or data directory. This is usually a good approach, but this means "
+"configuration files will not carry across machines if you copy the folder "
+"containing the Rebel Engine executable. See :doc:`/tutorials/io/data_paths` "
+"for more information."
+msgstr ""
+"Sin embargo, los archivos de configuración se escribirán en el directorio de "
+"datos o configuración de todo el usuario. Este suele ser un buen enfoque, "
+"pero esto significa que los archivos de configuración no se transferirán a "
+"través de las máquinas si copia la carpeta que contiene el ejecutable de "
+"Rebel Engine. Consulte :doc:`/tutorials/io/data_paths` para obtener más "
+"información."
+
+#, fuzzy
+msgid ""
+"If *true* portable operation is desired (e.g. for use on an USB stick), "
+"follow the steps in :ref:`tutorials/io/data_paths:self-contained mode`."
+msgstr ""
+"Si se desea una operación portátil *verdadera* (por ejemplo, para usar en "
+"una memoria USB), siga los pasos en :ref:`tutorials/io/data_paths:self-"
+"contained mode`."
+
+#, fuzzy
+msgid "Why does Rebel Engine use Vulkan or OpenGL instead of Direct3D?"
+msgstr "Por qué Rebel Engine usa Vulkan u OpenGL en vez de Direct3D?"
+
+#, fuzzy
+msgid ""
+"Rebel Toolbox aims for cross-platform compatibility and open standards first "
+"and foremost. OpenGL and Vulkan are the technologies that are both open and "
+"available (nearly) on all platforms. Thanks to this design decision, a "
+"project developed with Rebel Engine on Windows will run out of the box on "
+"Linux, macOS, and more."
+msgstr ""
+"Rebel Toolbox busca compatibilidad entre plataformas y estándares abiertos "
+"como primero y principal. OpenGL y Vulkan son las tecnologías, que, en "
+"simultáneo, son abiertas y se encuentran disponibles en (casi) todas las "
+"plataformas. Gracias a esta decisión de diseño, un proyecto desarrollado con "
+"Rebel Engine en Windows funcionará inmediatamente en Linux, macOS, y más."
+
+#, fuzzy
+msgid ""
+"Since Rebel Engine only has a few people working on its renderer, we would "
+"prefer having fewer rendering backends to maintain. On top of that, using a "
+"single API on all platforms allows for greater consistency with fewer "
+"platform-specific issues."
+msgstr ""
+"Dado que Rebel Engine solo cuenta con un pequeño grupo de personas "
+"trabajando en el renderer, preferiríamos tener la menor cantidad posible de "
+"backends de renderizado posible que mantener. Además, usando una única API "
+"para todas las plataformas permite una mayor consistencia con menos "
+"problemas específicos de plataforma."
+
+#, fuzzy
+msgid ""
+"In the long term, we may develop a Direct3D 12 renderer for Rebel Engine "
+"(mainly for the Xbox's purposes), but Vulkan and OpenGL will remain the "
+"default rendering backends on all platforms, including Windows."
+msgstr ""
+"A largo plazo, podríamos desarrollar un renderizador Direct3D 12 para Rebel "
+"Engine (principalmente para propósitos de la Xbox), pero Vulkan y OpenGL se "
+"mantendrán como los backends de renderizado por defecto en todas las "
+"plataformas, incluyendo Windows."
+
+#, fuzzy
+msgid "Why does Rebel Toolbox aim to keep its core feature set small?"
+msgstr ""
+"¿Por qué Rebel Toolbox tiene como objetivo mantener a baja escala sus "
+"caracteristicas principales?"
+
+#, fuzzy
+msgid ""
+"Rebel Toolbox intentionally does not include features that can be "
+"implemented by add-ons unless they are used very often. One example of this "
+"would be advanced artificial intelligence functionality."
+msgstr ""
+"Rebel Toolbox no incluye intencionadamente características que puedan ser "
+"implementadas por complementos, a menos que se utilicen muy a menudo. Un "
+"ejemplo de esto sería la funcionalidad de inteligencia artificial avanzada."
+
+msgid "There are several reasons for this:"
+msgstr "Hay varias razones para esto:"
+
+#, fuzzy
+msgid ""
+"**Code maintenance and surface for bugs.** Every time we accept new code in "
+"the Rebel Engine repository, existing contributors often take the "
+"responsibility of maintaining it. Some contributors don't always stick "
+"around after getting their code merged, which can make it difficult for us "
+"to maintain the code in question. This can lead to poorly maintained "
+"features with bugs that are never fixed. On top of that, the \"API surface\" "
+"that needs to be tested and checked for regressions keeps increasing over "
+"time."
+msgstr ""
+"**Mantenimiento de código y superficie para errores.** Cada vez que "
+"aceptamos nuevo código en el repositorio de Rebel Engine, los colaboradores "
+"existentes a menudo toman la reponsibilidad de mantenerlo. Algunos "
+"colaboradores no siempre se quedan después de combinar su código, lo que "
+"puede dificultar que mantengamos el código en cuestión. Esto puede conducir "
+"a características mal mantenidas con errores que nunca se corrigen. Además "
+"de eso, la \"superficie de la API\" que debe probarse y comprobarse en busca "
+"de regresiones sigue aumentando con el tiempo."
+
+#, fuzzy
+msgid ""
+"**Ease of contribution.** By keeping the codebase small and tidy, it can "
+"remain fast and easy to compile from source. This makes it easier for new "
+"contributors to get started with Rebel Engine development, without requiring "
+"them to purchase high-end hardware."
+msgstr ""
+"**Facilidad de contribución.** Al mantener la base de código pequeña y "
+"ordenada, puede permanecer rápido y fácil de compilar desde el origen. Esto "
+"hace que sea más fácil para los nuevos contribuidores comenzar con Rebel "
+"Engine, sin necesidad de que compren hardware de gama alta."
+
+#, fuzzy
+msgid ""
+"**Keeping the binary size small for the editor.** Not everyone has a fast "
+"Internet connection. Ensuring that everyone can download the Rebel Engine "
+"editor, extract it and run it in less than 5 minutes makes Rebel Engine more "
+"accessible to developers in all countries."
+msgstr ""
+"**Mantener pequeño el peso del ejecutable del editor.** No todos tienen una "
+"conexión a internet rapida. Asegurando que todos puedan descargar el editor "
+"de Rebel Engine, extraerlo y ejecutarlo en menos de 5 minutos hace a Rebel "
+"Engine mas accesible a desarrolladores en todos los países."
+
+#, fuzzy
+msgid ""
+"**Keeping the binary size small for export templates.** This directly "
+"impacts the size of projects exported with Rebel Engine. On mobile and web "
+"platforms, keeping file sizes low is primordial to ensure fast installation "
+"and loading on underpowered devices. Again, there are many countries where "
+"high-speed Internet is not readily available. To add to this, strict data "
+"usage caps are often in effect in those countries."
+msgstr ""
+"**Mantener el tamaño pequeño de las plantillas de exportación.** Esto "
+"impacta directamente al tamaño de los proyectos exportados con Rebel Engine. "
+"En los dispositivos moviles y plataformas web, mantener el tamaño pequeño de "
+"los archivos es primordial para garantizar una rapida instalación y tiempos "
+"de carga cortos en dispositivos poco potentes. De nuevo, hay muchos paises "
+"en los que no se dispone de internet de alta velocidad. Para añadir a esto, "
+"estrictos limites de bajada afectan a estos países."
+
+#, fuzzy
+msgid ""
+"For all the reasons above, we have to be selective of what we can accept as "
+"core functionality in Rebel Engine. This is why we are aiming to move some "
+"core functionality to officially supported add-ons in future versions of "
+"Rebel Engine. In terms of binary size, this also has the advantage of making "
+"you pay only for what you actually use in your project. (In the meantime, "
+"you can :doc:`compile custom export templates with unused features disabled "
+"</development/compiling/optimizing_for_size>` to optimize the distribution "
+"size of your project.)"
+msgstr ""
+"Por todas las razones anteriores, tenemos que ser selectivos con lo que "
+"podemos aceptar como funcionalidad central en Rebel Engine. Es por eso que "
+"nuestro objetivo es mover algunas funciones básicas a extensiones "
+"oficialmente soportados en futuras versiones de Rebel Engine. En términos de "
+"tamaño binario, también tiene la ventaja de hacer que pagues solamente por "
+"lo que en realidad usas en tu proyecto. (Por el momento, "
+"puedes :doc:`Compilar plantillas de exportación personalizadas con "
+"características sin usar desactivadas </development/compiling/"
+"optimizing_for_size>` para optimizar el tamaño de distribución de tu "
+"proyecto.)"
+
+msgid ""
+"How should assets be created to handle multiple resolutions and aspect "
+"ratios?"
+msgstr ""
+"¿Cómo deberían crearse los recursos para manejar múltiples resoluciones y "
+"relaciones de aspecto?"
+
+msgid ""
+"This question pops up often and it's probably thanks to the misunderstanding "
+"created by Apple when they originally doubled the resolution of their "
+"devices. It made people think that having the same assets in different "
+"resolutions was a good idea, so many continued towards that path. That "
+"originally worked to a point and only for Apple devices, but then several "
+"Android and Apple devices with different resolutions and aspect ratios were "
+"created, with a very wide range of sizes and DPIs."
+msgstr ""
+"Esta pregunta surge a menudo y es probablemente gracias al malentendido "
+"creado por Apple cuando ellos originalmente doblaron la resolución de sus "
+"dispositivos. Esto hizo creer a la gente que tener los mismos recursos en "
+"diferentes resoluciones era una buena idea, por lo tanto muchos siguieron "
+"ese camino. Eso originalmente funcionó hasta un punto y solo para "
+"dispositivos Apple, pero después, se crearon muchos dispositivos Android y "
+"Apple con diferentes resoluciones y relaciones de aspecto, con una gran "
+"variedad de tamaños y DPIs."
+
+msgid ""
+"The most common and proper way to achieve this is to, instead, use a single "
+"base resolution for the game and only handle different screen aspect ratios. "
+"This is mostly needed for 2D, as in 3D it's just a matter of Camera XFov or "
+"YFov."
+msgstr ""
+"La forma más común y correcta de conseguirlo es, en su lugar, utilizar una "
+"única resolución base para el juego y manejar únicamente diferentes "
+"relaciones de aspecto de pantalla. Esto es necesario sobre todo para 2D, ya "
+"que en 3D es sólo cuestión de usar la cámara XFov o YFov."
+
+msgid ""
+"Choose a single base resolution for your game. Even if there are devices "
+"that go up to 2K and devices that go down to 400p, regular hardware scaling "
+"in your device will take care of this at little or no performance cost. Most "
+"common choices are either near 1080p (1920x1080) or 720p (1280x720). Keep in "
+"mind the higher the resolution, the larger your assets, the more memory they "
+"will take and the longer the time it will take for loading."
+msgstr ""
+"Elige una única resolución base para tu juego. Incluso si hay dispositivos "
+"que llegan hasta los 2K y dispositivos que están por los 400p, el escalado "
+"regular del hardware del dispositivo se hará cargo de esto con un costo en "
+"el rendimiento bajo o nulo . Las elecciones más comunes son cercanas a 1080p "
+"(1920x1080) o 720p (1280x720). Ten en cuenta que cuánto mayor es la "
+"resolución, mayor será el tamaño de tus recursos, y esto a su vez aumenta el "
+"consumo de memoria y el tiempo de carga."
+
+#, fuzzy
+msgid ""
+"Use the stretch options in Rebel Engine; 2D stretching while keeping aspect "
+"ratios works best. Check the :doc:`/tutorials/rendering/"
+"multiple_resolutions` tutorial on how to achieve this."
+msgstr ""
+"Usa las opciones de estiramiento en Rebel Engine; el estiramiento en 2D "
+"funciona mejor si mantienes la relación de aspecto. Consulta el "
+"tutorial :doc:`/tutorials/rendering/multiple_resolutions` sobre cómo "
+"conseguir esto."
+
+#, fuzzy
+msgid ""
+"Determine a minimum resolution and then decide if you want your game to "
+"stretch vertically or horizontally for different aspect ratios, or if there "
+"is one aspect ratio and you want black bars to appear instead. This is also "
+"explained in :doc:`/tutorials/rendering/multiple_resolutions`."
+msgstr ""
+"Determina una resolución mínima y luego decide si quieres que tu juego se "
+"extienda vertical u horizontalmente para diferentes relaciones de aspecto, o "
+"si hay una relación de aspecto y quieres que aparezcan barras negras en su "
+"lugar. Esto también se explica en :doc:`/tutorials/rendering/"
+"multiple_resolutions`."
+
+#, fuzzy
+msgid ""
+"For user interfaces, use the :doc:`anchoring </tutorials/ui/"
+"size_and_anchors>` to determine where controls should stay and move. If UIs "
+"are more complex, consider learning about Containers."
+msgstr ""
+"Para las interfaces de usuario, utiliza el :doc:`anchoring </tutorials/ui/"
+"size_and_anchors>` para determinar hacia donde se deben quedar y mover los "
+"controles. Si las interfaces de usuario son más complejas, considera "
+"aprender sobre los Containers."
+
+msgid "And that's it! Your game should work in multiple resolutions."
+msgstr "Y eso es todo! Tu juego debería funcionar en múltiples resoluciones."
+
+msgid ""
+"If there is a desire to make your game also work on ancient devices with "
+"tiny screens (fewer than 300 pixels in width), you can use the export option "
+"to shrink images, and set that build to be used for certain screen sizes in "
+"the App Store or Google Play."
+msgstr ""
+"Si deseas que tu juego también funcione en dispositivos antiguos con "
+"pantallas muy pequeñas (menos de 300 píxeles de ancho), puedes usar la "
+"opción de exportar para reducir el tamaño de las imágenes y configurar esa "
+"compilación para que se use en determinados tamaños de pantalla en el App "
+"Store o en Google Play."
+
+#, fuzzy
+msgid "How can I extend Rebel Engine?"
+msgstr "¿Cómo puedo extender Rebel Engine?"
+
+#, fuzzy
+msgid ""
+"For extending Rebel Engine, like creating Rebel Editor plugins or adding "
+"support for additional languages, take a look at :doc:`EditorPlugins </"
+"tutorials/plugins/editor/making_plugins>` and tool scripts."
+msgstr ""
+"Para extender Rebel Engine, como crear plugins de Rebel Editor o añadir "
+"soporte para lenguajes adicionales, echa un vistazo a :doc:`EditorPlugins </"
+"tutorials/plugins/editor/making_plugins>` y tool scripts."
+
+#, fuzzy
+msgid ""
+"You can also take a look at the GDScript implementation and other the Rebel "
+"Engine modules. This would be a good starting point to see how another third-"
+"party library integrates with Rebel Engine."
+msgstr ""
+"También puedes echar un vistazo a la implementación de GDScript, los módulos "
+"de Rebel Engine. Este sería un buen punto de partida para ver cómo otra "
+"librería de terceros se integra con Rebel Engine."
+
+#, fuzzy
+msgid "When is the next release of Rebel Engine out?"
+msgstr "¿Cuándo sale la proxima versión de Rebel Engine?"
+
+#, fuzzy
+msgid "When it's ready! See :doc:`release_policy` for more information."
+msgstr "¡Cuando esté lista! Vea :doc:`release_policy` para más información."
+
+msgid "I would like to contribute! How can I get started?"
+msgstr "¡Me gustaría contribuir! ¿Por dónde empiezo?"
+
+#, fuzzy
+msgid ""
+"Awesome! As an open-source project, Rebel Engine thrives off of the "
+"innovation and ambition of developers like you."
+msgstr ""
+"¡Fantástico! Como proyecto de código abierto, Rebel Engine prospera con la "
+"innovación y ambición de desarrolladores como tú."
+
+#, fuzzy
+msgid ""
+"The first place to get started is in the `issues <https://github.com/"
+"RebelToolbox/RebelEngine/issues>`__. Find an issue that resonates with you, "
+"then proceed to the `How to Contribute <https://github.com/RebelToolbox/"
+"RebelEngine/blob/main/CONTRIBUTING.md>`__ guide to learn how to fork, "
+"modify, and submit a Pull Request (PR) with your changes."
+msgstr ""
+"El primer lugar para comenzar es el de `discusión <https://github.com/"
+"RebelToolbox/RebelEngine/issues>`_. Encuentra un problema que te suene "
+"familiar, entonces proceda a la guía de `Como contribuir <https://github.com/"
+"RebelToolbox/RebelEngine/blob/main/CONTRIBUTING.md>`__ la guía te enseña "
+"como hacer un “fork”, modificar y enviar un “Pull Request (PR)” con tus "
+"cambios."
+
+#, fuzzy
+msgid "I have a great idea for Rebel Engine. How can I share it?"
+msgstr "Tengo una idea genial para Rebel Engine. ¿Cómo puedo compartirla?"
+
+#, fuzzy
+msgid ""
+"It might be tempting to want to bring ideas to Rebel Engine, like ones that "
+"result in massive core changes, some sort of mimicry of what another game "
+"engine does, or alternative workflows that you'd like built into the editor. "
+"These are great, and we are thankful to have such motivated people want to "
+"contribute, but Rebel Engine's focus is and always will be the core "
+"functionality."
+msgstr ""
+"Puede ser tentador querer proponer ideas para Rebel Engine, como las que "
+"resultan en cambios masivos del núcleo, ideas como imitar lo que otro motor "
+"de juego hace, o flujos de trabajo que te gustaria implementar en el editor. "
+"Estas propuestas son fantásticas y estamos agradecidos de tener gente "
+"motivada en querer contribuir, pero el enfoque de Rebel Engine siempre será "
+"la funcionalidad del nucleo."
+
+#, fuzzy
+msgid ""
+"Most developers in the Rebel Toolbox community will be more interested to "
+"learn about things like:"
+msgstr ""
+"La mayor parte de los desarrolladores de la comunidad de Rebel Toolbox "
+"estarán más interesados en aprender sobre cosas como esta:"
+
+msgid ""
+"Your experience using the software and the problems you have (we care about "
+"this much more than ideas on how to improve it)."
+msgstr ""
+"Tu experiencia usando el software y los problemas que tengas (Nos importa "
+"mucho más, que las ideas de como mejorarlo)."
+
+msgid ""
+"The features you would like to see implemented because you need them for "
+"your project."
+msgstr ""
+"Las características que te gustarían ver implementadas porque las necesitas "
+"para tu proyecto."
+
+msgid ""
+"The concepts that were difficult to understand while learning the software."
+msgstr ""
+"Los conceptos que eran difíciles de entender mientras se aprendía el "
+"software."
+
+msgid "The parts of your workflow you would like to see optimized."
+msgstr "Las partes de tu flujo de trabajo que te gustaría ver optimizadas."
+
+msgid ""
+"Parts where you missed clear tutorials or where the documentation wasn't "
+"clear."
+msgstr ""
+"Partes donde no hay tutoriales claros o donde la documentación no estaba "
+"clara."
+
+#, fuzzy
+msgid ""
+"Please don't feel like your ideas for Rebel Toolbox are unwelcome. Instead, "
+"try to reformulate them as a problem first, so developers and the community "
+"have a functional foundation to ground your ideas on."
+msgstr ""
+"Por favor, no sientas que tus ideas sobre Rebel Toolbox no son bienvenidas. "
+"En su lugar, intenta reformularlas como un problema primero, así los "
+"desarrolladores y la comunidad tienen una base sobre cual discutir."
+
+msgid ""
+"A good way to approach sharing your ideas and problems with the community is "
+"as a set of user stories. Explain what you are trying to do, what behavior "
+"you expect to happen, and then what behavior actually happened. Framing "
+"problems and ideas this way will help the whole community stay focused on "
+"improving developer experiences as a whole."
+msgstr ""
+"Una buena manera de compartir tus ideas y problemas con la comunidad es como "
+"un conjunto de acciones de usuario. Explica qué intentas hacer, qué esperas "
+"que suceda, y también qué es lo que está ocurriendo realmente. Dividir las "
+"ideas y problemas de esta forma ayuda a toda la comunidad a estar más "
+"enfocada en mejorar las experiencias de los desarrolladores en general."
+
+msgid ""
+"Bonus points for bringing screenshots, concrete numbers, test cases, or "
+"example projects (if applicable)."
+msgstr ""
+"Puntos extras por traer capturas de pantallas, números concretos, casos de "
+"pruebas o proyectos de ejemplos (Si se aplica)."
+
+#, fuzzy
+msgid "Is it possible to use Rebel Engine to create non-game applications?"
+msgstr ""
+"Es posible usar Rebel Engine para ¿hacer aplicaciones que no son juegos?"
+
+#, fuzzy
+msgid ""
+"Yes! Reble Engine features an extensive built-in UI system, and its small "
+"distribution size can make it a suitable alternative to frameworks like "
+"Electron or Qt."
+msgstr ""
+"¡Si! Las características de Rebel Engine, el extenso sistema de UI embebido "
+"en el motor y el pequeño tamaño de la distribución de Rebel Engine puede "
+"hacer que sea una alternativa adecuada a los frameworks como Electrón o el "
+"Qt."
+
+msgid ""
+"When creating a non-game application, make sure to enable :ref:`low-"
+"processor mode <class_ProjectSettings_property_application/run/"
+"low_processor_mode>` in the Project Settings to decrease CPU and GPU usage."
+msgstr ""
+"Cuando crees una aplicación que no sea de juego, asegúrate de "
+"habilitarla :ref:`low-processor mode "
+"<class_ProjectSettings_property_application/run/low_processor_mode>` en la "
+"configuración del proyecto para reducir el uso de la CPU y la GPU."
+
+#, fuzzy
+msgid ""
+"That said, we wouldn't recommend using Rebel Engine to create a *mobile* "
+"application since low-processor mode isn't supported on mobile platforms yet."
+msgstr ""
+"Dicho esto, no recomendaríamos usar Rebel Engine para crear una aplicación "
+"\"móvil\" ya que el modo de bajo-procesamiento no está soportado en "
+"plataformas móviles aún."
+
+#, fuzzy
+msgid "Is it possible to use Rebel Engine as a library?"
+msgstr "Es posible usar Rebel Engine como biblioteca/librería?"
+
+#, fuzzy
+msgid ""
+"Rebel Engine is meant to be used with its editor. We recommend you give it a "
+"try, as it will most likely save you time in the long term. There are no "
+"plans to make Rebel Engine usable as a library, as it would make the rest of "
+"the engine more convoluted and difficult to use for casual users."
+msgstr ""
+"Rebel Engine está destinado a ser usado con su editor. Le recomendamos que "
+"lo pruebe, ya que probablemente le ahorrará tiempo a largo plazo. No hay "
+"planes para hacer que Rebel Engine sea utilizable como una biblioteca, ya "
+"que haría el resto del motor más enrevesado y difícil de usar para usuarios "
+"ocasionales."
+
+#, fuzzy
+msgid ""
+"If you want to use a rendering library, look into using an established "
+"rendering engine instead. Keep in mind rendering engines usually have "
+"smaller communities compared to Rebel Toolbox. This will make it more "
+"difficult to find answers to your questions."
+msgstr ""
+"Si quieres usar una biblioteca de renderizado, busca en su lugar un motor de "
+"renderizado orientado a ello. Ten en cuenta que los motores de renderizado "
+"suelen tener comunidades más pequeñas en comparación con Rebel Toolbox. Esto "
+"hará más difícil encontrar respuestas a tus preguntas."
+
+#, fuzzy
+msgid "What user interface toolkit does Rebel Engine use?"
+msgstr "¿Qué kit de herramientas para la interfaz de usuario usa Rebel Engine?"
+
+#, fuzzy
+msgid ""
+"Rebel Engine does not use a standard :abbr:`GUI (Graphical User Interface)` "
+"toolkit like GTK, Qt or wxWidgets. Instead, Rebel Engine uses its own user "
+"interface toolkit, rendered using OpenGL ES or Vulkan. This toolkit is "
+"exposed in the form of Control nodes, which are used to render the editor "
+"(which is written in C++). These Control nodes can also be used in projects "
+"from any scripting language supported by Rebel Engine."
+msgstr ""
+"Rebel Engine no utiliza un kit de herramientas :abbr:`GUI (Interfaz Gráfica "
+"de Usuario)` estándar como GTK, Qt o wxWidgets. En su lugar, Rebel Engine "
+"utiliza su propio kit de herramientas de interfaz de usuario, que se "
+"renderiza utilizando OpenGL ES o Vulkan. Este conjunto de herramientas se "
+"expone en forma de nodos de control, que se utilizan para renderizar el "
+"editor (que está escrito en C++). Estos nodos de control también pueden ser "
+"utilizados en proyectos de cualquier lenguaje de scripting soportado por "
+"Rebel Engine."
+
+#, fuzzy
+msgid ""
+"This custom toolkit makes it possible to benefit from hardware acceleration "
+"and have a consistent appearance across all platforms. On top of that, it "
+"doesn't have to deal with the LGPL licensing caveats that come with GTK or "
+"Qt. Lastly, this means Rebel Engine is \"eating its own dog food\" since the "
+"editor itself is one of the most complex users of Rebel Engine's UI system."
+msgstr ""
+"Este kit de herramientas personalizado permite beneficiarse de la "
+"aceleración por hardware y tener una apariencia consistente en todas las "
+"plataformas. Además, no tiene que lidiar con las advertencias de la licencia "
+"LGPL que vienen con GTK o Qt. Por último, esto significa que Rebel Engine se "
+"está \"comiendo su propia comida de perro\", ya que el propio editor es uno "
+"de los usuarios más complejos del sistema de interfaz de usuario de Rebel "
+"Engine."
+
+#, fuzzy
+msgid ""
+"This custom UI toolkit :ref:`can't be used as a library <about/faq:Is it "
+"possible to use Rebel Engine as a library?>`, but you can still :ref:`use "
+"Rebel Engine to create non-game applications by using the editor <about/"
+"faq:Is it possible to use Rebel Engine to create non-game applications?>`."
+msgstr ""
+"Este kit de herramientas de interfaz de usuario :ref:`can't be used as a "
+"library <about/faq:Is it possible to use Rebel Engine as a library?>`, pero "
+"sí puedes :ref:`utilizar Rebel Engine para crear aplicaciones que no son "
+"juegos mediante el uso del editor <about/faq:Is it possible to use Rebel "
+"Engine to create non-game applications?>`."
+
+#, fuzzy
+msgid "Why does Rebel Engine not use STL (Standard Template Library)?"
+msgstr "¿Por qué Rebel Engine no usa STL (Standard Template Library)?"
+
+#, fuzzy
+msgid ""
+"Like many other libraries (Qt as an example), Rebel Engine does not make use "
+"of STL. We believe STL is a great general purpose library, but we had "
+"special requirements for Rebel Engine."
+msgstr ""
+"Así como muchas otras librerías(Qt por ejemplo), Rebel Engine no hace uso de "
+"STL. Creemos que STL es una gran librería de propósito general, pero tuvimos "
+"requerimientos especiales para Rebel Engine."
+
+msgid ""
+"STL templates create very large symbols, which results in huge debug "
+"binaries. We use few templates with very short names instead."
+msgstr ""
+"Las plantillas STL crean símbolos muy grandes, lo que da como resultado, "
+"enormes binarios de depuración. En cambio, utilizamos pocas plantillas con "
+"nombres muy cortos en su lugar."
+
+msgid ""
+"Most of our containers cater to special needs, like Vector, which uses copy "
+"on write and we use to pass data around, or the RID system, which requires "
+"O(1) access time for performance. Likewise, our hash map implementations are "
+"designed to integrate seamlessly with internal engine types."
+msgstr ""
+"La mayoría de nuestros contenedores satisfacen necesidades especiales, como "
+"Vector, que usa copia en escritura y nosotros lo usamos para pasar datos, o "
+"el sistema RID, que requiere tiempo de acceso O (1) para el rendimiento. Del "
+"mismo modo, nuestras implementaciones de mapas hash están diseñadas para "
+"integrarse perfectamente con los tipos usados internamente por el motor."
+
+msgid ""
+"Our containers have memory tracking built-in, which helps better track "
+"memory usage."
+msgstr ""
+"Nuestros contenedores tienen seguimiento de memoria incorporado, lo que "
+"ayuda a rastrear mejor el uso de memoria."
+
+msgid ""
+"For large arrays, we use pooled memory, which can be mapped to either a "
+"preallocated buffer or virtual memory."
+msgstr ""
+"Para grandes arrays, usamos pooled memory, la cual puede ser mapeada "
+"directamente a un buffer prealocado o a memoria virtual."
+
+msgid ""
+"We use our custom String type, as the one provided by STL is too basic and "
+"lacks proper internationalization support."
+msgstr ""
+"Usamos nuestro propio tipo de String, puesto que el que provee STL es "
+"demasiado básico y carece de soporte para internacionalización."
+
+#, fuzzy
+msgid "Why does Rebel Engine not use exceptions?"
+msgstr "Por qué Rebel Engine no usa excepciones?"
+
+#, fuzzy
+msgid ""
+"We believe games should not crash, no matter what. If an unexpected "
+"situation happens, Rebel Engine will print an error (which can be traced "
+"even to script), but then it will try to recover as gracefully as possible "
+"and keep going."
+msgstr ""
+"Creemos que los juegos no deben fallar no importa la situación. Si una "
+"situación inesperada sucede, Rebel Engine mostrara un error (el cual puede "
+"incluso llevarte al script), pero seguidamente intentara recuperarse lo "
+"mejor posible y continuar en la medida de lo posible."
+
+msgid ""
+"Additionally, exceptions significantly increase binary size for the "
+"executable."
+msgstr ""
+"Adicionalmente, las excepciones aumentan significativamente el tamaño del "
+"ejecutable."
+
+#, fuzzy
+msgid "Why does Rebel Engine not enforce RTTI?"
+msgstr "¿Por qué Rebel Engine no impone RTTI?"
+
+#, fuzzy
+msgid ""
+"Rebel Engine provides its own type-casting system, which can optionally use "
+"RTTI internally. Disabling RTTI in Rebel Engine means considerably smaller "
+"binary sizes can be achieved, at a little performance cost."
+msgstr ""
+"Rebel Engine provee su propio sistema de casteo de tipos, el cual puede "
+"opcionalmente usar RTTI internamente. Deshabilitar RTTI en Rebel Engine "
+"significa que se pueden conseguir archivos binarios muchos más pequeños, con "
+"un pequeño coste en el rendimiento."
+
+#, fuzzy
+msgid ""
+"Why does Rebel Engine not force users to implement DoD (Data oriented "
+"Design)?"
+msgstr ""
+"¿Pro qué Rebel Engine no fuerza a los usuarios a implementar DoD (Diseño "
+"orientado a Datos)?"
+
+#, fuzzy
+msgid ""
+"While Rebel Engine internally for a lot of the heavy performance tasks "
+"attempts to use cache coherency as well as possible, we believe most users "
+"don't really need to be forced to use DoD practices."
+msgstr ""
+"Internamente, para muchas de las tareas de alto rendimiento, Rebel Engine "
+"intenta usar la coherencia de caché lo mejor posible, por lo que creemos que "
+"la mayoría de usuarios no necesitan usar prácticas DoD."
+
+msgid ""
+"DoD is mostly a cache coherency optimization that can only gain you "
+"significant performance improvements when dealing with dozens of thousands "
+"of objects (which are processed every frame with little modification). As "
+"in, if you are moving a few hundred sprites or enemies per frame, DoD won't "
+"help you, and you should consider a different approach to optimization."
+msgstr ""
+"DoD es principalmente una optimización de coherencia de caché que solo puede "
+"obtener mejoras significativas en el rendimiento cuando se trata de docenas "
+"de miles de objetos (que se procesan en cada cuadro con poca modificación). "
+"Como tal, si está moviendo unos cientos de sprites o enemigos por cuadro, "
+"DoD no lo ayudará y deberá considerar un enfoque diferente para la "
+"optimización."
+
+#, fuzzy
+msgid ""
+"The vast majority of games do not need this and Rebel Engine provides handy "
+"helpers to do the job for most cases when you do."
+msgstr ""
+"La gran mayoría de juegos no necesitan esto y Rebel Engine proporciona "
+"ayudas practicas para hacer el trabajo en la mayoría de los casos en que lo "
+"necesites."
+
+msgid ""
+"If a game that really needs to process such large amount of objects is "
+"needed, our recommendation is to use C++ and GDNative for the high "
+"performance parts and GDScript (or C#) for the rest of the game."
+msgstr ""
+"Si algún juego necesita procesar una cantidad realmente grande de objetos, "
+"nuestra recomendación es usar C++ y GDNative para las partes en las que se "
+"necesite alto rendimiento y GDScript (o C#) para el resto del juego."
+
+#, fuzzy
+msgid "How can I support Rebel Engine development or contribute?"
+msgstr "¿Cómo puedo apoyar el desarrollo de Rebel Engine o contribuir?"
+
+#, fuzzy
+msgid "See :doc:`/contributing/ways_to_contribute`."
+msgstr "Mira :doc:`/contributing/ways_to_contribute`."
+
+msgid "List of features"
+msgstr "Lista de características"
+
+#, fuzzy
+msgid ""
+"This page aims to list all features currently supported by Rebel Engine."
+msgstr ""
+"Esta pagina tiene como objetivo, enumerar las características actuales "
+"compatibles con Rebel Engine."
+
+#, fuzzy
+msgid "This page lists features supported by Rebel Engine."
+msgstr ""
+"Esta pagina tiene como objetivo, enumerar las características actuales "
+"compatibles con Rebel Engine."
+
+msgid "Features"
+msgstr "Características"
+
+msgid "Platforms"
+msgstr "Plataformas"
+
+msgid "**Can run both the editor and exported projects:**"
+msgstr "**Puede correr, tanto el editor como los proyectos exportados:**"
+
+msgid "Windows 7 and later (64-bit and 32-bit)."
+msgstr "Windows 7 y posteriores (64-bit y 32-bit)."
+
+msgid "macOS 10.12 and later (64-bit, x86 and ARM)."
+msgstr "macOS 10.12 y posteriores (64-bit, x86 y ARM)."
+
+msgid "Linux (64-bit and 32-bit, x86 and ARM)."
+msgstr "Linux (64 y 32 bits, x86 y ARM)."
+
+msgid ""
+"Binaries are statically linked and can run on any distribution if compiled "
+"on an old enough base distribution."
+msgstr ""
+"Los binarios están vinculados estáticamente y pueden ejecutarse en cualquier "
+"distribución si se compilan en una distribución base lo suficientemente "
+"antigua."
+
+msgid "Official binaries are compiled on Ubuntu 14.04."
+msgstr "Los binarios oficiales se compilan en Ubuntu 14.04."
+
+msgid "HTML5 via WebAssembly (Firefox, Chrome, Edge, Opera)."
+msgstr "HTML5 vía WebAssembly (Firefox, Chrome, Edge, Opera)."
+
+msgid "**Runs exported projects:**"
+msgstr "**Ejecutando proyectos exportados:**"
+
+msgid "Android 4.4 and later."
+msgstr "Android 4.4 y posterior."
+
+msgid "iOS 10.0 and later."
+msgstr "iOS 10.0 y posteriores."
+
+#, fuzzy
+msgid ":doc:`Consoles </tutorials/platforms/consoles>`."
+msgstr ":doc:`Consolas </tutorials/platforms/consoles>`."
+
+#, fuzzy
+msgid ""
+":doc:`Headless Linux and macOS servers </tutorials/export/"
+"exporting_for_dedicated_servers>`."
+msgstr ""
+":doc:`Servidores Linux y macOS sin cabeza (headless) </tutorials/export/"
+"exporting_for_dedicated_servers>`."
+
+#, fuzzy
+msgid ""
+"Rebel Engine aims to be as platform-independent as possible and can be "
+"ported to new platforms with relative ease."
+msgstr ""
+"Rebel Engine pretende ser la plataforma más independiente y que pueda migrar "
+"a otras plataformas con relativa facilidad."
+
+msgid "Editor"
+msgstr "Editor"
+
+msgid "**Features:**"
+msgstr "**Características:**"
+
+msgid "Scene tree editor."
+msgstr "Editor del Árbol de Escenas."
+
+msgid "Built-in script editor."
+msgstr "Editor de scripts integrado."
+
+#, fuzzy
+msgid ""
+"Support for :doc:`external script editors </tutorials/editor/"
+"external_editor>` such as Visual Studio Code or Vim."
+msgstr ""
+"Soporte para :doc:`editores externos de código </tutorials/editor/"
+"external_editor>` tal como Visual Studio Code o Vim."
+
+#, fuzzy
+msgid "GDScript :doc:`debugger </tutorials/scripting/debug/debugger_panel>`."
+msgstr "GDScript :doc:`depurador </tutorials/scripting/debug/debugger_panel>`."
+
+msgid "No support for debugging in threads yet."
+msgstr "Aún no se admite la depuración en subprocesos."
+
+msgid "Performance monitoring tools."
+msgstr "Herramientas de supervisión del rendimiento."
+
+msgid "Live script reloading."
+msgstr "Recarga de script en vivo."
+
+msgid "Live scene editing."
+msgstr "Edición de escenas en vivo."
+
+msgid ""
+"Changes will reflect in the editor and will be kept after closing the "
+"running project."
+msgstr ""
+"Los cambios se reflejarán en el editor y se mantendrán después de haber "
+"cerrado el proyecto en curso."
+
+msgid "Remote inspector."
+msgstr "Inspector remoto."
+
+msgid ""
+"Changes won't reflect in the editor and won't be kept after closing the "
+"running project."
+msgstr ""
+"Los cambios no se reflejarán en el editor y no se mantendrán después de "
+"cerrar el proyecto en ejecución."
+
+msgid "Live camera replication."
+msgstr "Réplica de la cámara en vivo."
+
+msgid "Move the in-editor camera and see the result in the running project."
+msgstr ""
+"Mueve la cámara en el editor y mira el resultado en el proyecto ejecutándose."
+
+msgid "Use the editor in dozens of languages contributed by the community."
+msgstr "Usa el editor en docenas de lenguajes contribuidos por la comunidad."
+
+msgid "**Plugins:**"
+msgstr "**Plugins:**"
+
+#, fuzzy
+msgid ""
+"Editor plugins are used to extend editor functionality. :doc:`Create your "
+"own plugins </tutorials/plugins/editor/making_plugins>` using GDScript to "
+"add new features or speed up your workflow."
+msgstr ""
+":doc:`Crea tus propios plugins </tutorials/plugins/editor/making_plugins>` "
+"usando GDScript para añadir nuevas características o acelerar tu flujo de "
+"trabajo."
+
+msgid "2D graphics"
+msgstr "Gráficos 2D"
+
+msgid "**Two renderers available:**"
+msgstr "**Dos renderizadores disponibles :**"
+
+msgid "OpenGL ES 3.0 renderer (uses OpenGL 3.3 on desktop platforms)."
+msgstr ""
+"Renderizador OpenGL ES 3.0 (usa OpenGL 3.3 en plataformas de escritorio)."
+
+msgid "High-end visuals. Recommended on desktop platforms."
+msgstr "Visuales de gama alta. Recomendadas en plataformas de escritorio."
+
+msgid "OpenGL ES 2.0 renderer (uses OpenGL 2.1 on desktop platforms)."
+msgstr ""
+"Renderizador OpenGL ES 2.0 (usa OpenGL 2.1 en plataformas de escritorio)."
+
+msgid "Recommended on mobile and Web platforms."
+msgstr "Recomendado en plataformas web y de móviles."
+
+msgid "Sprite, polygon and line rendering."
+msgstr "Renderización de sprites, polígonos y líneas."
+
+msgid ""
+"High-level tools to draw lines and polygons such as Polygon2D and Line2D."
+msgstr ""
+"Herramientas de gama alta para dibujar líneas y polígonos tales como "
+"Polygon2D y Line2D."
+
+msgid "AnimatedSprite as a helper for creating animated sprites."
+msgstr "AnimatedSprite como ayuda para crear sprites animados."
+
+msgid "Parallax layers."
+msgstr "Capas de parallax."
+
+msgid "Pseudo-3D support including preview in the editor."
+msgstr "Compatibilidad con pseudo-3D, incluida la vista previa en el editor."
+
+msgid "2D lighting with normal maps."
+msgstr "Iluminación 2D con mapas normales."
+
+msgid "Hard or soft shadows."
+msgstr "Sombras definidas o suaves."
+
+msgid ""
+"Font rendering using bitmaps (BitmapFont) or rasterization using FreeType "
+"(DynamicFont)."
+msgstr ""
+"Renderizado de fuentes usando mapas de bits (BitmapFont) o rasterización "
+"usando FreeType (DynamicFont)."
+
+msgid "Bitmap fonts can be exported using tools like BMFont."
+msgstr ""
+"Fuentes de Bitmap pueden ser exportadas usando herramientas como BMFont."
+
+#, fuzzy
+msgid ""
+"DynamicFont supports monochrome fonts as well as colored fonts (e.g. for "
+"emoji). Supported formats are TTF, OTF and WOFF1."
+msgstr ""
+"DynamicFont soporta fuentes monocromáticas así como fuentes de color (p. ej. "
+"para emoji). Los formatos soportados son TTF, OTF, WOFF1 y WOFF2."
+
+msgid ""
+"DynamicFont supports optional font outlines with adjustable width and color."
+msgstr ""
+"DynamicFont admite contornos de fuentes opcionales con ancho y color "
+"ajustables."
+
+msgid ""
+"Support for font oversampling to keep fonts sharp at higher resolutions."
+msgstr ""
+"Soporte para sobremuestreo de fuentes para mantener fuentes nítidas en "
+"resoluciones más altas."
+
+msgid "GPU-based particles with support for custom particle shaders."
+msgstr ""
+"Partículas basadas en GPU con soporte para sombreadores de partículas "
+"personalizados."
+
+msgid "CPU-based particles."
+msgstr "Partículas basadas en la CPU."
+
+msgid "2D tools"
+msgstr "Herramientas 2D"
+
+msgid "2D camera with built-in smoothing and drag margins."
+msgstr "Cámara 2D con suavizado integrado y márgenes de arrastre."
+
+msgid "Path2D node to represent a path in 2D space."
+msgstr "Nodo Path2D para representar una ruta en el espacio 2D."
+
+msgid "Can be drawn in the editor or generated procedurally."
+msgstr "Pueden ser dibujados en el editor o generados de forma procedural."
+
+msgid "PathFollow2D node to make nodes follow a Path2D."
+msgstr "Nodo PathFollow2D para hacer que los nodos sigan un Path2D."
+
+msgid "2D geometry helper class."
+msgstr "Clase auxiliar de geometría 2D."
+
+msgid "Line2D node to draw textured 2D lines."
+msgstr "Nodo Line2D para dibujar líneas 2D texturizadas."
+
+msgid "2D physics"
+msgstr "Físicas 2D"
+
+msgid "**Physics bodies:**"
+msgstr "**Cuerpos físicos:**"
+
+msgid "Static bodies."
+msgstr "Cuerpos estáticos."
+
+msgid "Rigid bodies."
+msgstr "Cuerpos rígidos."
+
+msgid "Kinematic bodies."
+msgstr "Cuerpos cinemáticos."
+
+msgid "Joints."
+msgstr "Articulaciones."
+
+msgid "Areas to detect bodies entering or leaving it."
+msgstr "Zonas para detectar cuerpos que entran o salen de él."
+
+msgid "**Collision detection:**"
+msgstr "**Detección de colisiones:**"
+
+msgid "Built-in shapes: line, box, circle, capsule."
+msgstr "Formas integradas: línea, caja, círculo, cápsula."
+
+msgid ""
+"Collision polygons (can be drawn manually or generated from a sprite in the "
+"editor)."
+msgstr ""
+"Polígonos de colisión (se pueden dibujar manualmente o generar desde un "
+"objeto en el editor)."
+
+msgid "3D graphics"
+msgstr "Gráficos 3D"
+
+msgid "Optional HDR rendering with sRGB (enabled by default)."
+msgstr ""
+"Renderizado HDR opcional con sRGB (habilitado de forma predeterminada)."
+
+msgid ""
+"Uses an optional depth prepass (enabled by default) to reduce the cost of "
+"overdraw, which speeds up complex scene rendering."
+msgstr ""
+"Utiliza un paso previo de profundidad opcional (habilitado de forma "
+"predeterminada) para reducir el costo de sobredibujado, lo que acelera la "
+"representación de escenas complejas."
+
+msgid "LDR rendering for greater compatibility."
+msgstr "Renderización LDR para una mayor compatibilidad."
+
+msgid ""
+"Not all features are available. Features available only when using the "
+"OpenGL ES 3.0 renderer are marked *GLES3* below."
+msgstr ""
+"No todas las funciones están disponibles. Las funciones disponibles solo "
+"cuando se usa el renderizador OpenGL ES 3.0 están marcadas con * GLES3 * a "
+"continuación."
+
+msgid "**Camera:**"
+msgstr "**Cámara:**"
+
+msgid "Perspective, orthographic and frustum-offset cameras."
+msgstr "Cámaras de perspectiva, ortográficas y offset troncocónicas."
+
+msgid "**Physically-based rendering (built-in material features):**"
+msgstr ""
+"** Renderización basada en física (características de materiales embebidas): "
+"**"
+
+msgid "Follows the Disney PBR model."
+msgstr "Sigue el modelo Disney PBR."
+
+msgid ""
+"Supports Lambert, Lambert Wrap (half-Lambert), Oren-Nayar and Toon diffuse "
+"shading modes."
+msgstr ""
+"Admite los modos de sombreado difuso Lambert, Lambert Wrap (medio Lambert), "
+"Oren-Nayar y Toon."
+
+msgid ""
+"Supports Schlick-GGX, Blinn, Phong, Toon and Disabled specular shading modes."
+msgstr ""
+"Admite los modos de sombreado especular Schlick-GGX, Blinn, Phong, Toon y "
+"Disabled."
+
+msgid "Uses a roughness-metallic workflow with support for ORM textures."
+msgstr ""
+"Utiliza un flujo de trabajo de rugosidad metálica con soporte para texturas "
+"ORM."
+
+msgid ""
+"Uses horizon specular occlusion (Filament model) to improve material "
+"appearance"
+msgstr ""
+"Utiliza la oclusión especular del horizonte (modelo de filamento) para "
+"mejorar la apariencia del material"
+
+msgid "Normal mapping."
+msgstr "Mapeo de normales."
+
+msgid "Detail mapping for the albedo and normal maps."
+msgstr "Mapeo detallado para los mapas de albedo y normales."
+
+msgid ""
+"Distance fade which can use alpha blending or dithering to avoid going "
+"through the transparent pipeline."
+msgstr ""
+"Desvanecimiento de distancia que puede usar mezcla alfa o difuminado para "
+"evitar pasar por la tubería transparente."
+
+msgid "Dithering can be determined on a per-pixel or per-object basis."
+msgstr "El difuminado se puede determinar por píxel o por objeto."
+
+msgid ""
+"*GLES3:* Parallax/relief mapping with automatic level of detail based on "
+"distance."
+msgstr ""
+"* GLES3: * Mapeo de paralaje / relieve con nivel automático de detalle "
+"basado en la distancia."
+
+msgid "*GLES3:* Sub-surface scattering and transmittance."
+msgstr "* GLES3: * Transmitancia y dispersión subsuperficial."
+
+#, fuzzy
+msgid ""
+"*GLES3:* Refraction with support for material roughness (resulting in blurry "
+"refraction). On GLES2, refraction is still functional but lacks support for "
+"material roughness."
+msgstr ""
+"*GLES3:* Refracción con soporte para la rugosidad del material (lo que "
+"resulta en una refracción borrosa). En GLES2, la refracción sigue siendo "
+"funcional pero carece de compatibilidad con la rugosidad del material."
+
+msgid "*GLES3:* Proximity fade (soft particles)."
+msgstr "* GLES3: * Desvanecimiento de proximidad (partículas suaves)."
+
+msgid "**Real-time lighting:**"
+msgstr "**Iluminación en tiempo real:**"
+
+msgid "Directional lights (sun/moon). Up to 4 per scene."
+msgstr "Luces direccionales (sol / luna). Hasta 4 por escena."
+
+msgid "Omnidirectional lights."
+msgstr "Luces omnidireccionales."
+
+msgid "Spot lights with adjustable cone angle and attenuation."
+msgstr "Focos con ángulo de cono ajustable y atenuación."
+
+msgid "Specular energy can be adjusted on a per-light basis."
+msgstr "La energía especular se puede ajustar en una base por luz."
+
+msgid ""
+"*GLES3:* Lighting is done with a single-pass forward approach. By default, "
+"up to 32 omni light and 32 spot lights can be displayed per mesh resource. "
+"If needed, this limit can be increased at the cost of increased shader "
+"compilation times and lower performance. GLES2 uses a multi-pass forward "
+"approach to lighting, which doesn't have a limit on the number of lights but "
+"is slower with many lights."
+msgstr ""
+"*GLES3:* la iluminación se realiza con una única pasada. Por defecto se "
+"pueden mostrar hasta 32 ohmios y 32 puntos de luz por recurso de malla. Si "
+"es necesario, este límite se puede incrementar, al coste de mayores tiempos "
+"de compilación de sombras y un rendimiento menor. GLES2 realiza múltiples "
+"pasadas para la iluminación, lo que permite tener un número ilimitado de "
+"puntos de luz, pero más lento con muchas de ellas."
+
+msgid "**Shadow mapping:**"
+msgstr "**Mapeo de sombras:**"
+
+msgid ""
+"*DirectionalLight:* Orthogonal (fastest), PSSM 2-split and 4-split. Supports "
+"blending between splits."
+msgstr ""
+"* DirectionalLight: * Ortogonal (más rápido), PSSM 2-split y 4-split. Admite "
+"la mezcla entre divisiones."
+
+msgid ""
+"*OmniLight:* Dual paraboloid (fast) or cubemap (slower but more accurate). "
+"Supports colored projector textures in the form of panoramas."
+msgstr ""
+"* OmniLight: * Paraboloide dual (rápido) o mapa de cubos (más lento pero más "
+"preciso). Admite texturas de proyector con colores en forma de panorámicas."
+
+msgid "*SpotLight:* Single texture."
+msgstr "*SpotLight:* Textura única."
+
+msgid "**Global illumination with indirect lighting:**"
+msgstr "** Iluminación global con iluminación indirecta: **"
+
+msgid "Baked lightmaps (fast, but can't be updated at run-time)."
+msgstr ""
+"Lightmaps horneados (rápidos, pero no se pueden actualizar en tiempo de "
+"ejecución)."
+
+msgid ""
+"Supports baking indirect light only or baking both direct and indirect "
+"lighting. The bake mode can be adjusted on a per-light basis to allow for "
+"hybrid light baking setups."
+msgstr ""
+"Admite el baking de iluminación indirecta unicamente o el baking de "
+"iluminación directa e indirecta. El modo de baking puede ajustarse por nivel "
+"de luz para permitir configuraciones híbridas de baking ligero."
+
+msgid ""
+"Supports lighting dynamic objects using an automatic octree-based system. No "
+"manual probe placement is required."
+msgstr ""
+"Soporta objetos dinámicos de iluminación usando un sistema automático basado "
+"en el árbol octal. No se requiere la colocación manual de la sonda."
+
+msgid "Lightmaps are baked on the CPU."
+msgstr "Los mapas de luz se hornean en la CPU."
+
+msgid "*GLES3:* GI probes (slower, semi-real-time). Supports reflections."
+msgstr ""
+"* GLES3: * Sondas GI (más lentas, en tiempo semi-real). Soporta reflejos."
+
+msgid "**Reflections:**"
+msgstr "**Reflexiones:**"
+
+msgid ""
+"Fast baked reflections or slow real-time reflections using ReflectionProbe. "
+"Parallax box correction can optionally be enabled."
+msgstr ""
+"Reflexiones rápidas precalculadas o reflexiones lentas en tiempo real usando "
+"ReflectionProbe. Opcionalmente, se puede habilitar la corrección de paralaje."
+
+msgid ""
+"Reflection techniques can be mixed together for greater accuracy or "
+"scalability."
+msgstr ""
+"Las técnicas de reflexión pueden mezclarse para obtener mayor precisión o "
+"escalabilidad."
+
+msgid "*GLES3:* Voxel-based reflections (when using GI probes)."
+msgstr ""
+"* GLES3: * Reflexiones basadas en vóxeles (cuando se utilizan sondas GI)."
+
+msgid "*GLES3:* Screen-space reflections."
+msgstr "* GLES3: * Reflexiones en el espacio de la pantalla."
+
+msgid "**Sky:**"
+msgstr "**Cielo:**"
+
+msgid "Panorama sky (using an HDRI)."
+msgstr "Cielo panorámico (usando un HDRI)."
+
+msgid "Procedural sky."
+msgstr "Cielo procedural."
+
+msgid "**Fog:**"
+msgstr "**Niebla:**"
+
+msgid "Depth fog with an adjustable attenuation curve."
+msgstr "Niebla de profundidad con curva de atenuación ajustable."
+
+msgid "Height fog (floor or ceiling) with adjustable attenuation."
+msgstr "Altura de niebla (suelo o techo) con atenuación regulable."
+
+msgid ""
+"Support for automatic depth fog color depending on the camera direction (to "
+"match the sun color)."
+msgstr ""
+"Soporte para color de niebla de profundidad automático dependiendo de la "
+"dirección de la cámara (para que coincida con el color del sol)."
+
+msgid "Optional transmittance to make lights more visible in the fog."
+msgstr "Transmitancia opcional para hacer las luces más visibles en la niebla."
+
+msgid "**Particles:**"
+msgstr "**Partículas:**"
+
+msgid "*GLES3:* GPU-based particles with support for custom particle shaders."
+msgstr ""
+"* GLES3: * Partículas basadas en GPU con soporte para sombreadores de "
+"partículas personalizados."
+
+msgid "**Post-processing:**"
+msgstr "**Postprocesamiento:**"
+
+msgid "Tonemapping (Linear, Reinhard, Filmic, ACES)."
+msgstr "Mapeo de tonos (Linear, Reinhard, Filmic, ACES)."
+
+msgid "*GLES3:* Automatic exposure adjustments based on viewport brightness."
+msgstr ""
+"*GLES3:* Ajustes de exposición automáticos basados en el brillo de la "
+"ventana gráfica."
+
+msgid "*GLES3:* Near and far depth of field."
+msgstr "*GLES3:* Profundidad de campo cercana y lejana."
+
+#, fuzzy
+msgid "*GLES3:* Screen-space ambient occlusion."
+msgstr "*GLES3:* Oclusión ambiental del espacio en pantalla (SSAO)."
+
+msgid ""
+"*GLES3:* Optional debanding to avoid color banding (effective when HDR "
+"rendering is enabled)."
+msgstr ""
+"*GLES3:* \"Debanding\" opcional para evitar las bandas de color (efectivo "
+"cuando se activa el renderizado HDR)."
+
+msgid ""
+"Glow/bloom with optional bicubic upscaling and several blend modes "
+"available: Screen, Soft Light, Add, Replace."
+msgstr ""
+"Brillo/floración con escalado bicúbico opcional y varios modos de "
+"combinación disponibles: Pantalla, Luz suave, Agregar, Reemplazar."
+
+msgid "Color correction using an one-dimensional ramp."
+msgstr "Corrección de color mediante rampa unidimensional."
+
+msgid "Brightness, contrast and saturation adjustments."
+msgstr "Ajustes de brillo, contraste y saturación."
+
+msgid "**Texture filtering:**"
+msgstr "**Filtrado de texturas:**"
+
+msgid "Nearest, bilinear, trilinear or anisotropic filtering."
+msgstr "Filtrado más cercano, bilineal, trilineal o anisotrópico."
+
+msgid "**Texture compression:**"
+msgstr "**Compresión de textura:**"
+
+msgid "Lossless or lossy WebP (does not save VRAM; only reduces storage size)."
+msgstr ""
+"WebP con o sin pérdida (no ahorra VRAM; sólo reduce el tamaño de "
+"almacenamiento)."
+
+msgid "S3TC (only supported on desktop platforms)."
+msgstr "S3TC (sólo compatible en plataformas de escritorio)."
+
+msgid "ETC1 (recommended when using the GLES2 renderer)."
+msgstr "ETC1 (recomendado cuando se utiliza el renderizador GLES2)."
+
+msgid "*GLES3:* BPTC for high-quality compression (not supported on macOS)."
+msgstr ""
+"*GLES3:* BPTC para compresión de alta calidad (no compatible con macOS)."
+
+msgid "*GLES3:* ETC2 (not supported on macOS)."
+msgstr "*GLES3:* ETC2 (no compatible con macOS)."
+
+msgid "**Anti-aliasing:**"
+msgstr "**Antialiasing:**"
+
+msgid "Multi-sample antialiasing (MSAA)."
+msgstr "Antialiasing de múltiples muestras (MSAA)."
+
+msgid "Fast approximate antialiasing (FXAA)."
+msgstr "Antialiasing aproximado rápido (FXAA)."
+
+msgid "**Performance:**"
+msgstr "**Rendimiento:**"
+
+#, fuzzy
+msgid ""
+"Occlusion culling with :doc:`rooms and portals </tutorials/3d/portals/"
+"index>`. Supports gameplay notifications with primary and secondary "
+"visibility to disable AI/physics processing for nodes that don't need it."
+msgstr ""
+"Occlusion culling con :doc:`salas y portales </tutorials/3d/portals/index>`. "
+"Es compatible con notificaciones de gameplay de visibilidad primaria y "
+"secundaria para deshabilitar la IA/cálculo físico para nodos que no los "
+"necesitan."
+
+#, fuzzy
+msgid ""
+"Real-time occluder spheres. Not as effective as rooms and portals (and "
+"doesn't support gameplay notifications), but easier to set up."
+msgstr ""
+"Formas ocluidas a tiempo real (esferas y polígonos). No tan efectivo como "
+"habitaciones y portales (tampoco soporta notificaciones en la jugabilidad), "
+"pero más sencillo de configurar."
+
+#, fuzzy
+msgid ""
+"Most of the effects listed above can be adjusted for better performance or "
+"to further improve quality. This can be helpful when using Rebel Engine for "
+"offline rendering."
+msgstr ""
+"La mayoría de estos efectos se pueden ajustar para un mejor rendimiento o "
+"para mejorar aún más la calidad. Esto puede ser útil cuando se usa Rebel "
+"Engine para Pre-Renderizado."
+
+msgid "3D tools"
+msgstr "Herramientas 3D"
+
+msgid "Built-in meshes: cube, cylinder/cone, (hemi)sphere, prism, plane, quad."
+msgstr ""
+"Mallas integradas: cubo, cilindro / cono, (hemi) esfera, prisma, plano, quad."
+
+#, fuzzy
+msgid ""
+"Tools for :doc:`procedural geometry generation </tutorials/3d/"
+"procedural_geometry/index>`."
+msgstr ""
+"Herramientas para :doc:`generación de geometría procedural </tutorials/3d/"
+"procedural_geometry/index>`."
+
+#, fuzzy
+msgid ""
+":doc:`Constructive solid geometry </tutorials/3d/csg_tools>` (intended for "
+"prototyping)."
+msgstr ""
+":doc:`Geometría sólida constructiva </tutorials/3d/csg_tools>` (destinado a "
+"la creación de prototipos)."
+
+msgid "Path3D node to represent a path in 3D space."
+msgstr "Nodo Path3D para representar una ruta en el espacio 3D."
+
+msgid "PathFollow3D node to make nodes follow a Path3D."
+msgstr "Nodo PathFollow3D para hacer que los nodos sigan un Path3D."
+
+msgid "3D geometry helper class."
+msgstr "Clase auxiliar de geometría 3D."
+
+msgid ""
+"Support for exporting the current scene as a glTF 2.0 file from the editor."
+msgstr ""
+"Soporte para exportar la escena actual como un archivo glTF 2.0 desde el "
+"editor."
+
+msgid "3D physics"
+msgstr "Física 3D"
+
+msgid "Vehicle bodies (intended for arcade physics, not simulation)."
+msgstr ""
+"Carrocerías de vehículos (destinadas a la física arcade, no a la simulación)."
+
+msgid "Soft bodies."
+msgstr "Cuerpos blandos."
+
+msgid "Ragdolls."
+msgstr "Ragdolls (Muñeca de trapo)."
+
+msgid "Built-in shapes: cuboid, sphere, capsule, cylinder."
+msgstr "Formas integradas: cuboide, esfera, cápsula, cilindro."
+
+msgid "Generate triangle collision shapes for any mesh from the editor."
+msgstr ""
+"Genere formas de colisión triangular para cualquier malla desde el editor."
+
+msgid ""
+"Generate one or several convex collision shapes for any mesh from the editor."
+msgstr ""
+"Genere una o varias formas de colisión convexas para cualquier malla desde "
+"el editor."
+
+msgid "Shaders"
+msgstr "Sombreadores"
+
+msgid "*2D:* Custom vertex, fragment, and light shaders."
+msgstr "*2D:* Vértices personalizados, fragmentos y sombreadores de luz."
+
+msgid "*3D:* Custom vertex, fragment, light, and sky shaders."
+msgstr "*3D:* Sombreadores personalizados de vértice, fragmento, luz y cielo."
+
+#, fuzzy
+msgid ""
+"Text-based shaders using a :doc:`shader language inspired by GLSL </"
+"tutorials/shaders/shader_reference/shading_language>`."
+msgstr ""
+"Sombreadores basados en texto que usan un :doc:`lenguaje de sombreado "
+"inspirado en GLSL </tutorials/shaders/shader_reference/shading_language>`."
+
+msgid "Visual shader editor."
+msgstr "Editor visual de shaders."
+
+msgid "Support for visual shader plugins."
+msgstr "Soporte para plugins de visual shader."
+
+msgid "Scripting"
+msgstr "Scripting"
+
+msgid "**General:**"
+msgstr "**General:**"
+
+msgid "Object-oriented design pattern with scripts extending nodes."
+msgstr ""
+"Patrón de diseño orientado a objetos con scripts que extienden los nodos."
+
+msgid "Signals and groups for communicating between scripts."
+msgstr "Señales y grupos para la comunicación entre scripts."
+
+#, fuzzy
+msgid ""
+"Support for :doc:`cross-language scripting </tutorials/scripting/"
+"cross_language_scripting>`."
+msgstr ""
+"Soporte para :doc:`scripting en varios idiomas </tutorials/scripting/"
+"cross_language_scripting>`."
+
+msgid ""
+"Many 2D and 3D linear algebra data types such as vectors and transforms."
+msgstr ""
+"Muchos tipos de datos de álgebra lineal 2D y 3D, como vectores y "
+"transformaciones."
+
+msgid ":ref:`GDScript: <toc-learn-scripting-gdscript>`"
+msgstr ":ref:`GDScript: <toc-learn-scripting-gdscript>`"
+
+#, fuzzy
+msgid ""
+":doc:`High-level interpreted language </tutorials/scripting/gdscript/"
+"gdscript_basics>` with :doc:`optional static typing </tutorials/scripting/"
+"gdscript/static_typing>`."
+msgstr ""
+":doc:`Lenguaje interpretado de alto nivel </tutorials/scripting/gdscript/"
+"gdscript_basics>` con :doc:`tipado estático opcional </tutorials/scripting/"
+"gdscript/static_typing>`."
+
+msgid "Syntax inspired by Python."
+msgstr "Sintaxis inspirada en Python."
+
+msgid "Syntax highlighting is provided on GitHub."
+msgstr "El resaltado de sintaxis se proporciona en GitHub."
+
+#, fuzzy
+msgid ""
+":doc:`Use threads </tutorials/performance/threads/using_multiple_threads>` "
+"to perform asynchronous actions or make use of multiple processor cores."
+msgstr ""
+":doc:`Use hilos </tutorials/performance/threads/using_multiple_threads>` "
+"para realizar acciones asincrónicas o hacer uso de múltiples núcleos de "
+"procesador."
+
+msgid ":ref:`C#: <toc-learn-scripting-C#>`"
+msgstr ":ref:`C #: <toc-learn-scripting-C#>`"
+
+msgid "Packaged in a separate binary to keep file sizes and dependencies down."
+msgstr ""
+"Empaquetado en un binario separado para mantener bajos los tamaños de "
+"archivo y las dependencias."
+
+msgid "Uses Mono 6.x."
+msgstr "Utiliza Mono 6.x."
+
+msgid "Full support for the C# 7.0 syntax and features."
+msgstr "Soporte completo para la sintaxis y características de C# 7.0."
+
+msgid "Supports all platforms."
+msgstr "Soporta todas las plataformas."
+
+msgid ""
+"Using an external editor is recommended to benefit from IDE functionality."
+msgstr ""
+"Se recomienda utilizar un editor externo para beneficiarse de la "
+"funcionalidad IDE."
+
+msgid ":ref:`VisualScript: <toc-learn-scripting-visual_script>`"
+msgstr ":ref:`VisualScript: <toc-learn-scripting-visual_script>`"
+
+#, fuzzy
+msgid ""
+":doc:`Graph-based visual scripting language </tutorials/scripting/"
+"visual_script/what_is_visual_scripting>`."
+msgstr ""
+":doc:`Lenguaje de scripting visual basado en gráficos </tutorials/scripting/"
+"visual_script/what_is_visual_scripting>`."
+
+msgid ""
+"Works best when used for specific purposes (such as level-specific logic) "
+"rather than as a language to create entire projects."
+msgstr ""
+"Funciona mejor cuando se usa para propósitos específicos (como lógica de "
+"nivel específico) en lugar de como un lenguaje para crear proyectos "
+"completos."
+
+#, fuzzy
+msgid ""
+"While Rebel Engine will keep VisualScript supported, we "
+"recommend :ref:`trying out GDScript <toc-learn-scripting-gdscript>` instead."
+msgstr ""
+"Aunque Rebel Engine mantendrá el soporte de VisualScript, "
+"recomendamos :ref:`que pruebes GDScript <toc-learn-scripting-gdscript>` en "
+"su lugar."
+
+msgid "**GDNative (C, C++, Rust, D, ...):**"
+msgstr "**GDNative (C, C ++, Rust, D, ...):**"
+
+msgid ""
+"When you need it, link to native libraries for higher performance and third-"
+"party integrations."
+msgstr ""
+"Cuando lo necesite, enlace a bibliotecas nativas para un mayor rendimiento e "
+"integraciones de terceros."
+
+msgid ""
+"For scripting game logic, GDScript or C# are recommended if their "
+"performance is suitable."
+msgstr ""
+"Para la lógica del juego de secuencias de comandos, se recomiendan GDScript "
+"o C # si su rendimiento es adecuado."
+
+msgid "Official bindings for C and C++."
+msgstr "Enlaces oficiales para C y C++."
+
+msgid "Use any build system and language features you wish."
+msgstr ""
+"Utilice cualquier sistema de compilación y funciones de idioma que desee."
+
+msgid "Audio"
+msgstr "Audio"
+
+msgid "Mono, stereo, 5.1 and 7.1 output."
+msgstr "Salida mono, estéreo, 5.1 y 7.1."
+
+msgid "Non-positional and positional playback in 2D and 3D."
+msgstr "Reproducción posicional y no posicional en 2D y 3D."
+
+msgid "Optional Doppler effect in 2D and 3D."
+msgstr "Effecto doppler 2D y 3D opcional."
+
+#, fuzzy
+msgid ""
+"Support for re-routable :doc:`audio buses </tutorials/audio/audio_buses>` "
+"and effects with dozens of effects included."
+msgstr ""
+"Soporte para redireccionamiento :doc:`audio buses </tutorials/audio/"
+"audio_buses>` y efectos con docenas de efectos incluidos."
+
+msgid ""
+"Listener2D and Listener3D nodes to listen from a position different than the "
+"camera."
+msgstr ""
+"Nodos Listener2D y Listener3D para escuchar desde una posición diferente a "
+"la cámara."
+
+msgid ""
+"Audio input to record microphones with real-time access using the "
+"AudioEffectCapture class."
+msgstr ""
+"Entrada de audio para grabar micrófonos con acceso en tiempo real usando la "
+"clase AudioEffectCapture."
+
+msgid "MIDI input."
+msgstr "Entrada MIDI."
+
+msgid "No support for MIDI output yet."
+msgstr "No hay soporte para salida MIDI todavía."
+
+msgid "**APIs used:**"
+msgstr "**APIs usadas:**"
+
+msgid "*Windows:* WASAPI."
+msgstr "*Windows:* WASAPI (API de Windows para la Gestión de Audio)."
+
+msgid "*macOS:* CoreAudio."
+msgstr "*macOS:* CoreAudio."
+
+msgid "*Linux:* PulseAudio or ALSA."
+msgstr "*Linux:* PulseAudio o ALSA."
+
+msgid "Import"
+msgstr "Importar"
+
+#, fuzzy
+msgid ""
+"Support for :doc:`custom import plugins </tutorials/plugins/editor/"
+"import_plugins>`."
+msgstr ""
+"Soporte para :doc:`plugins de importación personalizados </tutorials/plugins/"
+"editor/import_plugins>`."
+
+msgid "**Formats:**"
+msgstr "**Formatos:**"
+
+#, fuzzy
+msgid "*Images:* See :doc:`/tutorials/assets_pipeline/importing_images`."
+msgstr "*Imágenes:* Ver :doc:`/tutorials/assets_pipeline/importing_images`."
+
+msgid "*Audio:*"
+msgstr "*Audio:*"
+
+msgid "WAV with optional IMA-ADPCM compression."
+msgstr "WAV con compresión opcional IMA-ADPCM."
+
+msgid "Ogg Vorbis."
+msgstr "Ogg Vorbis."
+
+msgid "MP3."
+msgstr "MP3."
+
+msgid "*3D scenes:*"
+msgstr "*Escenas 3D:*"
+
+msgid "glTF 2.0 *(recommended)*."
+msgstr "glTF 2.0 *(recomendado)*."
+
+msgid "FBX (experimental, static meshes only)."
+msgstr "FBX (experimental, solo para mallas estáticas)."
+
+msgid "Collada (.dae)."
+msgstr "Collada (.dae)."
+
+msgid "Wavefront OBJ (static scenes only, can be loaded directly as a mesh)."
+msgstr ""
+"Wavefront OBJ (solo escenas estáticas, se pueden cargar directamente como "
+"una mesh)."
+
+msgid ""
+"3D meshes use `Mikktspace <http://www.mikktspace.com/>`__ to generate "
+"tangents on import, which ensures consistency with other 3D applications "
+"such as Blender."
+msgstr ""
+"Las mallas 3D usan `Mikktspace <http://www.mikktspace.com/>`__ para generar "
+"tangentes en la importación, lo que asegura la consistencia con otras "
+"aplicaciones 3D como Blender."
+
+msgid "Input"
+msgstr "Entrada"
+
+msgid ""
+"Input mapping system using hardcoded input events or remappable input "
+"actions."
+msgstr ""
+"Sistema de asignaciones de entrada usando eventos de entrada codificados o "
+"acciones de entrada reasignables."
+
+msgid ""
+"Axis values can be mapped to two different actions with a configurable "
+"deadzone."
+msgstr ""
+"Los valores del eje pueden ser asignados a dos acciones diferentes con una "
+"zona muerta configurable."
+
+msgid "Use the same code to support both keyboards and gamepads."
+msgstr ""
+"Usa el mismo código para soportar tanto los teclados como los gamepads."
+
+msgid "Keyboard input."
+msgstr "Entradas del teclado."
+
+msgid ""
+"Keys can be mapped in \"physical\" mode to be independent of the keyboard "
+"layout."
+msgstr ""
+"Las teclas pueden ser mapeadas en modo \"físico\" para ser independientes de "
+"la disposición del teclado."
+
+msgid "Mouse input."
+msgstr "Entradas del ratón."
+
+msgid ""
+"The mouse cursor can be visible, hidden, captured or confined within the "
+"window."
+msgstr ""
+"El cursor del ratón puede ser visible, oculto, capturado o confinado dentro "
+"de la ventana."
+
+msgid ""
+"When captured, raw input will be used on Windows and Linux to sidestep the "
+"OS' mouse acceleration settings."
+msgstr ""
+"Cuando se capture, la entrada en bruto se utilizará en Windows y Linux para "
+"eludir la configuración de la aceleración del ratón del sistema operativo."
+
+msgid "Gamepad input (up to 8 simultaneous controllers)."
+msgstr "Entrada de gamepad (hasta 8 controladores simultáneos)."
+
+msgid "Pen/tablet input with pressure support."
+msgstr "Entrada de lápiz/tableta con soporte de presión."
+
+msgid ""
+"Gamepad, keyboard and mouse input support are also available on Android."
+msgstr ""
+"el soporte de entrada para mando, teclado y ratón se encuentra también "
+"disponible en Android."
+
+msgid "Navigation"
+msgstr "Navegación"
+
+msgid "A* algorithm in 2D and 3D."
+msgstr "Algoritmo A estrella en 2D y 3D."
+
+#, fuzzy
+msgid "Navigation meshes."
+msgstr "NavigationMeshes"
+
+#, fuzzy
+msgid "Generate navigation meshes from the editor."
+msgstr ""
+"Genere formas de colisión triangular para cualquier malla desde el editor."
+
+msgid "Networking"
+msgstr "Redes"
+
+msgid "Low-level TCP networking using StreamPeer and TCP_Server."
+msgstr "Redes TCP de bajo nivel utilizando StreamPeer y TCP_Server."
+
+msgid "Low-level UDP networking using PacketPeer and UDPServer."
+msgstr "Redes UDP de bajo nivel usando PacketPeer y UDPServer."
+
+msgid "Low-level HTTP requests using HTTPClient."
+msgstr "Solicitudes HTTP de bajo nivel usando HTTPClient."
+
+msgid "High-level HTTP requests using HTTPRequest."
+msgstr "Solicitudes HTTP de alto nivel mediante HTTPRequest."
+
+msgid "Supports HTTPS out of the box using bundled certificates."
+msgstr ""
+"Soporta HTTPS listo para ser usado utilizando los certificados empaquetados."
+
+msgid "High-level multiplayer API using UDP and ENet."
+msgstr "API multijugador de alto nivel usando UDP y ENet."
+
+msgid "Automatic replication using remote procedure calls (RPCs)."
+msgstr "Replicación automática mediante llamadas a procedimiento remoto (RPC)."
+
+msgid "Supports unreliable, reliable and ordered transfers."
+msgstr "Admite transferencias ordenadas, confiables y no confiables."
+
+msgid "WebSocket client and server, available on all platforms."
+msgstr "Cliente y servidor WebSocket, disponible en todas las plataformas."
+
+msgid "WebRTC client and server, available on all platforms."
+msgstr "Cliente y servidor WebRTC, disponible en todas las plataformas."
+
+msgid ""
+"Support for UPnP to sidestep the requirement to forward ports when hosting a "
+"server behind a NAT."
+msgstr ""
+"Soporte para UPnP para eludir el requisito de reenviar puertos cuando se "
+"aloja un servidor detrás de una NAT."
+
+msgid "Internationalization"
+msgstr "Internacionalización"
+
+msgid "Full support for Unicode including emoji."
+msgstr "Soporte completo para Unicode, incluido emojis."
+
+#, fuzzy
+msgid ""
+"Store localization strings using :doc:`CSV </tutorials/i18n/"
+"internationalizing_games>` or :doc:`gettext </tutorials/i18n/"
+"localization_using_gettext>`."
+msgstr ""
+"Almacena las strings de localización usando :doc:`CSV </tutorials/i18n/"
+"internationalizing_games>` o :doc:`gettext </tutorials/i18n/"
+"localization_using_gettext>`."
+
+msgid ""
+"Use localized strings in your project automatically in GUI elements or by "
+"using the ``tr()`` function."
+msgstr ""
+"Utiliza cadenas localizadas en su proyecto automáticamente en elementos GUI "
+"o utilizando la función ``tr()``."
+
+msgid "Windowing and OS integration"
+msgstr "Integración de ventanas y sistemas operativos"
+
+msgid "Move, resize, minimize, and maximize the window spawned by the project."
+msgstr ""
+"Mover, redimensionar, minimizar y maximizar la ventana generada por el "
+"proyecto."
+
+msgid "Change the window title and icon."
+msgstr "Cambia el título y el icono de la ventana."
+
+msgid ""
+"Request attention (will cause the title bar to blink on most platforms)."
+msgstr ""
+"Solicita atención (hará que la barra de título parpadee en la mayoría de las "
+"plataformas)."
+
+msgid "Fullscreen mode."
+msgstr "Modo de pantalla completa."
+
+msgid ""
+"Doesn't use exclusive fullscreen, so the screen resolution can't be changed "
+"this way. Use a Viewport with a different resolution instead."
+msgstr ""
+"No utiliza en exclusiva la pantalla completa, por lo que la resolución de la "
+"pantalla no se puede cambiar de esta manera. Usa un Viewport con una "
+"resolución diferente en su lugar."
+
+msgid "Borderless window (fullscreen or non-fullscreen)."
+msgstr "Ventana sin bordes (a pantalla completa o no)."
+
+msgid "Ability to keep the window always on top."
+msgstr "Capacidad de mantener la ventana siempre en primer plano."
+
+msgid "Transparent window with per-pixel transparency."
+msgstr "Ventana transparente con transparencia por píxel."
+
+msgid "Global menu integration on macOS."
+msgstr "Integración del menú global en el macOS."
+
+msgid "Execute commands in a blocking or non-blocking manner."
+msgstr "Ejecutar los comandos de forma bloqueante o no bloqueante."
+
+msgid ""
+"Open file paths and URLs using default or custom protocol handlers (if "
+"registered on the system)."
+msgstr ""
+"Abrir rutas de archivos y URLs usando manejadores de protocolo "
+"predeterminados o personalizados (si están registrados en el sistema)."
+
+msgid "Parse custom command line arguments."
+msgstr "Analizar los argumentos de la línea de comandos personalizada."
+
+#, fuzzy
+msgid ""
+":doc:`Headless/server binaries </tutorials/export/"
+"exporting_for_dedicated_servers>` can be downloaded for Linux "
+"and :doc:`compiled for macOS </development/compiling/compiling_for_osx>`. "
+"Any binary can be used without a window using the ``--no-"
+"window`` :doc:`command line argument </tutorials/editor/"
+"command_line_tutorial>`."
+msgstr ""
+"Los binarios :doc:`Headless/servidor </tutorials/export/"
+"exporting_for_dedicated_servers>` pueden descargarse para Linux "
+"y :doc:`compilados para macOS </development/compiling/compiling_for_osx>`. "
+"Cualquier binario puede utilizarse sin ventana utilizando el argumento de "
+"línea de comandos ``--no-window`` :doc:`command line argument </tutorials/"
+"editor/command_line_tutorial>`."
+
+msgid "Mobile"
+msgstr "Móvil"
+
+msgid "In-app purchases on Android and iOS."
+msgstr "Compras In-app en Android e iOS."
+
+msgid "Support for advertisements using third-party modules."
+msgstr "Soporte para anuncios utilizando módulos de terceros."
+
+msgid "Support for subview embedding on Android."
+msgstr "Soporte para la incrustación de subvistas en Android."
+
+msgid "XR support (AR and VR)"
+msgstr "Soporte XR (AR y VR)"
+
+msgid "Support for ARKit on iOS out of the box."
+msgstr "Soporte para ARKit en iOS listo para usar."
+
+msgid "Support for the OpenXR APIs."
+msgstr "Soporte para las APIs de OpenXR."
+
+msgid ""
+"Includes support for popular headsets like the Meta Quest and the Valve "
+"Index."
+msgstr ""
+"Incluye soporte para auriculares populares como Meta Quest y Valve Index."
+
+msgid "Support for the OpenVR APIs."
+msgstr "Soporte para las APIs de OpenVR."
+
+msgid "GUI system"
+msgstr "Sistema GUI"
+
+#, fuzzy
+msgid ""
+"Rebel Engine's GUI is built using the same Control nodes used to make games "
+"in Rebel Engine. The editor UI can easily be extended in many ways using add-"
+"ons."
+msgstr ""
+"El GUI de Rebel Engine está construido usando los mismos nodos de control "
+"que se usan para hacer juegos en Rebel Engine. La interfaz de usuario del "
+"editor puede ser fácilmente ampliada de muchas maneras usando complementos."
+
+msgid "**Nodes:**"
+msgstr "**Nodos:**"
+
+msgid "Buttons."
+msgstr "Botones."
+
+msgid "Checkboxes, check buttons, radio buttons."
+msgstr "Casillas de cheque, botones de cheque, botones de selección."
+
+msgid "Text entry using LineEdit (single line) and TextEdit (multiple lines)."
+msgstr ""
+"Entrada de texto usando LineEdit (una sola línea) y TextEdit (múltiples "
+"líneas)."
+
+msgid "Dropdown menus using PopupMenu and OptionButton."
+msgstr "Menús desplegables usando PopupMenu y OptionButton."
+
+msgid "Scrollbars."
+msgstr "Barras de desplazamiento."
+
+msgid "Labels."
+msgstr "Etiquetas."
+
+#, fuzzy
+msgid ""
+"RichTextLabel for :doc:`text formatted using BBCode </tutorials/ui/"
+"bbcode_in_richtextlabel>`."
+msgstr ""
+"RichTextLabel para :doc:`texto formateado usando BBCode </tutorials/ui/"
+"bbcode_in_richtextlabel>`."
+
+msgid "Trees (can also be used to represent tables)."
+msgstr "Árboles (también pueden utilizarse para representar tablas)."
+
+msgid "Color picker with RGB and HSV modes."
+msgstr "Selector de color con modos RGB y HSV."
+
+msgid ""
+"Containers (horizontal, vertical, grid, flow, center, margin, aspect ratio, "
+"draggable splitter, ...)."
+msgstr ""
+"Contenedores (horizontal, vertical, cuadrícula, centro, margen, relación de "
+"aspecto, divisor arrastrable, ...)."
+
+msgid "Controls can be rotated and scaled."
+msgstr "Los controles se pueden rotar y escalar."
+
+msgid "**Sizing:**"
+msgstr "**Dimensionando:**"
+
+msgid "Anchors to keep GUI elements in a specific corner, edge or centered."
+msgstr ""
+"Anclas para mantener los elementos de la interfaz gráfica de usuario en una "
+"esquina específica, en un borde o en el centro."
+
+msgid "Containers to place GUI elements automatically following certain rules."
+msgstr ""
+"Contenedores para colocar elementos GUI automáticamente siguiendo ciertas "
+"reglas."
+
+msgid ":ref:`Stack <class_BoxContainer>` layouts."
+msgstr "Diseños :ref:`Stack <class_BoxContainer>`."
+
+msgid ":ref:`Grid <class_GridContainer>` layouts."
+msgstr "Diseños :ref:`Grid <class_GridContainer>`."
+
+msgid ""
+":ref:`Margin <class_MarginContainer>` and :ref:`centered "
+"<class_CenterContainer>` layouts."
+msgstr ""
+":ref:`Margen <class_MarginContainer>` y :ref:`centrado "
+"<class_CenterContainer>` planos."
+
+msgid ":ref:`Draggable splitter <class_SplitContainer>` layouts."
+msgstr ":ref:`Divisor arrastrable <class_SplitContainer>` planos."
+
+msgid ""
+"Scale to multiple resolutions using the ``2d`` or ``viewport`` stretch modes."
+msgstr ""
+"Escala a múltiples resoluciones usando los modos de estiramiento ``2d`` o "
+"``viewport``."
+
+msgid ""
+"Support any aspect ratio using anchors and the ``expand`` stretch aspect."
+msgstr ""
+"Soporta cualquier relación de aspecto usando anclajes y el aspecto de "
+"estiramiento \"expandir\"."
+
+msgid "**Theming:**"
+msgstr "**Temática:**"
+
+msgid "Built-in theme editor."
+msgstr "Editor de temas integrado."
+
+msgid "Generate a theme based on the current editor theme settings."
+msgstr "Generar un tema basado en la configuración actual del tema del editor."
+
+msgid "Procedural vector-based theming using :ref:`class_StyleBoxFlat`."
+msgstr ""
+"Procedimiento basado en la temática vectorial "
+"usando :ref:`class_StyleBoxFlat`."
+
+msgid ""
+"Supports rounded/beveled corners, drop shadows, per-border widths and "
+"antialiasing."
+msgstr ""
+"Soporta esquinas redondeadas/biseladas, sombras de caída, anchos por borde y "
+"antialiasing."
+
+msgid "Texture-based theming using :ref:`class_StyleBoxTexture`."
+msgstr "Temas basados en texturas usando :ref:`class_StyleBoxTexture`."
+
+#, fuzzy
+msgid ""
+"Rebel Engine's small distribution size can make it a suitable alternative to "
+"frameworks like Electron or Qt."
+msgstr ""
+"El pequeño tamaño de la distribución de Rebel Engine puede hacer que sea una "
+"alternativa adecuada a los marcos como Electrón o el Qt."
+
+msgid "Animation"
+msgstr "Animación"
+
+msgid "Direct kinematics and inverse kinematics."
+msgstr "Cinemática directa y cinemática inversa."
+
+msgid ""
+":ref:`Tween <class_Tween>` node to easily perform procedural animations by "
+"code."
+msgstr ""
+":ref:`Tween <class_Tween>` nodo para realizar fácilmente animaciones de "
+"procedimiento por código."
+
+msgid "Support for animating any property with customizable interpolation."
+msgstr ""
+"Soporte para animar cualquier propiedad con interpolación personalizable."
+
+msgid "Support for calling methods in animation tracks."
+msgstr "Soporte a los métodos de llamada en las pistas de animación."
+
+msgid "Support for playing sounds in animation tracks."
+msgstr "Soporte para reproducir sonidos en las pistas de animación."
+
+msgid "Support for Bézier curves in animation."
+msgstr "Soporte para las curvas de Bézier en la animación."
+
+msgid "File formats"
+msgstr "Formato de archivo"
+
+#, fuzzy
+msgid ""
+"Scenes and resources can be saved in :doc:`text-based </development/"
+"file_formats/tscn>` or binary formats."
+msgstr ""
+"Las escenas y los recursos pueden ser guardados en :doc:`basado en texto </"
+"development/file_formats/tscn>` o formatos binarios."
+
+msgid ""
+"Text-based formats are human-readable and more friendly to version control."
+msgstr ""
+"Los formatos basados en texto son legibles para los humanos y más amigables "
+"para el control de versiones."
+
+msgid "Binary formats are faster to save/load for large scenes/resources."
+msgstr ""
+"Los formatos binarios son más rápidos de guardar/cargar para grandes escenas/"
+"recursos."
+
+msgid "Read and write text or binary files using :ref:`class_File`."
+msgstr "Leer y escribir archivos de texto o binarios usando :ref:`class_File`."
+
+msgid "Can optionally be compressed or encrypted."
+msgstr "Opcionalmente puede ser comprimido o encriptado."
+
+msgid "Read and write :ref:`class_JSON` files."
+msgstr "Lee y escribe :ref:`class_JSON` archivos."
+
+msgid ""
+"Read and write INI-style configuration files using :ref:`class_ConfigFile`."
+msgstr ""
+"Lee y escribe archivos de configuración de estilo INI "
+"usando :ref:`class_ConfigFile`."
+
+#, fuzzy
+msgid ""
+"Can (de)serialize any Rebel Engine datatype, including Vector2/3, Color, ..."
+msgstr ""
+"Puede (des)serializar cualquier tipo de datos Rebel Engine, incluyendo "
+"Vector2/3, Color, ..."
+
+msgid "Read XML files using :ref:`class_XMLParser`."
+msgstr "Lee los archivos XML usando :ref:`class_XMLParser`."
+
+msgid ""
+"Pack game data into a PCK file (custom format optimized for fast seeking), "
+"into a ZIP archive, or directly into the executable for single-file "
+"distribution."
+msgstr ""
+"Empaqueta los datos del juego en un archivo PCK (formato personalizado "
+"optimizado para una búsqueda rápida), en un archivo ZIP o directamente en el "
+"ejecutable para su distribución en un solo archivo."
+
+#, fuzzy
+msgid ""
+":doc:`Export additional PCK files</tutorials/export/exporting_pcks>` that "
+"can be read by the engine to support mods and DLCs."
+msgstr ""
+":doc:`Exportar archivos PCK adicionales</tutorials/export/exporting_pcks>` "
+"que pueden ser leídos por el motor para soportar mods y DLCs."
+
+msgid "Miscellaneous"
+msgstr "Misceláneas"
+
+#, fuzzy
+msgid ""
+":doc:`Low-level access to servers </tutorials/performance/using_servers>` "
+"which allows bypassing the scene tree's overhead when needed."
+msgstr ""
+":doc:`Acceso de bajo nivel a los servidores </tutorials/performance/"
+"using_servers>` que permite evitar la sobrecarga del árbol de la escena "
+"cuando sea necesario."
+
+#, fuzzy
+msgid ""
+":doc:`Command line interface </tutorials/editor/command_line_tutorial>` for "
+"automation."
+msgstr ""
+":doc:`La interfaz de la línea de comandos </tutorials/editor/"
+"command_line_tutorial>` para automatización."
+
+msgid "Export and deploy projects using continuous integration platforms."
+msgstr ""
+"Exportar y desplegar proyectos utilizando plataformas de integración "
+"continua."
+
+#, fuzzy
+msgid ""
+"`Shell completion scripts <https://github.com/RebelToolbox/RebelEngine/tree/"
+"main/tools/dist/shell>`__ are available for Bash, zsh and fish."
+msgstr ""
+"`Scripts de completado <https://github.com/RebelToolbox/RebelEngine/tree/"
+"main/tools/dist/shell>`__ está disponible para Bash, zsh y fish."
+
+#, fuzzy
+msgid ""
+"Support for :doc:`C++ modules </development/engine/custom_modules_in_cpp>` "
+"statically linked into the engine binary."
+msgstr ""
+"Soporte para :doc:`modulos C++ </development/engine/custom_modules_in_cpp>` "
+"enlazados estáticamente al binario del motor."
+
+msgid "Engine and editor written in C++03."
+msgstr "Motor y editor escrito en C++03."
+
+#, fuzzy
+msgid ""
+"Can be :doc:`compiled </development/compiling/"
+"introduction_to_the_buildsystem>` using GCC, Clang and MSVC. MinGW is also "
+"supported."
+msgstr ""
+"Puede ser :doc:`compilado </development/compiling/"
+"introduction_to_the_buildsystem>` usando GCC, Clang y MSVC. MinGW también "
+"está soportado."
+
+#, fuzzy
+msgid ""
+"Friendly towards packagers. In most cases, system libraries can be used "
+"instead of the ones provided by Rebel Engine. The build system doesn't "
+"download anything. Builds can be fully reproducible."
+msgstr ""
+"Amistoso con los empaquetadores. En la mayoría de los casos, las bibliotecas "
+"de sistema pueden ser utilizadas en lugar de las proporcionadas por Rebel "
+"Engine. El sistema de construcción no descarga nada. Las compilaciones "
+"pueden ser totalmente reproducibles."
+
+msgid "Licensed under the permissive MIT license."
+msgstr "Licenciado bajo la licencia permisiva del MIT."
+
+#, fuzzy
+msgid ""
+"Open development process with :doc:`contributions welcome </contributing/"
+"ways_to_contribute>`."
+msgstr ""
+"Abre el proceso de desarrollo con :doc:`contributions welcome </contributing/"
+"ways_to_contribute>`."
+
+#, fuzzy
+msgid "Rebel Engine release policy"
+msgstr "Política de lanzamiento de Rebel Engine"
+
+#, fuzzy
+msgid ""
+"Rebel Engine's release policy is in constant evolution. What is described "
+"below is intended to give a general idea of what to expect, but what will "
+"actually happen depends on the choices of core contributors, and the needs "
+"of the community at a given time."
+msgstr ""
+"La politica de lanzamiento de Rebel Engine está en una progresiva evolución. "
+"Lo que se describió debajo con el propósito de dar una idea general de las "
+"expectativas, pero lo que de hecho sucederá depende de los contribuyentes "
+"centrales, y las necesidades de la comunidad en un momento dado."
+
+msgid "Rebel Engine versioning"
+msgstr ""
+
+#, fuzzy
+msgid ""
+"Rebel Engine loosely follows `Semantic Versioning <https://semver.org/>`__ "
+"with a ``major.minor.patch`` versioning system, albeit with an "
+"interpretation of each term adapted to the complexity of a game engine:"
+msgstr ""
+"Rebel Engine sigue vagamente `Semantic Versioning <https://semver.org/>`__ "
+"con un sistema de versionado `` major.minor.patch`` , aunque con una "
+"interpretación de cada término adaptada a la complejidad de un motor de "
+"juego:"
+
+msgid ""
+"The ``major`` version is incremented when major compatibility breakages "
+"happen which imply significant porting work to move projects from one major "
+"version to another."
+msgstr ""
+"La versión ``major`` es incrementada cuando ocurren rupturas de "
+"compatibilidad lo que implica un trabajo significante de porteo para mover "
+"proyectos de una mayor versión a otra."
+
+msgid ""
+"The ``minor`` version is incremented for feature releases which do not break "
+"compatibility in a major way. Minor compatibility breakage in very specific "
+"areas *may* happen in minor versions, but the vast majority of projects "
+"should not be affected or require significant porting work."
+msgstr ""
+"La versión ``minor`` se incrementa para las versiones de funciones que no "
+"rompen la compatibilidad de manera importante. *Pueden* producirse fallas "
+"menores en la compatibilidad en áreas muy específicas en versiones "
+"secundarias, pero la gran mayoría de los proyectos no deberían verse "
+"afectados o requerir un trabajo de adaptación significativo."
+
+#, fuzzy
+msgid ""
+"The reason for this is that as a game engine, Rebel Engine covers many areas "
+"such as rendering, physics, scripting, etc., and fixing bugs or implementing "
+"new features in a given area may sometimes require changing the behavior of "
+"a feature, or modifying the interface of a given class, even if the rest of "
+"the engine API remains backwards compatible."
+msgstr ""
+"La razón para esto es que, como un motor de juegos, Rebel Engine cubre "
+"muchas áreas tales como renderizado, físicas, scripting, etc., y arreglar "
+"bugs o implementar nuevas características a estas áreas puede en algunas "
+"ocasiones cambiar el propio comportamiento de alguna característica, o "
+"modificar la interfaz de una clase determinada, incluso si el resto del API "
+"del motor se mantiene compatible con sus versiones anteriores."
+
+msgid ""
+"Upgrading to a new minor version is therefore recommended for all users, but "
+"some testing is necessary to ensure that your project still behaves as "
+"expected in a new minor version."
+msgstr ""
+"Por lo tanto, se recomienda a todos los usuarios actualizar a una nueva "
+"versión secundaria, pero es necesario realizar algunas pruebas para "
+"asegurarse de que su proyecto aún se comporte como se espera en una nueva "
+"versión secundaria."
+
+msgid ""
+"The ``patch`` version is incremented for maintenance releases which focus on "
+"fixing bugs and security issues, implementing new requirements for platform "
+"support, and backporting safe usability enhancements. Patch releases are "
+"backwards compatible."
+msgstr ""
+"La versión ``parche`` se incrementa para las versiones de mantenimiento que "
+"se centran en la corrección de errores y problemas de seguridad, la "
+"implementación de nuevos requerimientos para el soporte de la plataforma, y "
+"el backport de mejoras de usabilidad seguras. Estas son compatibles con "
+"versiones anteriores."
+
+msgid ""
+"Patch versions may include minor new features which do not impact the "
+"existing API, and thus have no risk of impacting existing projects."
+msgstr ""
+"Las versiones Parche deberán incluir nuevas características menores que no "
+"impactaran en la API existente, y por lo tanto no corren riesgo de impactar "
+"en los proyectos existentes."
+
+msgid ""
+"Updating to new patch versions is therefore considered safe and strongly "
+"recommended to all users of a given stable branch."
+msgstr ""
+"La actualización a nuevas versiones de parche es por lo tanto considerada "
+"segura y fuertemente recomendada a todos los usuarios de una rama estable "
+"dada."
+
+msgid ""
+"We call ``major.minor`` combinations *stable branches*. Each stable branch "
+"starts with a ``major.minor`` release (without the ``0`` for ``patch``) and "
+"is further developed for maintenance releases in a Git branch of the same "
+"name (for example patch updates for the 3.3 stable branch are developed in "
+"the ``3.3`` Git branch)."
+msgstr ""
+"Las combinaciones ``major.minor`` se denominan *ramas estables*. Cada rama "
+"estable comienza con una versión ``major.minor`` (sin el ``0`` para "
+"``patch``) y se desarrolla para las versiones de mantenimiento en una rama "
+"Git del mismo nombre (por ejemplo, las actualizaciones de parches para la "
+"rama estable 3.3 se desarrollan en la rama Git ``3.3``)."
+
+#, fuzzy
+msgid ""
+"As mentioned in the introduction, Rebel Engine's release policy is evolving, "
+"and earlier Rebel Engine releases may not have followed the above rules to "
+"the letter. In particular, the 3.2 stable branch received a number of new "
+"features in 3.2.2 which would have warranted a ``minor`` version increment."
+msgstr ""
+"Como se mencionó en la introducción, la política de publicación de Rebel "
+"Engine está evolucionando, y las primeras versiones de Rebel Engine pueden "
+"no haber seguido las reglas anteriores al pie de la letra. En particular, la "
+"rama estable 3.2 recibió una serie de nuevas características en 3.2.2 que "
+"habrían justificado un incremento de versión ``minor``."
+
+msgid "Release support timeline"
+msgstr "Línea de tiempo del soporte de liberación"
+
+msgid ""
+"Stable branches are supported *at minimum* until the next stable branch is "
+"released and has received its first patch update. In practice, we support "
+"stable branches on a *best effort* basis for as long as they have active "
+"users who need maintenance updates."
+msgstr ""
+"Las ramas estables son compatibles * como mínimo * hasta que se lance la "
+"siguiente rama estable y haya recibido su primera actualización de parche. "
+"En la práctica, apoyamos las sucursales estables en base al * mejor esfuerzo "
+"* mientras tengan usuarios activos que necesiten actualizaciones de "
+"mantenimiento."
+
+#, fuzzy
+msgid ""
+"Whenever a new major version is released, we make the previous stable branch "
+"a long-term supported release, and do our best to provide fixes for issues "
+"encountered by users of that branch who cannot port complex projects to the "
+"new major version."
+msgstr ""
+"Siempre que se lanza una nueva versión principal, hacemos de la rama estable "
+"anterior una versión con soporte a largo plazo y hacemos todo lo posible "
+"para proporcionar soluciones a los problemas que encuentran los usuarios de "
+"esa rama que no pueden migrar proyectos complejos a la nueva versión "
+"principal."
+
+msgid ""
+"In a given minor release series, only the latest patch release receives "
+"support. If you experience an issue using an older patch release, please "
+"upgrade to the latest patch release of that series and test again before "
+"reporting an issue on GitHub."
+msgstr ""
+"En una serie de versiones inferiores determinada, solo se admite la última "
+"versión del parche. Si tiene algún problema al utilizar una versión de "
+"parche anterior, actualice a la versión de parche más reciente de esa serie "
+"y vuelva a realizar la prueba antes de informar un problema en GitHub."
+
+msgid "**Version**"
+msgstr "**Versión**"
+
+msgid "**Release date**"
+msgstr "**Fecha de publicación**"
+
+msgid "**Support level**"
+msgstr "**Nivel de soporte**"
+
+msgid "Rebel Engine 1.0"
+msgstr ""
+
+msgid "Q4 2023"
+msgstr ""
+
+#, fuzzy
+msgid "|unstable| *Alpha.* Current focus of development (unstable)."
+msgstr "|unstable| *Alpha.* Enfoque actual del desarrollo (inestable)."
+
+msgid "unstable"
+msgstr "unstable"
+
+msgid ""
+"**Legend:** |supported| Full support – |partial| Partial support – |eol| No "
+"support (end of life) – |unstable| Development version"
+msgstr ""
+"**Leyenda:** |supported| Soporte completo - |partial| Soporte parcial - |"
+"eol| No hay soporte (fin de vida) - |unstable| Versión de desarrollo"
+
+msgid "supported"
+msgstr "supported"
+
+msgid "partial"
+msgstr "partial"
+
+msgid "eol"
+msgstr "eol"
+
+#, fuzzy
+msgid ""
+"Pre-release Rebel Engine versions aren't intended to be used in production "
+"and are provided for testing purposes only."
+msgstr ""
+"Las versiones de Rebel Engine anteriores al lanzamiento no están pensadas "
+"para ser utilizadas en la producción y se proporcionan solo con el propósito "
+"de realizar pruebas."
+
+msgid "Troubleshooting"
+msgstr "Solución De Problemas"
+
+#, fuzzy
+msgid ""
+"This page lists common issues encountered when using Rebel Engine and "
+"possible solutions."
+msgstr ""
+"Esta página enumera los problemas comunes que se encuentran al usar Rebel "
+"Engine y las posibles soluciones."
+
+#, fuzzy
+msgid ""
+"Everything I do in the editor or project manager appears delayed by one "
+"frame."
+msgstr ""
+"Todo lo que hago en el editor o en el administrador de proyectos aparece "
+"retrasado por un fotograma."
+
+msgid ""
+"This is a `known bug <https://github.com/godotengine/godot/issues/23069>`__ "
+"on Intel graphics drivers on Windows. Updating to the latest graphics driver "
+"version *provided by Intel* should fix the issue."
+msgstr ""
+"Este es un `error conocido <https://github.com/godotengine/godot/issues/"
+"23069>`__ en los controladores gráficos Intel en Windows. Actualizando a la "
+"última versión del controlador gráfico *suministrados por Intel* debería "
+"arreglar el problema."
+
+msgid ""
+"You should use the graphics driver provided by Intel rather than the one "
+"provided by your desktop or laptop's manufacturer because their version is "
+"often outdated."
+msgstr ""
+"Deberías utilizar el driver de gráficos proporcionado por Intel en lugar del "
+"proporcionado por el fabricante de tu ordenador de escritorio o portátil "
+"porque la versión del fabricante suele estar desfasada."
+
+#, fuzzy
+msgid ""
+"The grid disappears and meshes turn black when I rotate the 3D camera in the "
+"editor."
+msgstr ""
+"La rejilla desaparece y las mallas se vuelven negras cuando giro la cámara "
+"3D en el editor."
+
+msgid ""
+"This is a `known bug <https://github.com/godotengine/godot/issues/30330>`__ "
+"on Intel graphics drivers on Windows."
+msgstr ""
+"Este es un `conocido error <https://github.com/godotengine/godot/issues/"
+"30330>`__ en los controladores de gráficos Intel en Windows."
+
+msgid ""
+"The only workaround, for now, is to switch to the GLES2 renderer. You can "
+"switch the renderer in the top-right corner of the editor or the Project "
+"Settings."
+msgstr ""
+"La única solución, por ahora, es cambiar al renderizador GLES2. Puedes "
+"cambiar el renderizador en la esquina superior derecha del editor o en "
+"Configuración del Proyecto."
+
+#, fuzzy
+msgid ""
+"If you use a computer allowing you to switch your graphics card, like NVIDIA "
+"Optimus, you can use the dedicated graphics card to run Rebel Engine."
+msgstr ""
+"Si tú ordenador permite intercambiar entre tarjetas gráficas, como NVIDIA "
+"Optimus, puedes usar una tarjeta gráfica dedicada para ejecutar Rebel Engine."
+
+#, fuzzy
+msgid "The editor or project takes a very long time to start."
+msgstr "El editor o el proyecto tarda mucho tiempo en arrancar."
+
+msgid ""
+"This is a `known bug <https://github.com/godotengine/godot/issues/20566>`__ "
+"on Windows when you have specific USB peripherals connected. In particular, "
+"Corsair's iCUE software seems to cause the bug. Try updating your USB "
+"peripherals' drivers to their latest version. If the bug persists, you need "
+"to disconnect the faulty peripherals before opening the editor. You can then "
+"connect the peripheral again."
+msgstr ""
+"Este es un `error conocido <https://github.com/godotengine/godot/issues/"
+"20566>`__ en Windows cuando se tienen conectados periféricos USB "
+"específicos. En particular, el software iCUE de Corsair parece ser el "
+"causante del fallo. Intenta actualizar los controladores de tus periféricos "
+"USB a su última versión. Si el error persiste, debes desconectar los "
+"periféricos defectuosos antes de abrir el editor. A continuación, puedes "
+"volver a conectar el periférico."
+
+#, fuzzy
+msgid ""
+"Editor tooltips in the Inspector and Node docks blink when they're displayed."
+msgstr ""
+"Los globos de información de herramientas del Editor en los muelles "
+"Inspector y Nodo parpadean cuando son mostrados."
+
+#, fuzzy
+msgid ""
+"This is a `known issue <https://github.com/godotengine/godot/issues/"
+"32990>`__ caused by the third-party Stardock Fences application on Windows. "
+"The only known workaround is to disable Stardock Fences while using Rebel "
+"Engine."
+msgstr ""
+"Esto es un `known issue <https://github.com/godotengine/godot/issues/"
+"32990>`__ causado por la aplicación de terceros Stardock Fences en Windows. "
+"La única solución conocida es deshabilitar Stardock Fences mientras se "
+"utiliza Rebel Engine."
+
+#, fuzzy
+msgid ""
+"The Rebel Engine editor appears frozen after clicking the system console."
+msgstr ""
+"El editor de Rebel Engine se congela después de hacer clic en la consola del "
+"sistema."
+
+#, fuzzy
+msgid ""
+"When running Rebel Engine on Windows with the system console enabled, you "
+"can accidentally enable *selection mode* by clicking inside the command "
+"window. This Windows-specific behavior pauses the application to let you "
+"select text inside the system console. Rebel Engine cannot override this "
+"system-specific behavior."
+msgstr ""
+"Cuando se corre Rebel Engine en Windows con la consola del sistema activada, "
+"puedes accidentalmente activar el *Modo de Selección* clickeando a dentro de "
+"la ventana de comandos."
+
+msgid ""
+"To solve this, select the system console window and press Enter to leave "
+"selection mode."
+msgstr ""
+"Para solucionarlo, seleccione la ventana de la consola del sistema y pulse "
+"Intro para salir del modo de selección."
+
+#, fuzzy
+msgid ""
+"Some text such as \"NO DC\" appears in the top-left corner of the project "
+"manager and editor window."
+msgstr ""
+"Un texto como \"NO DC\" aparece en la esquina superior izquierda de la "
+"ventana del administrador de proyectos y del editor."
+
+msgid ""
+"This is caused by the NVIDIA graphics driver injecting an overlay to display "
+"information."
+msgstr ""
+"Esto es causado por el controlador de gráficos de NVIDIA que inserta una "
+"superposición para mostrar información."
+
+msgid ""
+"To disable this overlay on Windows, restore your graphics driver settings to "
+"the default values in the NVIDIA Control Panel."
+msgstr ""
+"Para desactivar esta superposición en Windows, restablece tu configuración "
+"del controlador de gráficos a los valores predeterminados en el panel de "
+"control de NVIDIA."
+
+msgid ""
+"To disable this overlay on Linux, open ``nvidia-settings``, go to **X Screen "
+"0 > OpenGL Settings** then uncheck **Enable Graphics API Visual Indicator**."
+msgstr ""
+"Para desactivar esta superposición en Linux, abre ``nvidia-settings``, ve a "
+"**X Screen 0 > OpenGL Settings** y desmarca **Enable Graphics API Visual "
+"Indicator**."
+
+#, fuzzy
+msgid "The project window appears blurry, unlike the editor."
+msgstr "La ventana del proyecto aparece borrosa, a diferencia del editor."
+
+msgid ""
+"Unlike the editor, the project isn't marked as DPI-aware by default. This is "
+"done to improve performance, especially on integrated graphics, where "
+"rendering 3D scenes in hiDPI is slow."
+msgstr ""
+"A diferencia del editor, el proyecto no está marcado como DPI-aware por "
+"defecto. Esto se hace para mejorar el rendimiento, especialmente en los "
+"gráficos integrados, donde el renderizado de escenas 3D en hiDPI es lento."
+
+#, fuzzy
+msgid ""
+"To resolve this, open **Project > Project Settings** and enable **Display > "
+"Window > Dpi > Allow Hidpi**. On top of that, make sure your project is "
+"configured to support :doc:`multiple resolutions </tutorials/rendering/"
+"multiple_resolutions>`."
+msgstr ""
+"Para resolver esto, abre **Proyecto > Configuración del Proyecto** y "
+"habilita **Mostrar > Ventana > Dpi > Permitir Hidpi**. Además, asegúrate de "
+"que tu proyecto esté configurado para soportar :doc:`multiple resolutions </"
+"tutorials/rendering/multiple_resolutions>`."
+
+#, fuzzy
+msgid "The project window doesn't appear centered when I run the project."
+msgstr ""
+"La ventana del proyecto no aparece centrada cuando ejecuto el proyecto."
+
+#, fuzzy
+msgid ""
+"This is a `known bug <https://github.com/godotengine/godot/issues/13017>`__. "
+"To resolve this, open **Project > Project Settings** and enable **Display > "
+"Window > Dpi > Allow Hidpi**. On top of that, make sure your project is "
+"configured to support :doc:`multiple resolutions </tutorials/rendering/"
+"multiple_resolutions>`."
+msgstr ""
+"Este es un \"error conocido\" <https://github.com/godotengine/godot/issues/"
+"13017>`__. Para resolverlo, abre **Proyecto > Configuración del Proyecto** y "
+"habilita **Mostrar > Ventana > Dpi > Permitir Hidpi**. Además, asegúrate de "
+"que tu proyecto esté configurado para soportar :doc:`multiple resolutions </"
+"tutorials/rendering/multiple_resolutions>`."
+
+#, fuzzy
+msgid ""
+"The project works when run from the editor, but fails to load some files "
+"when running from an exported copy."
+msgstr ""
+"El proyecto funciona cuando se ejecuta desde el editor, pero falla al cargar "
+"algunos archivos cuando se ejecuta desde una copia exportada."
+
+#, fuzzy
+msgid ""
+"This is usually caused by forgetting to specify a filter for non-resource "
+"files in the Export dialog. By default, Rebel Engine will only include "
+"actual *resources* into the PCK file. Some files commonly used, such as JSON "
+"files, are not considered resources. For example, if you load ``test.json`` "
+"in the exported project, you need to specify ``*.json`` in the non-resource "
+"export filter. See :ref:`tutorials/export/exporting_projects:resource "
+"options` for more information."
+msgstr ""
+"Esto suele deberse a que se olvida de especificar un filtro para los "
+"archivos que no son de recursos en el cuadro de diálogo de exportación. Por "
+"defecto, Rebel Engine sólo incluirá los *recursos* reales en el archivo PCK. "
+"Algunos archivos de uso común, como los archivos JSON, no se consideran "
+"recursos. Por ejemplo, si cargas ``test.json`` en el proyecto exportado, "
+"necesitas especificar ``*.json`` en el filtro de exportación de no recursos. "
+"Vea :ref:`tutorials/export/exporting_projects:resource options` para más "
+"información."
+
+#, fuzzy
+msgid ""
+"On Windows, this can also be due to :ref:`case sensitivity <tutorials/"
+"best_practices/project_organization:Case sensitivity>` issues. If you "
+"reference a resource in your script with a different case than on the "
+"filesystem, loading will fail once you export the project. This is because "
+"the virtual PCK filesystem is case-sensitive, while Windows's filesystem is "
+"case-insensitive by default."
+msgstr ""
+"En Windows, esto también puede deberse a problemas de :ref:`sensibilidad del "
+"caso <tutorials/best_practices/project_organization:Case sensitivity>`. Si "
+"haces referencia a un recurso en tu script con un caso diferente al del "
+"sistema de archivos, la carga fallará una vez que exportes el proyecto. Esto "
+"se debe a que el sistema de archivos virtual PCK es sensible a mayúsculas y "
+"minúsculas, mientras que el sistema de archivos de Windows no es sensible a "
+"mayúsculas y minúsculas por defecto."
+
+#, fuzzy
+msgid "What is Rebel"
+msgstr "¿Qué es geometría?"
+
+msgid ""
+"Rebel is the community working on `Rebel Toolbox <https://"
+"rebeltoolbox.com>`__; a collection of open source, community-driven, user-"
+"focused tools for creating video games."
+msgstr ""
+
+#, fuzzy
+msgid ""
+"The main tool is Rebel Engine - our 2D and 3D game engine. Rebel Engine is "
+"available from our `Rebel Engine GitHub repository <https://github.com/"
+"RebelToolbox/RebelEngine/>`__."
+msgstr ""
+"Puedes encontrar los archivos fuente para la referencia de clases en el "
+"repositorio de `GitHub de Rebel Toolbox <https://github.com/RebelToolbox/"
+"RebelEngine/>`__."
+
+msgid ""
+"This documentation is another open source, community-driven, user-focused "
+"tool. Rebel Documentation is maintained via our `Rebel Documentation GitHub "
+"repository <https://github.com/RebelToolbox/RebelDocumentation/>`__. If "
+"something is confusing, out-dated, or missing in this documentation, please "
+"help us make the documentation better by letting us know. `Submit an issue "
+"<https://github.com/RebelToolbox/RebelDocumentation/issues>`__ on GitHub, "
+"or, better yet, submit an update or an addition. Read :doc:`/contributing/"
+"contributing_to_the_documentation` for information of how to contribute to "
+"the documentation."
+msgstr ""
+
+#, fuzzy
+msgid ""
+"For a list of all the other tools, visit our `Rebel Toolbox GitHub <https://"
+"github.com/RebelToolbox/>`__ page."
+msgstr ""
+"Descarga el código fuente de Rebel Toolbox desde la `página de GitHub de "
+"Rebel Toolbox <https://github.com/RebelToolbox/>`__."
