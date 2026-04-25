@@ -93274,9 +93274,3 @@ msgid ""
 "`Don't create a Config File section heading, if the section name is blank "
 "<https://github.com/RebelToolbox/RebelEngine/pull/194>`_"
 msgstr ""
-
-#~ msgid "https://github.com/godotengine/godot-demo-projects"
-#~ msgstr "https://github.com/godotengine/godot-demo-projects"
-
-#~ msgid "https://developer.nvidia.com/gpugems/GPUGems3/gpugems3_ch16.html"
-#~ msgstr "https://developer.nvidia.com/gpugems/GPUGems3/gpugems3_ch16.html"
