@@ -1,0 +1,72 @@
+# SPDX-FileCopyrightText: 2023 Rebel Documentation contributors
+# SPDX-FileCopyrightText: 2018-2023 Godot Documentation contributors
+#
+# SPDX-License-Identifier: CC-BY-4.0
+#
+# Spanish translation of the Rebel Documentation.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Rebel Documentation 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-30 12:27+0200\n"
+"PO-Revision-Date: 2023-08-06 10:10+0000\n"
+"Last-Translator: Braulio León Madrid Escobar "
+"<brauliomadrid.developer@gmail.com>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/rebel-toolbox/"
+"rebel-documentation/es/>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Weblate 5.0-dev\n"
+
+msgid "What's New"
+msgstr ""
+
+#, fuzzy
+msgid "Getting Started"
+msgstr "Primeros pasos"
+
+#, fuzzy
+msgid "Tutorials"
+msgstr "Tutoriales en texto"
+
+#, fuzzy
+msgid "Class Reference"
+msgstr "Referencia de clase"
+
+msgid "Contributing"
+msgstr "Contribuyendo"
+
+msgid "Development"
+msgstr "Desarrollo"
+
+msgid "About"
+msgstr "Acerca de"
+
+msgid "Rebel Toolbox - Better tools for better games"
+msgstr ""
+
+msgid "A comprehensive view of every class, every method and every property."
+msgstr ""
+
+msgid ""
+"There are lots of ways to contribute to Rebel Toolbox. You don't need to be "
+"a coder to contribute. Start by using Rebel Editor to create games with "
+"Rebel Engine, and tell everyone you know about your experience."
+msgstr ""
+
+msgid ""
+"If you are a coder. If you want to fix, enhance, add, improve or modify any "
+"of the Rebel Toolbox tools, this section will help you understand how."
+msgstr ""
+
+msgid ""
+"For the curious. For those with questions that we probably have answers for. "
+"For those who want to know more about Rebel Toolbox: why it exists, who it's "
+"for, why we do it, how we do it, or simply what it is. If this section does "
+"not have the answers you're looking for, Visit our website: http://"
+"rebeltoolbox.com/ for more information and other ways to contact us."
+msgstr ""
