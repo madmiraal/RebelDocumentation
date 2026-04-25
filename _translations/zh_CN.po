@@ -2,7 +2,7 @@
 #
 # SPDX-License-Identifier: CC-BY-4.0
 #
-# LANGUAGE translation of the Rebel Documentation
+# Chinese (Simplified) translation of the Rebel Documentation
 # Copyright (C) 2023, Rebel Documentation Contributors
 # This file is distributed under the same license as the Rebel Documentation package.
 #
@@ -205,7 +205,7 @@ msgstr ""
 "PO-Revision-Date: 2023-09-18 08:20+0000\n"
 "Last-Translator: Houtaroy <Houtaroy@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
-"godot-engine/godot-docs/zh_Hans/>\n"
+"rebel-toolbox/rebel-documentation/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"

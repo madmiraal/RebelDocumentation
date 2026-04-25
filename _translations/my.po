@@ -2,7 +2,7 @@
 #
 # SPDX-License-Identifier: CC-BY-4.0
 #
-# LANGUAGE translation of the Rebel Documentation
+# Burmese translation of the Rebel Documentation
 # Copyright (C) 2023, Rebel Documentation Contributors
 # This file is distributed under the same license as the Rebel Documentation package.
 #
@@ -15,8 +15,8 @@ msgstr ""
 "POT-Creation-Date: 2026-04-24 12:55+0200\n"
 "PO-Revision-Date: 2023-01-02 22:48+0000\n"
 "Last-Translator: stmSi <stm1998sithumyo@gmail.com>\n"
-"Language-Team: Burmese <https://hosted.weblate.org/projects/godot-engine/"
-"godot-docs/my/>\n"
+"Language-Team: Burmese <https://hosted.weblate.org/projects/rebel-toolbox/"
+"rebel-documentation/my/>\n"
 "Language: my\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
