@@ -22,7 +22,9 @@ jobs:
         run: |
           #Install dependencies
           sudo apt-get update
-          sudo apt-get install -y gettext
+          sudo apt-get install -y \
+            gettext               \
+            virtualenv
 
       - name: Create branch
         run: |
@@ -71,69 +73,15 @@ jobs:
           git switch -c update-translation-files
           git push -u -f origin update-translation-files
 
-      - name: Update translation template
+      - name: Make translation file updates
         run: |
-          #Update translation template
-          # Create template files from rst files.
-          make gettext
-          # We use the Rebel Engine API translations.
-          rm _build/gettext/api.pot
-          # Merge template files into single template file.
-          msgcat --output-file=_translations/docs.pot _build/gettext/*.pot
-          # Update header.
-          sed -i '1d' _translations/docs.pot
-          sed -i '1i # SPDX-FileCopyrightText: 2023 Rebel Documentation contributors' _translations/docs.pot
-          sed -i '2i #' _translations/docs.pot
-          sed -i '3i # SPDX-License-Identifier: CC-BY-4.0' _translations/docs.pot
-          sed -i '4i #' _translations/docs.pot
-          sed -i '5i # LANGUAGE translation of the Rebel Documentation' _translations/docs.pot
-          sed -i '8i #' _translations/docs.pot
-          sed -i 's|^\"Report-Msgid-Bugs-To: |\"Report-Msgid-Bugs-To: https://github.com/RebelToolbox/RebelDocumentation|' _translations/docs.pot
-          sed -i 's|^#: ../../|#: |g' _translations/docs.pot
-
-      - name: Update translation strings
-        run: |
-          #Update translation strings
-          for po_file in _translations/*.po; do
-            echo "Updating strings in $po_file..."
-            msgmerge --update --backup=none --width=79 $po_file _translations/docs.pot
-            echo "Removing obsolete messages in $po_file..."
-            msgattrib --no-obsolete --output-file=$po_file $po_file
-          done
-
-      - name: Update locales
-        run: |
-          #Update locales
-          if [ -z "$(ls -A locale/)" ]; then
-            echo "No existing locales to update."
-            echo "Exiting!"
-          else
-            for locale_dir in locale/*; do
-              locale=$(basename $locale_dir)
-              po_file=_translations/$locale.po
-              echo "Removing old $locale translation..."
-              rm -rf $locale_dir
-              if [ ! -f $po_file ]; then
-                echo "$po_file file not found!"
-                echo "Unable to create translation for $locale."
-                echo "Skipping."
-                continue
-              fi
-              echo "Updating locale: $locale"
-              lc_messages=$locale_dir/LC_MESSAGES
-              mkdir -p $lc_messages
-              for pot_file in _build/gettext/*.pot; do
-                section=$(basename $pot_file .pot)
-                output_file=$lc_messages/$section.po
-                echo "Creating po file for section: $section..."
-                msgmerge --lang="$locale" --no-location --output=$output_file $po_file $pot_file
-                echo "Removing obsolete messages in $output_file..."
-                msgattrib --no-obsolete --output-file=$output_file $output_file
-                echo "Removing authors list from $output_file..."
-                sed -i '9,/^#$/d' $output_file
-              done
-            done
-          fi
+          #Make translation file updates
+          virtualenv env
+          source env/bin/activate
+          pip install -r requirements.txt
+          cd _translations
+          make update
+          cd ..
 
       - name: Check for changes
         run: |
