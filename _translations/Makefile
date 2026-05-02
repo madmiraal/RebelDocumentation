@@ -1,6 +1,6 @@
 TEMPLATE = docs.pot
 GETTEXT_DIR = ../_build/gettext
-TRANSLATIONS_ROOT = ../locale
+TRANSLATIONS_ROOT = ../locales
 
 update: update-template update-strings update-translations
 
