@@ -1,5 +1,6 @@
 name: Update Translations
 on:
+  push:
   workflow_dispatch:
   schedule:
     # Check for updates every day at midnight.
@@ -9,7 +10,7 @@ jobs:
   update-translation-files:
     name: Update Translation Files
     # Don't run on forks.
-    if: github.repository == 'RebelToolbox/RebelDocumentation'
+    if: github.repository == 'madmiraal/RebelDocumentation'
     runs-on: ubuntu-latest
 
     steps:
@@ -35,9 +36,9 @@ jobs:
         run: |
           #Create branch
           git fetch origin
-          echo "::group::git switch main"
-          if ! git switch main 2>/dev/null ; then
-            git switch -c main origin/main
+          echo "::group::git switch add-translations"
+          if ! git switch add-translations 2>/dev/null ; then
+            git switch -c add-translations origin/add-translations
           fi
           echo "::endgroup::"
           echo "::group::git switch -c update-translation-files"
@@ -59,8 +60,8 @@ jobs:
         if: env.existing_branch == 'yes'
         run: |
           #Update existing branch
-          echo "::group::git rebase main"
-          if ! git rebase main >/dev/null ; then
+          echo "::group::git rebase add-translations"
+          if ! git rebase add-translations >/dev/null ; then
             git rebase --abort
             echo "Rebase merge conflict!"
             echo "Previous changes need to be overwritten."
@@ -73,7 +74,7 @@ jobs:
       - name: Recreate branch
         if: env.recreate_branch == 'yes'
         run: |
-          git switch main
+          git switch add-translations
           git branch -D update-translation-files
           git switch -c update-translation-files
           git push -u -f origin update-translation-files
@@ -122,11 +123,10 @@ jobs:
             echo "Please merge the Pull Request"
           else
             gh pr create                                                                          \
-              --base main                                                                         \
+              --base add-translations                                                             \
               --head update-translation-files                                                     \
               --title "Update Translation Files"                                                  \
-              --body "Updates the Rebel Documentation translation files with the latest changes." \
-              --label "PR Type: Maintenance"
+              --body "Updates the Rebel Documentation translation files with the latest changes."
             echo "New Pull Request created"
           fi
 
