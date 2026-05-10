@@ -29,7 +29,7 @@ jobs:
           codespell                            \
           -I _tools/codespell-ignore-words.txt \
           -x _tools/codespell-ignore-lines.txt \
-          --skip="_*","env"
+          --skip="_*","env","locales"
 
       - name: Create patch file
         if: failure()
@@ -69,4 +69,4 @@ jobs:
         run: |
           #Build dummy documentation
           source env/bin/activate
-          make dummy SPHINXOPTS="-W --keep-going"
+          make dummy SPHINXOPTS="--fail-on-warning --keep-going"
