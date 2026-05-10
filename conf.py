@@ -47,6 +47,7 @@ extensions = [
 
 exclude_patterns = [
     "_build",
+    "_translations",
     "env",
 ]
 
