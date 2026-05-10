@@ -71,7 +71,8 @@ highlight_language = "gdscript"
 # https://readthedocs-lst.readthedocs.io/en/latest/i18n.html
 # https://readthedocs-lst.readthedocs.io/en/latest/localization.html
 
-language = os.getenv("READTHEDOCS_LANGUAGE", "en")
+language = os.getenv("READTHEDOCS_LANGUAGE", os.getenv("LANGUAGE_CODE", "en"))
+gettext_allow_fuzzy_translations = True
 
 supported_languages = {
     "en": "Rebel Toolbox (%s) documentation in English",

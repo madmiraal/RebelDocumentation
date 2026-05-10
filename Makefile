@@ -7,6 +7,8 @@ SPHINXBUILD   ?= sphinx-build
 SOURCEDIR     = .
 BUILDDIR      = _build
 
+export LANGUAGE_CODE ?= en
+
 # User-friendly check for sphinx-build.
 ifneq ($(shell which $(SPHINXBUILD) >/dev/null 2>&1; echo $$?), 0)
 $(info The $(SPHINXBUILD) command was not found.)
@@ -25,4 +27,4 @@ help:
 # Route all unknown targets to Sphinx using "make mode" option.
 # $(O) is shorthand for $(SPHINXOPTS).
 %: Makefile
-	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)/$(LANGUAGE_CODE)" $(SPHINXOPTS) $(O)
