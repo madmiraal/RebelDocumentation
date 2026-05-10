@@ -47,6 +47,7 @@ extensions = [
 
 exclude_patterns = [
     "_build",
+    "_translations",
     "env",
 ]
 
@@ -64,27 +65,36 @@ highlight_language = "gdscript"
 
 
 # 3. Options for internationalization
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-internationalization
-
-# TODO Rebel internationalisation needs to configured.
-# https://www.sphinx-doc.org/en/master/usage/advanced/intl.html
-# https://readthedocs-lst.readthedocs.io/en/latest/i18n.html
-# https://readthedocs-lst.readthedocs.io/en/latest/localization.html
-
-language = os.getenv("READTHEDOCS_LANGUAGE", "en")
+# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-internationalisation
 
 supported_languages = {
     "en": "Rebel Toolbox (%s) documentation in English",
 }
+
+language = os.getenv("READTHEDOCS_LANGUAGE", os.getenv("LANGUAGE_CODE", "en"))
+gettext_allow_fuzzy_translations = True
+
 if language not in supported_languages.keys():
-    print("Unknown language: " + language)
+    print("Unsupported language: " + language)
     print("Supported languages: " + ", ".join(supported_languages.keys()))
-    print(
-        "The configured language is either wrong,"
-        + " or it should be added to supported_languages in conf.py."
-        + " Falling back to 'en'."
-    )
-    language = "en"
+    sys.exit()
+if language != "en":
+    print("Updating API translation.")
+    api_translation = '_translations/api/' + language
+    if not os.path.isdir('api'):
+        print("The original API folder is missing.")
+        print("Please fix and try again.")
+        sys.exit()
+    if os.path.isdir('_translations/api/en'):
+        print("The original API folder is already backed up.")
+        print("Please fix and try again.")
+        sys.exit()
+    if not os.path.isdir(api_translation):
+        print("Cannot find the API translation for " + language + ".")
+        print("Please fix and try again.")
+        sys.exit()
+    os.rename('api', '_translations/api/en')
+    os.rename(api_translation, 'api')
 
 
 # 4. Options for HTML output
