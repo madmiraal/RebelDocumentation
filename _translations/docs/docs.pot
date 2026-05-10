@@ -1,26 +1,82 @@
 # SPDX-FileCopyrightText: 2023 Rebel Documentation contributors
-# SPDX-FileCopyrightText: 2021-2023 Godot Documentation contributors
 #
 # SPDX-License-Identifier: CC-BY-4.0
 #
-# Tagalog translation of the Rebel Documentation.
+# LANGUAGE translation of the Rebel Documentation.
 #
+#, fuzzy
 msgid ""
 msgstr ""
+"#-#-#-#-#  about.pot (Rebel Documentation 1.0)  #-#-#-#-#\n"
 "Project-Id-Version: Rebel Documentation 1.0\n"
 "Report-Msgid-Bugs-To: https://github.com/RebelToolbox/RebelDocumentation\n"
 "POT-Creation-Date: 2026-05-10 19:29+0200\n"
-"PO-Revision-Date: 2022-08-11 17:49+0000\n"
-"Last-Translator: Napstaguy04 <brokenscreen3@gmail.com>\n"
-"Language-Team: Tagalog <https://hosted.weblate.org/projects/rebel-toolbox/"
-"rebel-documentation/tl/>\n"
-"Language: tl\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1 && n != 2 && n != 3 && (n % 10 == 4 "
-"|| n % 10 == 6 || n % 10 == 9);\n"
-"X-Generator: Weblate 4.14-dev\n"
+"#-#-#-#-#  contributing.pot (Rebel Documentation 1.0)  #-#-#-#-#\n"
+"Project-Id-Version: Rebel Documentation 1.0\n"
+"Report-Msgid-Bugs-To: https://github.com/RebelToolbox/RebelDocumentation\n"
+"POT-Creation-Date: 2026-05-10 19:29+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  development.pot (Rebel Documentation 1.0)  #-#-#-#-#\n"
+"Project-Id-Version: Rebel Documentation 1.0\n"
+"Report-Msgid-Bugs-To: https://github.com/RebelToolbox/RebelDocumentation\n"
+"POT-Creation-Date: 2026-05-20 15:15+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  getting_started.pot (Rebel Documentation 1.0)  #-#-#-#-#\n"
+"Project-Id-Version: Rebel Documentation 1.0\n"
+"Report-Msgid-Bugs-To: https://github.com/RebelToolbox/RebelDocumentation\n"
+"POT-Creation-Date: 2026-05-10 19:29+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  index.pot (Rebel Documentation 1.0)  #-#-#-#-#\n"
+"Project-Id-Version: Rebel Documentation 1.0\n"
+"Report-Msgid-Bugs-To: https://github.com/RebelToolbox/RebelDocumentation\n"
+"POT-Creation-Date: 2026-05-10 19:29+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  tutorials.pot (Rebel Documentation 1.0)  #-#-#-#-#\n"
+"Project-Id-Version: Rebel Documentation 1.0\n"
+"Report-Msgid-Bugs-To: https://github.com/RebelToolbox/RebelDocumentation\n"
+"POT-Creation-Date: 2026-05-10 19:29+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  what_is_new.pot (Rebel Documentation 1.0)  #-#-#-#-#\n"
+"Project-Id-Version: Rebel Documentation 1.0\n"
+"Report-Msgid-Bugs-To: https://github.com/RebelToolbox/RebelDocumentation\n"
+"POT-Creation-Date: 2026-05-10 19:29+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 #: about/complying_with_licenses.rst:2
 msgid "Complying with licenses"
@@ -84,15 +140,15 @@ msgid "This text reads as follows:"
 msgstr ""
 
 #: about/complying_with_licenses.rst:33
-#, fuzzy
 msgid "MIT License"
-msgstr "Lisensya"
+msgstr ""
 
 #: about/complying_with_licenses.rst:35
 msgid "Copyright (c) 2022 Rebel Toolbox"
 msgstr ""
 
-#: about/complying_with_licenses.rst:37 about/complying_with_licenses.rst:130
+#: about/complying_with_licenses.rst:37
+#: about/complying_with_licenses.rst:130
 msgid ""
 "Permission is hereby granted, free of charge, to any person obtaining a copy "
 "of this software and associated documentation files (the \"Software\"), to "
@@ -102,13 +158,15 @@ msgid ""
 "furnished to do so, subject to the following conditions:"
 msgstr ""
 
-#: about/complying_with_licenses.rst:39 about/complying_with_licenses.rst:132
+#: about/complying_with_licenses.rst:39
+#: about/complying_with_licenses.rst:132
 msgid ""
 "The above copyright notice and this permission notice shall be included in "
 "all copies or substantial portions of the Software."
 msgstr ""
 
-#: about/complying_with_licenses.rst:41 about/complying_with_licenses.rst:134
+#: about/complying_with_licenses.rst:41
+#: about/complying_with_licenses.rst:134
 msgid ""
 "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR "
 "IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, "
@@ -299,114 +357,78 @@ msgstr ""
 
 #: about/faq.rst:-1
 msgid "FAQ"
-msgstr "Mga Madalas Itanong"
+msgstr ""
 
 #: about/faq.rst:5 tutorials/performance/batching.rst:470
 msgid "Frequently asked questions"
-msgstr "Mga Madalas Itanong"
+msgstr ""
 
 #: about/faq.rst:8
-#, fuzzy
 msgid ""
 "What can I do with Rebel Toolbox? How much does it cost? What are the "
 "license terms?"
 msgstr ""
-"Anong kaya kong gawin sa Godot? Magkano ba 'to? Ano ang mga tuntunin sa "
-"paglilisensya?"
 
 #: about/faq.rst:10
-#, fuzzy
 msgid ""
 "Rebel Engine is `Free and Open-Source Software <https://en.wikipedia.org/"
 "wiki/Free_and_open-source_software>`_ available under the `OSI-approved "
 "<https://opensource.org/license/MIT>`_ MIT license. This means it is free as "
 "in \"free speech\" as well as in \"free beer.\""
 msgstr ""
-"Ang Godot ay software na `Walang Bayad at Open-Source <https://"
-"en.wikipedia.org/wiki/Free_and_open-source_software>`_ na magagamit sa "
-"ilalim ng lisensiyang `OSI-approved <https://opensource.org/licenses/MIT> `_ "
-"MIT. Ibig sabihin libre, para bang \"malayang pagsasalita\" at \"libreng "
-"alak.\""
 
 #: about/faq.rst:12
 msgid "In short:"
-msgstr "Sa madaling salita:"
+msgstr ""
 
 #: about/faq.rst:14
-#, fuzzy
 msgid ""
 "You are free to download and use Rebel Engine for any purpose: personal, non-"
 "profit, commercial, or otherwise."
 msgstr ""
-"Maari mong i-download at gamitin ang Godot para sa anumang gusto mo: pang-"
-"personal, pang-non-profit, pang-komersyal, o ano pa man."
 
 #: about/faq.rst:15
-#, fuzzy
 msgid ""
 "You are free to modify, distribute, redistribute, and remix Rebel Engine to "
 "your heart's content, for any reason, both non-commercially and commercially."
 msgstr ""
-"Malaya ka para baguhin, ipamahagi, muling ipamahagi, at i-remix ang Godot "
-"kung ano mang nilalaman ng puso mo, sa ano pang dahilan, mapa-di-komersyal "
-"man, o komersyal."
 
 #: about/faq.rst:17
-#, fuzzy
 msgid ""
 "All the contents of this accompanying documentation are published under the "
 "permissive Creative Commons Attribution 3.0 (`CC-BY 4.0 <https://"
 "creativecommons.org/licenses/by/4.0/>`_) license, with attribution to "
 "\"Rebel Toolbox Contributors\""
 msgstr ""
-"Ang lahat ng nilalaman ay nasa ilalim ng Creative Commons Attribution 3.0 "
-"permissive license (`CC-BY 3.0 <https://creativecommons.org/licenses/by/3.0/"
-">`_), na may attribution kina \"Juan Linietsky, Ariel Manzur at sa komunidad "
-"ng Godot Engine \" ."
 
 #: about/faq.rst:20
-#, fuzzy
 msgid ""
 "Logos and icons are generally under the same Creative Commons license. Note "
 "that some third-party libraries included with Rebel Engine's source code may "
 "have different licenses."
 msgstr ""
-"Ang mga icon at logo ay karaniwang nasa ilalim ng parehong lisensya ng "
-"Creative Commons. Pakitandaan na ang ilan sa mga third-party na aklatan "
-"(libraries) na nasa source code ng Godot ay maaaring may iba't ibang "
-"lisensya."
 
 #: about/faq.rst:24
-#, fuzzy
 msgid ""
 "For full details, look at the `COPYRIGHT.txt <https://github.com/"
 "RebelToolbox/RebelEngine/blob/main/copyright>`_ and the `LICENSE <https://"
 "github.com/RebelToolbox/RebelEngine/blob/main/LICENSE>`_ files in the Rebel "
 "Engine repository."
 msgstr ""
-"Para sa karagdagang impormasyon, pakitingnan ang `COPYRIGHT.txt <https://"
-"github.com/godotengine/godot/blob/master/COPYRIGHT.txt>`_ pati narin "
-"ang`LICENSE.txt <https://github.com/godotengine/ godot/blob/master/"
-"LICENSE.txt>`_ at `LOGO_LICENSE.txt <https://github.com/godotengine/godot/"
-"blob/master/LOGO_LICENSE.md>`_ sa Godot repository."
 
 #: about/faq.rst:26
-#, fuzzy
 msgid ""
 "Also, see `the license page on the Rebel Toolbox website <https://"
 "rebeltoolbox.com/license>`_."
 msgstr ""
-"Pakitingin din ng `license page sa website ng Godot <https://godotengine.org/"
-"license>`_."
 
 #: about/faq.rst:29
-#, fuzzy
 msgid "Which platforms are supported by Rebel Engine?"
-msgstr "Ano-anung mga platform ang sinusuportahan ng Godot?"
+msgstr ""
 
 #: about/faq.rst:31
 msgid "**For the editor:**"
-msgstr "**Para sa editor:**"
+msgstr ""
 
 #: about/faq.rst:33 about/faq.rst:181
 #: contributing/building_the_documentation.rst:130
@@ -418,9 +440,10 @@ msgstr "**Para sa editor:**"
 #: development/compiling/compiling_with_mono.rst:328
 #: tutorials/rendering/jitter_stutter.rst:48
 msgid "Windows"
-msgstr "Windows"
+msgstr ""
 
-#: about/faq.rst:34 about/faq.rst:40 about/faq.rst:192
+#: about/faq.rst:34 about/faq.rst:40
+#: about/faq.rst:192
 #: contributing/building_the_documentation.rst:123
 #: contributing/building_the_documentation.rst:166
 #: contributing/building_the_documentation.rst:189
@@ -443,53 +466,50 @@ msgstr "Windows"
 #: tutorials/editor/default_key_mapping.rst:514
 #: tutorials/rendering/jitter_stutter.rst:73
 msgid "macOS"
-msgstr "macOS"
+msgstr ""
 
 #: about/faq.rst:35 about/faq.rst:41
 msgid "X11 (Linux, \\*BSD)"
-msgstr "X11 (Linux, \\*BSD)"
+msgstr ""
 
 #: about/faq.rst:37
 msgid "**For exporting your games:**"
-msgstr "**Sa pagluluwas ng mga laro mo:**"
+msgstr ""
 
 #: about/faq.rst:39
 msgid "Windows (and UWP)"
-msgstr "Windows (at UWP)"
+msgstr ""
 
-#: about/faq.rst:42 development/compiling/compiling_with_mono.rst:320
+#: about/faq.rst:42
+#: development/compiling/compiling_with_mono.rst:320
 #: tutorials/export/exporting_basics.rst:317
 #: tutorials/export/one-click_deploy.rst:64
 #: tutorials/rendering/jitter_stutter.rst:79
 msgid "Android"
-msgstr "Android"
+msgstr ""
 
-#: about/faq.rst:43 development/compiling/compiling_with_mono.rst:322
+#: about/faq.rst:43
+#: development/compiling/compiling_with_mono.rst:322
 #: tutorials/export/exporting_basics.rst:373
 #: tutorials/rendering/jitter_stutter.rst:85
 msgid "iOS"
-msgstr "iOS"
+msgstr ""
 
 #: about/faq.rst:44
 msgid "Web"
-msgstr "Web"
+msgstr ""
 
 #: about/faq.rst:46
 msgid ""
 "Both 32- and 64-bit binaries are supported where it makes sense, with 64 "
 "being the default."
 msgstr ""
-"Parehong 32- at 64-bit na mga binary ay sinusuportahan kung naayon man, kung "
-"saan ang 64 ay ang karaniwan."
 
 #: about/faq.rst:49
-#, fuzzy
 msgid ""
 "Some users also report building and using Rebel Engine successfully on ARM-"
 "based systems with Linux, like the Raspberry Pi."
 msgstr ""
-"Ang ilang mga gumagamit ay nag-ulat din ng matagumpay na paggamit ng Godot "
-"para sa mga sistemang nakabatay sa ARM na may Linux, tulad ng Raspberry Pi."
 
 #: about/faq.rst:52
 msgid ""
@@ -505,20 +525,15 @@ msgid ""
 msgstr ""
 
 #: about/faq.rst:60
-#, fuzzy
 msgid "Which programming languages are supported in Rebel Engine?"
-msgstr "Ano-anung mga wikang programming ang sinusuportahan ng Godot?"
+msgstr ""
 
 #: about/faq.rst:62
-#, fuzzy
 msgid ""
 "The officially supported languages for Rebel Engine are GDScript, Visual "
 "Scripting, C#, and C++. See the subcategories for each language in "
 "the :ref:`scripting <toc-learn-scripting>` section."
 msgstr ""
-"Ang opisyal na sinusuportahan na mga wika para sa Godot ay GDScript, Visual "
-"Scripting, C#, at C++. Tingnan ang mga subcategory para sa bawat wika sa "
-"bahaging :ref:`scripting <toc-learn-scripting>`."
 
 #: about/faq.rst:66
 msgid ""
@@ -544,7 +559,7 @@ msgstr ""
 
 #: about/faq.rst:81
 msgid "What is GDScript and why should I use it?"
-msgstr "Ano ang GDScript at bakit ko naman gagamitin 'to?"
+msgstr ""
 
 #: about/faq.rst:83
 msgid ""
@@ -601,7 +616,7 @@ msgstr ""
 
 #: about/faq.rst:115
 msgid "What were the motivations behind creating GDScript?"
-msgstr "Ano ang mga adhikain sa paggawa ng GDscirpt?"
+msgstr ""
 
 #: about/faq.rst:117
 msgid ""
@@ -613,9 +628,8 @@ msgid ""
 msgstr ""
 
 #: about/faq.rst:123
-#, fuzzy
 msgid "The main reasons for a custom scripting language for Rebel Engine are:"
-msgstr "Ang mga dahilan sa paggawa ng pasadyang wikang pangscript ng Godot ay:"
+msgstr ""
 
 #: about/faq.rst:125
 msgid ""
@@ -659,12 +673,10 @@ msgstr ""
 #: about/faq.rst:141
 msgid "GDScript was designed to curtail the issues above, and more."
 msgstr ""
-"Ang GDScript ay ginawa upang mabawasan ang mga problema sa taas, at iba pa."
 
 #: about/faq.rst:144
-#, fuzzy
 msgid "What type of 3D model formats does Rebel Engine support?"
-msgstr "Anong uri ng 3D model format ang sinusuportahan ng Godot?"
+msgstr ""
 
 #: about/faq.rst:146
 msgid ""
@@ -760,7 +772,8 @@ msgid ""
 "Applications``."
 msgstr ""
 
-#: about/faq.rst:199 contributing/building_the_documentation.rst:116
+#: about/faq.rst:199
+#: contributing/building_the_documentation.rst:116
 #: contributing/building_the_documentation.rst:160
 #: contributing/building_the_documentation.rst:183
 #: development/compiling/build_for_android.rst:134
@@ -803,9 +816,8 @@ msgid ""
 msgstr ""
 
 #: about/faq.rst:220
-#, fuzzy
 msgid "Is the Rebel Engine editor a portable application?"
-msgstr "Maari bang makagawa ng hindi panlarong mga aplication gamit ng Godot?"
+msgstr ""
 
 #: about/faq.rst:222
 msgid ""
@@ -858,11 +870,8 @@ msgid ""
 msgstr ""
 
 #: about/faq.rst:253
-#, fuzzy
 msgid "Why does Rebel Toolbox aim to keep its core feature set small?"
 msgstr ""
-"Bakit ibig ng Godot na panatilihin na maliit ang kalahatan ng mga tampok "
-"nito?"
 
 #: about/faq.rst:255
 msgid ""
@@ -873,7 +882,7 @@ msgstr ""
 
 #: about/faq.rst:259
 msgid "There are several reasons for this:"
-msgstr "May mga dahilan kung bakit ganito:"
+msgstr ""
 
 #: about/faq.rst:261
 msgid ""
@@ -984,7 +993,7 @@ msgstr ""
 
 #: about/faq.rst:330
 msgid "And that's it! Your game should work in multiple resolutions."
-msgstr "At yan lang! Gagana na dapat ang laro mo sa maraming resolutions."
+msgstr ""
 
 #: about/faq.rst:332
 msgid ""
@@ -995,9 +1004,8 @@ msgid ""
 msgstr ""
 
 #: about/faq.rst:338
-#, fuzzy
 msgid "How can I extend Rebel Engine?"
-msgstr "Paano ko mapalaki pa ang Godot?"
+msgstr ""
 
 #: about/faq.rst:340
 msgid ""
@@ -1018,25 +1026,18 @@ msgid "When is the next release of Rebel Engine out?"
 msgstr ""
 
 #: about/faq.rst:351
-#, fuzzy
 msgid "When it's ready! See :doc:`release_policy` for more information."
 msgstr ""
-"Kung handa na! Tingnan "
-"ang :ref:`doc_release_policy_when_is_next_release_out` sa karagdagang "
-"kaalaman."
 
 #: about/faq.rst:355
 msgid "I would like to contribute! How can I get started?"
-msgstr "Gusto kong magkontribute! Paano ko sisimulan?"
+msgstr ""
 
 #: about/faq.rst:357
-#, fuzzy
 msgid ""
 "Awesome! As an open-source project, Rebel Engine thrives off of the "
 "innovation and ambition of developers like you."
 msgstr ""
-"Astig! Bilang isang open-source na proyekto, nabubuhay ang Godot sa mga "
-"inobasyon at ambisyon ng mga developer katulad mo."
 
 #: about/faq.rst:360
 msgid ""
@@ -1048,9 +1049,8 @@ msgid ""
 msgstr ""
 
 #: about/faq.rst:365
-#, fuzzy
 msgid "I have a great idea for Rebel Engine. How can I share it?"
-msgstr "Meron akong magandang idea para sa Godot. Paano ko ito maibabahagi?"
+msgstr ""
 
 #: about/faq.rst:367
 msgid ""
@@ -1063,13 +1063,10 @@ msgid ""
 msgstr ""
 
 #: about/faq.rst:374
-#, fuzzy
 msgid ""
 "Most developers in the Rebel Toolbox community will be more interested to "
 "learn about things like:"
 msgstr ""
-"Karamihan ng mga developers sa komunidad ng Godot ay mas interesado pang "
-"malaman ang mga bagay tulad ng:"
 
 #: about/faq.rst:377
 msgid ""
@@ -1082,12 +1079,11 @@ msgid ""
 "The features you would like to see implemented because you need them for "
 "your project."
 msgstr ""
-"Ang mga tampok na gusto mong madagdag dahil kailangan mo sa proyekto mo."
 
 #: about/faq.rst:381
 msgid ""
 "The concepts that were difficult to understand while learning the software."
-msgstr "Mga konseptong mahirap unawain habang pinagaaralan ang software."
+msgstr ""
 
 #: about/faq.rst:382
 msgid "The parts of your workflow you would like to see optimized."
@@ -1122,20 +1118,15 @@ msgid ""
 msgstr ""
 
 #: about/faq.rst:399
-#, fuzzy
 msgid "Is it possible to use Rebel Engine to create non-game applications?"
-msgstr "Maari bang makagawa ng hindi panlarong mga aplication gamit ng Godot?"
+msgstr ""
 
 #: about/faq.rst:401
-#, fuzzy
 msgid ""
 "Yes! Reble Engine features an extensive built-in UI system, and its small "
 "distribution size can make it a suitable alternative to frameworks like "
 "Electron or Qt."
 msgstr ""
-"Oo naman! Isa sa mga tampok sa Godot ay ang napakalawak na built-in UI "
-"system, at ang maliit na distribution size nito ay pwedeng maging "
-"alternatibong framework katulod ng Electron o Qt."
 
 #: about/faq.rst:404
 msgid ""
@@ -1143,25 +1134,16 @@ msgid ""
 "processor mode <class_ProjectSettings_property_application/run/"
 "low_processor_mode>` in the Project Settings to decrease CPU and GPU usage."
 msgstr ""
-"Kung gagawa ng hindi panlarong application, paniguraduhing i-enable "
-"ang :ref:`low-processor mode <class_ProjectSettings_property_application/run/"
-"low_processor_mode>` sa Project Settings para hindi magastos sa pag-gamit ng "
-"CPU at GPU."
 
 #: about/faq.rst:408
-#, fuzzy
 msgid ""
 "That said, we wouldn't recommend using Rebel Engine to create a *mobile* "
 "application since low-processor mode isn't supported on mobile platforms yet."
 msgstr ""
-"Gayunpaman, hindi namin rinerecomenda na gamitin ang Godot bilang panggawa "
-"ng *mobile* application dahil hindi pa supportado ang low-processor mode sa "
-"mga mobile platform."
 
 #: about/faq.rst:412
-#, fuzzy
 msgid "Is it possible to use Rebel Engine as a library?"
-msgstr "Possible bang gamitin ang Godot bilang library?"
+msgstr ""
 
 #: about/faq.rst:414
 msgid ""
@@ -1254,22 +1236,16 @@ msgid ""
 msgstr ""
 
 #: about/faq.rst:458
-#, fuzzy
 msgid "Why does Rebel Engine not use exceptions?"
-msgstr "Bakit di-gumagamit ng exceptions ang Godot?"
+msgstr ""
 
 #: about/faq.rst:460
-#, fuzzy
 msgid ""
 "We believe games should not crash, no matter what. If an unexpected "
 "situation happens, Rebel Engine will print an error (which can be traced "
 "even to script), but then it will try to recover as gracefully as possible "
 "and keep going."
 msgstr ""
-"Naniniwala kami na hindi dapat mag-crash ang mga laro, kahit anong mangyari. "
-"Kung ang mangyari man ay hindi inaasahan, Mag-priprint ng error ang Godot "
-"(na pwedeng ma-trace kahit sa script), gayunpaman susubukan nitong irecover "
-"sa pinakamaganda at ligtas na paraan at magpatuloy."
 
 #: about/faq.rst:465
 msgid ""
@@ -1322,54 +1298,43 @@ msgid ""
 "needed, our recommendation is to use C++ and GDNative for the high "
 "performance parts and GDScript (or C#) for the rest of the game."
 msgstr ""
-"Kung kinikailangan ng laro na mag-process ng maraming objects, aming "
-"rekomendasyon ay gumamit ng C++ at GDNative para sa mga bahagi na mabilis "
-"ang performance at GDScript (o C#) para sa natitirang bahagi ng laro."
 
 #: about/faq.rst:497
-#, fuzzy
 msgid "How can I support Rebel Engine development or contribute?"
-msgstr "Paano ko masusuportahan ang development ng Godot o makibahagi?"
+msgstr ""
 
 #: about/faq.rst:499
-#, fuzzy
 msgid "See :doc:`/contributing/ways_to_contribute`."
-msgstr "Tumingin sa :ref:`doc_ways_to_contribute`."
+msgstr ""
 
 #: about/list_of_features.rst:2
 msgid "List of features"
-msgstr "Talatampukan (Listahan ng mga feature)"
+msgstr ""
 
 #: about/list_of_features.rst:4
-#, fuzzy
 msgid ""
 "This page aims to list all features currently supported by Rebel Engine."
 msgstr ""
-"Ang layunin ng pahina na ito ay maitala lahat ng tampok na kasalukuyang "
-"sinusuportahan ng Godot."
 
 #: about/list_of_features.rst:8
-#, fuzzy
 msgid "This page lists features supported by Rebel Engine."
 msgstr ""
-"Ang layunin ng pahina na ito ay maitala lahat ng tampok na kasalukuyang "
-"sinusuportahan ng Godot."
 
 #: about/list_of_features.rst:11
 msgid "Features"
-msgstr "Mga Tampok"
+msgstr ""
 
 #: about/list_of_features.rst:14
 msgid "Platforms"
-msgstr "Mga Platform"
+msgstr ""
 
 #: about/list_of_features.rst:16
 msgid "**Can run both the editor and exported projects:**"
-msgstr "**Maaring umandar sa editor at sa nakaluwas na mga proyekto:**"
+msgstr ""
 
 #: about/list_of_features.rst:18
 msgid "Windows 7 and later (64-bit and 32-bit)."
-msgstr "Windows 7 at higit (64-bit at 32-bit)."
+msgstr ""
 
 #: about/list_of_features.rst:19
 msgid "macOS 10.12 and later (64-bit, x86 and ARM)."
@@ -1399,16 +1364,15 @@ msgstr ""
 
 #: about/list_of_features.rst:30
 msgid "Android 4.4 and later."
-msgstr "Android 4.4 at pataas."
+msgstr ""
 
 #: about/list_of_features.rst:31
 msgid "iOS 10.0 and later."
-msgstr "IOS 10.0 at pataas."
+msgstr ""
 
 #: about/list_of_features.rst:32
-#, fuzzy
 msgid ":doc:`Consoles </tutorials/platforms/consoles>`."
-msgstr ":ref:`Mga Console <doc_consoles>`."
+msgstr ""
 
 #: about/list_of_features.rst:33
 msgid ""
@@ -1426,43 +1390,39 @@ msgstr ""
 #: development/compiling/compiling_with_mono.rst:195
 #: tutorials/editor/external_editor.rst:32
 msgid "Editor"
-msgstr "Editor"
+msgstr ""
 
-#: about/list_of_features.rst:41 about/list_of_features.rst:84
+#: about/list_of_features.rst:41
+#: about/list_of_features.rst:84
 #: about/list_of_features.rst:377
 msgid "**Features:**"
-msgstr "**Mga Tampok:**"
+msgstr ""
 
 #: about/list_of_features.rst:43
 msgid "Scene tree editor."
-msgstr "Editor ng scene tree."
+msgstr ""
 
 #: about/list_of_features.rst:44
-#, fuzzy
 msgid "Built-in script editor."
-msgstr "Editor ng script."
+msgstr ""
 
 #: about/list_of_features.rst:45
-#, fuzzy
 msgid ""
 "Support for :doc:`external script editors </tutorials/editor/"
 "external_editor>` such as Visual Studio Code or Vim."
 msgstr ""
-"Supporta para sa :ref:`external script editors <doc_external_editor>` "
-"katulad ng Visual Studio Code or Vim."
 
 #: about/list_of_features.rst:47
-#, fuzzy
 msgid "GDScript :doc:`debugger </tutorials/scripting/debug/debugger_panel>`."
-msgstr "GDScript :ref:`debugger <doc_debugger_panel>`."
+msgstr ""
 
 #: about/list_of_features.rst:49
 msgid "No support for debugging in threads yet."
-msgstr "Wala pang suporta para sa debugging sa threads."
+msgstr ""
 
 #: about/list_of_features.rst:50
 msgid "Performance monitoring tools."
-msgstr "Mga kagamitan sa pagmonitor ng performance."
+msgstr ""
 
 #: about/list_of_features.rst:51
 msgid "Live script reloading."
@@ -1502,39 +1462,41 @@ msgstr ""
 
 #: about/list_of_features.rst:66
 msgid "**Plugins:**"
-msgstr "**Mga Plugin**"
+msgstr ""
 
 #: about/list_of_features.rst:68
-#, fuzzy
 msgid ""
 "Editor plugins are used to extend editor functionality. :doc:`Create your "
 "own plugins </tutorials/plugins/editor/making_plugins>` using GDScript to "
 "add new features or speed up your workflow."
 msgstr ""
-"Lumikha ng sarili niyong plugin gamit ng GDScript upang magdagdag ng mga "
-"bagong tampok o pabilisin ang paggawa mo."
 
 #: about/list_of_features.rst:72
 msgid "2D graphics"
-msgstr "Mga 2D na graphics"
+msgstr ""
 
-#: about/list_of_features.rst:74 about/list_of_features.rst:141
+#: about/list_of_features.rst:74
+#: about/list_of_features.rst:141
 msgid "**Two renderers available:**"
 msgstr ""
 
-#: about/list_of_features.rst:76 about/list_of_features.rst:143
+#: about/list_of_features.rst:76
+#: about/list_of_features.rst:143
 msgid "OpenGL ES 3.0 renderer (uses OpenGL 3.3 on desktop platforms)."
 msgstr ""
 
-#: about/list_of_features.rst:78 about/list_of_features.rst:145
+#: about/list_of_features.rst:78
+#: about/list_of_features.rst:145
 msgid "High-end visuals. Recommended on desktop platforms."
 msgstr ""
 
-#: about/list_of_features.rst:80 about/list_of_features.rst:150
+#: about/list_of_features.rst:80
+#: about/list_of_features.rst:150
 msgid "OpenGL ES 2.0 renderer (uses OpenGL 2.1 on desktop platforms)."
 msgstr ""
 
-#: about/list_of_features.rst:82 about/list_of_features.rst:152
+#: about/list_of_features.rst:82
+#: about/list_of_features.rst:152
 msgid "Recommended on mobile and Web platforms."
 msgstr ""
 
@@ -1553,7 +1515,7 @@ msgstr ""
 
 #: about/list_of_features.rst:91
 msgid "Parallax layers."
-msgstr "Mga Parallax Layers."
+msgstr ""
 
 #: about/list_of_features.rst:93
 msgid "Pseudo-3D support including preview in the editor."
@@ -1561,11 +1523,11 @@ msgstr ""
 
 #: about/list_of_features.rst:95
 msgid "2D lighting with normal maps."
-msgstr "2D na pagiilaw gamit ng normal maps."
+msgstr ""
 
 #: about/list_of_features.rst:97
 msgid "Hard or soft shadows."
-msgstr "Matindi o banayad na mga anino."
+msgstr ""
 
 #: about/list_of_features.rst:99
 msgid ""
@@ -1597,23 +1559,25 @@ msgstr ""
 msgid "GPU-based particles with support for custom particle shaders."
 msgstr ""
 
-#: about/list_of_features.rst:108 about/list_of_features.rst:236
+#: about/list_of_features.rst:108
+#: about/list_of_features.rst:236
 msgid "CPU-based particles."
 msgstr ""
 
 #: about/list_of_features.rst:111
 msgid "2D tools"
-msgstr "Kagamitang pang-2D"
+msgstr ""
 
 #: about/list_of_features.rst:113
 msgid "2D camera with built-in smoothing and drag margins."
-msgstr "Kamerang 2d na may built-in na smoothing at drag margins."
+msgstr ""
 
 #: about/list_of_features.rst:114
 msgid "Path2D node to represent a path in 2D space."
 msgstr ""
 
-#: about/list_of_features.rst:116 about/list_of_features.rst:289
+#: about/list_of_features.rst:116
+#: about/list_of_features.rst:289
 msgid "Can be drawn in the editor or generated procedurally."
 msgstr ""
 
@@ -1633,31 +1597,38 @@ msgstr ""
 msgid "2D physics"
 msgstr ""
 
-#: about/list_of_features.rst:125 about/list_of_features.rst:298
+#: about/list_of_features.rst:125
+#: about/list_of_features.rst:298
 msgid "**Physics bodies:**"
 msgstr ""
 
-#: about/list_of_features.rst:127 about/list_of_features.rst:300
+#: about/list_of_features.rst:127
+#: about/list_of_features.rst:300
 msgid "Static bodies."
 msgstr ""
 
-#: about/list_of_features.rst:128 about/list_of_features.rst:301
+#: about/list_of_features.rst:128
+#: about/list_of_features.rst:301
 msgid "Rigid bodies."
 msgstr ""
 
-#: about/list_of_features.rst:129 about/list_of_features.rst:302
+#: about/list_of_features.rst:129
+#: about/list_of_features.rst:302
 msgid "Kinematic bodies."
 msgstr ""
 
-#: about/list_of_features.rst:130 about/list_of_features.rst:304
+#: about/list_of_features.rst:130
+#: about/list_of_features.rst:304
 msgid "Joints."
 msgstr ""
 
-#: about/list_of_features.rst:131 about/list_of_features.rst:307
+#: about/list_of_features.rst:131
+#: about/list_of_features.rst:307
 msgid "Areas to detect bodies entering or leaving it."
 msgstr ""
 
-#: about/list_of_features.rst:133 about/list_of_features.rst:309
+#: about/list_of_features.rst:133
+#: about/list_of_features.rst:309
 msgid "**Collision detection:**"
 msgstr ""
 
@@ -2001,9 +1972,8 @@ msgid "Fast approximate antialiasing (FXAA)."
 msgstr ""
 
 #: about/list_of_features.rst:267
-#, fuzzy
 msgid "**Performance:**"
-msgstr "**Mga Format:**"
+msgstr ""
 
 #: about/list_of_features.rst:269
 msgid ""
@@ -2091,7 +2061,8 @@ msgid ""
 "Generate one or several convex collision shapes for any mesh from the editor."
 msgstr ""
 
-#: about/list_of_features.rst:316 tutorials/shaders/index.rst:2
+#: about/list_of_features.rst:316
+#: tutorials/shaders/index.rst:2
 msgid "Shaders"
 msgstr ""
 
@@ -2247,7 +2218,7 @@ msgstr ""
 #: about/list_of_features.rst:375 tutorials/audio/index.rst:2
 #: tutorials/export/exporting_for_web.rst:164
 msgid "Audio"
-msgstr "Tunog (Audio)"
+msgstr ""
 
 #: about/list_of_features.rst:379
 msgid "Mono, stereo, 5.1 and 7.1 output."
@@ -2281,7 +2252,7 @@ msgstr ""
 
 #: about/list_of_features.rst:388
 msgid "MIDI input."
-msgstr "Input ng MIDI."
+msgstr ""
 
 #: about/list_of_features.rst:390
 msgid "No support for MIDI output yet."
@@ -2289,7 +2260,7 @@ msgstr ""
 
 #: about/list_of_features.rst:392
 msgid "**APIs used:**"
-msgstr "**Mga Ginagamit na API:**"
+msgstr ""
 
 #: about/list_of_features.rst:394
 msgid "*Windows:* WASAPI."
@@ -2305,7 +2276,7 @@ msgstr ""
 
 #: about/list_of_features.rst:399
 msgid "Import"
-msgstr "Umangkat"
+msgstr ""
 
 #: about/list_of_features.rst:401
 msgid ""
@@ -2315,16 +2286,15 @@ msgstr ""
 
 #: about/list_of_features.rst:403
 msgid "**Formats:**"
-msgstr "**Mga Format:**"
+msgstr ""
 
 #: about/list_of_features.rst:405
-#, fuzzy
 msgid "*Images:* See :doc:`/tutorials/assets_pipeline/importing_images`."
-msgstr "*Mga Imahe:* Tingnan ang :ref:`doc_import_images`."
+msgstr ""
 
 #: about/list_of_features.rst:406
 msgid "*Audio:*"
-msgstr "*Audio:*"
+msgstr ""
 
 #: about/list_of_features.rst:408
 msgid "WAV with optional IMA-ADPCM compression."
@@ -2332,7 +2302,7 @@ msgstr ""
 
 #: about/list_of_features.rst:409
 msgid "Ogg Vorbis."
-msgstr "Ogg Vorbis."
+msgstr ""
 
 #: about/list_of_features.rst:410
 msgid "MP3."
@@ -2365,7 +2335,8 @@ msgid ""
 "such as Blender."
 msgstr ""
 
-#: about/list_of_features.rst:423 tutorials/rendering/viewports.rst:36
+#: about/list_of_features.rst:423
+#: tutorials/rendering/viewports.rst:36
 #: tutorials/ui/custom_gui_controls.rst:110
 msgid "Input"
 msgstr ""
@@ -2425,24 +2396,25 @@ msgid ""
 "Gamepad, keyboard and mouse input support are also available on Android."
 msgstr ""
 
-#: about/list_of_features.rst:445 tutorials/navigation/index.rst:2
+#: about/list_of_features.rst:445
+#: tutorials/navigation/index.rst:2
 msgid "Navigation"
-msgstr "Nabigasyon"
+msgstr ""
 
 #: about/list_of_features.rst:447
 msgid "A* algorithm in 2D and 3D."
-msgstr "Algoritmong A* para sa 2D at 3D."
+msgstr ""
 
 #: about/list_of_features.rst:448
-#, fuzzy
 msgid "Navigation meshes."
-msgstr "Mga Navigation Meshes."
+msgstr ""
 
 #: about/list_of_features.rst:449
 msgid "Generate navigation meshes from the editor."
 msgstr ""
 
-#: about/list_of_features.rst:452 tutorials/export/exporting_for_web.rst:176
+#: about/list_of_features.rst:452
+#: tutorials/export/exporting_for_web.rst:176
 #: tutorials/networking/index.rst:2
 msgid "Networking"
 msgstr ""
@@ -2495,7 +2467,7 @@ msgstr ""
 
 #: about/list_of_features.rst:472 tutorials/i18n/index.rst:2
 msgid "Internationalization"
-msgstr "Internasyonalisasyon"
+msgstr ""
 
 #: about/list_of_features.rst:474
 msgid "Full support for Unicode including emoji."
@@ -2583,11 +2555,11 @@ msgstr ""
 
 #: about/list_of_features.rst:504
 msgid "Mobile"
-msgstr "Mobile"
+msgstr ""
 
 #: about/list_of_features.rst:506
 msgid "In-app purchases on Android and iOS."
-msgstr "Mga in-app purchases sa Android at iOS."
+msgstr ""
 
 #: about/list_of_features.rst:507
 msgid "Support for advertisements using third-party modules."
@@ -2621,7 +2593,7 @@ msgstr ""
 
 #: about/list_of_features.rst:521
 msgid "GUI system"
-msgstr "Sistema ng GUI"
+msgstr ""
 
 #: about/list_of_features.rst:523
 msgid ""
@@ -2636,11 +2608,11 @@ msgstr ""
 
 #: about/list_of_features.rst:528
 msgid "Buttons."
-msgstr "Mga Pindutan."
+msgstr ""
 
 #: about/list_of_features.rst:529
 msgid "Checkboxes, check buttons, radio buttons."
-msgstr "Mga kahong pantsek, pindutang pantsek, at mga pindutang radyo."
+msgstr ""
 
 #: about/list_of_features.rst:530
 msgid "Text entry using LineEdit (single line) and TextEdit (multiple lines)."
@@ -2656,7 +2628,7 @@ msgstr ""
 
 #: about/list_of_features.rst:533
 msgid "Labels."
-msgstr "Mga Label."
+msgstr ""
 
 #: about/list_of_features.rst:534
 msgid ""
@@ -2724,7 +2696,7 @@ msgstr ""
 
 #: about/list_of_features.rst:554
 msgid "**Theming:**"
-msgstr "**Pagtetema:**"
+msgstr ""
 
 #: about/list_of_features.rst:556
 msgid "Built-in theme editor."
@@ -2749,19 +2721,16 @@ msgid "Texture-based theming using :ref:`class_StyleBoxTexture`."
 msgstr ""
 
 #: about/list_of_features.rst:566
-#, fuzzy
 msgid ""
 "Rebel Engine's small distribution size can make it a suitable alternative to "
 "frameworks like Electron or Qt."
 msgstr ""
-"Oo naman! Isa sa mga tampok sa Godot ay ang napakalawak na built-in UI "
-"system, at ang maliit na distribution size nito ay pwedeng maging "
-"alternatibong framework katulod ng Electron o Qt."
 
-#: about/list_of_features.rst:570 development/file_formats/tscn.rst:380
+#: about/list_of_features.rst:570
+#: development/file_formats/tscn.rst:380
 #: tutorials/animation/index.rst:2
 msgid "Animation"
-msgstr "Animasyon"
+msgstr ""
 
 #: about/list_of_features.rst:572
 msgid "Direct kinematics and inverse kinematics."
@@ -2789,7 +2758,8 @@ msgstr ""
 msgid "Support for Bézier curves in animation."
 msgstr ""
 
-#: about/list_of_features.rst:580 development/file_formats/index.rst:2
+#: about/list_of_features.rst:580
+#: development/file_formats/index.rst:2
 msgid "File formats"
 msgstr ""
 
@@ -2899,7 +2869,7 @@ msgstr ""
 
 #: about/list_of_features.rst:623
 msgid "Licensed under the permissive MIT license."
-msgstr "Nakalisensya sa ilalim ng permissive MIT license."
+msgstr ""
 
 #: about/list_of_features.rst:625
 msgid ""
@@ -3028,15 +2998,15 @@ msgstr ""
 
 #: about/release_policy.rst:82
 msgid "**Version**"
-msgstr "**Bersyon**"
+msgstr ""
 
 #: about/release_policy.rst:82
 msgid "**Release date**"
-msgstr "**Petsa ng paglabas**"
+msgstr ""
 
 #: about/release_policy.rst:82
 msgid "**Support level**"
-msgstr "**Antas ng Suporta**"
+msgstr ""
 
 #: about/release_policy.rst:84
 msgid "Rebel Engine 1.0"
@@ -3051,9 +3021,8 @@ msgid "|unstable| *Alpha.* Current focus of development (unstable)."
 msgstr ""
 
 #: about/release_policy.rst:90
-#, fuzzy
 msgid "unstable"
-msgstr "Paganahin"
+msgstr ""
 
 #: about/release_policy.rst:92
 msgid ""
@@ -3125,8 +3094,6 @@ msgid ""
 "This is a `known bug <https://github.com/godotengine/godot/issues/30330>`__ "
 "on Intel graphics drivers on Windows."
 msgstr ""
-"Kilalang bug 'to sa Intel graphics drivers sa Windows. `<https://github.com/"
-"godotengine/godot/issues/30330>`__"
 
 #: about/troubleshooting.rst:23
 msgid ""
@@ -3134,24 +3101,16 @@ msgid ""
 "switch the renderer in the top-right corner of the editor or the Project "
 "Settings."
 msgstr ""
-"Ang diskarte sa ngayon ay pumalit sa GLES2 renderer. Maari mong ipalit ang "
-"renderer sa kaliwang sulok sa taas ng editor o sa Ayos ng Proyekto (Project "
-"Settings)."
 
 #: about/troubleshooting.rst:26
-#, fuzzy
 msgid ""
 "If you use a computer allowing you to switch your graphics card, like NVIDIA "
 "Optimus, you can use the dedicated graphics card to run Rebel Engine."
 msgstr ""
-"Kung gumagamit ka ng kompyuter na pumapayag na palitan ang graphics card mo, "
-"katulad ng NVIDIA Optimus, maari mong gamitan ang dedicated graphics card "
-"upang patakbuhin ang Godot."
 
 #: about/troubleshooting.rst:30
-#, fuzzy
 msgid "The editor or project takes a very long time to start."
-msgstr "Napakatagal magumpisa ang proyekto."
+msgstr ""
 
 #: about/troubleshooting.rst:32
 msgid ""
@@ -3221,9 +3180,8 @@ msgid ""
 msgstr ""
 
 #: about/troubleshooting.rst:69
-#, fuzzy
 msgid "The project window appears blurry, unlike the editor."
-msgstr "Ang tabing ng project ay malabo, hindi katulad ng editor."
+msgstr ""
 
 #: about/troubleshooting.rst:71
 msgid ""
@@ -3241,10 +3199,8 @@ msgid ""
 msgstr ""
 
 #: about/troubleshooting.rst:80
-#, fuzzy
 msgid "The project window doesn't appear centered when I run the project."
 msgstr ""
-"Hindi naka-gitna ang tabing ng proyekto kapag pinapatakbo ang proyekto."
 
 #: about/troubleshooting.rst:82
 msgid ""
@@ -3256,13 +3212,10 @@ msgid ""
 msgstr ""
 
 #: about/troubleshooting.rst:88
-#, fuzzy
 msgid ""
 "The project works when run from the editor, but fails to load some files "
 "when running from an exported copy."
 msgstr ""
-"Tumatakbo lang ang proyekto kapag galing sa editor, pero nabibigong mag-"
-"ankat ng mga file kapag tumtatakbo ito mula sa isang exported na kopya."
 
 #: about/troubleshooting.rst:90
 msgid ""
@@ -3323,9 +3276,8 @@ msgid ""
 msgstr ""
 
 #: contributing/api_writing_guidelines.rst:2
-#, fuzzy
 msgid "API writing guidelines"
-msgstr "Sanggunian ng Class"
+msgstr ""
 
 #: contributing/api_writing_guidelines.rst:4
 msgid ""
@@ -3361,20 +3313,17 @@ msgid ""
 msgstr ""
 
 #: contributing/api_writing_guidelines.rst:70
-#, fuzzy
 msgid "`<brief_description>`"
-msgstr "Paglalarawan"
+msgstr ""
 
 #: contributing/api_writing_guidelines.rst:71
-#, fuzzy
 msgid "`<description>`"
-msgstr "Paglalarawan"
+msgstr ""
 
 #: contributing/api_writing_guidelines.rst:72
 #: contributing/api_writing_guidelines.rst:77
-#, fuzzy
 msgid "`<constant>`"
-msgstr "Mga Konstant"
+msgstr ""
 
 #: contributing/api_writing_guidelines.rst:73
 msgid ""
@@ -3485,14 +3434,12 @@ msgid "Link a class"
 msgstr ""
 
 #: contributing/api_writing_guidelines.rst:121
-#, fuzzy
 msgid "Move the [Sprite]."
-msgstr "Tumingin sa :ref:`doc_ways_to_contribute`."
+msgstr ""
 
 #: contributing/api_writing_guidelines.rst:121
-#, fuzzy
 msgid "Move the :ref:`class_Sprite`."
-msgstr "Tumingin sa :ref:`doc_ways_to_contribute`."
+msgstr ""
 
 #: contributing/api_writing_guidelines.rst:123
 msgid "[method methodname]"
@@ -3740,15 +3687,13 @@ msgstr ""
 
 #: contributing/api_writing_guidelines.rst:240
 msgid "I don't know what this method does!"
-msgstr "'Di ko alam kung anong ginagawa ng method na 'to!"
+msgstr ""
 
 #: contributing/api_writing_guidelines.rst:242
 msgid ""
 "No problem. Leave it behind, and list the methods you skipped when you "
 "request a pull of your changes. Another writer will take care of it."
 msgstr ""
-"Wag kang mag-abala. Uwinan mo nalang, at itala ang mga method na iniwan mo "
-"kapag humilingin ka ng pull ng mga binago mo. Ibang manunulat ang gagawa."
 
 #: contributing/api_writing_guidelines.rst:245
 msgid ""
@@ -3766,20 +3711,29 @@ msgstr ""
 #: development/engine/custom_resource_format_loaders.rst:5
 #: development/engine/custom_servers.rst:5
 #: getting_started/introduction/index.rst:2
-#: tutorials/2d/2d_lights_and_shadows.rst:5 tutorials/2d/2d_meshes.rst:5
-#: tutorials/2d/2d_movement.rst:5 tutorials/2d/2d_sprite_animation.rst:5
-#: tutorials/2d/2d_transforms.rst:5 tutorials/2d/custom_drawing_in_2d.rst:5
+#: tutorials/2d/2d_lights_and_shadows.rst:5
+#: tutorials/2d/2d_meshes.rst:5
+#: tutorials/2d/2d_movement.rst:5
+#: tutorials/2d/2d_sprite_animation.rst:5
+#: tutorials/2d/2d_transforms.rst:5
+#: tutorials/2d/custom_drawing_in_2d.rst:5
 #: tutorials/2d/using_tilemaps.rst:5
 #: tutorials/3d/3d_rendering_limitations.rst:11
-#: tutorials/3d/baked_lightmaps.rst:5 tutorials/3d/gi_probes.rst:5
-#: tutorials/3d/high_dynamic_range.rst:5 tutorials/3d/lights_and_shadows.rst:5
+#: tutorials/3d/baked_lightmaps.rst:5
+#: tutorials/3d/gi_probes.rst:5
+#: tutorials/3d/high_dynamic_range.rst:5
+#: tutorials/3d/lights_and_shadows.rst:5
 #: tutorials/3d/portals/rooms_and_portals_example.rst:8
-#: tutorials/3d/reflection_probes.rst:5 tutorials/3d/spatial_material.rst:5
+#: tutorials/3d/reflection_probes.rst:5
+#: tutorials/3d/spatial_material.rst:5
 #: tutorials/3d/using_gridmaps.rst:5
 #: tutorials/3d/using_multi_mesh_instance.rst:5
-#: tutorials/3d/using_transforms.rst:5 tutorials/animation/2d_skeletons.rst:5
-#: tutorials/animation/animation_tree.rst:5 tutorials/audio/audio_buses.rst:5
-#: tutorials/audio/audio_streams.rst:5 tutorials/audio/sync_with_audio.rst:5
+#: tutorials/3d/using_transforms.rst:5
+#: tutorials/animation/2d_skeletons.rst:5
+#: tutorials/animation/animation_tree.rst:5
+#: tutorials/audio/audio_buses.rst:5
+#: tutorials/audio/audio_streams.rst:5
+#: tutorials/audio/sync_with_audio.rst:5
 #: tutorials/best_practices/introduction_best_practices.rst:2
 #: tutorials/best_practices/project_organization.rst:5
 #: tutorials/best_practices/version_control_systems.rst:5
@@ -3787,7 +3741,8 @@ msgstr ""
 #: tutorials/export/feature_tags.rst:5
 #: tutorials/i18n/internationalizing_games.rst:5
 #: tutorials/inputs/input_examples.rst:5
-#: tutorials/io/binary_serialization_api.rst:5 tutorials/io/saving_games.rst:5
+#: tutorials/io/binary_serialization_api.rst:5
+#: tutorials/io/saving_games.rst:5
 #: tutorials/math/matrices_and_transforms.rst:5
 #: tutorials/math/vector_math.rst:5
 #: tutorials/navigation/real_time_navigation_3d.rst:5
@@ -3797,7 +3752,8 @@ msgstr ""
 #: tutorials/performance/gpu_optimization.rst:5
 #: tutorials/performance/index.rst:5
 #: tutorials/physics/kinematic_character_2d.rst:5
-#: tutorials/physics/ragdoll_system.rst:5 tutorials/physics/ray-casting.rst:5
+#: tutorials/physics/ragdoll_system.rst:5
+#: tutorials/physics/ray-casting.rst:5
 #: tutorials/physics/using_area_2d.rst:5
 #: tutorials/physics/using_kinematic_body_2d.rst:5
 #: tutorials/platforms/android/android_plugin.rst:5
@@ -3824,7 +3780,7 @@ msgstr ""
 #: tutorials/vr/openvr/vr_starter_tutorial_part_two.rst:5
 #: tutorials/vr/openxr/index.rst:7
 msgid "Introduction"
-msgstr "Panimula"
+msgstr ""
 
 #: contributing/best_practices_for_engine_contributors.rst:7
 msgid ""
@@ -4477,9 +4433,8 @@ msgid "Creating a local copy of the Rebel Documentation repository"
 msgstr ""
 
 #: contributing/building_the_documentation.rst:40
-#, fuzzy
 msgid "Building Rebel Documentation locally"
-msgstr "Mga pagbabago sa documentasyon"
+msgstr ""
 
 #: contributing/building_the_documentation.rst:41
 msgid "Reviewing your changes locally"
@@ -5301,9 +5256,10 @@ msgid ""
 msgstr ""
 
 #: contributing/contributing_to_the_documentation.rst:8
-#: contributing/how_can_i_contribute.rst:14 tutorials/vr/openxr/index.rst:14
+#: contributing/how_can_i_contribute.rst:14
+#: tutorials/vr/openxr/index.rst:14
 msgid "Getting started"
-msgstr "Magsimula"
+msgstr ""
 
 #: contributing/contributing_to_the_documentation.rst:10
 msgid ""
@@ -5331,9 +5287,8 @@ msgid ""
 msgstr ""
 
 #: contributing/contributing_to_the_documentation.rst:25
-#, fuzzy
 msgid "What is the Rebel Documentation"
-msgstr "Tungkol sa dokumentasyon"
+msgstr ""
 
 #: contributing/contributing_to_the_documentation.rst:27
 msgid ""
@@ -5361,9 +5316,8 @@ msgid ""
 msgstr ""
 
 #: contributing/contributing_to_the_documentation.rst:40
-#, fuzzy
 msgid "Contributing changes"
-msgstr "Mga pagbabago sa documentasyon"
+msgstr ""
 
 #: contributing/contributing_to_the_documentation.rst:42
 msgid ""
@@ -5606,9 +5560,8 @@ msgid "See :doc:`code_style_guidelines` for formatting guidelines."
 msgstr ""
 
 #: contributing/cpp_usage_guidelines.rst:34
-#, fuzzy
 msgid "Disallowed features"
-msgstr "Talatampukan (Listahan ng mga feature)"
+msgstr ""
 
 #: contributing/cpp_usage_guidelines.rst:36
 msgid ""
@@ -6525,9 +6478,8 @@ msgid ""
 msgstr ""
 
 #: contributing/how_can_i_contribute.rst:26
-#, fuzzy
 msgid "Writing documentation"
-msgstr "Ayos ng dokumentasyon"
+msgstr ""
 
 #: contributing/how_can_i_contribute.rst:28
 msgid ""
@@ -6551,14 +6503,12 @@ msgid "Writing the manual"
 msgstr ""
 
 #: contributing/how_can_i_contribute.rst:55
-#, fuzzy
 msgid "API Documentation"
-msgstr "Mga pagbabago sa documentasyon"
+msgstr ""
 
 #: contributing/how_can_i_contribute.rst:57
-#, fuzzy
 msgid "The pages below focus on the API documentation."
-msgstr "Ayos ng dokumentasyon"
+msgstr ""
 
 #: contributing/how_can_i_contribute.rst:59
 msgid ""
@@ -7882,9 +7832,8 @@ msgid ""
 msgstr ""
 
 #: development/compiling/build_for_android.rst:56
-#, fuzzy
 msgid "Compile Rebel Engine for Android"
-msgstr "Niluluwas para sa Android"
+msgstr ""
 
 #: development/compiling/build_for_android.rst:58
 msgid "To compile Rebel Engine for Android, from the command line run:"
@@ -8154,7 +8103,7 @@ msgstr ""
 #: development/compiling/index.rst:2
 #: tutorials/scripting/gdnative/gdnative_c_example.rst:310
 msgid "Compiling"
-msgstr "Pagkukompayl"
+msgstr ""
 
 #: development/compiling/compiling_for_ios.rst:28
 msgid "Open a Terminal, go to the root dir of the engine source code and type:"
@@ -8204,7 +8153,7 @@ msgstr ""
 #: development/compiling/compiling_for_ios.rst:77
 #: tutorials/editor/default_key_mapping.rst:331
 msgid "Run"
-msgstr "Patakbuhin"
+msgstr ""
 
 #: development/compiling/compiling_for_ios.rst:79
 msgid ""
@@ -9393,9 +9342,8 @@ msgid ""
 msgstr ""
 
 #: development/compiling/compiling_for_x11.rst:239
-#, fuzzy
 msgid "Using Pyston for faster development"
-msgstr "Paggagawa ng Engine"
+msgstr ""
 
 #: development/compiling/compiling_for_x11.rst:241
 msgid ""
@@ -10382,7 +10330,8 @@ msgid ""
 msgstr ""
 
 #: development/compiling/introduction_to_the_buildsystem.rst:38
-#: tutorials/2d/2d_lights_and_shadows.rst:19 tutorials/2d/2d_movement.rst:15
+#: tutorials/2d/2d_lights_and_shadows.rst:19
+#: tutorials/2d/2d_movement.rst:15
 #: tutorials/animation/2d_skeletons.rst:27
 #: tutorials/platforms/customizing_html5_shell.rst:42
 #: tutorials/shaders/your_first_shader/your_first_2d_shader.rst:21
@@ -10487,7 +10436,7 @@ msgstr ""
 #: tutorials/2d/custom_drawing_in_2d.rst:462
 #: tutorials/3d/procedural_geometry/index.rst:74
 msgid "Tools"
-msgstr "Mga Kagamitan"
+msgstr ""
 
 #: development/compiling/introduction_to_the_buildsystem.rst:128
 msgid ""
@@ -10498,7 +10447,7 @@ msgstr ""
 
 #: development/compiling/introduction_to_the_buildsystem.rst:138
 msgid "Target"
-msgstr "Pinagtututukan"
+msgstr ""
 
 #: development/compiling/introduction_to_the_buildsystem.rst:140
 msgid "Target controls optimization and debug flags. Each mode means:"
@@ -10909,9 +10858,8 @@ msgid "TreeItem"
 msgstr ""
 
 #: development/compiling/optimizing_for_size.rst:128
-#, fuzzy
 msgid "OptionButton"
-msgstr "Pagbibilis"
+msgstr ""
 
 #: development/compiling/optimizing_for_size.rst:129
 msgid "SpinBox"
@@ -10942,9 +10890,8 @@ msgid "PopupDialog"
 msgstr ""
 
 #: development/compiling/optimizing_for_size.rst:136
-#, fuzzy
 msgid "WindowDialog"
-msgstr "Windows"
+msgstr ""
 
 #: development/compiling/optimizing_for_size.rst:137
 msgid "AcceptDialog"
@@ -11111,9 +11058,8 @@ msgid ""
 msgstr ""
 
 #: development/configuring_an_ide/android_studio.rst:67
-#, fuzzy
 msgid "Settings..."
-msgstr "Pagsasaayos:"
+msgstr ""
 
 #: development/configuring_an_ide/android_studio.rst:69
 msgid ""
@@ -11178,9 +11124,8 @@ msgid "In the **Welcome to CLion** window, select **Open**."
 msgstr ""
 
 #: development/configuring_an_ide/clion.rst:18
-#, fuzzy
 msgid "Welcome to CLion"
-msgstr "Pumunta sa Line"
+msgstr ""
 
 #: development/configuring_an_ide/clion.rst:20
 msgid ""
@@ -11472,9 +11417,8 @@ msgid ""
 msgstr ""
 
 #: development/configuring_an_ide/code_blocks.rst:9
-#, fuzzy
 msgid "Create a new project"
-msgstr "Magsimula"
+msgstr ""
 
 #: development/configuring_an_ide/code_blocks.rst:11
 msgid ""
@@ -11613,9 +11557,8 @@ msgid ""
 msgstr ""
 
 #: development/configuring_an_ide/code_blocks.rst:127
-#, fuzzy
 msgid "Project properties..."
-msgstr "Mga Katangian"
+msgstr ""
 
 #: development/configuring_an_ide/code_blocks.rst:129
 msgid "Check the **This is a custom Makefile** property."
@@ -11693,9 +11636,8 @@ msgid "Output filename and don't auto-generate prefix or extension"
 msgstr ""
 
 #: development/configuring_an_ide/code_blocks.rst:190
-#, fuzzy
 msgid "There are two additional points worth noting:"
-msgstr "May mga dahilan kung bakit ganito:"
+msgstr ""
 
 #: development/configuring_an_ide/code_blocks.rst:192
 msgid ""
@@ -11718,9 +11660,8 @@ msgid ""
 msgstr ""
 
 #: development/configuring_an_ide/code_blocks.rst:200
-#, fuzzy
 msgid "Save your settings"
-msgstr "Pagsasaayos:"
+msgstr ""
 
 #: development/configuring_an_ide/code_blocks.rst:202
 msgid ""
@@ -11730,9 +11671,8 @@ msgid ""
 msgstr ""
 
 #: development/configuring_an_ide/code_blocks.rst:211
-#, fuzzy
 msgid "Environment settings..."
-msgstr "Pagsasaayos:"
+msgstr ""
 
 #: development/configuring_an_ide/code_blocks.rst:213
 msgid ""
@@ -12064,9 +12004,8 @@ msgid ""
 msgstr ""
 
 #: development/configuring_an_ide/qt_creator.rst:49
-#, fuzzy
 msgid "File selection"
-msgstr "Alisin ang Nakapili"
+msgstr ""
 
 #: development/configuring_an_ide/qt_creator.rst:53
 msgid ""
@@ -12096,9 +12035,8 @@ msgid ""
 msgstr ""
 
 #: development/configuring_an_ide/qt_creator.rst:80
-#, fuzzy
 msgid "Edit Files"
-msgstr "Hanapin sa mga file"
+msgstr ""
 
 #: development/configuring_an_ide/qt_creator.rst:82
 msgid ""
@@ -12123,9 +12061,8 @@ msgid "``*.mm``: macOS platform development"
 msgstr ""
 
 #: development/configuring_an_ide/qt_creator.rst:94
-#, fuzzy
 msgid "Update file selection"
-msgstr "I-duplicate ang Pinagpipilian"
+msgstr ""
 
 #: development/configuring_an_ide/qt_creator.rst:96
 msgid "Click **OK** and the list of files and folders will be updated."
@@ -12157,9 +12094,8 @@ msgid ""
 msgstr ""
 
 #: development/configuring_an_ide/qt_creator.rst:122
-#, fuzzy
 msgid "Qt Creator Projects Mode"
-msgstr "Bumalik sa Talaproyektuhan"
+msgstr ""
 
 #: development/configuring_an_ide/qt_creator.rst:124
 msgid ""
@@ -12366,9 +12302,8 @@ msgid "At the Visual Studio start screen, select **Open a folder**."
 msgstr ""
 
 #: development/configuring_an_ide/visual_studio.rst:107
-#, fuzzy
 msgid "Open a folder"
-msgstr "Gumawa ng Folder"
+msgstr ""
 
 #: development/configuring_an_ide/visual_studio.rst:109
 #: development/configuring_an_ide/visual_studio_code.rst:24
@@ -12507,9 +12442,8 @@ msgid ""
 msgstr ""
 
 #: development/configuring_an_ide/visual_studio.rst:205
-#, fuzzy
 msgid "Add Debug Configuration"
-msgstr "Animasyon"
+msgstr ""
 
 #: development/configuring_an_ide/visual_studio.rst:207
 msgid ""
@@ -12634,9 +12568,8 @@ msgid ""
 msgstr ""
 
 #: development/configuring_an_ide/visual_studio.rst:279
-#, fuzzy
 msgid "``CppProperties.json``"
-msgstr "Mga Katangian"
+msgstr ""
 
 #: development/configuring_an_ide/visual_studio.rst:281
 msgid "In the configuration drop down list, select your new configuration."
@@ -13343,12 +13276,10 @@ msgid ""
 "If you're adding a new enum, its values should be ordered from the fastest "
 "option to the slowest option."
 msgstr ""
-"Kung magdadagdag ka ng panibagong enum, ang mga halaga nito ay dapat maayos "
-"mula sa pinakamabilis na opsyon hanggang sa pinakamabagal."
 
 #: development/editor/editor_style_guide.rst:82
 msgid "Tooltips"
-msgstr "Mga Tooltip"
+msgstr ""
 
 #: development/editor/editor_style_guide.rst:84
 msgid ""
@@ -13356,9 +13287,6 @@ msgid ""
 "action isn't obvious. You can also provide additional context or highlight "
 "caveats in the tooltip."
 msgstr ""
-"Isaalang alang ang pagdagdag ng tooltip kung hindi nahahalata ang aksyong "
-"ginawa ng buton o aksyon mula sa menu. Maari kang magdagdag ng karagdagang "
-"saysay o bigyang diin ang mga babala sa tooltip."
 
 #: development/editor/editor_style_guide.rst:88
 msgid ""
@@ -13373,21 +13301,14 @@ msgid ""
 "Tooltips should follow the writing style described above. In addition to "
 "this, use indicative mood instead of imperative mood:"
 msgstr ""
-"Dapat sundin sa pagpapangalan ng mga tooltips ang wastong pagsusulat na "
-"nakasaad sa itaas. Bukod pa dito, gamitin ang panaganong paturol o "
-"indicative mood sa halip na pautos:"
 
 #: development/editor/editor_style_guide.rst:95
 msgid "**Good:** *Computes global illumination for the selected GIProbe.*"
 msgstr ""
-"**Tama:** *Tinutuos ang pankalahatang ilaw ng kapaligiran para sa piniling "
-"GlProbe.*"
 
 #: development/editor/editor_style_guide.rst:96
 msgid "**Bad:** *Compute global illumination for the selected GIProbe.*"
 msgstr ""
-"**Mali:** *Ituos ang pankalahatang ilaw ng kapaligiran para sa piniling "
-"GlProbe..*"
 
 #: development/editor/index.rst:2
 msgid "Editor development"
@@ -13565,7 +13486,7 @@ msgstr ""
 #: development/engine/binding_to_external_libraries.rst:5
 #: development/engine/custom_modules_in_cpp.rst:5
 msgid "Modules"
-msgstr "Mga Modyul"
+msgstr ""
 
 #: development/engine/binding_to_external_libraries.rst:7
 msgid ""
@@ -14193,7 +14114,8 @@ msgid ""
 "math>`__"
 msgstr ""
 
-#: development/engine/core_types.rst:206 development/file_formats/tscn.rst:138
+#: development/engine/core_types.rst:206
+#: development/file_formats/tscn.rst:138
 msgid "NodePath"
 msgstr ""
 
@@ -14980,9 +14902,8 @@ msgid "Then attach the following script to any node::"
 msgstr ""
 
 #: development/engine/custom_servers.rst:2
-#, fuzzy
 msgid "Custom Servers"
-msgstr "Patakbuhin ang Pinasadyang Eksena"
+msgstr ""
 
 #: development/engine/custom_servers.rst:7
 msgid ""
@@ -15032,9 +14953,8 @@ msgid "And more..."
 msgstr ""
 
 #: development/engine/custom_servers.rst:32
-#, fuzzy
 msgid "Creating a Rebel Server"
-msgstr "Magsimula"
+msgstr ""
 
 #: development/engine/custom_servers.rst:34
 msgid ""
@@ -15149,7 +15069,7 @@ msgstr ""
 
 #: development/engine/index.rst:2
 msgid "Engine development"
-msgstr "Paggagawa ng Engine"
+msgstr ""
 
 #: development/engine/index.rst:5
 msgid "Getting started with Rebel Engine's source code"
@@ -15211,9 +15131,8 @@ msgid "Source files: :download:`class-tree.zip <files/class-tree.zip>`."
 msgstr ""
 
 #: development/engine/introduction_to_rebel_development.rst:2
-#, fuzzy
 msgid "Introduction to Rebel Engine development"
-msgstr "Panimula"
+msgstr ""
 
 #: development/engine/introduction_to_rebel_development.rst:4
 msgid ""
@@ -15397,7 +15316,7 @@ msgstr ""
 #: tutorials/shaders/shader_reference/shading_language.rst:256
 #: tutorials/shaders/shaders_style_guide.rst:305
 msgid "Constants"
-msgstr "Mga Konstant"
+msgstr ""
 
 #: development/engine/object_class.rst:97
 msgid "Classes often have enums such as:"
@@ -15485,9 +15404,8 @@ msgid "This creates the property using the setter and the getter."
 msgstr ""
 
 #: development/engine/object_class.rst:174
-#, fuzzy
 msgid "Binding properties"
-msgstr "Mga Katangian"
+msgstr ""
 
 #: development/engine/object_class.rst:176
 msgid ""
@@ -15533,7 +15451,7 @@ msgstr ""
 #: tutorials/scripting/gdscript/gdscript_styleguide.rst:580
 #: tutorials/scripting/visual_script/nodes_purposes.rst:162
 msgid "Signals"
-msgstr "Mga Hudyat"
+msgstr ""
 
 #: development/engine/object_class.rst:215
 msgid ""
@@ -15969,7 +15887,7 @@ msgstr ""
 #: tutorials/inputs/mouse_and_input_coordinates.rst:5
 #: tutorials/scripting/gdscript/gdscript_advanced.rst:5
 msgid "About"
-msgstr "Tungkol dito"
+msgstr ""
 
 #: development/engine/variant_class.rst:7
 msgid ""
@@ -16074,7 +15992,7 @@ msgstr ""
 
 #: development/file_formats/gdscript_grammar.rst:2
 msgid "GDScript grammar"
-msgstr "Baralila ng GDScript"
+msgstr ""
 
 #: development/file_formats/gdscript_grammar.rst:4
 msgid ""
@@ -16131,13 +16049,15 @@ msgstr ""
 
 #: development/file_formats/tscn.rst:25
 msgid "File Descriptor"
-msgstr "Tagalarawan ng File"
+msgstr ""
 
-#: development/file_formats/tscn.rst:26 development/file_formats/tscn.rst:277
+#: development/file_formats/tscn.rst:26
+#: development/file_formats/tscn.rst:277
 msgid "External resources"
 msgstr ""
 
-#: development/file_formats/tscn.rst:27 development/file_formats/tscn.rst:299
+#: development/file_formats/tscn.rst:27
+#: development/file_formats/tscn.rst:299
 msgid "Internal resources"
 msgstr ""
 
@@ -16239,7 +16159,7 @@ msgstr ""
 
 #: development/file_formats/tscn.rst:79
 msgid "``owner``"
-msgstr "``may-ari``"
+msgstr ""
 
 #: development/file_formats/tscn.rst:80
 msgid ""
@@ -16249,7 +16169,7 @@ msgstr ""
 
 #: development/file_formats/tscn.rst:81
 msgid "``groups``"
-msgstr "``mga grupo``"
+msgstr ""
 
 #: development/file_formats/tscn.rst:83
 msgid ""
@@ -16306,7 +16226,8 @@ msgstr ""
 msgid "``pose``"
 msgstr ""
 
-#: development/file_formats/tscn.rst:175 development/file_formats/tscn.rst:396
+#: development/file_formats/tscn.rst:175
+#: development/file_formats/tscn.rst:396
 msgid "``enabled``"
 msgstr ""
 
@@ -16669,17 +16590,12 @@ msgstr ""
 
 #: getting_started/first_2d_game/01.project_setup.rst:13
 #: getting_started/first_2d_game/01.project_setup.rst:20
-#, fuzzy
 msgid ""
 "Download :download:`Dodge the Creeps Assets <files/dodge-the-creeps-"
 "assets.zip>`. The archive contains the images and sounds you'll be using to "
 "make the game. Extract the archive and move the ``art/`` and ``fonts/`` "
 "directories to your project's directory."
 msgstr ""
-"Buksan ang Godot at gumawa ng bagong proyekto. Pagkatapos i-download "
-"ang :download:`dodge_assets.zip <files/dodge_assets.zip>`. Nilalaman nito "
-"ang mga imahe at mga tunog na gagamitin mo para sa paggagawa sa laro. I-"
-"unzip ang mga file na ito sa polder ng proyekto mo."
 
 #: getting_started/first_2d_game/01.project_setup.rst:18
 #: getting_started/first_2d_game/index.rst:45
@@ -16714,7 +16630,6 @@ msgid "GDNative C++"
 msgstr ""
 
 #: getting_started/first_2d_game/01.project_setup.rst:31
-#, fuzzy
 msgid ""
 "Download :download:`Dodge the Creeps GDNative Assets <files/dodge-the-creeps-"
 "gdnative-assets.zip>`. The archive contains the images and sounds you'll be "
@@ -16722,10 +16637,6 @@ msgid ""
 "including a ``SConstruct`` file, a ``dodge_the_creeps.gdnlib`` file, a "
 "``player.gdns`` file, and an ``entry.cpp`` file."
 msgstr ""
-"Buksan ang Godot at gumawa ng bagong proyekto. Pagkatapos i-download "
-"ang :download:`dodge_assets.zip <files/dodge_assets.zip>`. Nilalaman nito "
-"ang mga imahe at mga tunog na gagamitin mo para sa paggagawa sa laro. I-"
-"unzip ang mga file na ito sa polder ng proyekto mo."
 
 #: getting_started/first_2d_game/01.project_setup.rst:38
 msgid ""
@@ -17788,7 +17699,7 @@ msgstr ""
 
 #: getting_started/first_2d_game/06.heads_up_display.rst:76
 msgid "Message"
-msgstr "Mensahe"
+msgstr ""
 
 #: getting_started/first_2d_game/06.heads_up_display.rst:78
 msgid "*Layout* : \"HCenter Wide\""
@@ -18090,9 +18001,8 @@ msgid ""
 msgstr ""
 
 #: getting_started/first_2d_game/index.rst:2
-#, fuzzy
 msgid "Your first 2D game"
-msgstr "Ang una mong laro"
+msgstr ""
 
 #: getting_started/first_2d_game/index.rst:4
 msgid ""
@@ -18159,9 +18069,8 @@ msgid "Create a complete 2D game with the Rebel Editor."
 msgstr ""
 
 #: getting_started/first_2d_game/index.rst:23
-#, fuzzy
 msgid "Structure a simple game project."
-msgstr "Lumikha o umangkat ng proyekto"
+msgstr ""
 
 #: getting_started/first_2d_game/index.rst:24
 msgid "Move the player character and change its sprite."
@@ -21225,9 +21134,8 @@ msgid ""
 msgstr ""
 
 #: getting_started/first_3d_game/index.rst:2
-#, fuzzy
 msgid "Your first 3D game"
-msgstr "Ang una mong laro"
+msgstr ""
 
 #: getting_started/first_3d_game/index.rst:4
 msgid ""
@@ -21663,13 +21571,10 @@ msgid "The four main screens"
 msgstr ""
 
 #: getting_started/introduction/first_look_at_the_editor.rst:92
-#, fuzzy
 msgid ""
 "There are four main screen buttons centered at the top of the editor: 2D, "
 "3D, Script, and AssetLib."
 msgstr ""
-"Makikita mo ang apat na pindutan ng workspace mo sa itaas: 2D, 3D, Skrip at "
-"AssetLib."
 
 #: getting_started/introduction/first_look_at_the_editor.rst:95
 msgid ""
@@ -21702,9 +21607,8 @@ msgid ""
 msgstr ""
 
 #: getting_started/introduction/first_look_at_the_editor.rst:119
-#, fuzzy
 msgid "Integrated API documentation"
-msgstr "Tungkol sa dokumentasyon"
+msgstr ""
 
 #: getting_started/introduction/first_look_at_the_editor.rst:121
 msgid "Rebel Engine comes with a built-in API documentation."
@@ -21765,9 +21669,8 @@ msgid ""
 msgstr ""
 
 #: getting_started/introduction/introduction_to_rebel.rst:2
-#, fuzzy
 msgid "Introduction to Rebel"
-msgstr "Panimula"
+msgstr ""
 
 #: getting_started/introduction/introduction_to_rebel.rst:4
 msgid ""
@@ -22036,7 +21939,8 @@ msgstr ""
 #: getting_started/step_by_step/scripting_languages.rst:165
 #: getting_started/step_by_step/scripting_player_input.rst:178
 #: getting_started/step_by_step/signals.rst:373
-#: tutorials/2d/2d_movement.rst:351 tutorials/2d/2d_sprite_animation.rst:261
+#: tutorials/2d/2d_movement.rst:351
+#: tutorials/2d/2d_sprite_animation.rst:261
 #: tutorials/export/exporting_pcks.rst:136
 #: tutorials/scripting/gdscript/static_typing.rst:372
 msgid "Summary"
@@ -22063,9 +21967,8 @@ msgid ""
 msgstr ""
 
 #: getting_started/introduction/learning_new_features.rst:6
-#, fuzzy
 msgid "Learning new features"
-msgstr "Talatampukan (Listahan ng mga feature)"
+msgstr ""
 
 #: getting_started/introduction/learning_new_features.rst:8
 msgid ""
@@ -22278,9 +22181,8 @@ msgid ""
 msgstr ""
 
 #: getting_started/step_by_step/instancing.rst:2
-#, fuzzy
 msgid "Creating instances"
-msgstr "Magsimula"
+msgstr ""
 
 #: getting_started/step_by_step/instancing.rst:4
 msgid ""
@@ -22597,9 +22499,8 @@ msgid ""
 msgstr ""
 
 #: getting_started/step_by_step/nodes_and_scenes.rst:4
-#, fuzzy
 msgid "Nodes and Scenes"
-msgstr "Magbukas ng Eksena"
+msgstr ""
 
 #: getting_started/step_by_step/nodes_and_scenes.rst:6
 msgid ""
@@ -22625,9 +22526,8 @@ msgid "A name."
 msgstr ""
 
 #: getting_started/step_by_step/nodes_and_scenes.rst:22
-#, fuzzy
 msgid "Editable properties."
-msgstr "Mga Katangian"
+msgstr ""
 
 #: getting_started/step_by_step/nodes_and_scenes.rst:23
 msgid "They receive callbacks to update every frame."
@@ -22830,9 +22730,8 @@ msgid ""
 msgstr ""
 
 #: getting_started/step_by_step/nodes_and_scenes.rst:163
-#, fuzzy
 msgid "Setting the main scene"
-msgstr "Pagsusunod sa markup syntax"
+msgstr ""
 
 #: getting_started/step_by_step/nodes_and_scenes.rst:165
 msgid ""
@@ -22898,7 +22797,7 @@ msgstr ""
 #: getting_started/step_by_step/scripting_first_script.rst:32
 #: tutorials/2d/using_tilemaps.rst:19
 msgid "Project setup"
-msgstr "Pagsasaayos ng Proyekto"
+msgstr ""
 
 #: getting_started/step_by_step/scripting_first_script.rst:34
 msgid ""
@@ -23142,9 +23041,8 @@ msgid "Run the scene to see the Rebel icon turn in-place."
 msgstr ""
 
 #: getting_started/step_by_step/scripting_first_script.rst:262
-#, fuzzy
 msgid "Moving forward"
-msgstr "Umusad"
+msgstr ""
 
 #: getting_started/step_by_step/scripting_first_script.rst:264
 msgid ""
@@ -23199,9 +23097,8 @@ msgstr ""
 #: getting_started/step_by_step/scripting_first_script.rst:308
 #: getting_started/step_by_step/scripting_player_input.rst:111
 #: getting_started/step_by_step/signals.rst:274
-#, fuzzy
 msgid "Complete script"
-msgstr "Tagalarawan ng File"
+msgstr ""
 
 #: getting_started/step_by_step/scripting_first_script.rst:310
 #: getting_started/step_by_step/scripting_player_input.rst:113
@@ -23261,9 +23158,8 @@ msgid ""
 msgstr ""
 
 #: getting_started/step_by_step/scripting_languages.rst:39
-#, fuzzy
 msgid "Which language should I use?"
-msgstr "Ano ang GDScript at bakit ko naman gagamitin 'to?"
+msgstr ""
 
 #: getting_started/step_by_step/scripting_languages.rst:41
 msgid ""
@@ -23644,12 +23540,11 @@ msgstr ""
 #: getting_started/step_by_step/signals.rst:-1
 #: tutorials/scripting/instancing_with_signals.rst:-1
 msgid "Signal"
-msgstr "Hudyat"
+msgstr ""
 
 #: getting_started/step_by_step/signals.rst:10
-#, fuzzy
 msgid "Using signals"
-msgstr "Mga Hudyat"
+msgstr ""
 
 #: getting_started/step_by_step/signals.rst:12
 msgid ""
@@ -24062,19 +23957,16 @@ msgid "What's New"
 msgstr ""
 
 #: index.rst:10
-#, fuzzy
 msgid "Getting Started"
-msgstr "Magsimula"
+msgstr ""
 
 #: index.rst:19
-#, fuzzy
 msgid "Tutorials"
-msgstr "Mga text tutorial"
+msgstr ""
 
 #: index.rst:47
-#, fuzzy
 msgid "Class Reference"
-msgstr "Sanggunian ng Class"
+msgstr ""
 
 #: index.rst:55
 msgid "Contributing"
@@ -24082,7 +23974,7 @@ msgstr ""
 
 #: index.rst:66
 msgid "Development"
-msgstr "Paggagawa"
+msgstr ""
 
 #: index.rst:2
 msgid "Rebel Toolbox - Better tools for better games"
@@ -25142,7 +25034,8 @@ msgstr ""
 #: tutorials/io/binary_serialization_api.rst:456
 #: tutorials/io/binary_serialization_api.rst:469
 #: tutorials/io/binary_serialization_api.rst:482
-#: tutorials/io/binary_serialization_api.rst:497 tutorials/io/data_paths.rst:43
+#: tutorials/io/binary_serialization_api.rst:497
+#: tutorials/io/data_paths.rst:43
 #: tutorials/io/data_paths.rst:71
 #: tutorials/plugins/editor/import_plugins.rst:244
 #: tutorials/shaders/converting_glsl_to_rebel_shaders.rst:96
@@ -25640,9 +25533,10 @@ msgid ""
 "information."
 msgstr ""
 
-#: tutorials/2d/index.rst:2 tutorials/performance/index.rst:70
+#: tutorials/2d/index.rst:2
+#: tutorials/performance/index.rst:70
 msgid "2D"
-msgstr "2D"
+msgstr ""
 
 #: tutorials/2d/particle_systems_2d.rst:2
 msgid "Particle systems (2D)"
@@ -26043,7 +25937,7 @@ msgstr ""
 #: tutorials/3d/using_multi_mesh_instance.rst:85
 #: tutorials/assets_pipeline/importing_images.rst:218
 msgid "Scale"
-msgstr "Iskala"
+msgstr ""
 
 #: tutorials/2d/particle_systems_2d.rst:286
 msgid "Determines the initial scale of the particles."
@@ -26476,7 +26370,8 @@ msgid ""
 "no neighbors and lines only one cell wide are not supported."
 msgstr ""
 
-#: tutorials/2d/using_tilemaps.rst:212 tutorials/2d/using_tilemaps.rst:244
+#: tutorials/2d/using_tilemaps.rst:212
+#: tutorials/2d/using_tilemaps.rst:244
 msgid "**Template - Generic:**"
 msgstr ""
 
@@ -26486,17 +26381,20 @@ msgid ""
 "designed for a TileMap cell size of 64x64."
 msgstr ""
 
-#: tutorials/2d/using_tilemaps.rst:217 tutorials/2d/using_tilemaps.rst:250
+#: tutorials/2d/using_tilemaps.rst:217
+#: tutorials/2d/using_tilemaps.rst:250
 #: tutorials/2d/using_tilemaps.rst:263
 msgid "Key:"
 msgstr ""
 
-#: tutorials/2d/using_tilemaps.rst:219 tutorials/2d/using_tilemaps.rst:252
+#: tutorials/2d/using_tilemaps.rst:219
+#: tutorials/2d/using_tilemaps.rst:252
 #: tutorials/2d/using_tilemaps.rst:265
 msgid "Red: \"on\""
 msgstr ""
 
-#: tutorials/2d/using_tilemaps.rst:220 tutorials/2d/using_tilemaps.rst:253
+#: tutorials/2d/using_tilemaps.rst:220
+#: tutorials/2d/using_tilemaps.rst:253
 #: tutorials/2d/using_tilemaps.rst:266
 msgid "White: \"off\""
 msgstr ""
@@ -26988,7 +26886,8 @@ msgid ""
 "GIProbe looks less accurate (as it's an approximation), but smoother overall."
 msgstr ""
 
-#: tutorials/3d/baked_lightmaps.rst:46 tutorials/3d/gi_probes.rst:34
+#: tutorials/3d/baked_lightmaps.rst:46
+#: tutorials/3d/gi_probes.rst:34
 #: tutorials/3d/reflection_probes.rst:19
 #: tutorials/shaders/your_first_shader/your_first_3d_shader.rst:60
 msgid "Setting up"
@@ -27217,7 +27116,7 @@ msgstr ""
 
 #: tutorials/3d/baked_lightmaps.rst:194
 msgid "All"
-msgstr "Lahat"
+msgstr ""
 
 #: tutorials/3d/baked_lightmaps.rst:196
 msgid ""
@@ -27415,10 +27314,11 @@ msgid ""
 "hardware. If in doubt, leave this setting on its default value (4096)."
 msgstr ""
 
-#: tutorials/3d/baked_lightmaps.rst:323 tutorials/audio/audio_buses.rst:112
+#: tutorials/3d/baked_lightmaps.rst:323
+#: tutorials/audio/audio_buses.rst:112
 #: tutorials/rendering/viewports.rst:131
 msgid "Capture"
-msgstr "Pagkuha"
+msgstr ""
 
 #: tutorials/3d/baked_lightmaps.rst:325
 msgid ""
@@ -28171,8 +28071,10 @@ msgstr ""
 #: tutorials/3d/environment_and_post_processing.rst:179
 #: tutorials/3d/environment_and_post_processing.rst:221
 #: tutorials/3d/environment_and_post_processing.rst:247
-#: tutorials/3d/spatial_material.rst:403 tutorials/3d/spatial_material.rst:412
-#: tutorials/3d/spatial_material.rst:434 tutorials/3d/spatial_material.rst:447
+#: tutorials/3d/spatial_material.rst:403
+#: tutorials/3d/spatial_material.rst:412
+#: tutorials/3d/spatial_material.rst:434
+#: tutorials/3d/spatial_material.rst:447
 #: tutorials/3d/spatial_material.rst:467
 msgid "*This feature is only available when using the GLES3 backend.*"
 msgstr ""
@@ -28788,7 +28690,8 @@ msgid ""
 "reflections where needed:"
 msgstr ""
 
-#: tutorials/3d/gi_probes.rst:93 tutorials/3d/reflection_probes.rst:63
+#: tutorials/3d/gi_probes.rst:93
+#: tutorials/3d/reflection_probes.rst:63
 msgid "Interior vs exterior"
 msgstr ""
 
@@ -28872,7 +28775,7 @@ msgstr ""
 
 #: tutorials/3d/gi_probes.rst:127
 msgid "Quality"
-msgstr "Kalidad"
+msgstr ""
 
 #: tutorials/3d/gi_probes.rst:129
 msgid ""
@@ -29054,10 +28957,11 @@ msgid ""
 "information, see :doc:`environment_and_post_processing`."
 msgstr ""
 
-#: tutorials/3d/index.rst:2 tutorials/performance/index.rst:79
+#: tutorials/3d/index.rst:2
+#: tutorials/performance/index.rst:79
 #: tutorials/platforms/mobile_rendering_limitations.rst:31
 msgid "3D"
-msgstr "3D"
+msgstr ""
 
 #: tutorials/3d/introduction_to_3d.rst:2
 msgid "Introduction to 3D"
@@ -30441,9 +30345,8 @@ msgid "``kitchen-portal`` - create a Portal leading to the \"kitchen\" Room."
 msgstr ""
 
 #: tutorials/3d/portals/editing_rooms_and_portals.rst:41
-#, fuzzy
 msgid "Creating Portals"
-msgstr "Magsimula"
+msgstr ""
 
 #: tutorials/3d/portals/editing_rooms_and_portals.rst:43
 msgid ""
@@ -33384,7 +33287,7 @@ msgstr ""
 
 #: tutorials/3d/spatial_material.rst:432
 msgid "Depth"
-msgstr "Lalim"
+msgstr ""
 
 #: tutorials/3d/spatial_material.rst:436
 msgid ""
@@ -33982,7 +33885,8 @@ msgid ""
 "Y, and Z is not enough: you also need a *rotation order*."
 msgstr ""
 
-#: tutorials/3d/using_transforms.rst:60 tutorials/math/interpolation.rst:2
+#: tutorials/3d/using_transforms.rst:60
+#: tutorials/math/interpolation.rst:2
 msgid "Interpolation"
 msgstr ""
 
@@ -35065,7 +34969,8 @@ msgstr ""
 msgid "Cutout animation"
 msgstr ""
 
-#: tutorials/animation/cutout_animation.rst:5 tutorials/inputs/inputevent.rst:5
+#: tutorials/animation/cutout_animation.rst:5
+#: tutorials/inputs/inputevent.rst:5
 msgid "What is it?"
 msgstr ""
 
@@ -35827,9 +35732,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/animation/introduction.rst:379
-#, fuzzy
 msgid "Add Animation"
-msgstr "Animasyon"
+msgstr ""
 
 #: tutorials/animation/introduction.rst:133
 #: tutorials/animation/introduction.rst:136
@@ -36623,7 +36527,7 @@ msgstr ""
 #: tutorials/assets_pipeline/exporting_3d_scenes.rst:5
 #: tutorials/export/exporting_basics.rst:5
 msgid "Overview"
-msgstr "Pangkalahatang Ideya"
+msgstr ""
 
 #: tutorials/assets_pipeline/exporting_3d_scenes.rst:7
 msgid ""
@@ -37086,7 +36990,7 @@ msgstr ""
 
 #: tutorials/assets_pipeline/importing_images.rst:55
 msgid "Compression"
-msgstr "Kompresyon"
+msgstr ""
 
 #: tutorials/assets_pipeline/importing_images.rst:57
 msgid ""
@@ -37226,7 +37130,7 @@ msgstr ""
 #: tutorials/shaders/shader_reference/spatial_shader.rst:333
 #: tutorials/ui/bbcode_in_richtextlabel.rst:51
 msgid "Description"
-msgstr "Paglalarawan"
+msgstr ""
 
 #: tutorials/assets_pipeline/importing_images.rst:84
 msgid "Stored as raw pixels"
@@ -37802,9 +37706,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/assets_pipeline/importing_scenes.rst:166
-#, fuzzy
 msgid "Storing Nodes"
-msgstr "Magsimula"
+msgstr ""
 
 #: tutorials/assets_pipeline/importing_scenes.rst:168
 msgid ""
@@ -37820,7 +37723,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/assets_pipeline/importing_scenes.rst:179
-#: tutorials/export/exporting_for_macos.rst:113 tutorials/io/data_paths.rst:43
+#: tutorials/export/exporting_for_macos.rst:113
+#: tutorials/io/data_paths.rst:43
 #: tutorials/io/data_paths.rst:71
 msgid "Location"
 msgstr ""
@@ -37989,9 +37893,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/assets_pipeline/importing_scenes.rst:250
-#, fuzzy
 msgid "Storing Meshes"
-msgstr "Mga Navigation Meshes."
+msgstr ""
 
 #: tutorials/assets_pipeline/importing_scenes.rst:252
 msgid ""
@@ -38070,7 +37973,7 @@ msgstr ""
 
 #: tutorials/assets_pipeline/importing_scenes.rst:294
 msgid "FPS"
-msgstr "FPS"
+msgstr ""
 
 #: tutorials/assets_pipeline/importing_scenes.rst:296
 msgid ""
@@ -38153,9 +38056,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/assets_pipeline/importing_scenes.rst:348
-#, fuzzy
 msgid "Storing Animations"
-msgstr "Animasyon"
+msgstr ""
 
 #: tutorials/assets_pipeline/importing_scenes.rst:350
 msgid ""
@@ -38765,9 +38667,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/audio/audio_buses.rst:46
-#, fuzzy
 msgid "Managing audio buses"
-msgstr "Talatampukan (Listahan ng mga feature)"
+msgstr ""
 
 #: tutorials/audio/audio_buses.rst:48
 msgid "Audio buses can be found in the bottom panel of the Rebel Editor:"
@@ -42494,7 +42395,7 @@ msgstr ""
 
 #: tutorials/editor/command_line_tutorial.rst:156
 msgid "Path"
-msgstr "Kinaroroonan"
+msgstr ""
 
 #: tutorials/editor/command_line_tutorial.rst:158
 msgid ""
@@ -42542,9 +42443,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/editor/command_line_tutorial.rst:204
-#, fuzzy
 msgid "The project can now be opened with Rebel Editor."
-msgstr "Ang tabing ng project ay malabo, hindi katulad ng editor."
+msgstr ""
 
 #: tutorials/editor/command_line_tutorial.rst:208
 msgid "Running the editor"
@@ -42780,7 +42680,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:27
 msgid "Open 2D Editor"
-msgstr "Buksan ang 2D Editor"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:27
 msgid ":kbd:`Ctrl + F1`"
@@ -42796,7 +42696,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:29
 msgid "Open 3D Editor"
-msgstr "Buksan ang 3D Editor"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:29
 #: tutorials/editor/default_key_mapping.rst:443
@@ -42829,7 +42729,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:33
 msgid "Search Help"
-msgstr "Maghanap sa Sanggunian"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:33
 msgid ":kbd:`F1`"
@@ -42861,7 +42761,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:37
 msgid "Next tab"
-msgstr "Susunod na tab"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:37
 msgid ":kbd:`Ctrl + Tab`"
@@ -42877,7 +42777,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:39
 msgid "Previous tab"
-msgstr "Nakaraang tab"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:39
 msgid ":kbd:`Ctrl + Shift + Tab`"
@@ -42909,7 +42809,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:43
 msgid "Open Scene"
-msgstr "Magbukas ng Eksena"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:43
 msgid ":kbd:`Ctrl + O`"
@@ -42925,7 +42825,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:45
 msgid "Close Scene"
-msgstr "Isara ang Eksena"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:45
 msgid ":kbd:`Ctrl + Shift + W`"
@@ -42941,7 +42841,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:47
 msgid "Reopen Closed Scene"
-msgstr "Buksan Muli ang Nasarang Eksena"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:47
 #: tutorials/editor/default_key_mapping.rst:317
@@ -42959,7 +42859,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:49
 msgid "Save Scene"
-msgstr "I-ligtas ang Eksena"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:49
 msgid ":kbd:`Ctrl + S`"
@@ -42991,7 +42891,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:53
 msgid "Save All Scenes"
-msgstr "I-ligtas Lahat ng Mga Eksena"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:53
 #: tutorials/editor/default_key_mapping.rst:321
@@ -43054,7 +42954,7 @@ msgstr ""
 #: tutorials/editor/default_key_mapping.rst:61
 #: tutorials/editor/default_key_mapping.rst:240
 msgid "Undo"
-msgstr "I-undo"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:61
 #: tutorials/editor/default_key_mapping.rst:240
@@ -43073,7 +42973,7 @@ msgstr ""
 #: tutorials/editor/default_key_mapping.rst:63
 #: tutorials/editor/default_key_mapping.rst:242
 msgid "Redo"
-msgstr "I-redo"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:63
 msgid ":kbd:`Ctrl + Shift + Z`"
@@ -43089,7 +42989,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:65
 msgid "Quit"
-msgstr "Umalis"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:65
 msgid ":kbd:`Ctrl + Q`"
@@ -43105,7 +43005,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:67
 msgid "Quit to Project List"
-msgstr "Bumalik sa Talaproyektuhan"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:67
 msgid ":kbd:`Ctrl + Shift + Q`"
@@ -43121,7 +43021,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:69
 msgid "Take Screenshot"
-msgstr "Kumuha ng Screenshot"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:69
 msgid ":kbd:`Ctrl + F12`"
@@ -43137,7 +43037,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:71
 msgid "Toggle Fullscreen"
-msgstr "Pumalit sa Buong Tabing"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:71
 msgid ":kbd:`Shift + F11`"
@@ -43153,7 +43053,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:73
 msgid "Play"
-msgstr "Patakbuhin"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:73
 #: tutorials/editor/default_key_mapping.rst:403
@@ -43171,7 +43071,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:75
 msgid "Pause Scene"
-msgstr "Ihinto muna ang Eksena"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:75
 msgid ":kbd:`F7`"
@@ -43187,7 +43087,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:77
 msgid "Stop"
-msgstr "Huminto"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:77
 msgid ":kbd:`F8`"
@@ -43204,7 +43104,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:79
 msgid "Play Scene"
-msgstr "Ipalabas Ang Eksena"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:79
 msgid ":kbd:`F6`"
@@ -43221,7 +43121,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:81
 msgid "Play Custom Scene"
-msgstr "Patakbuhin ang Pinasadyang Eksena"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:81
 msgid ":kbd:`Ctrl + Shift + F5`"
@@ -43239,7 +43139,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:83
 msgid "Expand Bottom Panel"
-msgstr "Palakihin ang Babang Tabing"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:83
 msgid ":kbd:`Shift + F12`"
@@ -43256,7 +43156,7 @@ msgstr ""
 #: tutorials/editor/default_key_mapping.rst:92
 #: tutorials/editor/default_key_mapping.rst:335
 msgid "Zoom In"
-msgstr "Palakihin Ang Tanaw"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:92
 #: tutorials/editor/default_key_mapping.rst:335
@@ -43275,7 +43175,7 @@ msgstr ""
 #: tutorials/editor/default_key_mapping.rst:94
 #: tutorials/editor/default_key_mapping.rst:337
 msgid "Zoom Out"
-msgstr "Paliitin Ang Tanaw"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:94
 #: tutorials/editor/default_key_mapping.rst:337
@@ -43293,7 +43193,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:96
 msgid "Zoom Reset"
-msgstr "Ibalik sa Dati ang Zoom"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:96
 #: tutorials/editor/default_key_mapping.rst:339
@@ -43339,7 +43239,7 @@ msgstr ""
 #: tutorials/editor/default_key_mapping.rst:102
 #: tutorials/editor/default_key_mapping.rst:165
 msgid "Move Mode"
-msgstr "Gumalaw"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:102
 #: tutorials/editor/default_key_mapping.rst:151
@@ -43355,7 +43255,7 @@ msgstr ""
 #: tutorials/editor/default_key_mapping.rst:104
 #: tutorials/editor/default_key_mapping.rst:167
 msgid "Rotate Mode"
-msgstr "Mag-ikot"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:104
 #: tutorials/editor/default_key_mapping.rst:155
@@ -43370,7 +43270,7 @@ msgstr ""
 #: tutorials/editor/default_key_mapping.rst:106
 #: tutorials/editor/default_key_mapping.rst:169
 msgid "Scale Mode"
-msgstr "Magpalaki"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:106
 #: tutorials/editor/default_key_mapping.rst:153
@@ -43397,7 +43297,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:110
 msgid "Use Smart Snap"
-msgstr "Gamitin ang Smart Snap"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:110
 msgid ":kbd:`Shift + S`"
@@ -43445,7 +43345,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:118
 msgid "Always Show Grid"
-msgstr "Parating Ipakita ang Grid"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:118
 #: tutorials/editor/default_key_mapping.rst:487
@@ -43483,7 +43383,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:124
 msgid "Center Selection"
-msgstr "Pumuwesto sa gitna ng pinagtutukan"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:124
 #: tutorials/editor/default_key_mapping.rst:195
@@ -43525,7 +43425,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:130
 msgid "Insert Key"
-msgstr "Maglagay ng Key"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:130
 msgid ":kbd:`Ins`"
@@ -43876,7 +43776,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:201
 msgid "1 Viewport"
-msgstr "1 Tinginan"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:201
 msgid ":kbd:`Ctrl + 1`"
@@ -43892,7 +43792,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:203
 msgid "2 Viewports"
-msgstr "2 Tinginan"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:203
 msgid ":kbd:`Ctrl + 2`"
@@ -43908,7 +43808,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:205
 msgid "2 Viewports (Alt)"
-msgstr "2 Tinginan (Alt)"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:205
 msgid ":kbd:`Ctrl + Alt + 2`"
@@ -43924,7 +43824,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:207
 msgid "3 Viewports"
-msgstr "3 Tinginan"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:207
 msgid ":kbd:`Ctrl + 3`"
@@ -43940,7 +43840,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:209
 msgid "3 Viewports (Alt)"
-msgstr "3 Tinginan (Alt)"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:209
 msgid ":kbd:`Ctrl + Alt + 3`"
@@ -43956,7 +43856,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:211
 msgid "4 Viewports"
-msgstr "4 na Tinginan"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:211
 msgid ":kbd:`Ctrl + 4`"
@@ -43976,7 +43876,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:220
 msgid "Cut"
-msgstr "Gupitin"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:220
 #: tutorials/editor/default_key_mapping.rst:352
@@ -43996,7 +43896,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:222
 msgid "Copy"
-msgstr "Kopyahin"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:222
 #: tutorials/editor/default_key_mapping.rst:350
@@ -44022,7 +43922,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:224
 msgid "Paste"
-msgstr "I-pasta"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:224
 #: tutorials/editor/default_key_mapping.rst:354
@@ -44040,7 +43940,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:226
 msgid "Select All"
-msgstr "Piliin Lahat"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:226
 #: tutorials/editor/default_key_mapping.rst:441
@@ -44082,7 +43982,7 @@ msgstr ""
 #: tutorials/editor/default_key_mapping.rst:230
 #: tutorials/editor/default_key_mapping.rst:303
 msgid "Find Next"
-msgstr "Hanapin ang Susunod"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:230
 #: tutorials/editor/default_key_mapping.rst:303
@@ -44101,7 +44001,7 @@ msgstr ""
 #: tutorials/editor/default_key_mapping.rst:232
 #: tutorials/editor/default_key_mapping.rst:305
 msgid "Find Previous"
-msgstr "Hanapin ang Nakaraan"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:232
 #: tutorials/editor/default_key_mapping.rst:305
@@ -44119,7 +44019,7 @@ msgstr ""
 #: tutorials/editor/default_key_mapping.rst:234
 #: tutorials/editor/default_key_mapping.rst:307
 msgid "Find in Files"
-msgstr "Hanapin sa mga file"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:234
 #: tutorials/editor/default_key_mapping.rst:307
@@ -44137,7 +44037,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:236
 msgid "Replace"
-msgstr "Palitan"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:236
 #: tutorials/editor/default_key_mapping.rst:362
@@ -44212,7 +44112,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:248
 msgid "Delete Line"
-msgstr "Burahin ang Linya"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:248
 #: tutorials/editor/default_key_mapping.rst:375
@@ -44443,7 +44343,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:280
 msgid "Go to Function"
-msgstr "Tumungo sa Punsyon"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:280
 msgid ":kbd:`Ctrl + Cmd + J`"
@@ -44455,7 +44355,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:282
 msgid "Go to Line"
-msgstr "Pumunta sa Line"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:282
 msgid ":kbd:`Ctrl + L`"
@@ -44545,7 +44445,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:296
 msgid "Script Editor"
-msgstr "Editor ng Script"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:301
 msgid "``script_editor/find``"
@@ -44613,7 +44513,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:317
 msgid "Reopen Closed Script"
-msgstr "Buksan Muli ang Naisarang Skrip"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:317
 msgid "``script_editor/reopen_closed_script``"
@@ -44621,7 +44521,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:319
 msgid "Save"
-msgstr "I-save"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:319
 msgid ":kbd:`Ctrl + Alt + S`"
@@ -44637,7 +44537,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:321
 msgid "Save All"
-msgstr "I-ligtas Lahat"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:321
 msgid "``script_editor/save_all``"
@@ -44679,7 +44579,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:329
 msgid "Close"
-msgstr "Isara"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:329
 msgid ":kbd:`Ctrl + W`"
@@ -44731,7 +44631,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:339
 msgid "Reset Zoom"
-msgstr "Ibalik sa Dati Ang Tanaw"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:339
 msgid "``script_editor/reset_zoom``"
@@ -44743,7 +44643,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:348
 msgid "Find Node Type"
-msgstr "Hanapin ang Uri ng Node"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:348
 msgid "``visual_script_editor/find_node_type``"
@@ -44751,7 +44651,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:350
 msgid "Copy Nodes"
-msgstr "Kopyahin ang mga Node"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:350
 msgid "``visual_script_editor/copy_nodes``"
@@ -44775,7 +44675,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:356
 msgid "Delete Selected"
-msgstr "Ibura ang Nakapili"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:356
 #: tutorials/editor/default_key_mapping.rst:413
@@ -44801,7 +44701,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:358
 msgid "Make Function"
-msgstr "Gumawa ng Punsyon"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:358
 msgid ":kbd:`Ctrl + G`"
@@ -44813,7 +44713,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:360
 msgid "Edit Member"
-msgstr "Ayusin ang Kasapi"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:360
 msgid ":kbd:`Ctrl + E`"
@@ -44846,7 +44746,7 @@ msgstr ""
 #: tutorials/editor/default_key_mapping.rst:373
 #: tutorials/editor/default_key_mapping.rst:505
 msgid "Copy Selection"
-msgstr "Kopyahin Ang Pinagpipilian"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:373
 msgid "``editor/copy_output``"
@@ -44854,7 +44754,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:375
 msgid "Clear Output"
-msgstr "Linisin ang Kalabasan"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:375
 msgid "``editor/clear_output``"
@@ -44907,7 +44807,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:397
 msgid "Go Back"
-msgstr "Bumalik"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:397
 msgid "``file_dialog/go_back``"
@@ -44915,7 +44815,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:399
 msgid "Go Forward"
-msgstr "Umusad"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:399
 msgid "``file_dialog/go_forward``"
@@ -44923,7 +44823,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:401
 msgid "Go Up"
-msgstr "Tumaas"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:401
 msgid "``file_dialog/go_up``"
@@ -44931,7 +44831,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:403
 msgid "Refresh"
-msgstr "I-refresh"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:403
 msgid "``file_dialog/refresh``"
@@ -44975,7 +44875,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:411
 msgid "Create Folder"
-msgstr "Gumawa ng Folder"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:411
 msgid ":kbd:`Ctrl + N`"
@@ -44993,7 +44893,7 @@ msgstr ""
 #: tutorials/editor/default_key_mapping.rst:432
 #: tutorials/editor/default_key_mapping.rst:447
 msgid "Delete"
-msgstr "Alisin"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:413
 msgid "``file_dialog/delete``"
@@ -45016,7 +44916,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:417
 msgid "Move Favorite Up"
-msgstr "Ilipat Pataas Ang Paborito"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:417
 #: tutorials/editor/default_key_mapping.rst:453
@@ -45034,7 +44934,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:419
 msgid "Move Favorite Down"
-msgstr "Ilipat Pababa ang Paborito"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:419
 #: tutorials/editor/default_key_mapping.rst:455
@@ -45052,11 +44952,11 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:423
 msgid "FileSystem Dock"
-msgstr "Daungan ng FileSystem"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:428
 msgid "Copy Path"
-msgstr "Kopyahin ang Kinaroroonan"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:428
 msgid "``filesystem_dock/copy_path``"
@@ -45065,7 +44965,7 @@ msgstr ""
 #: tutorials/editor/default_key_mapping.rst:430
 #: tutorials/editor/default_key_mapping.rst:451
 msgid "Duplicate"
-msgstr "I-duplicate"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:430
 msgid "``filesystem_dock/duplicate``"
@@ -45141,7 +45041,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:464
 msgid "Duplicate Selection"
-msgstr "I-duplicate ang Pinagpipilian"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:464
 msgid "``animation_editor/duplicate_selection``"
@@ -45149,7 +45049,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:466
 msgid "Duplicate Transposed"
-msgstr "Doblehin Ang Napalit ng Lugar"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:466
 msgid ":kbd:`Ctrl + Shift + D`"
@@ -45165,7 +45065,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:468
 msgid "Delete Selection"
-msgstr "Alisin ang Nakapili"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:468
 msgid "``animation_editor/delete_selection``"
@@ -45173,7 +45073,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:470
 msgid "Go to Next Step"
-msgstr "Pumunta Sa Susunod Na Hakbang"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:470
 msgid ":kbd:`Ctrl + Right Arrow`"
@@ -45189,7 +45089,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:472
 msgid "Go to Previous Step"
-msgstr "Bumalik sa Nakaraang Hakbang"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:472
 msgid ":kbd:`Ctrl + Left Arrow`"
@@ -45241,7 +45141,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:487
 msgid "Bucket Fill"
-msgstr "Papuno"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:487
 msgid "``tile_map_editor/bucket_fill``"
@@ -45305,7 +45205,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:501
 msgid "Select"
-msgstr "Magpili"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:501
 msgid ":kbd:`M`"
@@ -45341,7 +45241,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:516
 msgid "Next Coordinate"
-msgstr "Susunod na Koordinayt"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:516
 msgid "``tileset_editor/next_shape``"
@@ -45349,7 +45249,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:518
 msgid "Previous Coordinate"
-msgstr "Nakaraang Koordinayt"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:518
 msgid ":kbd:`PgUp`"
@@ -45592,9 +45492,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/editor/managing_editor_features.rst:2
-#, fuzzy
 msgid "Managing editor features"
-msgstr "Talatampukan (Listahan ng mga feature)"
+msgstr ""
 
 #: tutorials/editor/managing_editor_features.rst:7
 msgid ""
@@ -45616,9 +45515,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/editor/managing_editor_features.rst:19
-#, fuzzy
 msgid "Creating a profile"
-msgstr "Magsimula"
+msgstr ""
 
 #: tutorials/editor/managing_editor_features.rst:21
 msgid ""
@@ -46252,7 +46150,7 @@ msgstr ""
 
 #: tutorials/export/exporting_for_android.rst:2
 msgid "Exporting for Android"
-msgstr "Niluluwas para sa Android"
+msgstr ""
 
 #: tutorials/export/exporting_for_android.rst:7
 msgid ""
@@ -47117,14 +47015,13 @@ msgstr ""
 
 #: tutorials/export/exporting_for_macos.rst:53
 #: tutorials/export/exporting_for_macos.rst:76
-#, fuzzy
 msgid "Option"
-msgstr "Pagbibilis"
+msgstr ""
 
 #: tutorials/export/exporting_for_macos.rst:55
 #: tutorials/export/exporting_for_macos.rst:78
 msgid "Enable"
-msgstr "Paganahin"
+msgstr ""
 
 #: tutorials/export/exporting_for_macos.rst:55
 msgid "Enables code signing."
@@ -47286,9 +47183,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/export/exporting_for_macos.rst:109
-#, fuzzy
 msgid "Audio Input"
-msgstr "Tunog (Audio)"
+msgstr ""
 
 #: tutorials/export/exporting_for_macos.rst:109
 msgid ""
@@ -47337,9 +47233,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/export/exporting_for_macos.rst:119
-#, fuzzy
 msgid "Photo Library"
-msgstr "Silid-Assetan"
+msgstr ""
 
 #: tutorials/export/exporting_for_macos.rst:119
 msgid ""
@@ -47400,9 +47295,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/export/exporting_for_macos.rst:144
-#, fuzzy
 msgid "Enabled"
-msgstr "Paganahin"
+msgstr ""
 
 #: tutorials/export/exporting_for_macos.rst:144
 msgid "Enables App Sandbox."
@@ -47445,45 +47339,40 @@ msgid ""
 msgstr ""
 
 #: tutorials/export/exporting_for_macos.rst:154
-#, fuzzy
 msgid "Files Downloads [5]_"
-msgstr "Ibura ang Nakapili"
+msgstr ""
 
 #: tutorials/export/exporting_for_macos.rst:154
 msgid "Allows read or write access to the user's \"Downloads\" folder."
 msgstr ""
 
 #: tutorials/export/exporting_for_macos.rst:156
-#, fuzzy
 msgid "Files Pictures [5]_"
-msgstr "Ibura ang Nakapili"
+msgstr ""
 
 #: tutorials/export/exporting_for_macos.rst:156
 msgid "Allows read or write access to the user's \"Pictures\" folder."
 msgstr ""
 
 #: tutorials/export/exporting_for_macos.rst:158
-#, fuzzy
 msgid "Files Music [5]_"
-msgstr "Ibura ang Nakapili"
+msgstr ""
 
 #: tutorials/export/exporting_for_macos.rst:158
 msgid "Allows read or write access to the user's \"Music\" folder."
 msgstr ""
 
 #: tutorials/export/exporting_for_macos.rst:160
-#, fuzzy
 msgid "Files Movies [5]_"
-msgstr "Ibura ang Nakapili"
+msgstr ""
 
 #: tutorials/export/exporting_for_macos.rst:160
 msgid "Allows read or write access to the user's \"Movies\" folder."
 msgstr ""
 
 #: tutorials/export/exporting_for_macos.rst:162
-#, fuzzy
 msgid "Files User Selected [5]_"
-msgstr "Ibura ang Nakapili"
+msgstr ""
 
 #: tutorials/export/exporting_for_macos.rst:162
 msgid ""
@@ -47930,7 +47819,7 @@ msgstr ""
 #: tutorials/export/exporting_for_web.rst:141
 #: tutorials/scripting/gdnative/index.rst:2
 msgid "GDNative"
-msgstr "GDNative"
+msgstr ""
 
 #: tutorials/export/exporting_for_web.rst:143
 msgid ""
@@ -49132,7 +49021,7 @@ msgstr ""
 
 #: tutorials/export/index.rst:2
 msgid "Export"
-msgstr "Magluwas"
+msgstr ""
 
 #: tutorials/export/one-click_deploy.rst:2
 msgid "One-click deploy"
@@ -49576,9 +49465,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/i18n/internationalizing_games.rst:107
-#, fuzzy
 msgid "Testing translations"
-msgstr "Paggamit ng Weblate para sa pagsasalin"
+msgstr ""
 
 #: tutorials/i18n/internationalizing_games.rst:109
 msgid ""
@@ -49639,7 +49527,7 @@ msgstr ""
 
 #: tutorials/i18n/locales.rst:10
 msgid "Locale"
-msgstr "Wika"
+msgstr ""
 
 #: tutorials/i18n/locales.rst:10
 msgid "Language and Variant"
@@ -50731,7 +50619,7 @@ msgstr ""
 
 #: tutorials/i18n/locales.rst:284
 msgid "Filipino (Philippines)"
-msgstr "Filipino (Pilipinas)"
+msgstr ""
 
 #: tutorials/i18n/locales.rst:286
 msgid "fo_FO"
@@ -51011,7 +50899,7 @@ msgstr ""
 
 #: tutorials/i18n/locales.rst:354
 msgid "Indonesian"
-msgstr "Indones"
+msgstr ""
 
 #: tutorials/i18n/locales.rst:356
 msgid "id_ID"
@@ -51019,7 +50907,7 @@ msgstr ""
 
 #: tutorials/i18n/locales.rst:356
 msgid "Indonesian (Indonesia)"
-msgstr "Indones (Indonesia)"
+msgstr ""
 
 #: tutorials/i18n/locales.rst:358
 msgid "ig_NG"
@@ -51060,7 +50948,7 @@ msgstr ""
 
 #: tutorials/i18n/locales.rst:366
 msgid "Italian"
-msgstr "Italyano"
+msgstr ""
 
 #: tutorials/i18n/locales.rst:368
 msgid "it_CH"
@@ -53291,7 +53179,8 @@ msgid ""
 "example. To avoid this, make sure to test the event type first:"
 msgstr ""
 
-#: tutorials/inputs/input_examples.rst:147 tutorials/inputs/inputevent.rst:201
+#: tutorials/inputs/input_examples.rst:147
+#: tutorials/inputs/inputevent.rst:201
 msgid "InputMap"
 msgstr ""
 
@@ -55058,12 +54947,13 @@ msgstr ""
 msgid "On desktop platforms, the actual directory paths for ``user://`` are:"
 msgstr ""
 
-#: tutorials/io/data_paths.rst:45 tutorials/io/data_paths.rst:73
-#, fuzzy
+#: tutorials/io/data_paths.rst:45
+#: tutorials/io/data_paths.rst:73
 msgid "User data"
-msgstr "Editor"
+msgstr ""
 
-#: tutorials/io/data_paths.rst:45 tutorials/io/data_paths.rst:73
+#: tutorials/io/data_paths.rst:45
+#: tutorials/io/data_paths.rst:73
 msgid "Windows: ``%APPDATA%\\Rebel\\app_userdata\\[project_name]``"
 msgstr ""
 
@@ -55076,19 +54966,23 @@ msgstr ""
 msgid "Linux: ``~/.local/share/rebel/app_userdata/[project_name]``"
 msgstr ""
 
-#: tutorials/io/data_paths.rst:49 tutorials/io/data_paths.rst:77
+#: tutorials/io/data_paths.rst:49
+#: tutorials/io/data_paths.rst:77
 msgid "User data (when ``use_custom_user_dir`` project setting is ``true``)"
 msgstr ""
 
-#: tutorials/io/data_paths.rst:49 tutorials/io/data_paths.rst:77
+#: tutorials/io/data_paths.rst:49
+#: tutorials/io/data_paths.rst:77
 msgid "Windows: ``%APPDATA%\\[project_name]``"
 msgstr ""
 
-#: tutorials/io/data_paths.rst:50 tutorials/io/data_paths.rst:78
+#: tutorials/io/data_paths.rst:50
+#: tutorials/io/data_paths.rst:78
 msgid "macOS: ``~/Library/Application Support/[project_name]``"
 msgstr ""
 
-#: tutorials/io/data_paths.rst:51 tutorials/io/data_paths.rst:79
+#: tutorials/io/data_paths.rst:51
+#: tutorials/io/data_paths.rst:79
 msgid "Linux: ``~/.local/share/[project_name]``"
 msgstr ""
 
@@ -55131,9 +55025,8 @@ msgid "Linux: ``~/.local/share/rebel/[project_name]``"
 msgstr ""
 
 #: tutorials/io/data_paths.rst:81
-#, fuzzy
 msgid "User settings"
-msgstr "Pagsasaayos:"
+msgstr ""
 
 #: tutorials/io/data_paths.rst:81
 msgid "Windows: ``%APPDATA%\\Rebel\\``"
@@ -55594,7 +55487,7 @@ msgstr ""
 
 #: tutorials/math/index.rst:2
 msgid "Math"
-msgstr "Math"
+msgstr ""
 
 #: tutorials/math/interpolation.rst:4
 msgid ""
@@ -56975,7 +56868,8 @@ msgid ""
 "direction. The resulting perpendicular vector is the axis of rotation."
 msgstr ""
 
-#: tutorials/math/vector_math.rst:409 tutorials/math/vectors_advanced.rst:587
+#: tutorials/math/vector_math.rst:409
+#: tutorials/math/vectors_advanced.rst:587
 msgid "More information"
 msgstr ""
 
@@ -56989,7 +56883,8 @@ msgstr ""
 msgid ":doc:`vectors_advanced`"
 msgstr ""
 
-#: tutorials/math/vector_math.rst:414 tutorials/math/vectors_advanced.rst:591
+#: tutorials/math/vector_math.rst:414
+#: tutorials/math/vectors_advanced.rst:591
 msgid ":doc:`matrices_and_transforms`"
 msgstr ""
 
@@ -57313,9 +57208,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/navigation/real_time_navigation_3d.rst:15
-#, fuzzy
 msgid "Setting up navigation"
-msgstr "Magsimula"
+msgstr ""
 
 #: tutorials/navigation/real_time_navigation_3d.rst:17
 msgid ""
@@ -57601,7 +57495,8 @@ msgstr ""
 #: tutorials/networking/high_level_multiplayer.rst:118
 #: tutorials/networking/http_client_class.rst:10
 #: tutorials/networking/http_request_class.rst:11
-#: tutorials/networking/webrtc.rst:38 tutorials/networking/websocket.rst:23
+#: tutorials/networking/webrtc.rst:38
+#: tutorials/networking/websocket.rst:23
 msgid ""
 "When exporting to Android, make sure to enable the ``INTERNET`` permission "
 "in the Android export preset before exporting the project or using one-click "
@@ -58436,7 +58331,8 @@ msgid ""
 "will give you a good overview of how a WebRTC connection is set up."
 msgstr ""
 
-#: tutorials/networking/webrtc.rst:94 tutorials/networking/websocket.rst:84
+#: tutorials/networking/webrtc.rst:94
+#: tutorials/networking/websocket.rst:84
 msgid "This will print:"
 msgstr ""
 
@@ -59707,9 +59603,10 @@ msgid ""
 "information, see :doc:`using_servers`."
 msgstr ""
 
-#: tutorials/performance/cpu_optimization.rst:237 tutorials/physics/index.rst:2
+#: tutorials/performance/cpu_optimization.rst:237
+#: tutorials/physics/index.rst:2
 msgid "Physics"
-msgstr "Pisika"
+msgstr ""
 
 #: tutorials/performance/cpu_optimization.rst:239
 msgid ""
@@ -60657,7 +60554,7 @@ msgstr ""
 
 #: tutorials/performance/index.rst:2
 msgid "Optimization"
-msgstr "Pagbibilis"
+msgstr ""
 
 #: tutorials/performance/index.rst:7
 msgid ""
@@ -60727,7 +60624,7 @@ msgstr ""
 
 #: tutorials/performance/index.rst:89
 msgid "Multi-threading"
-msgstr "Pagmumulti-threading"
+msgstr ""
 
 #: tutorials/performance/optimizing_3d_performance.rst:-1
 msgid "optimization"
@@ -61053,9 +60950,10 @@ msgid ""
 msgstr ""
 
 #: tutorials/performance/threads/thread_safe_apis.rst:51
-#: tutorials/rendering/index.rst:2 tutorials/rendering/viewports.rst:172
+#: tutorials/rendering/index.rst:2
+#: tutorials/rendering/viewports.rst:172
 msgid "Rendering"
-msgstr "Pagre-render"
+msgstr ""
 
 #: tutorials/performance/threads/thread_safe_apis.rst:53
 msgid ""
@@ -65321,7 +65219,7 @@ msgstr ""
 #: tutorials/platforms/html5_shell_api.rst:182
 #: tutorials/scripting/gdscript/gdscript_exports.rst:235
 msgid "Properties"
-msgstr "Mga Katangian"
+msgstr ""
 
 #: tutorials/platforms/html5_shell_api.rst:0
 #: tutorials/platforms/html5_shell_api.rst:185
@@ -65951,18 +65849,16 @@ msgid "The following project settings have mobile-specific overrides:"
 msgstr ""
 
 #: tutorials/platforms/mobile_rendering_limitations.rst:27
-#, fuzzy
 msgid "Setting"
-msgstr "Magsimula"
+msgstr ""
 
 #: tutorials/platforms/mobile_rendering_limitations.rst:27
 msgid "Desktop default"
 msgstr ""
 
 #: tutorials/platforms/mobile_rendering_limitations.rst:27
-#, fuzzy
 msgid "Mobile default"
-msgstr "Mobile"
+msgstr ""
 
 #: tutorials/platforms/mobile_rendering_limitations.rst:29
 msgid "``rendering/quality/directional_shadow/size``"
@@ -67422,7 +67318,7 @@ msgstr ""
 
 #: tutorials/plugins/index.rst:2
 msgid "Plugins"
-msgstr "Mga Plugin"
+msgstr ""
 
 #: tutorials/plugins/running_code_in_the_editor.rst:2
 msgid "Running code in the editor"
@@ -71455,7 +71351,7 @@ msgstr ""
 
 #: tutorials/scripting/debug/debugger_panel.rst:85
 msgid "Monitors"
-msgstr "Mga Tagasubaybay"
+msgstr ""
 
 #: tutorials/scripting/debug/debugger_panel.rst:87
 msgid ""
@@ -71500,7 +71396,7 @@ msgstr ""
 
 #: tutorials/scripting/debug/index.rst:2
 msgid "Debug"
-msgstr "Debug"
+msgstr ""
 
 #: tutorials/scripting/debug/overview_of_debugging_tools.rst:2
 msgid "Overview of debugging tools"
@@ -71589,7 +71485,7 @@ msgstr ""
 
 #: tutorials/scripting/debug/overview_of_debugging_tools.rst:51
 msgid "Visible Collision Shapes"
-msgstr "Nakikitang Collision Shapes"
+msgstr ""
 
 #: tutorials/scripting/debug/overview_of_debugging_tools.rst:53
 msgid ""
@@ -71664,7 +71560,7 @@ msgstr ""
 
 #: tutorials/scripting/debug/overview_of_debugging_tools.rst:104
 msgid "Settings"
-msgstr "Pagsasaayos:"
+msgstr ""
 
 #: tutorials/scripting/debug/overview_of_debugging_tools.rst:106
 msgid ""
@@ -73629,7 +73525,7 @@ msgstr ""
 #: tutorials/scripting/gdscript/gdscript_advanced.rst:453
 #: tutorials/scripting/visual_script/nodes_purposes.rst:382
 msgid "While"
-msgstr "While"
+msgstr ""
 
 #: tutorials/scripting/gdscript/gdscript_advanced.rst:455
 msgid "while() loops are the same everywhere:"
@@ -73751,7 +73647,7 @@ msgstr ""
 
 #: tutorials/scripting/gdscript/gdscript_basics.rst:15
 msgid "History"
-msgstr "Kasaysayan"
+msgstr ""
 
 #: tutorials/scripting/gdscript/gdscript_basics.rst:19
 msgid ""
@@ -73762,7 +73658,7 @@ msgstr ""
 
 #: tutorials/scripting/gdscript/gdscript_basics.rst:23
 msgid "Example of GDScript"
-msgstr "Halimbawa ng GDScript"
+msgstr ""
 
 #: tutorials/scripting/gdscript/gdscript_basics.rst:25
 msgid ""
@@ -73786,7 +73682,7 @@ msgstr ""
 
 #: tutorials/scripting/gdscript/gdscript_basics.rst:120
 msgid "Identifiers"
-msgstr "Mga identifier"
+msgstr ""
 
 #: tutorials/scripting/gdscript/gdscript_basics.rst:122
 msgid ""
@@ -73798,7 +73694,7 @@ msgstr ""
 
 #: tutorials/scripting/gdscript/gdscript_basics.rst:128
 msgid "Keywords"
-msgstr "Mga keyword"
+msgstr ""
 
 #: tutorials/scripting/gdscript/gdscript_basics.rst:130
 msgid ""
@@ -73897,7 +73793,7 @@ msgstr ""
 
 #: tutorials/scripting/gdscript/gdscript_basics.rst:159
 msgid "Returns a value from a function."
-msgstr "Bumabalik ng value mula sa isang function."
+msgstr ""
 
 #: tutorials/scripting/gdscript/gdscript_basics.rst:161
 msgid "class"
@@ -75936,9 +75832,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/scripting/gdscript/gdscript_exports.rst:262
-#, fuzzy
 msgid "Attaching variables to properties"
-msgstr "Mga Katangian"
+msgstr ""
 
 #: tutorials/scripting/gdscript/gdscript_exports.rst:264
 msgid ""
@@ -77743,11 +77638,10 @@ msgid "When you run the scene, you should see a counter increasing each frame."
 msgstr ""
 
 #: tutorials/scripting/index.rst:4
-#, fuzzy
 msgid ""
 "This section covers programming languages and core features to code your "
 "games in Rebel Editor."
-msgstr "Ano-anung mga wikang programming ang sinusuportahan ng Godot?"
+msgstr ""
 
 #: tutorials/scripting/index.rst:7
 msgid ""
@@ -77764,7 +77658,7 @@ msgstr ""
 
 #: tutorials/scripting/index.rst:27
 msgid "Core features"
-msgstr "Listahan ng mga feature"
+msgstr ""
 
 #: tutorials/scripting/index.rst:29
 msgid ""
@@ -77875,9 +77769,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/scripting/nodes_and_scene_instances.rst:8
-#, fuzzy
 msgid "Getting nodes"
-msgstr "Magsimula"
+msgstr ""
 
 #: tutorials/scripting/nodes_and_scene_instances.rst:10
 msgid ""
@@ -78144,9 +78037,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/scripting/pausing_games.rst:2
-#, fuzzy
 msgid "Pausing games"
-msgstr "Mga Hudyat"
+msgstr ""
 
 #: tutorials/scripting/pausing_games.rst:5
 msgid "Pause?"
@@ -78203,9 +78095,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/scripting/pausing_games.rst:43
-#, fuzzy
 msgid "White-listing nodes"
-msgstr "Magsimula"
+msgstr ""
 
 #: tutorials/scripting/pausing_games.rst:45
 msgid ""
@@ -79676,7 +79567,7 @@ msgstr ""
 
 #: tutorials/scripting/visual_script/nodes_purposes.rst:279
 msgid "Self"
-msgstr "Sarili"
+msgstr ""
 
 #: tutorials/scripting/visual_script/nodes_purposes.rst:281
 msgid ""
@@ -79745,7 +79636,7 @@ msgstr ""
 
 #: tutorials/scripting/visual_script/nodes_purposes.rst:329
 msgid "Condition"
-msgstr "Kondisyon"
+msgstr ""
 
 #: tutorials/scripting/visual_script/nodes_purposes.rst:331
 msgid ""
@@ -79815,7 +79706,7 @@ msgstr ""
 
 #: tutorials/scripting/visual_script/nodes_purposes.rst:376
 msgid "Switch"
-msgstr "Switch"
+msgstr ""
 
 #: tutorials/scripting/visual_script/nodes_purposes.rst:378
 msgid ""
@@ -80724,9 +80615,8 @@ msgid "One built-in; the game developer can make more."
 msgstr ""
 
 #: tutorials/shaders/converting_glsl_to_rebel_shaders.rst:195
-#, fuzzy
 msgid "Shadertoy coordinates"
-msgstr "Susunod na Koordinayt"
+msgstr ""
 
 #: tutorials/shaders/converting_glsl_to_rebel_shaders.rst:197
 msgid ""
@@ -80977,9 +80867,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/shaders/introduction_to_shaders.rst:2
-#, fuzzy
 msgid "Introduction to shaders"
-msgstr "Panimula"
+msgstr ""
 
 #: tutorials/shaders/introduction_to_shaders.rst:4
 msgid ""
@@ -82900,7 +82789,7 @@ msgstr ""
 
 #: tutorials/shaders/shader_reference/shading_language.rst:299
 msgid "Class"
-msgstr "Class"
+msgstr ""
 
 #: tutorials/shaders/shader_reference/shading_language.rst:301
 msgid "1 (highest)"
@@ -85691,9 +85580,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/shaders/your_first_shader/your_first_2d_shader.rst:2
-#, fuzzy
 msgid "Your first 2D shader"
-msgstr "Ang una mong laro"
+msgstr ""
 
 #: tutorials/shaders/your_first_shader/your_first_2d_shader.rst:7
 msgid ""
@@ -85987,9 +85875,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/shaders/your_first_shader/your_first_3d_shader.rst:2
-#, fuzzy
 msgid "Your first 3D shader"
-msgstr "Ang una mong laro"
+msgstr ""
 
 #: tutorials/shaders/your_first_shader/your_first_3d_shader.rst:4
 msgid ""
@@ -91421,9 +91308,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/vr/openvr/vr_starter_tutorial_part_two.rst:758
-#, fuzzy
 msgid "Bomb interact function"
-msgstr "Tumungo sa Punsyon"
+msgstr ""
 
 #: tutorials/vr/openvr/vr_starter_tutorial_part_two.rst:760
 msgid ""
@@ -91976,9 +91862,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/vr/openxr/handtracking.rst:30
-#, fuzzy
 msgid "Node based hand tracking"
-msgstr "Magbukas ng Eksena"
+msgstr ""
 
 #: tutorials/vr/openxr/handtracking.rst:32
 msgid ""
@@ -92269,9 +92154,8 @@ msgid "OpenXR plugin"
 msgstr ""
 
 #: tutorials/vr/openxr/index.rst:4
-#, fuzzy
 msgid "Welcome to the Rebel OpenXR documentation!"
-msgstr "Tungkol sa dokumentasyon"
+msgstr ""
 
 #: tutorials/vr/openxr/index.rst:9
 msgid ""
@@ -92345,9 +92229,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/vr/openxr/index.rst:57
-#, fuzzy
 msgid "Plugin features"
-msgstr "Talatampukan (Listahan ng mga feature)"
+msgstr ""
 
 #: tutorials/vr/openxr/passthrough.rst:2
 msgid "Passthrough"
