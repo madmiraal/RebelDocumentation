@@ -64,12 +64,7 @@ highlight_language = "gdscript"
 
 
 # 3. Options for internationalization
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-internationalization
-
-# TODO Rebel internationalisation needs to configured.
-# https://www.sphinx-doc.org/en/master/usage/advanced/intl.html
-# https://readthedocs-lst.readthedocs.io/en/latest/i18n.html
-# https://readthedocs-lst.readthedocs.io/en/latest/localization.html
+# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-internationalisation
 
 language = os.getenv("READTHEDOCS_LANGUAGE", os.getenv("LANGUAGE_CODE", "en"))
 gettext_allow_fuzzy_translations = True

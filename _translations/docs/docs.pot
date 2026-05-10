@@ -1,25 +1,21 @@
 # SPDX-FileCopyrightText: 2023 Rebel Documentation contributors
-# SPDX-FileCopyrightText: 2019-2023 Godot Documentation contributors
 #
 # SPDX-License-Identifier: CC-BY-4.0
 #
-# Esperanto translation of the Rebel Documentation
+# LANGUAGE translation of the Rebel Documentation
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Rebel Documentation 1.0\n"
 "Report-Msgid-Bugs-To: https://github.com/RebelToolbox/RebelDocumentation\n"
-"POT-Creation-Date: 2026-05-09 13:16+0200\n"
-"PO-Revision-Date: 2023-06-20 03:05+0000\n"
-"Last-Translator: aligator <johannes.hoermann@t-online.de>\n"
-"Language-Team: Esperanto <https://hosted.weblate.org/projects/rebel-toolbox/"
-"rebel-documentation/eo/>\n"
-"Language: eo\n"
+"POT-Creation-Date: 2026-05-10 19:29+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18.1\n"
 
 #: about/complying_with_licenses.rst:2
 msgid "Complying with licenses"
@@ -83,15 +79,15 @@ msgid "This text reads as follows:"
 msgstr ""
 
 #: about/complying_with_licenses.rst:33
-#, fuzzy
 msgid "MIT License"
-msgstr "Permesilo"
+msgstr ""
 
 #: about/complying_with_licenses.rst:35
 msgid "Copyright (c) 2022 Rebel Toolbox"
 msgstr ""
 
-#: about/complying_with_licenses.rst:37 about/complying_with_licenses.rst:130
+#: about/complying_with_licenses.rst:37
+#: about/complying_with_licenses.rst:130
 msgid ""
 "Permission is hereby granted, free of charge, to any person obtaining a copy "
 "of this software and associated documentation files (the \"Software\"), to "
@@ -101,13 +97,15 @@ msgid ""
 "furnished to do so, subject to the following conditions:"
 msgstr ""
 
-#: about/complying_with_licenses.rst:39 about/complying_with_licenses.rst:132
+#: about/complying_with_licenses.rst:39
+#: about/complying_with_licenses.rst:132
 msgid ""
 "The above copyright notice and this permission notice shall be included in "
 "all copies or substantial portions of the Software."
 msgstr ""
 
-#: about/complying_with_licenses.rst:41 about/complying_with_licenses.rst:134
+#: about/complying_with_licenses.rst:41
+#: about/complying_with_licenses.rst:134
 msgid ""
 "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR "
 "IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, "
@@ -383,7 +381,8 @@ msgstr ""
 msgid "Windows"
 msgstr ""
 
-#: about/faq.rst:34 about/faq.rst:40 about/faq.rst:192
+#: about/faq.rst:34 about/faq.rst:40
+#: about/faq.rst:192
 #: contributing/building_the_documentation.rst:123
 #: contributing/building_the_documentation.rst:166
 #: contributing/building_the_documentation.rst:189
@@ -406,7 +405,7 @@ msgstr ""
 #: tutorials/editor/default_key_mapping.rst:514
 #: tutorials/rendering/jitter_stutter.rst:73
 msgid "macOS"
-msgstr "macOS"
+msgstr ""
 
 #: about/faq.rst:35 about/faq.rst:41
 msgid "X11 (Linux, \\*BSD)"
@@ -420,18 +419,20 @@ msgstr ""
 msgid "Windows (and UWP)"
 msgstr ""
 
-#: about/faq.rst:42 development/compiling/compiling_with_mono.rst:320
+#: about/faq.rst:42
+#: development/compiling/compiling_with_mono.rst:320
 #: tutorials/export/exporting_basics.rst:317
 #: tutorials/export/one-click_deploy.rst:64
 #: tutorials/rendering/jitter_stutter.rst:79
 msgid "Android"
-msgstr "Android"
+msgstr ""
 
-#: about/faq.rst:43 development/compiling/compiling_with_mono.rst:322
+#: about/faq.rst:43
+#: development/compiling/compiling_with_mono.rst:322
 #: tutorials/export/exporting_basics.rst:373
 #: tutorials/rendering/jitter_stutter.rst:85
 msgid "iOS"
-msgstr "iOS"
+msgstr ""
 
 #: about/faq.rst:44
 msgid "Web"
@@ -710,7 +711,8 @@ msgid ""
 "Applications``."
 msgstr ""
 
-#: about/faq.rst:199 contributing/building_the_documentation.rst:116
+#: about/faq.rst:199
+#: contributing/building_the_documentation.rst:116
 #: contributing/building_the_documentation.rst:160
 #: contributing/building_the_documentation.rst:183
 #: development/compiling/build_for_android.rst:134
@@ -1327,9 +1329,10 @@ msgstr ""
 #: development/compiling/compiling_with_mono.rst:195
 #: tutorials/editor/external_editor.rst:32
 msgid "Editor"
-msgstr "Redaktilo"
+msgstr ""
 
-#: about/list_of_features.rst:41 about/list_of_features.rst:84
+#: about/list_of_features.rst:41
+#: about/list_of_features.rst:84
 #: about/list_of_features.rst:377
 msgid "**Features:**"
 msgstr ""
@@ -1339,9 +1342,8 @@ msgid "Scene tree editor."
 msgstr ""
 
 #: about/list_of_features.rst:44
-#, fuzzy
 msgid "Built-in script editor."
-msgstr "Biblioteko de havaĵoj"
+msgstr ""
 
 #: about/list_of_features.rst:45
 msgid ""
@@ -1412,23 +1414,28 @@ msgstr ""
 msgid "2D graphics"
 msgstr ""
 
-#: about/list_of_features.rst:74 about/list_of_features.rst:141
+#: about/list_of_features.rst:74
+#: about/list_of_features.rst:141
 msgid "**Two renderers available:**"
 msgstr ""
 
-#: about/list_of_features.rst:76 about/list_of_features.rst:143
+#: about/list_of_features.rst:76
+#: about/list_of_features.rst:143
 msgid "OpenGL ES 3.0 renderer (uses OpenGL 3.3 on desktop platforms)."
 msgstr ""
 
-#: about/list_of_features.rst:78 about/list_of_features.rst:145
+#: about/list_of_features.rst:78
+#: about/list_of_features.rst:145
 msgid "High-end visuals. Recommended on desktop platforms."
 msgstr ""
 
-#: about/list_of_features.rst:80 about/list_of_features.rst:150
+#: about/list_of_features.rst:80
+#: about/list_of_features.rst:150
 msgid "OpenGL ES 2.0 renderer (uses OpenGL 2.1 on desktop platforms)."
 msgstr ""
 
-#: about/list_of_features.rst:82 about/list_of_features.rst:152
+#: about/list_of_features.rst:82
+#: about/list_of_features.rst:152
 msgid "Recommended on mobile and Web platforms."
 msgstr ""
 
@@ -1491,7 +1498,8 @@ msgstr ""
 msgid "GPU-based particles with support for custom particle shaders."
 msgstr ""
 
-#: about/list_of_features.rst:108 about/list_of_features.rst:236
+#: about/list_of_features.rst:108
+#: about/list_of_features.rst:236
 msgid "CPU-based particles."
 msgstr ""
 
@@ -1507,7 +1515,8 @@ msgstr ""
 msgid "Path2D node to represent a path in 2D space."
 msgstr ""
 
-#: about/list_of_features.rst:116 about/list_of_features.rst:289
+#: about/list_of_features.rst:116
+#: about/list_of_features.rst:289
 msgid "Can be drawn in the editor or generated procedurally."
 msgstr ""
 
@@ -1527,31 +1536,38 @@ msgstr ""
 msgid "2D physics"
 msgstr ""
 
-#: about/list_of_features.rst:125 about/list_of_features.rst:298
+#: about/list_of_features.rst:125
+#: about/list_of_features.rst:298
 msgid "**Physics bodies:**"
 msgstr ""
 
-#: about/list_of_features.rst:127 about/list_of_features.rst:300
+#: about/list_of_features.rst:127
+#: about/list_of_features.rst:300
 msgid "Static bodies."
 msgstr ""
 
-#: about/list_of_features.rst:128 about/list_of_features.rst:301
+#: about/list_of_features.rst:128
+#: about/list_of_features.rst:301
 msgid "Rigid bodies."
 msgstr ""
 
-#: about/list_of_features.rst:129 about/list_of_features.rst:302
+#: about/list_of_features.rst:129
+#: about/list_of_features.rst:302
 msgid "Kinematic bodies."
 msgstr ""
 
-#: about/list_of_features.rst:130 about/list_of_features.rst:304
+#: about/list_of_features.rst:130
+#: about/list_of_features.rst:304
 msgid "Joints."
 msgstr ""
 
-#: about/list_of_features.rst:131 about/list_of_features.rst:307
+#: about/list_of_features.rst:131
+#: about/list_of_features.rst:307
 msgid "Areas to detect bodies entering or leaving it."
 msgstr ""
 
-#: about/list_of_features.rst:133 about/list_of_features.rst:309
+#: about/list_of_features.rst:133
+#: about/list_of_features.rst:309
 msgid "**Collision detection:**"
 msgstr ""
 
@@ -1627,9 +1643,8 @@ msgid ""
 msgstr ""
 
 #: about/list_of_features.rst:168
-#, fuzzy
 msgid "Normal mapping."
-msgstr "Normal Map"
+msgstr ""
 
 #: about/list_of_features.rst:169
 msgid "Detail mapping for the albedo and normal maps."
@@ -1985,7 +2000,8 @@ msgid ""
 "Generate one or several convex collision shapes for any mesh from the editor."
 msgstr ""
 
-#: about/list_of_features.rst:316 tutorials/shaders/index.rst:2
+#: about/list_of_features.rst:316
+#: tutorials/shaders/index.rst:2
 msgid "Shaders"
 msgstr ""
 
@@ -2141,7 +2157,7 @@ msgstr ""
 #: about/list_of_features.rst:375 tutorials/audio/index.rst:2
 #: tutorials/export/exporting_for_web.rst:164
 msgid "Audio"
-msgstr "Aŭdio"
+msgstr ""
 
 #: about/list_of_features.rst:379
 msgid "Mono, stereo, 5.1 and 7.1 output."
@@ -2199,7 +2215,7 @@ msgstr ""
 
 #: about/list_of_features.rst:399
 msgid "Import"
-msgstr "Importi"
+msgstr ""
 
 #: about/list_of_features.rst:401
 msgid ""
@@ -2258,7 +2274,8 @@ msgid ""
 "such as Blender."
 msgstr ""
 
-#: about/list_of_features.rst:423 tutorials/rendering/viewports.rst:36
+#: about/list_of_features.rst:423
+#: tutorials/rendering/viewports.rst:36
 #: tutorials/ui/custom_gui_controls.rst:110
 msgid "Input"
 msgstr ""
@@ -2318,7 +2335,8 @@ msgid ""
 "Gamepad, keyboard and mouse input support are also available on Android."
 msgstr ""
 
-#: about/list_of_features.rst:445 tutorials/navigation/index.rst:2
+#: about/list_of_features.rst:445
+#: tutorials/navigation/index.rst:2
 msgid "Navigation"
 msgstr ""
 
@@ -2334,7 +2352,8 @@ msgstr ""
 msgid "Generate navigation meshes from the editor."
 msgstr ""
 
-#: about/list_of_features.rst:452 tutorials/export/exporting_for_web.rst:176
+#: about/list_of_features.rst:452
+#: tutorials/export/exporting_for_web.rst:176
 #: tutorials/networking/index.rst:2
 msgid "Networking"
 msgstr ""
@@ -2527,9 +2546,8 @@ msgid "**Nodes:**"
 msgstr ""
 
 #: about/list_of_features.rst:528
-#, fuzzy
 msgid "Buttons."
-msgstr "StartButton"
+msgstr ""
 
 #: about/list_of_features.rst:529
 msgid "Checkboxes, check buttons, radio buttons."
@@ -2647,10 +2665,11 @@ msgid ""
 "frameworks like Electron or Qt."
 msgstr ""
 
-#: about/list_of_features.rst:570 development/file_formats/tscn.rst:380
+#: about/list_of_features.rst:570
+#: development/file_formats/tscn.rst:380
 #: tutorials/animation/index.rst:2
 msgid "Animation"
-msgstr "Animacio"
+msgstr ""
 
 #: about/list_of_features.rst:572
 msgid "Direct kinematics and inverse kinematics."
@@ -2678,10 +2697,10 @@ msgstr ""
 msgid "Support for Bézier curves in animation."
 msgstr ""
 
-#: about/list_of_features.rst:580 development/file_formats/index.rst:2
-#, fuzzy
+#: about/list_of_features.rst:580
+#: development/file_formats/index.rst:2
 msgid "File formats"
-msgstr "Formo"
+msgstr ""
 
 #: about/list_of_features.rst:582
 msgid ""
@@ -2941,9 +2960,8 @@ msgid "|unstable| *Alpha.* Current focus of development (unstable)."
 msgstr ""
 
 #: about/release_policy.rst:90
-#, fuzzy
 msgid "unstable"
-msgstr "Ŝaltita"
+msgstr ""
 
 #: about/release_policy.rst:92
 msgid ""
@@ -2956,9 +2974,8 @@ msgid "supported"
 msgstr ""
 
 #: about/release_policy.rst:88
-#, fuzzy
 msgid "partial"
-msgstr "Partikloj"
+msgstr ""
 
 #: about/release_policy.rst:89
 msgid "eol"
@@ -3235,20 +3252,17 @@ msgid ""
 msgstr ""
 
 #: contributing/api_writing_guidelines.rst:70
-#, fuzzy
 msgid "`<brief_description>`"
-msgstr "Priskribo"
+msgstr ""
 
 #: contributing/api_writing_guidelines.rst:71
-#, fuzzy
 msgid "`<description>`"
-msgstr "Priskribo"
+msgstr ""
 
 #: contributing/api_writing_guidelines.rst:72
 #: contributing/api_writing_guidelines.rst:77
-#, fuzzy
 msgid "`<constant>`"
-msgstr "Konstantoj"
+msgstr ""
 
 #: contributing/api_writing_guidelines.rst:73
 msgid ""
@@ -3344,7 +3358,7 @@ msgstr ""
 #: contributing/api_writing_guidelines.rst:119
 #: tutorials/io/background_loading.rst:22
 msgid "Usage"
-msgstr "Uzo"
+msgstr ""
 
 #: contributing/api_writing_guidelines.rst:119
 msgid "Result"
@@ -3636,20 +3650,29 @@ msgstr ""
 #: development/engine/custom_resource_format_loaders.rst:5
 #: development/engine/custom_servers.rst:5
 #: getting_started/introduction/index.rst:2
-#: tutorials/2d/2d_lights_and_shadows.rst:5 tutorials/2d/2d_meshes.rst:5
-#: tutorials/2d/2d_movement.rst:5 tutorials/2d/2d_sprite_animation.rst:5
-#: tutorials/2d/2d_transforms.rst:5 tutorials/2d/custom_drawing_in_2d.rst:5
+#: tutorials/2d/2d_lights_and_shadows.rst:5
+#: tutorials/2d/2d_meshes.rst:5
+#: tutorials/2d/2d_movement.rst:5
+#: tutorials/2d/2d_sprite_animation.rst:5
+#: tutorials/2d/2d_transforms.rst:5
+#: tutorials/2d/custom_drawing_in_2d.rst:5
 #: tutorials/2d/using_tilemaps.rst:5
 #: tutorials/3d/3d_rendering_limitations.rst:11
-#: tutorials/3d/baked_lightmaps.rst:5 tutorials/3d/gi_probes.rst:5
-#: tutorials/3d/high_dynamic_range.rst:5 tutorials/3d/lights_and_shadows.rst:5
+#: tutorials/3d/baked_lightmaps.rst:5
+#: tutorials/3d/gi_probes.rst:5
+#: tutorials/3d/high_dynamic_range.rst:5
+#: tutorials/3d/lights_and_shadows.rst:5
 #: tutorials/3d/portals/rooms_and_portals_example.rst:8
-#: tutorials/3d/reflection_probes.rst:5 tutorials/3d/spatial_material.rst:5
+#: tutorials/3d/reflection_probes.rst:5
+#: tutorials/3d/spatial_material.rst:5
 #: tutorials/3d/using_gridmaps.rst:5
 #: tutorials/3d/using_multi_mesh_instance.rst:5
-#: tutorials/3d/using_transforms.rst:5 tutorials/animation/2d_skeletons.rst:5
-#: tutorials/animation/animation_tree.rst:5 tutorials/audio/audio_buses.rst:5
-#: tutorials/audio/audio_streams.rst:5 tutorials/audio/sync_with_audio.rst:5
+#: tutorials/3d/using_transforms.rst:5
+#: tutorials/animation/2d_skeletons.rst:5
+#: tutorials/animation/animation_tree.rst:5
+#: tutorials/audio/audio_buses.rst:5
+#: tutorials/audio/audio_streams.rst:5
+#: tutorials/audio/sync_with_audio.rst:5
 #: tutorials/best_practices/introduction_best_practices.rst:2
 #: tutorials/best_practices/project_organization.rst:5
 #: tutorials/best_practices/version_control_systems.rst:5
@@ -3657,7 +3680,8 @@ msgstr ""
 #: tutorials/export/feature_tags.rst:5
 #: tutorials/i18n/internationalizing_games.rst:5
 #: tutorials/inputs/input_examples.rst:5
-#: tutorials/io/binary_serialization_api.rst:5 tutorials/io/saving_games.rst:5
+#: tutorials/io/binary_serialization_api.rst:5
+#: tutorials/io/saving_games.rst:5
 #: tutorials/math/matrices_and_transforms.rst:5
 #: tutorials/math/vector_math.rst:5
 #: tutorials/navigation/real_time_navigation_3d.rst:5
@@ -3667,7 +3691,8 @@ msgstr ""
 #: tutorials/performance/gpu_optimization.rst:5
 #: tutorials/performance/index.rst:5
 #: tutorials/physics/kinematic_character_2d.rst:5
-#: tutorials/physics/ragdoll_system.rst:5 tutorials/physics/ray-casting.rst:5
+#: tutorials/physics/ragdoll_system.rst:5
+#: tutorials/physics/ray-casting.rst:5
 #: tutorials/physics/using_area_2d.rst:5
 #: tutorials/physics/using_kinematic_body_2d.rst:5
 #: tutorials/platforms/android/android_plugin.rst:5
@@ -4269,9 +4294,8 @@ msgid ""
 msgstr ""
 
 #: contributing/building_the_documentation.rst:2
-#, fuzzy
 msgid "Building Rebel Documentation with Sphinx"
-msgstr "Biblioteko de havaĵoj"
+msgstr ""
 
 #: contributing/building_the_documentation.rst:4
 msgid ""
@@ -5171,9 +5195,10 @@ msgid ""
 msgstr ""
 
 #: contributing/contributing_to_the_documentation.rst:8
-#: contributing/how_can_i_contribute.rst:14 tutorials/vr/openxr/index.rst:14
+#: contributing/how_can_i_contribute.rst:14
+#: tutorials/vr/openxr/index.rst:14
 msgid "Getting started"
-msgstr "Komencante"
+msgstr ""
 
 #: contributing/contributing_to_the_documentation.rst:10
 msgid ""
@@ -5297,9 +5322,8 @@ msgid ""
 msgstr ""
 
 #: contributing/contributing_to_the_documentation.rst:77
-#, fuzzy
 msgid "Edit the text in the text editor."
-msgstr "Biblioteko de havaĵoj"
+msgstr ""
 
 #: contributing/contributing_to_the_documentation.rst:79
 msgid ""
@@ -5597,9 +5621,8 @@ msgstr ""
 
 #: contributing/docs_writing_guidelines.rst:12
 #: contributing/docs_writing_guidelines.rst:42
-#, fuzzy
 msgid "Use the direct voice"
-msgstr "Biblioteko de havaĵoj"
+msgstr ""
 
 #: contributing/docs_writing_guidelines.rst:13
 #: contributing/docs_writing_guidelines.rst:77
@@ -6371,10 +6394,9 @@ msgid ""
 msgstr ""
 
 #: contributing/how_can_i_contribute.rst:7
-#, fuzzy
 msgid ""
 "Reporting issues <https://github.com/RebelToolbox/RebelEngine/issues>`__."
-msgstr "https://github.com/godotengine/godot-demo-projects"
+msgstr ""
 
 #: contributing/how_can_i_contribute.rst:9
 msgid ""
@@ -6416,9 +6438,8 @@ msgid ""
 msgstr ""
 
 #: contributing/how_can_i_contribute.rst:45
-#, fuzzy
 msgid "Writing the manual"
-msgstr "Biblioteko de havaĵoj"
+msgstr ""
 
 #: contributing/how_can_i_contribute.rst:55
 msgid "API Documentation"
@@ -8071,7 +8092,7 @@ msgstr ""
 #: development/compiling/compiling_for_ios.rst:77
 #: tutorials/editor/default_key_mapping.rst:331
 msgid "Run"
-msgstr "Ruli"
+msgstr ""
 
 #: development/compiling/compiling_for_ios.rst:79
 msgid ""
@@ -8625,9 +8646,8 @@ msgid ""
 msgstr ""
 
 #: development/compiling/compiling_for_web.rst:94
-#, fuzzy
 msgid "Building the Editor"
-msgstr "Biblioteko de havaĵoj"
+msgstr ""
 
 #: development/compiling/compiling_for_web.rst:96
 msgid ""
@@ -9737,9 +9757,8 @@ msgid ""
 msgstr ""
 
 #: development/compiling/compiling_with_mono.rst:310
-#, fuzzy
 msgid "Base Class Library"
-msgstr "Biblioteko de havaĵoj"
+msgstr ""
 
 #: development/compiling/compiling_with_mono.rst:312
 msgid ""
@@ -10250,7 +10269,8 @@ msgid ""
 msgstr ""
 
 #: development/compiling/introduction_to_the_buildsystem.rst:38
-#: tutorials/2d/2d_lights_and_shadows.rst:19 tutorials/2d/2d_movement.rst:15
+#: tutorials/2d/2d_lights_and_shadows.rst:19
+#: tutorials/2d/2d_movement.rst:15
 #: tutorials/animation/2d_skeletons.rst:27
 #: tutorials/platforms/customizing_html5_shell.rst:42
 #: tutorials/shaders/your_first_shader/your_first_2d_shader.rst:21
@@ -10366,7 +10386,7 @@ msgstr ""
 
 #: development/compiling/introduction_to_the_buildsystem.rst:138
 msgid "Target"
-msgstr "Celo"
+msgstr ""
 
 #: development/compiling/introduction_to_the_buildsystem.rst:140
 msgid "Target controls optimization and debug flags. Each mode means:"
@@ -10777,9 +10797,8 @@ msgid "TreeItem"
 msgstr ""
 
 #: development/compiling/optimizing_for_size.rst:128
-#, fuzzy
 msgid "OptionButton"
-msgstr "Faro"
+msgstr ""
 
 #: development/compiling/optimizing_for_size.rst:129
 msgid "SpinBox"
@@ -10802,9 +10821,8 @@ msgid "RichTextEffect"
 msgstr ""
 
 #: development/compiling/optimizing_for_size.rst:134
-#, fuzzy
 msgid "CharFXTransform"
-msgstr "Transformo"
+msgstr ""
 
 #: development/compiling/optimizing_for_size.rst:135
 msgid "PopupDialog"
@@ -10823,9 +10841,8 @@ msgid "ConfirmationDialog"
 msgstr ""
 
 #: development/compiling/optimizing_for_size.rst:139
-#, fuzzy
 msgid "MarginContainer"
-msgstr "Daŭrigi"
+msgstr ""
 
 #: development/compiling/optimizing_for_size.rst:140
 #: tutorials/ui/gui_containers.rst:154
@@ -10833,14 +10850,12 @@ msgid "ViewportContainer"
 msgstr ""
 
 #: development/compiling/optimizing_for_size.rst:141
-#, fuzzy
 msgid "SplitContainer"
-msgstr "Daŭrigi"
+msgstr ""
 
 #: development/compiling/optimizing_for_size.rst:142
-#, fuzzy
 msgid "HSplitContainer"
-msgstr "Daŭrigi"
+msgstr ""
 
 #: development/compiling/optimizing_for_size.rst:143
 msgid "GraphNode"
@@ -11481,9 +11496,8 @@ msgid ""
 msgstr ""
 
 #: development/configuring_an_ide/code_blocks.rst:127
-#, fuzzy
 msgid "Project properties..."
-msgstr "Atributoj"
+msgstr ""
 
 #: development/configuring_an_ide/code_blocks.rst:129
 msgid "Check the **This is a custom Makefile** property."
@@ -11929,9 +11943,8 @@ msgid ""
 msgstr ""
 
 #: development/configuring_an_ide/qt_creator.rst:49
-#, fuzzy
 msgid "File selection"
-msgstr "Enkadrigi elekton"
+msgstr ""
 
 #: development/configuring_an_ide/qt_creator.rst:53
 msgid ""
@@ -11961,9 +11974,8 @@ msgid ""
 msgstr ""
 
 #: development/configuring_an_ide/qt_creator.rst:80
-#, fuzzy
 msgid "Edit Files"
-msgstr "Trovi en dosierojn"
+msgstr ""
 
 #: development/configuring_an_ide/qt_creator.rst:82
 msgid ""
@@ -11988,9 +12000,8 @@ msgid "``*.mm``: macOS platform development"
 msgstr ""
 
 #: development/configuring_an_ide/qt_creator.rst:94
-#, fuzzy
 msgid "Update file selection"
-msgstr "Enkadrigi elekton"
+msgstr ""
 
 #: development/configuring_an_ide/qt_creator.rst:96
 msgid "Click **OK** and the list of files and folders will be updated."
@@ -12341,9 +12352,8 @@ msgstr ""
 
 #: development/configuring_an_ide/visual_studio.rst:179
 #: development/configuring_an_ide/visual_studio.rst:193
-#, fuzzy
 msgid "Show all files"
-msgstr "Montri gvidilojn"
+msgstr ""
 
 #: development/configuring_an_ide/visual_studio.rst:181
 msgid ""
@@ -12371,9 +12381,8 @@ msgid ""
 msgstr ""
 
 #: development/configuring_an_ide/visual_studio.rst:205
-#, fuzzy
 msgid "Add Debug Configuration"
-msgstr "Animacio"
+msgstr ""
 
 #: development/configuring_an_ide/visual_studio.rst:207
 msgid ""
@@ -12498,9 +12507,8 @@ msgid ""
 msgstr ""
 
 #: development/configuring_an_ide/visual_studio.rst:279
-#, fuzzy
 msgid "``CppProperties.json``"
-msgstr "Atributoj"
+msgstr ""
 
 #: development/configuring_an_ide/visual_studio.rst:281
 msgid "In the configuration drop down list, select your new configuration."
@@ -13053,11 +13061,10 @@ msgid ""
 msgstr ""
 
 #: development/editor/creating_icons.rst:100
-#, fuzzy
 msgid ""
 "`editor/icons <https://github.com/RebelToolbox/RebelEngine/tree/main/editor/"
 "icons>`__"
-msgstr "https://github.com/godotengine/godot-demo-projects"
+msgstr ""
 
 #: development/editor/editor_style_guide.rst:2
 msgid "Editor style guide"
@@ -13791,11 +13798,10 @@ msgid ""
 msgstr ""
 
 #: development/engine/core_types.rst:34
-#, fuzzy
 msgid ""
 "`core/typedefs.h <https://github.com/RebelToolbox/RebelEngine/blob/main/core/"
 "typedefs.h>`__"
-msgstr "https://github.com/godotengine/godot-demo-projects"
+msgstr ""
 
 #: development/engine/core_types.rst:37
 msgid "Memory model"
@@ -13904,18 +13910,16 @@ msgid ""
 msgstr ""
 
 #: development/engine/core_types.rst:130
-#, fuzzy
 msgid ""
 "`core/os/memory.h <https://github.com/RebelToolbox/RebelEngine/blob/main/"
 "core/os/memory.h>`__"
-msgstr "https://github.com/godotengine/godot-demo-projects"
+msgstr ""
 
 #: development/engine/core_types.rst:131
-#, fuzzy
 msgid ""
 "`core/pool_vector.h <https://github.com/RebelToolbox/RebelEngine/blob/main/"
 "core/pool_vector.h>`__"
-msgstr "https://github.com/godotengine/godot-demo-projects"
+msgstr ""
 
 #: development/engine/core_types.rst:134
 msgid "Containers"
@@ -13935,7 +13939,7 @@ msgstr ""
 
 #: development/engine/core_types.rst:140
 msgid "Set"
-msgstr "Agordi"
+msgstr ""
 
 #: development/engine/core_types.rst:141
 msgid "Map"
@@ -13966,32 +13970,28 @@ msgid ""
 msgstr ""
 
 #: development/engine/core_types.rst:163
-#, fuzzy
 msgid ""
 "`core/vector.h <https://github.com/RebelToolbox/RebelEngine/blob/main/core/"
 "vector.h>`__"
-msgstr "https://github.com/godotengine/godot-demo-projects"
+msgstr ""
 
 #: development/engine/core_types.rst:164
-#, fuzzy
 msgid ""
 "`core/list.h <https://github.com/RebelToolbox/RebelEngine/blob/main/core/"
 "list.h>`__"
-msgstr "https://github.com/godotengine/godot-demo-projects"
+msgstr ""
 
 #: development/engine/core_types.rst:165
-#, fuzzy
 msgid ""
 "`core/set.h <https://github.com/RebelToolbox/RebelEngine/blob/main/core/"
 "set.h>`__"
-msgstr "https://github.com/godotengine/godot-demo-projects"
+msgstr ""
 
 #: development/engine/core_types.rst:166
-#, fuzzy
 msgid ""
 "`core/map.h <https://github.com/RebelToolbox/RebelEngine/blob/main/core/"
 "map.h>`__"
-msgstr "https://github.com/godotengine/godot-demo-projects"
+msgstr ""
 
 #: development/engine/core_types.rst:169
 #: tutorials/plugins/editor/import_plugins.rst:246
@@ -14009,11 +14009,10 @@ msgid ""
 msgstr ""
 
 #: development/engine/core_types.rst:178
-#, fuzzy
 msgid ""
 "`core/ustring.h <https://github.com/RebelToolbox/RebelEngine/blob/main/core/"
 "ustring.h>`__"
-msgstr "https://github.com/godotengine/godot-demo-projects"
+msgstr ""
 
 #: development/engine/core_types.rst:181
 msgid "StringName"
@@ -14034,11 +14033,10 @@ msgid ""
 msgstr ""
 
 #: development/engine/core_types.rst:193
-#, fuzzy
 msgid ""
 "`core/string_name.h <https://github.com/RebelToolbox/RebelEngine/blob/main/"
 "core/string_name.h>`__"
-msgstr "https://github.com/godotengine/godot-demo-projects"
+msgstr ""
 
 #: development/engine/core_types.rst:196
 msgid "Math types"
@@ -14050,13 +14048,13 @@ msgid ""
 msgstr ""
 
 #: development/engine/core_types.rst:203
-#, fuzzy
 msgid ""
 "`core/math <https://github.com/RebelToolbox/RebelEngine/tree/main/core/"
 "math>`__"
-msgstr "https://github.com/godotengine/godot-demo-projects"
+msgstr ""
 
-#: development/engine/core_types.rst:206 development/file_formats/tscn.rst:138
+#: development/engine/core_types.rst:206
+#: development/file_formats/tscn.rst:138
 msgid "NodePath"
 msgstr ""
 
@@ -14067,11 +14065,10 @@ msgid ""
 msgstr ""
 
 #: development/engine/core_types.rst:213
-#, fuzzy
 msgid ""
 "`core/node_path.h <https://github.com/RebelToolbox/RebelEngine/blob/main/"
 "core/node_path.h>`__"
-msgstr "https://github.com/godotengine/godot-demo-projects"
+msgstr ""
 
 #: development/engine/core_types.rst:216
 msgid "RID"
@@ -14086,11 +14083,10 @@ msgstr ""
 
 #: development/engine/core_types.rst:225
 #: development/engine/custom_servers.rst:312
-#, fuzzy
 msgid ""
 "`core/rid.h <https://github.com/RebelToolbox/RebelEngine/blob/main/core/"
 "rid.h>`__"
-msgstr "https://github.com/godotengine/godot-demo-projects"
+msgstr ""
 
 #: development/engine/custom_audiostreams.rst:2
 msgid "Custom AudioStreams"
@@ -14120,11 +14116,10 @@ msgstr ""
 #: development/engine/custom_audiostreams.rst:22
 #: development/engine/custom_audiostreams.rst:115
 #: development/engine/custom_audiostreams.rst:346
-#, fuzzy
 msgid ""
 "`servers/audio/audio_stream.h <https://github.com/RebelToolbox/RebelEngine/"
 "blob/main/servers/audio/audio_stream.h>`__"
-msgstr "https://github.com/godotengine/godot-demo-projects"
+msgstr ""
 
 #: development/engine/custom_audiostreams.rst:23
 #: development/engine/custom_audiostreams.rst:347
@@ -14208,11 +14203,10 @@ msgid ""
 msgstr ""
 
 #: development/engine/custom_audiostreams.rst:345
-#, fuzzy
 msgid ""
 "`core/math/audio_frame.h <https://github.com/RebelToolbox/RebelEngine/blob/"
 "main/core/math/audio_frame.h>`__"
-msgstr "https://github.com/godotengine/godot-demo-projects"
+msgstr ""
 
 #: development/engine/custom_modules_in_cpp.rst:2
 msgid "Custom modules in C++"
@@ -14704,11 +14698,10 @@ msgstr ""
 
 #: development/engine/custom_resource_format_loaders.rst:18
 #: development/engine/custom_resource_format_loaders.rst:352
-#, fuzzy
 msgid ""
 "`core/io/resource_loader.h <https://github.com/RebelToolbox/RebelEngine/blob/"
 "main/core/io/resource_loader.h>`_"
-msgstr "https://github.com/godotengine/godot-demo-projects"
+msgstr ""
 
 #: development/engine/custom_resource_format_loaders.rst:23
 msgid "Adding new support for many file formats"
@@ -14739,11 +14732,10 @@ msgid "ImageFormatLoader should be used to load images."
 msgstr ""
 
 #: development/engine/custom_resource_format_loaders.rst:37
-#, fuzzy
 msgid ""
 "`core/io/image_loader.h <https://github.com/RebelToolbox/RebelEngine/blob/"
 "main/core/io/image_loader.h>`_"
-msgstr "https://github.com/godotengine/godot-demo-projects"
+msgstr ""
 
 #: development/engine/custom_resource_format_loaders.rst:41
 msgid "Creating a ResourceFormatLoader"
@@ -14818,11 +14810,10 @@ msgid "`streambuf <https://cplusplus.com/reference/streambuf/streambuf/>`_"
 msgstr ""
 
 #: development/engine/custom_resource_format_loaders.rst:302
-#, fuzzy
 msgid ""
 "`core/os/file_access.h <https://github.com/RebelToolbox/RebelEngine/blob/"
 "main/core/os/file_access.h>`_"
-msgstr "https://github.com/godotengine/godot-demo-projects"
+msgstr ""
 
 #: development/engine/custom_resource_format_loaders.rst:305
 msgid "Registering the new file format"
@@ -14850,9 +14841,8 @@ msgid "Then attach the following script to any node::"
 msgstr ""
 
 #: development/engine/custom_servers.rst:2
-#, fuzzy
 msgid "Custom Servers"
-msgstr "Ludi laŭmendan scenon"
+msgstr ""
 
 #: development/engine/custom_servers.rst:7
 msgid ""
@@ -14993,11 +14983,10 @@ msgid ""
 msgstr ""
 
 #: development/engine/custom_servers.rst:469
-#, fuzzy
 msgid ""
 "`core/message_queue.h <https://github.com/RebelToolbox/RebelEngine/blob/main/"
 "core/message_queue.h>`__"
-msgstr "https://github.com/godotengine/godot-demo-projects"
+msgstr ""
 
 #: development/engine/custom_servers.rst:472
 msgid "Summing it up"
@@ -15124,9 +15113,8 @@ msgid "Debugging on macOS"
 msgstr ""
 
 #: development/engine/macos_debug.rst:5
-#, fuzzy
 msgid "Debugging Rebel Editor"
-msgstr "Biblioteko de havaĵoj"
+msgstr ""
 
 #: development/engine/macos_debug.rst:7
 msgid ""
@@ -15185,11 +15173,10 @@ msgid "This makes Objects gain a lot of functionality, like for example"
 msgstr ""
 
 #: development/engine/object_class.rst:35
-#, fuzzy
 msgid ""
 "`core/object.h <https://github.com/RebelToolbox/RebelEngine/blob/main/core/"
 "object.h>`__"
-msgstr "https://github.com/godotengine/godot-demo-projects"
+msgstr ""
 
 #: development/engine/object_class.rst:38
 msgid "Registering an Object"
@@ -15255,11 +15242,10 @@ msgid ""
 msgstr ""
 
 #: development/engine/object_class.rst:92
-#, fuzzy
 msgid ""
 "`core/class_db.h <https://github.com/RebelToolbox/RebelEngine/blob/main/core/"
 "class_db.h>`__"
-msgstr "https://github.com/godotengine/godot-demo-projects"
+msgstr ""
 
 #: development/engine/object_class.rst:95
 #: tutorials/scripting/c_sharp/c_sharp_differences.rst:20
@@ -15269,7 +15255,7 @@ msgstr "https://github.com/godotengine/godot-demo-projects"
 #: tutorials/shaders/shader_reference/shading_language.rst:256
 #: tutorials/shaders/shaders_style_guide.rst:305
 msgid "Constants"
-msgstr "Konstantoj"
+msgstr ""
 
 #: development/engine/object_class.rst:97
 msgid "Classes often have enums such as:"
@@ -15357,9 +15343,8 @@ msgid "This creates the property using the setter and the getter."
 msgstr ""
 
 #: development/engine/object_class.rst:174
-#, fuzzy
 msgid "Binding properties"
-msgstr "Atributoj"
+msgstr ""
 
 #: development/engine/object_class.rst:176
 msgid ""
@@ -15405,7 +15390,7 @@ msgstr ""
 #: tutorials/scripting/gdscript/gdscript_styleguide.rst:580
 #: tutorials/scripting/visual_script/nodes_purposes.rst:162
 msgid "Signals"
-msgstr "Signaloj"
+msgstr ""
 
 #: development/engine/object_class.rst:215
 msgid ""
@@ -15457,15 +15442,14 @@ msgid ""
 msgstr ""
 
 #: development/engine/object_class.rst:261
-#, fuzzy
 msgid ""
 "`core/reference.h <https://github.com/RebelToolbox/RebelEngine/blob/main/"
 "core/reference.h>`__"
-msgstr "https://github.com/godotengine/godot-demo-projects"
+msgstr ""
 
 #: development/engine/object_class.rst:264
 msgid "Resources:"
-msgstr "Risurcoj:"
+msgstr ""
 
 #: development/engine/object_class.rst:266
 msgid ""
@@ -15481,11 +15465,10 @@ msgid "Resources without a path are fine too."
 msgstr ""
 
 #: development/engine/object_class.rst:276
-#, fuzzy
 msgid ""
 "`core/resource.h <https://github.com/RebelToolbox/RebelEngine/blob/main/core/"
 "resource.h>`__"
-msgstr "https://github.com/godotengine/godot-demo-projects"
+msgstr ""
 
 #: development/engine/object_class.rst:279
 msgid "Resource loading"
@@ -15507,11 +15490,10 @@ msgid "resourceinteractiveloader (TODO)"
 msgstr ""
 
 #: development/engine/object_class.rst:296
-#, fuzzy
 msgid ""
 "`core/io/resource_loader.h <https://github.com/RebelToolbox/RebelEngine/blob/"
 "main/core/io/resource_loader.h>`__"
-msgstr "https://github.com/godotengine/godot-demo-projects"
+msgstr ""
 
 #: development/engine/object_class.rst:299
 msgid "Resource saving"
@@ -15530,11 +15512,10 @@ msgid ""
 msgstr ""
 
 #: development/engine/object_class.rst:314
-#, fuzzy
 msgid ""
 "`core/io/resource_saver.h <https://github.com/RebelToolbox/RebelEngine/blob/"
 "main/core/io/resource_saver.h>`__"
-msgstr "https://github.com/godotengine/godot-demo-projects"
+msgstr ""
 
 #: development/engine/using_cpp_profilers.rst:2
 msgid "Using C++ profilers"
@@ -15845,7 +15826,7 @@ msgstr ""
 #: tutorials/inputs/mouse_and_input_coordinates.rst:5
 #: tutorials/scripting/gdscript/gdscript_advanced.rst:5
 msgid "About"
-msgstr "Pri"
+msgstr ""
 
 #: development/engine/variant_class.rst:7
 msgid ""
@@ -15913,11 +15894,10 @@ msgid ""
 msgstr ""
 
 #: development/engine/variant_class.rst:37
-#, fuzzy
 msgid ""
 "`core/variant.h <https://github.com/RebelToolbox/RebelEngine/blob/main/core/"
 "variant.h>`__"
-msgstr "https://github.com/godotengine/godot-demo-projects"
+msgstr ""
 
 #: development/engine/variant_class.rst:40
 msgid "Containers: Dictionary and Array"
@@ -15938,18 +15918,16 @@ msgid ""
 msgstr ""
 
 #: development/engine/variant_class.rst:53
-#, fuzzy
 msgid ""
 "`core/dictionary.h <https://github.com/RebelToolbox/RebelEngine/blob/main/"
 "core/dictionary.h>`__"
-msgstr "https://github.com/godotengine/godot-demo-projects"
+msgstr ""
 
 #: development/engine/variant_class.rst:54
-#, fuzzy
 msgid ""
 "`core/array.h <https://github.com/RebelToolbox/RebelEngine/blob/main/core/"
 "array.h>`__"
-msgstr "https://github.com/godotengine/godot-demo-projects"
+msgstr ""
 
 #: development/file_formats/gdscript_grammar.rst:2
 msgid "GDScript grammar"
@@ -16012,11 +15990,13 @@ msgstr ""
 msgid "File Descriptor"
 msgstr ""
 
-#: development/file_formats/tscn.rst:26 development/file_formats/tscn.rst:277
+#: development/file_formats/tscn.rst:26
+#: development/file_formats/tscn.rst:277
 msgid "External resources"
 msgstr ""
 
-#: development/file_formats/tscn.rst:27 development/file_formats/tscn.rst:299
+#: development/file_formats/tscn.rst:27
+#: development/file_formats/tscn.rst:299
 msgid "Internal resources"
 msgstr ""
 
@@ -16185,7 +16165,8 @@ msgstr ""
 msgid "``pose``"
 msgstr ""
 
-#: development/file_formats/tscn.rst:175 development/file_formats/tscn.rst:396
+#: development/file_formats/tscn.rst:175
+#: development/file_formats/tscn.rst:396
 msgid "``enabled``"
 msgstr ""
 
@@ -16373,9 +16354,8 @@ msgid "Vertex positions array"
 msgstr ""
 
 #: development/file_formats/tscn.rst:344
-#, fuzzy
 msgid "Normals array"
-msgstr "Normal Map"
+msgstr ""
 
 #: development/file_formats/tscn.rst:345
 msgid "Tangents array"
@@ -17657,9 +17637,8 @@ msgid "*Align* : \"Center\""
 msgstr ""
 
 #: getting_started/first_2d_game/06.heads_up_display.rst:76
-#, fuzzy
 msgid "Message"
-msgstr "MessageLabel"
+msgstr ""
 
 #: getting_started/first_2d_game/06.heads_up_display.rst:78
 msgid "*Layout* : \"HCenter Wide\""
@@ -17675,7 +17654,7 @@ msgstr ""
 
 #: getting_started/first_2d_game/06.heads_up_display.rst:84
 msgid "StartButton"
-msgstr "StartButton"
+msgstr ""
 
 #: getting_started/first_2d_game/06.heads_up_display.rst:86
 msgid "*Text* : ``Start``"
@@ -17983,7 +17962,7 @@ msgstr ""
 #: getting_started/first_3d_game/index.rst:8
 #: getting_started/introduction/design_philosophy.rst:44
 msgid "|image0|"
-msgstr "|bildo0|"
+msgstr ""
 
 #: getting_started/first_2d_game/index.rst:94
 #: getting_started/first_3d_game/02.player_input.rst:157
@@ -17996,9 +17975,8 @@ msgstr "|bildo0|"
 #: getting_started/first_3d_game/09.adding_animations.rst:532
 #: getting_started/first_3d_game/index.rst:66
 #: getting_started/introduction/design_philosophy.rst:169
-#, fuzzy
 msgid "image0"
-msgstr "|bildo0|"
+msgstr ""
 
 #: getting_started/first_2d_game/index.rst:10
 msgid ""
@@ -18121,9 +18099,8 @@ msgstr ""
 
 #: getting_started/first_2d_game/index.rst:80
 #: getting_started/first_3d_game/index.rst:49
-#, fuzzy
 msgid "Contents"
-msgstr "Daŭrigi"
+msgstr ""
 
 #: getting_started/first_3d_game/01.game_setup.rst:2
 msgid "Setting up the game area"
@@ -18172,9 +18149,8 @@ msgstr ""
 #: getting_started/first_3d_game/08.score_and_replay.rst:451
 #: getting_started/first_3d_game/09.adding_animations.rst:533
 #: getting_started/introduction/design_philosophy.rst:170
-#, fuzzy
 msgid "image1"
-msgstr "|bildo0|"
+msgstr ""
 
 #: getting_started/first_3d_game/01.game_setup.rst:17
 msgid ""
@@ -18207,9 +18183,8 @@ msgstr ""
 #: getting_started/first_3d_game/08.score_and_replay.rst:452
 #: getting_started/first_3d_game/09.adding_animations.rst:534
 #: getting_started/introduction/design_philosophy.rst:171
-#, fuzzy
 msgid "image2"
-msgstr "|bildo0|"
+msgstr ""
 
 #: getting_started/first_3d_game/01.game_setup.rst:24
 msgid "Click *Import & Edit* to open the project in the editor."
@@ -18238,9 +18213,8 @@ msgstr ""
 #: getting_started/first_3d_game/08.score_and_replay.rst:453
 #: getting_started/first_3d_game/09.adding_animations.rst:535
 #: getting_started/introduction/design_philosophy.rst:172
-#, fuzzy
 msgid "image3"
-msgstr "|bildo0|"
+msgstr ""
 
 #: getting_started/first_3d_game/01.game_setup.rst:28
 msgid ""
@@ -18271,9 +18245,8 @@ msgstr ""
 #: getting_started/first_3d_game/08.score_and_replay.rst:454
 #: getting_started/first_3d_game/09.adding_animations.rst:536
 #: getting_started/introduction/design_philosophy.rst:173
-#, fuzzy
 msgid "image4"
-msgstr "|bildo0|"
+msgstr ""
 
 #: getting_started/first_3d_game/01.game_setup.rst:33
 msgid ""
@@ -18317,9 +18290,8 @@ msgstr ""
 #: getting_started/first_3d_game/08.score_and_replay.rst:455
 #: getting_started/first_3d_game/09.adding_animations.rst:537
 #: getting_started/introduction/design_philosophy.rst:174
-#, fuzzy
 msgid "image5"
-msgstr "|bildo0|"
+msgstr ""
 
 #: getting_started/first_3d_game/01.game_setup.rst:46
 msgid ""
@@ -18355,9 +18327,8 @@ msgstr ""
 #: getting_started/first_3d_game/06.jump_and_squash.rst:349
 #: getting_started/first_3d_game/08.score_and_replay.rst:456
 #: getting_started/first_3d_game/09.adding_animations.rst:538
-#, fuzzy
 msgid "image6"
-msgstr "|bildo0|"
+msgstr ""
 
 #: getting_started/first_3d_game/01.game_setup.rst:56
 msgid ""
@@ -18385,9 +18356,8 @@ msgstr ""
 #: getting_started/first_3d_game/06.jump_and_squash.rst:350
 #: getting_started/first_3d_game/08.score_and_replay.rst:457
 #: getting_started/first_3d_game/09.adding_animations.rst:539
-#, fuzzy
 msgid "image7"
-msgstr "|bildo0|"
+msgstr ""
 
 #: getting_started/first_3d_game/01.game_setup.rst:61
 msgid ""
@@ -18415,9 +18385,8 @@ msgstr ""
 #: getting_started/first_3d_game/06.jump_and_squash.rst:351
 #: getting_started/first_3d_game/08.score_and_replay.rst:458
 #: getting_started/first_3d_game/09.adding_animations.rst:540
-#, fuzzy
 msgid "image8"
-msgstr "|bildo0|"
+msgstr ""
 
 #: getting_started/first_3d_game/01.game_setup.rst:67
 msgid ""
@@ -18451,9 +18420,8 @@ msgstr ""
 #: getting_started/first_3d_game/05.spawning_mobs.rst:343
 #: getting_started/first_3d_game/08.score_and_replay.rst:459
 #: getting_started/first_3d_game/09.adding_animations.rst:541
-#, fuzzy
 msgid "image9"
-msgstr "|bildo0|"
+msgstr ""
 
 #: getting_started/first_3d_game/01.game_setup.rst:80
 msgid ""
@@ -18487,9 +18455,8 @@ msgstr ""
 #: getting_started/first_3d_game/05.spawning_mobs.rst:344
 #: getting_started/first_3d_game/08.score_and_replay.rst:460
 #: getting_started/first_3d_game/09.adding_animations.rst:542
-#, fuzzy
 msgid "image10"
-msgstr "|bildo0|"
+msgstr ""
 
 #: getting_started/first_3d_game/01.game_setup.rst:90
 msgid ""
@@ -18510,9 +18477,8 @@ msgstr ""
 #: getting_started/first_3d_game/05.spawning_mobs.rst:345
 #: getting_started/first_3d_game/08.score_and_replay.rst:461
 #: getting_started/first_3d_game/09.adding_animations.rst:543
-#, fuzzy
 msgid "image11"
-msgstr "|bildo0|"
+msgstr ""
 
 #: getting_started/first_3d_game/01.game_setup.rst:95
 msgid ""
@@ -18535,9 +18501,8 @@ msgstr ""
 #: getting_started/first_3d_game/05.spawning_mobs.rst:346
 #: getting_started/first_3d_game/08.score_and_replay.rst:462
 #: getting_started/first_3d_game/09.adding_animations.rst:544
-#, fuzzy
 msgid "image12"
-msgstr "|bildo0|"
+msgstr ""
 
 #: getting_started/first_3d_game/01.game_setup.rst:102
 msgid ""
@@ -18566,9 +18531,8 @@ msgstr ""
 #: getting_started/first_3d_game/05.spawning_mobs.rst:347
 #: getting_started/first_3d_game/08.score_and_replay.rst:463
 #: getting_started/first_3d_game/09.adding_animations.rst:545
-#, fuzzy
 msgid "image13"
-msgstr "|bildo0|"
+msgstr ""
 
 #: getting_started/first_3d_game/01.game_setup.rst:113
 msgid ""
@@ -18589,9 +18553,8 @@ msgstr ""
 #: getting_started/first_3d_game/05.spawning_mobs.rst:348
 #: getting_started/first_3d_game/08.score_and_replay.rst:464
 #: getting_started/first_3d_game/09.adding_animations.rst:546
-#, fuzzy
 msgid "image14"
-msgstr "|bildo0|"
+msgstr ""
 
 #: getting_started/first_3d_game/01.game_setup.rst:118
 msgid ""
@@ -18604,18 +18567,16 @@ msgstr ""
 #: getting_started/first_3d_game/05.spawning_mobs.rst:120
 #: getting_started/first_3d_game/08.score_and_replay.rst:222
 #: getting_started/first_3d_game/09.adding_animations.rst:121
-#, fuzzy
 msgid "|image15|"
-msgstr "|bildo0|"
+msgstr ""
 
 #: getting_started/first_3d_game/01.game_setup.rst:160
 #: getting_started/first_3d_game/02.player_input.rst:172
 #: getting_started/first_3d_game/05.spawning_mobs.rst:349
 #: getting_started/first_3d_game/08.score_and_replay.rst:465
 #: getting_started/first_3d_game/09.adding_animations.rst:547
-#, fuzzy
 msgid "image15"
-msgstr "|bildo0|"
+msgstr ""
 
 #: getting_started/first_3d_game/01.game_setup.rst:125
 msgid ""
@@ -18642,18 +18603,16 @@ msgstr ""
 #: getting_started/first_3d_game/05.spawning_mobs.rst:125
 #: getting_started/first_3d_game/08.score_and_replay.rst:227
 #: getting_started/first_3d_game/09.adding_animations.rst:132
-#, fuzzy
 msgid "|image16|"
-msgstr "|bildo0|"
+msgstr ""
 
 #: getting_started/first_3d_game/01.game_setup.rst:161
 #: getting_started/first_3d_game/02.player_input.rst:173
 #: getting_started/first_3d_game/05.spawning_mobs.rst:350
 #: getting_started/first_3d_game/08.score_and_replay.rst:466
 #: getting_started/first_3d_game/09.adding_animations.rst:548
-#, fuzzy
 msgid "image16"
-msgstr "|bildo0|"
+msgstr ""
 
 #: getting_started/first_3d_game/01.game_setup.rst:139
 msgid "At this point, your project should look like this."
@@ -18664,18 +18623,16 @@ msgstr ""
 #: getting_started/first_3d_game/05.spawning_mobs.rst:133
 #: getting_started/first_3d_game/08.score_and_replay.rst:232
 #: getting_started/first_3d_game/09.adding_animations.rst:137
-#, fuzzy
 msgid "|image17|"
-msgstr "|bildo0|"
+msgstr ""
 
 #: getting_started/first_3d_game/01.game_setup.rst:162
 #: getting_started/first_3d_game/02.player_input.rst:174
 #: getting_started/first_3d_game/05.spawning_mobs.rst:351
 #: getting_started/first_3d_game/08.score_and_replay.rst:467
 #: getting_started/first_3d_game/09.adding_animations.rst:549
-#, fuzzy
 msgid "image17"
-msgstr "|bildo0|"
+msgstr ""
 
 #: getting_started/first_3d_game/01.game_setup.rst:143
 msgid ""
@@ -18887,17 +18844,15 @@ msgstr ""
 #: getting_started/first_3d_game/05.spawning_mobs.rst:137
 #: getting_started/first_3d_game/08.score_and_replay.rst:322
 #: getting_started/first_3d_game/09.adding_animations.rst:143
-#, fuzzy
 msgid "|image18|"
-msgstr "|bildo0|"
+msgstr ""
 
 #: getting_started/first_3d_game/02.player_input.rst:175
 #: getting_started/first_3d_game/05.spawning_mobs.rst:352
 #: getting_started/first_3d_game/08.score_and_replay.rst:468
 #: getting_started/first_3d_game/09.adding_animations.rst:550
-#, fuzzy
 msgid "image18"
-msgstr "|bildo0|"
+msgstr ""
 
 #: getting_started/first_3d_game/02.player_input.rst:152
 msgid ""
@@ -19612,16 +19567,14 @@ msgstr ""
 #: getting_started/first_3d_game/05.spawning_mobs.rst:143
 #: getting_started/first_3d_game/08.score_and_replay.rst:327
 #: getting_started/first_3d_game/09.adding_animations.rst:150
-#, fuzzy
 msgid "|image19|"
-msgstr "|bildo0|"
+msgstr ""
 
 #: getting_started/first_3d_game/05.spawning_mobs.rst:353
 #: getting_started/first_3d_game/08.score_and_replay.rst:469
 #: getting_started/first_3d_game/09.adding_animations.rst:551
-#, fuzzy
 msgid "image19"
-msgstr "|bildo0|"
+msgstr ""
 
 #: getting_started/first_3d_game/05.spawning_mobs.rst:145
 msgid "With that, we're ready to code the spawn mechanism."
@@ -19664,16 +19617,14 @@ msgstr ""
 #: getting_started/first_3d_game/05.spawning_mobs.rst:195
 #: getting_started/first_3d_game/08.score_and_replay.rst:334
 #: getting_started/first_3d_game/09.adding_animations.rst:154
-#, fuzzy
 msgid "|image20|"
-msgstr "|bildo0|"
+msgstr ""
 
 #: getting_started/first_3d_game/05.spawning_mobs.rst:354
 #: getting_started/first_3d_game/08.score_and_replay.rst:470
 #: getting_started/first_3d_game/09.adding_animations.rst:552
-#, fuzzy
 msgid "image20"
-msgstr "|bildo0|"
+msgstr ""
 
 #: getting_started/first_3d_game/05.spawning_mobs.rst:197
 msgid "Add a new *Timer* node as a child of *Main*. Name it *MobTimer*."
@@ -19682,16 +19633,14 @@ msgstr ""
 #: getting_started/first_3d_game/05.spawning_mobs.rst:199
 #: getting_started/first_3d_game/08.score_and_replay.rst:345
 #: getting_started/first_3d_game/09.adding_animations.rst:158
-#, fuzzy
 msgid "|image21|"
-msgstr "|bildo0|"
+msgstr ""
 
 #: getting_started/first_3d_game/05.spawning_mobs.rst:355
 #: getting_started/first_3d_game/08.score_and_replay.rst:471
 #: getting_started/first_3d_game/09.adding_animations.rst:553
-#, fuzzy
 msgid "image21"
-msgstr "|bildo0|"
+msgstr ""
 
 #: getting_started/first_3d_game/05.spawning_mobs.rst:201
 msgid ""
@@ -19702,16 +19651,14 @@ msgstr ""
 #: getting_started/first_3d_game/05.spawning_mobs.rst:204
 #: getting_started/first_3d_game/08.score_and_replay.rst:354
 #: getting_started/first_3d_game/09.adding_animations.rst:182
-#, fuzzy
 msgid "|image22|"
-msgstr "|bildo0|"
+msgstr ""
 
 #: getting_started/first_3d_game/05.spawning_mobs.rst:356
 #: getting_started/first_3d_game/08.score_and_replay.rst:472
 #: getting_started/first_3d_game/09.adding_animations.rst:554
-#, fuzzy
 msgid "image22"
-msgstr "|bildo0|"
+msgstr ""
 
 #: getting_started/first_3d_game/05.spawning_mobs.rst:206
 msgid ""
@@ -19729,29 +19676,25 @@ msgstr ""
 
 #: getting_started/first_3d_game/05.spawning_mobs.rst:214
 #: getting_started/first_3d_game/08.score_and_replay.rst:360
-#, fuzzy
 msgid "|image23|"
-msgstr "|bildo0|"
+msgstr ""
 
 #: getting_started/first_3d_game/05.spawning_mobs.rst:357
 #: getting_started/first_3d_game/08.score_and_replay.rst:473
-#, fuzzy
 msgid "image23"
-msgstr "|bildo0|"
+msgstr ""
 
 #: getting_started/first_3d_game/05.spawning_mobs.rst:216
 msgid "Connect it to the *Main* node."
 msgstr ""
 
 #: getting_started/first_3d_game/05.spawning_mobs.rst:218
-#, fuzzy
 msgid "|image24|"
-msgstr "|bildo0|"
+msgstr ""
 
 #: getting_started/first_3d_game/05.spawning_mobs.rst:358
-#, fuzzy
 msgid "image24"
-msgstr "|bildo0|"
+msgstr ""
 
 #: getting_started/first_3d_game/05.spawning_mobs.rst:220
 msgid ""
@@ -19802,14 +19745,12 @@ msgid ""
 msgstr ""
 
 #: getting_started/first_3d_game/05.spawning_mobs.rst:329
-#, fuzzy
 msgid "|image25|"
-msgstr "|bildo0|"
+msgstr ""
 
 #: getting_started/first_3d_game/05.spawning_mobs.rst:359
-#, fuzzy
 msgid "image25"
-msgstr "|bildo0|"
+msgstr ""
 
 #: getting_started/first_3d_game/05.spawning_mobs.rst:331
 msgid ""
@@ -20749,9 +20690,8 @@ msgid "We'll start with an introduction to using the animation editor."
 msgstr ""
 
 #: getting_started/first_3d_game/09.adding_animations.rst:13
-#, fuzzy
 msgid "Using the animation editor"
-msgstr "Biblioteko de havaĵoj"
+msgstr ""
 
 #: getting_started/first_3d_game/09.adding_animations.rst:15
 msgid ""
@@ -21037,9 +20977,8 @@ msgid "And with that, you finished coding your first complete 3D game."
 msgstr ""
 
 #: getting_started/first_3d_game/09.adding_animations.rst:272
-#, fuzzy
 msgid "**Congratulations**!"
-msgstr "Konstantoj"
+msgstr ""
 
 #: getting_started/first_3d_game/09.adding_animations.rst:274
 msgid ""
@@ -21939,7 +21878,8 @@ msgstr ""
 #: getting_started/step_by_step/scripting_languages.rst:165
 #: getting_started/step_by_step/scripting_player_input.rst:178
 #: getting_started/step_by_step/signals.rst:373
-#: tutorials/2d/2d_movement.rst:351 tutorials/2d/2d_sprite_animation.rst:261
+#: tutorials/2d/2d_movement.rst:351
+#: tutorials/2d/2d_sprite_animation.rst:261
 #: tutorials/export/exporting_pcks.rst:136
 #: tutorials/scripting/gdscript/static_typing.rst:372
 msgid "Summary"
@@ -22499,7 +22439,7 @@ msgstr ""
 
 #: getting_started/step_by_step/nodes_and_scenes.rst:4
 msgid "Nodes and Scenes"
-msgstr "Nodoj kaj Scenoj"
+msgstr ""
 
 #: getting_started/step_by_step/nodes_and_scenes.rst:6
 msgid ""
@@ -22525,9 +22465,8 @@ msgid "A name."
 msgstr ""
 
 #: getting_started/step_by_step/nodes_and_scenes.rst:22
-#, fuzzy
 msgid "Editable properties."
-msgstr "Atributoj"
+msgstr ""
 
 #: getting_started/step_by_step/nodes_and_scenes.rst:23
 msgid "They receive callbacks to update every frame."
@@ -23041,9 +22980,8 @@ msgid "Run the scene to see the Rebel icon turn in-place."
 msgstr ""
 
 #: getting_started/step_by_step/scripting_first_script.rst:262
-#, fuzzy
 msgid "Moving forward"
-msgstr "Antaŭeniri"
+msgstr ""
 
 #: getting_started/step_by_step/scripting_first_script.rst:264
 msgid ""
@@ -23541,12 +23479,11 @@ msgstr ""
 #: getting_started/step_by_step/signals.rst:-1
 #: tutorials/scripting/instancing_with_signals.rst:-1
 msgid "Signal"
-msgstr "Signalo"
+msgstr ""
 
 #: getting_started/step_by_step/signals.rst:10
-#, fuzzy
 msgid "Using signals"
-msgstr "Signaloj"
+msgstr ""
 
 #: getting_started/step_by_step/signals.rst:12
 msgid ""
@@ -23959,9 +23896,8 @@ msgid "What's New"
 msgstr ""
 
 #: index.rst:10
-#, fuzzy
 msgid "Getting Started"
-msgstr "Komencante"
+msgstr ""
 
 #: index.rst:19
 msgid "Tutorials"
@@ -25037,7 +24973,8 @@ msgstr ""
 #: tutorials/io/binary_serialization_api.rst:456
 #: tutorials/io/binary_serialization_api.rst:469
 #: tutorials/io/binary_serialization_api.rst:482
-#: tutorials/io/binary_serialization_api.rst:497 tutorials/io/data_paths.rst:43
+#: tutorials/io/binary_serialization_api.rst:497
+#: tutorials/io/data_paths.rst:43
 #: tutorials/io/data_paths.rst:71
 #: tutorials/plugins/editor/import_plugins.rst:244
 #: tutorials/shaders/converting_glsl_to_rebel_shaders.rst:96
@@ -25046,11 +24983,11 @@ msgstr ""
 #: tutorials/shaders/shader_reference/shading_language.rst:19
 #: tutorials/shaders/shader_reference/shading_language.rst:567
 msgid "Type"
-msgstr "Tipo"
+msgstr ""
 
 #: tutorials/2d/2d_transforms.rst:61
 msgid "Transform"
-msgstr "Transformo"
+msgstr ""
 
 #: tutorials/2d/2d_transforms.rst:63
 msgid "CanvasItem"
@@ -25535,10 +25472,10 @@ msgid ""
 "information."
 msgstr ""
 
-#: tutorials/2d/index.rst:2 tutorials/performance/index.rst:70
-#, fuzzy
+#: tutorials/2d/index.rst:2
+#: tutorials/performance/index.rst:70
 msgid "2D"
-msgstr "2D"
+msgstr ""
 
 #: tutorials/2d/particle_systems_2d.rst:2
 msgid "Particle systems (2D)"
@@ -25939,7 +25876,7 @@ msgstr ""
 #: tutorials/3d/using_multi_mesh_instance.rst:85
 #: tutorials/assets_pipeline/importing_images.rst:218
 msgid "Scale"
-msgstr "Skalo"
+msgstr ""
 
 #: tutorials/2d/particle_systems_2d.rst:286
 msgid "Determines the initial scale of the particles."
@@ -25995,7 +25932,7 @@ msgstr ""
 
 #: tutorials/2d/particle_systems_2d.rst:325
 msgid "Emission Mask"
-msgstr "Emisia masko"
+msgstr ""
 
 #: tutorials/2d/particle_systems_2d.rst:327
 msgid "Three types of emission masks can be generated from a texture:"
@@ -26022,7 +25959,7 @@ msgstr ""
 
 #: tutorials/2d/particle_systems_2d.rst:346
 msgid "Emission Colors"
-msgstr "Emisiaj koloroj"
+msgstr ""
 
 #: tutorials/2d/particle_systems_2d.rst:348
 msgid ""
@@ -26372,7 +26309,8 @@ msgid ""
 "no neighbors and lines only one cell wide are not supported."
 msgstr ""
 
-#: tutorials/2d/using_tilemaps.rst:212 tutorials/2d/using_tilemaps.rst:244
+#: tutorials/2d/using_tilemaps.rst:212
+#: tutorials/2d/using_tilemaps.rst:244
 msgid "**Template - Generic:**"
 msgstr ""
 
@@ -26382,17 +26320,20 @@ msgid ""
 "designed for a TileMap cell size of 64x64."
 msgstr ""
 
-#: tutorials/2d/using_tilemaps.rst:217 tutorials/2d/using_tilemaps.rst:250
+#: tutorials/2d/using_tilemaps.rst:217
+#: tutorials/2d/using_tilemaps.rst:250
 #: tutorials/2d/using_tilemaps.rst:263
 msgid "Key:"
 msgstr ""
 
-#: tutorials/2d/using_tilemaps.rst:219 tutorials/2d/using_tilemaps.rst:252
+#: tutorials/2d/using_tilemaps.rst:219
+#: tutorials/2d/using_tilemaps.rst:252
 #: tutorials/2d/using_tilemaps.rst:265
 msgid "Red: \"on\""
 msgstr ""
 
-#: tutorials/2d/using_tilemaps.rst:220 tutorials/2d/using_tilemaps.rst:253
+#: tutorials/2d/using_tilemaps.rst:220
+#: tutorials/2d/using_tilemaps.rst:253
 #: tutorials/2d/using_tilemaps.rst:266
 msgid "White: \"off\""
 msgstr ""
@@ -26884,7 +26825,8 @@ msgid ""
 "GIProbe looks less accurate (as it's an approximation), but smoother overall."
 msgstr ""
 
-#: tutorials/3d/baked_lightmaps.rst:46 tutorials/3d/gi_probes.rst:34
+#: tutorials/3d/baked_lightmaps.rst:46
+#: tutorials/3d/gi_probes.rst:34
 #: tutorials/3d/reflection_probes.rst:19
 #: tutorials/shaders/your_first_shader/your_first_3d_shader.rst:60
 msgid "Setting up"
@@ -27311,7 +27253,8 @@ msgid ""
 "hardware. If in doubt, leave this setting on its default value (4096)."
 msgstr ""
 
-#: tutorials/3d/baked_lightmaps.rst:323 tutorials/audio/audio_buses.rst:112
+#: tutorials/3d/baked_lightmaps.rst:323
+#: tutorials/audio/audio_buses.rst:112
 #: tutorials/rendering/viewports.rst:131
 msgid "Capture"
 msgstr ""
@@ -28067,8 +28010,10 @@ msgstr ""
 #: tutorials/3d/environment_and_post_processing.rst:179
 #: tutorials/3d/environment_and_post_processing.rst:221
 #: tutorials/3d/environment_and_post_processing.rst:247
-#: tutorials/3d/spatial_material.rst:403 tutorials/3d/spatial_material.rst:412
-#: tutorials/3d/spatial_material.rst:434 tutorials/3d/spatial_material.rst:447
+#: tutorials/3d/spatial_material.rst:403
+#: tutorials/3d/spatial_material.rst:412
+#: tutorials/3d/spatial_material.rst:434
+#: tutorials/3d/spatial_material.rst:447
 #: tutorials/3d/spatial_material.rst:467
 msgid "*This feature is only available when using the GLES3 backend.*"
 msgstr ""
@@ -28684,7 +28629,8 @@ msgid ""
 "reflections where needed:"
 msgstr ""
 
-#: tutorials/3d/gi_probes.rst:93 tutorials/3d/reflection_probes.rst:63
+#: tutorials/3d/gi_probes.rst:93
+#: tutorials/3d/reflection_probes.rst:63
 msgid "Interior vs exterior"
 msgstr ""
 
@@ -28950,11 +28896,11 @@ msgid ""
 "information, see :doc:`environment_and_post_processing`."
 msgstr ""
 
-#: tutorials/3d/index.rst:2 tutorials/performance/index.rst:79
+#: tutorials/3d/index.rst:2
+#: tutorials/performance/index.rst:79
 #: tutorials/platforms/mobile_rendering_limitations.rst:31
-#, fuzzy
 msgid "3D"
-msgstr "3D"
+msgstr ""
 
 #: tutorials/3d/introduction_to_3d.rst:2
 msgid "Introduction to 3D"
@@ -30490,9 +30436,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/3d/portals/editing_rooms_and_portals.rst:100
-#, fuzzy
 msgid "Debug Sprawl"
-msgstr "Sencimigilo"
+msgstr ""
 
 #: tutorials/3d/portals/editing_rooms_and_portals.rst:102
 msgid ""
@@ -30560,9 +30505,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/3d/portals/editing_rooms_and_portals.rst:128
-#, fuzzy
 msgid "Particle Systems"
-msgstr "Partikloj"
+msgstr ""
 
 #: tutorials/3d/portals/editing_rooms_and_portals.rst:130
 msgid ""
@@ -31038,9 +30982,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/3d/portals/rooms_and_portals_example.rst:13
-#, fuzzy
 msgid "Step 1"
-msgstr "Paŝi en"
+msgstr ""
 
 #: tutorials/3d/portals/rooms_and_portals_example.rst:17
 msgid "Create a new project."
@@ -31093,9 +31036,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/3d/portals/rooms_and_portals_example.rst:28
-#, fuzzy
 msgid "Step 2"
-msgstr "Paŝi en"
+msgstr ""
 
 #: tutorials/3d/portals/rooms_and_portals_example.rst:32
 msgid "Now we need to create the other room."
@@ -31116,9 +31058,8 @@ msgid "Rename the second room to ``Lounge``."
 msgstr ""
 
 #: tutorials/3d/portals/rooms_and_portals_example.rst:38
-#, fuzzy
 msgid "Step 3"
-msgstr "Paŝi en"
+msgstr ""
 
 #: tutorials/3d/portals/rooms_and_portals_example.rst:42
 msgid "Next, we will add a portal between the two rooms."
@@ -31142,9 +31083,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/3d/portals/rooms_and_portals_example.rst:48
-#, fuzzy
 msgid "Step 4"
-msgstr "Paŝi en"
+msgstr ""
 
 #: tutorials/3d/portals/rooms_and_portals_example.rst:52
 msgid ""
@@ -31179,9 +31119,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/3d/portals/rooms_and_portals_example.rst:59
-#, fuzzy
 msgid "Step 5"
-msgstr "Paŝi en"
+msgstr ""
 
 #: tutorials/3d/portals/rooms_and_portals_example.rst:63
 msgid ""
@@ -31202,9 +31141,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/3d/portals/rooms_and_portals_example.rst:68
-#, fuzzy
 msgid "Step 6"
-msgstr "Paŝi en"
+msgstr ""
 
 #: tutorials/3d/portals/rooms_and_portals_example.rst:72
 msgid ""
@@ -31625,7 +31563,7 @@ msgstr ""
 #: tutorials/3d/procedural_geometry/arraymesh.rst:27
 #: tutorials/scripting/visual_script/nodes_purposes.rst:462
 msgid "Index"
-msgstr "Indekso"
+msgstr ""
 
 #: tutorials/3d/procedural_geometry/arraymesh.rst:28
 msgid "Mesh.ArrayType Enum"
@@ -33198,9 +33136,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/3d/spatial_material.rst:365
-#, fuzzy
 msgid "Normal map"
-msgstr "Normal Map"
+msgstr ""
 
 #: tutorials/3d/spatial_material.rst:367
 msgid ""
@@ -33289,7 +33226,7 @@ msgstr ""
 
 #: tutorials/3d/spatial_material.rst:432
 msgid "Depth"
-msgstr "Profundo"
+msgstr ""
 
 #: tutorials/3d/spatial_material.rst:436
 msgid ""
@@ -33464,9 +33401,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/3d/using_gridmaps.rst:2
-#, fuzzy
 msgid "Using GridMaps"
-msgstr "Uzi kapton per krado"
+msgstr ""
 
 #: tutorials/3d/using_gridmaps.rst:7
 msgid ""
@@ -33888,7 +33824,8 @@ msgid ""
 "Y, and Z is not enough: you also need a *rotation order*."
 msgstr ""
 
-#: tutorials/3d/using_transforms.rst:60 tutorials/math/interpolation.rst:2
+#: tutorials/3d/using_transforms.rst:60
+#: tutorials/math/interpolation.rst:2
 msgid "Interpolation"
 msgstr ""
 
@@ -34504,9 +34441,8 @@ msgid "Once you are all set, you will get much better results:"
 msgstr ""
 
 #: tutorials/animation/animation_tree.rst:2
-#, fuzzy
 msgid "Using AnimationTree"
-msgstr "AnimationTree"
+msgstr ""
 
 #: tutorials/animation/animation_tree.rst:7
 msgid ""
@@ -34972,7 +34908,8 @@ msgstr ""
 msgid "Cutout animation"
 msgstr ""
 
-#: tutorials/animation/cutout_animation.rst:5 tutorials/inputs/inputevent.rst:5
+#: tutorials/animation/cutout_animation.rst:5
+#: tutorials/inputs/inputevent.rst:5
 msgid "What is it?"
 msgstr ""
 
@@ -35641,9 +35578,8 @@ msgstr ""
 
 #: tutorials/animation/introduction.rst:63
 #: tutorials/animation/introduction.rst:66
-#, fuzzy
 msgid "Keyframes in the Rebel Editor"
-msgstr "Biblioteko de havaĵoj"
+msgstr ""
 
 #: tutorials/animation/introduction.rst:68
 msgid ""
@@ -35735,9 +35671,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/animation/introduction.rst:379
-#, fuzzy
 msgid "Add Animation"
-msgstr "Animacio"
+msgstr ""
 
 #: tutorials/animation/introduction.rst:133
 #: tutorials/animation/introduction.rst:136
@@ -36779,7 +36714,7 @@ msgstr ""
 
 #: tutorials/assets_pipeline/importing_audio_samples.rst:29
 msgid "Format"
-msgstr "Formo"
+msgstr ""
 
 #: tutorials/assets_pipeline/importing_audio_samples.rst:29
 msgid "1 second of audio"
@@ -37134,7 +37069,7 @@ msgstr ""
 #: tutorials/shaders/shader_reference/spatial_shader.rst:333
 #: tutorials/ui/bbcode_in_richtextlabel.rst:51
 msgid "Description"
-msgstr "Priskribo"
+msgstr ""
 
 #: tutorials/assets_pipeline/importing_images.rst:84
 msgid "Stored as raw pixels"
@@ -37239,7 +37174,7 @@ msgstr ""
 
 #: tutorials/assets_pipeline/importing_images.rst:112
 msgid "Normal Map"
-msgstr "Normal Map"
+msgstr ""
 
 #: tutorials/assets_pipeline/importing_images.rst:114
 msgid ""
@@ -37727,7 +37662,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/assets_pipeline/importing_scenes.rst:179
-#: tutorials/export/exporting_for_macos.rst:113 tutorials/io/data_paths.rst:43
+#: tutorials/export/exporting_for_macos.rst:113
+#: tutorials/io/data_paths.rst:43
 #: tutorials/io/data_paths.rst:71
 msgid "Location"
 msgstr ""
@@ -38059,9 +37995,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/assets_pipeline/importing_scenes.rst:348
-#, fuzzy
 msgid "Storing Animations"
-msgstr "AnimationTree"
+msgstr ""
 
 #: tutorials/assets_pipeline/importing_scenes.rst:350
 msgid ""
@@ -38671,9 +38606,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/audio/audio_buses.rst:46
-#, fuzzy
 msgid "Managing audio buses"
-msgstr "Kromprogramoj"
+msgstr ""
 
 #: tutorials/audio/audio_buses.rst:48
 msgid "Audio buses can be found in the bottom panel of the Rebel Editor:"
@@ -39479,9 +39413,8 @@ msgid "Constants."
 msgstr ""
 
 #: tutorials/best_practices/applying_object_oriented_principles.rst:30
-#, fuzzy
 msgid "Signals."
-msgstr "Signaloj"
+msgstr ""
 
 #: tutorials/best_practices/applying_object_oriented_principles.rst:32
 msgid ""
@@ -42401,7 +42334,7 @@ msgstr ""
 
 #: tutorials/editor/command_line_tutorial.rst:156
 msgid "Path"
-msgstr "Dosierindiko"
+msgstr ""
 
 #: tutorials/editor/command_line_tutorial.rst:158
 msgid ""
@@ -42686,7 +42619,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:27
 msgid "Open 2D Editor"
-msgstr "Malfermi 2D-an redaktilon"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:27
 msgid ":kbd:`Ctrl + F1`"
@@ -42702,7 +42635,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:29
 msgid "Open 3D Editor"
-msgstr "Malfermi 3D-an redaktilon"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:29
 #: tutorials/editor/default_key_mapping.rst:443
@@ -42719,7 +42652,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:31
 msgid "Open Script Editor"
-msgstr "Malfermi la redaktilon de skripto"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:31
 msgid ":kbd:`Ctrl + F3`"
@@ -42735,7 +42668,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:33
 msgid "Search Help"
-msgstr "Serĉi helpon"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:33
 msgid ":kbd:`F1`"
@@ -42751,7 +42684,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:35
 msgid "Distraction Free Mode"
-msgstr "Sendistra reĝimo"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:35
 msgid ":kbd:`Ctrl + Shift + F11`"
@@ -42767,7 +42700,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:37
 msgid "Next tab"
-msgstr "Posta tabo"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:37
 msgid ":kbd:`Ctrl + Tab`"
@@ -42783,7 +42716,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:39
 msgid "Previous tab"
-msgstr "Antaŭa tabo"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:39
 msgid ":kbd:`Ctrl + Shift + Tab`"
@@ -42815,7 +42748,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:43
 msgid "Open Scene"
-msgstr "Malfermi scenon"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:43
 msgid ":kbd:`Ctrl + O`"
@@ -43059,7 +42992,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:73
 msgid "Play"
-msgstr "Ludi"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:73
 #: tutorials/editor/default_key_mapping.rst:403
@@ -43077,7 +43010,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:75
 msgid "Pause Scene"
-msgstr "Paŭzi scenon"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:75
 msgid ":kbd:`F7`"
@@ -43093,7 +43026,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:77
 msgid "Stop"
-msgstr "Halti"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:77
 msgid ":kbd:`F8`"
@@ -43110,7 +43043,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:79
 msgid "Play Scene"
-msgstr "Ludi scenon"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:79
 msgid ":kbd:`F6`"
@@ -43127,7 +43060,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:81
 msgid "Play Custom Scene"
-msgstr "Ludi laŭmendan scenon"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:81
 msgid ":kbd:`Ctrl + Shift + F5`"
@@ -43145,7 +43078,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:83
 msgid "Expand Bottom Panel"
-msgstr "Etendi suban panelon"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:83
 msgid ":kbd:`Shift + F12`"
@@ -43199,7 +43132,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:96
 msgid "Zoom Reset"
-msgstr "Rekomencigi zomon"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:96
 #: tutorials/editor/default_key_mapping.rst:339
@@ -43217,7 +43150,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:98
 msgid "Pan View"
-msgstr "Panoramada vido"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:98
 msgid ":kbd:`Space`"
@@ -43230,7 +43163,7 @@ msgstr ""
 #: tutorials/editor/default_key_mapping.rst:100
 #: tutorials/editor/default_key_mapping.rst:163
 msgid "Select Mode"
-msgstr "Elektada reĝimo"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:100
 #: tutorials/editor/default_key_mapping.rst:157
@@ -43245,7 +43178,7 @@ msgstr ""
 #: tutorials/editor/default_key_mapping.rst:102
 #: tutorials/editor/default_key_mapping.rst:165
 msgid "Move Mode"
-msgstr "Movada reĝimo"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:102
 #: tutorials/editor/default_key_mapping.rst:151
@@ -43261,7 +43194,7 @@ msgstr ""
 #: tutorials/editor/default_key_mapping.rst:104
 #: tutorials/editor/default_key_mapping.rst:167
 msgid "Rotate Mode"
-msgstr "Rotaciada reĝimo"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:104
 #: tutorials/editor/default_key_mapping.rst:155
@@ -43276,7 +43209,7 @@ msgstr ""
 #: tutorials/editor/default_key_mapping.rst:106
 #: tutorials/editor/default_key_mapping.rst:169
 msgid "Scale Mode"
-msgstr "Skalada reĝimo"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:106
 #: tutorials/editor/default_key_mapping.rst:153
@@ -43290,7 +43223,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:108
 msgid "Ruler Mode"
-msgstr "Mezurado reĝimo"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:108
 #: tutorials/editor/default_key_mapping.rst:169
@@ -43303,7 +43236,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:110
 msgid "Use Smart Snap"
-msgstr "Uzi inteligentan kaptadon"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:110
 msgid ":kbd:`Shift + S`"
@@ -43315,7 +43248,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:112
 msgid "Use Grid Snap"
-msgstr "Uzi kapton per krado"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:112
 msgid ":kbd:`Shift + G`"
@@ -43327,7 +43260,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:114
 msgid "Multiply grid step by 2"
-msgstr "Obligi kradpaŝon per 2"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:114
 msgid ":kbd:`Num *`"
@@ -43339,7 +43272,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:116
 msgid "Divide grid step by 2"
-msgstr "Dividi kradpaŝon per 2"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:116
 msgid ":kbd:`Num /`"
@@ -43351,7 +43284,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:118
 msgid "Always Show Grid"
-msgstr "Ĉiam montri kradon"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:118
 #: tutorials/editor/default_key_mapping.rst:487
@@ -43376,7 +43309,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:122
 msgid "Show Guides"
-msgstr "Montri gvidilojn"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:122
 #: tutorials/editor/default_key_mapping.rst:173
@@ -43389,7 +43322,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:124
 msgid "Center Selection"
-msgstr "Centrigi elekton"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:124
 #: tutorials/editor/default_key_mapping.rst:195
@@ -43402,7 +43335,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:126
 msgid "Frame Selection"
-msgstr "Enkadrigi elekton"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:126
 #: tutorials/editor/default_key_mapping.rst:145
@@ -43415,7 +43348,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:128
 msgid "Preview Canvas Scale"
-msgstr "Antaŭvidi la skalon de kanvaso"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:128
 msgid ":kbd:`Ctrl + Shift + P`"
@@ -43443,7 +43376,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:132
 msgid "Insert Key (Existing Tracks)"
-msgstr "Enmeti ŝlosilon (ekzistantaj trakoj)"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:132
 msgid ":kbd:`Ctrl + Ins`"
@@ -43478,7 +43411,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:136
 msgid "Clear Pose"
-msgstr "Vakigi la pozon"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:136
 msgid ":kbd:`Shift + K`"
@@ -43599,7 +43532,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:171
 msgid "Use Local Space"
-msgstr "Uzi lokan spacon"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:171
 #: tutorials/editor/default_key_mapping.rst:489
@@ -43612,7 +43545,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:173
 msgid "Use Snap"
-msgstr "Uzi kapton krade"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:173
 msgid "``spatial_editor/snap``"
@@ -43882,7 +43815,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:220
 msgid "Cut"
-msgstr "Eltondi"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:220
 #: tutorials/editor/default_key_mapping.rst:352
@@ -43902,7 +43835,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:222
 msgid "Copy"
-msgstr "Kopii"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:222
 #: tutorials/editor/default_key_mapping.rst:350
@@ -43928,7 +43861,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:224
 msgid "Paste"
-msgstr "Alglui"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:224
 #: tutorials/editor/default_key_mapping.rst:354
@@ -43946,7 +43879,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:226
 msgid "Select All"
-msgstr "Elekti tutan"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:226
 #: tutorials/editor/default_key_mapping.rst:441
@@ -44025,7 +43958,7 @@ msgstr ""
 #: tutorials/editor/default_key_mapping.rst:234
 #: tutorials/editor/default_key_mapping.rst:307
 msgid "Find in Files"
-msgstr "Trovi en dosierojn"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:234
 #: tutorials/editor/default_key_mapping.rst:307
@@ -44043,7 +43976,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:236
 msgid "Replace"
-msgstr "Anstataŭigi"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:236
 #: tutorials/editor/default_key_mapping.rst:362
@@ -44118,7 +44051,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:248
 msgid "Delete Line"
-msgstr "Forigi linion"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:248
 #: tutorials/editor/default_key_mapping.rst:375
@@ -44136,7 +44069,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:250
 msgid "Toggle Comment"
-msgstr "Baskuli komenton"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:250
 msgid ":kbd:`Ctrl + K`"
@@ -44152,7 +44085,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:252
 msgid "Fold/Unfold Line"
-msgstr "Faldi/Malfaldi linion"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:252
 #: tutorials/editor/default_key_mapping.rst:407
@@ -44229,7 +44162,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:262
 msgid "Uppercase"
-msgstr "Majuskla"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:262
 msgid ":kbd:`Shift + F4`"
@@ -44241,7 +44174,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:264
 msgid "Lowercase"
-msgstr "Minuskla"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:264
 msgid ":kbd:`Shift + F5`"
@@ -44253,7 +44186,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:266
 msgid "Capitalize"
-msgstr "Kapitaligi"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:266
 msgid ":kbd:`Shift + F6`"
@@ -44265,7 +44198,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:268
 msgid "Convert Indent to Spaces"
-msgstr "Konverti krommarĝenon al spacoj"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:268
 msgid ":kbd:`Ctrl + Shift + Y`"
@@ -44281,7 +44214,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:270
 msgid "Convert Indent to Tabs"
-msgstr "Konverti krommarĝenon al taboj"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:270
 msgid ":kbd:`Ctrl + Shift + I`"
@@ -44349,7 +44282,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:280
 msgid "Go to Function"
-msgstr "Iri al funkcio"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:280
 msgid ":kbd:`Ctrl + Cmd + J`"
@@ -44543,7 +44476,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:321
 msgid "Save All"
-msgstr "Konservi tuton"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:321
 msgid "``script_editor/save_all``"
@@ -44551,7 +44484,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:323
 msgid "Soft Reload Script"
-msgstr "Varme reŝargi skripton"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:323
 msgid "``script_editor/reload_script_soft``"
@@ -44613,7 +44546,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:333
 msgid "Toggle Scripts Panel"
-msgstr "Baskuli Skriptoj Panelo"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:333
 msgid ":kbd:`Ctrl + \\\\`"
@@ -44752,7 +44685,7 @@ msgstr ""
 #: tutorials/editor/default_key_mapping.rst:373
 #: tutorials/editor/default_key_mapping.rst:505
 msgid "Copy Selection"
-msgstr "Kopii elektaron"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:373
 msgid "``editor/copy_output``"
@@ -44760,7 +44693,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:375
 msgid "Clear Output"
-msgstr "Vakigi eligon"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:375
 msgid "``editor/clear_output``"
@@ -44769,11 +44702,11 @@ msgstr ""
 #: tutorials/editor/default_key_mapping.rst:379
 #: tutorials/scripting/debug/debugger_panel.rst:12
 msgid "Debugger"
-msgstr "Sencimigilo"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:384
 msgid "Step Into"
-msgstr "Paŝi en"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:384
 msgid ":kbd:`F11`"
@@ -44785,7 +44718,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:386
 msgid "Step Over"
-msgstr "Paŝi poste"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:386
 msgid ":kbd:`F10`"
@@ -44797,7 +44730,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:388
 msgid "Continue"
-msgstr "Daŭrigi"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:388
 msgid ":kbd:`F12`"
@@ -44813,7 +44746,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:397
 msgid "Go Back"
-msgstr "Posteniri"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:397
 msgid "``file_dialog/go_back``"
@@ -44821,7 +44754,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:399
 msgid "Go Forward"
-msgstr "Antaŭeniri"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:399
 msgid "``file_dialog/go_forward``"
@@ -44829,7 +44762,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:401
 msgid "Go Up"
-msgstr "Supreniri"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:401
 msgid "``file_dialog/go_up``"
@@ -44845,7 +44778,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:405
 msgid "Toggle Hidden Files"
-msgstr "Baskuli kaŝitaj dosieroj"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:405
 msgid ":kbd:`Ctrl + H`"
@@ -44861,7 +44794,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:407
 msgid "Toggle Favorite"
-msgstr "Baskuli favorata"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:407
 msgid "``file_dialog/toggle_favorite``"
@@ -44869,7 +44802,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:409
 msgid "Toggle Mode"
-msgstr "Baskuli reĝimon"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:409
 msgid ":kbd:`Alt + V`"
@@ -44899,7 +44832,7 @@ msgstr ""
 #: tutorials/editor/default_key_mapping.rst:432
 #: tutorials/editor/default_key_mapping.rst:447
 msgid "Delete"
-msgstr "Forigi"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:413
 msgid "``file_dialog/delete``"
@@ -44907,7 +44840,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:415
 msgid "Focus Path"
-msgstr "Fokusi al dosierindiko"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:415
 #: tutorials/editor/default_key_mapping.rst:430
@@ -44922,7 +44855,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:417
 msgid "Move Favorite Up"
-msgstr "Suprentiri favoraton"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:417
 #: tutorials/editor/default_key_mapping.rst:453
@@ -44940,7 +44873,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:419
 msgid "Move Favorite Down"
-msgstr "Subentiri favoraton"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:419
 #: tutorials/editor/default_key_mapping.rst:455
@@ -44958,11 +44891,11 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:423
 msgid "FileSystem Dock"
-msgstr "Doko de dosiersistemo"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:428
 msgid "Copy Path"
-msgstr "Kopii dosierindikon"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:428
 msgid "``filesystem_dock/copy_path``"
@@ -44971,7 +44904,7 @@ msgstr ""
 #: tutorials/editor/default_key_mapping.rst:430
 #: tutorials/editor/default_key_mapping.rst:451
 msgid "Duplicate"
-msgstr "Duobligi"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:430
 msgid "``filesystem_dock/duplicate``"
@@ -44987,7 +44920,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:441
 msgid "Add Child Node"
-msgstr "Aldoni infanon nodon"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:441
 msgid "``scene_tree/add_child_node``"
@@ -44995,7 +44928,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:443
 msgid "Batch Rename"
-msgstr "Renomi staple"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:443
 msgid ":kbd:`Cmd + F2`"
@@ -45211,7 +45144,7 @@ msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:501
 msgid "Select"
-msgstr "Elekti"
+msgstr ""
 
 #: tutorials/editor/default_key_mapping.rst:501
 msgid ":kbd:`M`"
@@ -45498,9 +45431,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/editor/managing_editor_features.rst:2
-#, fuzzy
 msgid "Managing editor features"
-msgstr "Kromprogramoj"
+msgstr ""
 
 #: tutorials/editor/managing_editor_features.rst:7
 msgid ""
@@ -47022,14 +46954,13 @@ msgstr ""
 
 #: tutorials/export/exporting_for_macos.rst:53
 #: tutorials/export/exporting_for_macos.rst:76
-#, fuzzy
 msgid "Option"
-msgstr "Faro"
+msgstr ""
 
 #: tutorials/export/exporting_for_macos.rst:55
 #: tutorials/export/exporting_for_macos.rst:78
 msgid "Enable"
-msgstr "Ŝaltita"
+msgstr ""
 
 #: tutorials/export/exporting_for_macos.rst:55
 msgid "Enables code signing."
@@ -47127,9 +47058,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/export/exporting_for_macos.rst:90
-#, fuzzy
 msgid "Entitlements"
-msgstr "Daŭrigi"
+msgstr ""
 
 #: tutorials/export/exporting_for_macos.rst:93
 msgid "Hardened Runtime Entitlements"
@@ -47192,9 +47122,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/export/exporting_for_macos.rst:109
-#, fuzzy
 msgid "Audio Input"
-msgstr "Aŭdio"
+msgstr ""
 
 #: tutorials/export/exporting_for_macos.rst:109
 msgid ""
@@ -47243,9 +47172,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/export/exporting_for_macos.rst:119
-#, fuzzy
 msgid "Photo Library"
-msgstr "Biblioteko de havaĵoj"
+msgstr ""
 
 #: tutorials/export/exporting_for_macos.rst:119
 msgid ""
@@ -47306,27 +47234,24 @@ msgid ""
 msgstr ""
 
 #: tutorials/export/exporting_for_macos.rst:144
-#, fuzzy
 msgid "Enabled"
-msgstr "Ŝaltita"
+msgstr ""
 
 #: tutorials/export/exporting_for_macos.rst:144
 msgid "Enables App Sandbox."
 msgstr ""
 
 #: tutorials/export/exporting_for_macos.rst:146
-#, fuzzy
 msgid "Network Server"
-msgstr "Reta Profililo"
+msgstr ""
 
 #: tutorials/export/exporting_for_macos.rst:146
 msgid "Enable to allow app to listen for incoming network connections."
 msgstr ""
 
 #: tutorials/export/exporting_for_macos.rst:148
-#, fuzzy
 msgid "Network Client"
-msgstr "Reta Profililo"
+msgstr ""
 
 #: tutorials/export/exporting_for_macos.rst:148
 msgid "Enable to allow app to establish outgoing network connections."
@@ -47934,7 +47859,7 @@ msgstr ""
 
 #: tutorials/export/exporting_for_web.rst:195
 msgid "Clipboard"
-msgstr "Tondujo"
+msgstr ""
 
 #: tutorials/export/exporting_for_web.rst:197
 msgid ""
@@ -48500,9 +48425,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/export/exporting_projects.rst:90
-#, fuzzy
 msgid "Resource options"
-msgstr "Risurcoj:"
+msgstr ""
 
 #: tutorials/export/exporting_projects.rst:92
 msgid ""
@@ -48773,27 +48697,24 @@ msgid "is available"
 msgstr ""
 
 #: tutorials/export/feature_tags.rst:40
-#, fuzzy
 msgid "**OSX**"
-msgstr "** OSX **"
+msgstr ""
 
 #: tutorials/export/feature_tags.rst:40
 msgid "Running on macOS"
 msgstr ""
 
 #: tutorials/export/feature_tags.rst:42
-#, fuzzy
 msgid "**iOS**"
-msgstr "** iOS **"
+msgstr ""
 
 #: tutorials/export/feature_tags.rst:42
 msgid "Running on iOS"
 msgstr ""
 
 #: tutorials/export/feature_tags.rst:44
-#, fuzzy
 msgid "**UWP**"
-msgstr "** UWP **"
+msgstr ""
 
 #: tutorials/export/feature_tags.rst:44
 msgid "Running on UWP"
@@ -49545,7 +49466,7 @@ msgstr ""
 
 #: tutorials/i18n/locales.rst:10
 msgid "Locale"
-msgstr "Lokaĵaro"
+msgstr ""
 
 #: tutorials/i18n/locales.rst:10
 msgid "Language and Variant"
@@ -53197,7 +53118,8 @@ msgid ""
 "example. To avoid this, make sure to test the event type first:"
 msgstr ""
 
-#: tutorials/inputs/input_examples.rst:147 tutorials/inputs/inputevent.rst:201
+#: tutorials/inputs/input_examples.rst:147
+#: tutorials/inputs/inputevent.rst:201
 msgid "InputMap"
 msgstr ""
 
@@ -53981,7 +53903,7 @@ msgstr ""
 #: tutorials/io/binary_serialization_api.rst:27
 #: tutorials/scripting/creating_script_templates.rst:145
 msgid "Value"
-msgstr "Valoro"
+msgstr ""
 
 #: tutorials/io/binary_serialization_api.rst:29
 #: tutorials/scripting/gdscript/gdscript_basics.rst:337
@@ -54081,7 +54003,7 @@ msgstr ""
 
 #: tutorials/io/binary_serialization_api.rst:57
 msgid "color"
-msgstr "koloro"
+msgstr ""
 
 #: tutorials/io/binary_serialization_api.rst:59
 msgid "15"
@@ -54964,12 +54886,13 @@ msgstr ""
 msgid "On desktop platforms, the actual directory paths for ``user://`` are:"
 msgstr ""
 
-#: tutorials/io/data_paths.rst:45 tutorials/io/data_paths.rst:73
-#, fuzzy
+#: tutorials/io/data_paths.rst:45
+#: tutorials/io/data_paths.rst:73
 msgid "User data"
-msgstr "Redaktilo"
+msgstr ""
 
-#: tutorials/io/data_paths.rst:45 tutorials/io/data_paths.rst:73
+#: tutorials/io/data_paths.rst:45
+#: tutorials/io/data_paths.rst:73
 msgid "Windows: ``%APPDATA%\\Rebel\\app_userdata\\[project_name]``"
 msgstr ""
 
@@ -54982,19 +54905,23 @@ msgstr ""
 msgid "Linux: ``~/.local/share/rebel/app_userdata/[project_name]``"
 msgstr ""
 
-#: tutorials/io/data_paths.rst:49 tutorials/io/data_paths.rst:77
+#: tutorials/io/data_paths.rst:49
+#: tutorials/io/data_paths.rst:77
 msgid "User data (when ``use_custom_user_dir`` project setting is ``true``)"
 msgstr ""
 
-#: tutorials/io/data_paths.rst:49 tutorials/io/data_paths.rst:77
+#: tutorials/io/data_paths.rst:49
+#: tutorials/io/data_paths.rst:77
 msgid "Windows: ``%APPDATA%\\[project_name]``"
 msgstr ""
 
-#: tutorials/io/data_paths.rst:50 tutorials/io/data_paths.rst:78
+#: tutorials/io/data_paths.rst:50
+#: tutorials/io/data_paths.rst:78
 msgid "macOS: ``~/Library/Application Support/[project_name]``"
 msgstr ""
 
-#: tutorials/io/data_paths.rst:51 tutorials/io/data_paths.rst:79
+#: tutorials/io/data_paths.rst:51
+#: tutorials/io/data_paths.rst:79
 msgid "Linux: ``~/.local/share/[project_name]``"
 msgstr ""
 
@@ -56279,15 +56206,15 @@ msgstr ""
 
 #: tutorials/math/matrices_and_transforms.rst:637
 msgid "https://www.youtube.com/watch?v=mvmuCPvRoWQ"
-msgstr "https://www.youtube.com/watch?v=mvmuCPvRoWQ"
+msgstr ""
 
 #: tutorials/math/matrices_and_transforms.rst:639
 msgid "https://www.youtube.com/watch?v=d4EgbgTm0Bg"
-msgstr "https://www.youtube.com/watch?v=d4EgbgTm0Bg"
+msgstr ""
 
 #: tutorials/math/matrices_and_transforms.rst:641
 msgid "https://eater.net/quaternions"
-msgstr "https://eater.net/quaternions"
+msgstr ""
 
 #: tutorials/math/random_number_generation.rst:2
 msgid "Random number generation"
@@ -56880,7 +56807,8 @@ msgid ""
 "direction. The resulting perpendicular vector is the axis of rotation."
 msgstr ""
 
-#: tutorials/math/vector_math.rst:409 tutorials/math/vectors_advanced.rst:587
+#: tutorials/math/vector_math.rst:409
+#: tutorials/math/vectors_advanced.rst:587
 msgid "More information"
 msgstr ""
 
@@ -56894,7 +56822,8 @@ msgstr ""
 msgid ":doc:`vectors_advanced`"
 msgstr ""
 
-#: tutorials/math/vector_math.rst:414 tutorials/math/vectors_advanced.rst:591
+#: tutorials/math/vector_math.rst:414
+#: tutorials/math/vectors_advanced.rst:591
 msgid ":doc:`matrices_and_transforms`"
 msgstr ""
 
@@ -57218,9 +57147,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/navigation/real_time_navigation_3d.rst:15
-#, fuzzy
 msgid "Setting up navigation"
-msgstr "Biblioteko de havaĵoj"
+msgstr ""
 
 #: tutorials/navigation/real_time_navigation_3d.rst:17
 msgid ""
@@ -57506,7 +57434,8 @@ msgstr ""
 #: tutorials/networking/high_level_multiplayer.rst:118
 #: tutorials/networking/http_client_class.rst:10
 #: tutorials/networking/http_request_class.rst:11
-#: tutorials/networking/webrtc.rst:38 tutorials/networking/websocket.rst:23
+#: tutorials/networking/webrtc.rst:38
+#: tutorials/networking/websocket.rst:23
 msgid ""
 "When exporting to Android, make sure to enable the ``INTERNET`` permission "
 "in the Android export preset before exporting the project or using one-click "
@@ -58341,7 +58270,8 @@ msgid ""
 "will give you a good overview of how a WebRTC connection is set up."
 msgstr ""
 
-#: tutorials/networking/webrtc.rst:94 tutorials/networking/websocket.rst:84
+#: tutorials/networking/webrtc.rst:94
+#: tutorials/networking/websocket.rst:84
 msgid "This will print:"
 msgstr ""
 
@@ -59612,7 +59542,8 @@ msgid ""
 "information, see :doc:`using_servers`."
 msgstr ""
 
-#: tutorials/performance/cpu_optimization.rst:237 tutorials/physics/index.rst:2
+#: tutorials/performance/cpu_optimization.rst:237
+#: tutorials/physics/index.rst:2
 msgid "Physics"
 msgstr ""
 
@@ -59765,9 +59696,8 @@ msgid "Putting a start/stop timer around code of interest."
 msgstr ""
 
 #: tutorials/performance/general_optimization.rst:56
-#, fuzzy
 msgid "Using the Rebel Editor profiler."
-msgstr "Biblioteko de havaĵoj"
+msgstr ""
 
 #: tutorials/performance/general_optimization.rst:57
 msgid "Using external third-party CPU profilers."
@@ -60959,9 +60889,10 @@ msgid ""
 msgstr ""
 
 #: tutorials/performance/threads/thread_safe_apis.rst:51
-#: tutorials/rendering/index.rst:2 tutorials/rendering/viewports.rst:172
+#: tutorials/rendering/index.rst:2
+#: tutorials/rendering/viewports.rst:172
 msgid "Rendering"
-msgstr "Bildigo"
+msgstr ""
 
 #: tutorials/performance/threads/thread_safe_apis.rst:53
 msgid ""
@@ -65227,7 +65158,7 @@ msgstr ""
 #: tutorials/platforms/html5_shell_api.rst:182
 #: tutorials/scripting/gdscript/gdscript_exports.rst:235
 msgid "Properties"
-msgstr "Atributoj"
+msgstr ""
 
 #: tutorials/platforms/html5_shell_api.rst:0
 #: tutorials/platforms/html5_shell_api.rst:185
@@ -67326,7 +67257,7 @@ msgstr ""
 
 #: tutorials/plugins/index.rst:2
 msgid "Plugins"
-msgstr "Kromprogramoj"
+msgstr ""
 
 #: tutorials/plugins/running_code_in_the_editor.rst:2
 msgid "Running code in the editor"
@@ -67530,7 +67461,7 @@ msgstr ""
 
 #: tutorials/rendering/gles2_gles3_differences.rst:13
 msgid "Particles"
-msgstr "Partikloj"
+msgstr ""
 
 #: tutorials/rendering/gles2_gles3_differences.rst:15
 msgid ""
@@ -67765,7 +67696,7 @@ msgstr ""
 #: tutorials/rendering/gles2_gles3_differences.rst:139
 #: tutorials/shaders/shader_reference/shading_language.rst:641
 msgid "Function"
-msgstr "Funkcio"
+msgstr ""
 
 #: tutorials/rendering/gles2_gles3_differences.rst:141
 msgid "vec_type **modf** ( vec_type x, out vec_type i )"
@@ -71284,7 +71215,7 @@ msgstr ""
 
 #: tutorials/scripting/debug/debugger_panel.rst:40
 msgid "Errors"
-msgstr "Eraroj"
+msgstr ""
 
 #: tutorials/scripting/debug/debugger_panel.rst:42
 msgid ""
@@ -71298,7 +71229,7 @@ msgstr ""
 
 #: tutorials/scripting/debug/debugger_panel.rst:47
 msgid "Profiler"
-msgstr "Profililo"
+msgstr ""
 
 #: tutorials/scripting/debug/debugger_panel.rst:49
 msgid ""
@@ -71347,7 +71278,7 @@ msgstr ""
 
 #: tutorials/scripting/debug/debugger_panel.rst:77
 msgid "Network Profiler"
-msgstr "Reta Profililo"
+msgstr ""
 
 #: tutorials/scripting/debug/debugger_panel.rst:79
 msgid ""
@@ -71359,7 +71290,7 @@ msgstr ""
 
 #: tutorials/scripting/debug/debugger_panel.rst:85
 msgid "Monitors"
-msgstr "Monitoroj"
+msgstr ""
 
 #: tutorials/scripting/debug/debugger_panel.rst:87
 msgid ""
@@ -71372,7 +71303,7 @@ msgstr ""
 
 #: tutorials/scripting/debug/debugger_panel.rst:93
 msgid "Video RAM"
-msgstr "Videomemoro"
+msgstr ""
 
 #: tutorials/scripting/debug/debugger_panel.rst:95
 msgid ""
@@ -71385,7 +71316,7 @@ msgstr ""
 
 #: tutorials/scripting/debug/debugger_panel.rst:103
 msgid "Misc"
-msgstr "Diversa"
+msgstr ""
 
 #: tutorials/scripting/debug/debugger_panel.rst:105
 msgid ""
@@ -71460,7 +71391,7 @@ msgstr ""
 
 #: tutorials/scripting/debug/overview_of_debugging_tools.rst:34
 msgid "Deploy with Remote Debug"
-msgstr "Disponigii kun defora sencimigo"
+msgstr ""
 
 #: tutorials/scripting/debug/overview_of_debugging_tools.rst:36
 msgid ""
@@ -71470,7 +71401,7 @@ msgstr ""
 
 #: tutorials/scripting/debug/overview_of_debugging_tools.rst:40
 msgid "Small Deploy with Network FS"
-msgstr "Eta disponigo kun reta dosiersistemo"
+msgstr ""
 
 #: tutorials/scripting/debug/overview_of_debugging_tools.rst:42
 msgid ""
@@ -72516,11 +72447,10 @@ msgid "SCons as a build tool,"
 msgstr ""
 
 #: tutorials/scripting/gdnative/gdnative_cpp_example.rst:26
-#, fuzzy
 msgid ""
 "a copy of the `godot-cpp repository <https://github.com/godotengine/godot-"
 "cpp/tree/3.4>`__."
-msgstr "https://github.com/godotengine/godot-demo-projects"
+msgstr ""
 
 #: tutorials/scripting/gdnative/gdnative_cpp_example.rst:29
 msgid ""
@@ -74176,9 +74106,8 @@ msgid "``in``"
 msgstr ""
 
 #: tutorials/scripting/gdscript/gdscript_basics.rst:266
-#, fuzzy
 msgid "Content test"
-msgstr "Daŭrigi"
+msgstr ""
 
 #: tutorials/scripting/gdscript/gdscript_basics.rst:268
 msgid "``!`` ``not``"
@@ -75842,9 +75771,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/scripting/gdscript/gdscript_exports.rst:262
-#, fuzzy
 msgid "Attaching variables to properties"
-msgstr "Atributoj"
+msgstr ""
 
 #: tutorials/scripting/gdscript/gdscript_exports.rst:264
 msgid ""
@@ -76643,13 +76571,10 @@ msgid "Whitespace"
 msgstr ""
 
 #: tutorials/scripting/gdscript/gdscript_styleguide.rst:419
-#, fuzzy
 msgid ""
 "Always use one space around operators and after commas. Also, avoid extra "
 "spaces in dictionary references and function calls."
 msgstr ""
-"Ĉiam uzu unu spaceto ĉirkaŭ operatoroj kaj post komoj. Ŝparu kromaj spacetoj "
-"en vortarreferenco kaj alvoko de functioj, aŭ dum kreado de \"kolumnoj.\""
 
 #: tutorials/scripting/gdscript/gdscript_styleguide.rst:442
 #: tutorials/shaders/shaders_style_guide.rst:236
@@ -77448,9 +77373,8 @@ msgid "There are two ways to add/remove nodes to groups:"
 msgstr ""
 
 #: tutorials/scripting/groups.rst:22
-#, fuzzy
 msgid "During design, by using the Node dock in the editor."
-msgstr "Biblioteko de havaĵoj"
+msgstr ""
 
 #: tutorials/scripting/groups.rst:23
 msgid ""
@@ -77460,9 +77384,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/scripting/groups.rst:28
-#, fuzzy
 msgid "Using the Node dock"
-msgstr "Biblioteko de havaĵoj"
+msgstr ""
 
 #: tutorials/scripting/groups.rst:30
 msgid ""
@@ -78053,9 +77976,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/scripting/pausing_games.rst:2
-#, fuzzy
 msgid "Pausing games"
-msgstr "Signaloj"
+msgstr ""
 
 #: tutorials/scripting/pausing_games.rst:5
 msgid "Pause?"
@@ -78804,7 +78726,7 @@ msgstr ""
 
 #: tutorials/scripting/singletons_autoload.rst:42
 msgid "AutoLoad"
-msgstr "Aŭtoŝargado"
+msgstr ""
 
 #: tutorials/scripting/singletons_autoload.rst:44
 msgid ""
@@ -79416,8 +79338,6 @@ msgid ""
 "To use the variable in the script, simply drag it to the canvas to create a "
 "getter:"
 msgstr ""
-"Por uzi la variablon en la skripto, simple ŝovu ĝin sur la tolo por krei "
-"ĝian recivilon:"
 
 #: tutorials/scripting/visual_script/nodes_purposes.rst:156
 msgid "Likewise, hold :kbd:`Ctrl` (or :kbd:`Cmd` on macOS) to drop a setter:"
@@ -79528,7 +79448,7 @@ msgstr ""
 
 #: tutorials/scripting/visual_script/nodes_purposes.rst:238
 msgid "Action"
-msgstr "Faro"
+msgstr ""
 
 #: tutorials/scripting/visual_script/nodes_purposes.rst:240
 msgid ""
@@ -79586,7 +79506,7 @@ msgstr ""
 
 #: tutorials/scripting/visual_script/nodes_purposes.rst:279
 msgid "Self"
-msgstr "Memo"
+msgstr ""
 
 #: tutorials/scripting/visual_script/nodes_purposes.rst:281
 msgid ""
@@ -79624,7 +79544,7 @@ msgstr ""
 
 #: tutorials/scripting/visual_script/nodes_purposes.rst:304
 msgid "Resource Path"
-msgstr "Risurca Vojo"
+msgstr ""
 
 #: tutorials/scripting/visual_script/nodes_purposes.rst:306
 msgid ""
@@ -81161,9 +81081,8 @@ msgid "I took this tree from SketchFab:"
 msgstr ""
 
 #: tutorials/shaders/making_trees.rst:17
-#, fuzzy
 msgid "https://sketchfab.com/3d-models/tree-ea5e6ed7f9d6445ba69589d503e8cebf"
-msgstr "https://sketchfab.com/models/ea5e6ed7f9d6445ba69589d503e8cebf"
+msgstr ""
 
 #: tutorials/shaders/making_trees.rst:19
 msgid "and opened it in Blender."
@@ -82809,7 +82728,7 @@ msgstr ""
 
 #: tutorials/shaders/shader_reference/shading_language.rst:299
 msgid "Class"
-msgstr "Klaso"
+msgstr ""
 
 #: tutorials/shaders/shader_reference/shading_language.rst:301
 msgid "1 (highest)"
@@ -84900,13 +84819,10 @@ msgid ""
 msgstr ""
 
 #: tutorials/shaders/shaders_style_guide.rst:217
-#, fuzzy
 msgid ""
 "Always use one space around operators and after commas. Also, avoid "
 "extraneous spaces in function calls."
 msgstr ""
-"Ĉiam uzu unu spaceto ĉirkaŭ operatoroj kaj post komoj. Ŝparu kromaj spacetoj "
-"en vortarreferenco kaj alvoko de functioj, aŭ dum kreado de \"kolumnoj.\""
 
 #: tutorials/shaders/shaders_style_guide.rst:244
 msgid "Floating-point numbers"
@@ -87921,9 +87837,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/ui/gui_skinning.rst:57
-#, fuzzy
 msgid "**Constant**"
-msgstr "Konstantoj"
+msgstr ""
 
 #: tutorials/ui/gui_skinning.rst:59
 msgid ""
@@ -88180,9 +88095,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/ui/gui_using_theme_editor.rst:2
-#, fuzzy
 msgid "Using the theme editor"
-msgstr "Biblioteko de havaĵoj"
+msgstr ""
 
 #: tutorials/ui/gui_using_theme_editor.rst:4
 msgid ""
@@ -91333,9 +91247,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/vr/openvr/vr_starter_tutorial_part_two.rst:758
-#, fuzzy
 msgid "Bomb interact function"
-msgstr "Iri al funkcio"
+msgstr ""
 
 #: tutorials/vr/openvr/vr_starter_tutorial_part_two.rst:760
 msgid ""
@@ -91888,9 +91801,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/vr/openxr/handtracking.rst:30
-#, fuzzy
 msgid "Node based hand tracking"
-msgstr "Malfermi scenon"
+msgstr ""
 
 #: tutorials/vr/openxr/handtracking.rst:32
 msgid ""
@@ -92185,11 +92097,10 @@ msgid "Welcome to the Rebel OpenXR documentation!"
 msgstr ""
 
 #: tutorials/vr/openxr/index.rst:9
-#, fuzzy
 msgid ""
 "This is the documentation for the `Godot OpenXR plugin <https://github.com/"
 "GodotVR/godot_openxr>`__."
-msgstr "https://github.com/godotengine/godot-demo-projects"
+msgstr ""
 
 #: tutorials/vr/openxr/index.rst:11
 msgid "The plugin is supported on Rebel Engine."
@@ -92257,9 +92168,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/vr/openxr/index.rst:57
-#, fuzzy
 msgid "Plugin features"
-msgstr "Kromprogramoj"
+msgstr ""
 
 #: tutorials/vr/openxr/passthrough.rst:2
 msgid "Passthrough"
@@ -92924,11 +92834,10 @@ msgid ""
 msgstr ""
 
 #: what_is_new/rebel_1_0.rst:56
-#, fuzzy
 msgid ""
 "`Fix Visual Studio project creation <https://github.com/RebelToolbox/"
 "RebelEngine/pull/131>`_"
-msgstr "https://github.com/godotengine/godot-demo-projects"
+msgstr ""
 
 #: what_is_new/rebel_1_0.rst:57
 msgid ""
@@ -93045,9 +92954,8 @@ msgid ""
 msgstr ""
 
 #: what_is_new/rebel_1_0.rst:78
-#, fuzzy
 msgid "Enhancements"
-msgstr "Daŭrigi"
+msgstr ""
 
 #: what_is_new/rebel_1_0.rst:80
 msgid ""
