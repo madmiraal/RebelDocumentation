@@ -7,6 +7,9 @@ SPHINXBUILD   ?= sphinx-build
 SOURCEDIR     = .
 BUILDDIR      = _build
 
+export LANGUAGE_CODE ?= en
+API_TRANSLATIONS = _translations/api
+
 # User-friendly check for sphinx-build.
 ifneq ($(shell which $(SPHINXBUILD) >/dev/null 2>&1; echo $$?), 0)
 $(info The $(SPHINXBUILD) command was not found.)
@@ -21,8 +24,32 @@ help:
 
 .PHONY: help Makefile
 
+revert-api-translation:
+	@if [ -d $(API_TRANSLATIONS)/en ]; then                                  \
+		if [ -d api ] && [ ! -d $(API_TRANSLATIONS)/$(LANGUAGE_CODE) ]; then \
+			echo "Reverting API translation to default.";                    \
+			mv api $(API_TRANSLATIONS)/$(LANGUAGE_CODE);                     \
+			mv $(API_TRANSLATIONS)/en api;                                   \
+		else                                                                 \
+			echo "The original API folder is backed up; however,";           \
+			if [ ! -d api ]; then                                            \
+				echo "'api' folder with translation not found.";             \
+			fi;                                                              \
+			if [ -d $(API_TRANSLATIONS)/$(LANGUAGE_CODE) ]; then             \
+				echo "$(LANGUAGE_CODE) translated folder found.";            \
+			fi;                                                              \
+			echo "Please fix manually.";                                     \
+		fi;                                                                  \
+	fi
+
+html:
+	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)/$(LANGUAGE_CODE)" $(SPHINXOPTS) $(O)
+ifneq ($(LANGUAGE_CODE), en)
+	@make --no-print-directory revert-api-translation
+endif
+
 # Catch-all target:
 # Route all unknown targets to Sphinx using "make mode" option.
 # $(O) is shorthand for $(SPHINXOPTS).
 %: Makefile
-	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)/$(LANGUAGE_CODE)" $(SPHINXOPTS) $(O)
