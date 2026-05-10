@@ -3,7 +3,7 @@
 #
 # SPDX-License-Identifier: CC-BY-4.0
 #
-# Spanish translation of the Rebel Documentation
+# Spanish translation of the Rebel Documentation.
 #
 msgid ""
 msgstr ""
