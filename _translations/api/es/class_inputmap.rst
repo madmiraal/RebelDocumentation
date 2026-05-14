@@ -109,7 +109,7 @@ Establece un valor de zona muerta para la acción.
 
 - void **add_action** **(** :ref:`String<class_String>` action, :ref:`float<class_float>` deadzone=0.5 **)**
 
-Añade una acción vacía al ``InputMap`` con una zona muerta ``configurable ``.
+Añade una acción vacía al ``InputMap`` con una zona muerta ``configurable``.
 
 A continuación, se puede añadir un :ref:`InputEvent<class_InputEvent>` a esta acción con el :ref:`action_add_event<class_InputMap_method_action_add_event>`.
 
