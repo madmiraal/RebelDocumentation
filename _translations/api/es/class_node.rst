@@ -916,7 +916,7 @@ Similar a :ref:`get_node<class_Node_method_get_node>`, pero no registra un error
 
 - :ref:`Node<class_Node>` **get_parent** **(** **)** |const|
 
-Devuelve el nodo padre del nodo actual, o una instancia ``null `` si el nodo carece de un padre.
+Devuelve el nodo padre del nodo actual, o una instancia ``null`` si el nodo carece de un padre.
 
 ----
 

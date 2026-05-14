@@ -360,7 +360,7 @@ Nota importante: La coordenada Y es la primera, por convención.
 
 Decodifica una array de bytes a un valor. Cuando ``allow_objects`` es ``true`` se permite la decodificación de objetos.
 
-**Aviso**El objeto deserializado puede contener código que se pueda ejecutar. No utilice esta opción si el objeto serializado proviene de fuentes en las que no confie para evitar posibles amenazas a la seguridad (ejecución remota de código).
+**Aviso** El objeto deserializado puede contener código que se pueda ejecutar. No utilice esta opción si el objeto serializado proviene de fuentes en las que no confie para evitar posibles amenazas a la seguridad (ejecución remota de código).
 
 ----
 
