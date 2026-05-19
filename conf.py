@@ -69,6 +69,7 @@ highlight_language = "gdscript"
 
 supported_languages = {
     "en": "Rebel Toolbox (%s) documentation in English",
+    "es": "Documentación de Rebel Toolbox (%s) en español",
 }
 
 language = os.getenv("READTHEDOCS_LANGUAGE", os.getenv("LANGUAGE_CODE", "en"))
