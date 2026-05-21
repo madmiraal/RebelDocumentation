@@ -392,10 +392,10 @@ msgid ""
 "modules disabled </development/compiling/optimizing_for_size>`, you don't "
 "need to list the disabled modules' licenses in your exported project."
 msgstr ""
-"Si exportó su proyecto usando una :ref:`compilación personalizada con "
-"módulos específicos deshabilitados <doc_optimizing_for_size>`, no necesita "
-"enumerar las licencias de los módulos deshabilitados en su proyecto "
-"exportado."
+"Si exportó su proyecto usando una :doc:`compilación personalizada con "
+"módulos específicos deshabilitados </development/compiling/"
+"optimizing_for_size>`, no necesita enumerar las licencias de los módulos "
+"deshabilitados en su proyecto exportado."
 
 #: about/faq.rst:-1
 msgid "FAQ"
@@ -687,7 +687,8 @@ msgstr ""
 "fortalezas de Godot tan rápido como sea posible. Si alguna vez has escrito "
 "algo en un lenguaje como Python, entonces te sentirás como en casa. Para "
 "ejemplos, la historia y un resumen completo del poder que GDScript te "
-"ofrece, revisa la `guía de scripting en GDScript <gdscript_basics>`_."
+"ofrece, revisa la :doc:`guía de scripting en GDScript </tutorials/scripting/"
+"gdscript/gdscript_basics>`."
 
 #: about/faq.rst:90
 msgid ""
@@ -756,7 +757,8 @@ msgid ""
 "gdscript_advanced` tutorial."
 msgstr ""
 "Puedes encontrar más información sobre GDScript, y los lenguajes de tipo "
-"dinámico en general, en el tutorial :ref:`doc_gdscript_more_efficiently`."
+"dinámico en general, en el tutorial :doc:`/tutorials/scripting/gdscript/"
+"gdscript_advanced`."
 
 #: about/faq.rst:115
 msgid "What were the motivations behind creating GDScript?"
@@ -1026,8 +1028,8 @@ msgstr ""
 "Renombra y mueve el binario de Godot a una ubicación presente en tu variable "
 "de entorno ``PATH``. Esto suele ser ``/usr/local/bin/godot`` o ``/usr/bin/"
 "godot``. Hacer esto requiere privilegios de administrador, pero también te "
-"permite :ref:`ejecutar el editor de Godot desde una terminal "
-"<doc_command_line_tutorial>` ingresando ``godot``."
+"permite :doc:`ejecutar el editor de Godot desde una terminal </tutorials/"
+"editor/command_line_tutorial>` ingresando ``godot``."
 
 #: about/faq.rst:209
 #, fuzzy
@@ -1088,7 +1090,7 @@ msgstr ""
 "datos o configuración de todo el usuario. Este suele ser un buen enfoque, "
 "pero esto significa que los archivos de configuración no se transferirán a "
 "través de las máquinas si copia la carpeta que contiene el ejecutable de "
-"Godot. Consulte :ref:`doc_data_paths` para obtener más información."
+"Godot. Consulte :doc:`/tutorials/io/data_paths` para obtener más información."
 
 #: about/faq.rst:231
 #, fuzzy
@@ -1097,8 +1099,8 @@ msgid ""
 "follow the steps in :ref:`tutorials/io/data_paths:self-contained mode`."
 msgstr ""
 "Si se desea una operación portátil *verdadera* (por ejemplo, para usar en "
-"una memoria USB), siga los pasos "
-"en :ref:`doc_data_paths_self_contained_mode`."
+"una memoria USB), siga los pasos en :ref:`tutorials/io/data_paths:self-"
+"contained mode`."
 
 #: about/faq.rst:235
 #, fuzzy
@@ -1250,10 +1252,10 @@ msgstr ""
 "objetivo es mover algunas funciones básicas a extensiones oficialmente "
 "soportados en futuras versiones de Godot. En términos de tamaño binario, "
 "también tiene la ventaja de hacer que pagues solamente por lo que en "
-"realidad usas en tu proyecto. (Por el momento, puedes :ref:`Compilar "
+"realidad usas en tu proyecto. (Por el momento, puedes :doc:`Compilar "
 "plantillas de exportación personalizadas con características sin usar "
-"desactivadas <doc_optimizing_for_size>` para optimizar el tamaño de "
-"distribución de tu proyecto.)"
+"desactivadas </development/compiling/optimizing_for_size>` para optimizar el "
+"tamaño de distribución de tu proyecto.)"
 
 #: about/faq.rst:295
 msgid ""
@@ -1319,8 +1321,8 @@ msgid ""
 "multiple_resolutions` tutorial on how to achieve this."
 msgstr ""
 "Usa las opciones de estiramiento en Godot; el estiramiento en 2D funciona "
-"mejor si mantienes la relación de aspecto. Consulta el "
-"tutorial :ref:`doc_multiple_resolutions` sobre cómo conseguir esto."
+"mejor si mantienes la relación de aspecto. Consulta el tutorial :doc:`/"
+"tutorials/rendering/multiple_resolutions` sobre cómo conseguir esto."
 
 #: about/faq.rst:321
 #, fuzzy
@@ -1333,7 +1335,8 @@ msgstr ""
 "Determina una resolución mínima y luego decide si quieres que tu juego se "
 "extienda vertical u horizontalmente para diferentes relaciones de aspecto, o "
 "si hay una relación de aspecto y quieres que aparezcan barras negras en su "
-"lugar. Esto también se explica en :ref:`doc_multiple_resolutions`."
+"lugar. Esto también se explica en :doc:`/tutorials/rendering/"
+"multiple_resolutions`."
 
 #: about/faq.rst:326
 #, fuzzy
@@ -1342,9 +1345,9 @@ msgid ""
 "size_and_anchors>` to determine where controls should stay and move. If UIs "
 "are more complex, consider learning about Containers."
 msgstr ""
-"Para las interfaces de usuario, utiliza el :ref:`anchoring "
-"<doc_size_and_anchors>` para determinar hacia donde se deben quedar y mover "
-"los controles. Si las interfaces de usuario son más complejas, considera "
+"Para las interfaces de usuario, utiliza el :doc:`anchoring </tutorials/ui/"
+"size_and_anchors>` para determinar hacia donde se deben quedar y mover los "
+"controles. Si las interfaces de usuario son más complejas, considera "
 "aprender sobre los Containers."
 
 #: about/faq.rst:330
@@ -1377,8 +1380,8 @@ msgid ""
 "tutorials/plugins/editor/making_plugins>` and tool scripts."
 msgstr ""
 "Para extender Godot, como crear plugins de Godot Editor o añadir soporte "
-"para lenguajes adicionales, echa un vistazo a :ref:`EditorPlugins "
-"<doc_making_plugins>` y tool scripts."
+"para lenguajes adicionales, echa un vistazo a :doc:`EditorPlugins </"
+"tutorials/plugins/editor/making_plugins>` y tool scripts."
 
 #: about/faq.rst:344
 #, fuzzy
@@ -1400,9 +1403,7 @@ msgstr "¿Cuándo sale la proxima versión de Godot?"
 #: about/faq.rst:351
 #, fuzzy
 msgid "When it's ready! See :doc:`release_policy` for more information."
-msgstr ""
-"¡Cuando esté lista! Vea :ref:`doc_release_policy_when_is_next_release_out` "
-"para más información."
+msgstr "¡Cuando esté lista! Vea :doc:`release_policy` para más información."
 
 #: about/faq.rst:355
 msgid "I would like to contribute! How can I get started?"
@@ -1653,7 +1654,8 @@ msgstr ""
 "Este kit de herramientas de interfaz de usuario :ref:`no puede usarse como "
 "biblioteca <doc_faq_use_godot_as_library>`, pero sí puedes :ref:`utilizar "
 "Godot para crear aplicaciones que no son juegos mediante el uso del editor "
-"<doc_faq_non_game_applications>`."
+"<about/faq:Is it possible to use Rebel Engine to create non-game "
+"applications?>`."
 
 #: about/faq.rst:445
 #, fuzzy
@@ -1823,7 +1825,7 @@ msgstr "¿Cómo puedo apoyar el desarrollo de Godot o contribuir?"
 #: about/faq.rst:499
 #, fuzzy
 msgid "See :doc:`/contributing/ways_to_contribute`."
-msgstr "Mira :ref:`doc_ways_to_contribute`."
+msgstr "Mira :doc:`/contributing/ways_to_contribute`."
 
 #: about/list_of_features.rst:2
 msgid "List of features"
@@ -1900,7 +1902,7 @@ msgstr "iOS 10.0 y posteriores."
 #: about/list_of_features.rst:32
 #, fuzzy
 msgid ":doc:`Consoles </tutorials/platforms/consoles>`."
-msgstr ":ref:`Consolas <doc_consoles>`."
+msgstr ":doc:`Consolas </tutorials/platforms/consoles>`."
 
 #: about/list_of_features.rst:33
 #, fuzzy
@@ -1908,8 +1910,8 @@ msgid ""
 ":doc:`Headless Linux and macOS servers </tutorials/export/"
 "exporting_for_dedicated_servers>`."
 msgstr ""
-":ref:`Servidores Linux y macOS sin cabeza (headless) "
-"<doc_exporting_for_dedicated_servers>`."
+":doc:`Servidores Linux y macOS sin cabeza (headless) </tutorials/export/"
+"exporting_for_dedicated_servers>`."
 
 #: about/list_of_features.rst:35
 #, fuzzy
@@ -1945,13 +1947,13 @@ msgid ""
 "Support for :doc:`external script editors </tutorials/editor/"
 "external_editor>` such as Visual Studio Code or Vim."
 msgstr ""
-"Soporte para :ref:`editores externos de código <doc_external_editor_>` tal "
-"como Visual Studio Code o Vim."
+"Soporte para :doc:`editores externos de código </tutorials/editor/"
+"external_editor>` tal como Visual Studio Code o Vim."
 
 #: about/list_of_features.rst:47
 #, fuzzy
 msgid "GDScript :doc:`debugger </tutorials/scripting/debug/debugger_panel>`."
-msgstr "GDScript :ref:`depurador <doc_debugger_panel>`."
+msgstr "GDScript :doc:`depurador </tutorials/scripting/debug/debugger_panel>`."
 
 #: about/list_of_features.rst:49
 msgid "No support for debugging in threads yet."
@@ -2013,8 +2015,9 @@ msgid ""
 "own plugins </tutorials/plugins/editor/making_plugins>` using GDScript to "
 "add new features or speed up your workflow."
 msgstr ""
-":ref:` Crea tus propios plugins <doc_making_plugins>` usando GDScript para "
-"añadir nuevas características o acelerar tu flujo de trabajo."
+":doc:` Crea tus propios plugins </tutorials/plugins/editor/making_plugins>` "
+"usando GDScript para añadir nuevas características o acelerar tu flujo de "
+"trabajo."
 
 #: about/list_of_features.rst:72
 msgid "2D graphics"
@@ -2593,8 +2596,8 @@ msgid ""
 "index>`. Supports gameplay notifications with primary and secondary "
 "visibility to disable AI/physics processing for nodes that don't need it."
 msgstr ""
-"Occlusion culling con :ref:`salas y portales <doc_rooms_and_portals>`. Es "
-"compatible con notificaciones de gameplay de visibilidad primaria y "
+"Occlusion culling con :doc:`salas y portales </tutorials/3d/portals/index>`. "
+"Es compatible con notificaciones de gameplay de visibilidad primaria y "
 "secundaria para deshabilitar la IA/cálculo físico para nodos que no los "
 "necesitan."
 
@@ -2634,8 +2637,8 @@ msgid ""
 "Tools for :doc:`procedural geometry generation </tutorials/3d/"
 "procedural_geometry/index>`."
 msgstr ""
-"Herramientas para :ref:`generación de geometría procedural "
-"<doc_procedural_geometry>`."
+"Herramientas para :doc:`generación de geometría procedural </tutorials/3d/"
+"procedural_geometry/index>`."
 
 #: about/list_of_features.rst:286
 #, fuzzy
@@ -2643,8 +2646,8 @@ msgid ""
 ":doc:`Constructive solid geometry </tutorials/3d/csg_tools>` (intended for "
 "prototyping)."
 msgstr ""
-": ref:`Geometría sólida constructiva <doc_csg_tools>` (destinado a la "
-"creación de prototipos)."
+":doc:`Geometría sólida constructiva </tutorials/3d/csg_tools>` (destinado a "
+"la creación de prototipos)."
 
 #: about/list_of_features.rst:287
 msgid "Path3D node to represent a path in 3D space."
@@ -2716,8 +2719,8 @@ msgid ""
 "Text-based shaders using a :doc:`shader language inspired by GLSL </"
 "tutorials/shaders/shader_reference/shading_language>`."
 msgstr ""
-"Sombreadores basados en texto que usan un :ref:`lenguaje de sombreado "
-"inspirado en GLSL <doc_shading_language>`."
+"Sombreadores basados en texto que usan un :doc:`lenguaje de sombreado "
+"inspirado en GLSL </tutorials/shaders/shader_reference/shading_language>`."
 
 #: about/list_of_features.rst:321
 msgid "Visual shader editor."
@@ -2752,8 +2755,8 @@ msgid ""
 "Support for :doc:`cross-language scripting </tutorials/scripting/"
 "cross_language_scripting>`."
 msgstr ""
-"Soporte para :ref:`scripting en varios idiomas "
-"<doc_cross_language_scripting>`."
+"Soporte para :doc:`scripting en varios idiomas </tutorials/scripting/"
+"cross_language_scripting>`."
 
 #: about/list_of_features.rst:333
 msgid ""
@@ -2773,8 +2776,9 @@ msgid ""
 "gdscript_basics>` with :doc:`optional static typing </tutorials/scripting/"
 "gdscript/static_typing>`."
 msgstr ""
-":ref:`Lenguaje interpretado de alto nivel <doc_gdscript>` con :ref: `tipado "
-"estático opcional <doc_gdscript_static_typing>`."
+":doc:`Lenguaje interpretado de alto nivel </tutorials/scripting/gdscript/"
+"gdscript_basics>` con :ref:`tipado estático opcional </tutorials/scripting/"
+"gdscript/static_typing>`."
 
 #: about/list_of_features.rst:339
 msgid "Syntax inspired by Python."
@@ -2790,8 +2794,9 @@ msgid ""
 ":doc:`Use threads </tutorials/performance/threads/using_multiple_threads>` "
 "to perform asynchronous actions or make use of multiple processor cores."
 msgstr ""
-":ref:`Use hilos <doc_using_multiple_threads>` para realizar acciones "
-"asincrónicas o hacer uso de múltiples núcleos de procesador."
+":doc:`Use hilos </tutorials/performance/threads/using_multiple_threads>` "
+"para realizar acciones asincrónicas o hacer uso de múltiples núcleos de "
+"procesador."
 
 #: about/list_of_features.rst:344
 msgid ":ref:`C#: <toc-learn-scripting-C#>`"
@@ -2832,8 +2837,8 @@ msgid ""
 ":doc:`Graph-based visual scripting language </tutorials/scripting/"
 "visual_script/what_is_visual_scripting>`."
 msgstr ""
-":ref:`Lenguaje de scripting visual basado en gráficos "
-"<doc_what_is_visual_script>`."
+":doc:`Lenguaje de scripting visual basado en gráficos </tutorials/scripting/"
+"visual_script/what_is_visual_scripting>`."
 
 #: about/list_of_features.rst:357
 msgid ""
@@ -2908,8 +2913,8 @@ msgid ""
 "Support for re-routable :doc:`audio buses </tutorials/audio/audio_buses>` "
 "and effects with dozens of effects included."
 msgstr ""
-"Soporte para redireccionamiento :ref:`audio buses <doc_audio_buses>` y "
-"efectos con docenas de efectos incluidos."
+"Soporte para redireccionamiento :doc:`audio buses </tutorials/audio/"
+"audio_buses>` y efectos con docenas de efectos incluidos."
 
 #: about/list_of_features.rst:386
 msgid ""
@@ -2961,8 +2966,8 @@ msgid ""
 "Support for :doc:`custom import plugins </tutorials/plugins/editor/"
 "import_plugins>`."
 msgstr ""
-"Soporte para :ref:`plugins de importación personalizados "
-"<doc_import_plugins>`."
+"Soporte para :doc:`plugins de importación personalizados </tutorials/plugins/"
+"editor/import_plugins>`."
 
 #: about/list_of_features.rst:403
 msgid "**Formats:**"
@@ -2971,7 +2976,7 @@ msgstr "**Formatos:**"
 #: about/list_of_features.rst:405
 #, fuzzy
 msgid "*Images:* See :doc:`/tutorials/assets_pipeline/importing_images`."
-msgstr "*Imágenes:* Ver :ref:`doc_import_images`."
+msgstr "*Imágenes:* Ver :doc:`/tutorials/assets_pipeline/importing_images`."
 
 #: about/list_of_features.rst:406
 msgid "*Audio:*"
@@ -3182,9 +3187,9 @@ msgid ""
 "internationalizing_games>` or :doc:`gettext </tutorials/i18n/"
 "localization_using_gettext>`."
 msgstr ""
-"Almacena las strings de localización usando :ref:`CSV "
-"<doc_internationalizing_games>` o :ref:`gettext "
-"<doc_localization_using_gettext>`."
+"Almacena las strings de localización usando :doc:`CSV </tutorials/i18n/"
+"internationalizing_games>` o :doc:`gettext </tutorials/i18n/"
+"localization_using_gettext>`."
 
 #: about/list_of_features.rst:477
 msgid ""
@@ -3270,11 +3275,11 @@ msgid ""
 "window`` :doc:`command line argument </tutorials/editor/"
 "command_line_tutorial>`."
 msgstr ""
-"Los binarios :ref:`Headless/servidor <doc_exporting_for_dedicated_servers>` "
-"pueden descargarse para Linux y :ref:`compilados para macOS "
-"<doc_compiling_for_osx>`. Cualquier binario puede utilizarse sin ventana "
-"utilizando el argumento de línea de comandos ``--no-window`` "
-"<doc_command_line_tutorial>`."
+"Los binarios :doc:`Headless/servidor </tutorials/export/"
+"exporting_for_dedicated_servers>` pueden descargarse para Linux "
+"y :doc:`compilados para macOS </development/compiling/compiling_for_osx>`. "
+"Cualquier binario puede utilizarse sin ventana utilizando el argumento de "
+"línea de comandos ``--no-window`` </tutorials/editor/command_line_tutorial>`."
 
 #: about/list_of_features.rst:504
 msgid "Mobile"
@@ -3366,8 +3371,8 @@ msgid ""
 "RichTextLabel for :doc:`text formatted using BBCode </tutorials/ui/"
 "bbcode_in_richtextlabel>`."
 msgstr ""
-"RichTextLabel para :ref:`texto formateado usando BBCode "
-"<doc_bbcode_in_richtextlabel>`."
+"RichTextLabel para :doc:`texto formateado usando BBCode </tutorials/ui/"
+"bbcode_in_richtextlabel>`."
 
 #: about/list_of_features.rst:535
 msgid "Trees (can also be used to represent tables)."
@@ -3522,8 +3527,8 @@ msgid ""
 "Scenes and resources can be saved in :doc:`text-based </development/"
 "file_formats/tscn>` or binary formats."
 msgstr ""
-"Las escenas y los recursos pueden ser guardados en :ref:`basado en texto "
-"<doc_tscn_file_format>` o formatos binarios."
+"Las escenas y los recursos pueden ser guardados en :doc:`basado en texto </"
+"development/file_formats/tscn>` o formatos binarios."
 
 #: about/list_of_features.rst:584
 msgid ""
@@ -3585,8 +3590,8 @@ msgid ""
 ":doc:`Export additional PCK files</tutorials/export/exporting_pcks>` that "
 "can be read by the engine to support mods and DLCs."
 msgstr ""
-":ref:`Exportar archivos PCK adicionales<doc_exporting_pcks>` que pueden ser "
-"leídos por el motor para soportar mods y DLCs."
+":doc:`Exportar archivos PCK adicionales</tutorials/export/exporting_pcks>` "
+"que pueden ser leídos por el motor para soportar mods y DLCs."
 
 #: about/list_of_features.rst:603
 msgid "Miscellaneous"
@@ -3598,8 +3603,9 @@ msgid ""
 ":doc:`Low-level access to servers </tutorials/performance/using_servers>` "
 "which allows bypassing the scene tree's overhead when needed."
 msgstr ""
-":ref:`Acceso de bajo nivel a los servidores <doc_using_servers>` que permite "
-"evitar la sobrecarga del árbol de la escena cuando sea necesario."
+":doc:`Acceso de bajo nivel a los servidores </tutorials/performance/"
+"using_servers>` que permite evitar la sobrecarga del árbol de la escena "
+"cuando sea necesario."
 
 #: about/list_of_features.rst:607
 #, fuzzy
@@ -3607,8 +3613,8 @@ msgid ""
 ":doc:`Command line interface </tutorials/editor/command_line_tutorial>` for "
 "automation."
 msgstr ""
-":ref:`La interfaz de la línea de comandos <doc_command_line_tutorial>` para "
-"automatización."
+":doc:`La interfaz de la línea de comandos </tutorials/editor/"
+"command_line_tutorial>` para automatización."
 
 #: about/list_of_features.rst:609
 msgid "Export and deploy projects using continuous integration platforms."
@@ -3631,8 +3637,8 @@ msgid ""
 "Support for :doc:`C++ modules </development/engine/custom_modules_in_cpp>` "
 "statically linked into the engine binary."
 msgstr ""
-"Soporte para :ref:`modulos C++ <doc_custom_modules_in_c++>` enlazados "
-"estáticamente al binario del motor."
+"Soporte para :doc:`modulos C++ </development/engine/custom_modules_in_cpp>` "
+"enlazados estáticamente al binario del motor."
 
 #: about/list_of_features.rst:615
 msgid "Engine and editor written in C++03."
@@ -3645,8 +3651,9 @@ msgid ""
 "introduction_to_the_buildsystem>` using GCC, Clang and MSVC. MinGW is also "
 "supported."
 msgstr ""
-"Puede ser :ref:`compilado <doc_introduction_to_the_buildsystem>` usando GCC, "
-"Clang y MSVC. MinGW también está soportado."
+"Puede ser :doc:`compilado </development/compiling/"
+"introduction_to_the_buildsystem>` usando GCC, Clang y MSVC. MinGW también "
+"está soportado."
 
 #: about/list_of_features.rst:619
 #, fuzzy
@@ -3670,8 +3677,8 @@ msgid ""
 "Open development process with :doc:`contributions welcome </contributing/"
 "ways_to_contribute>`."
 msgstr ""
-"Abre el proceso de desarrollo con :ref:`contributions welcome "
-"<doc_ways_to_contribute>`."
+"Abre el proceso de desarrollo con :doc:`contributions welcome </contributing/"
+"ways_to_contribute>`."
 
 #: about/release_policy.rst:2
 #, fuzzy
@@ -48861,9 +48868,9 @@ msgid ""
 "class and has a bunch of callable methods."
 msgstr ""
 "El motor de animación de Godot no se detiene aquí. Si ya te sientes cómodo "
-"con el lenguaje de scripts de Godot :ref:`doc_gdscript` y :doc:`/classes/"
-"index` sabes que cada tipo de nodo es una clase y tiene un montón de métodos "
-"llamables."
+"con el lenguaje de scripts de Godot :doc:`/tutorials/scripting/gdscript/"
+"gdscript_basics` y :doc:`/api/index` sabes que cada tipo de nodo es una "
+"clase y tiene un montón de métodos llamables."
 
 #: tutorials/animation/introduction.rst:328
 msgid ""
