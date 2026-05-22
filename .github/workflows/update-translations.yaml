@@ -17,12 +17,6 @@ jobs:
       - name: Checkout Rebel Documentation
         uses: actions/checkout@v7
 
-      - name: Build Rebel
-        uses: RebelToolbox/RebelBuildAction@v4
-        with:
-          artifact: linux-editor
-          build-options: production=yes
-
       - name: Install dependencies
         shell: bash
         run: |
@@ -91,7 +85,9 @@ jobs:
           virtualenv env
           source env/bin/activate
           pip install -r requirements.txt
-          make update-translations
+          cd _translations/docs
+          make update
+          cd ..
 
       - name: Check for changes
         run: |
