@@ -3548,7 +3548,7 @@ msgstr "Opcionalmente puede ser comprimido o encriptado."
 
 #: about/list_of_features.rst:591
 msgid "Read and write :ref:`class_JSON` files."
-msgstr "Lee y escribe :ref:`clase_JSON` archivos."
+msgstr "Lee y escribe :ref:`class_JSON` archivos."
 
 #: about/list_of_features.rst:592
 msgid ""
@@ -73836,7 +73836,7 @@ msgid ""
 msgstr ""
 "Habrá notado que una transformación tiene más grados de libertad que la "
 "combinación de las acciones anteriores. La base de una matriz de "
-"transformación 2D tiene cuatro números totales en dos :ref:`clase_Vector2` "
+"transformación 2D tiene cuatro números totales en dos :ref:`class_Vector2` "
 "valores, mientras que un valor de rotación y un Vector2 para la escala sólo "
 "tiene 3 números. El concepto de alto nivel para el grado de libertad que "
 "falta se llama *shearing*."
