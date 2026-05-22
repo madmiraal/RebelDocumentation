@@ -7326,7 +7326,7 @@ msgid ""
 "Next, we need to create a ``SCsub`` file so the build system compiles this "
 "module:"
 msgstr ""
-"Lo siguiente que necesitamos es crear un archivo ``SCsub``para que se "
+"Lo siguiente que necesitamos es crear un archivo ``SCsub`` para que se "
 "compile este módulo:"
 
 msgid ""
@@ -8237,7 +8237,7 @@ msgstr "Spatial"
 
 #, fuzzy
 msgid "Source files: :download:`class-tree.zip <files/class-tree.zip>`."
-msgstr "Archivos fuente: :download:`class_tree.zip <files/class_tree.zip>`."
+msgstr "Archivos fuente: :download:`class-tree.zip <files/class-tree.zip>`."
 
 #, fuzzy
 msgid "Introduction to Rebel Engine development"
