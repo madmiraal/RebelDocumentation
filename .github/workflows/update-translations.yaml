@@ -17,12 +17,6 @@ jobs:
       - name: Checkout Rebel Documentation
         uses: actions/checkout@v6
 
-      - name: Build Rebel
-        uses: RebelToolbox/RebelBuildAction@v4
-        with:
-          artifact: linux-editor
-          build-options: production=yes
-
       - name: Install dependencies
         shell: bash
         run: |
