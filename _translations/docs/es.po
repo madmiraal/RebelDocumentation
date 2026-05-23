@@ -20028,7 +20028,7 @@ msgstr "Spatial"
 #: development/engine/inheritance_class_tree.rst:29
 #, fuzzy
 msgid "Source files: :download:`class-tree.zip <files/class-tree.zip>`."
-msgstr "Archivos fuente: :download:`class_tree.zip <files/class_tree.zip>`."
+msgstr "Archivos fuente: :download:`class-tree.zip <files/class-tree.zip>`."
 
 #: development/engine/introduction_to_rebel_development.rst:2
 #, fuzzy
