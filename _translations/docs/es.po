@@ -70917,7 +70917,7 @@ msgid ""
 msgstr ""
 "Todos los eventos tienen los métodos :ref:`InputEvent.is_action() "
 "<class_InputEvent_method_is_action>`, :ref:`InputEvent.is_pressed() "
-"<class_InputEvent_is_pressed>` y :ref:`InputEvent <class_InputEvent>`."
+"<class_InputEvent_method_is_pressed>` y :ref:`InputEvent <class_InputEvent>`."
 
 #: tutorials/inputs/inputevent.rst:176
 msgid ""
