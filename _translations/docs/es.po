@@ -20028,7 +20028,7 @@ msgstr "Spatial"
 #: development/engine/inheritance_class_tree.rst:29
 #, fuzzy
 msgid "Source files: :download:`class-tree.zip <files/class-tree.zip>`."
-msgstr "Archivos fuente: :download:`class_tree.zip <files/class_tree.zip>`."
+msgstr "Archivos fuente: :download:`class-tree.zip <files/class-tree.zip>`."
 
 #: development/engine/introduction_to_rebel_development.rst:2
 #, fuzzy
@@ -21970,10 +21970,10 @@ msgid ""
 "make the game. Extract the archive and move the ``art/`` and ``fonts/`` "
 "directories to your project's directory."
 msgstr ""
-"Descargar :download:`dodge_assets.zip <files/dodge_assets.zip>`. El archivo "
-"contiene las imágenes y los sonidos que usarás para crear el juego. Extraiga "
-"el archivo y mueva los directorios ``art/`` y ``fonts/`` al directorio de su "
-"proyecto."
+"Descargar :download:`Dodge the Creeps Assets <files/dodge-the-creeps-
+"assets.zip>`. El archivo contiene las imágenes y los sonidos que usarás para "
+"crear el juego. Extraiga el archivo y mueva los directorios ``art/`` y "
+"``fonts/`` al directorio de su proyecto."
 
 #: getting_started/first_2d_game/01.project_setup.rst:18
 #: getting_started/first_2d_game/index.rst:45
@@ -22020,8 +22020,8 @@ msgid ""
 "including a ``SConstruct`` file, a ``dodge_the_creeps.gdnlib`` file, a "
 "``player.gdns`` file, and an ``entry.cpp`` file."
 msgstr ""
-"Descargar :download:`dodge_assets_with_gdnative.zip <files/"
-"dodge_assets_with_gdnative.zip>`. El archivo contiene las imágenes y los "
+"Descargar :download:`Dodge the Creeps GDNative Assets <files/dodge-the-creeps-"
+"gdnative-assets.zip>`. El archivo contiene las imágenes y los "
 "sonidos que usarás para crear el juego. También contiene un proyecto "
 "GDNative inicial que incluye un archivo ``SConstruct``, un archivo "
 "``dodge_the_creeps.gdnlib``, un archivo ``player.gdns`` y un archivo "
@@ -24034,8 +24034,8 @@ msgid ""
 "csharp.zip>`"
 msgstr ""
 "Si eres un programador experimentado, puedes encontrar el código fuente "
-"completo de la demo aquí: `Proyectos de demostración de Godot <https://"
-"github.com/godotengine/godot-demo-projects>`__."
+"completo de la demo aquí: :download:`Dodge the Creeps <files/dodge-the-"
+"creeps-csharp.zip>`."
 
 #: getting_started/first_2d_game/index.rst:53
 msgid ""
@@ -24072,14 +24072,16 @@ msgstr ""
 msgid ""
 "Download :download:`Dodge the Creeps Assets <files/dodge-the-creeps-"
 "assets.zip>`."
-msgstr ":download:`dodge_assets.zip <files/dodge_assets.zip>`."
+msgstr ":download:`Dodge the Creeps Assets <files/dodge-the-creeps-"
+"assets.zip>`."
 
 #: getting_started/first_2d_game/index.rst:77
 #, fuzzy
 msgid ""
 "Download :download:`Dodge the Creeps GDNative Assets <files/dodge-the-creeps-"
 "gdnative-assets.zip>`."
-msgstr ":download:`dodge_assets.zip <files/dodge_assets.zip>`."
+msgstr ":download:`Dodge the Creeps GDNative Assets <files/dodge-the-creeps-"
+"gdnative-assets.zip>`."
 
 #: getting_started/first_2d_game/index.rst:80
 #: getting_started/first_3d_game/index.rst:49
@@ -24108,9 +24110,8 @@ msgid ""
 msgstr ""
 "Hemos preparado un proyecto de Godot con los modelos 3D y los sonidos que "
 "usaremos para este tutorial, vinculado en la página de índice. Si aún no lo "
-"ha hecho, puede descargar el archivo aquí: `activos de Squash the Creeps "
-"<https://github.com/GDQuest/godot-3d-dodge-the-creeps/releases/tag/1.0.0> "
-"`__."
+"ha hecho, puede descargar el archivo aquí: :download:`Squash the Creeps "
+"assets <files/squash-assets.zip>`."
 
 #: getting_started/first_3d_game/01.game_setup.rst:12
 #, fuzzy
@@ -33078,7 +33079,7 @@ msgid ""
 "<files/2d-movement.zip>`"
 msgstr ""
 "Puedes descargar este proyecto de ejemplo "
-"aquí: :download:`2D_movement_demo.zip <files/2D_movement_demo.zip>`"
+"aquí: :download:`2D_movement_demo.zip <files/2d-movement.zip>`"
 
 #: tutorials/2d/2d_sprite_animation.rst:2
 msgid "2D Sprite animation"
@@ -42068,7 +42069,7 @@ msgid ""
 "and-portals.zip>`"
 msgstr ""
 "Puedes descargar este proyecto de ejemplo "
-"aquí: :download:`2D_movement_demo.zip <files/2D_movement_demo.zip>`"
+"aquí: :download:`Rooms and Portals <files/rooms-and-portals.zip>`"
 
 #: tutorials/3d/portals/rooms_and_portals_example.rst:10
 msgid ""
@@ -45417,7 +45418,7 @@ msgid ""
 "project: :download:`Gridmap <files/gridmap.zip>`."
 msgstr ""
 "Para aprender cómo funcionan los GridMaps, empieza descargando el proyecto "
-"de muestra: :download:`gridmap_demo.zip <files/gridmap_demo.zip>`."
+"de muestra: :download:`Gridmap <files/gridmap.zip>`."
 
 #: tutorials/3d/using_gridmaps.rst:22
 msgid ""
@@ -66116,8 +66117,8 @@ msgid ""
 "Download the localization example here: :download:`Localization <files/"
 "localization.zip>`"
 msgstr ""
-"Puedes descargar las imágenes aquí: :download:`run_animation.zip <files/"
-"run_animation.zip>`"
+"Puedes descargar las imágenes aquí: :download:`Localization <files/"
+"localization.zip>`"
 
 #: tutorials/i18n/internationalizing_games.rst:26
 msgid "Configuring the imported translation"
@@ -82932,9 +82933,9 @@ msgid ""
 "scene like this:"
 msgstr ""
 "Para tener algo que probar, aquí está la escena (del tutorial de "
-"tilemap): :download:`kbscene.zip <files/kbscene.zip>`. Vamos a crear una "
-"nueva escena para el personaje. Usa el sprite robot y crea una escena como "
-"esta:"
+"tilemap): :download:`Kinematic Body <files/kinematic-body.zip>`. Vamos a "
+"crear una nueva escena para el personaje. Usa el sprite robot y crea una "
+"escena como esta:"
 
 #: tutorials/physics/kinematic_character_2d.rst:86
 msgid ""
@@ -84891,8 +84892,8 @@ msgid ""
 "You can download this project here: :download:`Using Area 2D <files/using-"
 "area-2d.zip>`"
 msgstr ""
-"Puedes descargar este proyecto aquí: :download:`using_area_2d.zip <files/"
-"using_area_2d.zip>`"
+"Puedes descargar este proyecto aquí: :download:`Using Area 2D <files/using-"
+"area-2d.zip>`"
 
 #: tutorials/physics/using_kinematic_body_2d.rst:2
 msgid "Using KinematicBody2D"
@@ -85255,7 +85256,7 @@ msgid ""
 "project: :download:`Using Kinematic 2D <files/using-kinematic-2d.zip>`."
 msgstr ""
 "Para ver estos ejemplos en funcionamiento, descarga el "
-"proyecto: :download:`using_kinematic2d.zip <files/using_kinematic2d.zip>`."
+"proyecto: :download:`Using Kinematic 2D <files/using-kinematic-2d.zip>`."
 
 #: tutorials/physics/using_kinematic_body_2d.rst:213
 msgid "Movement and walls"
@@ -94002,7 +94003,7 @@ msgid ""
 "Test <files/os-test.zip>`"
 msgstr ""
 "Para ver estos ejemplos en funcionamiento, descarga el "
-"proyecto: :download:`using_kinematic2d.zip <files/using_kinematic2d.zip>`."
+"proyecto: :download:`OS Test <files/os-test.zip>`."
 
 #: tutorials/scripting/c_sharp/c_sharp_style_guide.rst:2
 msgid "C# style guide"
