@@ -3882,27 +3882,27 @@ msgstr ""
 #: about/release_policy.rst:84
 #, fuzzy
 msgid "|unstable| *Alpha.* Current focus of development (unstable)."
-msgstr "|inestable| *Beta.* Enfoque actual del desarrollo (inestable)."
+msgstr "|unstable| *Alpha.* Enfoque actual del desarrollo (inestable)."
 
 #: about/release_policy.rst:90
 msgid "unstable"
-msgstr "inestable"
+msgstr "unstable"
 
 #: about/release_policy.rst:92
 msgid ""
 "**Legend:** |supported| Full support – |partial| Partial support – |eol| No "
 "support (end of life) – |unstable| Development version"
 msgstr ""
-"**Leyenda:** |soportado| Soporte completo - |parcial| Soporte parcial - |"
-"eol| No hay soporte (fin de vida) - |inestable| Versión de desarrollo"
+"**Leyenda:** |supported| Soporte completo - |partial| Soporte parcial - |"
+"eol| No hay soporte (fin de vida) - |unstable| Versión de desarrollo"
 
 #: about/release_policy.rst:87
 msgid "supported"
-msgstr "Archivos soportados"
+msgstr "supported"
 
 #: about/release_policy.rst:88
 msgid "partial"
-msgstr "parcial"
+msgstr "partial"
 
 #: about/release_policy.rst:89
 msgid "eol"
@@ -48898,12 +48898,12 @@ msgstr ""
 msgid ""
 "Click on \"Add track\" (|Add track|) on the animation panel's track controls."
 msgstr ""
-"Haz clic en \"Añadir pista\" (|Añadir pista|) en los controles de pista del "
+"Haz clic en \"Añadir pista\" (|Add track|) en los controles de pista del "
 "panel de animación."
 
 #: tutorials/animation/introduction.rst:380
 msgid "Add track"
-msgstr "Añadir pista"
+msgstr "Add track"
 
 #: tutorials/animation/introduction.rst:347
 msgid "Select \"Add Call Method Track\" from the list of possible track types."
