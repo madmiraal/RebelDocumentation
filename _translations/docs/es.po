@@ -28927,7 +28927,7 @@ msgid ""
 msgstr ""
 "Por supuesto, si lo prefiere, puede trabajar con programas externos. "
 "Apoyamos oficialmente la importación de escenas 3D diseñadas en Blender_ y "
-"mantenemos complementos para codificar en VSCode_ y Emacs_ para GDScript y C "
+"mantenemos complementos para codificar en VSCode y Emacs para GDScript y C "
 "#. También admitimos Visual Studio para C # en Windows."
 
 #: getting_started/introduction/introduction_to_rebel.rst:47
@@ -63371,7 +63371,7 @@ msgstr ""
 #: tutorials/export/exporting_for_macos.rst:154
 #, fuzzy
 msgid "Files Downloads [5]_"
-msgstr "Descarga de Archivos [6]_"
+msgstr "Descarga de Archivos [5]_"
 
 #: tutorials/export/exporting_for_macos.rst:154
 msgid "Allows read or write access to the user's \"Downloads\" folder."
@@ -63382,7 +63382,7 @@ msgstr ""
 #: tutorials/export/exporting_for_macos.rst:156
 #, fuzzy
 msgid "Files Pictures [5]_"
-msgstr "Archivo de Imágenes [6]_"
+msgstr "Archivo de Imágenes [5]_"
 
 #: tutorials/export/exporting_for_macos.rst:156
 msgid "Allows read or write access to the user's \"Pictures\" folder."
@@ -63392,7 +63392,7 @@ msgstr ""
 #: tutorials/export/exporting_for_macos.rst:158
 #, fuzzy
 msgid "Files Music [5]_"
-msgstr "Archivos de Música [6]_"
+msgstr "Archivos de Música [5]_"
 
 #: tutorials/export/exporting_for_macos.rst:158
 msgid "Allows read or write access to the user's \"Music\" folder."
@@ -63402,7 +63402,7 @@ msgstr ""
 #: tutorials/export/exporting_for_macos.rst:160
 #, fuzzy
 msgid "Files Movies [5]_"
-msgstr "Archivos de Video [6]_"
+msgstr "Archivos de Video [5]_"
 
 #: tutorials/export/exporting_for_macos.rst:160
 msgid "Allows read or write access to the user's \"Movies\" folder."
@@ -63413,7 +63413,7 @@ msgstr ""
 #: tutorials/export/exporting_for_macos.rst:162
 #, fuzzy
 msgid "Files User Selected [5]_"
-msgstr "Archivos de Usuario Seleccionados [6]_"
+msgstr "Archivos de Usuario Seleccionados [5]_"
 
 #: tutorials/export/exporting_for_macos.rst:162
 msgid ""
