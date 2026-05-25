@@ -1,0 +1,78 @@
+ROOT_DIR          = ../..
+REBEL_ENGINE_ROOT = $(ROOT_DIR)/RebelEngine
+REBEL_EXECUTABLE  = bin/rebel.linux.tools.64
+
+.PHONY: update update-translations update-translation
+
+update: update-translations
+
+update-translations:
+	@if [ ! -f $(REBEL_ENGINE_ROOT)/$(REBEL_EXECUTABLE) ]; then     \
+		echo "$(REBEL_ENGINE_ROOT)/$(REBEL_EXECUTABLE) not found."; \
+		exit 1;                                                     \
+	fi
+ifeq ($(DISPLAY),)
+	@if [ -z $$(command -v xvfb-run) ]; then                 \
+		echo "No X11 Display detected, and";                 \
+		echo "X Virtual Frame Buffer (xvfb) not installed."; \
+		echo "Please install xvfb and try again.";           \
+		exit 1;                                              \
+	fi
+endif
+	@if [ "$$(find . -maxdepth 1 -type d | wc -l)" -eq 1 ]; then \
+		echo "No current Rebel Engine API translations found.";  \
+		echo "_translations/api/ directory is empty.";           \
+	else                                                         \
+		for directory in *; do                                   \
+			if [ ! -d $$directory ]; then                        \
+				continue;                                        \
+			fi;                                                  \
+			make update-translation                              \
+				LANGUAGE_CODE=$$(basename $$directory)           \
+				--no-print-directory;                            \
+		done;                                                    \
+	fi
+
+update-translation:
+	@if [ ! -f $(REBEL_ENGINE_ROOT)/$(REBEL_EXECUTABLE) ]; then     \
+		echo "$(REBEL_ENGINE_ROOT)/$(REBEL_EXECUTABLE) not found."; \
+		exit 1;                                                     \
+	elif [ -z "$(LANGUAGE_CODE)" ]; then                            \
+		echo "LANGUAGE_CODE variable not defined.";                 \
+		exit 1;                                                     \
+	fi
+ifeq ($(DISPLAY),)
+	@echo "No X11 Display detected.";
+	@if [ -z $$(command -v xvfb-run) ]; then                 \
+		echo "X Virtual Frame Buffer (xvfb) not installed."; \
+		echo "Please install xvfb and try again.";           \
+		exit 1;                                              \
+	else                                                     \
+		echo "Using X Virtual Frame Buffer (xvfb).";         \
+	fi
+	$(eval XVFB=xvfb-run)
+endif
+	@echo "Creating Rebel Engine API XML translation for $(LANGUAGE_CODE)."
+	@cd $(REBEL_ENGINE_ROOT) && $(XVFB) $(REBEL_EXECUTABLE) \
+		--generate-docs                                     \
+		-l $(LANGUAGE_CODE)
+	@if [ -d $(LANGUAGE_CODE) ]; then \
+		rm -r $(LANGUAGE_CODE);       \
+	fi
+	@echo "Creating Rebel Engine API RST translation for $(LANGUAGE_CODE)."
+	@$(REBEL_ENGINE_ROOT)/tools/scripts/rst_from_xml.py \
+		--output $(LANGUAGE_CODE)                       \
+		$(REBEL_ENGINE_ROOT)/docs                       \
+		$(REBEL_ENGINE_ROOT)/modules                    \
+		|| make --no-print-directory revert-api-translation ERROR=$$(echo $$?)
+	@cp $(ROOT_DIR)/api/index.rst $(LANGUAGE_CODE)/
+	@make --no-print-directory revert-api-translation
+
+revert-api-translation:
+	@echo "Reverting Rebel Engine API translation."
+	@cd $(REBEL_ENGINE_ROOT) && git reset HEAD --hard
+	@if [ ! -z "$(ERROR)" ]; then                                  \
+		echo "Revert API translation called with ERROR=$(ERROR)."; \
+		echo "Returning Error $(ERROR) back to caller.";           \
+		exit $(ERROR);                                             \
+	fi
