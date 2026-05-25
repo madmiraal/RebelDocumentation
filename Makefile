@@ -23,7 +23,11 @@ endif
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
-.PHONY: help Makefile revert-api-translation
+.PHONY: help Makefile revert-api-translation update-translations
+
+update-translations:
+	@echo "Updating translations."
+	@cd _translations && make --no-print-directory update
 
 # Catch-all target:
 # Route all unknown targets to Sphinx using "make mode" option.
@@ -36,7 +40,8 @@ help:
 # Revert changes made by conf.py when language != "en".
 revert-api-translation:
 	@if [ "$(LANGUAGE_CODE)" = "en" ]; then                                  \
-		echo "LANGUAGE_CODE not specified.";                                 \
+		echo "LANGUAGE_CODE=en or not specified.";                           \
+		echo "No need to or cannot revert API translation.";                 \
 	elif [ ! -d $(API_TRANSLATIONS)/en ]; then                               \
 		echo "A backup of the original API folder was not found.";           \
 		echo "Cannot revert API translation to default!";                    \
