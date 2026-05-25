@@ -23,7 +23,11 @@ endif
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
-.PHONY: help Makefile revert-api-translation
+.PHONY: help Makefile revert-api-translation update-translations
+
+update-translations:
+	@echo "Updating translations."
+	@cd _translations && make --no-print-directory update
 
 # Catch-all target:
 # Route all unknown targets to Sphinx using "make mode" option.
