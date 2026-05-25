@@ -23,7 +23,7 @@ endif
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
-.PHONY: help Makefile revert-api-translation
+.PHONY: help Makefile revert-api-translation update-translations
 
 # Revert changes made by conf.py when language != "en".
 revert-api-translation:
@@ -48,6 +48,10 @@ revert-api-translation:
 		echo "Returning Error $(ERROR) back to caller.";           \
 		exit $(ERROR);                                             \
 	fi
+
+update-translations:
+	@echo "Updating translations."
+	@cd _translations && make --no-print-directory update
 
 # Catch-all target:
 # Route all unknown targets to Sphinx using "make mode" option.
