@@ -23,7 +23,19 @@ endif
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
-.PHONY: help Makefile revert-api-translation
+.PHONY: help Makefile revert-api-translation update-translations
+
+update-translations:
+	@echo "Updating translations."
+	@cd _translations && make --no-print-directory update
+
+# Catch-all target:
+# Route all unknown targets to Sphinx using "make mode" option.
+# $(O) is shorthand for $(SPHINXOPTS).
+%: Makefile
+	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)/$(LANGUAGE_CODE)" $(SPHINXOPTS) $(O) \
+	|| make --no-print-directory revert-api-translation ERROR=$$(echo $$?)
+	@make --no-print-directory revert-api-translation
 
 # Revert changes made by conf.py when language != "en".
 revert-api-translation:
@@ -48,11 +60,3 @@ revert-api-translation:
 		echo "Returning Error $(ERROR) back to caller.";           \
 		exit $(ERROR);                                             \
 	fi
-
-# Catch-all target:
-# Route all unknown targets to Sphinx using "make mode" option.
-# $(O) is shorthand for $(SPHINXOPTS).
-%: Makefile
-	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)/$(LANGUAGE_CODE)" $(SPHINXOPTS) $(O) \
-	|| make --no-print-directory revert-api-translation ERROR=$$(echo $$?)
-	@make --no-print-directory revert-api-translation
