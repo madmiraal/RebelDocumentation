@@ -656,7 +656,7 @@ Devuelve la posición de scrolling actual.
 
 Devuelve el elemento enfocado actualmente, o ``null`` si no hay ningún elemento enfocado.
 
-En los modos :ref:`SELECT_ROW<class_Tree_constant_SELECT_ROW>` y :ref:`SELECT_SINGLE<class_Tree_constant_SELECT_SINGLE>`, el elemento enfocado es el mismo que el elemento seleccionado. En el modo :ref:`constante<class_constante>`, el elemento enfocado es el elemento que se encuentra bajo el cursor de enfoque, no necesariamente seleccionado.
+En los modos :ref:`SELECT_ROW<class_Tree_constant_SELECT_ROW>` y :ref:`SELECT_SINGLE<class_Tree_constant_SELECT_SINGLE>`, el elemento enfocado es el mismo que el elemento seleccionado. En el modo :ref:`SELECT_MULTI<class_Tree_constant_SELECT_MULTI>`, el elemento enfocado es el elemento que se encuentra bajo el cursor de enfoque, no necesariamente seleccionado.
 
 Para obtener el/los elemento(s) actualmente seleccionado(s), use :ref:`get_next_selected<class_Tree_method_get_next_selected>`.
 
