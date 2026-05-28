@@ -1519,7 +1519,7 @@ enum **InstanceType**:
 
 - **INSTANCE_LIGHTMAP_CAPTURE** = **8** --- The instance is a lightmap capture.
 
-- **INSTANCE_MAX** = **9** --- Representa el tamaño del enum:ref:`InstanceType<enum_VisualServer_InstanceType>`.
+- **INSTANCE_MAX** = **9** --- Representa el tamaño del enum :ref:`InstanceType<enum_VisualServer_InstanceType>`.
 
 - **INSTANCE_GEOMETRY_MASK** = **30** --- Una combinación de las banderas de las instancias de la geometría (malla, multimesh, inmediata y partículas).
 
