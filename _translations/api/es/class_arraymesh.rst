@@ -329,7 +329,7 @@ Devuelve la longitud en indices del array de indices de la superificie solicitad
 
 - :ref:`int<class_int>` **surface_get_array_len** **(** :ref:`int<class_int>` surf_idx **)** |const|
 
-Devuelve la longitud en vertices del array de vertice en la superficie solicitada (ver:ref:`add_surface_from_arrays<class_ArrayMesh_method_add_surface_from_arrays>`).
+Devuelve la longitud en vertices del array de vertice en la superficie solicitada (ver :ref:`add_surface_from_arrays<class_ArrayMesh_method_add_surface_from_arrays>`).
 
 ----
 
@@ -337,7 +337,7 @@ Devuelve la longitud en vertices del array de vertice en la superficie solicitad
 
 - :ref:`int<class_int>` **surface_get_format** **(** :ref:`int<class_int>` surf_idx **)** |const|
 
-Devuelve la mascara de formato de la superficie solicitada (ver:ref:`add_surface_from_arrays<class_ArrayMesh_method_add_surface_from_arrays>`).
+Devuelve la mascara de formato de la superficie solicitada (ver :ref:`add_surface_from_arrays<class_ArrayMesh_method_add_surface_from_arrays>`).
 
 ----
 
