@@ -302,7 +302,7 @@ enum **Status**:
 
 enum **ResponseCode**:
 
-- **RESPONSE_CONTINUE** = **100** --- Código de estado HTTP ``100 Continuar ``. Respuesta provisional que indica que todo hasta ahora está bien y que el cliente debe continuar con la solicitud (o ignorar este estado si ya ha terminado).
+- **RESPONSE_CONTINUE** = **100** --- Código de estado HTTP ``100 Continuar``. Respuesta provisional que indica que todo hasta ahora está bien y que el cliente debe continuar con la solicitud (o ignorar este estado si ya ha terminado).
 
 - **RESPONSE_SWITCHING_PROTOCOLS** = **101** --- Código de estado HTTP ``101 Switching Protocol``. Enviado en respuesta a una solicitud de ``Upgrade`` por el cliente. Indica el protocolo al que el servidor está cambiando.
 
@@ -314,9 +314,9 @@ enum **ResponseCode**:
 
 - **RESPONSE_ACCEPTED** = **202** --- Código de estado HTTP ``202 Accepted``. La solicitud ha sido recibida pero aún no se ha actuado al respecto. No se ha tomado ninguna medida, lo que significa que no hay forma de que HTTP envíe más tarde una respuesta asincrónica que indique el resultado del procesamiento de la solicitud. Está destinado a los casos en que otro proceso o servidor se encarga de la solicitud, o para el procesamiento por lotes.
 
-- **RESPONSE_NON_AUTHORITATIVE_INFORMATION** = **203** --- Código de estado HTTP ``203 Información no autorizada ``. Este código de respuesta significa que el conjunto de meta-información devuelta no está exactamente establecida como disponible en el servidor de origen, sino que se ha recogido de una copia local o de un tercero. Excepto en esta condición, se debe preferir la respuesta 200 OK en lugar de esta respuesta.
+- **RESPONSE_NON_AUTHORITATIVE_INFORMATION** = **203** --- Código de estado HTTP ``203 Información no autorizada``. Este código de respuesta significa que el conjunto de meta-información devuelta no está exactamente establecida como disponible en el servidor de origen, sino que se ha recogido de una copia local o de un tercero. Excepto en esta condición, se debe preferir la respuesta 200 OK en lugar de esta respuesta.
 
-- **RESPONSE_NO_CONTENT** = **204** --- Código de estado HTTP ``204 No hay contenido ``. No hay contenido que enviar para esta petición, pero los encabezados pueden ser útiles. El user-agent puede actualizar sus cabeceras en caché para este recurso con las nuevas.
+- **RESPONSE_NO_CONTENT** = **204** --- Código de estado HTTP ``204 No hay contenido``. No hay contenido que enviar para esta petición, pero los encabezados pueden ser útiles. El user-agent puede actualizar sus cabeceras en caché para este recurso con las nuevas.
 
 - **RESPONSE_RESET_CONTENT** = **205** --- Código de estado HTTP ``205 Reset Content``. El servidor ha cumplido la solicitud y desea que el cliente restablezca la "vista del documento" que causó que la solicitud se enviara a su estado original tal como se recibió del servidor de origen.
 
@@ -362,7 +362,7 @@ enum **ResponseCode**:
 
 - **RESPONSE_PROXY_AUTHENTICATION_REQUIRED** = **407** --- Código de estado HTTP ``407 Proxy Authentication Required``. Similar a 401 No autorizado, pero indica que el cliente necesita autenticarse para usar un proxy.
 
-- **RESPONSE_REQUEST_TIMEOUT** = **408** --- Código de estado HTTP ``408 Solicitud de tiempo de espera ``. El servidor no recibió un mensaje de solicitud completo en el tiempo que estaba preparado para esperar.
+- **RESPONSE_REQUEST_TIMEOUT** = **408** --- Código de estado HTTP ``408 Solicitud de tiempo de espera``. El servidor no recibió un mensaje de solicitud completo en el tiempo que estaba preparado para esperar.
 
 - **RESPONSE_CONFLICT** = **409** --- Código de estado HTTP ``409 Conflict``. La solicitud no pudo completarse debido a un conflicto con el estado actual del recurso objetivo. Este código se utiliza en situaciones en las que el usuario podría resolver el conflicto y volver a enviar la solicitud.
 
@@ -577,15 +577,11 @@ Hay que llamar a esto para que se procese cualquier solicitud. Comprueba los res
 
 Genera una string de consulta de estilo GET/POST/x-www-form-urlencoded desde un diccionario proporcionado, por ejemplo:
 
-codeblock]
+::
 
-var campos = {"nombreusuario": "usuario", "password": "contrasena"}
-
-var query_string = http_client.query_string_from_dict(campos)
-
-# Returns "nombreusuario=usuario&password=contrasena"
-
-:ref:`/codeblock<class_/codeblock>`
+    var campos = {"nombreusuario": "usuario", "password": "contrasena"}
+    var query_string = http_client.query_string_from_dict(campos)
+    # Returns "nombreusuario=usuario&password=contrasena"
 
 Además, si una clave tiene un valor ``null``, sólo se añade la propia clave, sin igual signo y valor. Si el valor es un array, por cada valor en ella se añade un par con la misma clave.
 
