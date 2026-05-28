@@ -70,3 +70,10 @@ jobs:
           #Build dummy documentation
           source env/bin/activate
           make dummy SPHINXOPTS="--fail-on-warning --keep-going"
+
+      - name: Translation test builds
+        run: |
+          #Translation test builds
+          source env/bin/activate
+          cd _translations
+          make test SPHINXOPTS="--fail-on-warning --keep-going"
