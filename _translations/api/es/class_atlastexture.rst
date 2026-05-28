@@ -82,7 +82,7 @@ Si ``true``, recorta el area fuera de la region para evitar el sangrado de pixel
 | *Getter*  | get_margin()            |
 +-----------+-------------------------+
 
-El margen alrededor de la region. El parametro :ref:`Rect2<class_Rect2>`:ref:`Rect2.size<class_Rect2_property_size>` ( "w" y "h" en el editor) cambia el tamaño de la textura para que encaje dentro del margen.
+El margen alrededor de la region. El parametro :ref:`Rect2.size<class_Rect2_property_size>` de :ref:`Rect2<class_Rect2>` ("w" y "h" en el editor) cambia el tamaño de la textura para que encaje dentro del margen.
 
 ----
 
