@@ -467,7 +467,7 @@ Mezcla usando Alfa ``src_rect`` de la imagen ``src`` a esta imagen en las coorde
 
 - void **blend_rect_mask** **(** :ref:`Image<class_Image>` src, :ref:`Image<class_Image>` mask, :ref:`Rect2<class_Rect2>` src_rect, :ref:`Vector2<class_Vector2>` dst **)**
 
-Mezcla usando alfa``src_rect`` de la imagen ``src`` a esta imagen usando la imagen ``mask`` en las coordenadas ``dst``. Se requieren canales alfa tanto para ``src`` como para ``mask``. Los píxeles de ``dst`` y los píxeles de ``src`` se mezclarán si el valor alfa del píxel de la máscara correspondiente no es 0. La imagen ``src`` y la imagen ``mask`` **deben** tener el mismo tamaño (ancho y alto) pero pueden tener formatos diferentes.
+Mezcla usando alfa ``src_rect`` de la imagen ``src`` a esta imagen usando la imagen ``mask`` en las coordenadas ``dst``. Se requieren canales alfa tanto para ``src`` como para ``mask``. Los píxeles de ``dst`` y los píxeles de ``src`` se mezclarán si el valor alfa del píxel de la máscara correspondiente no es 0. La imagen ``src`` y la imagen ``mask`` **deben** tener el mismo tamaño (ancho y alto) pero pueden tener formatos diferentes.
 
 ----
 

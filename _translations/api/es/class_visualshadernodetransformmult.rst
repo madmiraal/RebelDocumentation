@@ -40,7 +40,7 @@ Enumerations
 
 enum **Operator**:
 
-- **OP_AxB** = **0** --- Multiplica la transformada``a`` por la transformada ``b``.
+- **OP_AxB** = **0** --- Multiplica la transformada ``a`` por la transformada ``b``.
 
 - **OP_BxA** = **1** --- Multiplica la transformada ``b`` por la transformación ``a``.
 
