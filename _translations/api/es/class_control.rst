@@ -437,7 +437,7 @@ enum **CursorShape**:
 
 - **CURSOR_VSPLIT** = **14** --- Muestra el cursor del ratón dividido verticalmente del sistema cuando el usuario pasa por encima del nodo. En Windows, es lo mismo que :ref:`CURSOR_VSIZE<class_Control_constant_CURSOR_VSIZE>`.
 
-- **CURSOR_HSPLIT** = **15** --- Muestra el cursor del ratón dividido horizontalmente del sistema cuando el usuario pasa por encima del nodo. En Windows, es lo mismo que :ref:`constante<class_constante>`.
+- **CURSOR_HSPLIT** = **15** --- Muestra el cursor del ratón dividido horizontalmente del sistema cuando el usuario pasa por encima del nodo. En Windows, es lo mismo que :ref:`CURSOR_HSIZE<class_Control_constant_CURSOR_HSIZE>`.
 
 - **CURSOR_HELP** = **16** --- Mostrar el cursor del ratón de ayuda del sistema cuando el usuario pasa por encima del nodo, un signo de interrogación.
 

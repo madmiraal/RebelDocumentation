@@ -104,7 +104,7 @@ Method Descriptions
 
 - void **add_node** **(** :ref:`String<class_String>` name, :ref:`AnimationNode<class_AnimationNode>` node, :ref:`Vector2<class_Vector2>` position=Vector2( 0, 0 ) **)**
 
-Añade un :ref:`AnimationNode<class_AnimationNode>` en la``position`` dada. El ``name`` se utiliza para identificar el subnodo creado a posteriori.
+Añade un :ref:`AnimationNode<class_AnimationNode>` en la ``position`` dada. El ``name`` se utiliza para identificar el subnodo creado a posteriori.
 
 ----
 
