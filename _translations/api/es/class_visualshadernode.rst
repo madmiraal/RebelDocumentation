@@ -83,7 +83,7 @@ enum **PortType**:
 
 - **PORT_TYPE_SAMPLER** = **4** --- Tipo Sampler. Traducido a referencia del uniforme del muestras en el código shader. Sólo puede utilizarse para puertos de entrada en nodos no uniformes.
 
-- **PORT_TYPE_MAX** = **5** --- Representa el tamaño del enum:ref:`PortType<enum_VisualShaderNode_PortType>`.
+- **PORT_TYPE_MAX** = **5** --- Representa el tamaño del enum :ref:`PortType<enum_VisualShaderNode_PortType>`.
 
 Property Descriptions
 ---------------------
