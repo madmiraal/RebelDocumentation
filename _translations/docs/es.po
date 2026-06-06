@@ -459,9 +459,9 @@ msgid ""
 "\"Rebel Toolbox Contributors\""
 msgstr ""
 "Todo el contenido de esta documentación adjunta se publica bajo la licencia "
-"permisiva Creative Commons Attribution 3.0 (`CC-BY 3.0 <https://"
-"creativecommons.org/licenses/by/3.0/>`_), con atribución a \"Juan Linietsky, "
-"Ariel Manzur y la comunidad Godot Engine.\""
+"permisiva Creative Commons Attribution 4.0 (`CC-BY 4.0 <https://"
+"creativecommons.org/licenses/by/4.0/>`_), con atribución a \"Rebel Toolbox "
+"Contributors\""
 
 #: about/faq.rst:20
 #, fuzzy
