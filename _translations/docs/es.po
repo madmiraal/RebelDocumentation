@@ -423,9 +423,9 @@ msgid ""
 "as in \"free speech\" as well as in \"free beer.\""
 msgstr ""
 "Rebel Engine es `Software libre y de código abierto <https://"
-"es.wikipedia.org/wiki/Software_libre_y_de_c%C3%B3digo_abierto>`_ disponible "
+"es.wikipedia.org/wiki/Software_libre_y_de_c%C3%B3digo_abierto>`__ disponible "
 "bajo la licencia MIT `aprobada por la OSI <https://opensource.org/licenses/"
-"MIT>`_ Licencia MIT. Esto significa que es gratuito en el sentido de "
+"MIT>`__ Licencia MIT. Esto significa que es gratuito en el sentido de "
 "\"libertad de expresión\" así como en \"libre acceso.\""
 
 #: about/faq.rst:12
@@ -483,8 +483,8 @@ msgid ""
 "Engine repository."
 msgstr ""
 "Para más detalles, revisa los archivos `COPYRIGHT.txt <https://github.com/"
-"RebelToolbox/RebelEngine/blob/main/copyright>`_ al igual que `LICENSE.txt "
-"<https://github.com/RebelToolbox/RebelEngine/blob/main/LICENSE>`_ en el "
+"RebelToolbox/RebelEngine/blob/main/copyright>`__ al igual que `LICENSE.txt "
+"<https://github.com/RebelToolbox/RebelEngine/blob/main/LICENSE>`__ en el "
 "repositorio de Rebel Engine."
 
 #: about/faq.rst:26
@@ -661,8 +661,8 @@ msgstr ""
 "dispuesta a abordar nuevos problemas a medida que surjan, pero como se trata "
 "de un proyecto de código abierto, recomendamos que primero hagas tú mismo "
 "las comprobaciones necesarias. Buscar en las discusiones sobre `problemas "
-"abiertos <https://github.com/RebelToolbox/RebelEngine/issues>`_ es una buena "
-"manera de empezar a resolver problemas."
+"abiertos <https://github.com/RebelToolbox/RebelEngine/issues>`__ es una "
+"buena manera de empezar a resolver problemas."
 
 #: about/faq.rst:81
 msgid "What is GDScript and why should I use it?"
@@ -1436,8 +1436,9 @@ msgstr ""
 "El primer lugar para comenzar es el de `discusión <https://github.com/"
 "RebelToolbox/RebelEngine/issues>`_. Encuentra un problema que te suene "
 "familiar, entonces proceda a la guía de `Como contribuir <https://github.com/"
-"RebelToolbox/RebelEngine/blob/main/CONTRIBUTING.md>`_ la guía te enseña como "
-"hacer un “fork”, modificar y enviar un “Pull Request (PR)” con tus cambios."
+"RebelToolbox/RebelEngine/blob/main/CONTRIBUTING.md>`__ la guía te enseña "
+"como hacer un “fork”, modificar y enviar un “Pull Request (PR)” con tus "
+"cambios."
 
 #: about/faq.rst:365
 #, fuzzy
@@ -4701,7 +4702,7 @@ msgid ""
 msgstr ""
 "¡Siempre escribe ejemplos de código en GDScript primero! Puedes utilizar "
 "esta `herramienta experimental de traducción de código <https://github.com/"
-"HaSa1002/codetranslator>`_ para acelerar tu flujo de trabajo."
+"HaSa1002/codetranslator>`__ para acelerar tu flujo de trabajo."
 
 #: contributing/api_writing_guidelines.rst:193
 msgid "The above will display as:"
@@ -8812,7 +8813,7 @@ msgstr ""
 "A continuación, puedes *clonar* tu copia (fork), es decir, crear una copia "
 "local del repositorio en línea (en la terminología de Git, el *origin "
 "remote*). Si aún no lo has hecho, descarga Git desde `su sitio web <https://"
-"git-scm.com>`_ si estás usando Windows o macOS, o instálalo a través de tu "
+"git-scm.com>`__ si estás usando Windows o macOS, o instálalo a través de tu "
 "gestor de paquetes si estás usando Linux."
 
 #: contributing/pr_workflow.rst:88
@@ -9501,7 +9502,7 @@ msgid ""
 msgstr ""
 "Esto abrirá un editor de texto (por defecto, ``vi``; consulta la "
 "`documentación de Git <https://git-scm.com/book/en/v2/Customizing-Git-Git-"
-"Configuration#_core_editor>`_ para configurar tu editor favorito) con algo "
+"Configuration#_core_editor>`__ para configurar tu editor favorito) con algo "
 "que puede parecerse a esto:"
 
 #: contributing/pr_workflow.rst:476
