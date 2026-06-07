@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Rebel Documentation 1.0\n"
 "Report-Msgid-Bugs-To: https://github.com/RebelToolbox/RebelDocumentation\n"
-"POT-Creation-Date: 2026-06-06 17:54+0200\n"
+"POT-Creation-Date: 2026-06-06 17:58+0200\n"
 "PO-Revision-Date: 2023-09-16 04:12+0000\n"
 "Last-Translator: plantcraft94 <plantcraft60@gmail.com>\n"
 "Language-Team: Vietnamese <https://hosted.weblate.org/projects/rebel-toolbox/"
@@ -94189,352 +94189,421 @@ msgid "Bug Fixes"
 msgstr ""
 
 #: what_is_new/rebel_1_0.rst:18
+#, fuzzy
 msgid ""
 "`Ensure that all architecture specific folders are included in third-party "
-"libraries <https://github.com/RebelToolbox/RebelEngine/pull/5>`_"
-msgstr ""
+"libraries <https://github.com/RebelToolbox/RebelEngine/pull/5>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:19
+#, fuzzy
 msgid ""
 "`Replace sprintf with snprintf where needed <https://github.com/RebelToolbox/"
-"RebelEngine/pull/5>`_"
+"RebelEngine/pull/5>`__"
 msgstr ""
+"Clone the `godot-docs repository <https://github.com/godotengine/godot-docs/"
+">`__."
 
 #: what_is_new/rebel_1_0.rst:20
+#, fuzzy
 msgid ""
 "`Ensure that core files are not ignored <https://github.com/RebelToolbox/"
-"RebelEngine/pull/5>`_"
-msgstr ""
+"RebelEngine/pull/5>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:21
+#, fuzzy
 msgid ""
 "`Replace deprecated has_trivial* with std::is_trivally* <https://github.com/"
-"RebelToolbox/RebelEngine/pull/7>`_"
+"RebelToolbox/RebelEngine/pull/7>`__"
 msgstr ""
+"Clone the `godot-docs repository <https://github.com/godotengine/godot-docs/"
+">`__."
 
 #: what_is_new/rebel_1_0.rst:22
+#, fuzzy
 msgid ""
 "`Fix store to null pointer error in Image.fill() <https://github.com/"
-"RebelToolbox/RebelEngine/pull/11>`_"
-msgstr ""
+"RebelToolbox/RebelEngine/pull/11>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:23
+#, fuzzy
 msgid ""
 "`Fix read from unknown address in Image::get_pixel <https://github.com/"
-"RebelToolbox/RebelEngine/pull/12>`_"
-msgstr ""
+"RebelToolbox/RebelEngine/pull/12>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:24
+#, fuzzy
 msgid ""
 "`Fix segmentation fault when converting RGBE images to SRGB <https://"
-"github.com/RebelToolbox/RebelEngine/pull/13>`_"
-msgstr ""
+"github.com/RebelToolbox/RebelEngine/pull/13>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:25
+#, fuzzy
 msgid ""
 "`Fix methods with array parameters with mismatched bounds <https://"
-"github.com/RebelToolbox/RebelEngine/pull/8>`_"
-msgstr ""
+"github.com/RebelToolbox/RebelEngine/pull/8>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:26
+#, fuzzy
 msgid ""
 "`Fix floating-point comparison is always false warning <https://github.com/"
-"RebelToolbox/RebelEngine/pull/10>`_"
-msgstr ""
+"RebelToolbox/RebelEngine/pull/10>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:27
+#, fuzzy
 msgid ""
 "`Fix missing stdint.h in old version of V-HACD library <https://github.com/"
-"RebelToolbox/RebelEngine/pull/18>`_"
-msgstr ""
+"RebelToolbox/RebelEngine/pull/18>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:28
+#, fuzzy
 msgid ""
 "`Fix requirement for -mstackrealign comment in Android x86 <https://"
-"github.com/RebelToolbox/RebelEngine/pull/20>`_"
-msgstr ""
+"github.com/RebelToolbox/RebelEngine/pull/20>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:29
+#, fuzzy
 msgid ""
-"`Fix Windows builds <https://github.com/RebelToolbox/RebelEngine/pull/23>`_"
-msgstr ""
+"`Fix Windows builds <https://github.com/RebelToolbox/RebelEngine/pull/23>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:30
+#, fuzzy
 msgid ""
 "`Fix unwanted line-breaks and spaces in empty Dictionary default value "
-"documentation <https://github.com/RebelToolbox/RebelEngine/pull/25>`_"
-msgstr ""
+"documentation <https://github.com/RebelToolbox/RebelEngine/pull/25>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:31
+#, fuzzy
 msgid ""
 "`Fix the API XML documentation generation tool not removing indents on multi-"
-"line entries <https://github.com/RebelToolbox/RebelEngine/pull/25>`_"
-msgstr ""
+"line entries <https://github.com/RebelToolbox/RebelEngine/pull/25>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:32
+#, fuzzy
 msgid ""
 "`Fix the XML to RST documentation creation tool not removing indents "
-"properly <https://github.com/RebelToolbox/RebelEngine/pull/25>`_"
-msgstr ""
+"properly <https://github.com/RebelToolbox/RebelEngine/pull/25>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:33
+#, fuzzy
 msgid ""
 "`Fix the Python shebang of the documentation status tool <https://github.com/"
-"RebelToolbox/RebelEngine/pull/25>`_"
-msgstr ""
+"RebelToolbox/RebelEngine/pull/25>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:34
+#, fuzzy
 msgid ""
 "`Fix Windows IMMNotificationClient having non-virtual destructor warning "
-"<https://github.com/RebelToolbox/RebelEngine/pull/30>`_"
-msgstr ""
+"<https://github.com/RebelToolbox/RebelEngine/pull/30>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:35
+#, fuzzy
 msgid ""
 "`Fix Rebel Engine API documentation not displaying images <https://"
-"github.com/RebelToolbox/RebelEngine/pull/31>`_"
-msgstr ""
+"github.com/RebelToolbox/RebelEngine/pull/31>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:36
+#, fuzzy
 msgid ""
 "`Add missing newline character in RST file header <https://github.com/"
-"RebelToolbox/RebelEngine/pull/34>`_"
-msgstr ""
+"RebelToolbox/RebelEngine/pull/34>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:37
+#, fuzzy
 msgid ""
 "`Fix web export builds <https://github.com/RebelToolbox/RebelEngine/pull/"
-"38>`_"
+"38>`__"
 msgstr ""
+"Clone the `godot-docs repository <https://github.com/godotengine/godot-docs/"
+">`__."
 
 #: what_is_new/rebel_1_0.rst:38
+#, fuzzy
 msgid ""
 "`Fix Android JNI name mismatch <https://github.com/RebelToolbox/RebelEngine/"
-"pull/42>`_"
-msgstr ""
+"pull/42>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:39
+#, fuzzy
 msgid ""
 "`Fix Android Rebel rebranding <https://github.com/RebelToolbox/RebelEngine/"
-"pull/43>`_"
-msgstr ""
+"pull/43>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:40
+#, fuzzy
 msgid ""
 "`Ensure Android Java and Kotlin compile to the same version <https://"
-"github.com/RebelToolbox/RebelEngine/pull/46>`_"
-msgstr ""
+"github.com/RebelToolbox/RebelEngine/pull/46>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:41
+#, fuzzy
 msgid ""
 "`Replace distutils.dir_util.copy_tree with shutil.copytree <https://"
-"github.com/RebelToolbox/RebelEngine/pull/47>`_"
-msgstr ""
+"github.com/RebelToolbox/RebelEngine/pull/47>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:42
+#, fuzzy
 msgid ""
 "`Remove 32 bit builds from iOS <https://github.com/RebelToolbox/RebelEngine/"
-"pull/50>`_"
+"pull/50>`__"
 msgstr ""
+"Clone the `godot-docs repository <https://github.com/godotengine/godot-docs/"
+">`__."
 
 #: what_is_new/rebel_1_0.rst:43
+#, fuzzy
 msgid ""
 "`Update create release to support updated Android builds <https://github.com/"
-"RebelToolbox/RebelEngine/pull/59>`_"
-msgstr ""
+"RebelToolbox/RebelEngine/pull/59>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:44
+#, fuzzy
 msgid ""
 "`Fix create release workflow not copying Android libraries <https://"
-"github.com/RebelToolbox/RebelEngine/pull/76>`_"
-msgstr ""
+"github.com/RebelToolbox/RebelEngine/pull/76>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:45
+#, fuzzy
 msgid ""
 "`Fix Windows header include order <https://github.com/RebelToolbox/"
-"RebelEngine/pull/77>`_"
-msgstr ""
+"RebelEngine/pull/77>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:46
+#, fuzzy
 msgid ""
 "`Fix create release workflow not renaming android library <https://"
-"github.com/RebelToolbox/RebelEngine/pull/87>`_"
-msgstr ""
+"github.com/RebelToolbox/RebelEngine/pull/87>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:47
+#, fuzzy
 msgid ""
 "`When a KinematicBody is stuck, set the unsafe proportion to the minimum "
-"instead of zero <https://github.com/RebelToolbox/RebelEngine/pull/97>`_"
-msgstr ""
+"instead of zero <https://github.com/RebelToolbox/RebelEngine/pull/97>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:48
+#, fuzzy
 msgid ""
 "`Don't use unsafe strcpy <https://github.com/RebelToolbox/RebelEngine/pull/"
-"95>`_"
+"95>`__"
 msgstr ""
+"Clone the `godot-docs repository <https://github.com/godotengine/godot-docs/"
+">`__."
 
 #: what_is_new/rebel_1_0.rst:49
+#, fuzzy
 msgid ""
 "`Refactor List operator[] to prevent compiler warnings <https://github.com/"
-"RebelToolbox/RebelEngine/pull/94>`_"
-msgstr ""
+"RebelToolbox/RebelEngine/pull/94>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:50
+#, fuzzy
 msgid ""
 "`Include cstdint in FBXCommon.h <https://github.com/RebelToolbox/RebelEngine/"
-"pull/105>`_"
-msgstr ""
+"pull/105>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:51
+#, fuzzy
 msgid ""
 "`Remove 32-bit Linux builds from Rebel export templates <https://github.com/"
-"RebelToolbox/RebelEngine/pull/106>`_"
-msgstr ""
+"RebelToolbox/RebelEngine/pull/106>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:52
+#, fuzzy
 msgid ""
 "`Fix function used to detect a Rebel source root folder <https://github.com/"
-"RebelToolbox/RebelEngine/pull/113>`_"
-msgstr ""
+"RebelToolbox/RebelEngine/pull/113>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:53
+#, fuzzy
 msgid ""
 "`Remove workflow dependency on external software sources <https://github.com/"
-"RebelToolbox/RebelEngine/pull/115>`_"
+"RebelToolbox/RebelEngine/pull/115>`__"
 msgstr ""
+"Clone the `godot-docs repository <https://github.com/godotengine/godot-docs/"
+">`__."
 
 #: what_is_new/rebel_1_0.rst:54
+#, fuzzy
 msgid ""
 "`Fix control reaches end of non-void function warnings <https://github.com/"
-"RebelToolbox/RebelEngine/pull/117>`_"
-msgstr ""
+"RebelToolbox/RebelEngine/pull/117>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:55
+#, fuzzy
 msgid ""
 "`Fix patch file created from black diff on Windows <https://github.com/"
-"RebelToolbox/RebelEngine/pull/128>`_"
-msgstr ""
+"RebelToolbox/RebelEngine/pull/128>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:56
 #, fuzzy
 msgid ""
 "`Fix Visual Studio project creation <https://github.com/RebelToolbox/"
-"RebelEngine/pull/131>`_"
+"RebelEngine/pull/131>`__"
 msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:57
+#, fuzzy
 msgid ""
 "`Fix mono tools dependency <https://github.com/RebelToolbox/RebelEngine/pull/"
-"142>`_"
-msgstr ""
+"142>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:58
+#, fuzzy
 msgid ""
 "`Fix the create iOS template job <https://github.com/RebelToolbox/"
-"RebelEngine/pull/148>`_"
-msgstr ""
+"RebelEngine/pull/148>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:59
+#, fuzzy
 msgid ""
 "`Add a default copy constructor to CharProxy <https://github.com/"
-"RebelToolbox/RebelEngine/pull/154>`_"
-msgstr ""
+"RebelToolbox/RebelEngine/pull/154>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:60
+#, fuzzy
 msgid ""
 "`Make tile data size a constant <https://github.com/RebelToolbox/RebelEngine/"
-"pull/157>`_"
-msgstr ""
+"pull/157>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:61
+#, fuzzy
 msgid ""
 "`Fix control reaches end of non-void function <https://github.com/"
-"RebelToolbox/RebelEngine/pull/156>`_"
-msgstr ""
+"RebelToolbox/RebelEngine/pull/156>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:62
+#, fuzzy
 msgid ""
 "`Fix greater than or equal comparisons to zero on unsigned variables "
-"<https://github.com/RebelToolbox/RebelEngine/pull/155>`_"
-msgstr ""
+"<https://github.com/RebelToolbox/RebelEngine/pull/155>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:63
+#, fuzzy
 msgid ""
 "`Fix may be used uninitialized warning in CSG module <https://github.com/"
-"RebelToolbox/RebelEngine/pull/159>`_"
-msgstr ""
+"RebelToolbox/RebelEngine/pull/159>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:64
+#, fuzzy
 msgid ""
 "`Separate UDP packet reading and converting to integer <https://github.com/"
-"RebelToolbox/RebelEngine/pull/160>`_"
-msgstr ""
+"RebelToolbox/RebelEngine/pull/160>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:65
+#, fuzzy
 msgid ""
 "`Fix may be used uninitialized warning in Audio Server <https://github.com/"
-"RebelToolbox/RebelEngine/pull/161>`_"
-msgstr ""
+"RebelToolbox/RebelEngine/pull/161>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:66
+#, fuzzy
 msgid ""
 "`Fix may be used uninitialized in Physics Space <https://github.com/"
-"RebelToolbox/RebelEngine/pull/164>`_"
-msgstr ""
+"RebelToolbox/RebelEngine/pull/164>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:67
+#, fuzzy
 msgid ""
 "`Use an older version of Ubuntu for creating Linux builds <https://"
-"github.com/RebelToolbox/RebelEngine/pull/165>`_"
-msgstr ""
+"github.com/RebelToolbox/RebelEngine/pull/165>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:68
+#, fuzzy
 msgid ""
 "`Assign a default value of zero to MipMaps Size GL names <https://github.com/"
-"RebelToolbox/RebelEngine/pull/168>`_"
-msgstr ""
+"RebelToolbox/RebelEngine/pull/168>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:69
+#, fuzzy
 msgid ""
 "`Ensure that GLES Canvas batch pointer is never a nullptr <https://"
-"github.com/RebelToolbox/RebelEngine/pull/167>`_"
-msgstr ""
+"github.com/RebelToolbox/RebelEngine/pull/167>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:70
+#, fuzzy
 msgid ""
 "`Crash instead of returning an invalid index value <https://github.com/"
-"RebelToolbox/RebelEngine/pull/166>`_"
-msgstr ""
+"RebelToolbox/RebelEngine/pull/166>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:71
+#, fuzzy
 msgid ""
 "`Select the project when trying to add an existing project <https://"
-"github.com/RebelToolbox/RebelEngine/pull/170>`_"
-msgstr ""
+"github.com/RebelToolbox/RebelEngine/pull/170>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:72
+#, fuzzy
 msgid ""
 "`Fix Projects Manager's Projects List Item's refresh() method <https://"
-"github.com/RebelToolbox/RebelEngine/pull/179>`_"
-msgstr ""
+"github.com/RebelToolbox/RebelEngine/pull/179>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:73
+#, fuzzy
 msgid ""
 "`Fix Projects Manager's Projects List view not updating when renaming a "
-"project <https://github.com/RebelToolbox/RebelEngine/pull/181>`_"
-msgstr ""
+"project <https://github.com/RebelToolbox/RebelEngine/pull/181>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:74
+#, fuzzy
 msgid ""
 "`Fix Projects List add_project() method <https://github.com/RebelToolbox/"
-"RebelEngine/pull/182>`_"
-msgstr ""
+"RebelEngine/pull/182>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:75
+#, fuzzy
 msgid ""
 "`Fix memory leaks in ConfigFile <https://github.com/RebelToolbox/RebelEngine/"
-"pull/187>`_"
-msgstr ""
+"pull/187>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:78
 #, fuzzy
@@ -94542,376 +94611,473 @@ msgid "Enhancements"
 msgstr "Tiếp tục"
 
 #: what_is_new/rebel_1_0.rst:80
+#, fuzzy
 msgid ""
-"`Apply Rebel Branding <https://github.com/RebelToolbox/RebelEngine/pull/14>`_"
+"`Apply Rebel Branding <https://github.com/RebelToolbox/RebelEngine/pull/"
+"14>`__"
 msgstr ""
+"Clone the `godot-docs repository <https://github.com/godotengine/godot-docs/"
+">`__."
 
 #: what_is_new/rebel_1_0.rst:81
+#, fuzzy
 msgid ""
 "`Apply Rebel Branding to Android platform <https://github.com/RebelToolbox/"
-"RebelEngine/pull/16>`_"
-msgstr ""
+"RebelEngine/pull/16>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:82
+#, fuzzy
 msgid ""
 "`Apply Rebel coding style <https://github.com/RebelToolbox/RebelEngine/pull/"
-"19>`_"
+"19>`__"
 msgstr ""
+"Clone the `godot-docs repository <https://github.com/godotengine/godot-docs/"
+">`__."
 
 #: what_is_new/rebel_1_0.rst:83
+#, fuzzy
 msgid ""
 "`Apply standard Black Python code style <https://github.com/RebelToolbox/"
-"RebelEngine/pull/21>`_"
-msgstr ""
+"RebelEngine/pull/21>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:84
+#, fuzzy
 msgid ""
 "`Use SPDX standard headers for all code files <https://github.com/"
-"RebelToolbox/RebelEngine/pull/22>`_"
-msgstr ""
+"RebelToolbox/RebelEngine/pull/22>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:85
+#, fuzzy
 msgid ""
 "`Use Rebel Engine splash screen <https://github.com/RebelToolbox/RebelEngine/"
-"pull/24>`_"
+"pull/24>`__"
 msgstr ""
+"Clone the `godot-docs repository <https://github.com/godotengine/godot-docs/"
+">`__."
 
 #: what_is_new/rebel_1_0.rst:86
+#, fuzzy
 msgid ""
 "`Replace tabs with spaces in all documentation files <https://github.com/"
-"RebelToolbox/RebelEngine/pull/25>`_"
-msgstr ""
+"RebelToolbox/RebelEngine/pull/25>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:87
+#, fuzzy
 msgid ""
 "`Add SPDX standard headers to all documentation and translation files "
-"<https://github.com/RebelToolbox/RebelEngine/pull/25>`_"
-msgstr ""
+"<https://github.com/RebelToolbox/RebelEngine/pull/25>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:88
+#, fuzzy
 msgid ""
 "`Use docs instead of doc when referencing multiple documentation files "
-"<https://github.com/RebelToolbox/RebelEngine/pull/25>`_"
-msgstr ""
+"<https://github.com/RebelToolbox/RebelEngine/pull/25>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:89
+#, fuzzy
 msgid ""
 "`Rename the --doctool option to --generate-docs <https://github.com/"
-"RebelToolbox/RebelEngine/pull/25>`_"
-msgstr ""
+"RebelToolbox/RebelEngine/pull/25>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:90
+#, fuzzy
 msgid ""
 "`Remove various unused documentation creation tools <https://github.com/"
-"RebelToolbox/RebelEngine/pull/25>`_"
-msgstr ""
+"RebelToolbox/RebelEngine/pull/25>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:91
+#, fuzzy
 msgid ""
 "`Documentation and translations folder restructuring <https://github.com/"
-"RebelToolbox/RebelEngine/pull/26>`_"
-msgstr ""
+"RebelToolbox/RebelEngine/pull/26>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:92
+#, fuzzy
 msgid ""
-"`Update translations <https://github.com/RebelToolbox/RebelEngine/pull/27>`_"
-msgstr ""
+"`Update translations <https://github.com/RebelToolbox/RebelEngine/pull/27>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:93
+#, fuzzy
 msgid ""
 "`Update README.md files for translations <https://github.com/RebelToolbox/"
-"RebelEngine/pull/28>`_"
-msgstr ""
+"RebelEngine/pull/28>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:94
+#, fuzzy
 msgid ""
 "`Add API documentation spelling checks <https://github.com/RebelToolbox/"
-"RebelEngine/pull/29>`_"
-msgstr ""
+"RebelEngine/pull/29>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:95
+#, fuzzy
 msgid ""
 "`Update GitHub Actions <https://github.com/RebelToolbox/RebelEngine/pull/"
-"32>`_"
-msgstr ""
+"32>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:96
+#, fuzzy
 msgid ""
 "`Always use MinGW when cross-compiling for Windows on POSIX platforms "
-"<https://github.com/RebelToolbox/RebelEngine/pull/33>`_"
-msgstr ""
+"<https://github.com/RebelToolbox/RebelEngine/pull/33>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:97
+#, fuzzy
 msgid ""
 "`Automate the update of translation files <https://github.com/RebelToolbox/"
-"RebelEngine/pull/36>`_"
-msgstr ""
+"RebelEngine/pull/36>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:98
+#, fuzzy
 msgid ""
 "`Make the Android default build arm64v8 <https://github.com/RebelToolbox/"
-"RebelEngine/pull/39>`_"
-msgstr ""
+"RebelEngine/pull/39>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:99
+#, fuzzy
 msgid ""
 "`Copy, don't move, built Android library into Java libraries folder <https://"
-"github.com/RebelToolbox/RebelEngine/pull/40>`_"
-msgstr ""
+"github.com/RebelToolbox/RebelEngine/pull/40>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:100
+#, fuzzy
 msgid ""
 "`Create Release builds workflow <https://github.com/RebelToolbox/RebelEngine/"
-"pull/41>`_"
-msgstr ""
+"pull/41>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:101
+#, fuzzy
 msgid ""
 "`Apply Rebel Branding to Android classes and filenames <https://github.com/"
-"RebelToolbox/RebelEngine/pull/48>`_"
+"RebelToolbox/RebelEngine/pull/48>`__"
 msgstr ""
+"Clone the `godot-docs repository <https://github.com/godotengine/godot-docs/"
+">`__."
 
 #: what_is_new/rebel_1_0.rst:102
+#, fuzzy
 msgid ""
 "`Test Android builds on all platforms <https://github.com/RebelToolbox/"
-"RebelEngine/pull/56>`_"
-msgstr ""
+"RebelEngine/pull/56>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:103
+#, fuzzy
 msgid ""
 "`Change Android ndk_platform option to android_ndk_api <https://github.com/"
-"RebelToolbox/RebelEngine/pull/57>`_"
-msgstr ""
+"RebelToolbox/RebelEngine/pull/57>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:104
+#, fuzzy
 msgid ""
 "`Fix spelling mistake in NavigationMesh.xml <https://github.com/RebelToolbox/"
-"RebelEngine/pull/61>`_"
-msgstr ""
+"RebelEngine/pull/61>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:105
+#, fuzzy
 msgid ""
 "`Apply Rebel Branding to the X11, Windows, macOS, UWP and Server platforms "
-"<https://github.com/RebelToolbox/RebelEngine/pull/62>`_"
-msgstr ""
+"<https://github.com/RebelToolbox/RebelEngine/pull/62>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:106
+#, fuzzy
 msgid ""
 "`Apply Rebel Branding to the iPhone and JavaScript platforms <https://"
-"github.com/RebelToolbox/RebelEngine/pull/64>`_"
-msgstr ""
+"github.com/RebelToolbox/RebelEngine/pull/64>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:107
+#, fuzzy
 msgid ""
 "`Remove creation of unused AndroidManifest.xml file <https://github.com/"
-"RebelToolbox/RebelEngine/pull/69>`_"
+"RebelToolbox/RebelEngine/pull/69>`__"
 msgstr ""
+"Clone the `godot-docs repository <https://github.com/godotengine/godot-docs/"
+">`__."
 
 #: what_is_new/rebel_1_0.rst:108
+#, fuzzy
 msgid ""
 "`Standardise the Android project folder structure <https://github.com/"
-"RebelToolbox/RebelEngine/pull/73>`_"
-msgstr ""
+"RebelToolbox/RebelEngine/pull/73>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:109
+#, fuzzy
 msgid ""
 "`Create automatic release documentation <https://github.com/RebelToolbox/"
-"RebelEngine/pull/79>`_"
-msgstr ""
+"RebelEngine/pull/79>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:110
+#, fuzzy
 msgid ""
 "`Rename platforms to better reflect their current names <https://github.com/"
-"RebelToolbox/RebelEngine/pull/80>`_"
-msgstr ""
+"RebelToolbox/RebelEngine/pull/80>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:111
+#, fuzzy
 msgid ""
 "`Automate updates from Weblate <https://github.com/RebelToolbox/RebelEngine/"
-"pull/83>`_"
-msgstr ""
+"pull/83>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:112
+#, fuzzy
 msgid ""
-"`Update libsquish <https://github.com/RebelToolbox/RebelEngine/pull/85>`_"
+"`Update libsquish <https://github.com/RebelToolbox/RebelEngine/pull/85>`__"
 msgstr ""
+"Clone the `godot-docs repository <https://github.com/godotengine/godot-docs/"
+">`__."
 
 #: what_is_new/rebel_1_0.rst:113
+#, fuzzy
 msgid ""
 "`Add labels to automated pull requests <https://github.com/RebelToolbox/"
-"RebelEngine/pull/88>`_"
-msgstr ""
+"RebelEngine/pull/88>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:114
+#, fuzzy
 msgid ""
 "`Fix broken and updated links in the Rebel Engine API documentation <https://"
-"github.com/RebelToolbox/RebelEngine/pull/89>`_"
-msgstr ""
+"github.com/RebelToolbox/RebelEngine/pull/89>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:115
+#, fuzzy
 msgid ""
 "`Use the correct internal link format in Rebel Engine API <https://"
-"github.com/RebelToolbox/RebelEngine/pull/90>`_"
-msgstr ""
+"github.com/RebelToolbox/RebelEngine/pull/90>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:116
+#, fuzzy
 msgid ""
 "`Update broken and permanently redirected links <https://github.com/"
-"RebelToolbox/RebelEngine/pull/92>`_"
-msgstr ""
+"RebelToolbox/RebelEngine/pull/92>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:117
+#, fuzzy
 msgid ""
 "`Enable Bullet DEBUG on debug builds <https://github.com/RebelToolbox/"
-"RebelEngine/pull/96>`_"
+"RebelEngine/pull/96>`__"
 msgstr ""
+"Clone the `godot-docs repository <https://github.com/godotengine/godot-docs/"
+">`__."
 
 #: what_is_new/rebel_1_0.rst:118
+#, fuzzy
 msgid ""
 "`Include the root directory in Android CMakeLists.txt <https://github.com/"
-"RebelToolbox/RebelEngine/pull/99>`_"
+"RebelToolbox/RebelEngine/pull/99>`__"
 msgstr ""
+"Clone the `godot-docs repository <https://github.com/godotengine/godot-docs/"
+">`__."
 
 #: what_is_new/rebel_1_0.rst:119
+#, fuzzy
 msgid ""
 "`Apply Rebel branding to Rebel servers <https://github.com/RebelToolbox/"
-"RebelEngine/pull/100>`_"
+"RebelEngine/pull/100>`__"
 msgstr ""
+"Clone the `godot-docs repository <https://github.com/godotengine/godot-docs/"
+">`__."
 
 #: what_is_new/rebel_1_0.rst:120
+#, fuzzy
 msgid ""
 "`Clean up error_macros.h <https://github.com/RebelToolbox/RebelEngine/pull/"
-"98>`_"
+"98>`__"
 msgstr ""
+"Clone the `godot-docs repository <https://github.com/godotengine/godot-docs/"
+">`__."
 
 #: what_is_new/rebel_1_0.rst:121
+#, fuzzy
 msgid ""
 "`Update namespace formatting <https://github.com/RebelToolbox/RebelEngine/"
-"pull/102>`_"
-msgstr ""
+"pull/102>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:122
+#, fuzzy
 msgid ""
 "`Apply Rebel branding to core code <https://github.com/RebelToolbox/"
-"RebelEngine/pull/110>`_"
-msgstr ""
+"RebelEngine/pull/110>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:123
+#, fuzzy
 msgid ""
 "`Remove clang-format off from Windows audio driver <https://github.com/"
-"RebelToolbox/RebelEngine/pull/111>`_"
-msgstr ""
+"RebelToolbox/RebelEngine/pull/111>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:124
+#, fuzzy
 msgid ""
 "`Remove dependence on VERSION_STATUS environmental variable <https://"
-"github.com/RebelToolbox/RebelEngine/pull/114>`_"
-msgstr ""
+"github.com/RebelToolbox/RebelEngine/pull/114>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:125
+#, fuzzy
 msgid ""
-"`Update .gitignore <https://github.com/RebelToolbox/RebelEngine/pull/116>`_"
-msgstr ""
+"`Update .gitignore <https://github.com/RebelToolbox/RebelEngine/pull/116>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:126
+#, fuzzy
 msgid ""
 "`Improve Projects Manager <https://github.com/RebelToolbox/RebelEngine/pull/"
-"122>`_"
-msgstr ""
+"122>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:127
+#, fuzzy
 msgid ""
 "`Replace deprecated ANDROID_SDK_ROOT with ANDROID_HOME <https://github.com/"
-"RebelToolbox/RebelEngine/pull/132>`_"
-msgstr ""
+"RebelToolbox/RebelEngine/pull/132>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:128
+#, fuzzy
 msgid ""
 "`Rename platform folder to platforms <https://github.com/RebelToolbox/"
-"RebelEngine/pull/134>`_"
-msgstr ""
+"RebelEngine/pull/134>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:129
 msgid ""
 "`Update .gitignore to exclude CSharp comiiled files https://github.com/"
 "RebelToolbox/RebelEngine/pull/ compiled files <https://github.com/"
-"RebelToolbox/RebelEngine/pull/141>`_"
+"RebelToolbox/RebelEngine/pull/141>`__"
 msgstr ""
 
 #: what_is_new/rebel_1_0.rst:130
+#, fuzzy
 msgid ""
 "`Upgrade ENet library to v1.3.18 <https://github.com/RebelToolbox/"
-"RebelEngine/pull/145>`_"
-msgstr ""
+"RebelEngine/pull/145>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:131
+#, fuzzy
 msgid ""
 "`Apply Rebel branding to iOS Xcode files <https://github.com/RebelToolbox/"
-"RebelEngine/pull/146>`_"
+"RebelEngine/pull/146>`__"
 msgstr ""
+"Clone the `godot-docs repository <https://github.com/godotengine/godot-docs/"
+">`__."
 
 #: what_is_new/rebel_1_0.rst:132
+#, fuzzy
 msgid ""
 "`Apply Rebel branding to OIDN changes <https://github.com/RebelToolbox/"
-"RebelEngine/pull/150>`_"
+"RebelEngine/pull/150>`__"
 msgstr ""
+"Clone the `godot-docs repository <https://github.com/godotengine/godot-docs/"
+">`__."
 
 #: what_is_new/rebel_1_0.rst:133
+#, fuzzy
 msgid ""
 "`Apply Rebel branding to modules <https://github.com/RebelToolbox/"
-"RebelEngine/pull/149>`_"
+"RebelEngine/pull/149>`__"
 msgstr ""
+"Clone the `godot-docs repository <https://github.com/godotengine/godot-docs/"
+">`__."
 
 #: what_is_new/rebel_1_0.rst:134
+#, fuzzy
 msgid ""
 "`Ignore temporary build files <https://github.com/RebelToolbox/RebelEngine/"
-"pull/163>`_"
+"pull/163>`__"
 msgstr ""
+"Clone the `godot-docs repository <https://github.com/godotengine/godot-docs/"
+">`__."
 
 #: what_is_new/rebel_1_0.rst:135
+#, fuzzy
 msgid ""
 "`Treat warnings as errors in Linux build tests <https://github.com/"
-"RebelToolbox/RebelEngine/pull/169>`_"
+"RebelToolbox/RebelEngine/pull/169>`__"
 msgstr ""
+"Clone the `godot-docs repository <https://github.com/godotengine/godot-docs/"
+">`__."
 
 #: what_is_new/rebel_1_0.rst:136
+#, fuzzy
 msgid ""
 "`Fix spelling of _on_browse_button_pressed method <https://github.com/"
-"RebelToolbox/RebelEngine/pull/171>`_"
-msgstr ""
+"RebelToolbox/RebelEngine/pull/171>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:137
+#, fuzzy
 msgid ""
 "`Refactor ProjectSettings <https://github.com/RebelToolbox/RebelEngine/pull/"
-"172>`_"
-msgstr ""
+"172>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:138
+#, fuzzy
 msgid ""
 "`Upgrade web platform node.js modules <https://github.com/RebelToolbox/"
-"RebelEngine/pull/173>`_"
+"RebelEngine/pull/173>`__"
 msgstr ""
+"Clone the `godot-docs repository <https://github.com/godotengine/godot-docs/"
+">`__."
 
 #: what_is_new/rebel_1_0.rst:139
+#, fuzzy
 msgid ""
 "`Automate web platform tool updates <https://github.com/RebelToolbox/"
-"RebelEngine/pull/174>`_"
+"RebelEngine/pull/174>`__"
 msgstr ""
+"Clone the `godot-docs repository <https://github.com/godotengine/godot-docs/"
+">`__."
 
 #: what_is_new/rebel_1_0.rst:140
+#, fuzzy
 msgid ""
 "`Allow ScrollContainer's ensure_control_visible() method to accept a const "
-"Control parameter <https://github.com/RebelToolbox/RebelEngine/pull/180>`_"
-msgstr ""
+"Control parameter <https://github.com/RebelToolbox/RebelEngine/pull/180>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:141
+#, fuzzy
 msgid ""
 "`Simplify ProjectsList <https://github.com/RebelToolbox/RebelEngine/pull/"
-"183>`_"
-msgstr ""
+"183>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #: what_is_new/rebel_1_0.rst:142
+#, fuzzy
 msgid ""
 "`Don't create a Config File section heading, if the section name is blank "
-"<https://github.com/RebelToolbox/RebelEngine/pull/194>`_"
-msgstr ""
+"<https://github.com/RebelToolbox/RebelEngine/pull/194>`__"
+msgstr "https://github.com/godotengine/godot-demo-projects"
