@@ -6179,7 +6179,7 @@ msgid ""
 "read :doc:`updating_the_api_documentation`."
 msgstr ""
 "类参考的源文件位于 `Godot 引擎仓库 <https://github.com/godotengine/"
-"godot>`_\\ 中。我们会用它来生成本文档的 :ref:`Godot API <toc-class-ref>` 章"
+"godot>`_\\ 中。我们会用它来生成本文档的 :ref:`Godot API <toc-api>` 章"
 "节。如果你想要更新类、方法、属性等的描述信息，请参"
 "阅 :ref:`doc_updating_the_class_reference`\\ 。"
 
@@ -7441,7 +7441,7 @@ msgid ""
 "read :doc:`updating_the_api_documentation`."
 msgstr ""
 "类参考的源文件位于 `Godot 引擎仓库 <https://github.com/godotengine/"
-"godot>`_\\ 中。我们会用它来生成本文档的 :ref:`Godot API <toc-class-ref>` 章"
+"godot>`_\\ 中。我们会用它来生成本文档的 :ref:`Godot API <toc-api>` 章"
 "节。如果你想要更新类、方法、属性等的描述信息，请参"
 "阅 :ref:`doc_updating_the_class_reference`\\ 。"
 
@@ -8738,7 +8738,7 @@ msgid ""
 "api>` section of the documentation and in the Rebel Engine editor, from the "
 "help menu."
 msgstr ""
-"类参考可以在在线文档的\\ :ref:`类 <toc-class-ref>`\\ 章节中查看，也可以在 "
+"类参考可以在在线文档的\\ :ref:`类 <toc-api>`\\ 章节中查看，也可以在 "
 "Godot 编辑器的帮助菜单中打开。"
 
 #: contributing/updating_the_api_documentation.rst:9
@@ -8793,7 +8793,7 @@ msgid ""
 msgstr ""
 "请总是使用这些 XML 源文件来编辑 API 参考。请勿编辑托管在 `godot-docs "
 "<https://github.com/godotengine/godot-docs>`_ 仓库，\\ :ref:`为在线文档 <toc-"
-"class-ref>`\\ 生成的 ``.rst`` 文件。"
+"api>`\\ 生成的 ``.rst`` 文件。"
 
 #: contributing/updating_the_api_documentation.rst:40
 #, fuzzy
@@ -9245,7 +9245,7 @@ msgid ""
 msgstr ""
 "**类参考。**\\ 这是 Godot API 的完整文档，会暴露给 GDScript 和其他脚本语言。"
 "可以在离线状态下，直接在 Godot 的代码编辑器中查阅，也可以在 :ref:`Godot API "
-"<toc-class-ref>` 在线查阅。要对类参考做出贡献，你需要编辑与类对应的 XML 文"
+"<toc-api>` 在线查阅。要对类参考做出贡献，你需要编辑与类对应的 XML 文"
 "件，并创建拉取请求详情请参阅 :ref:`doc_updating_the_class_reference` "
 "和 :ref:`doc_class_reference_writing_guidelines`\\ 。"
 
@@ -26430,7 +26430,7 @@ msgstr ""
 msgid ""
 "To browse it online, head to the manual's :ref:`Rebel Engine API <toc-api>` "
 "section."
-msgstr "在线查看请前往本手册的\\ :ref:`类参考 <toc-class-ref>`\\ 部分。"
+msgstr "在线查看请前往本手册的\\ :ref:`类参考 <toc-api>`\\ 部分。"
 
 #: getting_started/introduction/learning_new_features.rst:37
 #, fuzzy
