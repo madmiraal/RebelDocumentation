@@ -68,7 +68,7 @@ enum **RadianceSize**:
 
 **注意：** :ref:`RADIANCE_SIZE_2048<class_Sky_constant_RADIANCE_SIZE_2048>`\ 没有在检查器中公开，因为它在某些系统上会导致GPU挂起。
 
-- **RADIANCE_SIZE_MAX** = **7** --- 代表:ref:`RadianceSize<enum_Sky_RadianceSize>`\ 枚举的大小。
+- **RADIANCE_SIZE_MAX** = **7** --- 代表\ :ref:`RadianceSize<enum_Sky_RadianceSize>`\ 枚举的大小。
 
 Property Descriptions
 ---------------------

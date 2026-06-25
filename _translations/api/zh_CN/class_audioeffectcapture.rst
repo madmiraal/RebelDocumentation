@@ -70,7 +70,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **can_get_buffer** **(** :ref:`int<class_int>` frames **)** |const|
 
-如果内部环缓冲器中至少有``frames``\ 音频帧可供读取，则返回``true``。
+如果内部环缓冲器中至少有\ ``frames``\ 音频帧可供读取，则返回\ ``true``。
 
 ----
 
@@ -86,9 +86,9 @@ Method Descriptions
 
 - :ref:`PoolVector2Array<class_PoolVector2Array>` **get_buffer** **(** :ref:`int<class_int>` frames **)**
 
-从内部环缓冲区获取下一个``frames``\ 音频样本。
+从内部环缓冲区获取下一个\ ``frames``\ 音频样本。
 
-如果有的话，返回一个正好包含``frames``\ 音频样本的:ref:`PoolVector2Array<class_PoolVector2Array>`，如果没有足够的数据，则返回一个空:ref:`PoolVector2Array<class_PoolVector2Array>`。
+如果有的话，返回一个正好包含\ ``frames``\ 音频样本的\ :ref:`PoolVector2Array<class_PoolVector2Array>`，如果没有足够的数据，则返回一个空\ :ref:`PoolVector2Array<class_PoolVector2Array>`。
 
 ----
 

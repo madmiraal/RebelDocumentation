@@ -105,9 +105,9 @@ Enumerations
 
 enum **TransferMode**:
 
-- **TRANSFER_MODE_UNRELIABLE** = **0** --- 数据包不被确认，对丢失的数据包不进行重发尝试。数据包可以以任何顺序到达。可能比:ref:`TRANSFER_MODE_UNRELIABLE_ORDERED<class_NetworkedMultiplayerPeer_constant_TRANSFER_MODE_UNRELIABLE_ORDERED>`\ 快。用于非关键数据，并注意考虑顺序是否重要。
+- **TRANSFER_MODE_UNRELIABLE** = **0** --- 数据包不被确认，对丢失的数据包不进行重发尝试。数据包可以以任何顺序到达。可能比\ :ref:`TRANSFER_MODE_UNRELIABLE_ORDERED<class_NetworkedMultiplayerPeer_constant_TRANSFER_MODE_UNRELIABLE_ORDERED>`\ 快。用于非关键数据，并注意考虑顺序是否重要。
 
-- **TRANSFER_MODE_UNRELIABLE_ORDERED** = **1** --- 数据包不被确认，对丢失的数据包不进行重发尝试。数据包按其发送顺序接收。有可能比:ref:`TRANSFER_MODE_RELIABLE<class_NetworkedMultiplayerPeer_constant_TRANSFER_MODE_RELIABLE>`\ 快。用于非关键数据或由于重发尝试而迟迟不能收到的数据，例如运动和位置数据。
+- **TRANSFER_MODE_UNRELIABLE_ORDERED** = **1** --- 数据包不被确认，对丢失的数据包不进行重发尝试。数据包按其发送顺序接收。有可能比\ :ref:`TRANSFER_MODE_RELIABLE<class_NetworkedMultiplayerPeer_constant_TRANSFER_MODE_RELIABLE>`\ 快。用于非关键数据或由于重发尝试而迟迟不能收到的数据，例如运动和位置数据。
 
 - **TRANSFER_MODE_RELIABLE** = **2** --- 数据包必须被接收，并应进行重发尝试，直到数据包被确认。数据包必须按照其发送的顺序接收。最可靠的传输模式，但由于开销很大，可能是最慢的。用于必须按顺序传输和到达的关键数据，例如，正在触发的能力或聊天信息。仔细考虑信息是否真的是关键的，并尽量少用。
 
@@ -171,7 +171,7 @@ Property Descriptions
 | *Getter*  | get_transfer_mode()      |
 +-----------+--------------------------+
 
-向``target_peer``\ 发送数据包的方式。参阅:ref:`TransferMode<enum_NetworkedMultiplayerPeer_TransferMode>`。
+向\ ``target_peer``\ 发送数据包的方式。参阅\ :ref:`TransferMode<enum_NetworkedMultiplayerPeer_TransferMode>`。
 
 Method Descriptions
 -------------------
@@ -214,7 +214,7 @@ Method Descriptions
 
 设置数据包将被发送至的对等体。
 
-``id``\ 可以是其中之一。:ref:`TARGET_PEER_BROADCAST<class_NetworkedMultiplayerPeer_constant_TARGET_PEER_BROADCAST>` 发送给所有连接的对等体，:ref:`TARGET_PEER_SERVER<class_NetworkedMultiplayerPeer_constant_TARGET_PEER_SERVER>` 发送给作为服务器的对等体，输入一个有效的对等体ID将发送给该特定对等体，输入负的ID将发送给所有其余对等体。默认情况下，目标对等体是:ref:`TARGET_PEER_BROADCAST<class_NetworkedMultiplayerPeer_constant_TARGET_PEER_BROADCAST>`。
+``id``\ 可以是其中之一。:ref:`TARGET_PEER_BROADCAST<class_NetworkedMultiplayerPeer_constant_TARGET_PEER_BROADCAST>` 发送给所有连接的对等体，:ref:`TARGET_PEER_SERVER<class_NetworkedMultiplayerPeer_constant_TARGET_PEER_SERVER>` 发送给作为服务器的对等体，输入一个有效的对等体ID将发送给该特定对等体，输入负的ID将发送给所有其余对等体。默认情况下，目标对等体是\ :ref:`TARGET_PEER_BROADCAST<class_NetworkedMultiplayerPeer_constant_TARGET_PEER_BROADCAST>`。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

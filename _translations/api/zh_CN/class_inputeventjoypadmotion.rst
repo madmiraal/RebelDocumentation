@@ -11,12 +11,12 @@ InputEventJoypadMotion
 
 **Inherits:** :ref:`InputEvent<class_InputEvent>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
 
-用于游戏板操纵杆和其他动作的输入事件类型。对于按钮，见``InputEventJoypadButton``。
+用于游戏板操纵杆和其他动作的输入事件类型。对于按钮，见\ ``InputEventJoypadButton``。
 
 Description
 -----------
 
-存储关于操纵杆运动的信息。一个``InputEventJoypadMotion``\ 一次代表一个轴。
+存储关于操纵杆运动的信息。一个\ ``InputEventJoypadMotion``\ 一次代表一个轴。
 
 Tutorials
 ---------
@@ -63,7 +63,7 @@ Property Descriptions
 | *Getter*  | get_axis_value()      |
 +-----------+-----------------------+
 
-操纵杆在给定轴上的当前位置。该值范围从``-1.0``\ 到``1.0``。值为``0``\ 意味着轴处于静止位置。
+操纵杆在给定轴上的当前位置。该值范围从\ ``-1.0``\ 到\ ``1.0``。值为\ ``0``\ 意味着轴处于静止位置。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

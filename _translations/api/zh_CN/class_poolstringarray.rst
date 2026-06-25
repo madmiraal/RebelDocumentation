@@ -54,7 +54,7 @@ Method Descriptions
 
 - :ref:`PoolStringArray<class_PoolStringArray>` **PoolStringArray** **(** :ref:`Array<class_Array>` from **)**
 
-构建新的``PoolStringArray``。你可以选择传入一个通用的:ref:`Array<class_Array>`，它将被转换。
+构建新的\ ``PoolStringArray``。你可以选择传入一个通用的\ :ref:`Array<class_Array>`，它将被转换。
 
 ----
 
@@ -70,7 +70,7 @@ Method Descriptions
 
 - void **append_array** **(** :ref:`PoolStringArray<class_PoolStringArray>` array **)**
 
-在这个数组的最后添加``PoolStringArray``。
+在这个数组的最后添加\ ``PoolStringArray``。
 
 ----
 
@@ -102,7 +102,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **join** **(** :ref:`String<class_String>` delimiter **)**
 
-返回一个:ref:`String<class_String>`，数组的每个元素都用给定的``delimiter``\ 分隔符连接。
+返回一个\ :ref:`String<class_String>`，数组的每个元素都用给定的\ ``delimiter``\ 分隔符连接。
 
 ----
 
@@ -134,7 +134,7 @@ Method Descriptions
 
 - void **set** **(** :ref:`int<class_int>` idx, :ref:`String<class_String>` string **)**
 
-更改给定索引处的:ref:`String<class_String>`。
+更改给定索引处的\ :ref:`String<class_String>`。
 
 ----
 

@@ -16,9 +16,9 @@ WorldEnvironment
 Description
 -----------
 
-``WorldEnvironment``\ 节点用于配置场景的默认:ref:`Environment<class_Environment>`\ 环境。
+``WorldEnvironment``\ 节点用于配置场景的默认\ :ref:`Environment<class_Environment>`\ 环境。
 
-在``WorldEnvironment``\ 中定义的参数可以被设置在当前:ref:`Camera<class_Camera>`\ 上的:ref:`Environment<class_Environment>`\ 节点覆盖。此外，在一个给定的场景中，同时只能实例化一个``WorldEnvironment``\ 实例。
+在\ ``WorldEnvironment``\ 中定义的参数可以被设置在当前\ :ref:`Camera<class_Camera>`\ 上的\ :ref:`Environment<class_Environment>`\ 节点覆盖。此外，在一个给定的场景中，同时只能实例化一个\ ``WorldEnvironment``\ 实例。
 
 ``WorldEnvironment``\ 允许用户指定默认的照明参数（例如环境照明），各种后期处理效果（例如SSAO、DOF、Tonemapping），以及如何绘制背景（例如纯色、天空盒）。通常，这些都是为了提高场景的真实性及色彩平衡而添加的。
 
@@ -47,7 +47,7 @@ Property Descriptions
 | *Getter* | get_environment()      |
 +----------+------------------------+
 
-此``WorldEnvironment``\ 世界环境所使用的:ref:`Environment<class_Environment>`\ 环境资源，定义默认属性。
+此\ ``WorldEnvironment``\ 世界环境所使用的\ :ref:`Environment<class_Environment>`\ 环境资源，定义默认属性。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

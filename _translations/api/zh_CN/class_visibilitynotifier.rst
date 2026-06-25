@@ -22,7 +22,7 @@ VisibilityNotifier 检测它在屏幕上是否可见。当它的边界矩形进�
 
 如果你想让节点在退出屏幕时自动禁用，请使用 :ref:`VisibilityEnabler<class_VisibilityEnabler>` 代替。
 
-**注意：**VisibilityNotifier 由于性能原因使用了一个近似的启发式方法。它不会考虑墙和其他遮挡物（除非你使用了 :ref:`Portal<class_Portal>`）。启发式这一实现细节，在未来的版本中可能会改变。如果你需要精确的可见性检查，请使用另一种方法，例如添加一个 :ref:`Area<class_Area>` 节点作为 :ref:`Camera<class_Camera>` 节点的子节点和/或 :ref:`Vector3.dot<class_Vector3_method_dot>`。
+**注意：**\ VisibilityNotifier 由于性能原因使用了一个近似的启发式方法。它不会考虑墙和其他遮挡物（除非你使用了 :ref:`Portal<class_Portal>`）。启发式这一实现细节，在未来的版本中可能会改变。如果你需要精确的可见性检查，请使用另一种方法，例如添加一个 :ref:`Area<class_Area>` 节点作为 :ref:`Camera<class_Camera>` 节点的子节点和/或 :ref:`Vector3.dot<class_Vector3_method_dot>`。
 
 Properties
 ----------
@@ -45,7 +45,7 @@ Signals
 
 - **camera_entered** **(** :ref:`Camera<class_Camera>` camera **)**
 
-当VisibilityNotifier进入:ref:`Camera<class_Camera>`\ 的视图时触发。
+当VisibilityNotifier进入\ :ref:`Camera<class_Camera>`\ 的视图时触发。
 
 ----
 
@@ -53,7 +53,7 @@ Signals
 
 - **camera_exited** **(** :ref:`Camera<class_Camera>` camera **)**
 
-当VisibilityNotifier退出:ref:`Camera<class_Camera>`\ 的视图时触发。
+当VisibilityNotifier退出\ :ref:`Camera<class_Camera>`\ 的视图时触发。
 
 ----
 
@@ -95,9 +95,9 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_on_screen** **(** **)** |const|
 
-如果``true``，则边界框在屏幕上。
+如果\ ``true``，则边界框在屏幕上。
 
-**注意：**一旦添加到场景树中，需要一帧来计算节点的可见性，所以这个方法将在它被实例化后立即返回``false``，即使屏幕在绘制过程中。
+**注意：**\ 一旦添加到场景树中，需要一帧来计算节点的可见性，所以这个方法将在它被实例化后立即返回\ ``false``，即使屏幕在绘制过程中。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

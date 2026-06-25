@@ -65,7 +65,7 @@ Property Descriptions
 | *Getter*  | get_collision_mask()      |
 +-----------+---------------------------+
 
-碰撞检测的目标层。更多信息请参阅文档中的:ref:`碰撞层与遮罩 <tutorials/physics/physics_introduction:collision layers and masks>`。
+碰撞检测的目标层。更多信息请参阅文档中的\ :ref:`碰撞层与遮罩 <tutorials/physics/physics_introduction:collision layers and masks>`。
 
 ----
 

@@ -18,7 +18,7 @@ WindowDialog
 Description
 -----------
 
-Windowdialog是所有基于窗口的对话框的基类。它是一个默认的顶层:ref:`Control<class_Control>`\ 控件，可以绘制一个窗口装饰，并允许移动和调整大小。
+Windowdialog是所有基于窗口的对话框的基类。它是一个默认的顶层\ :ref:`Control<class_Control>`\ 控件，可以绘制一个窗口装饰，并允许移动和调整大小。
 
 Properties
 ----------
@@ -74,7 +74,7 @@ Property Descriptions
 | *Getter*  | get_resizable()      |
 +-----------+----------------------+
 
-如果``true``，用户可以调整窗口大小。
+如果\ ``true``，用户可以调整窗口大小。
 
 ----
 
@@ -150,7 +150,7 @@ Theme Property Descriptions
 | *Default* | ``4`` |
 +-----------+-------+
 
-缩放窗口时可以拖动的边框的粗细，如果启用了:ref:`resizable<class_WindowDialog_property_resizable>`。
+缩放窗口时可以拖动的边框的粗细，如果启用了\ :ref:`resizable<class_WindowDialog_property_resizable>`。
 
 ----
 

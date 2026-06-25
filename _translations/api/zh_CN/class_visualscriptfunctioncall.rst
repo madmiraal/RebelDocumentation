@@ -155,7 +155,7 @@ Property Descriptions
 | *Getter*  | get_call_mode()      |
 +-----------+----------------------+
 
-``call_mode`` 决定了方法将被调用的目标对象。参阅:ref:`CallMode<enum_VisualScriptFunctionCall_CallMode>`\ 的选项。
+``call_mode`` 决定了方法将被调用的目标对象。参阅\ :ref:`CallMode<enum_VisualScriptFunctionCall_CallMode>`\ 的选项。
 
 ----
 
@@ -245,7 +245,7 @@ RPC 调用的模式。有关更多详细信息，请参阅 :ref:`Node.rpc<class_
 | *Getter*  | get_validate()      |
 +-----------+---------------------+
 
-如果``false``，调用错误将被忽略，例如参数数量错误。
+如果\ ``false``，调用错误将被忽略，例如参数数量错误。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

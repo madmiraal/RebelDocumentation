@@ -16,7 +16,7 @@ VisualScriptSwitch
 Description
 -----------
 
-根据输入值来分支流程。在属性检查器中使用**Case Count**来设置分支的数量和每个比较的可选类型。
+根据输入值来分支流程。在属性检查器中使用\ **Case Count**\ 来设置分支的数量和每个比较的可选类型。
 
 **Input Ports:**
 

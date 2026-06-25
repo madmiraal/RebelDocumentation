@@ -18,7 +18,7 @@ Light
 Description
 -----------
 
-Light 是灯光节点的*抽象*基类。它不能被实例化，所以它不应该被直接使用。其他类型的灯光节点都是继承自它。灯光包含用于照明的常用变量和参数。
+Light 是灯光节点的\ *抽象*\ 基类。它不能被实例化，所以它不应该被直接使用。其他类型的灯光节点都是继承自它。灯光包含用于照明的常用变量和参数。
 
 Tutorials
 ---------
@@ -108,13 +108,13 @@ Enumerations
 
 enum **Param**:
 
-- **PARAM_ENERGY** = **0** --- 访问:ref:`light_energy<class_Light_property_light_energy>`\ 的常数。
+- **PARAM_ENERGY** = **0** --- 访问\ :ref:`light_energy<class_Light_property_light_energy>`\ 的常数。
 
-- **PARAM_INDIRECT_ENERGY** = **1** --- 访问:ref:`light_indirect_energy<class_Light_property_light_indirect_energy>`\ 的常数。
+- **PARAM_INDIRECT_ENERGY** = **1** --- 访问\ :ref:`light_indirect_energy<class_Light_property_light_indirect_energy>`\ 的常数。
 
-- **PARAM_SIZE** = **2** --- 访问:ref:`light_size<class_Light_property_light_size>`\ 的常数。
+- **PARAM_SIZE** = **2** --- 访问\ :ref:`light_size<class_Light_property_light_size>`\ 的常数。
 
-- **PARAM_SPECULAR** = **3** --- 访问:ref:`light_specular<class_Light_property_light_specular>`\ 的常数。
+- **PARAM_SPECULAR** = **3** --- 访问\ :ref:`light_specular<class_Light_property_light_specular>`\ 的常数。
 
 - **PARAM_RANGE** = **4** --- 用于访问 :ref:`OmniLight.omni_range<class_OmniLight_property_omni_range>` 或 :ref:`SpotLight.spot_range<class_SpotLight_property_spot_range>` 的常量。
 
@@ -156,7 +156,7 @@ enum **BakeMode**:
 
 - **BAKE_DISABLED** = **0** --- 烘焙时忽略灯光。
 
-**注意：**隐藏灯光*不*会影响烘焙。
+**注意：**\ 隐藏灯光\ *不*\ 会影响烘焙。
 
 - **BAKE_INDIRECT** = **1** --- 只会烘焙间接照明（默认）。
 
@@ -195,7 +195,7 @@ Property Descriptions
 | *Getter*  | get_bake_mode()      |
 +-----------+----------------------+
 
-灯光的烘焙模式。参阅:ref:`BakeMode<enum_Light_BakeMode>`。
+灯光的烘焙模式。参阅\ :ref:`BakeMode<enum_Light_BakeMode>`。
 
 ----
 
@@ -211,7 +211,7 @@ Property Descriptions
 | *Getter*  | get_color()             |
 +-----------+-------------------------+
 
-光的颜色。一个过亮*overbright*颜色可用于实现等效于增加光的能量 :ref:`light_energy<class_Light_property_light_energy>` 的结果。
+光的颜色。一个过亮\ *overbright*\ 颜色可用于实现等效于增加光的能量 :ref:`light_energy<class_Light_property_light_energy>` 的结果。
 
 ----
 
@@ -307,7 +307,7 @@ The size of the light in Rebel Engine units. Only considered in baked lightmaps 
 | *Getter*  | get_param()      |
 +-----------+------------------+
 
-受灯光影响的对象中镜面反射斑点的强度。在``0``\ 处，灯光变成纯漫反射灯光。当不烘焙发射时，这可用于在发射表面上方放置灯光时避免不真实的反射。
+受灯光影响的对象中镜面反射斑点的强度。在\ ``0``\ 处，灯光变成纯漫反射灯光。当不烘焙发射时，这可用于在发射表面上方放置灯光时避免不真实的反射。
 
 ----
 
@@ -373,7 +373,7 @@ Attempts to reduce :ref:`shadow_bias<class_Light_property_shadow_bias>` gap by r
 | *Getter*  | has_shadow()      |
 +-----------+-------------------+
 
-如果为``true``，光线会投下阴影。
+如果为\ ``true``，光线会投下阴影。
 
 ----
 

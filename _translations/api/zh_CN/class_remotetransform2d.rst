@@ -11,7 +11,7 @@ RemoteTransform2D
 
 **Inherits:** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-RemoteTransform2D将自己的:ref:`Transform2D<class_Transform2D>`\ 推送到场景中另一个:ref:`CanvasItem<class_CanvasItem>`\ 派生节点。
+RemoteTransform2D将自己的\ :ref:`Transform2D<class_Transform2D>`\ 推送到场景中另一个\ :ref:`CanvasItem<class_CanvasItem>`\ 派生节点。
 
 Description
 -----------

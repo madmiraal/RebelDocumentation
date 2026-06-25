@@ -134,7 +134,7 @@ enum **BakeError**:
 
 - **BAKE_ERROR_OK** = **0** --- 烘焙成功。
 
-- **BAKE_ERROR_NO_SAVE_PATH** = **1** --- 如果没有找到合适的保存路径，则返回。这可能发生在没有指定:ref:`image_path<class_BakedLightmap_property_image_path>`\ 或者保存位置无效的情况下。
+- **BAKE_ERROR_NO_SAVE_PATH** = **1** --- 如果没有找到合适的保存路径，则返回。这可能发生在没有指定\ :ref:`image_path<class_BakedLightmap_property_image_path>`\ 或者保存位置无效的情况下。
 
 - **BAKE_ERROR_NO_MESHES** = **2** --- 当前未使用.
 
@@ -142,13 +142,13 @@ enum **BakeError**:
 
 - **BAKE_ERROR_LIGHTMAP_SIZE** = **4** --- 生成的光照贴图尺寸过大。
 
-- **BAKE_ERROR_INVALID_MESH** = **5** --- 有些网格包含``[0,1]``\ 范围以外的UV2值。
+- **BAKE_ERROR_INVALID_MESH** = **5** --- 有些网格包含\ ``[0,1]``\ 范围以外的UV2值。
 
 - **BAKE_ERROR_USER_ABORTED** = **6** --- 如果用户取消了烘烤，则返回。
 
 - **BAKE_ERROR_NO_LIGHTMAPPER** = **7** --- 如果不能创建光照贴图器，则返回。除非你使用的是自定义的光照贴图器，否则请将此报告为bug。
 
-- **BAKE_ERROR_NO_ROOT** = **8** --- 没有根节点可以开始烘焙。要么提供``from_node``\ 参数，要么将此节点附加到一个被用作根节点的父节点。
+- **BAKE_ERROR_NO_ROOT** = **8** --- 没有根节点可以开始烘焙。要么提供\ ``from_node``\ 参数，要么将此节点附加到一个被用作根节点的父节点。
 
 ----
 
@@ -235,9 +235,9 @@ Property Descriptions
 | *Getter*  | get_bounce_indirect_energy()      |
 +-----------+-----------------------------------+
 
-每次反弹的能量乘数。较高的值将使间接照明更亮。 ``1.0`` 的值表示与物理相一致的行为，但在使用少量反弹时，可以使用更高的值使间接照明传播更明显。这可用于通过降低:ref:`bounces<class_BakedLightmap_property_bounces>`\ 的数量然后增加 :ref:`bounce_indirect_energy<class_BakedLightmap_property_bounce_indirect_energy>` 来加快烘焙时间。与 :ref:`BakedLightmapData.energy<class_BakedLightmapData_property_energy>` 不同，此属性不会影响灯光节点、自发光材质和环境发出的直接光照。
+每次反弹的能量乘数。较高的值将使间接照明更亮。 ``1.0`` 的值表示与物理相一致的行为，但在使用少量反弹时，可以使用更高的值使间接照明传播更明显。这可用于通过降低\ :ref:`bounces<class_BakedLightmap_property_bounces>`\ 的数量然后增加 :ref:`bounce_indirect_energy<class_BakedLightmap_property_bounce_indirect_energy>` 来加快烘焙时间。与 :ref:`BakedLightmapData.energy<class_BakedLightmapData_property_energy>` 不同，此属性不会影响灯光节点、自发光材质和环境发出的直接光照。
 
-**注意：** :ref:`bounce_indirect_energy<class_BakedLightmap_property_bounce_indirect_energy>` 仅在:ref:`bounces<class_BakedLightmap_property_bounces>` 设置为大于或等于``1``\ 的值时有效。
+**注意：** :ref:`bounce_indirect_energy<class_BakedLightmap_property_bounce_indirect_energy>` 仅在\ :ref:`bounces<class_BakedLightmap_property_bounces>` 设置为大于或等于\ ``1``\ 的值时有效。
 
 ----
 
@@ -540,7 +540,7 @@ Method Descriptions
 
 - :ref:`BakeError<enum_BakedLightmap_BakeError>` **bake** **(** :ref:`Node<class_Node>` from_node=null, :ref:`String<class_String>` data_save_path="" **)**
 
-烘焙光照贴图，从给定的``from_node``\ 根节点扫描，并将产生的:ref:`BakedLightmapData<class_BakedLightmapData>`\ 保存在``data_save_path``\ 中。如果没有提供根节点，此节点的父节点将作为根节点。如果没有提供保存路径，将尝试匹配当前:ref:`light_data<class_BakedLightmap_property_light_data>`\ 的路径。
+烘焙光照贴图，从给定的\ ``from_node``\ 根节点扫描，并将产生的\ :ref:`BakedLightmapData<class_BakedLightmapData>`\ 保存在\ ``data_save_path``\ 中。如果没有提供根节点，此节点的父节点将作为根节点。如果没有提供保存路径，将尝试匹配当前\ :ref:`light_data<class_BakedLightmap_property_light_data>`\ 的路径。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

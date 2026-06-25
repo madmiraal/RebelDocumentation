@@ -16,7 +16,7 @@ CanvasItemMaterial
 Description
 -----------
 
-``CanvasItemMaterial``\ 提供了一种修改与CanvasItem相关联的纹理的方法。他们专注于描述纹理的混合和照明行为。使用:ref:`ShaderMaterial<class_ShaderMaterial>`\ 可以更全面地自定义材质与:ref:`CanvasItem<class_CanvasItem>`\ 的交互。
+``CanvasItemMaterial``\ 提供了一种修改与CanvasItem相关联的纹理的方法。他们专注于描述纹理的混合和照明行为。使用\ :ref:`ShaderMaterial<class_ShaderMaterial>`\ 可以更全面地自定义材质与\ :ref:`CanvasItem<class_CanvasItem>`\ 的交互。
 
 Properties
 ----------
@@ -127,7 +127,7 @@ Property Descriptions
 
 精灵表中分配为 :ref:`Particles2D<class_Particles2D>` 或 :ref:`CPUParticles2D<class_CPUParticles2D>` 的 :ref:`Texture<class_Texture>` 的列数。
 
-**注意：**仅当 :ref:`particles_animation<class_CanvasItemMaterial_property_particles_animation>` 为 ``true`` 时，此属性才在编辑器中使用和可见。
+**注意：**\ 仅当 :ref:`particles_animation<class_CanvasItemMaterial_property_particles_animation>` 为 ``true`` 时，此属性才在编辑器中使用和可见。
 
 ----
 
@@ -141,9 +141,9 @@ Property Descriptions
 | *Getter* | get_particles_anim_loop()      |
 +----------+--------------------------------+
 
-如果``true``，粒子动画将循环播放。
+如果\ ``true``，粒子动画将循环播放。
 
-**注意:**只有当:ref:`particles_animation<class_CanvasItemMaterial_property_particles_animation>`\ 为``true``\ 时，该属性才会在编辑器中使用并可见。
+**注意:**\ 只有当\ :ref:`particles_animation<class_CanvasItemMaterial_property_particles_animation>`\ 为\ ``true``\ 时，该属性才会在编辑器中使用并可见。
 
 ----
 
@@ -159,7 +159,7 @@ Property Descriptions
 
 精灵表中分配为 :ref:`Particles2D<class_Particles2D>` 或 :ref:`CPUParticles2D<class_CPUParticles2D>` 的 :ref:`Texture<class_Texture>` 的行数。
 
-**注意：**仅当 :ref:`particles_animation<class_CanvasItemMaterial_property_particles_animation>` 为 ``true`` 时，此属性才在编辑器中使用和可见。
+**注意：**\ 仅当 :ref:`particles_animation<class_CanvasItemMaterial_property_particles_animation>` 为 ``true`` 时，此属性才在编辑器中使用和可见。
 
 ----
 
@@ -175,9 +175,9 @@ Property Descriptions
 | *Getter*  | get_particles_animation()      |
 +-----------+--------------------------------+
 
-如果为``true``，当分配给 :ref:`Particles2D<class_Particles2D>` 和 :ref:`CPUParticles2D<class_CPUParticles2D>` 节点时，启用基于spritesheet的动画功能。:ref:`ParticlesMaterial.anim_speed<class_ParticlesMaterial_property_anim_speed>`\ 或:ref:`CPUParticles2D.anim_speed<class_CPUParticles2D_property_anim_speed>`\ 也应设置为正值，才能播放动画。
+如果为\ ``true``，当分配给 :ref:`Particles2D<class_Particles2D>` 和 :ref:`CPUParticles2D<class_CPUParticles2D>` 节点时，启用基于spritesheet的动画功能。:ref:`ParticlesMaterial.anim_speed<class_ParticlesMaterial_property_anim_speed>`\ 或\ :ref:`CPUParticles2D.anim_speed<class_CPUParticles2D_property_anim_speed>`\ 也应设置为正值，才能播放动画。
 
-这个属性（以及其他依赖于它的``particles_anim_*``\ 属性）对其他类型的节点没有影响。
+这个属性（以及其他依赖于它的\ ``particles_anim_*``\ 属性）对其他类型的节点没有影响。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

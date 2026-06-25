@@ -74,9 +74,9 @@ Method Descriptions
 
 - void **begin** **(** :ref:`PrimitiveType<enum_Mesh_PrimitiveType>` primitive, :ref:`Texture<class_Texture>` texture=null **)**
 
-开始绘制（可选纹理重写）。当调用结束:ref:`end<class_ImmediateGeometry_method_end>`。对此如何实现的更多信息，搜索``glBegin()``\ 和``glEnd()``\ 引用。
+开始绘制（可选纹理重写）。当调用结束\ :ref:`end<class_ImmediateGeometry_method_end>`。对此如何实现的更多信息，搜索\ ``glBegin()``\ 和\ ``glEnd()``\ 引用。
 
-对于基本类型，参阅:ref:`PrimitiveType<enum_Mesh_PrimitiveType>`\ 枚举。
+对于基本类型，参阅\ :ref:`PrimitiveType<enum_Mesh_PrimitiveType>`\ 枚举。
 
 ----
 

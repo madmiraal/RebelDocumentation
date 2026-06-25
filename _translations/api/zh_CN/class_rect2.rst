@@ -110,7 +110,7 @@ Property Descriptions
 | *Default* | ``Vector2( 0, 0 )`` |
 +-----------+---------------------+
 
-从:ref:`position<class_Rect2_property_position>` 到 :ref:`end<class_Rect2_property_end>` 的大小。通常所有分量都是正数。
+从\ :ref:`position<class_Rect2_property_position>` 到 :ref:`end<class_Rect2_property_end>` 的大小。通常所有分量都是正数。
 
 如果大小为负，可以用 :ref:`abs<class_Rect2_method_abs>` 修正。
 
@@ -121,13 +121,13 @@ Method Descriptions
 
 - :ref:`Rect2<class_Rect2>` **Rect2** **(** :ref:`Vector2<class_Vector2>` position, :ref:`Vector2<class_Vector2>` size **)**
 
-按位置和大小构造一个``Rect2``。
+按位置和大小构造一个\ ``Rect2``。
 
 ----
 
 - :ref:`Rect2<class_Rect2>` **Rect2** **(** :ref:`float<class_float>` x, :ref:`float<class_float>` y, :ref:`float<class_float>` width, :ref:`float<class_float>` height **)**
 
-通过x、y、宽度和高度构造一个``Rect2``。
+通过x、y、宽度和高度构造一个\ ``Rect2``。
 
 ----
 
@@ -200,7 +200,7 @@ Returns the area of the ``Rect2``. See also :ref:`has_no_area<class_Rect2_method
 
 - :ref:`Rect2<class_Rect2>` **grow_margin** **(** :ref:`int<class_int>` margin, :ref:`float<class_float>` by **)**
 
-返回``Rect2``\ 向:ref:`Margin<enum_@GlobalScope_Margin>`\ 方向增长给定数量单位的副本。
+返回\ ``Rect2``\ 向\ :ref:`Margin<enum_@GlobalScope_Margin>`\ 方向增长给定数量单位的副本。
 
 ----
 
@@ -218,9 +218,9 @@ Returns ``true`` if the ``Rect2`` is flat or empty, ``false`` otherwise. See als
 
 - :ref:`bool<class_bool>` **has_point** **(** :ref:`Vector2<class_Vector2>` point **)**
 
-返回 ``true`` 时，该 ``Rect2`` 包含此点。依照惯例，``Rect2`` 的右边缘和下边缘是被排除在外的，因此**不**包含位于这两条边上的点。
+返回 ``true`` 时，该 ``Rect2`` 包含此点。依照惯例，``Rect2`` 的右边缘和下边缘是被排除在外的，因此\ **不**\ 包含位于这两条边上的点。
 
-**注意：** 对于*大小为负*的 ``Rect2``，该方法并不可靠。请使用 :ref:`abs<class_Rect2_method_abs>` 获取等价的正数大小矩形再检查是否包含某个点。
+**注意：** 对于\ *大小为负*\ 的 ``Rect2``，该方法并不可靠。请使用 :ref:`abs<class_Rect2_method_abs>` 获取等价的正数大小矩形再检查是否包含某个点。
 
 ----
 

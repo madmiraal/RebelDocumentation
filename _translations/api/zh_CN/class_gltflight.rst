@@ -50,7 +50,7 @@ Property Descriptions
 | *Getter*  | get_color()             |
 +-----------+-------------------------+
 
-灯的:ref:`Color<class_Color>`。默认为白色。黑色会导致灯光无效。
+灯的\ :ref:`Color<class_Color>`。默认为白色。黑色会导致灯光无效。
 
 ----
 

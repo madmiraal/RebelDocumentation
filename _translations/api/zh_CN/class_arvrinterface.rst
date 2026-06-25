@@ -84,7 +84,7 @@ enum **Capabilities**:
 
 - **ARVR_AR** = **4** --- 该接口支持 AR，视频背景和真实世界跟踪。
 
-- **ARVR_EXTERNAL** = **8** --- 这个接口输出到一个外部设备。如果使用主视窗，屏幕上的输出是一个未经修改的左眼或右眼的缓冲区，如果没有将视窗尺寸更改为:ref:`get_render_targetsize<class_ARVRInterface_method_get_render_targetsize>`\ 的相同长宽比，则被拉伸。使用一个单独的视窗节点可以释放出主视窗，用于其他用途。
+- **ARVR_EXTERNAL** = **8** --- 这个接口输出到一个外部设备。如果使用主视窗，屏幕上的输出是一个未经修改的左眼或右眼的缓冲区，如果没有将视窗尺寸更改为\ :ref:`get_render_targetsize<class_ARVRInterface_method_get_render_targetsize>`\ 的相同长宽比，则被拉伸。使用一个单独的视窗节点可以释放出主视窗，用于其他用途。
 
 ----
 
@@ -186,7 +186,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_camera_feed_id** **(** **)**
 
-如果这是一个需要显示相机画面作为背景的AR界面，此方法返回该界面的:ref:`CameraServer<class_CameraServer>`\ 中的画面ID。
+如果这是一个需要显示相机画面作为背景的AR界面，此方法返回该界面的\ :ref:`CameraServer<class_CameraServer>`\ 中的画面ID。
 
 ----
 
@@ -194,7 +194,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_capabilities** **(** **)** |const|
 
-返回:ref:`Capabilities<enum_ARVRInterface_Capabilities>`\ 标签的组合，提供关于这个接口功能的信息。
+返回\ :ref:`Capabilities<enum_ARVRInterface_Capabilities>`\ 标签的组合，提供关于这个接口功能的信息。
 
 ----
 
@@ -242,7 +242,7 @@ While currently not used, you can activate additional interfaces. You may wish t
 
 - :ref:`bool<class_bool>` **is_stereo** **(** **)**
 
-如果这个接口的当前是立体声输出，返回``true``。
+如果这个接口的当前是立体声输出，返回\ ``true``。
 
 ----
 

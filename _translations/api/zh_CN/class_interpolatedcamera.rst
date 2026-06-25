@@ -53,7 +53,7 @@ Property Descriptions
 | *Getter*  | is_interpolation_enabled()       |
 +-----------+----------------------------------+
 
-如果``true``，并且设置了目标，相机将自动移动。
+如果\ ``true``，并且设置了目标，相机将自动移动。
 
 ----
 
@@ -85,7 +85,7 @@ Property Descriptions
 | *Getter*  | get_target_path()      |
 +-----------+------------------------+
 
-目标的:ref:`NodePath<class_NodePath>`。
+目标的\ :ref:`NodePath<class_NodePath>`。
 
 Method Descriptions
 -------------------

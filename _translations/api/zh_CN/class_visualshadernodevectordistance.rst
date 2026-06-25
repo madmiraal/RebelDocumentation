@@ -16,9 +16,9 @@ VisualShaderNodeVectorDistance
 Description
 -----------
 
-计算从向量``p0``\ 表示的点到向量``p1``\ 的距离。
+计算从向量\ ``p0``\ 表示的点到向量\ ``p1``\ 的距离。
 
-在着色器语言中被转换成``distance(p0, p1)``。
+在着色器语言中被转换成\ ``distance(p0, p1)``。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

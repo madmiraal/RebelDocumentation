@@ -11,12 +11,12 @@ RegExMatch
 
 **Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
 
-包含:ref:`RegEx<class_RegEx>`\ 搜索的结果。
+包含\ :ref:`RegEx<class_RegEx>`\ 搜索的结果。
 
 Description
 -----------
 
-包含由:ref:`RegEx.search<class_RegEx_method_search>`\ 和:ref:`RegEx.search_all<class_RegEx_method_search_all>`\ 返回的单个:ref:`RegEx<class_RegEx>`\ 匹配结果。它可以用来查找匹配的位置和范围以及它的捕获组，并且可以提取其子字符串。
+包含由\ :ref:`RegEx.search<class_RegEx_method_search>`\ 和\ :ref:`RegEx.search_all<class_RegEx_method_search_all>`\ 返回的单个\ :ref:`RegEx<class_RegEx>`\ 匹配结果。它可以用来查找匹配的位置和范围以及它的捕获组，并且可以提取其子字符串。
 
 Properties
 ----------
