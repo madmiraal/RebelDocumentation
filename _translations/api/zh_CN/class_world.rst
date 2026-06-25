@@ -63,7 +63,7 @@ Property Descriptions
 | *Getter* | get_environment()      |
 +----------+------------------------+
 
-World的:ref:`Environment<class_Environment>`\ 环境。
+World的\ :ref:`Environment<class_Environment>`\ 环境。
 
 ----
 

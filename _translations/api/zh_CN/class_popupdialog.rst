@@ -32,7 +32,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **panel**
 
-为``PopupDialog``\ 的面板设置自定义的:ref:`StyleBox<class_StyleBox>`。
+为\ ``PopupDialog``\ 的面板设置自定义的\ :ref:`StyleBox<class_StyleBox>`。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

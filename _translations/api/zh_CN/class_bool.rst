@@ -14,9 +14,9 @@ bool
 Description
 -----------
 
-布尔是内置类型。有两个布尔值。``true``\ 和``false``。你可以把它想象成有开或关状态的开关（1或0）。布尔在编程中用于条件语句的逻辑，如``if``\ 语句。
+布尔是内置类型。有两个布尔值。``true``\ 和\ ``false``。你可以把它想象成有开或关状态的开关（1或0）。布尔在编程中用于条件语句的逻辑，如\ ``if``\ 语句。
 
-布尔可以直接用于``if``\ 语句中。下面的代码在``if can_shoot:``\ 行中演示了这一点。你不需要使用``==true``，你只需要``if can_shoot:``。同样地，使用``if not can_shoot:``\ 而不是``== false``。
+布尔可以直接用于\ ``if``\ 语句中。下面的代码在\ ``if can_shoot:``\ 行中演示了这一点。你不需要使用\ ``==true``，你只需要\ ``if can_shoot:``。同样地，使用\ ``if not can_shoot:``\ 而不是\ ``== false``。
 
 ::
 
@@ -26,9 +26,9 @@ Description
         if can_shoot:
             pass # Perform shooting actions here.
 
-下面的代码只有在两个条件都满足的情况下才会产生子弹：动作“shoot”被按下，并且如果``can_shoot``\ 是``true``。
+下面的代码只有在两个条件都满足的情况下才会产生子弹：动作“shoot”被按下，并且如果\ ``can_shoot``\ 是\ ``true``。
 
-**注意：**``Input.is_action_pressed("shoot")``\ 也是一个布尔值，当“shoot”被按下时为``true``，当“shoot”没有被按下时为``false``。
+**注意：**\ ``Input.is_action_pressed("shoot")``\ 也是一个布尔值，当“shoot”被按下时为\ ``true``，当“shoot”没有被按下时为\ ``false``。
 
 ::
 
@@ -38,7 +38,7 @@ Description
         if can_shoot and Input.is_action_pressed("shoot"):
             create_bullet()
 
-下面的代码将把``can_shoot``\ 设置为``false``\ 并启动一个定时器。这将阻止玩家射击，直到定时器用完。然后``can_shoot``\ 设置为``true``，再次允许玩家进行射击。
+下面的代码将把\ ``can_shoot``\ 设置为\ ``false``\ 并启动一个定时器。这将阻止玩家射击，直到定时器用完。然后\ ``can_shoot``\ 设置为\ ``true``，再次允许玩家进行射击。
 
 ::
 

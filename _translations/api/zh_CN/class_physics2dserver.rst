@@ -300,7 +300,7 @@ enum **ShapeType**:
 
 - **SHAPE_CAPSULE** = **5** --- 这是创建胶囊形状的常量。一个胶囊形状由一个半径和一个长度定义。它可以用于交点和内/外侧检查。
 
-- **SHAPE_CONVEX_POLYGON** = **6** --- 这是用于创建凸多边形的常量。一个多边形是由一个点的列表定义的。它可以用于交点和内/外侧检查。与:ref:`CollisionPolygon2D.polygon<class_CollisionPolygon2D_property_polygon>`\ 属性不同，用:ref:`shape_set_data<class_Physics2DServer_method_shape_set_data>`\ 修改的多边形并不验证所提供的点的形式是一个凸形多边形。
+- **SHAPE_CONVEX_POLYGON** = **6** --- 这是用于创建凸多边形的常量。一个多边形是由一个点的列表定义的。它可以用于交点和内/外侧检查。与\ :ref:`CollisionPolygon2D.polygon<class_CollisionPolygon2D_property_polygon>`\ 属性不同，用\ :ref:`shape_set_data<class_Physics2DServer_method_shape_set_data>`\ 修改的多边形并不验证所提供的点的形式是一个凸形多边形。
 
 - **SHAPE_CONCAVE_POLYGON** = **7** --- 这是创建凹形多边形的常量。一个多边形是由一个点的列表定义的。它可以用于交叉点检查，但不能用于内/外侧检查。
 
@@ -336,7 +336,7 @@ enum **AreaParameter**:
 
 - **AREA_PARAM_GRAVITY_DISTANCE_SCALE** = **3** --- 常数，用于设置/获取一个区域的点重力的衰减系数。这个值越大，重力的强度随着距离的平方下降得越快。
 
-- **AREA_PARAM_GRAVITY_POINT_ATTENUATION** = **4** --- 这个常数用于设置/获取点重力的衰减因子。它已经被:ref:`AREA_PARAM_GRAVITY_DISTANCE_SCALE<class_Physics2DServer_constant_AREA_PARAM_GRAVITY_DISTANCE_SCALE>`\ 所取代了。
+- **AREA_PARAM_GRAVITY_POINT_ATTENUATION** = **4** --- 这个常数用于设置/获取点重力的衰减因子。它已经被\ :ref:`AREA_PARAM_GRAVITY_DISTANCE_SCALE<class_Physics2DServer_constant_AREA_PARAM_GRAVITY_DISTANCE_SCALE>`\ 所取代了。
 
 - **AREA_PARAM_LINEAR_DAMP** = **5** --- 常数，用于设置/获取一个区域的线性阻尼系数。
 
@@ -428,7 +428,7 @@ enum **BodyParameter**:
 
 - **BODY_PARAM_ANGULAR_DAMP** = **6** --- 常数，用于设置/获取一个物体的角度阻尼系数。
 
-- **BODY_PARAM_MAX** = **7** --- 表示:ref:`BodyParameter<enum_Physics2DServer_BodyParameter>`\ 枚举的大小。
+- **BODY_PARAM_MAX** = **7** --- 表示\ :ref:`BodyParameter<enum_Physics2DServer_BodyParameter>`\ 枚举的大小。
 
 ----
 
@@ -581,7 +581,7 @@ Method Descriptions
 
 - void **area_attach_object_instance_id** **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` id **)**
 
-将区域分配给:ref:`Object<class_Object>`\ 的子类，因此它可以存在于节点树中。
+将区域分配给\ :ref:`Object<class_Object>`\ 的子类，因此它可以存在于节点树中。
 
 ----
 
@@ -597,7 +597,7 @@ Method Descriptions
 
 - :ref:`RID<class_RID>` **area_create** **(** **)**
 
-创建一个 :ref:`Area2D<class_Area2D>`。用这个方法创建了一个:ref:`Area2D<class_Area2D>`\ 后，使用:ref:`area_set_space<class_Physics2DServer_method_area_set_space>`\ 将其分配给一个空间，以便在物理世界中使用创建的:ref:`Area2D<class_Area2D>`。
+创建一个 :ref:`Area2D<class_Area2D>`。用这个方法创建了一个\ :ref:`Area2D<class_Area2D>`\ 后，使用\ :ref:`area_set_space<class_Physics2DServer_method_area_set_space>`\ 将其分配给一个空间，以便在物理世界中使用创建的\ :ref:`Area2D<class_Area2D>`。
 
 ----
 
@@ -619,7 +619,7 @@ Method Descriptions
 
 - :ref:`Variant<class_Variant>` **area_get_param** **(** :ref:`RID<class_RID>` area, :ref:`AreaParameter<enum_Physics2DServer_AreaParameter>` param **)** |const|
 
-返回区域参数值。有关可用参数的列表，请参阅:ref:`AreaParameter<enum_Physics2DServer_AreaParameter>`。
+返回区域参数值。有关可用参数的列表，请参阅\ :ref:`AreaParameter<enum_Physics2DServer_AreaParameter>`。
 
 ----
 
@@ -627,7 +627,7 @@ Method Descriptions
 
 - :ref:`RID<class_RID>` **area_get_shape** **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` shape_idx **)** |const|
 
-返回区域的第n个形状的:ref:`RID<class_RID>`。
+返回区域的第n个形状的\ :ref:`RID<class_RID>`。
 
 ----
 
@@ -707,9 +707,9 @@ Method Descriptions
 
 设置当任何主体/区域进入或退出该区域时调用的函数。这个回调函数将被任何与区域交互的对象调用，并接受5个参数:
 
-1: :ref:`AREA_BODY_ADDED<class_Physics2DServer_constant_AREA_BODY_ADDED>`\ 或:ref:`AREA_BODY_REMOVED<class_Physics2DServer_constant_AREA_BODY_REMOVED>`，取决于对象是否进入或退出该区域。
+1: :ref:`AREA_BODY_ADDED<class_Physics2DServer_constant_AREA_BODY_ADDED>`\ 或\ :ref:`AREA_BODY_REMOVED<class_Physics2DServer_constant_AREA_BODY_REMOVED>`，取决于对象是否进入或退出该区域。
 
-2:进入/退出该区域对象的:ref:`RID<class_RID>`。
+2:进入/退出该区域对象的\ :ref:`RID<class_RID>`。
 
 3:进入/退出该区域对象的实例ID。
 
@@ -737,7 +737,7 @@ Method Descriptions
 
 - void **area_set_shape** **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` shape_idx, :ref:`RID<class_RID>` shape **)**
 
-用另一种形状代替一种形状。旧的形状由它的索引选择，新的形状由它的:ref:`RID<class_RID>`\ 选择。
+用另一种形状代替一种形状。旧的形状由它的索引选择，新的形状由它的\ :ref:`RID<class_RID>`\ 选择。
 
 ----
 
@@ -769,7 +769,7 @@ Method Descriptions
 
 - void **area_set_space_override_mode** **(** :ref:`RID<class_RID>` area, :ref:`AreaSpaceOverrideMode<enum_Physics2DServer_AreaSpaceOverrideMode>` mode **)**
 
-为该区域设置空间覆盖模式。请参阅:ref:`AreaSpaceOverrideMode<enum_Physics2DServer_AreaSpaceOverrideMode>`\ 获取可用模式的列表。
+为该区域设置空间覆盖模式。请参阅\ :ref:`AreaSpaceOverrideMode<enum_Physics2DServer_AreaSpaceOverrideMode>`\ 获取可用模式的列表。
 
 ----
 
@@ -799,7 +799,7 @@ Method Descriptions
 
 - void **body_add_force** **(** :ref:`RID<class_RID>` body, :ref:`Vector2<class_Vector2>` offset, :ref:`Vector2<class_Vector2>` force **)**
 
-在施加的力和扭矩上添加一个有作用点的力。与:ref:`body_apply_impulse<class_Physics2DServer_method_body_apply_impulse>`\ 一样，力和物体原点的偏移量都在全局坐标中。力与冲量的不同之处在于，虽然两者都是力，但冲量在被施加后会自动清除。
+在施加的力和扭矩上添加一个有作用点的力。与\ :ref:`body_apply_impulse<class_Physics2DServer_method_body_apply_impulse>`\ 一样，力和物体原点的偏移量都在全局坐标中。力与冲量的不同之处在于，虽然两者都是力，但冲量在被施加后会自动清除。
 
 ----
 
@@ -847,7 +847,7 @@ Method Descriptions
 
 - void **body_attach_object_instance_id** **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` id **)**
 
-将区域分配给:ref:`Object<class_Object>`\ 的子类，因此它可以存在于节点树中。
+将区域分配给\ :ref:`Object<class_Object>`\ 的子类，因此它可以存在于节点树中。
 
 ----
 
@@ -909,7 +909,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **body_get_max_contacts_reported** **(** :ref:`RID<class_RID>` body **)** |const|
 
-返回可报告的最大接触数。参阅:ref:`body_set_max_contacts_reported<class_Physics2DServer_method_body_set_max_contacts_reported>`。
+返回可报告的最大接触数。参阅\ :ref:`body_set_max_contacts_reported<class_Physics2DServer_method_body_set_max_contacts_reported>`。
 
 ----
 
@@ -933,7 +933,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **body_get_param** **(** :ref:`RID<class_RID>` body, :ref:`BodyParameter<enum_Physics2DServer_BodyParameter>` param **)** |const|
 
-返回物体参数的值。请参阅:ref:`BodyParameter<enum_Physics2DServer_BodyParameter>`\ 获取可用参数列表。
+返回物体参数的值。请参阅\ :ref:`BodyParameter<enum_Physics2DServer_BodyParameter>`\ 获取可用参数列表。
 
 ----
 
@@ -941,7 +941,7 @@ Method Descriptions
 
 - :ref:`RID<class_RID>` **body_get_shape** **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` shape_idx **)** |const|
 
-返回body的第n个碰撞形状的:ref:`RID<class_RID>`。
+返回body的第n个碰撞形状的\ :ref:`RID<class_RID>`。
 
 ----
 
@@ -973,7 +973,7 @@ Method Descriptions
 
 - :ref:`RID<class_RID>` **body_get_space** **(** :ref:`RID<class_RID>` body **)** |const|
 
-返回分配给物体的空间的:ref:`RID<class_RID>`。
+返回分配给物体的空间的\ :ref:`RID<class_RID>`。
 
 ----
 
@@ -1037,7 +1037,7 @@ Method Descriptions
 
 - void **body_set_continuous_collision_detection_mode** **(** :ref:`RID<class_RID>` body, :ref:`CCDMode<enum_Physics2DServer_CCDMode>` mode **)**
 
-设置使用:ref:`CCDMode<enum_Physics2DServer_CCDMode>`\ 常量之一的连续碰撞检测模式。
+设置使用\ :ref:`CCDMode<enum_Physics2DServer_CCDMode>`\ 常量之一的连续碰撞检测模式。
 
 连续碰撞检测试图预测一个运动体将在哪里发生碰撞，而不是移动它并在它发生碰撞时纠正其运动。
 
@@ -1047,7 +1047,7 @@ Method Descriptions
 
 - void **body_set_force_integration_callback** **(** :ref:`RID<class_RID>` body, :ref:`Object<class_Object>` receiver, :ref:`String<class_String>` method, :ref:`Variant<class_Variant>` userdata=null **)**
 
-设置用于物体物理运算的函数，如果该物体允许的话，参阅:ref:`body_set_omit_force_integration<class_Physics2DServer_method_body_set_omit_force_integration>`。
+设置用于物体物理运算的函数，如果该物体允许的话，参阅\ :ref:`body_set_omit_force_integration<class_Physics2DServer_method_body_set_omit_force_integration>`。
 
 ----
 
@@ -1063,7 +1063,7 @@ Method Descriptions
 
 - void **body_set_mode** **(** :ref:`RID<class_RID>` body, :ref:`BodyMode<enum_Physics2DServer_BodyMode>` mode **)**
 
-使用:ref:`BodyMode<enum_Physics2DServer_BodyMode>`\ 常量之一设置body模式。
+使用\ :ref:`BodyMode<enum_Physics2DServer_BodyMode>`\ 常量之一设置body模式。
 
 ----
 
@@ -1079,7 +1079,7 @@ Method Descriptions
 
 - void **body_set_param** **(** :ref:`RID<class_RID>` body, :ref:`BodyParameter<enum_Physics2DServer_BodyParameter>` param, :ref:`float<class_float>` value **)**
 
-设置主体参数。请参阅:ref:`BodyParameter<enum_Physics2DServer_BodyParameter>`\ 获取可用参数列表。
+设置主体参数。请参阅\ :ref:`BodyParameter<enum_Physics2DServer_BodyParameter>`\ 获取可用参数列表。
 
 ----
 
@@ -1087,7 +1087,7 @@ Method Descriptions
 
 - void **body_set_shape** **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` shape_idx, :ref:`RID<class_RID>` shape **)**
 
-用一个给定的物体形状代替另一个。旧的形状是通过其索引选择的，新的是通过其:ref:`RID<class_RID>`\ 选择的。
+用一个给定的物体形状代替另一个。旧的形状是通过其索引选择的，新的是通过其\ :ref:`RID<class_RID>`\ 选择的。
 
 ----
 
@@ -1095,7 +1095,7 @@ Method Descriptions
 
 - void **body_set_shape_as_one_way_collision** **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` shape_idx, :ref:`bool<class_bool>` enable, :ref:`float<class_float>` margin **)**
 
-如果``enable``\ 为``true``，则在body上启用单向碰撞。
+如果\ ``enable``\ 为\ ``true``，则在body上启用单向碰撞。
 
 ----
 
@@ -1103,7 +1103,7 @@ Method Descriptions
 
 - void **body_set_shape_disabled** **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` shape_idx, :ref:`bool<class_bool>` disabled **)**
 
-如果``disable``\ 为``true``，则在body中禁用形状。
+如果\ ``disable``\ 为\ ``true``，则在body中禁用形状。
 
 ----
 
@@ -1111,7 +1111,7 @@ Method Descriptions
 
 - void **body_set_shape_metadata** **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` shape_idx, :ref:`Variant<class_Variant>` metadata **)**
 
-设置一个体中的形状的元数据。这个元数据与:ref:`Object.set_meta<class_Object_method_set_meta>`\ 不同，可以在形状查询中检索。
+设置一个体中的形状的元数据。这个元数据与\ :ref:`Object.set_meta<class_Object_method_set_meta>`\ 不同，可以在形状查询中检索。
 
 ----
 
@@ -1127,7 +1127,7 @@ Method Descriptions
 
 - void **body_set_space** **(** :ref:`RID<class_RID>` body, :ref:`RID<class_RID>` space **)**
 
-给物体分配一个空间(参阅:ref:`space_create<class_Physics2DServer_method_space_create>`)。
+给物体分配一个空间(参阅\ :ref:`space_create<class_Physics2DServer_method_space_create>`)。
 
 ----
 
@@ -1145,7 +1145,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **body_test_motion** **(** :ref:`RID<class_RID>` body, :ref:`Transform2D<class_Transform2D>` from, :ref:`Vector2<class_Vector2>` motion, :ref:`bool<class_bool>` infinite_inertia, :ref:`float<class_float>` margin=0.08, :ref:`Physics2DTestMotionResult<class_Physics2DTestMotionResult>` result=null, :ref:`bool<class_bool>` exclude_raycast_shapes=true, :ref:`Array<class_Array>` exclude=[  ] **)**
 
-如果从空间中的给定点沿给定方向移动会导致碰撞，则返回 ``true``。边距增加了碰撞检测中涉及的形状的大小。 通过返回:ref:`Physics2DTestMotionResult<class_Physics2DTestMotionResult>` 可以附加信息。
+如果从空间中的给定点沿给定方向移动会导致碰撞，则返回 ``true``。边距增加了碰撞检测中涉及的形状的大小。 通过返回\ :ref:`Physics2DTestMotionResult<class_Physics2DTestMotionResult>` 可以附加信息。
 
 ----
 
@@ -1193,7 +1193,7 @@ Method Descriptions
 
 - void **damped_string_joint_set_param** **(** :ref:`RID<class_RID>` joint, :ref:`DampedStringParam<enum_Physics2DServer_DampedStringParam>` param, :ref:`float<class_float>` value **)**
 
-设置阻尼弹簧关节参数。参阅:ref:`DampedStringParam<enum_Physics2DServer_DampedStringParam>`\ 获取可用参数的列表。
+设置阻尼弹簧关节参数。参阅\ :ref:`DampedStringParam<enum_Physics2DServer_DampedStringParam>`\ 获取可用参数的列表。
 
 ----
 
@@ -1209,7 +1209,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_process_info** **(** :ref:`ProcessInfo<enum_Physics2DServer_ProcessInfo>` process_info **)**
 
-返回关于2D物理引擎当前状态的信息。有关可用状态列表，请参阅:ref:`ProcessInfo<enum_Physics2DServer_ProcessInfo>`。
+返回关于2D物理引擎当前状态的信息。有关可用状态列表，请参阅\ :ref:`ProcessInfo<enum_Physics2DServer_ProcessInfo>`。
 
 ----
 
@@ -1233,7 +1233,7 @@ Method Descriptions
 
 - :ref:`JointType<enum_Physics2DServer_JointType>` **joint_get_type** **(** :ref:`RID<class_RID>` joint **)** |const|
 
-返回一个关节的类型（见:ref:`JointType<enum_Physics2DServer_JointType>`）。
+返回一个关节的类型（见\ :ref:`JointType<enum_Physics2DServer_JointType>`）。
 
 ----
 
@@ -1241,7 +1241,7 @@ Method Descriptions
 
 - void **joint_set_param** **(** :ref:`RID<class_RID>` joint, :ref:`JointParam<enum_Physics2DServer_JointParam>` param, :ref:`float<class_float>` value **)**
 
-设置关节参数。有关可用参数的列表，请参阅:ref:`JointParam<enum_Physics2DServer_JointParam>`。
+设置关节参数。有关可用参数的列表，请参阅\ :ref:`JointParam<enum_Physics2DServer_JointParam>`。
 
 ----
 
@@ -1305,7 +1305,7 @@ Method Descriptions
 
 - :ref:`ShapeType<enum_Physics2DServer_ShapeType>` **shape_get_type** **(** :ref:`RID<class_RID>` shape **)** |const|
 
-返回一个形状的类型(参阅:ref:`ShapeType<enum_Physics2DServer_ShapeType>`)。
+返回一个形状的类型(参阅\ :ref:`ShapeType<enum_Physics2DServer_ShapeType>`)。
 
 ----
 
@@ -1313,7 +1313,7 @@ Method Descriptions
 
 - void **shape_set_data** **(** :ref:`RID<class_RID>` shape, :ref:`Variant<class_Variant>` data **)**
 
-设置定义形状和大小的形状数据。要传递的数据取决于创建的形状的类型:ref:`shape_get_type<class_Physics2DServer_method_shape_get_type>`。
+设置定义形状和大小的形状数据。要传递的数据取决于创建的形状的类型\ :ref:`shape_get_type<class_Physics2DServer_method_shape_get_type>`。
 
 ----
 
@@ -1321,7 +1321,7 @@ Method Descriptions
 
 - :ref:`RID<class_RID>` **space_create** **(** **)**
 
-创建一个空间。空间是物理引擎的参数集合，可以分配给区域或主体。它可以通过:ref:`area_set_space<class_Physics2DServer_method_area_set_space>`\ 分配给一个区域，或者通过:ref:`body_set_space<class_Physics2DServer_method_body_set_space>`\ 分配给一个主体。
+创建一个空间。空间是物理引擎的参数集合，可以分配给区域或主体。它可以通过\ :ref:`area_set_space<class_Physics2DServer_method_area_set_space>`\ 分配给一个区域，或者通过\ :ref:`body_set_space<class_Physics2DServer_method_body_set_space>`\ 分配给一个主体。
 
 ----
 
@@ -1361,7 +1361,7 @@ Method Descriptions
 
 - void **space_set_param** **(** :ref:`RID<class_RID>` space, :ref:`SpaceParameter<enum_Physics2DServer_SpaceParameter>` param, :ref:`float<class_float>` value **)**
 
-设置空间参数的值。参阅:ref:`SpaceParameter<enum_Physics2DServer_SpaceParameter>`\ 获取可用参数列表。
+设置空间参数的值。参阅\ :ref:`SpaceParameter<enum_Physics2DServer_SpaceParameter>`\ 获取可用参数列表。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

@@ -11,7 +11,7 @@ VisualShaderNodeColorOp
 
 **Inherits:** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
 
-在可视化着色器图中使用的:ref:`Color<class_Color>`\ 运算符。
+在可视化着色器图中使用的\ :ref:`Color<class_Color>`\ 运算符。
 
 Description
 -----------
@@ -143,7 +143,7 @@ Property Descriptions
 | *Getter*  | get_operator()      |
 +-----------+---------------------+
 
-要应用于输入的运算符。参阅:ref:`Operator<enum_VisualShaderNodeColorOp_Operator>`\ 的选项。
+要应用于输入的运算符。参阅\ :ref:`Operator<enum_VisualShaderNodeColorOp_Operator>`\ 的选项。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

@@ -16,9 +16,9 @@ HSlider
 Description
 -----------
 
-水平滑块。参阅:ref:`Slider<class_Slider>`。这个从左到右，最小到最大。
+水平滑块。参阅\ :ref:`Slider<class_Slider>`。这个从左到右，最小到最大。
 
-**注意：** :ref:`Range.changed<class_Range_signal_changed>`\ 和:ref:`Range.value_changed<class_Range_signal_value_changed>`\ 信号是:ref:`Range<class_Range>`\ 类的一部分，该类继承自它。
+**注意：** :ref:`Range.changed<class_Range_signal_changed>`\ 和\ :ref:`Range.value_changed<class_Range_signal_value_changed>`\ 信号是\ :ref:`Range<class_Range>`\ 类的一部分，该类继承自它。
 
 Theme Properties
 ----------------
@@ -70,7 +70,7 @@ Theme Property Descriptions
 
 - :ref:`Texture<class_Texture>` **tick**
 
-刻度的纹理。当:ref:`Slider.tick_count<class_Slider_property_tick_count>`\ 大于0时可见。
+刻度的纹理。当\ :ref:`Slider.tick_count<class_Slider_property_tick_count>`\ 大于0时可见。
 
 ----
 
@@ -92,7 +92,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **slider**
 
-整个滑块的背景。受``grabber_area``\ 高度的影响。
+整个滑块的背景。受\ ``grabber_area``\ 高度的影响。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

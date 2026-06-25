@@ -16,7 +16,7 @@ VisualScriptCondition
 Description
 -----------
 
-可视化脚本节点，检查一个:ref:`bool<class_bool>`\ 输入端口。如果``true``，它将通过 "true" 序列端口退出。如果``false``，它将通过 "false" 序列端口退出。在退出这两种情况后，它通过 "done" 端口退出。序列端口可以不连接。
+可视化脚本节点，检查一个\ :ref:`bool<class_bool>`\ 输入端口。如果\ ``true``，它将通过 "true" 序列端口退出。如果\ ``false``，它将通过 "false" 序列端口退出。在退出这两种情况后，它通过 "done" 端口退出。序列端口可以不连接。
 
 **Input Ports:**
 

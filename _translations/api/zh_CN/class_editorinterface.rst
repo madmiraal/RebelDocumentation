@@ -111,7 +111,7 @@ Property Descriptions
 | *Getter* | is_distraction_free_mode_enabled() |
 +----------+------------------------------------+
 
-如果``true``，启用无分心模式，该模式隐藏了侧边底座，以增加主视图的可用空间。
+如果\ ``true``，启用无分心模式，该模式隐藏了侧边底座，以增加主视图的可用空间。
 
 Method Descriptions
 -------------------
@@ -154,7 +154,7 @@ Returns the main container of Rebel Engine editor's window. For example, you can
 
 - :ref:`String<class_String>` **get_current_path** **(** **)** |const|
 
-返回在:ref:`FileSystemDock<class_FileSystemDock>`\ 中查看的当前路径。
+返回在\ :ref:`FileSystemDock<class_FileSystemDock>`\ 中查看的当前路径。
 
 ----
 
@@ -162,7 +162,7 @@ Returns the main container of Rebel Engine editor's window. For example, you can
 
 - :ref:`Node<class_Node>` **get_edited_scene_root** **(** **)**
 
-返回已编辑的（当前）场景的根节点:ref:`Node<class_Node>`。
+返回已编辑的（当前）场景的根节点\ :ref:`Node<class_Node>`。
 
 ----
 
@@ -172,7 +172,7 @@ Returns the main container of Rebel Engine editor's window. For example, you can
 
 返回编辑器用户UI的实际比例，``1.0``\ 比例为100%。这可以用来调整由插件添加的用户UI的位置和尺寸。
 
-**注意：**这个值是通过``interface/editor/display_scale``\ 和``interface/editor/custom_display_scale``\ 编辑器设置项来设置。编辑器必须重新启动才能正确应用这些变化。
+**注意：**\ 这个值是通过\ ``interface/editor/display_scale``\ 和\ ``interface/editor/custom_display_scale``\ 编辑器设置项来设置。编辑器必须重新启动才能正确应用这些变化。
 
 ----
 
@@ -180,7 +180,7 @@ Returns the main container of Rebel Engine editor's window. For example, you can
 
 - :ref:`EditorSettings<class_EditorSettings>` **get_editor_settings** **(** **)**
 
-返回编辑器的:ref:`EditorSettings<class_EditorSettings>`\ 实例。
+返回编辑器的\ :ref:`EditorSettings<class_EditorSettings>`\ 实例。
 
 ----
 
@@ -220,7 +220,7 @@ Returns the main container of Rebel Engine editor's window. For example, you can
 
 - :ref:`Array<class_Array>` **get_open_scenes** **(** **)** |const|
 
-返回包含当前打开的场景的文件路径的数组:ref:`Array<class_Array>`。
+返回包含当前打开的场景的文件路径的数组\ :ref:`Array<class_Array>`。
 
 ----
 
@@ -236,7 +236,7 @@ Returns the main container of Rebel Engine editor's window. For example, you can
 
 - :ref:`EditorFileSystem<class_EditorFileSystem>` **get_resource_filesystem** **(** **)**
 
-返回编辑器的:ref:`EditorFileSystem<class_EditorFileSystem>`\ 实例。
+返回编辑器的\ :ref:`EditorFileSystem<class_EditorFileSystem>`\ 实例。
 
 ----
 
@@ -244,7 +244,7 @@ Returns the main container of Rebel Engine editor's window. For example, you can
 
 - :ref:`EditorResourcePreview<class_EditorResourcePreview>` **get_resource_previewer** **(** **)**
 
-返回编辑器的:ref:`EditorResourcePreview<class_EditorResourcePreview>`\ 实例。
+返回编辑器的\ :ref:`EditorResourcePreview<class_EditorResourcePreview>`\ 实例。
 
 ----
 
@@ -262,7 +262,7 @@ Returns the main container of Rebel Engine editor's window. For example, you can
 
 - :ref:`String<class_String>` **get_selected_path** **(** **)** |const|
 
-返回当前在:ref:`FileSystemDock<class_FileSystemDock>`\ 中选择的目录的路径，如果选择了一个文件，将使用:ref:`String.get_base_dir<class_String_method_get_base_dir>`\ 返回其基本目录。如果选择了一个文件，将使用:ref:`String.get_base_dir<class_String_method_get_base_dir>`\ 返回它的基本目录。
+返回当前在\ :ref:`FileSystemDock<class_FileSystemDock>`\ 中选择的目录的路径，如果选择了一个文件，将使用\ :ref:`String.get_base_dir<class_String_method_get_base_dir>`\ 返回其基本目录。如果选择了一个文件，将使用\ :ref:`String.get_base_dir<class_String_method_get_base_dir>`\ 返回它的基本目录。
 
 ----
 
@@ -270,7 +270,7 @@ Returns the main container of Rebel Engine editor's window. For example, you can
 
 - :ref:`EditorSelection<class_EditorSelection>` **get_selection** **(** **)**
 
-返回编辑器的:ref:`EditorSelection<class_EditorSelection>`\ 实例。
+返回编辑器的\ :ref:`EditorSelection<class_EditorSelection>`\ 实例。
 
 ----
 
@@ -286,7 +286,7 @@ Returns the main container of Rebel Engine editor's window. For example, you can
 
 - :ref:`bool<class_bool>` **is_playing_scene** **(** **)** |const|
 
-如果场景正在播放，返回``true``，否则返回``false``。暂停的场景将被视为正在播放。
+如果场景正在播放，返回\ ``true``，否则返回\ ``false``。暂停的场景将被视为正在播放。
 
 ----
 
@@ -302,7 +302,7 @@ Returns the main container of Rebel Engine editor's window. For example, you can
 
 - :ref:`Array<class_Array>` **make_mesh_previews** **(** :ref:`Array<class_Array>` meshes, :ref:`int<class_int>` preview_size **)**
 
-返回 :ref:`Array<class_Array>` 数组包含给定尺寸渲染的网格预览图:ref:`Texture<class_Texture>`。
+返回 :ref:`Array<class_Array>` 数组包含给定尺寸渲染的网格预览图\ :ref:`Texture<class_Texture>`。
 
 ----
 
@@ -358,7 +358,7 @@ Returns the main container of Rebel Engine editor's window. For example, you can
 
 - void **save_scene_as** **(** :ref:`String<class_String>` path, :ref:`bool<class_bool>` with_preview=true **)**
 
-将场景保存为``path``\ 处的文件。
+将场景保存为\ ``path``\ 处的文件。
 
 ----
 
@@ -366,7 +366,7 @@ Returns the main container of Rebel Engine editor's window. For example, you can
 
 - void **select_file** **(** :ref:`String<class_String>` file **)**
 
-选择文件，路径由``file``\ 提供，在文件系统面板处。
+选择文件，路径由\ ``file``\ 提供，在文件系统面板处。
 
 ----
 

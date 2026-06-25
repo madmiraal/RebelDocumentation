@@ -11,12 +11,12 @@ VisualShaderNodeVectorRefract
 
 **Inherits:** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
 
-返回指向折射方向的:ref:`Vector3<class_Vector3>`。用于可视化着色器图内。
+返回指向折射方向的\ :ref:`Vector3<class_Vector3>`。用于可视化着色器图内。
 
 Description
 -----------
 
-在着色器语言中转换成``refract(I, N, eta)``，其中``I``\ 是入射向量，``N``\ 是法线向量，``eta``\ 是折射的比率。
+在着色器语言中转换成\ ``refract(I, N, eta)``，其中\ ``I``\ 是入射向量，``N``\ 是法线向量，``eta``\ 是折射的比率。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

@@ -110,7 +110,7 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **compile** **(** :ref:`String<class_String>` pattern **)**
 
-编译并指定要使用的搜索模式。如果编译成功，返回:ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`。如果遇到错误，细节将被打印到标准输出，并返回一个错误。
+编译并指定要使用的搜索模式。如果编译成功，返回\ :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`。如果遇到错误，细节将被打印到标准输出，并返回一个错误。
 
 ----
 
@@ -150,7 +150,7 @@ Method Descriptions
 
 - :ref:`RegExMatch<class_RegExMatch>` **search** **(** :ref:`String<class_String>` subject, :ref:`int<class_int>` offset=0, :ref:`int<class_int>` end=-1 **)** |const|
 
-在文本中搜索编译后的模式。如果找到，返回第一个匹配结果的:ref:`RegExMatch<class_RegExMatch>`\ 容器，否则返回``null``。可以指定要搜索的区域，而不需要修改开始和结束锚点的位置。
+在文本中搜索编译后的模式。如果找到，返回第一个匹配结果的\ :ref:`RegExMatch<class_RegExMatch>`\ 容器，否则返回\ ``null``。可以指定要搜索的区域，而不需要修改开始和结束锚点的位置。
 
 ----
 
@@ -158,7 +158,7 @@ Method Descriptions
 
 - :ref:`Array<class_Array>` **search_all** **(** :ref:`String<class_String>` subject, :ref:`int<class_int>` offset=0, :ref:`int<class_int>` end=-1 **)** |const|
 
-在文本中搜索编译过的模式。为每个不重叠的结果返回一个:ref:`RegExMatch<class_RegExMatch>`\ 容器数组。如果没有发现任何结果，则返回一个空数组。可以指定要搜索的区域，而不需要修改开始和结束锚点的位置。
+在文本中搜索编译过的模式。为每个不重叠的结果返回一个\ :ref:`RegExMatch<class_RegExMatch>`\ 容器数组。如果没有发现任何结果，则返回一个空数组。可以指定要搜索的区域，而不需要修改开始和结束锚点的位置。
 
 ----
 
@@ -166,7 +166,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **sub** **(** :ref:`String<class_String>` subject, :ref:`String<class_String>` replacement, :ref:`bool<class_bool>` all=false, :ref:`int<class_int>` offset=0, :ref:`int<class_int>` end=-1 **)** |const|
 
-搜索文本中的编译模式，并将其替换为指定的字符串。诸如``$1``\ 和``$name``\ 等转义和反向引用会被展开和解决。默认情况下，只有第一个实例被替换，但可以对所有实例进行修改（全局替换）。可以指定要搜索的区域，而不需要修改开始和结束锚的位置。
+搜索文本中的编译模式，并将其替换为指定的字符串。诸如\ ``$1``\ 和\ ``$name``\ 等转义和反向引用会被展开和解决。默认情况下，只有第一个实例被替换，但可以对所有实例进行修改（全局替换）。可以指定要搜索的区域，而不需要修改开始和结束锚的位置。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

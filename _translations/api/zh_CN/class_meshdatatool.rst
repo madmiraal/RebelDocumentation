@@ -140,7 +140,7 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **commit_to_surface** **(** :ref:`ArrayMesh<class_ArrayMesh>` mesh **)**
 
-使用编辑后的数据，向特定的:ref:`Mesh<class_Mesh>`\ 中添加一个新的面。
+使用编辑后的数据，向特定的\ :ref:`Mesh<class_Mesh>`\ 中添加一个新的面。
 
 ----
 
@@ -148,9 +148,9 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **create_from_surface** **(** :ref:`ArrayMesh<class_ArrayMesh>` mesh, :ref:`int<class_int>` surface **)**
 
-使用给定:ref:`Mesh<class_Mesh>`\ 的指定表面来填充MeshDataTool的数据。
+使用给定\ :ref:`Mesh<class_Mesh>`\ 的指定表面来填充MeshDataTool的数据。
 
-要求:ref:`Mesh<class_Mesh>`\ 具有基本类型:ref:`Mesh.PRIMITIVE_TRIANGLES<class_Mesh_constant_PRIMITIVE_TRIANGLES>`。
+要求\ :ref:`Mesh<class_Mesh>`\ 具有基本类型\ :ref:`Mesh.PRIMITIVE_TRIANGLES<class_Mesh_constant_PRIMITIVE_TRIANGLES>`。
 
 ----
 
@@ -158,7 +158,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_edge_count** **(** **)** |const|
 
-返回这个:ref:`Mesh<class_Mesh>`\ 的边数。
+返回这个\ :ref:`Mesh<class_Mesh>`\ 的边数。
 
 ----
 
@@ -192,7 +192,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_face_count** **(** **)** |const|
 
-返回这个:ref:`Mesh<class_Mesh>`\ 中的面数。
+返回这个\ :ref:`Mesh<class_Mesh>`\ 中的面数。
 
 ----
 
@@ -236,7 +236,7 @@ Vertex argument must be either 0, 1, or 2 because faces contain three vertices.
 
 - :ref:`int<class_int>` **get_format** **(** **)** |const|
 
-返回 :ref:`Mesh<class_Mesh>` 的格式，该格式是由 :ref:`Mesh<class_Mesh>` 格式标识组合而成的整数。例如，一个同时包含顶点和法线的网格将返回``3``\ 格式，因为 :ref:`ArrayMesh.ARRAY_FORMAT_VERTEX<class_ArrayMesh_constant_ARRAY_FORMAT_VERTEX>` = ``1``，:ref:`ArrayMesh.ARRAY_FORMAT_NORMAL<class_ArrayMesh_constant_ARRAY_FORMAT_NORMAL>` = ``2``。
+返回 :ref:`Mesh<class_Mesh>` 的格式，该格式是由 :ref:`Mesh<class_Mesh>` 格式标识组合而成的整数。例如，一个同时包含顶点和法线的网格将返回\ ``3``\ 格式，因为 :ref:`ArrayMesh.ARRAY_FORMAT_VERTEX<class_ArrayMesh_constant_ARRAY_FORMAT_VERTEX>` = ``1``，:ref:`ArrayMesh.ARRAY_FORMAT_NORMAL<class_ArrayMesh_constant_ARRAY_FORMAT_NORMAL>` = ``2``。
 
 参阅 :ref:`ArrayFormat<enum_ArrayMesh_ArrayFormat>` 的格式标识列表。
 
@@ -246,7 +246,7 @@ Vertex argument must be either 0, 1, or 2 because faces contain three vertices.
 
 - :ref:`Material<class_Material>` **get_material** **(** **)** |const|
 
-返回分配给:ref:`Mesh<class_Mesh>`\ 的材质。
+返回分配给\ :ref:`Mesh<class_Mesh>`\ 的材质。
 
 ----
 
@@ -278,7 +278,7 @@ Vertex argument must be either 0, 1, or 2 because faces contain three vertices.
 
 - :ref:`int<class_int>` **get_vertex_count** **(** **)** |const|
 
-返回:ref:`Mesh<class_Mesh>`\ 中顶点的总数。
+返回\ :ref:`Mesh<class_Mesh>`\ 中顶点的总数。
 
 ----
 
@@ -366,7 +366,7 @@ Vertex argument must be either 0, 1, or 2 because faces contain three vertices.
 
 - void **set_material** **(** :ref:`Material<class_Material>` material **)**
 
-设置新构建的:ref:`Mesh<class_Mesh>`\ 使用的材质。
+设置新构建的\ :ref:`Mesh<class_Mesh>`\ 使用的材质。
 
 ----
 

@@ -181,7 +181,7 @@ Signals
 
 - **meta_clicked** **(** :ref:`Variant<class_Variant>` meta **)**
 
-当用户点击元标记之间的内容时触发。如果元是在文本中定义的，例如``[url={"data"="hi"}]hi[/url]``，则该信号的参数为:ref:`String<class_String>`\ 类型。如果需要特定类型或对象，则必须使用 :ref:`push_meta<class_RichTextLabel_method_push_meta>` 方法将数据手动插入标签堆栈。
+当用户点击元标记之间的内容时触发。如果元是在文本中定义的，例如\ ``[url={"data"="hi"}]hi[/url]``，则该信号的参数为\ :ref:`String<class_String>`\ 类型。如果需要特定类型或对象，则必须使用 :ref:`push_meta<class_RichTextLabel_method_push_meta>` 方法将数据手动插入标签堆栈。
 
 ----
 
@@ -373,9 +373,9 @@ The label's text in BBCode format. Is not representative of manual modifications
 | *Getter*  | get_effects()      |
 +-----------+--------------------+
 
-当前配置的自定义效果。这是一个:ref:`RichTextEffect<class_RichTextEffect>`\ 的数组。
+当前配置的自定义效果。这是一个\ :ref:`RichTextEffect<class_RichTextEffect>`\ 的数组。
 
-要添加一个自定义效果，使用:ref:`install_effect<class_RichTextLabel_method_install_effect>`\ 会更方便。
+要添加一个自定义效果，使用\ :ref:`install_effect<class_RichTextLabel_method_install_effect>`\ 会更方便。
 
 ----
 
@@ -441,9 +441,9 @@ The label's text in BBCode format. Is not representative of manual modifications
 | *Getter*  | get_percent_visible()      |
 +-----------+----------------------------+
 
-要显示的字符范围，数值为0.0和1.0之间的:ref:`float<class_float>`。当分配一个超出范围的值时，它和分配1.0是一样的。
+要显示的字符范围，数值为0.0和1.0之间的\ :ref:`float<class_float>`。当分配一个超出范围的值时，它和分配1.0是一样的。
 
-**注意：** 设置这个属性会根据当前的:ref:`get_total_character_count<class_RichTextLabel_method_get_total_character_count>`\ 更新:ref:`visible_characters<class_RichTextLabel_property_visible_characters>`。
+**注意：** 设置这个属性会根据当前的\ :ref:`get_total_character_count<class_RichTextLabel_method_get_total_character_count>`\ 更新\ :ref:`visible_characters<class_RichTextLabel_property_visible_characters>`。
 
 ----
 
@@ -459,7 +459,7 @@ The label's text in BBCode format. Is not representative of manual modifications
 | *Getter*  | is_scroll_active()       |
 +-----------+--------------------------+
 
-如果 ``true``，则滚动条可见。将此设置为 ``false`` 不会完全阻止滚动。见:ref:`scroll_to_line<class_RichTextLabel_method_scroll_to_line>`。
+如果 ``true``，则滚动条可见。将此设置为 ``false`` 不会完全阻止滚动。见\ :ref:`scroll_to_line<class_RichTextLabel_method_scroll_to_line>`。
 
 ----
 
@@ -541,9 +541,9 @@ The number of spaces associated with a single tab length. Does not affect ``\t``
 | *Getter*  | get_visible_characters()      |
 +-----------+-------------------------------+
 
-在标签中显示的字符数限制。如果``-1``，将显示所有字符。
+在标签中显示的字符数限制。如果\ ``-1``，将显示所有字符。
 
-**注意：** 设置此属性会根据当前的:ref:`get_total_character_count<class_RichTextLabel_method_get_total_character_count>`\ 更新:ref:`percent_visible<class_RichTextLabel_property_percent_visible>`。
+**注意：** 设置此属性会根据当前的\ :ref:`get_total_character_count<class_RichTextLabel_method_get_total_character_count>`\ 更新\ :ref:`percent_visible<class_RichTextLabel_property_percent_visible>`。
 
 Method Descriptions
 -------------------
@@ -670,7 +670,7 @@ Method Descriptions
 
 - void **push_align** **(** :ref:`Align<enum_RichTextLabel_Align>` align **)**
 
-根据给定的``[align]``\ 值，添加一个``align``\ 标签。可能的值见:ref:`Align<enum_RichTextLabel_Align>`。
+根据给定的\ ``[align]``\ 值，添加一个\ ``align``\ 标签。可能的值见\ :ref:`Align<enum_RichTextLabel_Align>`。
 
 ----
 
@@ -678,7 +678,7 @@ Method Descriptions
 
 - void **push_bold** **(** **)**
 
-在标签堆中添加一个``[font]``\ 标签，字体为黑体。如果当前没有``[i]``\ 标签，这与添加一个``[b]``\ 标签相同。
+在标签堆中添加一个\ ``[font]``\ 标签，字体为黑体。如果当前没有\ ``[i]``\ 标签，这与添加一个\ ``[b]``\ 标签相同。
 
 ----
 
@@ -686,7 +686,7 @@ Method Descriptions
 
 - void **push_bold_italics** **(** **)**
 
-在标签堆中添加一个``[font]``\ 标签，字体为粗斜体。
+在标签堆中添加一个\ ``[font]``\ 标签，字体为粗斜体。
 
 ----
 
@@ -694,7 +694,7 @@ Method Descriptions
 
 - void **push_cell** **(** **)**
 
-将一个``[cell]``\ 标签添加到标签堆中。必须在一个``[table]``\ 标签内。详情见:ref:`push_table<class_RichTextLabel_method_push_table>`。
+将一个\ ``[cell]``\ 标签添加到标签堆中。必须在一个\ ``[table]``\ 标签内。详情见\ :ref:`push_table<class_RichTextLabel_method_push_table>`。
 
 ----
 
@@ -702,7 +702,7 @@ Method Descriptions
 
 - void **push_color** **(** :ref:`Color<class_Color>` color **)**
 
-将一个``[color]``\ 标签添加到标签堆。
+将一个\ ``[color]``\ 标签添加到标签堆。
 
 ----
 
@@ -710,7 +710,7 @@ Method Descriptions
 
 - void **push_font** **(** :ref:`Font<class_Font>` font **)**
 
-将一个``[font]``\ 标签添加到标签堆中。在其有效期内覆盖默认字体。
+将一个\ ``[font]``\ 标签添加到标签堆中。在其有效期内覆盖默认字体。
 
 ----
 
@@ -726,7 +726,7 @@ Method Descriptions
 
 - void **push_italics** **(** **)**
 
-在标签堆中添加一个``[font]``\ 标签，字体为斜体。如果当前没有``[b]``\ 标签，这与添加``[i]``\ 标签相同。
+在标签堆中添加一个\ ``[font]``\ 标签，字体为斜体。如果当前没有\ ``[b]``\ 标签，这与添加\ ``[i]``\ 标签相同。
 
 ----
 
@@ -734,7 +734,7 @@ Method Descriptions
 
 - void **push_list** **(** :ref:`ListType<enum_RichTextLabel_ListType>` type **)**
 
-在标签栈中添加一个``[list]``\ 标签。类似于BBCodes ``[ol]`` 或 ``[ul]`` ，但支持更多的列表类型。未完全实现!
+在标签栈中添加一个\ ``[list]``\ 标签。类似于BBCodes ``[ol]`` 或 ``[ul]`` ，但支持更多的列表类型。未完全实现!
 
 ----
 
@@ -742,7 +742,7 @@ Method Descriptions
 
 - void **push_meta** **(** :ref:`Variant<class_Variant>` data **)**
 
-添加一个``[meta]``\ 标签到标签堆中。类似于BBCode ``[url=something]{text}[/url]``，但支持非:ref:`String<class_String>`\ 元数据类型。
+添加一个\ ``[meta]``\ 标签到标签堆中。类似于BBCode ``[url=something]{text}[/url]``，但支持非\ :ref:`String<class_String>`\ 元数据类型。
 
 ----
 
@@ -750,7 +750,7 @@ Method Descriptions
 
 - void **push_mono** **(** **)**
 
-在标签堆中添加一个``[font]``\ 标签，该标签为等宽字体。
+在标签堆中添加一个\ ``[font]``\ 标签，该标签为等宽字体。
 
 ----
 
@@ -758,7 +758,7 @@ Method Descriptions
 
 - void **push_normal** **(** **)**
 
-在标签堆中添加一个具有正常字体的``[font]``\ 标签。
+在标签堆中添加一个具有正常字体的\ ``[font]``\ 标签。
 
 ----
 
@@ -766,7 +766,7 @@ Method Descriptions
 
 - void **push_strikethrough** **(** **)**
 
-将一个``[s]``\ 标签添加到标签堆中。
+将一个\ ``[s]``\ 标签添加到标签堆中。
 
 ----
 
@@ -774,7 +774,7 @@ Method Descriptions
 
 - void **push_table** **(** :ref:`int<class_int>` columns **)**
 
-将一个``[table=columns]``\ 标签添加到标签栈。
+将一个\ ``[table=columns]``\ 标签添加到标签栈。
 
 ----
 
@@ -782,7 +782,7 @@ Method Descriptions
 
 - void **push_underline** **(** **)**
 
-将一个``[u]``\ 标签添加到标签堆中。
+将一个\ ``[u]``\ 标签添加到标签堆中。
 
 ----
 
@@ -800,7 +800,7 @@ Method Descriptions
 
 - void **scroll_to_line** **(** :ref:`int<class_int>` line **)**
 
-滚动窗口的顶行以匹配``line``。
+滚动窗口的顶行以匹配\ ``line``。
 
 ----
 
@@ -808,11 +808,11 @@ Method Descriptions
 
 - void **set_table_column_expand** **(** :ref:`int<class_int>` column, :ref:`bool<class_bool>` expand, :ref:`int<class_int>` ratio **)**
 
-编辑选中的列的扩展选项。如果``expand``\ 是``true``，该列会按其扩展比例与其他列的比例进行扩展。
+编辑选中的列的扩展选项。如果\ ``expand``\ 是\ ``true``，该列会按其扩展比例与其他列的比例进行扩展。
 
 例如，2个比率为3和4的列加上70像素的可用宽度将分别扩展30和40像素。
 
-如果``expand``\ 是``false``，该列将不会对总的比例产生影响。
+如果\ ``expand``\ 是\ ``false``，该列将不会对总的比例产生影响。
 
 Theme Property Descriptions
 ---------------------------
@@ -837,7 +837,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 0.49, 0.49, 0.49, 1 )`` |
 +-----------+----------------------------------+
 
-选定文本的颜色(当:ref:`selection_enabled<class_RichTextLabel_property_selection_enabled>`\ 为``true``\ 时使用)。
+选定文本的颜色(当\ :ref:`selection_enabled<class_RichTextLabel_property_selection_enabled>`\ 为\ ``true``\ 时使用)。
 
 ----
 

@@ -11,7 +11,7 @@ AnimationNodeBlendSpace1D
 
 **Inherits:** :ref:`AnimationRootNode<class_AnimationRootNode>` **<** :ref:`AnimationNode<class_AnimationNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
 
-在虚拟轴上放置的任意数量的:ref:`AnimationNode<class_AnimationNode>`\ 的任意类型的两个:ref:`AnimationNode<class_AnimationNode>`\ 之间线性混合。
+在虚拟轴上放置的任意数量的\ :ref:`AnimationNode<class_AnimationNode>`\ 的任意类型的两个\ :ref:`AnimationNode<class_AnimationNode>`\ 之间线性混合。
 
 Description
 -----------
@@ -133,7 +133,7 @@ Method Descriptions
 
 - void **add_blend_point** **(** :ref:`AnimationRootNode<class_AnimationRootNode>` node, :ref:`float<class_float>` pos, :ref:`int<class_int>` at_index=-1 **)**
 
-在``pos``\ 设定的给定位置添加一个新点，代表虚拟轴上的``node``。您可以使用 ``at_index`` 参数在特定的索引处插入新点。如果您使用 ``at_index`` 的默认值，该点会被插入到混合点数组的最后。
+在\ ``pos``\ 设定的给定位置添加一个新点，代表虚拟轴上的\ ``node``。您可以使用 ``at_index`` 参数在特定的索引处插入新点。如果您使用 ``at_index`` 的默认值，该点会被插入到混合点数组的最后。
 
 ----
 
@@ -149,7 +149,7 @@ Method Descriptions
 
 - :ref:`AnimationRootNode<class_AnimationRootNode>` **get_blend_point_node** **(** :ref:`int<class_int>` point **)** |const|
 
-返回索引``point``\ 处的点所引用的:ref:`AnimationNode<class_AnimationNode>`。
+返回索引\ ``point``\ 处的点所引用的\ :ref:`AnimationNode<class_AnimationNode>`。
 
 ----
 
@@ -157,7 +157,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **get_blend_point_position** **(** :ref:`int<class_int>` point **)** |const|
 
-返回索引``point``\ 处的点的位置。
+返回索引\ ``point``\ 处的点的位置。
 
 ----
 
@@ -165,7 +165,7 @@ Method Descriptions
 
 - void **remove_blend_point** **(** :ref:`int<class_int>` point **)**
 
-将索引``point``\ 处的点从混合轴上删除。
+将索引\ ``point``\ 处的点从混合轴上删除。
 
 ----
 
@@ -173,7 +173,7 @@ Method Descriptions
 
 - void **set_blend_point_node** **(** :ref:`int<class_int>` point, :ref:`AnimationRootNode<class_AnimationRootNode>` node **)**
 
-改变索引``point``\ 处的点所引用的:ref:`AnimationNode<class_AnimationNode>`。
+改变索引\ ``point``\ 处的点所引用的\ :ref:`AnimationNode<class_AnimationNode>`。
 
 ----
 
@@ -181,7 +181,7 @@ Method Descriptions
 
 - void **set_blend_point_position** **(** :ref:`int<class_int>` point, :ref:`float<class_float>` pos **)**
 
-更新混合轴上索引``point``\ 处的点的位置。
+更新混合轴上索引\ ``point``\ 处的点的位置。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

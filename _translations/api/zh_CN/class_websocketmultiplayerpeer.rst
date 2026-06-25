@@ -18,7 +18,7 @@ WebSocket服务器和客户端的基类。
 Description
 -----------
 
-WebSocket服务器和客户端的基类，允许它们作为:ref:`MultiplayerAPI<class_MultiplayerAPI>`\ 的网络对等体使用。
+WebSocket服务器和客户端的基类，允许它们作为\ :ref:`MultiplayerAPI<class_MultiplayerAPI>`\ 的网络对等体使用。
 
 Properties
 ----------
@@ -56,7 +56,7 @@ Method Descriptions
 
 - :ref:`WebSocketPeer<class_WebSocketPeer>` **get_peer** **(** :ref:`int<class_int>` peer_id **)** |const|
 
-返回与给定``peer_id``\ 关联的:ref:`WebSocketPeer<class_WebSocketPeer>`。
+返回与给定\ ``peer_id``\ 关联的\ :ref:`WebSocketPeer<class_WebSocketPeer>`。
 
 ----
 

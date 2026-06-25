@@ -147,7 +147,7 @@ Property Descriptions
 | *Getter*  | get_spacing()      |
 +-----------+--------------------+
 
-空格字符的额外间距，单位是像素，除了:ref:`extra_spacing_char<class_DynamicFont_property_extra_spacing_char>`。
+空格字符的额外间距，单位是像素，除了\ :ref:`extra_spacing_char<class_DynamicFont_property_extra_spacing_char>`。
 
 这可以是负数，使字符之间的距离更小。
 
@@ -197,7 +197,7 @@ Property Descriptions
 
 字体轮廓的颜色。
 
-**注意：**建议将此值保留为默认值，以便您可以在各个控件中对其进行调整。例如，如果在此处将轮廓设为黑色，则无法使用Label的字体轮廓调制主题项来更改其颜色。
+**注意：**\ 建议将此值保留为默认值，以便您可以在各个控件中对其进行调整。例如，如果在此处将轮廓设为黑色，则无法使用Label的字体轮廓调制主题项来更改其颜色。
 
 ----
 
@@ -288,7 +288,7 @@ Method Descriptions
 
 - :ref:`DynamicFontData<class_DynamicFontData>` **get_fallback** **(** :ref:`int<class_int>` idx **)** |const|
 
-返回位于索引``idx``\ 处的后备字体。
+返回位于索引\ ``idx``\ 处的后备字体。
 
 ----
 
@@ -304,7 +304,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_spacing** **(** :ref:`int<class_int>` type **)** |const|
 
-返回给定``type``\ 的间距(参阅:ref:`SpacingType<enum_DynamicFont_SpacingType>`)。
+返回给定\ ``type``\ 的间距(参阅\ :ref:`SpacingType<enum_DynamicFont_SpacingType>`)。
 
 ----
 
@@ -312,7 +312,7 @@ Method Descriptions
 
 - void **remove_fallback** **(** :ref:`int<class_int>` idx **)**
 
-移除位于索引``idx``\ 处的后备字体。
+移除位于索引\ ``idx``\ 处的后备字体。
 
 ----
 
@@ -320,7 +320,7 @@ Method Descriptions
 
 - void **set_fallback** **(** :ref:`int<class_int>` idx, :ref:`DynamicFontData<class_DynamicFontData>` data **)**
 
-设置索引``idx``\ 处的后备字体。
+设置索引\ ``idx``\ 处的后备字体。
 
 ----
 
@@ -328,7 +328,7 @@ Method Descriptions
 
 - void **set_spacing** **(** :ref:`int<class_int>` type, :ref:`int<class_int>` value **)**
 
-给``type``\ 设置间距(参阅:ref:`SpacingType<enum_DynamicFont_SpacingType>`)为``value``，单位为像素(与字体大小无关)。
+给\ ``type``\ 设置间距(参阅\ :ref:`SpacingType<enum_DynamicFont_SpacingType>`)为\ ``value``，单位为像素(与字体大小无关)。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

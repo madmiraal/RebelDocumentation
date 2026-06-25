@@ -70,11 +70,11 @@ Constants
 
 - **CONNECTION_OK** = **0** --- 连接成功。
 
-- **CONNECTION_ERROR_NO_INPUT** = **1** --- 输入节点为``null``。
+- **CONNECTION_ERROR_NO_INPUT** = **1** --- 输入节点为\ ``null``。
 
 - **CONNECTION_ERROR_NO_INPUT_INDEX** = **2** --- 指定的输入端口已出范围。
 
-- **CONNECTION_ERROR_NO_OUTPUT** = **3** --- 输出节点为``null``。
+- **CONNECTION_ERROR_NO_OUTPUT** = **3** --- 输出节点为\ ``null``。
 
 - **CONNECTION_ERROR_SAME_NODE** = **4** --- 输入和输出节点是一样的。
 
@@ -128,7 +128,7 @@ Method Descriptions
 
 - :ref:`AnimationNode<class_AnimationNode>` **get_node** **(** :ref:`String<class_String>` name **)** |const|
 
-返回带有指定``name``\ 的子节点。
+返回带有指定\ ``name``\ 的子节点。
 
 ----
 
@@ -136,7 +136,7 @@ Method Descriptions
 
 - :ref:`Vector2<class_Vector2>` **get_node_position** **(** :ref:`String<class_String>` name **)** |const|
 
-返回指定``name``\ 的子节点的位置。
+返回指定\ ``name``\ 的子节点的位置。
 
 ----
 
@@ -144,7 +144,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **has_node** **(** :ref:`String<class_String>` name **)** |const|
 
-如果存在指定``name``\ 的子节点，返回``true``。
+如果存在指定\ ``name``\ 的子节点，返回\ ``true``。
 
 ----
 

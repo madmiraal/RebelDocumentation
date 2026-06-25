@@ -96,7 +96,7 @@ Method Descriptions
 
 - :ref:`Color<class_Color>` **get_color** **(** :ref:`int<class_int>` point **)**
 
-返回索引``point``\ 处斜坡颜色的颜色。
+返回索引\ ``point``\ 处斜坡颜色的颜色。
 
 ----
 
@@ -104,7 +104,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **get_offset** **(** :ref:`int<class_int>` point **)**
 
-返回索引``point``\ 处的斜面颜色的偏移。
+返回索引\ ``point``\ 处的斜面颜色的偏移。
 
 ----
 
@@ -120,7 +120,7 @@ Method Descriptions
 
 - :ref:`Color<class_Color>` **interpolate** **(** :ref:`float<class_float>` offset **)**
 
-返回由偏移``offset``\ 指定的插值颜色。
+返回由偏移\ ``offset``\ 指定的插值颜色。
 
 ----
 
@@ -128,7 +128,7 @@ Method Descriptions
 
 - void **remove_point** **(** :ref:`int<class_int>` point **)**
 
-移除索引``point``\ 处的颜色。
+移除索引\ ``point``\ 处的颜色。
 
 ----
 
@@ -136,7 +136,7 @@ Method Descriptions
 
 - void **set_color** **(** :ref:`int<class_int>` point, :ref:`Color<class_Color>` color **)**
 
-设置索引``point``\ 处的坡道色的颜色。
+设置索引\ ``point``\ 处的坡道色的颜色。
 
 ----
 
@@ -144,7 +144,7 @@ Method Descriptions
 
 - void **set_offset** **(** :ref:`int<class_int>` point, :ref:`float<class_float>` offset **)**
 
-为索引``point``\ 处的斜面颜色设置偏移。
+为索引\ ``point``\ 处的斜面颜色设置偏移。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

@@ -62,7 +62,7 @@ Signals
 
 - **frame_changed** **(** **)**
 
-当:ref:`frame<class_AnimatedSprite3D_property_frame>`\ 更改时发出。
+当\ :ref:`frame<class_AnimatedSprite3D_property_frame>`\ 更改时发出。
 
 Property Descriptions
 ---------------------

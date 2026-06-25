@@ -51,7 +51,7 @@ Property Descriptions
 | *Getter*  | get_button_mask()      |
 +-----------+------------------------+
 
-鼠标按钮掩码标识符，是:ref:`ButtonList<enum_@GlobalScope_ButtonList>` 按钮掩码之一或按位组合。
+鼠标按钮掩码标识符，是\ :ref:`ButtonList<enum_@GlobalScope_ButtonList>` 按钮掩码之一或按位组合。
 
 ----
 

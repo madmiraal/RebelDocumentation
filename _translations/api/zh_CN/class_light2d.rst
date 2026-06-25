@@ -113,17 +113,17 @@ enum **Mode**:
 
 enum **ShadowFilter**:
 
-- **SHADOW_FILTER_NONE** = **0** --- 没有过滤器适用于阴影贴图。参阅:ref:`shadow_filter<class_Light2D_property_shadow_filter>`。
+- **SHADOW_FILTER_NONE** = **0** --- 没有过滤器适用于阴影贴图。参阅\ :ref:`shadow_filter<class_Light2D_property_shadow_filter>`。
 
-- **SHADOW_FILTER_PCF3** = **1** --- 百分比接近过滤（3个样本）适用于阴影贴图。参阅:ref:`shadow_filter<class_Light2D_property_shadow_filter>`。
+- **SHADOW_FILTER_PCF3** = **1** --- 百分比接近过滤（3个样本）适用于阴影贴图。参阅\ :ref:`shadow_filter<class_Light2D_property_shadow_filter>`。
 
-- **SHADOW_FILTER_PCF5** = **2** --- 百分比接近过滤（5个样本）适用于阴影贴图。参阅:ref:`shadow_filter<class_Light2D_property_shadow_filter>`。
+- **SHADOW_FILTER_PCF5** = **2** --- 百分比接近过滤（5个样本）适用于阴影贴图。参阅\ :ref:`shadow_filter<class_Light2D_property_shadow_filter>`。
 
-- **SHADOW_FILTER_PCF7** = **3** --- 百分比接近过滤（7个样本）适用于阴影贴图。参阅:ref:`shadow_filter<class_Light2D_property_shadow_filter>`。
+- **SHADOW_FILTER_PCF7** = **3** --- 百分比接近过滤（7个样本）适用于阴影贴图。参阅\ :ref:`shadow_filter<class_Light2D_property_shadow_filter>`。
 
-- **SHADOW_FILTER_PCF9** = **4** --- 百分比接近过滤（9个样本）适用于阴影贴图。参阅:ref:`shadow_filter<class_Light2D_property_shadow_filter>`。
+- **SHADOW_FILTER_PCF9** = **4** --- 百分比接近过滤（9个样本）适用于阴影贴图。参阅\ :ref:`shadow_filter<class_Light2D_property_shadow_filter>`。
 
-- **SHADOW_FILTER_PCF13** = **5** --- 百分比接近过滤（13个样本）适用于阴影贴图。参阅:ref:`shadow_filter<class_Light2D_property_shadow_filter>`。
+- **SHADOW_FILTER_PCF13** = **5** --- 百分比接近过滤（13个样本）适用于阴影贴图。参阅\ :ref:`shadow_filter<class_Light2D_property_shadow_filter>`。
 
 Property Descriptions
 ---------------------
@@ -156,7 +156,7 @@ Light2D光的颜色 :ref:`Color<class_Color>`。
 | *Getter*  | is_editor_only()       |
 +-----------+------------------------+
 
-如果``true``，Light2D将只在编辑场景时出现。
+如果\ ``true``，Light2D将只在编辑场景时出现。
 
 ----
 
@@ -204,7 +204,7 @@ Light2D的能量值。该值越大，光线就越强。
 | *Getter*  | get_mode()      |
 +-----------+-----------------+
 
-Light2D的模式。参阅:ref:`Mode<enum_Light2D_Mode>`\ 常数的值。
+Light2D的模式。参阅\ :ref:`Mode<enum_Light2D_Mode>`\ 常数的值。
 
 ----
 
@@ -300,7 +300,7 @@ Light2D的高度。与2D法线贴图(normal mapping)一起使用。
 | *Getter*  | get_z_range_max()      |
 +-----------+------------------------+
 
-受Light2D影响的物体的最大``z``\ 值。
+受Light2D影响的物体的最大\ ``z``\ 值。
 
 ----
 
@@ -316,7 +316,7 @@ Light2D的高度。与2D法线贴图(normal mapping)一起使用。
 | *Getter*  | get_z_range_min()      |
 +-----------+------------------------+
 
-受Light2D影响的物体的最小``z``\ 值。
+受Light2D影响的物体的最小\ ``z``\ 值。
 
 ----
 
@@ -348,7 +348,7 @@ Light2D的高度。与2D法线贴图(normal mapping)一起使用。
 | *Getter*  | get_shadow_color()      |
 +-----------+-------------------------+
 
-Light2D投下的影子的颜色:ref:`Color<class_Color>`。
+Light2D投下的影子的颜色\ :ref:`Color<class_Color>`。
 
 ----
 
@@ -364,7 +364,7 @@ Light2D投下的影子的颜色:ref:`Color<class_Color>`。
 | *Getter*  | is_shadow_enabled()       |
 +-----------+---------------------------+
 
-如果``true``，Light2D将投下阴影。
+如果\ ``true``，Light2D将投下阴影。
 
 ----
 
@@ -380,7 +380,7 @@ Light2D投下的影子的颜色:ref:`Color<class_Color>`。
 | *Getter*  | get_shadow_filter()      |
 +-----------+--------------------------+
 
-阴影过滤器类型。相关可能的值，参阅:ref:`ShadowFilter<enum_Light2D_ShadowFilter>` 阴影过滤器。
+阴影过滤器类型。相关可能的值，参阅\ :ref:`ShadowFilter<enum_Light2D_ShadowFilter>` 阴影过滤器。
 
 ----
 
@@ -428,7 +428,7 @@ Light2D投下的影子的颜色:ref:`Color<class_Color>`。
 | *Getter*  | get_item_shadow_cull_mask()      |
 +-----------+----------------------------------+
 
-阴影遮罩。与:ref:`LightOccluder2D<class_LightOccluder2D>`\ 一起使用来投射阴影。只有具有匹配的光线遮罩的遮挡物才会投射阴影。
+阴影遮罩。与\ :ref:`LightOccluder2D<class_LightOccluder2D>`\ 一起使用来投射阴影。只有具有匹配的光线遮罩的遮挡物才会投射阴影。
 
 ----
 
@@ -442,7 +442,7 @@ Light2D投下的影子的颜色:ref:`Color<class_Color>`。
 | *Getter* | get_texture()      |
 +----------+--------------------+
 
-用于Light2D外观的:ref:`Texture<class_Texture>`。
+用于Light2D外观的\ :ref:`Texture<class_Texture>`。
 
 ----
 

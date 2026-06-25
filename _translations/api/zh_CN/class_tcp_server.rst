@@ -16,7 +16,7 @@ TCP服务器。
 Description
 -----------
 
-一个TCP服务器。在一个端口上监听连接，当它得到一个传入的连接时返回一个:ref:`StreamPeerTCP<class_StreamPeerTCP>`。
+一个TCP服务器。在一个端口上监听连接，当它得到一个传入的连接时返回一个\ :ref:`StreamPeerTCP<class_StreamPeerTCP>`。
 
 Methods
 -------
@@ -40,7 +40,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_connection_available** **(** **)** |const|
 
-如果有一个连接可用，返回``true``。
+如果有一个连接可用，返回\ ``true``。
 
 ----
 
@@ -56,13 +56,13 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **listen** **(** :ref:`int<class_int>` port, :ref:`String<class_String>` bind_address="*" **)**
 
-在``port``\ 上监听与``bind_address``\ 绑定的地址。
+在\ ``port``\ 上监听与\ ``bind_address``\ 绑定的地址。
 
-如果``bind_address``\ 被设置为``"*"``（默认），服务器将监听所有可用地址（包括IPv4和IPv6）。
+如果\ ``bind_address``\ 被设置为\ ``"*"``\ （默认），服务器将监听所有可用地址（包括IPv4和IPv6）。
 
-如果``bind_address``\ 被设置为``"0.0.0.0"``（用于IPv4）或``":"``（用于IPv6），服务器将监听所有符合该IP类型的可用地址。
+如果\ ``bind_address``\ 被设置为\ ``"0.0.0.0"``\ （用于IPv4）或\ ``":"``\ （用于IPv6），服务器将监听所有符合该IP类型的可用地址。
 
-如果``bind_address``\ 被设置为任何有效的地址（例如``"192.168.1.101"``，``":1"``，等等），服务器将只在具有该地址的接口上监听（如果不存在具有该地址的接口则失败）。
+如果\ ``bind_address``\ 被设置为任何有效的地址（例如\ ``"192.168.1.101"``，``":1"``，等等），服务器将只在具有该地址的接口上监听（如果不存在具有该地址的接口则失败）。
 
 ----
 

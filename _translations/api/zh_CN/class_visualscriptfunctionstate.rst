@@ -16,7 +16,7 @@ VisualScriptFunctionState
 Description
 -----------
 
-``VisualScriptFunctionState``\ 从:ref:`VisualScriptYield<class_VisualScriptYield>`\ 返回，可用于恢复暂停的函数调用。
+``VisualScriptFunctionState``\ 从\ :ref:`VisualScriptYield<class_VisualScriptYield>`\ 返回，可用于恢复暂停的函数调用。
 
 Methods
 -------

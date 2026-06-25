@@ -117,7 +117,7 @@ Property Descriptions
 | *Getter*  | get_rumble()      |
 +-----------+-------------------+
 
-控制器振动的程度。范围从``0.0``\ 到``1.0``，精度``.01``。如果更改，会相应地更新:ref:`ARVRPositionalTracker.rumble<class_ARVRPositionalTracker_property_rumble>`。
+控制器振动的程度。范围从\ ``0.0``\ 到\ ``1.0``，精度\ ``.01``。如果更改，会相应地更新\ :ref:`ARVRPositionalTracker.rumble<class_ARVRPositionalTracker_property_rumble>`。
 
 如果你想让控制器在限定时间内振动，这是一个有用的属性，可以将其动画化。
 
@@ -136,7 +136,7 @@ Method Descriptions
 
 - :ref:`TrackerHand<enum_ARVRPositionalTracker_TrackerHand>` **get_hand** **(** **)** |const|
 
-返回持有此控制器的手，如果知道的话。参阅:ref:`TrackerHand<enum_ARVRPositionalTracker_TrackerHand>`。
+返回持有此控制器的手，如果知道的话。参阅\ :ref:`TrackerHand<enum_ARVRPositionalTracker_TrackerHand>`。
 
 ----
 
@@ -144,7 +144,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **get_is_active** **(** **)** |const|
 
-如果绑定的控制器处于活动状态，返回``true``。ARVR系统尝试跟踪活动的控制器。
+如果绑定的控制器处于活动状态，返回\ ``true``。ARVR系统尝试跟踪活动的控制器。
 
 ----
 
@@ -176,7 +176,7 @@ Returns the ID of the joystick object bound to this. Every controller tracked by
 
 - :ref:`int<class_int>` **is_button_pressed** **(** :ref:`int<class_int>` button **)** |const|
 
-如果索引``button``\ 处的按钮被按下，返回``true``。参阅:ref:`JoystickList<enum_@GlobalScope_JoystickList>`，特别是``JOY_VR_*``\ 常数。
+如果索引\ ``button``\ 处的按钮被按下，返回\ ``true``。参阅\ :ref:`JoystickList<enum_@GlobalScope_JoystickList>`，特别是\ ``JOY_VR_*``\ 常数。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

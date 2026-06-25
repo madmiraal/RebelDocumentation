@@ -18,13 +18,13 @@ Description
 
 GridMap允许你以交互方式将meshes网格放置在网格上。它既可以在编辑器中进行，也可以从脚本中进行，这可以帮助你在游戏中创建关卡编辑器。
 
-GridMaps使用:ref:`MeshLibrary<class_MeshLibrary>`，其中包含了一个图块的列表。每一个图块都是一个带有材质的网格，加上可选的碰撞和导航形状。
+GridMaps使用\ :ref:`MeshLibrary<class_MeshLibrary>`，其中包含了一个图块的列表。每一个图块都是一个带有材质的网格，加上可选的碰撞和导航形状。
 
-GridMap包含一个单元格的集合。每个网格单元指的是:ref:`MeshLibrary<class_MeshLibrary>`\ 中的一个图块。地图中的所有单元都有相同的尺寸。
+GridMap包含一个单元格的集合。每个网格单元指的是\ :ref:`MeshLibrary<class_MeshLibrary>`\ 中的一个图块。地图中的所有单元都有相同的尺寸。
 
 在内部，GridMap被分割成一个松散的八边形集合，以便有效地进行渲染和物理处理。每个八角形都有相同的尺寸，可以包含多个单元。
 
-**注意：**GridMap 没有扩展 :ref:`VisualInstance<class_VisualInstance>`，因此无法根据 :ref:`VisualInstance.layers<class_VisualInstance_property_layers>` 进行隐藏或剔除遮挡。如果你让灯光不影响第一层，整个 GridMap 就都不会被相关的灯光照亮。
+**注意：**\ GridMap 没有扩展 :ref:`VisualInstance<class_VisualInstance>`，因此无法根据 :ref:`VisualInstance.layers<class_VisualInstance_property_layers>` 进行隐藏或剔除遮挡。如果你让灯光不影响第一层，整个 GridMap 就都不会被相关的灯光照亮。
 
 Tutorials
 ---------
@@ -128,7 +128,7 @@ Property Descriptions
 | *Getter*  | get_center_x()      |
 +-----------+---------------------+
 
-如果``true``，则网格项以X轴为中心。
+如果\ ``true``，则网格项以X轴为中心。
 
 ----
 
@@ -212,7 +212,7 @@ Property Descriptions
 
 网格单元的尺寸。
 
-这并不影响网格的尺寸大小。参阅:ref:`cell_scale<class_GridMap_property_cell_scale>`。
+这并不影响网格的尺寸大小。参阅\ :ref:`cell_scale<class_GridMap_property_cell_scale>`。
 
 ----
 
@@ -260,7 +260,7 @@ Gridmap作为静态体，意味着它们不会受到重力或是其他力的影�
 | *Getter* | get_mesh_library()      |
 +----------+-------------------------+
 
-指定的:ref:`MeshLibrary<class_MeshLibrary>`。
+指定的\ :ref:`MeshLibrary<class_MeshLibrary>`。
 
 ----
 
@@ -305,7 +305,7 @@ Method Descriptions
 
 - :ref:`Array<class_Array>` **get_bake_meshes** **(** **)**
 
-返回当前GridMap中存在的所有烘焙网格的:ref:`ArrayMesh<class_ArrayMesh>`\ 和:ref:`Transform<class_Transform>`\ 引用的数组。
+返回当前GridMap中存在的所有烘焙网格的\ :ref:`ArrayMesh<class_ArrayMesh>`\ 和\ :ref:`Transform<class_Transform>`\ 引用的数组。
 
 ----
 
@@ -329,7 +329,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **get_collision_layer_bit** **(** :ref:`int<class_int>` bit **)** |const|
 
-返回:ref:`collision_layer<class_GridMap_property_collision_layer>`\ 上的一个单独像素点。
+返回\ :ref:`collision_layer<class_GridMap_property_collision_layer>`\ 上的一个单独像素点。
 
 ----
 
@@ -337,7 +337,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **get_collision_mask_bit** **(** :ref:`int<class_int>` bit **)** |const|
 
-返回:ref:`collision_mask<class_GridMap_property_collision_mask>`\ 上的一个独立像素。
+返回\ :ref:`collision_mask<class_GridMap_property_collision_mask>`\ 上的一个独立像素。
 
 ----
 
@@ -399,7 +399,7 @@ Method Descriptions
 
 - void **set_collision_layer_bit** **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**
 
-在:ref:`collision_layer<class_GridMap_property_collision_layer>`\ 上设置独立像素。
+在\ :ref:`collision_layer<class_GridMap_property_collision_layer>`\ 上设置独立像素。
 
 ----
 
@@ -407,7 +407,7 @@ Method Descriptions
 
 - void **set_collision_mask_bit** **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**
 
-在:ref:`collision_mask<class_GridMap_property_collision_mask>`\ 上设置独立像素。
+在\ :ref:`collision_mask<class_GridMap_property_collision_mask>`\ 上设置独立像素。
 
 ----
 
