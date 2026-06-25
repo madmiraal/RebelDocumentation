@@ -11,12 +11,12 @@ SkeletonIK
 
 **Inherits:** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-SkeletonIK用于将:ref:`Skeleton<class_Skeleton>`\ 骨链的末端骨骼置于3D中的某一点，并相应地旋转骨链中的所有骨骼。
+SkeletonIK用于将\ :ref:`Skeleton<class_Skeleton>`\ 骨链的末端骨骼置于3D中的某一点，并相应地旋转骨链中的所有骨骼。
 
 Description
 -----------
 
-SkeletonIK用于将:ref:`Skeleton<class_Skeleton>`\ 骨链的末端骨骼放置在3D某一点上，并相应地旋转骨链中的所有骨骼。游戏中IK的典型场景是将角色的脚放在地面上，或者将角色的手放在当前持有的物体上。SkeletonIK在内部使用FabrikInverseKinematic来解决骨骼链，并将结果应用于:ref:`Skeleton<class_Skeleton>` ``bones_global_pose_override``\ 属性中所有受影响的骨骼链。如果完全应用，这将覆盖任何来自:ref:`Animation<class_Animation>`\ 的骨骼变换或用户设置的骨骼自定义姿势。应用量可以用``interpolation``\ 属性来控制。
+SkeletonIK用于将\ :ref:`Skeleton<class_Skeleton>`\ 骨链的末端骨骼放置在3D某一点上，并相应地旋转骨链中的所有骨骼。游戏中IK的典型场景是将角色的脚放在地面上，或者将角色的手放在当前持有的物体上。SkeletonIK在内部使用FabrikInverseKinematic来解决骨骼链，并将结果应用于\ :ref:`Skeleton<class_Skeleton>` ``bones_global_pose_override``\ 属性中所有受影响的骨骼链。如果完全应用，这将覆盖任何来自\ :ref:`Animation<class_Animation>`\ 的骨骼变换或用户设置的骨骼自定义姿势。应用量可以用\ ``interpolation``\ 属性来控制。
 
 ::
 
@@ -155,7 +155,7 @@ IK解算器使用的迭代循环的数量，以产生更准确（和优雅）的
 | *Getter*  | is_override_tip_basis()       |
 +-----------+-------------------------------+
 
-如果``true``，则用 :ref:`target<class_SkeletonIK_property_target>` （或者如果定义了:ref:`target_node<class_SkeletonIK_property_target_node>`]）的旋转覆盖尖端骨骼的旋转。
+如果\ ``true``，则用 :ref:`target<class_SkeletonIK_property_target>` （或者如果定义了\ :ref:`target_node<class_SkeletonIK_property_target_node>`]）的旋转覆盖尖端骨骼的旋转。
 
 ----
 
@@ -203,7 +203,7 @@ IK解算器使用的迭代循环的数量，以产生更准确（和优雅）的
 | *Getter*  | get_target_node()      |
 +-----------+------------------------+
 
-IK链的目标节点:ref:`NodePath<class_NodePath>`。如果有的话，将使用节点当前的:ref:`Transform<class_Transform>`，而不是:ref:`target<class_SkeletonIK_property_target>`\ 属性。
+IK链的目标节点\ :ref:`NodePath<class_NodePath>`。如果有的话，将使用节点当前的\ :ref:`Transform<class_Transform>`，而不是\ :ref:`target<class_SkeletonIK_property_target>`\ 属性。
 
 ----
 
@@ -235,7 +235,7 @@ IK链的目标节点:ref:`NodePath<class_NodePath>`。如果有的话，将使�
 | *Getter*  | is_using_magnet()     |
 +-----------+-----------------------+
 
-如果``true``，指示IK求解器在解算器链时考虑次要磁铁目标（极点目标）。使用磁铁位置（磁极目标）来控制IK链的弯曲。
+如果\ ``true``，指示IK求解器在解算器链时考虑次要磁铁目标（极点目标）。使用磁铁位置（磁极目标）来控制IK链的弯曲。
 
 Method Descriptions
 -------------------

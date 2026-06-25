@@ -124,7 +124,7 @@ Sets the cull mask which determines what objects are drawn by this probe. Every 
 | *Getter*  | are_shadows_enabled()     |
 +-----------+---------------------------+
 
-如果``true``，则在反射探测中计算阴影。这使得反射探针渲染更慢;如果想禁用它,可以使用 :ref:`UPDATE_ALWAYS<class_ReflectionProbe_constant_UPDATE_ALWAYS>` :ref:`update_mode<class_ReflectionProbe_property_update_mode>`。
+如果\ ``true``，则在反射探测中计算阴影。这使得反射探针渲染更慢;如果想禁用它,可以使用 :ref:`UPDATE_ALWAYS<class_ReflectionProbe_constant_UPDATE_ALWAYS>` :ref:`update_mode<class_ReflectionProbe_property_update_mode>`。
 
 ----
 
@@ -174,7 +174,7 @@ The size of the reflection probe. The larger the extents the more space covered 
 | *Getter*  | get_interior_ambient()      |
 +-----------+-----------------------------+
 
-设置环境光的颜色，当此探针被设置为:ref:`interior_enable<class_ReflectionProbe_property_interior_enable>`\ 时使用。
+设置环境光的颜色，当此探针被设置为\ :ref:`interior_enable<class_ReflectionProbe_property_interior_enable>`\ 时使用。
 
 ----
 
@@ -206,7 +206,7 @@ The size of the reflection probe. The larger the extents the more space covered 
 | *Getter*  | get_interior_ambient_energy()      |
 +-----------+------------------------------------+
 
-当设置为:ref:`interior_enable<class_ReflectionProbe_property_interior_enable>`\ 时，为该反射探针的环境光贡献设置能量乘数。
+当设置为\ :ref:`interior_enable<class_ReflectionProbe_property_interior_enable>`\ 时，为该反射探针的环境光贡献设置能量乘数。
 
 ----
 
@@ -222,7 +222,7 @@ The size of the reflection probe. The larger the extents the more space covered 
 | *Getter*  | is_set_as_interior()   |
 +-----------+------------------------+
 
-如果``true``，反射将忽略天空的贡献。然后环境照明由``internal_ambient_*``\ 属性控制。
+如果\ ``true``，反射将忽略天空的贡献。然后环境照明由\ ``internal_ambient_*``\ 属性控制。
 
 ----
 

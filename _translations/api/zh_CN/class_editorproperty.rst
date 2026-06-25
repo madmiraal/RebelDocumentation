@@ -16,7 +16,7 @@ EditorProperty
 Description
 -----------
 
-该控件可以将一个或多个属性编辑到:ref:`EditorInspector<class_EditorInspector>`\ 中。通过:ref:`EditorInspectorPlugin<class_EditorInspectorPlugin>`\ 添加。
+该控件可以将一个或多个属性编辑到\ :ref:`EditorInspector<class_EditorInspector>`\ 中。通过\ :ref:`EditorInspectorPlugin<class_EditorInspectorPlugin>`\ 添加。
 
 Properties
 ----------
@@ -61,7 +61,7 @@ Signals
 
 - **multiple_properties_changed** **(** :ref:`PoolStringArray<class_PoolStringArray>` properties, :ref:`Array<class_Array>` value **)**
 
-如果你想同时修改多个属性，请触发它。如果通过:ref:`EditorInspectorPlugin.parse_property<class_EditorInspectorPlugin_method_parse_property>`\ 添加，则不要使用。
+如果你想同时修改多个属性，请触发它。如果通过\ :ref:`EditorInspectorPlugin.parse_property<class_EditorInspectorPlugin_method_parse_property>`\ 添加，则不要使用。
 
 ----
 
@@ -134,7 +134,7 @@ Property Descriptions
 | *Getter*  | is_checkable()       |
 +-----------+----------------------+
 
-在检查面板使用，当属性可点击时，设置为``true``。
+在检查面板使用，当属性可点击时，设置为\ ``true``。
 
 ----
 
@@ -150,7 +150,7 @@ Property Descriptions
 | *Getter*  | is_checked()       |
 +-----------+--------------------+
 
-在检查面板使用，当属性为可选中时，设置属性为``true``。
+在检查面板使用，当属性为可选中时，设置属性为\ ``true``。
 
 ----
 
@@ -166,7 +166,7 @@ Property Descriptions
 | *Getter*  | is_draw_red()       |
 +-----------+---------------------+
 
-由检查器使用，当属性用编辑器主题的警告颜色着色时，设置为``true``。这用于可编辑的子节点的属性。
+由检查器使用，当属性用编辑器主题的警告颜色着色时，设置为\ ``true``。这用于可编辑的子节点的属性。
 
 ----
 
@@ -182,7 +182,7 @@ Property Descriptions
 | *Getter*  | is_keying()       |
 +-----------+-------------------+
 
-在检查面板使用，设置为``true``\ 时，该属性可以为动画添加键。
+在检查面板使用，设置为\ ``true``\ 时，该属性可以为动画添加键。
 
 ----
 
@@ -214,7 +214,7 @@ Property Descriptions
 | *Getter*  | is_read_only()       |
 +-----------+----------------------+
 
-在检查面板使用，当属性为只读时，设置为``true``。
+在检查面板使用，当属性为只读时，设置为\ ``true``。
 
 Method Descriptions
 -------------------
@@ -231,7 +231,7 @@ Method Descriptions
 
 - void **emit_changed** **(** :ref:`String<class_String>` property, :ref:`Variant<class_Variant>` value, :ref:`String<class_String>` field="", :ref:`bool<class_bool>` changing=false **)**
 
-如果一个或几个属性发生了变化，必然会调用这个函数。``field``\ 是在你的编辑器可以单独修改字段的情况下使用的（比如Vector3.x）。``changing``\ 参数可以避免编辑器要求刷新这个属性(如果不确定的话，就用``false``)。
+如果一个或几个属性发生了变化，必然会调用这个函数。``field``\ 是在你的编辑器可以单独修改字段的情况下使用的（比如Vector3.x）。``changing``\ 参数可以避免编辑器要求刷新这个属性(如果不确定的话，就用\ ``false``)。
 
 ----
 
@@ -247,7 +247,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **get_edited_property** **(** **)**
 
-获取已编辑的属性。如果你的编辑器是针对单个属性的（通过:ref:`EditorInspectorPlugin.parse_property<class_EditorInspectorPlugin_method_parse_property>`\ 添加），那么这将返回属性。
+获取已编辑的属性。如果你的编辑器是针对单个属性的（通过\ :ref:`EditorInspectorPlugin.parse_property<class_EditorInspectorPlugin_method_parse_property>`\ 添加），那么这将返回属性。
 
 ----
 

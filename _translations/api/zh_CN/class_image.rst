@@ -16,11 +16,11 @@ Image
 Description
 -----------
 
-本地图像数据类型。包含可转换为 :ref:`ImageTexture<class_ImageTexture>` 的图像数据，并提供常用的*图像处理*方法。 ``Image`` 的最大宽度和高度是 :ref:`MAX_WIDTH<class_Image_constant_MAX_WIDTH>` 和 :ref:`MAX_HEIGHT<class_Image_constant_MAX_HEIGHT>`。
+本地图像数据类型。包含可转换为 :ref:`ImageTexture<class_ImageTexture>` 的图像数据，并提供常用的\ *图像处理*\ 方法。 ``Image`` 的最大宽度和高度是 :ref:`MAX_WIDTH<class_Image_constant_MAX_WIDTH>` 和 :ref:`MAX_HEIGHT<class_Image_constant_MAX_HEIGHT>`。
 
 ``Image`` 不能直接分配给对象的 ``texture`` 属性，例如 :ref:`Sprite<class_Sprite>`，必须先手动转换为 :ref:`ImageTexture<class_ImageTexture>`。
 
-**注意：**由于图形硬件限制，最大图像尺寸为 16384×16384 像素。较大的图像可能无法导入。
+**注意：**\ 由于图形硬件限制，最大图像尺寸为 16384×16384 像素。较大的图像可能无法导入。
 
 Tutorials
 ---------
@@ -242,67 +242,67 @@ enum **Format**:
 
 - **FORMAT_RGB8** = **4** --- OpenGL 纹理格式 ``RGB`` 具有三个部分，每个分量部分的位深度为 8。
 
-**注意：**创建 :ref:`ImageTexture<class_ImageTexture>` 时，会执行sRGB到线性色彩空间的转换。
+**注意：**\ 创建 :ref:`ImageTexture<class_ImageTexture>` 时，会执行sRGB到线性色彩空间的转换。
 
 - **FORMAT_RGBA8** = **5** --- OpenGL 纹理格式 ``RGBA`` 有四个部分，每个分量部分的位深度为 8。
 
-**注意：**创建 :ref:`ImageTexture<class_ImageTexture>` 时，会执行sRGB到线性色彩空间的转换。
+**注意：**\ 创建 :ref:`ImageTexture<class_ImageTexture>` 时，会执行sRGB到线性色彩空间的转换。
 
 - **FORMAT_RGBA4444** = **6** --- OpenGL 纹理格式 ``RGBA`` 有四个部分，每个分量部分的位深度为 4。
 
-- **FORMAT_RGBA5551** = **7** --- OpenGL纹理格式``GL_RGB5_A1``，其中RGB每个分量的深度为5位，alpha为1位。
+- **FORMAT_RGBA5551** = **7** --- OpenGL纹理格式\ ``GL_RGB5_A1``，其中RGB每个分量的深度为5位，alpha为1位。
 
 - **FORMAT_RF** = **8** --- OpenGL 纹理格式 ``GL_R32F``，其中有一个分量，是32 位浮点值。
 
 - **FORMAT_RGF** = **9** --- OpenGL 纹理格式 ``GL_RG32F`` 这里有两个部分，每个部分是一个 32 位浮点值。
 
-- **FORMAT_RGBF** = **10** --- OpenGL纹理格式``GL_RGB32F``，其中有三个部分，每个部分都是32位浮点值。
+- **FORMAT_RGBF** = **10** --- OpenGL纹理格式\ ``GL_RGB32F``，其中有三个部分，每个部分都是32位浮点值。
 
-- **FORMAT_RGBAF** = **11** --- OpenGL纹理格式``GL_RGBA32F``，其中有四个部分，每个部分都是32位浮点值。
+- **FORMAT_RGBAF** = **11** --- OpenGL纹理格式\ ``GL_RGBA32F``，其中有四个部分，每个部分都是32位浮点值。
 
-- **FORMAT_RH** = **12** --- OpenGL纹理格式``GL_R32F``，其中有一个分量，即16位 "半精度 "浮点值。
+- **FORMAT_RH** = **12** --- OpenGL纹理格式\ ``GL_R32F``，其中有一个分量，即16位 "半精度 "浮点值。
 
-- **FORMAT_RGH** = **13** --- OpenGL纹理格式``GL_RG32F``，其中有两个部分，每个部分都是16位 "半精度 "浮点值。
+- **FORMAT_RGH** = **13** --- OpenGL纹理格式\ ``GL_RG32F``，其中有两个部分，每个部分都是16位 "半精度 "浮点值。
 
-- **FORMAT_RGBH** = **14** --- OpenGL纹理格式``GL_RGB32F``，其中有三个部分，每个部分都是16位 "半精度 "浮点值。
+- **FORMAT_RGBH** = **14** --- OpenGL纹理格式\ ``GL_RGB32F``，其中有三个部分，每个部分都是16位 "半精度 "浮点值。
 
-- **FORMAT_RGBAH** = **15** --- OpenGL纹理格式``GL_RGBA32F``，其中有四个部分，每个都是16位"半精度 "浮点值。
+- **FORMAT_RGBAH** = **15** --- OpenGL纹理格式\ ``GL_RGBA32F``，其中有四个部分，每个都是16位"半精度 "浮点值。
 
 - **FORMAT_RGBE9995** = **16** --- 一种特殊的OpenGL纹理格式，其中三个颜色成分的精度为9位，所有三个成分共享一个5比特位的指数。
 
 - **FORMAT_DXT1** = **17** --- `S3TC <https://en.wikipedia.org/wiki/S3_Texture_Compression>`__ 纹理格式使用块压缩1,并且是S3TC的最小变化,仅提供1位的alpha和颜色数据 预乘以alpha.
 
-**注意：**创建 ImageTexture 时，将执行 sRGB 到线性色彩空间的转换。
+**注意：**\ 创建 ImageTexture 时，将执行 sRGB 到线性色彩空间的转换。
 
-- **FORMAT_DXT3** = **18** --- 使用块压缩2的`S3TC <https://en.wikipedia.org/wiki/S3_Texture_Compression>`__贴图格式,并且颜色数据被解析为没有与alpha预先相乘.非常适用于具有 半透明和不透明区域之间的清晰的alpha过渡.
+- **FORMAT_DXT3** = **18** --- 使用块压缩2的\ `S3TC <https://en.wikipedia.org/wiki/S3_Texture_Compression>`__\ 贴图格式,并且颜色数据被解析为没有与alpha预先相乘.非常适用于具有 半透明和不透明区域之间的清晰的alpha过渡.
 
-**注意:**创建ImageTexture时,将执行sRGB到线性色彩空间的转换.
+**注意:**\ 创建ImageTexture时,将执行sRGB到线性色彩空间的转换.
 
 - **FORMAT_DXT5** = **19** --- `S3TC <https://en.wikipedia.org/wiki/S3_Texture_Compression>`__ 纹理格式也称为块压缩3或BC3,其中包含64位的alpha通道数据,后跟64位的DXT1编码 颜色数据:颜色数据不会与DXT3预先乘以alpha.与DXT3相比,DXT5对于透明渐变通常会产生更好的结果.
 
-**注意：**创建 ImageTexture 时，将执行 sRGB 到线性色彩空间的转换。
+**注意：**\ 创建 ImageTexture 时，将执行 sRGB 到线性色彩空间的转换。
 
-- **FORMAT_RGTC_R** = **20** --- 使用 `红绿贴图压缩 <https://www.khronos.org/opengl/wiki/Red_Green_Texture_Compression>`__的贴图格式,使用与DXT5用于alpha通道相同的压缩算法对红色通道数据进行归一化.
+- **FORMAT_RGTC_R** = **20** --- 使用 `红绿贴图压缩 <https://www.khronos.org/opengl/wiki/Red_Green_Texture_Compression>`__\ 的贴图格式,使用与DXT5用于alpha通道相同的压缩算法对红色通道数据进行归一化.
 
-- **FORMAT_RGTC_RG** = **21** --- 使用 `红绿贴图压缩 <https://www.khronos.org/opengl/wiki/Red_Green_Texture_Compression>`__的贴图格式,使用与DXT5用于alpha的压缩算法相同的红绿数据通道.
+- **FORMAT_RGTC_RG** = **21** --- 使用 `红绿贴图压缩 <https://www.khronos.org/opengl/wiki/Red_Green_Texture_Compression>`__\ 的贴图格式,使用与DXT5用于alpha的压缩算法相同的红绿数据通道.
 
 - **FORMAT_BPTC_RGBA** = **22** --- 使用 `BPTC压缩 <https://www.khronos.org/opengl/wiki/BPTC_Texture_Compression>`__ 和无符号归一化RGBA分量的贴图格式.
 
-**注意:**创建:ref:`ImageTexture<class_ImageTexture>`\ 时,将执行sRGB到线性色彩空间的转换.
+**注意:**\ 创建\ :ref:`ImageTexture<class_ImageTexture>`\ 时,将执行sRGB到线性色彩空间的转换.
 
 - **FORMAT_BPTC_RGBF** = **23** --- 使用 `BPTC <https://www.khronos.org/opengl/wiki/BPTC_Texture_Compression>`__ 压缩和有符号浮点RGB分量的贴图格式.
 
-- **FORMAT_BPTC_RGBFU** = **24** --- 使用`BPTC <https://www.khronos.org/opengl/wiki/BPTC_Texture_Compression>`__ 压缩和无符号浮点RGB分量的贴图格式.
+- **FORMAT_BPTC_RGBFU** = **24** --- 使用\ `BPTC <https://www.khronos.org/opengl/wiki/BPTC_Texture_Compression>`__ 压缩和无符号浮点RGB分量的贴图格式.
 
-- **FORMAT_PVRTC2** = **25** --- PowerVR支持的移动平台上使用的贴图格式,使用2位颜色深度,没有alpha.更多信息可以在 `这里 <https://en.wikipedia.org/wiki/PVRTC>`__找到.
+- **FORMAT_PVRTC2** = **25** --- PowerVR支持的移动平台上使用的贴图格式,使用2位颜色深度,没有alpha.更多信息可以在 `这里 <https://en.wikipedia.org/wiki/PVRTC>`__\ 找到.
 
-**注意：**在创建ImageTexture时,会进行sRGB到线性色彩空间的转换.
+**注意：**\ 在创建ImageTexture时,会进行sRGB到线性色彩空间的转换.
 
-- **FORMAT_PVRTC2A** = **26** --- 与 `PVRTC2 <https://en.wikipedia.org/wiki/PVRTC>`__相同,但带有alpha组件.
+- **FORMAT_PVRTC2A** = **26** --- 与 `PVRTC2 <https://en.wikipedia.org/wiki/PVRTC>`__\ 相同,但带有alpha组件.
 
-- **FORMAT_PVRTC4** = **27** --- 与 `PVRTC2 <https://en.wikipedia.org/wiki/PVRTC>`__相似,但具有4位色深且没有Alpha通道.
+- **FORMAT_PVRTC4** = **27** --- 与 `PVRTC2 <https://en.wikipedia.org/wiki/PVRTC>`__\ 相似,但具有4位色深且没有Alpha通道.
 
-- **FORMAT_PVRTC4A** = **28** --- 与 `PVRTC4 <https://en.wikipedia.org/wiki/PVRTC>`__相同,但带有alpha组件.
+- **FORMAT_PVRTC4A** = **28** --- 与 `PVRTC4 <https://en.wikipedia.org/wiki/PVRTC>`__\ 相同,但带有alpha组件.
 
 - **FORMAT_ETC** = **29** --- `Ericsson纹理压缩格式1 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC1>`__,又称 "ETC1",是OpenGL ES图形标准的一部分.这种格式不能存储alpha通道.
 
@@ -348,7 +348,7 @@ enum **Interpolation**:
 
 - **INTERPOLATE_BILINEAR** = **1** --- 执行双线性插值。如果调整图像大小，则图像将模糊。此模式比 :ref:`INTERPOLATE_CUBIC<class_Image_constant_INTERPOLATE_CUBIC>` 更快，但质量较低。
 
-- **INTERPOLATE_CUBIC** = **2** --- 执行三次插值.如果调整图像大小,则图像将模糊.与:ref:`INTERPOLATE_BILINEAR<class_Image_constant_INTERPOLATE_BILINEAR>`\ 相比,此模式通常会产生更好的结果,但代价是速度较慢.
+- **INTERPOLATE_CUBIC** = **2** --- 执行三次插值.如果调整图像大小,则图像将模糊.与\ :ref:`INTERPOLATE_BILINEAR<class_Image_constant_INTERPOLATE_BILINEAR>`\ 相比,此模式通常会产生更好的结果,但代价是速度较慢.
 
 - **INTERPOLATE_TRILINEAR** = **3** --- 在两个最适合的多级渐远纹理级别上分别执行双线性采样，然后在采样结果之间进行线性插值。
 
@@ -356,7 +356,7 @@ enum **Interpolation**:
 
 如果图像没有多级渐远纹理，它们将被生成并在内部使用，但不会在生成的图像之上生成多级渐远纹理。
 
-**注意：**如果你打算缩放原始图像的多个副本，最好事先对其调用 :ref:`generate_mipmaps<class_Image_method_generate_mipmaps>`，以避免在生成它们时反复浪费处理能力。
+**注意：**\ 如果你打算缩放原始图像的多个副本，最好事先对其调用 :ref:`generate_mipmaps<class_Image_method_generate_mipmaps>`，以避免在生成它们时反复浪费处理能力。
 
 另一方面，如果图像已经有了多级渐远纹理，其将被使用，并为生成的图像生成新的一组。
 
@@ -450,7 +450,7 @@ Property Descriptions
 | *Default* | ``{"data": PoolByteArray(  ),"format": "Lum8","height": 0,"mipmaps": false,"width": 0}`` |
 +-----------+------------------------------------------------------------------------------------------+
 
-以给定的格式保存图像的所有颜色数据。参阅:ref:`Format<enum_Image_Format>`\ 常量。
+以给定的格式保存图像的所有颜色数据。参阅\ :ref:`Format<enum_Image_Format>`\ 常量。
 
 Method Descriptions
 -------------------
@@ -467,7 +467,7 @@ Method Descriptions
 
 - void **blend_rect_mask** **(** :ref:`Image<class_Image>` src, :ref:`Image<class_Image>` mask, :ref:`Rect2<class_Rect2>` src_rect, :ref:`Vector2<class_Vector2>` dst **)**
 
-从坐标``dst``\ 处开始,对``src_rect``\ 截取区域的``src``\ 源图像使用``mask``\ 图像进行Alpha混合到此图像。``src``\ 和``mask``\ 都需要Alpha通道。如果相应的遮罩(mask)像素的Alpha不是0，在坐标``dst``\ 处的像素和``src``\ 像素将会混合。``src``\ 图像和``mask``\ 图像**必须**有相同的尺寸，即宽度和高度，但它们可以有不同的格式。
+从坐标\ ``dst``\ 处开始,对\ ``src_rect``\ 截取区域的\ ``src``\ 源图像使用\ ``mask``\ 图像进行Alpha混合到此图像。``src``\ 和\ ``mask``\ 都需要Alpha通道。如果相应的遮罩(mask)像素的Alpha不是0，在坐标\ ``dst``\ 处的像素和\ ``src``\ 像素将会混合。``src``\ 图像和\ ``mask``\ 图像\ **必须**\ 有相同的尺寸，即宽度和高度，但它们可以有不同的格式。
 
 ----
 
@@ -475,7 +475,7 @@ Method Descriptions
 
 - void **blit_rect** **(** :ref:`Image<class_Image>` src, :ref:`Rect2<class_Rect2>` src_rect, :ref:`Vector2<class_Vector2>` dst **)**
 
-将指定``src``\ 源图像按``dst``\ 为起点坐标，以 ``src_rect`` 为矩形截取区域复制到此图像中。
+将指定\ ``src``\ 源图像按\ ``dst``\ 为起点坐标，以 ``src_rect`` 为矩形截取区域复制到此图像中。
 
 ----
 
@@ -483,7 +483,7 @@ Method Descriptions
 
 - void **blit_rect_mask** **(** :ref:`Image<class_Image>` src, :ref:`Image<class_Image>` mask, :ref:`Rect2<class_Rect2>` src_rect, :ref:`Vector2<class_Vector2>` dst **)**
 
-将指定``src``\ 源图像按``dst``\ 为起点坐标，以 ``src_rect`` 为矩形截取区域复制到此图像中。如果对应的``mask``\ 像素的alpha值不是0，``src``\ 像素将被复制到``dst``\ 上。``src`` 图像和 ``mask`` ] 图像 **必须** 具有相同的尺寸（宽度和高度），但它们可以具有不同的格式。
+将指定\ ``src``\ 源图像按\ ``dst``\ 为起点坐标，以 ``src_rect`` 为矩形截取区域复制到此图像中。如果对应的\ ``mask``\ 像素的alpha值不是0，``src``\ 像素将被复制到\ ``dst``\ 上。``src`` 图像和 ``mask`` ] 图像 **必须** 具有相同的尺寸（宽度和高度），但它们可以具有不同的格式。
 
 ----
 
@@ -515,7 +515,7 @@ Method Descriptions
 
 - void **convert** **(** :ref:`Format<enum_Image_Format>` format **)**
 
-转换图像的格式。参阅:ref:`Format<enum_Image_Format>`\ 常量。
+转换图像的格式。参阅\ :ref:`Format<enum_Image_Format>`\ 常量。
 
 ----
 
@@ -523,7 +523,7 @@ Method Descriptions
 
 - void **copy_from** **(** :ref:`Image<class_Image>` src **)**
 
-将``src``\ 图像复制到此图像。
+将\ ``src``\ 图像复制到此图像。
 
 ----
 
@@ -547,7 +547,7 @@ Method Descriptions
 
 - void **crop** **(** :ref:`int<class_int>` width, :ref:`int<class_int>` height **)**
 
-将图像裁剪成给定的``width``\ 和``height``。如果指定的尺寸大于当前尺寸，多余的区域将被填充为黑色像素。
+将图像裁剪成给定的\ ``width``\ 和\ ``height``。如果指定的尺寸大于当前尺寸，多余的区域将被填充为黑色像素。
 
 ----
 
@@ -563,7 +563,7 @@ Method Descriptions
 
 - :ref:`AlphaMode<enum_Image_AlphaMode>` **detect_alpha** **(** **)** |const|
 
-如果图像有alpha值的数据，则返回:ref:`ALPHA_BLEND<class_Image_constant_ALPHA_BLEND>`。如果所有的alpha值都存储在一个位上，则返回:ref:`ALPHA_BIT<class_Image_constant_ALPHA_BIT>`。如果没有找到alpha值的数据，则返回:ref:`ALPHA_NONE<class_Image_constant_ALPHA_NONE>`。
+如果图像有alpha值的数据，则返回\ :ref:`ALPHA_BLEND<class_Image_constant_ALPHA_BLEND>`。如果所有的alpha值都存储在一个位上，则返回\ :ref:`ALPHA_BIT<class_Image_constant_ALPHA_BIT>`。如果没有找到alpha值的数据，则返回\ :ref:`ALPHA_NONE<class_Image_constant_ALPHA_NONE>`。
 
 ----
 
@@ -613,7 +613,7 @@ Method Descriptions
 
 为图像生成多级渐远纹理。多级渐远纹理是预先计算好的图像的低分辨率副本，如果图像在渲染时需要缩小，就会自动使用。其有助于提高图像质量和渲染时的性能。如果图像被压缩，或采用自定义格式，或图像的宽度或高度为 ``0``，则此方法返回错误。
 
-**注意：**多级渐远纹理的生成是在 CPU 上完成的，是单线程的，并且*总是*在主线程上完成。这意味着在游戏过程中生成多级渐远纹理会导致明显的卡顿，即使从 :ref:`Thread<class_Thread>` 调用:ref:`generate_mipmaps<class_Image_method_generate_mipmaps>`。
+**注意：**\ 多级渐远纹理的生成是在 CPU 上完成的，是单线程的，并且\ *总是*\ 在主线程上完成。这意味着在游戏过程中生成多级渐远纹理会导致明显的卡顿，即使从 :ref:`Thread<class_Thread>` 调用\ :ref:`generate_mipmaps<class_Image_method_generate_mipmaps>`。
 
 ----
 
@@ -709,7 +709,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_compressed** **(** **)** |const|
 
-如果图像被压缩，返回``true``。
+如果图像被压缩，返回\ ``true``。
 
 ----
 
@@ -717,7 +717,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_empty** **(** **)** |const|
 
-如果图像没有数据，返回``true``。
+如果图像没有数据，返回\ ``true``。
 
 ----
 
@@ -735,7 +735,7 @@ Method Descriptions
 
 从文件 ``path`` 加载图像。请参阅 :ref:`支持的图像格式 <tutorials/assets_pipeline/importing_images:supported image formats>`，了解支持的图像格式和限制。
 
-**警告：**这个方法只能在编辑器中使用，或者在运行时需要加载外部图像的情况下使用，比如位于 ``user://`` 目录下的图像，在导出的项目中可能无法工作。
+**警告：**\ 这个方法只能在编辑器中使用，或者在运行时需要加载外部图像的情况下使用，比如位于 ``user://`` 目录下的图像，在导出的项目中可能无法工作。
 
 有关使用实例，请参阅 :ref:`ImageTexture<class_ImageTexture>` 描述。
 
@@ -803,7 +803,7 @@ Loads an image from the binary contents of a BMP file.
 
 - void **premultiply_alpha** **(** **)**
 
-将颜色值与alpha值相乘。一个像素的结果颜色值是``(color * alpha)/256``。
+将颜色值与alpha值相乘。一个像素的结果颜色值是\ ``(color * alpha)/256``。
 
 ----
 
@@ -811,7 +811,7 @@ Loads an image from the binary contents of a BMP file.
 
 - void **resize** **(** :ref:`int<class_int>` width, :ref:`int<class_int>` height, :ref:`Interpolation<enum_Image_Interpolation>` interpolation=1 **)**
 
-调整图像大小到给定的``width``\ 和``height``。新像素通过:ref:`Interpolation<enum_Image_Interpolation>`\ 常数定义的``interpolation``\ 插值模式计算。
+调整图像大小到给定的\ ``width``\ 和\ ``height``。新像素通过\ :ref:`Interpolation<enum_Image_Interpolation>`\ 常数定义的\ ``interpolation``\ 插值模式计算。
 
 ----
 
@@ -819,7 +819,7 @@ Loads an image from the binary contents of a BMP file.
 
 - void **resize_to_po2** **(** :ref:`bool<class_bool>` square=false, :ref:`Interpolation<enum_Image_Interpolation>` interpolation=1 **)**
 
-将图像的宽度和高度调整到最接近的2次方。如果``square``\ 是``true``，那么设置宽度和高度为相同。新像素通过:ref:`Interpolation<enum_Image_Interpolation>`\ 常数定义的``interpolation``\ 插值模式计算。
+将图像的宽度和高度调整到最接近的2次方。如果\ ``square``\ 是\ ``true``，那么设置宽度和高度为相同。新像素通过\ :ref:`Interpolation<enum_Image_Interpolation>`\ 常数定义的\ ``interpolation``\ 插值模式计算。
 
 ----
 
@@ -859,7 +859,7 @@ Saves the image as an EXR file to ``path``. If ``grayscale`` is ``true`` and the
 
 - void **set_pixel** **(** :ref:`int<class_int>` x, :ref:`int<class_int>` y, :ref:`Color<class_Color>` color **)**
 
-如果图像被锁定，设置``(x, y)``\ 处像素的:ref:`Color<class_Color>`。例子:
+如果图像被锁定，设置\ ``(x, y)``\ 处像素的\ :ref:`Color<class_Color>`。例子:
 
 ::
 
@@ -876,7 +876,7 @@ Saves the image as an EXR file to ``path``. If ``grayscale`` is ``true`` and the
 
 - void **set_pixelv** **(** :ref:`Vector2<class_Vector2>` dst, :ref:`Color<class_Color>` color **)**
 
-如果图像被锁定，设置``(dst.x, dst.y)``\ 处的像素的:ref:`Color<class_Color>`。注意，``dst``\ 值必须是整数。例:
+如果图像被锁定，设置\ ``(dst.x, dst.y)``\ 处的像素的\ :ref:`Color<class_Color>`。注意，``dst``\ 值必须是整数。例:
 
 ::
 

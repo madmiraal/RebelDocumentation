@@ -16,7 +16,7 @@ VisualShaderNodeCubeMap
 Description
 -----------
 
-在着色器语言中被转换成``texture(cubemap, vec3)``。返回一个颜色向量和alpha通道的标量。
+在着色器语言中被转换成\ ``texture(cubemap, vec3)``。返回一个颜色向量和alpha通道的标量。
 
 Properties
 ----------
@@ -40,9 +40,9 @@ Enumerations
 
 enum **Source**:
 
-- **SOURCE_TEXTURE** = **0** --- 使用通过:ref:`cube_map<class_VisualShaderNodeCubeMap_property_cube_map>`\ 设置的:ref:`CubeMap<class_CubeMap>`。如果这被设置为:ref:`source<class_VisualShaderNodeCubeMap_property_source>`，``samplerCube``\ 端口就会被忽略。
+- **SOURCE_TEXTURE** = **0** --- 使用通过\ :ref:`cube_map<class_VisualShaderNodeCubeMap_property_cube_map>`\ 设置的\ :ref:`CubeMap<class_CubeMap>`。如果这被设置为\ :ref:`source<class_VisualShaderNodeCubeMap_property_source>`，``samplerCube``\ 端口就会被忽略。
 
-- **SOURCE_PORT** = **1** --- 使用通过``samplerCube``\ 端口传递的:ref:`CubeMap<class_CubeMap>`\ 采样器引用。如果这被设置为:ref:`source<class_VisualShaderNodeCubeMap_property_source>`，:ref:`cube_map<class_VisualShaderNodeCubeMap_property_cube_map>`\ 纹理就会被忽略。
+- **SOURCE_PORT** = **1** --- 使用通过\ ``samplerCube``\ 端口传递的\ :ref:`CubeMap<class_CubeMap>`\ 采样器引用。如果这被设置为\ :ref:`source<class_VisualShaderNodeCubeMap_property_source>`，:ref:`cube_map<class_VisualShaderNodeCubeMap_property_cube_map>`\ 纹理就会被忽略。
 
 ----
 
@@ -58,9 +58,9 @@ enum **TextureType**:
 
 - **TYPE_DATA** = **0** --- 在uniform声明中未添加提示。
 
-- **TYPE_COLOR** = **1** --- 将``hint_albedo``\ 作为提示添加到uniform声明中，以便将sRGB转换为线性。
+- **TYPE_COLOR** = **1** --- 将\ ``hint_albedo``\ 作为提示添加到uniform声明中，以便将sRGB转换为线性。
 
-- **TYPE_NORMALMAP** = **2** --- 将``hint_normal``\ 作为提示添加到uniform声明中，该声明在内部将纹理转换为法线贴图。
+- **TYPE_NORMALMAP** = **2** --- 将\ ``hint_normal``\ 作为提示添加到uniform声明中，该声明在内部将纹理转换为法线贴图。
 
 Property Descriptions
 ---------------------
@@ -75,7 +75,7 @@ Property Descriptions
 | *Getter* | get_cube_map()      |
 +----------+---------------------+
 
-当使用:ref:`SOURCE_TEXTURE<class_VisualShaderNodeCubeMap_constant_SOURCE_TEXTURE>`\ 作为 :ref:`source<class_VisualShaderNodeCubeMap_property_source>` 时，要采样的:ref:`CubeMap<class_CubeMap>`\ 纹理。
+当使用\ :ref:`SOURCE_TEXTURE<class_VisualShaderNodeCubeMap_constant_SOURCE_TEXTURE>`\ 作为 :ref:`source<class_VisualShaderNodeCubeMap_property_source>` 时，要采样的\ :ref:`CubeMap<class_CubeMap>`\ 纹理。
 
 ----
 
@@ -91,7 +91,7 @@ Property Descriptions
 | *Getter*  | get_source()      |
 +-----------+-------------------+
 
-定义采样应该使用哪个源。参阅:ref:`Source<enum_VisualShaderNodeCubeMap_Source>`\ 的选项。
+定义采样应该使用哪个源。参阅\ :ref:`Source<enum_VisualShaderNodeCubeMap_Source>`\ 的选项。
 
 ----
 
@@ -107,7 +107,7 @@ Property Descriptions
 | *Getter*  | get_texture_type()      |
 +-----------+-------------------------+
 
-定义源纹理提供的数据类型。选项参阅:ref:`TextureType<enum_VisualShaderNodeCubeMap_TextureType>`。
+定义源纹理提供的数据类型。选项参阅\ :ref:`TextureType<enum_VisualShaderNodeCubeMap_TextureType>`。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

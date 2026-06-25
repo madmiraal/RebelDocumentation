@@ -48,9 +48,9 @@ Property Descriptions
 | *Getter* | get_bounce()      |
 +----------+-------------------+
 
-实体的弹性。值范围从``0``（无弹跳）到``1``（完全弹跳）。
+实体的弹性。值范围从\ ``0``\ （无弹跳）到\ ``1``\ （完全弹跳）。
 
-已被废弃，请通过:ref:`physics_material_override<class_StaticBody_property_physics_material_override>`\ 使用:ref:`PhysicsMaterial.bounce<class_PhysicsMaterial_property_bounce>`\ 代替。
+已被废弃，请通过\ :ref:`physics_material_override<class_StaticBody_property_physics_material_override>`\ 使用\ :ref:`PhysicsMaterial.bounce<class_PhysicsMaterial_property_bounce>`\ 代替。
 
 ----
 

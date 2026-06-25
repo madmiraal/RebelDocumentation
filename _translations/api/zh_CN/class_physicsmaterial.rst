@@ -16,7 +16,7 @@ PhysicsMaterial
 Description
 -----------
 
-提供了一种修改:ref:`PhysicsBody<class_PhysicsBody>`\ 的碰撞属性的方法。
+提供了一种修改\ :ref:`PhysicsBody<class_PhysicsBody>`\ 的碰撞属性的方法。
 
 Properties
 ----------
@@ -46,7 +46,7 @@ Property Descriptions
 | *Getter*  | is_absorbent()       |
 +-----------+----------------------+
 
-如果``true``，则从碰撞对象的弹跳性中减去弹性，而不是添加它。
+如果\ ``true``，则从碰撞对象的弹跳性中减去弹性，而不是添加它。
 
 ----
 
@@ -62,7 +62,7 @@ Property Descriptions
 | *Getter*  | get_bounce()      |
 +-----------+-------------------+
 
-实体的弹性。值的范围从``0``（无反弹）到``1``（完全反弹）。
+实体的弹性。值的范围从\ ``0``\ （无反弹）到\ ``1``\ （完全反弹）。
 
 ----
 
@@ -78,7 +78,7 @@ Property Descriptions
 | *Getter*  | get_friction()      |
 +-----------+---------------------+
 
-物体的摩擦。取值范围从``0``\ (无摩擦)到``1``\ (最大摩擦)。
+物体的摩擦。取值范围从\ ``0``\ (无摩擦)到\ ``1``\ (最大摩擦)。
 
 ----
 

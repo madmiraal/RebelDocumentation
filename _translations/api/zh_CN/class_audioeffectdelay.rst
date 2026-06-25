@@ -82,7 +82,7 @@ Property Descriptions
 | *Getter*  | is_feedback_active()       |
 +-----------+----------------------------+
 
-如果``true``，则启用反馈。
+如果\ ``true``，则启用反馈。
 
 ----
 
@@ -146,7 +146,7 @@ Property Descriptions
 | *Getter*  | is_tap1_active()       |
 +-----------+------------------------+
 
-如果``true``，将启用``tap1``。
+如果\ ``true``，将启用\ ``tap1``。
 
 ----
 
@@ -210,7 +210,7 @@ Property Descriptions
 | *Getter*  | is_tap2_active()       |
 +-----------+------------------------+
 
-如果``true``，将启用``tap2``。
+如果\ ``true``，将启用\ ``tap2``。
 
 ----
 
@@ -226,7 +226,7 @@ Property Descriptions
 | *Getter*  | get_tap2_delay_ms()      |
 +-----------+--------------------------+
 
-**Tap2**延迟时间，单位为毫秒。
+**Tap2**\ 延迟时间，单位为毫秒。
 
 ----
 

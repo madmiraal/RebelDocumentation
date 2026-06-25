@@ -62,7 +62,7 @@ enum **SaverFlags**:
 
 - **FLAG_COMPRESS** = **32** --- 在保存时使用 :ref:`File.COMPRESSION_ZSTD<class_File_constant_COMPRESSION_ZSTD>` 压缩资源。仅适用于二进制资源类型。
 
-- **FLAG_REPLACE_SUBRESOURCE_PATHS** = **64** --- 接管保存的子资源的路径（见:ref:`Resource.take_over_path<class_Resource_method_take_over_path>`）。
+- **FLAG_REPLACE_SUBRESOURCE_PATHS** = **64** --- 接管保存的子资源的路径（见\ :ref:`Resource.take_over_path<class_Resource_method_take_over_path>`）。
 
 Method Descriptions
 -------------------
@@ -79,11 +79,11 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **save** **(** :ref:`String<class_String>` path, :ref:`Resource<class_Resource>` resource, :ref:`SaverFlags<enum_ResourceSaver_SaverFlags>` flags=0 **)**
 
-使用识别资源对象的:ref:`ResourceFormatSaver<class_ResourceFormatSaver>`\ 将资源保存到给定路径的磁盘。
+使用识别资源对象的\ :ref:`ResourceFormatSaver<class_ResourceFormatSaver>`\ 将资源保存到给定路径的磁盘。
 
 可以指定 ``flags`` 位掩码来自定义保存行为。
 
-成功后返回:ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`。
+成功后返回\ :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

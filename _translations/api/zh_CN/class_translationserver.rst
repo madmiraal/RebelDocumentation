@@ -53,7 +53,7 @@ Method Descriptions
 
 - void **add_translation** **(** :ref:`Translation<class_Translation>` translation **)**
 
-添加一个:ref:`Translation<class_Translation>`\ 翻译资源。
+添加一个\ :ref:`Translation<class_Translation>`\ 翻译资源。
 
 ----
 
@@ -103,7 +103,7 @@ Method Descriptions
 
 - void **set_locale** **(** :ref:`String<class_String>` locale **)**
 
-设置项目的区域设置。``locale`` 字符串将被标准化，以匹配已知的区域。例如，``en-US``\ 将被匹配到``en_US``。
+设置项目的区域设置。``locale`` 字符串将被标准化，以匹配已知的区域。例如，``en-US``\ 将被匹配到\ ``en_US``。
 
 如果事先已经加载了新区域的翻译，其将被应用。
 

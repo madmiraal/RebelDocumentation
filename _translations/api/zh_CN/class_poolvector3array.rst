@@ -14,7 +14,7 @@ PoolVector3Array
 Description
 -----------
 
-专门设计来容纳:ref:`Vector3<class_Vector3>`\ 的:ref:`Array<class_Array>`。对内存的使用进行了优化，不会使内存碎片化。
+专门设计来容纳\ :ref:`Vector3<class_Vector3>`\ 的\ :ref:`Array<class_Array>`。对内存的使用进行了优化，不会使内存碎片化。
 
 **注意：** 这种类型是通过值传递的，而不是引用。
 
@@ -52,7 +52,7 @@ Method Descriptions
 
 - :ref:`PoolVector3Array<class_PoolVector3Array>` **PoolVector3Array** **(** :ref:`Array<class_Array>` from **)**
 
-构建新的``PoolVector3Array``。你可以选择传入一个通用的:ref:`Array<class_Array>`，它将被转换。
+构建新的\ ``PoolVector3Array``。你可以选择传入一个通用的\ :ref:`Array<class_Array>`，它将被转换。
 
 ----
 
@@ -68,7 +68,7 @@ Method Descriptions
 
 - void **append_array** **(** :ref:`PoolVector3Array<class_PoolVector3Array>` array **)**
 
-在这个数组的最后添加``PoolVector3Array``。
+在这个数组的最后添加\ ``PoolVector3Array``。
 
 ----
 
@@ -100,7 +100,7 @@ Method Descriptions
 
 - void **push_back** **(** :ref:`Vector3<class_Vector3>` vector3 **)**
 
-在末尾插入:ref:`Vector3<class_Vector3>`。
+在末尾插入\ :ref:`Vector3<class_Vector3>`。
 
 ----
 
@@ -124,7 +124,7 @@ Method Descriptions
 
 - void **set** **(** :ref:`int<class_int>` idx, :ref:`Vector3<class_Vector3>` vector3 **)**
 
-在给定索引处更改:ref:`Vector3<class_Vector3>`。
+在给定索引处更改\ :ref:`Vector3<class_Vector3>`。
 
 ----
 

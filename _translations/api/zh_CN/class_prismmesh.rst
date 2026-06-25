@@ -11,12 +11,12 @@ PrismMesh
 
 **Inherits:** :ref:`PrimitiveMesh<class_PrimitiveMesh>` **<** :ref:`Mesh<class_Mesh>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
 
-表示棱柱形:ref:`PrimitiveMesh<class_PrimitiveMesh>`\ 的类。
+表示棱柱形\ :ref:`PrimitiveMesh<class_PrimitiveMesh>`\ 的类。
 
 Description
 -----------
 
-表示棱柱形:ref:`PrimitiveMesh<class_PrimitiveMesh>`\ 的类。
+表示棱柱形\ :ref:`PrimitiveMesh<class_PrimitiveMesh>`\ 的类。
 
 Properties
 ----------

@@ -22,7 +22,7 @@ Description
 
 压缩器在混音中的用途很多。
 
-- 在主总线上压缩整个输出（虽然:ref:`AudioEffectLimiter<class_AudioEffectLimiter>`\ 可能更好些）。
+- 在主总线上压缩整个输出（虽然\ :ref:`AudioEffectLimiter<class_AudioEffectLimiter>`\ 可能更好些）。
 
 - 在声音通道中，以确保它们听起来尽可能的平衡。
 

@@ -67,7 +67,7 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **connect_to_host** **(** :ref:`String<class_String>` host, :ref:`int<class_int>` port **)**
 
-连接到指定的 ``host:port`` 对。如果有效，将解析主机名。成功或失败时返回:ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`\ 或:ref:`@GlobalScope.FAILED<class_@GlobalScope_constant_FAILED>`。
+连接到指定的 ``host:port`` 对。如果有效，将解析主机名。成功或失败时返回\ :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`\ 或\ :ref:`@GlobalScope.FAILED<class_@GlobalScope_constant_FAILED>`。
 
 ----
 
@@ -99,7 +99,7 @@ Method Descriptions
 
 - :ref:`Status<enum_StreamPeerTCP_Status>` **get_status** **(** **)**
 
-返回连接的状态，见:ref:`Status<enum_StreamPeerTCP_Status>`。
+返回连接的状态，见\ :ref:`Status<enum_StreamPeerTCP_Status>`。
 
 ----
 
@@ -115,7 +115,7 @@ Method Descriptions
 
 - void **set_no_delay** **(** :ref:`bool<class_bool>` enabled **)**
 
-如果 ``enabled`` 为 ``true`` 时，数据包会立即发送。如果 ``enabled`` 为 ``false`` 时（默认如此），数据包会延迟发送，使用 `纳格算法 <https://zh.wikipedia.org/wiki/%E7%B4%8D%E6%A0%BC%E7%AE%97%E6%B3%95>`__合并。
+如果 ``enabled`` 为 ``true`` 时，数据包会立即发送。如果 ``enabled`` 为 ``false`` 时（默认如此），数据包会延迟发送，使用 `纳格算法 <https://zh.wikipedia.org/wiki/%E7%B4%8D%E6%A0%BC%E7%AE%97%E6%B3%95>`__\ 合并。
 
 **注意：** 如果你的应用所传输的数据包很大，或者需要传输大量数据，建议将本属性保持禁用，因为启用后可能降低总体可用带宽。
 

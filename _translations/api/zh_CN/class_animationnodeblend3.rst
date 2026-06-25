@@ -16,15 +16,15 @@ AnimationNodeBlend3
 Description
 -----------
 
-添加到 :ref:`AnimationNodeBlendTree<class_AnimationNodeBlendTree>` 的资源。根据``[-1.0，1.0]``\ 范围内的值，将三个动画中的两个动画线性地混合在一起。
+添加到 :ref:`AnimationNodeBlendTree<class_AnimationNodeBlendTree>` 的资源。根据\ ``[-1.0，1.0]``\ 范围内的值，将三个动画中的两个动画线性地混合在一起。
 
 这个节点有三个输入。
 
 - 基础动画
 
-- 当混合量在``[-1.0，0.0]``\ 范围内时，使用-混合动画进行混合。
+- 当混合量在\ ``[-1.0，0.0]``\ 范围内时，使用-混合动画进行混合。
 
-- 当混合量在``[0.0，1.0]``\ 范围内时，要使用+混合动画进行混合
+- 当混合量在\ ``[0.0，1.0]``\ 范围内时，要使用+混合动画进行混合
 
 Tutorials
 ---------
@@ -53,7 +53,7 @@ Property Descriptions
 | *Getter*  | is_using_sync()     |
 +-----------+---------------------+
 
-如果``true``，在调用:ref:`AnimationNode.blend_input<class_AnimationNode_method_blend_input>`\ 时，将``optimization`` to``false``，强制混合后的动画每一帧更新。
+如果\ ``true``，在调用\ :ref:`AnimationNode.blend_input<class_AnimationNode_method_blend_input>`\ 时，将\ ``optimization`` to\ ``false``，强制混合后的动画每一帧更新。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

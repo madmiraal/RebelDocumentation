@@ -11,12 +11,12 @@ VisualShaderNodeUniformRef
 
 **Inherits:** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
 
-对现有:ref:`VisualShaderNodeUniform<class_VisualShaderNodeUniform>`\ 的引用。
+对现有\ :ref:`VisualShaderNodeUniform<class_VisualShaderNodeUniform>`\ 的引用。
 
 Description
 -----------
 
-创建对:ref:`VisualShaderNodeUniform<class_VisualShaderNodeUniform>`\ 的引用，可以让你在不同的着色器或着色阶段轻松地重复使用这个uniform。
+创建对\ :ref:`VisualShaderNodeUniform<class_VisualShaderNodeUniform>`\ 的引用，可以让你在不同的着色器或着色阶段轻松地重复使用这个uniform。
 
 Properties
 ----------

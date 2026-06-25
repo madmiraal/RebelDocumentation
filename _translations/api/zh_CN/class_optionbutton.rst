@@ -143,7 +143,7 @@ Property Descriptions
 | *Getter*  | get_selected() |
 +-----------+----------------+
 
-当前选定项的索引，如果没有选定项，则为``-1``。
+当前选定项的索引，如果没有选定项，则为\ ``-1``。
 
 Method Descriptions
 -------------------
@@ -152,7 +152,7 @@ Method Descriptions
 
 - void **add_icon_item** **(** :ref:`Texture<class_Texture>` texture, :ref:`String<class_String>` label, :ref:`int<class_int>` id=-1 **)**
 
-添加一个项，带有``texture``\ 图标，文本``label``\ 和(可选的)``id``。如果没有传入``id``，该项的索引将被用作其id。新项将被添加至末尾。
+添加一个项，带有\ ``texture``\ 图标，文本\ ``label``\ 和(可选的)``id``。如果没有传入\ ``id``，该项的索引将被用作其id。新项将被添加至末尾。
 
 ----
 
@@ -160,7 +160,7 @@ Method Descriptions
 
 - void **add_item** **(** :ref:`String<class_String>` label, :ref:`int<class_int>` id=-1 **)**
 
-添加一个项，带有文本``label``\ 和(可选的)``id``。如果没有传入``id``，该项的索引将被用作其id。新项将被添加至末尾。
+添加一个项，带有文本\ ``label``\ 和(可选的)``id``。如果没有传入\ ``id``，该项的索引将被用作其id。新项将被添加至末尾。
 
 ----
 
@@ -176,7 +176,7 @@ Method Descriptions
 
 - void **clear** **(** **)**
 
-清除``OptionButton``\ 中的所有项目。
+清除\ ``OptionButton``\ 中的所有项目。
 
 ----
 
@@ -192,7 +192,7 @@ Method Descriptions
 
 - :ref:`Texture<class_Texture>` **get_item_icon** **(** :ref:`int<class_int>` idx **)** |const|
 
-返回索引``idx``\ 处项目的图标。
+返回索引\ ``idx``\ 处项目的图标。
 
 ----
 
@@ -200,7 +200,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_item_id** **(** :ref:`int<class_int>` idx **)** |const|
 
-返回索引``idx``\ 处项目的ID。
+返回索引\ ``idx``\ 处项目的ID。
 
 ----
 
@@ -208,7 +208,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_item_index** **(** :ref:`int<class_int>` id **)** |const|
 
-返回带有给定``id``\ 的项的索引。
+返回带有给定\ ``id``\ 的项的索引。
 
 ----
 
@@ -224,7 +224,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **get_item_text** **(** :ref:`int<class_int>` idx **)** |const|
 
-返回索引``idx``\ 处项目的文本。
+返回索引\ ``idx``\ 处项目的文本。
 
 ----
 
@@ -234,7 +234,7 @@ Method Descriptions
 
 返回这个按钮中包含的 :ref:`PopupMenu<class_PopupMenu>`。
 
-**警告：**这是一个必需的内部节点，移除和释放它可能会导致崩溃。如果你想隐藏它或它的任何子节点，请使用其 :ref:`CanvasItem.visible<class_CanvasItem_property_visible>` 属性。
+**警告：**\ 这是一个必需的内部节点，移除和释放它可能会导致崩溃。如果你想隐藏它或它的任何子节点，请使用其 :ref:`CanvasItem.visible<class_CanvasItem_property_visible>` 属性。
 
 ----
 
@@ -242,7 +242,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_selected_id** **(** **)** |const|
 
-返回所选项目的ID，如果没有选择项目，则返回``0``。
+返回所选项目的ID，如果没有选择项目，则返回\ ``0``。
 
 ----
 
@@ -250,7 +250,7 @@ Method Descriptions
 
 - :ref:`Variant<class_Variant>` **get_selected_metadata** **(** **)** |const|
 
-获取选定项的元数据。可以使用:ref:`set_item_metadata<class_OptionButton_method_set_item_metadata>`\ 设置项的元数据。
+获取选定项的元数据。可以使用\ :ref:`set_item_metadata<class_OptionButton_method_set_item_metadata>`\ 设置项的元数据。
 
 ----
 
@@ -258,7 +258,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_item_disabled** **(** :ref:`int<class_int>` idx **)** |const|
 
-如果索引``idx``\ 项被禁用，返回``true``。
+如果索引\ ``idx``\ 项被禁用，返回\ ``true``。
 
 ----
 
@@ -266,7 +266,7 @@ Method Descriptions
 
 - void **remove_item** **(** :ref:`int<class_int>` idx **)**
 
-移除索引``idx``\ 处的项目。
+移除索引\ ``idx``\ 处的项目。
 
 ----
 
@@ -282,7 +282,7 @@ Method Descriptions
 
 - void **set_item_disabled** **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` disabled **)**
 
-设置是否禁用索引``idx``\ 项。
+设置是否禁用索引\ ``idx``\ 项。
 
 禁用的项目在下拉列表中绘制的方式不同，用户无法选择。如果当前选定的项目被设置为禁用，它将保持选中状态。
 
@@ -292,7 +292,7 @@ Method Descriptions
 
 - void **set_item_icon** **(** :ref:`int<class_int>` idx, :ref:`Texture<class_Texture>` texture **)**
 
-设置在索引``idx``\ 处项的图标。
+设置在索引\ ``idx``\ 处项的图标。
 
 ----
 
@@ -300,7 +300,7 @@ Method Descriptions
 
 - void **set_item_id** **(** :ref:`int<class_int>` idx, :ref:`int<class_int>` id **)**
 
-设置在索引``idx``\ 处项的ID。
+设置在索引\ ``idx``\ 处项的ID。
 
 ----
 
@@ -316,7 +316,7 @@ Method Descriptions
 
 - void **set_item_text** **(** :ref:`int<class_int>` idx, :ref:`String<class_String>` text **)**
 
-在索引``idx``\ 处设置项的文本。
+在索引\ ``idx``\ 处设置项的文本。
 
 Theme Property Descriptions
 ---------------------------
@@ -329,7 +329,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 0.88, 0.88, 0.88, 1 )`` |
 +-----------+----------------------------------+
 
-``OptionButton``\ 的默认文本:ref:`Color<class_Color>`。
+``OptionButton``\ 的默认文本\ :ref:`Color<class_Color>`。
 
 ----
 
@@ -341,7 +341,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 0.9, 0.9, 0.9, 0.2 )`` |
 +-----------+---------------------------------+
 
-当``OptionButton``\ 被禁用时使用的文本:ref:`Color<class_Color>`。
+当\ ``OptionButton``\ 被禁用时使用的文本\ :ref:`Color<class_Color>`。
 
 ----
 
@@ -353,7 +353,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 0.94, 0.94, 0.94, 1 )`` |
 +-----------+----------------------------------+
 
-当``OptionButton``\ 获得焦点时使用的文本:ref:`Color<class_Color>`。只替换按钮的正常文本颜色。禁用、悬停和按下状态优先于这个颜色。
+当\ ``OptionButton``\ 获得焦点时使用的文本\ :ref:`Color<class_Color>`。只替换按钮的正常文本颜色。禁用、悬停和按下状态优先于这个颜色。
 
 ----
 
@@ -365,7 +365,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 0.94, 0.94, 0.94, 1 )`` |
 +-----------+----------------------------------+
 
-当鼠标悬停``OptionButton``\ 时使用的文本:ref:`Color<class_Color>`。
+当鼠标悬停\ ``OptionButton``\ 时使用的文本\ :ref:`Color<class_Color>`。
 
 ----
 
@@ -377,7 +377,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 1, 1, 1, 1 )`` |
 +-----------+-------------------------+
 
-当``OptionButton``\ 被按下时使用的文本:ref:`Color<class_Color>`。
+当\ ``OptionButton``\ 被按下时使用的文本\ :ref:`Color<class_Color>`。
 
 ----
 
@@ -409,7 +409,7 @@ Theme Property Descriptions
 
 - :ref:`Font<class_Font>` **font**
 
-``OptionButton``\ 的文本的:ref:`Font<class_Font>`。
+``OptionButton``\ 的文本的\ :ref:`Font<class_Font>`。
 
 ----
 
@@ -425,7 +425,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **disabled**
 
-当``OptionButton``\ 被禁用时使用的:ref:`StyleBox<class_StyleBox>`。
+当\ ``OptionButton``\ 被禁用时使用的\ :ref:`StyleBox<class_StyleBox>`。
 
 ----
 
@@ -433,7 +433,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **focus**
 
-当``OptionButton``\ 被聚焦时使用的:ref:`StyleBox<class_StyleBox>`。它显示在当前的:ref:`StyleBox<class_StyleBox>`\ 上，所以使用:ref:`StyleBoxEmpty<class_StyleBoxEmpty>`\ 将只是禁用焦点的视觉效果。
+当\ ``OptionButton``\ 被聚焦时使用的\ :ref:`StyleBox<class_StyleBox>`。它显示在当前的\ :ref:`StyleBox<class_StyleBox>`\ 上，所以使用\ :ref:`StyleBoxEmpty<class_StyleBoxEmpty>`\ 将只是禁用焦点的视觉效果。
 
 ----
 
@@ -441,7 +441,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **hover**
 
-当``OptionButton``\ 被鼠标悬停时使用的:ref:`StyleBox<class_StyleBox>`。
+当\ ``OptionButton``\ 被鼠标悬停时使用的\ :ref:`StyleBox<class_StyleBox>`。
 
 ----
 
@@ -449,7 +449,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **normal**
 
-``OptionButton``\ 的默认:ref:`StyleBox<class_StyleBox>`。
+``OptionButton``\ 的默认\ :ref:`StyleBox<class_StyleBox>`。
 
 ----
 
@@ -457,7 +457,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **pressed**
 
-当按下``OptionButton``\ 时使用的:ref:`StyleBox<class_StyleBox>`。
+当按下\ ``OptionButton``\ 时使用的\ :ref:`StyleBox<class_StyleBox>`。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

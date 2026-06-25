@@ -90,7 +90,7 @@ Emitted when the node was removed from the graph.
 
 - **tree_changed** **(** **)**
 
-由继承自该类且内部有树的节点发出，当其一个节点发生变化时。发出此信号的节点有:ref:`AnimationNodeBlendSpace1D<class_AnimationNodeBlendSpace1D>`、:ref:`AnimationNodeBlendSpace2D<class_AnimationNodeBlendSpace2D>`、:ref:`AnimationNodeStateMachine<class_AnimationNodeStateMachine>`\ 和:ref:`AnimationNodeBlendTree<class_AnimationNodeBlendTree>`。
+由继承自该类且内部有树的节点发出，当其一个节点发生变化时。发出此信号的节点有\ :ref:`AnimationNodeBlendSpace1D<class_AnimationNodeBlendSpace1D>`、:ref:`AnimationNodeBlendSpace2D<class_AnimationNodeBlendSpace2D>`、:ref:`AnimationNodeStateMachine<class_AnimationNodeStateMachine>`\ 和\ :ref:`AnimationNodeBlendTree<class_AnimationNodeBlendTree>`。
 
 Enumerations
 ------------
@@ -128,7 +128,7 @@ Property Descriptions
 | *Getter* | is_filter_enabled()       |
 +----------+---------------------------+
 
-如果``true``，则启用过滤功能。
+如果\ ``true``，则启用过滤功能。
 
 Method Descriptions
 -------------------
@@ -193,7 +193,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_input_count** **(** **)** |const|
 
-这个节点的输入数量，只对进入:ref:`AnimationNodeBlendTree<class_AnimationNodeBlendTree>`\ 的节点有用。
+这个节点的输入数量，只对进入\ :ref:`AnimationNodeBlendTree<class_AnimationNodeBlendTree>`\ 的节点有用。
 
 ----
 
@@ -225,7 +225,7 @@ Method Descriptions
 
 - :ref:`Array<class_Array>` **get_parameter_list** **(** **)** |virtual|
 
-获取参数的属性信息。参数是你的节点使用的自定义本地存储，给定的资源可以在多个树中重复使用。格式类似于:ref:`Object.get_property_list<class_Object_method_get_property_list>`。
+获取参数的属性信息。参数是你的节点使用的自定义本地存储，给定的资源可以在多个树中重复使用。格式类似于\ :ref:`Object.get_property_list<class_Object_method_get_property_list>`。
 
 ----
 
@@ -233,7 +233,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **has_filter** **(** **)** |virtual|
 
-返回``true``，是否希望混合树编辑器在此节点上显示过滤器编辑。
+返回\ ``true``，是否希望混合树编辑器在此节点上显示过滤器编辑。
 
 ----
 
@@ -249,9 +249,9 @@ Returns whether the given path is filtered.
 
 - void **process** **(** :ref:`float<class_float>` time, :ref:`bool<class_bool>` seek **)** |virtual|
 
-当一个自定义节点被处理时，用户定义的回调被调用。``time``\ 参数是一个相对的delta，除非``seek``\ 是``true``，在这种情况下，它是绝对的。
+当一个自定义节点被处理时，用户定义的回调被调用。``time``\ 参数是一个相对的delta，除非\ ``seek``\ 是\ ``true``，在这种情况下，它是绝对的。
 
-在这里，调用:ref:`blend_input<class_AnimationNode_method_blend_input>`、:ref:`blend_node<class_AnimationNode_method_blend_node>`\ 或:ref:`blend_animation<class_AnimationNode_method_blend_animation>`\ 函数。你也可以使用:ref:`get_parameter<class_AnimationNode_method_get_parameter>`\ 和:ref:`set_parameter<class_AnimationNode_method_set_parameter>`\ 来修改本地存储。
+在这里，调用\ :ref:`blend_input<class_AnimationNode_method_blend_input>`、:ref:`blend_node<class_AnimationNode_method_blend_node>`\ 或\ :ref:`blend_animation<class_AnimationNode_method_blend_animation>`\ 函数。你也可以使用\ :ref:`get_parameter<class_AnimationNode_method_get_parameter>`\ 和\ :ref:`set_parameter<class_AnimationNode_method_set_parameter>`\ 来修改本地存储。
 
 这个函数应该返回当前动画完成的剩余时间（如果不确定，请传递被调用的主混合值）。
 

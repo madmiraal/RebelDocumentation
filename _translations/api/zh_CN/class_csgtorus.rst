@@ -135,7 +135,7 @@ Property Descriptions
 | *Getter*  | get_smooth_faces()      |
 +-----------+-------------------------+
 
-如果``true``\ 设置圆环的法线以提供平滑效果，则使圆环看起来是圆形的。如果``false``，则圆环将具有平坦的阴影表现。
+如果\ ``true``\ 设置圆环的法线以提供平滑效果，则使圆环看起来是圆形的。如果\ ``false``，则圆环将具有平坦的阴影表现。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

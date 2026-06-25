@@ -71,7 +71,7 @@ Method Descriptions
 
 - void **add_property_editor** **(** :ref:`String<class_String>` property, :ref:`Control<class_Control>` editor **)**
 
-为单独的属性添加属性编辑器。``editor``\ 控件必须扩展:ref:`EditorProperty<class_EditorProperty>`。
+为单独的属性添加属性编辑器。``editor``\ 控件必须扩展\ :ref:`EditorProperty<class_EditorProperty>`。
 
 ----
 
@@ -79,7 +79,7 @@ Method Descriptions
 
 - void **add_property_editor_for_multiple_properties** **(** :ref:`String<class_String>` label, :ref:`PoolStringArray<class_PoolStringArray>` properties, :ref:`Control<class_Control>` editor **)**
 
-添加一个编辑器，允许修改多个属性。``editor``\ 控件必须扩展:ref:`EditorProperty<class_EditorProperty>`。
+添加一个编辑器，允许修改多个属性。``editor``\ 控件必须扩展\ :ref:`EditorProperty<class_EditorProperty>`。
 
 ----
 
@@ -87,7 +87,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **can_handle** **(** :ref:`Object<class_Object>` object **)** |virtual|
 
-如果此插件可以处理此对象返回``true``。
+如果此插件可以处理此对象返回\ ``true``。
 
 ----
 
@@ -119,7 +119,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **parse_property** **(** :ref:`Object<class_Object>` object, :ref:`int<class_int>` type, :ref:`String<class_String>` path, :ref:`int<class_int>` hint, :ref:`String<class_String>` hint_text, :ref:`int<class_int>` usage **)** |virtual|
 
-允许被调用在检查器中添加特定属性的编辑器。通常这些编辑器继承:ref:`EditorProperty<class_EditorProperty>`。返回``true``\ 删除该属性的内置编辑器，否则允许在内置编辑器之前插入一个自定义编辑器。
+允许被调用在检查器中添加特定属性的编辑器。通常这些编辑器继承\ :ref:`EditorProperty<class_EditorProperty>`。返回\ ``true``\ 删除该属性的内置编辑器，否则允许在内置编辑器之前插入一个自定义编辑器。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

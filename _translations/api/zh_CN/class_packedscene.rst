@@ -22,7 +22,7 @@ Description
 
 可以用来将节点保存到文件中。当保存时，该节点以及它所拥有的所有节点都会被保存（请参阅 :ref:`Node<class_Node>` 中的属性 ``owner``）。
 
-**注意：**节点不需要拥有自己。
+**注意：**\ 节点不需要拥有自己。
 
 **加载已保存场景的示例：**
 
@@ -33,7 +33,7 @@ Description
     # 将该节点作为脚本所依附的节点的一个子节点。
     add_child(scene)
 
-**保存具有不同所有者节点的例子：**下面的例子创建了 3 个对象：``Node2D``（``node``）、``RigidBody2D``（``rigid``）、``CollisionObject2D``（``collision``）。``collision`` 是 ``rigid`` 的子节点、rigid 是 ``node`` 的子节点。只有 ``rigid`` 被 ``node``\ 拥有，因此 ``pack`` 只会保存这两个节点，不会保存 ``collision``。
+**保存具有不同所有者节点的例子：**\ 下面的例子创建了 3 个对象：``Node2D``\ （``node``）、``RigidBody2D``\ （``rigid``）、``CollisionObject2D``\ （``collision``）。``collision`` 是 ``rigid`` 的子节点、rigid 是 ``node`` 的子节点。只有 ``rigid`` 被 ``node``\ 拥有，因此 ``pack`` 只会保存这两个节点，不会保存 ``collision``。
 
 ::
 
@@ -90,13 +90,13 @@ Enumerations
 
 enum **GenEditState**:
 
-- **GEN_EDIT_STATE_DISABLED** = **0** --- 如果传递给:ref:`instance<class_PackedScene_method_instance>`，则阻止对场景状态的编辑。
+- **GEN_EDIT_STATE_DISABLED** = **0** --- 如果传递给\ :ref:`instance<class_PackedScene_method_instance>`，则阻止对场景状态的编辑。
 
-- **GEN_EDIT_STATE_INSTANCE** = **1** --- 如果传递给:ref:`instance<class_PackedScene_method_instance>`，则向本地场景提供本地场景资源。
+- **GEN_EDIT_STATE_INSTANCE** = **1** --- 如果传递给\ :ref:`instance<class_PackedScene_method_instance>`，则向本地场景提供本地场景资源。
 
 **注意：** 只在编辑器构建中可用。
 
-- **GEN_EDIT_STATE_MAIN** = **2** --- 如果传递给:ref:`instance<class_PackedScene_method_instance>`，向本地场景提供本地场景资源。只有主场景应该接收主编辑状态。
+- **GEN_EDIT_STATE_MAIN** = **2** --- 如果传递给\ :ref:`instance<class_PackedScene_method_instance>`，向本地场景提供本地场景资源。只有主场景应该接收主编辑状态。
 
 **注意：** 只在编辑器构建中可用。
 

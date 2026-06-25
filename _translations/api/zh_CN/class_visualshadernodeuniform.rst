@@ -18,7 +18,7 @@ VisualShaderNodeUniform
 Description
 -----------
 
-uniform表示着色器中的一个变量，它是由外部设置的，即从:ref:`ShaderMaterial<class_ShaderMaterial>`\ 中设置。uniform在:ref:`ShaderMaterial<class_ShaderMaterial>`\ 中被暴露为属性，可以从检查器或脚本中分配。
+uniform表示着色器中的一个变量，它是由外部设置的，即从\ :ref:`ShaderMaterial<class_ShaderMaterial>`\ 中设置。uniform在\ :ref:`ShaderMaterial<class_ShaderMaterial>`\ 中被暴露为属性，可以从检查器或脚本中分配。
 
 Properties
 ----------
@@ -42,7 +42,7 @@ Property Descriptions
 | *Getter*  | get_uniform_name()      |
 +-----------+-------------------------+
 
-uniform的名称，可以通过:ref:`ShaderMaterial<class_ShaderMaterial>`\ 属性访问它。
+uniform的名称，可以通过\ :ref:`ShaderMaterial<class_ShaderMaterial>`\ 属性访问它。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

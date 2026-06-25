@@ -18,7 +18,7 @@ Description
 
 维护一个与场景相关的资源、节点、导出的和重写的属性以及内置脚本的列表。
 
-这个类不能直接实例化，它是作为:ref:`PackedScene.get_state<class_PackedScene_method_get_state>`\ 的结果为一个给定的场景检索的。
+这个类不能直接实例化，它是作为\ :ref:`PackedScene.get_state<class_PackedScene_method_get_state>`\ 的结果为一个给定的场景检索的。
 
 Methods
 -------
@@ -78,13 +78,13 @@ Enumerations
 
 enum **GenEditState**:
 
-- **GEN_EDIT_STATE_DISABLED** = **0** --- 如果传递给:ref:`PackedScene.instance<class_PackedScene_method_instance>`，则阻止对场景状态的编辑。
+- **GEN_EDIT_STATE_DISABLED** = **0** --- 如果传递给\ :ref:`PackedScene.instance<class_PackedScene_method_instance>`，则阻止对场景状态的编辑。
 
-- **GEN_EDIT_STATE_INSTANCE** = **1** --- 如果传递给:ref:`PackedScene.instance<class_PackedScene_method_instance>`，提供继承的场景资源给本地场景。
+- **GEN_EDIT_STATE_INSTANCE** = **1** --- 如果传递给\ :ref:`PackedScene.instance<class_PackedScene_method_instance>`，提供继承的场景资源给本地场景。
 
 **注意：** 只在编辑器构建中可用。
 
-- **GEN_EDIT_STATE_MAIN** = **2** --- 如果传递给:ref:`PackedScene.instance<class_PackedScene_method_instance>`，向本地场景提供本地场景资源。只有主场景应该接收主编辑状态。
+- **GEN_EDIT_STATE_MAIN** = **2** --- 如果传递给\ :ref:`PackedScene.instance<class_PackedScene_method_instance>`，向本地场景提供本地场景资源。只有主场景应该接收主编辑状态。
 
 **注意：** 只在编辑器构建中可用。
 
@@ -105,7 +105,7 @@ Method Descriptions
 
 返回场景中的信号连接数。
 
-用于查询其他``get_connection_*``\ 方法中的连接元数据的``idx``\ 参数，其间隔时间为``[0, get_connection_count() - 1]``。
+用于查询其他\ ``get_connection_*``\ 方法中的连接元数据的\ ``idx``\ 参数，其间隔时间为\ ``[0, get_connection_count() - 1]``。
 
 ----
 
@@ -113,7 +113,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_connection_flags** **(** :ref:`int<class_int>` idx **)** |const|
 
-返回``idx``\ 处的信号的连接标志。参阅:ref:`ConnectFlags<enum_Object_ConnectFlags>`\ 常数。
+返回\ ``idx``\ 处的信号的连接标志。参阅\ :ref:`ConnectFlags<enum_Object_ConnectFlags>`\ 常数。
 
 ----
 
@@ -121,7 +121,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **get_connection_method** **(** :ref:`int<class_int>` idx **)** |const|
 
-返回连接到``idx``\ 处信号的方法。
+返回连接到\ ``idx``\ 处信号的方法。
 
 ----
 
@@ -137,7 +137,7 @@ Method Descriptions
 
 - :ref:`NodePath<class_NodePath>` **get_connection_source** **(** :ref:`int<class_int>` idx **)** |const|
 
-返回拥有``idx``\ 处信号的节点的相对于根节点的路径。
+返回拥有\ ``idx``\ 处信号的节点的相对于根节点的路径。
 
 ----
 
@@ -155,7 +155,7 @@ Method Descriptions
 
 返回场景中节点的数量。
 
-``idx``\ 参数用于在其他``get_node_*``\ 方法中查询节点数据，其间隔为``[0, get_node_count() - 1]``。
+``idx``\ 参数用于在其他\ ``get_node_*``\ 方法中查询节点数据，其间隔为\ ``[0, get_node_count() - 1]``。
 
 ----
 
@@ -179,7 +179,7 @@ Method Descriptions
 
 - :ref:`PackedScene<class_PackedScene>` **get_node_instance** **(** :ref:`int<class_int>` idx **)** |const|
 
-返回``idx``\ 处的节点的:ref:`PackedScene<class_PackedScene>`（即从该节点开始的整个分支，包括其子节点和资源），如果该节点不是一个实例，则返回``null``。
+返回\ ``idx``\ 处的节点的\ :ref:`PackedScene<class_PackedScene>`\ （即从该节点开始的整个分支，包括其子节点和资源），如果该节点不是一个实例，则返回\ ``null``。
 
 ----
 
@@ -187,7 +187,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **get_node_instance_placeholder** **(** :ref:`int<class_int>` idx **)** |const|
 
-如果``idx``\ 处的节点是一个:ref:`InstancePlaceholder<class_InstancePlaceholder>`，返回所代表的场景文件的路径。
+如果\ ``idx``\ 处的节点是一个\ :ref:`InstancePlaceholder<class_InstancePlaceholder>`，返回所代表的场景文件的路径。
 
 ----
 
@@ -195,7 +195,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **get_node_name** **(** :ref:`int<class_int>` idx **)** |const|
 
-返回``idx``\ 处的节点名称。
+返回\ ``idx``\ 处的节点名称。
 
 ----
 
@@ -203,7 +203,7 @@ Method Descriptions
 
 - :ref:`NodePath<class_NodePath>` **get_node_owner_path** **(** :ref:`int<class_int>` idx **)** |const|
 
-返回相对于根节点的 在``idx`` 处节点的所有者的路径。
+返回相对于根节点的 在\ ``idx`` 处节点的所有者的路径。
 
 ----
 
@@ -211,9 +211,9 @@ Method Descriptions
 
 - :ref:`NodePath<class_NodePath>` **get_node_path** **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` for_parent=false **)** |const|
 
-返回``idx``\ 处的节点的路径。
+返回\ ``idx``\ 处的节点的路径。
 
-如果``for_parent``\ 是``true``，则返回``idx``\ 节点的父节点的路径。
+如果\ ``for_parent``\ 是\ ``true``，则返回\ ``idx``\ 节点的父节点的路径。
 
 ----
 
@@ -231,7 +231,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **get_node_property_name** **(** :ref:`int<class_int>` idx, :ref:`int<class_int>` prop_idx **)** |const|
 
-返回``prop_idx``\ 处的属性名称，用于``idx``\ 处的节点。
+返回\ ``prop_idx``\ 处的属性名称，用于\ ``idx``\ 处的节点。
 
 ----
 
@@ -247,7 +247,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **get_node_type** **(** :ref:`int<class_int>` idx **)** |const|
 
-返回``idx``\ 处节点的类型。
+返回\ ``idx``\ 处节点的类型。
 
 ----
 
@@ -255,7 +255,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_node_instance_placeholder** **(** :ref:`int<class_int>` idx **)** |const|
 
-如果``idx``\ 处的节点是一个:ref:`InstancePlaceholder<class_InstancePlaceholder>`，返回``true``。
+如果\ ``idx``\ 处的节点是一个\ :ref:`InstancePlaceholder<class_InstancePlaceholder>`，返回\ ``true``。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

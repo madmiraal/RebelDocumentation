@@ -167,7 +167,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **empty** **(** **)**
 
-如果字典为空，返回``true``。
+如果字典为空，返回\ ``true``。
 
 ----
 
@@ -185,7 +185,7 @@ Method Descriptions
 
 - :ref:`Variant<class_Variant>` **get** **(** :ref:`Variant<class_Variant>` key, :ref:`Variant<class_Variant>` default=null **)**
 
-返回``Dictionary``\ 中指定键的当前值。如果键不存在，则该方法返回可选默认参数的值；如果省略，则返回``null``。
+返回\ ``Dictionary``\ 中指定键的当前值。如果键不存在，则该方法返回可选默认参数的值；如果省略，则返回\ ``null``。
 
 ----
 
@@ -238,7 +238,7 @@ Returns a hashed 32-bit integer value representing the dictionary contents. This
 
 - :ref:`Array<class_Array>` **keys** **(** **)**
 
-返回``Dictionary``\ 中的键列表。
+返回\ ``Dictionary``\ 中的键列表。
 
 ----
 
@@ -254,7 +254,7 @@ Returns a hashed 32-bit integer value representing the dictionary contents. This
 
 - :ref:`Array<class_Array>` **values** **(** **)**
 
-返回``Dictionary``\ 中的值列表。
+返回\ ``Dictionary``\ 中的值列表。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

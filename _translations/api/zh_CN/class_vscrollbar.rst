@@ -61,7 +61,7 @@ Theme Property Descriptions
 
 - :ref:`Texture<class_Texture>` **decrement**
 
-按钮使用的图标，用于向上滚动:ref:`ScrollBar<class_ScrollBar>`。支持使用:ref:`ScrollBar.custom_step<class_ScrollBar_property_custom_step>`\ 属性的自定义步长。
+按钮使用的图标，用于向上滚动\ :ref:`ScrollBar<class_ScrollBar>`。支持使用\ :ref:`ScrollBar.custom_step<class_ScrollBar_property_custom_step>`\ 属性的自定义步长。
 
 ----
 
@@ -85,7 +85,7 @@ Theme Property Descriptions
 
 - :ref:`Texture<class_Texture>` **increment**
 
-作为按钮使用的图标，用于向下滚动:ref:`ScrollBar<class_ScrollBar>`。支持使用:ref:`ScrollBar.custom_step<class_ScrollBar_property_custom_step>`\ 属性的自定义步长。
+作为按钮使用的图标，用于向下滚动\ :ref:`ScrollBar<class_ScrollBar>`。支持使用\ :ref:`ScrollBar.custom_step<class_ScrollBar_property_custom_step>`\ 属性的自定义步长。
 
 ----
 

@@ -18,7 +18,7 @@ CanvasLayer
 Description
 -----------
 
-画布绘图层。 ``CanvasLayer``\ 的直接或间接子级的:ref:`CanvasItem<class_CanvasItem>`\ 节点将在该层中绘制。该层是定义绘制顺序的数字索引。默认的2D场景的索引为0，因此将在下面绘制索引为-1的``CanvasLayer``，在上面绘制索引为1的``CanvasLayer``。这对于HUD（在1+层或更高层中）或背景（在-1层或更低层中）非常有用。
+画布绘图层。 ``CanvasLayer``\ 的直接或间接子级的\ :ref:`CanvasItem<class_CanvasItem>`\ 节点将在该层中绘制。该层是定义绘制顺序的数字索引。默认的2D场景的索引为0，因此将在下面绘制索引为-1的\ ``CanvasLayer``，在上面绘制索引为1的\ ``CanvasLayer``。这对于HUD（在1+层或更高层中）或背景（在-1层或更低层中）非常有用。
 
 Tutorials
 ---------
@@ -70,7 +70,7 @@ Property Descriptions
 | *Getter* | get_custom_viewport()      |
 +----------+----------------------------+
 
-分配给``CanvasLayer``\ 的自定义:ref:`Viewport<class_Viewport>`\ 节点。如果``null``，则使用默认的视窗。
+分配给\ ``CanvasLayer``\ 的自定义\ :ref:`Viewport<class_Viewport>`\ 节点。如果\ ``null``，则使用默认的视窗。
 
 ----
 
@@ -102,7 +102,7 @@ Property Descriptions
 | *Getter*  | get_follow_viewport_scale()      |
 +-----------+----------------------------------+
 
-使用:ref:`follow_viewport_enable<class_CanvasLayer_property_follow_viewport_enable>`\ 时，对图层进行缩放。移动到前景的图层应该有增加的比例，而移动到背景的图层应该有减少的比例。
+使用\ :ref:`follow_viewport_enable<class_CanvasLayer_property_follow_viewport_enable>`\ 时，对图层进行缩放。移动到前景的图层应该有增加的比例，而移动到背景的图层应该有减少的比例。
 
 ----
 

@@ -22,7 +22,7 @@ Description
 
 除非 ``Spatial`` 对象被设置为顶层，否则仿射操作（旋转、缩放、平移）会在父节点的本地坐标系中进行。在这个坐标系中的仿射操作对应于对 ``Spatial`` 变换的直接仿射运算。下面的本地一词指的是局部坐标系。附加到 ``Spatial`` 对象本身的坐标系被称为对象-本地坐标系。
 
-**注意：**除非另有规定，所有有角度参数的方法必须将角度指定为*弧度*。使用 :ref:`@GDScript.deg2rad<class_@GDScript_method_deg2rad>` 将度数转换为弧度。
+**注意：**\ 除非另有规定，所有有角度参数的方法必须将角度指定为\ *弧度*。使用 :ref:`@GDScript.deg2rad<class_@GDScript_method_deg2rad>` 将度数转换为弧度。
 
 Tutorials
 ---------
@@ -163,7 +163,7 @@ Constants
 
 - **NOTIFICATION_TRANSFORM_CHANGED** = **2000** --- 当空间节点的全局变换发生变化时，空间节点会收到这个通知。这意味着当前节点或父节点改变了它的变换。
 
-为了使:ref:`NOTIFICATION_TRANSFORM_CHANGED<class_Spatial_constant_NOTIFICATION_TRANSFORM_CHANGED>`\ 生效，用户首先需要用:ref:`set_notify_transform<class_Spatial_method_set_notify_transform>`\ 发送请求。如果节点是在编辑器的上下文中，并且它有一个有效的gizmo，那么该通知也会被发送。
+为了使\ :ref:`NOTIFICATION_TRANSFORM_CHANGED<class_Spatial_constant_NOTIFICATION_TRANSFORM_CHANGED>`\ 生效，用户首先需要用\ :ref:`set_notify_transform<class_Spatial_method_set_notify_transform>`\ 发送请求。如果节点是在编辑器的上下文中，并且它有一个有效的gizmo，那么该通知也会被发送。
 
 - **NOTIFICATION_ENTER_WORLD** = **41** --- 空间节点在注册到新的 :ref:`World<class_World>` 资源时会收到此通知。
 
@@ -218,7 +218,7 @@ Property Descriptions
 
 局部变换的旋转部分以弧度表示，以YXZ-Euler角的形式表示(X角、Y角、Z角)。
 
-**注:**在数学意义上，旋转是一个矩阵而不是一个向量。这三个欧拉角是旋转矩阵欧拉角参数化的三个独立参数，存储在:ref:`Vector3<class_Vector3>`\ 数据结构中并不是因为旋转是一个矢量，而是因为:ref:`Vector3<class_Vector3>`\ 是一种方便存储3个浮点数的数据结构。因此，对旋转“向量”应用仿射操作是没有意义的。
+**注:**\ 在数学意义上，旋转是一个矩阵而不是一个向量。这三个欧拉角是旋转矩阵欧拉角参数化的三个独立参数，存储在\ :ref:`Vector3<class_Vector3>`\ 数据结构中并不是因为旋转是一个矢量，而是因为\ :ref:`Vector3<class_Vector3>`\ 是一种方便存储3个浮点数的数据结构。因此，对旋转“向量”应用仿射操作是没有意义的。
 
 ----
 
@@ -266,7 +266,7 @@ Property Descriptions
 | *Getter*  | get_transform()                                     |
 +-----------+-----------------------------------------------------+
 
-该节点相对于父节点的局部空间:ref:`Transform<class_Transform>`。
+该节点相对于父节点的局部空间\ :ref:`Transform<class_Transform>`。
 
 ----
 
@@ -298,7 +298,7 @@ Property Descriptions
 | *Getter*  | is_visible()       |
 +-----------+--------------------+
 
-如果``true``，这个节点就会被画出来。只有当它的所有前项也是可见的时候，这个节点才是可见的（换句话说，:ref:`is_visible_in_tree<class_Spatial_method_is_visible_in_tree>`\ 必须返回``true``）。
+如果\ ``true``，这个节点就会被画出来。只有当它的所有前项也是可见的时候，这个节点才是可见的（换句话说，:ref:`is_visible_in_tree<class_Spatial_method_is_visible_in_tree>`\ 必须返回\ ``true``）。
 
 Method Descriptions
 -------------------
@@ -331,7 +331,7 @@ Method Descriptions
 
 - void **global_rotate** **(** :ref:`Vector3<class_Vector3>` axis, :ref:`float<class_float>` angle **)**
 
-围绕轴（一个单位:ref:`Vector3<class_Vector3>`）旋转全局（世界）变换，指定角度（弧度）。旋转轴是在全局坐标系中。
+围绕轴（一个单位\ :ref:`Vector3<class_Vector3>`）旋转全局（世界）变换，指定角度（弧度）。旋转轴是在全局坐标系中。
 
 ----
 
@@ -355,7 +355,7 @@ Method Descriptions
 
 - void **hide** **(** **)**
 
-禁用该节点的渲染。它将:ref:`visible<class_Spatial_property_visible>`\ 改为``false``。
+禁用该节点的渲染。它将\ :ref:`visible<class_Spatial_property_visible>`\ 改为\ ``false``。
 
 ----
 
@@ -371,7 +371,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_scale_disabled** **(** **)** |const|
 
-返回该节点是否使用``(1, 1, 1)``\ 的比例或其本地转换比例。
+返回该节点是否使用\ ``(1, 1, 1)``\ 的比例或其本地转换比例。
 
 ----
 
@@ -395,7 +395,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_visible_in_tree** **(** **)** |const|
 
-如果该节点位于:ref:`SceneTree<class_SceneTree>`\ 中，并且其:ref:`visible<class_Spatial_property_visible>`\ 属性为``true``，并且其所有前提均可见，则返回``true``。如果任何先决条件被隐藏，则该节点在场景树中将不可见。
+如果该节点位于\ :ref:`SceneTree<class_SceneTree>`\ 中，并且其\ :ref:`visible<class_Spatial_property_visible>`\ 属性为\ ``true``，并且其所有前提均可见，则返回\ ``true``。如果任何先决条件被隐藏，则该节点在场景树中将不可见。
 
 ----
 
@@ -417,7 +417,7 @@ Operations take place in global space.
 
 - void **look_at_from_position** **(** :ref:`Vector3<class_Vector3>` position, :ref:`Vector3<class_Vector3>` target, :ref:`Vector3<class_Vector3>` up **)**
 
-将节点移动到指定的``position``，然后按照:ref:`look_at<class_Spatial_method_look_at>`\ 的要求旋转自己以指向``target``。操作是在全局空间进行的。
+将节点移动到指定的\ ``position``，然后按照\ :ref:`look_at<class_Spatial_method_look_at>`\ 的要求旋转自己以指向\ ``target``。操作是在全局空间进行的。
 
 ----
 
@@ -425,7 +425,7 @@ Operations take place in global space.
 
 - void **orthonormalize** **(** **)**
 
-通过对该节点的:ref:`Transform<class_Transform>`\ 进行Gram-Schmidt正则化，重新设置该节点的变换（如比例、倾斜和锥度），保留其旋转和平移。
+通过对该节点的\ :ref:`Transform<class_Transform>`\ 进行Gram-Schmidt正则化，重新设置该节点的变换（如比例、倾斜和锥度），保留其旋转和平移。
 
 ----
 
@@ -433,7 +433,7 @@ Operations take place in global space.
 
 - void **rotate** **(** :ref:`Vector3<class_Vector3>` axis, :ref:`float<class_float>` angle **)**
 
-围绕轴（一个单位:ref:`Vector3<class_Vector3>`）旋转局部变换，指定角度（弧度）。
+围绕轴（一个单位\ :ref:`Vector3<class_Vector3>`）旋转局部变换，指定角度（弧度）。
 
 ----
 
@@ -441,7 +441,7 @@ Operations take place in global space.
 
 - void **rotate_object_local** **(** :ref:`Vector3<class_Vector3>` axis, :ref:`float<class_float>` angle **)**
 
-围绕轴（一个单位:ref:`Vector3<class_Vector3>`）旋转本地变换，指定角度（弧度）。旋转轴是在物体的本地坐标系中。
+围绕轴（一个单位\ :ref:`Vector3<class_Vector3>`）旋转本地变换，指定角度（弧度）。旋转轴是在物体的本地坐标系中。
 
 ----
 
@@ -489,7 +489,7 @@ Operations take place in global space.
 
 - void **set_disable_scale** **(** :ref:`bool<class_bool>` disable **)**
 
-设置节点是否使用``(1, 1, 1)``\ 的比例或其本地变换比例。对本地变换比例的改变会被保留下来。
+设置节点是否使用\ ``(1, 1, 1)``\ 的比例或其本地变换比例。对本地变换比例的改变会被保留下来。
 
 ----
 
@@ -497,7 +497,7 @@ Operations take place in global space.
 
 - void **set_identity** **(** **)**
 
-重置该节点的所有变换（将其:ref:`Transform<class_Transform>`\ 重置为单位矩阵）。
+重置该节点的所有变换（将其\ :ref:`Transform<class_Transform>`\ 重置为单位矩阵）。
 
 ----
 
@@ -529,7 +529,7 @@ Operations take place in global space.
 
 - void **show** **(** **)**
 
-启用此节点的呈现。将:ref:`visible<class_Spatial_property_visible>`\ 更改为``true``。
+启用此节点的呈现。将\ :ref:`visible<class_Spatial_property_visible>`\ 更改为\ ``true``。
 
 ----
 
@@ -537,7 +537,7 @@ Operations take place in global space.
 
 - :ref:`Vector3<class_Vector3>` **to_global** **(** :ref:`Vector3<class_Vector3>` local_point **)** |const|
 
-将``local_point``\ 从该节点的本地空间转换为世界空间。
+将\ ``local_point``\ 从该节点的本地空间转换为世界空间。
 
 ----
 
@@ -545,7 +545,7 @@ Operations take place in global space.
 
 - :ref:`Vector3<class_Vector3>` **to_local** **(** :ref:`Vector3<class_Vector3>` global_point **)** |const|
 
-将``global_point``\ 从世界空间转换到这个节点的本地空间。
+将\ ``global_point``\ 从世界空间转换到这个节点的本地空间。
 
 ----
 
@@ -553,9 +553,9 @@ Operations take place in global space.
 
 - void **translate** **(** :ref:`Vector3<class_Vector3>` offset **)**
 
-通过给定的偏移量:ref:`Vector3<class_Vector3>`\ 改变节点的位置。
+通过给定的偏移量\ :ref:`Vector3<class_Vector3>`\ 改变节点的位置。
 
-注意，平移``offset``\ 受节点比例因子(scale)的影响，所以如果按例如``(10,1,1)``\ 进行缩放，平移``(2,0,0)``\ 实际上会在X坐标上增加20 (``2 * 10``)。
+注意，平移\ ``offset``\ 受节点比例因子(scale)的影响，所以如果按例如\ ``(10,1,1)``\ 进行缩放，平移\ ``(2,0,0)``\ 实际上会在X坐标上增加20 (``2 * 10``)。
 
 ----
 
@@ -563,7 +563,7 @@ Operations take place in global space.
 
 - void **translate_object_local** **(** :ref:`Vector3<class_Vector3>` offset **)**
 
-通过给定的偏移量:ref:`Vector3<class_Vector3>`\ 改变节点在局部空间中的位置。
+通过给定的偏移量\ :ref:`Vector3<class_Vector3>`\ 改变节点在局部空间中的位置。
 
 ----
 
@@ -571,7 +571,7 @@ Operations take place in global space.
 
 - void **update_gizmo** **(** **)**
 
-更新该节点的:ref:`SpatialGizmo<class_SpatialGizmo>`。
+更新该节点的\ :ref:`SpatialGizmo<class_SpatialGizmo>`。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

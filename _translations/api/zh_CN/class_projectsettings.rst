@@ -919,7 +919,7 @@ Comma-separated list of custom Android modules (which must have been built in th
 | *Default* | ``true`` |
 +-----------+----------+
 
-如果``true``，则在缩放图像时应用线性过滤(推荐用于高分辨率图稿)。如果``false``，则使用最近邻插值(推荐像素艺术)。
+如果\ ``true``，则在缩放图像时应用线性过滤(推荐用于高分辨率图稿)。如果\ ``false``，则使用最近邻插值(推荐像素艺术)。
 
 ----
 
@@ -969,7 +969,7 @@ The project's description, displayed as a tooltip in the Projects Manager when h
 | *Default* | ``""`` |
 +-----------+--------+
 
-在macOS上使用的``.icns``\ 格式的图标集，用于设置游戏的图标。这在启动时通过调用:ref:`OS.set_native_icon<class_OS_method_set_native_icon>`\ 自动完成。
+在macOS上使用的\ ``.icns``\ 格式的图标集，用于设置游戏的图标。这在启动时通过调用\ :ref:`OS.set_native_icon<class_OS_method_set_native_icon>`\ 自动完成。
 
 ----
 
@@ -997,7 +997,7 @@ The project's name. It is used both by the Projects Manager and by exporters. Th
 
 指定一个文件来覆盖项目设置。比如说。``user://custom_settings.cfg``。参见 ``ProjectSettings`` 顶部类描述中的“Overriding”以获取更多信息。
 
-**注意：**不管这个设置的值如何，``res://override.cfg`` 仍然会被读取来覆盖项目设置。
+**注意：**\ 不管这个设置的值如何，``res://override.cfg`` 仍然会被读取来覆盖项目设置。
 
 ----
 
@@ -1025,7 +1025,7 @@ If ``true``, the project will save user data to its own user directory (see :ref
 
 如果 ``false``，将使用非隐藏目录 (``import``)。
 
-**注意：**更改此设置后重新启动应用程序。
+**注意：**\ 更改此设置后重新启动应用程序。
 
 **注意：** 更改此值有助于在平台上或使用不允许隐藏目录模式的第三方工具。仅当您知道您的环境需要时才修改此设置，因为更改默认设置会影响与某些需要默认 ``.import`` 文件夹的外部工具或插件的兼容性。
 
@@ -1039,7 +1039,7 @@ If ``true``, the project will save user data to its own user directory (see :ref
 | *Default* | ``""`` |
 +-----------+--------+
 
-以``.ico``\ 格式设置的图标，在Windows上用于设置游戏的图标。这在启动时通过调用:ref:`OS.set_native_icon<class_OS_method_set_native_icon>`\ 自动完成。
+以\ ``.ico``\ 格式设置的图标，在Windows上用于设置游戏的图标。这在启动时通过调用\ :ref:`OS.set_native_icon<class_OS_method_set_native_icon>`\ 自动完成。
 
 ----
 
@@ -1079,7 +1079,7 @@ If ``true``, the project will save user data to its own user directory (see :ref
 | *Default* | ``false`` |
 +-----------+-----------+
 
-如果 ``true``，则禁用打印到标准错误。如果 ``true``，这也会隐藏由 :ref:`@GDScript.push_error<class_@GDScript_method_push_error>` 和 :ref:`@GDScript.push_warning<class_@GDScript_method_push_warning>` 打印的错误和警告消息。另见:ref:`application/run/disable_stdout<class_ProjectSettings_property_application/run/disable_stdout>`。
+如果 ``true``，则禁用打印到标准错误。如果 ``true``，这也会隐藏由 :ref:`@GDScript.push_error<class_@GDScript_method_push_error>` 和 :ref:`@GDScript.push_warning<class_@GDScript_method_push_warning>` 打印的错误和警告消息。另见\ :ref:`application/run/disable_stdout<class_ProjectSettings_property_application/run/disable_stdout>`。
 
 对此设置的更改只会在重新启动应用程序时应用。
 
@@ -1093,7 +1093,7 @@ If ``true``, the project will save user data to its own user directory (see :ref
 | *Default* | ``false`` |
 +-----------+-----------+
 
-如果 ``true``，则禁用打印到标准输出。这相当于使用 ``--quiet`` 命令行参数启动编辑器或项目。另见:ref:`application/run/disable_stderr<class_ProjectSettings_property_application/run/disable_stderr>`。
+如果 ``true``，则禁用打印到标准输出。这相当于使用 ``--quiet`` 命令行参数启动编辑器或项目。另见\ :ref:`application/run/disable_stderr<class_ProjectSettings_property_application/run/disable_stderr>`。
 
 对此设置的更改只会在重新启动应用程序时应用。
 
@@ -1125,7 +1125,7 @@ If ``true``, the project will save user data to its own user directory (see :ref
 | *Default* | ``true`` |
 +-----------+----------+
 
-调试构建覆盖:ref:`application/run/flush_stdout_on_print<class_ProjectSettings_property_application/run/flush_stdout_on_print>`，因为在调试过程中性能不那么重要。
+调试构建覆盖\ :ref:`application/run/flush_stdout_on_print<class_ProjectSettings_property_application/run/flush_stdout_on_print>`，因为在调试过程中性能不那么重要。
 
 仅在重新启动应用程序时才会应用此设置的更改。
 
@@ -1151,7 +1151,7 @@ If ``true``, the project will save user data to its own user directory (see :ref
 | *Default* | ``false`` |
 +-----------+-----------+
 
-如果``true``，则启用低处理器使用模式。此设置仅适用于桌面平台。如果视觉上没有任何变化，屏幕不会被重绘。这是为了编写应用程序和编辑器，但在大多数游戏中这是非常无用的(并可能损害性能)。
+如果\ ``true``，则启用低处理器使用模式。此设置仅适用于桌面平台。如果视觉上没有任何变化，屏幕不会被重绘。这是为了编写应用程序和编辑器，但在大多数游戏中这是非常无用的(并可能损害性能)。
 
 ----
 
@@ -1211,7 +1211,7 @@ If ``true``, the project will save user data to its own user directory (see :ref
 | *Default* | ``"res://default_bus_layout.tres"`` |
 +-----------+-------------------------------------+
 
-项目中使用的默认:ref:`AudioBusLayout<class_AudioBusLayout>`\ 资源文件，除非被场景覆盖。
+项目中使用的默认\ :ref:`AudioBusLayout<class_AudioBusLayout>`\ 资源文件，除非被场景覆盖。
 
 ----
 
@@ -1231,7 +1231,7 @@ If ``true``, the project will save user data to its own user directory (see :ref
 | *Default* | ``false`` |
 +-----------+-----------+
 
-如果``true``，将允许麦克风输入。这需要在导出到Android或iOS时设置适当的权限。
+如果\ ``true``，将允许麦克风输入。这需要在导出到Android或iOS时设置适当的权限。
 
 ----
 
@@ -1307,7 +1307,7 @@ Audio output latency may be constrained by the host operating system and audio h
 | *Default* | ``-1`` |
 +-----------+--------+
 
-gzip的默认压缩级别。影响压缩的场景和资源。较高的级别会以压缩速度为代价导致文件变小。解压缩速度大多不受压缩级别的影响。``-1``\ 使用默认的gzip压缩级别，该级别与``6``\ 相同，但由于底层zlib更新，未来可能会发生变化。
+gzip的默认压缩级别。影响压缩的场景和资源。较高的级别会以压缩速度为代价导致文件变小。解压缩速度大多不受压缩级别的影响。``-1``\ 使用默认的gzip压缩级别，该级别与\ ``6``\ 相同，但由于底层zlib更新，未来可能会发生变化。
 
 ----
 
@@ -1319,7 +1319,7 @@ gzip的默认压缩级别。影响压缩的场景和资源。较高的级别会�
 | *Default* | ``-1`` |
 +-----------+--------+
 
-Zlib的默认压缩级别。影响压缩的场景和资源。较高的级别会以压缩速度为代价导致文件变小。解压缩速度大多不受压缩级别的影响。``-1``\ 使用默认的gzip压缩级别，该级别与``6``\ 相同，但由于底层zlib更新，未来可能会发生变化。
+Zlib的默认压缩级别。影响压缩的场景和资源。较高的级别会以压缩速度为代价导致文件变小。解压缩速度大多不受压缩级别的影响。``-1``\ 使用默认的gzip压缩级别，该级别与\ ``6``\ 相同，但由于底层zlib更新，未来可能会发生变化。
 
 ----
 
@@ -1379,7 +1379,7 @@ If ``true``, displays getters and setters in autocompletion results in the scrip
 | *Default* | ``true`` |
 +-----------+----------+
 
-如果``true``，则当常量用作函数时会发出警告。
+如果\ ``true``，则当常量用作函数时会发出警告。
 
 ----
 
@@ -1391,7 +1391,7 @@ If ``true``, displays getters and setters in autocompletion results in the scrip
 | *Default* | ``true`` |
 +-----------+----------+
 
-如果``true``，当使用已废弃的关键字如``slave``\ 时，启用警告。
+如果\ ``true``，当使用已废弃的关键字如\ ``slave``\ 时，启用警告。
 
 ----
 
@@ -1403,7 +1403,7 @@ If ``true``, displays getters and setters in autocompletion results in the scrip
 | *Default* | ``true`` |
 +-----------+----------+
 
-如果``true``，则启用特定的GDScript警告(请参阅``debug/gdscript/warnings/*``\ 设置)。如果``为false``，则禁用所有GDScript警告。
+如果\ ``true``，则启用特定的GDScript警告(请参阅\ ``debug/gdscript/warnings/*``\ 设置)。如果\ ``为false``，则禁用所有GDScript警告。
 
 ----
 
@@ -1415,7 +1415,7 @@ If ``true``, displays getters and setters in autocompletion results in the scrip
 | *Default* | ``true`` |
 +-----------+----------+
 
-如果``true``，则``res://addons``\ 文件夹中的脚本不会生成警告。
+如果\ ``true``，则\ ``res://addons``\ 文件夹中的脚本不会生成警告。
 
 ----
 
@@ -1427,7 +1427,7 @@ If ``true``, displays getters and setters in autocompletion results in the scrip
 | *Default* | ``true`` |
 +-----------+----------+
 
-如果为``true``，当函数被声明为与常量同名时，启用警告。
+如果为\ ``true``，当函数被声明为与常量同名时，启用警告。
 
 ----
 
@@ -1439,7 +1439,7 @@ If ``true``, displays getters and setters in autocompletion results in the scrip
 | *Default* | ``true`` |
 +-----------+----------+
 
-如果为``true``, 当一个函数与一个变量同名声明时，启用警告。在未来的版本中，当GDScript支持第一类函数时，这将变成一个错误。
+如果为\ ``true``, 当一个函数与一个变量同名声明时，启用警告。在未来的版本中，当GDScript支持第一类函数时，这将变成一个错误。
 
 ----
 
@@ -1451,7 +1451,7 @@ If ``true``, displays getters and setters in autocompletion results in the scrip
 | *Default* | ``true`` |
 +-----------+----------+
 
-如果``为true``，则当分配给变量的函数可能产生并返回函数状态而不是值时，启用警告。
+如果\ ``为true``，则当分配给变量的函数可能产生并返回函数状态而不是值时，启用警告。
 
 ----
 
@@ -1463,7 +1463,7 @@ If ``true``, displays getters and setters in autocompletion results in the scrip
 | *Default* | ``true`` |
 +-----------+----------+
 
-如果``true``，则在使用函数时启用警告，就像它是属性一样。
+如果\ ``true``，则在使用函数时启用警告，就像它是属性一样。
 
 ----
 
@@ -1475,7 +1475,7 @@ If ``true``, displays getters and setters in autocompletion results in the scrip
 | *Default* | ``true`` |
 +-----------+----------+
 
-如果``true``，则当三元运算符可能发出类型不兼容的值时，将启用警告。
+如果\ ``true``，则当三元运算符可能发出类型不兼容的值时，将启用警告。
 
 ----
 
@@ -1487,7 +1487,7 @@ If ``true``, displays getters and setters in autocompletion results in the scrip
 | *Default* | ``true`` |
 +-----------+----------+
 
-如果``为true``，则在用一个整数除以另一个整数时启用警告(小数部分将被丢弃)。
+如果\ ``为true``，则在用一个整数除以另一个整数时启用警告(小数部分将被丢弃)。
 
 ----
 
@@ -1511,7 +1511,7 @@ If ``true``, displays getters and setters in autocompletion results in the scrip
 | *Default* | ``true`` |
 +-----------+----------+
 
-如果``true``，则在将属性当作函数使用时启用警告。
+如果\ ``true``，则在将属性当作函数使用时启用警告。
 
 ----
 
@@ -1523,7 +1523,7 @@ If ``true``, displays getters and setters in autocompletion results in the scrip
 | *Default* | ``true`` |
 +-----------+----------+
 
-如果``true``，则在不使用函数返回值(通过将其赋值给变量或将其用作函数参数)调用函数时启用警告。这样的返回值有时使用:ref:`Error<enum_@GlobalScope_Error>` 枚举来表示可能的错误。
+如果\ ``true``，则在不使用函数返回值(通过将其赋值给变量或将其用作函数参数)调用函数时启用警告。这样的返回值有时使用\ :ref:`Error<enum_@GlobalScope_Error>` 枚举来表示可能的错误。
 
 ----
 
@@ -1535,7 +1535,7 @@ If ``true``, displays getters and setters in autocompletion results in the scrip
 | *Default* | ``true`` |
 +-----------+----------+
 
-如果``true``，则在定义局部或子类成员变量时启用警告，该局部或子类成员变量将在上层阴影变量(如成员变量)。
+如果\ ``true``，则在定义局部或子类成员变量时启用警告，该局部或子类成员变量将在上层阴影变量(如成员变量)。
 
 ----
 
@@ -1547,7 +1547,7 @@ If ``true``, displays getters and setters in autocompletion results in the scrip
 | *Default* | ``true`` |
 +-----------+----------+
 
-如果``true``，则在调用对周围代码没有影响的表达式时启用警告，例如将``2 + 2``\ 写成语句。
+如果\ ``true``，则在调用对周围代码没有影响的表达式时启用警告，例如将\ ``2 + 2``\ 写成语句。
 
 ----
 
@@ -1559,7 +1559,7 @@ If ``true``, displays getters and setters in autocompletion results in the scrip
 | *Default* | ``true`` |
 +-----------+----------+
 
-如果``true``，则在调用对周围代码没有影响的三元表达式时启用警告，例如将``42(如果激活else 0``)写入语句。
+如果\ ``true``，则在调用对周围代码没有影响的三元表达式时启用警告，例如将\ ``42(如果激活else 0``)写入语句。
 
 ----
 
@@ -1571,7 +1571,7 @@ If ``true``, displays getters and setters in autocompletion results in the scrip
 | *Default* | ``false`` |
 +-----------+-----------+
 
-如果``true``，所有警告将被报告为错误。
+如果\ ``true``，所有警告将被报告为错误。
 
 ----
 
@@ -1583,7 +1583,7 @@ If ``true``, displays getters and setters in autocompletion results in the scrip
 | *Default* | ``true`` |
 +-----------+----------+
 
-如果``true``，则在使用以前没有赋值的变量时启用警告。
+如果\ ``true``，则在使用以前没有赋值的变量时启用警告。
 
 ----
 
@@ -1595,7 +1595,7 @@ If ``true``, displays getters and setters in autocompletion results in the scrip
 | *Default* | ``true`` |
 +-----------+----------+
 
-如果``true``，则在使用赋值操作符``+=``\ (如果变量之前没有赋值)为变量赋值时启用警告。
+如果\ ``true``，则在使用赋值操作符\ ``+=``\ (如果变量之前没有赋值)为变量赋值时启用警告。
 
 ----
 
@@ -1607,7 +1607,7 @@ If ``true``, displays getters and setters in autocompletion results in the scrip
 | *Default* | ``true`` |
 +-----------+----------+
 
-如果``true``，则在检测到不可达的代码时启用警告(例如在始终执行的``return``\ 语句之后)。
+如果\ ``true``，则在检测到不可达的代码时启用警告(例如在始终执行的\ ``return``\ 语句之后)。
 
 ----
 
@@ -1619,7 +1619,7 @@ If ``true``, displays getters and setters in autocompletion results in the scrip
 | *Default* | ``false`` |
 +-----------+-----------+
 
-如果``true``，则在使用类型可能与期望的函数参数不兼容的表达式时启用警告。
+如果\ ``true``，则在使用类型可能与期望的函数参数不兼容的表达式时启用警告。
 
 ----
 
@@ -1631,7 +1631,7 @@ If ``true``, displays getters and setters in autocompletion results in the scrip
 | *Default* | ``false`` |
 +-----------+-----------+
 
-如果``true``，则在执行不安全的强制转换时启用警告。
+如果\ ``true``，则在执行不安全的强制转换时启用警告。
 
 ----
 
@@ -1643,7 +1643,7 @@ If ``true``, displays getters and setters in autocompletion results in the scrip
 | *Default* | ``false`` |
 +-----------+-----------+
 
-如果``true``，则在调用类中不能保证在编译时存在的方法时启用警告。
+如果\ ``true``，则在调用类中不能保证在编译时存在的方法时启用警告。
 
 ----
 
@@ -1655,7 +1655,7 @@ If ``true``, displays getters and setters in autocompletion results in the scrip
 | *Default* | ``false`` |
 +-----------+-----------+
 
-如果``true``，则在访问类中不能保证在编译时存在的属性时启用警告。
+如果\ ``true``，则在访问类中不能保证在编译时存在的属性时启用警告。
 
 ----
 
@@ -1667,7 +1667,7 @@ If ``true``, displays getters and setters in autocompletion results in the scrip
 | *Default* | ``true`` |
 +-----------+----------+
 
-如果``true``，当一个函数参数未使用时，启用警告。
+如果\ ``true``，当一个函数参数未使用时，启用警告。
 
 ----
 
@@ -1679,7 +1679,7 @@ If ``true``, displays getters and setters in autocompletion results in the scrip
 | *Default* | ``false`` |
 +-----------+-----------+
 
-如果``true``，当一个成员变量未使用时，启用警告。
+如果\ ``true``，当一个成员变量未使用时，启用警告。
 
 ----
 
@@ -1691,7 +1691,7 @@ If ``true``, displays getters and setters in autocompletion results in the scrip
 | *Default* | ``true`` |
 +-----------+----------+
 
-如果``true``，则在信号未使用时启用警告。
+如果\ ``true``，则在信号未使用时启用警告。
 
 ----
 
@@ -1703,7 +1703,7 @@ If ``true``, displays getters and setters in autocompletion results in the scrip
 | *Default* | ``true`` |
 +-----------+----------+
 
-如果``true``，则在局部变量未使用时启用警告。
+如果\ ``true``，则在局部变量未使用时启用警告。
 
 ----
 
@@ -1727,7 +1727,7 @@ If ``true``, displays getters and setters in autocompletion results in the scrip
 | *Default* | ``true`` |
 +-----------+----------+
 
-如果``true``，则在将返回``void``\ 的函数的结果赋值给变量时启用警告。
+如果\ ``true``，则在将返回\ ``void``\ 的函数的结果赋值给变量时启用警告。
 
 ----
 
@@ -1949,7 +1949,7 @@ If ``true``, allows HiDPI display on the Windows, macOS and Web platforms. This 
 | *Default* | ``true`` |
 +-----------+----------+
 
-如果``true``，则保持屏幕打开(即使在不活动的情况下)，因此屏幕保护程序不会接管。适用于桌面和移动平台。
+如果\ ``true``，则保持屏幕打开(即使在不活动的情况下)，因此屏幕保护程序不会接管。适用于桌面和移动平台。
 
 ----
 
@@ -1963,7 +1963,7 @@ If ``true``, allows HiDPI display on the Windows, macOS and Web platforms. This 
 
 在移动设备上使用的默认屏幕方向。
 
-**注意：**设置为纵向时，此项目设置不会自动翻转项目分辨率的宽度和高度。相反，您必须相应地设置 :ref:`display/window/size/width<class_ProjectSettings_property_display/window/size/width>` 和 :ref:`display/window/size/height<class_ProjectSettings_property_display/window/size/height>`。
+**注意：**\ 设置为纵向时，此项目设置不会自动翻转项目分辨率的宽度和高度。相反，您必须相应地设置 :ref:`display/window/size/width<class_ProjectSettings_property_display/window/size/width>` 和 :ref:`display/window/size/height<class_ProjectSettings_property_display/window/size/height>`。
 
 ----
 
@@ -1975,7 +1975,7 @@ If ``true``, allows HiDPI display on the Windows, macOS and Web platforms. This 
 | *Default* | ``true`` |
 +-----------+----------+
 
-如果``true``，主指示器将自动隐藏。这只会影响没有物理home键的iOS设备。
+如果\ ``true``，主指示器将自动隐藏。这只会影响没有物理home键的iOS设备。
 
 ----
 
@@ -2145,9 +2145,9 @@ If ``true``, enables vertical synchronization. This eliminates tearing that may 
 | *Default* | ``false`` |
 +-----------+-----------+
 
-如果``Use Vsync``\ 已启用，且``true``，则在窗口模式下启用排字器时，可通过操作系统的窗口排字器实现垂直同步。这将防止在某些情况下卡顿。(Windows)。
+如果\ ``Use Vsync``\ 已启用，且\ ``true``，则在窗口模式下启用排字器时，可通过操作系统的窗口排字器实现垂直同步。这将防止在某些情况下卡顿。(Windows)。
 
-**注:**这个选项是实验性的，旨在缓解一些用户的卡顿体验。然而，有些用户在使用它时体验到垂直同步帧率减半(例如从60 FPS降至30 FPS)。
+**注:**\ 这个选项是实验性的，旨在缓解一些用户的卡顿体验。然而，有些用户在使用它时体验到垂直同步帧率减半(例如从60 FPS降至30 FPS)。
 
 ----
 
@@ -2191,7 +2191,7 @@ Search path for project-specific script templates. Rebel Engine will search for 
 | *Default* | ``PoolStringArray( "gd", "gdshader", "shader" )`` |
 +-----------+---------------------------------------------------+
 
-脚本编辑器的“在文件中查找”特性中包含的基于文本的文件扩展名。你可以添加例如``tscn``，如果你也想解析你的场景文件，特别是如果你使用的是在场景文件中序列化的内置脚本。
+脚本编辑器的“在文件中查找”特性中包含的基于文本的文件扩展名。你可以添加例如\ ``tscn``，如果你也想解析你的场景文件，特别是如果你使用的是在场景文件中序列化的内置脚本。
 
 ----
 
@@ -2203,7 +2203,7 @@ Search path for project-specific script templates. Rebel Engine will search for 
 | *Default* | ``0`` |
 +-----------+-------+
 
-:ref:`ScrollContainer.scroll_deadzone<class_ScrollContainer_property_scroll_deadzone>`，它将用于所有:ref:`ScrollContainer<class_ScrollContainer>`\ s，除非重写。
+:ref:`ScrollContainer.scroll_deadzone<class_ScrollContainer_property_scroll_deadzone>`，它将用于所有\ :ref:`ScrollContainer<class_ScrollContainer>`\ s，除非重写。
 
 ----
 
@@ -2211,7 +2211,7 @@ Search path for project-specific script templates. Rebel Engine will search for 
 
 - :ref:`bool<class_bool>` **gui/common/swap_ok_cancel**
 
-如果``true``，在Windows和UWP的对话框中交换确定和取消按钮，以遵循界面惯例。
+如果\ ``true``，在Windows和UWP的对话框中交换确定和取消按钮，以遵循界面惯例。
 
 ----
 
@@ -2233,7 +2233,7 @@ Search path for project-specific script templates. Rebel Engine will search for 
 | *Default* | ``""`` |
 +-----------+--------+
 
-用于项目的自定义:ref:`Theme<class_Theme>`\ 资源文件的路径(``theme``\ 或通用``tres``/``res``\ 扩展名)。
+用于项目的自定义\ :ref:`Theme<class_Theme>`\ 资源文件的路径(``theme``\ 或通用\ ``tres``/``res``\ 扩展名)。
 
 ----
 
@@ -2245,7 +2245,7 @@ Search path for project-specific script templates. Rebel Engine will search for 
 | *Default* | ``""`` |
 +-----------+--------+
 
-自定义:ref:`Font<class_Font>`\ 资源的路径，用于项目的所有GUI元素的默认字体。
+自定义\ :ref:`Font<class_Font>`\ 资源的路径，用于项目的所有GUI元素的默认字体。
 
 ----
 
@@ -2257,7 +2257,7 @@ Search path for project-specific script templates. Rebel Engine will search for 
 | *Default* | ``false`` |
 +-----------+-----------+
 
-如果``true``，确保使用的主题将在HiDPI下工作。
+如果\ ``true``，确保使用的主题将在HiDPI下工作。
 
 ----
 
@@ -2269,7 +2269,7 @@ Search path for project-specific script templates. Rebel Engine will search for 
 | *Default* | ``2000`` |
 +-----------+----------+
 
-在:ref:`Tree<class_Tree>`， :ref:`ItemList<class_ItemList>`\ 等控件中为增量搜索设置计时器(以毫秒为单位)。
+在\ :ref:`Tree<class_Tree>`， :ref:`ItemList<class_ItemList>`\ 等控件中为增量搜索设置计时器(以毫秒为单位)。
 
 ----
 
@@ -2281,7 +2281,7 @@ Search path for project-specific script templates. Rebel Engine will search for 
 | *Default* | ``3`` |
 +-----------+-------+
 
-检测:ref:`TextEdit<class_TextEdit>`\ 空闲的计时器(单位为秒)。
+检测\ :ref:`TextEdit<class_TextEdit>`\ 空闲的计时器(单位为秒)。
 
 ----
 
@@ -2301,9 +2301,9 @@ Search path for project-specific script templates. Rebel Engine will search for 
 
 - :ref:`Dictionary<class_Dictionary>` **input/ui_accept**
 
-默认用于确认焦点按钮、菜单或列表项，或验证输入的:ref:`InputEventAction<class_InputEventAction>`。
+默认用于确认焦点按钮、菜单或列表项，或验证输入的\ :ref:`InputEventAction<class_InputEventAction>`。
 
-**注意:**默认的``ui_*``\ 动作不能被删除，因为它们是几个:ref:`Control<class_Control>`\ 的内部逻辑所必需的。但是，可以修改分配给该操作的事件。
+**注意:**\ 默认的\ ``ui_*``\ 动作不能被删除，因为它们是几个\ :ref:`Control<class_Control>`\ 的内部逻辑所必需的。但是，可以修改分配给该操作的事件。
 
 ----
 
@@ -2311,9 +2311,9 @@ Search path for project-specific script templates. Rebel Engine will search for 
 
 - :ref:`Dictionary<class_Dictionary>` **input/ui_cancel**
 
-默认放弃一个模态或挂起的输入的:ref:`InputEventAction<class_InputEventAction>`。
+默认放弃一个模态或挂起的输入的\ :ref:`InputEventAction<class_InputEventAction>`。
 
-**注意:**默认的``ui_*``\ 动作不能被删除，因为它们是几个:ref:`Control<class_Control>`\ 的内部逻辑所必需的。但是，可以修改分配给该操作的事件。
+**注意:**\ 默认的\ ``ui_*``\ 动作不能被删除，因为它们是几个\ :ref:`Control<class_Control>`\ 的内部逻辑所必需的。但是，可以修改分配给该操作的事件。
 
 ----
 
@@ -2321,9 +2321,9 @@ Search path for project-specific script templates. Rebel Engine will search for 
 
 - :ref:`Dictionary<class_Dictionary>` **input/ui_down**
 
-默认在UI中向下移动的:ref:`InputEventAction<class_InputEventAction>`。
+默认在UI中向下移动的\ :ref:`InputEventAction<class_InputEventAction>`。
 
-**注意:**默认的``ui_*``\ 动作不能被删除，因为它们是几个:ref:`Control<class_Control>`\ 的内部逻辑所必需的。但是，可以修改分配给该操作的事件。
+**注意:**\ 默认的\ ``ui_*``\ 动作不能被删除，因为它们是几个\ :ref:`Control<class_Control>`\ 的内部逻辑所必需的。但是，可以修改分配给该操作的事件。
 
 ----
 
@@ -2331,9 +2331,9 @@ Search path for project-specific script templates. Rebel Engine will search for 
 
 - :ref:`Dictionary<class_Dictionary>` **input/ui_end**
 
-默认:ref:`InputEventAction<class_InputEventAction>`\ 去:ref:`Control<class_Control>`\ 的结束位置(例如:ref:`ItemList<class_ItemList>`\ 或:ref:`Tree<class_Tree>`\ 中的最后一项)，匹配典型桌面UI系统中:ref:`@GlobalScope.KEY_END<class_@GlobalScope_constant_KEY_END>`\ 的行为。
+默认\ :ref:`InputEventAction<class_InputEventAction>`\ 去\ :ref:`Control<class_Control>`\ 的结束位置(例如\ :ref:`ItemList<class_ItemList>`\ 或\ :ref:`Tree<class_Tree>`\ 中的最后一项)，匹配典型桌面UI系统中\ :ref:`@GlobalScope.KEY_END<class_@GlobalScope_constant_KEY_END>`\ 的行为。
 
-**注意:**默认的``ui_*``\ 动作不能被删除，因为它们是几个:ref:`Control<class_Control>`\ 的内部逻辑所必需的。但是，可以修改分配给该操作的事件。
+**注意:**\ 默认的\ ``ui_*``\ 动作不能被删除，因为它们是几个\ :ref:`Control<class_Control>`\ 的内部逻辑所必需的。但是，可以修改分配给该操作的事件。
 
 ----
 
@@ -2341,9 +2341,9 @@ Search path for project-specific script templates. Rebel Engine will search for 
 
 - :ref:`Dictionary<class_Dictionary>` **input/ui_focus_next**
 
-默认聚焦场景中的下一个:ref:`Control<class_Control>`\ 的:ref:`InputEventAction<class_InputEventAction>`。焦点行为可以通过:ref:`Control.focus_next<class_Control_property_focus_next>`\ 配置。
+默认聚焦场景中的下一个\ :ref:`Control<class_Control>`\ 的\ :ref:`InputEventAction<class_InputEventAction>`。焦点行为可以通过\ :ref:`Control.focus_next<class_Control_property_focus_next>`\ 配置。
 
-**注意:**默认的``ui_*``\ 动作不能被删除，因为它们是几个:ref:`Control<class_Control>`\ 的内部逻辑所必需的。但是，可以修改分配给该操作的事件。
+**注意:**\ 默认的\ ``ui_*``\ 动作不能被删除，因为它们是几个\ :ref:`Control<class_Control>`\ 的内部逻辑所必需的。但是，可以修改分配给该操作的事件。
 
 ----
 
@@ -2351,9 +2351,9 @@ Search path for project-specific script templates. Rebel Engine will search for 
 
 - :ref:`Dictionary<class_Dictionary>` **input/ui_focus_prev**
 
-默认聚焦场景中的前一个:ref:`Control<class_Control>`\ 的:ref:`InputEventAction<class_InputEventAction>`。焦点行为可以通过:ref:`Control.focus_previous<class_Control_property_focus_previous>`\ 配置。
+默认聚焦场景中的前一个\ :ref:`Control<class_Control>`\ 的\ :ref:`InputEventAction<class_InputEventAction>`。焦点行为可以通过\ :ref:`Control.focus_previous<class_Control_property_focus_previous>`\ 配置。
 
-**注意:**默认的``ui_*``\ 动作不能被删除，因为它们是几个:ref:`Control<class_Control>`\ 的内部逻辑所必需的。但是，可以修改分配给该操作的事件。
+**注意:**\ 默认的\ ``ui_*``\ 动作不能被删除，因为它们是几个\ :ref:`Control<class_Control>`\ 的内部逻辑所必需的。但是，可以修改分配给该操作的事件。
 
 ----
 
@@ -2361,9 +2361,9 @@ Search path for project-specific script templates. Rebel Engine will search for 
 
 - :ref:`Dictionary<class_Dictionary>` **input/ui_home**
 
-默认的将进入:ref:`Control<class_Control>`\ 的起始位置（例如:ref:`ItemList<class_ItemList>`\ 或:ref:`Tree<class_Tree>`\ 中的第一个项目）时的:ref:`InputEventAction<class_InputEventAction>`，与典型的桌面UI系统中:ref:`@GlobalScope.KEY_HOME<class_@GlobalScope_constant_KEY_HOME>`\ 的行为相匹配。
+默认的将进入\ :ref:`Control<class_Control>`\ 的起始位置（例如\ :ref:`ItemList<class_ItemList>`\ 或\ :ref:`Tree<class_Tree>`\ 中的第一个项目）时的\ :ref:`InputEventAction<class_InputEventAction>`，与典型的桌面UI系统中\ :ref:`@GlobalScope.KEY_HOME<class_@GlobalScope_constant_KEY_HOME>`\ 的行为相匹配。
 
-**注意：** 默认的``ui_*``\ 动作不能被删除，因为它们对于几个:ref:`Control<class_Control>`\ 的内部逻辑是必要的。然而，分配给动作的事件可以被修改。
+**注意：** 默认的\ ``ui_*``\ 动作不能被删除，因为它们对于几个\ :ref:`Control<class_Control>`\ 的内部逻辑是必要的。然而，分配给动作的事件可以被修改。
 
 ----
 
@@ -2371,9 +2371,9 @@ Search path for project-specific script templates. Rebel Engine will search for 
 
 - :ref:`Dictionary<class_Dictionary>` **input/ui_left**
 
-默认在UI中向左移动的:ref:`InputEventAction<class_InputEventAction>`。
+默认在UI中向左移动的\ :ref:`InputEventAction<class_InputEventAction>`。
 
-**注意:**默认的``ui_*``\ 动作不能被删除，因为它们是几个:ref:`Control<class_Control>`\ 的内部逻辑所必需的。但是，可以修改分配给该操作的事件。
+**注意:**\ 默认的\ ``ui_*``\ 动作不能被删除，因为它们是几个\ :ref:`Control<class_Control>`\ 的内部逻辑所必需的。但是，可以修改分配给该操作的事件。
 
 ----
 
@@ -2381,9 +2381,9 @@ Search path for project-specific script templates. Rebel Engine will search for 
 
 - :ref:`Dictionary<class_Dictionary>` **input/ui_page_down**
 
-默认的在:ref:`Control<class_Control>`\ (例如:ref:`ItemList<class_ItemList>`\ 或:ref:`Tree<class_Tree>`)中下拉页面的:ref:`InputEventAction<class_InputEventAction>`，与典型桌面UI系统中:ref:`@GlobalScope.KEY_PAGEDOWN<class_@GlobalScope_constant_KEY_PAGEDOWN>`\ 的行为相匹配。
+默认的在\ :ref:`Control<class_Control>`\ (例如\ :ref:`ItemList<class_ItemList>`\ 或\ :ref:`Tree<class_Tree>`)中下拉页面的\ :ref:`InputEventAction<class_InputEventAction>`，与典型桌面UI系统中\ :ref:`@GlobalScope.KEY_PAGEDOWN<class_@GlobalScope_constant_KEY_PAGEDOWN>`\ 的行为相匹配。
 
-**注意:**默认的``ui_*``\ 动作不能被删除，因为它们是几个:ref:`Control<class_Control>`\ 的内部逻辑所必需的。但是，可以修改分配给该操作的事件。
+**注意:**\ 默认的\ ``ui_*``\ 动作不能被删除，因为它们是几个\ :ref:`Control<class_Control>`\ 的内部逻辑所必需的。但是，可以修改分配给该操作的事件。
 
 ----
 
@@ -2391,9 +2391,9 @@ Search path for project-specific script templates. Rebel Engine will search for 
 
 - :ref:`Dictionary<class_Dictionary>` **input/ui_page_up**
 
-默认在:ref:`Control<class_Control>`\ (例如:ref:`ItemList<class_ItemList>`\ 或:ref:`Tree<class_Tree>`)中上移页面的:ref:`InputEventAction<class_InputEventAction>`，与典型桌面UI系统中:ref:`@GlobalScope.KEY_PAGEUP<class_@GlobalScope_constant_KEY_PAGEUP>`\ 的行为相匹配。
+默认在\ :ref:`Control<class_Control>`\ (例如\ :ref:`ItemList<class_ItemList>`\ 或\ :ref:`Tree<class_Tree>`)中上移页面的\ :ref:`InputEventAction<class_InputEventAction>`，与典型桌面UI系统中\ :ref:`@GlobalScope.KEY_PAGEUP<class_@GlobalScope_constant_KEY_PAGEUP>`\ 的行为相匹配。
 
-**注意:**默认的``ui_*``\ 动作不能被删除，因为它们是几个:ref:`Control<class_Control>`\ 的内部逻辑所必需的。但是，可以修改分配给该操作的事件。
+**注意:**\ 默认的\ ``ui_*``\ 动作不能被删除，因为它们是几个\ :ref:`Control<class_Control>`\ 的内部逻辑所必需的。但是，可以修改分配给该操作的事件。
 
 ----
 
@@ -2401,9 +2401,9 @@ Search path for project-specific script templates. Rebel Engine will search for 
 
 - :ref:`Dictionary<class_Dictionary>` **input/ui_right**
 
-默认在UI中右移的:ref:`InputEventAction<class_InputEventAction>`。
+默认在UI中右移的\ :ref:`InputEventAction<class_InputEventAction>`。
 
-**注意:**默认的``ui_*``\ 动作不能被删除，因为它们是几个:ref:`Control<class_Control>`\ 的内部逻辑所必需的。但是，可以修改分配给该操作的事件。
+**注意:**\ 默认的\ ``ui_*``\ 动作不能被删除，因为它们是几个\ :ref:`Control<class_Control>`\ 的内部逻辑所必需的。但是，可以修改分配给该操作的事件。
 
 ----
 
@@ -2411,9 +2411,9 @@ Search path for project-specific script templates. Rebel Engine will search for 
 
 - :ref:`Dictionary<class_Dictionary>` **input/ui_select**
 
-默认选择:ref:`Control<class_Control>`\ (例如:ref:`ItemList<class_ItemList>`\ 或:ref:`Tree<class_Tree>`)中的一个项目:ref:`InputEventAction<class_InputEventAction>`。
+默认选择\ :ref:`Control<class_Control>`\ (例如\ :ref:`ItemList<class_ItemList>`\ 或\ :ref:`Tree<class_Tree>`)中的一个项目\ :ref:`InputEventAction<class_InputEventAction>`。
 
-**注意:**默认的``ui_*``\ 动作不能被删除，因为它们是几个:ref:`Control<class_Control>`\ 的内部逻辑所必需的。但是，可以修改分配给该操作的事件。
+**注意:**\ 默认的\ ``ui_*``\ 动作不能被删除，因为它们是几个\ :ref:`Control<class_Control>`\ 的内部逻辑所必需的。但是，可以修改分配给该操作的事件。
 
 ----
 
@@ -2421,9 +2421,9 @@ Search path for project-specific script templates. Rebel Engine will search for 
 
 - :ref:`Dictionary<class_Dictionary>` **input/ui_up**
 
-默认在UI中向上移动:ref:`InputEventAction<class_InputEventAction>`。
+默认在UI中向上移动\ :ref:`InputEventAction<class_InputEventAction>`。
 
-**注意:**默认的``ui_*``\ 动作不能被删除，因为它们是几个:ref:`Control<class_Control>`\ 的内部逻辑所必需的。但是，可以修改分配给该操作的事件。
+**注意:**\ 默认的\ ``ui_*``\ 动作不能被删除，因为它们是几个\ :ref:`Control<class_Control>`\ 的内部逻辑所必需的。但是，可以修改分配给该操作的事件。
 
 ----
 
@@ -2453,7 +2453,7 @@ Search path for project-specific script templates. Rebel Engine will search for 
 | *Default* | ``true`` |
 +-----------+----------+
 
-如果``true``，则在点击或滑动触摸屏时发送鼠标输入事件。
+如果\ ``true``，则在点击或滑动触摸屏时发送鼠标输入事件。
 
 ----
 
@@ -2465,7 +2465,7 @@ Search path for project-specific script templates. Rebel Engine will search for 
 | *Default* | ``false`` |
 +-----------+-----------+
 
-如果``true``，则在点击或拖动鼠标时发送触摸输入事件。
+如果\ ``true``，则在点击或拖动鼠标时发送触摸输入事件。
 
 ----
 
@@ -3761,7 +3761,7 @@ Search path for project-specific script templates. Rebel Engine will search for 
 | *Default* | ``false`` |
 +-----------+-----------+
 
-如果``true``，将所有输出记录到文件中。
+如果\ ``true``，将所有输出记录到文件中。
 
 ----
 
@@ -4103,7 +4103,7 @@ If in doubt, leave this setting empty.
 
 默认值在大多数情况下可以很好地工作。为 0.0 时将关闭该优化，较大的值可能能够更好地处理较大、较快的运动物体。
 
-**注意：**仅在启用 :ref:`physics/2d/use_bvh<class_ProjectSettings_property_physics/2d/use_bvh>` 时使用。
+**注意：**\ 仅在启用 :ref:`physics/2d/use_bvh<class_ProjectSettings_property_physics/2d/use_bvh>` 时使用。
 
 ----
 
@@ -4117,7 +4117,7 @@ If in doubt, leave this setting empty.
 
 用于宽相 2D 哈希网格算法的单元尺寸，像素单位。
 
-**注意：**如果启用了 :ref:`physics/2d/use_bvh<class_ProjectSettings_property_physics/2d/use_bvh>`，则不使用。
+**注意：**\ 如果启用了 :ref:`physics/2d/use_bvh<class_ProjectSettings_property_physics/2d/use_bvh>`，则不使用。
 
 ----
 
@@ -4131,7 +4131,7 @@ If in doubt, leave this setting empty.
 
 2D 中的默认角阻尼。
 
-**注意：** 良好的值在 ``0`` 到 ``1`` 的范围内。在值为 ``0`` 时，对象将继续以相同的速度移动。大于 ``1`` 的值将旨在不到一秒的时间内将速度降低到 ``0``，例如``2`` 的值将旨在在半秒内将速度降低到 ``0``。等于或大于物理帧速率的值将使对象在一次迭代中停止，:ref:`physics/common/physics_fps<class_ProjectSettings_property_physics/common/physics_fps>`\ 默认情况下为 ``60``。
+**注意：** 良好的值在 ``0`` 到 ``1`` 的范围内。在值为 ``0`` 时，对象将继续以相同的速度移动。大于 ``1`` 的值将旨在不到一秒的时间内将速度降低到 ``0``，例如\ ``2`` 的值将旨在在半秒内将速度降低到 ``0``。等于或大于物理帧速率的值将使对象在一次迭代中停止，:ref:`physics/common/physics_fps<class_ProjectSettings_property_physics/common/physics_fps>`\ 默认情况下为 ``60``。
 
 ----
 
@@ -4145,7 +4145,7 @@ If in doubt, leave this setting empty.
 
 2D中默认的重力强度，单位：每秒平方像素。
 
-**注意：**这个属性只在项目启动时被读取。要在运行时改变默认的重力，请使用以下代码示例：
+**注意：**\ 这个属性只在项目启动时被读取。要在运行时改变默认的重力，请使用以下代码示例：
 
 ::
 
@@ -4183,7 +4183,7 @@ If in doubt, leave this setting empty.
 
 2D 中的默认线性阻尼。
 
-**注：**良好的值在``0``\ 到``1``\ 的范围内。在值为 ``0`` 时，对象将继续以相同的速度移动。大于 ``1`` 的值将旨在不到一秒的时间内将速度降低到 ``0``，例如``2`` 的值将旨在半秒内将速度降低到 ``0``。等于或大于物理帧速率的值将使对象在一次迭代中停止，:ref:`physics/common/physics_fps<class_ProjectSettings_property_physics/common/physics_fps>`，默认情况下为 ``60``。
+**注：**\ 良好的值在\ ``0``\ 到\ ``1``\ 的范围内。在值为 ``0`` 时，对象将继续以相同的速度移动。大于 ``1`` 的值将旨在不到一秒的时间内将速度降低到 ``0``，例如\ ``2`` 的值将旨在半秒内将速度降低到 ``0``。等于或大于物理帧速率的值将使对象在一次迭代中停止，:ref:`physics/common/physics_fps<class_ProjectSettings_property_physics/common/physics_fps>`，默认情况下为 ``60``。
 
 ----
 
@@ -4197,7 +4197,7 @@ If in doubt, leave this setting empty.
 
 定义构成大对象的表面尺寸的阈值，与宽相 2D 散列网格算法中的单元有关。
 
-**注意：**如果启用了:ref:`physics/2d/use_bvh<class_ProjectSettings_property_physics/2d/use_bvh>`，则不使用。
+**注意：**\ 如果启用了\ :ref:`physics/2d/use_bvh<class_ProjectSettings_property_physics/2d/use_bvh>`，则不使用。
 
 ----
 
@@ -4235,7 +4235,7 @@ Sets which physics engine to use for 2D physics.
 | *Default* | ``2.0`` |
 +-----------+---------+
 
-线性速度的阈值。在此阈值下2D物理体被认为是非活动的。参阅:ref:`Physics2DServer.SPACE_PARAM_BODY_LINEAR_VELOCITY_SLEEP_THRESHOLD<class_Physics2DServer_constant_SPACE_PARAM_BODY_LINEAR_VELOCITY_SLEEP_THRESHOLD>`。
+线性速度的阈值。在此阈值下2D物理体被认为是非活动的。参阅\ :ref:`Physics2DServer.SPACE_PARAM_BODY_LINEAR_VELOCITY_SLEEP_THRESHOLD<class_Physics2DServer_constant_SPACE_PARAM_BODY_LINEAR_VELOCITY_SLEEP_THRESHOLD>`。
 
 ----
 
@@ -4261,7 +4261,7 @@ Sets whether physics is run on the main thread or a separate one. Running the se
 | *Default* | ``0.5`` |
 +-----------+---------+
 
-2D物理物体非活动的时间，以秒为单位。在此之前，2D物理物体将进入休眠状态。参阅:ref:`Physics2DServer.SPACE_PARAM_BODY_TIME_TO_SLEEP<class_Physics2DServer_constant_SPACE_PARAM_BODY_TIME_TO_SLEEP>`。
+2D物理物体非活动的时间，以秒为单位。在此之前，2D物理物体将进入休眠状态。参阅\ :ref:`Physics2DServer.SPACE_PARAM_BODY_TIME_TO_SLEEP<class_Physics2DServer_constant_SPACE_PARAM_BODY_TIME_TO_SLEEP>`。
 
 ----
 
@@ -4299,7 +4299,7 @@ Sets whether physics is run on the main thread or a separate one. Running the se
 
 3D 中的默认角阻尼。
 
-**注意：** 良好的值在 ``0`` 到 ``1`` 的范围内。在值为 ``0`` 时，对象将继续以相同的速度移动。大于 ``1`` 的值将旨在不到一秒的时间内将速度降低到 ``0``，例如``2`` 的值将旨在半秒内将速度降低到 ``0``。等于或大于物理帧速率的值将使对象在一次迭代中停止，:ref:`physics/common/physics_fps<class_ProjectSettings_property_physics/common/physics_fps>`\ 默认情况下为 ``60``。
+**注意：** 良好的值在 ``0`` 到 ``1`` 的范围内。在值为 ``0`` 时，对象将继续以相同的速度移动。大于 ``1`` 的值将旨在不到一秒的时间内将速度降低到 ``0``，例如\ ``2`` 的值将旨在半秒内将速度降低到 ``0``。等于或大于物理帧速率的值将使对象在一次迭代中停止，:ref:`physics/common/physics_fps<class_ProjectSettings_property_physics/common/physics_fps>`\ 默认情况下为 ``60``。
 
 ----
 
@@ -4351,7 +4351,7 @@ Sets whether physics is run on the main thread or a separate one. Running the se
 
 3D 中的默认线性阻尼。
 
-**注：**好的值在``0``\ 到``1``\ 的范围内。在值为 ``0`` 时，对象将继续以相同的速度移动。大于 ``1`` 的值将旨在不到一秒的时间内将速度降低到 ``0``，例如``2`` 的值将旨在半秒内将速度降低到 ``0``。等于或大于物理帧速率的值将使对象在一次迭代中停止，:ref:`physics/common/physics_fps<class_ProjectSettings_property_physics/common/physics_fps>`\ 默认情况下为 ``60``。
+**注：**\ 好的值在\ ``0``\ 到\ ``1``\ 的范围内。在值为 ``0`` 时，对象将继续以相同的速度移动。大于 ``1`` 的值将旨在不到一秒的时间内将速度降低到 ``0``，例如\ ``2`` 的值将旨在半秒内将速度降低到 ``0``。等于或大于物理帧速率的值将使对象在一次迭代中停止，:ref:`physics/common/physics_fps<class_ProjectSettings_property_physics/common/physics_fps>`\ 默认情况下为 ``60``。
 
 ----
 
@@ -4453,9 +4453,9 @@ The number of fixed iterations per second. This controls how often physics simul
 
 控制物理时钟实时同步的程度。如果是0或更少，时钟是同步的。这样的值建议用于网络游戏，因为时钟的同步性很重要。较高的值会导致游戏中的时钟和真实时钟的偏差较大，但可以平滑帧速率的抖动。默认值0.5对大多数人来说应是不错的；超过2的值可能会导致游戏对掉帧的反应有明显的延迟，因此不建议使用。
 
-**注意：**为了获得最佳效果，当使用自定义物理插值解决方案时，应该通过将:ref:`physics/common/physics_jitter_fix<class_ProjectSettings_property_physics/common/physics_jitter_fix>`\ 设置为``0``\ 来禁用物理抖动修复。
+**注意：**\ 为了获得最佳效果，当使用自定义物理插值解决方案时，应该通过将\ :ref:`physics/common/physics_jitter_fix<class_ProjectSettings_property_physics/common/physics_jitter_fix>`\ 设置为\ ``0``\ 来禁用物理抖动修复。
 
-**注意：** 这个属性只在项目启动时被读取。要在运行时改变物理FPS，请设置:ref:`Engine.physics_jitter_fix<class_Engine_property_physics_jitter_fix>`。
+**注意：** 这个属性只在项目启动时被读取。要在运行时改变物理FPS，请设置\ :ref:`Engine.physics_jitter_fix<class_Engine_property_physics_jitter_fix>`。
 
 ----
 
@@ -4467,9 +4467,9 @@ The number of fixed iterations per second. This controls how often physics simul
 | *Default* | ``0`` |
 +-----------+-------+
 
-**实验性的。**在上传批处理数据之前使用NULL数据调用``glBufferData``。这可能不是必需的，但可以用于安全。
+**实验性的。**\ 在上传批处理数据之前使用NULL数据调用\ ``glBufferData``。这可能不是必需的，但可以用于安全。
 
-**注意：**请小心使用。建议您将其保留为导出的默认值。在您的计算机上效果更好的非默认设置可能会对最终用户的性能产生不利影响。
+**注意：**\ 请小心使用。建议您将其保留为导出的默认值。在您的计算机上效果更好的非默认设置可能会对最终用户的性能产生不利影响。
 
 ----
 
@@ -4483,7 +4483,7 @@ The number of fixed iterations per second. This controls how often physics simul
 
 **实验性的。** 如果设置为 on，则使用 ``GL_STREAM_DRAW`` 标志进行批处理缓冲区上传。如果关闭，则使用 ``GL_DYNAMIC_DRAW`` 标志。
 
-**注意：**请小心使用。建议您将其保留为导出的默认值。在您的计算机上效果更好的非默认设置可能会对最终用户的性能产生不利影响。
+**注意：**\ 请小心使用。建议您将其保留为导出的默认值。在您的计算机上效果更好的非默认设置可能会对最终用户的性能产生不利影响。
 
 ----
 
@@ -4495,9 +4495,9 @@ The number of fixed iterations per second. This controls how often physics simul
 | *Default* | ``0`` |
 +-----------+-------+
 
-**实验性的。**如果设置为，则适用缓冲孤立 - ``glBufferData`` 在上传新数据之前使用 NULL 数据和完整缓冲器大小进行调用。这对于避免某些硬件出现停滞非常重要。
+**实验性的。**\ 如果设置为，则适用缓冲孤立 - ``glBufferData`` 在上传新数据之前使用 NULL 数据和完整缓冲器大小进行调用。这对于避免某些硬件出现停滞非常重要。
 
-**注意：**请小心使用。建议您将此作为导出的默认值。在机器上效果更好的非默认设置可能会对最终用户的性能产生不利影响。
+**注意：**\ 请小心使用。建议您将此作为导出的默认值。在机器上效果更好的非默认设置可能会对最终用户的性能产生不利影响。
 
 ----
 
@@ -4511,7 +4511,7 @@ The number of fixed iterations per second. This controls how often physics simul
 
 **实验性的。** 如果设置为开启，则使用 ``GL_STREAM_DRAW`` 标志进行旧缓冲区上传。如果关闭，则使用 ``GL_DYNAMIC_DRAW`` 标志。
 
-**注意：**请小心使用。建议您将其保留为导出的默认值。在您的计算机上效果更好的非默认设置可能会对最终用户的性能产生不利影响。
+**注意：**\ 请小心使用。建议您将其保留为导出的默认值。在您的计算机上效果更好的非默认设置可能会对最终用户的性能产生不利影响。
 
 ----
 
@@ -4525,7 +4525,7 @@ The number of fixed iterations per second. This controls how often physics simul
 
 在固定模式和缩放模式之间进行选择，前者保留了与图稿(artwork)相匹配的角缩放。
 
-当:ref:`rendering/batching/options/use_batching<class_ProjectSettings_property_rendering/batching/options/use_batching>`\ 关闭时，在GLES3中不可用。
+当\ :ref:`rendering/batching/options/use_batching<class_ProjectSettings_property_rendering/batching/options/use_batching>`\ 关闭时，在GLES3中不可用。
 
 ----
 
@@ -4537,9 +4537,9 @@ The number of fixed iterations per second. This controls how often physics simul
 | *Default* | ``false`` |
 +-----------+-----------+
 
-一些NVIDIA GPU驱动有bug，对``draw_rect``\ 方法产生闪烁问题，特别是在:ref:`TileMap<class_TileMap>`\ 中使用时。详情参阅`GitHub issue 9913 <https://github.com/godotengine/godot/issues/9913>`__。
+一些NVIDIA GPU驱动有bug，对\ ``draw_rect``\ 方法产生闪烁问题，特别是在\ :ref:`TileMap<class_TileMap>`\ 中使用时。详情参阅\ `GitHub issue 9913 <https://github.com/godotengine/godot/issues/9913>`__。
 
-如果``为true``，该选项将为此类NVIDIA GPU启用 "安全" 的代码路径，但会牺牲性能。这个选项会影响GLES2和GLES3的渲染，但只在桌面平台上。
+如果\ ``为true``，该选项将为此类NVIDIA GPU启用 "安全" 的代码路径，但会牺牲性能。这个选项会影响GLES2和GLES3的渲染，但只在桌面平台上。
 
 ----
 
@@ -4557,7 +4557,7 @@ The number of fixed iterations per second. This controls how often physics simul
 
 **注意：** 不支持抗锯齿软件蒙皮多边形，将在没有抗锯齿的情况下渲染。
 
-**注意：** 使用内置 ``VERTEX`` 的自定义着色器在应用蒙皮*之后*以 ``VERTEX`` 位置运行，而使用硬件蒙皮，``VERTEX`` 是被应用蒙皮*之前*的位置。
+**注意：** 使用内置 ``VERTEX`` 的自定义着色器在应用蒙皮\ *之后*\ 以 ``VERTEX`` 位置运行，而使用硬件蒙皮，``VERTEX`` 是被应用蒙皮\ *之前*\ 的位置。
 
 ----
 
@@ -4573,7 +4573,7 @@ The number of fixed iterations per second. This controls how often physics simul
 
 这种捕捉是在顶点着色器中的 GPU 上执行的。
 
-考虑使用项目设置:ref:`rendering/batching/precision/uv_contract<class_ProjectSettings_property_rendering/batching/precision/uv_contract>` 来防止出现伪影。
+考虑使用项目设置\ :ref:`rendering/batching/precision/uv_contract<class_ProjectSettings_property_rendering/batching/precision/uv_contract>` 来防止出现伪影。
 
 ----
 
@@ -4793,7 +4793,7 @@ UV收缩量。这个数字除以1000000，是总纹理尺寸的一个比例，�
 | *Default* | ``Color( 0.3, 0.3, 0.3, 1 )`` |
 +-----------+-------------------------------+
 
-默认背景透明颜色。使用 :ref:`Environment<class_Environment>` 可覆盖每个:ref:`Viewport<class_Viewport>`。具体请参阅 :ref:`Environment.background_mode<class_Environment_property_background_mode>` 和 :ref:`Environment.background_color<class_Environment_property_background_color>`。要以代码方式更改此默认颜色，请使用 :ref:`VisualServer.set_default_clear_color<class_VisualServer_method_set_default_clear_color>`。
+默认背景透明颜色。使用 :ref:`Environment<class_Environment>` 可覆盖每个\ :ref:`Viewport<class_Viewport>`。具体请参阅 :ref:`Environment.background_mode<class_Environment_property_background_mode>` 和 :ref:`Environment.background_color<class_Environment_property_background_color>`。要以代码方式更改此默认颜色，请使用 :ref:`VisualServer.set_default_clear_color<class_VisualServer_method_set_default_clear_color>`。
 
 ----
 
@@ -4805,7 +4805,7 @@ UV收缩量。这个数字除以1000000，是总纹理尺寸的一个比例，�
 | *Default* | ``""`` |
 +-----------+--------+
 
-:ref:`Environment<class_Environment>` 将用作后备环境，以防场景未指定自己的环境。无论您是否设置了环境，都会在场景加载时加载默认环境。如果不依赖默认环境，最好删除``default_env.tres``，或者在这里指定不同的默认环境。
+:ref:`Environment<class_Environment>` 将用作后备环境，以防场景未指定自己的环境。无论您是否设置了环境，都会在场景加载时加载默认环境。如果不依赖默认环境，最好删除\ ``default_env.tres``，或者在这里指定不同的默认环境。
 
 ----
 
@@ -4829,7 +4829,7 @@ UV收缩量。这个数字除以1000000，是总纹理尺寸的一个比例，�
 | *Default* | ``true`` |
 +-----------+----------+
 
-对:ref:`rendering/gles2/compatibility/disable_half_float<class_ProjectSettings_property_rendering/gles2/compatibility/disable_half_float>`\ 的iOS特定重写，因为在许多设备上对半精度浮点顶点压缩的支持不佳。
+对\ :ref:`rendering/gles2/compatibility/disable_half_float<class_ProjectSettings_property_rendering/gles2/compatibility/disable_half_float>`\ 的iOS特定重写，因为在许多设备上对半精度浮点顶点压缩的支持不佳。
 
 ----
 
@@ -4963,7 +4963,7 @@ UV收缩量。这个数字除以1000000，是总纹理尺寸的一个比例，�
 | *Default* | ``false`` |
 +-----------+-----------+
 
-如果``true``，纹理导入器将使用PNG格式导入无损纹理。否则，将默认使用WebP。
+如果\ ``true``，纹理导入器将使用PNG格式导入无损纹理。否则，将默认使用WebP。
 
 ----
 
@@ -5043,7 +5043,7 @@ It will flip named portal meshes (i.e. ``-portal``) on the initial conversion to
 | *Default* | ``true`` |
 +-----------+----------+
 
-如果 ``true``，游戏回调将作为 ``信号`` 发送。如果``false``，它们将作为``通知``\ 发送。
+如果 ``true``，游戏回调将作为 ``信号`` 发送。如果\ ``false``，它们将作为\ ``通知``\ 发送。
 
 ----
 
@@ -5085,7 +5085,7 @@ It will flip named portal meshes (i.e. ``-portal``) on the initial conversion to
 
 使用生成 PVS（潜在可见集）数据的简化方法。当多个portal连接相邻空间时，结果可能不准确。
 
-**注意：**一般只有在设置为``false``\ 时遇到bug，即默认方法有问题时，才应该使用该选项。
+**注意：**\ 一般只有在设置为\ ``false``\ 时遇到bug，即默认方法有问题时，才应该使用该选项。
 
 ----
 
@@ -5161,7 +5161,7 @@ Lower-end override for :ref:`rendering/quality/depth/hdr<class_ProjectSettings_p
 | *Default* | ``2048`` |
 +-----------+----------+
 
-由于性能和驱动支持的问题，在移动设备上会对:ref:`rendering/quality/directional_shadow/size<class_ProjectSettings_property_rendering/quality/directional_shadow/size>` 以低配数值覆盖。
+由于性能和驱动支持的问题，在移动设备上会对\ :ref:`rendering/quality/directional_shadow/size<class_ProjectSettings_property_rendering/quality/directional_shadow/size>` 以低配数值覆盖。
 
 ----
 
@@ -5175,7 +5175,7 @@ Lower-end override for :ref:`rendering/quality/depth/hdr<class_ProjectSettings_p
 
 要使用的视频驱动（"GLES2"或 "GLES3"）。
 
-**注意：**使用中的后端可以在运行时通过``--video-driver``\ 命令行参数而覆盖，如果目标系统不支持GLES3，要退回到GLES2，则可以通过:ref:`rendering/quality/driver/fallback_to_gles2<class_ProjectSettings_property_rendering/quality/driver/fallback_to_gles2>`\ 选项。在这种情况下，这个属性不会被更新，所以在运行时使用:ref:`OS.get_current_video_driver<class_OS_method_get_current_video_driver>`\ 来查询。
+**注意：**\ 使用中的后端可以在运行时通过\ ``--video-driver``\ 命令行参数而覆盖，如果目标系统不支持GLES3，要退回到GLES2，则可以通过\ :ref:`rendering/quality/driver/fallback_to_gles2<class_ProjectSettings_property_rendering/quality/driver/fallback_to_gles2>`\ 选项。在这种情况下，这个属性不会被更新，所以在运行时使用\ :ref:`OS.get_current_video_driver<class_OS_method_get_current_video_driver>`\ 来查询。
 
 ----
 
@@ -5227,7 +5227,7 @@ Sets the number of MSAA samples to use. MSAA is used to reduce aliasing around t
 | *Default* | ``0.0`` |
 +-----------+---------+
 
-如果设置为大于 ``0.0`` 的值，对比度自适应锐化将应用于 3D 视口。这具有较低的性能成本，可用于恢复使用 FXAA 时损失的一些锐度。 ``0.5`` 附近的值通常会给出最好的结果。另见:ref:`rendering/quality/filters/use_fxaa<class_ProjectSettings_property_rendering/quality/filters/use_fxaa>`。
+如果设置为大于 ``0.0`` 的值，对比度自适应锐化将应用于 3D 视口。这具有较低的性能成本，可用于恢复使用 FXAA 时损失的一些锐度。 ``0.5`` 附近的值通常会给出最好的结果。另见\ :ref:`rendering/quality/filters/use_fxaa<class_ProjectSettings_property_rendering/quality/filters/use_fxaa>`。
 
 ----
 
@@ -5255,7 +5255,7 @@ Sets the number of MSAA samples to use. MSAA is used to reduce aliasing around t
 | *Default* | ``false`` |
 +-----------+-----------+
 
-在根视窗中启用FXAA。FXAA是一种流行的屏幕空间抗锯齿方法，它速度快，但会使图像看起来很模糊，特别是在低分辨率下。在1440p和4K这样的大分辨率下，可以工作得比较好。一些损失的锐度可以通过启用对比度适应性锐化来恢复，参阅:ref:`rendering/quality/filters/sharpen_intensity<class_ProjectSettings_property_rendering/quality/filters/sharpen_intensity>`。
+在根视窗中启用FXAA。FXAA是一种流行的屏幕空间抗锯齿方法，它速度快，但会使图像看起来很模糊，特别是在低分辨率下。在1440p和4K这样的大分辨率下，可以工作得比较好。一些损失的锐度可以通过启用对比度适应性锐化来恢复，参阅\ :ref:`rendering/quality/filters/sharpen_intensity<class_ProjectSettings_property_rendering/quality/filters/sharpen_intensity>`。
 
 ----
 
@@ -5291,7 +5291,7 @@ Strategy used for framebuffer allocation. The simpler it is, the less resources 
 | *Default* | ``3`` |
 +-----------+-------+
 
-由于性能或驱动支持问题，在移动设备上对:ref:`rendering/quality/intended_usage/framebuffer_allocation<class_ProjectSettings_property_rendering/quality/intended_usage/framebuffer_allocation>`\ 以低配数值覆盖。
+由于性能或驱动支持问题，在移动设备上对\ :ref:`rendering/quality/intended_usage/framebuffer_allocation<class_ProjectSettings_property_rendering/quality/intended_usage/framebuffer_allocation>`\ 以低配数值覆盖。
 
 ----
 
@@ -5315,7 +5315,7 @@ Strategy used for framebuffer allocation. The simpler it is, the less resources 
 | *Default* | ``false`` |
 +-----------+-----------+
 
-在移动设备上对:ref:`rendering/quality/lightmapping/use_bicubic_sampling<class_ProjectSettings_property_rendering/quality/lightmapping/use_bicubic_sampling>`\ 进行低端覆盖，以减少带宽使用。
+在移动设备上对\ :ref:`rendering/quality/lightmapping/use_bicubic_sampling<class_ProjectSettings_property_rendering/quality/lightmapping/use_bicubic_sampling>`\ 进行低端覆盖，以减少带宽使用。
 
 ----
 
@@ -5363,7 +5363,7 @@ Strategy used for framebuffer allocation. The simpler it is, the less resources 
 | *Default* | ``false`` |
 +-----------+-----------+
 
-由于性能问题或驱动器支持，在移动设备上对:ref:`rendering/quality/reflections/high_quality_ggx<class_ProjectSettings_property_rendering/quality/reflections/high_quality_ggx>`\ 进行低端覆盖。
+由于性能问题或驱动器支持，在移动设备上对\ :ref:`rendering/quality/reflections/high_quality_ggx<class_ProjectSettings_property_rendering/quality/reflections/high_quality_ggx>`\ 进行低端覆盖。
 
 ----
 
@@ -5375,7 +5375,7 @@ Strategy used for framebuffer allocation. The simpler it is, the less resources 
 | *Default* | ``128`` |
 +-----------+---------+
 
-限制辐照度贴图的大小，通常由 :ref:`Sky.radiance_size<class_Sky_property_radiance_size>` 确定。与:ref:`rendering/quality/reflections/high_quality_ggx<class_ProjectSettings_property_rendering/quality/reflections/high_quality_ggx>` 类似，更大的尺寸会产生更高质量的辐照度贴图。使用高频 HDRI 贴图时使用较高的值，否则请尽可能降低该值。
+限制辐照度贴图的大小，通常由 :ref:`Sky.radiance_size<class_Sky_property_radiance_size>` 确定。与\ :ref:`rendering/quality/reflections/high_quality_ggx<class_ProjectSettings_property_rendering/quality/reflections/high_quality_ggx>` 类似，更大的尺寸会产生更高质量的辐照度贴图。使用高频 HDRI 贴图时使用较高的值，否则请尽可能降低该值。
 
 **注意：** 中低档硬件不能很好地支持复杂的辐照度贴图，如果设置太高可能会崩溃。
 
@@ -5401,7 +5401,7 @@ Strategy used for framebuffer allocation. The simpler it is, the less resources 
 | *Default* | ``false`` |
 +-----------+-----------+
 
-由于性能问题或驱动支持，在移动设备上将对:ref:`rendering/quality/reflections/texture_array_reflections<class_ProjectSettings_property_rendering/quality/reflections/texture_array_reflections>`\ 以低性能数值覆盖。
+由于性能问题或驱动支持，在移动设备上将对\ :ref:`rendering/quality/reflections/texture_array_reflections<class_ProjectSettings_property_rendering/quality/reflections/texture_array_reflections>`\ 以低性能数值覆盖。
 
 ----
 
@@ -5425,7 +5425,7 @@ Strategy used for framebuffer allocation. The simpler it is, the less resources 
 | *Default* | ``true`` |
 +-----------+----------+
 
-由于性能或驱动支持问题，在移动设备上将对:ref:`rendering/quality/shading/force_blinn_over_ggx<class_ProjectSettings_property_rendering/quality/shading/force_blinn_over_ggx>`\ 以低值覆盖。
+由于性能或驱动支持问题，在移动设备上将对\ :ref:`rendering/quality/shading/force_blinn_over_ggx<class_ProjectSettings_property_rendering/quality/shading/force_blinn_over_ggx>`\ 以低值覆盖。
 
 ----
 
@@ -5449,7 +5449,7 @@ Strategy used for framebuffer allocation. The simpler it is, the less resources 
 | *Default* | ``true`` |
 +-----------+----------+
 
-由于性能问题或驱动支持，在移动设备上将对:ref:`rendering/quality/shading/force_lambert_over_burley<class_ProjectSettings_property_rendering/quality/shading/force_lambert_over_burley>`\ 以低配数值覆盖。
+由于性能问题或驱动支持，在移动设备上将对\ :ref:`rendering/quality/shading/force_lambert_over_burley<class_ProjectSettings_property_rendering/quality/shading/force_lambert_over_burley>`\ 以低配数值覆盖。
 
 ----
 
@@ -5615,7 +5615,7 @@ Lower-end override for :ref:`rendering/quality/shading/force_vertex_shading<clas
 
 强制 :ref:`MeshInstance<class_MeshInstance>` 始终在 CPU 上执行蒙皮（适用于 GLES2 和 GLES3）。
 
-另见:ref:`rendering/quality/skinning/software_skinning_fallback<class_ProjectSettings_property_rendering/quality/skinning/software_skinning_fallback>`。
+另见\ :ref:`rendering/quality/skinning/software_skinning_fallback<class_ProjectSettings_property_rendering/quality/skinning/software_skinning_fallback>`。
 
 ----
 
@@ -5631,7 +5631,7 @@ Lower-end override for :ref:`rendering/quality/shading/force_vertex_shading<clas
 
 如果 ``false``，则在这种情况下使用 GPU 上的替代蒙皮过程（在大多数情况下较慢）。
 
-另见:ref:`rendering/quality/skinning/force_software_skinning<class_ProjectSettings_property_rendering/quality/skinning/force_software_skinning>`。
+另见\ :ref:`rendering/quality/skinning/force_software_skinning<class_ProjectSettings_property_rendering/quality/skinning/force_software_skinning>`。
 
 **注意：** 当触发软件蒙皮回退时，自定义顶点着色器将以不同的方式运行，因为骨骼变换已经应用于模型视图矩阵。
 
@@ -5649,7 +5649,7 @@ Lower-end override for :ref:`rendering/quality/shading/force_vertex_shading<clas
 
 默认值在大多数情况下可以很好地工作。为 0.0 时将关闭该优化，较大的值可能能够更好地处理较大、较快的运动物体。
 
-**注意：**仅在启用 :ref:`rendering/quality/spatial_partitioning/use_bvh<class_ProjectSettings_property_rendering/quality/spatial_partitioning/use_bvh>` 时使用。
+**注意：**\ 仅在启用 :ref:`rendering/quality/spatial_partitioning/use_bvh<class_ProjectSettings_property_rendering/quality/spatial_partitioning/use_bvh>` 时使用。
 
 ----
 
@@ -5665,7 +5665,7 @@ Lower-end override for :ref:`rendering/quality/shading/force_vertex_shading<clas
 
 在某些项目中，较大的分支可以显着提高性能。
 
-**注意：**启用 :ref:`rendering/quality/spatial_partitioning/use_bvh<class_ProjectSettings_property_rendering/quality/spatial_partitioning/use_bvh>` 时不会使用。
+**注意：**\ 启用 :ref:`rendering/quality/spatial_partitioning/use_bvh<class_ProjectSettings_property_rendering/quality/spatial_partitioning/use_bvh>` 时不会使用。
 
 ----
 
@@ -5777,7 +5777,7 @@ Try enabling this option if you see any visual anomalies in 3D (such as incorrec
 
 如果 ``true``，纹理导入器将使用 BPTC 算法导入 VRAM 压缩的纹理。此纹理压缩算法仅在桌面平台得到支持，并且仅在使用 GLES3 渲染器时才受支持。
 
-**注意：**更改此设置不会*不*影响之前已经导入的纹理。要将此设置应用于已导入的纹理，请退出编辑器，删除位于项目文件夹内的 ``.import/`` 文件夹，然后重新启动编辑器（参阅 :ref:`application/config/use_hidden_project_data_directory<class_ProjectSettings_property_application/config/use_hidden_project_data_directory>`）。
+**注意：**\ 更改此设置不会\ *不*\ 影响之前已经导入的纹理。要将此设置应用于已导入的纹理，请退出编辑器，删除位于项目文件夹内的 ``.import/`` 文件夹，然后重新启动编辑器（参阅 :ref:`application/config/use_hidden_project_data_directory<class_ProjectSettings_property_application/config/use_hidden_project_data_directory>`）。
 
 ----
 
@@ -5791,7 +5791,7 @@ Try enabling this option if you see any visual anomalies in 3D (such as incorrec
 
 如果 ``true``，纹理导入器将使用Ericsson纹理压缩算法导入 VRAM 压缩的纹理。此算法不支持纹理中的 alpha 通道。
 
-**注意：**更改此设置不会*不*影响之前已经导入的纹理。要将此设置应用于已导入的纹理，请退出编辑器，删除位于项目中的 ``.import/`` 文件夹，然后重新启动编辑器，参阅 :ref:`application/config/use_hidden_project_data_directory<class_ProjectSettings_property_application/config/use_hidden_project_data_directory>`。
+**注意：**\ 更改此设置不会\ *不*\ 影响之前已经导入的纹理。要将此设置应用于已导入的纹理，请退出编辑器，删除位于项目中的 ``.import/`` 文件夹，然后重新启动编辑器，参阅 :ref:`application/config/use_hidden_project_data_directory<class_ProjectSettings_property_application/config/use_hidden_project_data_directory>`。
 
 ----
 
@@ -5805,7 +5805,7 @@ Try enabling this option if you see any visual anomalies in 3D (such as incorrec
 
 如果 ``true``，纹理导入器将使用 Ericsson Texture Compression 2 算法导入 VRAM 压缩的纹理。仅在使用 GLES3 渲染器时，才支持此纹理压缩算法。
 
-**注意：**更改此设置*不*会影响之前已经导入的纹理。要将此设置应用于已导入的纹理，请退出编辑器，删除位于项目中的 ``.import/`` 文件夹，然后重新启动编辑器，参阅 :ref:`application/config/use_hidden_project_data_directory<class_ProjectSettings_property_application/config/use_hidden_project_data_directory>`。
+**注意：**\ 更改此设置\ *不*\ 会影响之前已经导入的纹理。要将此设置应用于已导入的纹理，请退出编辑器，删除位于项目中的 ``.import/`` 文件夹，然后重新启动编辑器，参阅 :ref:`application/config/use_hidden_project_data_directory<class_ProjectSettings_property_application/config/use_hidden_project_data_directory>`。
 
 ----
 
@@ -5819,7 +5819,7 @@ Try enabling this option if you see any visual anomalies in 3D (such as incorrec
 
 如果 ``true``，纹理导入器将使用 PowerVR 纹理压缩算法导入 VRAM 压缩的纹理。此纹理压缩算法仅在 iOS 上受支持。
 
-**注意：**更改此设置*不会*影响之前已经导入的纹理。要将此设置应用于已导入的纹理，请退出编辑器，删除位于项目中的 ``.import/`` 文件夹，然后重新启动编辑器，参阅 :ref:`application/config/use_hidden_project_data_directory<class_ProjectSettings_property_application/config/use_hidden_project_data_directory>`。
+**注意：**\ 更改此设置\ *不会*\ 影响之前已经导入的纹理。要将此设置应用于已导入的纹理，请退出编辑器，删除位于项目中的 ``.import/`` 文件夹，然后重新启动编辑器，参阅 :ref:`application/config/use_hidden_project_data_directory<class_ProjectSettings_property_application/config/use_hidden_project_data_directory>`。
 
 ----
 
@@ -5833,7 +5833,7 @@ Try enabling this option if you see any visual anomalies in 3D (such as incorrec
 
 如果 ``true``，纹理导入器将使用 S3 纹理压缩算法导入 VRAM 压缩的纹理。此算法仅在桌面平台和控制台中受支持。
 
-**注意：**更改此设置*不会*影响之前已经导入的纹理。要将此设置应用于已导入的纹理，请退出编辑器，删除位于项目中的 ``.import/`` 文件夹，然后重新启动编辑器，参阅 :ref:`application/config/use_hidden_project_data_directory<class_ProjectSettings_property_application/config/use_hidden_project_data_directory>`。
+**注意：**\ 更改此设置\ *不会*\ 影响之前已经导入的纹理。要将此设置应用于已导入的纹理，请退出编辑器，删除位于项目中的 ``.import/`` 文件夹，然后重新启动编辑器，参阅 :ref:`application/config/use_hidden_project_data_directory<class_ProjectSettings_property_application/config/use_hidden_project_data_directory>`。
 
 ----
 
@@ -5856,11 +5856,11 @@ Method Descriptions
 
 向属性添加自定义属性信息。字典必须包含：
 
--``name``：:ref:`String<class_String>`（属性的名称）
+-``name``：:ref:`String<class_String>`\ （属性的名称）
 
--``type``：:ref:`int<class_int>`（请参阅 :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`）
+-``type``：:ref:`int<class_int>`\ （请参阅 :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`）
 
--可选的 ``hint``：:ref:`int<class_int>`（请参阅 :ref:`PropertyHint<enum_@GlobalScope_PropertyHint>`）和 ``hint_string``: :ref:`String<class_String>`
+-可选的 ``hint``：:ref:`int<class_int>`\ （请参阅 :ref:`PropertyHint<enum_@GlobalScope_PropertyHint>`）和 ``hint_string``: :ref:`String<class_String>`
 
 **示例：**
 
@@ -5939,9 +5939,9 @@ Returns the absolute, native OS path corresponding to the localized ``path`` (st
 
 将 ``pack`` 指定的 .pck 或 .zip 文件的内容加载到资源文件系统（``res://``）。成功时返回 ``true``。
 
-**注意：**如果 ``pack`` 中的文件与已经在资源文件系统中的文件路径相同，尝试加载该文件时，将使用 ``pack`` 中的文件，除非 ``replace_files`` 被设置为 ``false``。
+**注意：**\ 如果 ``pack`` 中的文件与已经在资源文件系统中的文件路径相同，尝试加载该文件时，将使用 ``pack`` 中的文件，除非 ``replace_files`` 被设置为 ``false``。
 
-**注意：**可选的 ``offset`` 参数，可以用来指定资源包开始的字节偏移量。这只支持 .pck 文件。
+**注意：**\ 可选的 ``offset`` 参数，可以用来指定资源包开始的字节偏移量。这只支持 .pck 文件。
 
 ----
 
@@ -5949,7 +5949,7 @@ Returns the absolute, native OS path corresponding to the localized ``path`` (st
 
 - :ref:`String<class_String>` **localize_path** **(** :ref:`String<class_String>` path **)** |const|
 
-返回对应于绝对原生 OS ``path`` 的本地化路径（以 ``res://`` 开头）。另见:ref:`globalize_path<class_ProjectSettings_method_globalize_path>`。
+返回对应于绝对原生 OS ``path`` 的本地化路径（以 ``res://`` 开头）。另见\ :ref:`globalize_path<class_ProjectSettings_method_globalize_path>`。
 
 ----
 

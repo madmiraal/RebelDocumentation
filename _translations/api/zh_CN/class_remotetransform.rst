@@ -11,12 +11,12 @@ RemoteTransform
 
 **Inherits:** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-RemoteTransform将自己的:ref:`Transform<class_Transform>`\ 推送到场景中另一个:ref:`Spatial<class_Spatial>`\ 派生节点。
+RemoteTransform将自己的\ :ref:`Transform<class_Transform>`\ 推送到场景中另一个\ :ref:`Spatial<class_Spatial>`\ 派生节点。
 
 Description
 -----------
 
-RemoteTransform将自己的:ref:`Transform<class_Transform>`\ 推送到场景中另一个:ref:`Spatial<class_Spatial>`\ 派生节点（称为远程节点）。
+RemoteTransform将自己的\ :ref:`Transform<class_Transform>`\ 推送到场景中另一个\ :ref:`Spatial<class_Spatial>`\ 派生节点（称为远程节点）。
 
 它可以被设置为更新另一个节点的位置、旋转和/或比例。它可以使用全局坐标或局部坐标。
 

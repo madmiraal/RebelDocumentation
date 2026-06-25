@@ -107,7 +107,7 @@ Property Descriptions
 | *Getter*  | get_max_pending_connections()      |
 +-----------+------------------------------------+
 
-定义最大的待定连接数，在:ref:`poll<class_UDPServer_method_poll>`\ 期间，任何超过该值的新待定连接将被自动放弃。把这个值设置为``0``\ 可以有效地防止任何新的待定连接被接受，例如，当你的所有玩家都连接时。
+定义最大的待定连接数，在\ :ref:`poll<class_UDPServer_method_poll>`\ 期间，任何超过该值的新待定连接将被自动放弃。把这个值设置为\ ``0``\ 可以有效地防止任何新的待定连接被接受，例如，当你的所有玩家都连接时。
 
 Method Descriptions
 -------------------
@@ -116,7 +116,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_connection_available** **(** **)** |const|
 
-如果在套接字中收到一个具有新地址及端口组合的数据包，则返回``true``。
+如果在套接字中收到一个具有新地址及端口组合的数据包，则返回\ ``true``。
 
 ----
 
@@ -124,7 +124,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_listening** **(** **)** |const|
 
-如果套接字是打开的，并且在监听端口，则返回``true``。
+如果套接字是打开的，并且在监听端口，则返回\ ``true``。
 
 ----
 
@@ -132,7 +132,7 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **listen** **(** :ref:`int<class_int>` port, :ref:`String<class_String>` bind_address="*" **)**
 
-通过在给定的端口上打开一个UDP套接字来启动服务。你可以选择指定一个``bind_address``，只监听发送到该地址的数据包。参阅:ref:`PacketPeerUDP.listen<class_PacketPeerUDP_method_listen>`。
+通过在给定的端口上打开一个UDP套接字来启动服务。你可以选择指定一个\ ``bind_address``，只监听发送到该地址的数据包。参阅\ :ref:`PacketPeerUDP.listen<class_PacketPeerUDP_method_listen>`。
 
 ----
 
@@ -140,7 +140,7 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **poll** **(** **)**
 
-定期调用这个方法，例如在:ref:`Node._process<class_Node_method__process>`\ 里面，来处理新数据包。来自已知地址及端口对的数据包，将被传递到相应的:ref:`PacketPeerUDP<class_PacketPeerUDP>`，任何从未知地址及端口对收到的数据包将被添加为一个待定连接，参阅:ref:`is_connection_available<class_UDPServer_method_is_connection_available>`, :ref:`take_connection<class_UDPServer_method_take_connection>`。待定连接的最大数量通过:ref:`max_pending_connections<class_UDPServer_property_max_pending_connections>`\ 定义。
+定期调用这个方法，例如在\ :ref:`Node._process<class_Node_method__process>`\ 里面，来处理新数据包。来自已知地址及端口对的数据包，将被传递到相应的\ :ref:`PacketPeerUDP<class_PacketPeerUDP>`，任何从未知地址及端口对收到的数据包将被添加为一个待定连接，参阅\ :ref:`is_connection_available<class_UDPServer_method_is_connection_available>`, :ref:`take_connection<class_UDPServer_method_take_connection>`。待定连接的最大数量通过\ :ref:`max_pending_connections<class_UDPServer_property_max_pending_connections>`\ 定义。
 
 ----
 
@@ -148,7 +148,7 @@ Method Descriptions
 
 - void **stop** **(** **)**
 
-停止服务，如果UDP套接字是打开的，就关闭它。将关闭所有通过:ref:`take_connection<class_UDPServer_method_take_connection>`\ 接受连接的:ref:`PacketPeerUDP<class_PacketPeerUDP>`，注，不会通知远程对等体。
+停止服务，如果UDP套接字是打开的，就关闭它。将关闭所有通过\ :ref:`take_connection<class_UDPServer_method_take_connection>`\ 接受连接的\ :ref:`PacketPeerUDP<class_PacketPeerUDP>`，注，不会通知远程对等体。
 
 ----
 
@@ -156,7 +156,7 @@ Method Descriptions
 
 - :ref:`PacketPeerUDP<class_PacketPeerUDP>` **take_connection** **(** **)**
 
-返回第一个挂起的连接，注，连接到适当的地址及端口。如果没有新的连接可用，将返回``null``。参阅:ref:`is_connection_available<class_UDPServer_method_is_connection_available>`, :ref:`PacketPeerUDP.connect_to_host<class_PacketPeerUDP_method_connect_to_host>`。
+返回第一个挂起的连接，注，连接到适当的地址及端口。如果没有新的连接可用，将返回\ ``null``。参阅\ :ref:`is_connection_available<class_UDPServer_method_is_connection_available>`, :ref:`PacketPeerUDP.connect_to_host<class_PacketPeerUDP_method_connect_to_host>`。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

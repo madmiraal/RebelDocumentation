@@ -128,7 +128,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **has_param** **(** :ref:`String<class_String>` name **)** |const|
 
-如果着色器在其代码中把这个参数定义为uniform，则返回``true``。
+如果着色器在其代码中把这个参数定义为uniform，则返回\ ``true``。
 
 **注意：** ``param`` 必须与代码中的uniform名称完全匹配。
 
@@ -140,7 +140,7 @@ Method Descriptions
 
 设置默认纹理，以用于纹理 uniform。如果 :ref:`ShaderMaterial<class_ShaderMaterial>` 中没有设置纹理，则使用默认值。
 
-**注意：**``param`` 必须与代码中的 uniform 名称完全匹配。
+**注意：**\ ``param`` 必须与代码中的 uniform 名称完全匹配。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`
