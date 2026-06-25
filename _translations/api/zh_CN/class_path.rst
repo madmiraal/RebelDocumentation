@@ -34,7 +34,7 @@ Signals
 
 - **curve_changed** **(** **)**
 
-当:ref:`curve<class_Path_property_curve>`\ 改变时触发。
+当\ :ref:`curve<class_Path_property_curve>`\ 改变时触发。
 
 Property Descriptions
 ---------------------

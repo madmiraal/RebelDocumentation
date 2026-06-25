@@ -16,7 +16,7 @@ InputMap
 Description
 -----------
 
-管理所有的 :ref:`InputEventAction<class_InputEventAction>`，可以通过项目设置菜单**项目 > 项目设置 > 键位映射**或在代码中用 :ref:`add_action<class_InputMap_method_add_action>` 和 :ref:`action_add_event<class_InputMap_method_action_add_event>` 创建/修改。请参阅 :ref:`Node._input<class_Node_method__input>`。
+管理所有的 :ref:`InputEventAction<class_InputEventAction>`，可以通过项目设置菜单\ **项目 > 项目设置 > 键位映射**\ 或在代码中用 :ref:`add_action<class_InputMap_method_add_action>` 和 :ref:`action_add_event<class_InputMap_method_action_add_event>` 创建/修改。请参阅 :ref:`Node._input<class_Node_method__input>`。
 
 Tutorials
 ---------
@@ -61,7 +61,7 @@ Method Descriptions
 
 - void **action_add_event** **(** :ref:`String<class_String>` action, :ref:`InputEvent<class_InputEvent>` event **)**
 
-给一个动作添加一个:ref:`InputEvent<class_InputEvent>`。这个:ref:`InputEvent<class_InputEvent>`\ 将触发这个动作。
+给一个动作添加一个\ :ref:`InputEvent<class_InputEvent>`。这个\ :ref:`InputEvent<class_InputEvent>`\ 将触发这个动作。
 
 ----
 
@@ -69,7 +69,7 @@ Method Descriptions
 
 - void **action_erase_event** **(** :ref:`String<class_String>` action, :ref:`InputEvent<class_InputEvent>` event **)**
 
-从一个动作中删除一个:ref:`InputEvent<class_InputEvent>`。
+从一个动作中删除一个\ :ref:`InputEvent<class_InputEvent>`。
 
 ----
 
@@ -93,7 +93,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **action_has_event** **(** :ref:`String<class_String>` action, :ref:`InputEvent<class_InputEvent>` event **)**
 
-如果该动作有给定的:ref:`InputEvent<class_InputEvent>`\ 与之相关，则返回``true``。
+如果该动作有给定的\ :ref:`InputEvent<class_InputEvent>`\ 与之相关，则返回\ ``true``。
 
 ----
 
@@ -109,9 +109,9 @@ Method Descriptions
 
 - void **add_action** **(** :ref:`String<class_String>` action, :ref:`float<class_float>` deadzone=0.5 **)**
 
-在``InputMap``\ 上添加一个空的动作，有一个可配置的死区``deadzone``。
+在\ ``InputMap``\ 上添加一个空的动作，有一个可配置的死区\ ``deadzone``。
 
-然后可以用:ref:`action_add_event<class_InputMap_method_action_add_event>`\ 给这个动作添加一个:ref:`InputEvent<class_InputEvent>`。
+然后可以用\ :ref:`action_add_event<class_InputMap_method_action_add_event>`\ 给这个动作添加一个\ :ref:`InputEvent<class_InputEvent>`。
 
 ----
 
@@ -119,7 +119,7 @@ Method Descriptions
 
 - void **erase_action** **(** :ref:`String<class_String>` action **)**
 
-从``InputMap``\ 中删除一个动作。
+从\ ``InputMap``\ 中删除一个动作。
 
 ----
 
@@ -127,9 +127,9 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **event_is_action** **(** :ref:`InputEvent<class_InputEvent>` event, :ref:`String<class_String>` action, :ref:`bool<class_bool>` exact_match=false **)** |const|
 
-如果给定的事件是现有动作的一部分，返回``true``。如果给定的:ref:`InputEvent<class_InputEvent>`\ 没有被按下，这个方法会忽略键盘（为了正确地检测释放）。如果你不想要这种行为，请参阅:ref:`action_has_event<class_InputMap_method_action_has_event>`。
+如果给定的事件是现有动作的一部分，返回\ ``true``。如果给定的\ :ref:`InputEvent<class_InputEvent>`\ 没有被按下，这个方法会忽略键盘（为了正确地检测释放）。如果你不想要这种行为，请参阅\ :ref:`action_has_event<class_InputMap_method_action_has_event>`。
 
-如果``exact_match``\ 是``false``，它会忽略:ref:`InputEventKey<class_InputEventKey>`\ 和:ref:`InputEventMouseButton<class_InputEventMouseButton>`\ 事件的输入修饰符，以及:ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>`\ 事件的方向。
+如果\ ``exact_match``\ 是\ ``false``，它会忽略\ :ref:`InputEventKey<class_InputEventKey>`\ 和\ :ref:`InputEventMouseButton<class_InputEventMouseButton>`\ 事件的输入修饰符，以及\ :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>`\ 事件的方向。
 
 ----
 
@@ -147,7 +147,7 @@ Returns an array of :ref:`InputEvent<class_InputEvent>`\ s associated with a giv
 
 - :ref:`Array<class_Array>` **get_actions** **(** **)**
 
-返回``InputMap``\ 中所有动作的数组。
+返回\ ``InputMap``\ 中所有动作的数组。
 
 ----
 
@@ -155,7 +155,7 @@ Returns an array of :ref:`InputEvent<class_InputEvent>`\ s associated with a giv
 
 - :ref:`bool<class_bool>` **has_action** **(** :ref:`String<class_String>` action **)** |const|
 
-如果``InputMap``\ 有一个给定名称的注册动作，返回``true``。
+如果\ ``InputMap``\ 有一个给定名称的注册动作，返回\ ``true``。
 
 ----
 
@@ -163,7 +163,7 @@ Returns an array of :ref:`InputEvent<class_InputEvent>`\ s associated with a giv
 
 - void **load_from_globals** **(** **)**
 
-清除``InputMap``\ 中的所有:ref:`InputEventAction<class_InputEventAction>`，并从:ref:`ProjectSettings<class_ProjectSettings>`\ 项目设置中重新加载它。
+清除\ ``InputMap``\ 中的所有\ :ref:`InputEventAction<class_InputEventAction>`，并从\ :ref:`ProjectSettings<class_ProjectSettings>`\ 项目设置中重新加载它。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

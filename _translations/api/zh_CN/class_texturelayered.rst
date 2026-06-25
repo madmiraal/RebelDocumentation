@@ -69,7 +69,7 @@ enum **Flags**:
 
 - **FLAGS_DEFAULT_TEXTURE_ARRAY** = **7** --- :ref:`TextureArray<class_TextureArray>` 的默认标记。 启用 :ref:`FLAG_MIPMAPS<class_TextureLayered_constant_FLAG_MIPMAPS>`、:ref:`FLAG_REPEAT<class_TextureLayered_constant_FLAG_REPEAT>` 和 :ref:`FLAG_FILTER<class_TextureLayered_constant_FLAG_FILTER>`。
 
-- **FLAGS_DEFAULT_TEXTURE_3D** = **4** --- 默认为:ref:`Texture3D<class_Texture3D>`\ 的标记。启用:ref:`FLAG_FILTER<class_TextureLayered_constant_FLAG_FILTER>`。
+- **FLAGS_DEFAULT_TEXTURE_3D** = **4** --- 默认为\ :ref:`Texture3D<class_Texture3D>`\ 的标记。启用\ :ref:`FLAG_FILTER<class_TextureLayered_constant_FLAG_FILTER>`。
 
 - **FLAG_MIPMAPS** = **1** --- 纹理将在创建时生成多级渐远纹理。
 
@@ -125,7 +125,7 @@ Method Descriptions
 
 - :ref:`Format<enum_Image_Format>` **get_format** **(** **)** |const|
 
-返回纹理当前使用的格式。详情见:ref:`Format<enum_Image_Format>`。
+返回纹理当前使用的格式。详情见\ :ref:`Format<enum_Image_Format>`。
 
 ----
 
@@ -141,7 +141,7 @@ Method Descriptions
 
 - :ref:`Image<class_Image>` **get_layer_data** **(** :ref:`int<class_int>` layer **)** |const|
 
-返回一个带有指定``layer``\ 层数据的:ref:`Image<class_Image>`\ 图像资源。
+返回一个带有指定\ ``layer``\ 层数据的\ :ref:`Image<class_Image>`\ 图像资源。
 
 ----
 
@@ -157,7 +157,7 @@ Method Descriptions
 
 - void **set_data_partial** **(** :ref:`Image<class_Image>` image, :ref:`int<class_int>` x_offset, :ref:`int<class_int>` y_offset, :ref:`int<class_int>` layer, :ref:`int<class_int>` mipmap=0 **)**
 
-通过使用指定的``image``\ 的数据覆盖来部分设置指定的``layer``\ 的数据。 ``x_offset`` 和 ``y_offset`` 确定 :ref:`Image<class_Image>` 在纹理上"stamped" 标记的位置。 ``image`` 必须适合纹理。
+通过使用指定的\ ``image``\ 的数据覆盖来部分设置指定的\ ``layer``\ 的数据。 ``x_offset`` 和 ``y_offset`` 确定 :ref:`Image<class_Image>` 在纹理上"stamped" 标记的位置。 ``image`` 必须适合纹理。
 
 ----
 
@@ -165,7 +165,7 @@ Method Descriptions
 
 - void **set_layer_data** **(** :ref:`Image<class_Image>` image, :ref:`int<class_int>` layer **)**
 
-设置指定图层的数据。数据的形式是二维的:ref:`Image<class_Image>`\ 资源。
+设置指定图层的数据。数据的形式是二维的\ :ref:`Image<class_Image>`\ 资源。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

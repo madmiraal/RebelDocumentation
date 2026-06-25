@@ -96,11 +96,11 @@ Method Descriptions
 
 将自定义属性信息添加到属性。该词典必须包含：
 
--``名称``：:ref:`String<class_String>`（属性名称）
+-``名称``：:ref:`String<class_String>`\ （属性名称）
 
--``类型``：:ref:`int<class_int>`（请参阅:ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`）
+-``类型``：:ref:`int<class_int>`\ （请参阅\ :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`）
 
--（可选）``提示``：:ref:`int<class_int>`（请参阅:ref:`PropertyHint<enum_@GlobalScope_PropertyHint>`）和``hint_string``：:ref:`String<class_String>`
+-（可选）``提示``：:ref:`int<class_int>`\ （请参阅\ :ref:`PropertyHint<enum_@GlobalScope_PropertyHint>`）和\ ``hint_string``：:ref:`String<class_String>`
 
 **示例：**
 
@@ -123,7 +123,7 @@ Method Descriptions
 
 - void **erase** **(** :ref:`String<class_String>` property **)**
 
-删除名称为指定``property``\ 的设置。
+删除名称为指定\ ``property``\ 的设置。
 
 ----
 
@@ -139,7 +139,7 @@ Method Descriptions
 
 - :ref:`Variant<class_Variant>` **get_project_metadata** **(** :ref:`String<class_String>` section, :ref:`String<class_String>` key, :ref:`Variant<class_Variant>` default=null **)** |const|
 
-返回指定的``section``\ 和``key``\ 的特定项目元数据。如果元数据不存在，将返回``default``。另请参阅 :ref:`set_project_metadata<class_EditorSettings_method_set_project_metadata>`。
+返回指定的\ ``section``\ 和\ ``key``\ 的特定项目元数据。如果元数据不存在，将返回\ ``default``。另请参阅 :ref:`set_project_metadata<class_EditorSettings_method_set_project_metadata>`。
 
 ----
 
@@ -163,7 +163,7 @@ Method Descriptions
 
 - :ref:`Variant<class_Variant>` **get_setting** **(** :ref:`String<class_String>` name **)** |const|
 
-返回 ``name`` 指定的设置的值。这相当于在EditorSettings实例上使用:ref:`Object.get<class_Object_method_get>`。
+返回 ``name`` 指定的设置的值。这相当于在EditorSettings实例上使用\ :ref:`Object.get<class_Object_method_get>`。
 
 ----
 
@@ -191,7 +191,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **property_can_revert** **(** :ref:`String<class_String>` name **)**
 
-如果``name``\ 指定的设置可以将其值还原为默认值，则返回``true``，否则返回``false``。当此方法返回``true``\ 时，编辑器设置中的设置旁边会显示一个还原按钮。
+如果\ ``name``\ 指定的设置可以将其值还原为默认值，则返回\ ``true``，否则返回\ ``false``。当此方法返回\ ``true``\ 时，编辑器设置中的设置旁边会显示一个还原按钮。
 
 ----
 
@@ -239,7 +239,7 @@ Method Descriptions
 
 - void **set_setting** **(** :ref:`String<class_String>` name, :ref:`Variant<class_Variant>` value **)**
 
-设置 ``name`` 指定的设置的 ``value``。这相当于在EditorSettings实例上使用:ref:`Object.set<class_Object_method_set>`。
+设置 ``name`` 指定的设置的 ``value``。这相当于在EditorSettings实例上使用\ :ref:`Object.set<class_Object_method_set>`。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

@@ -16,7 +16,7 @@ Area
 Description
 -----------
 
-检测:ref:`CollisionObject<class_CollisionObject>`\ 节点重叠、进入或退出的3D区域。还可以改变或覆盖局部物理参数（重力、阻尼），并将音频路由到自定义音频总线。
+检测\ :ref:`CollisionObject<class_CollisionObject>`\ 节点重叠、进入或退出的3D区域。还可以改变或覆盖局部物理参数（重力、阻尼），并将音频路由到自定义音频总线。
 
 Properties
 ----------
@@ -85,7 +85,7 @@ Signals
 
 - **area_exited** **(** :ref:`Area<class_Area>` area **)**
 
-当另一个区域退出这个区域时发出的。要求监控:ref:`monitoring<class_Area_property_monitoring>`\ 被设置为``true``。
+当另一个区域退出这个区域时发出的。要求监控\ :ref:`monitoring<class_Area_property_monitoring>`\ 被设置为\ ``true``。
 
 ``area``\ 参数是另外一个Area。
 
@@ -95,15 +95,15 @@ Signals
 
 - **area_shape_entered** **(** :ref:`RID<class_RID>` area_rid, :ref:`Area<class_Area>` area, :ref:`int<class_int>` area_shape_index, :ref:`int<class_int>` local_shape_index **)**
 
-当另一个区域的一个:ref:`Shape<class_Shape>`\ 进入这个区域的一个:ref:`Shape<class_Shape>`\ 时发出的。要求:ref:`monitoring<class_Area_property_monitoring>` 被设置为``true``。
+当另一个区域的一个\ :ref:`Shape<class_Shape>`\ 进入这个区域的一个\ :ref:`Shape<class_Shape>`\ 时发出的。要求\ :ref:`monitoring<class_Area_property_monitoring>` 被设置为\ ``true``。
 
-``area_rid`` :ref:`PhysicsServer<class_PhysicsServer>`\ 使用的其他区域的:ref:`CollisionObject<class_CollisionObject>`\ 的:ref:`RID<class_RID>`。
+``area_rid`` :ref:`PhysicsServer<class_PhysicsServer>`\ 使用的其他区域的\ :ref:`CollisionObject<class_CollisionObject>`\ 的\ :ref:`RID<class_RID>`。
 
 ``area`` 其他区域。
 
-``area_shape_index`` :ref:`PhysicsServer<class_PhysicsServer>`\ 使用的其他区域的:ref:`Shape<class_Shape>`\ 的索引。用``area.shape_owner_get_owner(area_shape_index)``\ 获得:ref:`CollisionShape<class_CollisionShape>`\ 节点。
+``area_shape_index`` :ref:`PhysicsServer<class_PhysicsServer>`\ 使用的其他区域的\ :ref:`Shape<class_Shape>`\ 的索引。用\ ``area.shape_owner_get_owner(area_shape_index)``\ 获得\ :ref:`CollisionShape<class_CollisionShape>`\ 节点。
 
-``local_shape_index``\ 是:ref:`PhysicsServer<class_PhysicsServer>`\ 使用的该区域的:ref:`Shape<class_Shape>`\ 的索引。用``self.shape_owner_get_owner(local_shape_index)``\ 获得:ref:`CollisionShape<class_CollisionShape>`\ 节点。
+``local_shape_index``\ 是\ :ref:`PhysicsServer<class_PhysicsServer>`\ 使用的该区域的\ :ref:`Shape<class_Shape>`\ 的索引。用\ ``self.shape_owner_get_owner(local_shape_index)``\ 获得\ :ref:`CollisionShape<class_CollisionShape>`\ 节点。
 
 ----
 
@@ -111,15 +111,15 @@ Signals
 
 - **area_shape_exited** **(** :ref:`RID<class_RID>` area_rid, :ref:`Area<class_Area>` area, :ref:`int<class_int>` area_shape_index, :ref:`int<class_int>` local_shape_index **)**
 
-当另一个区域的一个:ref:`Shape<class_Shape>`\ 进入这个区域的一个:ref:`Shape<class_Shape>`\ 时发出的。要求:ref:`monitoring<class_Area_property_monitoring>` 被设置为``true``。
+当另一个区域的一个\ :ref:`Shape<class_Shape>`\ 进入这个区域的一个\ :ref:`Shape<class_Shape>`\ 时发出的。要求\ :ref:`monitoring<class_Area_property_monitoring>` 被设置为\ ``true``。
 
-``area_rid`` :ref:`PhysicsServer<class_PhysicsServer>`\ 使用的其他区域的:ref:`CollisionObject<class_CollisionObject>`\ 的:ref:`RID<class_RID>`。
+``area_rid`` :ref:`PhysicsServer<class_PhysicsServer>`\ 使用的其他区域的\ :ref:`CollisionObject<class_CollisionObject>`\ 的\ :ref:`RID<class_RID>`。
 
 ``area`` 其他区域。
 
-``area_shape_index`` :ref:`PhysicsServer<class_PhysicsServer>`\ 使用的其他区域的:ref:`Shape<class_Shape>`\ 的索引。用``area.shape_owner_get_owner(area_shape_index)``\ 获得:ref:`CollisionShape<class_CollisionShape>`\ 节点。
+``area_shape_index`` :ref:`PhysicsServer<class_PhysicsServer>`\ 使用的其他区域的\ :ref:`Shape<class_Shape>`\ 的索引。用\ ``area.shape_owner_get_owner(area_shape_index)``\ 获得\ :ref:`CollisionShape<class_CollisionShape>`\ 节点。
 
-``local_shape_index``\ 是:ref:`PhysicsServer<class_PhysicsServer>`\ 使用的该区域的:ref:`Shape<class_Shape>`\ 的索引。用``self.shape_owner_get_owner(local_shape_index)``\ 获得:ref:`CollisionShape<class_CollisionShape>`\ 节点。
+``local_shape_index``\ 是\ :ref:`PhysicsServer<class_PhysicsServer>`\ 使用的该区域的\ :ref:`Shape<class_Shape>`\ 的索引。用\ ``self.shape_owner_get_owner(local_shape_index)``\ 获得\ :ref:`CollisionShape<class_CollisionShape>`\ 节点。
 
 ----
 
@@ -127,9 +127,9 @@ Signals
 
 - **body_entered** **(** :ref:`Node<class_Node>` body **)**
 
-当:ref:`PhysicsBody<class_PhysicsBody>`\ 或:ref:`GridMap<class_GridMap>`\ 进入这个区域时发出的。需要将监控:ref:`monitoring<class_Area_property_monitoring>`\ 设置为``true``。如果:ref:`MeshLibrary<class_MeshLibrary>`\ 有碰撞形状:ref:`Shape<class_Shape>`，就会检测到:ref:`GridMap<class_GridMap>`。
+当\ :ref:`PhysicsBody<class_PhysicsBody>`\ 或\ :ref:`GridMap<class_GridMap>`\ 进入这个区域时发出的。需要将监控\ :ref:`monitoring<class_Area_property_monitoring>`\ 设置为\ ``true``。如果\ :ref:`MeshLibrary<class_MeshLibrary>`\ 有碰撞形状\ :ref:`Shape<class_Shape>`，就会检测到\ :ref:`GridMap<class_GridMap>`。
 
-``body``, 如果它存在于场景树中, 是另一个:ref:`PhysicsBody<class_PhysicsBody>`\ 或:ref:`GridMap<class_GridMap>`\ 节点:ref:`Node<class_Node>`。
+``body``, 如果它存在于场景树中, 是另一个\ :ref:`PhysicsBody<class_PhysicsBody>`\ 或\ :ref:`GridMap<class_GridMap>`\ 节点\ :ref:`Node<class_Node>`。
 
 ----
 
@@ -137,9 +137,9 @@ Signals
 
 - **body_exited** **(** :ref:`Node<class_Node>` body **)**
 
-当:ref:`PhysicsBody<class_PhysicsBody>`\ 或:ref:`GridMap<class_GridMap>`\ 离开这个Area时发出的。需要将监控:ref:`monitoring<class_Area_property_monitoring>`\ 设置为``true``。如果:ref:`MeshLibrary<class_MeshLibrary>`\ 有碰撞形状:ref:`Shape<class_Shape>`，就会检测到:ref:`GridMap<class_GridMap>`。
+当\ :ref:`PhysicsBody<class_PhysicsBody>`\ 或\ :ref:`GridMap<class_GridMap>`\ 离开这个Area时发出的。需要将监控\ :ref:`monitoring<class_Area_property_monitoring>`\ 设置为\ ``true``。如果\ :ref:`MeshLibrary<class_MeshLibrary>`\ 有碰撞形状\ :ref:`Shape<class_Shape>`，就会检测到\ :ref:`GridMap<class_GridMap>`。
 
-``body``, 如果它存在于场景树中, 是其他:ref:`PhysicsBody<class_PhysicsBody>`\ 或:ref:`GridMap<class_GridMap>`\ 的:ref:`Node<class_Node>`。
+``body``, 如果它存在于场景树中, 是其他\ :ref:`PhysicsBody<class_PhysicsBody>`\ 或\ :ref:`GridMap<class_GridMap>`\ 的\ :ref:`Node<class_Node>`。
 
 ----
 
@@ -147,15 +147,15 @@ Signals
 
 - **body_shape_entered** **(** :ref:`RID<class_RID>` body_rid, :ref:`Node<class_Node>` body, :ref:`int<class_int>` body_shape_index, :ref:`int<class_int>` local_shape_index **)**
 
-当:ref:`PhysicsBody<class_PhysicsBody>`\ 或:ref:`GridMap<class_GridMap>`\ 的一个:ref:`Shape<class_Shape>`\ 进入这个区域的一个:ref:`Shape<class_Shape>`\ 时触发。需要将:ref:`monitoring<class_Area_property_monitoring>`\ 设置为``true``。如果:ref:`MeshLibrary<class_MeshLibrary>`\ 有碰撞:ref:`Shape<class_Shape>`，就会检测到:ref:`GridMap<class_GridMap>`。
+当\ :ref:`PhysicsBody<class_PhysicsBody>`\ 或\ :ref:`GridMap<class_GridMap>`\ 的一个\ :ref:`Shape<class_Shape>`\ 进入这个区域的一个\ :ref:`Shape<class_Shape>`\ 时触发。需要将\ :ref:`monitoring<class_Area_property_monitoring>`\ 设置为\ ``true``。如果\ :ref:`MeshLibrary<class_MeshLibrary>`\ 有碰撞\ :ref:`Shape<class_Shape>`，就会检测到\ :ref:`GridMap<class_GridMap>`。
 
-``body_rid`` :ref:`PhysicsServer<class_PhysicsServer>`\ 使用的:ref:`PhysicsBody<class_PhysicsBody>`\ 或:ref:`MeshLibrary<class_MeshLibrary>`\ 的:ref:`CollisionObject<class_CollisionObject>`\ 的:ref:`RID<class_RID>`。
+``body_rid`` :ref:`PhysicsServer<class_PhysicsServer>`\ 使用的\ :ref:`PhysicsBody<class_PhysicsBody>`\ 或\ :ref:`MeshLibrary<class_MeshLibrary>`\ 的\ :ref:`CollisionObject<class_CollisionObject>`\ 的\ :ref:`RID<class_RID>`。
 
-``body`` :ref:`PhysicsBody<class_PhysicsBody>`\ 或:ref:`GridMap<class_GridMap>`\ 的:ref:`Node<class_Node>`，如果它存在于树中的话。
+``body`` :ref:`PhysicsBody<class_PhysicsBody>`\ 或\ :ref:`GridMap<class_GridMap>`\ 的\ :ref:`Node<class_Node>`，如果它存在于树中的话。
 
-``body_shape_index`` :ref:`PhysicsServer<class_PhysicsServer>`\ 使用的:ref:`PhysicsBody<class_PhysicsBody>`\ 或:ref:`GridMap<class_GridMap>`\ 的:ref:`Shape<class_Shape>`\ 的索引。用``body.shape_owner_get_owner(body_shape_index)``\ 获取:ref:`CollisionShape<class_CollisionShape>`\ 节点。
+``body_shape_index`` :ref:`PhysicsServer<class_PhysicsServer>`\ 使用的\ :ref:`PhysicsBody<class_PhysicsBody>`\ 或\ :ref:`GridMap<class_GridMap>`\ 的\ :ref:`Shape<class_Shape>`\ 的索引。用\ ``body.shape_owner_get_owner(body_shape_index)``\ 获取\ :ref:`CollisionShape<class_CollisionShape>`\ 节点。
 
-``local_shape_index``\ 这个区域的:ref:`Shape<class_Shape>`\ 的索引，由:ref:`PhysicsServer<class_PhysicsServer>`\ 使用。用``self.shape_owner_get_owner(local_shape_index)``\ 获得:ref:`CollisionShape<class_CollisionShape>`\ 节点。
+``local_shape_index``\ 这个区域的\ :ref:`Shape<class_Shape>`\ 的索引，由\ :ref:`PhysicsServer<class_PhysicsServer>`\ 使用。用\ ``self.shape_owner_get_owner(local_shape_index)``\ 获得\ :ref:`CollisionShape<class_CollisionShape>`\ 节点。
 
 ----
 
@@ -163,15 +163,15 @@ Signals
 
 - **body_shape_exited** **(** :ref:`RID<class_RID>` body_rid, :ref:`Node<class_Node>` body, :ref:`int<class_int>` body_shape_index, :ref:`int<class_int>` local_shape_index **)**
 
-当:ref:`PhysicsBody<class_PhysicsBody>`\ 或:ref:`GridMap<class_GridMap>`\ 的一个:ref:`Shape<class_Shape>`\ 进入这个区域的一个:ref:`Shape<class_Shape>`\ 时触发。需要将:ref:`monitoring<class_Area_property_monitoring>`\ 设置为``true``。如果:ref:`MeshLibrary<class_MeshLibrary>`\ 有碰撞:ref:`Shape<class_Shape>`，就会检测到:ref:`GridMap<class_GridMap>`。
+当\ :ref:`PhysicsBody<class_PhysicsBody>`\ 或\ :ref:`GridMap<class_GridMap>`\ 的一个\ :ref:`Shape<class_Shape>`\ 进入这个区域的一个\ :ref:`Shape<class_Shape>`\ 时触发。需要将\ :ref:`monitoring<class_Area_property_monitoring>`\ 设置为\ ``true``。如果\ :ref:`MeshLibrary<class_MeshLibrary>`\ 有碰撞\ :ref:`Shape<class_Shape>`，就会检测到\ :ref:`GridMap<class_GridMap>`。
 
-``body_rid`` :ref:`PhysicsServer<class_PhysicsServer>`\ 使用的:ref:`PhysicsBody<class_PhysicsBody>`\ 或:ref:`MeshLibrary<class_MeshLibrary>`\ 的:ref:`CollisionObject<class_CollisionObject>`\ 的:ref:`RID<class_RID>`。
+``body_rid`` :ref:`PhysicsServer<class_PhysicsServer>`\ 使用的\ :ref:`PhysicsBody<class_PhysicsBody>`\ 或\ :ref:`MeshLibrary<class_MeshLibrary>`\ 的\ :ref:`CollisionObject<class_CollisionObject>`\ 的\ :ref:`RID<class_RID>`。
 
-``body`` :ref:`PhysicsBody<class_PhysicsBody>`\ 或:ref:`GridMap<class_GridMap>`\ 的:ref:`Node<class_Node>`，如果它存在于树中的话。
+``body`` :ref:`PhysicsBody<class_PhysicsBody>`\ 或\ :ref:`GridMap<class_GridMap>`\ 的\ :ref:`Node<class_Node>`，如果它存在于树中的话。
 
-``body_shape_index`` :ref:`PhysicsServer<class_PhysicsServer>`\ 使用的:ref:`PhysicsBody<class_PhysicsBody>`\ 或:ref:`GridMap<class_GridMap>`\ 的:ref:`Shape<class_Shape>`\ 的索引。用``body.shape_owner_get_owner(body_shape_index)``\ 获取:ref:`CollisionShape<class_CollisionShape>`\ 节点。
+``body_shape_index`` :ref:`PhysicsServer<class_PhysicsServer>`\ 使用的\ :ref:`PhysicsBody<class_PhysicsBody>`\ 或\ :ref:`GridMap<class_GridMap>`\ 的\ :ref:`Shape<class_Shape>`\ 的索引。用\ ``body.shape_owner_get_owner(body_shape_index)``\ 获取\ :ref:`CollisionShape<class_CollisionShape>`\ 节点。
 
-``local_shape_index``\ 这个区域的:ref:`Shape<class_Shape>`\ 的索引，由:ref:`PhysicsServer<class_PhysicsServer>`\ 使用。用``self.shape_owner_get_owner(local_shape_index)``\ 获得:ref:`CollisionShape<class_CollisionShape>`\ 节点。
+``local_shape_index``\ 这个区域的\ :ref:`Shape<class_Shape>`\ 的索引，由\ :ref:`PhysicsServer<class_PhysicsServer>`\ 使用。用\ ``self.shape_owner_get_owner(local_shape_index)``\ 获得\ :ref:`CollisionShape<class_CollisionShape>`\ 节点。
 
 Enumerations
 ------------
@@ -217,7 +217,7 @@ Property Descriptions
 
 物体在此区域停止旋转的速度。代表每秒损失的角速度.
 
-关于阻尼的更多细节，见:ref:`ProjectSettings.physics/3d/default_angular_damp<class_ProjectSettings_property_physics/3d/default_angular_damp>`。
+关于阻尼的更多细节，见\ :ref:`ProjectSettings.physics/3d/default_angular_damp<class_ProjectSettings_property_physics/3d/default_angular_damp>`。
 
 ----
 
@@ -331,7 +331,7 @@ Property Descriptions
 
 物体在此区域减速的速率。代表每秒损失的线速度。
 
-关于阻尼的更多细节，见:ref:`ProjectSettings.physics/3d/default_linear_damp<class_ProjectSettings_property_physics/3d/default_linear_damp>`。
+关于阻尼的更多细节，见\ :ref:`ProjectSettings.physics/3d/default_linear_damp<class_ProjectSettings_property_physics/3d/default_linear_damp>`。
 
 ----
 
@@ -459,7 +459,7 @@ Property Descriptions
 | *Getter*  | get_space_override_mode()      |
 +-----------+--------------------------------+
 
-该区域内重力和阻尼计算的覆盖模式。可能的值见:ref:`SpaceOverride<enum_Area_SpaceOverride>`。
+该区域内重力和阻尼计算的覆盖模式。可能的值见\ :ref:`SpaceOverride<enum_Area_SpaceOverride>`。
 
 Method Descriptions
 -------------------
@@ -468,7 +468,7 @@ Method Descriptions
 
 - :ref:`Array<class_Array>` **get_overlapping_areas** **(** **)** |const|
 
-返回相交的``Area``\ 的列表。重叠区域的:ref:`CollisionObject.collision_layer<class_CollisionObject_property_collision_layer>`\ 必须是这个区域:ref:`CollisionObject.collision_mask<class_CollisionObject_property_collision_mask>`\ 的一部分，这样才能被检测到。
+返回相交的\ ``Area``\ 的列表。重叠区域的\ :ref:`CollisionObject.collision_layer<class_CollisionObject_property_collision_layer>`\ 必须是这个区域\ :ref:`CollisionObject.collision_mask<class_CollisionObject_property_collision_mask>`\ 的一部分，这样才能被检测到。
 
 出于性能的考虑，因碰撞都是同时处理的，这个列表在物理步骤中只修改一次，而不是在物体被移动后立即修改。考虑使用信号来代替。
 
@@ -478,7 +478,7 @@ Method Descriptions
 
 - :ref:`Array<class_Array>` **get_overlapping_bodies** **(** **)** |const|
 
-返回相交的:ref:`PhysicsBody<class_PhysicsBody>`\ 的列表。重叠物体的:ref:`CollisionObject.collision_layer<class_CollisionObject_property_collision_layer>`\ 必须是这个区域:ref:`CollisionObject.collision_mask<class_CollisionObject_property_collision_mask>`\ 的一部分，这样才能被检测到。
+返回相交的\ :ref:`PhysicsBody<class_PhysicsBody>`\ 的列表。重叠物体的\ :ref:`CollisionObject.collision_layer<class_CollisionObject_property_collision_layer>`\ 必须是这个区域\ :ref:`CollisionObject.collision_mask<class_CollisionObject_property_collision_mask>`\ 的一部分，这样才能被检测到。
 
 出于性能的考虑，因碰撞都是同时处理的，这个列表在物理步骤中只修改一次，而不是在物体被移动后立即修改。考虑使用信号来代替。
 
@@ -490,7 +490,7 @@ Method Descriptions
 
 如果 ``true``，则给定区域与该区域重叠.
 
-**注意：**在移动物体后，这个测试的结果不是即时的。为了性能，重叠列表在每一帧和物理步骤之前更新一次。可以考虑用信号代替。
+**注意：**\ 在移动物体后，这个测试的结果不是即时的。为了性能，重叠列表在每一帧和物理步骤之前更新一次。可以考虑用信号代替。
 
 ----
 
@@ -498,11 +498,11 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **overlaps_body** **(** :ref:`Node<class_Node>` body **)** |const|
 
-如果为``true``，则给定的物理体与该区域重叠.
+如果为\ ``true``，则给定的物理体与该区域重叠.
 
-**注意：**在移动物体后，这个测试的结果不是即时的。为了提高性能，重叠列表在每一帧和物理步骤之前更新一次。可以考虑使用信号来代替。
+**注意：**\ 在移动物体后，这个测试的结果不是即时的。为了提高性能，重叠列表在每一帧和物理步骤之前更新一次。可以考虑使用信号来代替。
 
-``body``\ 参数可以是一个:ref:`PhysicsBody<class_PhysicsBody>`\ 或一个:ref:`GridMap<class_GridMap>`\ 实例（虽然GridMaps本身不是物理体，但它们用碰撞形状注册它们的瓦片(tiles)作为一个虚拟物理体）。
+``body``\ 参数可以是一个\ :ref:`PhysicsBody<class_PhysicsBody>`\ 或一个\ :ref:`GridMap<class_GridMap>`\ 实例（虽然GridMaps本身不是物理体，但它们用碰撞形状注册它们的瓦片(tiles)作为一个虚拟物理体）。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

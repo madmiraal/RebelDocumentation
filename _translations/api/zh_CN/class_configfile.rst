@@ -156,7 +156,7 @@ Method Descriptions
 
 - :ref:`Variant<class_Variant>` **get_value** **(** :ref:`String<class_String>` section, :ref:`String<class_String>` key, :ref:`Variant<class_Variant>` default=null **)** |const|
 
-返回指定部分和键的当前值。如果节或键不存在，本方法返回后备值``default``。如果没有指定``default``\ 或者设置为``null``，也会引发一个错误。
+返回指定部分和键的当前值。如果节或键不存在，本方法返回后备值\ ``default``。如果没有指定\ ``default``\ 或者设置为\ ``null``，也会引发一个错误。
 
 ----
 
@@ -164,7 +164,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **has_section** **(** :ref:`String<class_String>` section **)** |const|
 
-如果指定的部分存在，则返回``true``。
+如果指定的部分存在，则返回\ ``true``。
 
 ----
 
@@ -172,7 +172,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **has_section_key** **(** :ref:`String<class_String>` section, :ref:`String<class_String>` key **)** |const|
 
-如果指定的段键对存在，则返回``true``。
+如果指定的段键对存在，则返回\ ``true``。
 
 ----
 
@@ -180,9 +180,9 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **load** **(** :ref:`String<class_String>` path **)**
 
-加载指定为参数的配置文件。解析文件的内容并将其加载到调用该方法的``ConfigFile``\ 对象中。
+加载指定为参数的配置文件。解析文件的内容并将其加载到调用该方法的\ ``ConfigFile``\ 对象中。
 
-返回:ref:`Error<enum_@GlobalScope_Error>`\ 代码常量之一（成功时返回``OK``）。
+返回\ :ref:`Error<enum_@GlobalScope_Error>`\ 代码常量之一（成功时返回\ ``OK``）。
 
 ----
 
@@ -190,9 +190,9 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **load_encrypted** **(** :ref:`String<class_String>` path, :ref:`PoolByteArray<class_PoolByteArray>` key **)**
 
-加载指定为参数的加密配置文件，使用提供的``key``\ 对其解密。解析文件的内容并将其加载到调用该方法的``ConfigFile``\ 对象中。
+加载指定为参数的加密配置文件，使用提供的\ ``key``\ 对其解密。解析文件的内容并将其加载到调用该方法的\ ``ConfigFile``\ 对象中。
 
-返回:ref:`Error<enum_@GlobalScope_Error>`\ 代码常量之一（成功时返回``OK``）。
+返回\ :ref:`Error<enum_@GlobalScope_Error>`\ 代码常量之一（成功时返回\ ``OK``）。
 
 ----
 
@@ -200,9 +200,9 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **load_encrypted_pass** **(** :ref:`String<class_String>` path, :ref:`String<class_String>` password **)**
 
-加载作为参数的加密配置文件，使用提供的``password``\ 解密。该文件的内容被解析并加载到调用该方法的 ``ConfigFile`` 对象中。
+加载作为参数的加密配置文件，使用提供的\ ``password``\ 解密。该文件的内容被解析并加载到调用该方法的 ``ConfigFile`` 对象中。
 
-返回:ref:`Error<enum_@GlobalScope_Error>`\ 代码常量之一（成功时返回``OK``）。
+返回\ :ref:`Error<enum_@GlobalScope_Error>`\ 代码常量之一（成功时返回\ ``OK``）。
 
 ----
 
@@ -220,9 +220,9 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **save** **(** :ref:`String<class_String>` path **)** |const|
 
-将``ConfigFile``\ 对象的内容保存到指定为参数的文件中。输出文件使用INI样式的结构。
+将\ ``ConfigFile``\ 对象的内容保存到指定为参数的文件中。输出文件使用INI样式的结构。
 
-返回:ref:`Error<enum_@GlobalScope_Error>`\ 代码常量之一（成功时返回``OK``）。
+返回\ :ref:`Error<enum_@GlobalScope_Error>`\ 代码常量之一（成功时返回\ ``OK``）。
 
 ----
 
@@ -230,9 +230,9 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **save_encrypted** **(** :ref:`String<class_String>` path, :ref:`PoolByteArray<class_PoolByteArray>` key **)** |const|
 
-使用提供的``key``\ 将``ConfigFile``\ 对象的内容保存到作为参数指定的AES-256加密文件中。输出文件使用INI样式的结构。
+使用提供的\ ``key``\ 将\ ``ConfigFile``\ 对象的内容保存到作为参数指定的AES-256加密文件中。输出文件使用INI样式的结构。
 
-返回:ref:`Error<enum_@GlobalScope_Error>`\ 代码常量之一（成功时返回``OK``）。
+返回\ :ref:`Error<enum_@GlobalScope_Error>`\ 代码常量之一（成功时返回\ ``OK``）。
 
 ----
 
@@ -240,7 +240,7 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **save_encrypted_pass** **(** :ref:`String<class_String>` path, :ref:`String<class_String>` password **)** |const|
 
-将``ConfigFile``\ 对象的内容保存到作为参数指定的AES-256加密文件中，使用提供的``password``\ 进行加密。输出文件使用 INI 风格的结构。
+将\ ``ConfigFile``\ 对象的内容保存到作为参数指定的AES-256加密文件中，使用提供的\ ``password``\ 进行加密。输出文件使用 INI 风格的结构。
 
 返回 :ref:`Error<enum_@GlobalScope_Error>` 代码常量之一 (成功时返回 ``OK``)。
 
@@ -250,7 +250,7 @@ Method Descriptions
 
 - void **set_value** **(** :ref:`String<class_String>` section, :ref:`String<class_String>` key, :ref:`Variant<class_Variant>` value **)**
 
-为指定章节的指定键赋值。如果节或键不存在，则创建它们。如果指定的键存在，传递一个``null``\ 的值就会删除指定的键，如果键被删除后，键最终是空的，就会删除节。
+为指定章节的指定键赋值。如果节或键不存在，则创建它们。如果指定的键存在，传递一个\ ``null``\ 的值就会删除指定的键，如果键被删除后，键最终是空的，就会删除节。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

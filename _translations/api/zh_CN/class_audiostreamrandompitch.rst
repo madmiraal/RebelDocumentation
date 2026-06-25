@@ -40,7 +40,7 @@ Property Descriptions
 | *Getter* | get_audio_stream()      |
 +----------+-------------------------+
 
-当前的:ref:`AudioStream<class_AudioStream>`。
+当前的\ :ref:`AudioStream<class_AudioStream>`。
 
 ----
 

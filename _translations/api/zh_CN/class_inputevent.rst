@@ -78,7 +78,7 @@ Property Descriptions
 
 该事件的设备 ID。
 
-**注意：**对于来自触摸屏的模拟鼠标输入，该设备 ID 将总是 ``-1``。可用于区分模拟鼠标输入和物理鼠标输入。
+**注意：**\ 对于来自触摸屏的模拟鼠标输入，该设备 ID 将总是 ``-1``。可用于区分模拟鼠标输入和物理鼠标输入。
 
 Method Descriptions
 -------------------
@@ -87,7 +87,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **accumulate** **(** :ref:`InputEvent<class_InputEvent>` with_event **)**
 
-如果给定的输入事件和这个输入事件可以相加，则返回 ``true``（只针对 :ref:`InputEventMouseMotion<class_InputEventMouseMotion>` 类型的事件）。
+如果给定的输入事件和这个输入事件可以相加，则返回 ``true``\ （只针对 :ref:`InputEventMouseMotion<class_InputEventMouseMotion>` 类型的事件）。
 
 给定输入事件的位置、全局位置和速度将被复制。产生的 ``relative`` 是两个事件的总和。两个事件的修饰符必须是相同的。
 
@@ -105,9 +105,9 @@ Method Descriptions
 
 - :ref:`float<class_float>` **get_action_strength** **(** :ref:`String<class_String>` action, :ref:`bool<class_bool>` exact_match=false **)** |const|
 
-根据给定的动作的状态，返回0.0到1.0之间的值。对于获取:ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>`\ 类型的事件值时，很有用。
+根据给定的动作的状态，返回0.0到1.0之间的值。对于获取\ :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>`\ 类型的事件值时，很有用。
 
-如果``exact_match``\ 是``false``，它将忽略:ref:`InputEventKey<class_InputEventKey>`\ 和:ref:`InputEventMouseButton<class_InputEventMouseButton>`\ 事件的输入修饰符，以及:ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>`\ 事件的方向。
+如果\ ``exact_match``\ 是\ ``false``，它将忽略\ :ref:`InputEventKey<class_InputEventKey>`\ 和\ :ref:`InputEventMouseButton<class_InputEventMouseButton>`\ 事件的输入修饰符，以及\ :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>`\ 事件的方向。
 
 ----
 
@@ -115,9 +115,9 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_action** **(** :ref:`String<class_String>` action, :ref:`bool<class_bool>` exact_match=false **)** |const|
 
-如果这个输入事件与任何类型的预定义动作匹配，则返回``true``。
+如果这个输入事件与任何类型的预定义动作匹配，则返回\ ``true``。
 
-如果``exact_match``\ 是``false``，它将忽略:ref:`InputEventKey<class_InputEventKey>`\ 和:ref:`InputEventMouseButton<class_InputEventMouseButton>`\ 事件的输入修饰符，以及:ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>`\ 事件的方向。
+如果\ ``exact_match``\ 是\ ``false``，它将忽略\ :ref:`InputEventKey<class_InputEventKey>`\ 和\ :ref:`InputEventMouseButton<class_InputEventMouseButton>`\ 事件的输入修饰符，以及\ :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>`\ 事件的方向。
 
 ----
 
@@ -137,9 +137,9 @@ If ``exact_match`` is ``false``, it ignores the input modifiers for :ref:`InputE
 
 - :ref:`bool<class_bool>` **is_action_released** **(** :ref:`String<class_String>` action, :ref:`bool<class_bool>` exact_match=false **)** |const|
 
-如果给定的动作被释放，即未被按下，则返回``true``。与:ref:`InputEventMouseMotion<class_InputEventMouseMotion>`\ 或:ref:`InputEventScreenDrag<class_InputEventScreenDrag>`\ 类型的事件无关。
+如果给定的动作被释放，即未被按下，则返回\ ``true``。与\ :ref:`InputEventMouseMotion<class_InputEventMouseMotion>`\ 或\ :ref:`InputEventScreenDrag<class_InputEventScreenDrag>`\ 类型的事件无关。
 
-如果``exact_match``\ 是``false``，它将忽略:ref:`InputEventKey<class_InputEventKey>`\ 和:ref:`InputEventMouseButton<class_InputEventMouseButton>`\ 事件的输入修饰符，以及:ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>`\ 事件的方向。
+如果\ ``exact_match``\ 是\ ``false``，它将忽略\ :ref:`InputEventKey<class_InputEventKey>`\ 和\ :ref:`InputEventMouseButton<class_InputEventMouseButton>`\ 事件的输入修饰符，以及\ :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>`\ 事件的方向。
 
 ----
 

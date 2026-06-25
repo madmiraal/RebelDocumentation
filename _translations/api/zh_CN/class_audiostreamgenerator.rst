@@ -16,7 +16,7 @@ AudioStreamGenerator
 Description
 -----------
 
-此音频流不播放声音，需要脚本为其生成音频数据。参阅:ref:`AudioStreamGeneratorPlayback<class_AudioStreamGeneratorPlayback>`。
+此音频流不播放声音，需要脚本为其生成音频数据。参阅\ :ref:`AudioStreamGeneratorPlayback<class_AudioStreamGeneratorPlayback>`。
 
 另请参阅 :ref:`AudioEffectSpectrumAnalyzer<class_AudioEffectSpectrumAnalyzer>` 用于执行实时音频频谱分析。
 
@@ -64,9 +64,9 @@ Property Descriptions
 
 使用的采样率（单位：Hz）。更高的值对CPU要求更高，但会带来更好的质量。
 
-在游戏中，常用的采样率有``11025``、``16000``、``22050``、``32000``、``44100``\ 和``48000``。
+在游戏中，常用的采样率有\ ``11025``、``16000``、``22050``、``32000``、``44100``\ 和\ ``48000``。
 
-根据`Nyquist-Shannon采样定理 <https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem>`__，当超过40000赫兹时，人类的听觉没有质量上的差别（因为大多数人只能听到~20000赫兹，往往更少）。如果你要生成较低音调的声音，例如语音，则可以使用较低的采样率，例如 ``32000`` 或 ``22050``，而不会降低质量。
+根据\ `Nyquist-Shannon采样定理 <https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem>`__，当超过40000赫兹时，人类的听觉没有质量上的差别（因为大多数人只能听到~20000赫兹，往往更少）。如果你要生成较低音调的声音，例如语音，则可以使用较低的采样率，例如 ``32000`` 或 ``22050``，而不会降低质量。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

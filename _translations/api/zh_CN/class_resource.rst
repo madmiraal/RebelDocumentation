@@ -68,7 +68,7 @@ Signals
 
 每当资源发生变化时就会发射。
 
-**注意：**对于自定义资源，这个信号不会自动发射，这意味着你需要自己创建一个设置器setter并发射信号。
+**注意：**\ 对于自定义资源，这个信号不会自动发射，这意味着你需要自己创建一个设置器setter并发射信号。
 
 Property Descriptions
 ---------------------
@@ -134,13 +134,13 @@ Method Descriptions
 
 - :ref:`Resource<class_Resource>` **duplicate** **(** :ref:`bool<class_bool>` subresources=false **)** |const|
 
-复制资源，返回一个复制了导出成员属性的新资源。**注意：**为了复制资源，构造函数被调用，没有参数。当构造函数没有默认值时，这个方法会出错。
+复制资源，返回一个复制了导出成员属性的新资源。**注意：**\ 为了复制资源，构造函数被调用，没有参数。当构造函数没有默认值时，这个方法会出错。
 
-默认情况下，为了提高效率，子资源在资源副本之间被共享。这可以通过向``subresources``\ 参数传递``true``\ 来改变，它将复制子资源。
+默认情况下，为了提高效率，子资源在资源副本之间被共享。这可以通过向\ ``subresources``\ 参数传递\ ``true``\ 来改变，它将复制子资源。
 
-**注意：** 如果``subresources``\ 是``true``，这个方法将只执行一个浅层拷贝。子资源中的嵌套资源不会被复制，仍然会被共享。
+**注意：** 如果\ ``subresources``\ 是\ ``true``，这个方法将只执行一个浅层拷贝。子资源中的嵌套资源不会被复制，仍然会被共享。
 
-**注意：**当复制一个资源时，只有导出``export``\ 的属性被复制。其他属性将被设置为新资源中的默认值。
+**注意：**\ 当复制一个资源时，只有导出\ ``export``\ 的属性被复制。其他属性将被设置为新资源中的默认值。
 
 ----
 
@@ -148,7 +148,7 @@ Method Descriptions
 
 - void **emit_changed** **(** **)**
 
-发出:ref:`changed<class_Resource_signal_changed>`\ 更改信号。
+发出\ :ref:`changed<class_Resource_signal_changed>`\ 更改信号。
 
 如果依赖该资源的外部对象应该被更新，那么每当该资源的状态发生变化（如属性的修改）时，必须手动调用该方法。
 
@@ -166,7 +166,7 @@ Method Descriptions
 
 - :ref:`Node<class_Node>` **get_local_scene** **(** **)** |const|
 
-如果:ref:`resource_local_to_scene<class_Resource_property_resource_local_to_scene>`\ 被启用，并且该资源是从一个:ref:`PackedScene<class_PackedScene>`\ 实例中加载的，则返回该资源的唯一副本正在使用的本地场景。否则，返回``null``。
+如果\ :ref:`resource_local_to_scene<class_Resource_property_resource_local_to_scene>`\ 被启用，并且该资源是从一个\ :ref:`PackedScene<class_PackedScene>`\ 实例中加载的，则返回该资源的唯一副本正在使用的本地场景。否则，返回\ ``null``。
 
 ----
 
@@ -174,7 +174,7 @@ Method Descriptions
 
 - :ref:`RID<class_RID>` **get_rid** **(** **)** |const|
 
-返回资源的RID（或者一个空的RID）。许多资源（如:ref:`Texture<class_Texture>`、:ref:`Mesh<class_Mesh>`\ 等）是存储在服务器server中的资源的高级抽象，所以这个函数将返回原始的RID。
+返回资源的RID（或者一个空的RID）。许多资源（如\ :ref:`Texture<class_Texture>`、:ref:`Mesh<class_Mesh>`\ 等）是存储在服务器server中的资源的高级抽象，所以这个函数将返回原始的RID。
 
 ----
 
@@ -182,7 +182,7 @@ Method Descriptions
 
 - void **setup_local_to_scene** **(** **)**
 
-当启用了:ref:`resource_local_to_scene<class_Resource_property_resource_local_to_scene>`\ 的资源从:ref:`PackedScene<class_PackedScene>`\ 实例化中加载时，这个方法会被调用。它的行为可以通过覆盖脚本中的:ref:`_setup_local_to_scene<class_Resource_method__setup_local_to_scene>`\ 进行定制。
+当启用了\ :ref:`resource_local_to_scene<class_Resource_property_resource_local_to_scene>`\ 的资源从\ :ref:`PackedScene<class_PackedScene>`\ 实例化中加载时，这个方法会被调用。它的行为可以通过覆盖脚本中的\ :ref:`_setup_local_to_scene<class_Resource_method__setup_local_to_scene>`\ 进行定制。
 
 对于大多数资源，该方法不执行任何基本逻辑。:ref:`ViewportTexture<class_ViewportTexture>`\ 执行自定义逻辑以正确设置本地视窗中的代理纹理和标志。
 
@@ -192,7 +192,7 @@ Method Descriptions
 
 - void **take_over_path** **(** :ref:`String<class_String>` path **)**
 
-设置资源的路径，可能会覆盖这个路径的现有缓存条目。这与设置:ref:`resource_path<class_Resource_property_resource_path>`\ 不同，因为后者会在其他资源已经被缓存在给定的路径上时出错。
+设置资源的路径，可能会覆盖这个路径的现有缓存条目。这与设置\ :ref:`resource_path<class_Resource_property_resource_path>`\ 不同，因为后者会在其他资源已经被缓存在给定的路径上时出错。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

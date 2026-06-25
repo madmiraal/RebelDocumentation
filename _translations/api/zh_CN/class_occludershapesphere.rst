@@ -51,7 +51,7 @@ Property Descriptions
 | *Getter*  | get_spheres()      |
 +-----------+--------------------+
 
-球体数据可以作为 :ref:`Plane<class_Plane>` 数组访问。每个球体的位置存储在``normal``\ 中，半径存储在平面的``d``\ 值中。
+球体数据可以作为 :ref:`Plane<class_Plane>` 数组访问。每个球体的位置存储在\ ``normal``\ 中，半径存储在平面的\ ``d``\ 值中。
 
 Method Descriptions
 -------------------

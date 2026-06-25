@@ -11,12 +11,12 @@ VisualShaderNodeDeterminant
 
 **Inherits:** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
 
-计算可视化着色器图中的:ref:`Transform<class_Transform>`\ 的行列式。
+计算可视化着色器图中的\ :ref:`Transform<class_Transform>`\ 的行列式。
 
 Description
 -----------
 
-在着色器语言中翻译成``determinant(x)``。
+在着色器语言中翻译成\ ``determinant(x)``。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

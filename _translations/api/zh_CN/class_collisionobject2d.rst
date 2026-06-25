@@ -95,7 +95,7 @@ Signals
 
 - **input_event** **(** :ref:`Node<class_Node>` viewport, :ref:`InputEvent<class_InputEvent>` event, :ref:`int<class_int>` shape_idx **)**
 
-当输入事件发生时发出。要求 :ref:`input_pickable<class_CollisionObject2D_property_input_pickable>`\ 为``true``，并至少要设置一个``collision_layer``\ 位。有关详细信息，请参阅:ref:`_input_event<class_CollisionObject2D_method__input_event>`。
+当输入事件发生时发出。要求 :ref:`input_pickable<class_CollisionObject2D_property_input_pickable>`\ 为\ ``true``，并至少要设置一个\ ``collision_layer``\ 位。有关详细信息，请参阅\ :ref:`_input_event<class_CollisionObject2D_method__input_event>`。
 
 ----
 
@@ -103,7 +103,7 @@ Signals
 
 - **mouse_entered** **(** **)**
 
-当鼠标指针进入此对象的任何形状时触发。要求:ref:`input_pickable<class_CollisionObject2D_property_input_pickable>`\ 为``true``，并且至少要设置一个``collision_layer``\ 位。
+当鼠标指针进入此对象的任何形状时触发。要求\ :ref:`input_pickable<class_CollisionObject2D_property_input_pickable>`\ 为\ ``true``，并且至少要设置一个\ ``collision_layer``\ 位。
 
 ----
 
@@ -111,7 +111,7 @@ Signals
 
 - **mouse_exited** **(** **)**
 
-当鼠标指针退出此对象的所有形状时发出。要求:ref:`input_pickable<class_CollisionObject2D_property_input_pickable>`\ 为``true``，并且至少要设置一个``collision_layer``\ 位。
+当鼠标指针退出此对象的所有形状时发出。要求\ :ref:`input_pickable<class_CollisionObject2D_property_input_pickable>`\ 为\ ``true``，并且至少要设置一个\ ``collision_layer``\ 位。
 
 Property Descriptions
 ---------------------
@@ -128,9 +128,9 @@ Property Descriptions
 | *Getter*  | get_collision_layer()      |
 +-----------+----------------------------+
 
-这个CollisionObject2D所在的物理层。碰撞对象可以存在于32个不同层中的一个或多个。也见:ref:`collision_mask<class_CollisionObject2D_property_collision_mask>`。
+这个CollisionObject2D所在的物理层。碰撞对象可以存在于32个不同层中的一个或多个。也见\ :ref:`collision_mask<class_CollisionObject2D_property_collision_mask>`。
 
-**注意：**如果对象A在对象B扫描的任何层中，或者对象B在对象A扫描的任何层中，则检测到接触。更多信息见文档:ref:`碰撞层和掩码 <tutorials/physics/physics_introduction:collision layers and masks>`。
+**注意：**\ 如果对象A在对象B扫描的任何层中，或者对象B在对象A扫描的任何层中，则检测到接触。更多信息见文档\ :ref:`碰撞层和掩码 <tutorials/physics/physics_introduction:collision layers and masks>`。
 
 ----
 
@@ -146,9 +146,9 @@ Property Descriptions
 | *Getter*  | get_collision_mask()      |
 +-----------+---------------------------+
 
-这个CollisionObject2D所扫描的物理层。碰撞对象可以扫描32个不同层中的一个或多个。也见:ref:`collision_layer<class_CollisionObject2D_property_collision_layer>`。
+这个CollisionObject2D所扫描的物理层。碰撞对象可以扫描32个不同层中的一个或多个。也见\ :ref:`collision_layer<class_CollisionObject2D_property_collision_layer>`。
 
-**注意：** 如果对象A在对象B扫描的任何层中，或者对象B在对象A扫描的任何层中，就会检测到接触。更多信息见文档:ref:`碰撞层和掩码 <tutorials/physics/physics_introduction:collision layers and masks>`。
+**注意：** 如果对象A在对象B扫描的任何层中，或者对象B在对象A扫描的任何层中，就会检测到接触。更多信息见文档\ :ref:`碰撞层和掩码 <tutorials/physics/physics_introduction:collision layers and masks>`。
 
 ----
 
@@ -173,7 +173,7 @@ Method Descriptions
 
 - void **_input_event** **(** :ref:`Object<class_Object>` viewport, :ref:`InputEvent<class_InputEvent>` event, :ref:`int<class_int>` shape_idx **)** |virtual|
 
-接受未处理的:ref:`InputEvent<class_InputEvent>`。要求:ref:`input_pickable<class_CollisionObject2D_property_input_pickable>`\ 为``true``。 ``shape_idx``\ 被点击的:ref:`Shape2D<class_Shape2D>`\ 的子索引。连接到``input_event``\ 信号即可轻松接收这些事件。
+接受未处理的\ :ref:`InputEvent<class_InputEvent>`。要求\ :ref:`input_pickable<class_CollisionObject2D_property_input_pickable>`\ 为\ ``true``。 ``shape_idx``\ 被点击的\ :ref:`Shape2D<class_Shape2D>`\ 的子索引。连接到\ ``input_event``\ 信号即可轻松接收这些事件。
 
 ----
 
@@ -181,7 +181,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **create_shape_owner** **(** :ref:`Object<class_Object>` owner **)**
 
-为给定对象创建一个新的形状拥有者。返回``owner_id``\ 的新所有者，供将来引用。
+为给定对象创建一个新的形状拥有者。返回\ ``owner_id``\ 的新所有者，供将来引用。
 
 ----
 
@@ -189,7 +189,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **get_collision_layer_bit** **(** :ref:`int<class_int>` bit **)** |const|
 
-返回是否设置了碰撞层 :ref:`collision_layer<class_CollisionObject2D_property_collision_layer>` 的指定位``bit``。
+返回是否设置了碰撞层 :ref:`collision_layer<class_CollisionObject2D_property_collision_layer>` 的指定位\ ``bit``。
 
 ----
 
@@ -197,7 +197,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **get_collision_mask_bit** **(** :ref:`int<class_int>` bit **)** |const|
 
-返回是否设置了碰撞掩码 :ref:`collision_mask<class_CollisionObject2D_property_collision_mask>` 的指定位``bit``。
+返回是否设置了碰撞掩码 :ref:`collision_mask<class_CollisionObject2D_property_collision_mask>` 的指定位\ ``bit``。
 
 ----
 
@@ -213,7 +213,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **get_shape_owner_one_way_collision_margin** **(** :ref:`int<class_int>` owner_id **)** |const|
 
-返回由给定的``owner_id``\ 标识的形状所有者的``one_way_collision_margin``。
+返回由给定的\ ``owner_id``\ 标识的形状所有者的\ ``one_way_collision_margin``。
 
 ----
 
@@ -221,7 +221,7 @@ Method Descriptions
 
 - :ref:`Array<class_Array>` **get_shape_owners** **(** **)**
 
-返回一个``owner_id``\ 标识符的:ref:`Array<class_Array>`。你可以在其他使用``owner_id``\ 作为参数的方法中使用这些id。
+返回一个\ ``owner_id``\ 标识符的\ :ref:`Array<class_Array>`。你可以在其他使用\ ``owner_id``\ 作为参数的方法中使用这些id。
 
 ----
 
@@ -229,7 +229,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_shape_owner_disabled** **(** :ref:`int<class_int>` owner_id **)** |const|
 
-如果``true``，则禁用形状所有者及其形状。
+如果\ ``true``，则禁用形状所有者及其形状。
 
 ----
 
@@ -237,7 +237,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_shape_owner_one_way_collision_enabled** **(** :ref:`int<class_int>` owner_id **)** |const|
 
-返回``true``，如果源于这个``CollisionObject2D``\ 的形状所有者的碰撞不会被报告给``CollisionObject2D``\ s。
+返回\ ``true``，如果源于这个\ ``CollisionObject2D``\ 的形状所有者的碰撞不会被报告给\ ``CollisionObject2D``\ s。
 
 ----
 
@@ -253,9 +253,9 @@ Method Descriptions
 
 - void **set_collision_layer_bit** **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**
 
-如果``value``\ 为``true``，则设置:ref:`collision_layer<class_CollisionObject2D_property_collision_layer>`\ 中指定的``bit``\ 位。
+如果\ ``value``\ 为\ ``true``，则设置\ :ref:`collision_layer<class_CollisionObject2D_property_collision_layer>`\ 中指定的\ ``bit``\ 位。
 
-如果``value``\ 为``false``，清除:ref:`collision_layer<class_CollisionObject2D_property_collision_layer>`\ 中指定的 ``bit``\ 位。
+如果\ ``value``\ 为\ ``false``，清除\ :ref:`collision_layer<class_CollisionObject2D_property_collision_layer>`\ 中指定的 ``bit``\ 位。
 
 ----
 
@@ -263,9 +263,9 @@ Method Descriptions
 
 - void **set_collision_mask_bit** **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**
 
-如果``value``\ 为``true``，则设置:ref:`collision_mask<class_CollisionObject2D_property_collision_mask>`\ 中指定的``bit``\ 位。
+如果\ ``value``\ 为\ ``true``，则设置\ :ref:`collision_mask<class_CollisionObject2D_property_collision_mask>`\ 中指定的\ ``bit``\ 位。
 
-如果``value``\ 为``false``，清除:ref:`collision_mask<class_CollisionObject2D_property_collision_mask>`\ 中指定的 ``bit``\ 位。
+如果\ ``value``\ 为\ ``false``，清除\ :ref:`collision_mask<class_CollisionObject2D_property_collision_mask>`\ 中指定的 ``bit``\ 位。
 
 ----
 
@@ -273,7 +273,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **shape_find_owner** **(** :ref:`int<class_int>` shape_index **)** |const|
 
-返回指定形状的``owner_id``。
+返回指定形状的\ ``owner_id``。
 
 ----
 
@@ -281,7 +281,7 @@ Method Descriptions
 
 - void **shape_owner_add_shape** **(** :ref:`int<class_int>` owner_id, :ref:`Shape2D<class_Shape2D>` shape **)**
 
-给形状所有者添加一个:ref:`Shape2D<class_Shape2D>`。
+给形状所有者添加一个\ :ref:`Shape2D<class_Shape2D>`。
 
 ----
 
@@ -305,7 +305,7 @@ Method Descriptions
 
 - :ref:`Shape2D<class_Shape2D>` **shape_owner_get_shape** **(** :ref:`int<class_int>` owner_id, :ref:`int<class_int>` shape_id **)** |const|
 
-从给定的形状所有者那里返回给定id的:ref:`Shape2D<class_Shape2D>`。
+从给定的形状所有者那里返回给定id的\ :ref:`Shape2D<class_Shape2D>`。
 
 ----
 
@@ -321,7 +321,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **shape_owner_get_shape_index** **(** :ref:`int<class_int>` owner_id, :ref:`int<class_int>` shape_id **)** |const|
 
-从给定的形状所有者那里返回给定id的:ref:`Shape2D<class_Shape2D>`\ 的子索引。
+从给定的形状所有者那里返回给定id的\ :ref:`Shape2D<class_Shape2D>`\ 的子索引。
 
 ----
 
@@ -329,7 +329,7 @@ Method Descriptions
 
 - :ref:`Transform2D<class_Transform2D>` **shape_owner_get_transform** **(** :ref:`int<class_int>` owner_id **)** |const|
 
-返回形状所有者的:ref:`Transform2D<class_Transform2D>`。
+返回形状所有者的\ :ref:`Transform2D<class_Transform2D>`。
 
 ----
 
@@ -345,7 +345,7 @@ Method Descriptions
 
 - void **shape_owner_set_disabled** **(** :ref:`int<class_int>` owner_id, :ref:`bool<class_bool>` disabled **)**
 
-如果``true``，则禁用给定的形状所有者。
+如果\ ``true``，则禁用给定的形状所有者。
 
 ----
 
@@ -353,7 +353,7 @@ Method Descriptions
 
 - void **shape_owner_set_one_way_collision** **(** :ref:`int<class_int>` owner_id, :ref:`bool<class_bool>` enable **)**
 
-如果``enable``\ 为``true``，则源自这个``CollisionObject2D``\ 的形状所有者的碰撞将不会被报告给``CollisionObject2D``。
+如果\ ``enable``\ 为\ ``true``，则源自这个\ ``CollisionObject2D``\ 的形状所有者的碰撞将不会被报告给\ ``CollisionObject2D``。
 
 ----
 
@@ -361,7 +361,7 @@ Method Descriptions
 
 - void **shape_owner_set_one_way_collision_margin** **(** :ref:`int<class_int>` owner_id, :ref:`float<class_float>` margin **)**
 
-将由给定的``owner_id``\ 标识的形状所有者的``one_way_collision_margin``\ 设置为``margin``\ 像素。
+将由给定的\ ``owner_id``\ 标识的形状所有者的\ ``one_way_collision_margin``\ 设置为\ ``margin``\ 像素。
 
 ----
 
@@ -369,7 +369,7 @@ Method Descriptions
 
 - void **shape_owner_set_transform** **(** :ref:`int<class_int>` owner_id, :ref:`Transform2D<class_Transform2D>` transform **)**
 
-设置给定形状所有者的:ref:`Transform2D<class_Transform2D>`。
+设置给定形状所有者的\ :ref:`Transform2D<class_Transform2D>`。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

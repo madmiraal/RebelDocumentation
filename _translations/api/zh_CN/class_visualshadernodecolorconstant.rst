@@ -11,14 +11,14 @@ VisualShaderNodeColorConstant
 
 **Inherits:** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
 
-一个:ref:`Color<class_Color>`\ 常量，在可视化着色器图中使用。
+一个\ :ref:`Color<class_Color>`\ 常量，在可视化着色器图中使用。
 
 Description
 -----------
 
-有两个输出端口，表示:ref:`Color<class_Color>`\ 的RGB和alpha通道。
+有两个输出端口，表示\ :ref:`Color<class_Color>`\ 的RGB和alpha通道。
 
-在着色器语言中被转换成``vec3 rgb``\ 和``float alpha`` 。
+在着色器语言中被转换成\ ``vec3 rgb``\ 和\ ``float alpha`` 。
 
 Properties
 ----------
@@ -42,7 +42,7 @@ Property Descriptions
 | *Getter*  | get_constant()          |
 +-----------+-------------------------+
 
-一个:ref:`Color<class_Color>`\ 常量，表示这个节点的状态。
+一个\ :ref:`Color<class_Color>`\ 常量，表示这个节点的状态。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

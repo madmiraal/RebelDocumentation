@@ -115,7 +115,7 @@ Property Descriptions
 | *Default* | ``Vector2( 1, 0 )`` |
 +-----------+---------------------+
 
-基本矩阵的X向量（第0列）。等效于数组索引``0``。
+基本矩阵的X向量（第0列）。等效于数组索引\ ``0``。
 
 ----
 
@@ -127,7 +127,7 @@ Property Descriptions
 | *Default* | ``Vector2( 0, 1 )`` |
 +-----------+---------------------+
 
-基础矩阵的Y向量（第1列）。相当于数组索引``1``。
+基础矩阵的Y向量（第1列）。相当于数组索引\ ``1``。
 
 Method Descriptions
 -------------------
@@ -142,7 +142,7 @@ Method Descriptions
 
 - :ref:`Transform2D<class_Transform2D>` **Transform2D** **(** :ref:`Vector2<class_Vector2>` x_axis, :ref:`Vector2<class_Vector2>` y_axis, :ref:`Vector2<class_Vector2>` origin **)**
 
-从表示 :ref:`x<class_Transform2D_property_x>`、:ref:`y<class_Transform2D_property_y>`、:ref:`origin<class_Transform2D_property_origin>` 的 3 个 :ref:`Vector2<class_Vector2>`（三个列向量）构建变换。
+从表示 :ref:`x<class_Transform2D_property_x>`、:ref:`y<class_Transform2D_property_y>`、:ref:`origin<class_Transform2D_property_origin>` 的 3 个 :ref:`Vector2<class_Vector2>`\ （三个列向量）构建变换。
 
 ----
 
@@ -208,7 +208,7 @@ Method Descriptions
 
 - :ref:`Transform2D<class_Transform2D>` **interpolate_with** **(** :ref:`Transform2D<class_Transform2D>` transform, :ref:`float<class_float>` weight **)**
 
-返回在此变换和另一个变换之间通过给定的``weight``\ 插值的变换，范围为0.0到1.0。
+返回在此变换和另一个变换之间通过给定的\ ``weight``\ 插值的变换，范围为0.0到1.0。
 
 ----
 
@@ -224,7 +224,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_equal_approx** **(** :ref:`Transform2D<class_Transform2D>` transform **)**
 
-如果这个变换和``transform``\ 近似相等，通过对每个分量调用``is_equal_approx``，而返回``true``。
+如果这个变换和\ ``transform``\ 近似相等，通过对每个分量调用\ ``is_equal_approx``，而返回\ ``true``。
 
 ----
 
@@ -258,7 +258,7 @@ Method Descriptions
 
 相对于变换的基础向量，将变换按给定的偏移量进行平移。
 
-与:ref:`rotated<class_Transform2D_method_rotated>`\ 和:ref:`scaled<class_Transform2D_method_scaled>`\ 不同，它不使用矩阵乘法。
+与\ :ref:`rotated<class_Transform2D_method_rotated>`\ 和\ :ref:`scaled<class_Transform2D_method_scaled>`\ 不同，它不使用矩阵乘法。
 
 ----
 
@@ -266,7 +266,7 @@ Method Descriptions
 
 - :ref:`Variant<class_Variant>` **xform** **(** :ref:`Variant<class_Variant>` v **)**
 
-通过此变换对指定的:ref:`Vector2<class_Vector2>`、:ref:`Rect2<class_Rect2>`\ 或:ref:`PoolVector2Array<class_PoolVector2Array>`\ 进行变换。
+通过此变换对指定的\ :ref:`Vector2<class_Vector2>`、:ref:`Rect2<class_Rect2>`\ 或\ :ref:`PoolVector2Array<class_PoolVector2Array>`\ 进行变换。
 
 ----
 

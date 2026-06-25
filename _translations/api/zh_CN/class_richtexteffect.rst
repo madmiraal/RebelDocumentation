@@ -16,16 +16,16 @@ RichTextEffect
 Description
 -----------
 
-一个用于:ref:`RichTextLabel<class_RichTextLabel>`\ 的自定义效果。
+一个用于\ :ref:`RichTextLabel<class_RichTextLabel>`\ 的自定义效果。
 
-**注意:** 为了使``RichTextEffect``\ 能够使用，必须在脚本中定义一个名为``bbcode``\ 的BBCode标签作为成员变量。
+**注意:** 为了使\ ``RichTextEffect``\ 能够使用，必须在脚本中定义一个名为\ ``bbcode``\ 的BBCode标签作为成员变量。
 
 ::
 
     # RichTextEffect将可以像这样使用:`[example]一些文本[/example]`.
     var bbcode = "example"
 
-**注意：**只要一个:ref:`RichTextLabel<class_RichTextLabel>`\ 包含至少一个``RichTextEffect``，它就会持续处理这个效果，除非项目暂停。这可能会对电池寿命产生负面影响。
+**注意：**\ 只要一个\ :ref:`RichTextLabel<class_RichTextLabel>`\ 包含至少一个\ ``RichTextEffect``，它就会持续处理这个效果，除非项目暂停。这可能会对电池寿命产生负面影响。
 
 Tutorials
 ---------
@@ -46,7 +46,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **_process_custom_fx** **(** :ref:`CharFXTransform<class_CharFXTransform>` char_fx **)** |virtual|
 
-覆盖这个方法来修改``char_fx``\ 中的属性。如果字符可以被成功转换，该方法必须返回``true``。如果该方法返回``false``，它将跳过转换，以避免显示破碎的文本。
+覆盖这个方法来修改\ ``char_fx``\ 中的属性。如果字符可以被成功转换，该方法必须返回\ ``true``。如果该方法返回\ ``false``，它将跳过转换，以避免显示破碎的文本。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

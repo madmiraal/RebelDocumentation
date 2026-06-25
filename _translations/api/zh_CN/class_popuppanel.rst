@@ -16,7 +16,7 @@ PopupPanel
 Description
 -----------
 
-用于显示具有面板背景的弹出窗口的类。在某些情况下，它可能比:ref:`Popup<class_Popup>`\ 更容易使用，因为它提供了一个可配置的背景。如果你正在制作窗口，最好是查看:ref:`WindowDialog<class_WindowDialog>`。
+用于显示具有面板背景的弹出窗口的类。在某些情况下，它可能比\ :ref:`Popup<class_Popup>`\ 更容易使用，因为它提供了一个可配置的背景。如果你正在制作窗口，最好是查看\ :ref:`WindowDialog<class_WindowDialog>`。
 
 Theme Properties
 ----------------
@@ -32,7 +32,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **panel**
 
-这个``PopupPanel``\ 的背景面板样式。
+这个\ ``PopupPanel``\ 的背景面板样式。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

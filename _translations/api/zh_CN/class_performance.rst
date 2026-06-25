@@ -16,7 +16,7 @@ Performance
 Description
 -----------
 
-这个类提供了对一些与性能有关的不同监控的访问，比如内存使用量、绘制调用和FPS。这些与编辑器的**Monitor**标签中的**Debugger**面板所显示的数值相同。通过使用这个类的:ref:`get_monitor<class_Performance_method_get_monitor>`\ 方法，可以从你的代码中访问这些数据。
+这个类提供了对一些与性能有关的不同监控的访问，比如内存使用量、绘制调用和FPS。这些与编辑器的\ **Monitor**\ 标签中的\ **Debugger**\ 面板所显示的数值相同。通过使用这个类的\ :ref:`get_monitor<class_Performance_method_get_monitor>`\ 方法，可以从你的代码中访问这些数据。
 
 **注意:** 这些监视器中有几个只在调试模式下可用，当在发布版构建中使用时，将总是返回0。
 
@@ -148,7 +148,7 @@ enum **Monitor**:
 
 - **RENDER_USAGE_VIDEO_MEM_TOTAL** = **23** --- 在 GLES2 和 GLES3 渲染后端中未实现，始终返回 0。
 
-- **PHYSICS_2D_ACTIVE_OBJECTS** = **24** --- 游戏中活跃的:ref:`RigidBody2D<class_RigidBody2D>`\ 节点数量。
+- **PHYSICS_2D_ACTIVE_OBJECTS** = **24** --- 游戏中活跃的\ :ref:`RigidBody2D<class_RigidBody2D>`\ 节点数量。
 
 - **PHYSICS_2D_COLLISION_PAIRS** = **25** --- 2D物理引擎中的碰撞对数量。
 
@@ -162,7 +162,7 @@ enum **Monitor**:
 
 - **AUDIO_OUTPUT_LATENCY** = **30** --- :ref:`AudioServer<class_AudioServer>`\ 的输出延迟。
 
-- **MONITOR_MAX** = **31** --- 表示:ref:`Monitor<enum_Performance_Monitor>` enum的大小。
+- **MONITOR_MAX** = **31** --- 表示\ :ref:`Monitor<enum_Performance_Monitor>` enum的大小。
 
 Method Descriptions
 -------------------
@@ -171,7 +171,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **get_monitor** **(** :ref:`Monitor<enum_Performance_Monitor>` monitor **)** |const|
 
-返回一个可用监视器的值。你应该提供一个:ref:`Monitor<enum_Performance_Monitor>`\ 常量作为参数，像这样:
+返回一个可用监视器的值。你应该提供一个\ :ref:`Monitor<enum_Performance_Monitor>`\ 常量作为参数，像这样:
 
 ::
 

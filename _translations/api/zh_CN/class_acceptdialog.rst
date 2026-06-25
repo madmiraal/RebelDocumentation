@@ -65,7 +65,7 @@ Signals
 
 - **custom_action** **(** :ref:`String<class_String>` action **)**
 
-按下自定义按钮时发出。 参阅:ref:`add_button<class_AcceptDialog_method_add_button>`。
+按下自定义按钮时发出。 参阅\ :ref:`add_button<class_AcceptDialog_method_add_button>`。
 
 Property Descriptions
 ---------------------
@@ -98,7 +98,7 @@ Property Descriptions
 | *Getter*  | get_hide_on_ok()      |
 +-----------+-----------------------+
 
-如果为 ``true``，按下OK按钮时对话框将隐藏。如果要在收到 :ref:`confirmed<class_AcceptDialog_signal_confirmed>` 信号时执行类似输入验证的操作，则可以将其设置为``false``，然后在自己的逻辑中处理对话框的隐藏。
+如果为 ``true``，按下OK按钮时对话框将隐藏。如果要在收到 :ref:`confirmed<class_AcceptDialog_signal_confirmed>` 信号时执行类似输入验证的操作，则可以将其设置为\ ``false``，然后在自己的逻辑中处理对话框的隐藏。
 
 **注意：** 从此类派生的某些节点可以具有不同的默认值，并且可能有自己的内置逻辑会覆盖此设置。 例如，:ref:`FileDialog<class_FileDialog>` 默认其为 ``false``，并在按下OK时实现了自己的输入验证代码，如果输入有效，最终将隐藏对话框。因此，不能在 :ref:`FileDialog<class_FileDialog>` 中使用此属性来禁止在按OK时隐藏对话框。
 
@@ -125,9 +125,9 @@ Method Descriptions
 
 - :ref:`Button<class_Button>` **add_button** **(** :ref:`String<class_String>` text, :ref:`bool<class_bool>` right=false, :ref:`String<class_String>` action="" **)**
 
-向对话框中添加一个带有标签``text``\ 和自定义``action``\ 的按钮，并返回该创建的按钮。按下时，``action``\ 会被传递给:ref:`custom_action<class_AcceptDialog_signal_custom_action>`\ 信号。
+向对话框中添加一个带有标签\ ``text``\ 和自定义\ ``action``\ 的按钮，并返回该创建的按钮。按下时，``action``\ 会被传递给\ :ref:`custom_action<class_AcceptDialog_signal_custom_action>`\ 信号。
 
-如果``right``\ 为``true``，按钮会被放置在所有同级按钮的右边。
+如果\ ``right``\ 为\ ``true``，按钮会被放置在所有同级按钮的右边。
 
 您可以使用 :ref:`remove_button<class_AcceptDialog_method_remove_button>` 方法从对话框中删除使用此方法创建的按钮。
 
@@ -137,7 +137,7 @@ Method Descriptions
 
 - :ref:`Button<class_Button>` **add_cancel** **(** :ref:`String<class_String>` name **)**
 
-向对话框中添加一个标签为``name``\ 和一个取消动作的按钮，然后返回这个新创建的按钮。
+向对话框中添加一个标签为\ ``name``\ 和一个取消动作的按钮，然后返回这个新创建的按钮。
 
 您可以使用 :ref:`remove_button<class_AcceptDialog_method_remove_button>` 方法从对话框中删除使用此方法创建的按钮。
 
@@ -149,7 +149,7 @@ Method Descriptions
 
 返回内置文本所使用的标签。
 
-**警告：**这是个必要的内部节点，删除和释放它有可能造成崩溃。如果你希望隐藏它或它的任意一个子节点，请使用它们的 :ref:`CanvasItem.visible<class_CanvasItem_property_visible>` 属性。
+**警告：**\ 这是个必要的内部节点，删除和释放它有可能造成崩溃。如果你希望隐藏它或它的任意一个子节点，请使用它们的 :ref:`CanvasItem.visible<class_CanvasItem_property_visible>` 属性。
 
 ----
 
@@ -159,7 +159,7 @@ Method Descriptions
 
 返回确定按钮 :ref:`Button<class_Button>` 实例。
 
-**警告：**这是个必要的内部节点，删除和释放它有可能造成崩溃。如果你希望隐藏它或它的任意一个子节点，请使用它们的 :ref:`CanvasItem.visible<class_CanvasItem_property_visible>` 属性。
+**警告：**\ 这是个必要的内部节点，删除和释放它有可能造成崩溃。如果你希望隐藏它或它的任意一个子节点，请使用它们的 :ref:`CanvasItem.visible<class_CanvasItem_property_visible>` 属性。
 
 ----
 
@@ -175,7 +175,7 @@ Method Descriptions
 
 - void **remove_button** **(** :ref:`Control<class_Control>` button **)**
 
-从对话框中移除 ``button``。但不释放 该``button``\ 对象。``button`` 必须是添加有 :ref:`add_button<class_AcceptDialog_method_add_button>` 或 :ref:`add_cancel<class_AcceptDialog_method_add_cancel>` 方法的 :ref:`Button<class_Button>`。移除后，按下该``button``\ 将不再发出此对话框的:ref:`custom_action<class_AcceptDialog_signal_custom_action>`\ 信号或取消此对话框。
+从对话框中移除 ``button``。但不释放 该\ ``button``\ 对象。``button`` 必须是添加有 :ref:`add_button<class_AcceptDialog_method_add_button>` 或 :ref:`add_cancel<class_AcceptDialog_method_add_cancel>` 方法的 :ref:`Button<class_Button>`。移除后，按下该\ ``button``\ 将不再发出此对话框的\ :ref:`custom_action<class_AcceptDialog_signal_custom_action>`\ 信号或取消此对话框。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

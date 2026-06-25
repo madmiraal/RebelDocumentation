@@ -178,7 +178,7 @@ Method Descriptions
 
 保证给定的 ``control`` 控件可见（必须是 ScrollContainer 的直接或间接子节点）。会被 :ref:`follow_focus<class_ScrollContainer_property_follow_focus>` 使用。
 
-**注意：**在同一帧内刚被加入的节点上无效。如果你希望滚动至新加的子节点，就必须使用 :ref:`SceneTree.idle_frame<class_SceneTree_signal_idle_frame>` 等待至下一帧：
+**注意：**\ 在同一帧内刚被加入的节点上无效。如果你希望滚动至新加的子节点，就必须使用 :ref:`SceneTree.idle_frame<class_SceneTree_signal_idle_frame>` 等待至下一帧：
 
 ::
 
@@ -192,9 +192,9 @@ Method Descriptions
 
 - :ref:`HScrollBar<class_HScrollBar>` **get_h_scrollbar** **(** **)**
 
-返回此``ScrollContainer``\ 的水平滚动条:ref:`HScrollBar<class_HScrollBar>`。
+返回此\ ``ScrollContainer``\ 的水平滚动条\ :ref:`HScrollBar<class_HScrollBar>`。
 
-**警告：** 这是一个必须的内部节点，移除和释放它可能会导致崩溃。如果你想禁用水平滚动条，请使用:ref:`scroll_horizontal_enabled<class_ScrollContainer_property_scroll_horizontal_enabled>`。如果你只想隐藏它，则使用其:ref:`CanvasItem.visible<class_CanvasItem_property_visible>`\ 属性。
+**警告：** 这是一个必须的内部节点，移除和释放它可能会导致崩溃。如果你想禁用水平滚动条，请使用\ :ref:`scroll_horizontal_enabled<class_ScrollContainer_property_scroll_horizontal_enabled>`。如果你只想隐藏它，则使用其\ :ref:`CanvasItem.visible<class_CanvasItem_property_visible>`\ 属性。
 
 ----
 
@@ -202,9 +202,9 @@ Method Descriptions
 
 - :ref:`VScrollBar<class_VScrollBar>` **get_v_scrollbar** **(** **)**
 
-返回此``ScrollContainer``\ 的垂直滚动条:ref:`VScrollBar<class_VScrollBar>`。
+返回此\ ``ScrollContainer``\ 的垂直滚动条\ :ref:`VScrollBar<class_VScrollBar>`。
 
-**警告：** 这是一个必需的内部节点，移除和释放它可能会导致崩溃。如果你想禁用垂直滚动条，请使用:ref:`scroll_vertical_enabled<class_ScrollContainer_property_scroll_vertical_enabled>`。如果你只想隐藏它，则使用其:ref:`CanvasItem.visible<class_CanvasItem_property_visible>`\ 属性。
+**警告：** 这是一个必需的内部节点，移除和释放它可能会导致崩溃。如果你想禁用垂直滚动条，请使用\ :ref:`scroll_vertical_enabled<class_ScrollContainer_property_scroll_vertical_enabled>`。如果你只想隐藏它，则使用其\ :ref:`CanvasItem.visible<class_CanvasItem_property_visible>`\ 属性。
 
 Theme Property Descriptions
 ---------------------------

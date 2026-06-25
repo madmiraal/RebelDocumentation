@@ -16,7 +16,7 @@ Description
 
 2 元素结构，可用于表示 2D 空间中的坐标或其他任何一对数字值。
 
-**注意：**在布尔语境中，如果 Vector2 等于 ``Vector2(0, 0)``，它将评估为 ``false``。否则，Vector2 将总是评估为 ``true``。
+**注意：**\ 在布尔语境中，如果 Vector2 等于 ``Vector2(0, 0)``，它将评估为 ``false``。否则，Vector2 将总是评估为 ``true``。
 
 Tutorials
 ---------
@@ -236,7 +236,7 @@ Returns the angle between the line connecting the two points and the X axis, in 
 
 - :ref:`float<class_float>` **aspect** **(** **)**
 
-返回这个向量的长宽比，即:ref:`x<class_Vector2_property_x>` 与:ref:`y<class_Vector2_property_y>`\ 的比例。
+返回这个向量的长宽比，即\ :ref:`x<class_Vector2_property_x>` 与\ :ref:`y<class_Vector2_property_y>`\ 的比例。
 
 ----
 
@@ -260,7 +260,7 @@ Returns the angle between the line connecting the two points and the X axis, in 
 
 - :ref:`Vector2<class_Vector2>` **clamped** **(** :ref:`float<class_float>` length **)**
 
-通过限制其长度为``length``，返回具有最大长度的向量。
+通过限制其长度为\ ``length``，返回具有最大长度的向量。
 
 ----
 
@@ -268,7 +268,7 @@ Returns the angle between the line connecting the two points and the X axis, in 
 
 - :ref:`float<class_float>` **cross** **(** :ref:`Vector2<class_Vector2>` with **)**
 
-返回此向量与``with``\ 的叉积。
+返回此向量与\ ``with``\ 的叉积。
 
 ----
 
@@ -276,7 +276,7 @@ Returns the angle between the line connecting the two points and the X axis, in 
 
 - :ref:`Vector2<class_Vector2>` **cubic_interpolate** **(** :ref:`Vector2<class_Vector2>` b, :ref:`Vector2<class_Vector2>` pre_a, :ref:`Vector2<class_Vector2>` post_b, :ref:`float<class_float>` weight **)**
 
-用``pre_a``\ 和``post_b``\ 作为句柄，在这个向量和``b``\ 之间进行三次插值，并在``weight``\ 位置返回结果。``weight``\ 的范围是0.0到1.0，表示插值的量。
+用\ ``pre_a``\ 和\ ``post_b``\ 作为句柄，在这个向量和\ ``b``\ 之间进行三次插值，并在\ ``weight``\ 位置返回结果。``weight``\ 的范围是0.0到1.0，表示插值的量。
 
 ----
 
@@ -284,7 +284,7 @@ Returns the angle between the line connecting the two points and the X axis, in 
 
 - :ref:`Vector2<class_Vector2>` **direction_to** **(** :ref:`Vector2<class_Vector2>` b **)**
 
-返回从这个向量指向``b``\ 的归一化向量。这相当于使用``(b-a).normalized()``。
+返回从这个向量指向\ ``b``\ 的归一化向量。这相当于使用\ ``(b-a).normalized()``。
 
 ----
 
@@ -292,9 +292,9 @@ Returns the angle between the line connecting the two points and the X axis, in 
 
 - :ref:`float<class_float>` **distance_squared_to** **(** :ref:`Vector2<class_Vector2>` to **)**
 
-返回这个向量与``b``\ 之间的平方距离。
+返回这个向量与\ ``b``\ 之间的平方距离。
 
-这个方法比:ref:`distance_to<class_Vector2_method_distance_to>`\ 运行得更快，所以如果你需要比较向量或需要一些公式的平方距离，则更喜欢它。
+这个方法比\ :ref:`distance_to<class_Vector2_method_distance_to>`\ 运行得更快，所以如果你需要比较向量或需要一些公式的平方距离，则更喜欢它。
 
 ----
 
@@ -310,13 +310,13 @@ Returns the angle between the line connecting the two points and the X axis, in 
 
 - :ref:`float<class_float>` **dot** **(** :ref:`Vector2<class_Vector2>` with **)**
 
-返回此向量与``with``\ 的点积。这可以用来比较两个向量之间的角度。例如，这可以用来确定一个敌人是否正朝向玩家。
+返回此向量与\ ``with``\ 的点积。这可以用来比较两个向量之间的角度。例如，这可以用来确定一个敌人是否正朝向玩家。
 
-对于直角90度，点积将是``0``，对于窄于90度的角度，点积大于0，对于宽于90度的角度，点积小于0。
+对于直角90度，点积将是\ ``0``，对于窄于90度的角度，点积大于0，对于宽于90度的角度，点积小于0。
 
-当使用归一化单位向量时，当向量朝向相反方向时，结果总是在``-1.0``（180度角）和``1.0``（0度角）之间，当向量对齐。
+当使用归一化单位向量时，当向量朝向相反方向时，结果总是在\ ``-1.0``\ （180度角）和\ ``1.0``\ （0度角）之间，当向量对齐。
 
-**注意：**``a.dot(b)``\ 等同于``b.dot(a)``。
+**注意：**\ ``a.dot(b)``\ 等同于\ ``b.dot(a)``。
 
 ----
 
@@ -332,7 +332,7 @@ Returns the angle between the line connecting the two points and the X axis, in 
 
 - :ref:`bool<class_bool>` **is_equal_approx** **(** :ref:`Vector2<class_Vector2>` v **)**
 
-通过对每个分量运行:ref:`@GDScript.is_equal_approx<class_@GDScript_method_is_equal_approx>`，如果这个向量和``v``\ 近似相等，返回``true``。
+通过对每个分量运行\ :ref:`@GDScript.is_equal_approx<class_@GDScript_method_is_equal_approx>`，如果这个向量和\ ``v``\ 近似相等，返回\ ``true``。
 
 ----
 
@@ -340,7 +340,7 @@ Returns the angle between the line connecting the two points and the X axis, in 
 
 - :ref:`bool<class_bool>` **is_normalized** **(** **)**
 
-如果向量被归一化，返回``true``，否则返回``false``。
+如果向量被归一化，返回\ ``true``，否则返回\ ``false``。
 
 ----
 
@@ -358,7 +358,7 @@ Returns the angle between the line connecting the two points and the X axis, in 
 
 返回这个向量的平方长度，即平方大小。
 
-这个方法比:ref:`length<class_Vector2_method_length>`\ 运行得更快，所以如果你需要比较向量或需要一些公式的平方距离时，更喜欢用它。
+这个方法比\ :ref:`length<class_Vector2_method_length>`\ 运行得更快，所以如果你需要比较向量或需要一些公式的平方距离时，更喜欢用它。
 
 ----
 
@@ -366,7 +366,7 @@ Returns the angle between the line connecting the two points and the X axis, in 
 
 - :ref:`Vector2<class_Vector2>` **linear_interpolate** **(** :ref:`Vector2<class_Vector2>` to, :ref:`float<class_float>` weight **)**
 
-返回这个向量与``to``\ 之间线性插值的结果，插值量为``weight``。``weight``\ 的范围是0.0到1.0，表示插值的数量。
+返回这个向量与\ ``to``\ 之间线性插值的结果，插值量为\ ``weight``。``weight``\ 的范围是0.0到1.0，表示插值的数量。
 
 ----
 
@@ -374,7 +374,7 @@ Returns the angle between the line connecting the two points and the X axis, in 
 
 - :ref:`Vector2<class_Vector2>` **move_toward** **(** :ref:`Vector2<class_Vector2>` to, :ref:`float<class_float>` delta **)**
 
-向``to``\ 移动固定的``delta``\ 量。
+向\ ``to``\ 移动固定的\ ``delta``\ 量。
 
 ----
 
@@ -382,7 +382,7 @@ Returns the angle between the line connecting the two points and the X axis, in 
 
 - :ref:`Vector2<class_Vector2>` **normalized** **(** **)**
 
-返回缩放为单位长度的向量。相当于``v/v.length()``。
+返回缩放为单位长度的向量。相当于\ ``v/v.length()``。
 
 ----
 
@@ -390,7 +390,7 @@ Returns the angle between the line connecting the two points and the X axis, in 
 
 - :ref:`Vector2<class_Vector2>` **posmod** **(** :ref:`float<class_float>` mod **)**
 
-返回一个由这个向量分量的:ref:`@GDScript.fposmod<class_@GDScript_method_fposmod>`\ 和``mod``\ 组成的向量。
+返回一个由这个向量分量的\ :ref:`@GDScript.fposmod<class_@GDScript_method_fposmod>`\ 和\ ``mod``\ 组成的向量。
 
 ----
 
@@ -398,7 +398,7 @@ Returns the angle between the line connecting the two points and the X axis, in 
 
 - :ref:`Vector2<class_Vector2>` **posmodv** **(** :ref:`Vector2<class_Vector2>` modv **)**
 
-返回一个由这个向量的``modv``\ 分量和:ref:`@GDScript.fposmod<class_@GDScript_method_fposmod>`\ 分量组成的向量。
+返回一个由这个向量的\ ``modv``\ 分量和\ :ref:`@GDScript.fposmod<class_@GDScript_method_fposmod>`\ 分量组成的向量。
 
 ----
 
@@ -406,7 +406,7 @@ Returns the angle between the line connecting the two points and the X axis, in 
 
 - :ref:`Vector2<class_Vector2>` **project** **(** :ref:`Vector2<class_Vector2>` b **)**
 
-返回投射到向量``b``\ 的向量。
+返回投射到向量\ ``b``\ 的向量。
 
 ----
 
@@ -422,7 +422,7 @@ Returns the vector reflected (i.e. mirrored, or symmetric) over a line defined b
 
 - :ref:`Vector2<class_Vector2>` **rotated** **(** :ref:`float<class_float>` phi **)**
 
-返回旋转了``phi``\ 弧度的向量。参阅:ref:`@GDScript.deg2rad<class_@GDScript_method_deg2rad>`。
+返回旋转了\ ``phi``\ 弧度的向量。参阅\ :ref:`@GDScript.deg2rad<class_@GDScript_method_deg2rad>`。
 
 ----
 
@@ -446,9 +446,9 @@ Returns the vector reflected (i.e. mirrored, or symmetric) over a line defined b
 
 - :ref:`Vector2<class_Vector2>` **slerp** **(** :ref:`Vector2<class_Vector2>` to, :ref:`float<class_float>` weight **)**
 
-返回这个向量与``to``\ 之间的球面线性插值的结果，按``weight``\ 的数量。``weight``\ 的范围是0.0到1.0，表示插值的数量。
+返回这个向量与\ ``to``\ 之间的球面线性插值的结果，按\ ``weight``\ 的数量。``weight``\ 的范围是0.0到1.0，表示插值的数量。
 
-**注意：**两个向量都必须被归一化。
+**注意：**\ 两个向量都必须被归一化。
 
 ----
 
@@ -464,7 +464,7 @@ Returns the vector reflected (i.e. mirrored, or symmetric) over a line defined b
 
 - :ref:`Vector2<class_Vector2>` **snapped** **(** :ref:`Vector2<class_Vector2>` by **)**
 
-返回这个向量，每个分量都捕捉到``step``\ 的最近倍数。这也可以用来四舍五入到任意数量的小数。
+返回这个向量，每个分量都捕捉到\ ``step``\ 的最近倍数。这也可以用来四舍五入到任意数量的小数。
 
 ----
 

@@ -254,19 +254,19 @@ enum **BGMode**:
 
 It can only be safely used in fully-interior scenes (no visible sky or sky reflections). If enabled in a scene where the background is visible, "ghost trail" artifacts will be visible when moving the camera.
 
-- **BG_CLEAR_COLOR** = **0** --- 使用:ref:`ProjectSettings.rendering/environment/default_clear_color<class_ProjectSettings_property_rendering/environment/default_clear_color>`\ 中定义的底色清除背景。
+- **BG_CLEAR_COLOR** = **0** --- 使用\ :ref:`ProjectSettings.rendering/environment/default_clear_color<class_ProjectSettings_property_rendering/environment/default_clear_color>`\ 中定义的底色清除背景。
 
 - **BG_COLOR** = **1** --- 使用自定义的底色清除背景。
 
 - **BG_SKY** = **2** --- 在背景中显示用户自定义的天空。
 
-- **BG_COLOR_SKY** = **3** --- 使用自定义的透明颜色清除背景，并允许定义天空的阴影和反射。这种模式比:ref:`BG_SKY<class_Environment_constant_BG_SKY>`\ 稍快，应是在可以看到反射，但天空本身不可见的场景中的首选，例如，自上而下的相机。
+- **BG_COLOR_SKY** = **3** --- 使用自定义的透明颜色清除背景，并允许定义天空的阴影和反射。这种模式比\ :ref:`BG_SKY<class_Environment_constant_BG_SKY>`\ 稍快，应是在可以看到反射，但天空本身不可见的场景中的首选，例如，自上而下的相机。
 
-- **BG_CANVAS** = **4** --- 在背景中显示:ref:`CanvasLayer<class_CanvasLayer>`。
+- **BG_CANVAS** = **4** --- 在背景中显示\ :ref:`CanvasLayer<class_CanvasLayer>`。
 
 - **BG_CAMERA_FEED** = **6** --- 在背景中显示相机源。
 
-- **BG_MAX** = **7** --- 表示:ref:`BGMode<enum_Environment_BGMode>`\ 枚举的大小。
+- **BG_MAX** = **7** --- 表示\ :ref:`BGMode<enum_Environment_BGMode>`\ 枚举的大小。
 
 ----
 
@@ -419,7 +419,7 @@ Property Descriptions
 | *Getter*  | get_adjustment_contrast()      |
 +-----------+--------------------------------+
 
-渲染场景的全局对比度值（默认值为1）。只有当``adjust_enabled``\ 为``true``\ 时才有效。
+渲染场景的全局对比度值（默认值为1）。只有当\ ``adjust_enabled``\ 为\ ``true``\ 时才有效。
 
 ----
 
@@ -435,7 +435,7 @@ Property Descriptions
 | *Getter*  | is_adjustment_enabled()      |
 +-----------+------------------------------+
 
-如果 ``true``，则启用此资源提供的 ``adjusting_*`` 属性。如果``false``，对``adjustment_*``\ 属性的修改将不会对渲染的场景产生影响。
+如果 ``true``，则启用此资源提供的 ``adjusting_*`` 属性。如果\ ``false``，对\ ``adjustment_*``\ 属性的修改将不会对渲染的场景产生影响。
 
 ----
 
@@ -451,7 +451,7 @@ Property Descriptions
 | *Getter*  | get_adjustment_saturation()      |
 +-----------+----------------------------------+
 
-渲染场景的全局色彩饱和度值，默认值为1。只有在``adjustment_enabled``\ 为``true``\ 时才有效。
+渲染场景的全局色彩饱和度值，默认值为1。只有在\ ``adjustment_enabled``\ 为\ ``true``\ 时才有效。
 
 ----
 
@@ -517,7 +517,7 @@ Defines the amount of light that the sky brings on the scene. A value of ``0.0``
 | *Getter*  | get_tonemap_auto_exposure()      |
 +-----------+----------------------------------+
 
-如果``true``，启用场景渲染器的色调映射自动曝光模式。如果``true``，渲染器将自动确定曝光设置，以适应场景的照明和观察到的光线。
+如果\ ``true``，启用场景渲染器的色调映射自动曝光模式。如果\ ``true``，渲染器将自动确定曝光设置，以适应场景的照明和观察到的光线。
 
 ----
 
@@ -629,7 +629,7 @@ Defines the amount of light that the sky brings on the scene. A value of ``0.0``
 | *Getter*  | get_bg_color()          |
 +-----------+-------------------------+
 
-场景中清除区域显示的:ref:`Color<class_Color>`。仅在使用:ref:`BG_COLOR<class_Environment_constant_BG_COLOR>`\ 或:ref:`BG_COLOR_SKY<class_Environment_constant_BG_COLOR_SKY>`\ 背景模式时有效。
+场景中清除区域显示的\ :ref:`Color<class_Color>`。仅在使用\ :ref:`BG_COLOR<class_Environment_constant_BG_COLOR>`\ 或\ :ref:`BG_COLOR_SKY<class_Environment_constant_BG_COLOR_SKY>`\ 背景模式时有效。
 
 ----
 
@@ -661,7 +661,7 @@ Defines the amount of light that the sky brings on the scene. A value of ``0.0``
 | *Getter*  | get_background()      |
 +-----------+-----------------------+
 
-背景模式。请参阅:ref:`BGMode<enum_Environment_BGMode>`\ 了解可能的值。
+背景模式。请参阅\ :ref:`BGMode<enum_Environment_BGMode>`\ 了解可能的值。
 
 ----
 
@@ -707,7 +707,7 @@ Defines the amount of light that the sky brings on the scene. A value of ``0.0``
 | *Getter*  | get_sky_orientation()                  |
 +-----------+----------------------------------------+
 
-以:ref:`Basis<class_Basis>`\ 表示的:ref:`Sky<class_Sky>`\ 天空资源的旋转。
+以\ :ref:`Basis<class_Basis>`\ 表示的\ :ref:`Sky<class_Sky>`\ 天空资源的旋转。
 
 ----
 
@@ -787,7 +787,7 @@ Defines the amount of light that the sky brings on the scene. A value of ``0.0``
 | *Getter*  | is_dof_blur_far_enabled()       |
 +-----------+---------------------------------+
 
-如果``true``，启用景深远景模糊效果。
+如果\ ``true``，启用景深远景模糊效果。
 
 ----
 
@@ -867,7 +867,7 @@ Defines the amount of light that the sky brings on the scene. A value of ``0.0``
 | *Getter*  | is_dof_blur_near_enabled()       |
 +-----------+----------------------------------+
 
-如果``true``，启用景深近模糊效果。
+如果\ ``true``，启用景深近模糊效果。
 
 ----
 
@@ -915,7 +915,7 @@ Defines the amount of light that the sky brings on the scene. A value of ``0.0``
 | *Getter*  | get_fog_color()               |
 +-----------+-------------------------------+
 
-雾的:ref:`Color<class_Color>`。
+雾的\ :ref:`Color<class_Color>`。
 
 ----
 
@@ -947,7 +947,7 @@ Defines the amount of light that the sky brings on the scene. A value of ``0.0``
 | *Getter*  | get_fog_depth_curve()      |
 +-----------+----------------------------+
 
-雾深的强度曲线。在**检查器**中，通过右键点击曲线，可以获得一些预设。
+雾深的强度曲线。在\ **检查器**\ 中，通过右键点击曲线，可以获得一些预设。
 
 ----
 
@@ -963,7 +963,7 @@ Defines the amount of light that the sky brings on the scene. A value of ``0.0``
 | *Getter*  | is_fog_depth_enabled()       |
 +-----------+------------------------------+
 
-如果为``true``，则启用深度雾效果。启用后，雾将出现在远处（相对于相机）。
+如果为\ ``true``，则启用深度雾效果。启用后，雾将出现在远处（相对于相机）。
 
 ----
 
@@ -979,7 +979,7 @@ Defines the amount of light that the sky brings on the scene. A value of ``0.0``
 | *Getter*  | get_fog_depth_end()      |
 +-----------+--------------------------+
 
-雾的深度终点与摄像机的距离。如果此值被设置为0，则等于当前摄像机的:ref:`Camera.far<class_Camera_property_far>`\ 值。
+雾的深度终点与摄像机的距离。如果此值被设置为0，则等于当前摄像机的\ :ref:`Camera.far<class_Camera_property_far>`\ 值。
 
 ----
 
@@ -995,7 +995,7 @@ Defines the amount of light that the sky brings on the scene. A value of ``0.0``
 | *Getter*  | is_fog_enabled()       |
 +-----------+------------------------+
 
-如果``true``，则启用雾化效果。必须将:ref:`fog_height_enabled<class_Environment_property_fog_height_enabled>`\ 和/或:ref:`fog_depth_enabled<class_Environment_property_fog_depth_enabled>`\ 设置为``true``，才能实际显示雾气。
+如果\ ``true``，则启用雾化效果。必须将\ :ref:`fog_height_enabled<class_Environment_property_fog_height_enabled>`\ 和/或\ :ref:`fog_depth_enabled<class_Environment_property_fog_depth_enabled>`\ 设置为\ ``true``，才能实际显示雾气。
 
 ----
 
@@ -1011,7 +1011,7 @@ Defines the amount of light that the sky brings on the scene. A value of ``0.0``
 | *Getter*  | get_fog_height_curve()      |
 +-----------+-----------------------------+
 
-高度雾的强度。在**检查器**中，通过右键点击曲线。
+高度雾的强度。在\ **检查器**\ 中，通过右键点击曲线。
 
 ----
 
@@ -1027,7 +1027,7 @@ Defines the amount of light that the sky brings on the scene. A value of ``0.0``
 | *Getter*  | is_fog_height_enabled()       |
 +-----------+-------------------------------+
 
-如果为``true``，则启用高度雾化效果。启用后，无论与相机的距离有多远，雾气都会出现在规定的高度范围内。这可以用来模拟 "深水 "效果，与专用着色器相比，性能成本更低。
+如果为\ ``true``，则启用高度雾化效果。启用后，无论与相机的距离有多远，雾气都会出现在规定的高度范围内。这可以用来模拟 "深水 "效果，与专用着色器相比，性能成本更低。
 
 ----
 
@@ -1043,7 +1043,7 @@ Defines the amount of light that the sky brings on the scene. A value of ``0.0``
 | *Getter*  | get_fog_height_max()      |
 +-----------+---------------------------+
 
-雾气高度最强的Y坐标。如果这个值大于:ref:`fog_height_min<class_Environment_property_fog_height_min>`，雾气将从下往上显示。否则，将从上到下显示。
+雾气高度最强的Y坐标。如果这个值大于\ :ref:`fog_height_min<class_Environment_property_fog_height_min>`，雾气将从下往上显示。否则，将从上到下显示。
 
 ----
 
@@ -1059,7 +1059,7 @@ Defines the amount of light that the sky brings on the scene. A value of ``0.0``
 | *Getter*  | get_fog_height_min()      |
 +-----------+---------------------------+
 
-雾气高度最弱的Y坐标。如果这个值大于:ref:`fog_height_max<class_Environment_property_fog_height_max>`，雾气将从上到下显示。否则，将从下往上显示。
+雾气高度最弱的Y坐标。如果这个值大于\ :ref:`fog_height_max<class_Environment_property_fog_height_max>`，雾气将从上到下显示。否则，将从下往上显示。
 
 ----
 
@@ -1091,7 +1091,7 @@ Defines the amount of light that the sky brings on the scene. A value of ``0.0``
 | *Getter*  | get_fog_sun_color()         |
 +-----------+-----------------------------+
 
-朝太阳看时，深雾的:ref:`Color<class_Color>`。
+朝太阳看时，深雾的\ :ref:`Color<class_Color>`。
 
 ----
 
@@ -1123,7 +1123,7 @@ Defines the amount of light that the sky brings on the scene. A value of ``0.0``
 | *Getter*  | is_fog_transmit_enabled()       |
 +-----------+---------------------------------+
 
-启用雾的透光效果。如果``true``，光线在雾中会更加明显，以模拟现实生活中的光散射。
+启用雾的透光效果。如果\ ``true``，光线在雾中会更加明显，以模拟现实生活中的光散射。
 
 ----
 
@@ -1173,7 +1173,7 @@ Defines the amount of light that the sky brings on the scene. A value of ``0.0``
 | *Getter*  | get_glow_bloom()      |
 +-----------+-----------------------+
 
-bloom的强度。如果设置为大于``0``\ 的值，则将在比:ref:`glow_hdr_threshold<class_Environment_property_glow_hdr_threshold>`\ 成员更暗的区域中显示辉光。 bloom:有时被称为光晕或辉光，是一种用于视频游戏、演示和高动态范围渲染(HDRR)的计算机图形效果，用于再现真实世界相机的成像工件。
+bloom的强度。如果设置为大于\ ``0``\ 的值，则将在比\ :ref:`glow_hdr_threshold<class_Environment_property_glow_hdr_threshold>`\ 成员更暗的区域中显示辉光。 bloom:有时被称为光晕或辉光，是一种用于视频游戏、演示和高动态范围渲染(HDRR)的计算机图形效果，用于再现真实世界相机的成像工件。
 
 ----
 
@@ -1241,7 +1241,7 @@ HDR glow的裁切规模。
 | *Getter*  | get_glow_hdr_bleed_threshold()      |
 +-----------+-------------------------------------+
 
-HDR glow的下限。当使用GLES2渲染器（不支持HDR）时，需要低于``1.0``\ 才能看到glow。在这种情况下，值``0.9``\ 的效果很好。
+HDR glow的下限。当使用GLES2渲染器（不支持HDR）时，需要低于\ ``1.0``\ 才能看到glow。在这种情况下，值\ ``0.9``\ 的效果很好。
 
 ----
 
@@ -1289,7 +1289,7 @@ HDR glow的下限。当使用GLES2渲染器（不支持HDR）时，需要低于`
 | *Getter*  | is_glow_level_enabled() |
 +-----------+-------------------------+
 
-如果为``true``，则启用第1级glow。这是最 "局部 "的级别（最不模糊）。
+如果为\ ``true``，则启用第1级glow。这是最 "局部 "的级别（最不模糊）。
 
 ----
 
@@ -1305,7 +1305,7 @@ HDR glow的下限。当使用GLES2渲染器（不支持HDR）时，需要低于`
 | *Getter*  | is_glow_level_enabled() |
 +-----------+-------------------------+
 
-如果为``true``，则启用第2级glow。
+如果为\ ``true``，则启用第2级glow。
 
 ----
 
@@ -1321,7 +1321,7 @@ HDR glow的下限。当使用GLES2渲染器（不支持HDR）时，需要低于`
 | *Getter*  | is_glow_level_enabled() |
 +-----------+-------------------------+
 
-如果``true``，则启用第3几glow。
+如果\ ``true``，则启用第3几glow。
 
 ----
 
@@ -1337,7 +1337,7 @@ HDR glow的下限。当使用GLES2渲染器（不支持HDR）时，需要低于`
 | *Getter*  | is_glow_level_enabled() |
 +-----------+-------------------------+
 
-如果``true``，则启用第四级glow。
+如果\ ``true``，则启用第四级glow。
 
 ----
 
@@ -1353,7 +1353,7 @@ HDR glow的下限。当使用GLES2渲染器（不支持HDR）时，需要低于`
 | *Getter*  | is_glow_level_enabled() |
 +-----------+-------------------------+
 
-如果``true``，则启用第五级glow。
+如果\ ``true``，则启用第五级glow。
 
 ----
 
@@ -1369,7 +1369,7 @@ HDR glow的下限。当使用GLES2渲染器（不支持HDR）时，需要低于`
 | *Getter*  | is_glow_level_enabled() |
 +-----------+-------------------------+
 
-如果``true``，则启用第六级glow。
+如果\ ``true``，则启用第六级glow。
 
 ----
 
@@ -1385,7 +1385,7 @@ HDR glow的下限。当使用GLES2渲染器（不支持HDR）时，需要低于`
 | *Getter*  | is_glow_level_enabled() |
 +-----------+-------------------------+
 
-如果``true``，则启用第七级glow。这是最 "全局 "的级别（最模糊）。
+如果\ ``true``，则启用第七级glow。这是最 "全局 "的级别（最模糊）。
 
 ----
 
@@ -1433,7 +1433,7 @@ HDR glow的下限。当使用GLES2渲染器（不支持HDR）时，需要低于`
 | *Getter*  | is_ssr_enabled()       |
 +-----------+------------------------+
 
-如果``true``，启用屏幕空间反射。屏幕空间反射比:ref:`GIProbe<class_GIProbe>`\ 或:ref:`ReflectionProbe<class_ReflectionProbe>`\ 的反射更精确，但速度较慢，而且不能反射被其他物体遮挡的表面。
+如果\ ``true``，启用屏幕空间反射。屏幕空间反射比\ :ref:`GIProbe<class_GIProbe>`\ 或\ :ref:`ReflectionProbe<class_ReflectionProbe>`\ 的反射更精确，但速度较慢，而且不能反射被其他物体遮挡的表面。
 
 ----
 
@@ -1513,7 +1513,7 @@ HDR glow的下限。当使用GLES2渲染器（不支持HDR）时，需要低于`
 | *Getter*  | get_ssao_ao_channel_affect()      |
 +-----------+-----------------------------------+
 
-定义了AO纹理的材质的屏幕空间环境遮挡强度。高于``0``\ 的值将使SSAO效果在AO纹理变暗的区域可见。
+定义了AO纹理的材质的屏幕空间环境遮挡强度。高于\ ``0``\ 的值将使SSAO效果在AO纹理变暗的区域可见。
 
 ----
 
@@ -1545,7 +1545,7 @@ HDR glow的下限。当使用GLES2渲染器（不支持HDR）时，需要低于`
 | *Getter*  | get_ssao_blur()      |
 +-----------+----------------------+
 
-屏幕空间环境遮挡质量。可能的值请参阅:ref:`SSAOBlur<enum_Environment_SSAOBlur>`。
+屏幕空间环境遮挡质量。可能的值请参阅\ :ref:`SSAOBlur<enum_Environment_SSAOBlur>`。
 
 ----
 
@@ -1593,7 +1593,7 @@ HDR glow的下限。当使用GLES2渲染器（不支持HDR）时，需要低于`
 | *Getter*  | is_ssao_enabled()       |
 +-----------+-------------------------+
 
-如果``true``，启用屏幕空间环境遮挡效果。这将使物体的角落和空洞变暗，以模拟现实生活中环境光无法到达整个物体。这对于小型的动态物体来说效果很好，但在大型静态物体上，烘焙的照明或环境遮挡纹理会更好地显示环境遮挡。这是一个昂贵的效果，当遇到性能问题时，应该首先禁用。
+如果\ ``true``，启用屏幕空间环境遮挡效果。这将使物体的角落和空洞变暗，以模拟现实生活中环境光无法到达整个物体。这对于小型的动态物体来说效果很好，但在大型静态物体上，烘焙的照明或环境遮挡纹理会更好地显示环境遮挡。这是一个昂贵的效果，当遇到性能问题时，应该首先禁用。
 
 ----
 
@@ -1609,7 +1609,7 @@ HDR glow的下限。当使用GLES2渲染器（不支持HDR）时，需要低于`
 | *Getter*  | get_ssao_intensity()      |
 +-----------+---------------------------+
 
-主要的屏幕空间环境遮挡强度。参阅:ref:`ssao_radius<class_Environment_property_ssao_radius>`。
+主要的屏幕空间环境遮挡强度。参阅\ :ref:`ssao_radius<class_Environment_property_ssao_radius>`。
 
 ----
 
@@ -1641,7 +1641,7 @@ HDR glow的下限。当使用GLES2渲染器（不支持HDR）时，需要低于`
 | *Getter*  | get_ssao_direct_light_affect()      |
 +-----------+-------------------------------------+
 
-直射光下的屏幕空间环境遮挡强度。在现实生活中，环境遮挡只适用于间接光，也就是说在直射光下无法看到其效果。高于``0``\ 的数值将使SSAO效果在直射光下可见。
+直射光下的屏幕空间环境遮挡强度。在现实生活中，环境遮挡只适用于间接光，也就是说在直射光下无法看到其效果。高于\ ``0``\ 的数值将使SSAO效果在直射光下可见。
 
 ----
 
@@ -1689,7 +1689,7 @@ HDR glow的下限。当使用GLES2渲染器（不支持HDR）时，需要低于`
 | *Getter*  | get_ssao_radius2()      |
 +-----------+-------------------------+
 
-次要屏幕空间环境遮蔽半径。如果设置为高于``0``\ 的值，则启用次要屏幕空间的环境遮蔽效果，可以用来改善效果表现，但以性能为代价。
+次要屏幕空间环境遮蔽半径。如果设置为高于\ ``0``\ 的值，则启用次要屏幕空间的环境遮蔽效果，可以用来改善效果表现，但以性能为代价。
 
 ----
 
@@ -1737,7 +1737,7 @@ The tonemapping mode to use. Tonemapping is the process that "converts" HDR valu
 | *Getter*  | get_tonemap_white()      |
 +-----------+--------------------------+
 
-调色映射的白色参考值。只有当:ref:`tonemap_mode<class_Environment_property_tonemap_mode>`\ 没有设置为:ref:`TONE_MAPPER_LINEAR<class_Environment_constant_TONE_MAPPER_LINEAR>`\ 时才有效。
+调色映射的白色参考值。只有当\ :ref:`tonemap_mode<class_Environment_property_tonemap_mode>`\ 没有设置为\ :ref:`TONE_MAPPER_LINEAR<class_Environment_constant_TONE_MAPPER_LINEAR>`\ 时才有效。
 
 Method Descriptions
 -------------------

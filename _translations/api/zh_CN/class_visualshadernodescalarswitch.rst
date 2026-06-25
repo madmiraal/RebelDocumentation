@@ -16,7 +16,7 @@ VisualShaderNodeScalarSwitch
 Description
 -----------
 
-如果提供的布尔值是``true``\ 或``false``，则返回相关标量。
+如果提供的布尔值是\ ``true``\ 或\ ``false``，则返回相关标量。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

@@ -16,7 +16,7 @@ VisualShaderNodeBooleanUniform
 Description
 -----------
 
-在着色器语言中被转换成``uniform bool``。
+在着色器语言中被转换成\ ``uniform bool``。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

@@ -149,9 +149,9 @@ Signals
 
 发出该消息以表明引用空间已被重置或重新配置。
 
-何时或是否发出取决于用户的浏览器或设备，但可能包括当用户改变了他们的游戏空间的尺寸，你可以通过:ref:`bounds_geometry<class_WebXRInterface_property_bounds_geometry>`\ 访问，或按下/按住一个按钮来重新定位他们的位置。
+何时或是否发出取决于用户的浏览器或设备，但可能包括当用户改变了他们的游戏空间的尺寸，你可以通过\ :ref:`bounds_geometry<class_WebXRInterface_property_bounds_geometry>`\ 访问，或按下/按住一个按钮来重新定位他们的位置。
 
-参阅`WebXR的XRReferenceSpace重置事件 <https://developer.mozilla.org/en-US/docs/Web/API/XRReferenceSpace/reset_event>`__。
+参阅\ `WebXR的XRReferenceSpace重置事件 <https://developer.mozilla.org/en-US/docs/Web/API/XRReferenceSpace/reset_event>`__。
 
 ----
 
@@ -199,7 +199,7 @@ At this point, you should do ``get_viewport().arvr = false`` to instruct Rebel E
 
 - **session_failed** **(** :ref:`String<class_String>` message **)**
 
-如果会话启动失败，由:ref:`ARVRInterface.initialize<class_ARVRInterface_method_initialize>`\ 触发。
+如果会话启动失败，由\ :ref:`ARVRInterface.initialize<class_ARVRInterface_method_initialize>`\ 触发。
 
 ``message``\ 可以选择包含一个来自WebXR的错误信息，如果没有信息，则为空字符串。
 
@@ -219,7 +219,7 @@ At this point, it's safe to do ``get_viewport().arvr = true`` to instruct Rebel 
 
 - **session_supported** **(** :ref:`String<class_String>` session_mode, :ref:`bool<class_bool>` supported **)**
 
-由:ref:`is_session_supported<class_WebXRInterface_method_is_session_supported>`\ 触发，表示是否支持指定的``session_mode``。
+由\ :ref:`is_session_supported<class_WebXRInterface_method_is_session_supported>`\ 触发，表示是否支持指定的\ ``session_mode``。
 
 ----
 
@@ -257,7 +257,7 @@ At this point, it's safe to do ``get_viewport().arvr = true`` to instruct Rebel 
 
 - **visibility_state_changed** **(** **)**
 
-当:ref:`visibility_state<class_WebXRInterface_property_visibility_state>`\ 已更改时触发。
+当\ :ref:`visibility_state<class_WebXRInterface_property_visibility_state>`\ 已更改时触发。
 
 Property Descriptions
 ---------------------

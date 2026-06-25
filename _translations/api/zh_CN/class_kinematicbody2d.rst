@@ -18,9 +18,9 @@ Description
 
 运动体是特殊类型的物体，旨在让用户控制。它们完全不受物理影响；对于其他类型的物体，如角色或刚体，它们与静态体一样。然而，它们有两个主要用途:
 
-**模拟运动：**当这些物体被手动移动时，无论是从代码还是从:ref:`AnimationPlayer<class_AnimationPlayer>`，将:ref:`AnimationPlayer.playback_process_mode<class_AnimationPlayer_property_playback_process_mode>`\ 设置为 "physics"，物理将自动计算其线性和角速度的估值。这使得它们对于移动平台或其他AnimationPlayer控制的物体非常有用，比如一扇门、一座能打开的桥等。
+**模拟运动：**\ 当这些物体被手动移动时，无论是从代码还是从\ :ref:`AnimationPlayer<class_AnimationPlayer>`，将\ :ref:`AnimationPlayer.playback_process_mode<class_AnimationPlayer_property_playback_process_mode>`\ 设置为 "physics"，物理将自动计算其线性和角速度的估值。这使得它们对于移动平台或其他AnimationPlayer控制的物体非常有用，比如一扇门、一座能打开的桥等。
 
-**运动型角色：** KinematicBody2D也有一个API用于移动物体（:ref:`move_and_collide<class_KinematicBody2D_method_move_and_collide>`\ 和:ref:`move_and_slide<class_KinematicBody2D_method_move_and_slide>`\ 方法），同时进行碰撞测试。这使得它们在实现对世界进行碰撞，但不需要高级物理的角色时非常有用。
+**运动型角色：** KinematicBody2D也有一个API用于移动物体（:ref:`move_and_collide<class_KinematicBody2D_method_move_and_collide>`\ 和\ :ref:`move_and_slide<class_KinematicBody2D_method_move_and_slide>`\ 方法），同时进行碰撞测试。这使得它们在实现对世界进行碰撞，但不需要高级物理的角色时非常有用。
 
 Tutorials
 ---------
@@ -84,7 +84,7 @@ Property Descriptions
 | *Getter*  | get_safe_margin()      |
 +-----------+------------------------+
 
-在运动函数中用于碰撞恢复的额外边距，参阅:ref:`move_and_collide<class_KinematicBody2D_method_move_and_collide>`, :ref:`move_and_slide<class_KinematicBody2D_method_move_and_slide>`, :ref:`move_and_slide_with_snap<class_KinematicBody2D_method_move_and_slide_with_snap>`。
+在运动函数中用于碰撞恢复的额外边距，参阅\ :ref:`move_and_collide<class_KinematicBody2D_method_move_and_collide>`, :ref:`move_and_slide<class_KinematicBody2D_method_move_and_slide>`, :ref:`move_and_slide_with_snap<class_KinematicBody2D_method_move_and_slide_with_snap>`。
 
 如果物体离另一个物体至少这么近，它就会认为它们正在发生碰撞，并在执行实际运动之前被推开。
 
@@ -106,7 +106,7 @@ Property Descriptions
 | *Getter*  | is_sync_to_physics_enabled() |
 +-----------+------------------------------+
 
-如果为``true``，则物体的运动将与物理帧同步。当通过:ref:`AnimationPlayer<class_AnimationPlayer>`\ 为运动设置动画时，例如在移动平台上，这个功能很有用。请**不要**与 :ref:`move_and_slide<class_KinematicBody2D_method_move_and_slide>` 或 :ref:`move_and_collide<class_KinematicBody2D_method_move_and_collide>` 函数一起使用。
+如果为\ ``true``，则物体的运动将与物理帧同步。当通过\ :ref:`AnimationPlayer<class_AnimationPlayer>`\ 为运动设置动画时，例如在移动平台上，这个功能很有用。请\ **不要**\ 与 :ref:`move_and_slide<class_KinematicBody2D_method_move_and_slide>` 或 :ref:`move_and_collide<class_KinematicBody2D_method_move_and_collide>` 函数一起使用。
 
 Method Descriptions
 -------------------
@@ -115,7 +115,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **get_floor_angle** **(** :ref:`Vector2<class_Vector2>` up_direction=Vector2( 0, -1 ) **)** |const|
 
-根据``up_direction``\ 返回最后一个碰撞点的地板碰撞角度，默认为``Vector2.UP``。此值始终为正值，并且仅在调用 :ref:`move_and_slide<class_KinematicBody2D_method_move_and_slide>` 后且当 :ref:`is_on_floor<class_KinematicBody2D_method_is_on_floor>` 返回 ``true`` 时有效。
+根据\ ``up_direction``\ 返回最后一个碰撞点的地板碰撞角度，默认为\ ``Vector2.UP``。此值始终为正值，并且仅在调用 :ref:`move_and_slide<class_KinematicBody2D_method_move_and_slide>` 后且当 :ref:`is_on_floor<class_KinematicBody2D_method_is_on_floor>` 返回 ``true`` 时有效。
 
 ----
 
@@ -123,7 +123,7 @@ Method Descriptions
 
 - :ref:`Vector2<class_Vector2>` **get_floor_normal** **(** **)** |const|
 
-返回最后一个碰撞点的地板的表面法线。只有在调用:ref:`move_and_slide<class_KinematicBody2D_method_move_and_slide>`\ 或:ref:`move_and_slide_with_snap<class_KinematicBody2D_method_move_and_slide_with_snap>`\ 后，以及:ref:`is_on_floor<class_KinematicBody2D_method_is_on_floor>`\ 返回``true``\ 时才有效。
+返回最后一个碰撞点的地板的表面法线。只有在调用\ :ref:`move_and_slide<class_KinematicBody2D_method_move_and_slide>`\ 或\ :ref:`move_and_slide_with_snap<class_KinematicBody2D_method_move_and_slide_with_snap>`\ 后，以及\ :ref:`is_on_floor<class_KinematicBody2D_method_is_on_floor>`\ 返回\ ``true``\ 时才有效。
 
 ----
 
@@ -139,7 +139,7 @@ Method Descriptions
 
 - :ref:`KinematicCollision2D<class_KinematicCollision2D>` **get_last_slide_collision** **(** **)**
 
-返回:ref:`KinematicCollision2D<class_KinematicCollision2D>`，它包含在最后一次调用:ref:`move_and_slide<class_KinematicBody2D_method_move_and_slide>`\ 时发生的最新碰撞信息。
+返回\ :ref:`KinematicCollision2D<class_KinematicCollision2D>`，它包含在最后一次调用\ :ref:`move_and_slide<class_KinematicBody2D_method_move_and_slide>`\ 时发生的最新碰撞信息。
 
 ----
 
@@ -205,23 +205,23 @@ Method Descriptions
 
 - :ref:`Vector2<class_Vector2>` **move_and_slide** **(** :ref:`Vector2<class_Vector2>` linear_velocity, :ref:`Vector2<class_Vector2>` up_direction=Vector2( 0, 0 ), :ref:`bool<class_bool>` stop_on_slope=false, :ref:`int<class_int>` max_slides=4, :ref:`float<class_float>` floor_max_angle=0.785398, :ref:`bool<class_bool>` infinite_inertia=true **)**
 
-沿着向量移动物体。如果这个物体与另一个物体相撞，它将沿着另一个物体滑动，而不是立即停止。如果另一个物体是``KinematicBody2D``\ 或:ref:`RigidBody2D<class_RigidBody2D>`，它也会被另一个物体的运动所影响。你可以用它来制作移动和旋转的平台，或者让节点推动其他节点。
+沿着向量移动物体。如果这个物体与另一个物体相撞，它将沿着另一个物体滑动，而不是立即停止。如果另一个物体是\ ``KinematicBody2D``\ 或\ :ref:`RigidBody2D<class_RigidBody2D>`，它也会被另一个物体的运动所影响。你可以用它来制作移动和旋转的平台，或者让节点推动其他节点。
 
-这个方法应该在:ref:`Node._physics_process<class_Node_method__physics_process>`\ 中使用，或者在被:ref:`Node._physics_process<class_Node_method__physics_process>`\ 调用的方法中使用，因为它在计算时自动使用物理步骤的``delta``\ 值。否则，模拟将以不正确的速度运行。
+这个方法应该在\ :ref:`Node._physics_process<class_Node_method__physics_process>`\ 中使用，或者在被\ :ref:`Node._physics_process<class_Node_method__physics_process>`\ 调用的方法中使用，因为它在计算时自动使用物理步骤的\ ``delta``\ 值。否则，模拟将以不正确的速度运行。
 
-``linear_velocity``\ 是速度向量，单位是像素每秒。与:ref:`move_and_collide<class_KinematicBody2D_method_move_and_collide>`\ 不同的是，你*不应该*将它乘以``delta``--物理引擎会处理应用速度。
+``linear_velocity``\ 是速度向量，单位是像素每秒。与\ :ref:`move_and_collide<class_KinematicBody2D_method_move_and_collide>`\ 不同的是，你\ *不应该*\ 将它乘以\ ``delta``--物理引擎会处理应用速度。
 
-``up_direction`` 是向上的方向，用来确定什么是墙，什么是地板或天花板。如果设置为默认值``Vector2(0, 0)``，一切都被认为是墙。这对于自上而下的游戏很有用。
+``up_direction`` 是向上的方向，用来确定什么是墙，什么是地板或天花板。如果设置为默认值\ ``Vector2(0, 0)``，一切都被认为是墙。这对于自上而下的游戏很有用。
 
-如果``stop_on_slope``\ 是``true``，当你在``linear_velocity``\ 中包含重力并且物体静止时，物体就不会在斜坡上滑动。
+如果\ ``stop_on_slope``\ 是\ ``true``，当你在\ ``linear_velocity``\ 中包含重力并且物体静止时，物体就不会在斜坡上滑动。
 
-如果物体发生碰撞，它最多会改变方向``max_slides``\ 次才会停止。
+如果物体发生碰撞，它最多会改变方向\ ``max_slides``\ 次才会停止。
 
 ``floor_max_angle``\ 是一个最大的角度（弧度），在这个角度下，一个斜坡仍然被认为是地板或天花板，而不是墙。默认值等于45度。
 
-如果``infinite_inertia``\ 是``true``，物体将能够推动:ref:`RigidBody2D<class_RigidBody2D>`\ 节点，但它也不会检测到任何与它们的碰撞。如果``false``，它将与:ref:`RigidBody2D<class_RigidBody2D>`\ 节点像:ref:`StaticBody2D<class_StaticBody2D>`\ 一样交互。
+如果\ ``infinite_inertia``\ 是\ ``true``，物体将能够推动\ :ref:`RigidBody2D<class_RigidBody2D>`\ 节点，但它也不会检测到任何与它们的碰撞。如果\ ``false``，它将与\ :ref:`RigidBody2D<class_RigidBody2D>`\ 节点像\ :ref:`StaticBody2D<class_StaticBody2D>`\ 一样交互。
 
-返回``linear_velocity``\ 向量，如果发生滑动碰撞，则旋转和/或缩放。要获得发生碰撞的详细信息，请使用:ref:`get_slide_collision<class_KinematicBody2D_method_get_slide_collision>`。
+返回\ ``linear_velocity``\ 向量，如果发生滑动碰撞，则旋转和/或缩放。要获得发生碰撞的详细信息，请使用\ :ref:`get_slide_collision<class_KinematicBody2D_method_get_slide_collision>`。
 
 当物体接触到一个移动的平台时，平台的速度会自动加入到物体的运动中。如果由于平台的运动而发生碰撞，它将始终是滑动碰撞中的第一个。
 
@@ -233,7 +233,7 @@ Method Descriptions
 
 移动物体，同时使其保持附着在斜坡上。类似于 :ref:`move_and_slide<class_KinematicBody2D_method_move_and_slide>`。
 
-只要``snap``\ 向量与地面接触，物体就会保持附着在表面上。例如，这意味着您必须禁用吸附才能跳转。您可以通过将``snap``\ 设置为``(0,0)``\ 或使用 :ref:`move_and_slide<class_KinematicBody2D_method_move_and_slide>`\ 来做到这一点。
+只要\ ``snap``\ 向量与地面接触，物体就会保持附着在表面上。例如，这意味着您必须禁用吸附才能跳转。您可以通过将\ ``snap``\ 设置为\ ``(0,0)``\ 或使用 :ref:`move_and_slide<class_KinematicBody2D_method_move_and_slide>`\ 来做到这一点。
 
 ----
 
