@@ -16,7 +16,7 @@ Curve2D
 Description
 -----------
 
-该类描述了二维空间中的贝兹尔曲线。它主要用于给:ref:`Path2D<class_Path2D>`\ 一个形状，但也可以手动采样用于其他目的。
+该类描述了二维空间中的贝兹尔曲线。它主要用于给\ :ref:`Path2D<class_Path2D>`\ 一个形状，但也可以手动采样用于其他目的。
 
 它保留了沿曲线的预计算点的缓存，以加快进一步的计算。
 
@@ -83,7 +83,7 @@ Property Descriptions
 | *Getter*  | get_bake_interval()      |
 +-----------+--------------------------+
 
-相邻两个缓存点之间的距离，以像素为单位。改变它将迫使缓存在下次调用:ref:`get_baked_points<class_Curve2D_method_get_baked_points>`\ 或:ref:`get_baked_length<class_Curve2D_method_get_baked_length>`\ 函数时重新计算。距离越小，缓存中的点越多，占用的内存也越多，所以使用时要注意。
+相邻两个缓存点之间的距离，以像素为单位。改变它将迫使缓存在下次调用\ :ref:`get_baked_points<class_Curve2D_method_get_baked_points>`\ 或\ :ref:`get_baked_length<class_Curve2D_method_get_baked_length>`\ 函数时重新计算。距离越小，缓存中的点越多，占用的内存也越多，所以使用时要注意。
 
 Method Descriptions
 -------------------
@@ -110,7 +110,7 @@ If ``at_position`` is given, the point is inserted before the point number ``at_
 
 - :ref:`float<class_float>` **get_baked_length** **(** **)** |const|
 
-根据缓存的点，返回曲线的总长度。给予足够的密度(参阅:ref:`bake_interval<class_Curve2D_property_bake_interval>`)，它应该是足够近似的。
+根据缓存的点，返回曲线的总长度。给予足够的密度(参阅\ :ref:`bake_interval<class_Curve2D_property_bake_interval>`)，它应该是足够近似的。
 
 ----
 
@@ -118,7 +118,7 @@ If ``at_position`` is given, the point is inserted before the point number ``at_
 
 - :ref:`PoolVector2Array<class_PoolVector2Array>` **get_baked_points** **(** **)** |const|
 
-以:ref:`PoolVector2Array<class_PoolVector2Array>`\ 的形式返回缓存的点。
+以\ :ref:`PoolVector2Array<class_PoolVector2Array>`\ 的形式返回缓存的点。
 
 ----
 
@@ -154,7 +154,7 @@ If ``at_position`` is given, the point is inserted before the point number ``at_
 
 - :ref:`Vector2<class_Vector2>` **get_point_in** **(** :ref:`int<class_int>` idx **)** |const|
 
-返回指向顶点``idx``\ 的控制点位置。返回的位置是相对于顶点``idx``\ 的。如果索引超出了范围，函数会向控制台发送一条错误，并返回``(0, 0)``。
+返回指向顶点\ ``idx``\ 的控制点位置。返回的位置是相对于顶点\ ``idx``\ 的。如果索引超出了范围，函数会向控制台发送一条错误，并返回\ ``(0, 0)``。
 
 ----
 
@@ -162,7 +162,7 @@ If ``at_position`` is given, the point is inserted before the point number ``at_
 
 - :ref:`Vector2<class_Vector2>` **get_point_out** **(** :ref:`int<class_int>` idx **)** |const|
 
-返回从顶点``idx``\ 引出的控制点位置。返回的位置是相对于顶点 ``idx``。如果索引越界，函数会向控制台发送错误，并返回 ``(0, 0)``。
+返回从顶点\ ``idx``\ 引出的控制点位置。返回的位置是相对于顶点 ``idx``。如果索引越界，函数会向控制台发送错误，并返回 ``(0, 0)``。
 
 ----
 
@@ -170,7 +170,7 @@ If ``at_position`` is given, the point is inserted before the point number ``at_
 
 - :ref:`Vector2<class_Vector2>` **get_point_position** **(** :ref:`int<class_int>` idx **)** |const|
 
-返回顶点的位置``idx``。如果索引超出边界，函数会向控制台发送一个错误信息，并返回``(0，0)``。
+返回顶点的位置\ ``idx``。如果索引超出边界，函数会向控制台发送一个错误信息，并返回\ ``(0，0)``。
 
 ----
 
@@ -178,9 +178,9 @@ If ``at_position`` is given, the point is inserted before the point number ``at_
 
 - :ref:`Vector2<class_Vector2>` **interpolate** **(** :ref:`int<class_int>` idx, :ref:`float<class_float>` t **)** |const|
 
-返回顶点 ``idx`` 和顶点 ``idx + 1`` 之间的位置，其中 ``t`` 控制该点是第一个顶点 (``t = 0.0``)、最后一个顶点 (``t = 1.0``)，还是介于两者之间。范围外的``t``\ 的值(``0.0 >= t <=1``)会产生奇怪但可预测的结果。
+返回顶点 ``idx`` 和顶点 ``idx + 1`` 之间的位置，其中 ``t`` 控制该点是第一个顶点 (``t = 0.0``)、最后一个顶点 (``t = 1.0``)，还是介于两者之间。范围外的\ ``t``\ 的值(``0.0 >= t <=1``)会产生奇怪但可预测的结果。
 
-如果``idx``\ 超出边界，则截断到第一个或最后一个顶点，而``t``\ 则被忽略。如果曲线没有点，函数会向控制台发送一个错误，并返回 ``(0，0)``。
+如果\ ``idx``\ 超出边界，则截断到第一个或最后一个顶点，而\ ``t``\ 则被忽略。如果曲线没有点，函数会向控制台发送一个错误，并返回 ``(0，0)``。
 
 ----
 
@@ -224,7 +224,7 @@ If ``at_position`` is given, the point is inserted before the point number ``at_
 
 - void **set_point_out** **(** :ref:`int<class_int>` idx, :ref:`Vector2<class_Vector2>` position **)**
 
-设置从顶点``idx``\ 引出的控制点位置。如果索引超出范围，该函数会向控制台发送错误。位置是相对于顶点的。
+设置从顶点\ ``idx``\ 引出的控制点位置。如果索引超出范围，该函数会向控制台发送错误。位置是相对于顶点的。
 
 ----
 
@@ -232,7 +232,7 @@ If ``at_position`` is given, the point is inserted before the point number ``at_
 
 - void **set_point_position** **(** :ref:`int<class_int>` idx, :ref:`Vector2<class_Vector2>` position **)**
 
-设置顶点``idx``\ 的位置。如果索引超出范围，函数会向控制台发送一个错误信息。
+设置顶点\ ``idx``\ 的位置。如果索引超出范围，函数会向控制台发送一个错误信息。
 
 ----
 

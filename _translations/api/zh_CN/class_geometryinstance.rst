@@ -123,11 +123,11 @@ enum **ShadowCastingSetting**:
 
 enum **Flags**:
 
-- **FLAG_USE_BAKED_LIGHT** = **0** --- 将允许在使用:ref:`GIProbe<class_GIProbe>`\ 或:ref:`BakedLightmap<class_BakedLightmap>`\ 进行灯光烘焙时使用GeometryInstance几何实例。
+- **FLAG_USE_BAKED_LIGHT** = **0** --- 将允许在使用\ :ref:`GIProbe<class_GIProbe>`\ 或\ :ref:`BakedLightmap<class_BakedLightmap>`\ 进行灯光烘焙时使用GeometryInstance几何实例。
 
 - **FLAG_DRAW_NEXT_FRAME_IF_VISIBLE** = **1** --- 在此类中未使用，公开以与 :ref:`InstanceFlags<enum_VisualServer_InstanceFlags>` 保持一致。
 
-- **FLAG_MAX** = **2** --- 表示:ref:`Flags<enum_GeometryInstance_Flags>`\ 枚举的大小。
+- **FLAG_MAX** = **2** --- 表示\ :ref:`Flags<enum_GeometryInstance_Flags>`\ 枚举的大小。
 
 Property Descriptions
 ---------------------
@@ -305,7 +305,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **get_flag** **(** :ref:`Flags<enum_GeometryInstance_Flags>` flag **)** |const|
 
-返回为此对象设置的:ref:`Flags<enum_GeometryInstance_Flags>` 。
+返回为此对象设置的\ :ref:`Flags<enum_GeometryInstance_Flags>` 。
 
 ----
 
@@ -313,7 +313,7 @@ Method Descriptions
 
 - void **set_custom_aabb** **(** :ref:`AABB<class_AABB>` aabb **)**
 
-用一个自定义的包围盒覆盖这个节点的包围盒。设置一个:ref:`AABB<class_AABB>`，去删除它，所有字段设置为零。
+用一个自定义的包围盒覆盖这个节点的包围盒。设置一个\ :ref:`AABB<class_AABB>`，去删除它，所有字段设置为零。
 
 ----
 
@@ -321,7 +321,7 @@ Method Descriptions
 
 - void **set_flag** **(** :ref:`Flags<enum_GeometryInstance_Flags>` flag, :ref:`bool<class_bool>` value **)**
 
-设置指定的:ref:`Flags<enum_GeometryInstance_Flags>`。参阅:ref:`Flags<enum_GeometryInstance_Flags>`\ 选项。
+设置指定的\ :ref:`Flags<enum_GeometryInstance_Flags>`。参阅\ :ref:`Flags<enum_GeometryInstance_Flags>`\ 选项。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

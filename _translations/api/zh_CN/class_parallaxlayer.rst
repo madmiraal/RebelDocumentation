@@ -48,7 +48,7 @@ Property Descriptions
 | *Getter*  | get_mirroring()      |
 +-----------+----------------------+
 
-视差图层的:ref:`Texture<class_Texture>`\ 镜像。用于创建无限滚动的背景。如果一个轴被设置为``0``， :ref:`Texture<class_Texture>`\ 将不会被镜像。
+视差图层的\ :ref:`Texture<class_Texture>`\ 镜像。用于创建无限滚动的背景。如果一个轴被设置为\ ``0``， :ref:`Texture<class_Texture>`\ 将不会被镜像。
 
 ----
 
@@ -64,7 +64,7 @@ Property Descriptions
 | *Getter*  | get_motion_offset()      |
 +-----------+--------------------------+
 
-ParallaxLayer相对于父ParallaxBackground的偏移量:ref:`ParallaxBackground.scroll_offset<class_ParallaxBackground_property_scroll_offset>`。
+ParallaxLayer相对于父ParallaxBackground的偏移量\ :ref:`ParallaxBackground.scroll_offset<class_ParallaxBackground_property_scroll_offset>`。
 
 ----
 
@@ -80,7 +80,7 @@ ParallaxLayer相对于父ParallaxBackground的偏移量:ref:`ParallaxBackground.
 | *Getter*  | get_motion_scale()      |
 +-----------+-------------------------+
 
-复制视差图层的运动。如果一个轴被设置为``0``，它将不会滚动。
+复制视差图层的运动。如果一个轴被设置为\ ``0``，它将不会滚动。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

@@ -16,7 +16,7 @@ VisualScriptWhile
 Description
 -----------
 
-当一个条件为``true``\ 时进行循环。当循环结束时，执行继续从``exit``\ 序列端口出来。
+当一个条件为\ ``true``\ 时进行循环。当循环结束时，执行继续从\ ``exit``\ 序列端口出来。
 
 **Input Ports:**
 

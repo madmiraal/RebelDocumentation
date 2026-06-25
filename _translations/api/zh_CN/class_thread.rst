@@ -94,9 +94,9 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **start** **(** :ref:`Object<class_Object>` instance, :ref:`String<class_String>` method, :ref:`Variant<class_Variant>` userdata=null, :ref:`Priority<enum_Thread_Priority>` priority=1 **)**
 
-启动一个新的``Thread``\ 线程，在对象``instance``\ 上运行``method``，并将``userdata``\ 作为一个参数传递。即使没有传递userdata，``method``\ 也必须接受一个空的参数。``Thread``\ 的``priority``\ 优先级可以通过传递:ref:`Priority<enum_Thread_Priority>`\ 枚举中的一个值来改变。
+启动一个新的\ ``Thread``\ 线程，在对象\ ``instance``\ 上运行\ ``method``，并将\ ``userdata``\ 作为一个参数传递。即使没有传递userdata，``method``\ 也必须接受一个空的参数。``Thread``\ 的\ ``priority``\ 优先级可以通过传递\ :ref:`Priority<enum_Thread_Priority>`\ 枚举中的一个值来改变。
 
-成功时返回:ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`，失败时返回:ref:`@GlobalScope.ERR_CANT_CREATE<class_@GlobalScope_constant_ERR_CANT_CREATE>` 。
+成功时返回\ :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`，失败时返回\ :ref:`@GlobalScope.ERR_CANT_CREATE<class_@GlobalScope_constant_ERR_CANT_CREATE>` 。
 
 ----
 

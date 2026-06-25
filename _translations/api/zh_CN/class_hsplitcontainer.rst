@@ -16,7 +16,7 @@ HSplitContainer
 Description
 -----------
 
-水平拆分容器。参阅:ref:`SplitContainer<class_SplitContainer>`。从左到右。
+水平拆分容器。参阅\ :ref:`SplitContainer<class_SplitContainer>`。从左到右。
 
 Theme Properties
 ----------------

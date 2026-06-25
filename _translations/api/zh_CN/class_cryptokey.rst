@@ -44,7 +44,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_public_only** **(** **)** |const|
 
-如果此CryptoKey仅具有公共部分，而没有私有部分，则返回``true``。
+如果此CryptoKey仅具有公共部分，而没有私有部分，则返回\ ``true``。
 
 ----
 
@@ -52,9 +52,9 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **load** **(** :ref:`String<class_String>` path, :ref:`bool<class_bool>` public_only=false **)**
 
-从``path``\ 加载一个密钥。如果``public_only``\ 是``true``，将只加载公钥。
+从\ ``path``\ 加载一个密钥。如果\ ``public_only``\ 是\ ``true``，将只加载公钥。
 
-**注意：**如果 ``public_only`` 为 ``true``，则 ``path`` 应该是一个“\*.pub”文件，否则是“\*.key”文件。
+**注意：**\ 如果 ``public_only`` 为 ``true``，则 ``path`` 应该是一个“\*.pub”文件，否则是“\*.key”文件。
 
 ----
 
@@ -62,7 +62,7 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **load_from_string** **(** :ref:`String<class_String>` string_key, :ref:`bool<class_bool>` public_only=false **)**
 
-从给定的``string``\ 加载密钥。如果``public_only``\ 为``true``，则仅会加载公共密钥。
+从给定的\ ``string``\ 加载密钥。如果\ ``public_only``\ 为\ ``true``，则仅会加载公共密钥。
 
 ----
 
@@ -72,7 +72,7 @@ Method Descriptions
 
 将密钥保存到给定的 ``path``。如果 ``public_only`` 为 ``true``，则只会保存公钥。
 
-**注意：**如果``public_only``\ 是``true``，则``path``\ 应该是一个"\*.pub"文件，否则是"\*.key"文件。
+**注意：**\ 如果\ ``public_only``\ 是\ ``true``，则\ ``path``\ 应该是一个"\*.pub"文件，否则是"\*.key"文件。
 
 ----
 
@@ -80,7 +80,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **save_to_string** **(** :ref:`bool<class_bool>` public_only=false **)**
 
-返回包含PEM格式的密钥的字符串。如果``public_only``\ 为``true``，则仅包含公共密钥。
+返回包含PEM格式的密钥的字符串。如果\ ``public_only``\ 为\ ``true``，则仅包含公共密钥。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

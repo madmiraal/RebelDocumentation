@@ -108,7 +108,7 @@ Property Descriptions
 | *Getter* | get_angular_velocity()      |
 +----------+-----------------------------+
 
-物体的旋转速度，单位为*弧度*每秒。
+物体的旋转速度，单位为\ *弧度*\ 每秒。
 
 ----
 
@@ -160,7 +160,7 @@ Property Descriptions
 | *Getter* | is_sleeping()          |
 +----------+------------------------+
 
-如果``true``，则该物体当前处于睡眠状态(不活动)。
+如果\ ``true``，则该物体当前处于睡眠状态(不活动)。
 
 ----
 
@@ -279,7 +279,7 @@ Method Descriptions
 
 - :ref:`RID<class_RID>` **get_contact_collider** **(** :ref:`int<class_int>` contact_idx **)** |const|
 
-返回碰撞体的:ref:`RID<class_RID>`。
+返回碰撞体的\ :ref:`RID<class_RID>`。
 
 ----
 
@@ -319,7 +319,7 @@ Method Descriptions
 
 - :ref:`Variant<class_Variant>` **get_contact_collider_shape_metadata** **(** :ref:`int<class_int>` contact_idx **)** |const|
 
-返回碰撞形状的元数据。这个元数据不同于:ref:`Object.get_meta<class_Object_method_get_meta>`，是用:ref:`Physics2DServer.shape_set_data<class_Physics2DServer_method_shape_set_data>`\ 设置的。
+返回碰撞形状的元数据。这个元数据不同于\ :ref:`Object.get_meta<class_Object_method_get_meta>`，是用\ :ref:`Physics2DServer.shape_set_data<class_Physics2DServer_method_shape_set_data>`\ 设置的。
 
 ----
 
@@ -337,7 +337,7 @@ Method Descriptions
 
 返回此物体与其他物体的接触次数。
 
-**注意：**默认情况下，除非物体被设为监视接触者，否则返回0。参阅 :ref:`RigidBody2D.contact_monitor<class_RigidBody2D_property_contact_monitor>`。
+**注意：**\ 默认情况下，除非物体被设为监视接触者，否则返回0。参阅 :ref:`RigidBody2D.contact_monitor<class_RigidBody2D_property_contact_monitor>`。
 
 ----
 

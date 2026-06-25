@@ -11,12 +11,12 @@ Physics2DDirectSpaceState
 
 **Inherits:** :ref:`Object<class_Object>`
 
-直接访问:ref:`Physics2DServer<class_Physics2DServer>`\ 中的空间的对象。
+直接访问\ :ref:`Physics2DServer<class_Physics2DServer>`\ 中的空间的对象。
 
 Description
 -----------
 
-直接访问:ref:`Physics2DServer<class_Physics2DServer>`\ 中的空间的对象。它主要用于对位于给定空间中的对象和区域进行查询。
+直接访问\ :ref:`Physics2DServer<class_Physics2DServer>`\ 中的空间的对象。它主要用于对位于给定空间中的对象和区域进行查询。
 
 Tutorials
 ---------
@@ -55,7 +55,7 @@ Method Descriptions
 
 返回一个包含运动的安全和不安全比例（0 到 1 之间）的数组。安全比例是在没有碰撞的情况下可以进行的运动的最大比例。不安全比例是碰撞必须移动的距离的最小部分。如果没有检测到碰撞，将返回 ``[1.0, 1.0]`` 的结果。
 
-**注意：** 任何已经碰撞的:ref:`Shape2D<class_Shape2D>`\ (比如内部的)会被忽略。使用 :ref:`collide_shape<class_Physics2DDirectSpaceState_method_collide_shape>` 确定形状已经碰撞的 :ref:`Shape2D<class_Shape2D>`。
+**注意：** 任何已经碰撞的\ :ref:`Shape2D<class_Shape2D>`\ (比如内部的)会被忽略。使用 :ref:`collide_shape<class_Physics2DDirectSpaceState_method_collide_shape>` 确定形状已经碰撞的 :ref:`Shape2D<class_Shape2D>`。
 
 ----
 
@@ -63,7 +63,7 @@ Method Descriptions
 
 - :ref:`Array<class_Array>` **collide_shape** **(** :ref:`Physics2DShapeQueryParameters<class_Physics2DShapeQueryParameters>` shape, :ref:`int<class_int>` max_results=32 **)**
 
-通过:ref:`Physics2DShapeQueryParameters<class_Physics2DShapeQueryParameters>`\ 对象给出的形状与空间的检查交点。结果数组包含一个形状与另一个形状相交的点的列表。像:ref:`intersect_shape<class_Physics2DDirectSpaceState_method_intersect_shape>`\ 一样，可以限制返回结果的数量以节省处理时间。
+通过\ :ref:`Physics2DShapeQueryParameters<class_Physics2DShapeQueryParameters>`\ 对象给出的形状与空间的检查交点。结果数组包含一个形状与另一个形状相交的点的列表。像\ :ref:`intersect_shape<class_Physics2DDirectSpaceState_method_intersect_shape>`\ 一样，可以限制返回结果的数量以节省处理时间。
 
 ----
 
@@ -71,21 +71,21 @@ Method Descriptions
 
 - :ref:`Dictionary<class_Dictionary>` **get_rest_info** **(** :ref:`Physics2DShapeQueryParameters<class_Physics2DShapeQueryParameters>` shape **)**
 
-通过:ref:`Physics2DShapeQueryParameters<class_Physics2DShapeQueryParameters>`\ 对象给出的形状与空间的检查交点。如果它与一个以上的形状发生碰撞，则选择最近的一个。如果该形状没有与任何对象相交，那么将返回一个空字典。
+通过\ :ref:`Physics2DShapeQueryParameters<class_Physics2DShapeQueryParameters>`\ 对象给出的形状与空间的检查交点。如果它与一个以上的形状发生碰撞，则选择最近的一个。如果该形状没有与任何对象相交，那么将返回一个空字典。
 
-**注意：** 这个方法不考虑对象的``motion``\ 属性。返回的对象是包含以下字段的字典。
+**注意：** 这个方法不考虑对象的\ ``motion``\ 属性。返回的对象是包含以下字段的字典。
 
 ``collider_id``:碰撞对象的ID。
 
-``linear_velocity``:碰撞物体的速度:ref:`Vector2<class_Vector2>`。如果对象是一个:ref:`Area2D<class_Area2D>`，结果是``(0, 0)``。
+``linear_velocity``:碰撞物体的速度\ :ref:`Vector2<class_Vector2>`。如果对象是一个\ :ref:`Area2D<class_Area2D>`，结果是\ ``(0, 0)``。
 
-``metadata``:相交形状的元数据。这个元数据与:ref:`Object.get_meta<class_Object_method_get_meta>`\ 不同，它是用:ref:`Physics2DServer.shape_set_data<class_Physics2DServer_method_shape_set_data>`\ 设置的。
+``metadata``:相交形状的元数据。这个元数据与\ :ref:`Object.get_meta<class_Object_method_get_meta>`\ 不同，它是用\ :ref:`Physics2DServer.shape_set_data<class_Physics2DServer_method_shape_set_data>`\ 设置的。
 
 ``normal``:物体在交点处的表面法线。
 
 ``point``:相交点。
 
-``rid``:相交物体的:ref:`RID<class_RID>`。
+``rid``:相交物体的\ :ref:`RID<class_RID>`。
 
 ``shape``:碰撞形状的形状索引。
 
@@ -111,7 +111,7 @@ Method Descriptions
 
 此外，该方法可以接受一个 ``exclude`` 数组，该数组中的对象或 :ref:`RID<class_RID>` 将被排除在碰撞之外，``collision_mask`` 位掩码表示要检查的物理层，或者布尔值来确定射线是否应该分别与 :ref:`PhysicsBody2D<class_PhysicsBody2D>` 或 :ref:`Area2D<class_Area2D>` 发生碰撞。
 
-**注意：**:ref:`ConcavePolygonShape2D<class_ConcavePolygonShape2D>` 和 :ref:`CollisionPolygon2D<class_CollisionPolygon2D>` 在 ``Segments`` 构建模式中不是实体形状。因此，它们将不会被检测到。
+**注意：**\ :ref:`ConcavePolygonShape2D<class_ConcavePolygonShape2D>` 和 :ref:`CollisionPolygon2D<class_CollisionPolygon2D>` 在 ``Segments`` 构建模式中不是实体形状。因此，它们将不会被检测到。
 
 ----
 
@@ -135,7 +135,7 @@ Method Descriptions
 
 此外，该方法可以接受一个 ``exclude`` 数组，该数组中的对象或 :ref:`RID<class_RID>` 将被排除在碰撞之外，``collision_mask`` 位掩码表示要检查的物理层，或者布尔值来确定射线是否应该分别与 :ref:`PhysicsBody<class_PhysicsBody>` 或 :ref:`Area<class_Area>` 发生碰撞。
 
-**注意：**:ref:`ConcavePolygonShape2D<class_ConcavePolygonShape2D>` 和 :ref:`CollisionPolygon2D<class_CollisionPolygon2D>` 在 ``Segments`` 构建模式中不是实体形状。因此，它们将不会被检测到。
+**注意：**\ :ref:`ConcavePolygonShape2D<class_ConcavePolygonShape2D>` 和 :ref:`CollisionPolygon2D<class_CollisionPolygon2D>` 在 ``Segments`` 构建模式中不是实体形状。因此，它们将不会被检测到。
 
 ----
 
@@ -169,21 +169,21 @@ Method Descriptions
 
 - :ref:`Array<class_Array>` **intersect_shape** **(** :ref:`Physics2DShapeQueryParameters<class_Physics2DShapeQueryParameters>` shape, :ref:`int<class_int>` max_results=32 **)**
 
-通过:ref:`Physics2DShapeQueryParameters<class_Physics2DShapeQueryParameters>`\ 对象给出的形状与空间的检查交点。
+通过\ :ref:`Physics2DShapeQueryParameters<class_Physics2DShapeQueryParameters>`\ 对象给出的形状与空间的检查交点。
 
-**注意：** 这个方法不考虑对象的``motion``\ 属性。相交的形状会以数组的形式返回，该数组包含有以下字段的字典:
+**注意：** 这个方法不考虑对象的\ ``motion``\ 属性。相交的形状会以数组的形式返回，该数组包含有以下字段的字典:
 
 ``collider``:碰撞的对象。
 
 ``collider_id``:碰撞对象的ID。
 
-``metadata``:相交形状的元数据。这个元数据与:ref:`Object.get_meta<class_Object_method_get_meta>`\ 不同，是用:ref:`Physics2DServer.shape_set_data<class_Physics2DServer_method_shape_set_data>`\ 设置的。
+``metadata``:相交形状的元数据。这个元数据与\ :ref:`Object.get_meta<class_Object_method_get_meta>`\ 不同，是用\ :ref:`Physics2DServer.shape_set_data<class_Physics2DServer_method_shape_set_data>`\ 设置的。
 
-``rid``:相交物体的:ref:`RID<class_RID>`。
+``rid``:相交物体的\ :ref:`RID<class_RID>`。
 
 ``shape``:碰撞形状的形状索引。
 
-可以用``max_results``\ 参数限制相交的数量，以减少处理时间。
+可以用\ ``max_results``\ 参数限制相交的数量，以减少处理时间。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

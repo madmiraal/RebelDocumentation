@@ -42,13 +42,13 @@ Enumerations
 
 enum **Mode**:
 
-- **MODE_PRESSED** = **0** --- 如果动作被按下为``True`` 。
+- **MODE_PRESSED** = **0** --- 如果动作被按下为\ ``True`` 。
 
-- **MODE_RELEASED** = **1** --- 如果动作被释放，即未按下，为``True`` 。
+- **MODE_RELEASED** = **1** --- 如果动作被释放，即未按下，为\ ``True`` 。
 
-- **MODE_JUST_PRESSED** = **2** --- 在动作被按下的帧上为``True``。
+- **MODE_JUST_PRESSED** = **2** --- 在动作被按下的帧上为\ ``True``。
 
-- **MODE_JUST_RELEASED** = **3** --- 在动作被释放的帧上为``True``。
+- **MODE_JUST_RELEASED** = **3** --- 在动作被释放的帧上为\ ``True``。
 
 Property Descriptions
 ---------------------

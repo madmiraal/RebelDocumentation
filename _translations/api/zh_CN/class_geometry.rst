@@ -128,7 +128,7 @@ enum **PolyBooleanOperation**:
 
 enum **PolyJoinType**:
 
-- **JOIN_SQUARE** = **0** --- 在``1 * delta``\ 的所有凸边连接处均匀地应用平方。
+- **JOIN_SQUARE** = **0** --- 在\ ``1 * delta``\ 的所有凸边连接处均匀地应用平方。
 
 - **JOIN_ROUND** = **1** --- 虽然扁平化路径不可能完美地追踪一个弧线，但它们可以通过一系列弧弦来近似。
 
@@ -150,15 +150,15 @@ enum **PolyJoinType**:
 
 enum **PolyEndType**:
 
-- **END_POLYGON** = **0** --- 端点使用:ref:`PolyJoinType<enum_Geometry_PolyJoinType>`\ 值连接，路径被填充为多边形。
+- **END_POLYGON** = **0** --- 端点使用\ :ref:`PolyJoinType<enum_Geometry_PolyJoinType>`\ 值连接，路径被填充为多边形。
 
-- **END_JOINED** = **1** --- 端点使用:ref:`PolyJoinType<enum_Geometry_PolyJoinType>`\ 值连接，路径被填充为多边形线。
+- **END_JOINED** = **1** --- 端点使用\ :ref:`PolyJoinType<enum_Geometry_PolyJoinType>`\ 值连接，路径被填充为多边形线。
 
 - **END_BUTT** = **2** --- 端点是方形的，没有延伸。
 
-- **END_SQUARE** = **3** --- 端点被平方化并扩展了``delta``\ 单位。
+- **END_SQUARE** = **3** --- 端点被平方化并扩展了\ ``delta``\ 单位。
 
-- **END_ROUND** = **4** --- 端点被四舍五入，并以``delta``\ 为单位进行扩展。
+- **END_ROUND** = **4** --- 端点被四舍五入，并以\ ``delta``\ 为单位进行扩展。
 
 Method Descriptions
 -------------------
@@ -167,7 +167,7 @@ Method Descriptions
 
 - :ref:`Array<class_Array>` **build_box_planes** **(** :ref:`Vector3<class_Vector3>` extents **)**
 
-返回一个包含6个:ref:`Plane<class_Plane>`\ 的数组，描述以原点为中心的盒子的边。盒子的大小由``extents``\ 定义，它代表盒子的一个（正）角（即其实际大小的一半）。
+返回一个包含6个\ :ref:`Plane<class_Plane>`\ 的数组，描述以原点为中心的盒子的边。盒子的大小由\ ``extents``\ 定义，它代表盒子的一个（正）角（即其实际大小的一半）。
 
 ----
 
@@ -175,7 +175,7 @@ Method Descriptions
 
 - :ref:`Array<class_Array>` **build_capsule_planes** **(** :ref:`float<class_float>` radius, :ref:`float<class_float>` height, :ref:`int<class_int>` sides, :ref:`int<class_int>` lats, Vector3.Axis axis=2 **)**
 
-返回一个:ref:`Plane<class_Plane>`\ 数组，该数组紧密地绑定着一个以原点为中心，半径为``radius``，高度为``height``\ 的面状胶囊。参数``side``\ 定义了将为胶囊的侧面部分生成多少个平面，而``lats``\ 则给出了胶囊底部和顶部的纬向阶梯数。参数``axis``\ 描述了胶囊的方向轴（0为X，1为Y，2为Z）。
+返回一个\ :ref:`Plane<class_Plane>`\ 数组，该数组紧密地绑定着一个以原点为中心，半径为\ ``radius``，高度为\ ``height``\ 的面状胶囊。参数\ ``side``\ 定义了将为胶囊的侧面部分生成多少个平面，而\ ``lats``\ 则给出了胶囊底部和顶部的纬向阶梯数。参数\ ``axis``\ 描述了胶囊的方向轴（0为X，1为Y，2为Z）。
 
 ----
 
@@ -183,7 +183,7 @@ Method Descriptions
 
 - :ref:`Array<class_Array>` **build_cylinder_planes** **(** :ref:`float<class_float>` radius, :ref:`float<class_float>` height, :ref:`int<class_int>` sides, Vector3.Axis axis=2 **)**
 
-返回一个:ref:`Plane<class_Plane>`\ 数组，该数组紧密绑定以原点为中心的切面圆柱体，其半径为``radius``，高度为``height``。参数``side``\ 定义了将为圆柱体的圆形部分生成多少个平面。参数``axis``\ 描述了圆柱体的方向轴（0代表X，1代表Y，2代表Z）。
+返回一个\ :ref:`Plane<class_Plane>`\ 数组，该数组紧密绑定以原点为中心的切面圆柱体，其半径为\ ``radius``，高度为\ ``height``。参数\ ``side``\ 定义了将为圆柱体的圆形部分生成多少个平面。参数\ ``axis``\ 描述了圆柱体的方向轴（0代表X，1代表Y，2代表Z）。
 
 ----
 
@@ -191,7 +191,7 @@ Method Descriptions
 
 - :ref:`PoolVector3Array<class_PoolVector3Array>` **clip_polygon** **(** :ref:`PoolVector3Array<class_PoolVector3Array>` points, :ref:`Plane<class_Plane>` plane **)**
 
-将``point``\ 中的点所定义的多边形与``plane``\ 进行对比，并返回被剪切的多边形的点。
+将\ ``point``\ 中的点所定义的多边形与\ ``plane``\ 进行对比，并返回被剪切的多边形的点。
 
 ----
 
@@ -199,9 +199,9 @@ Method Descriptions
 
 - :ref:`Array<class_Array>` **clip_polygons_2d** **(** :ref:`PoolVector2Array<class_PoolVector2Array>` polygon_a, :ref:`PoolVector2Array<class_PoolVector2Array>` polygon_b **)**
 
-将``polygon_a``\ 与``polygon_b``\ 进行对比，并返回一个被剪切的多边形数组。这在多边形之间执行:ref:`OPERATION_DIFFERENCE<class_Geometry_constant_OPERATION_DIFFERENCE>`。如果``polygon_b``\ 与``polygon_a``\ 完全重合，则返回一个空数组。
+将\ ``polygon_a``\ 与\ ``polygon_b``\ 进行对比，并返回一个被剪切的多边形数组。这在多边形之间执行\ :ref:`OPERATION_DIFFERENCE<class_Geometry_constant_OPERATION_DIFFERENCE>`。如果\ ``polygon_b``\ 与\ ``polygon_a``\ 完全重合，则返回一个空数组。
 
-如果``polygon_b``\ 被``polygon_a``\ 包围，返回一个外部多边形（边界）和内部多边形（孔），可以通过调用:ref:`is_polygon_clockwise<class_Geometry_method_is_polygon_clockwise>`\ 来区分。
+如果\ ``polygon_b``\ 被\ ``polygon_a``\ 包围，返回一个外部多边形（边界）和内部多边形（孔），可以通过调用\ :ref:`is_polygon_clockwise<class_Geometry_method_is_polygon_clockwise>`\ 来区分。
 
 ----
 
@@ -209,7 +209,7 @@ Method Descriptions
 
 - :ref:`Array<class_Array>` **clip_polyline_with_polygon_2d** **(** :ref:`PoolVector2Array<class_PoolVector2Array>` polyline, :ref:`PoolVector2Array<class_PoolVector2Array>` polygon **)**
 
-将``polyline``\ 与``polygon``\ 相对应，并返回一个折线数组。在折线和多边形之间执行:ref:`OPERATION_DIFFERENCE<class_Geometry_constant_OPERATION_DIFFERENCE>`。这个操作可以被认为是用一个封闭的形状切割一条线。
+将\ ``polyline``\ 与\ ``polygon``\ 相对应，并返回一个折线数组。在折线和多边形之间执行\ :ref:`OPERATION_DIFFERENCE<class_Geometry_constant_OPERATION_DIFFERENCE>`。这个操作可以被认为是用一个封闭的形状切割一条线。
 
 ----
 
@@ -217,7 +217,7 @@ Method Descriptions
 
 - :ref:`PoolVector2Array<class_PoolVector2Array>` **convex_hull_2d** **(** :ref:`PoolVector2Array<class_PoolVector2Array>` points **)**
 
-给出一个:ref:`Vector2<class_Vector2>`\ s的数组，以逆时针的顺序返回凸面的点的列表。最后一个点与第一个点相同。
+给出一个\ :ref:`Vector2<class_Vector2>`\ s的数组，以逆时针的顺序返回凸面的点的列表。最后一个点与第一个点相同。
 
 ----
 
@@ -225,7 +225,7 @@ Method Descriptions
 
 - :ref:`Array<class_Array>` **exclude_polygons_2d** **(** :ref:`PoolVector2Array<class_PoolVector2Array>` polygon_a, :ref:`PoolVector2Array<class_PoolVector2Array>` polygon_b **)**
 
-相互排除由 ``polygon_a`` 和 ``polygon_b``（见 :ref:`intersect_polygons_2d<class_Geometry_method_intersect_polygons_2d>`）的交叉点定义的公共区域，并返回一个排除的多边形数组。这在多边形之间执行了 :ref:`OPERATION_XOR<class_Geometry_constant_OPERATION_XOR>`。换句话说，返回多边形之间除公共区域外的所有区域。
+相互排除由 ``polygon_a`` 和 ``polygon_b``\ （见 :ref:`intersect_polygons_2d<class_Geometry_method_intersect_polygons_2d>`）的交叉点定义的公共区域，并返回一个排除的多边形数组。这在多边形之间执行了 :ref:`OPERATION_XOR<class_Geometry_constant_OPERATION_XOR>`。换句话说，返回多边形之间除公共区域外的所有区域。
 
 该操作可能会产生一个外部多边形（边界）和内部多边形（孔），可以通过调用 :ref:`is_polygon_clockwise<class_Geometry_method_is_polygon_clockwise>` 来区分。
 
@@ -235,7 +235,7 @@ Method Descriptions
 
 - :ref:`Vector3<class_Vector3>` **get_closest_point_to_segment** **(** :ref:`Vector3<class_Vector3>` point, :ref:`Vector3<class_Vector3>` s1, :ref:`Vector3<class_Vector3>` s2 **)**
 
-返回3D部份（``s1``, ``s2``）上离``point``\ 最近的3D点。返回的点将总是在指定的部份内。
+返回3D部份（``s1``, ``s2``）上离\ ``point``\ 最近的3D点。返回的点将总是在指定的部份内。
 
 ----
 
@@ -243,7 +243,7 @@ Method Descriptions
 
 - :ref:`Vector2<class_Vector2>` **get_closest_point_to_segment_2d** **(** :ref:`Vector2<class_Vector2>` point, :ref:`Vector2<class_Vector2>` s1, :ref:`Vector2<class_Vector2>` s2 **)**
 
-返回2D段（``s1``, ``s2``）上最接近``point``\ 的2D点。返回的点将总是在指定的线段内。
+返回2D段（``s1``, ``s2``）上最接近\ ``point``\ 的2D点。返回的点将总是在指定的线段内。
 
 ----
 
@@ -259,7 +259,7 @@ Method Descriptions
 
 - :ref:`Vector2<class_Vector2>` **get_closest_point_to_segment_uncapped_2d** **(** :ref:`Vector2<class_Vector2>` point, :ref:`Vector2<class_Vector2>` s1, :ref:`Vector2<class_Vector2>` s2 **)**
 
-返回由（``s1``, ``s2``）定义的二维线上最接近``point``\ 的二维点。返回的点可以在线段（``s1``, ``s2``）内，也可以在线段外，即在从线段延伸出来的某处。
+返回由（``s1``, ``s2``）定义的二维线上最接近\ ``point``\ 的二维点。返回的点可以在线段（``s1``, ``s2``）内，也可以在线段外，即在从线段延伸出来的某处。
 
 ----
 
@@ -291,9 +291,9 @@ Method Descriptions
 
 - :ref:`Array<class_Array>` **intersect_polygons_2d** **(** :ref:`PoolVector2Array<class_PoolVector2Array>` polygon_a, :ref:`PoolVector2Array<class_PoolVector2Array>` polygon_b **)**
 
-将``polygon_a``\ 与``polygon_b``\ 相交并返回相交的多边形数组。这在多边形之间执行:ref:`OPERATION_INTERSECTION<class_Geometry_constant_OPERATION_INTERSECTION>`。换句话说，返回多边形共享的公共区域。如果没有发生相交，则返回一个空数组。
+将\ ``polygon_a``\ 与\ ``polygon_b``\ 相交并返回相交的多边形数组。这在多边形之间执行\ :ref:`OPERATION_INTERSECTION<class_Geometry_constant_OPERATION_INTERSECTION>`。换句话说，返回多边形共享的公共区域。如果没有发生相交，则返回一个空数组。
 
-该操作可能导致产生外部多边形（边界）和内部多边形（孔），可以通过调用:ref:`is_polygon_clockwise<class_Geometry_method_is_polygon_clockwise>`\ 来区分。
+该操作可能导致产生外部多边形（边界）和内部多边形（孔），可以通过调用\ :ref:`is_polygon_clockwise<class_Geometry_method_is_polygon_clockwise>`\ 来区分。
 
 ----
 
@@ -301,7 +301,7 @@ Method Descriptions
 
 - :ref:`Array<class_Array>` **intersect_polyline_with_polygon_2d** **(** :ref:`PoolVector2Array<class_PoolVector2Array>` polyline, :ref:`PoolVector2Array<class_PoolVector2Array>` polygon **)**
 
-将``polyline``\ 与``polygon``\ 相交，并返回相交的折线数组。这在折线和多边形之间执行了:ref:`OPERATION_INTERSECTION<class_Geometry_constant_OPERATION_INTERSECTION>`。这个操作可以被认为是用一个封闭的形状砍断一条线。
+将\ ``polyline``\ 与\ ``polygon``\ 相交，并返回相交的折线数组。这在折线和多边形之间执行了\ :ref:`OPERATION_INTERSECTION<class_Geometry_constant_OPERATION_INTERSECTION>`。这个操作可以被认为是用一个封闭的形状砍断一条线。
 
 ----
 
@@ -309,7 +309,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_point_in_circle** **(** :ref:`Vector2<class_Vector2>` point, :ref:`Vector2<class_Vector2>` circle_position, :ref:`float<class_float>` circle_radius **)**
 
-返回``true``\ 时，``point``\ 位于圆的内部或者*正好*位于圆的边界上，否则将返回``false``。
+返回\ ``true``\ 时，``point``\ 位于圆的内部或者\ *正好*\ 位于圆的边界上，否则将返回\ ``false``。
 
 ----
 
@@ -317,7 +317,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_point_in_polygon** **(** :ref:`Vector2<class_Vector2>` point, :ref:`PoolVector2Array<class_PoolVector2Array>` polygon **)**
 
-返回``true``\ 时，``point``\ 位于多边形``polygon``\ 的内部或者*正好*位于多边形的边界上，否则将返回``false``。
+返回\ ``true``\ 时，``point``\ 位于多边形\ ``polygon``\ 的内部或者\ *正好*\ 位于多边形的边界上，否则将返回\ ``false``。
 
 ----
 
@@ -343,7 +343,7 @@ Checks if the two lines (``from_a``, ``dir_a``) and (``from_b``, ``dir_b``) inte
 
 - :ref:`Dictionary<class_Dictionary>` **make_atlas** **(** :ref:`PoolVector2Array<class_PoolVector2Array>` sizes **)**
 
-给定表示图块的:ref:`Vector2<class_Vector2>`\ 数组，构建一个地图集。返回的字典有两个键：``points``\ 是:ref:`Vector2<class_Vector2>`\ 的向量，用于指定每个图块的位置，``size``\ 包含整个图集的整体大小，作为:ref:`Vector2<class_Vector2>`。
+给定表示图块的\ :ref:`Vector2<class_Vector2>`\ 数组，构建一个地图集。返回的字典有两个键：``points``\ 是\ :ref:`Vector2<class_Vector2>`\ 的向量，用于指定每个图块的位置，``size``\ 包含整个图集的整体大小，作为\ :ref:`Vector2<class_Vector2>`。
 
 ----
 
@@ -367,7 +367,7 @@ Checks if the two lines (``from_a``, ``dir_a``) and (``from_b``, ``dir_b``) inte
 
 该操作可能会产生一个外部多边形（边界）和内部多边形（孔），可以通过调用 :ref:`is_polygon_clockwise<class_Geometry_method_is_polygon_clockwise>`\ 来区分。
 
-**注意：**要具体平移多边形的顶点，请使用 :ref:`Transform2D.xform<class_Transform2D_method_xform>` 方法。
+**注意：**\ 要具体平移多边形的顶点，请使用 :ref:`Transform2D.xform<class_Transform2D_method_xform>` 方法。
 
 ::
 
@@ -382,13 +382,13 @@ Checks if the two lines (``from_a``, ``dir_a``) and (``from_b``, ``dir_b``) inte
 
 - :ref:`Array<class_Array>` **offset_polyline_2d** **(** :ref:`PoolVector2Array<class_PoolVector2Array>` polyline, :ref:`float<class_float>` delta, :ref:`PolyJoinType<enum_Geometry_PolyJoinType>` join_type=0, :ref:`PolyEndType<enum_Geometry_PolyEndType>` end_type=3 **)**
 
-通过``delta``\ 单位（像素）对``多边形线polyline``\ 进行充气或放气，产生多边形。如果``delta``\ 为正数，则使多段线向外增长。返回一个多边形数组，因为充气/放气可能导致多个离散的多边形。如果``delta``\ 为负数，返回一个空数组。
+通过\ ``delta``\ 单位（像素）对\ ``多边形线polyline``\ 进行充气或放气，产生多边形。如果\ ``delta``\ 为正数，则使多段线向外增长。返回一个多边形数组，因为充气/放气可能导致多个离散的多边形。如果\ ``delta``\ 为负数，返回一个空数组。
 
-每个多边形的顶点将由``join_type``\ 决定，见:ref:`PolyJoinType<enum_Geometry_PolyJoinType>`。
+每个多边形的顶点将由\ ``join_type``\ 决定，见\ :ref:`PolyJoinType<enum_Geometry_PolyJoinType>`。
 
-每个多边形的端点将由``end_type``\ 决定，见:ref:`PolyEndType<enum_Geometry_PolyEndType>`。
+每个多边形的端点将由\ ``end_type``\ 决定，见\ :ref:`PolyEndType<enum_Geometry_PolyEndType>`。
 
-该操作可能会产生一个外部多边形（边界）和内部多边形（孔），可以通过调用:ref:`is_polygon_clockwise<class_Geometry_method_is_polygon_clockwise>`\ 来区分。
+该操作可能会产生一个外部多边形（边界）和内部多边形（孔），可以通过调用\ :ref:`is_polygon_clockwise<class_Geometry_method_is_polygon_clockwise>`\ 来区分。
 
 ----
 
@@ -396,7 +396,7 @@ Checks if the two lines (``from_a``, ``dir_a``) and (``from_b``, ``dir_b``) inte
 
 - :ref:`bool<class_bool>` **point_is_inside_triangle** **(** :ref:`Vector2<class_Vector2>` point, :ref:`Vector2<class_Vector2>` a, :ref:`Vector2<class_Vector2>` b, :ref:`Vector2<class_Vector2>` c **)** |const|
 
-如果``点point``\ 在``a``、``b``\ 和``c``\ 所指定的三角形内，则返回。
+如果\ ``点point``\ 在\ ``a``、``b``\ 和\ ``c``\ 所指定的三角形内，则返回。
 
 ----
 
@@ -404,7 +404,7 @@ Checks if the two lines (``from_a``, ``dir_a``) and (``from_b``, ``dir_b``) inte
 
 - :ref:`Variant<class_Variant>` **ray_intersects_triangle** **(** :ref:`Vector3<class_Vector3>` from, :ref:`Vector3<class_Vector3>` dir, :ref:`Vector3<class_Vector3>` a, :ref:`Vector3<class_Vector3>` b, :ref:`Vector3<class_Vector3>` c **)**
 
-测试从``from``\ 开始，方向为``dir``\ 的3D射线是否与``a``、``b``\ 和``c``\ 指定的三角形相交。如果是，返回相交点为:ref:`Vector3<class_Vector3>`。如果没有发生相交，将返回一个空的:ref:`Variant<class_Variant>`。
+测试从\ ``from``\ 开始，方向为\ ``dir``\ 的3D射线是否与\ ``a``、``b``\ 和\ ``c``\ 指定的三角形相交。如果是，返回相交点为\ :ref:`Vector3<class_Vector3>`。如果没有发生相交，将返回一个空的\ :ref:`Variant<class_Variant>`。
 
 ----
 
@@ -420,7 +420,7 @@ Checks if the two lines (``from_a``, ``dir_a``) and (``from_b``, ``dir_b``) inte
 
 - :ref:`PoolVector3Array<class_PoolVector3Array>` **segment_intersects_convex** **(** :ref:`Vector3<class_Vector3>` from, :ref:`Vector3<class_Vector3>` to, :ref:`Array<class_Array>` planes **)**
 
-给定一个通过数组 ``planes`` 中的 :ref:`Plane<class_Plane>`\ s 定义的凸面体，测试线段（``from``，``to``）是否与该面体相交。如果找到相交点，返回一个:ref:`PoolVector3Array<class_PoolVector3Array>`，包含相交点和凸面体的法线。如果没有找到相交点，返回的数组为空。
+给定一个通过数组 ``planes`` 中的 :ref:`Plane<class_Plane>`\ s 定义的凸面体，测试线段（``from``，``to``）是否与该面体相交。如果找到相交点，返回一个\ :ref:`PoolVector3Array<class_PoolVector3Array>`，包含相交点和凸面体的法线。如果没有找到相交点，返回的数组为空。
 
 ----
 
@@ -452,7 +452,7 @@ Checks if the two segments (``from_a``, ``to_a``) and (``from_b``, ``to_b``) int
 
 - :ref:`Variant<class_Variant>` **segment_intersects_triangle** **(** :ref:`Vector3<class_Vector3>` from, :ref:`Vector3<class_Vector3>` to, :ref:`Vector3<class_Vector3>` a, :ref:`Vector3<class_Vector3>` b, :ref:`Vector3<class_Vector3>` c **)**
 
-测试段（``from``，``to``）是否与三角形``a``，``b``，``c``\ 相交。如果是，返回相交点为:ref:`Vector3<class_Vector3>`。如果没有发生相交，则返回一个空的:ref:`Variant<class_Variant>`。
+测试段（``from``，``to``）是否与三角形\ ``a``，``b``，``c``\ 相交。如果是，返回相交点为\ :ref:`Vector3<class_Vector3>`。如果没有发生相交，则返回一个空的\ :ref:`Variant<class_Variant>`。
 
 ----
 

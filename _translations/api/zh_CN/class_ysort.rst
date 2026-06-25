@@ -16,7 +16,7 @@ YSort
 Description
 -----------
 
-根据子节点的Y坐标对所有子节点进行排序.子节点必须继承自:ref:`CanvasItem<class_CanvasItem>`,才能进行排序.Y坐标较高的节点将后绘制,因此它们将出现在Y坐标较低的节点之上.
+根据子节点的Y坐标对所有子节点进行排序.子节点必须继承自\ :ref:`CanvasItem<class_CanvasItem>`,才能进行排序.Y坐标较高的节点将后绘制,因此它们将出现在Y坐标较低的节点之上.
 
 YSort节点可以嵌套.子节点将与父节点在相同的空间内进行排序,这样可以更好地组织一个场景或将其分为多个场景,但又能保持唯一的排序.
 
@@ -42,7 +42,7 @@ Property Descriptions
 | *Getter*  | is_sort_enabled()       |
 +-----------+-------------------------+
 
-如果为``true``，则对子节点进行排序，否则禁用排序。
+如果为\ ``true``，则对子节点进行排序，否则禁用排序。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

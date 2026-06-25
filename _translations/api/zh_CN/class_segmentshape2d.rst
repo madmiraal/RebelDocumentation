@@ -16,7 +16,7 @@ SegmentShape2D
 Description
 -----------
 
-2D 碰撞的分段形状。由``a`` 和 ``b``\ 两点组成。
+2D 碰撞的分段形状。由\ ``a`` 和 ``b``\ 两点组成。
 
 Properties
 ----------

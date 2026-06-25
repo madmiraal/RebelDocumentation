@@ -60,7 +60,7 @@ enum **FFT_Size**:
 
 - **FFT_SIZE_4096** = **4** --- 使用 4096 个样品的缓冲器进行快速傅里叶变换。随着时间的推移，延迟最高但最稳定。
 
-- **FFT_SIZE_MAX** = **5** --- 表示:ref:`FFT_Size<enum_AudioEffectSpectrumAnalyzer_FFT_Size>`\ 枚举的大小。
+- **FFT_SIZE_MAX** = **5** --- 表示\ :ref:`FFT_Size<enum_AudioEffectSpectrumAnalyzer_FFT_Size>`\ 枚举的大小。
 
 Property Descriptions
 ---------------------
@@ -93,7 +93,7 @@ Property Descriptions
 | *Getter*  | get_fft_size()      |
 +-----------+---------------------+
 
-`快速傅里叶变换 <https://en.wikipedia.org/wiki/Fast_Fourier_transform>`__缓冲区的大小。较高的值可以使频谱分析随时间的推移而平滑，但有较大的延迟。这种较高延迟的影响在突然的振幅变化中特别明显。
+`快速傅里叶变换 <https://en.wikipedia.org/wiki/Fast_Fourier_transform>`__\ 缓冲区的大小。较高的值可以使频谱分析随时间的推移而平滑，但有较大的延迟。这种较高延迟的影响在突然的振幅变化中特别明显。
 
 ----
 

@@ -13,7 +13,7 @@ Node
 
 **Inherited By:** :ref:`AnimationPlayer<class_AnimationPlayer>`, :ref:`AnimationTree<class_AnimationTree>`, :ref:`AnimationTreePlayer<class_AnimationTreePlayer>`, :ref:`AudioStreamPlayer<class_AudioStreamPlayer>`, :ref:`CanvasItem<class_CanvasItem>`, :ref:`CanvasLayer<class_CanvasLayer>`, :ref:`EditorFileSystem<class_EditorFileSystem>`, :ref:`EditorInterface<class_EditorInterface>`, :ref:`EditorPlugin<class_EditorPlugin>`, :ref:`EditorResourcePreview<class_EditorResourcePreview>`, :ref:`HTTPRequest<class_HTTPRequest>`, :ref:`InstancePlaceholder<class_InstancePlaceholder>`, :ref:`ResourcePreloader<class_ResourcePreloader>`, :ref:`SkeletonIK<class_SkeletonIK>`, :ref:`Spatial<class_Spatial>`, :ref:`Timer<class_Timer>`, :ref:`Tween<class_Tween>`, :ref:`Viewport<class_Viewport>`, :ref:`WorldEnvironment<class_WorldEnvironment>`
 
-所有*场景*对象的基类。
+所有\ *场景*\ 对象的基类。
 
 Description
 -----------
@@ -289,7 +289,7 @@ Enumerations
 
 enum **PauseMode**:
 
-- **PAUSE_MODE_INHERIT** = **0** --- 继承节点的父节点的暂停模式。对于根节点，它相当于:ref:`PAUSE_MODE_STOP<class_Node_constant_PAUSE_MODE_STOP>`。默认值。
+- **PAUSE_MODE_INHERIT** = **0** --- 继承节点的父节点的暂停模式。对于根节点，它相当于\ :ref:`PAUSE_MODE_STOP<class_Node_constant_PAUSE_MODE_STOP>`。默认值。
 
 - **PAUSE_MODE_STOP** = **1** --- 当 :ref:`SceneTree<class_SceneTree>` 被暂停时，停止 process。
 
@@ -396,13 +396,13 @@ Constants
 
 - **NOTIFICATION_UNPAUSED** = **15** --- 节点暂停时收到该通知。
 
-- **NOTIFICATION_PHYSICS_PROCESS** = **16** --- 当 physics process flag 被设置时，每一帧都会收到该通知（见:ref:`set_physics_process<class_Node_method_set_physics_process>`）。
+- **NOTIFICATION_PHYSICS_PROCESS** = **16** --- 当 physics process flag 被设置时，每一帧都会收到该通知（见\ :ref:`set_physics_process<class_Node_method_set_physics_process>`）。
 
-- **NOTIFICATION_PROCESS** = **17** --- 当 process flag 被设置时，每一帧都收到通知（见:ref:`set_process<class_Node_method_set_process>`）。
+- **NOTIFICATION_PROCESS** = **17** --- 当 process flag 被设置时，每一帧都收到通知（见\ :ref:`set_process<class_Node_method_set_process>`）。
 
 - **NOTIFICATION_PARENTED** = **18** --- 当一个节点被设置为另一个节点的子节点时收到该通知。
 
-**注意:**这并不意味着一个节点进入了:ref:`SceneTree<class_SceneTree>`。
+**注意:**\ 这并不意味着一个节点进入了\ :ref:`SceneTree<class_SceneTree>`。
 
 - **NOTIFICATION_UNPARENTED** = **19** --- 当节点失去父节点时收到的通知（父节点将其从子节点列表中删除）。
 
@@ -414,11 +414,11 @@ Constants
 
 - **NOTIFICATION_PATH_CHANGED** = **23** --- 当节点的 :ref:`NodePath<class_NodePath>` 改变时收到的通知。
 
-- **NOTIFICATION_INTERNAL_PROCESS** = **25** --- 当 internal process flag 被设置时，每一帧都收到通知（见:ref:`set_process_internal<class_Node_method_set_process_internal>`）。
+- **NOTIFICATION_INTERNAL_PROCESS** = **25** --- 当 internal process flag 被设置时，每一帧都收到通知（见\ :ref:`set_process_internal<class_Node_method_set_process_internal>`）。
 
-- **NOTIFICATION_INTERNAL_PHYSICS_PROCESS** = **26** --- 当 internal physics process flag 被设置时，每一帧都会收到通知（见:ref:`set_physics_process_internal<class_Node_method_set_physics_process_internal>`）。
+- **NOTIFICATION_INTERNAL_PHYSICS_PROCESS** = **26** --- 当 internal physics process flag 被设置时，每一帧都会收到通知（见\ :ref:`set_physics_process_internal<class_Node_method_set_physics_process_internal>`）。
 
-- **NOTIFICATION_POST_ENTER_TREE** = **27** --- 在节点准备好时收到通知，就在收到:ref:`NOTIFICATION_READY<class_Node_constant_NOTIFICATION_READY>`\ 之前。与后者不同，它每次节点进入树时都会发送，而不是只发送一次。
+- **NOTIFICATION_POST_ENTER_TREE** = **27** --- 在节点准备好时收到通知，就在收到\ :ref:`NOTIFICATION_READY<class_Node_constant_NOTIFICATION_READY>`\ 之前。与后者不同，它每次节点进入树时都会发送，而不是只发送一次。
 
 - **NOTIFICATION_WM_MOUSE_ENTER** = **1002** --- 当鼠标进入游戏窗口时从操作系统收到的通知。
 
@@ -487,7 +487,7 @@ Property Descriptions
 | *Getter* | get_custom_multiplayer()      |
 +----------+-------------------------------+
 
-对默认的:ref:`MultiplayerAPI<class_MultiplayerAPI>`\ 的重写。设置为``null``\ 可以使用默认的:ref:`SceneTree<class_SceneTree>`。
+对默认的\ :ref:`MultiplayerAPI<class_MultiplayerAPI>`\ 的重写。设置为\ ``null``\ 可以使用默认的\ :ref:`SceneTree<class_SceneTree>`。
 
 ----
 
@@ -513,7 +513,7 @@ Property Descriptions
 | *Getter* | get_multiplayer() |
 +----------+-------------------+
 
-与该节点相关的:ref:`MultiplayerAPI<class_MultiplayerAPI>`\ 实例。要么是:ref:`custom_multiplayer<class_Node_property_custom_multiplayer>`，要么是默认的SceneTree（如果在树内）。
+与该节点相关的\ :ref:`MultiplayerAPI<class_MultiplayerAPI>`\ 实例。要么是\ :ref:`custom_multiplayer<class_Node_property_custom_multiplayer>`，要么是默认的SceneTree（如果在树内）。
 
 ----
 
@@ -577,7 +577,7 @@ The node owner. A node can have any other node as owner (as long as it is a vali
 | *Getter*  | get_process_priority()      |
 +-----------+-----------------------------+
 
-节点在已启用的处理回调（即 :ref:`NOTIFICATION_PROCESS<class_Node_constant_NOTIFICATION_PROCESS>`、:ref:`NOTIFICATION_PHYSICS_PROCESS<class_Node_constant_NOTIFICATION_PHYSICS_PROCESS>` 及其内部对应物）的执行顺序中的优先级。进程优先级值*较低*的节点将首先执行其处理回调。
+节点在已启用的处理回调（即 :ref:`NOTIFICATION_PROCESS<class_Node_constant_NOTIFICATION_PROCESS>`、:ref:`NOTIFICATION_PHYSICS_PROCESS<class_Node_constant_NOTIFICATION_PHYSICS_PROCESS>` 及其内部对应物）的执行顺序中的优先级。进程优先级值\ *较低*\ 的节点将首先执行其处理回调。
 
 Method Descriptions
 -------------------
@@ -586,9 +586,9 @@ Method Descriptions
 
 - void **_enter_tree** **(** **)** |virtual|
 
-当节点进入:ref:`SceneTree<class_SceneTree>`\ 时调用(例如实例化时，场景改变时，或者在脚本中调用:ref:`add_child<class_Node_method_add_child>`\ 后)。如果节点有子节点，则首先调用它的:ref:`_enter_tree<class_Node_method__enter_tree>`\ 回调函数，然后再调用子节点的回调函数。
+当节点进入\ :ref:`SceneTree<class_SceneTree>`\ 时调用(例如实例化时，场景改变时，或者在脚本中调用\ :ref:`add_child<class_Node_method_add_child>`\ 后)。如果节点有子节点，则首先调用它的\ :ref:`_enter_tree<class_Node_method__enter_tree>`\ 回调函数，然后再调用子节点的回调函数。
 
-对应于:ref:`Object._notification<class_Object_method__notification>`\ 中的:ref:`NOTIFICATION_ENTER_TREE<class_Node_constant_NOTIFICATION_ENTER_TREE>`\ 通知。
+对应于\ :ref:`Object._notification<class_Object_method__notification>`\ 中的\ :ref:`NOTIFICATION_ENTER_TREE<class_Node_constant_NOTIFICATION_ENTER_TREE>`\ 通知。
 
 ----
 
@@ -596,7 +596,7 @@ Method Descriptions
 
 - void **_exit_tree** **(** **)** |virtual|
 
-当节点即将离开:ref:`SceneTree<class_SceneTree>`\ 时被调用（例如，在释放、场景改变或在脚本中调用:ref:`remove_child<class_Node_method_remove_child>`\ 后）。如果该节点有子节点，它的:ref:`_exit_tree<class_Node_method__exit_tree>`\ 回调将在所有子节点离开树后被最后调用。
+当节点即将离开\ :ref:`SceneTree<class_SceneTree>`\ 时被调用（例如，在释放、场景改变或在脚本中调用\ :ref:`remove_child<class_Node_method_remove_child>`\ 后）。如果该节点有子节点，它的\ :ref:`_exit_tree<class_Node_method__exit_tree>`\ 回调将在所有子节点离开树后被最后调用。
 
 对应于 :ref:`Object._notification<class_Object_method__notification>` 中的 :ref:`NOTIFICATION_EXIT_TREE<class_Node_constant_NOTIFICATION_EXIT_TREE>` 通知和 :ref:`tree_exiting<class_Node_signal_tree_exiting>` 信号。要在节点已经离开活动树时得到通知，请连接到 :ref:`tree_exited<class_Node_signal_tree_exited>` 。
 
@@ -606,11 +606,11 @@ Method Descriptions
 
 - :ref:`String<class_String>` **_get_configuration_warning** **(** **)** |virtual|
 
-如果覆盖该方法的脚本是一个``tool``\ 脚本，那么从该方法返回的字符串将在Scene Dock中显示为一个警告。
+如果覆盖该方法的脚本是一个\ ``tool``\ 脚本，那么从该方法返回的字符串将在Scene Dock中显示为一个警告。
 
 返回一个空字符串不会产生警告。
 
-当需要更新这个节点的警告时，调用:ref:`update_configuration_warning<class_Node_method_update_configuration_warning>`。
+当需要更新这个节点的警告时，调用\ :ref:`update_configuration_warning<class_Node_method_update_configuration_warning>`。
 
 ----
 
@@ -620,11 +620,11 @@ Method Descriptions
 
 当有输入事件时被调用。输入事件通过节点树向上传播，直到一个节点消耗它。
 
-只有当输入处理被启用时才会被调用，如果这个方法被重写，它就会自动完成，可以用:ref:`set_process_input<class_Node_method_set_process_input>`\ 来切换。
+只有当输入处理被启用时才会被调用，如果这个方法被重写，它就会自动完成，可以用\ :ref:`set_process_input<class_Node_method_set_process_input>`\ 来切换。
 
-要消耗输入事件并阻止它进一步传播到其他节点，可以调用:ref:`SceneTree.set_input_as_handled<class_SceneTree_method_set_input_as_handled>`。
+要消耗输入事件并阻止它进一步传播到其他节点，可以调用\ :ref:`SceneTree.set_input_as_handled<class_SceneTree_method_set_input_as_handled>`。
 
-对于游戏输入，:ref:`_unhandled_input<class_Node_method__unhandled_input>`\ 和:ref:`_unhandled_key_input<class_Node_method__unhandled_key_input>`\ 通常更适合，因为它们允许GUI首先拦截事件。
+对于游戏输入，:ref:`_unhandled_input<class_Node_method__unhandled_input>`\ 和\ :ref:`_unhandled_key_input<class_Node_method__unhandled_key_input>`\ 通常更适合，因为它们允许GUI首先拦截事件。
 
 **注意：** 这个方法只有在节点存在于场景树中时才会被调用（也就是说，如果它非"孤儿"）。
 
@@ -634,11 +634,11 @@ Method Descriptions
 
 - void **_physics_process** **(** :ref:`float<class_float>` delta **)** |virtual|
 
-在主循环的物理处理步骤中被调用。物理处理意味着帧率与物理同步，即``delta``\ 变量应该是常量。``delta``\ 的单位是秒。
+在主循环的物理处理步骤中被调用。物理处理意味着帧率与物理同步，即\ ``delta``\ 变量应该是常量。``delta``\ 的单位是秒。
 
-只有当物理处理被启用时才会被调用，如果这个方法被重写，就会自动完成，可以用:ref:`set_physics_process<class_Node_method_set_physics_process>`\ 来切换。
+只有当物理处理被启用时才会被调用，如果这个方法被重写，就会自动完成，可以用\ :ref:`set_physics_process<class_Node_method_set_physics_process>`\ 来切换。
 
-对应于:ref:`Object._notification<class_Object_method__notification>`\ 中的:ref:`NOTIFICATION_PHYSICS_PROCESS<class_Node_constant_NOTIFICATION_PHYSICS_PROCESS>`\ 通知。
+对应于\ :ref:`Object._notification<class_Object_method__notification>`\ 中的\ :ref:`NOTIFICATION_PHYSICS_PROCESS<class_Node_constant_NOTIFICATION_PHYSICS_PROCESS>`\ 通知。
 
 **注意：** 这个方法只有在节点存在于场景树中时才会被调用（也就是说，如果它不是"孤儿"）。
 
@@ -648,11 +648,11 @@ Method Descriptions
 
 - void **_process** **(** :ref:`float<class_float>` delta **)** |virtual|
 
-在主循环的处理步骤中被调用。处理发生在每一帧，并且尽可能快，所以从上一帧开始的``delta``\ 时间不是恒定的。``delta``\ 的单位是秒。
+在主循环的处理步骤中被调用。处理发生在每一帧，并且尽可能快，所以从上一帧开始的\ ``delta``\ 时间不是恒定的。``delta``\ 的单位是秒。
 
-只有在启用处理的情况下才会被调用，如果这个方法被重写，会自动进行处理，可以用:ref:`set_process<class_Node_method_set_process>`\ 来切换。
+只有在启用处理的情况下才会被调用，如果这个方法被重写，会自动进行处理，可以用\ :ref:`set_process<class_Node_method_set_process>`\ 来切换。
 
-对应于:ref:`Object._notification<class_Object_method__notification>`\ 中的:ref:`NOTIFICATION_PROCESS<class_Node_constant_NOTIFICATION_PROCESS>`\ 通知。
+对应于\ :ref:`Object._notification<class_Object_method__notification>`\ 中的\ :ref:`NOTIFICATION_PROCESS<class_Node_constant_NOTIFICATION_PROCESS>`\ 通知。
 
 **注意：** 这个方法只有在节点存在于场景树中时才会被调用（也就是说，如果它不是"孤儿"）。
 
@@ -662,13 +662,13 @@ Method Descriptions
 
 - void **_ready** **(** **)** |virtual|
 
-当节点 "就绪 "时被调用。子节点的:ref:`_ready<class_Node_method__ready>`\ 回调会首先被触发，而父节点会在之后收到就绪通知。
+当节点 "就绪 "时被调用。子节点的\ :ref:`_ready<class_Node_method__ready>`\ 回调会首先被触发，而父节点会在之后收到就绪通知。
 
-对应于:ref:`Object._notification<class_Object_method__notification>`\ 中的:ref:`NOTIFICATION_READY<class_Node_constant_NOTIFICATION_READY>`\ 通知。也请参阅变量的``onready``\ 关键字。
+对应于\ :ref:`Object._notification<class_Object_method__notification>`\ 中的\ :ref:`NOTIFICATION_READY<class_Node_constant_NOTIFICATION_READY>`\ 通知。也请参阅变量的\ ``onready``\ 关键字。
 
-通常用于初始化。对于更早的初始化，可以使用:ref:`Object._init<class_Object_method__init>`。也请参阅:ref:`_enter_tree<class_Node_method__enter_tree>`。
+通常用于初始化。对于更早的初始化，可以使用\ :ref:`Object._init<class_Object_method__init>`。也请参阅\ :ref:`_enter_tree<class_Node_method__enter_tree>`。
 
-**注意：** :ref:`_ready<class_Node_method__ready>` 对于每个节点只能调用一次。在从场景树中删除一个节点并再次添加后，``_ready``\ 将不会被第二次调用。这可以通过请求再次调用:ref:`request_ready<class_Node_method_request_ready>`\ 来绕过，它可以在再次添加节点之前的任何地方调用。
+**注意：** :ref:`_ready<class_Node_method__ready>` 对于每个节点只能调用一次。在从场景树中删除一个节点并再次添加后，``_ready``\ 将不会被第二次调用。这可以通过请求再次调用\ :ref:`request_ready<class_Node_method_request_ready>`\ 来绕过，它可以在再次添加节点之前的任何地方调用。
 
 ----
 
@@ -676,13 +676,13 @@ Method Descriptions
 
 - void **_unhandled_input** **(** :ref:`InputEvent<class_InputEvent>` event **)** |virtual|
 
-当:ref:`InputEvent<class_InputEvent>`\ 还未被:ref:`_input<class_Node_method__input>`\ 或任何GUI消耗时调用。输入事件通过节点树向上传播，直到一个节点消耗它。
+当\ :ref:`InputEvent<class_InputEvent>`\ 还未被\ :ref:`_input<class_Node_method__input>`\ 或任何GUI消耗时调用。输入事件通过节点树向上传播，直到一个节点消耗它。
 
-只有在启用了未处理的输入处理时才会被调用，如果这个方法被重写，它就会自动完成，并且可以用:ref:`set_process_unhandled_input<class_Node_method_set_process_unhandled_input>`\ 来切换。
+只有在启用了未处理的输入处理时才会被调用，如果这个方法被重写，它就会自动完成，并且可以用\ :ref:`set_process_unhandled_input<class_Node_method_set_process_unhandled_input>`\ 来切换。
 
-要消耗输入事件并阻止它进一步传播到其他节点，可以调用:ref:`SceneTree.set_input_as_handled<class_SceneTree_method_set_input_as_handled>`。
+要消耗输入事件并阻止它进一步传播到其他节点，可以调用\ :ref:`SceneTree.set_input_as_handled<class_SceneTree_method_set_input_as_handled>`。
 
-对于游戏输入，这和:ref:`_unhandled_key_input<class_Node_method__unhandled_key_input>`\ 通常比:ref:`_input<class_Node_method__input>`\ 更适合，因为它们允许GUI首先拦截事件。
+对于游戏输入，这和\ :ref:`_unhandled_key_input<class_Node_method__unhandled_key_input>`\ 通常比\ :ref:`_input<class_Node_method__input>`\ 更适合，因为它们允许GUI首先拦截事件。
 
 **注意：** 这个方法只有在节点存在于场景树中时才会被调用（也就是说，如果它不是"孤儿"）。
 
@@ -692,13 +692,13 @@ Method Descriptions
 
 - void **_unhandled_key_input** **(** :ref:`InputEventKey<class_InputEventKey>` event **)** |virtual|
 
-当:ref:`InputEventKey<class_InputEventKey>`\ 没有被:ref:`_input<class_Node_method__input>`\ 或任何GUI消耗时被调用。输入事件通过节点树向上传播，直到一个节点消耗它。
+当\ :ref:`InputEventKey<class_InputEventKey>`\ 没有被\ :ref:`_input<class_Node_method__input>`\ 或任何GUI消耗时被调用。输入事件通过节点树向上传播，直到一个节点消耗它。
 
-只有在启用了未处理的键输入处理时才会被调用，如果这个方法被重写，它就会自动完成，并且可以用:ref:`set_process_unhandled_key_input<class_Node_method_set_process_unhandled_key_input>`\ 来切换。
+只有在启用了未处理的键输入处理时才会被调用，如果这个方法被重写，它就会自动完成，并且可以用\ :ref:`set_process_unhandled_key_input<class_Node_method_set_process_unhandled_key_input>`\ 来切换。
 
-要消耗输入事件并阻止它进一步传播到其他节点，可以调用:ref:`SceneTree.set_input_as_handled<class_SceneTree_method_set_input_as_handled>`。
+要消耗输入事件并阻止它进一步传播到其他节点，可以调用\ :ref:`SceneTree.set_input_as_handled<class_SceneTree_method_set_input_as_handled>`。
 
-对于游戏输入，这和:ref:`_unhandled_input<class_Node_method__unhandled_input>`\ 通常比:ref:`_input<class_Node_method__input>`\ 更适合，因为它们允许GUI首先拦截事件。
+对于游戏输入，这和\ :ref:`_unhandled_input<class_Node_method__unhandled_input>`\ 通常比\ :ref:`_input<class_Node_method__input>`\ 更适合，因为它们允许GUI首先拦截事件。
 
 **注意：** 这个方法只有在节点存在于场景树中时才会被调用（也就是说，如果它不是"孤儿"）。
 
@@ -728,9 +728,9 @@ If ``legible_unique_name`` is ``true``, the child node will have a human-readabl
 
 - void **add_child_below_node** **(** :ref:`Node<class_Node>` node, :ref:`Node<class_Node>` child_node, :ref:`bool<class_bool>` legible_unique_name=false **)**
 
-添加``child_node``\ 作为子节点。该子节点在子节点列表中被置于给定的``node``\ 之下。
+添加\ ``child_node``\ 作为子节点。该子节点在子节点列表中被置于给定的\ ``node``\ 之下。
 
-如果``legible_unique_name``\ 是``true``，子节点将有一个基于被实例化的节点名称，而不是其类型可读的名称。
+如果\ ``legible_unique_name``\ 是\ ``true``，子节点将有一个基于被实例化的节点名称，而不是其类型可读的名称。
 
 ----
 
@@ -742,7 +742,7 @@ If ``legible_unique_name`` is ``true``, the child node will have a human-readabl
 
 当把节点打包到 :ref:`PackedScene<class_PackedScene>` 并保存到文件时，会使用 ``persistent`` 选项。非持久化的组不会被存储。
 
-**注意：**由于性能原因，*不保证*节点组的顺序。不应该依赖节点组的顺序，因为每次运行项目节点组的顺序都可能变化。
+**注意：**\ 由于性能原因，*不保证*\ 节点组的顺序。不应该依赖节点组的顺序，因为每次运行项目节点组的顺序都可能变化。
 
 ----
 
@@ -750,7 +750,7 @@ If ``legible_unique_name`` is ``true``, the child node will have a human-readabl
 
 - :ref:`bool<class_bool>` **can_process** **(** **)** |const|
 
-如果节点可以在场景树暂停时进行处理，返回``true``（见:ref:`pause_mode<class_Node_property_pause_mode>`）。如果场景树没有暂停，总是返回``true``，如果节点不在树中，则返回``false``。
+如果节点可以在场景树暂停时进行处理，返回\ ``true``\ （见\ :ref:`pause_mode<class_Node_property_pause_mode>`）。如果场景树没有暂停，总是返回\ ``true``，如果节点不在树中，则返回\ ``false``。
 
 ----
 
@@ -760,9 +760,9 @@ If ``legible_unique_name`` is ``true``, the child node will have a human-readabl
 
 复制节点，返回一个新的节点。
 
-你可以使用``flags``\ 来微调这个行为（见:ref:`DuplicateFlags<enum_Node_DuplicateFlags>`）。
+你可以使用\ ``flags``\ 来微调这个行为（见\ :ref:`DuplicateFlags<enum_Node_DuplicateFlags>`）。
 
-**注意：** 如果节点包含一个带有构造参数的脚本（即需要向:ref:`Object._init<class_Object_method__init>`\ 方法提供参数），它将不能正常工作。在这种情况下，节点将被复制而没有脚本。
+**注意：** 如果节点包含一个带有构造参数的脚本（即需要向\ :ref:`Object._init<class_Object_method__init>`\ 方法提供参数），它将不能正常工作。在这种情况下，节点将被复制而没有脚本。
 
 ----
 
@@ -784,11 +784,11 @@ If ``owned`` is ``true``, this method only finds nodes whose owner is this node.
 
 - :ref:`Node<class_Node>` **find_parent** **(** :ref:`String<class_String>` mask **)** |const|
 
-查找当前节点的第一个父节点，其名称与:ref:`String.match<class_String_method_match>`\ 中的``mask``\ 相匹配，区分大小写，其``"*"``\ 匹配零或多个字符，``"?"``\ 匹配任何单个字符，除了``"."``。
+查找当前节点的第一个父节点，其名称与\ :ref:`String.match<class_String_method_match>`\ 中的\ ``mask``\ 相匹配，区分大小写，其\ ``"*"``\ 匹配零或多个字符，``"?"``\ 匹配任何单个字符，除了\ ``"."``。
 
-**注意：**它不是全路径匹配，只与单个节点名称匹配。
+**注意：**\ 它不是全路径匹配，只与单个节点名称匹配。
 
-**注意：**由于这个方法在场景树中向上行走，在大型的、深度嵌套的场景树中可能会很慢。只要有可能，请考虑使用:ref:`get_node<class_Node_method_get_node>`\ 代替。为了避免过于频繁地使用:ref:`find_parent<class_Node_method_find_parent>`，考虑将节点引用缓存到一个变量中。
+**注意：**\ 由于这个方法在场景树中向上行走，在大型的、深度嵌套的场景树中可能会很慢。只要有可能，请考虑使用\ :ref:`get_node<class_Node_method_get_node>`\ 代替。为了避免过于频繁地使用\ :ref:`find_parent<class_Node_method_find_parent>`，考虑将节点引用缓存到一个变量中。
 
 ----
 
@@ -796,9 +796,9 @@ If ``owned`` is ``true``, this method only finds nodes whose owner is this node.
 
 - :ref:`Node<class_Node>` **get_child** **(** :ref:`int<class_int>` idx **)** |const|
 
-按索引返回一个子节点（见:ref:`get_child_count<class_Node_method_get_child_count>`）。这个方法经常被用于遍历一个节点的所有子节点。
+按索引返回一个子节点（见\ :ref:`get_child_count<class_Node_method_get_child_count>`）。这个方法经常被用于遍历一个节点的所有子节点。
 
-要通过一个子节点的名字访问它，请使用:ref:`get_node<class_Node_method_get_node>`。
+要通过一个子节点的名字访问它，请使用\ :ref:`get_node<class_Node_method_get_node>`。
 
 ----
 
@@ -824,9 +824,9 @@ If ``owned`` is ``true``, this method only finds nodes whose owner is this node.
 
 返回罗列该节点所在分组的数组。
 
-**注意：**出于性能原因，*不保证*节点分组的顺序。不应该依赖节点分组的顺序，因为每次运行得到的顺序都可能不同。
+**注意：**\ 出于性能原因，*不保证*\ 节点分组的顺序。不应该依赖节点分组的顺序，因为每次运行得到的顺序都可能不同。
 
-**注意：**引擎内部会使用一些分组名称（均由下划线开头）。如果想避免与内部分组冲突，请勿添加名称以下划线开头的自定义分组。要在遍历 :ref:`get_groups<class_Node_method_get_groups>` 时排除内部分组，请使用下面这段代码：
+**注意：**\ 引擎内部会使用一些分组名称（均由下划线开头）。如果想避免与内部分组冲突，请勿添加名称以下划线开头的自定义分组。要在遍历 :ref:`get_groups<class_Node_method_get_groups>` 时排除内部分组，请使用下面这段代码：
 
 ::
 
@@ -860,9 +860,9 @@ If ``owned`` is ``true``, this method only finds nodes whose owner is this node.
 
 获取一个节点。:ref:`NodePath<class_NodePath>` 可以是一个相对路径（从当前节点），也可以是一个绝对路径(在场景树中)。如果路径不存在，则返回 ``null instance``，并记录错误。尝试访问返回值上的方法将导致“Attempt to call <method> on a null instance.”错误。
 
-**注意：**获取绝对路径只在节点在场景树中时生效（请参阅 :ref:`is_inside_tree<class_Node_method_is_inside_tree>`）。
+**注意：**\ 获取绝对路径只在节点在场景树中时生效（请参阅 :ref:`is_inside_tree<class_Node_method_is_inside_tree>`）。
 
-**示例：**假设你当前的节点是 Character，并且有一下树结构:
+**示例：**\ 假设你当前的节点是 Character，并且有一下树结构:
 
 ::
 
@@ -890,11 +890,11 @@ If ``owned`` is ``true``, this method only finds nodes whose owner is this node.
 
 - :ref:`Array<class_Array>` **get_node_and_resource** **(** :ref:`NodePath<class_NodePath>` path **)**
 
-获取一个节点及其由:ref:`NodePath<class_NodePath>`\ 子名称指定的资源(例如``Area2D/CollisionShape2D:shape``)。如果在:ref:`NodePath<class_NodePath>`\ 中指定了多个嵌套资源，则将获取最后一个。
+获取一个节点及其由\ :ref:`NodePath<class_NodePath>`\ 子名称指定的资源(例如\ ``Area2D/CollisionShape2D:shape``)。如果在\ :ref:`NodePath<class_NodePath>`\ 中指定了多个嵌套资源，则将获取最后一个。
 
-返回值是一个大小为3的数组:第一个索引指向``Node``\ (或``null``)，第二个索引指向:ref:`Resource<class_Resource>`\ (或``null``)，第三个索引是剩余的:ref:`NodePath<class_NodePath>`。
+返回值是一个大小为3的数组:第一个索引指向\ ``Node``\ (或\ ``null``)，第二个索引指向\ :ref:`Resource<class_Resource>`\ (或\ ``null``)，第三个索引是剩余的\ :ref:`NodePath<class_NodePath>`。
 
-例如，假设``Area2D/CollisionShape2D``\ 是一个有效的节点，并且它的``shape``\ 属性被分配了一个:ref:`RectangleShape2D<class_RectangleShape2D>`\ 资源，可以有这样的输出:
+例如，假设\ ``Area2D/CollisionShape2D``\ 是一个有效的节点，并且它的\ ``shape``\ 属性被分配了一个\ :ref:`RectangleShape2D<class_RectangleShape2D>`\ 资源，可以有这样的输出:
 
 ::
 
@@ -908,7 +908,7 @@ If ``owned`` is ``true``, this method only finds nodes whose owner is this node.
 
 - :ref:`Node<class_Node>` **get_node_or_null** **(** :ref:`NodePath<class_NodePath>` path **)** |const|
 
-类似于:ref:`get_node<class_Node_method_get_node>`，但如果``路径``\ 没有指向有效的``Node``，则不会记录错误。
+类似于\ :ref:`get_node<class_Node_method_get_node>`，但如果\ ``路径``\ 没有指向有效的\ ``Node``，则不会记录错误。
 
 ----
 
@@ -916,7 +916,7 @@ If ``owned`` is ``true``, this method only finds nodes whose owner is this node.
 
 - :ref:`Node<class_Node>` **get_parent** **(** **)** |const|
 
-返回当前节点的父节点，如果节点缺少父节点，则返回``null instance``。
+返回当前节点的父节点，如果节点缺少父节点，则返回\ ``null instance``。
 
 ----
 
@@ -932,7 +932,7 @@ If ``owned`` is ``true``, this method only finds nodes whose owner is this node.
 
 - :ref:`NodePath<class_NodePath>` **get_path_to** **(** :ref:`Node<class_Node>` node **)** |const|
 
-从这个节点返回到指定的``node``\ 的相对:ref:`NodePath<class_NodePath>`。两个节点必须在同一个场景中，否则函数将失败。
+从这个节点返回到指定的\ ``node``\ 的相对\ :ref:`NodePath<class_NodePath>`。两个节点必须在同一个场景中，否则函数将失败。
 
 ----
 
@@ -948,7 +948,7 @@ If ``owned`` is ``true``, this method only finds nodes whose owner is this node.
 
 - :ref:`int<class_int>` **get_position_in_parent** **(** **)** |const|
 
-返回场景树分支中节点的顺序。例如，如果在第一个子节点上调用，则位置为``0``。
+返回场景树分支中节点的顺序。例如，如果在第一个子节点上调用，则位置为\ ``0``。
 
 ----
 
@@ -964,7 +964,7 @@ If ``owned`` is ``true``, this method only finds nodes whose owner is this node.
 
 - :ref:`bool<class_bool>` **get_scene_instance_load_placeholder** **(** **)** |const|
 
-如果这是一个实例加载占位符，则返回``true``。看到:ref:`InstancePlaceholder<class_InstancePlaceholder>`。
+如果这是一个实例加载占位符，则返回\ ``true``。看到\ :ref:`InstancePlaceholder<class_InstancePlaceholder>`。
 
 ----
 
@@ -972,7 +972,7 @@ If ``owned`` is ``true``, this method only finds nodes whose owner is this node.
 
 - :ref:`SceneTree<class_SceneTree>` **get_tree** **(** **)** |const|
 
-返回包含该节点的:ref:`SceneTree<class_SceneTree>`。
+返回包含该节点的\ :ref:`SceneTree<class_SceneTree>`。
 
 ----
 
@@ -980,7 +980,7 @@ If ``owned`` is ``true``, this method only finds nodes whose owner is this node.
 
 - :ref:`Viewport<class_Viewport>` **get_viewport** **(** **)** |const|
 
-返回节点的:ref:`Viewport<class_Viewport>`。
+返回节点的\ :ref:`Viewport<class_Viewport>`。
 
 ----
 
@@ -988,7 +988,7 @@ If ``owned`` is ``true``, this method only finds nodes whose owner is this node.
 
 - :ref:`bool<class_bool>` **has_node** **(** :ref:`NodePath<class_NodePath>` path **)** |const|
 
-如果:ref:`NodePath<class_NodePath>`\ 指向的节点存在，则返回``true``。
+如果\ :ref:`NodePath<class_NodePath>`\ 指向的节点存在，则返回\ ``true``。
 
 ----
 
@@ -996,7 +996,7 @@ If ``owned`` is ``true``, this method only finds nodes whose owner is this node.
 
 - :ref:`bool<class_bool>` **has_node_and_resource** **(** :ref:`NodePath<class_NodePath>` path **)** |const|
 
-如果:ref:`NodePath<class_NodePath>`\ 指向一个有效的节点，并且它的子名称指向一个有效的资源，例如``Area2D/CollisionShape2D:shape``，则返回``true``。具有非:ref:`Resource<class_Resource>`\ 类型的属性(例如节点或基本数学类型)不被认为是资源。
+如果\ :ref:`NodePath<class_NodePath>`\ 指向一个有效的节点，并且它的子名称指向一个有效的资源，例如\ ``Area2D/CollisionShape2D:shape``，则返回\ ``true``。具有非\ :ref:`Resource<class_Resource>`\ 类型的属性(例如节点或基本数学类型)不被认为是资源。
 
 ----
 
@@ -1004,7 +1004,7 @@ If ``owned`` is ``true``, this method only finds nodes whose owner is this node.
 
 - :ref:`bool<class_bool>` **is_a_parent_of** **(** :ref:`Node<class_Node>` node **)** |const|
 
-如果给定节点是当前节点的直接或间接子节点，则返回``true``。
+如果给定节点是当前节点的直接或间接子节点，则返回\ ``true``。
 
 ----
 
@@ -1012,7 +1012,7 @@ If ``owned`` is ``true``, this method only finds nodes whose owner is this node.
 
 - :ref:`bool<class_bool>` **is_displayed_folded** **(** **)** |const|
 
-如果节点在场景dock中折叠(collapsed)，则返回``true``。
+如果节点在场景dock中折叠(collapsed)，则返回\ ``true``。
 
 ----
 
@@ -1020,7 +1020,7 @@ If ``owned`` is ``true``, this method only finds nodes whose owner is this node.
 
 - :ref:`bool<class_bool>` **is_greater_than** **(** :ref:`Node<class_Node>` node **)** |const|
 
-如果给定节点在场景层次结构中出现的时间晚于当前节点，则返回``true``。
+如果给定节点在场景层次结构中出现的时间晚于当前节点，则返回\ ``true``。
 
 ----
 
@@ -1028,7 +1028,7 @@ If ``owned`` is ``true``, this method only finds nodes whose owner is this node.
 
 - :ref:`bool<class_bool>` **is_in_group** **(** :ref:`String<class_String>` group **)** |const|
 
-如果该节点在指定的组中，则返回``true``。参阅描述中的注释和:ref:`SceneTree<class_SceneTree>`\ 中的组方法。
+如果该节点在指定的组中，则返回\ ``true``。参阅描述中的注释和\ :ref:`SceneTree<class_SceneTree>`\ 中的组方法。
 
 ----
 
@@ -1036,7 +1036,7 @@ If ``owned`` is ``true``, this method only finds nodes whose owner is this node.
 
 - :ref:`bool<class_bool>` **is_inside_tree** **(** **)** |const|
 
-如果该节点当前在:ref:`SceneTree<class_SceneTree>`\ 中，返回``true``。
+如果该节点当前在\ :ref:`SceneTree<class_SceneTree>`\ 中，返回\ ``true``。
 
 ----
 
@@ -1044,7 +1044,7 @@ If ``owned`` is ``true``, this method only finds nodes whose owner is this node.
 
 - :ref:`bool<class_bool>` **is_network_master** **(** **)** |const|
 
-如果本地系统是此节点的主系统（用于多人游戏），则返回``true``。
+如果本地系统是此节点的主系统（用于多人游戏），则返回\ ``true``。
 
 ----
 
@@ -1052,7 +1052,7 @@ If ``owned`` is ``true``, this method only finds nodes whose owner is this node.
 
 - :ref:`bool<class_bool>` **is_physics_processing** **(** **)** |const|
 
-如果启用了物理处理，返回``true``\ (参阅:ref:`set_physics_process<class_Node_method_set_physics_process>`)。
+如果启用了物理处理，返回\ ``true``\ (参阅\ :ref:`set_physics_process<class_Node_method_set_physics_process>`)。
 
 ----
 
@@ -1060,7 +1060,7 @@ If ``owned`` is ``true``, this method only finds nodes whose owner is this node.
 
 - :ref:`bool<class_bool>` **is_physics_processing_internal** **(** **)** |const|
 
-如果内部物理处理被启用，返回``true``\ (见:ref:`set_physics_process_internal<class_Node_method_set_physics_process_internal>`)。
+如果内部物理处理被启用，返回\ ``true``\ (见\ :ref:`set_physics_process_internal<class_Node_method_set_physics_process_internal>`)。
 
 ----
 
@@ -1068,7 +1068,7 @@ If ``owned`` is ``true``, this method only finds nodes whose owner is this node.
 
 - :ref:`bool<class_bool>` **is_processing** **(** **)** |const|
 
-如果开启了处理，返回``true``\ (参阅:ref:`set_process<class_Node_method_set_process>`)。
+如果开启了处理，返回\ ``true``\ (参阅\ :ref:`set_process<class_Node_method_set_process>`)。
 
 ----
 
@@ -1076,7 +1076,7 @@ If ``owned`` is ``true``, this method only finds nodes whose owner is this node.
 
 - :ref:`bool<class_bool>` **is_processing_input** **(** **)** |const|
 
-如果节点正在处理输入（请参阅 :ref:`set_process_input<class_Node_method_set_process_input>`），则返回``true``。
+如果节点正在处理输入（请参阅 :ref:`set_process_input<class_Node_method_set_process_input>`），则返回\ ``true``。
 
 ----
 
@@ -1084,7 +1084,7 @@ If ``owned`` is ``true``, this method only finds nodes whose owner is this node.
 
 - :ref:`bool<class_bool>` **is_processing_internal** **(** **)** |const|
 
-如果启用了内部处理，返回``true``\ (参阅:ref:`set_process_internal<class_Node_method_set_process_internal>`)。
+如果启用了内部处理，返回\ ``true``\ (参阅\ :ref:`set_process_internal<class_Node_method_set_process_internal>`)。
 
 ----
 
@@ -1092,7 +1092,7 @@ If ``owned`` is ``true``, this method only finds nodes whose owner is this node.
 
 - :ref:`bool<class_bool>` **is_processing_unhandled_input** **(** **)** |const|
 
-如果节点正在处理未被处理的输入(参阅:ref:`set_process_unhandled_input<class_Node_method_set_process_unhandled_input>`)，则返回``true``。
+如果节点正在处理未被处理的输入(参阅\ :ref:`set_process_unhandled_input<class_Node_method_set_process_unhandled_input>`)，则返回\ ``true``。
 
 ----
 
@@ -1100,7 +1100,7 @@ If ``owned`` is ``true``, this method only finds nodes whose owner is this node.
 
 - :ref:`bool<class_bool>` **is_processing_unhandled_key_input** **(** **)** |const|
 
-如果节点正在处理未被处理的键输入(参阅:ref:`set_process_unhandled_key_input<class_Node_method_set_process_unhandled_key_input>`)，则返回``true``。
+如果节点正在处理未被处理的键输入(参阅\ :ref:`set_process_unhandled_key_input<class_Node_method_set_process_unhandled_key_input>`)，则返回\ ``true``。
 
 ----
 
@@ -1124,7 +1124,7 @@ If ``owned`` is ``true``, this method only finds nodes whose owner is this node.
 
 - void **print_tree** **(** **)**
 
-将树打印到标准输出。主要用于调试。这个版本显示相对于当前节点的路径，适合复制/粘贴到:ref:`get_node<class_Node_method_get_node>`\ 函数中。
+将树打印到标准输出。主要用于调试。这个版本显示相对于当前节点的路径，适合复制/粘贴到\ :ref:`get_node<class_Node_method_get_node>`\ 函数中。
 
 **示例输出:**
 
@@ -1143,7 +1143,7 @@ If ``owned`` is ``true``, this method only finds nodes whose owner is this node.
 
 - void **print_tree_pretty** **(** **)**
 
-类似于:ref:`print_tree<class_Node_method_print_tree>`，它将树打印到标准输出。这个版本显示更多的图形，类似于在场景检查器中显示的内容。它对于检查较大的树很有用。
+类似于\ :ref:`print_tree<class_Node_method_print_tree>`，它将树打印到标准输出。这个版本显示更多的图形，类似于在场景检查器中显示的内容。它对于检查较大的树很有用。
 
 **输出示例：**
 
@@ -1162,7 +1162,7 @@ If ``owned`` is ``true``, this method only finds nodes whose owner is this node.
 
 - void **propagate_call** **(** :ref:`String<class_String>` method, :ref:`Array<class_Array>` args=[  ], :ref:`bool<class_bool>` parent_first=false **)**
 
-在这个节点上使用``args``\ 中给出的参数调用给定的方法(如果存在)，并递归地在其所有子节点身上调用。如果``parent_first``\ 参数为``true``，该方法将首先在当前节点上调用，然后在其所有子节点上调用。如果``parent_first``\ 为``false``，子节点的方法将首先被调用。
+在这个节点上使用\ ``args``\ 中给出的参数调用给定的方法(如果存在)，并递归地在其所有子节点身上调用。如果\ ``parent_first``\ 参数为\ ``true``，该方法将首先在当前节点上调用，然后在其所有子节点上调用。如果\ ``parent_first``\ 为\ ``false``，子节点的方法将首先被调用。
 
 ----
 
@@ -1170,7 +1170,7 @@ If ``owned`` is ``true``, this method only finds nodes whose owner is this node.
 
 - void **propagate_notification** **(** :ref:`int<class_int>` what **)**
 
-通过对所有节点调用:ref:`Object.notification<class_Object_method_notification>`，递归地通知当前节点和它的所有子节点。
+通过对所有节点调用\ :ref:`Object.notification<class_Object_method_notification>`，递归地通知当前节点和它的所有子节点。
 
 ----
 
@@ -1178,9 +1178,9 @@ If ``owned`` is ``true``, this method only finds nodes whose owner is this node.
 
 - void **queue_free** **(** **)**
 
-在当前帧结束时排队删除一个节点。当删除时，其所有的子节点也将被删除。这个方法确保删除节点是安全的，与:ref:`Object.free<class_Object_method_free>`\ 相反。使用:ref:`Object.is_queued_for_deletion<class_Object_method_is_queued_for_deletion>`\ 来检查一个节点是否会在帧末被删除。
+在当前帧结束时排队删除一个节点。当删除时，其所有的子节点也将被删除。这个方法确保删除节点是安全的，与\ :ref:`Object.free<class_Object_method_free>`\ 相反。使用\ :ref:`Object.is_queued_for_deletion<class_Object_method_is_queued_for_deletion>`\ 来检查一个节点是否会在帧末被删除。
 
-**重要：** 如果你有变量指向节点，一旦节点被释放，它将*不会* 被分配到``null``。相反，它将指向一个*先前被释放的实例*，你应该在尝试调用其方法或访问其属性之前用:ref:`@GDScript.is_instance_valid<class_@GDScript_method_is_instance_valid>`\ 来验证它。
+**重要：** 如果你有变量指向节点，一旦节点被释放，它将\ *不会* 被分配到\ ``null``。相反，它将指向一个\ *先前被释放的实例*，你应该在尝试调用其方法或访问其属性之前用\ :ref:`@GDScript.is_instance_valid<class_@GDScript_method_is_instance_valid>`\ 来验证它。
 
 ----
 
@@ -1188,7 +1188,7 @@ If ``owned`` is ``true``, this method only finds nodes whose owner is this node.
 
 - void **raise** **(** **)**
 
-将此节点移到父节点的子节点层次的底部。这在GUI（:ref:`Control<class_Control>`\ 节点）中通常很有用，因为它们的绘制顺序取决于它们在树中的顺序。最上面的节点首先被绘制出来，然后在层次结构中最上面的节点下面的所有同级被依次绘制在它的上面。使用``raise``\ 后，一个控件将被绘制在其同级的上面。
+将此节点移到父节点的子节点层次的底部。这在GUI（:ref:`Control<class_Control>`\ 节点）中通常很有用，因为它们的绘制顺序取决于它们在树中的顺序。最上面的节点首先被绘制出来，然后在层次结构中最上面的节点下面的所有同级被依次绘制在它的上面。使用\ ``raise``\ 后，一个控件将被绘制在其同级的上面。
 
 ----
 
@@ -1206,7 +1206,7 @@ If ``owned`` is ``true``, this method only finds nodes whose owner is this node.
 
 删除一个子节点。该节点不会被删除，必须手动删除。
 
-**注：**如果该:ref:`owner<class_Node_property_owner>`\ 不再是父节点或祖先，则该函数可以将被移除节点（或其后代）的:ref:`owner<class_Node_property_owner>`\ 设置为``null``。
+**注：**\ 如果该\ :ref:`owner<class_Node_property_owner>`\ 不再是父节点或祖先，则该函数可以将被移除节点（或其后代）的\ :ref:`owner<class_Node_property_owner>`\ 设置为\ ``null``。
 
 ----
 
@@ -1214,7 +1214,7 @@ If ``owned`` is ``true``, this method only finds nodes whose owner is this node.
 
 - void **remove_from_group** **(** :ref:`String<class_String>` group **)**
 
-将一个节点从一个组中移除。参阅描述中的注释，以及:ref:`SceneTree<class_SceneTree>`\ 中的组方法。
+将一个节点从一个组中移除。参阅描述中的注释，以及\ :ref:`SceneTree<class_SceneTree>`\ 中的组方法。
 
 ----
 
@@ -1232,7 +1232,7 @@ If ``owned`` is ``true``, this method only finds nodes whose owner is this node.
 
 - void **request_ready** **(** **)**
 
-请求再次调用``_ready``。注意，该方法不会被立即调用，而是被安排在该节点再次被添加到场景树时（见:ref:`_ready<class_Node_method__ready>`）。``_ready``\ 只为请求它的节点调用，这意味着如果你想让每个子节点也调用``_ready``，你需要为它们请求ready（在这种情况下，``_ready``\ 的调用顺序与正常情况下相同）。
+请求再次调用\ ``_ready``。注意，该方法不会被立即调用，而是被安排在该节点再次被添加到场景树时（见\ :ref:`_ready<class_Node_method__ready>`）。``_ready``\ 只为请求它的节点调用，这意味着如果你想让每个子节点也调用\ ``_ready``，你需要为它们请求ready（在这种情况下，``_ready``\ 的调用顺序与正常情况下相同）。
 
 ----
 
@@ -1282,7 +1282,7 @@ Sends a :ref:`rpc<class_Node_method_rpc>` to a specific peer identified by ``pee
 
 - void **rset** **(** :ref:`String<class_String>` property, :ref:`Variant<class_Variant>` value **)**
 
-在其他对等体上远程改变一个属性的值（和本地）。行为取决于给定属性的RPC配置，见:ref:`rset_config<class_Node_method_rset_config>`。关于方法的RPC，也请参阅:ref:`rpc<class_Node_method_rpc>`，大多数信息也适用于这个方法。
+在其他对等体上远程改变一个属性的值（和本地）。行为取决于给定属性的RPC配置，见\ :ref:`rset_config<class_Node_method_rset_config>`。关于方法的RPC，也请参阅\ :ref:`rpc<class_Node_method_rpc>`，大多数信息也适用于这个方法。
 
 ----
 
@@ -1290,7 +1290,7 @@ Sends a :ref:`rpc<class_Node_method_rpc>` to a specific peer identified by ``pee
 
 - void **rset_config** **(** :ref:`String<class_String>` property, :ref:`RPCMode<enum_MultiplayerAPI_RPCMode>` mode **)**
 
-将给定的``属性``\ 的RPC模式改为给定的``mode``。参阅:ref:`RPCMode<enum_MultiplayerAPI_RPCMode>`。另一种方法是用相应的关键字（``remote``, ``master``, ``puppet``, ``remoteesync``, ``masterync``, ``puppetsync``）来注释方法和属性。默认情况下，属性不会暴露给网络（和RPC）。也请参阅:ref:`rpc<class_Node_method_rpc>`\ 和:ref:`rpc_config<class_Node_method_rpc_config>`\ 的方法。
+将给定的\ ``属性``\ 的RPC模式改为给定的\ ``mode``。参阅\ :ref:`RPCMode<enum_MultiplayerAPI_RPCMode>`。另一种方法是用相应的关键字（``remote``, ``master``, ``puppet``, ``remoteesync``, ``masterync``, ``puppetsync``）来注释方法和属性。默认情况下，属性不会暴露给网络（和RPC）。也请参阅\ :ref:`rpc<class_Node_method_rpc>`\ 和\ :ref:`rpc_config<class_Node_method_rpc_config>`\ 的方法。
 
 ----
 
@@ -1298,7 +1298,7 @@ Sends a :ref:`rpc<class_Node_method_rpc>` to a specific peer identified by ``pee
 
 - void **rset_id** **(** :ref:`int<class_int>` peer_id, :ref:`String<class_String>` property, :ref:`Variant<class_Variant>` value **)**
 
-远程改变属性的值在一个指定的peer上``peer_id``\ (参阅:ref:`NetworkedMultiplayerPeer.set_target_peer<class_NetworkedMultiplayerPeer_method_set_target_peer>`)。
+远程改变属性的值在一个指定的peer上\ ``peer_id``\ (参阅\ :ref:`NetworkedMultiplayerPeer.set_target_peer<class_NetworkedMultiplayerPeer_method_set_target_peer>`)。
 
 ----
 
@@ -1314,7 +1314,7 @@ Sends a :ref:`rpc<class_Node_method_rpc>` to a specific peer identified by ``pee
 
 - void **rset_unreliable_id** **(** :ref:`int<class_int>` peer_id, :ref:`String<class_String>` property, :ref:`Variant<class_Variant>` value **)**
 
-使用不可靠的协议(参阅:ref:`NetworkedMultiplayerPeer.set_target_peer<class_NetworkedMultiplayerPeer_method_set_target_peer>`)远程更改指定对等体``peer_id``\ 上的属性值。
+使用不可靠的协议(参阅\ :ref:`NetworkedMultiplayerPeer.set_target_peer<class_NetworkedMultiplayerPeer_method_set_target_peer>`)远程更改指定对等体\ ``peer_id``\ 上的属性值。
 
 ----
 
@@ -1330,7 +1330,7 @@ Sends a :ref:`rpc<class_Node_method_rpc>` to a specific peer identified by ``pee
 
 - void **set_network_master** **(** :ref:`int<class_int>` id, :ref:`bool<class_bool>` recursive=true **)**
 
-将节点的网络主节点设置为具有给定ID的对等体。网络主节点是对网络上的节点具有权威的对等体。与``master``\ 和``puppet``\ 关键字一起使用很有用。默认情况下从父节点继承，父节点最终默认为peer ID 1(服务器)。如果``recursive``，则递归地将给定的对等节点设置为该节点所有子节点的主节点。
+将节点的网络主节点设置为具有给定ID的对等体。网络主节点是对网络上的节点具有权威的对等体。与\ ``master``\ 和\ ``puppet``\ 关键字一起使用很有用。默认情况下从父节点继承，父节点最终默认为peer ID 1(服务器)。如果\ ``recursive``，则递归地将给定的对等节点设置为该节点所有子节点的主节点。
 
 ----
 
@@ -1338,7 +1338,7 @@ Sends a :ref:`rpc<class_Node_method_rpc>` to a specific peer identified by ``pee
 
 - void **set_physics_process** **(** :ref:`bool<class_bool>` enable **)**
 
-启用或禁用物理处理（即固定帧率）。当一个节点被处理时，它将以一个固定的（通常是60FPS，参阅:ref:`Engine.iterations_per_second<class_Engine_property_iterations_per_second>`\ 来更改该值）时间间隔收到一个:ref:`NOTIFICATION_PHYSICS_PROCESS<class_Node_constant_NOTIFICATION_PHYSICS_PROCESS>`（如果存在，:ref:`_physics_process<class_Node_method__physics_process>`\ 回调将被调用）。如果:ref:`_physics_process<class_Node_method__physics_process>`\ 被重写，则自动启用。在:ref:`_ready<class_Node_method__ready>`\ 之前对它的任何调用都将被忽略。
+启用或禁用物理处理（即固定帧率）。当一个节点被处理时，它将以一个固定的（通常是60FPS，参阅\ :ref:`Engine.iterations_per_second<class_Engine_property_iterations_per_second>`\ 来更改该值）时间间隔收到一个\ :ref:`NOTIFICATION_PHYSICS_PROCESS<class_Node_constant_NOTIFICATION_PHYSICS_PROCESS>`\ （如果存在，:ref:`_physics_process<class_Node_method__physics_process>`\ 回调将被调用）。如果\ :ref:`_physics_process<class_Node_method__physics_process>`\ 被重写，则自动启用。在\ :ref:`_ready<class_Node_method__ready>`\ 之前对它的任何调用都将被忽略。
 
 ----
 
@@ -1346,7 +1346,7 @@ Sends a :ref:`rpc<class_Node_method_rpc>` to a specific peer identified by ``pee
 
 - void **set_physics_process_internal** **(** :ref:`bool<class_bool>` enable **)**
 
-启用或禁用该节点的内部物理。内部物理处理与正常的:ref:`_physics_process<class_Node_method__physics_process>`\ 调用隔离进行，并且由某些节点内部使用，以确保正常工作，即使节点暂停或物理处理因脚本而禁用（:ref:`set_physics_process<class_Node_method_set_physics_process>`）。仅适用于用于操纵内置节点行为的高级用途。
+启用或禁用该节点的内部物理。内部物理处理与正常的\ :ref:`_physics_process<class_Node_method__physics_process>`\ 调用隔离进行，并且由某些节点内部使用，以确保正常工作，即使节点暂停或物理处理因脚本而禁用（:ref:`set_physics_process<class_Node_method_set_physics_process>`）。仅适用于用于操纵内置节点行为的高级用途。
 
 **警告:** 内置节点依靠内部处理来实现自己的逻辑，所以从你的代码中改变这个值可能会导致意外的行为。为特定的高级用途提供了对此内部逻辑的脚本访问，但不安全且不支持。
 
@@ -1356,7 +1356,7 @@ Sends a :ref:`rpc<class_Node_method_rpc>` to a specific peer identified by ``pee
 
 - void **set_process** **(** :ref:`bool<class_bool>` enable **)**
 
-启用或禁用帧处理。当一个节点被处理时，它将在每个绘制的帧上收到一个:ref:`NOTIFICATION_PROCESS<class_Node_constant_NOTIFICATION_PROCESS>`（如果存在，:ref:`_process<class_Node_method__process>`\ 回调将被调用）。如果:ref:`_process<class_Node_method__process>`\ 被重写，则自动启用。在 :ref:`_ready<class_Node_method__ready>` 之前对它的任何调用都将被忽略。
+启用或禁用帧处理。当一个节点被处理时，它将在每个绘制的帧上收到一个\ :ref:`NOTIFICATION_PROCESS<class_Node_constant_NOTIFICATION_PROCESS>`\ （如果存在，:ref:`_process<class_Node_method__process>`\ 回调将被调用）。如果\ :ref:`_process<class_Node_method__process>`\ 被重写，则自动启用。在 :ref:`_ready<class_Node_method__ready>` 之前对它的任何调用都将被忽略。
 
 ----
 
@@ -1364,7 +1364,7 @@ Sends a :ref:`rpc<class_Node_method_rpc>` to a specific peer identified by ``pee
 
 - void **set_process_input** **(** :ref:`bool<class_bool>` enable **)**
 
-启用或禁用输入处理。对于GUI控件来说，这不是必需的。如果:ref:`_input<class_Node_method__input>`\ 被重写，则自动启用。任何在:ref:`_ready<class_Node_method__ready>`\ 之前对它的调用都将被忽略。
+启用或禁用输入处理。对于GUI控件来说，这不是必需的。如果\ :ref:`_input<class_Node_method__input>`\ 被重写，则自动启用。任何在\ :ref:`_ready<class_Node_method__ready>`\ 之前对它的调用都将被忽略。
 
 ----
 
@@ -1382,7 +1382,7 @@ Sends a :ref:`rpc<class_Node_method_rpc>` to a specific peer identified by ``pee
 
 - void **set_process_unhandled_input** **(** :ref:`bool<class_bool>` enable **)**
 
-启用未处理的输入处理。这对GUI控件来说是不需要的! 它使节点能够接收所有以前没有处理的输入（通常是由:ref:`Control<class_Control>`\ 处理的）。如果:ref:`_unhandled_input<class_Node_method__unhandled_input>`\ 被重载，则自动启用。在:ref:`_ready<class_Node_method__ready>`\ 之前对它的任何调用都将被忽略。
+启用未处理的输入处理。这对GUI控件来说是不需要的! 它使节点能够接收所有以前没有处理的输入（通常是由\ :ref:`Control<class_Control>`\ 处理的）。如果\ :ref:`_unhandled_input<class_Node_method__unhandled_input>`\ 被重载，则自动启用。在\ :ref:`_ready<class_Node_method__ready>`\ 之前对它的任何调用都将被忽略。
 
 ----
 
@@ -1390,7 +1390,7 @@ Sends a :ref:`rpc<class_Node_method_rpc>` to a specific peer identified by ``pee
 
 - void **set_process_unhandled_key_input** **(** :ref:`bool<class_bool>` enable **)**
 
-启用未处理的按键输入处理。如果:ref:`_unhandled_key_input<class_Node_method__unhandled_key_input>`\ 被重写，则自动启用。任何在:ref:`_ready<class_Node_method__ready>`\ 之前对它的调用都将被忽略。
+启用未处理的按键输入处理。如果\ :ref:`_unhandled_key_input<class_Node_method__unhandled_key_input>`\ 被重写，则自动启用。任何在\ :ref:`_ready<class_Node_method__ready>`\ 之前对它的调用都将被忽略。
 
 ----
 
@@ -1398,7 +1398,7 @@ Sends a :ref:`rpc<class_Node_method_rpc>` to a specific peer identified by ``pee
 
 - void **set_scene_instance_load_placeholder** **(** :ref:`bool<class_bool>` load_placeholder **)**
 
-设置这是否是一个实例加载占位符。参阅:ref:`InstancePlaceholder<class_InstancePlaceholder>`。
+设置这是否是一个实例加载占位符。参阅\ :ref:`InstancePlaceholder<class_InstancePlaceholder>`。
 
 ----
 
@@ -1408,7 +1408,7 @@ Sends a :ref:`rpc<class_Node_method_rpc>` to a specific peer identified by ``pee
 
 更新在Scene Dock中为这个节点显示的警告。
 
-使用:ref:`_get_configuration_warning<class_Node_method__get_configuration_warning>`\ 来设置要显示的警告信息。
+使用\ :ref:`_get_configuration_warning<class_Node_method__get_configuration_warning>`\ 来设置要显示的警告信息。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

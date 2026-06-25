@@ -335,7 +335,7 @@ Method Descriptions
 
 如果请求创建成功，则返回 :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`。 （并不意味着服务器已响应），:ref:`@GlobalScope.ERR_UNCONFIGURED<class_@GlobalScope_constant_ERR_UNCONFIGURED>` 如果不在树中，:ref:`@GlobalScope.ERR_BUSY<class_@GlobalScope_constant_ERR_BUSY>` 如果仍在处理先前的请求，:ref:`@GlobalScope.ERR_INVALID_PARAMETER<class_@GlobalScope_constant_ERR_INVALID_PARAMETER>` 如果给定的字符串不是有效的 URL 格式，或 :ref:`@GlobalScope.ERR_CANT_CONNECT<class_@GlobalScope_constant_ERR_CANT_CONNECT>`\ 如果不使用线程并且 :ref:`HTTPClient<class_HTTPClient>` 无法连接到主机。
 
-**注意：**当``method``\ 为:ref:`HTTPClient.METHOD_GET<class_HTTPClient_constant_METHOD_GET>`\ 时，通过``request_data``\ 发送的payload可能会被服务器忽略甚至导致服务器拒绝请求，参阅 `RFC 7231 第 4.3.1 节 <https://datatracker.ietf.org/doc/html/rfc7231#section-4.3.1>`__ 了解更多。作为一种解决方法，你可以将数据作为 URL 中的查询字符串发送。参阅 :ref:`String.http_escape<class_String_method_http_escape>` 示例。
+**注意：**\ 当\ ``method``\ 为\ :ref:`HTTPClient.METHOD_GET<class_HTTPClient_constant_METHOD_GET>`\ 时，通过\ ``request_data``\ 发送的payload可能会被服务器忽略甚至导致服务器拒绝请求，参阅 `RFC 7231 第 4.3.1 节 <https://datatracker.ietf.org/doc/html/rfc7231#section-4.3.1>`__ 了解更多。作为一种解决方法，你可以将数据作为 URL 中的查询字符串发送。参阅 :ref:`String.http_escape<class_String_method_http_escape>` 示例。
 
 ----
 
@@ -343,7 +343,7 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **request_raw** **(** :ref:`String<class_String>` url, :ref:`PoolStringArray<class_PoolStringArray>` custom_headers=PoolStringArray(  ), :ref:`bool<class_bool>` ssl_validate_domain=true, :ref:`Method<enum_HTTPClient_Method>` method=0, :ref:`PoolByteArray<class_PoolByteArray>` request_data_raw=PoolByteArray(  ) **)**
 
-在底层的:ref:`HTTPClient<class_HTTPClient>`\ 上创建请求，使用一个原始字节数组作为请求主体。如果没有配置错误，它会尝试使用 :ref:`HTTPClient.connect_to_host<class_HTTPClient_method_connect_to_host>` 连接并将参数传递给 :ref:`HTTPClient.request<class_HTTPClient_method_request>`。
+在底层的\ :ref:`HTTPClient<class_HTTPClient>`\ 上创建请求，使用一个原始字节数组作为请求主体。如果没有配置错误，它会尝试使用 :ref:`HTTPClient.connect_to_host<class_HTTPClient_method_connect_to_host>` 连接并将参数传递给 :ref:`HTTPClient.request<class_HTTPClient_method_request>`。
 
 如果请求创建成功，则返回 :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`。 （并不意味着服务器已响应），:ref:`@GlobalScope.ERR_UNCONFIGURED<class_@GlobalScope_constant_ERR_UNCONFIGURED>` 如果不在树中，:ref:`@GlobalScope.ERR_BUSY<class_@GlobalScope_constant_ERR_BUSY>` 如果仍在处理先前的请求，:ref:`@GlobalScope.ERR_INVALID_PARAMETER<class_@GlobalScope_constant_ERR_INVALID_PARAMETER>` 如果给定的字符串不是有效的 URL 格式，或 :ref:`@GlobalScope.ERR_CANT_CONNECT<class_@GlobalScope_constant_ERR_CANT_CONNECT>`\ 如果不使用线程并且 :ref:`HTTPClient<class_HTTPClient>` 无法连接到主机。
 

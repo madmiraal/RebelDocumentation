@@ -16,7 +16,7 @@ CollisionShape2D
 Description
 -----------
 
-编辑器功能，用于在2D空间中创建和编辑碰撞形状。您可以使用此节点表示各种碰撞形状，例如，将其添加到:ref:`Area2D<class_Area2D>`\ 以提供检测形状，或将其添加到:ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 以创建实体。 **重要事项**：这是创建形状的仅编辑器助手，请使用:ref:`CollisionObject2D.shape_owner_get_shape<class_CollisionObject2D_method_shape_owner_get_shape>`\ 获取实际形状。
+编辑器功能，用于在2D空间中创建和编辑碰撞形状。您可以使用此节点表示各种碰撞形状，例如，将其添加到\ :ref:`Area2D<class_Area2D>`\ 以提供检测形状，或将其添加到\ :ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 以创建实体。 **重要事项**：这是创建形状的仅编辑器助手，请使用\ :ref:`CollisionObject2D.shape_owner_get_shape<class_CollisionObject2D_method_shape_owner_get_shape>`\ 获取实际形状。
 
 Tutorials
 ---------

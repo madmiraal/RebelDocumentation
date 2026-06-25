@@ -16,7 +16,7 @@ KinematicCollision2D
 Description
 -----------
 
-包含:ref:`KinematicBody2D<class_KinematicBody2D>`\ 碰撞的碰撞数据。当使用 :ref:`KinematicBody2D.move_and_collide<class_KinematicBody2D_method_move_and_collide>` 移动:ref:`KinematicBody2D<class_KinematicBody2D>`\ 时，如果检测到与另一个物体的碰撞，它将停止。如果检测到碰撞，则返回KinematicCollision2D对象。
+包含\ :ref:`KinematicBody2D<class_KinematicBody2D>`\ 碰撞的碰撞数据。当使用 :ref:`KinematicBody2D.move_and_collide<class_KinematicBody2D_method_move_and_collide>` 移动\ :ref:`KinematicBody2D<class_KinematicBody2D>`\ 时，如果检测到与另一个物体的碰撞，它将停止。如果检测到碰撞，则返回KinematicCollision2D对象。
 
 该对象包含有关碰撞的信息，包括碰撞对象，剩余运动和碰撞坐标。该信息可用于计算碰撞响应。
 
@@ -81,7 +81,7 @@ Property Descriptions
 | *Getter*  | get_collider_id() |
 +-----------+-------------------+
 
-碰撞体的唯一实例ID。参阅:ref:`Object.get_instance_id<class_Object_method_get_instance_id>`。
+碰撞体的唯一实例ID。参阅\ :ref:`Object.get_instance_id<class_Object_method_get_instance_id>`。
 
 ----
 
@@ -93,7 +93,7 @@ Property Descriptions
 | *Getter* | get_collider_metadata() |
 +----------+-------------------------+
 
-碰撞体的元数据。参阅:ref:`Object<class_Object>`。
+碰撞体的元数据。参阅\ :ref:`Object<class_Object>`。
 
 ----
 
@@ -131,7 +131,7 @@ Property Descriptions
 | *Getter*  | get_collider_shape_index() |
 +-----------+----------------------------+
 
-碰撞形状的索引。参阅:ref:`CollisionObject2D<class_CollisionObject2D>`。
+碰撞形状的索引。参阅\ :ref:`CollisionObject2D<class_CollisionObject2D>`。
 
 ----
 
@@ -222,7 +222,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **get_angle** **(** :ref:`Vector2<class_Vector2>` up_direction=Vector2( 0, -1 ) **)** |const|
 
-根据``up_direction``\ 的碰撞角度，默认为``Vector2.UP``。这个值总是为正。
+根据\ ``up_direction``\ 的碰撞角度，默认为\ ``Vector2.UP``。这个值总是为正。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

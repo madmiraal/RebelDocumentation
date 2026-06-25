@@ -24,7 +24,7 @@ Description
 
 ``Texture`` 是一些其他资源的基类，无法直接使用。
 
-**注意：**由于图形硬件的限制，最大的纹理尺寸是 16384×16384 像素。较大的纹理可能无法导入。
+**注意：**\ 由于图形硬件的限制，最大的纹理尺寸是 16384×16384 像素。较大的纹理可能无法导入。
 
 Properties
 ----------
@@ -83,7 +83,7 @@ enum **Flags**:
 
 - **FLAG_REPEAT** = **2** --- 重复纹理（而不是限制到边）。
 
-**注意：**使用 :ref:`AtlasTexture<class_AtlasTexture>` 时忽略，因为它们不支持重复。
+**注意：**\ 使用 :ref:`AtlasTexture<class_AtlasTexture>` 时忽略，因为它们不支持重复。
 
 - **FLAG_FILTER** = **4** --- 使用放大过滤器，以实现纹理的平滑放大。
 
@@ -95,7 +95,7 @@ enum **Flags**:
 
 - **FLAG_MIRRORED_REPEAT** = **32** --- 重复纹理的交替部分，并对其进行镜像。
 
-**注意：**在使用 :ref:`AtlasTexture<class_AtlasTexture>` 时被忽略，因为它们不支持重复。
+**注意：**\ 在使用 :ref:`AtlasTexture<class_AtlasTexture>` 时被忽略，因为它们不支持重复。
 
 - **FLAG_VIDEO_SURFACE** = **2048** --- 纹理是视频表面。
 
@@ -123,7 +123,7 @@ Method Descriptions
 
 - void **draw** **(** :ref:`RID<class_RID>` canvas_item, :ref:`Vector2<class_Vector2>` position, :ref:`Color<class_Color>` modulate=Color( 1, 1, 1, 1 ), :ref:`bool<class_bool>` transpose=false, :ref:`Texture<class_Texture>` normal_map=null **)** |const|
 
-在指定的位置``position``\ 使用:ref:`VisualServer<class_VisualServer>`\ API的:ref:`CanvasItem<class_CanvasItem>`\ 来绘制纹理。相当于:ref:`VisualServer.canvas_item_add_texture_rect<class_VisualServer_method_canvas_item_add_texture_rect>`，在位置``position``\ 有一个矩形，尺寸为这个``Texture``。
+在指定的位置\ ``position``\ 使用\ :ref:`VisualServer<class_VisualServer>`\ API的\ :ref:`CanvasItem<class_CanvasItem>`\ 来绘制纹理。相当于\ :ref:`VisualServer.canvas_item_add_texture_rect<class_VisualServer_method_canvas_item_add_texture_rect>`，在位置\ ``position``\ 有一个矩形，尺寸为这个\ ``Texture``。
 
 ----
 

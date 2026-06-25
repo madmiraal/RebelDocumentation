@@ -65,7 +65,7 @@ Signals
 
 - **connected_to_server** **(** **)**
 
-当这个MultiplayerAPI的:ref:`network_peer<class_MultiplayerAPI_property_network_peer>`\ 成功连接到一个服务器时触发该信号。这只在客户端触发。
+当这个MultiplayerAPI的\ :ref:`network_peer<class_MultiplayerAPI_property_network_peer>`\ 成功连接到一个服务器时触发该信号。这只在客户端触发。
 
 ----
 
@@ -73,7 +73,7 @@ Signals
 
 - **connection_failed** **(** **)**
 
-当这个MultiplayerAPI的:ref:`network_peer<class_MultiplayerAPI_property_network_peer>`\ 无法与服务器建立连接时触发。只在客户端触发。
+当这个MultiplayerAPI的\ :ref:`network_peer<class_MultiplayerAPI_property_network_peer>`\ 无法与服务器建立连接时触发。只在客户端触发。
 
 ----
 
@@ -89,7 +89,7 @@ Signals
 
 - **network_peer_disconnected** **(** :ref:`int<class_int>` id **)**
 
-当这个MultiplayerAPI的:ref:`network_peer<class_MultiplayerAPI_property_network_peer>`\ 与一个同伴断开连接时触发该信号。当其他客户端与同一服务器断开连接时，客户端会得到通知。
+当这个MultiplayerAPI的\ :ref:`network_peer<class_MultiplayerAPI_property_network_peer>`\ 与一个同伴断开连接时触发该信号。当其他客户端与同一服务器断开连接时，客户端会得到通知。
 
 ----
 
@@ -97,7 +97,7 @@ Signals
 
 - **network_peer_packet** **(** :ref:`int<class_int>` id, :ref:`PoolByteArray<class_PoolByteArray>` packet **)**
 
-当这个MultiplayerAPI的:ref:`network_peer<class_MultiplayerAPI_property_network_peer>`\ 收到一个带有自定义数据的``数据包``（见:ref:`send_bytes<class_MultiplayerAPI_method_send_bytes>`）时触发。ID是发送该数据包的对等体的ID。
+当这个MultiplayerAPI的\ :ref:`network_peer<class_MultiplayerAPI_property_network_peer>`\ 收到一个带有自定义数据的\ ``数据包``\ （见\ :ref:`send_bytes<class_MultiplayerAPI_method_send_bytes>`）时触发。ID是发送该数据包的对等体的ID。
 
 ----
 
@@ -105,7 +105,7 @@ Signals
 
 - **server_disconnected** **(** **)**
 
-当这个MultiplayerAPI的:ref:`network_peer<class_MultiplayerAPI_property_network_peer>`\ 与服务器断开连接时触发。只在客户端触发。
+当这个MultiplayerAPI的\ :ref:`network_peer<class_MultiplayerAPI_property_network_peer>`\ 与服务器断开连接时触发。只在客户端触发。
 
 Enumerations
 ------------
@@ -132,21 +132,21 @@ Enumerations
 
 enum **RPCMode**:
 
-- **RPC_MODE_DISABLED** = **0** --- 与:ref:`Node.rpc_config<class_Node_method_rpc_config>`\ 或:ref:`Node.rset_config<class_Node_method_rset_config>`\ 一起使用，可以在所有RPC调用中禁用某个方法或属性，使其不可用。所有方法的默认值。
+- **RPC_MODE_DISABLED** = **0** --- 与\ :ref:`Node.rpc_config<class_Node_method_rpc_config>`\ 或\ :ref:`Node.rset_config<class_Node_method_rset_config>`\ 一起使用，可以在所有RPC调用中禁用某个方法或属性，使其不可用。所有方法的默认值。
 
-- **RPC_MODE_REMOTE** = **1** --- 与:ref:`Node.rpc_config<class_Node_method_rpc_config>`\ 或:ref:`Node.rset_config<class_Node_method_rset_config>`\ 一起使用，用于设置只在远程端调用某个方法或改变某个属性，而不是在本地。类似于``remote``\ 关键字。所有远程对等体的调用和属性改变都被接受，不管它们是节点的主控还是傀儡。
+- **RPC_MODE_REMOTE** = **1** --- 与\ :ref:`Node.rpc_config<class_Node_method_rpc_config>`\ 或\ :ref:`Node.rset_config<class_Node_method_rset_config>`\ 一起使用，用于设置只在远程端调用某个方法或改变某个属性，而不是在本地。类似于\ ``remote``\ 关键字。所有远程对等体的调用和属性改变都被接受，不管它们是节点的主控还是傀儡。
 
-- **RPC_MODE_MASTER** = **2** --- 与 :ref:`Node.rpc_config<class_Node_method_rpc_config>` 或 :ref:`Node.rset_config<class_Node_method_rset_config>` 一起用于设置要调用的方法或仅在此节点的网络主机上更改的属性。类似于 ``master`` 关键字。仅接受节点网络傀儡的方法调用或属性更改，请参阅:ref:`Node.set_network_master<class_Node_method_set_network_master>`。
+- **RPC_MODE_MASTER** = **2** --- 与 :ref:`Node.rpc_config<class_Node_method_rpc_config>` 或 :ref:`Node.rset_config<class_Node_method_rset_config>` 一起用于设置要调用的方法或仅在此节点的网络主机上更改的属性。类似于 ``master`` 关键字。仅接受节点网络傀儡的方法调用或属性更改，请参阅\ :ref:`Node.set_network_master<class_Node_method_set_network_master>`。
 
-- **RPC_MODE_PUPPET** = **3** --- 与 :ref:`Node.rpc_config<class_Node_method_rpc_config>` 或 :ref:`Node.rset_config<class_Node_method_rset_config>` 一起使用，以设置仅在此节点的傀儡上调用的方法或改变的属性。类似于 ``puppet`` 关键字。只接受来自节点的网络主站的调用或属性更改，见:ref:`Node.set_network_master<class_Node_method_set_network_master>`。
+- **RPC_MODE_PUPPET** = **3** --- 与 :ref:`Node.rpc_config<class_Node_method_rpc_config>` 或 :ref:`Node.rset_config<class_Node_method_rset_config>` 一起使用，以设置仅在此节点的傀儡上调用的方法或改变的属性。类似于 ``puppet`` 关键字。只接受来自节点的网络主站的调用或属性更改，见\ :ref:`Node.set_network_master<class_Node_method_set_network_master>`。
 
-- **RPC_MODE_SLAVE** = **3** --- *已废弃。* 使用:ref:`RPC_MODE_PUPPET<class_MultiplayerAPI_constant_RPC_MODE_PUPPET>`\ 代替。类似于``slave``\ 关键字。
+- **RPC_MODE_SLAVE** = **3** --- *已废弃。* 使用\ :ref:`RPC_MODE_PUPPET<class_MultiplayerAPI_constant_RPC_MODE_PUPPET>`\ 代替。类似于\ ``slave``\ 关键字。
 
-- **RPC_MODE_REMOTESYNC** = **4** --- 行为类似于:ref:`RPC_MODE_REMOTE<class_MultiplayerAPI_constant_RPC_MODE_REMOTE>`，但也会使调用或属性在本地改变。类似于``remoteesync``\ 关键字。
+- **RPC_MODE_REMOTESYNC** = **4** --- 行为类似于\ :ref:`RPC_MODE_REMOTE<class_MultiplayerAPI_constant_RPC_MODE_REMOTE>`，但也会使调用或属性在本地改变。类似于\ ``remoteesync``\ 关键字。
 
-- **RPC_MODE_SYNC** = **4** --- *已废弃。* 使用:ref:`RPC_MODE_REMOTESYNC<class_MultiplayerAPI_constant_RPC_MODE_REMOTESYNC>`\ 代替。类似于``sync``\ 关键字。
+- **RPC_MODE_SYNC** = **4** --- *已废弃。* 使用\ :ref:`RPC_MODE_REMOTESYNC<class_MultiplayerAPI_constant_RPC_MODE_REMOTESYNC>`\ 代替。类似于\ ``sync``\ 关键字。
 
-- **RPC_MODE_MASTERSYNC** = **5** --- 类似于:ref:`RPC_MODE_MASTER<class_MultiplayerAPI_constant_RPC_MODE_MASTER>`，但也使方法调用或属性改变本地。类似于 ``mastersync`` 关键字。
+- **RPC_MODE_MASTERSYNC** = **5** --- 类似于\ :ref:`RPC_MODE_MASTER<class_MultiplayerAPI_constant_RPC_MODE_MASTER>`，但也使方法调用或属性改变本地。类似于 ``mastersync`` 关键字。
 
 - **RPC_MODE_PUPPETSYNC** = **6** --- 行为类似于 :ref:`RPC_MODE_PUPPET<class_MultiplayerAPI_constant_RPC_MODE_PUPPET>`，但也会使调用或属性在本地改变。类似于 ``puppetsync`` 关键字。
 
@@ -165,7 +165,7 @@ Property Descriptions
 | *Getter*  | is_object_decoding_allowed()     |
 +-----------+----------------------------------+
 
-如果``true``，或者如果:ref:`network_peer<class_MultiplayerAPI_property_network_peer>`\ 的:ref:`PacketPeer.allow_object_decoding<class_PacketPeer_property_allow_object_decoding>`\ 设置为``true``，多人游戏API将允许在RPC/RSETs期间的对象进行编码和解码。
+如果\ ``true``，或者如果\ :ref:`network_peer<class_MultiplayerAPI_property_network_peer>`\ 的\ :ref:`PacketPeer.allow_object_decoding<class_PacketPeer_property_allow_object_decoding>`\ 设置为\ ``true``，多人游戏API将允许在RPC/RSETs期间的对象进行编码和解码。
 
 **警告：** 反序列化的对象可能包含会被执行的代码。如果序列化的对象来自不受信任的来源，请不要使用这个选项，以避免潜在的安全威胁，如远程代码执行。
 
@@ -197,7 +197,7 @@ Property Descriptions
 | *Getter*  | is_refusing_new_network_connections()     |
 +-----------+-------------------------------------------+
 
-如果``true``，则MultiplayerAPI的:ref:`network_peer<class_MultiplayerAPI_property_network_peer>`\ 会拒绝新的传入连接。
+如果\ ``true``，则MultiplayerAPI的\ :ref:`network_peer<class_MultiplayerAPI_property_network_peer>`\ 会拒绝新的传入连接。
 
 ----
 
@@ -230,7 +230,7 @@ Method Descriptions
 
 - :ref:`PoolIntArray<class_PoolIntArray>` **get_network_connected_peers** **(** **)** |const|
 
-返回此MultiplayerAPI的:ref:`network_peer<class_MultiplayerAPI_property_network_peer>`\ 的所有连接的对等体的ID。
+返回此MultiplayerAPI的\ :ref:`network_peer<class_MultiplayerAPI_property_network_peer>`\ 的所有连接的对等体的ID。
 
 ----
 
@@ -238,7 +238,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_network_unique_id** **(** **)** |const|
 
-返回该多人游戏API的:ref:`network_peer<class_MultiplayerAPI_property_network_peer>`\ 的唯一对等体ID。
+返回该多人游戏API的\ :ref:`network_peer<class_MultiplayerAPI_property_network_peer>`\ 的唯一对等体ID。
 
 ----
 
@@ -256,7 +256,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **has_network_peer** **(** **)** |const|
 
-如果有一个:ref:`network_peer<class_MultiplayerAPI_property_network_peer>`\ 设置，返回``true``。
+如果有一个\ :ref:`network_peer<class_MultiplayerAPI_property_network_peer>`\ 设置，返回\ ``true``。
 
 ----
 
@@ -264,7 +264,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_network_server** **(** **)** |const|
 
-如果这个MultiplayerAPI的:ref:`network_peer<class_MultiplayerAPI_property_network_peer>`\ 处于服务器模式（监听连接），返回``true``。
+如果这个MultiplayerAPI的\ :ref:`network_peer<class_MultiplayerAPI_property_network_peer>`\ 处于服务器模式（监听连接），返回\ ``true``。
 
 ----
 
@@ -272,9 +272,9 @@ Method Descriptions
 
 - void **poll** **(** **)**
 
-用于轮询多人游戏API的方法。只有当你使用:ref:`Node.custom_multiplayer<class_Node_property_custom_multiplayer>`\ 覆盖或者你将:ref:`SceneTree.multiplayer_poll<class_SceneTree_property_multiplayer_poll>`\ 设置为``false``\ 时，你才需要担心这个问题。默认情况下，:ref:`SceneTree<class_SceneTree>`\ 将为你轮询其多人游戏API。
+用于轮询多人游戏API的方法。只有当你使用\ :ref:`Node.custom_multiplayer<class_Node_property_custom_multiplayer>`\ 覆盖或者你将\ :ref:`SceneTree.multiplayer_poll<class_SceneTree_property_multiplayer_poll>`\ 设置为\ ``false``\ 时，你才需要担心这个问题。默认情况下，:ref:`SceneTree<class_SceneTree>`\ 将为你轮询其多人游戏API。
 
-**注意：**这个方法导致RPC和RSET被调用，所以它们将在这个函数的同一上下文中执行（例如，``_process``, ``physics``, :ref:`Thread<class_Thread>`）。
+**注意：**\ 这个方法导致RPC和RSET被调用，所以它们将在这个函数的同一上下文中执行（例如，``_process``, ``physics``, :ref:`Thread<class_Thread>`）。
 
 ----
 
@@ -282,7 +282,7 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **send_bytes** **(** :ref:`PoolByteArray<class_PoolByteArray>` bytes, :ref:`int<class_int>` id=0, :ref:`TransferMode<enum_NetworkedMultiplayerPeer_TransferMode>` mode=2 **)**
 
-将给定的原始``字节``\ 发送到由``id``\ 确定的特定对等体（见:ref:`NetworkedMultiplayerPeer.set_target_peer<class_NetworkedMultiplayerPeer_method_set_target_peer>`）。默认ID是``0``，即向所有对等体广播。
+将给定的原始\ ``字节``\ 发送到由\ ``id``\ 确定的特定对等体（见\ :ref:`NetworkedMultiplayerPeer.set_target_peer<class_NetworkedMultiplayerPeer_method_set_target_peer>`）。默认ID是\ ``0``，即向所有对等体广播。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

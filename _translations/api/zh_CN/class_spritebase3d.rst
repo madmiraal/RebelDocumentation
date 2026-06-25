@@ -85,7 +85,7 @@ enum **DrawFlags**:
 
 - **FLAG_DOUBLE_SIDED** = **2** --- 如果设置，从后面也可以看到纹理，如果没有，从后面看它是不可见的。
 
-- **FLAG_MAX** = **3** --- 代表:ref:`DrawFlags<enum_SpriteBase3D_DrawFlags>`\ 枚举的大小。
+- **FLAG_MAX** = **3** --- 代表\ :ref:`DrawFlags<enum_SpriteBase3D_DrawFlags>`\ 枚举的大小。
 
 ----
 
@@ -180,7 +180,7 @@ Property Descriptions
 | *Getter*  | get_draw_flag()      |
 +-----------+----------------------+
 
-如果``true``，从后面也可以看到纹理，如果``false``，从后面看它是不可见的。
+如果\ ``true``，从后面也可以看到纹理，如果\ ``false``，从后面看它是不可见的。
 
 ----
 
@@ -343,7 +343,7 @@ Method Descriptions
 
 - void **set_draw_flag** **(** :ref:`DrawFlags<enum_SpriteBase3D_DrawFlags>` flag, :ref:`bool<class_bool>` enabled **)**
 
-如果``true``，指定的标志将被启用。
+如果\ ``true``，指定的标志将被启用。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

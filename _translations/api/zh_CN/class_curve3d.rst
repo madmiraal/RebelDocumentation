@@ -95,7 +95,7 @@ Property Descriptions
 | *Getter*  | get_bake_interval()      |
 +-----------+--------------------------+
 
-相邻两个缓存点之间的距离，单位为米。改变它将迫使缓存在下次调用:ref:`get_baked_points<class_Curve3D_method_get_baked_points>`\ 或:ref:`get_baked_length<class_Curve3D_method_get_baked_length>`\ 函数时重新计算。距离越小，缓存中的点越多，占用的内存也越多，所以使用时要注意。
+相邻两个缓存点之间的距离，单位为米。改变它将迫使缓存在下次调用\ :ref:`get_baked_points<class_Curve3D_method_get_baked_points>`\ 或\ :ref:`get_baked_length<class_Curve3D_method_get_baked_length>`\ 函数时重新计算。距离越小，缓存中的点越多，占用的内存也越多，所以使用时要注意。
 
 ----
 
@@ -111,7 +111,7 @@ Property Descriptions
 | *Getter*  | is_up_vector_enabled()       |
 +-----------+------------------------------+
 
-如果``true``，曲线将烘焙出用于定向的向量。当:ref:`PathFollow.rotation_mode<class_PathFollow_property_rotation_mode>`\ 被设置为:ref:`PathFollow.ROTATION_ORIENTED<class_PathFollow_constant_ROTATION_ORIENTED>`\ 时，就会使用这个功能。改变它将强制重新计算缓存。
+如果\ ``true``，曲线将烘焙出用于定向的向量。当\ :ref:`PathFollow.rotation_mode<class_PathFollow_property_rotation_mode>`\ 被设置为\ :ref:`PathFollow.ROTATION_ORIENTED<class_PathFollow_constant_ROTATION_ORIENTED>`\ 时，就会使用这个功能。改变它将强制重新计算缓存。
 
 Method Descriptions
 -------------------
@@ -138,7 +138,7 @@ If ``at_position`` is given, the point is inserted before the point number ``at_
 
 - :ref:`float<class_float>` **get_baked_length** **(** **)** |const|
 
-根据缓存的点，返回曲线的总长度。给予足够的密度(参阅:ref:`bake_interval<class_Curve3D_property_bake_interval>`)，它应该是足够近似的。
+根据缓存的点，返回曲线的总长度。给予足够的密度(参阅\ :ref:`bake_interval<class_Curve3D_property_bake_interval>`)，它应该是足够近似的。
 
 ----
 
@@ -232,9 +232,9 @@ If ``at_position`` is given, the point is inserted before the point number ``at_
 
 - :ref:`Vector3<class_Vector3>` **interpolate** **(** :ref:`int<class_int>` idx, :ref:`float<class_float>` t **)** |const|
 
-返回顶点 ``idx`` 和顶点 ``idx + 1`` 之间的位置，其中 ``t`` 控制该点是第一个顶点 (``t = 0.0``)、最后一个顶点 (``t = 1.0``)，还是介于两者之间。范围外的``t``\ 的值(``0.0 >= t <=1``)会产生奇怪但可预测的结果。
+返回顶点 ``idx`` 和顶点 ``idx + 1`` 之间的位置，其中 ``t`` 控制该点是第一个顶点 (``t = 0.0``)、最后一个顶点 (``t = 1.0``)，还是介于两者之间。范围外的\ ``t``\ 的值(``0.0 >= t <=1``)会产生奇怪但可预测的结果。
 
-如果``idx``\ 超出边界，则截断到第一个或最后一个顶点，而``t``\ 则被忽略。如果曲线没有点，函数会向控制台发送一个错误，并返回 ``(0, 0, 0)``。
+如果\ ``idx``\ 超出边界，则截断到第一个或最后一个顶点，而\ ``t``\ 则被忽略。如果曲线没有点，函数会向控制台发送一个错误，并返回 ``(0, 0, 0)``。
 
 ----
 
@@ -244,7 +244,7 @@ If ``at_position`` is given, the point is inserted before the point number ``at_
 
 返回曲线中 ``offset`` 偏移位置的一个点，其中 ``offset`` 以沿曲线的 3D 单位距离测量。
 
-为了做到这一点，它找到 ``offset`` 所在的两个缓存点，然后进行内插值。如果 ``cubic`` 被设置为``true``，这个插值是立方的，如果设置为 ``false``，则是线性的。
+为了做到这一点，它找到 ``offset`` 所在的两个缓存点，然后进行内插值。如果 ``cubic`` 被设置为\ ``true``，这个插值是立方的，如果设置为 ``false``，则是线性的。
 
 立体插值倾向于更好地遵循曲线，但线性插值更快（而且通常足够精确）。
 
@@ -290,7 +290,7 @@ If ``at_position`` is given, the point is inserted before the point number ``at_
 
 - void **set_point_out** **(** :ref:`int<class_int>` idx, :ref:`Vector3<class_Vector3>` position **)**
 
-设置从顶点``idx``\ 引出的控制点位置。如果索引超出范围，该函数会向控制台发送错误。位置是相对于顶点的。
+设置从顶点\ ``idx``\ 引出的控制点位置。如果索引超出范围，该函数会向控制台发送错误。位置是相对于顶点的。
 
 ----
 
@@ -298,7 +298,7 @@ If ``at_position`` is given, the point is inserted before the point number ``at_
 
 - void **set_point_position** **(** :ref:`int<class_int>` idx, :ref:`Vector3<class_Vector3>` position **)**
 
-设置顶点``idx``\ 的位置。如果索引超出范围，函数会向控制台发送一个错误信息。
+设置顶点\ ``idx``\ 的位置。如果索引超出范围，函数会向控制台发送一个错误信息。
 
 ----
 

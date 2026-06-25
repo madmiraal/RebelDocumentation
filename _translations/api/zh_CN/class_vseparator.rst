@@ -46,7 +46,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **separator**
 
-分隔线的样式。与:ref:`StyleBoxLine<class_StyleBoxLine>`\ 一起使用效果最好，记得要启用:ref:`StyleBoxLine.vertical<class_StyleBoxLine_property_vertical>`。
+分隔线的样式。与\ :ref:`StyleBoxLine<class_StyleBoxLine>`\ 一起使用效果最好，记得要启用\ :ref:`StyleBoxLine.vertical<class_StyleBoxLine_property_vertical>`。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

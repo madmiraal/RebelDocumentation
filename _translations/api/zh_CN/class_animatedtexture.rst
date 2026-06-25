@@ -16,13 +16,13 @@ AnimatedTexture
 Description
 -----------
 
-``AnimatedTexture``\ 是一种资源格式，用于基于帧的动画，其中多个纹理自动链接起来，每帧有预定义延迟。与:ref:`AnimationPlayer<class_AnimationPlayer>`\ 或:ref:`AnimatedSprite<class_AnimatedSprite>`\ 不同，它不是一个:ref:`Node<class_Node>`，其优点是可在任何可以使用:ref:`Texture<class_Texture>`\ 资源的地方使用，例如在:ref:`TileSet<class_TileSet>`\ 中。
+``AnimatedTexture``\ 是一种资源格式，用于基于帧的动画，其中多个纹理自动链接起来，每帧有预定义延迟。与\ :ref:`AnimationPlayer<class_AnimationPlayer>`\ 或\ :ref:`AnimatedSprite<class_AnimatedSprite>`\ 不同，它不是一个\ :ref:`Node<class_Node>`，其优点是可在任何可以使用\ :ref:`Texture<class_Texture>`\ 资源的地方使用，例如在\ :ref:`TileSet<class_TileSet>`\ 中。
 
-动画的播放由:ref:`fps<class_AnimatedTexture_property_fps>`\ 属性以及每一帧的可选延迟控制，参阅:ref:`set_frame_delay<class_AnimatedTexture_method_set_frame_delay>`。动画是循环播放的，也就是说，在播放完最后一帧后，它将自动从第0帧重新开始。
+动画的播放由\ :ref:`fps<class_AnimatedTexture_property_fps>`\ 属性以及每一帧的可选延迟控制，参阅\ :ref:`set_frame_delay<class_AnimatedTexture_method_set_frame_delay>`。动画是循环播放的，也就是说，在播放完最后一帧后，它将自动从第0帧重新开始。
 
 ``AnimatedTexture``\ 目前要求所有帧的纹理具有相同的尺寸，否则较大的纹理会被裁剪，与最小的纹理相匹配。
 
-**注意：** AnimatedTexture不支持使用:ref:`AtlasTexture<class_AtlasTexture>`。每一帧都需要是一个单独的:ref:`Texture<class_Texture>`。
+**注意：** AnimatedTexture不支持使用\ :ref:`AtlasTexture<class_AtlasTexture>`。每一帧都需要是一个单独的\ :ref:`Texture<class_Texture>`。
 
 Properties
 ----------
@@ -59,7 +59,7 @@ Constants
 
 .. _class_AnimatedTexture_constant_MAX_FRAMES:
 
-- **MAX_FRAMES** = **256** --- ``AnimatedTexture``\ 支持的最大帧数。如果动画中需要更多帧，请使用:ref:`AnimationPlayer<class_AnimationPlayer>`\ 或:ref:`AnimatedSprite<class_AnimatedSprite>`。
+- **MAX_FRAMES** = **256** --- ``AnimatedTexture``\ 支持的最大帧数。如果动画中需要更多帧，请使用\ :ref:`AnimationPlayer<class_AnimationPlayer>`\ 或\ :ref:`AnimatedSprite<class_AnimatedSprite>`。
 
 Property Descriptions
 ---------------------
@@ -90,9 +90,9 @@ Property Descriptions
 | *Getter*  | get_fps()      |
 +-----------+----------------+
 
-动画速度，以每秒帧数为单位。此值定义动画两个帧之间的默认时间间隔，并因此基于:ref:`frames<class_AnimatedTexture_property_frames>`\ 属性定义动画循环的总体持续时间。值为0表示每秒没有预定义的帧数，动画将根据每个帧的帧延迟播放（请参阅:ref:`set_frame_delay<class_AnimatedTexture_method_set_frame_delay>`）。
+动画速度，以每秒帧数为单位。此值定义动画两个帧之间的默认时间间隔，并因此基于\ :ref:`frames<class_AnimatedTexture_property_frames>`\ 属性定义动画循环的总体持续时间。值为0表示每秒没有预定义的帧数，动画将根据每个帧的帧延迟播放（请参阅\ :ref:`set_frame_delay<class_AnimatedTexture_method_set_frame_delay>`）。
 
-例如，具有8帧，无帧延迟且``fps``\ 值为2的动画将运行4秒，每帧持续0.5秒。
+例如，具有8帧，无帧延迟且\ ``fps``\ 值为2的动画将运行4秒，每帧持续0.5秒。
 
 ----
 
@@ -108,7 +108,7 @@ Property Descriptions
 | *Getter*  | get_frames()      |
 +-----------+-------------------+
 
-动画中要使用的帧数。虽然您可以使用:ref:`set_frame_texture<class_AnimatedTexture_method_set_frame_texture>`\ 独立创建帧，但是您需要为动画设置此值以考虑新帧。最大帧数为:ref:`MAX_FRAMES<class_AnimatedTexture_constant_MAX_FRAMES>`。
+动画中要使用的帧数。虽然您可以使用\ :ref:`set_frame_texture<class_AnimatedTexture_method_set_frame_texture>`\ 独立创建帧，但是您需要为动画设置此值以考虑新帧。最大帧数为\ :ref:`MAX_FRAMES<class_AnimatedTexture_constant_MAX_FRAMES>`。
 
 ----
 
@@ -140,7 +140,7 @@ Property Descriptions
 | *Getter*  | get_pause()      |
 +-----------+------------------+
 
-如果``true``，则动画将暂停在当前位置（即:ref:`current_frame<class_AnimatedTexture_property_current_frame>`）。将此属性更改为``false``\ 时，动画将从暂停处继续播放。
+如果\ ``true``，则动画将暂停在当前位置（即\ :ref:`current_frame<class_AnimatedTexture_property_current_frame>`）。将此属性更改为\ ``false``\ 时，动画将从暂停处继续播放。
 
 Method Descriptions
 -------------------
@@ -157,7 +157,7 @@ Method Descriptions
 
 - :ref:`Texture<class_Texture>` **get_frame_texture** **(** :ref:`int<class_int>` frame **)** |const|
 
-返回给定帧的:ref:`Texture<class_Texture>`。
+返回给定帧的\ :ref:`Texture<class_Texture>`。
 
 ----
 

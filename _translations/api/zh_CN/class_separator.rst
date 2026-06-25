@@ -18,7 +18,7 @@ Separator
 Description
 -----------
 
-Separator 是一个用于分隔其他控件的:ref:`Control<class_Control>` 。它纯粹是一种视觉装饰。提供水平 (:ref:`HSeparator<class_HSeparator>`) 和垂直 (:ref:`VSeparator<class_VSeparator>`) 版本。
+Separator 是一个用于分隔其他控件的\ :ref:`Control<class_Control>` 。它纯粹是一种视觉装饰。提供水平 (:ref:`HSeparator<class_HSeparator>`) 和垂直 (:ref:`VSeparator<class_VSeparator>`) 版本。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

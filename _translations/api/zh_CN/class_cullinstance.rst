@@ -18,15 +18,15 @@ CullInstance
 Description
 -----------
 
-为可以被:ref:`Portal<class_Portal>`\ 系统剔除的节点提供通用功能。
+为可以被\ :ref:`Portal<class_Portal>`\ 系统剔除的节点提供通用功能。
 
-``Static``\ 和``Dynamic``\ 对象是系统中最有效的管理对象，但有一些注意事项。当使用:ref:`RoomManager<class_RoomManager>` ``rooms_convert``\ 函数转换:ref:`Room<class_Room>`\ 时，它们最初应该存在，并且其寿命应该与游戏级别相同，也就是说，在你调用:ref:`RoomManager<class_RoomManager>`\ 的``rooms_clear``\ 之前一直存在。虽然你不应该在游戏过程中创建或删除这些对象，但可以用标准的``hide``\ 和``show``\ 命令管理它们的可见性。
+``Static``\ 和\ ``Dynamic``\ 对象是系统中最有效的管理对象，但有一些注意事项。当使用\ :ref:`RoomManager<class_RoomManager>` ``rooms_convert``\ 函数转换\ :ref:`Room<class_Room>`\ 时，它们最初应该存在，并且其寿命应该与游戏级别相同，也就是说，在你调用\ :ref:`RoomManager<class_RoomManager>`\ 的\ ``rooms_clear``\ 之前一直存在。虽然你不应该在游戏过程中创建或删除这些对象，但可以用标准的\ ``hide``\ 和\ ``show``\ 命令管理它们的可见性。
 
-另一方面，``Roaming``\ 对象需要额外的处理来跟踪它们在哪个:ref:`Room<class_Room>`\ 中。这使它们能够有效地被剔除，无论其位置。
+另一方面，``Roaming``\ 对象需要额外的处理来跟踪它们在哪个\ :ref:`Room<class_Room>`\ 中。这使它们能够有效地被剔除，无论其位置。
 
 ``Global``\ 对象不被入口系统剔除，只使用视图视锥剔除。
 
-不是``Static``\ 或``Dynamic``\ 的对象可以在游戏关卡的生命周期内自由创建和删除。
+不是\ ``Static``\ 或\ ``Dynamic``\ 的对象可以在游戏关卡的生命周期内自由创建和删除。
 
 Properties
 ----------
@@ -56,19 +56,19 @@ Enumerations
 
 enum **PortalMode**:
 
-- **PORTAL_MODE_STATIC** = **0** --- 用于**不会移动**的:ref:`Room<class_Room>`\ 内的实例--例如，墙壁、地板。
+- **PORTAL_MODE_STATIC** = **0** --- 用于\ **不会移动**\ 的\ :ref:`Room<class_Room>`\ 内的实例--例如，墙壁、地板。
 
-**注意：** 如果你在房间图形加载即转换的时候，试图删除一个``PORTAL_MODE_STATIC``\ 实例，它将卸载房间图形并停用入口剔除。这是因为**房间图形**的数据已经失效。你将需要使用:ref:`RoomManager<class_RoomManager>`\ 重新转换房间以再次激活系统。
+**注意：** 如果你在房间图形加载即转换的时候，试图删除一个\ ``PORTAL_MODE_STATIC``\ 实例，它将卸载房间图形并停用入口剔除。这是因为\ **房间图形**\ 的数据已经失效。你将需要使用\ :ref:`RoomManager<class_RoomManager>`\ 重新转换房间以再次激活系统。
 
 - **PORTAL_MODE_DYNAMIC** = **1** --- 用于房间内会移动但 **不会改变房间** 的实例 - 例如移动平台。
 
-**注意：** 如果在加载即转换房间图形时尝试删除 ``PORTAL_MODE_DYNAMIC`` 实例，它将卸载房间图形并停用入口剔除。这是因为**房间图形**数据已经失效。将需要使用 :ref:`RoomManager<class_RoomManager>` 重新转换房间以再次激活系统。
+**注意：** 如果在加载即转换房间图形时尝试删除 ``PORTAL_MODE_DYNAMIC`` 实例，它将卸载房间图形并停用入口剔除。这是因为\ **房间图形**\ 数据已经失效。将需要使用 :ref:`RoomManager<class_RoomManager>` 重新转换房间以再次激活系统。
 
 - **PORTAL_MODE_ROAMING** = **2** --- 用于在 :ref:`Room<class_Room>` **之间** 移动的实例 - 例如玩家。
 
 - **PORTAL_MODE_GLOBAL** = **3** --- 用于只会被视锥剔除的实例 - 例如第一人称武器，调试。
 
-- **PORTAL_MODE_IGNORE** = **4** --- 用于根本不会显示的实例 - 例如**手动房间边界**，由前缀*'Bound\_'*指定。
+- **PORTAL_MODE_IGNORE** = **4** --- 用于根本不会显示的实例 - 例如\ **手动房间边界**，由前缀\ *'Bound\_'*\ 指定。
 
 Property Descriptions
 ---------------------
@@ -85,11 +85,11 @@ Property Descriptions
 | *Getter*  | get_portal_autoplace_priority()      |
 +-----------+--------------------------------------+
 
-当设置为``0``\ 时，``CullInstance``\ 将被自动放置在具有最高优先级的:ref:`Room<class_Room>`\ 中。
+当设置为\ ``0``\ 时，``CullInstance``\ 将被自动放置在具有最高优先级的\ :ref:`Room<class_Room>`\ 中。
 
-当设置为``0``\ 以外的值时，系统将尝试在具有``autoplace_priority``\ 的:ref:`Room<class_Room>`\ 中自动放置，如果它存在的话。
+当设置为\ ``0``\ 以外的值时，系统将尝试在具有\ ``autoplace_priority``\ 的\ :ref:`Room<class_Room>`\ 中自动放置，如果它存在的话。
 
-这可以用来控制建筑外面的在外部:ref:`RoomGroup<class_RoomGroup>`\ 的自动放置。
+这可以用来控制建筑外面的在外部\ :ref:`RoomGroup<class_RoomGroup>`\ 的自动放置。
 
 ----
 
@@ -107,7 +107,7 @@ Property Descriptions
 
 当没有为 :ref:`Room<class_Room>` 明确指定手动边界时，凸形边界将根据房间内对象的几何形状进行估算。此设置确定对象的几何形状是否包含在此房间边界估算之中。
 
-**注意：**此设置仅在对象设置为``PORTAL_MODE_STATIC``\ 或``PORTAL_MODE_DYNAMIC``\ 时有相，并且适用于:ref:`Portal<class_Portal>`。
+**注意：**\ 此设置仅在对象设置为\ ``PORTAL_MODE_STATIC``\ 或\ ``PORTAL_MODE_DYNAMIC``\ 时有相，并且适用于\ :ref:`Portal<class_Portal>`。
 
 ----
 
@@ -123,7 +123,7 @@ Property Descriptions
 | *Getter*  | get_portal_mode()      |
 +-----------+------------------------+
 
-当使用:ref:`Room<class_Room>`\ 和:ref:`Portal<class_Portal>`\ 时，这规定了``CullInstance``\ 在系统中的处理方式。
+当使用\ :ref:`Room<class_Room>`\ 和\ :ref:`Portal<class_Portal>`\ 时，这规定了\ ``CullInstance``\ 在系统中的处理方式。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

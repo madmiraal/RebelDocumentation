@@ -16,7 +16,7 @@ QuadMesh
 Description
 -----------
 
-代表一个正方形的类:ref:`PrimitiveMesh<class_PrimitiveMesh>`。这个平面网格没有厚度。默认情况下，这个网格在X轴和Y轴上是对齐的；这个默认的旋转方式更适合于使用广告牌的材质。与:ref:`PlaneMesh<class_PlaneMesh>`\ 不同，这个网格不提供细分选项。
+代表一个正方形的类\ :ref:`PrimitiveMesh<class_PrimitiveMesh>`。这个平面网格没有厚度。默认情况下，这个网格在X轴和Y轴上是对齐的；这个默认的旋转方式更适合于使用广告牌的材质。与\ :ref:`PlaneMesh<class_PlaneMesh>`\ 不同，这个网格不提供细分选项。
 
 Properties
 ----------
