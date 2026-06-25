@@ -16,7 +16,7 @@ VisualShaderNodeCompare
 Description
 -----------
 
-通过 :ref:`function<class_VisualShaderNodeCompare_property_function>` 比较``a``\ 和``b``\ 的 :ref:`type<class_VisualShaderNodeCompare_property_type>`。返回一个布尔标量。在着色器代码中转换成``if``\ 指令。
+通过 :ref:`function<class_VisualShaderNodeCompare_property_function>` 比较\ ``a``\ 和\ ``b``\ 的 :ref:`type<class_VisualShaderNodeCompare_property_type>`。返回一个布尔标量。在着色器代码中转换成\ ``if``\ 指令。
 
 Properties
 ----------
@@ -50,7 +50,7 @@ enum **ComparisonType**:
 
 - **CTYPE_BOOLEAN** = **2** --- 布林类型。
 
-- **CTYPE_TRANSFORM** = **3** --- 变换类型，即``mat4``。
+- **CTYPE_TRANSFORM** = **3** --- 变换类型，即\ ``mat4``。
 
 ----
 
@@ -70,17 +70,17 @@ enum **ComparisonType**:
 
 enum **Function**:
 
-- **FUNC_EQUAL** = **0** --- 相等比较，即``a == b``。
+- **FUNC_EQUAL** = **0** --- 相等比较，即\ ``a == b``。
 
-- **FUNC_NOT_EQUAL** = **1** --- 不等比较，即``a != b``。
+- **FUNC_NOT_EQUAL** = **1** --- 不等比较，即\ ``a != b``。
 
-- **FUNC_GREATER_THAN** = **2** --- 大于比较，即``a > b``。如果 :ref:`type<class_VisualShaderNodeCompare_property_type>` 设置为 :ref:`CTYPE_BOOLEAN<class_VisualShaderNodeCompare_constant_CTYPE_BOOLEAN>`\ 或 :ref:`CTYPE_TRANSFORM<class_VisualShaderNodeCompare_constant_CTYPE_TRANSFORM>`\ 则不能使用。
+- **FUNC_GREATER_THAN** = **2** --- 大于比较，即\ ``a > b``。如果 :ref:`type<class_VisualShaderNodeCompare_property_type>` 设置为 :ref:`CTYPE_BOOLEAN<class_VisualShaderNodeCompare_constant_CTYPE_BOOLEAN>`\ 或 :ref:`CTYPE_TRANSFORM<class_VisualShaderNodeCompare_constant_CTYPE_TRANSFORM>`\ 则不能使用。
 
-- **FUNC_GREATER_THAN_EQUAL** = **3** --- 大于或等于的比较，即``a >= b``。如果:ref:`type<class_VisualShaderNodeCompare_property_type>`\ 设置为 :ref:`CTYPE_BOOLEAN<class_VisualShaderNodeCompare_constant_CTYPE_BOOLEAN>` 或:ref:`CTYPE_TRANSFORM<class_VisualShaderNodeCompare_constant_CTYPE_TRANSFORM>`\ 则不能使用。
+- **FUNC_GREATER_THAN_EQUAL** = **3** --- 大于或等于的比较，即\ ``a >= b``。如果\ :ref:`type<class_VisualShaderNodeCompare_property_type>`\ 设置为 :ref:`CTYPE_BOOLEAN<class_VisualShaderNodeCompare_constant_CTYPE_BOOLEAN>` 或\ :ref:`CTYPE_TRANSFORM<class_VisualShaderNodeCompare_constant_CTYPE_TRANSFORM>`\ 则不能使用。
 
-- **FUNC_LESS_THAN** = **4** --- 小于比较，即``a < b``。如果 :ref:`type<class_VisualShaderNodeCompare_property_type>` 设置为:ref:`CTYPE_BOOLEAN<class_VisualShaderNodeCompare_constant_CTYPE_BOOLEAN>`\ 或 :ref:`CTYPE_TRANSFORM<class_VisualShaderNodeCompare_constant_CTYPE_TRANSFORM>`\ 则不能使用。
+- **FUNC_LESS_THAN** = **4** --- 小于比较，即\ ``a < b``。如果 :ref:`type<class_VisualShaderNodeCompare_property_type>` 设置为\ :ref:`CTYPE_BOOLEAN<class_VisualShaderNodeCompare_constant_CTYPE_BOOLEAN>`\ 或 :ref:`CTYPE_TRANSFORM<class_VisualShaderNodeCompare_constant_CTYPE_TRANSFORM>`\ 则不能使用。
 
-- **FUNC_LESS_THAN_EQUAL** = **5** --- 小于或等于的比较，即``a < b``。如果:ref:`type<class_VisualShaderNodeCompare_property_type>` 设置为:ref:`CTYPE_BOOLEAN<class_VisualShaderNodeCompare_constant_CTYPE_BOOLEAN>`\ 或:ref:`CTYPE_TRANSFORM<class_VisualShaderNodeCompare_constant_CTYPE_TRANSFORM>`\ 则不能使用。
+- **FUNC_LESS_THAN_EQUAL** = **5** --- 小于或等于的比较，即\ ``a < b``。如果\ :ref:`type<class_VisualShaderNodeCompare_property_type>` 设置为\ :ref:`CTYPE_BOOLEAN<class_VisualShaderNodeCompare_constant_CTYPE_BOOLEAN>`\ 或\ :ref:`CTYPE_TRANSFORM<class_VisualShaderNodeCompare_constant_CTYPE_TRANSFORM>`\ 则不能使用。
 
 ----
 
@@ -111,7 +111,7 @@ Property Descriptions
 | *Getter*  | get_condition()      |
 +-----------+----------------------+
 
-如果 :ref:`type<class_VisualShaderNodeCompare_property_type>` 被设置为:ref:`CTYPE_VECTOR<class_VisualShaderNodeCompare_constant_CTYPE_VECTOR>`，则适用额外条件。
+如果 :ref:`type<class_VisualShaderNodeCompare_property_type>` 被设置为\ :ref:`CTYPE_VECTOR<class_VisualShaderNodeCompare_constant_CTYPE_VECTOR>`，则适用额外条件。
 
 ----
 
@@ -127,7 +127,7 @@ Property Descriptions
 | *Getter*  | get_function()      |
 +-----------+---------------------+
 
-比较函数。参阅:ref:`Function<enum_VisualShaderNodeCompare_Function>`\ 的选项。
+比较函数。参阅\ :ref:`Function<enum_VisualShaderNodeCompare_Function>`\ 的选项。
 
 ----
 
@@ -143,7 +143,7 @@ Property Descriptions
 | *Getter*  | get_comparison_type()      |
 +-----------+----------------------------+
 
-在比较中要使用的类型。参阅:ref:`ComparisonType<enum_VisualShaderNodeCompare_ComparisonType>`\ 的选项。
+在比较中要使用的类型。参阅\ :ref:`ComparisonType<enum_VisualShaderNodeCompare_ComparisonType>`\ 的选项。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

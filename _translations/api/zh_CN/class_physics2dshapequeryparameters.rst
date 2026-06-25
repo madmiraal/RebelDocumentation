@@ -61,7 +61,7 @@ Property Descriptions
 | *Getter*  | is_collide_with_areas_enabled() |
 +-----------+---------------------------------+
 
-如果``true``，查询将考虑:ref:`Area2D<class_Area2D>`。
+如果\ ``true``，查询将考虑\ :ref:`Area2D<class_Area2D>`。
 
 ----
 
@@ -77,7 +77,7 @@ Property Descriptions
 | *Getter*  | is_collide_with_bodies_enabled() |
 +-----------+----------------------------------+
 
-如果``true``，查询将考虑:ref:`PhysicsBody2D<class_PhysicsBody2D>`。
+如果\ ``true``，查询将考虑\ :ref:`PhysicsBody2D<class_PhysicsBody2D>`。
 
 ----
 
@@ -155,7 +155,7 @@ Property Descriptions
 | *Getter* | get_shape_rid()      |
 +----------+----------------------+
 
-查询形状的 :ref:`RID<class_RID>`。另见:ref:`set_shape<class_Physics2DShapeQueryParameters_method_set_shape>`。
+查询形状的 :ref:`RID<class_RID>`。另见\ :ref:`set_shape<class_Physics2DShapeQueryParameters_method_set_shape>`。
 
 ----
 

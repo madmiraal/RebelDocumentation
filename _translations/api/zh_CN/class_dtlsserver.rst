@@ -16,7 +16,7 @@ DTLSServer
 Description
 -----------
 
-这个类用来存储DTLS服务器的状态。在:ref:`setup<class_DTLSServer_method_setup>`\ 时，它将连接的:ref:`PacketPeerUDP<class_PacketPeerUDP>`\ 转换为:ref:`PacketPeerDTLS<class_PacketPeerDTLS>`，通过:ref:`take_connection<class_DTLSServer_method_take_connection>`\ 接受它们作为DTLS客户端。底下，这个类是用来存储服务器的DTLS状态和cookie的。为什么需要状态和cookie的原因不在本文档的范围内。
+这个类用来存储DTLS服务器的状态。在\ :ref:`setup<class_DTLSServer_method_setup>`\ 时，它将连接的\ :ref:`PacketPeerUDP<class_PacketPeerUDP>`\ 转换为\ :ref:`PacketPeerDTLS<class_PacketPeerDTLS>`，通过\ :ref:`take_connection<class_DTLSServer_method_take_connection>`\ 接受它们作为DTLS客户端。底下，这个类是用来存储服务器的DTLS状态和cookie的。为什么需要状态和cookie的原因不在本文档的范围内。
 
 下面以一个小例子来说明如何使用它。
 
@@ -97,9 +97,9 @@ Method Descriptions
 
 - :ref:`PacketPeerDTLS<class_PacketPeerDTLS>` **take_connection** **(** :ref:`PacketPeerUDP<class_PacketPeerUDP>` udp_peer **)**
 
-尝试与给定的``udp_peer``\ 启动DTLS握手，该peer必须已经连接，参阅:ref:`PacketPeerUDP.connect_to_host<class_PacketPeerUDP_method_connect_to_host>`。
+尝试与给定的\ ``udp_peer``\ 启动DTLS握手，该peer必须已经连接，参阅\ :ref:`PacketPeerUDP.connect_to_host<class_PacketPeerUDP_method_connect_to_host>`。
 
-**注意:** 你必须检查返回PacketPeerUDP的状态是否为:ref:`PacketPeerDTLS.STATUS_HANDSHAKING<class_PacketPeerDTLS_constant_STATUS_HANDSHAKING>`，因为正常情况下，50%的新连接会因为cookie交换而无效。
+**注意:** 你必须检查返回PacketPeerUDP的状态是否为\ :ref:`PacketPeerDTLS.STATUS_HANDSHAKING<class_PacketPeerDTLS_constant_STATUS_HANDSHAKING>`，因为正常情况下，50%的新连接会因为cookie交换而无效。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

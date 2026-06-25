@@ -13,12 +13,12 @@ Material
 
 **Inherited By:** :ref:`CanvasItemMaterial<class_CanvasItemMaterial>`, :ref:`ParticlesMaterial<class_ParticlesMaterial>`, :ref:`ShaderMaterial<class_ShaderMaterial>`, :ref:`SpatialMaterial<class_SpatialMaterial>`
 
-用于为几何体上色(Coloring)和着色(Shading)的:ref:`Resource<class_Resource>`\ 抽象子类。
+用于为几何体上色(Coloring)和着色(Shading)的\ :ref:`Resource<class_Resource>`\ 抽象子类。
 
 Description
 -----------
 
-材质是基本:ref:`Resource<class_Resource>`，用于几何体着色器和上色。所有的材质都继承自它，几乎所有的:ref:`VisualInstance<class_VisualInstance>`\ 派生节点都带有材质。有几个标志和参数在所有材质类型之间是共享的，并在这里进行配置。
+材质是基本\ :ref:`Resource<class_Resource>`，用于几何体着色器和上色。所有的材质都继承自它，几乎所有的\ :ref:`VisualInstance<class_VisualInstance>`\ 派生节点都带有材质。有几个标志和参数在所有材质类型之间是共享的，并在这里进行配置。
 
 Properties
 ----------
@@ -55,7 +55,7 @@ Property Descriptions
 
 设置下一次使用的 ``Material``。这将使用不同的材质再次渲染对象。
 
-**注意：**这只适用于“Spatial”类型的 :ref:`SpatialMaterial<class_SpatialMaterial>` 和 :ref:`ShaderMaterial<class_ShaderMaterial>`。
+**注意：**\ 这只适用于“Spatial”类型的 :ref:`SpatialMaterial<class_SpatialMaterial>` 和 :ref:`ShaderMaterial<class_ShaderMaterial>`。
 
 ----
 

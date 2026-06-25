@@ -128,9 +128,9 @@ Property Descriptions
 | *Getter*  | get_amount()      |
 +-----------+-------------------+
 
-在一个发射周期内排放的粒子数（对应于:ref:`lifetime<class_Particles_property_lifetime>`）。
+在一个发射周期内排放的粒子数（对应于\ :ref:`lifetime<class_Particles_property_lifetime>`）。
 
-**注意：**改变:ref:`amount<class_Particles_property_amount>`\ 将重置粒子发射，因此，在改变:ref:`amount<class_Particles_property_amount>`\ 之前已经排放的所有粒子将被移除。
+**注意：**\ 改变\ :ref:`amount<class_Particles_property_amount>`\ 将重置粒子发射，因此，在改变\ :ref:`amount<class_Particles_property_amount>`\ 之前已经排放的所有粒子将被移除。
 
 ----
 
@@ -146,7 +146,7 @@ Property Descriptions
 | *Getter*  | get_draw_order()      |
 +-----------+-----------------------+
 
-粒子绘制顺序。使用:ref:`DrawOrder<enum_Particles_DrawOrder>`\ 值。
+粒子绘制顺序。使用\ :ref:`DrawOrder<enum_Particles_DrawOrder>`\ 值。
 
 ----
 
@@ -160,7 +160,7 @@ Property Descriptions
 | *Getter* | get_draw_pass_mesh()      |
 +----------+---------------------------+
 
-第一次抽取的:ref:`Mesh<class_Mesh>`。
+第一次抽取的\ :ref:`Mesh<class_Mesh>`。
 
 ----
 
@@ -234,7 +234,7 @@ Property Descriptions
 | *Getter*  | is_emitting()       |
 +-----------+---------------------+
 
-如果``true``，则正在发射粒子。
+如果\ ``true``，则正在发射粒子。
 
 ----
 
@@ -250,7 +250,7 @@ Property Descriptions
 | *Getter*  | get_explosiveness_ratio()      |
 +-----------+--------------------------------+
 
-每次发射之间的时间比。如果``0``，粒子是连续发射的。如果``1``，所有的粒子都同时发射。
+每次发射之间的时间比。如果\ ``0``，粒子是连续发射的。如果\ ``1``，所有的粒子都同时发射。
 
 ----
 
@@ -282,7 +282,7 @@ Property Descriptions
 | *Getter*  | get_fractional_delta()      |
 +-----------+-----------------------------+
 
-如果``true``，将导致分数增量计算，该显示具有更平滑的粒子显示效果。
+如果\ ``true``，将导致分数增量计算，该显示具有更平滑的粒子显示效果。
 
 ----
 
@@ -314,7 +314,7 @@ Property Descriptions
 | *Getter*  | get_use_local_coordinates()      |
 +-----------+----------------------------------+
 
-如果``true``，则粒子将使用父节点的坐标空间。如果``false``，则使用全局坐标。
+如果\ ``true``，则粒子将使用父节点的坐标空间。如果\ ``false``，则使用全局坐标。
 
 ----
 
@@ -330,7 +330,7 @@ Property Descriptions
 | *Getter*  | get_one_shot()      |
 +-----------+---------------------+
 
-如果``true``，将只发出``amount``\ 粒子。
+如果\ ``true``，将只发出\ ``amount``\ 粒子。
 
 ----
 
@@ -392,7 +392,7 @@ Property Descriptions
 | *Getter*  | get_speed_scale()      |
 +-----------+------------------------+
 
-速度缩放比。一个``0``\ 的值可以用来暂停粒子。
+速度缩放比。一个\ ``0``\ 的值可以用来暂停粒子。
 
 ----
 

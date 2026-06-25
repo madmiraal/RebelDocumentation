@@ -105,7 +105,7 @@ enum **Projection**:
 
 - **PROJECTION_ORTHOGONAL** = **1** --- 正交投影，又称正交投影。物体无论距离多远，在屏幕上都保持相同的大小。
 
-- **PROJECTION_FRUSTUM** = **2** --- Frustum投影。通过该模式可以调整:ref:`frustum_offset<class_Camera_property_frustum_offset>`\ 来创建 "tilted frustum "效果。
+- **PROJECTION_FRUSTUM** = **2** --- Frustum投影。通过该模式可以调整\ :ref:`frustum_offset<class_Camera_property_frustum_offset>`\ 来创建 "tilted frustum "效果。
 
 ----
 
@@ -133,11 +133,11 @@ enum **KeepAspect**:
 
 enum **DopplerTracking**:
 
-- **DOPPLER_TRACKING_DISABLED** = **0** --- 禁用`多普勒效应 <https://en.wikipedia.org/wiki/Doppler_effect>`__模拟（默认）。
+- **DOPPLER_TRACKING_DISABLED** = **0** --- 禁用\ `多普勒效应 <https://en.wikipedia.org/wiki/Doppler_effect>`__\ 模拟（默认）。
 
-- **DOPPLER_TRACKING_IDLE_STEP** = **1** --- 通过跟踪在 ``_process`` 中改变的物体位置来模拟`多普勒效应 <https://en.wikipedia.org/wiki/Doppler_effect>`__。与这些物体相比，该相机的相对速度的变化会影响音频的感知方式（改变音频的 ``pitch shift``）。
+- **DOPPLER_TRACKING_IDLE_STEP** = **1** --- 通过跟踪在 ``_process`` 中改变的物体位置来模拟\ `多普勒效应 <https://en.wikipedia.org/wiki/Doppler_effect>`__。与这些物体相比，该相机的相对速度的变化会影响音频的感知方式（改变音频的 ``pitch shift``）。
 
-- **DOPPLER_TRACKING_PHYSICS_STEP** = **2** --- 通过跟踪在 ``_process`` 中改变的物体位置来模拟`多普勒效应 <https://en.wikipedia.org/wiki/Doppler_effect>`__。与这些物体相比，该相机的相对速度的变化会影响音频的感知方式（改变音频的 ``pitch shift``）。
+- **DOPPLER_TRACKING_PHYSICS_STEP** = **2** --- 通过跟踪在 ``_process`` 中改变的物体位置来模拟\ `多普勒效应 <https://en.wikipedia.org/wiki/Doppler_effect>`__。与这些物体相比，该相机的相对速度的变化会影响音频的感知方式（改变音频的 ``pitch shift``）。
 
 Property Descriptions
 ---------------------
@@ -170,7 +170,7 @@ Property Descriptions
 | *Getter*  | is_current()       |
 +-----------+--------------------+
 
-如果``true``，则说明祖级的:ref:`Viewport<class_Viewport>`\ 当前正在使用这个摄像头。
+如果\ ``true``，则说明祖级的\ :ref:`Viewport<class_Viewport>`\ 当前正在使用这个摄像头。
 
 ----
 
@@ -186,9 +186,9 @@ Property Descriptions
 | *Getter*  | get_doppler_tracking()      |
 +-----------+-----------------------------+
 
-如果不是:ref:`DOPPLER_TRACKING_DISABLED<class_Camera_constant_DOPPLER_TRACKING_DISABLED>`，此相机将模拟`多普勒效果 <https://en.wikipedia.org/wiki/Doppler_effect>`__的对象在特定``_process``\ 方法中的变化。多普勒效果只对:ref:`AudioStreamPlayer3D.doppler_tracking<class_AudioStreamPlayer3D_property_doppler_tracking>`\ 设置为:ref:`AudioStreamPlayer3D.DOPPLER_TRACKING_DISABLED<class_AudioStreamPlayer3D_constant_DOPPLER_TRACKING_DISABLED>`\ 以外的值的:ref:`AudioStreamPlayer3D<class_AudioStreamPlayer3D>`\ 节点进行模拟。
+如果不是\ :ref:`DOPPLER_TRACKING_DISABLED<class_Camera_constant_DOPPLER_TRACKING_DISABLED>`，此相机将模拟\ `多普勒效果 <https://en.wikipedia.org/wiki/Doppler_effect>`__\ 的对象在特定\ ``_process``\ 方法中的变化。多普勒效果只对\ :ref:`AudioStreamPlayer3D.doppler_tracking<class_AudioStreamPlayer3D_property_doppler_tracking>`\ 设置为\ :ref:`AudioStreamPlayer3D.DOPPLER_TRACKING_DISABLED<class_AudioStreamPlayer3D_constant_DOPPLER_TRACKING_DISABLED>`\ 以外的值的\ :ref:`AudioStreamPlayer3D<class_AudioStreamPlayer3D>`\ 节点进行模拟。
 
-**注意：**要在编辑器中切换多普勒效果预览，使用三维视窗左上角的透视菜单，并切换为**启用多普勒**。
+**注意：**\ 要在编辑器中切换多普勒效果预览，使用三维视窗左上角的透视菜单，并切换为\ **启用多普勒**。
 
 ----
 
@@ -202,7 +202,7 @@ Property Descriptions
 | *Getter* | get_environment()      |
 +----------+------------------------+
 
-此相机要使用的:ref:`Environment<class_Environment>`。
+此相机要使用的\ :ref:`Environment<class_Environment>`。
 
 ----
 
@@ -260,7 +260,7 @@ Property Descriptions
 | *Getter*  | get_frustum_offset()      |
 +-----------+---------------------------+
 
-相机的机身偏移。可以更改默认值，以创建 "倾斜frustum "效果，如`Y-shearing <https://zdoom.org/wiki/Y-shearing>`__。
+相机的机身偏移。可以更改默认值，以创建 "倾斜frustum "效果，如\ `Y-shearing <https://zdoom.org/wiki/Y-shearing>`__。
 
 ----
 
@@ -292,7 +292,7 @@ Property Descriptions
 | *Getter*  | get_keep_aspect_mode()      |
 +-----------+-----------------------------+
 
-在:ref:`fov<class_Camera_property_fov>`/:ref:`size<class_Camera_property_size>`\ 调整时要锁定的轴。可以是:ref:`KEEP_WIDTH<class_Camera_constant_KEEP_WIDTH>`\ 或:ref:`KEEP_HEIGHT<class_Camera_constant_KEEP_HEIGHT>`。
+在\ :ref:`fov<class_Camera_property_fov>`/:ref:`size<class_Camera_property_size>`\ 调整时要锁定的轴。可以是\ :ref:`KEEP_WIDTH<class_Camera_constant_KEEP_WIDTH>`\ 或\ :ref:`KEEP_HEIGHT<class_Camera_constant_KEEP_HEIGHT>`。
 
 ----
 
@@ -324,7 +324,7 @@ Property Descriptions
 | *Getter*  | get_projection()      |
 +-----------+-----------------------+
 
-相机的投影模式。在:ref:`PROJECTION_PERSPECTIVE<class_Camera_constant_PROJECTION_PERSPECTIVE>`\ 模式下，物体与相机局部空间的Z距离会影响其感知的大小。
+相机的投影模式。在\ :ref:`PROJECTION_PERSPECTIVE<class_Camera_constant_PROJECTION_PERSPECTIVE>`\ 模式下，物体与相机局部空间的Z距离会影响其感知的大小。
 
 ----
 
@@ -340,7 +340,7 @@ Property Descriptions
 | *Getter*  | get_size()      |
 +-----------+-----------------+
 
-相机的尺寸，以1/2的宽度或高度测量。仅适用于正交模式。由于:ref:`keep_aspect<class_Camera_property_keep_aspect>`\ 锁定在轴上，因此``size``\ 设置其他轴的尺寸长度。
+相机的尺寸，以1/2的宽度或高度测量。仅适用于正交模式。由于\ :ref:`keep_aspect<class_Camera_property_keep_aspect>`\ 锁定在轴上，因此\ ``size``\ 设置其他轴的尺寸长度。
 
 ----
 
@@ -365,7 +365,7 @@ Method Descriptions
 
 - void **clear_current** **(** :ref:`bool<class_bool>` enable_next=true **)**
 
-如果这是当前相机，则将其从当前相机中移除。如果``enable_next``\ 是``true``，请求使下一个相机成为当前相机（如果有）。
+如果这是当前相机，则将其从当前相机中移除。如果\ ``enable_next``\ 是\ ``true``，请求使下一个相机成为当前相机（如果有）。
 
 ----
 
@@ -381,7 +381,7 @@ Method Descriptions
 
 - :ref:`Transform<class_Transform>` **get_camera_transform** **(** **)** |const|
 
-返回相机的变换加上垂直:ref:`v_offset<class_Camera_property_v_offset>`\ 和水平:ref:`h_offset<class_Camera_property_h_offset>`\ 的偏移量；以及由子类相机如:ref:`ClippedCamera<class_ClippedCamera>`、:ref:`InterpolatedCamera<class_InterpolatedCamera>`\ 和:ref:`ARVRCamera<class_ARVRCamera>`\ 对相机的位置和方向做出的任何其他调整。
+返回相机的变换加上垂直\ :ref:`v_offset<class_Camera_property_v_offset>`\ 和水平\ :ref:`h_offset<class_Camera_property_h_offset>`\ 的偏移量；以及由子类相机如\ :ref:`ClippedCamera<class_ClippedCamera>`、:ref:`InterpolatedCamera<class_InterpolatedCamera>`\ 和\ :ref:`ARVRCamera<class_ARVRCamera>`\ 对相机的位置和方向做出的任何其他调整。
 
 ----
 
@@ -389,7 +389,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **get_cull_mask_bit** **(** :ref:`int<class_int>` layer **)** |const|
 
-如果:ref:`cull_mask<class_Camera_property_cull_mask>`\ 中给定的``layer``\ 被启用，返回``true``，否则返回``false``。
+如果\ :ref:`cull_mask<class_Camera_property_cull_mask>`\ 中给定的\ ``layer``\ 被启用，返回\ ``true``，否则返回\ ``false``。
 
 ----
 
@@ -405,9 +405,9 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_position_behind** **(** :ref:`Vector3<class_Vector3>` world_point **)** |const|
 
-如果给定的位置在相机后面，返回``true``。
+如果给定的位置在相机后面，返回\ ``true``。
 
-**注意：** 返回``false``\ 的位置可能仍然在相机的视野之外。
+**注意：** 返回\ ``false``\ 的位置可能仍然在相机的视野之外。
 
 ----
 
@@ -415,7 +415,7 @@ Method Descriptions
 
 - void **make_current** **(** **)**
 
-使此相机成为:ref:`Viewport<class_Viewport>`\ 的当前相机（见类的说明）。如果相机节点在场景树之外，一旦添加，它将尝试成为当前相机。
+使此相机成为\ :ref:`Viewport<class_Viewport>`\ 的当前相机（见类的说明）。如果相机节点在场景树之外，一旦添加，它将尝试成为当前相机。
 
 ----
 
@@ -455,7 +455,7 @@ Returns a 3D position in world space, that is the result of projecting a point o
 
 - void **set_cull_mask_bit** **(** :ref:`int<class_int>` layer, :ref:`bool<class_bool>` enable **)**
 
-启用或禁用:ref:`cull_mask<class_Camera_property_cull_mask>`\ 中给定的``layer``。
+启用或禁用\ :ref:`cull_mask<class_Camera_property_cull_mask>`\ 中给定的\ ``layer``。
 
 ----
 
@@ -479,7 +479,7 @@ Returns a 3D position in world space, that is the result of projecting a point o
 
 - void **set_perspective** **(** :ref:`float<class_float>` fov, :ref:`float<class_float>` z_near, :ref:`float<class_float>` z_far **)**
 
-将摄像机的投影设置为透视模式，参阅:ref:`PROJECTION_PERSPECTIVE<class_Camera_constant_PROJECTION_PERSPECTIVE>`），指定``fov`` 视野角度，单位度，以及世界空间单位的``z_near``\ 和``z_far``\ 裁剪平面。
+将摄像机的投影设置为透视模式，参阅\ :ref:`PROJECTION_PERSPECTIVE<class_Camera_constant_PROJECTION_PERSPECTIVE>`），指定\ ``fov`` 视野角度，单位度，以及世界空间单位的\ ``z_near``\ 和\ ``z_far``\ 裁剪平面。
 
 ----
 
@@ -487,9 +487,9 @@ Returns a 3D position in world space, that is the result of projecting a point o
 
 - :ref:`Vector2<class_Vector2>` **unproject_position** **(** :ref:`Vector3<class_Vector3>` world_point **)** |const|
 
-返回:ref:`Viewport<class_Viewport>`\ 矩形中的2D坐标，该坐标映射到世界空间中给定的3D点。
+返回\ :ref:`Viewport<class_Viewport>`\ 矩形中的2D坐标，该坐标映射到世界空间中给定的3D点。
 
-**注意：**当使用它来定位3D视窗上的GUI元素时，如果3D点在相机后面，请使用:ref:`is_position_behind<class_Camera_method_is_position_behind>`\ 来防止它们显示。
+**注意：**\ 当使用它来定位3D视窗上的GUI元素时，如果3D点在相机后面，请使用\ :ref:`is_position_behind<class_Camera_method_is_position_behind>`\ 来防止它们显示。
 
 ::
 

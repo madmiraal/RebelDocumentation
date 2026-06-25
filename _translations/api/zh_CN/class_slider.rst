@@ -20,7 +20,7 @@ Description
 
 GUI滑块的基类。
 
-**注意：** :ref:`Range.changed<class_Range_signal_changed>`\ 和:ref:`Range.value_changed<class_Range_signal_value_changed>`\ 信号是该类继承的:ref:`Range<class_Range>`\ 类的一部分。
+**注意：** :ref:`Range.changed<class_Range_signal_changed>`\ 和\ :ref:`Range.value_changed<class_Range_signal_value_changed>`\ 信号是该类继承的\ :ref:`Range<class_Range>`\ 类的一部分。
 
 Properties
 ----------
@@ -54,7 +54,7 @@ Property Descriptions
 | *Getter*  | is_editable()       |
 +-----------+---------------------+
 
-如果``true``，滑块可以交互。如果``false``，则只能通过代码更改该值。
+如果\ ``true``，滑块可以交互。如果\ ``false``，则只能通过代码更改该值。
 
 ----
 

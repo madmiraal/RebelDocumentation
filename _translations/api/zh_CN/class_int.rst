@@ -51,7 +51,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **int** **(** :ref:`bool<class_bool>` from **)**
 
-将一个:ref:`bool<class_bool>`\ 值转换成一个整数值，``int(true)``\ 将等于1，``int(false)`` 将等于0。
+将一个\ :ref:`bool<class_bool>`\ 值转换成一个整数值，``int(true)``\ 将等于1，``int(false)`` 将等于0。
 
 ----
 
@@ -63,7 +63,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **int** **(** :ref:`String<class_String>` from **)**
 
-将一个:ref:`String<class_String>`\ 字符串值转换成一个整数值，这个方法是一个来自字符串的整数解析器，所以用一个无效的整数字符串调用这个方法将返回0，一个有效的字符串将是像``'1.7'``\ 这样。这个方法将忽略所有非数字字符，所以调用``int('1e3')``\ 将返回13。
+将一个\ :ref:`String<class_String>`\ 字符串值转换成一个整数值，这个方法是一个来自字符串的整数解析器，所以用一个无效的整数字符串调用这个方法将返回0，一个有效的字符串将是像\ ``'1.7'``\ 这样。这个方法将忽略所有非数字字符，所以调用\ ``int('1e3')``\ 将返回13。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

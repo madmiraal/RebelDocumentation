@@ -18,7 +18,7 @@ VideoStream
 Description
 -----------
 
-所有视频流的资源类型基类。派生自``VideoStream``\ 的类都可以作为资源类型，在:ref:`VideoPlayer<class_VideoPlayer>`\ 中播放视频。
+所有视频流的资源类型基类。派生自\ ``VideoStream``\ 的类都可以作为资源类型，在\ :ref:`VideoPlayer<class_VideoPlayer>`\ 中播放视频。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

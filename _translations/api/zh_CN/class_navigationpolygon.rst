@@ -79,7 +79,7 @@ Method Descriptions
 
 - void **add_outline** **(** :ref:`PoolVector2Array<class_PoolVector2Array>` outline **)**
 
-将包含轮廓顶点的:ref:`PoolVector2Array<class_PoolVector2Array>`\ 添加到包含所有轮廓的内部数组中。你必须调用:ref:`make_polygons_from_outlines<class_NavigationPolygon_method_make_polygons_from_outlines>`，将数组转换为引擎可使用的多边形。
+将包含轮廓顶点的\ :ref:`PoolVector2Array<class_PoolVector2Array>`\ 添加到包含所有轮廓的内部数组中。你必须调用\ :ref:`make_polygons_from_outlines<class_NavigationPolygon_method_make_polygons_from_outlines>`，将数组转换为引擎可使用的多边形。
 
 ----
 
@@ -87,7 +87,7 @@ Method Descriptions
 
 - void **add_outline_at_index** **(** :ref:`PoolVector2Array<class_PoolVector2Array>` outline, :ref:`int<class_int>` index **)**
 
-将包含轮廓顶点的:ref:`PoolVector2Array<class_PoolVector2Array>`\ 添加到内部数组中，该数组包含所有固定位置的轮廓。你必须调用:ref:`make_polygons_from_outlines<class_NavigationPolygon_method_make_polygons_from_outlines>`，将数组转换为引擎可使用的多边形。
+将包含轮廓顶点的\ :ref:`PoolVector2Array<class_PoolVector2Array>`\ 添加到内部数组中，该数组包含所有固定位置的轮廓。你必须调用\ :ref:`make_polygons_from_outlines<class_NavigationPolygon_method_make_polygons_from_outlines>`，将数组转换为引擎可使用的多边形。
 
 ----
 
@@ -95,7 +95,7 @@ Method Descriptions
 
 - void **add_polygon** **(** :ref:`PoolIntArray<class_PoolIntArray>` polygon **)**
 
-使用调用:ref:`get_vertices<class_NavigationPolygon_method_get_vertices>`\ 得到的顶点的索引添加一个多边形。
+使用调用\ :ref:`get_vertices<class_NavigationPolygon_method_get_vertices>`\ 得到的顶点的索引添加一个多边形。
 
 ----
 
@@ -119,7 +119,7 @@ Method Descriptions
 
 - :ref:`PoolVector2Array<class_PoolVector2Array>` **get_outline** **(** :ref:`int<class_int>` idx **)** |const|
 
-返回:ref:`PoolVector2Array<class_PoolVector2Array>`，包含在编辑器中或通过脚本创建的轮廓的顶点。
+返回\ :ref:`PoolVector2Array<class_PoolVector2Array>`，包含在编辑器中或通过脚本创建的轮廓的顶点。
 
 ----
 
@@ -135,7 +135,7 @@ Method Descriptions
 
 - :ref:`PoolIntArray<class_PoolIntArray>` **get_polygon** **(** :ref:`int<class_int>` idx **)**
 
-返回包含创建的多边形顶点索引的:ref:`PoolIntArray<class_PoolIntArray>`。
+返回包含创建的多边形顶点索引的\ :ref:`PoolIntArray<class_PoolIntArray>`。
 
 ----
 
@@ -151,7 +151,7 @@ Method Descriptions
 
 - :ref:`PoolVector2Array<class_PoolVector2Array>` **get_vertices** **(** **)** |const|
 
-返回包含用于创建多边形的所有顶点的:ref:`PoolVector2Array<class_PoolVector2Array>`。
+返回包含用于创建多边形的所有顶点的\ :ref:`PoolVector2Array<class_PoolVector2Array>`。
 
 ----
 
@@ -183,7 +183,7 @@ Method Descriptions
 
 - void **set_vertices** **(** :ref:`PoolVector2Array<class_PoolVector2Array>` vertices **)**
 
-设置顶点，然后使用:ref:`add_polygon<class_NavigationPolygon_method_add_polygon>`\ 方法创建多边形。
+设置顶点，然后使用\ :ref:`add_polygon<class_NavigationPolygon_method_add_polygon>`\ 方法创建多边形。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

@@ -16,7 +16,7 @@ Tabs
 Description
 -----------
 
-简单的选项卡控制，类似于:ref:`TabContainer<class_TabContainer>`，但只负责绘制选项卡，不与子节点互动。
+简单的选项卡控制，类似于\ :ref:`TabContainer<class_TabContainer>`，但只负责绘制选项卡，不与子节点互动。
 
 Properties
 ----------
@@ -443,7 +443,7 @@ Method Descriptions
 
 - void **set_tabs_rearrange_group** **(** :ref:`int<class_int>` group_id **)**
 
-定义重新排列组的ID。为每个``Tabs``\ 选择相同的值，以便在``Tabs``\ 之间拖动标签。用:ref:`drag_to_rearrange_enabled<class_Tabs_property_drag_to_rearrange_enabled>`\ 启用拖动。
+定义重新排列组的ID。为每个\ ``Tabs``\ 选择相同的值，以便在\ ``Tabs``\ 之间拖动标签。用\ :ref:`drag_to_rearrange_enabled<class_Tabs_property_drag_to_rearrange_enabled>`\ 启用拖动。
 
 Theme Property Descriptions
 ---------------------------

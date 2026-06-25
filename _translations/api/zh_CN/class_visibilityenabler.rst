@@ -20,9 +20,9 @@ Description
 
 如果你只是想接收通知，请使用 :ref:`VisibilityNotifier<class_VisibilityNotifier>` 代替。
 
-**注意：**VisibilityEnabler 由于性能原因使用了一个近似的启发式方法。它不会考虑墙和其他遮挡物（除非你使用了 :ref:`Portal<class_Portal>`）。启发式这一实现细节，在未来的版本中可能会改变。如果你需要精确的可见性检查，请使用另一种方法，例如添加一个 :ref:`Area<class_Area>` 节点作为 :ref:`Camera<class_Camera>` 节点的子节点和/或 :ref:`Vector3.dot<class_Vector3_method_dot>`。
+**注意：**\ VisibilityEnabler 由于性能原因使用了一个近似的启发式方法。它不会考虑墙和其他遮挡物（除非你使用了 :ref:`Portal<class_Portal>`）。启发式这一实现细节，在未来的版本中可能会改变。如果你需要精确的可见性检查，请使用另一种方法，例如添加一个 :ref:`Area<class_Area>` 节点作为 :ref:`Camera<class_Camera>` 节点的子节点和/或 :ref:`Vector3.dot<class_Vector3_method_dot>`。
 
-**注意：**VisibilityEnabler 不会影响场景初始化后添加的节点。
+**注意：**\ VisibilityEnabler 不会影响场景初始化后添加的节点。
 
 Properties
 ----------
@@ -55,11 +55,11 @@ Enumerations
 
 enum **Enabler**:
 
-- **ENABLER_PAUSE_ANIMATIONS** = **0** --- 这个启用程序将暂停:ref:`AnimationPlayer<class_AnimationPlayer>`\ 节点。
+- **ENABLER_PAUSE_ANIMATIONS** = **0** --- 这个启用程序将暂停\ :ref:`AnimationPlayer<class_AnimationPlayer>`\ 节点。
 
-- **ENABLER_FREEZE_BODIES** = **1** --- 这个启用程序将冻结:ref:`RigidBody<class_RigidBody>`\ 节点。
+- **ENABLER_FREEZE_BODIES** = **1** --- 这个启用程序将冻结\ :ref:`RigidBody<class_RigidBody>`\ 节点。
 
-- **ENABLER_MAX** = **2** --- 表示:ref:`Enabler<enum_VisibilityEnabler_Enabler>`\ 枚举的大小。
+- **ENABLER_MAX** = **2** --- 表示\ :ref:`Enabler<enum_VisibilityEnabler_Enabler>`\ 枚举的大小。
 
 Property Descriptions
 ---------------------
@@ -76,7 +76,7 @@ Property Descriptions
 | *Getter*  | is_enabler_enabled() |
 +-----------+----------------------+
 
-如果``true``，:ref:`RigidBody<class_RigidBody>`\ 节点将被暂停。
+如果\ ``true``，:ref:`RigidBody<class_RigidBody>`\ 节点将被暂停。
 
 ----
 
@@ -92,7 +92,7 @@ Property Descriptions
 | *Getter*  | is_enabler_enabled() |
 +-----------+----------------------+
 
-如果``true``，:ref:`AnimationPlayer<class_AnimationPlayer>`\ 节点将被暂停。
+如果\ ``true``，:ref:`AnimationPlayer<class_AnimationPlayer>`\ 节点将被暂停。
 
 Method Descriptions
 -------------------
@@ -109,7 +109,7 @@ Method Descriptions
 
 - void **set_enabler** **(** :ref:`Enabler<enum_VisibilityEnabler_Enabler>` enabler, :ref:`bool<class_bool>` enabled **)**
 
-设置由给定的:ref:`Enabler<enum_VisibilityEnabler_Enabler>`\ 常量识别的启用程序的活动状态。
+设置由给定的\ :ref:`Enabler<enum_VisibilityEnabler_Enabler>`\ 常量识别的启用程序的活动状态。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

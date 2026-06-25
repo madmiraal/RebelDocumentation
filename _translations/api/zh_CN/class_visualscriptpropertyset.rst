@@ -11,7 +11,7 @@ VisualScriptPropertySet
 
 **Inherits:** :ref:`VisualScriptNode<class_VisualScriptNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
 
-一个Visual Script节点，用于设置:ref:`Object<class_Object>`\ 的属性。
+一个Visual Script节点，用于设置\ :ref:`Object<class_Object>`\ 的属性。
 
 Description
 -----------
@@ -56,7 +56,7 @@ enum **CallMode**:
 
 - **CALL_MODE_SELF** = **0** --- 在此 :ref:`Object<class_Object>` 上设置该属性。
 
-- **CALL_MODE_NODE_PATH** = **1** --- 在场景树中指定的:ref:`Node<class_Node>`\ 上设置该属性。
+- **CALL_MODE_NODE_PATH** = **1** --- 在场景树中指定的\ :ref:`Node<class_Node>`\ 上设置该属性。
 
 - **CALL_MODE_INSTANCE** = **2** --- 在具有指定类型和脚本的实例化节点上设置该属性。
 
@@ -127,7 +127,7 @@ Property Descriptions
 | *Getter*  | get_assign_op()      |
 +-----------+----------------------+
 
-赋值时要执行的额外操作。参阅:ref:`AssignOp<enum_VisualScriptPropertySet_AssignOp>`\ 的选项。
+赋值时要执行的额外操作。参阅\ :ref:`AssignOp<enum_VisualScriptPropertySet_AssignOp>`\ 的选项。
 
 ----
 
@@ -185,7 +185,7 @@ Property Descriptions
 | *Getter* | get_index()      |
 +----------+------------------+
 
-要设置的属性的索引名称。详见:ref:`Object.set_indexed<class_Object_method_set_indexed>`。
+要设置的属性的索引名称。详见\ :ref:`Object.set_indexed<class_Object_method_set_indexed>`。
 
 ----
 
@@ -231,7 +231,7 @@ Property Descriptions
 | *Getter*  | get_call_mode()      |
 +-----------+----------------------+
 
-``set_mode`` 决定了将被设置属性的目标对象。参阅:ref:`CallMode<enum_VisualScriptPropertySet_CallMode>`\ 的选项。
+``set_mode`` 决定了将被设置属性的目标对象。参阅\ :ref:`CallMode<enum_VisualScriptPropertySet_CallMode>`\ 的选项。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

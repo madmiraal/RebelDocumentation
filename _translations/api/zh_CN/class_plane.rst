@@ -95,9 +95,9 @@ Property Descriptions
 | *Default* | ``0.0`` |
 +-----------+---------+
 
-从原点到平面的距离，沿:ref:`normal<class_Plane_property_normal>`\ 方向。这个值通常是非负的。
+从原点到平面的距离，沿\ :ref:`normal<class_Plane_property_normal>`\ 方向。这个值通常是非负的。
 
-在平面``ax + by + cz = d``\ 的标量方程中，这是``d``，而``(a, b, c)``\ 坐标由:ref:`normal<class_Plane_property_normal>`\ 属性表示。
+在平面\ ``ax + by + cz = d``\ 的标量方程中，这是\ ``d``，而\ ``(a, b, c)``\ 坐标由\ :ref:`normal<class_Plane_property_normal>`\ 属性表示。
 
 ----
 
@@ -111,7 +111,7 @@ Property Descriptions
 
 平面的法线，必须归一化。
 
-在平面``ax + by + cz = d``\ 的标量方程中，这是向量``(a, b, c)``，其中``d``\ 是:ref:`d<class_Plane_property_d>`\ 属性。
+在平面\ ``ax + by + cz = d``\ 的标量方程中，这是向量\ ``(a, b, c)``，其中\ ``d``\ 是\ :ref:`d<class_Plane_property_d>`\ 属性。
 
 ----
 
@@ -123,7 +123,7 @@ Property Descriptions
 | *Default* | ``0.0`` |
 +-----------+---------+
 
-平面的:ref:`normal<class_Plane_property_normal>`\ 向量的X分量。
+平面的\ :ref:`normal<class_Plane_property_normal>`\ 向量的X分量。
 
 ----
 
@@ -135,7 +135,7 @@ Property Descriptions
 | *Default* | ``0.0`` |
 +-----------+---------+
 
-平面的:ref:`normal<class_Plane_property_normal>`\ 向量的Y分量。
+平面的\ :ref:`normal<class_Plane_property_normal>`\ 向量的Y分量。
 
 ----
 
@@ -147,7 +147,7 @@ Property Descriptions
 | *Default* | ``0.0`` |
 +-----------+---------+
 
-平面的:ref:`normal<class_Plane_property_normal>`\ 向量的Z分量。
+平面的\ :ref:`normal<class_Plane_property_normal>`\ 向量的Z分量。
 
 Method Descriptions
 -------------------
@@ -156,7 +156,7 @@ Method Descriptions
 
 - :ref:`Plane<class_Plane>` **Plane** **(** :ref:`float<class_float>` a, :ref:`float<class_float>` b, :ref:`float<class_float>` c, :ref:`float<class_float>` d **)**
 
-根据四个参数创建一个平面。产生的平面的 :ref:`normal<class_Plane_property_normal>` 的三个分量是 ``a``、``b``、``c``，并且平面与原点的距离为``d``。
+根据四个参数创建一个平面。产生的平面的 :ref:`normal<class_Plane_property_normal>` 的三个分量是 ``a``、``b``、``c``，并且平面与原点的距离为\ ``d``。
 
 ----
 
@@ -184,7 +184,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **distance_to** **(** :ref:`Vector3<class_Vector3>` point **)**
 
-返回从平面到位置``point``\ 的最短距离。
+返回从平面到位置\ ``point``\ 的最短距离。
 
 ----
 
@@ -194,7 +194,7 @@ Method Descriptions
 
 返回平面的中心。
 
-此方法已被废弃，请使用:ref:`center<class_Plane_method_center>`\ 代替。
+此方法已被废弃，请使用\ :ref:`center<class_Plane_method_center>`\ 代替。
 
 ----
 
@@ -202,7 +202,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **has_point** **(** :ref:`Vector3<class_Vector3>` point, :ref:`float<class_float>` epsilon=1e-05 **)**
 
-如果``point``\ 在平面内，则返回``true``。比较使用自定义的最小``epsilon』`` ε 阈值。
+如果\ ``point``\ 在平面内，则返回\ ``true``。比较使用自定义的最小\ ``epsilon』`` ε 阈值。
 
 ----
 
@@ -210,7 +210,7 @@ Method Descriptions
 
 - :ref:`Vector3<class_Vector3>` **intersect_3** **(** :ref:`Plane<class_Plane>` b, :ref:`Plane<class_Plane>` c **)**
 
-返回三个平面``b``，``c``\ 与该平面的交点。如果没有找到交集，则返回``null``。
+返回三个平面\ ``b``，``c``\ 与该平面的交点。如果没有找到交集，则返回\ ``null``。
 
 ----
 
@@ -218,7 +218,7 @@ Method Descriptions
 
 - :ref:`Vector3<class_Vector3>` **intersects_ray** **(** :ref:`Vector3<class_Vector3>` from, :ref:`Vector3<class_Vector3>` dir **)**
 
-返回由位置``from``\ 和方向法线``dir``\ 组成的射线与该平面的交点。如果没有找到交点，则返回``null``。
+返回由位置\ ``from``\ 和方向法线\ ``dir``\ 组成的射线与该平面的交点。如果没有找到交点，则返回\ ``null``。
 
 ----
 
@@ -226,7 +226,7 @@ Method Descriptions
 
 - :ref:`Vector3<class_Vector3>` **intersects_segment** **(** :ref:`Vector3<class_Vector3>` begin, :ref:`Vector3<class_Vector3>` end **)**
 
-返回从位置``begin``\ 到位置``end``\ 的线段与这个平面的交点。如果没有找到交点，则返回``null``。
+返回从位置\ ``begin``\ 到位置\ ``end``\ 的线段与这个平面的交点。如果没有找到交点，则返回\ ``null``。
 
 ----
 
@@ -234,7 +234,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_equal_approx** **(** :ref:`Plane<class_Plane>` plane **)**
 
-通过在每个组件上运行:ref:`@GDScript.is_equal_approx<class_@GDScript_method_is_equal_approx>`，如果此平面和``plane``\ 近似相等，则返回``true``。
+通过在每个组件上运行\ :ref:`@GDScript.is_equal_approx<class_@GDScript_method_is_equal_approx>`，如果此平面和\ ``plane``\ 近似相等，则返回\ ``true``。
 
 ----
 
@@ -242,7 +242,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_point_over** **(** :ref:`Vector3<class_Vector3>` point **)**
 
-如果``point``\ 位于平面上方，则返回``true``。
+如果\ ``point``\ 位于平面上方，则返回\ ``true``。
 
 ----
 
@@ -258,7 +258,7 @@ Method Descriptions
 
 - :ref:`Vector3<class_Vector3>` **project** **(** :ref:`Vector3<class_Vector3>` point **)**
 
-返回``点``\ 在平面上的正交投影。
+返回\ ``点``\ 在平面上的正交投影。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

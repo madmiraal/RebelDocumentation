@@ -55,7 +55,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **add_piece** **(** :ref:`Vector2<class_Vector2>` ofs, :ref:`Texture<class_Texture>` texture **)**
 
-将``texture``\ 添加到这个``LargeTexture``，从偏移量``ofs``\ 开始。
+将\ ``texture``\ 添加到这个\ ``LargeTexture``，从偏移量\ ``ofs``\ 开始。
 
 ----
 
@@ -63,7 +63,7 @@ Method Descriptions
 
 - void **clear** **(** **)**
 
-清除``LargeTexture``。
+清除\ ``LargeTexture``。
 
 ----
 
@@ -71,7 +71,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_piece_count** **(** **)** |const|
 
-返回此``LargeTexture``\ 中的片段数。
+返回此\ ``LargeTexture``\ 中的片段数。
 
 ----
 
@@ -79,7 +79,7 @@ Method Descriptions
 
 - :ref:`Vector2<class_Vector2>` **get_piece_offset** **(** :ref:`int<class_int>` idx **)** |const|
 
-返回索引为``idx``\ 的片段的偏移量。
+返回索引为\ ``idx``\ 的片段的偏移量。
 
 ----
 
@@ -95,7 +95,7 @@ Method Descriptions
 
 - void **set_piece_offset** **(** :ref:`int<class_int>` idx, :ref:`Vector2<class_Vector2>` ofs **)**
 
-将索引为``idx``\ 的片段的偏移量设置为``ofs``。
+将索引为\ ``idx``\ 的片段的偏移量设置为\ ``ofs``。
 
 ----
 
@@ -111,7 +111,7 @@ Method Descriptions
 
 - void **set_size** **(** :ref:`Vector2<class_Vector2>` size **)**
 
-设置此``LargeTexture``\ 的大小。
+设置此\ ``LargeTexture``\ 的大小。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

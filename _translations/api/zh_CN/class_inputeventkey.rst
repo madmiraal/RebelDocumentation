@@ -16,7 +16,7 @@ InputEventKey
 Description
 -----------
 
-存储键盘上的按键。支持按键、按键释放和:ref:`echo<class_InputEventKey_property_echo>`\ 回显事件。
+存储键盘上的按键。支持按键、按键释放和\ :ref:`echo<class_InputEventKey_property_echo>`\ 回显事件。
 
 Tutorials
 ---------
@@ -96,7 +96,7 @@ Property Descriptions
 | *Getter*  | is_pressed()       |
 +-----------+--------------------+
 
-如果``true``，按键的状态是被按下。如果``false``，该键的状态被释放。
+如果\ ``true``，按键的状态是被按下。如果\ ``false``，该键的状态被释放。
 
 ----
 
@@ -130,7 +130,7 @@ Property Descriptions
 | *Getter*  | get_unicode()      |
 +-----------+--------------------+
 
-Unicode键标识符（如果相关）。除非 IME 输入模式处于激活状态，否则复合字符和复杂脚本的 Unicode 标识符可能无法使用。更多信息参阅:ref:`OS.set_ime_active<class_OS_method_set_ime_active>`。
+Unicode键标识符（如果相关）。除非 IME 输入模式处于激活状态，否则复合字符和复杂脚本的 Unicode 标识符可能无法使用。更多信息参阅\ :ref:`OS.set_ime_active<class_OS_method_set_ime_active>`。
 
 Method Descriptions
 -------------------
@@ -139,7 +139,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_physical_scancode_with_modifiers** **(** **)** |const|
 
-返回与修改键组合的物理键码，例如 ``Shift`` 或 ``Alt``。参阅:ref:`InputEventWithModifiers<class_InputEventWithModifiers>`。
+返回与修改键组合的物理键码，例如 ``Shift`` 或 ``Alt``。参阅\ :ref:`InputEventWithModifiers<class_InputEventWithModifiers>`。
 
 要获得带有修饰符的 ``InputEventKey`` 的人类可读表示，请使用 ``OS.get_scancode_string(event.get_physical_scancode_with_modifiers())`` 其中 ``event`` 是 ``InputEventKey``。
 
@@ -149,7 +149,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_scancode_with_modifiers** **(** **)** |const|
 
-返回与 ``Shift`` 或 ``Alt`` 等修饰键组合的键码。参阅:ref:`InputEventWithModifiers<class_InputEventWithModifiers>`。
+返回与 ``Shift`` 或 ``Alt`` 等修饰键组合的键码。参阅\ :ref:`InputEventWithModifiers<class_InputEventWithModifiers>`。
 
 要获得带有修饰符的 ``InputEventKey`` 的人类可读表示，请使用 ``OS.get_scancode_string(event.get_scancode_with_modifiers())`` 其中 ``event`` 是 ``InputEventKey``。
 

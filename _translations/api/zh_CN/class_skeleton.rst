@@ -138,7 +138,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **find_bone** **(** :ref:`String<class_String>` name **)** |const|
 
-返回``name``\ 与其名称匹配的的骨骼索引。
+返回\ ``name``\ 与其名称匹配的的骨骼索引。
 
 ----
 
@@ -186,9 +186,9 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_bone_parent** **(** :ref:`int<class_int>` bone_idx **)** |const|
 
-返回在``bone_idx``\ 处的骨骼的父级索引。如果是-1，那么骨骼就没有父骨骼。
+返回在\ ``bone_idx``\ 处的骨骼的父级索引。如果是-1，那么骨骼就没有父骨骼。
 
-**注意：**返回的父骨骼将总是小于``bone_idx``。
+**注意：**\ 返回的父骨骼将总是小于\ ``bone_idx``。
 
 ----
 
@@ -304,7 +304,7 @@ Method Descriptions
 
 - void **set_bone_rest** **(** :ref:`int<class_int>` bone_idx, :ref:`Transform<class_Transform>` rest **)**
 
-为骨骼``bone_idx``\ 设置休息变换。
+为骨骼\ ``bone_idx``\ 设置休息变换。
 
 ----
 

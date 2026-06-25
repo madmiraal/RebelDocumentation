@@ -119,7 +119,7 @@ Property Descriptions
 | *Getter*  | get_text_align()      |
 +-----------+-----------------------+
 
-按钮文本的文本对齐策略，使用:ref:`TextAlign<enum_Button_TextAlign>`\ 常量之一。
+按钮文本的文本对齐策略，使用\ :ref:`TextAlign<enum_Button_TextAlign>`\ 常量之一。
 
 ----
 
@@ -212,7 +212,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 0.88, 0.88, 0.88, 1 )`` |
 +-----------+----------------------------------+
 
-``Button``\ 的默认文本:ref:`Color<class_Color>`。
+``Button``\ 的默认文本\ :ref:`Color<class_Color>`。
 
 ----
 
@@ -224,7 +224,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 0.9, 0.9, 0.9, 0.2 )`` |
 +-----------+---------------------------------+
 
-禁用``Button``\ 时使用的文本:ref:`Color<class_Color>`。
+禁用\ ``Button``\ 时使用的文本\ :ref:`Color<class_Color>`。
 
 ----
 
@@ -236,7 +236,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 0.94, 0.94, 0.94, 1 )`` |
 +-----------+----------------------------------+
 
-当``Button``\ 获得焦点时使用的文本:ref:`Color<class_Color>`。只取代按钮的正常文本颜色。禁用、悬停和按下状态优先于这个颜色。
+当\ ``Button``\ 获得焦点时使用的文本\ :ref:`Color<class_Color>`。只取代按钮的正常文本颜色。禁用、悬停和按下状态优先于这个颜色。
 
 ----
 
@@ -248,7 +248,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 0.94, 0.94, 0.94, 1 )`` |
 +-----------+----------------------------------+
 
-悬停``Button``\ 时使用的文本:ref:`Color<class_Color>`。
+悬停\ ``Button``\ 时使用的文本\ :ref:`Color<class_Color>`。
 
 ----
 
@@ -280,7 +280,7 @@ Theme Property Descriptions
 
 - :ref:`Font<class_Font>` **font**
 
-``Button``\ 文本的:ref:`Font<class_Font>`。
+``Button``\ 文本的\ :ref:`Font<class_Font>`。
 
 ----
 
@@ -288,7 +288,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **disabled**
 
-当``Button``\ 被禁用时，使用:ref:`StyleBox<class_StyleBox>`。
+当\ ``Button``\ 被禁用时，使用\ :ref:`StyleBox<class_StyleBox>`。
 
 ----
 
@@ -296,7 +296,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **focus**
 
-当``Button``\ 获得焦点时使用的:ref:`StyleBox<class_StyleBox>`。它显示在当前的:ref:`StyleBox<class_StyleBox>`\ 之上，所以使用:ref:`StyleBoxEmpty<class_StyleBoxEmpty>`\ 只是禁用焦点视觉效果。
+当\ ``Button``\ 获得焦点时使用的\ :ref:`StyleBox<class_StyleBox>`。它显示在当前的\ :ref:`StyleBox<class_StyleBox>`\ 之上，所以使用\ :ref:`StyleBoxEmpty<class_StyleBoxEmpty>`\ 只是禁用焦点视觉效果。
 
 ----
 
@@ -304,7 +304,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **hover**
 
-悬停``Button``\ 时使用的:ref:`StyleBox<class_StyleBox>`。
+悬停\ ``Button``\ 时使用的\ :ref:`StyleBox<class_StyleBox>`。
 
 ----
 
@@ -312,7 +312,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **normal**
 
-``Button``\ 的默认:ref:`StyleBox<class_StyleBox>`。
+``Button``\ 的默认\ :ref:`StyleBox<class_StyleBox>`。
 
 ----
 
@@ -320,7 +320,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **pressed**
 
-按下``Button``\ 时使用的:ref:`StyleBox<class_StyleBox>`。
+按下\ ``Button``\ 时使用的\ :ref:`StyleBox<class_StyleBox>`。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

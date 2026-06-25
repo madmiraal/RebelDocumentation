@@ -11,14 +11,14 @@ CheckBox
 
 **Inherits:** :ref:`Button<class_Button>` **<** :ref:`BaseButton<class_BaseButton>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-二元选择（有或无）用户界面小部件。另请参阅:ref:`CheckButton<class_CheckButton>`。
+二元选择（有或无）用户界面小部件。另请参阅\ :ref:`CheckButton<class_CheckButton>`。
 
 Description
 -----------
 
-复选框让用户做出二元选择，即在两个可能的选项中只选择一个。它在功能上类似于:ref:`CheckButton<class_CheckButton>`，但外观不同。为了遵循用户体验，建议在切换它对某些东西**没有**直接影响时使用CheckBox。例如，当切换它只会在确认按钮被按下时做一些事情时，使用它。
+复选框让用户做出二元选择，即在两个可能的选项中只选择一个。它在功能上类似于\ :ref:`CheckButton<class_CheckButton>`，但外观不同。为了遵循用户体验，建议在切换它对某些东西\ **没有**\ 直接影响时使用CheckBox。例如，当切换它只会在确认按钮被按下时做一些事情时，使用它。
 
-参阅:ref:`BaseButton<class_BaseButton>`，它包含了与该节点相关的常规属性和方法。
+参阅\ :ref:`BaseButton<class_BaseButton>`，它包含了与该节点相关的常规属性和方法。
 
 Properties
 ----------
@@ -139,7 +139,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 1, 1, 1, 1 )`` |
 +-----------+-------------------------+
 
-当``CheckBox``\ 文本被悬停和按下时的字体颜色。
+当\ ``CheckBox``\ 文本被悬停和按下时的字体颜色。
 
 ----
 
@@ -183,7 +183,7 @@ Theme Property Descriptions
 
 - :ref:`Font<class_Font>` **font**
 
-用于``CheckBox``\ 文本的:ref:`Font<class_Font>`。
+用于\ ``CheckBox``\ 文本的\ :ref:`Font<class_Font>`。
 
 ----
 
@@ -191,7 +191,7 @@ Theme Property Descriptions
 
 - :ref:`Texture<class_Texture>` **checked**
 
-选中``CheckBox``\ 时显示的复选图标。
+选中\ ``CheckBox``\ 时显示的复选图标。
 
 ----
 
@@ -199,7 +199,7 @@ Theme Property Descriptions
 
 - :ref:`Texture<class_Texture>` **checked_disabled**
 
-当``CheckBox``\ 被选中和禁用时要显示的勾选图标。
+当\ ``CheckBox``\ 被选中和禁用时要显示的勾选图标。
 
 ----
 
@@ -207,7 +207,7 @@ Theme Property Descriptions
 
 - :ref:`Texture<class_Texture>` **radio_checked**
 
-如果将``CheckBox``\ 配置为单选按钮，则选中``CheckBox``\ 时显示的图标。
+如果将\ ``CheckBox``\ 配置为单选按钮，则选中\ ``CheckBox``\ 时显示的图标。
 
 ----
 
@@ -221,7 +221,7 @@ Theme Property Descriptions
 
 - :ref:`Texture<class_Texture>` **radio_unchecked**
 
-如果将``CheckBox``\ 配置为单选按钮，则取消选中``CheckBox``\ 时显示的图标。
+如果将\ ``CheckBox``\ 配置为单选按钮，则取消选中\ ``CheckBox``\ 时显示的图标。
 
 ----
 
@@ -235,7 +235,7 @@ Theme Property Descriptions
 
 - :ref:`Texture<class_Texture>` **unchecked**
 
-未选中``CheckBox``\ 时显示的复选图标。
+未选中\ ``CheckBox``\ 时显示的复选图标。
 
 ----
 
@@ -243,7 +243,7 @@ Theme Property Descriptions
 
 - :ref:`Texture<class_Texture>` **unchecked_disabled**
 
-当``CheckBox``\ 未被选中并被禁用时要显示的勾选图标。
+当\ ``CheckBox``\ 未被选中并被禁用时要显示的勾选图标。
 
 ----
 
@@ -251,7 +251,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **disabled**
 
-当``CheckBox``\ 被禁用时，作为背景显示的:ref:`StyleBox<class_StyleBox>`。
+当\ ``CheckBox``\ 被禁用时，作为背景显示的\ :ref:`StyleBox<class_StyleBox>`。
 
 ----
 
@@ -259,7 +259,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **focus**
 
-当``CheckBox``\ 被聚焦时，作为背景显示的:ref:`StyleBox<class_StyleBox>`。
+当\ ``CheckBox``\ 被聚焦时，作为背景显示的\ :ref:`StyleBox<class_StyleBox>`。
 
 ----
 
@@ -267,7 +267,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **hover**
 
-当``CheckBox``\ 被悬停时作为背景显示的:ref:`StyleBox<class_StyleBox>`。
+当\ ``CheckBox``\ 被悬停时作为背景显示的\ :ref:`StyleBox<class_StyleBox>`。
 
 ----
 
@@ -275,7 +275,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **hover_pressed**
 
-当``CheckBox``\ 被悬停和按下时，作为背景显示的:ref:`StyleBox<class_StyleBox>`。
+当\ ``CheckBox``\ 被悬停和按下时，作为背景显示的\ :ref:`StyleBox<class_StyleBox>`。
 
 ----
 
@@ -291,7 +291,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **pressed**
 
-按下``CheckBox``\ 时，:ref:`StyleBox<class_StyleBox>`\ 显示为背景。
+按下\ ``CheckBox``\ 时，:ref:`StyleBox<class_StyleBox>`\ 显示为背景。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

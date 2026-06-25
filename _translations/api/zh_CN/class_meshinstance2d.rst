@@ -11,12 +11,12 @@ MeshInstance2D
 
 **Inherits:** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-用于在2D中显示:ref:`Mesh<class_Mesh>`\ 的节点。
+用于在2D中显示\ :ref:`Mesh<class_Mesh>`\ 的节点。
 
 Description
 -----------
 
-用于在2D中显示:ref:`Mesh<class_Mesh>`\ 的节点。可以通过编辑器工具栏上的工具从现有的:ref:`Sprite<class_Sprite>`\ 构建。选择 "Sprite"，然后选择 "转换为Mesh2D"，在弹出的窗口中选择设置并按下 "创建Mesh2D"。
+用于在2D中显示\ :ref:`Mesh<class_Mesh>`\ 的节点。可以通过编辑器工具栏上的工具从现有的\ :ref:`Sprite<class_Sprite>`\ 构建。选择 "Sprite"，然后选择 "转换为Mesh2D"，在弹出的窗口中选择设置并按下 "创建Mesh2D"。
 
 Tutorials
 ---------
@@ -41,7 +41,7 @@ Signals
 
 - **texture_changed** **(** **)**
 
-当:ref:`texture<class_MeshInstance2D_property_texture>`\ 被改变时触发。
+当\ :ref:`texture<class_MeshInstance2D_property_texture>`\ 被改变时触发。
 
 Property Descriptions
 ---------------------
@@ -56,7 +56,7 @@ Property Descriptions
 | *Getter* | get_mesh()      |
 +----------+-----------------+
 
-:ref:`Mesh<class_Mesh>`\ 将由``MeshInstance2D``\ 绘制。
+:ref:`Mesh<class_Mesh>`\ 将由\ ``MeshInstance2D``\ 绘制。
 
 ----
 
@@ -86,7 +86,7 @@ The normal map that will be used if using the default :ref:`CanvasItemMaterial<c
 | *Getter* | get_texture()      |
 +----------+--------------------+
 
-如果使用默认的:ref:`CanvasItemMaterial<class_CanvasItemMaterial>`，就会使用:ref:`Texture<class_Texture>`。可以在CanvasItem着色器中作为``TEXTURE``\ 访问。
+如果使用默认的\ :ref:`CanvasItemMaterial<class_CanvasItemMaterial>`，就会使用\ :ref:`Texture<class_Texture>`。可以在CanvasItem着色器中作为\ ``TEXTURE``\ 访问。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

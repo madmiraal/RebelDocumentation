@@ -16,7 +16,7 @@ PopupMenu(弹出菜单)显示选项列表.
 Description
 -----------
 
-``PopupMenu``\ 是一个显示选项列表的:ref:`Control<class_Control>`.它们在工具栏或上下文菜单中很常用.
+``PopupMenu``\ 是一个显示选项列表的\ :ref:`Control<class_Control>`.它们在工具栏或上下文菜单中很常用.
 
 Properties
 ----------
@@ -196,7 +196,7 @@ Signals
 
 - **id_focused** **(** :ref:`int<class_int>` id **)**
 
-当用户使用``ui_up``\ 或``ui_down``\ 操作导航到某个``id``\ 项时触发。
+当用户使用\ ``ui_up``\ 或\ ``ui_down``\ 操作导航到某个\ ``id``\ 项时触发。
 
 ----
 
@@ -204,7 +204,7 @@ Signals
 
 - **id_pressed** **(** :ref:`int<class_int>` id **)**
 
-当按下某个``id``\ 的项目或激活其加速器时触发。
+当按下某个\ ``id``\ 的项目或激活其加速器时触发。
 
 ----
 
@@ -212,7 +212,7 @@ Signals
 
 - **index_pressed** **(** :ref:`int<class_int>` index **)**
 
-当按下某个``index``\ 的项或激活其加速器时触发。
+当按下某个\ ``index``\ 的项或激活其加速器时触发。
 
 Property Descriptions
 ---------------------
@@ -229,7 +229,7 @@ Property Descriptions
 | *Getter*  | get_allow_search()      |
 +-----------+-------------------------+
 
-如果为``true``，允许用字母键导航``PopupMenu``。
+如果为\ ``true``，允许用字母键导航\ ``PopupMenu``。
 
 ----
 
@@ -245,7 +245,7 @@ Property Descriptions
 | *Getter*  | is_hide_on_checkable_item_selection()       |
 +-----------+---------------------------------------------+
 
-如果``true``，则在选中复选框或单选按钮时隐藏``PopupMenu``。
+如果\ ``true``，则在选中复选框或单选按钮时隐藏\ ``PopupMenu``。
 
 ----
 
@@ -261,7 +261,7 @@ Property Descriptions
 | *Getter*  | is_hide_on_item_selection()       |
 +-----------+-----------------------------------+
 
-如果``true``，当一个项目被选中时隐藏``PopupMenu``。
+如果\ ``true``，当一个项目被选中时隐藏\ ``PopupMenu``。
 
 ----
 
@@ -277,7 +277,7 @@ Property Descriptions
 | *Getter*  | is_hide_on_state_item_selection()       |
 +-----------+-----------------------------------------+
 
-如果``true``，则在选中状态项时隐藏``PopupMenu``。
+如果\ ``true``，则在选中状态项时隐藏\ ``PopupMenu``。
 
 ----
 
@@ -302,11 +302,11 @@ Method Descriptions
 
 - void **add_check_item** **(** :ref:`String<class_String>` label, :ref:`int<class_int>` id=-1, :ref:`int<class_int>` accel=0 **)**
 
-添加一个新的带有``label``\ 文本的可检查项目.
+添加一个新的带有\ ``label``\ 文本的可检查项目.
 
-可以选择提供一个``id``\ 以及一个快捷键(``accel``)加速.如果没有提供``id``,将从索引中创建一个.如果没有提供``accel``,那么将为其分配默认的``0``.参阅 :ref:`get_item_accelerator<class_PopupMenu_method_get_item_accelerator>`\ 了解更多关于快捷键的信息.
+可以选择提供一个\ ``id``\ 以及一个快捷键(``accel``)加速.如果没有提供\ ``id``,将从索引中创建一个.如果没有提供\ ``accel``,那么将为其分配默认的\ ``0``.参阅 :ref:`get_item_accelerator<class_PopupMenu_method_get_item_accelerator>`\ 了解更多关于快捷键的信息.
 
-**注意:**可检查项目只是显示一个检查标记,但没有任何内置的检查行为,必须手动检查或取消检查.参阅:ref:`set_item_checked<class_PopupMenu_method_set_item_checked>`\ 了解更多关于如何控制它的信息.
+**注意:**\ 可检查项目只是显示一个检查标记,但没有任何内置的检查行为,必须手动检查或取消检查.参阅\ :ref:`set_item_checked<class_PopupMenu_method_set_item_checked>`\ 了解更多关于如何控制它的信息.
 
 ----
 
@@ -314,11 +314,11 @@ Method Descriptions
 
 - void **add_check_shortcut** **(** :ref:`ShortCut<class_ShortCut>` shortcut, :ref:`int<class_int>` id=-1, :ref:`bool<class_bool>` global=false **)**
 
-添加一个新的可检查项目,并将指定的:ref:`ShortCut<class_ShortCut>`\ 分配给它.将复选框的标签设置为ShortCut的名称.
+添加一个新的可检查项目,并将指定的\ :ref:`ShortCut<class_ShortCut>`\ 分配给它.将复选框的标签设置为ShortCut的名称.
 
-可以选择提供一个``id``.如果没有提供``id``,将从索引中创建一个.
+可以选择提供一个\ ``id``.如果没有提供\ ``id``,将从索引中创建一个.
 
-**注意:**可检查项目只是显示一个检查标记,但没有任何内置的检查行为,必须手动检查或取消检查. 参阅 :ref:`set_item_checked<class_PopupMenu_method_set_item_checked>`\ 了解更多关于如何控制它的信息.
+**注意:**\ 可检查项目只是显示一个检查标记,但没有任何内置的检查行为,必须手动检查或取消检查. 参阅 :ref:`set_item_checked<class_PopupMenu_method_set_item_checked>`\ 了解更多关于如何控制它的信息.
 
 ----
 
@@ -326,11 +326,11 @@ Method Descriptions
 
 - void **add_icon_check_item** **(** :ref:`Texture<class_Texture>` texture, :ref:`String<class_String>` label, :ref:`int<class_int>` id=-1, :ref:`int<class_int>` accel=0 **)**
 
-添加一个新的可检查项目，带有文本``label``\ 和图标``texture``。
+添加一个新的可检查项目，带有文本\ ``label``\ 和图标\ ``texture``。
 
-可以选择提供一个``id``，以及一个加速器（``accel``）。如果没有提供``id``，将从索引中创建一个。如果没有提供``accel``，那么默认的``0``\ 将被分配给它。参阅:ref:`get_item_accelerator<class_PopupMenu_method_get_item_accelerator>`\ 获取更多关于加速器的信息。
+可以选择提供一个\ ``id``，以及一个加速器（``accel``）。如果没有提供\ ``id``，将从索引中创建一个。如果没有提供\ ``accel``，那么默认的\ ``0``\ 将被分配给它。参阅\ :ref:`get_item_accelerator<class_PopupMenu_method_get_item_accelerator>`\ 获取更多关于加速器的信息。
 
-**注意：** 可选项目只是显示一个复选标记，但没有任何内置的检查行为，必须手动检查/取消检查。参阅:ref:`set_item_checked<class_PopupMenu_method_set_item_checked>`\ 获取更多关于如何控制它的信息。
+**注意：** 可选项目只是显示一个复选标记，但没有任何内置的检查行为，必须手动检查/取消检查。参阅\ :ref:`set_item_checked<class_PopupMenu_method_set_item_checked>`\ 获取更多关于如何控制它的信息。
 
 ----
 
@@ -338,11 +338,11 @@ Method Descriptions
 
 - void **add_icon_check_shortcut** **(** :ref:`Texture<class_Texture>` texture, :ref:`ShortCut<class_ShortCut>` shortcut, :ref:`int<class_int>` id=-1, :ref:`bool<class_bool>` global=false **)**
 
-添加一个新的可选项目，并为其分配指定的:ref:`ShortCut<class_ShortCut>`\ 和图标``texture``。将复选框的标签设置为:ref:`ShortCut<class_ShortCut>`\ 的名称。
+添加一个新的可选项目，并为其分配指定的\ :ref:`ShortCut<class_ShortCut>`\ 和图标\ ``texture``。将复选框的标签设置为\ :ref:`ShortCut<class_ShortCut>`\ 的名称。
 
-可以选择提供一个``id``。如果没有提供``id``，将从索引中创建一个。
+可以选择提供一个\ ``id``。如果没有提供\ ``id``，将从索引中创建一个。
 
-**注意：** 可选项目只是显示一个复选标记，但没有任何内置的检查行为，必须手动检查/取消检查。参阅:ref:`set_item_checked<class_PopupMenu_method_set_item_checked>`\ 获取更多关于如何控制它的信息。
+**注意：** 可选项目只是显示一个复选标记，但没有任何内置的检查行为，必须手动检查/取消检查。参阅\ :ref:`set_item_checked<class_PopupMenu_method_set_item_checked>`\ 获取更多关于如何控制它的信息。
 
 ----
 
@@ -350,9 +350,9 @@ Method Descriptions
 
 - void **add_icon_item** **(** :ref:`Texture<class_Texture>` texture, :ref:`String<class_String>` label, :ref:`int<class_int>` id=-1, :ref:`int<class_int>` accel=0 **)**
 
-添加带有文本``lable``\ 和图标``texture``\ 的新项目。
+添加带有文本\ ``lable``\ 和图标\ ``texture``\ 的新项目。
 
-可以选择提供一个``id``，以及一个加速器(``accel``)。如果没有提供``id``，将从索引中创建一个。如果没有提供``accel``，则将为其分配默认的``0``。有关加速器的更多信息，请参阅:ref:`get_item_accelerator<class_PopupMenu_method_get_item_accelerator>`。
+可以选择提供一个\ ``id``，以及一个加速器(``accel``)。如果没有提供\ ``id``，将从索引中创建一个。如果没有提供\ ``accel``，则将为其分配默认的\ ``0``。有关加速器的更多信息，请参阅\ :ref:`get_item_accelerator<class_PopupMenu_method_get_item_accelerator>`。
 
 ----
 
@@ -360,7 +360,7 @@ Method Descriptions
 
 - void **add_icon_radio_check_item** **(** :ref:`Texture<class_Texture>` texture, :ref:`String<class_String>` label, :ref:`int<class_int>` id=-1, :ref:`int<class_int>` accel=0 **)**
 
-与:ref:`add_icon_check_item<class_PopupMenu_method_add_icon_check_item>`\ 相同，但使用单选按钮。
+与\ :ref:`add_icon_check_item<class_PopupMenu_method_add_icon_check_item>`\ 相同，但使用单选按钮。
 
 ----
 
@@ -368,7 +368,7 @@ Method Descriptions
 
 - void **add_icon_radio_check_shortcut** **(** :ref:`Texture<class_Texture>` texture, :ref:`ShortCut<class_ShortCut>` shortcut, :ref:`int<class_int>` id=-1, :ref:`bool<class_bool>` global=false **)**
 
-与:ref:`add_icon_check_shortcut<class_PopupMenu_method_add_icon_check_shortcut>`\ 相同，但使用一个单选按钮。
+与\ :ref:`add_icon_check_shortcut<class_PopupMenu_method_add_icon_check_shortcut>`\ 相同，但使用一个单选按钮。
 
 ----
 
@@ -376,9 +376,9 @@ Method Descriptions
 
 - void **add_icon_shortcut** **(** :ref:`Texture<class_Texture>` texture, :ref:`ShortCut<class_ShortCut>` shortcut, :ref:`int<class_int>` id=-1, :ref:`bool<class_bool>` global=false **)**
 
-添加一个新项，并分配指定的:ref:`ShortCut<class_ShortCut>`\ 和图标``texture``\ 给它。将复选框的标签设置为:ref:`ShortCut<class_ShortCut>`\ 的名称。
+添加一个新项，并分配指定的\ :ref:`ShortCut<class_ShortCut>`\ 和图标\ ``texture``\ 给它。将复选框的标签设置为\ :ref:`ShortCut<class_ShortCut>`\ 的名称。
 
-可以选择提供``id``。如果没有提供``id``，将从索引中创建一个。
+可以选择提供\ ``id``。如果没有提供\ ``id``，将从索引中创建一个。
 
 ----
 
@@ -386,9 +386,9 @@ Method Descriptions
 
 - void **add_item** **(** :ref:`String<class_String>` label, :ref:`int<class_int>` id=-1, :ref:`int<class_int>` accel=0 **)**
 
-添加一个带有文本``label``\ 的新项目。
+添加一个带有文本\ ``label``\ 的新项目。
 
-可以选择提供``id``，以及加速器(``accel``)。如果没有提供``id``，将从索引中创建一个。如果没有提供``accel``，则默认的``0``\ 将被分配给它。有关加速器的更多信息，请参阅:ref:`get_item_accelerator<class_PopupMenu_method_get_item_accelerator>`。
+可以选择提供\ ``id``，以及加速器(``accel``)。如果没有提供\ ``id``，将从索引中创建一个。如果没有提供\ ``accel``，则默认的\ ``0``\ 将被分配给它。有关加速器的更多信息，请参阅\ :ref:`get_item_accelerator<class_PopupMenu_method_get_item_accelerator>`。
 
 ----
 
@@ -396,11 +396,11 @@ Method Descriptions
 
 - void **add_multistate_item** **(** :ref:`String<class_String>` label, :ref:`int<class_int>` max_states, :ref:`int<class_int>` default_state=0, :ref:`int<class_int>` id=-1, :ref:`int<class_int>` accel=0 **)**
 
-添加一个带有文本``label``\ 的新的多状态项。
+添加一个带有文本\ ``label``\ 的新的多状态项。
 
-与普通的二进制项相反，多状态项可以有两个以上的状态，如``max_states``\ 所定义的。每次按下或激活物品将增加一个状态。默认值由``default_state``\ 定义。
+与普通的二进制项相反，多状态项可以有两个以上的状态，如\ ``max_states``\ 所定义的。每次按下或激活物品将增加一个状态。默认值由\ ``default_state``\ 定义。
 
-可以选择提供``id``，以及加速器(``accel``)。如果没有提供``id``，将从索引中创建一个。如果没有提供``accel``，则默认的``0``\ 将被分配给它。有关加速器的更多信息，请参阅:ref:`get_item_accelerator<class_PopupMenu_method_get_item_accelerator>`。
+可以选择提供\ ``id``，以及加速器(``accel``)。如果没有提供\ ``id``，将从索引中创建一个。如果没有提供\ ``accel``，则默认的\ ``0``\ 将被分配给它。有关加速器的更多信息，请参阅\ :ref:`get_item_accelerator<class_PopupMenu_method_get_item_accelerator>`。
 
 ----
 
@@ -408,11 +408,11 @@ Method Descriptions
 
 - void **add_radio_check_item** **(** :ref:`String<class_String>` label, :ref:`int<class_int>` id=-1, :ref:`int<class_int>` accel=0 **)**
 
-添加一个带有文本``label``\ 的单选按钮。
+添加一个带有文本\ ``label``\ 的单选按钮。
 
-可以选择提供``id``，以及加速器(``accel``)。如果没有提供``id``，将从索引中创建一个。如果没有提供``accel``，则默认的``0``\ 将被分配给它。有关加速器的更多信息，请参阅:ref:`get_item_accelerator<class_PopupMenu_method_get_item_accelerator>`。
+可以选择提供\ ``id``，以及加速器(``accel``)。如果没有提供\ ``id``，将从索引中创建一个。如果没有提供\ ``accel``，则默认的\ ``0``\ 将被分配给它。有关加速器的更多信息，请参阅\ :ref:`get_item_accelerator<class_PopupMenu_method_get_item_accelerator>`。
 
-**注意：**Checkable 项目只是显示一个复选标记，但没有任何内置的检查行为，必须手动检查/不检查。有关如何控制它的更多信息，请参阅 :ref:`set_item_checked<class_PopupMenu_method_set_item_checked>`。
+**注意：**\ Checkable 项目只是显示一个复选标记，但没有任何内置的检查行为，必须手动检查/不检查。有关如何控制它的更多信息，请参阅 :ref:`set_item_checked<class_PopupMenu_method_set_item_checked>`。
 
 ----
 
@@ -420,11 +420,11 @@ Method Descriptions
 
 - void **add_radio_check_shortcut** **(** :ref:`ShortCut<class_ShortCut>` shortcut, :ref:`int<class_int>` id=-1, :ref:`bool<class_bool>` global=false **)**
 
-添加一个新的单选复选按钮并为其分配一个:ref:`ShortCut<class_ShortCut>`。将复选框的标签设置为:ref:`ShortCut<class_ShortCut>`\ 的名称。
+添加一个新的单选复选按钮并为其分配一个\ :ref:`ShortCut<class_ShortCut>`。将复选框的标签设置为\ :ref:`ShortCut<class_ShortCut>`\ 的名称。
 
-可以选择提供``id``。如果没有提供``id``，将从索引中创建一个。
+可以选择提供\ ``id``。如果没有提供\ ``id``，将从索引中创建一个。
 
-**注:** Checkable项目只是显示一个复选标记，但没有任何内置的检查行为，必须手动检查/不检查。有关如何控制它的更多信息，请参阅:ref:`set_item_checked<class_PopupMenu_method_set_item_checked>`。
+**注:** Checkable项目只是显示一个复选标记，但没有任何内置的检查行为，必须手动检查/不检查。有关如何控制它的更多信息，请参阅\ :ref:`set_item_checked<class_PopupMenu_method_set_item_checked>`。
 
 ----
 
@@ -432,9 +432,9 @@ Method Descriptions
 
 - void **add_separator** **(** :ref:`String<class_String>` label="", :ref:`int<class_int>` id=-1 **)**
 
-在项目之间添加一个分隔符。分隔符也占用一个索引，你可以通过使用``id``\ 参数来设置。
+在项目之间添加一个分隔符。分隔符也占用一个索引，你可以通过使用\ ``id``\ 参数来设置。
 
-可以选择提供一个标签``label``，它将出现在分隔符的中心。
+可以选择提供一个标签\ ``label``，它将出现在分隔符的中心。
 
 ----
 
@@ -442,9 +442,9 @@ Method Descriptions
 
 - void **add_shortcut** **(** :ref:`ShortCut<class_ShortCut>` shortcut, :ref:`int<class_int>` id=-1, :ref:`bool<class_bool>` global=false **)**
 
-添加一个:ref:`ShortCut<class_ShortCut>`。
+添加一个\ :ref:`ShortCut<class_ShortCut>`。
 
-可以选择提供``id``。如果没有提供``id``，将从索引中创建一个。
+可以选择提供\ ``id``。如果没有提供\ ``id``，将从索引中创建一个。
 
 ----
 
@@ -452,9 +452,9 @@ Method Descriptions
 
 - void **add_submenu_item** **(** :ref:`String<class_String>` label, :ref:`String<class_String>` submenu, :ref:`int<class_int>` id=-1 **)**
 
-添加一个项目，当单击父``PopupMenu``\ 节点时，它将作为子菜单。``submenu``\ 参数是子节点``PopupMenu``\ 的名称，当点击项目时显示该子节点。
+添加一个项目，当单击父\ ``PopupMenu``\ 节点时，它将作为子菜单。``submenu``\ 参数是子节点\ ``PopupMenu``\ 的名称，当点击项目时显示该子节点。
 
-可以选择提供``id``。如果没有提供``id``，将从索引中创建一个。
+可以选择提供\ ``id``。如果没有提供\ ``id``，将从索引中创建一个。
 
 ----
 
@@ -462,7 +462,7 @@ Method Descriptions
 
 - void **clear** **(** **)**
 
-从``PopupMenu``\ 中移除所有项目。
+从\ ``PopupMenu``\ 中移除所有项目。
 
 ----
 
@@ -478,7 +478,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_item_accelerator** **(** :ref:`int<class_int>` idx **)** |const|
 
-返回索引``idx``\ 处项目的加速项。加速器是一种特殊的按键组合，可以激活物品，无论哪个控制键处于焦点状态。
+返回索引\ ``idx``\ 处项目的加速项。加速器是一种特殊的按键组合，可以激活物品，无论哪个控制键处于焦点状态。
 
 ----
 
@@ -486,7 +486,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_item_count** **(** **)** |const|
 
-返回``PopupMenu``\ 中的项目数。
+返回\ ``PopupMenu``\ 中的项目数。
 
 ----
 
@@ -494,7 +494,7 @@ Method Descriptions
 
 - :ref:`Texture<class_Texture>` **get_item_icon** **(** :ref:`int<class_int>` idx **)** |const|
 
-返回索引``idx``\ 处项目的图标。
+返回索引\ ``idx``\ 处项目的图标。
 
 ----
 
@@ -502,7 +502,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_item_id** **(** :ref:`int<class_int>` idx **)** |const|
 
-返回索引``idx``\ 处项目的id。``id``\ 可以手动分配，而索引不能。
+返回索引\ ``idx``\ 处项目的id。``id``\ 可以手动分配，而索引不能。
 
 ----
 
@@ -510,7 +510,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_item_index** **(** :ref:`int<class_int>` id **)** |const|
 
-返回包含指定的``id``\ 的项的索引。索引由引擎自动分配给每个项目。不能手动设置索引。
+返回包含指定的\ ``id``\ 的项的索引。索引由引擎自动分配给每个项目。不能手动设置索引。
 
 ----
 
@@ -518,7 +518,7 @@ Method Descriptions
 
 - :ref:`Variant<class_Variant>` **get_item_metadata** **(** :ref:`int<class_int>` idx **)** |const|
 
-返回指定项的元数据，该项可以是任何类型。您可以使用:ref:`set_item_metadata<class_PopupMenu_method_set_item_metadata>`\ 来设置它，它提供了一种将上下文数据分配给项的简单方法。
+返回指定项的元数据，该项可以是任何类型。您可以使用\ :ref:`set_item_metadata<class_PopupMenu_method_set_item_metadata>`\ 来设置它，它提供了一种将上下文数据分配给项的简单方法。
 
 ----
 
@@ -526,7 +526,7 @@ Method Descriptions
 
 - :ref:`ShortCut<class_ShortCut>` **get_item_shortcut** **(** :ref:`int<class_int>` idx **)** |const|
 
-返回与指定的``idx``\ 项关联的:ref:`ShortCut<class_ShortCut>`。
+返回与指定的\ ``idx``\ 项关联的\ :ref:`ShortCut<class_ShortCut>`。
 
 ----
 
@@ -534,7 +534,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **get_item_submenu** **(** :ref:`int<class_int>` idx **)** |const|
 
-返回在索引``idx``\ 处的项目的子菜单名。更多关于如何添加子菜单的信息，请参阅:ref:`add_submenu_item<class_PopupMenu_method_add_submenu_item>`。
+返回在索引\ ``idx``\ 处的项目的子菜单名。更多关于如何添加子菜单的信息，请参阅\ :ref:`add_submenu_item<class_PopupMenu_method_add_submenu_item>`。
 
 ----
 
@@ -542,7 +542,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **get_item_text** **(** :ref:`int<class_int>` idx **)** |const|
 
-返回索引``idx``\ 处项目的文本。
+返回索引\ ``idx``\ 处项目的文本。
 
 ----
 
@@ -566,9 +566,9 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_item_checkable** **(** :ref:`int<class_int>` idx **)** |const|
 
-如果索引``idx``\ 的项目以某种方式是可检查的，例如，如果它有一个复选框或单选按钮，则返回``true``。
+如果索引\ ``idx``\ 的项目以某种方式是可检查的，例如，如果它有一个复选框或单选按钮，则返回\ ``true``。
 
-**注:**可检查项目只是显示一个复选标记或单选按钮，但没有任何内置的检查行为，必须手动检查/取消。
+**注:**\ 可检查项目只是显示一个复选标记或单选按钮，但没有任何内置的检查行为，必须手动检查/取消。
 
 ----
 
@@ -576,7 +576,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_item_checked** **(** :ref:`int<class_int>` idx **)** |const|
 
-如果索引``idx``\ 项被选中，则返回``true``。
+如果索引\ ``idx``\ 项被选中，则返回\ ``true``。
 
 ----
 
@@ -584,9 +584,9 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_item_disabled** **(** :ref:`int<class_int>` idx **)** |const|
 
-如果索引``idx``\ 项被禁用，返回``true``。当它被禁用时，就无法选择它，或者调用它的操作。
+如果索引\ ``idx``\ 项被禁用，返回\ ``true``。当它被禁用时，就无法选择它，或者调用它的操作。
 
-有关如何禁用一个项目的更多信息，请参阅:ref:`set_item_disabled<class_PopupMenu_method_set_item_disabled>`。
+有关如何禁用一个项目的更多信息，请参阅\ :ref:`set_item_disabled<class_PopupMenu_method_set_item_disabled>`。
 
 ----
 
@@ -594,9 +594,9 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_item_radio_checkable** **(** :ref:`int<class_int>` idx **)** |const|
 
-如果index ``idx``\ 具有单选按钮样式的可检查性，则返回``true``。
+如果index ``idx``\ 具有单选按钮样式的可检查性，则返回\ ``true``。
 
-**注:**这纯粹是装饰性的;您必须添加用于在单选组中检查/取消检查项目的逻辑。
+**注:**\ 这纯粹是装饰性的;您必须添加用于在单选组中检查/取消检查项目的逻辑。
 
 ----
 
@@ -604,7 +604,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_item_separator** **(** :ref:`int<class_int>` idx **)** |const|
 
-如果项目是分隔符，则返回``true``。如果是，它将显示为一行。有关如何添加分隔符的更多信息，请参阅:ref:`add_separator<class_PopupMenu_method_add_separator>`。
+如果项目是分隔符，则返回\ ``true``。如果是，它将显示为一行。有关如何添加分隔符的更多信息，请参阅\ :ref:`add_separator<class_PopupMenu_method_add_separator>`。
 
 ----
 
@@ -612,7 +612,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_item_shortcut_disabled** **(** :ref:`int<class_int>` idx **)** |const|
 
-如果指定项的快捷方式被禁用，则返回``true``。
+如果指定项的快捷方式被禁用，则返回\ ``true``。
 
 ----
 
@@ -620,9 +620,9 @@ Method Descriptions
 
 - void **remove_item** **(** :ref:`int<class_int>` idx **)**
 
-从菜单中移除索引``idx``\ 项。
+从菜单中移除索引\ ``idx``\ 项。
 
-**注:**被移除项后的项的索引将被移位1。
+**注:**\ 被移除项后的项的索引将被移位1。
 
 ----
 
@@ -630,7 +630,7 @@ Method Descriptions
 
 - void **set_hide_on_window_lose_focus** **(** :ref:`bool<class_bool>` enable **)**
 
-当窗口失去焦点时隐藏``PopupMenu``。
+当窗口失去焦点时隐藏\ ``PopupMenu``。
 
 ----
 
@@ -638,7 +638,7 @@ Method Descriptions
 
 - void **set_item_accelerator** **(** :ref:`int<class_int>` idx, :ref:`int<class_int>` accel **)**
 
-设置索引``idx``\ 项的加速键。加速器是一种特殊的按键组合，可以激活物品，无论哪个控制键处于焦点状态。
+设置索引\ ``idx``\ 项的加速键。加速器是一种特殊的按键组合，可以激活物品，无论哪个控制键处于焦点状态。
 
 ----
 
@@ -646,7 +646,7 @@ Method Descriptions
 
 - void **set_item_as_checkable** **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` enable **)**
 
-设置索引``idx``\ 项是否有复选框。如果``false``，则将项目类型设置为纯文本。
+设置索引\ ``idx``\ 项是否有复选框。如果\ ``false``，则将项目类型设置为纯文本。
 
 **注:** Checkable项目只是显示一个复选标记，但没有任何内置的检查行为，必须手动检查/不检查。
 
@@ -656,7 +656,7 @@ Method Descriptions
 
 - void **set_item_as_radio_checkable** **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` enable **)**
 
-将指定索引``idx``\ 处的项目类型设置为单选按钮。如果``false``，则将项目类型设置为纯文本。
+将指定索引\ ``idx``\ 处的项目类型设置为单选按钮。如果\ ``false``，则将项目类型设置为纯文本。
 
 ----
 
@@ -664,7 +664,7 @@ Method Descriptions
 
 - void **set_item_as_separator** **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` enable **)**
 
-将索引 ``idx``\ 标记为分隔符，这意味着它将显示为一行。如果``false``，则将项目类型设置为纯文本。
+将索引 ``idx``\ 标记为分隔符，这意味着它将显示为一行。如果\ ``false``，则将项目类型设置为纯文本。
 
 ----
 
@@ -680,7 +680,7 @@ Method Descriptions
 
 - void **set_item_disabled** **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` disabled **)**
 
-启用/禁用索引``idx``\ 项。当它被禁用时，就无法选择它，也无法调用它的操作。
+启用/禁用索引\ ``idx``\ 项。当它被禁用时，就无法选择它，也无法调用它的操作。
 
 ----
 
@@ -688,7 +688,7 @@ Method Descriptions
 
 - void **set_item_icon** **(** :ref:`int<class_int>` idx, :ref:`Texture<class_Texture>` icon **)**
 
-替换指定``idx``\ 的纹理:ref:`Texture<class_Texture>`\ 图标。
+替换指定\ ``idx``\ 的纹理\ :ref:`Texture<class_Texture>`\ 图标。
 
 ----
 
@@ -696,7 +696,7 @@ Method Descriptions
 
 - void **set_item_id** **(** :ref:`int<class_int>` idx, :ref:`int<class_int>` id **)**
 
-在索引``idx``\ 处设置项目的``id``。
+在索引\ ``idx``\ 处设置项目的\ ``id``。
 
 ----
 
@@ -704,7 +704,7 @@ Method Descriptions
 
 - void **set_item_metadata** **(** :ref:`int<class_int>` idx, :ref:`Variant<class_Variant>` metadata **)**
 
-设置项的元数据，该项可以是任何类型。稍后您可以使用:ref:`get_item_metadata<class_PopupMenu_method_get_item_metadata>`\ 获取它，它提供了一种将上下文数据分配给项的简单方法。
+设置项的元数据，该项可以是任何类型。稍后您可以使用\ :ref:`get_item_metadata<class_PopupMenu_method_get_item_metadata>`\ 获取它，它提供了一种将上下文数据分配给项的简单方法。
 
 ----
 
@@ -712,7 +712,7 @@ Method Descriptions
 
 - void **set_item_multistate** **(** :ref:`int<class_int>` idx, :ref:`int<class_int>` state **)**
 
-设置一个多态项目的状态。详见:ref:`add_multistate_item<class_PopupMenu_method_add_multistate_item>`。
+设置一个多态项目的状态。详见\ :ref:`add_multistate_item<class_PopupMenu_method_add_multistate_item>`。
 
 ----
 
@@ -720,7 +720,7 @@ Method Descriptions
 
 - void **set_item_shortcut** **(** :ref:`int<class_int>` idx, :ref:`ShortCut<class_ShortCut>` shortcut, :ref:`bool<class_bool>` global=false **)**
 
-为指定的项目``idx``\ 设置:ref:`ShortCut<class_ShortCut>`。
+为指定的项目\ ``idx``\ 设置\ :ref:`ShortCut<class_ShortCut>`。
 
 ----
 
@@ -728,7 +728,7 @@ Method Descriptions
 
 - void **set_item_shortcut_disabled** **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` disabled **)**
 
-禁用指定索引``idx``\ 的:ref:`ShortCut<class_ShortCut>`。
+禁用指定索引\ ``idx``\ 的\ :ref:`ShortCut<class_ShortCut>`。
 
 ----
 
@@ -736,7 +736,7 @@ Method Descriptions
 
 - void **set_item_submenu** **(** :ref:`int<class_int>` idx, :ref:`String<class_String>` submenu **)**
 
-将项目的子菜单设置为索引``idx``。子菜单是一个子``PopupMenu``\ 节点的名称，在单击项目时显示该节点。
+将项目的子菜单设置为索引\ ``idx``。子菜单是一个子\ ``PopupMenu``\ 节点的名称，在单击项目时显示该节点。
 
 ----
 
@@ -744,7 +744,7 @@ Method Descriptions
 
 - void **set_item_text** **(** :ref:`int<class_int>` idx, :ref:`String<class_String>` text **)**
 
-在索引``idx``\ 处设置项的文本。
+在索引\ ``idx``\ 处设置项的文本。
 
 ----
 
@@ -752,7 +752,7 @@ Method Descriptions
 
 - void **set_item_tooltip** **(** :ref:`int<class_int>` idx, :ref:`String<class_String>` tooltip **)**
 
-在指定的索引``idx``\ 处设置项目的:ref:`String<class_String>`\ 工具提示。
+在指定的索引\ ``idx``\ 处设置项目的\ :ref:`String<class_String>`\ 工具提示。
 
 ----
 
@@ -760,7 +760,7 @@ Method Descriptions
 
 - void **toggle_item_checked** **(** :ref:`int<class_int>` idx **)**
 
-切换指定索引``idx``\ 项的检查状态。
+切换指定索引\ ``idx``\ 项的检查状态。
 
 ----
 
@@ -768,7 +768,7 @@ Method Descriptions
 
 - void **toggle_item_multistate** **(** :ref:`int<class_int>` idx **)**
 
-循环到一个多态项目的下一个状态。详见:ref:`add_multistate_item<class_PopupMenu_method_add_multistate_item>`。
+循环到一个多态项目的下一个状态。详见\ :ref:`add_multistate_item<class_PopupMenu_method_add_multistate_item>`。
 
 Theme Property Descriptions
 ---------------------------
@@ -781,7 +781,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 0.88, 0.88, 0.88, 1 )`` |
 +-----------+----------------------------------+
 
-菜单项名称的默认文本:ref:`Color<class_Color>`。
+菜单项名称的默认文本\ :ref:`Color<class_Color>`。
 
 ----
 
@@ -793,7 +793,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 0.7, 0.7, 0.7, 0.8 )`` |
 +-----------+---------------------------------+
 
-文本:ref:`Color<class_Color>`\ 用于快捷键和加速器，当定义时显示在菜单项名称旁边。有关加速器的更多信息，请参阅:ref:`get_item_accelerator<class_PopupMenu_method_get_item_accelerator>`。
+文本\ :ref:`Color<class_Color>`\ 用于快捷键和加速器，当定义时显示在菜单项名称旁边。有关加速器的更多信息，请参阅\ :ref:`get_item_accelerator<class_PopupMenu_method_get_item_accelerator>`。
 
 ----
 
@@ -805,7 +805,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 0.4, 0.4, 0.4, 0.8 )`` |
 +-----------+---------------------------------+
 
-用于禁用菜单项的文本:ref:`Color<class_Color>`。
+用于禁用菜单项的文本\ :ref:`Color<class_Color>`。
 
 ----
 
@@ -817,7 +817,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 0.88, 0.88, 0.88, 1 )`` |
 +-----------+----------------------------------+
 
-用于悬停文本的:ref:`Color<class_Color>`。
+用于悬停文本的\ :ref:`Color<class_Color>`。
 
 ----
 
@@ -829,7 +829,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 0.88, 0.88, 0.88, 1 )`` |
 +-----------+----------------------------------+
 
-用于标注分隔符文本的颜色:ref:`Color<class_Color>`。见:ref:`add_separator<class_PopupMenu_method_add_separator>`。
+用于标注分隔符文本的颜色\ :ref:`Color<class_Color>`。见\ :ref:`add_separator<class_PopupMenu_method_add_separator>`。
 
 ----
 
@@ -861,7 +861,7 @@ Theme Property Descriptions
 
 - :ref:`Font<class_Font>` **font**
 
-用于菜单项的:ref:`Font<class_Font>`\ 字体。
+用于菜单项的\ :ref:`Font<class_Font>`\ 字体。
 
 ----
 
@@ -877,7 +877,7 @@ Theme Property Descriptions
 
 - :ref:`Texture<class_Texture>` **radio_checked**
 
-选中的单选按钮项目的纹理:ref:`Texture<class_Texture>`\ 图标。
+选中的单选按钮项目的纹理\ :ref:`Texture<class_Texture>`\ 图标。
 
 ----
 
@@ -893,7 +893,7 @@ Theme Property Descriptions
 
 - :ref:`Texture<class_Texture>` **submenu**
 
-子菜单箭头的纹理:ref:`Texture<class_Texture>`\ 图标。
+子菜单箭头的纹理\ :ref:`Texture<class_Texture>`\ 图标。
 
 ----
 
@@ -901,7 +901,7 @@ Theme Property Descriptions
 
 - :ref:`Texture<class_Texture>` **unchecked**
 
-未选中的复选框项目的纹理:ref:`Texture<class_Texture>`\ 图标。
+未选中的复选框项目的纹理\ :ref:`Texture<class_Texture>`\ 图标。
 
 ----
 
@@ -909,7 +909,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **hover**
 
-当``PopupMenu``\ 项目被鼠标悬停时显示的:ref:`StyleBox<class_StyleBox>`。
+当\ ``PopupMenu``\ 项目被鼠标悬停时显示的\ :ref:`StyleBox<class_StyleBox>`。
 
 ----
 
@@ -917,7 +917,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **labeled_separator_left**
 
-用于标签分隔器的左侧:ref:`StyleBox<class_StyleBox>`\ (样式盒子).参阅 :ref:`add_separator<class_PopupMenu_method_add_separator>`.
+用于标签分隔器的左侧\ :ref:`StyleBox<class_StyleBox>`\ (样式盒子).参阅 :ref:`add_separator<class_PopupMenu_method_add_separator>`.
 
 ----
 
@@ -925,7 +925,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **labeled_separator_right**
 
-用于标签分隔器的右侧:ref:`StyleBox<class_StyleBox>`\ (样式盒子).参阅 :ref:`add_separator<class_PopupMenu_method_add_separator>`.
+用于标签分隔器的右侧\ :ref:`StyleBox<class_StyleBox>`\ (样式盒子).参阅 :ref:`add_separator<class_PopupMenu_method_add_separator>`.
 
 ----
 
@@ -933,7 +933,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **panel**
 
-``PopupMenu``\ (弹出菜单)项的默认:ref:`StyleBox<class_StyleBox>`\ (样式盒子).
+``PopupMenu``\ (弹出菜单)项的默认\ :ref:`StyleBox<class_StyleBox>`\ (样式盒子).
 
 ----
 
@@ -941,7 +941,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **panel_disabled**
 
-禁用``PopupMenu``\ (弹出菜单)项时使用的:ref:`StyleBox<class_StyleBox>`\ (样式盒子).
+禁用\ ``PopupMenu``\ (弹出菜单)项时使用的\ :ref:`StyleBox<class_StyleBox>`\ (样式盒子).
 
 ----
 
@@ -949,7 +949,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **separator**
 
-用于分隔符的:ref:`StyleBox<class_StyleBox>`。请参阅:ref:`add_separator<class_PopupMenu_method_add_separator>`。
+用于分隔符的\ :ref:`StyleBox<class_StyleBox>`。请参阅\ :ref:`add_separator<class_PopupMenu_method_add_separator>`。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`
