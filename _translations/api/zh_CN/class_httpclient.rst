@@ -306,7 +306,7 @@ enum **ResponseCode**:
 
 - **RESPONSE_SWITCHING_PROTOCOLS** = **101** --- HTTP 状态码 ``101 Switching Protocol``。针对客户 ``Upgrade`` 请求的响应，表示服务器所转换到的协议。
 
-- **RESPONSE_PROCESSING** = **102** --- HTTP 状态码 ``102 Processing``（WebDAV）。表示服务器已收到请求并且正在处理，尚未生成响应。
+- **RESPONSE_PROCESSING** = **102** --- HTTP 状态码 ``102 Processing``\ （WebDAV）。表示服务器已收到请求并且正在处理，尚未生成响应。
 
 - **RESPONSE_OK** = **200** --- HTTP 状态码 ``200 OK``。请求已成功，是成功请求的默认响应，根据请求的不同表示的含义也不同。GET：已获取资源并通过消息体发送。HEAD：实体报头在消息体中。POST：描述操作结果的资源已通过消息体发送。TRACE：消息体包含服务器所收到的请求消息。
 
@@ -322,11 +322,11 @@ enum **ResponseCode**:
 
 - **RESPONSE_PARTIAL_CONTENT** = **206** --- HTTP 状态码 ``206 Partial Content``。客户端如果发送范围（Range）报头就会收到该响应码，用于将下载拆分成多个数据流。
 
-- **RESPONSE_MULTI_STATUS** = **207** --- HTTP 状态码 ``207 Multi-Status``（WebDAV）。关于多个资源的多状态响应，适用于需要返回多个状态码的情况。
+- **RESPONSE_MULTI_STATUS** = **207** --- HTTP 状态码 ``207 Multi-Status``\ （WebDAV）。关于多个资源的多状态响应，适用于需要返回多个状态码的情况。
 
-- **RESPONSE_ALREADY_REPORTED** = **208** --- HTTP 状态码 ``208 Already Reported``（WebDAV）。在 DAV: propstat 相应元素内部使用，可以防止重复遍历同一合集中不同绑定的内部成员。
+- **RESPONSE_ALREADY_REPORTED** = **208** --- HTTP 状态码 ``208 Already Reported``\ （WebDAV）。在 DAV: propstat 相应元素内部使用，可以防止重复遍历同一合集中不同绑定的内部成员。
 
-- **RESPONSE_IM_USED** = **226** --- HTTP 状态码 ``226 IM Used``（WebDAV）。服务器完成了对该资源的 GET 请求，所响应的资源表示，是针对当前实例进行若干共同修改的结果。
+- **RESPONSE_IM_USED** = **226** --- HTTP 状态码 ``226 IM Used``\ （WebDAV）。服务器完成了对该资源的 GET 请求，所响应的资源表示，是针对当前实例进行若干共同修改的结果。
 
 - **RESPONSE_MULTIPLE_CHOICES** = **300** --- HTTP 状态码 ``300 Multiple Choice``。请求有多个可能的响应，并且没有从中挑选其一的标准方法。用户代理或者用户应该自行挑选。
 
@@ -340,7 +340,7 @@ enum **ResponseCode**:
 
 - **RESPONSE_USE_PROXY** = **305** --- HTTP 状态码 ``305 Use Proxy``。*已废弃，勿用。*
 
-- **RESPONSE_SWITCH_PROXY** = **306** --- HTTP 状态码``306 Switch Proxy``。*已废弃，勿用。*
+- **RESPONSE_SWITCH_PROXY** = **306** --- HTTP 状态码\ ``306 Switch Proxy``。*已废弃，勿用。*
 
 - **RESPONSE_TEMPORARY_REDIRECT** = **307** --- HTTP 状态码 ``307 Temporary Redirect``。目标资源暂时位于不同的 URI，用户代理如果要自动重定向到该 URI，就一定不能更改所使用的请求方法。
 
@@ -386,11 +386,11 @@ enum **ResponseCode**:
 
 - **RESPONSE_MISDIRECTED_REQUEST** = **421** --- HTTP 状态码 ``421 Misdirected Request``。请求被重定向到了一台无法生成响应的服务器。如果一台服务器没有针对请求 URI 的协议类型和主机身份配置响应，就有可能返回这个代码。
 
-- **RESPONSE_UNPROCESSABLE_ENTITY** = **422** --- HTTP 状态码 ``422 Unprocessable Entity``（WebDAV）。服务器能够理解请求实体的内容类型（所以不适用 415 Unsupported Media Type 状态码），请求实体的语法也是正确的（所以不适用 400 Bad Request 状态码），但仍然无法执行请求中所包含的指令。
+- **RESPONSE_UNPROCESSABLE_ENTITY** = **422** --- HTTP 状态码 ``422 Unprocessable Entity``\ （WebDAV）。服务器能够理解请求实体的内容类型（所以不适用 415 Unsupported Media Type 状态码），请求实体的语法也是正确的（所以不适用 400 Bad Request 状态码），但仍然无法执行请求中所包含的指令。
 
-- **RESPONSE_LOCKED** = **423** --- HTTP 状态码 ``423 Locked``（WebDAV）。方法的来源资源或目标资源被锁定。
+- **RESPONSE_LOCKED** = **423** --- HTTP 状态码 ``423 Locked``\ （WebDAV）。方法的来源资源或目标资源被锁定。
 
-- **RESPONSE_FAILED_DEPENDENCY** = **424** --- HTTP 状态码 ``424 Failed Dependency``（WebDAV）。无法在该资源上执行该方法，因为请求的操作依赖于另一个操作，而那个操作失败了。
+- **RESPONSE_FAILED_DEPENDENCY** = **424** --- HTTP 状态码 ``424 Failed Dependency``\ （WebDAV）。无法在该资源上执行该方法，因为请求的操作依赖于另一个操作，而那个操作失败了。
 
 - **RESPONSE_UPGRADE_REQUIRED** = **426** --- HTTP 状态码 ``426 Upgrade Required``。服务器拒绝以当前协议执行请求，但客户端升级到另一个协议之后可能会愿意执行。
 
@@ -478,7 +478,7 @@ Method Descriptions
 
 - void **close** **(** **)**
 
-关闭当前连接，允许重用此``HTTPClient``。
+关闭当前连接，允许重用此\ ``HTTPClient``。
 
 ----
 
@@ -502,7 +502,7 @@ If no ``port`` is specified (or ``-1`` is used), it is automatically set to 80 f
 
 返回响应体长度。
 
-**注意：**部分 Web 服务器可能不发送响应体长度，此时返回值将为 ``-1``。如果使用分块传输编码，响应体的长度也将为 ``-1``。
+**注意：**\ 部分 Web 服务器可能不发送响应体长度，此时返回值将为 ``-1``。如果使用分块传输编码，响应体的长度也将为 ``-1``。
 
 ----
 
@@ -630,9 +630,9 @@ Headers 参数是 HTTP 请求的报头。HTTP 方法可以查看 :ref:`Method<en
 
 向连接的主机发送原始请求。
 
-URL参数通常只是主机后面的部分，所以对于``http://somehost.com/index.php``，它是``/index.php``。当向HTTP代理服务器发送请求时，它应该是一个绝对的URL。对于:ref:`METHOD_OPTIONS<class_HTTPClient_constant_METHOD_OPTIONS>`\ 请求，允许``*``。对于:ref:`METHOD_CONNECT<class_HTTPClient_constant_METHOD_CONNECT>`\ 请求，应该是标准组件，``host:port``。
+URL参数通常只是主机后面的部分，所以对于\ ``http://somehost.com/index.php``，它是\ ``/index.php``。当向HTTP代理服务器发送请求时，它应该是一个绝对的URL。对于\ :ref:`METHOD_OPTIONS<class_HTTPClient_constant_METHOD_OPTIONS>`\ 请求，允许\ ``*``。对于\ :ref:`METHOD_CONNECT<class_HTTPClient_constant_METHOD_CONNECT>`\ 请求，应该是标准组件，``host:port``。
 
-头信息是HTTP请求头信息。关于可用的HTTP方法，参阅:ref:`Method<enum_HTTPClient_Method>`。
+头信息是HTTP请求头信息。关于可用的HTTP方法，参阅\ :ref:`Method<enum_HTTPClient_Method>`。
 
 以字节数组的形式发送原始正文数据，不以任何方式进行编码。
 

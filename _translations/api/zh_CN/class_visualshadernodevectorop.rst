@@ -16,7 +16,7 @@ VisualShaderNodeVectorOp
 Description
 -----------
 
-用于使用向量运算符的可视化着色器节点。对向量``a``\ 和向量``b``\ 进行操作。
+用于使用向量运算符的可视化着色器节点。对向量\ ``a``\ 和向量\ ``b``\ 进行操作。
 
 Properties
 ----------
@@ -78,7 +78,7 @@ enum **Operator**:
 
 - **OP_REFLECT** = **10** --- 返回指向反射方向的向量。``a``\ 是入射向量，``b``\ 是法向量。
 
-- **OP_STEP** = **11** --- 向量步长运算符。如果``a``\ 小于``b``，返回``0.0``，否则返回``1.0``。
+- **OP_STEP** = **11** --- 向量步长运算符。如果\ ``a``\ 小于\ ``b``，返回\ ``0.0``，否则返回\ ``1.0``。
 
 Property Descriptions
 ---------------------
@@ -95,7 +95,7 @@ Property Descriptions
 | *Getter*  | get_operator()      |
 +-----------+---------------------+
 
-要使用的运算符。参阅:ref:`Operator<enum_VisualShaderNodeVectorOp_Operator>`\ 的选项。
+要使用的运算符。参阅\ :ref:`Operator<enum_VisualShaderNodeVectorOp_Operator>`\ 的选项。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

@@ -18,7 +18,7 @@ AudioEffectFilter
 Description
 -----------
 
-允许通过:ref:`cutoff_hz<class_AudioEffectFilter_property_cutoff_hz>`\ 以外的频率。
+允许通过\ :ref:`cutoff_hz<class_AudioEffectFilter_property_cutoff_hz>`\ 以外的频率。
 
 Tutorials
 ---------

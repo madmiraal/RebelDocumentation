@@ -16,11 +16,11 @@ VehicleBody
 Description
 -----------
 
-此节点实现了模拟汽车所需的所有物理逻辑。它是基于物理引擎中常见的射线投射的车辆系统。你需要为车的主体添加一个:ref:`CollisionShape<class_CollisionShape>`，并为车轮添加:ref:`VehicleWheel<class_VehicleWheel>`\ 节点。还应该为汽车的三维模型添加一个:ref:`MeshInstance<class_MeshInstance>`\ 节点，但这个模型不应该包括车轮的网格。你应该通过使用:ref:`brake<class_VehicleBody_property_brake>`、:ref:`engine_force<class_VehicleBody_property_engine_force>`\ 和 :ref:`steering<class_VehicleBody_property_steering>` 属性来控制车辆，而不是直接改变这个节点的位置或方向。
+此节点实现了模拟汽车所需的所有物理逻辑。它是基于物理引擎中常见的射线投射的车辆系统。你需要为车的主体添加一个\ :ref:`CollisionShape<class_CollisionShape>`，并为车轮添加\ :ref:`VehicleWheel<class_VehicleWheel>`\ 节点。还应该为汽车的三维模型添加一个\ :ref:`MeshInstance<class_MeshInstance>`\ 节点，但这个模型不应该包括车轮的网格。你应该通过使用\ :ref:`brake<class_VehicleBody_property_brake>`、:ref:`engine_force<class_VehicleBody_property_engine_force>`\ 和 :ref:`steering<class_VehicleBody_property_steering>` 属性来控制车辆，而不是直接改变这个节点的位置或方向。
 
-**注意：**你的 VehicleBody 的原点将决定你的车辆的重心，所以最好保持低位，并将 :ref:`CollisionShape<class_CollisionShape>` 和 :ref:`MeshInstance<class_MeshInstance>` 往上移。
+**注意：**\ 你的 VehicleBody 的原点将决定你的车辆的重心，所以最好保持低位，并将 :ref:`CollisionShape<class_CollisionShape>` 和 :ref:`MeshInstance<class_MeshInstance>` 往上移。
 
-**注意：**这个类有已知的问题，并不是为了提供真实的 3D 车辆物理而设计。如果你想要高级的车辆物理，你可能需要使用另一个 :ref:`PhysicsBody<class_PhysicsBody>` 类来编写你自己的物理集成。
+**注意：**\ 这个类有已知的问题，并不是为了提供真实的 3D 车辆物理而设计。如果你想要高级的车辆物理，你可能需要使用另一个 :ref:`PhysicsBody<class_PhysicsBody>` 类来编写你自己的物理集成。
 
 Properties
 ----------
@@ -52,7 +52,7 @@ Property Descriptions
 | *Getter*  | get_brake()      |
 +-----------+------------------+
 
-通过施加一个制动力使车辆减速。只有当车轮接触到表面时，车辆才会减速。你需要施加多少力来使你的车辆充分减速，取决于车辆的:ref:`RigidBody.mass<class_RigidBody_property_mass>`。对于一个质量设置为1000的车辆，尝试在25-30的范围内进行硬制动。
+通过施加一个制动力使车辆减速。只有当车轮接触到表面时，车辆才会减速。你需要施加多少力来使你的车辆充分减速，取决于车辆的\ :ref:`RigidBody.mass<class_RigidBody_property_mass>`。对于一个质量设置为1000的车辆，尝试在25-30的范围内进行硬制动。
 
 ----
 
@@ -70,7 +70,7 @@ Property Descriptions
 
 通过施加一个引擎力来加速车辆。只有当 :ref:`VehicleWheel.use_as_traction<class_VehicleWheel_property_use_as_traction>` 设置为 ``true`` 并与表面接触的车轮才会加速。车辆的 :ref:`RigidBody.mass<class_RigidBody_property_mass>` 对车辆的加速度有影响。对于一个质量设置为 1000 的车辆，可以尝试在 25-50 的范围内选择加速度的值。
 
-**注意：**模拟不考虑齿轮的影响，如果你想模拟齿轮，将需要为其添加逻辑。
+**注意：**\ 模拟不考虑齿轮的影响，如果你想模拟齿轮，将需要为其添加逻辑。
 
 负值将导致车辆倒车。
 
@@ -88,7 +88,7 @@ Property Descriptions
 | *Getter*  | get_steering()      |
 +-----------+---------------------+
 
-车辆的转向角。将此设置为非零值将导致车辆在移动时转向。将:ref:`VehicleWheel.use_as_steering<class_VehicleWheel_property_use_as_steering>`\ 设置为``true``\ 的车轮会自动旋转。
+车辆的转向角。将此设置为非零值将导致车辆在移动时转向。将\ :ref:`VehicleWheel.use_as_steering<class_VehicleWheel_property_use_as_steering>`\ 设置为\ ``true``\ 的车轮会自动旋转。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

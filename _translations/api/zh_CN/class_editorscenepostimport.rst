@@ -62,7 +62,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **get_source_file** **(** **)** |const|
 
-返回导入的源文件路径(如``res://scene.dae``)。
+返回导入的源文件路径(如\ ``res://scene.dae``)。
 
 ----
 

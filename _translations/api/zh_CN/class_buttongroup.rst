@@ -18,7 +18,7 @@ Description
 
 :ref:`Button<class_Button>`\ 组。所有直接和间接的子按钮都成为 radios。只有一个允许被按下。
 
-:ref:`BaseButton.toggle_mode<class_BaseButton_property_toggle_mode>`\ 应该是``true``。
+:ref:`BaseButton.toggle_mode<class_BaseButton_property_toggle_mode>`\ 应该是\ ``true``。
 
 Properties
 ----------
@@ -52,7 +52,7 @@ Method Descriptions
 
 - :ref:`Array<class_Array>` **get_buttons** **(** **)**
 
-返回一个:ref:`Button<class_Button>`\ 的:ref:`Array<class_Array>`，这些:ref:`Button<class_Button>`\ 的``ButtonGroup``\ 都有这个功能(参阅:ref:`BaseButton.group<class_BaseButton_property_group>`)。
+返回一个\ :ref:`Button<class_Button>`\ 的\ :ref:`Array<class_Array>`，这些\ :ref:`Button<class_Button>`\ 的\ ``ButtonGroup``\ 都有这个功能(参阅\ :ref:`BaseButton.group<class_BaseButton_property_group>`)。
 
 ----
 

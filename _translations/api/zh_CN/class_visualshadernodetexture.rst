@@ -74,9 +74,9 @@ enum **TextureType**:
 
 - **TYPE_DATA** = **0** --- 在uniform声明中未添加提示。
 
-- **TYPE_COLOR** = **1** --- 将``hint_albedo``\ 作为提示添加到uniform声明中，以便将sRGB转换为线性。
+- **TYPE_COLOR** = **1** --- 将\ ``hint_albedo``\ 作为提示添加到uniform声明中，以便将sRGB转换为线性。
 
-- **TYPE_NORMALMAP** = **2** --- 将``hint_normal``\ 作为提示添加到uniform声明中，该声明在内部将纹理转换为法线贴图。
+- **TYPE_NORMALMAP** = **2** --- 将\ ``hint_normal``\ 作为提示添加到uniform声明中，该声明在内部将纹理转换为法线贴图。
 
 Property Descriptions
 ---------------------
@@ -107,7 +107,7 @@ Property Descriptions
 | *Getter* | get_texture()      |
 +----------+--------------------+
 
-源纹理，如果需要的话，用于选定的:ref:`source<class_VisualShaderNodeTexture_property_source>`。
+源纹理，如果需要的话，用于选定的\ :ref:`source<class_VisualShaderNodeTexture_property_source>`。
 
 ----
 
@@ -123,7 +123,7 @@ Property Descriptions
 | *Getter*  | get_texture_type()      |
 +-----------+-------------------------+
 
-如果:ref:`source<class_VisualShaderNodeTexture_property_source>`\ 被设置为:ref:`SOURCE_TEXTURE<class_VisualShaderNodeTexture_constant_SOURCE_TEXTURE>`，则指定纹理的类型。有关选项，请参阅 :ref:`TextureType<enum_VisualShaderNodeTexture_TextureType>`。
+如果\ :ref:`source<class_VisualShaderNodeTexture_property_source>`\ 被设置为\ :ref:`SOURCE_TEXTURE<class_VisualShaderNodeTexture_constant_SOURCE_TEXTURE>`，则指定纹理的类型。有关选项，请参阅 :ref:`TextureType<enum_VisualShaderNodeTexture_TextureType>`。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

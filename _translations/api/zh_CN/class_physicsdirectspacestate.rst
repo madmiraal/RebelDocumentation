@@ -11,12 +11,12 @@ PhysicsDirectSpaceState
 
 **Inherits:** :ref:`Object<class_Object>`
 
-直接访问:ref:`PhysicsServer<class_PhysicsServer>`\ 中空间的对象。
+直接访问\ :ref:`PhysicsServer<class_PhysicsServer>`\ 中空间的对象。
 
 Description
 -----------
 
-直接访问:ref:`PhysicsServer<class_PhysicsServer>`\ 中空间的对象。它主要用于对驻留在特定空间的对象和区域进行查询。
+直接访问\ :ref:`PhysicsServer<class_PhysicsServer>`\ 中空间的对象。它主要用于对驻留在特定空间的对象和区域进行查询。
 
 Tutorials
 ---------
@@ -53,7 +53,7 @@ Method Descriptions
 
 返回一个包含运动的安全和不安全比例（0 到 1 之间）的数组。安全比例是在没有碰撞的情况下可以进行的运动的最大比例。不安全比例是碰撞必须移动的距离的最小部分。如果未检测到碰撞，将返回 ``[1.0, 1.0]`` 的结果。
 
-**注意：** 任何已经碰撞的:ref:`Shape2D<class_Shape2D>`\ (比如内部的)会被忽略。使用 :ref:`collide_shape<class_PhysicsDirectSpaceState_method_collide_shape>` 确定形状已经碰撞的 :ref:`Shape<class_Shape>`。
+**注意：** 任何已经碰撞的\ :ref:`Shape2D<class_Shape2D>`\ (比如内部的)会被忽略。使用 :ref:`collide_shape<class_PhysicsDirectSpaceState_method_collide_shape>` 确定形状已经碰撞的 :ref:`Shape<class_Shape>`。
 
 ----
 
@@ -61,7 +61,7 @@ Method Descriptions
 
 - :ref:`Array<class_Array>` **collide_shape** **(** :ref:`PhysicsShapeQueryParameters<class_PhysicsShapeQueryParameters>` shape, :ref:`int<class_int>` max_results=32 **)**
 
-通过:ref:`PhysicsShapeQueryParameters<class_PhysicsShapeQueryParameters>`\ 对象给出的形状与空间检查交点。结果数组包含一个形状与另一个形状相交的点的列表。与:ref:`intersect_shape<class_PhysicsDirectSpaceState_method_intersect_shape>`\ 一样，可以限制返回结果的数量，以节省处理时间。
+通过\ :ref:`PhysicsShapeQueryParameters<class_PhysicsShapeQueryParameters>`\ 对象给出的形状与空间检查交点。结果数组包含一个形状与另一个形状相交的点的列表。与\ :ref:`intersect_shape<class_PhysicsDirectSpaceState_method_intersect_shape>`\ 一样，可以限制返回结果的数量，以节省处理时间。
 
 ----
 
@@ -69,17 +69,17 @@ Method Descriptions
 
 - :ref:`Dictionary<class_Dictionary>` **get_rest_info** **(** :ref:`PhysicsShapeQueryParameters<class_PhysicsShapeQueryParameters>` shape **)**
 
-检查通过:ref:`PhysicsShapeQueryParameters<class_PhysicsShapeQueryParameters>`\ 对象给出的形状与空间的交点。如果它与一个以上的形状发生碰撞，则选择最近的。返回的对象是包含以下字段的字典:
+检查通过\ :ref:`PhysicsShapeQueryParameters<class_PhysicsShapeQueryParameters>`\ 对象给出的形状与空间的交点。如果它与一个以上的形状发生碰撞，则选择最近的。返回的对象是包含以下字段的字典:
 
 ``collider_id``:碰撞对象的ID。
 
-``linear_velocity``:碰撞对象的速度:ref:`Vector3<class_Vector3>`。如果对象是一个:ref:`Area<class_Area>`，结果是``(0, 0, 0)``。
+``linear_velocity``:碰撞对象的速度\ :ref:`Vector3<class_Vector3>`。如果对象是一个\ :ref:`Area<class_Area>`，结果是\ ``(0, 0, 0)``。
 
 ``normal``:物体在交点处的表面法线。
 
 ``点``:相交点。
 
-``rid``:相交物体的:ref:`RID<class_RID>`。
+``rid``:相交物体的\ :ref:`RID<class_RID>`。
 
 ``shape``:碰撞形状的形状索引。
 
@@ -121,13 +121,13 @@ Method Descriptions
 
 ``position``:交叉点。
 
-``rid``:相交物体的:ref:`RID<class_RID>`。
+``rid``:相交物体的\ :ref:`RID<class_RID>`。
 
 ``形状``:碰撞形状的形状索引。
 
 如果射线没有与任何物体相交，那么将返回空的字典。
 
-此外，该方法可以接受一个``exclude``\ 对象或:ref:`RID<class_RID>`\ 数组，该数组将被排除在碰撞之外，``collision_mask``\ 位掩码表示要检查的物理层，或者布尔值来确定射线是否应该分别与:ref:`PhysicsBody<class_PhysicsBody>`\ 或:ref:`Area<class_Area>`\ 发生碰撞。
+此外，该方法可以接受一个\ ``exclude``\ 对象或\ :ref:`RID<class_RID>`\ 数组，该数组将被排除在碰撞之外，``collision_mask``\ 位掩码表示要检查的物理层，或者布尔值来确定射线是否应该分别与\ :ref:`PhysicsBody<class_PhysicsBody>`\ 或\ :ref:`Area<class_Area>`\ 发生碰撞。
 
 ----
 
@@ -135,17 +135,17 @@ Method Descriptions
 
 - :ref:`Array<class_Array>` **intersect_shape** **(** :ref:`PhysicsShapeQueryParameters<class_PhysicsShapeQueryParameters>` shape, :ref:`int<class_int>` max_results=32 **)**
 
-通过:ref:`PhysicsShapeQueryParameters<class_PhysicsShapeQueryParameters>`\ 对象给出的形状与空间检查交点。相交的形状会以数组的形式返回，该数组包含有以下字段的字典:
+通过\ :ref:`PhysicsShapeQueryParameters<class_PhysicsShapeQueryParameters>`\ 对象给出的形状与空间检查交点。相交的形状会以数组的形式返回，该数组包含有以下字段的字典:
 
 ``collider``:碰撞的对象。
 
 ``collider_id``:碰撞对象的ID。
 
-``rid``:相交物体的:ref:`RID<class_RID>`。
+``rid``:相交物体的\ :ref:`RID<class_RID>`。
 
 ``shape``:碰撞形状的形状索引。
 
-可以用``max_results``\ 参数限制相交的数量，以减少处理时间。
+可以用\ ``max_results``\ 参数限制相交的数量，以减少处理时间。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

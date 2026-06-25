@@ -11,7 +11,7 @@ AnimationNodeOutput
 
 **Inherits:** :ref:`AnimationNode<class_AnimationNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
 
-要添加到:ref:`AnimationNodeBlendTree<class_AnimationNodeBlendTree>`\ 的通用输出节点。
+要添加到\ :ref:`AnimationNodeBlendTree<class_AnimationNodeBlendTree>`\ 的通用输出节点。
 
 Tutorials
 ---------

@@ -45,7 +45,7 @@ Property Descriptions
 | *Getter*  | is_using_sync()     |
 +-----------+---------------------+
 
-如果``true``，在调用:ref:`AnimationNode.blend_input<class_AnimationNode_method_blend_input>`\ 时，将``optimization`` to``false``，强制混合后的动画每一帧更新。
+如果\ ``true``，在调用\ :ref:`AnimationNode.blend_input<class_AnimationNode_method_blend_input>`\ 时，将\ ``optimization`` to\ ``false``，强制混合后的动画每一帧更新。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

@@ -11,7 +11,7 @@ XMLParser
 
 **Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
 
-用于创建`XML <https://en.wikipedia.org/wiki/XML>`__文件解析器的低级类。
+用于创建\ `XML <https://en.wikipedia.org/wiki/XML>`__\ 文件解析器的低级类。
 
 Description
 -----------
@@ -107,7 +107,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **get_attribute_name** **(** :ref:`int<class_int>` idx **)** |const|
 
-获取由``idx``\ 参数中的索引指定的属性名称。
+获取由\ ``idx``\ 参数中的索引指定的属性名称。
 
 ----
 
@@ -115,7 +115,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **get_attribute_value** **(** :ref:`int<class_int>` idx **)** |const|
 
-获取由``idx``\ 参数中的索引指定的属性值。
+获取由\ ``idx``\ 参数中的索引指定的属性值。
 
 ----
 
@@ -139,7 +139,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **get_named_attribute_value_safe** **(** :ref:`String<class_String>` name **)** |const|
 
-通过名称获取当前元素的某个属性值。如果没有找到该属性，将返回空的:ref:`String<class_String>`。
+通过名称获取当前元素的某个属性值。如果没有找到该属性，将返回空的\ :ref:`String<class_String>`。
 
 ----
 
@@ -155,7 +155,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **get_node_name** **(** **)** |const|
 
-获取当前元素节点的名称。如果当前节点类型既不是:ref:`NODE_ELEMENT<class_XMLParser_constant_NODE_ELEMENT>`\ 也不是:ref:`NODE_ELEMENT_END<class_XMLParser_constant_NODE_ELEMENT_END>`，将引发一个错误。
+获取当前元素节点的名称。如果当前节点类型既不是\ :ref:`NODE_ELEMENT<class_XMLParser_constant_NODE_ELEMENT>`\ 也不是\ :ref:`NODE_ELEMENT_END<class_XMLParser_constant_NODE_ELEMENT_END>`，将引发一个错误。
 
 ----
 
@@ -171,7 +171,7 @@ Method Descriptions
 
 - :ref:`NodeType<enum_XMLParser_NodeType>` **get_node_type** **(** **)**
 
-获取当前节点的类型。与:ref:`NodeType<enum_XMLParser_NodeType>`\ 常量比较。
+获取当前节点的类型。与\ :ref:`NodeType<enum_XMLParser_NodeType>`\ 常量比较。
 
 ----
 
@@ -187,7 +187,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_empty** **(** **)** |const|
 
-检查当前元素是否为空，这只适用于完全空的标签，例如``<element\>``。
+检查当前元素是否为空，这只适用于完全空的标签，例如\ ``<element\>``。
 
 ----
 

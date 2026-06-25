@@ -158,9 +158,9 @@ enum **DataType**:
 
 - **DATA_TYPE_FONT** = **2** --- 主题的 :ref:`Font<class_Font>` 字体项类型。
 
-- **DATA_TYPE_ICON** = **3** --- 主题的图标:ref:`Texture<class_Texture>`\ 项类型。
+- **DATA_TYPE_ICON** = **3** --- 主题的图标\ :ref:`Texture<class_Texture>`\ 项类型。
 
-- **DATA_TYPE_STYLEBOX** = **4** --- 主题的:ref:`StyleBox<class_StyleBox>`\ 项目类型。
+- **DATA_TYPE_STYLEBOX** = **4** --- 主题的\ :ref:`StyleBox<class_StyleBox>`\ 项目类型。
 
 - **DATA_TYPE_MAX** = **5** --- 数据类型枚举的最大值。
 
@@ -260,7 +260,7 @@ Method Descriptions
 
 - :ref:`Color<class_Color>` **get_color** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)** |const|
 
-如果主题有``node_type``，返回``name``\ 处的:ref:`Color<class_Color>`。
+如果主题有\ ``node_type``，返回\ ``name``\ 处的\ :ref:`Color<class_Color>`。
 
 ----
 
@@ -268,7 +268,7 @@ Method Descriptions
 
 - :ref:`PoolStringArray<class_PoolStringArray>` **get_color_list** **(** :ref:`String<class_String>` node_type **)** |const|
 
-如果主题有``node_type``，将所有的:ref:`Color<class_Color>`\ 作为:ref:`PoolStringArray<class_PoolStringArray>`\ 返回，并填充每个:ref:`Color<class_Color>`\ 的名称，用于:ref:`get_color<class_Theme_method_get_color>`\ 使用。
+如果主题有\ ``node_type``，将所有的\ :ref:`Color<class_Color>`\ 作为\ :ref:`PoolStringArray<class_PoolStringArray>`\ 返回，并填充每个\ :ref:`Color<class_Color>`\ 的名称，用于\ :ref:`get_color<class_Theme_method_get_color>`\ 使用。
 
 ----
 
@@ -276,7 +276,7 @@ Method Descriptions
 
 - :ref:`PoolStringArray<class_PoolStringArray>` **get_color_types** **(** **)** |const|
 
-返回所有的:ref:`Color<class_Color>`\ 类型为:ref:`PoolStringArray<class_PoolStringArray>`，其中填充了唯一类型名称，供:ref:`get_color<class_Theme_method_get_color>`\ 和/或:ref:`get_color_list<class_Theme_method_get_color_list>`\ 使用。
+返回所有的\ :ref:`Color<class_Color>`\ 类型为\ :ref:`PoolStringArray<class_PoolStringArray>`，其中填充了唯一类型名称，供\ :ref:`get_color<class_Theme_method_get_color>`\ 和/或\ :ref:`get_color_list<class_Theme_method_get_color_list>`\ 使用。
 
 ----
 
@@ -284,7 +284,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_constant** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)** |const|
 
-如果主题有``node_type``，返回``name``\ 处的常量。
+如果主题有\ ``node_type``，返回\ ``name``\ 处的常量。
 
 ----
 
@@ -292,7 +292,7 @@ Method Descriptions
 
 - :ref:`PoolStringArray<class_PoolStringArray>` **get_constant_list** **(** :ref:`String<class_String>` node_type **)** |const|
 
-如果主题有``node_type``，将所有常量作为:ref:`PoolStringArray<class_PoolStringArray>`\ 返回，并填充每个常量的名称，以供:ref:`get_constant<class_Theme_method_get_constant>`\ 使用。
+如果主题有\ ``node_type``，将所有常量作为\ :ref:`PoolStringArray<class_PoolStringArray>`\ 返回，并填充每个常量的名称，以供\ :ref:`get_constant<class_Theme_method_get_constant>`\ 使用。
 
 ----
 
@@ -300,7 +300,7 @@ Method Descriptions
 
 - :ref:`PoolStringArray<class_PoolStringArray>` **get_constant_types** **(** **)** |const|
 
-返回所有的常量类型为:ref:`PoolStringArray<class_PoolStringArray>`，其中填充唯一的类型名称，以供:ref:`get_constant<class_Theme_method_get_constant>`\ 和/或:ref:`get_constant_list<class_Theme_method_get_constant_list>`\ 使用。
+返回所有的常量类型为\ :ref:`PoolStringArray<class_PoolStringArray>`，其中填充唯一的类型名称，以供\ :ref:`get_constant<class_Theme_method_get_constant>`\ 和/或\ :ref:`get_constant_list<class_Theme_method_get_constant_list>`\ 使用。
 
 ----
 
@@ -308,7 +308,7 @@ Method Descriptions
 
 - :ref:`Font<class_Font>` **get_font** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)** |const|
 
-如果主题有``node_type``，返回``name``\ 处的:ref:`Font<class_Font>`。
+如果主题有\ ``node_type``，返回\ ``name``\ 处的\ :ref:`Font<class_Font>`。
 
 ----
 
@@ -316,7 +316,7 @@ Method Descriptions
 
 - :ref:`PoolStringArray<class_PoolStringArray>` **get_font_list** **(** :ref:`String<class_String>` node_type **)** |const|
 
-如果主题有``node_type``，将所有的:ref:`Font<class_Font>`\ 作为:ref:`PoolStringArray<class_PoolStringArray>`\ 返回，并填入每个:ref:`Font<class_Font>`\ 的名称，以供:ref:`get_font<class_Theme_method_get_font>`\ 使用。
+如果主题有\ ``node_type``，将所有的\ :ref:`Font<class_Font>`\ 作为\ :ref:`PoolStringArray<class_PoolStringArray>`\ 返回，并填入每个\ :ref:`Font<class_Font>`\ 的名称，以供\ :ref:`get_font<class_Theme_method_get_font>`\ 使用。
 
 ----
 
@@ -324,7 +324,7 @@ Method Descriptions
 
 - :ref:`PoolStringArray<class_PoolStringArray>` **get_font_types** **(** **)** |const|
 
-返回所有的:ref:`Font<class_Font>`\ 类型为:ref:`PoolStringArray<class_PoolStringArray>`，其中填充唯一的类型名称，以供:ref:`get_font<class_Theme_method_get_font>`\ 和/或:ref:`get_font_list<class_Theme_method_get_font_list>`\ 使用。
+返回所有的\ :ref:`Font<class_Font>`\ 类型为\ :ref:`PoolStringArray<class_PoolStringArray>`，其中填充唯一的类型名称，以供\ :ref:`get_font<class_Theme_method_get_font>`\ 和/或\ :ref:`get_font_list<class_Theme_method_get_font_list>`\ 使用。
 
 ----
 
@@ -332,7 +332,7 @@ Method Descriptions
 
 - :ref:`Texture<class_Texture>` **get_icon** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)** |const|
 
-如果主题有``node_type``，返回``name``\ 处的图标:ref:`Texture<class_Texture>`。
+如果主题有\ ``node_type``，返回\ ``name``\ 处的图标\ :ref:`Texture<class_Texture>`。
 
 ----
 
@@ -340,7 +340,7 @@ Method Descriptions
 
 - :ref:`PoolStringArray<class_PoolStringArray>` **get_icon_list** **(** :ref:`String<class_String>` node_type **)** |const|
 
-如果主题有``node_type``，则返回所有的图标为一个:ref:`PoolStringArray<class_PoolStringArray>`，并填入每个:ref:`Texture<class_Texture>`\ 的名称，以供:ref:`get_icon<class_Theme_method_get_icon>`\ 使用。
+如果主题有\ ``node_type``，则返回所有的图标为一个\ :ref:`PoolStringArray<class_PoolStringArray>`，并填入每个\ :ref:`Texture<class_Texture>`\ 的名称，以供\ :ref:`get_icon<class_Theme_method_get_icon>`\ 使用。
 
 ----
 
@@ -348,7 +348,7 @@ Method Descriptions
 
 - :ref:`PoolStringArray<class_PoolStringArray>` **get_icon_types** **(** **)** |const|
 
-返回所有的图标类型为:ref:`PoolStringArray<class_PoolStringArray>`，其中填充唯一的类型名称，以供:ref:`get_icon<class_Theme_method_get_icon>`\ 和/或:ref:`get_icon_list<class_Theme_method_get_icon_list>`\ 使用。
+返回所有的图标类型为\ :ref:`PoolStringArray<class_PoolStringArray>`，其中填充唯一的类型名称，以供\ :ref:`get_icon<class_Theme_method_get_icon>`\ 和/或\ :ref:`get_icon_list<class_Theme_method_get_icon_list>`\ 使用。
 
 ----
 
@@ -356,9 +356,9 @@ Method Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **get_stylebox** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)** |const|
 
-如果主题有``node_type``，返回``name``\ 处的:ref:`StyleBox<class_StyleBox>`。
+如果主题有\ ``node_type``，返回\ ``name``\ 处的\ :ref:`StyleBox<class_StyleBox>`。
 
-可以使用:ref:`get_stylebox_list<class_Theme_method_get_stylebox_list>`\ 找到有效的``name``。可以通过:ref:`get_stylebox_types<class_Theme_method_get_stylebox_types>`\ 来找到有效的``node_type``。
+可以使用\ :ref:`get_stylebox_list<class_Theme_method_get_stylebox_list>`\ 找到有效的\ ``name``。可以通过\ :ref:`get_stylebox_types<class_Theme_method_get_stylebox_types>`\ 来找到有效的\ ``node_type``。
 
 ----
 
@@ -366,9 +366,9 @@ Method Descriptions
 
 - :ref:`PoolStringArray<class_PoolStringArray>` **get_stylebox_list** **(** :ref:`String<class_String>` node_type **)** |const|
 
-如果主题有``node_type``，则返回所有:ref:`StyleBox<class_StyleBox>`\ 的:ref:`PoolStringArray<class_PoolStringArray>`，并填入每个:ref:`StyleBox<class_StyleBox>`\ 的名称，以供:ref:`get_stylebox<class_Theme_method_get_stylebox>`\ 使用。
+如果主题有\ ``node_type``，则返回所有\ :ref:`StyleBox<class_StyleBox>`\ 的\ :ref:`PoolStringArray<class_PoolStringArray>`，并填入每个\ :ref:`StyleBox<class_StyleBox>`\ 的名称，以供\ :ref:`get_stylebox<class_Theme_method_get_stylebox>`\ 使用。
 
-可以使用:ref:`get_stylebox_types<class_Theme_method_get_stylebox_types>`\ 找到有效的``node_type``。
+可以使用\ :ref:`get_stylebox_types<class_Theme_method_get_stylebox_types>`\ 找到有效的\ ``node_type``。
 
 ----
 
@@ -376,7 +376,7 @@ Method Descriptions
 
 - :ref:`PoolStringArray<class_PoolStringArray>` **get_stylebox_types** **(** **)** |const|
 
-返回所有:ref:`StyleBox<class_StyleBox>`\ 类型为:ref:`PoolStringArray<class_PoolStringArray>`，其中填充了唯一的类型名称，以供:ref:`get_stylebox<class_Theme_method_get_stylebox>`\ 和/或:ref:`get_stylebox_list<class_Theme_method_get_stylebox_list>`\ 使用。
+返回所有\ :ref:`StyleBox<class_StyleBox>`\ 类型为\ :ref:`PoolStringArray<class_PoolStringArray>`，其中填充了唯一的类型名称，以供\ :ref:`get_stylebox<class_Theme_method_get_stylebox>`\ 和/或\ :ref:`get_stylebox_list<class_Theme_method_get_stylebox_list>`\ 使用。
 
 ----
 
@@ -394,9 +394,9 @@ Method Descriptions
 
 - :ref:`PoolStringArray<class_PoolStringArray>` **get_theme_item_list** **(** :ref:`DataType<enum_Theme_DataType>` data_type, :ref:`String<class_String>` node_type **)** |const|
 
-返回所有``data_type``\ 的主题项目，以:ref:`PoolStringArray<class_PoolStringArray>`\ 的形式填入每个主题项目的名称，如果主题有``node_type``，可以在:ref:`get_theme_item<class_Theme_method_get_theme_item>`\ 或特定数据类型方法中使用。
+返回所有\ ``data_type``\ 的主题项目，以\ :ref:`PoolStringArray<class_PoolStringArray>`\ 的形式填入每个主题项目的名称，如果主题有\ ``node_type``，可以在\ :ref:`get_theme_item<class_Theme_method_get_theme_item>`\ 或特定数据类型方法中使用。
 
-可以通过:ref:`get_theme_item_types<class_Theme_method_get_theme_item_types>`\ 或特定数据类型的方法找到有效的``node_type``。
+可以通过\ :ref:`get_theme_item_types<class_Theme_method_get_theme_item_types>`\ 或特定数据类型的方法找到有效的\ ``node_type``。
 
 ----
 
@@ -404,7 +404,7 @@ Method Descriptions
 
 - :ref:`PoolStringArray<class_PoolStringArray>` **get_theme_item_types** **(** :ref:`DataType<enum_Theme_DataType>` data_type **)** |const|
 
-返回所有``data_type``\ 类型的主题项，作为填入唯一类型名称的:ref:`PoolStringArray<class_PoolStringArray>`，以供:ref:`get_theme_item<class_Theme_method_get_theme_item>`、:ref:`get_theme_item_list<class_Theme_method_get_theme_item_list>`\ 或数据类型特定方法使用。
+返回所有\ ``data_type``\ 类型的主题项，作为填入唯一类型名称的\ :ref:`PoolStringArray<class_PoolStringArray>`，以供\ :ref:`get_theme_item<class_Theme_method_get_theme_item>`、:ref:`get_theme_item_list<class_Theme_method_get_theme_item_list>`\ 或数据类型特定方法使用。
 
 ----
 
@@ -412,9 +412,9 @@ Method Descriptions
 
 - :ref:`PoolStringArray<class_PoolStringArray>` **get_type_list** **(** :ref:`String<class_String>` node_type **)** |const|
 
-将所有的主题类型作为一个:ref:`PoolStringArray<class_PoolStringArray>`\ 返回，其中填入了唯一的类型名称，以供这个主题的其他``get_*``\ 函数使用。
+将所有的主题类型作为一个\ :ref:`PoolStringArray<class_PoolStringArray>`\ 返回，其中填入了唯一的类型名称，以供这个主题的其他\ ``get_*``\ 函数使用。
 
-**注意：**``node_type``\ 没有生效，在未来的版本中会被删除。
+**注意：**\ ``node_type``\ 没有生效，在未来的版本中会被删除。
 
 ----
 
@@ -422,9 +422,9 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **has_color** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)** |const|
 
-如果带有``name``\ 的:ref:`Color<class_Color>`\ 在``node_type``\ 中，则返回``true``。
+如果带有\ ``name``\ 的\ :ref:`Color<class_Color>`\ 在\ ``node_type``\ 中，则返回\ ``true``。
 
-如果主题没有``node_type``，则返回``false``。
+如果主题没有\ ``node_type``，则返回\ ``false``。
 
 ----
 
@@ -432,9 +432,9 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **has_constant** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)** |const|
 
-如果带有``name``\ 的常量在``node_type``\ 中，则返回``true``。
+如果带有\ ``name``\ 的常量在\ ``node_type``\ 中，则返回\ ``true``。
 
-如果主题没有``node_type``，则返回``false``。
+如果主题没有\ ``node_type``，则返回\ ``false``。
 
 ----
 
@@ -442,7 +442,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **has_default_font** **(** **)** |const|
 
-如果这个主题有一个有效的:ref:`default_font<class_Theme_property_default_font>`\ 值，返回``true``。
+如果这个主题有一个有效的\ :ref:`default_font<class_Theme_property_default_font>`\ 值，返回\ ``true``。
 
 ----
 
@@ -450,9 +450,9 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **has_font** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)** |const|
 
-如果带有``name``\ 的:ref:`Font<class_Font>`\ 在``node_type``\ 中，则返回``true``。
+如果带有\ ``name``\ 的\ :ref:`Font<class_Font>`\ 在\ ``node_type``\ 中，则返回\ ``true``。
 
-如果主题没有``node_type``，则返回``false``。
+如果主题没有\ ``node_type``，则返回\ ``false``。
 
 ----
 
@@ -460,9 +460,9 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **has_icon** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)** |const|
 
-如果带有``name``\ 的图标:ref:`Texture<class_Texture>`\ 在``node_type``\ 中，则返回``true``。
+如果带有\ ``name``\ 的图标\ :ref:`Texture<class_Texture>`\ 在\ ``node_type``\ 中，则返回\ ``true``。
 
-如果主题没有``node_type``，则返回``false``。
+如果主题没有\ ``node_type``，则返回\ ``false``。
 
 ----
 
@@ -470,9 +470,9 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **has_stylebox** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)** |const|
 
-如果带有``name``\ 的:ref:`StyleBox<class_StyleBox>`\ 在``node_type``\ 中，返回``true``。
+如果带有\ ``name``\ 的\ :ref:`StyleBox<class_StyleBox>`\ 在\ ``node_type``\ 中，返回\ ``true``。
 
-如果主题没有``node_type``，则返回``false``。
+如果主题没有\ ``node_type``，则返回\ ``false``。
 
 ----
 
@@ -480,9 +480,9 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **has_theme_item** **(** :ref:`DataType<enum_Theme_DataType>` data_type, :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)** |const|
 
-如果一个``data_type``\ 的主题项目与``name``\ 在``node_type``\ 中，则返回``true``。
+如果一个\ ``data_type``\ 的主题项目与\ ``name``\ 在\ ``node_type``\ 中，则返回\ ``true``。
 
-如果该主题没有``node_type``，则返回``false``。
+如果该主题没有\ ``node_type``，则返回\ ``false``。
 
 ----
 
@@ -490,7 +490,7 @@ Method Descriptions
 
 - void **merge_with** **(** :ref:`Theme<class_Theme>` other **)**
 
-用``other````Theme``\ 的值添加缺失的，和覆盖现有的定义。
+用\ ``other``\ ``Theme``\ 的值添加缺失的，和覆盖现有的定义。
 
 **注意：** 这将修改当前的主题。如果你想在不修改任何一个主题的情况下将两个主题合并在一起，请创建一个新的空主题，然后将另外两个主题逐个合并到其中。
 
@@ -500,7 +500,7 @@ Method Descriptions
 
 - void **rename_color** **(** :ref:`String<class_String>` old_name, :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)**
 
-如果主题有``node_type``，则将``old_name``\ 的:ref:`Color<class_Color>`\ 重命名为``name``。如果``name``\ 已经被占用，则此方法将失败。
+如果主题有\ ``node_type``，则将\ ``old_name``\ 的\ :ref:`Color<class_Color>`\ 重命名为\ ``name``。如果\ ``name``\ 已经被占用，则此方法将失败。
 
 ----
 
@@ -508,7 +508,7 @@ Method Descriptions
 
 - void **rename_constant** **(** :ref:`String<class_String>` old_name, :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)**
 
-如果主题有``node_type``，则将``old_name``\ 的常量重命名为``name``。如果``name``\ 已经被占用，则此方法失败。
+如果主题有\ ``node_type``，则将\ ``old_name``\ 的常量重命名为\ ``name``。如果\ ``name``\ 已经被占用，则此方法失败。
 
 ----
 
@@ -516,7 +516,7 @@ Method Descriptions
 
 - void **rename_font** **(** :ref:`String<class_String>` old_name, :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)**
 
-如果主题有``node_type``，则将``old_name``\ 的:ref:`Font<class_Font>`\ 重命名为``name``。如果``name``\ 已经被占用，则此方法失败。
+如果主题有\ ``node_type``，则将\ ``old_name``\ 的\ :ref:`Font<class_Font>`\ 重命名为\ ``name``。如果\ ``name``\ 已经被占用，则此方法失败。
 
 ----
 
@@ -524,7 +524,7 @@ Method Descriptions
 
 - void **rename_icon** **(** :ref:`String<class_String>` old_name, :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)**
 
-如果主题有``node_type``，将``old_name``\ 的图标重命名为``name``。如果``name``\ 已经被占用，则此方法失败。
+如果主题有\ ``node_type``，将\ ``old_name``\ 的图标重命名为\ ``name``。如果\ ``name``\ 已经被占用，则此方法失败。
 
 ----
 
@@ -532,7 +532,7 @@ Method Descriptions
 
 - void **rename_stylebox** **(** :ref:`String<class_String>` old_name, :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)**
 
-如果主题有``node_type``，则将:ref:`StyleBox<class_StyleBox>`\ 在``old_name``\ 重命名为``name``。如果``name``\ 已经被占用，此方法会失败。
+如果主题有\ ``node_type``，则将\ :ref:`StyleBox<class_StyleBox>`\ 在\ ``old_name``\ 重命名为\ ``name``。如果\ ``name``\ 已经被占用，此方法会失败。
 
 ----
 
@@ -548,9 +548,9 @@ Method Descriptions
 
 - void **set_color** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type, :ref:`Color<class_Color>` color **)**
 
-在``node_type``\ 中的``name``\ 处，设置主题的:ref:`Color<class_Color>`\ 为``color``。
+在\ ``node_type``\ 中的\ ``name``\ 处，设置主题的\ :ref:`Color<class_Color>`\ 为\ ``color``。
 
-如果主题没有``node_type``，则创建该节点。
+如果主题没有\ ``node_type``，则创建该节点。
 
 ----
 
@@ -558,9 +558,9 @@ Method Descriptions
 
 - void **set_constant** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type, :ref:`int<class_int>` constant **)**
 
-在``node_type``\ 中的``name``\ 处，将主题的常量设置为``constant``。
+在\ ``node_type``\ 中的\ ``name``\ 处，将主题的常量设置为\ ``constant``。
 
-如果主题没有，则创建``node_type``。
+如果主题没有，则创建\ ``node_type``。
 
 ----
 
@@ -568,9 +568,9 @@ Method Descriptions
 
 - void **set_font** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type, :ref:`Font<class_Font>` font **)**
 
-在``node_type``\ 中的``name``\ 处将主题的 :ref:`Font<class_Font>` 设置为``font``。
+在\ ``node_type``\ 中的\ ``name``\ 处将主题的 :ref:`Font<class_Font>` 设置为\ ``font``。
 
-如果主题没有``node_type``，则创建该节点。
+如果主题没有\ ``node_type``，则创建该节点。
 
 ----
 
@@ -578,9 +578,9 @@ Method Descriptions
 
 - void **set_icon** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type, :ref:`Texture<class_Texture>` texture **)**
 
-在``node_type``\ 中的``name``\ 处设置主题的图标:ref:`Texture<class_Texture>`\ 为``texture``。
+在\ ``node_type``\ 中的\ ``name``\ 处设置主题的图标\ :ref:`Texture<class_Texture>`\ 为\ ``texture``。
 
-如果主题没有``node_type``，则创建该节点。
+如果主题没有\ ``node_type``，则创建该节点。
 
 ----
 
@@ -588,9 +588,9 @@ Method Descriptions
 
 - void **set_stylebox** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type, :ref:`StyleBox<class_StyleBox>` texture **)**
 
-将主题的:ref:`StyleBox<class_StyleBox>`\ 设置为``stylebox``，在``node_type``\ 的``name``\ 处。
+将主题的\ :ref:`StyleBox<class_StyleBox>`\ 设置为\ ``stylebox``，在\ ``node_type``\ 的\ ``name``\ 处。
 
-如果主题没有``node_type``，则创建该节点。
+如果主题没有\ ``node_type``，则创建该节点。
 
 ----
 
@@ -598,11 +598,11 @@ Method Descriptions
 
 - void **set_theme_item** **(** :ref:`DataType<enum_Theme_DataType>` data_type, :ref:`String<class_String>` name, :ref:`String<class_String>` node_type, :ref:`Variant<class_Variant>` value **)**
 
-将``data_type``\ 的主题项目设置为``value``，在``node_type``\ 中的``name``。
+将\ ``data_type``\ 的主题项目设置为\ ``value``，在\ ``node_type``\ 中的\ ``name``。
 
-如果``value``\ 类型与``data_type``\ 不匹配，则不做任何处理。
+如果\ ``value``\ 类型与\ ``data_type``\ 不匹配，则不做任何处理。
 
-如果主题没有``node_type``，则创建该类型。
+如果主题没有\ ``node_type``，则创建该类型。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

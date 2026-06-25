@@ -97,7 +97,7 @@ Method Descriptions
 
 - void **finish** **(** **)**
 
-关闭此AES上下文，以便可以再次启动它。 参阅:ref:`start<class_AESContext_method_start>`。
+关闭此AES上下文，以便可以再次启动它。 参阅\ :ref:`start<class_AESContext_method_start>`。
 
 ----
 
@@ -105,9 +105,9 @@ Method Descriptions
 
 - :ref:`PoolByteArray<class_PoolByteArray>` **get_iv_state** **(** **)**
 
-获取此上下文的当前IV状态（调用:ref:`update<class_AESContext_method_update>`\ 时会更新IV）。通常不需要此函数。
+获取此上下文的当前IV状态（调用\ :ref:`update<class_AESContext_method_update>`\ 时会更新IV）。通常不需要此函数。
 
-**注意：**仅当上下文以:ref:`MODE_CBC_ENCRYPT<class_AESContext_constant_MODE_CBC_ENCRYPT>`\ 或:ref:`MODE_CBC_DECRYPT<class_AESContext_constant_MODE_CBC_DECRYPT>`\ 开头时，此函数才有意义。
+**注意：**\ 仅当上下文以\ :ref:`MODE_CBC_ENCRYPT<class_AESContext_constant_MODE_CBC_ENCRYPT>`\ 或\ :ref:`MODE_CBC_DECRYPT<class_AESContext_constant_MODE_CBC_DECRYPT>`\ 开头时，此函数才有意义。
 
 ----
 
@@ -115,7 +115,7 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **start** **(** :ref:`Mode<enum_AESContext_Mode>` mode, :ref:`PoolByteArray<class_PoolByteArray>` key, :ref:`PoolByteArray<class_PoolByteArray>` iv=PoolByteArray(  ) **)**
 
-以给定的``模式``\ 启动AES上下文。必须始终提供16或32字节的``key``，而仅当``mode``\ 为以下两种情况时才需要正好为16字节的``iv``（初始化向量） :ref:`MODE_CBC_ENCRYPT<class_AESContext_constant_MODE_CBC_ENCRYPT>`\ 或:ref:`MODE_CBC_DECRYPT<class_AESContext_constant_MODE_CBC_DECRYPT>`。
+以给定的\ ``模式``\ 启动AES上下文。必须始终提供16或32字节的\ ``key``，而仅当\ ``mode``\ 为以下两种情况时才需要正好为16字节的\ ``iv``\ （初始化向量） :ref:`MODE_CBC_ENCRYPT<class_AESContext_constant_MODE_CBC_ENCRYPT>`\ 或\ :ref:`MODE_CBC_DECRYPT<class_AESContext_constant_MODE_CBC_DECRYPT>`。
 
 ----
 
@@ -123,9 +123,9 @@ Method Descriptions
 
 - :ref:`PoolByteArray<class_PoolByteArray>` **update** **(** :ref:`PoolByteArray<class_PoolByteArray>` src **)**
 
-运行此 AES 上下文所需的操作。将返回包含加密（或解密）给定 ``src`` 结果的:ref:`PoolByteArray<class_PoolByteArray>` 。有关操作模式，请参阅:ref:`start<class_AESContext_method_start>`。
+运行此 AES 上下文所需的操作。将返回包含加密（或解密）给定 ``src`` 结果的\ :ref:`PoolByteArray<class_PoolByteArray>` 。有关操作模式，请参阅\ :ref:`start<class_AESContext_method_start>`。
 
-**注意：**``src``\ 的大小必须是16倍的倍数。如果需要，应用一些填充。
+**注意：**\ ``src``\ 的大小必须是16倍的倍数。如果需要，应用一些填充。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

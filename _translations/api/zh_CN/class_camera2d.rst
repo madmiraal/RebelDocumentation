@@ -148,7 +148,7 @@ Property Descriptions
 | *Getter*  | get_anchor_mode()      |
 +-----------+------------------------+
 
-Camera2D的锚点。参阅:ref:`AnchorMode<enum_Camera2D_AnchorMode>`\ 常量。
+Camera2D的锚点。参阅\ :ref:`AnchorMode<enum_Camera2D_AnchorMode>`\ 常量。
 
 ----
 
@@ -162,7 +162,7 @@ Camera2D的锚点。参阅:ref:`AnchorMode<enum_Camera2D_AnchorMode>`\ 常量。
 | *Getter*  | is_current() |
 +-----------+--------------+
 
-如果 ``true``，相机是当前场景的活动相机。当前只能有一台相机，所以设置不同的相机``current``\ 将禁用这台相机。
+如果 ``true``，相机是当前场景的活动相机。当前只能有一台相机，所以设置不同的相机\ ``current``\ 将禁用这台相机。
 
 ----
 
@@ -176,7 +176,7 @@ Camera2D的锚点。参阅:ref:`AnchorMode<enum_Camera2D_AnchorMode>`\ 常量。
 | *Getter* | get_custom_viewport()      |
 +----------+----------------------------+
 
-连接到``Camera2D``\ 的自定义:ref:`Viewport<class_Viewport>`\ 节点。如果``null``\ 或不是:ref:`Viewport<class_Viewport>`，则使用默认的 Viewpor。
+连接到\ ``Camera2D``\ 的自定义\ :ref:`Viewport<class_Viewport>`\ 节点。如果\ ``null``\ 或不是\ :ref:`Viewport<class_Viewport>`，则使用默认的 Viewpor。
 
 ----
 
@@ -192,7 +192,7 @@ Camera2D的锚点。参阅:ref:`AnchorMode<enum_Camera2D_AnchorMode>`\ 常量。
 | *Getter*  | get_drag_margin()      |
 +-----------+------------------------+
 
-拖动相机所需的底边距。值为``1``\ 时，相机仅在到达屏幕边缘时才会移动。
+拖动相机所需的底边距。值为\ ``1``\ 时，相机仅在到达屏幕边缘时才会移动。
 
 ----
 
@@ -208,7 +208,7 @@ Camera2D的锚点。参阅:ref:`AnchorMode<enum_Camera2D_AnchorMode>`\ 常量。
 | *Getter*  | is_h_drag_enabled()       |
 +-----------+---------------------------+
 
-如果 ``true``，相机仅在达到水平拖动边距时才移动。如果``false``，相机会水平移动而不管边距。
+如果 ``true``，相机仅在达到水平拖动边距时才移动。如果\ ``false``，相机会水平移动而不管边距。
 
 ----
 
@@ -224,7 +224,7 @@ Camera2D的锚点。参阅:ref:`AnchorMode<enum_Camera2D_AnchorMode>`\ 常量。
 | *Getter*  | get_drag_margin()      |
 +-----------+------------------------+
 
-拖动相机所需的左边缘。值为``1``\ 时，相机仅在到达屏幕边缘时才会移动。
+拖动相机所需的左边缘。值为\ ``1``\ 时，相机仅在到达屏幕边缘时才会移动。
 
 ----
 
@@ -240,7 +240,7 @@ Camera2D的锚点。参阅:ref:`AnchorMode<enum_Camera2D_AnchorMode>`\ 常量。
 | *Getter*  | get_drag_margin()      |
 +-----------+------------------------+
 
-拖动相机所需的右边缘。值为``1``\ 时，相机仅在到达屏幕边缘时才会移动。
+拖动相机所需的右边缘。值为\ ``1``\ 时，相机仅在到达屏幕边缘时才会移动。
 
 ----
 
@@ -256,7 +256,7 @@ Camera2D的锚点。参阅:ref:`AnchorMode<enum_Camera2D_AnchorMode>`\ 常量。
 | *Getter*  | get_drag_margin()      |
 +-----------+------------------------+
 
-拖动相机所需的上边距。值为``1``\ 时，相机仅在到达屏幕边缘时才会移动。
+拖动相机所需的上边距。值为\ ``1``\ 时，相机仅在到达屏幕边缘时才会移动。
 
 ----
 
@@ -272,7 +272,7 @@ Camera2D的锚点。参阅:ref:`AnchorMode<enum_Camera2D_AnchorMode>`\ 常量。
 | *Getter*  | is_v_drag_enabled()       |
 +-----------+---------------------------+
 
-如果 ``true``，相机仅在达到垂直拖动边距时才移动。如果``false``，相机会垂直移动而不管边距。
+如果 ``true``，相机仅在达到垂直拖动边距时才移动。如果\ ``false``，相机会垂直移动而不管边距。
 
 ----
 
@@ -288,7 +288,7 @@ Camera2D的锚点。参阅:ref:`AnchorMode<enum_Camera2D_AnchorMode>`\ 常量。
 | *Getter*  | is_margin_drawing_enabled()       |
 +-----------+-----------------------------------+
 
-如果``true``，在编辑器中绘制相机的拖动边距矩形。
+如果\ ``true``，在编辑器中绘制相机的拖动边距矩形。
 
 ----
 
@@ -304,7 +304,7 @@ Camera2D的锚点。参阅:ref:`AnchorMode<enum_Camera2D_AnchorMode>`\ 常量。
 | *Getter*  | is_limit_drawing_enabled()       |
 +-----------+----------------------------------+
 
-如果``true``，在编辑器中绘制相机的极限矩形。
+如果\ ``true``，在编辑器中绘制相机的极限矩形。
 
 ----
 
@@ -320,7 +320,7 @@ Camera2D的锚点。参阅:ref:`AnchorMode<enum_Camera2D_AnchorMode>`\ 常量。
 | *Getter*  | is_screen_drawing_enabled()       |
 +-----------+-----------------------------------+
 
-如果``true``，在编辑器中绘制相机的画面矩形。
+如果\ ``true``，在编辑器中绘制相机的画面矩形。
 
 ----
 
@@ -388,7 +388,7 @@ Camera2D的锚点。参阅:ref:`AnchorMode<enum_Camera2D_AnchorMode>`\ 常量。
 
 如果平滑被禁用，这将不起作用。
 
-**注意：**要立即将相机的位置更新到限制范围内而不进行平滑，即使启用了此设置，也要调用:ref:`reset_smoothing<class_Camera2D_method_reset_smoothing>`。
+**注意：**\ 要立即将相机的位置更新到限制范围内而不进行平滑，即使启用了此设置，也要调用\ :ref:`reset_smoothing<class_Camera2D_method_reset_smoothing>`。
 
 ----
 
@@ -456,7 +456,7 @@ Camera2D的锚点。参阅:ref:`AnchorMode<enum_Camera2D_AnchorMode>`\ 常量。
 
 相机相对于拖动边距的垂直偏移。
 
-**注：** 与:ref:`offset_h<class_Camera2D_property_offset_h>`\ 使用相同。
+**注：** 与\ :ref:`offset_h<class_Camera2D_property_offset_h>`\ 使用相同。
 
 ----
 
@@ -472,7 +472,7 @@ Camera2D的锚点。参阅:ref:`AnchorMode<enum_Camera2D_AnchorMode>`\ 常量。
 | *Getter*  | get_process_mode()      |
 +-----------+-------------------------+
 
-相机的过程回调。请参阅:ref:`Camera2DProcessMode<enum_Camera2D_Camera2DProcessMode>`。
+相机的过程回调。请参阅\ :ref:`Camera2DProcessMode<enum_Camera2D_Camera2DProcessMode>`。
 
 ----
 
@@ -488,7 +488,7 @@ Camera2D的锚点。参阅:ref:`AnchorMode<enum_Camera2D_AnchorMode>`\ 常量。
 | *Getter*  | is_rotating()       |
 +-----------+---------------------+
 
-如果``true``，则相机随目标旋转。
+如果\ ``true``，则相机随目标旋转。
 
 ----
 
@@ -504,7 +504,7 @@ Camera2D的锚点。参阅:ref:`AnchorMode<enum_Camera2D_AnchorMode>`\ 常量。
 | *Getter*  | is_follow_smoothing_enabled()      |
 +-----------+------------------------------------+
 
-如果``true``，相机以:ref:`smoothing_speed<class_Camera2D_property_smoothing_speed>`\ 的速度平滑地朝目标移动。
+如果\ ``true``，相机以\ :ref:`smoothing_speed<class_Camera2D_property_smoothing_speed>`\ 的速度平滑地朝目标移动。
 
 ----
 
@@ -520,7 +520,7 @@ Camera2D的锚点。参阅:ref:`AnchorMode<enum_Camera2D_AnchorMode>`\ 常量。
 | *Getter*  | get_follow_smoothing()      |
 +-----------+-----------------------------+
 
-当:ref:`smoothing_enabled<class_Camera2D_property_smoothing_enabled>`\ 为``true``\ 时，相机平滑效果的速度，以每秒像素为单位。
+当\ :ref:`smoothing_enabled<class_Camera2D_property_smoothing_enabled>`\ 为\ ``true``\ 时，相机平滑效果的速度，以每秒像素为单位。
 
 ----
 
@@ -536,7 +536,7 @@ Camera2D的锚点。参阅:ref:`AnchorMode<enum_Camera2D_AnchorMode>`\ 常量。
 | *Getter*  | get_zoom()          |
 +-----------+---------------------+
 
-相机相对于视窗的缩放比例。大于``Vector2（1，1）``\ 的值会缩小内容，而较小的值会起到放大镜的作用。例如，将``Vector2（0.5，0.5）``\ 放大2倍，然后将``Vector2（4，4）``\ 用于4倍缩小。
+相机相对于视窗的缩放比例。大于\ ``Vector2（1，1）``\ 的值会缩小内容，而较小的值会起到放大镜的作用。例如，将\ ``Vector2（0.5，0.5）``\ 放大2倍，然后将\ ``Vector2（4，4）``\ 用于4倍缩小。
 
 Method Descriptions
 -------------------
@@ -553,7 +553,7 @@ Method Descriptions
 
 - void **clear_current** **(** **)**
 
-从父级:ref:`Viewport<class_Viewport>`\ 的内部当前分配的相机中删除任何``Camera2D``。
+从父级\ :ref:`Viewport<class_Viewport>`\ 的内部当前分配的相机中删除任何\ ``Camera2D``。
 
 ----
 
@@ -577,7 +577,7 @@ Method Descriptions
 
 - :ref:`Vector2<class_Vector2>` **get_camera_screen_center** **(** **)** |const|
 
-返回``Camera2D``\ 的屏幕中心相对于原点的位置。
+返回\ ``Camera2D``\ 的屏幕中心相对于原点的位置。
 
 ----
 
@@ -585,7 +585,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **get_drag_margin** **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin **)** |const|
 
-返回指定的边距。另请参阅:ref:`drag_margin_bottom<class_Camera2D_property_drag_margin_bottom>`，:ref:`drag_margin_top<class_Camera2D_property_drag_margin_top>`，:ref:`drag_margin_left<class_Camera2D_property_drag_margin_left>`\ 和:ref:`drag_margin_right<class_Camera2D_property_drag_margin_right>`。
+返回指定的边距。另请参阅\ :ref:`drag_margin_bottom<class_Camera2D_property_drag_margin_bottom>`，:ref:`drag_margin_top<class_Camera2D_property_drag_margin_top>`，:ref:`drag_margin_left<class_Camera2D_property_drag_margin_left>`\ 和\ :ref:`drag_margin_right<class_Camera2D_property_drag_margin_right>`。
 
 ----
 
@@ -593,7 +593,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_limit** **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin **)** |const|
 
-返回指定的相机限制。请参阅 :ref:`limit_bottom<class_Camera2D_property_limit_bottom>`、:ref:`limit_top<class_Camera2D_property_limit_top>`、:ref:`limit_left<class_Camera2D_property_limit_left>`\ 和:ref:`limit_right<class_Camera2D_property_limit_right>`。
+返回指定的相机限制。请参阅 :ref:`limit_bottom<class_Camera2D_property_limit_bottom>`、:ref:`limit_top<class_Camera2D_property_limit_top>`、:ref:`limit_left<class_Camera2D_property_limit_left>`\ 和\ :ref:`limit_right<class_Camera2D_property_limit_right>`。
 
 ----
 
@@ -627,7 +627,7 @@ Method Descriptions
 
 - void **set_limit** **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin, :ref:`int<class_int>` limit **)**
 
-设置指定的相机限制。另请参阅 :ref:`limit_bottom<class_Camera2D_property_limit_bottom>`、:ref:`limit_top<class_Camera2D_property_limit_top>`、:ref:`limit_left<class_Camera2D_property_limit_left>`\ 和:ref:`limit_right<class_Camera2D_property_limit_right>`。
+设置指定的相机限制。另请参阅 :ref:`limit_bottom<class_Camera2D_property_limit_bottom>`、:ref:`limit_top<class_Camera2D_property_limit_top>`、:ref:`limit_left<class_Camera2D_property_limit_left>`\ 和\ :ref:`limit_right<class_Camera2D_property_limit_right>`。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

@@ -16,9 +16,9 @@ VehicleWheel
 Description
 -----------
 
-此节点需要作为:ref:`VehicleBody<class_VehicleBody>`\ 的子节点使用，并模拟其车轮的行为。其节点也作为碰撞器来检测车轮是否接触到表面。
+此节点需要作为\ :ref:`VehicleBody<class_VehicleBody>`\ 的子节点使用，并模拟其车轮的行为。其节点也作为碰撞器来检测车轮是否接触到表面。
 
-**注意：** 这个类有已知的问题，并不是为了提供真实的三维车辆物理而设计的。如果你想要先进的车辆物理，须使用另一个:ref:`PhysicsBody<class_PhysicsBody>`\ 类来编写你自己的物理集成。
+**注意：** 这个类有已知的问题，并不是为了提供真实的三维车辆物理而设计的。如果你想要先进的车辆物理，须使用另一个\ :ref:`PhysicsBody<class_PhysicsBody>`\ 类来编写你自己的物理集成。
 
 Properties
 ----------
@@ -79,7 +79,7 @@ Property Descriptions
 | *Getter*  | get_brake()      |
 +-----------+------------------+
 
-通过施加制动力使车轮减速。只有当车轮与表面接触时，它才会减速。你需要施加多大的力来使车辆充分减速，取决于车辆的:ref:`RigidBody.mass<class_RigidBody_property_mass>`。对于质量设置为1000的车辆，尝试在25-30的范围内进行硬制动。
+通过施加制动力使车轮减速。只有当车轮与表面接触时，它才会减速。你需要施加多大的力来使车辆充分减速，取决于车辆的\ :ref:`RigidBody.mass<class_RigidBody_property_mass>`。对于质量设置为1000的车辆，尝试在25-30的范围内进行硬制动。
 
 ----
 
@@ -127,9 +127,9 @@ Property Descriptions
 | *Getter*  | get_engine_force()      |
 +-----------+-------------------------+
 
-通过施加引擎力使车轮加速。车轮只有在与表面接触时才会加速。车辆的:ref:`RigidBody.mass<class_RigidBody_property_mass>`\ 对车辆的加速度有影响。对于质量设置为1000的车辆，尝试在25-50范围内的加速度值。
+通过施加引擎力使车轮加速。车轮只有在与表面接触时才会加速。车辆的\ :ref:`RigidBody.mass<class_RigidBody_property_mass>`\ 对车辆的加速度有影响。对于质量设置为1000的车辆，尝试在25-50范围内的加速度值。
 
-**注意：**模拟不考虑齿轮的影响，如果你想模拟齿轮，将需要为其添加逻辑。
+**注意：**\ 模拟不考虑齿轮的影响，如果你想模拟齿轮，将需要为其添加逻辑。
 
 负值将导致车轮倒转。
 
@@ -163,7 +163,7 @@ Property Descriptions
 | *Getter*  | get_suspension_max_force()      |
 +-----------+---------------------------------+
 
-弹簧所能抵抗的最大力。此值应该高于:ref:`VehicleBody<class_VehicleBody>`\ 的:ref:`RigidBody.mass<class_RigidBody_property_mass>`\ 的四分之一，否则弹簧将无法承载车辆的重量。通常由大约3×到4×这个数字的值，以获得良好的效果。
+弹簧所能抵抗的最大力。此值应该高于\ :ref:`VehicleBody<class_VehicleBody>`\ 的\ :ref:`RigidBody.mass<class_RigidBody_property_mass>`\ 的四分之一，否则弹簧将无法承载车辆的重量。通常由大约3×到4×这个数字的值，以获得良好的效果。
 
 ----
 
@@ -211,7 +211,7 @@ This is the distance the suspension can travel. As Rebel Engine units are equiva
 | *Getter*  | is_used_as_steering()      |
 +-----------+----------------------------+
 
-如果``true``，当汽车转向时，其轮子将被转动。此值和:ref:`VehicleBody.steering<class_VehicleBody_property_steering>`\ 一起使用，如果使用每个轮子的:ref:`steering<class_VehicleWheel_property_steering>`\ 值来代替，则会被忽略。
+如果\ ``true``，当汽车转向时，其轮子将被转动。此值和\ :ref:`VehicleBody.steering<class_VehicleBody_property_steering>`\ 一起使用，如果使用每个轮子的\ :ref:`steering<class_VehicleWheel_property_steering>`\ 值来代替，则会被忽略。
 
 ----
 
@@ -227,7 +227,7 @@ This is the distance the suspension can travel. As Rebel Engine units are equiva
 | *Getter*  | is_used_as_traction()      |
 +-----------+----------------------------+
 
-如果``true``，此轮子将引擎力传递给地面，推动车辆前进。此值和:ref:`VehicleBody.engine_force<class_VehicleBody_property_engine_force>`\ 一起使用，如果使用每个轮子的:ref:`engine_force<class_VehicleWheel_property_engine_force>`\ 值，则忽略该值。
+如果\ ``true``，此轮子将引擎力传递给地面，推动车辆前进。此值和\ :ref:`VehicleBody.engine_force<class_VehicleBody_property_engine_force>`\ 一起使用，如果使用每个轮子的\ :ref:`engine_force<class_VehicleWheel_property_engine_force>`\ 值，则忽略该值。
 
 ----
 

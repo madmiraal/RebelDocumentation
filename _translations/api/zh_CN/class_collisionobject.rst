@@ -122,7 +122,7 @@ Property Descriptions
 
 CollisionObject3D 所在的物理层。碰撞对象可以存在于 32 个不同层中的一个或多个。另见 :ref:`collision_mask<class_CollisionObject_property_collision_mask>`。
 
-**注意：**如果对象A在对象B扫描的任何层中，或者对象B在对象A扫描的任何层中，则检测到接触。有关更多信息，请参阅文档中的 :ref:`碰撞层和掩码 <tutorials/physics/physics_introduction:collision layers and masks>`。
+**注意：**\ 如果对象A在对象B扫描的任何层中，或者对象B在对象A扫描的任何层中，则检测到接触。有关更多信息，请参阅文档中的 :ref:`碰撞层和掩码 <tutorials/physics/physics_introduction:collision layers and masks>`。
 
 ----
 
@@ -140,7 +140,7 @@ CollisionObject3D 所在的物理层。碰撞对象可以存在于 32 个不同�
 
 CollisionObject3D 扫描的物理层。碰撞对象可以扫描 32 个不同层中的一个或多个。另见 :ref:`collision_layer<class_CollisionObject_property_collision_layer>`]。
 
-**注意：**如果对象A在对象B扫描的任何层中，或者对象B在对象A扫描的任何层中，则检测到接触。有关更多信息，请参阅文档中的 :ref:`碰撞层和掩码 <tutorials/physics/physics_introduction:collision layers and masks>`。
+**注意：**\ 如果对象A在对象B扫描的任何层中，或者对象B在对象A扫描的任何层中，则检测到接触。有关更多信息，请参阅文档中的 :ref:`碰撞层和掩码 <tutorials/physics/physics_introduction:collision layers and masks>`。
 
 ----
 
@@ -156,7 +156,7 @@ CollisionObject3D 扫描的物理层。碰撞对象可以扫描 32 个不同层�
 | *Getter*  | get_capture_input_on_drag()      |
 +-----------+----------------------------------+
 
-如果``true``，``CollisionObject`` 将在鼠标拖过其形状时继续接收输入事件。
+如果\ ``true``，``CollisionObject`` 将在鼠标拖过其形状时继续接收输入事件。
 
 ----
 
@@ -189,7 +189,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **create_shape_owner** **(** :ref:`Object<class_Object>` owner **)**
 
-为给定对象创建一个新的形状拥有者。返回``owner_id``\ 的新所有者，供将来引用。
+为给定对象创建一个新的形状拥有者。返回\ ``owner_id``\ 的新所有者，供将来引用。
 
 ----
 
@@ -197,7 +197,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **get_collision_layer_bit** **(** :ref:`int<class_int>` bit **)** |const|
 
-返回是否设置了碰撞层 :ref:`collision_layer<class_CollisionObject_property_collision_layer>` 的指定位``bit``。
+返回是否设置了碰撞层 :ref:`collision_layer<class_CollisionObject_property_collision_layer>` 的指定位\ ``bit``。
 
 ----
 
@@ -205,7 +205,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **get_collision_mask_bit** **(** :ref:`int<class_int>` bit **)** |const|
 
-返回是否设置了碰撞掩码 :ref:`collision_mask<class_CollisionObject_property_collision_mask>` 的指定位``bit``。
+返回是否设置了碰撞掩码 :ref:`collision_mask<class_CollisionObject_property_collision_mask>` 的指定位\ ``bit``。
 
 ----
 
@@ -221,7 +221,7 @@ Method Descriptions
 
 - :ref:`Array<class_Array>` **get_shape_owners** **(** **)**
 
-返回一个``owner_id``\ 标识符的:ref:`Array<class_Array>`。你可以在其他使用``owner_id``\ 作为参数的方法中使用这些id。
+返回一个\ ``owner_id``\ 标识符的\ :ref:`Array<class_Array>`。你可以在其他使用\ ``owner_id``\ 作为参数的方法中使用这些id。
 
 ----
 
@@ -229,7 +229,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_shape_owner_disabled** **(** :ref:`int<class_int>` owner_id **)** |const|
 
-如果``true``，则禁用形状所有者及其形状。
+如果\ ``true``，则禁用形状所有者及其形状。
 
 ----
 
@@ -245,9 +245,9 @@ Method Descriptions
 
 - void **set_collision_layer_bit** **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**
 
-如果``value``\ 为``true``，则设置:ref:`collision_layer<class_CollisionObject_property_collision_layer>`\ 中指定的``bit``\ 位。
+如果\ ``value``\ 为\ ``true``，则设置\ :ref:`collision_layer<class_CollisionObject_property_collision_layer>`\ 中指定的\ ``bit``\ 位。
 
-如果``value``\ 为``false``，清除:ref:`collision_layer<class_CollisionObject_property_collision_layer>`\ 中指定的 ``bit``\ 位。
+如果\ ``value``\ 为\ ``false``，清除\ :ref:`collision_layer<class_CollisionObject_property_collision_layer>`\ 中指定的 ``bit``\ 位。
 
 ----
 
@@ -255,9 +255,9 @@ Method Descriptions
 
 - void **set_collision_mask_bit** **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**
 
-如果``value``\ 为``true``，则设置:ref:`collision_mask<class_CollisionObject_property_collision_mask>`\ 中指定的``bit``\ 位。
+如果\ ``value``\ 为\ ``true``，则设置\ :ref:`collision_mask<class_CollisionObject_property_collision_mask>`\ 中指定的\ ``bit``\ 位。
 
-如果``value``\ 为``false``，清除:ref:`collision_mask<class_CollisionObject_property_collision_mask>`\ 中指定的 ``bit``\ 位。
+如果\ ``value``\ 为\ ``false``，清除\ :ref:`collision_mask<class_CollisionObject_property_collision_mask>`\ 中指定的 ``bit``\ 位。
 
 ----
 
@@ -265,7 +265,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **shape_find_owner** **(** :ref:`int<class_int>` shape_index **)** |const|
 
-返回指定形状的``owner_id``。
+返回指定形状的\ ``owner_id``。
 
 ----
 
@@ -321,7 +321,7 @@ Method Descriptions
 
 - :ref:`Transform<class_Transform>` **shape_owner_get_transform** **(** :ref:`int<class_int>` owner_id **)** |const|
 
-返回形状所有者的:ref:`Transform<class_Transform>`。
+返回形状所有者的\ :ref:`Transform<class_Transform>`。
 
 ----
 
@@ -337,7 +337,7 @@ Method Descriptions
 
 - void **shape_owner_set_disabled** **(** :ref:`int<class_int>` owner_id, :ref:`bool<class_bool>` disabled **)**
 
-如果``true``，则禁用给定的形状所有者。
+如果\ ``true``，则禁用给定的形状所有者。
 
 ----
 
@@ -345,7 +345,7 @@ Method Descriptions
 
 - void **shape_owner_set_transform** **(** :ref:`int<class_int>` owner_id, :ref:`Transform<class_Transform>` transform **)**
 
-设置给定形状所有者的:ref:`Transform<class_Transform>`。
+设置给定形状所有者的\ :ref:`Transform<class_Transform>`。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

@@ -33,7 +33,7 @@ Description
 
     upnp.delete_port_mapping(port)
 
-**注意：**UPnP 发现会阻塞当前线程。要在不阻塞主线程的情况下执行发现，可以像这样使用 :ref:`Thread<class_Thread>`：
+**注意：**\ UPnP 发现会阻塞当前线程。要在不阻塞主线程的情况下执行发现，可以像这样使用 :ref:`Thread<class_Thread>`：
 
 ::
 
@@ -172,13 +172,13 @@ enum **UPNPResult**:
 
 - **UPNP_RESULT_SUCCESS** = **0** --- UPNP命令或发现成功。
 
-- **UPNP_RESULT_NOT_AUTHORIZED** = **1** --- 未授权在:ref:`UPNPDevice<class_UPNPDevice>`\ 上使用该命令。当用户在其路由器上禁用UPNP时，可能会被返回。
+- **UPNP_RESULT_NOT_AUTHORIZED** = **1** --- 未授权在\ :ref:`UPNPDevice<class_UPNPDevice>`\ 上使用该命令。当用户在其路由器上禁用UPNP时，可能会被返回。
 
-- **UPNP_RESULT_PORT_MAPPING_NOT_FOUND** = **2** --- 在给定的:ref:`UPNPDevice<class_UPNPDevice>`\ 上没有找到给定端口、协议组合的端口映射。
+- **UPNP_RESULT_PORT_MAPPING_NOT_FOUND** = **2** --- 在给定的\ :ref:`UPNPDevice<class_UPNPDevice>`\ 上没有找到给定端口、协议组合的端口映射。
 
 - **UPNP_RESULT_INCONSISTENT_PARAMETERS** = **3** --- 参数不一致。
 
-- **UPNP_RESULT_NO_SUCH_ENTRY_IN_ARRAY** = **4** --- 数组中没有此条目。如果在:ref:`UPNPDevice<class_UPNPDevice>`\ 上没有找到给定的端口、协议组合，可能会被返回。
+- **UPNP_RESULT_NO_SUCH_ENTRY_IN_ARRAY** = **4** --- 数组中没有此条目。如果在\ :ref:`UPNPDevice<class_UPNPDevice>`\ 上没有找到给定的端口、协议组合，可能会被返回。
 
 - **UPNP_RESULT_ACTION_FAILED** = **5** --- 操作失败。
 
@@ -194,13 +194,13 @@ enum **UPNPResult**:
 
 - **UPNP_RESULT_NO_PORT_MAPS_AVAILABLE** = **11** --- 没有可用的端口映射。如果端口映射功能不可用，也可能被返回。
 
-- **UPNP_RESULT_CONFLICT_WITH_OTHER_MECHANISM** = **12** --- 与其他机制冲突。如果一个端口映射与现有的冲突，可能会被返回，而不是:ref:`UPNP_RESULT_CONFLICT_WITH_OTHER_MAPPING<class_UPNP_constant_UPNP_RESULT_CONFLICT_WITH_OTHER_MAPPING>`。
+- **UPNP_RESULT_CONFLICT_WITH_OTHER_MECHANISM** = **12** --- 与其他机制冲突。如果一个端口映射与现有的冲突，可能会被返回，而不是\ :ref:`UPNP_RESULT_CONFLICT_WITH_OTHER_MAPPING<class_UPNP_constant_UPNP_RESULT_CONFLICT_WITH_OTHER_MAPPING>`。
 
 - **UPNP_RESULT_CONFLICT_WITH_OTHER_MAPPING** = **13** --- 与现有的端口映射相冲突。
 
 - **UPNP_RESULT_SAME_PORT_VALUES_REQUIRED** = **14** --- 外部和内部端口值必须相同。
 
-- **UPNP_RESULT_ONLY_PERMANENT_LEASE_SUPPORTED** = **15** --- 只支持永久租用。在添加端口映射时，不要使用``duration``\ 参数。
+- **UPNP_RESULT_ONLY_PERMANENT_LEASE_SUPPORTED** = **15** --- 只支持永久租用。在添加端口映射时，不要使用\ ``duration``\ 参数。
 
 - **UPNP_RESULT_INVALID_GATEWAY** = **16** --- 无效网关。
 
@@ -222,9 +222,9 @@ enum **UPNPResult**:
 
 - **UPNP_RESULT_MEM_ALLOC_ERROR** = **25** --- 分配内存时出错。
 
-- **UPNP_RESULT_NO_GATEWAY** = **26** --- 没有可用的网关。你可能需要先调用:ref:`discover<class_UPNP_method_discover>` ，否则发现没有检测到任何有效的IGD（InternetGatewayDevices）。
+- **UPNP_RESULT_NO_GATEWAY** = **26** --- 没有可用的网关。你可能需要先调用\ :ref:`discover<class_UPNP_method_discover>` ，否则发现没有检测到任何有效的IGD（InternetGatewayDevices）。
 
-- **UPNP_RESULT_NO_DEVICES** = **27** --- 没有可用的设备。你可能需要先调用:ref:`discover<class_UPNP_method_discover>`，或者发现没有检测到任何有效的:ref:`UPNPDevice<class_UPNPDevice>`。
+- **UPNP_RESULT_NO_DEVICES** = **27** --- 没有可用的设备。你可能需要先调用\ :ref:`discover<class_UPNP_method_discover>`，或者发现没有检测到任何有效的\ :ref:`UPNPDevice<class_UPNPDevice>`。
 
 - **UPNP_RESULT_UNKNOWN_ERROR** = **28** --- 未知错误。
 
@@ -243,7 +243,7 @@ Property Descriptions
 | *Getter*  | is_discover_ipv6()       |
 +-----------+--------------------------+
 
-如果``true``，则IPv6用于:ref:`UPNPDevice<class_UPNPDevice>`\ 发现。
+如果\ ``true``，则IPv6用于\ :ref:`UPNPDevice<class_UPNPDevice>`\ 发现。
 
 ----
 
@@ -259,7 +259,7 @@ Property Descriptions
 | *Getter*  | get_discover_local_port()      |
 +-----------+--------------------------------+
 
-如果``0``，系统会自动选择用于发现的本地端口。如果``1``，将从源端口1900进行发现，注，与目的端口相同。否则，将使用该值作为端口。
+如果\ ``0``，系统会自动选择用于发现的本地端口。如果\ ``1``，将从源端口1900进行发现，注，与目的端口相同。否则，将使用该值作为端口。
 
 ----
 
@@ -292,13 +292,13 @@ Method Descriptions
 
 - :ref:`int<class_int>` **add_port_mapping** **(** :ref:`int<class_int>` port, :ref:`int<class_int>` port_internal=0, :ref:`String<class_String>` desc="", :ref:`String<class_String>` proto="UDP", :ref:`int<class_int>` duration=0 **)** |const|
 
-添加一个映射，将默认网关上的外部``port``，介于1和65535之间，转发到本地机器上的``internal_port``，用于指定协议``proto``，即``TCP``\ 或``UDP``，默认为UDP。如果该网关设备上已经存在给定端口和协议组合的端口映射，该方法将尝试覆盖它。如果不希望这样，你可以用:ref:`get_gateway<class_UPNP_method_get_gateway>`\ 手动检索该网关，如果有的话，就调用:ref:`add_port_mapping<class_UPNP_method_add_port_mapping>`。
+添加一个映射，将默认网关上的外部\ ``port``，介于1和65535之间，转发到本地机器上的\ ``internal_port``，用于指定协议\ ``proto``，即\ ``TCP``\ 或\ ``UDP``，默认为UDP。如果该网关设备上已经存在给定端口和协议组合的端口映射，该方法将尝试覆盖它。如果不希望这样，你可以用\ :ref:`get_gateway<class_UPNP_method_get_gateway>`\ 手动检索该网关，如果有的话，就调用\ :ref:`add_port_mapping<class_UPNP_method_add_port_mapping>`。
 
-如果``internal_port``\ 是``0``（默认值），外部和内部端口都使用相同的端口号（``port``\ 值）。
+如果\ ``internal_port``\ 是\ ``0``\ （默认值），外部和内部端口都使用相同的端口号（``port``\ 值）。
 
-描述（``desc``）显示在一些路由器的UI中，可以用来指出是哪个应用添加了映射。可以通过指定``duration``（单位：秒）来限制映射的租用期限。然而，有些路由器与其中的个别不兼容，所以要谨慎使用，并在出错时添加回退逻辑，如果有疑问，可以在没有它们的情况下重试。
+描述（``desc``）显示在一些路由器的UI中，可以用来指出是哪个应用添加了映射。可以通过指定\ ``duration``\ （单位：秒）来限制映射的租用期限。然而，有些路由器与其中的个别不兼容，所以要谨慎使用，并在出错时添加回退逻辑，如果有疑问，可以在没有它们的情况下重试。
 
-参阅:ref:`get_gateway<class_UPNP_method_get_gateway>`。参阅:ref:`UPNPResult<enum_UPNP_UPNPResult>`，了解可能的返回值。
+参阅\ :ref:`get_gateway<class_UPNP_method_get_gateway>`。参阅\ :ref:`UPNPResult<enum_UPNP_UPNPResult>`，了解可能的返回值。
 
 ----
 
@@ -314,7 +314,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **delete_port_mapping** **(** :ref:`int<class_int>` port, :ref:`String<class_String>` proto="UDP" **)** |const|
 
-删除默认网关上给定端口和协议组合的端口映射，如果存在的话。``port``\ 必须是1到65535之间的有效端口，``proto``\ 可以是``TCP``\ 或``UDP``。可能的返回值，参阅:ref:`UPNPResult<enum_UPNP_UPNPResult>`。参阅:ref:`get_gateway<class_UPNP_method_get_gateway>`。
+删除默认网关上给定端口和协议组合的端口映射，如果存在的话。``port``\ 必须是1到65535之间的有效端口，``proto``\ 可以是\ ``TCP``\ 或\ ``UDP``。可能的返回值，参阅\ :ref:`UPNPResult<enum_UPNP_UPNPResult>`。参阅\ :ref:`get_gateway<class_UPNP_method_get_gateway>`。
 
 ----
 
@@ -322,11 +322,11 @@ Method Descriptions
 
 - :ref:`int<class_int>` **discover** **(** :ref:`int<class_int>` timeout=2000, :ref:`int<class_int>` ttl=2, :ref:`String<class_String>` device_filter="InternetGatewayDevice" **)**
 
-发现本地的:ref:`UPNPDevice<class_UPNPDevice>`。清除先前发现的设备的列表。
+发现本地的\ :ref:`UPNPDevice<class_UPNPDevice>`。清除先前发现的设备的列表。
 
 默认情况下过滤IGD（InternetGatewayDevice）类型的设备，因为这些设备管理端口转发。``timeout`` 是等待响应的时间，单位是毫秒。``ttl``\ 是生存时间；只有在你了解在做什么的情况下才会遇到这个。
 
-参阅:ref:`UPNPResult<enum_UPNP_UPNPResult>`\ 了解可能的返回值。
+参阅\ :ref:`UPNPResult<enum_UPNP_UPNPResult>`\ 了解可能的返回值。
 
 ----
 
@@ -334,7 +334,7 @@ Method Descriptions
 
 - :ref:`UPNPDevice<class_UPNPDevice>` **get_device** **(** :ref:`int<class_int>` index **)** |const|
 
-返回给定``index``\ 处的:ref:`UPNPDevice<class_UPNPDevice>`。
+返回给定\ ``index``\ 处的\ :ref:`UPNPDevice<class_UPNPDevice>`。
 
 ----
 
@@ -342,7 +342,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_device_count** **(** **)** |const|
 
-返回已发现的:ref:`UPNPDevice<class_UPNPDevice>`\ 的数量。
+返回已发现的\ :ref:`UPNPDevice<class_UPNPDevice>`\ 的数量。
 
 ----
 
@@ -350,7 +350,7 @@ Method Descriptions
 
 - :ref:`UPNPDevice<class_UPNPDevice>` **get_gateway** **(** **)** |const|
 
-返回默认网关。这是第一个发现的:ref:`UPNPDevice<class_UPNPDevice>`，也是一个有效的IGD（InternetGatewayDevice）。
+返回默认网关。这是第一个发现的\ :ref:`UPNPDevice<class_UPNPDevice>`，也是一个有效的IGD（InternetGatewayDevice）。
 
 ----
 
@@ -358,7 +358,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **query_external_address** **(** **)** |const|
 
-返回默认网关的外部:ref:`IP<class_IP>`\ 地址字符串。错误时返回一个空字符串。参阅:ref:`get_gateway<class_UPNP_method_get_gateway>`。
+返回默认网关的外部\ :ref:`IP<class_IP>`\ 地址字符串。错误时返回一个空字符串。参阅\ :ref:`get_gateway<class_UPNP_method_get_gateway>`。
 
 ----
 
@@ -366,7 +366,7 @@ Method Descriptions
 
 - void **remove_device** **(** :ref:`int<class_int>` index **)**
 
-将``index``\ 处的设备从已发现的设备列表中移除。
+将\ ``index``\ 处的设备从已发现的设备列表中移除。
 
 ----
 
@@ -374,7 +374,7 @@ Method Descriptions
 
 - void **set_device** **(** :ref:`int<class_int>` index, :ref:`UPNPDevice<class_UPNPDevice>` device **)**
 
-将``index``\ 处的设备从已发现的设备列表中设置为``device``。
+将\ ``index``\ 处的设备从已发现的设备列表中设置为\ ``device``。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`
