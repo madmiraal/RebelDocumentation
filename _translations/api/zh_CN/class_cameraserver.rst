@@ -108,7 +108,7 @@ Returns the :ref:`CameraFeed<class_CameraFeed>` corresponding to the camera with
 
 - :ref:`int<class_int>` **get_feed_count** **(** **)**
 
-返回注册的:ref:`CameraFeed<class_CameraFeed>`\ 的数量。
+返回注册的\ :ref:`CameraFeed<class_CameraFeed>`\ 的数量。
 
 ----
 

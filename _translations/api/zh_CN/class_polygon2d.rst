@@ -123,7 +123,7 @@ If ``true``, attempts to perform antialiasing for polygon edges by drawing a thi
 | *Getter*  | get_color()             |
 +-----------+-------------------------+
 
-多边形的填充颜色.如果定义了``texture``\ (贴图),它将乘以该颜色.对于``vertex_colors``\ 中未设置的顶点,它也将是默认颜色.
+多边形的填充颜色.如果定义了\ ``texture``\ (贴图),它将乘以该颜色.对于\ ``vertex_colors``\ 中未设置的顶点,它也将是默认颜色.
 
 ----
 
@@ -153,7 +153,7 @@ If ``true``, attempts to perform antialiasing for polygon edges by drawing a thi
 | *Getter*  | get_invert_border()      |
 +-----------+--------------------------+
 
-当使用 ``invert``（反转）时，将应用于边框的填充。将这个值设置得太小可能会导致“Bad Polygon”（无效多边形）错误。
+当使用 ``invert``\ （反转）时，将应用于边框的填充。将这个值设置得太小可能会导致“Bad Polygon”（无效多边形）错误。
 
 ----
 
@@ -169,7 +169,7 @@ If ``true``, attempts to perform antialiasing for polygon edges by drawing a thi
 | *Getter*  | get_invert()      |
 +-----------+-------------------+
 
-如果为``true``,则多边形将反转,包含定义点之外的区域,并扩展到``invert_border``\ (反转边界).
+如果为\ ``true``,则多边形将反转,包含定义点之外的区域,并扩展到\ ``invert_border``\ (反转边界).
 
 ----
 
@@ -245,7 +245,7 @@ If ``true``, attempts to perform antialiasing for polygon edges by drawing a thi
 | *Getter* | get_texture()      |
 +----------+--------------------+
 
-多边形的填充贴图.使用``uv``\ 设置贴图坐标.
+多边形的填充贴图.使用\ ``uv``\ 设置贴图坐标.
 
 ----
 
@@ -261,7 +261,7 @@ If ``true``, attempts to perform antialiasing for polygon edges by drawing a thi
 | *Getter*  | get_texture_offset()      |
 +-----------+---------------------------+
 
-多边形``texture``\ (贴图)位置偏移的值.如果``(0,0)``,则贴图的原点(其左上角)将放置在多边形的``position``\ (坐标)处.
+多边形\ ``texture``\ (贴图)位置偏移的值.如果\ ``(0,0)``,则贴图的原点(其左上角)将放置在多边形的\ ``position``\ (坐标)处.
 
 ----
 
@@ -307,7 +307,7 @@ If ``true``, attempts to perform antialiasing for polygon edges by drawing a thi
 | *Getter*  | get_texture_scale()      |
 +-----------+--------------------------+
 
-当使用``texture``\ (贴图)时,乘以``uv``\ 坐标的值. 值越大,贴图越小,反之亦然.
+当使用\ ``texture``\ (贴图)时,乘以\ ``uv``\ 坐标的值. 值越大,贴图越小,反之亦然.
 
 ----
 
@@ -323,7 +323,7 @@ If ``true``, attempts to perform antialiasing for polygon edges by drawing a thi
 | *Getter*  | get_uv()                 |
 +-----------+--------------------------+
 
-多边形每个顶点的贴图坐标.每个多边形顶点应该有一个``uv``.如果数量少,则未定义的顶点将使用``(0,0)``.
+多边形每个顶点的贴图坐标.每个多边形顶点应该有一个\ ``uv``.如果数量少,则未定义的顶点将使用\ ``(0,0)``.
 
 ----
 
@@ -339,7 +339,7 @@ If ``true``, attempts to perform antialiasing for polygon edges by drawing a thi
 | *Getter*  | get_vertex_colors()      |
 +-----------+--------------------------+
 
-每个顶点的颜色.颜色在顶点之间插值,从而获得平滑的渐变.每个多边形顶点应有一个.如果数量少,则未定义的顶点将使用``color``.
+每个顶点的颜色.颜色在顶点之间插值,从而获得平滑的渐变.每个多边形顶点应有一个.如果数量少,则未定义的顶点将使用\ ``color``.
 
 Method Descriptions
 -------------------
@@ -348,7 +348,7 @@ Method Descriptions
 
 - void **add_bone** **(** :ref:`NodePath<class_NodePath>` path, :ref:`PoolRealArray<class_PoolRealArray>` weights **)**
 
-添加指定``path``\ 和``weights``\ 的骨骼.
+添加指定\ ``path``\ 和\ ``weights``\ 的骨骼.
 
 ----
 
@@ -356,7 +356,7 @@ Method Descriptions
 
 - void **clear_bones** **(** **)**
 
-删除这个``Polygon2D``\ 的所有骨骼.
+删除这个\ ``Polygon2D``\ 的所有骨骼.
 
 ----
 
@@ -364,7 +364,7 @@ Method Descriptions
 
 - void **erase_bone** **(** :ref:`int<class_int>` index **)**
 
-从这个``Polygon2D``\ 中删除指定的骨骼.
+从这个\ ``Polygon2D``\ 中删除指定的骨骼.
 
 ----
 
@@ -372,7 +372,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_bone_count** **(** **)** |const|
 
-返回这个``Polygon2D``\ 中骨骼的数量.
+返回这个\ ``Polygon2D``\ 中骨骼的数量.
 
 ----
 

@@ -11,16 +11,16 @@ ColorPickerButton
 
 **Inherits:** :ref:`Button<class_Button>` **<** :ref:`BaseButton<class_BaseButton>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-弹出:ref:`ColorPicker<class_ColorPicker>`\ 的按钮。
+弹出\ :ref:`ColorPicker<class_ColorPicker>`\ 的按钮。
 
 Description
 -----------
 
-将:ref:`ColorPicker<class_ColorPicker>`\ 封装成可以通过按一个按钮来进行使用。点击按钮可以切换出可见的:ref:`ColorPicker<class_ColorPicker>`。
+将\ :ref:`ColorPicker<class_ColorPicker>`\ 封装成可以通过按一个按钮来进行使用。点击按钮可以切换出可见的\ :ref:`ColorPicker<class_ColorPicker>`。
 
-另请参阅:ref:`BaseButton<class_BaseButton>`。它包括了和这个节点共同拥有的属性和方法。
+另请参阅\ :ref:`BaseButton<class_BaseButton>`。它包括了和这个节点共同拥有的属性和方法。
 
-**注意：**按钮默认状态时可能非常窄，导致颜色预览样本不可见。确保将:ref:`Control.rect_min_size<class_Control_property_rect_min_size>`\ 设置的足够大从而给这个按钮足够的空间去显示。
+**注意：**\ 按钮默认状态时可能非常窄，导致颜色预览样本不可见。确保将\ :ref:`Control.rect_min_size<class_Control_property_rect_min_size>`\ 设置的足够大从而给这个按钮足够的空间去显示。
 
 Properties
 ----------
@@ -88,7 +88,7 @@ Signals
 
 - **picker_created** **(** **)**
 
-创建:ref:`ColorPicker<class_ColorPicker>`\ 时（第一次按下按钮）发出。
+创建\ :ref:`ColorPicker<class_ColorPicker>`\ 时（第一次按下按钮）发出。
 
 ----
 
@@ -96,7 +96,7 @@ Signals
 
 - **popup_closed** **(** **)**
 
-当:ref:`ColorPicker<class_ColorPicker>`\ 关闭时发出。
+当\ :ref:`ColorPicker<class_ColorPicker>`\ 关闭时发出。
 
 Property Descriptions
 ---------------------
@@ -129,7 +129,7 @@ Property Descriptions
 | *Getter*  | is_editing_alpha()    |
 +-----------+-----------------------+
 
-如果``true``，则显示的:ref:`ColorPicker<class_ColorPicker>`\ 中的alpha通道将可见。
+如果\ ``true``，则显示的\ :ref:`ColorPicker<class_ColorPicker>`\ 中的alpha通道将可见。
 
 Method Descriptions
 -------------------
@@ -163,7 +163,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 1, 1, 1, 1 )`` |
 +-----------+-------------------------+
 
-``ColorPickerButton``\ 的默认文本:ref:`Color<class_Color>`。
+``ColorPickerButton``\ 的默认文本\ :ref:`Color<class_Color>`。
 
 ----
 
@@ -175,7 +175,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 0.9, 0.9, 0.9, 0.3 )`` |
 +-----------+---------------------------------+
 
-禁用``ColorPickerButton``\ 时使用的文本:ref:`Color<class_Color>`。
+禁用\ ``ColorPickerButton``\ 时使用的文本\ :ref:`Color<class_Color>`。
 
 ----
 
@@ -187,7 +187,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 1, 1, 1, 1 )`` |
 +-----------+-------------------------+
 
-当``ColorPickerButton``\ 获得焦点时使用的文本:ref:`Color<class_Color>`。只替换按钮的正常文本颜色。禁用、悬停和按下状态优先于这个颜色。
+当\ ``ColorPickerButton``\ 获得焦点时使用的文本\ :ref:`Color<class_Color>`。只替换按钮的正常文本颜色。禁用、悬停和按下状态优先于这个颜色。
 
 ----
 
@@ -199,7 +199,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 1, 1, 1, 1 )`` |
 +-----------+-------------------------+
 
-悬停``ColorPickerButton``\ 时使用的文本:ref:`Color<class_Color>`。
+悬停\ ``ColorPickerButton``\ 时使用的文本\ :ref:`Color<class_Color>`。
 
 ----
 
@@ -211,7 +211,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 0.8, 0.8, 0.8, 1 )`` |
 +-----------+-------------------------------+
 
-按下``ColorPickerButton``\ 时使用的文本:ref:`Color<class_Color>`。
+按下\ ``ColorPickerButton``\ 时使用的文本\ :ref:`Color<class_Color>`。
 
 ----
 
@@ -231,7 +231,7 @@ Theme Property Descriptions
 
 - :ref:`Font<class_Font>` **font**
 
-``ColorPickerButton``\ 文本的:ref:`Font<class_Font>`。
+``ColorPickerButton``\ 文本的\ :ref:`Font<class_Font>`。
 
 ----
 
@@ -247,7 +247,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **disabled**
 
-当``ColorPickerButton``\ 被禁用时使用的:ref:`StyleBox<class_StyleBox>`。
+当\ ``ColorPickerButton``\ 被禁用时使用的\ :ref:`StyleBox<class_StyleBox>`。
 
 ----
 
@@ -255,7 +255,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **focus**
 
-当``ColorPickerButton``\ 获得焦点时使用的:ref:`StyleBox<class_StyleBox>`。它显示在当前的:ref:`StyleBox<class_StyleBox>`\ 上，所以使用:ref:`StyleBoxEmpty<class_StyleBoxEmpty>`\ 只是禁用焦点视觉效果。
+当\ ``ColorPickerButton``\ 获得焦点时使用的\ :ref:`StyleBox<class_StyleBox>`。它显示在当前的\ :ref:`StyleBox<class_StyleBox>`\ 上，所以使用\ :ref:`StyleBoxEmpty<class_StyleBoxEmpty>`\ 只是禁用焦点视觉效果。
 
 ----
 
@@ -263,7 +263,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **hover**
 
-悬停``ColorPickerButton``\ 时使用的:ref:`StyleBox<class_StyleBox>`。
+悬停\ ``ColorPickerButton``\ 时使用的\ :ref:`StyleBox<class_StyleBox>`。
 
 ----
 
@@ -271,7 +271,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **normal**
 
-``ColorPickerButton``\ 的默认:ref:`StyleBox<class_StyleBox>`。
+``ColorPickerButton``\ 的默认\ :ref:`StyleBox<class_StyleBox>`。
 
 ----
 
@@ -279,7 +279,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **pressed**
 
-按下``ColorPickerButton``\ 时使用的:ref:`StyleBox<class_StyleBox>`。
+按下\ ``ColorPickerButton``\ 时使用的\ :ref:`StyleBox<class_StyleBox>`。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

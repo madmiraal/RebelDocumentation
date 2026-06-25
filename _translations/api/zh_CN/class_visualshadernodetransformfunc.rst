@@ -11,12 +11,12 @@ VisualShaderNodeTransformFunc
 
 **Inherits:** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
 
-在可视化着色器图中计算一个:ref:`Transform<class_Transform>`\ 函数。
+在可视化着色器图中计算一个\ :ref:`Transform<class_Transform>`\ 函数。
 
 Description
 -----------
 
-在提供的:ref:`Transform<class_Transform>`\ 上计算一个反函数或转置函数。
+在提供的\ :ref:`Transform<class_Transform>`\ 上计算一个反函数或转置函数。
 
 Properties
 ----------
@@ -36,9 +36,9 @@ Enumerations
 
 enum **Function**:
 
-- **FUNC_INVERSE** = **0** --- 对:ref:`Transform<class_Transform>`\ 矩阵进行逆运算。
+- **FUNC_INVERSE** = **0** --- 对\ :ref:`Transform<class_Transform>`\ 矩阵进行逆运算。
 
-- **FUNC_TRANSPOSE** = **1** --- 对:ref:`Transform<class_Transform>`\ 矩阵进行转置操作。
+- **FUNC_TRANSPOSE** = **1** --- 对\ :ref:`Transform<class_Transform>`\ 矩阵进行转置操作。
 
 Property Descriptions
 ---------------------
@@ -55,7 +55,7 @@ Property Descriptions
 | *Getter*  | get_function()      |
 +-----------+---------------------+
 
-要计算的函数。选项参阅:ref:`Function<enum_VisualShaderNodeTransformFunc_Function>`。
+要计算的函数。选项参阅\ :ref:`Function<enum_VisualShaderNodeTransformFunc_Function>`。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

@@ -9,7 +9,7 @@
 PoolRealArray
 =============
 
-实数 :ref:`float<class_float>` 的:ref:`Array<class_Array>`\ 集合。
+实数 :ref:`float<class_float>` 的\ :ref:`Array<class_Array>`\ 集合。
 
 Description
 -----------
@@ -54,7 +54,7 @@ Method Descriptions
 
 - :ref:`PoolRealArray<class_PoolRealArray>` **PoolRealArray** **(** :ref:`Array<class_Array>` from **)**
 
-构建新的``PoolRealArray``。你可以选择传入一个通用的:ref:`Array<class_Array>`，它将被转换。
+构建新的\ ``PoolRealArray``。你可以选择传入一个通用的\ :ref:`Array<class_Array>`，它将被转换。
 
 ----
 
@@ -70,7 +70,7 @@ Method Descriptions
 
 - void **append_array** **(** :ref:`PoolRealArray<class_PoolRealArray>` array **)**
 
-在这个数组的最后添加``PoolRealArray``。
+在这个数组的最后添加\ ``PoolRealArray``。
 
 ----
 

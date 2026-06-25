@@ -160,7 +160,7 @@ Method Descriptions
 
 - :ref:`Image<class_Image>` **get_image** **(** :ref:`int<class_int>` width, :ref:`int<class_int>` height, :ref:`Vector2<class_Vector2>` noise_offset=Vector2( 0, 0 ) **)** |const|
 
-根据当前的噪声参数，生成一个:ref:`Image.FORMAT_L8<class_Image_constant_FORMAT_L8>`\ 格式的噪声图像，需要指定其``width`` 和 ``height``。如果指定了``noise_offset``，那么偏移值将作为生成的噪声左上角的坐标。
+根据当前的噪声参数，生成一个\ :ref:`Image.FORMAT_L8<class_Image_constant_FORMAT_L8>`\ 格式的噪声图像，需要指定其\ ``width`` 和 ``height``。如果指定了\ ``noise_offset``，那么偏移值将作为生成的噪声左上角的坐标。
 
 ----
 
@@ -168,9 +168,9 @@ Method Descriptions
 
 - :ref:`float<class_float>` **get_noise_1d** **(** :ref:`float<class_float>` x **)** |const|
 
-返回给定x坐标处的一维噪声值``[-1,1]``。
+返回给定x坐标处的一维噪声值\ ``[-1,1]``。
 
-**注意：**这个方法实际上返回的是固定Y坐标值为0.0的二维噪声值``[-1,1]``。
+**注意：**\ 这个方法实际上返回的是固定Y坐标值为0.0的二维噪声值\ ``[-1,1]``。
 
 ----
 
@@ -178,7 +178,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **get_noise_2d** **(** :ref:`float<class_float>` x, :ref:`float<class_float>` y **)** |const|
 
-返回给定位置的2D噪声值``[-1,1]``。
+返回给定位置的2D噪声值\ ``[-1,1]``。
 
 ----
 
@@ -186,7 +186,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **get_noise_2dv** **(** :ref:`Vector2<class_Vector2>` pos **)** |const|
 
-返回给定位置的2D噪声值``[-1,1]``。
+返回给定位置的2D噪声值\ ``[-1,1]``。
 
 ----
 
@@ -194,7 +194,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **get_noise_3d** **(** :ref:`float<class_float>` x, :ref:`float<class_float>` y, :ref:`float<class_float>` z **)** |const|
 
-返回在给定位置的3D噪声值``[-1,1]``。
+返回在给定位置的3D噪声值\ ``[-1,1]``。
 
 ----
 
@@ -202,7 +202,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **get_noise_3dv** **(** :ref:`Vector3<class_Vector3>` pos **)** |const|
 
-返回在给定位置的3D噪声值``[-1,1]``。
+返回在给定位置的3D噪声值\ ``[-1,1]``。
 
 ----
 
@@ -210,7 +210,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **get_noise_4d** **(** :ref:`float<class_float>` x, :ref:`float<class_float>` y, :ref:`float<class_float>` z, :ref:`float<class_float>` w **)** |const|
 
-返回指定位置的4D噪声值``[-1,1]``。
+返回指定位置的4D噪声值\ ``[-1,1]``。
 
 ----
 
@@ -218,7 +218,7 @@ Method Descriptions
 
 - :ref:`Image<class_Image>` **get_seamless_image** **(** :ref:`int<class_int>` size **)** |const|
 
-根据当前的噪声参数，以 :ref:`Image.FORMAT_L8<class_Image_constant_FORMAT_L8>` 格式生成可平铺噪声图像。生成的无缝图像始终是方形的（``size``× ``size``）。
+根据当前的噪声参数，以 :ref:`Image.FORMAT_L8<class_Image_constant_FORMAT_L8>` 格式生成可平铺噪声图像。生成的无缝图像始终是方形的（``size``\ × ``size``）。
 
 **注意：** 与非无缝噪声相比，无缝噪声的对比度较低。。这是由于噪声使用更高维度来生成无缝噪声的方式。
 

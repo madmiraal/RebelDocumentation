@@ -18,7 +18,7 @@ Description
 
 它使用浮点坐标。``AABB`` 的 2D 对应物为 :ref:`Rect2<class_Rect2>`。
 
-**注意：**与 :ref:`Rect2<class_Rect2>` 不同，``AABB`` 没有使用整数坐标的变体。
+**注意：**\ 与 :ref:`Rect2<class_Rect2>` 不同，``AABB`` 没有使用整数坐标的变体。
 
 Tutorials
 ---------
@@ -126,7 +126,7 @@ Property Descriptions
 | *Default* | ``Vector3( 0, 0, 0 )`` |
 +-----------+------------------------+
 
-从:ref:`position<class_AABB_property_position>` 到 :ref:`end<class_AABB_property_end>` 的大小。通常所有分量都是正数。
+从\ :ref:`position<class_AABB_property_position>` 到 :ref:`end<class_AABB_property_end>` 的大小。通常所有分量都是正数。
 
 如果大小为负，可以用 :ref:`abs<class_AABB_method_abs>` 修正。
 

@@ -224,11 +224,11 @@ Constants
 
 - **INF** = **inf** --- 浮点数正无穷。浮点数除法中使用 ``0.0`` 作为除数时的计算结果。使用 ``-INF`` 可以得到负无穷。如果分子是正数，除以 ``-0.0`` 将得到负无穷，所以除以 ``0.0`` 与除以 ``-0.0`` 不同（尽管 ``0.0 == -0.0`` 返回 ``true``）。
 
-**注意：**数字无穷大只是浮点数的概念，整数中没有对应的概念。整数除以 ``0`` 不会产生 :ref:`INF<class_@GDScript_constant_INF>`，而是会产生一个运行时错误。
+**注意：**\ 数字无穷大只是浮点数的概念，整数中没有对应的概念。整数除以 ``0`` 不会产生 :ref:`INF<class_@GDScript_constant_INF>`，而是会产生一个运行时错误。
 
 - **NAN** = **nan** --- “Not a Number”（不是一个数），一个无效的浮点数值。:ref:`NAN<class_@GDScript_constant_NAN>` 有许多特殊的性质，比如它不等于自己（``NAN == NAN`` 返回 ``false``）。一些无效的操作会输出这个值，比如用浮点数 ``0.0`` 除以 ``0.0``。
 
-**注意：**“不是一个数”只是浮点数的概念，整数中没有对应的概念。整数 ``0`` 除以 ``0`` 不会产生 :ref:`NAN<class_@GDScript_constant_NAN>`，而是会产生一个运行时错误。
+**注意：**\ “不是一个数”只是浮点数的概念，整数中没有对应的概念。整数 ``0`` 除以 ``0`` 不会产生 :ref:`NAN<class_@GDScript_constant_NAN>`，而是会产生一个运行时错误。
 
 Method Descriptions
 -------------------
@@ -360,7 +360,7 @@ Method Descriptions
 
 将字节数组解码返回一个值。当 ``allow_objects`` 为 ``true`` 时，允许解码对象。
 
-**警告：**反序列化得到的对象可能包含可执行的代码。如果序列化的对象的来源不可信，请不要激活此选项，以避免潜在的安全威胁（远程执行代码）。
+**警告：**\ 反序列化得到的对象可能包含可执行的代码。如果序列化的对象的来源不可信，请不要激活此选项，以避免潜在的安全威胁（远程执行代码）。
 
 ----
 
@@ -563,7 +563,7 @@ See also :ref:`smoothstep<class_@GDScript_method_smoothstep>`. If you need to pe
 
 请参阅 :ref:`ceil<class_@GDScript_method_ceil>`、:ref:`round<class_@GDScript_method_round>`、:ref:`stepify<class_@GDScript_method_stepify>` 和 :ref:`int<class_int>`。
 
-**注意：**该方法返回一个浮点数。如果你需要整数，而 ``s`` 是非负数，你可以直接使用 ``int(s)``。
+**注意：**\ 该方法返回一个浮点数。如果你需要整数，而 ``s`` 是非负数，你可以直接使用 ``int(s)``。
 
 ----
 
@@ -760,7 +760,7 @@ See also :ref:`lerp<class_@GDScript_method_lerp>` which performs the reverse of 
 
 如果 ``s`` 为零或几乎为零，则返回 ``true``。
 
-此方法比使用 :ref:`is_equal_approx<class_@GDScript_method_is_equal_approx>`（其中一个值为零）要快。
+此方法比使用 :ref:`is_equal_approx<class_@GDScript_method_is_equal_approx>`\ （其中一个值为零）要快。
 
 ----
 
@@ -770,7 +770,7 @@ See also :ref:`lerp<class_@GDScript_method_lerp>` which performs the reverse of 
 
 返回 Variant ``var`` 的长度。长度是字符串的字符数、数组的元素数、字典的大小等。
 
-**注意：**如果 Variant 无法提供长度，则会产生致命错误。
+**注意：**\ 如果 Variant 无法提供长度，则会产生致命错误。
 
 ::
 
@@ -839,14 +839,14 @@ Similar to :ref:`lerp<class_@GDScript_method_lerp>`, but interpolates correctly 
 
 从位于 ``path`` 的文件系统中加载一个资源。该资源在方法调用时被加载（除非它已经在其他地方被引用了，例如在另一个脚本或场景中），这可能会导致轻微的延迟，特别是在加载场景时。为了避免在多次加载东西时出现不必要的延迟，可以将资源存储在一个变量中，或者使用预加载 :ref:`preload<class_@GDScript_method_preload>`。
 
-**注意：**资源路径可以通过右键单击文件系统停靠区中的资源并选择“复制路径”或将文件从文件系统停靠区拖到脚本中获得。
+**注意：**\ 资源路径可以通过右键单击文件系统停靠区中的资源并选择“复制路径”或将文件从文件系统停靠区拖到脚本中获得。
 
 ::
 
     # 加载位于项目目录根部的一个名为 main 的场景，并将其缓存在一个变量中。
     var main = load("res://main.tscn") # main 将包含一个 PackedScene 资源。
 
-**重要提示：**路径必须是绝对的，本地路径将直接返回 ``null``。
+**重要提示：**\ 路径必须是绝对的，本地路径将直接返回 ``null``。
 
 这个方法是 :ref:`ResourceLoader.load<class_ResourceLoader_method_load>` 的简化版，它可以用于更高级的场景。
 
@@ -858,13 +858,13 @@ Similar to :ref:`lerp<class_@GDScript_method_lerp>`, but interpolates correctly 
 
 自然对数。持续增长到一定程度所需的时间。
 
-**注意：**这个函数与大多数计算器上的对数“log”函数不同，他们适用的底数是 10。
+**注意：**\ 这个函数与大多数计算器上的对数“log”函数不同，他们适用的底数是 10。
 
 ::
 
     log(10) # 返回 2.302585
 
-**注意：**``0`` 的对数返回 ``-inf`` ，负值返回 ``-nan`` 。
+**注意：**\ ``0`` 的对数返回 ``-inf`` ，负值返回 ``-nan`` 。
 
 ----
 
@@ -927,7 +927,7 @@ Similar to :ref:`lerp<class_@GDScript_method_lerp>`, but interpolates correctly 
     nearest_po2(0) # 返回 0（可能出乎意料）
     nearest_po2(-1) # 返回 0（可能出乎意料）
 
-**警告：**由于其实现方式，此函数会对非正数的 ``value`` 返回 ``0`` 而不是 ``1`` （实际上 1 是 2 的最小整数幂）。
+**警告：**\ 由于其实现方式，此函数会对非正数的 ``value`` 返回 ``0`` 而不是 ``1`` （实际上 1 是 2 的最小整数幂）。
 
 ----
 
@@ -1020,7 +1020,7 @@ See also :ref:`JSON<class_JSON>` for an alternative way to parse JSON text.
 
 返回位于文件系统中 ``path`` 位置的 :ref:`Resource<class_Resource>`。资源是在脚本解析期间加载的，即随脚本一同加载，:ref:`preload<class_@GDScript_method_preload>` 实际上充当了对该资源的引用。请注意，该方法需要常量路径。如果要从动态/变量路径加载资源，请使用 :ref:`load<class_@GDScript_method_load>`。
 
-**注意：**可以通过右键单击素材面板中的资源并选择“复制路径”，或者将文件从文件系统面板拖到脚本中来获得资源路径。
+**注意：**\ 可以通过右键单击素材面板中的资源并选择“复制路径”，或者将文件从文件系统面板拖到脚本中来获得资源路径。
 
 ::
 
@@ -1040,7 +1040,7 @@ See also :ref:`JSON<class_JSON>` for an alternative way to parse JSON text.
     a = [1, 2, 3]
     print("a", "=", a) # 输出 a=[1, 2, 3]
 
-**注意：**请考虑使用 :ref:`push_error<class_@GDScript_method_push_error>` 和 :ref:`push_warning<class_@GDScript_method_push_warning>` 来打印错误和警告信息而不是 :ref:`print<class_@GDScript_method_print>`。这将它们与用于调试的打印信息区分开来，同时在打印错误或警告时还会显示堆栈跟踪。
+**注意：**\ 请考虑使用 :ref:`push_error<class_@GDScript_method_push_error>` 和 :ref:`push_warning<class_@GDScript_method_push_warning>` 来打印错误和警告信息而不是 :ref:`print<class_@GDScript_method_print>`。这将它们与用于调试的打印信息区分开来，同时在打印错误或警告时还会显示堆栈跟踪。
 
 ----
 
@@ -1222,9 +1222,9 @@ Returns a random floating point value between ``from`` and ``to`` (both endpoint
 
 - :ref:`Array<class_Array>` **range** **(** ... **)** |vararg|
 
-返回一个具有给定范围的数组。范围可以是一个参数``N``（0 到 ``N`` - 1），两个参数（初始 ``initial``、最终 ``final -1``）或三个参数（初始 ``initial``、最终 ``final -1``、增量 ``increment``）。范围无效时返回一个空数组（例如 ``range(2, 5, -1)`` 或 ``range(5, 5, 1)``）。
+返回一个具有给定范围的数组。范围可以是一个参数\ ``N``\ （0 到 ``N`` - 1），两个参数（初始 ``initial``、最终 ``final -1``）或三个参数（初始 ``initial``、最终 ``final -1``、增量 ``increment``）。范围无效时返回一个空数组（例如 ``range(2, 5, -1)`` 或 ``range(5, 5, 1)``）。
 
-返回一个具有给定范围的数组。``range()`` 可以是一个参数 ``N``（0 到 ``N`` - 1），两个参数（初始 ``initial``、最终 ``final -1``）或三个参数（初始``initial``、最终 ``final -1``、增量 ``increment``）。增量 ``increment`` 可以是负数。如果增量 ``increment`` 是负的，``final-1`` 将变成 ``final+1``。另外，初始值必须大于最终值，循环才能运行。
+返回一个具有给定范围的数组。``range()`` 可以是一个参数 ``N``\ （0 到 ``N`` - 1），两个参数（初始 ``initial``、最终 ``final -1``）或三个参数（初始\ ``initial``、最终 ``final -1``、增量 ``increment``）。增量 ``increment`` 可以是负数。如果增量 ``increment`` 是负的，``final-1`` 将变成 ``final+1``。另外，初始值必须大于最终值，循环才能运行。
 
 ::
 
@@ -1375,7 +1375,7 @@ Compared to :ref:`ease<class_@GDScript_method_ease>` with a curve value of ``-1.
 
     sqrt(9) # 返回 3
 
-**注意：**负数的 ``s`` 会返回 NaN。如果你需要负数输入，请在 C# 中使用 ``System.Numerics.Complex``。
+**注意：**\ 负数的 ``s`` 会返回 NaN。如果你需要负数输入，请在 C# 中使用 ``System.Numerics.Complex``。
 
 ----
 
@@ -1453,7 +1453,7 @@ Compared to :ref:`ease<class_@GDScript_method_ease>` with a curve value of ``-1.
 
 - :ref:`float<class_float>` **tanh** **(** :ref:`float<class_float>` s **)**
 
-返回``s``\ 的双曲正切。
+返回\ ``s``\ 的双曲正切。
 
 ::
 
@@ -1476,7 +1476,7 @@ Compared to :ref:`ease<class_@GDScript_method_ease>` with a curve value of ``-1.
     print(b) # {"a":1, "b":2}
     # 上面的两个数都是浮点数，尽管没有显示小数部分。
 
-**注意：**JSON 规范未定义整数或浮点类型，而仅定义了*数字*类型。因此，将 :ref:`Variant<class_Variant>` 转换为 JSON 文本会将所有数值转换为 :ref:`float<class_float>` 类型。
+**注意：**\ JSON 规范未定义整数或浮点类型，而仅定义了\ *数字*\ 类型。因此，将 :ref:`Variant<class_Variant>` 转换为 JSON 文本会将所有数值转换为 :ref:`float<class_float>` 类型。
 
 另请参阅 :ref:`JSON<class_JSON>`，以将 :ref:`Variant<class_Variant>` 转换为 JSON 文本的另一种方法。
 
@@ -1615,7 +1615,7 @@ prints
     # result 是 -2
     var result = wrapi(-6, -5, -1)
 
-**注意：**如果 ``min`` 为 ``0``，则等价于 :ref:`posmod<class_@GDScript_method_posmod>`，因此建议改用它。
+**注意：**\ 如果 ``min`` 为 ``0``，则等价于 :ref:`posmod<class_@GDScript_method_posmod>`，因此建议改用它。
 
 通过让用户控制最小值，``wrapi`` 比使用 :ref:`posmod<class_@GDScript_method_posmod>` 方法更灵活。
 

@@ -16,9 +16,9 @@ ConcavePolygonShape2D
 Description
 -----------
 
-凹面多边形2D形状资源用于物理。它是由线段组成的，是复杂的多边形凹面碰撞的最佳选择。但是，建议不要将其用于:ref:`RigidBody2D<class_RigidBody2D>`\ 节点。建议使用凸分解模式（实体）或多个凸对象的CollisionPolygon2D代替。否则，凹多边形2D形状更适合静态碰撞。
+凹面多边形2D形状资源用于物理。它是由线段组成的，是复杂的多边形凹面碰撞的最佳选择。但是，建议不要将其用于\ :ref:`RigidBody2D<class_RigidBody2D>`\ 节点。建议使用凸分解模式（实体）或多个凸对象的CollisionPolygon2D代替。否则，凹多边形2D形状更适合静态碰撞。
 
-:ref:`ConvexPolygonShape2D<class_ConvexPolygonShape2D>`\ 和``ConcavePolygonShape2D``\ 之间的主要区别在于，凹面多边形假定其为凹面，并使用更复杂的碰撞检测方法，而凸面多边形则将自身强制变为凸面，以加快碰撞检测的速度。
+:ref:`ConvexPolygonShape2D<class_ConvexPolygonShape2D>`\ 和\ ``ConcavePolygonShape2D``\ 之间的主要区别在于，凹面多边形假定其为凹面，并使用更复杂的碰撞检测方法，而凸面多边形则将自身强制变为凸面，以加快碰撞检测的速度。
 
 Properties
 ----------
@@ -42,7 +42,7 @@ Property Descriptions
 | *Getter*  | get_segments()           |
 +-----------+--------------------------+
 
-组成``ConcavePolygonShape2D``\ 线段的点的数组。
+组成\ ``ConcavePolygonShape2D``\ 线段的点的数组。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

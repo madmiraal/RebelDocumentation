@@ -16,7 +16,7 @@ VisualShaderNodeVectorInterp
 Description
 -----------
 
-在着色器语言中转换成``mix(a, b, weight)``，其中``weight``\ 是一个:ref:`Vector3<class_Vector3>`，每个分量的权重。
+在着色器语言中转换成\ ``mix(a, b, weight)``，其中\ ``weight``\ 是一个\ :ref:`Vector3<class_Vector3>`，每个分量的权重。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

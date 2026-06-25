@@ -306,7 +306,7 @@ Method Descriptions
 
 如果给定位置的像素不透明，则返回 ``true``，其他情况下返回 ``false``。
 
-**注意：**如果精灵的纹理为``null``\ 或者给定的位置无效，它也会返回``false``。
+**注意：**\ 如果精灵的纹理为\ ``null``\ 或者给定的位置无效，它也会返回\ ``false``。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

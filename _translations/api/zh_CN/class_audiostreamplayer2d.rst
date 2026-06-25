@@ -18,9 +18,9 @@ Description
 
 播放音频，随着与屏幕中心的距离而减弱。
 
-参阅:ref:`AudioStreamPlayer<class_AudioStreamPlayer>`\ 来播放非位置性的声音。
+参阅\ :ref:`AudioStreamPlayer<class_AudioStreamPlayer>`\ 来播放非位置性的声音。
 
-**注意：** 隐藏一个``AudioStreamPlayer2D``\ 节点并不能禁用其音频输出。要暂时禁用``AudioStreamPlayer2D``\ 的音频输出，请将:ref:`volume_db<class_AudioStreamPlayer2D_property_volume_db>`\ 设置为一个非常低的值，如``-100``（人的听觉听不到）。
+**注意：** 隐藏一个\ ``AudioStreamPlayer2D``\ 节点并不能禁用其音频输出。要暂时禁用\ ``AudioStreamPlayer2D``\ 的音频输出，请将\ :ref:`volume_db<class_AudioStreamPlayer2D_property_volume_db>`\ 设置为一个非常低的值，如\ ``-100``\ （人的听觉听不到）。
 
 Tutorials
 ---------
@@ -123,7 +123,7 @@ Determines which :ref:`Area2D<class_Area2D>` layers affect the sound for reverb 
 | *Getter*  | is_autoplay_enabled() |
 +-----------+-----------------------+
 
-如果``true``，则在添加到场景树时播放音频。
+如果\ ``true``，则在添加到场景树时播放音频。
 
 ----
 
@@ -185,7 +185,7 @@ Determines which :ref:`Area2D<class_Area2D>` layers affect the sound for reverb 
 | *Getter*  | is_playing() |
 +-----------+--------------+
 
-如果``true``，则播放音频。
+如果\ ``true``，则播放音频。
 
 ----
 
@@ -199,7 +199,7 @@ Determines which :ref:`Area2D<class_Area2D>` layers affect the sound for reverb 
 | *Getter* | get_stream()      |
 +----------+-------------------+
 
-要播放的:ref:`AudioStream<class_AudioStream>`\ 对象。
+要播放的\ :ref:`AudioStream<class_AudioStream>`\ 对象。
 
 ----
 
@@ -240,7 +240,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **get_playback_position** **(** **)**
 
-返回:ref:`AudioStream<class_AudioStream>`\ 中的位置。
+返回\ :ref:`AudioStream<class_AudioStream>`\ 中的位置。
 
 ----
 
@@ -248,7 +248,7 @@ Method Descriptions
 
 - :ref:`AudioStreamPlayback<class_AudioStreamPlayback>` **get_stream_playback** **(** **)**
 
-返回与该``AudioStreamPlayer2D``\ 相关联的:ref:`AudioStreamPlayback<class_AudioStreamPlayback>`\ 对象。
+返回与该\ ``AudioStreamPlayer2D``\ 相关联的\ :ref:`AudioStreamPlayback<class_AudioStreamPlayback>`\ 对象。
 
 ----
 
@@ -256,7 +256,7 @@ Method Descriptions
 
 - void **play** **(** :ref:`float<class_float>` from_position=0.0 **)**
 
-从给定的位置``from_position``\ 播放音频，以秒为单位。
+从给定的位置\ ``from_position``\ 播放音频，以秒为单位。
 
 ----
 

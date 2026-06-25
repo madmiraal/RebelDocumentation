@@ -16,7 +16,7 @@ InputEventMouseButton
 Description
 -----------
 
-包含鼠标点击信息。见:ref:`Node._input<class_Node_method__input>`。
+包含鼠标点击信息。见\ :ref:`Node._input<class_Node_method__input>`。
 
 Tutorials
 ---------
@@ -51,7 +51,7 @@ Property Descriptions
 | *Getter*  | get_button_index()      |
 +-----------+-------------------------+
 
-鼠标按钮标识符，是:ref:`ButtonList<enum_@GlobalScope_ButtonList>` 按钮或按钮滚轮常量之一。
+鼠标按钮标识符，是\ :ref:`ButtonList<enum_@GlobalScope_ButtonList>` 按钮或按钮滚轮常量之一。
 
 ----
 
@@ -67,7 +67,7 @@ Property Descriptions
 | *Getter*  | is_doubleclick()       |
 +-----------+------------------------+
 
-如果``true``，鼠标按钮的状态是双击。
+如果\ ``true``，鼠标按钮的状态是双击。
 
 ----
 
@@ -83,7 +83,7 @@ Property Descriptions
 | *Getter*  | get_factor()      |
 +-----------+-------------------+
 
-事件的数量（或delta）。当用于高精度滚动事件时，这表示滚动量（垂直或水平）。这只在一些平台上被支持；报告的灵敏度因平台不同而不同。如果不支持，可能是``0``。
+事件的数量（或delta）。当用于高精度滚动事件时，这表示滚动量（垂直或水平）。这只在一些平台上被支持；报告的灵敏度因平台不同而不同。如果不支持，可能是\ ``0``。
 
 ----
 
@@ -99,7 +99,7 @@ Property Descriptions
 | *Getter*  | is_pressed()       |
 +-----------+--------------------+
 
-如果``true``，鼠标按键的状态为按下。如果``false``，鼠标按钮的状态被释放。
+如果\ ``true``，鼠标按键的状态为按下。如果\ ``false``，鼠标按钮的状态被释放。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

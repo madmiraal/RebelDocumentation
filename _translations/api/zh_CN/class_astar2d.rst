@@ -16,7 +16,7 @@ AStar2D
 Description
 -----------
 
-这是:ref:`AStar<class_AStar>`\ 类的包装，该类使用2D向量而不是3D向量。
+这是\ :ref:`AStar<class_AStar>`\ 类的包装，该类使用2D向量而不是3D向量。
 
 Methods
 -------
@@ -82,7 +82,7 @@ Method Descriptions
 
 计算两个连接点之间的成本时调用。
 
-注意这个函数隐藏在默认的``AStar2D``\ 类中。
+注意这个函数隐藏在默认的\ ``AStar2D``\ 类中。
 
 ----
 
@@ -102,14 +102,14 @@ Method Descriptions
 
 在给定的位置添加一个新的点，并使用给定的标识符。``id``\ 必须是0或者更大，``weight_scale``\ 必须是1或者更大。
 
-在确定从相邻点到此点的一段路程的总成本时，``weight_scale``\ 要乘以:ref:`_compute_cost<class_AStar2D_method__compute_cost>`\ 的结果。因此，在其他条件相同的情况下，算法优先选择``weight_scale``\ 较低的点来形成路径。
+在确定从相邻点到此点的一段路程的总成本时，``weight_scale``\ 要乘以\ :ref:`_compute_cost<class_AStar2D_method__compute_cost>`\ 的结果。因此，在其他条件相同的情况下，算法优先选择\ ``weight_scale``\ 较低的点来形成路径。
 
 ::
 
     var astar = AStar2D.new()
     astar.add_point(1, Vector2(1, 0), 4) # Adds the point (1, 0) with weight_scale 4 and id 1
 
-如果已经存在一个给定``id``\ 的点，它的位置和权重将被更新为给定值。
+如果已经存在一个给定\ ``id``\ 的点，它的位置和权重将被更新为给定值。
 
 ----
 
@@ -164,9 +164,9 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_closest_point** **(** :ref:`Vector2<class_Vector2>` to_position, :ref:`bool<class_bool>` include_disabled=false **)** |const|
 
-返回离``to_position``\ 最近的点的ID，可以选择将禁用的点考虑在内。如果点池中没有点，返回``-1``。
+返回离\ ``to_position``\ 最近的点的ID，可以选择将禁用的点考虑在内。如果点池中没有点，返回\ ``-1``。
 
-**注意:** 如果几个点都是离``to_position``\ 最近的点，将返回ID最小的那个点，以保证结果的确定性。
+**注意:** 如果几个点都是离\ ``to_position``\ 最近的点，将返回ID最小的那个点，以保证结果的确定性。
 
 ----
 
@@ -256,7 +256,7 @@ Method Descriptions
 
 返回一个数组，该数组包含了AStar2D在给定点之间找到的路径中的点。该数组从路径的起点到终点排序。
 
-**注意：** 这个方法不是线程安全的。如果从一个:ref:`Thread<class_Thread>`\ 线程中调用，它将返回一个空的:ref:`PoolVector2Array<class_PoolVector2Array>`，并打印一个错误信息。
+**注意：** 这个方法不是线程安全的。如果从一个\ :ref:`Thread<class_Thread>`\ 线程中调用，它将返回一个空的\ :ref:`PoolVector2Array<class_PoolVector2Array>`，并打印一个错误信息。
 
 ----
 
@@ -264,7 +264,7 @@ Method Descriptions
 
 - :ref:`Vector2<class_Vector2>` **get_point_position** **(** :ref:`int<class_int>` id **)** |const|
 
-返回与给定``id``\ 相关联的点的位置。
+返回与给定\ ``id``\ 相关联的点的位置。
 
 ----
 
@@ -272,7 +272,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **get_point_weight_scale** **(** :ref:`int<class_int>` id **)** |const|
 
-返回与给定``id``\ 关联的点的权重比例。
+返回与给定\ ``id``\ 关联的点的权重比例。
 
 ----
 
@@ -288,7 +288,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **has_point** **(** :ref:`int<class_int>` id **)** |const|
 
-返回与给定``id``\ 相关联的点是否存在。
+返回与给定\ ``id``\ 相关联的点是否存在。
 
 ----
 
@@ -304,7 +304,7 @@ Method Descriptions
 
 - void **remove_point** **(** :ref:`int<class_int>` id **)**
 
-从积分池中删除与给定``id``\ 关联的积分。
+从积分池中删除与给定\ ``id``\ 关联的积分。
 
 ----
 
@@ -312,7 +312,7 @@ Method Descriptions
 
 - void **reserve_space** **(** :ref:`int<class_int>` num_nodes **)**
 
-在内部为``num_nodes``\ 个点保留空间，如果您一次要添加一个已知的大量点（例如对于一个网格），则很有用。新容量必须大于或等于旧容量。
+在内部为\ ``num_nodes``\ 个点保留空间，如果您一次要添加一个已知的大量点（例如对于一个网格），则很有用。新容量必须大于或等于旧容量。
 
 ----
 
@@ -328,7 +328,7 @@ Method Descriptions
 
 - void **set_point_position** **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` position **)**
 
-为具有给定``id``\ 的点设置``position``。
+为具有给定\ ``id``\ 的点设置\ ``position``。
 
 ----
 
@@ -336,7 +336,7 @@ Method Descriptions
 
 - void **set_point_weight_scale** **(** :ref:`int<class_int>` id, :ref:`float<class_float>` weight_scale **)**
 
-为给定的``id``\ 的点设置``weight_scale``。在确定从邻接点到这个点的一段路程的总成本时，``weight_scale``\ 要乘以:ref:`_compute_cost<class_AStar2D_method__compute_cost>`\ 的结果。
+为给定的\ ``id``\ 的点设置\ ``weight_scale``。在确定从邻接点到这个点的一段路程的总成本时，``weight_scale``\ 要乘以\ :ref:`_compute_cost<class_AStar2D_method__compute_cost>`\ 的结果。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

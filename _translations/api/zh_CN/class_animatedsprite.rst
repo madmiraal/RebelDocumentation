@@ -18,7 +18,7 @@ Description
 
 动画通过一个 :ref:`SpriteFrames<class_SpriteFrames>` 资源创建，而该资源可以通过动画帧面板在编辑器中配置。
 
-**注意：**您可以通过创建附加的带有 ``_normal`` 后缀的 :ref:`SpriteFrames<class_SpriteFrames>` 资源来关联一组法线贴图。例如，如有 2 个 :ref:`SpriteFrames<class_SpriteFrames>` 资源 ``run`` 和 ``run_normal``，将使 ``run`` 动画使用该法线贴图。
+**注意：**\ 您可以通过创建附加的带有 ``_normal`` 后缀的 :ref:`SpriteFrames<class_SpriteFrames>` 资源来关联一组法线贴图。例如，如有 2 个 :ref:`SpriteFrames<class_SpriteFrames>` 资源 ``run`` 和 ``run_normal``，将使 ``run`` 动画使用该法线贴图。
 
 Tutorials
 ---------
@@ -74,7 +74,7 @@ Signals
 
 - **frame_changed** **(** **)**
 
-当:ref:`frame<class_AnimatedSprite_property_frame>`\ 更改时发出。
+当\ :ref:`frame<class_AnimatedSprite_property_frame>`\ 更改时发出。
 
 Property Descriptions
 ---------------------

@@ -11,7 +11,7 @@ Occluder
 
 **Inherits:** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-允许使用:ref:`OccluderShape<class_OccluderShape>`\ 来进行遮挡剔除。
+允许使用\ :ref:`OccluderShape<class_OccluderShape>`\ 来进行遮挡剔除。
 
 Description
 -----------

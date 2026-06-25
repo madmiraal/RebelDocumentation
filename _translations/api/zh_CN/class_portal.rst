@@ -11,12 +11,12 @@ Portal
 
 **Inherits:** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-门户节点用于实现房间:ref:`Room<class_Room>`\ 之间的可见性。
+门户节点用于实现房间\ :ref:`Room<class_Room>`\ 之间的可见性。
 
 Description
 -----------
 
-``Portal`` 是一种特殊类型的 :ref:`MeshInstance<class_MeshInstance>`，允许门户剔除系统从一个空间“看到”到另一个空间。它们通常对应于水平几何中的门窗。只允许 :ref:`Camera<class_Camera>` 透过传送门看到，这允许系统剔除空间中无法透过传送门看到的所有物体。这是**遮挡剔除**的一种形式，可以大大提高性能。
+``Portal`` 是一种特殊类型的 :ref:`MeshInstance<class_MeshInstance>`，允许门户剔除系统从一个空间“看到”到另一个空间。它们通常对应于水平几何中的门窗。只允许 :ref:`Camera<class_Camera>` 透过传送门看到，这允许系统剔除空间中无法透过传送门看到的所有物体。这是\ **遮挡剔除**\ 的一种形式，可以大大提高性能。
 
 Portal的形式有一些限制：
 
@@ -63,7 +63,7 @@ Property Descriptions
 | *Getter*  | get_linked_room()      |
 +-----------+------------------------+
 
-这是在``Portal``\ 的名称中设置链接:ref:`Room<class_Room>`\ 的快捷方式（名称在转换过程中使用）。
+这是在\ ``Portal``\ 的名称中设置链接\ :ref:`Room<class_Room>`\ 的快捷方式（名称在转换过程中使用）。
 
 ----
 
@@ -149,7 +149,7 @@ Portal默认为双向 - 在两个方向都可以看到，但是您可以将它�
 
 在大多数情况下，您会希望在Portal中使用默认的 ``Portal`` 边距（这是在 :ref:`RoomManager<class_RoomManager>` 中设置的）。
 
-如果要覆盖这个默认值，把这个值设置为``false``，本地的:ref:`portal_margin<class_Portal_property_portal_margin>`\ 就会生效。
+如果要覆盖这个默认值，把这个值设置为\ ``false``，本地的\ :ref:`portal_margin<class_Portal_property_portal_margin>`\ 就会生效。
 
 Method Descriptions
 -------------------

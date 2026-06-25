@@ -48,7 +48,7 @@ Method Descriptions
 
 - void **create** **(** :ref:`Vector2<class_Vector2>` size **)**
 
-创建一个指定尺寸的位图，用``false``\ 填充。
+创建一个指定尺寸的位图，用\ ``false``\ 填充。
 
 ----
 
@@ -56,7 +56,7 @@ Method Descriptions
 
 - void **create_from_image_alpha** **(** :ref:`Image<class_Image>` image, :ref:`float<class_float>` threshold=0.1 **)**
 
-创建一个与给定图像尺寸相匹配的位图，如果图像在该位置的alpha值等于``threshold``\ 或更小，则位图的每个元素都设置为``false``，其他情况下为``true``。
+创建一个与给定图像尺寸相匹配的位图，如果图像在该位置的alpha值等于\ ``threshold``\ 或更小，则位图的每个元素都设置为\ ``false``，其他情况下为\ ``true``。
 
 ----
 
@@ -80,7 +80,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_true_bit_count** **(** **)** |const|
 
-返回设置为``true``\ 的位图元素的数量。
+返回设置为\ ``true``\ 的位图元素的数量。
 
 ----
 

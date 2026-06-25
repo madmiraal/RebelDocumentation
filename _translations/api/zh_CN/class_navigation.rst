@@ -63,7 +63,7 @@ Property Descriptions
 | *Getter*  | get_up_vector()        |
 +-----------+------------------------+
 
-定义了向上的方向。默认情况下，这是``(0,1,0)``，这是世界的“向上”方向。
+定义了向上的方向。默认情况下，这是\ ``(0,1,0)``，这是世界的“向上”方向。
 
 Method Descriptions
 -------------------
@@ -122,7 +122,7 @@ Returns the path between two given points. Points are in local coordinate space.
 
 - void **navmesh_remove** **(** :ref:`int<class_int>` id **)**
 
-移除具有指定ID的:ref:`NavigationMesh<class_NavigationMesh>`。
+移除具有指定ID的\ :ref:`NavigationMesh<class_NavigationMesh>`。
 
 ----
 
@@ -130,7 +130,7 @@ Returns the path between two given points. Points are in local coordinate space.
 
 - void **navmesh_set_transform** **(** :ref:`int<class_int>` id, :ref:`Transform<class_Transform>` xform **)**
 
-设置应用于具有指定ID的:ref:`NavigationMesh<class_NavigationMesh>`\ 的变换。
+设置应用于具有指定ID的\ :ref:`NavigationMesh<class_NavigationMesh>`\ 的变换。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

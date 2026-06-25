@@ -16,7 +16,7 @@ GraphNode
 Description
 -----------
 
-图形节点GraphNode是一个容器。每个图形节点GraphNode可以有几个输入和输出槽，有时被称为端口，允许图形节点GraphNode之间的连接。要在图形节点GraphNode上添加一个槽，需要向它添加任何控件:ref:`Control<class_Control>`\ 派生的子节点。
+图形节点GraphNode是一个容器。每个图形节点GraphNode可以有几个输入和输出槽，有时被称为端口，允许图形节点GraphNode之间的连接。要在图形节点GraphNode上添加一个槽，需要向它添加任何控件\ :ref:`Control<class_Control>`\ 派生的子节点。
 
 在为图形节点GraphNode添加至少一个子节点后，将在检查器中自动创建名为 "插槽Slot "的新部分。当 "插槽"被展开时，你会看到带有每个槽索引号的列表。你可以点击它们来进一步展开。
 
@@ -142,7 +142,7 @@ Signals
 
 - **close_request** **(** **)**
 
-当图形节点GraphNode被请求关闭时发出。在点击关闭按钮时发生（见:ref:`show_close<class_GraphNode_property_show_close>`）。
+当图形节点GraphNode被请求关闭时发出。在点击关闭按钮时发生（见\ :ref:`show_close<class_GraphNode_property_show_close>`）。
 
 ----
 
@@ -174,7 +174,7 @@ Signals
 
 - **resize_request** **(** :ref:`Vector2<class_Vector2>` new_minsize **)**
 
-当图形节点GraphNode被要求调整大小时发出。在拖动调整器手柄时发生（见:ref:`resizable<class_GraphNode_property_resizable>`）。
+当图形节点GraphNode被要求调整大小时发出。在拖动调整器手柄时发生（见\ :ref:`resizable<class_GraphNode_property_resizable>`）。
 
 ----
 
@@ -199,9 +199,9 @@ enum **Overlay**:
 
 - **OVERLAY_DISABLED** = **0** --- 没有显示覆盖层。
 
-- **OVERLAY_BREAKPOINT** = **1** --- 显示在``breakpoint``\ 主题属性中设置的覆盖层。
+- **OVERLAY_BREAKPOINT** = **1** --- 显示在\ ``breakpoint``\ 主题属性中设置的覆盖层。
 
-- **OVERLAY_POSITION** = **2** --- 显示在主题坐标``position``\ 属性中设置的叠加层。
+- **OVERLAY_POSITION** = **2** --- 显示在主题坐标\ ``position``\ 属性中设置的叠加层。
 
 Property Descriptions
 ---------------------
@@ -218,7 +218,7 @@ Property Descriptions
 | *Getter*  | is_comment()       |
 +-----------+--------------------+
 
-如果启用``true``，则GraphNode就是一个注释节点。
+如果启用\ ``true``，则GraphNode就是一个注释节点。
 
 ----
 
@@ -236,7 +236,7 @@ Property Descriptions
 
 图形节点 GraphNode 的偏移量，与 :ref:`GraphEdit<class_GraphEdit>` 的滚动偏移量相关。
 
-**注意：**由于 :ref:`GraphEdit<class_GraphEdit>` 是 :ref:`Container<class_Container>`，因此不能直接使用位置。
+**注意：**\ 由于 :ref:`GraphEdit<class_GraphEdit>` 是 :ref:`Container<class_Container>`，因此不能直接使用位置。
 
 ----
 
@@ -252,7 +252,7 @@ Property Descriptions
 | *Getter*  | get_overlay()      |
 +-----------+--------------------+
 
-设置在图形节点GraphNode上方显示的叠加层。参阅:ref:`Overlay<enum_GraphNode_Overlay>`。
+设置在图形节点GraphNode上方显示的叠加层。参阅\ :ref:`Overlay<enum_GraphNode_Overlay>`。
 
 ----
 
@@ -268,9 +268,9 @@ Property Descriptions
 | *Getter*  | is_resizable()       |
 +-----------+----------------------+
 
-如果``true``，用户可以调整图形节点GraphNode的大小。
+如果\ ``true``，用户可以调整图形节点GraphNode的大小。
 
-**注意：**拖动手柄只会发出 :ref:`resize_request<class_GraphNode_signal_resize_request>` 信号，图形节点GraphNode需要手动调整大小。
+**注意：**\ 拖动手柄只会发出 :ref:`resize_request<class_GraphNode_signal_resize_request>` 信号，图形节点GraphNode需要手动调整大小。
 
 ----
 
@@ -286,7 +286,7 @@ Property Descriptions
 | *Getter*  | is_selected()       |
 +-----------+---------------------+
 
-如果``true``，图形节点GraphNode被选中。
+如果\ ``true``，图形节点GraphNode被选中。
 
 ----
 
@@ -302,9 +302,9 @@ Property Descriptions
 | *Getter*  | is_close_button_visible()    |
 +-----------+------------------------------+
 
-如果``true``，则关闭按钮将可见。
+如果\ ``true``，则关闭按钮将可见。
 
-**注意：**按下它只会发出:ref:`close_request<class_GraphNode_signal_close_request>`\ 信号，需要手动删除图形节点GraphNode。
+**注意：**\ 按下它只会发出\ :ref:`close_request<class_GraphNode_signal_close_request>`\ 信号，需要手动删除图形节点GraphNode。
 
 ----
 
@@ -337,7 +337,7 @@ Method Descriptions
 
 - void **clear_slot** **(** :ref:`int<class_int>` idx **)**
 
-禁用索引为``idx``\ 的输入和输出槽。
+禁用索引为\ ``idx``\ 的输入和输出槽。
 
 ----
 
@@ -345,7 +345,7 @@ Method Descriptions
 
 - :ref:`Color<class_Color>` **get_connection_input_color** **(** :ref:`int<class_int>` idx **)**
 
-返回输入连接``idx``\ 的颜色:ref:`Color<class_Color>`。
+返回输入连接\ ``idx``\ 的颜色\ :ref:`Color<class_Color>`。
 
 ----
 
@@ -361,7 +361,7 @@ Method Descriptions
 
 - :ref:`Vector2<class_Vector2>` **get_connection_input_position** **(** :ref:`int<class_int>` idx **)**
 
-返回输入连接``idx``\ 的位置。
+返回输入连接\ ``idx``\ 的位置。
 
 ----
 
@@ -369,7 +369,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_connection_input_type** **(** :ref:`int<class_int>` idx **)**
 
-返回输入连接的类型``idx``。
+返回输入连接的类型\ ``idx``。
 
 ----
 
@@ -377,7 +377,7 @@ Method Descriptions
 
 - :ref:`Color<class_Color>` **get_connection_output_color** **(** :ref:`int<class_int>` idx **)**
 
-返回输出连接``idx``\ 的颜色:ref:`Color<class_Color>`。
+返回输出连接\ ``idx``\ 的颜色\ :ref:`Color<class_Color>`。
 
 ----
 
@@ -393,7 +393,7 @@ Method Descriptions
 
 - :ref:`Vector2<class_Vector2>` **get_connection_output_position** **(** :ref:`int<class_int>` idx **)**
 
-返回输出连接``idx``\ 的位置。
+返回输出连接\ ``idx``\ 的位置。
 
 ----
 
@@ -401,7 +401,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_connection_output_type** **(** :ref:`int<class_int>` idx **)**
 
-返回输出连接的类型``idx``。
+返回输出连接的类型\ ``idx``。
 
 ----
 
@@ -409,7 +409,7 @@ Method Descriptions
 
 - :ref:`Color<class_Color>` **get_slot_color_left** **(** :ref:`int<class_int>` idx **)** |const|
 
-返回槽``idx``\ 的左边（输入）颜色:ref:`Color<class_Color>`。
+返回槽\ ``idx``\ 的左边（输入）颜色\ :ref:`Color<class_Color>`。
 
 ----
 
@@ -417,7 +417,7 @@ Method Descriptions
 
 - :ref:`Color<class_Color>` **get_slot_color_right** **(** :ref:`int<class_int>` idx **)** |const|
 
-返回槽``idx``\ 的右边（输出）颜色:ref:`Color<class_Color>`。
+返回槽\ ``idx``\ 的右边（输出）颜色\ :ref:`Color<class_Color>`。
 
 ----
 
@@ -425,7 +425,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_slot_type_left** **(** :ref:`int<class_int>` idx **)** |const|
 
-返回槽``idx``\ 的左边（输入）类型。
+返回槽\ ``idx``\ 的左边（输入）类型。
 
 ----
 
@@ -433,7 +433,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_slot_type_right** **(** :ref:`int<class_int>` idx **)** |const|
 
-返回槽``idx``\ 的右边（输出）类型。
+返回槽\ ``idx``\ 的右边（输出）类型。
 
 ----
 
@@ -441,7 +441,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_slot_enabled_left** **(** :ref:`int<class_int>` idx **)** |const|
 
-如果插槽``idx``\ 的左侧（输入）被启用，返回``true``。
+如果插槽\ ``idx``\ 的左侧（输入）被启用，返回\ ``true``。
 
 ----
 
@@ -449,7 +449,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_slot_enabled_right** **(** :ref:`int<class_int>` idx **)** |const|
 
-如果插槽``idx``\ 的右侧（输出）被启用，返回``true``。
+如果插槽\ ``idx``\ 的右侧（输出）被启用，返回\ ``true``。
 
 ----
 
@@ -457,9 +457,9 @@ Method Descriptions
 
 - void **set_slot** **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` enable_left, :ref:`int<class_int>` type_left, :ref:`Color<class_Color>` color_left, :ref:`bool<class_bool>` enable_right, :ref:`int<class_int>` type_right, :ref:`Color<class_Color>` color_right, :ref:`Texture<class_Texture>` custom_left=null, :ref:`Texture<class_Texture>` custom_right=null **)**
 
-设置ID为``idx``\ 的插槽的属性。
+设置ID为\ ``idx``\ 的插槽的属性。
 
-如果``enable_left``/``right``，就会出现一个端口，该插槽就可以从这一侧连接。
+如果\ ``enable_left``/``right``，就会出现一个端口，该插槽就可以从这一侧连接。
 
 ``type_left``/``right``\ 是端口的一个任意类型。只有具有相同类型值的端口才能被连接。
 
@@ -467,9 +467,9 @@ Method Descriptions
 
 ``custom_left``/``right``\ 是这一侧的端口的自定义纹理。
 
-**注意：** 这个方法只设置槽的属性。要创建槽，需要在GraphNode中添加一个:ref:`Control<class_Control>`\ 的派生类。
+**注意：** 这个方法只设置槽的属性。要创建槽，需要在GraphNode中添加一个\ :ref:`Control<class_Control>`\ 的派生类。
 
-可以使用``set_slot_*``\ 方法之一来设置单个属性。你必须至少启用插槽的一边才能这样做。
+可以使用\ ``set_slot_*``\ 方法之一来设置单个属性。你必须至少启用插槽的一边才能这样做。
 
 ----
 
@@ -477,7 +477,7 @@ Method Descriptions
 
 - void **set_slot_color_left** **(** :ref:`int<class_int>` idx, :ref:`Color<class_Color>` color_left **)**
 
-将插槽``idx``\ 左侧（输入）的颜色:ref:`Color<class_Color>`\ 设置为``color_left``。
+将插槽\ ``idx``\ 左侧（输入）的颜色\ :ref:`Color<class_Color>`\ 设置为\ ``color_left``。
 
 ----
 
@@ -485,7 +485,7 @@ Method Descriptions
 
 - void **set_slot_color_right** **(** :ref:`int<class_int>` idx, :ref:`Color<class_Color>` color_right **)**
 
-将插槽``idx``\ 的右侧（输出）的颜色:ref:`Color<class_Color>`\ 设置为``color_right``。
+将插槽\ ``idx``\ 的右侧（输出）的颜色\ :ref:`Color<class_Color>`\ 设置为\ ``color_right``。
 
 ----
 
@@ -493,7 +493,7 @@ Method Descriptions
 
 - void **set_slot_enabled_left** **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` enable_left **)**
 
-切换插槽的左侧（输入）``idx``。	如果``enable_left``\ 为``true``，左边将出现一个端口，插槽将能够从这一边连接。
+切换插槽的左侧（输入）``idx``。	如果\ ``enable_left``\ 为\ ``true``，左边将出现一个端口，插槽将能够从这一边连接。
 
 ----
 
@@ -501,7 +501,7 @@ Method Descriptions
 
 - void **set_slot_enabled_right** **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` enable_right **)**
 
-切换插槽的右侧（输出）``idx``。如果``enable_right``\ 为``true``，右侧将出现一个端口，插槽将能够从这一侧连接。
+切换插槽的右侧（输出）``idx``。如果\ ``enable_right``\ 为\ ``true``，右侧将出现一个端口，插槽将能够从这一侧连接。
 
 ----
 
@@ -509,7 +509,7 @@ Method Descriptions
 
 - void **set_slot_type_left** **(** :ref:`int<class_int>` idx, :ref:`int<class_int>` type_left **)**
 
-将插槽``idx``\ 的左侧（输入）类型设置为``type_left``。
+将插槽\ ``idx``\ 的左侧（输入）类型设置为\ ``type_left``。
 
 ----
 
@@ -517,7 +517,7 @@ Method Descriptions
 
 - void **set_slot_type_right** **(** :ref:`int<class_int>` idx, :ref:`int<class_int>` type_right **)**
 
-将插槽``idx``\ 的右（输出）类型设置为``type_right``。
+将插槽\ ``idx``\ 的右（输出）类型设置为\ ``type_right``。
 
 Theme Property Descriptions
 ---------------------------
@@ -618,7 +618,7 @@ Theme Property Descriptions
 
 - :ref:`Texture<class_Texture>` **close**
 
-关闭按钮的图标会在启用:ref:`show_close<class_GraphNode_property_show_close>`\ 时可见。
+关闭按钮的图标会在启用\ :ref:`show_close<class_GraphNode_property_show_close>`\ 时可见。
 
 ----
 
@@ -642,7 +642,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **breakpoint**
 
-当:ref:`overlay<class_GraphNode_property_overlay>`\ 被设置为:ref:`OVERLAY_BREAKPOINT<class_GraphNode_constant_OVERLAY_BREAKPOINT>`\ 时使用的背景。
+当\ :ref:`overlay<class_GraphNode_property_overlay>`\ 被设置为\ :ref:`OVERLAY_BREAKPOINT<class_GraphNode_constant_OVERLAY_BREAKPOINT>`\ 时使用的背景。
 
 ----
 
@@ -650,7 +650,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **comment**
 
-当启用:ref:`comment<class_GraphNode_property_comment>`\ 时使用的:ref:`StyleBox<class_StyleBox>`。
+当启用\ :ref:`comment<class_GraphNode_property_comment>`\ 时使用的\ :ref:`StyleBox<class_StyleBox>`。
 
 ----
 
@@ -658,7 +658,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **commentfocus**
 
-当:ref:`comment<class_GraphNode_property_comment>`\ 被启用，且``GraphNode``\ 获得焦点时使用的:ref:`StyleBox<class_StyleBox>`。
+当\ :ref:`comment<class_GraphNode_property_comment>`\ 被启用，且\ ``GraphNode``\ 获得焦点时使用的\ :ref:`StyleBox<class_StyleBox>`。
 
 ----
 
@@ -686,7 +686,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **position**
 
-当:ref:`overlay<class_GraphNode_property_overlay>`\ 设置为:ref:`OVERLAY_POSITION<class_GraphNode_constant_OVERLAY_POSITION>`\ 时使用的背景。
+当\ :ref:`overlay<class_GraphNode_property_overlay>`\ 设置为\ :ref:`OVERLAY_POSITION<class_GraphNode_constant_OVERLAY_POSITION>`\ 时使用的背景。
 
 ----
 

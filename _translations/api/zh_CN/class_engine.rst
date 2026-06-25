@@ -132,7 +132,7 @@ The number of fixed iterations per second. This controls how often physics simul
 
 控制物理时钟与实时同步程度。如果是0或更少，时钟是同步的。这样的值建议用于网络游戏，因为时钟的同步性很重要。较高的值会导致游戏中的时钟和真实时钟之间的偏差较大，但可以平滑帧速率的抖动。默认值0.5对大多数人来说应该是良好的；超过2的值可能导致游戏对掉帧的反应有明显的延迟，因此不推荐使用。
 
-**注意：**为了获得最佳效果，当使用自定义物理插值这种解决方案时，应通过将:ref:`physics_jitter_fix<class_Engine_property_physics_jitter_fix>`\ 设置为``0``\ 来禁用物理抖动修复。
+**注意：**\ 为了获得最佳效果，当使用自定义物理插值这种解决方案时，应通过将\ :ref:`physics_jitter_fix<class_Engine_property_physics_jitter_fix>`\ 设置为\ ``0``\ 来禁用物理抖动修复。
 
 ----
 
@@ -231,7 +231,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_frames_drawn** **(** **)**
 
-返回绘制的总帧数。在精简平台上，或者如果通过命令行使用 ``--disable-render-loop`` 禁用渲染循环，:ref:`get_frames_drawn<class_Engine_method_get_frames_drawn>` 总是返回 ``0``。参阅:ref:`get_idle_frames<class_Engine_method_get_idle_frames>`。
+返回绘制的总帧数。在精简平台上，或者如果通过命令行使用 ``--disable-render-loop`` 禁用渲染循环，:ref:`get_frames_drawn<class_Engine_method_get_frames_drawn>` 总是返回 ``0``。参阅\ :ref:`get_idle_frames<class_Engine_method_get_idle_frames>`。
 
 ----
 
@@ -247,9 +247,9 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_idle_frames** **(** **)** |const|
 
-返回自引擎初始化以来的总帧数，在每个**空闲帧**都会进行，无论渲染循环是否被启用。参阅:ref:`get_frames_drawn<class_Engine_method_get_frames_drawn>`\ 和:ref:`get_physics_frames<class_Engine_method_get_physics_frames>`。
+返回自引擎初始化以来的总帧数，在每个\ **空闲帧**\ 都会进行，无论渲染循环是否被启用。参阅\ :ref:`get_frames_drawn<class_Engine_method_get_frames_drawn>`\ 和\ :ref:`get_physics_frames<class_Engine_method_get_physics_frames>`。
 
-:ref:`get_idle_frames<class_Engine_method_get_idle_frames>`\ 可以用来减少运行高消耗逻辑的次数，而不需要依靠:ref:`Timer<class_Timer>`。
+:ref:`get_idle_frames<class_Engine_method_get_idle_frames>`\ 可以用来减少运行高消耗逻辑的次数，而不需要依靠\ :ref:`Timer<class_Timer>`。
 
 ::
 
@@ -279,7 +279,7 @@ Returns Rebel Engine license text.
 
 - :ref:`MainLoop<class_MainLoop>` **get_main_loop** **(** **)** |const|
 
-返回主循环对象（请参阅:ref:`MainLoop<class_MainLoop>`\ 和:ref:`SceneTree<class_SceneTree>`）。
+返回主循环对象（请参阅\ :ref:`MainLoop<class_MainLoop>`\ 和\ :ref:`SceneTree<class_SceneTree>`）。
 
 ----
 
@@ -287,9 +287,9 @@ Returns Rebel Engine license text.
 
 - :ref:`int<class_int>` **get_physics_frames** **(** **)** |const|
 
-返回自引擎初始化以来通过的总帧数，该帧数在每个**物理帧**上进行。参阅:ref:`get_idle_frames<class_Engine_method_get_idle_frames>`。
+返回自引擎初始化以来通过的总帧数，该帧数在每个\ **物理帧**\ 上进行。参阅\ :ref:`get_idle_frames<class_Engine_method_get_idle_frames>`。
 
-:ref:`get_physics_frames<class_Engine_method_get_physics_frames>`\ 可以用来减少运行高消耗逻辑的次数，而不需要依靠:ref:`Timer<class_Timer>`。
+:ref:`get_physics_frames<class_Engine_method_get_physics_frames>`\ 可以用来减少运行高消耗逻辑的次数，而不需要依靠\ :ref:`Timer<class_Timer>`。
 
 ::
 
@@ -360,7 +360,7 @@ The ``hex`` value is encoded as follows, from left to right: one byte for the ma
 
 - :ref:`bool<class_bool>` **has_singleton** **(** :ref:`String<class_String>` name **)** |const|
 
-如果全局范围内存在具有给定``name``\ 的单例，则返回``true``。
+如果全局范围内存在具有给定\ ``name``\ 的单例，则返回\ ``true``。
 
 ----
 
