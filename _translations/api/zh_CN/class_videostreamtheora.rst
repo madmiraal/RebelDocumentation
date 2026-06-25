@@ -36,7 +36,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **get_file** **(** **)**
 
-返回由这个``VideoStreamTheora``\ 处理的Ogg Theora视频文件。
+返回由这个\ ``VideoStreamTheora``\ 处理的Ogg Theora视频文件。
 
 ----
 
@@ -44,7 +44,7 @@ Method Descriptions
 
 - void **set_file** **(** :ref:`String<class_String>` file **)**
 
-设置该``VideoStreamTheora``\ 资源处理的Ogg Theora视频文件。``file``\ 的名称应该有``.ogv``\ 扩展名。
+设置该\ ``VideoStreamTheora``\ 资源处理的Ogg Theora视频文件。``file``\ 的名称应该有\ ``.ogv``\ 扩展名。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

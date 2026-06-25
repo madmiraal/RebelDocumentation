@@ -211,7 +211,7 @@ Property Descriptions
 | *Getter*  | get_clip_uv()      |
 +-----------+--------------------+
 
-如果``true``，单元格的UV将被剪裁。
+如果\ ``true``，单元格的UV将被剪裁。
 
 ----
 
@@ -227,7 +227,7 @@ Property Descriptions
 | *Getter*  | get_custom_transform()                |
 +-----------+---------------------------------------+
 
-将应用到图块地图的，单元格的自定义:ref:`Transform2D<class_Transform2D>`。
+将应用到图块地图的，单元格的自定义\ :ref:`Transform2D<class_Transform2D>`。
 
 ----
 
@@ -243,7 +243,7 @@ Property Descriptions
 | *Getter*  | get_half_offset()      |
 +-----------+------------------------+
 
-依次排列的图块的偏移量。有关可能的值，参阅:ref:`HalfOffset<enum_TileMap_HalfOffset>`。
+依次排列的图块的偏移量。有关可能的值，参阅\ :ref:`HalfOffset<enum_TileMap_HalfOffset>`。
 
 ----
 
@@ -291,7 +291,7 @@ Property Descriptions
 | *Getter*  | get_tile_origin()      |
 +-----------+------------------------+
 
-图块原点的坐标。有关可能的值，参阅:ref:`TileOrigin<enum_TileMap_TileOrigin>`。
+图块原点的坐标。有关可能的值，参阅\ :ref:`TileOrigin<enum_TileMap_TileOrigin>`。
 
 ----
 
@@ -307,7 +307,7 @@ Property Descriptions
 | *Getter*  | is_y_sort_mode_enabled() |
 +-----------+--------------------------+
 
-如果``true``，图块地图的直接子节点将按其Y坐标顺序绘制。
+如果\ ``true``，图块地图的直接子节点将按其Y坐标顺序绘制。
 
 ----
 
@@ -323,9 +323,9 @@ Property Descriptions
 | *Getter*  | is_centered_textures_enabled() |
 +-----------+--------------------------------+
 
-如果``true``，纹理将被集中在每个图块的中间。这对某些等距或上帝视角的模式很有用，当纹理被做得比图块大或小时，例如，为了避免瓷砖边缘的闪烁。偏移量仍被应用，但从瓦片的中心开始。如果使用，:ref:`compatibility_mode<class_TileMap_property_compatibility_mode>`\ 会被忽略。
+如果\ ``true``，纹理将被集中在每个图块的中间。这对某些等距或上帝视角的模式很有用，当纹理被做得比图块大或小时，例如，为了避免瓷砖边缘的闪烁。偏移量仍被应用，但从瓦片的中心开始。如果使用，:ref:`compatibility_mode<class_TileMap_property_compatibility_mode>`\ 会被忽略。
 
-如果``false``，纹理坐标从左上角开始，除非:ref:`compatibility_mode<class_TileMap_property_compatibility_mode>`\ 被启用。
+如果\ ``false``，纹理坐标从左上角开始，除非\ :ref:`compatibility_mode<class_TileMap_property_compatibility_mode>`\ 被启用。
 
 ----
 
@@ -341,7 +341,7 @@ Property Descriptions
 | *Getter*  | get_collision_bounce()      |
 +-----------+-----------------------------+
 
-静态体碰撞的反弹值，参阅``collision_use_kinematic``。
+静态体碰撞的反弹值，参阅\ ``collision_use_kinematic``。
 
 ----
 
@@ -357,7 +357,7 @@ Property Descriptions
 | *Getter*  | get_collision_friction()      |
 +-----------+-------------------------------+
 
-静态体碰撞的摩擦值，参阅``collision_use_kinematic``。
+静态体碰撞的摩擦值，参阅\ ``collision_use_kinematic``。
 
 ----
 
@@ -373,7 +373,7 @@ Property Descriptions
 | *Getter*  | get_collision_layer()      |
 +-----------+----------------------------+
 
-图块地图中所有碰撞器的碰撞层。更多信息请参阅文档中的:ref:`碰撞层和掩码 <tutorials/physics/physics_introduction:collision layers and masks>`。
+图块地图中所有碰撞器的碰撞层。更多信息请参阅文档中的\ :ref:`碰撞层和掩码 <tutorials/physics/physics_introduction:collision layers and masks>`。
 
 ----
 
@@ -389,7 +389,7 @@ Property Descriptions
 | *Getter*  | get_collision_mask()      |
 +-----------+---------------------------+
 
-图块地图中所有碰撞器的碰撞掩码。更多信息请参阅文档中的:ref:`碰撞层和掩码 <tutorials/physics/physics_introduction:collision layers and masks>`。
+图块地图中所有碰撞器的碰撞掩码。更多信息请参阅文档中的\ :ref:`碰撞层和掩码 <tutorials/physics/physics_introduction:collision layers and masks>`。
 
 ----
 
@@ -405,7 +405,7 @@ Property Descriptions
 | *Getter*  | get_collision_use_kinematic()      |
 +-----------+------------------------------------+
 
-如果``true``，图块地图的碰撞将被当作运动体处理。如果``false``，碰撞将被当作静态体来处理。
+如果\ ``true``，图块地图的碰撞将被当作运动体处理。如果\ ``false``，碰撞将被当作静态体来处理。
 
 ----
 
@@ -421,7 +421,7 @@ Property Descriptions
 | *Getter*  | get_collision_use_parent()      |
 +-----------+---------------------------------+
 
-如果``true``，这个图块地图的碰撞形状将被添加到父级的碰撞形状中。父级必须是一个:ref:`CollisionObject2D<class_CollisionObject2D>`。
+如果\ ``true``，这个图块地图的碰撞形状将被添加到父级的碰撞形状中。父级必须是一个\ :ref:`CollisionObject2D<class_CollisionObject2D>`。
 
 ----
 
@@ -457,7 +457,7 @@ The compatibility mode doesn't work with the :ref:`centered_textures<class_TileM
 | *Getter*  | get_mode()      |
 +-----------+-----------------+
 
-图块地图的方向模式。有关可能的值，参阅:ref:`Mode<enum_TileMap_Mode>`。
+图块地图的方向模式。有关可能的值，参阅\ :ref:`Mode<enum_TileMap_Mode>`。
 
 ----
 
@@ -489,7 +489,7 @@ The compatibility mode doesn't work with the :ref:`centered_textures<class_TileM
 | *Getter*  | is_show_collision_enabled() |
 +-----------+-----------------------------+
 
-如果``true``，碰撞形状在编辑器中是可见的。不影响碰撞形状在运行时的可见性。要在运行时显示碰撞形状，请在**调试**菜单中启用**可见的碰撞形状**。
+如果\ ``true``，碰撞形状在编辑器中是可见的。不影响碰撞形状在运行时的可见性。要在运行时显示碰撞形状，请在\ **调试**\ 菜单中启用\ **可见的碰撞形状**。
 
 ----
 
@@ -503,7 +503,7 @@ The compatibility mode doesn't work with the :ref:`centered_textures<class_TileM
 | *Getter* | get_tileset()      |
 +----------+--------------------+
 
-指定的:ref:`TileSet<class_TileSet>`\ 图块集。
+指定的\ :ref:`TileSet<class_TileSet>`\ 图块集。
 
 Method Descriptions
 -------------------
@@ -568,7 +568,7 @@ Returns the coordinate (sub-tile column and row) of the autotile variation in th
 
 - :ref:`Array<class_Array>` **get_used_cells** **(** **)** |const|
 
-返回一个:ref:`Vector2<class_Vector2>`\ 数组，其中包含图块集中所有单元格的位置（图块索引非``-1``）。
+返回一个\ :ref:`Vector2<class_Vector2>`\ 数组，其中包含图块集中所有单元格的位置（图块索引非\ ``-1``）。
 
 ----
 
@@ -576,7 +576,7 @@ Returns the coordinate (sub-tile column and row) of the autotile variation in th
 
 - :ref:`Array<class_Array>` **get_used_cells_by_id** **(** :ref:`int<class_int>` id **)** |const|
 
-返回所有具有``id``\ 中指定的图块索引的单元格的数组。
+返回所有具有\ ``id``\ 中指定的图块索引的单元格的数组。
 
 ----
 
@@ -592,7 +592,7 @@ Returns the coordinate (sub-tile column and row) of the autotile variation in th
 
 - :ref:`bool<class_bool>` **is_cell_transposed** **(** :ref:`int<class_int>` x, :ref:`int<class_int>` y **)** |const|
 
-如果指定单元格被转置，即X轴和Y轴互换，则返回``true``。
+如果指定单元格被转置，即X轴和Y轴互换，则返回\ ``true``。
 
 ----
 
@@ -600,7 +600,7 @@ Returns the coordinate (sub-tile column and row) of the autotile variation in th
 
 - :ref:`bool<class_bool>` **is_cell_x_flipped** **(** :ref:`int<class_int>` x, :ref:`int<class_int>` y **)** |const|
 
-如果指定单元格在X轴上被翻转，则返回``true``。
+如果指定单元格在X轴上被翻转，则返回\ ``true``。
 
 ----
 
@@ -608,7 +608,7 @@ Returns the coordinate (sub-tile column and row) of the autotile variation in th
 
 - :ref:`bool<class_bool>` **is_cell_y_flipped** **(** :ref:`int<class_int>` x, :ref:`int<class_int>` y **)** |const|
 
-如果指定单元格在Y轴上被翻转，则返回``true``。
+如果指定单元格在Y轴上被翻转，则返回\ ``true``。
 
 ----
 
@@ -618,7 +618,7 @@ Returns the coordinate (sub-tile column and row) of the autotile variation in th
 
 返回与指定的图块地图（基于网格）坐标相对应的单元格左上角的局部坐标。
 
-要获得全局坐标，请使用:ref:`Node2D.to_global<class_Node2D_method_to_global>`。
+要获得全局坐标，请使用\ :ref:`Node2D.to_global<class_Node2D_method_to_global>`。
 
 ::
 
@@ -718,7 +718,7 @@ If you need these to be immediately updated, you can call :ref:`update_dirty_qua
 
 返回与指定的局部坐标相对应的图块地图坐标，基于网格。
 
-要使用这个全局坐标，首先要用:ref:`Node2D.to_local<class_Node2D_method_to_local>`\ 确定局部坐标。
+要使用这个全局坐标，首先要用\ :ref:`Node2D.to_local<class_Node2D_method_to_local>`\ 确定局部坐标。
 
 ::
 

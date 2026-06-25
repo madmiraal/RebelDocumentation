@@ -11,7 +11,7 @@ VisualShaderNodeTransformMult
 
 **Inherits:** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
 
-在可视化着色器图中用:ref:`Transform<class_Transform>`\ 乘以:ref:`Transform<class_Transform>`。
+在可视化着色器图中用\ :ref:`Transform<class_Transform>`\ 乘以\ :ref:`Transform<class_Transform>`。
 
 Description
 -----------
@@ -40,13 +40,13 @@ Enumerations
 
 enum **Operator**:
 
-- **OP_AxB** = **0** --- 将变换``a``\ 乘以变换``b``。
+- **OP_AxB** = **0** --- 将变换\ ``a``\ 乘以变换\ ``b``。
 
-- **OP_BxA** = **1** --- 将变换``b``\ 乘以变换``a``。
+- **OP_BxA** = **1** --- 将变换\ ``b``\ 乘以变换\ ``a``。
 
-- **OP_AxB_COMP** = **2** --- 对变换``a``\ 与变换``b``\ 进行分量明智的乘法。
+- **OP_AxB_COMP** = **2** --- 对变换\ ``a``\ 与变换\ ``b``\ 进行分量明智的乘法。
 
-- **OP_BxA_COMP** = **3** --- 对变换``b``\ 与变换``a``\ 进行分量明智的乘法。
+- **OP_BxA_COMP** = **3** --- 对变换\ ``b``\ 与变换\ ``a``\ 进行分量明智的乘法。
 
 Property Descriptions
 ---------------------
@@ -63,7 +63,7 @@ Property Descriptions
 | *Getter*  | get_operator()      |
 +-----------+---------------------+
 
-要对变换进行的乘法类型。参阅:ref:`Operator<enum_VisualShaderNodeTransformMult_Operator>`\ 的选项。
+要对变换进行的乘法类型。参阅\ :ref:`Operator<enum_VisualShaderNodeTransformMult_Operator>`\ 的选项。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

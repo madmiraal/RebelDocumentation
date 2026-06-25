@@ -16,7 +16,7 @@ JSON
 Description
 -----------
 
-用于解析JSON数据的辅助类。关于使用实例和其他重要提示，请参阅:ref:`JSONParseResult<class_JSONParseResult>`。
+用于解析JSON数据的辅助类。关于使用实例和其他重要提示，请参阅\ :ref:`JSONParseResult<class_JSONParseResult>`。
 
 Methods
 -------
@@ -34,7 +34,7 @@ Method Descriptions
 
 - :ref:`JSONParseResult<class_JSONParseResult>` **parse** **(** :ref:`String<class_String>` json **)**
 
-解析一个JSON编码的字符串并返回一个包含结果的:ref:`JSONParseResult<class_JSONParseResult>`。
+解析一个JSON编码的字符串并返回一个包含结果的\ :ref:`JSONParseResult<class_JSONParseResult>`。
 
 ----
 

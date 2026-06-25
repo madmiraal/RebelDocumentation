@@ -16,7 +16,7 @@ EditorVCSInterface
 Description
 -----------
 
-由编辑器用来在编辑器中显示VCS提取的信息。这个API的实现包含在VCS附加组件中，这些附加组件本质上是GDNative插件，需要放到项目文件夹中。这些VCS附加组件是脚本，它们（按需）附加到``EditorVCSInterface``\ 的对象实例中。下面列出的所有功能，它们不是自己执行任务，而是调用VCS附加组件中内部定义的功能，以提供现写现用的体验。
+由编辑器用来在编辑器中显示VCS提取的信息。这个API的实现包含在VCS附加组件中，这些附加组件本质上是GDNative插件，需要放到项目文件夹中。这些VCS附加组件是脚本，它们（按需）附加到\ ``EditorVCSInterface``\ 的对象实例中。下面列出的所有功能，它们不是自己执行任务，而是调用VCS附加组件中内部定义的功能，以提供现写现用的体验。
 
 Methods
 -------
@@ -60,13 +60,13 @@ Method Descriptions
 
 - :ref:`Array<class_Array>` **get_file_diff** **(** :ref:`String<class_String>` file_path **)**
 
-如果VCS addon被初始化，返回一个:ref:`Array<class_Array>`\ 的:ref:`Dictionary<class_Dictionary>`\ 对象，包含正在使用的VCS的diff输出，否则返回一个空:ref:`Array<class_Array>`\ 对象。diff内容还包括一些上下文，这些上下文行为文件中观察到的行变化提供上下文。
+如果VCS addon被初始化，返回一个\ :ref:`Array<class_Array>`\ 的\ :ref:`Dictionary<class_Dictionary>`\ 对象，包含正在使用的VCS的diff输出，否则返回一个空\ :ref:`Array<class_Array>`\ 对象。diff内容还包括一些上下文，这些上下文行为文件中观察到的行变化提供上下文。
 
-每个:ref:`Dictionary<class_Dictionary>`\ 对象的键下都有行差内容。
+每个\ :ref:`Dictionary<class_Dictionary>`\ 对象的键下都有行差内容。
 
-- ``"content"``\ 存储一个包含行内容的:ref:`String<class_String>`。
+- ``"content"``\ 存储一个包含行内容的\ :ref:`String<class_String>`。
 
-- ``"status"``\ 存储一个:ref:`String<class_String>`，如果内容是添加行，则包含``"+"``，但如果是删除，则存储``"-"``，如果行内容既不是添加也不是删除，则存储一个空字符串。
+- ``"status"``\ 存储一个\ :ref:`String<class_String>`，如果内容是添加行，则包含\ ``"+"``，但如果是删除，则存储\ ``"-"``，如果行内容既不是添加也不是删除，则存储一个空字符串。
 
 - ``"new_line_number"``\ 存储一个包含行内容新行号的整数。
 
@@ -118,7 +118,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **initialize** **(** :ref:`String<class_String>` project_root_path **)**
 
-初始化VCS addon（如果还未初始化）。使用参数值作为项目工作目录的路径。如果需要，创建初始提交。如果成功，返回``true``，否则返回``false``。
+初始化VCS addon（如果还未初始化）。使用参数值作为项目工作目录的路径。如果需要，创建初始提交。如果成功，返回\ ``true``，否则返回\ ``false``。
 
 ----
 
@@ -126,7 +126,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_addon_ready** **(** **)**
 
-如果addon准备好响应函数调用，返回``true``，否则返回``false``。
+如果addon准备好响应函数调用，返回\ ``true``，否则返回\ ``false``。
 
 ----
 
@@ -134,7 +134,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_vcs_initialized** **(** **)**
 
-如果VCS插件已经初始化，返回``true``，否则返回``false``。
+如果VCS插件已经初始化，返回\ ``true``，否则返回\ ``false``。
 
 ----
 
@@ -142,7 +142,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **shut_down** **(** **)**
 
-关闭VCS插件，允许清理代码去调用运行。如果没有失败，返回``true``，否则返回``false``。
+关闭VCS插件，允许清理代码去调用运行。如果没有失败，返回\ ``true``，否则返回\ ``false``。
 
 ----
 
@@ -150,7 +150,7 @@ Method Descriptions
 
 - void **stage_file** **(** :ref:`String<class_String>` file_path **)**
 
-调用:ref:`commit<class_EditorVCSInterface_method_commit>`\ 时应提交的文件。参数应包含绝对路径。
+调用\ :ref:`commit<class_EditorVCSInterface_method_commit>`\ 时应提交的文件。参数应包含绝对路径。
 
 ----
 
@@ -158,7 +158,7 @@ Method Descriptions
 
 - void **unstage_file** **(** :ref:`String<class_String>` file_path **)**
 
-解除之前暂存的要提交的文件，以便在调用:ref:`commit<class_EditorVCSInterface_method_commit>`\ 时不再提交。参数应包含绝对路径。
+解除之前暂存的要提交的文件，以便在调用\ :ref:`commit<class_EditorVCSInterface_method_commit>`\ 时不再提交。参数应包含绝对路径。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

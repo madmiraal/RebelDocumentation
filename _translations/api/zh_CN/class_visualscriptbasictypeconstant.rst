@@ -16,7 +16,7 @@ VisualScriptBasicTypeConstant
 Description
 -----------
 
-表示基本类型常量的可视化脚本节点，如:ref:`Vector3.AXIS_X<class_Vector3_constant_AXIS_X>`。
+表示基本类型常量的可视化脚本节点，如\ :ref:`Vector3.AXIS_X<class_Vector3_constant_AXIS_X>`。
 
 Properties
 ----------

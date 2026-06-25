@@ -11,9 +11,9 @@ BitmapFont
 
 **Inherits:** :ref:`Font<class_Font>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
 
-使用`BMFont <https://www.angelcode.com/products/bmfont/>`__格式的字体来渲染文本。
+使用\ `BMFont <https://www.angelcode.com/products/bmfont/>`__\ 格式的字体来渲染文本。
 
-处理扩展名为``.fnt``\ 的文件。
+处理扩展名为\ ``.fnt``\ 的文件。
 
 Description
 -----------
@@ -85,7 +85,7 @@ Property Descriptions
 | *Getter*  | is_distance_field_hint()       |
 +-----------+--------------------------------+
 
-如果``true``，则启用距离字段提示。
+如果\ ``true``，则启用距离字段提示。
 
 ----
 
@@ -124,7 +124,7 @@ Method Descriptions
 
 - void **add_char** **(** :ref:`int<class_int>` character, :ref:`int<class_int>` texture, :ref:`Rect2<class_Rect2>` rect, :ref:`Vector2<class_Vector2>` align=Vector2( 0, 0 ), :ref:`float<class_float>` advance=-1 **)**
 
-添加一个字符到字体中，其中``character``\ 是Unicode值，``texture``\ 是纹理索引，``rect``\ 是纹理中的区域（以像素为单位！），``align``\ 是字符的对齐方式（可选），``advance``\ 是前进方式（可选）。
+添加一个字符到字体中，其中\ ``character``\ 是Unicode值，``texture``\ 是纹理索引，``rect``\ 是纹理中的区域（以像素为单位！），``align``\ 是字符的对齐方式（可选），``advance``\ 是前进方式（可选）。
 
 ----
 
@@ -140,7 +140,7 @@ Method Descriptions
 
 - void **add_texture** **(** :ref:`Texture<class_Texture>` texture **)**
 
-为``BitmapFont``\ 添加一个纹理。
+为\ ``BitmapFont``\ 添加一个纹理。
 
 ----
 
@@ -172,7 +172,7 @@ Method Descriptions
 
 - :ref:`Texture<class_Texture>` **get_texture** **(** :ref:`int<class_int>` idx **)** |const|
 
-返回位于索引``idx``\ 处的字体Atlas纹理。
+返回位于索引\ ``idx``\ 处的字体Atlas纹理。
 
 ----
 

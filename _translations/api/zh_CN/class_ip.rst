@@ -16,7 +16,7 @@ IP
 Description
 -----------
 
-IP包含对互联网协议（IP）的支持功能。TCP/IP支持在不同的类别中（见:ref:`StreamPeerTCP<class_StreamPeerTCP>`\ 和:ref:`TCP_Server<class_TCP_Server>`）。IP提供DNS主机名解析支持，包括阻塞式和线程式。
+IP包含对互联网协议（IP）的支持功能。TCP/IP支持在不同的类别中（见\ :ref:`StreamPeerTCP<class_StreamPeerTCP>`\ 和\ :ref:`TCP_Server<class_TCP_Server>`）。IP提供DNS主机名解析支持，包括阻塞式和线程式。
 
 Methods
 -------
@@ -95,9 +95,9 @@ Constants
 
 .. _class_IP_constant_RESOLVER_INVALID_ID:
 
-- **RESOLVER_MAX_QUERIES** = **32** --- 允许的最大并发DNS解析器查询数量，如果超过，则返回:ref:`RESOLVER_INVALID_ID<class_IP_constant_RESOLVER_INVALID_ID>`。
+- **RESOLVER_MAX_QUERIES** = **32** --- 允许的最大并发DNS解析器查询数量，如果超过，则返回\ :ref:`RESOLVER_INVALID_ID<class_IP_constant_RESOLVER_INVALID_ID>`。
 
-- **RESOLVER_INVALID_ID** = **-1** --- 无效的ID常数。如果超过了:ref:`RESOLVER_MAX_QUERIES<class_IP_constant_RESOLVER_MAX_QUERIES>`，则返回。
+- **RESOLVER_INVALID_ID** = **-1** --- 无效的ID常数。如果超过了\ :ref:`RESOLVER_MAX_QUERIES<class_IP_constant_RESOLVER_MAX_QUERIES>`，则返回。
 
 Method Descriptions
 -------------------
@@ -106,7 +106,7 @@ Method Descriptions
 
 - void **clear_cache** **(** :ref:`String<class_String>` hostname="" **)**
 
-移除所有``hostname``\ 主机名的缓存引用。如果没有给出``hostname``，所有缓存的IP地址将被删除。
+移除所有\ ``hostname``\ 主机名的缓存引用。如果没有给出\ ``hostname``，所有缓存的IP地址将被删除。
 
 ----
 
@@ -114,7 +114,7 @@ Method Descriptions
 
 - void **erase_resolve_item** **(** :ref:`int<class_int>` id **)**
 
-从队列中删除一个给定的项目``id``。这应该被用来在队列完成后释放队列，以便进行更多的查询。
+从队列中删除一个给定的项目\ ``id``。这应该被用来在队列完成后释放队列，以便进行更多的查询。
 
 ----
 
@@ -173,7 +173,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **resolve_hostname** **(** :ref:`String<class_String>` host, :ref:`Type<enum_IP_Type>` ip_type=3 **)**
 
-在解析时返回一个给定的主机名的IPv4或IPv6地址（阻塞类型方法）。返回的地址类型取决于作为``ip_type``\ 的:ref:`Type<enum_IP_Type>`\ 常量。
+在解析时返回一个给定的主机名的IPv4或IPv6地址（阻塞类型方法）。返回的地址类型取决于作为\ ``ip_type``\ 的\ :ref:`Type<enum_IP_Type>`\ 常量。
 
 ----
 
@@ -189,7 +189,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **resolve_hostname_queue_item** **(** :ref:`String<class_String>` host, :ref:`Type<enum_IP_Type>` ip_type=3 **)**
 
-创建一个队列项目，根据:ref:`Type<enum_IP_Type>`\ 常数``ip_type``，将主机名解析为IPv4或IPv6地址。如果成功，返回队列ID，否则返回:ref:`RESOLVER_INVALID_ID<class_IP_constant_RESOLVER_INVALID_ID>`。
+创建一个队列项目，根据\ :ref:`Type<enum_IP_Type>`\ 常数\ ``ip_type``，将主机名解析为IPv4或IPv6地址。如果成功，返回队列ID，否则返回\ :ref:`RESOLVER_INVALID_ID<class_IP_constant_RESOLVER_INVALID_ID>`。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

@@ -16,7 +16,7 @@ Rebel Engine editor's script editor.
 Description
 -----------
 
-**注意：** 这个类不应该被直接实例化。相反，使用:ref:`EditorInterface.get_script_editor<class_EditorInterface_method_get_script_editor>`\ 来访问这个单例。
+**注意：** 这个类不应该被直接实例化。相反，使用\ :ref:`EditorInterface.get_script_editor<class_EditorInterface_method_get_script_editor>`\ 来访问这个单例。
 
 Methods
 -------
@@ -103,7 +103,7 @@ Method Descriptions
 
 - void **open_script_create_dialog** **(** :ref:`String<class_String>` base_name, :ref:`String<class_String>` base_path **)**
 
-打开创建脚本的对话框。脚本将扩展``base_name``。文件扩展名可以从``base_path``\ 中省略。它将根据所选择的脚本语言添加。
+打开创建脚本的对话框。脚本将扩展\ ``base_name``。文件扩展名可以从\ ``base_path``\ 中省略。它将根据所选择的脚本语言添加。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

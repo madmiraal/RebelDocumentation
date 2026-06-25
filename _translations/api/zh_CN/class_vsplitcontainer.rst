@@ -16,7 +16,7 @@ VSplitContainer
 Description
 -----------
 
-垂直拆分容器。参阅:ref:`SplitContainer<class_SplitContainer>`。这是从上到下的。
+垂直拆分容器。参阅\ :ref:`SplitContainer<class_SplitContainer>`。这是从上到下的。
 
 Theme Properties
 ----------------

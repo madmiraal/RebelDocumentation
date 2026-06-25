@@ -215,9 +215,9 @@ Called when the user performs an action in the system global menu (e.g. the macO
 
 - :ref:`bool<class_bool>` **_idle** **(** :ref:`float<class_float>` delta **)** |virtual|
 
-在每个空闲帧中调用，参数为自上一个空闲帧以来的时间（以秒为单位）。相当于:ref:`Node._process<class_Node_method__process>`。
+在每个空闲帧中调用，参数为自上一个空闲帧以来的时间（以秒为单位）。相当于\ :ref:`Node._process<class_Node_method__process>`。
 
-如果实施，该方法必须返回一个布尔值。``true`` 结束主循环，而``false`` 让它进入下一帧。
+如果实施，该方法必须返回一个布尔值。``true`` 结束主循环，而\ ``false`` 让它进入下一帧。
 
 ----
 
@@ -233,7 +233,7 @@ Called when the user performs an action in the system global menu (e.g. the macO
 
 - void **_input_event** **(** :ref:`InputEvent<class_InputEvent>` event **)** |virtual|
 
-每当主循环接收到:ref:`InputEvent<class_InputEvent>`\ 时，就会调用。
+每当主循环接收到\ :ref:`InputEvent<class_InputEvent>`\ 时，就会调用。
 
 ----
 
@@ -249,9 +249,9 @@ Deprecated callback, does not do anything. Use :ref:`_input_event<class_MainLoop
 
 - :ref:`bool<class_bool>` **_iteration** **(** :ref:`float<class_float>` delta **)** |virtual|
 
-在每个物理帧中调用，并将自上一个物理帧以来的时间作为参数，``delta``，单位为秒。相当于:ref:`Node._physics_process<class_Node_method__physics_process>`。
+在每个物理帧中调用，并将自上一个物理帧以来的时间作为参数，``delta``，单位为秒。相当于\ :ref:`Node._physics_process<class_Node_method__physics_process>`。
 
-如果实现，该方法必须返回一个布尔值。``true``\ 结束主循环，而``false``\ 让它进入下一帧。
+如果实现，该方法必须返回一个布尔值。``true``\ 结束主循环，而\ ``false``\ 让它进入下一帧。
 
 ----
 

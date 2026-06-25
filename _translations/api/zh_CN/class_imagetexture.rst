@@ -46,7 +46,7 @@ Description
 
 ``ImageTexture`` 不是直接在编辑器界面中操作的，主要用于通过代码在屏幕上动态渲染图像。如果您需要在编辑器中按程序生成图像，请考虑将图像保存和导入为自定义纹理资源，以实现新的 :ref:`EditorImportPlugin<class_EditorImportPlugin>`。
 
-**注意：**由于图形硬件限制，最大纹理尺寸为16384×16384像素。
+**注意：**\ 由于图形硬件限制，最大纹理尺寸为16384×16384像素。
 
 Tutorials
 ---------
@@ -96,7 +96,7 @@ enum **Storage**:
 
 - **STORAGE_RAW** = **0** --- :ref:`Image<class_Image>` 图像的原始储存数据。
 
-- **STORAGE_COMPRESS_LOSSY** = **1** --- :ref:`Image<class_Image>`\ 数据是用有损算法压缩的。 你可以用:ref:`lossy_quality<class_ImageTexture_property_lossy_quality>`\ 设置存储质量。
+- **STORAGE_COMPRESS_LOSSY** = **1** --- :ref:`Image<class_Image>`\ 数据是用有损算法压缩的。 你可以用\ :ref:`lossy_quality<class_ImageTexture_property_lossy_quality>`\ 设置存储质量。
 
 - **STORAGE_COMPRESS_LOSSLESS** = **2** --- :ref:`Image<class_Image>`\ 数据是用无损算法压缩的。
 
@@ -140,9 +140,9 @@ Method Descriptions
 
 - void **create** **(** :ref:`int<class_int>` width, :ref:`int<class_int>` height, :ref:`Format<enum_Image_Format>` format, :ref:`int<class_int>` flags=7 **)**
 
-创建具有``width``\ 和``height``\ 的新``ImageTexture``。
+创建具有\ ``width``\ 和\ ``height``\ 的新\ ``ImageTexture``。
 
-``format``\ 是:ref:`Format<enum_Image_Format>`\ 中的一个值，``flags``\ 是:ref:`Flags<enum_Texture_Flags>`\ 的任意组合。
+``format``\ 是\ :ref:`Format<enum_Image_Format>`\ 中的一个值，``flags``\ 是\ :ref:`Flags<enum_Texture_Flags>`\ 的任意组合。
 
 ----
 
@@ -178,7 +178,7 @@ Loads an image from a file path and creates a texture from it.
 
 用新的 :ref:`Image<class_Image>` 替换纹理的数据。
 
-**注意：**纹理必须先用 :ref:`create_from_image<class_ImageTexture_method_create_from_image>` 方法初始化，然后才能更新。新的图像尺寸、格式和多级渐远纹理配置应与现有纹理的图像配置相匹配，否则必须使用 :ref:`create_from_image<class_ImageTexture_method_create_from_image>` 方法重新创建。
+**注意：**\ 纹理必须先用 :ref:`create_from_image<class_ImageTexture_method_create_from_image>` 方法初始化，然后才能更新。新的图像尺寸、格式和多级渐远纹理配置应与现有纹理的图像配置相匹配，否则必须使用 :ref:`create_from_image<class_ImageTexture_method_create_from_image>` 方法重新创建。
 
 如果需要频繁更新纹理，请在 :ref:`create_from_image<class_ImageTexture_method_create_from_image>` 上使用此方法，这比每次为新纹理分配额外内存要快。
 

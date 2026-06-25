@@ -18,7 +18,7 @@ AudioStreamPlayback
 Description
 -----------
 
-可以播放，循环，暂停滚动音频。有关用法，请参阅:ref:`AudioStream<class_AudioStream>`\ 和:ref:`AudioStreamOGGVorbis<class_AudioStreamOGGVorbis>`。
+可以播放，循环，暂停滚动音频。有关用法，请参阅\ :ref:`AudioStream<class_AudioStream>`\ 和\ :ref:`AudioStreamOGGVorbis<class_AudioStreamOGGVorbis>`。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

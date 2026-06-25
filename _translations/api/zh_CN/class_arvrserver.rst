@@ -94,7 +94,7 @@ Signals
 
 - **tracker_added** **(** :ref:`String<class_String>` tracker_name, :ref:`int<class_int>` type, :ref:`int<class_int>` id **)**
 
-当新的追踪器被添加时触发。如果你不使用固定数量的控制器，或者你在AR解决方案中使用:ref:`ARVRAnchor<class_ARVRAnchor>`，那么对这个信号做出反应，以添加与这个新追踪器相关的适当的:ref:`ARVRController<class_ARVRController>`\ 或:ref:`ARVRAnchor<class_ARVRAnchor>`\ 节点，将会很重要。
+当新的追踪器被添加时触发。如果你不使用固定数量的控制器，或者你在AR解决方案中使用\ :ref:`ARVRAnchor<class_ARVRAnchor>`，那么对这个信号做出反应，以添加与这个新追踪器相关的适当的\ :ref:`ARVRController<class_ARVRController>`\ 或\ :ref:`ARVRAnchor<class_ARVRAnchor>`\ 节点，将会很重要。
 
 ----
 
@@ -191,7 +191,7 @@ Method Descriptions
 
 - void **add_interface** **(** :ref:`ARVRInterface<class_ARVRInterface>` interface **)**
 
-注册一个:ref:`ARVRInterface<class_ARVRInterface>`\ 对象。
+注册一个\ :ref:`ARVRInterface<class_ARVRInterface>`\ 对象。
 
 ----
 
@@ -199,7 +199,7 @@ Method Descriptions
 
 - void **add_tracker** **(** :ref:`ARVRPositionalTracker<class_ARVRPositionalTracker>` tracker **)**
 
-注册一个新的:ref:`ARVRPositionalTracker<class_ARVRPositionalTracker>`，跟踪现实空间中的空间位置。
+注册一个新的\ :ref:`ARVRPositionalTracker<class_ARVRPositionalTracker>`，跟踪现实空间中的空间位置。
 
 ----
 
@@ -257,7 +257,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_interface_count** **(** **)** |const|
 
-返回当前在AR/VR服务器上注册的接口数量。如果你的项目支持多个AR/VR平台，你可以查看可用的接口，并向用户展示一个选择，或者简单地尝试初始化每个接口，并使用第一个返回``true``\ 的接口。
+返回当前在AR/VR服务器上注册的接口数量。如果你的项目支持多个AR/VR平台，你可以查看可用的接口，并向用户展示一个选择，或者简单地尝试初始化每个接口，并使用第一个返回\ ``true``\ 的接口。
 
 ----
 
@@ -281,7 +281,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_last_frame_usec** **(** **)**
 
-返回最后一帧的持续时间（单位：μs）。这被计算为提交时:ref:`get_last_commit_usec<class_ARVRServer_method_get_last_commit_usec>`\ 和:ref:`get_last_process_usec<class_ARVRServer_method_get_last_process_usec>`\ 之间的差异。
+返回最后一帧的持续时间（单位：μs）。这被计算为提交时\ :ref:`get_last_commit_usec<class_ARVRServer_method_get_last_commit_usec>`\ 和\ :ref:`get_last_process_usec<class_ARVRServer_method_get_last_process_usec>`\ 之间的差异。
 
 ----
 

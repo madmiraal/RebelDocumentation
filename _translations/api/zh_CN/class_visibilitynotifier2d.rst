@@ -20,9 +20,9 @@ Description
 
 VisibilityNotifier2D检测它在屏幕上是否可见。当它的边界矩形进入或退出屏幕或视窗时，它也会发出通知。
 
-如果你想让节点在退出屏幕时自动禁用，请使用:ref:`VisibilityEnabler2D<class_VisibilityEnabler2D>`\ 代替。
+如果你想让节点在退出屏幕时自动禁用，请使用\ :ref:`VisibilityEnabler2D<class_VisibilityEnabler2D>`\ 代替。
 
-**注意：** 由于性能原因，VisibilityNotifier2D使用一个近似的启发式方法，其精度由 :ref:`ProjectSettings.world/2d/cell_size<class_ProjectSettings_property_world/2d/cell_size>` 决定。如果你需要精确的可见性检查，请使用另一种方法，如添加一个:ref:`Area2D<class_Area2D>`\ 节点作为:ref:`Camera2D<class_Camera2D>`\ 节点的子节点。
+**注意：** 由于性能原因，VisibilityNotifier2D使用一个近似的启发式方法，其精度由 :ref:`ProjectSettings.world/2d/cell_size<class_ProjectSettings_property_world/2d/cell_size>` 决定。如果你需要精确的可见性检查，请使用另一种方法，如添加一个\ :ref:`Area2D<class_Area2D>`\ 节点作为\ :ref:`Camera2D<class_Camera2D>`\ 节点的子节点。
 
 Properties
 ----------
@@ -61,7 +61,7 @@ Signals
 
 - **viewport_entered** **(** :ref:`Viewport<class_Viewport>` viewport **)**
 
-当VisibilityNotifier2D进入:ref:`Viewport<class_Viewport>`\ 的视图时触发。
+当VisibilityNotifier2D进入\ :ref:`Viewport<class_Viewport>`\ 的视图时触发。
 
 ----
 
@@ -69,7 +69,7 @@ Signals
 
 - **viewport_exited** **(** :ref:`Viewport<class_Viewport>` viewport **)**
 
-当VisibilityNotifier2D退出:ref:`Viewport<class_Viewport>`\ 的视图时触发。
+当VisibilityNotifier2D退出\ :ref:`Viewport<class_Viewport>`\ 的视图时触发。
 
 Property Descriptions
 ---------------------
@@ -95,9 +95,9 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_on_screen** **(** **)** |const|
 
-如果``true``，则边界矩形在屏幕上。
+如果\ ``true``，则边界矩形在屏幕上。
 
-**注意：**一旦添加到场景树中，需要一帧来计算节点的可见性，所以这个方法将在它被实例化后立即返回``false``，即使屏幕在绘制过程中。
+**注意：**\ 一旦添加到场景树中，需要一帧来计算节点的可见性，所以这个方法将在它被实例化后立即返回\ ``false``，即使屏幕在绘制过程中。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

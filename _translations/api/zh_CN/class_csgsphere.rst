@@ -117,7 +117,7 @@ Property Descriptions
 | *Getter*  | get_smooth_faces()      |
 +-----------+-------------------------+
 
-如果``true``，则将圆柱体的法线设置为具有平滑效果，使圆柱体看起来是圆形的。如果``false``，则圆柱体将具有平坦的阴影表现。
+如果\ ``true``，则将圆柱体的法线设置为具有平滑效果，使圆柱体看起来是圆形的。如果\ ``false``，则圆柱体将具有平坦的阴影表现。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

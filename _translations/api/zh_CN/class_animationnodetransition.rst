@@ -16,7 +16,7 @@ AnimationNodeTransition
 Description
 -----------
 
-简单的状态机，适用于不需要更高级的:ref:`AnimationNodeStateMachine<class_AnimationNodeStateMachine>`\ 的情况。可以将动画连接到输入，并指定过渡时间。
+简单的状态机，适用于不需要更高级的\ :ref:`AnimationNodeStateMachine<class_AnimationNodeStateMachine>`\ 的情况。可以将动画连接到输入，并指定过渡时间。
 
 Tutorials
 ---------

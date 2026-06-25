@@ -69,7 +69,7 @@ enum **Param**:
 
 摆动跨度定义了，多少旋转不会沿着摆动轴得到纠正。
 
-可以定义``ConeTwistJoint``\ 的松动性。
+可以定义\ ``ConeTwistJoint``\ 的松动性。
 
 如果低于0.05，此行为被锁定。
 
@@ -152,7 +152,7 @@ Property Descriptions
 
 摆动跨度定义了，多少旋转不会沿着摆动轴得到纠正。
 
-可以定义``ConeTwistJoint``\ 的松动性。
+可以定义\ ``ConeTwistJoint``\ 的松动性。
 
 如果低于0.05，此行为被锁定。
 

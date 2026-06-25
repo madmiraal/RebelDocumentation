@@ -35,11 +35,11 @@ Description
     var array2 = [3, "4"]
     print(array1 + array2) # ["One", 2, 3, "Four"]
 
-**注意：**用 ``+=`` 操作符串联将创建一个新的数组，这是有代价的。如果你想把另一个数组追加到现有的数组中，:ref:`append_array<class_Array_method_append_array>` 会更有效。
+**注意：**\ 用 ``+=`` 操作符串联将创建一个新的数组，这是有代价的。如果你想把另一个数组追加到现有的数组中，:ref:`append_array<class_Array_method_append_array>` 会更有效。
 
-**注意：**数组总是通过引用来传递。要获得一个可以独立于原始数组而被修改的数组的副本，请使用 :ref:`duplicate<class_Array_method_duplicate>`。
+**注意：**\ 数组总是通过引用来传递。要获得一个可以独立于原始数组而被修改的数组的副本，请使用 :ref:`duplicate<class_Array_method_duplicate>`。
 
-**注意：**当用 ``const`` 声明数组时，数组本身仍然可以通过定义各个索引上的值或推/移元素而被修改。使用 ``const`` 只能防止在初始化常数后将其赋值给另一个值。
+**注意：**\ 当用 ``const`` 声明数组时，数组本身仍然可以通过定义各个索引上的值或推/移元素而被修改。使用 ``const`` 只能防止在初始化常数后将其赋值给另一个值。
 
 Methods
 -------
@@ -131,43 +131,43 @@ Method Descriptions
 
 - :ref:`Array<class_Array>` **Array** **(** :ref:`PoolColorArray<class_PoolColorArray>` from **)**
 
-从:ref:`PoolColorArray<class_PoolColorArray>`\ 构建一个数组。
+从\ :ref:`PoolColorArray<class_PoolColorArray>`\ 构建一个数组。
 
 ----
 
 - :ref:`Array<class_Array>` **Array** **(** :ref:`PoolVector3Array<class_PoolVector3Array>` from **)**
 
-从一个:ref:`PoolVector3Array<class_PoolVector3Array>`\ 构建一个数组。
+从一个\ :ref:`PoolVector3Array<class_PoolVector3Array>`\ 构建一个数组。
 
 ----
 
 - :ref:`Array<class_Array>` **Array** **(** :ref:`PoolVector2Array<class_PoolVector2Array>` from **)**
 
-从:ref:`PoolVector2Array<class_PoolVector2Array>`\ 构造一个数组。
+从\ :ref:`PoolVector2Array<class_PoolVector2Array>`\ 构造一个数组。
 
 ----
 
 - :ref:`Array<class_Array>` **Array** **(** :ref:`PoolStringArray<class_PoolStringArray>` from **)**
 
-从:ref:`PoolStringArray<class_PoolStringArray>`\ 构建一个数组。
+从\ :ref:`PoolStringArray<class_PoolStringArray>`\ 构建一个数组。
 
 ----
 
 - :ref:`Array<class_Array>` **Array** **(** :ref:`PoolRealArray<class_PoolRealArray>` from **)**
 
-从:ref:`PoolRealArray<class_PoolRealArray>`\ 构造一个数组。
+从\ :ref:`PoolRealArray<class_PoolRealArray>`\ 构造一个数组。
 
 ----
 
 - :ref:`Array<class_Array>` **Array** **(** :ref:`PoolIntArray<class_PoolIntArray>` from **)**
 
-从:ref:`PoolIntArray<class_PoolIntArray>`\ 构建一个数组。
+从\ :ref:`PoolIntArray<class_PoolIntArray>`\ 构建一个数组。
 
 ----
 
 - :ref:`Array<class_Array>` **Array** **(** :ref:`PoolByteArray<class_PoolByteArray>` from **)**
 
-从:ref:`PoolByteArray<class_PoolByteArray>`\ 构建一个数组。
+从\ :ref:`PoolByteArray<class_PoolByteArray>`\ 构建一个数组。
 
 ----
 
@@ -198,9 +198,9 @@ Method Descriptions
 
 - :ref:`Variant<class_Variant>` **back** **(** **)**
 
-返回数组的最后一个元素。如果数组为空，则打印一个错误并返回``null``。
+返回数组的最后一个元素。如果数组为空，则打印一个错误并返回\ ``null``。
 
-**注意：** 调用这个函数与写入``array[-1]``\ 不一样，如果数组是空的，当从编辑器运行时，按索引访问将暂停项目的执行。
+**注意：** 调用这个函数与写入\ ``array[-1]``\ 不一样，如果数组是空的，当从编辑器运行时，按索引访问将暂停项目的执行。
 
 ----
 
@@ -218,7 +218,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **bsearch_custom** **(** :ref:`Variant<class_Variant>` value, :ref:`Object<class_Object>` obj, :ref:`String<class_String>` func, :ref:`bool<class_bool>` before=true **)**
 
-使用二分法查找以及在``obj``\ 中声明的自定义比较方法，已有值的索引（该值不存在时，为现有顺序下的插入索引）。``before`` 参数是可选的，为 ``false`` 时返回的索引位于数组中所有同值元素之后。自定义方法接收两个参数（数组中的值和要搜索的值），如果第一个参数小于第二个参数，必须返回``true``，否则返回``false``。
+使用二分法查找以及在\ ``obj``\ 中声明的自定义比较方法，已有值的索引（该值不存在时，为现有顺序下的插入索引）。``before`` 参数是可选的，为 ``false`` 时返回的索引位于数组中所有同值元素之后。自定义方法接收两个参数（数组中的值和要搜索的值），如果第一个参数小于第二个参数，必须返回\ ``true``，否则返回\ ``false``。
 
 ::
 
@@ -243,7 +243,7 @@ Method Descriptions
         # `compare`是在这个对象中定义的，所以我们用`self`作为`obj`参数。
         print(a.bsearch_custom("three", self, "compare", true))# 预期的值是2。
 
-**注意:** 在未排序的数组上调用:ref:`bsearch_custom<class_Array_method_bsearch_custom>`\ 会导致预料之外的行为。
+**注意:** 在未排序的数组上调用\ :ref:`bsearch_custom<class_Array_method_bsearch_custom>`\ 会导致预料之外的行为。
 
 ----
 
@@ -315,7 +315,7 @@ Removes the first occurrence of a value from the array. If the value does not ex
 
 返回数组的第一个元素。如果数组为空，则打印错误并返回 ``null``。
 
-**注：**调用这个函数和写``array[0]``\ 是不一样的，如果数组为空，从编辑器运行时按索引访问将暂停项目执行。
+**注：**\ 调用这个函数和写\ ``array[0]``\ 是不一样的，如果数组为空，从编辑器运行时按索引访问将暂停项目执行。
 
 ----
 
@@ -332,7 +332,7 @@ Removes the first occurrence of a value from the array. If the value does not ex
     ["inside", 7].has(7) # True
     ["inside", 7].has("7") # False
 
- **注意：**这等同于使用``in``\ 操作符，如下所示。
+ **注意：**\ 这等同于使用\ ``in``\ 操作符，如下所示。
 
 ::
 
@@ -393,9 +393,9 @@ Returns a hashed 32-bit integer value representing the array and its contents.
 
 - :ref:`Variant<class_Variant>` **pop_at** **(** :ref:`int<class_int>` position **)**
 
-移除并返回索引``position``\ 处的数组元素。如果是负数，``position``\ 被认为是相对于数组的末端。如果数组是空的或者被越界访问，则保留数组不动，并返回``null``。当数组被越界访问时，会打印出一条错误信息，但当数组为空时，则不会。
+移除并返回索引\ ``position``\ 处的数组元素。如果是负数，``position``\ 被认为是相对于数组的末端。如果数组是空的或者被越界访问，则保留数组不动，并返回\ ``null``。当数组被越界访问时，会打印出一条错误信息，但当数组为空时，则不会。
 
-**注意：** 在大的数组上，这个方法可能比:ref:`pop_back<class_Array_method_pop_back>`\ 慢，因为它将重新索引位于被移除元素之后的数组元素。数组越大，被移除元素的索引越低，:ref:`pop_at<class_Array_method_pop_at>`\ 的速度就越慢。
+**注意：** 在大的数组上，这个方法可能比\ :ref:`pop_back<class_Array_method_pop_back>`\ 慢，因为它将重新索引位于被移除元素之后的数组元素。数组越大，被移除元素的索引越低，:ref:`pop_at<class_Array_method_pop_at>`\ 的速度就越慢。
 
 ----
 
@@ -411,7 +411,7 @@ Returns a hashed 32-bit integer value representing the array and its contents.
 
 - :ref:`Variant<class_Variant>` **pop_front** **(** **)**
 
-移除并返回数组的第一个元素。如果数组是空的，将不会输出任何错误信息并返回``null``。另请参阅 :ref:`pop_back<class_Array_method_pop_back>`。
+移除并返回数组的第一个元素。如果数组是空的，将不会输出任何错误信息并返回\ ``null``。另请参阅 :ref:`pop_back<class_Array_method_pop_back>`。
 
 **注意：** 当数组元素很多时，由于 :ref:`pop_front<class_Array_method_pop_front>` 每次调用时都要重新寻找数组所有元素的索引，所以会比 :ref:`pop_back<class_Array_method_pop_back>` 慢很多。数组 越大，:ref:`pop_front<class_Array_method_pop_front>` 越慢。
 
@@ -421,7 +421,7 @@ Returns a hashed 32-bit integer value representing the array and its contents.
 
 - void **push_back** **(** :ref:`Variant<class_Variant>` value **)**
 
-在数组的末端添加一个元素。参阅:ref:`push_front<class_Array_method_push_front>`。
+在数组的末端添加一个元素。参阅\ :ref:`push_front<class_Array_method_push_front>`。
 
 ----
 
@@ -429,9 +429,9 @@ Returns a hashed 32-bit integer value representing the array and its contents.
 
 - void **push_front** **(** :ref:`Variant<class_Variant>` value **)**
 
-在数组的开头添加一个元素。参阅:ref:`push_back<class_Array_method_push_back>`。
+在数组的开头添加一个元素。参阅\ :ref:`push_back<class_Array_method_push_back>`。
 
-**注意:** 在大数组中，这个方法比:ref:`push_back<class_Array_method_push_back>`\ 慢得多，因为每次调用它都会重新索引所有数组的元素。数组越大，:ref:`push_front<class_Array_method_push_front>`\ 的速度就越慢。
+**注意:** 在大数组中，这个方法比\ :ref:`push_back<class_Array_method_push_back>`\ 慢得多，因为每次调用它都会重新索引所有数组的元素。数组越大，:ref:`push_front<class_Array_method_push_front>`\ 的速度就越慢。
 
 ----
 
@@ -439,7 +439,7 @@ Returns a hashed 32-bit integer value representing the array and its contents.
 
 - void **remove** **(** :ref:`int<class_int>` position **)**
 
-按索引从数组中移除一个元素。如果索引在数组中不存在，则什么也不会发生。要通过搜索一个元素的值来移除它，请使用:ref:`erase<class_Array_method_erase>`\ 来代替。
+按索引从数组中移除一个元素。如果索引在数组中不存在，则什么也不会发生。要通过搜索一个元素的值来移除它，请使用\ :ref:`erase<class_Array_method_erase>`\ 来代替。
 
 **注意:** 这个方法是就地操作，不返回值。
 
@@ -483,7 +483,7 @@ Returns a hashed 32-bit integer value representing the array and its contents.
 
 - :ref:`Array<class_Array>` **slice** **(** :ref:`int<class_int>` begin, :ref:`int<class_int>` end, :ref:`int<class_int>` step=1, :ref:`bool<class_bool>` deep=false **)**
 
-复制函数中描述的子集并以数组形式返回，如果``deep``\ 为``true``，则深度复制数组。下索引和上索引是包含的，``step``\ 描述了分片时索引之间的变化。
+复制函数中描述的子集并以数组形式返回，如果\ ``deep``\ 为\ ``true``，则深度复制数组。下索引和上索引是包含的，``step``\ 描述了分片时索引之间的变化。
 
 ----
 
@@ -493,7 +493,7 @@ Returns a hashed 32-bit integer value representing the array and its contents.
 
 对数组进行排序。
 
-**注意：**字符串按字母顺序排序（与自然顺序相反）。当对一个以数字序列结尾的字符串数组进行排序时，这可能会导致意外的行为。请看下面的例子。
+**注意：**\ 字符串按字母顺序排序（与自然顺序相反）。当对一个以数字序列结尾的字符串数组进行排序时，这可能会导致意外的行为。请看下面的例子。
 
 ::
 
@@ -511,7 +511,7 @@ Returns a hashed 32-bit integer value representing the array and its contents.
 
 对于两个元素 ``a`` 和 ``b``，如果给定的方法返回 ``true``，元素 ``b`` 将在数组中元素 ``a`` 之后。
 
-**注意：**你不能随机化返回值，因为堆排序算法期望一个确定的结果。而这样做会导致意外的行为。
+**注意：**\ 你不能随机化返回值，因为堆排序算法期望一个确定的结果。而这样做会导致意外的行为。
 
 ::
 

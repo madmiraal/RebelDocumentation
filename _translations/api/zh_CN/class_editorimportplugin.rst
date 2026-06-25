@@ -105,7 +105,7 @@ Method Descriptions
 
 - :ref:`Array<class_Array>` **get_import_options** **(** :ref:`int<class_int>` preset **)** |virtual|
 
-获取该索引下预设的选项和默认值。返回一个字典数组，包含以下键名：``name``、``default_value``、``property_hint``（可选）、``hint_string``（可选）、``usage``（可选）。
+获取该索引下预设的选项和默认值。返回一个字典数组，包含以下键名：``name``、``default_value``、``property_hint``\ （可选）、``hint_string``\ （可选）、``usage``\ （可选）。
 
 ----
 
@@ -113,7 +113,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_import_order** **(** **)** |virtual|
 
-获取该导入器在导入资源时的运行顺序。具有*较低*导入顺序的导入器将被首先调用，较高值的将被其后调用。使用这个来确保导入器在依赖项已经被导入后执行。默认的导入顺序是 ``0``，除非被指定的导入器重写。参阅 :ref:`ImportOrder<enum_ResourceImporter_ImportOrder>` 了解相关预定义的值。
+获取该导入器在导入资源时的运行顺序。具有\ *较低*\ 导入顺序的导入器将被首先调用，较高值的将被其后调用。使用这个来确保导入器在依赖项已经被导入后执行。默认的导入顺序是 ``0``，除非被指定的导入器重写。参阅 :ref:`ImportOrder<enum_ResourceImporter_ImportOrder>` 了解相关预定义的值。
 
 ----
 
@@ -140,7 +140,7 @@ Method Descriptions
     
         return true
 
-返回``true``，使所有选项始终可见。
+返回\ ``true``，使所有选项始终可见。
 
 ----
 
@@ -148,7 +148,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_preset_count** **(** **)** |virtual|
 
-获取插件定义的初始预置数量。使用:ref:`get_import_options<class_EditorImportPlugin_method_get_import_options>`\ 获取预设的默认选项，使用:ref:`get_preset_name<class_EditorImportPlugin_method_get_preset_name>`\ 获取预设的名称。
+获取插件定义的初始预置数量。使用\ :ref:`get_import_options<class_EditorImportPlugin_method_get_import_options>`\ 获取预设的默认选项，使用\ :ref:`get_preset_name<class_EditorImportPlugin_method_get_preset_name>`\ 获取预设的名称。
 
 ----
 
@@ -164,7 +164,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **get_priority** **(** **)** |virtual|
 
-获取该插件对识别的扩展的优先级。优先级越高的插件会被优先选择。默认的优先级是``1.0``。
+获取该插件对识别的扩展的优先级。优先级越高的插件会被优先选择。默认的优先级是\ ``1.0``。
 
 ----
 
@@ -188,7 +188,7 @@ Gets the Rebel Engine resource type associated with this loader. e.g. ``"Mesh"``
 
 - :ref:`String<class_String>` **get_save_extension** **(** **)** |virtual|
 
-获取用于在``.import``\ 目录中保存此资源的扩展名，参阅:ref:`ProjectSettings.application/config/use_hidden_project_data_directory<class_ProjectSettings_property_application/config/use_hidden_project_data_directory>`。
+获取用于在\ ``.import``\ 目录中保存此资源的扩展名，参阅\ :ref:`ProjectSettings.application/config/use_hidden_project_data_directory<class_ProjectSettings_property_application/config/use_hidden_project_data_directory>`。
 
 ----
 

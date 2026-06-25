@@ -11,7 +11,7 @@ AudioStreamGeneratorPlayback
 
 **Inherits:** :ref:`AudioStreamPlaybackResampled<class_AudioStreamPlaybackResampled>` **<** :ref:`AudioStreamPlayback<class_AudioStreamPlayback>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
 
-播放使用:ref:`AudioStreamGenerator<class_AudioStreamGenerator>`\ 生成的音频。
+播放使用\ :ref:`AudioStreamGenerator<class_AudioStreamGenerator>`\ 生成的音频。
 
 Description
 -----------
@@ -80,7 +80,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **push_frame** **(** :ref:`Vector2<class_Vector2>` frame **)**
 
-将单个音频数据帧推送到缓冲区。在C#和通过GDNative编译的语言中，这通常比:ref:`push_buffer<class_AudioStreamGeneratorPlayback_method_push_buffer>`\ 效率低，但在GDScript中:ref:`push_frame<class_AudioStreamGeneratorPlayback_method_push_frame>`\ 可能*更高效*。
+将单个音频数据帧推送到缓冲区。在C#和通过GDNative编译的语言中，这通常比\ :ref:`push_buffer<class_AudioStreamGeneratorPlayback_method_push_buffer>`\ 效率低，但在GDScript中\ :ref:`push_frame<class_AudioStreamGeneratorPlayback_method_push_frame>`\ 可能\ *更高效*。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`
