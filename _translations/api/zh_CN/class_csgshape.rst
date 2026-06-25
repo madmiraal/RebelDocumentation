@@ -115,7 +115,7 @@ Property Descriptions
 
 可碰撞的物体可以存在于32个不同层中的任何一个。这些层的工作就像一个标签系统，而不是可视化的。一个可碰撞物体可以使用这些层来选择它可以与哪些物体碰撞，使用 collision_mask 属性。
 
-如果对象A在对象B所扫描的任何层中，或者对象B在对象A所扫描的任何层中，就会检测到接触。详见文档中的:ref:`碰撞层和掩码 <tutorials/physics/physics_introduction:collision layers and masks>`。
+如果对象A在对象B所扫描的任何层中，或者对象B在对象A所扫描的任何层中，就会检测到接触。详见文档中的\ :ref:`碰撞层和掩码 <tutorials/physics/physics_introduction:collision layers and masks>`。
 
 ----
 
@@ -204,7 +204,7 @@ Method Descriptions
 
 - :ref:`Array<class_Array>` **get_meshes** **(** **)** |const|
 
-返回带有两个元素的:ref:`Array<class_Array>`，第一个是此节点的:ref:`Transform<class_Transform>`，第二个是此节点的根:ref:`Mesh<class_Mesh>`。仅当此节点为根形时才有效。
+返回带有两个元素的\ :ref:`Array<class_Array>`，第一个是此节点的\ :ref:`Transform<class_Transform>`，第二个是此节点的根\ :ref:`Mesh<class_Mesh>`。仅当此节点为根形时才有效。
 
 ----
 
@@ -212,7 +212,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_root_shape** **(** **)** |const|
 
-如果这是根形状，因此是渲染的对象，则返回``true``。
+如果这是根形状，因此是渲染的对象，则返回\ ``true``。
 
 ----
 

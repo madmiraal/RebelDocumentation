@@ -18,7 +18,7 @@ Description
 
 用于从文件系统加载资源文件的单例。
 
-它使用在引擎中注册的许多:ref:`ResourceFormatLoader<class_ResourceFormatLoader>`\ 类（无论是内置的还是来自插件的）来将文件加载到内存中，并将它们转换为引擎可以使用的格式。
+它使用在引擎中注册的许多\ :ref:`ResourceFormatLoader<class_ResourceFormatLoader>`\ 类（无论是内置的还是来自插件的）来将文件加载到内存中，并将它们转换为引擎可以使用的格式。
 
 Methods
 -------
@@ -48,9 +48,9 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **exists** **(** :ref:`String<class_String>` path, :ref:`String<class_String>` type_hint="" **)**
 
-返回给定的``path``\ 是否存在已识别的资源。
+返回给定的\ ``path``\ 是否存在已识别的资源。
 
-一个可选的``type_hint``\ 可以用来进一步指定:ref:`ResourceFormatLoader<class_ResourceFormatLoader>`\ 应该处理的:ref:`Resource<class_Resource>`\ 类型。
+一个可选的\ ``type_hint``\ 可以用来进一步指定\ :ref:`ResourceFormatLoader<class_ResourceFormatLoader>`\ 应该处理的\ :ref:`Resource<class_Resource>`\ 类型。
 
 ----
 
@@ -58,7 +58,7 @@ Method Descriptions
 
 - :ref:`PoolStringArray<class_PoolStringArray>` **get_dependencies** **(** :ref:`String<class_String>` path **)**
 
-返回给定``path``\ 处资源的依赖关系。
+返回给定\ ``path``\ 处资源的依赖关系。
 
 ----
 
@@ -74,7 +74,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **has** **(** :ref:`String<class_String>` path **)**
 
-*废弃的方法。*使用:ref:`has_cached<class_ResourceLoader_method_has_cached>`\ 或:ref:`exists<class_ResourceLoader_method_exists>`\ 代替。
+*废弃的方法。*\ 使用\ :ref:`has_cached<class_ResourceLoader_method_has_cached>`\ 或\ :ref:`exists<class_ResourceLoader_method_exists>`\ 代替。
 
 ----
 
@@ -82,9 +82,9 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **has_cached** **(** :ref:`String<class_String>` path **)**
 
-返回给定路径``path``\ 的缓存资源是否可用。
+返回给定路径\ ``path``\ 的缓存资源是否可用。
 
-一旦资源被引擎加载，它就会被缓存在内存中，以便更快地访问，未来对:ref:`load<class_ResourceLoader_method_load>`\ 或:ref:`load_interactive<class_ResourceLoader_method_load_interactive>`\ 方法的调用将使用缓存的版本。缓存的资源可以通过对同一路径的新资源使用:ref:`Resource.take_over_path<class_Resource_method_take_over_path>`\ 来覆盖。
+一旦资源被引擎加载，它就会被缓存在内存中，以便更快地访问，未来对\ :ref:`load<class_ResourceLoader_method_load>`\ 或\ :ref:`load_interactive<class_ResourceLoader_method_load_interactive>`\ 方法的调用将使用缓存的版本。缓存的资源可以通过对同一路径的新资源使用\ :ref:`Resource.take_over_path<class_Resource_method_take_over_path>`\ 来覆盖。
 
 ----
 
@@ -92,17 +92,17 @@ Method Descriptions
 
 - :ref:`Resource<class_Resource>` **load** **(** :ref:`String<class_String>` path, :ref:`String<class_String>` type_hint="", :ref:`bool<class_bool>` no_cache=false **)**
 
-在给定的路径``path``\ 上加载一个资源，缓存结果以便进一步访问。
+在给定的路径\ ``path``\ 上加载一个资源，缓存结果以便进一步访问。
 
-依次查询注册的:ref:`ResourceFormatLoader<class_ResourceFormatLoader>`，找到第一个可以处理该文件扩展名的加载器，然后尝试加载。如果加载失败，其余的ResourceFormatLoaders也会被尝试。
+依次查询注册的\ :ref:`ResourceFormatLoader<class_ResourceFormatLoader>`，找到第一个可以处理该文件扩展名的加载器，然后尝试加载。如果加载失败，其余的ResourceFormatLoaders也会被尝试。
 
-一个可选的``type_hint``\ 类型提示可以用来进一步指定:ref:`ResourceFormatLoader<class_ResourceFormatLoader>`\ 应处理的:ref:`Resource<class_Resource>`\ 资源类型。任何继承自:ref:`Resource<class_Resource>`\ 的东西都可以被用作类型提示，例如图像:ref:`Image<class_Image>`。
+一个可选的\ ``type_hint``\ 类型提示可以用来进一步指定\ :ref:`ResourceFormatLoader<class_ResourceFormatLoader>`\ 应处理的\ :ref:`Resource<class_Resource>`\ 资源类型。任何继承自\ :ref:`Resource<class_Resource>`\ 的东西都可以被用作类型提示，例如图像\ :ref:`Image<class_Image>`。
 
-如果``no_cache``\ 是``true``，资源缓存将被绕过，资源将被重新加载。否则，如果缓存的资源存在，将被返回。
+如果\ ``no_cache``\ 是\ ``true``，资源缓存将被绕过，资源将被重新加载。否则，如果缓存的资源存在，将被返回。
 
-如果没有:ref:`ResourceFormatLoader<class_ResourceFormatLoader>`\ 可以处理该文件，则返回一个空资源。
+如果没有\ :ref:`ResourceFormatLoader<class_ResourceFormatLoader>`\ 可以处理该文件，则返回一个空资源。
 
-GDScript有一个简化的:ref:`@GDScript.load<class_@GDScript_method_load>`\ 内置方法，可以在大多数情况下使用，把``ResourceLoader``\ 的使用留给更高级的场景。
+GDScript有一个简化的\ :ref:`@GDScript.load<class_@GDScript_method_load>`\ 内置方法，可以在大多数情况下使用，把\ ``ResourceLoader``\ 的使用留给更高级的场景。
 
 ----
 
@@ -110,9 +110,9 @@ GDScript有一个简化的:ref:`@GDScript.load<class_@GDScript_method_load>`\ �
 
 - :ref:`ResourceInteractiveLoader<class_ResourceInteractiveLoader>` **load_interactive** **(** :ref:`String<class_String>` path, :ref:`String<class_String>` type_hint="" **)**
 
-开始交互式加载一个资源。返回的:ref:`ResourceInteractiveLoader<class_ResourceInteractiveLoader>`\ 对象允许以高粒度加载，连续调用其:ref:`ResourceInteractiveLoader.poll<class_ResourceInteractiveLoader_method_poll>`\ 轮询方法来加载分块。
+开始交互式加载一个资源。返回的\ :ref:`ResourceInteractiveLoader<class_ResourceInteractiveLoader>`\ 对象允许以高粒度加载，连续调用其\ :ref:`ResourceInteractiveLoader.poll<class_ResourceInteractiveLoader_method_poll>`\ 轮询方法来加载分块。
 
-一个可选的``type_hint``\ 类型提示可以用来进一步指定应该由:ref:`ResourceFormatLoader<class_ResourceFormatLoader>`\ 处理的资源:ref:`Resource<class_Resource>`\ 类型。任何继承自:ref:`Resource<class_Resource>`\ 的东西都可以被用作类型提示，例如:ref:`Image<class_Image>`。
+一个可选的\ ``type_hint``\ 类型提示可以用来进一步指定应该由\ :ref:`ResourceFormatLoader<class_ResourceFormatLoader>`\ 处理的资源\ :ref:`Resource<class_Resource>`\ 类型。任何继承自\ :ref:`Resource<class_Resource>`\ 的东西都可以被用作类型提示，例如\ :ref:`Image<class_Image>`。
 
 ----
 

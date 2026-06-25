@@ -46,11 +46,11 @@ enum **TextureType**:
 
 - **TYPE_DATA** = **0** --- 在uniform声明中未添加提示。
 
-- **TYPE_COLOR** = **1** --- 将``hint_albedo``\ 作为提示添加到uniform声明中，以便将sRGB转换为线性。
+- **TYPE_COLOR** = **1** --- 将\ ``hint_albedo``\ 作为提示添加到uniform声明中，以便将sRGB转换为线性。
 
-- **TYPE_NORMALMAP** = **2** --- 将``hint_normal``\ 作为提示添加到uniform声明中，该声明在内部将纹理转换为法线贴图。
+- **TYPE_NORMALMAP** = **2** --- 将\ ``hint_normal``\ 作为提示添加到uniform声明中，该声明在内部将纹理转换为法线贴图。
 
-- **TYPE_ANISO** = **3** --- 将``hint_aniso``\ 作为提示添加到uniform声明中，用于流程图。
+- **TYPE_ANISO** = **3** --- 将\ ``hint_aniso``\ 作为提示添加到uniform声明中，用于流程图。
 
 ----
 
@@ -97,7 +97,7 @@ Property Descriptions
 | *Getter*  | get_texture_type()      |
 +-----------+-------------------------+
 
-定义源纹理提供的数据类型。选项参阅:ref:`TextureType<enum_VisualShaderNodeTextureUniform_TextureType>`。
+定义源纹理提供的数据类型。选项参阅\ :ref:`TextureType<enum_VisualShaderNodeTextureUniform_TextureType>`。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

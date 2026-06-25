@@ -11,12 +11,12 @@ AnimationNodeOneShot
 
 **Inherits:** :ref:`AnimationNode<class_AnimationNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
 
-在:ref:`AnimationNodeBlendTree<class_AnimationNodeBlendTree>`\ 中播放一次动画。
+在\ :ref:`AnimationNodeBlendTree<class_AnimationNodeBlendTree>`\ 中播放一次动画。
 
 Description
 -----------
 
-要添加到:ref:`AnimationNodeBlendTree<class_AnimationNodeBlendTree>`\ 的资源。这个节点将执行一个子动画，并在完成后返回。可以自定义淡入和淡出的混合时间，以及过滤器。
+要添加到\ :ref:`AnimationNodeBlendTree<class_AnimationNodeBlendTree>`\ 的资源。这个节点将执行一个子动画，并在完成后返回。可以自定义淡入和淡出的混合时间，以及过滤器。
 
 Tutorials
 ---------
@@ -72,7 +72,7 @@ Property Descriptions
 | *Getter*  | has_autorestart()      |
 +-----------+------------------------+
 
-如果``true``，子动画完成后会自动重新开始。
+如果\ ``true``，子动画完成后会自动重新开始。
 
 ----
 
@@ -104,7 +104,7 @@ Property Descriptions
 | *Getter*  | get_autorestart_random_delay()      |
 +-----------+-------------------------------------+
 
-如果:ref:`autorestart<class_AnimationNodeOneShot_property_autorestart>`\ 为``true``，则介于0和此值之间的随机附加延迟（以秒为单位）将添加到:ref:`autorestart_delay<class_AnimationNodeOneShot_property_autorestart_delay>`。
+如果\ :ref:`autorestart<class_AnimationNodeOneShot_property_autorestart>`\ 为\ ``true``，则介于0和此值之间的随机附加延迟（以秒为单位）将添加到\ :ref:`autorestart_delay<class_AnimationNodeOneShot_property_autorestart_delay>`。
 
 ----
 

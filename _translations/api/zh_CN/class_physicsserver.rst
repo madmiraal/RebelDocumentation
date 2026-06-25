@@ -270,7 +270,7 @@ Enumerations
 
 enum **JointType**:
 
-- **JOINT_PIN** = **0** --- 该:ref:`Joint<class_Joint>` 是 :ref:`PinJoint<class_PinJoint>`。
+- **JOINT_PIN** = **0** --- 该\ :ref:`Joint<class_Joint>` 是 :ref:`PinJoint<class_PinJoint>`。
 
 - **JOINT_HINGE** = **1** --- 该 :ref:`Joint<class_Joint>` 是 :ref:`HingeJoint<class_HingeJoint>`。
 
@@ -350,9 +350,9 @@ enum **HingeJointParam**:
 
 enum **HingeJointFlag**:
 
-- **HINGE_JOINT_FLAG_USE_LIMIT** = **0** --- 如果``true``，铰链具有最大和最小旋转。
+- **HINGE_JOINT_FLAG_USE_LIMIT** = **0** --- 如果\ ``true``，铰链具有最大和最小旋转。
 
-- **HINGE_JOINT_FLAG_ENABLE_MOTOR** = **1** --- 如果``true``，电机将转动铰链。
+- **HINGE_JOINT_FLAG_ENABLE_MOTOR** = **1** --- 如果\ ``true``，电机将转动铰链。
 
 ----
 
@@ -450,7 +450,7 @@ enum **SliderJointParam**:
 
 - **SLIDER_JOINT_ANGULAR_ORTHOGONAL_DAMPING** = **21** --- 垂直于滑块的轴上的旋转阻尼量。
 
-- **SLIDER_JOINT_MAX** = **22** --- 表示:ref:`SliderJointParam<enum_PhysicsServer_SliderJointParam>`\ 枚举的大小。
+- **SLIDER_JOINT_MAX** = **22** --- 表示\ :ref:`SliderJointParam<enum_PhysicsServer_SliderJointParam>`\ 枚举的大小。
 
 ----
 
@@ -472,7 +472,7 @@ enum **ConeTwistJointParam**:
 
 摆动跨度定义了，多少旋转不会沿着摆动轴得到纠正。
 
-可以定义:ref:`ConeTwistJoint<class_ConeTwistJoint>`\ 的松动性。
+可以定义\ :ref:`ConeTwistJoint<class_ConeTwistJoint>`\ 的松动性。
 
 如果低于0.05，此行为被锁定。
 
@@ -572,13 +572,13 @@ enum **G6DOFJointAxisParam**:
 
 enum **G6DOFJointAxisFlag**:
 
-- **G6DOF_JOINT_FLAG_ENABLE_LINEAR_LIMIT** = **0** --- 如果``set``，则在给定的限度内可能存在线性运动。
+- **G6DOF_JOINT_FLAG_ENABLE_LINEAR_LIMIT** = **0** --- 如果\ ``set``，则在给定的限度内可能存在线性运动。
 
-- **G6DOF_JOINT_FLAG_ENABLE_ANGULAR_LIMIT** = **1** --- 如果``set``，则可能存在旋转运动。
+- **G6DOF_JOINT_FLAG_ENABLE_ANGULAR_LIMIT** = **1** --- 如果\ ``set``，则可能存在旋转运动。
 
-- **G6DOF_JOINT_FLAG_ENABLE_MOTOR** = **4** --- 如果``set``，则这些轴上有一个旋转电机。
+- **G6DOF_JOINT_FLAG_ENABLE_MOTOR** = **4** --- 如果\ ``set``，则这些轴上有一个旋转电机。
 
-- **G6DOF_JOINT_FLAG_ENABLE_LINEAR_MOTOR** = **5** --- 如果``set``，则此轴上有一个以特定速度为目标的线性电机。
+- **G6DOF_JOINT_FLAG_ENABLE_LINEAR_MOTOR** = **5** --- 如果\ ``set``，则此轴上有一个以特定速度为目标的线性电机。
 
 ----
 
@@ -606,7 +606,7 @@ enum **G6DOFJointAxisFlag**:
 
 enum **ShapeType**:
 
-- **SHAPE_PLANE** = **0** --- 该:ref:`Shape<class_Shape>` 是 :ref:`PlaneShape<class_PlaneShape>`。
+- **SHAPE_PLANE** = **0** --- 该\ :ref:`Shape<class_Shape>` 是 :ref:`PlaneShape<class_PlaneShape>`。
 
 - **SHAPE_RAY** = **1** --- 该 :ref:`Shape<class_Shape>` 是 :ref:`RayShape<class_RayShape>`。
 
@@ -656,7 +656,7 @@ enum **AreaParameter**:
 
 - **AREA_PARAM_GRAVITY_DISTANCE_SCALE** = **3** --- 常数，用于设置/获取一个区域的点重力的衰减系数。这个值越大，重力的强度随着距离的平方下降得越快。
 
-- **AREA_PARAM_GRAVITY_POINT_ATTENUATION** = **4** --- 这个常数用于设置/获取点重力的衰减因子。它已经被:ref:`AREA_PARAM_GRAVITY_DISTANCE_SCALE<class_PhysicsServer_constant_AREA_PARAM_GRAVITY_DISTANCE_SCALE>`\ 所取代了。
+- **AREA_PARAM_GRAVITY_POINT_ATTENUATION** = **4** --- 这个常数用于设置/获取点重力的衰减因子。它已经被\ :ref:`AREA_PARAM_GRAVITY_DISTANCE_SCALE<class_PhysicsServer_constant_AREA_PARAM_GRAVITY_DISTANCE_SCALE>`\ 所取代了。
 
 - **AREA_PARAM_LINEAR_DAMP** = **5** --- 常数，用于设置/获取一个区域的线性阻尼系数。
 
@@ -744,7 +744,7 @@ enum **BodyParameter**:
 
 - **BODY_PARAM_ANGULAR_DAMP** = **5** --- 常数，用于设置/获取一个物体的角度阻尼系数。
 
-- **BODY_PARAM_MAX** = **6** --- 表示:ref:`BodyParameter<enum_PhysicsServer_BodyParameter>`\ 枚举的大小。
+- **BODY_PARAM_MAX** = **6** --- 表示\ :ref:`BodyParameter<enum_PhysicsServer_BodyParameter>`\ 枚举的大小。
 
 ----
 
@@ -887,7 +887,7 @@ Method Descriptions
 
 - void **area_attach_object_instance_id** **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` id **)**
 
-将区域分配给:ref:`Object<class_Object>`\ 的子类，因此它可以存在于节点树中。
+将区域分配给\ :ref:`Object<class_Object>`\ 的子类，因此它可以存在于节点树中。
 
 ----
 
@@ -903,7 +903,7 @@ Method Descriptions
 
 - :ref:`RID<class_RID>` **area_create** **(** **)**
 
-创建一个:ref:`Area<class_Area>`\ 区域。
+创建一个\ :ref:`Area<class_Area>`\ 区域。
 
 ----
 
@@ -919,7 +919,7 @@ Method Descriptions
 
 - :ref:`Variant<class_Variant>` **area_get_param** **(** :ref:`RID<class_RID>` area, :ref:`AreaParameter<enum_PhysicsServer_AreaParameter>` param **)** |const|
 
-返回区域参数值。可用参数列表位于:ref:`AreaParameter<enum_PhysicsServer_AreaParameter>`\ 常量上。
+返回区域参数值。可用参数列表位于\ :ref:`AreaParameter<enum_PhysicsServer_AreaParameter>`\ 常量上。
 
 ----
 
@@ -927,7 +927,7 @@ Method Descriptions
 
 - :ref:`RID<class_RID>` **area_get_shape** **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` shape_idx **)** |const|
 
-返回区域的第n个形状的:ref:`RID<class_RID>`。
+返回区域的第n个形状的\ :ref:`RID<class_RID>`。
 
 ----
 
@@ -975,7 +975,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **area_is_ray_pickable** **(** :ref:`RID<class_RID>` area **)** |const|
 
-如果``true``，则区域与光线碰撞。
+如果\ ``true``，则区域与光线碰撞。
 
 ----
 
@@ -1015,9 +1015,9 @@ Method Descriptions
 
 设置当任何主体/区域进入或退出该区域时调用的函数。这个回调函数将被任何与区域交互的对象调用，并接受5个参数:
 
-1: :ref:`AREA_BODY_ADDED<class_PhysicsServer_constant_AREA_BODY_ADDED>`\ 或:ref:`AREA_BODY_REMOVED<class_PhysicsServer_constant_AREA_BODY_REMOVED>`，取决于对象是否进入或退出该区域。
+1: :ref:`AREA_BODY_ADDED<class_PhysicsServer_constant_AREA_BODY_ADDED>`\ 或\ :ref:`AREA_BODY_REMOVED<class_PhysicsServer_constant_AREA_BODY_REMOVED>`，取决于对象是否进入或退出该区域。
 
-2:进入/退出该区域对象的:ref:`RID<class_RID>`。
+2:进入/退出该区域对象的\ :ref:`RID<class_RID>`。
 
 3:进入/退出该区域对象的实例ID。
 
@@ -1037,7 +1037,7 @@ Method Descriptions
 
 - void **area_set_param** **(** :ref:`RID<class_RID>` area, :ref:`AreaParameter<enum_PhysicsServer_AreaParameter>` param, :ref:`Variant<class_Variant>` value **)**
 
-设置面积参数的值。可用参数列表位于:ref:`AreaParameter<enum_PhysicsServer_AreaParameter>`\ 常量上。
+设置面积参数的值。可用参数列表位于\ :ref:`AreaParameter<enum_PhysicsServer_AreaParameter>`\ 常量上。
 
 ----
 
@@ -1053,7 +1053,7 @@ Method Descriptions
 
 - void **area_set_shape** **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` shape_idx, :ref:`RID<class_RID>` shape **)**
 
-用另一种形状代替一种形状。旧的形状由它的索引选择，新的形状由它的:ref:`RID<class_RID>`\ 选择。
+用另一种形状代替一种形状。旧的形状由它的索引选择，新的形状由它的\ :ref:`RID<class_RID>`\ 选择。
 
 ----
 
@@ -1139,7 +1139,7 @@ Method Descriptions
 
 - void **body_apply_impulse** **(** :ref:`RID<class_RID>` body, :ref:`Vector3<class_Vector3>` position, :ref:`Vector3<class_Vector3>` impulse **)**
 
-在``position``\ impulse``冲量方向推动物体``。
+在\ ``position``\ impulse\ ``冲量方向推动物体``。
 
 ----
 
@@ -1155,7 +1155,7 @@ Method Descriptions
 
 - void **body_attach_object_instance_id** **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` id **)**
 
-将区域分配给:ref:`Object<class_Object>`\ 的子类，因此它可以存在于节点树中。
+将区域分配给\ :ref:`Object<class_Object>`\ 的子类，因此它可以存在于节点树中。
 
 ----
 
@@ -1171,7 +1171,7 @@ Method Descriptions
 
 - :ref:`RID<class_RID>` **body_create** **(** :ref:`BodyMode<enum_PhysicsServer_BodyMode>` mode=2, :ref:`bool<class_bool>` init_sleeping=false **)**
 
-创建物理体。对于创建的物体类型，第一个参数可以是:ref:`BodyMode<enum_PhysicsServer_BodyMode>`\ 常量中的任何值。此外，物体可以在休眠状态下创建，以节省处理时间。
+创建物理体。对于创建的物体类型，第一个参数可以是\ :ref:`BodyMode<enum_PhysicsServer_BodyMode>`\ 常量中的任何值。此外，物体可以在休眠状态下创建，以节省处理时间。
 
 ----
 
@@ -1209,7 +1209,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **body_get_max_contacts_reported** **(** :ref:`RID<class_RID>` body **)** |const|
 
-返回可报告的最大接触数。参阅:ref:`body_set_max_contacts_reported<class_PhysicsServer_method_body_set_max_contacts_reported>`。
+返回可报告的最大接触数。参阅\ :ref:`body_set_max_contacts_reported<class_PhysicsServer_method_body_set_max_contacts_reported>`。
 
 ----
 
@@ -1233,7 +1233,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **body_get_param** **(** :ref:`RID<class_RID>` body, :ref:`BodyParameter<enum_PhysicsServer_BodyParameter>` param **)** |const|
 
-返回物体参数的值。可用参数列表位于:ref:`BodyParameter<enum_PhysicsServer_BodyParameter>`\ 常量上。
+返回物体参数的值。可用参数列表位于\ :ref:`BodyParameter<enum_PhysicsServer_BodyParameter>`\ 常量上。
 
 ----
 
@@ -1241,7 +1241,7 @@ Method Descriptions
 
 - :ref:`RID<class_RID>` **body_get_shape** **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` shape_idx **)** |const|
 
-返回body的第n个碰撞形状的:ref:`RID<class_RID>`。
+返回body的第n个碰撞形状的\ :ref:`RID<class_RID>`。
 
 ----
 
@@ -1265,7 +1265,7 @@ Method Descriptions
 
 - :ref:`RID<class_RID>` **body_get_space** **(** :ref:`RID<class_RID>` body **)** |const|
 
-返回分配给物体的空间的:ref:`RID<class_RID>`。
+返回分配给物体的空间的\ :ref:`RID<class_RID>`。
 
 ----
 
@@ -1287,7 +1287,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **body_is_continuous_collision_detection_enabled** **(** :ref:`RID<class_RID>` body **)** |const|
 
-如果``true``，则启用连续碰撞检测模式。
+如果\ ``true``，则启用连续碰撞检测模式。
 
 ----
 
@@ -1303,7 +1303,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **body_is_ray_pickable** **(** :ref:`RID<class_RID>` body **)** |const|
 
-如果``true``，物体可以被光线探测到。
+如果\ ``true``，物体可以被光线探测到。
 
 ----
 
@@ -1359,7 +1359,7 @@ Method Descriptions
 
 - void **body_set_enable_continuous_collision_detection** **(** :ref:`RID<class_RID>` body, :ref:`bool<class_bool>` enable **)**
 
-如果``true``，则启用连续碰撞检测模式。
+如果\ ``true``，则启用连续碰撞检测模式。
 
 连续碰撞检测尝试预测运动物体碰撞的位置，而不是在碰撞时移动物体并纠正其运动。
 
@@ -1369,7 +1369,7 @@ Method Descriptions
 
 - void **body_set_force_integration_callback** **(** :ref:`RID<class_RID>` body, :ref:`Object<class_Object>` receiver, :ref:`String<class_String>` method, :ref:`Variant<class_Variant>` userdata=null **)**
 
-设置用于物体物理运算的函数，如果该物体允许的话，参阅:ref:`body_set_omit_force_integration<class_PhysicsServer_method_body_set_omit_force_integration>`。
+设置用于物体物理运算的函数，如果该物体允许的话，参阅\ :ref:`body_set_omit_force_integration<class_PhysicsServer_method_body_set_omit_force_integration>`。
 
 ----
 
@@ -1391,7 +1391,7 @@ Method Descriptions
 
 - void **body_set_mode** **(** :ref:`RID<class_RID>` body, :ref:`BodyMode<enum_PhysicsServer_BodyMode>` mode **)**
 
-从:ref:`BodyMode<enum_PhysicsServer_BodyMode>`\ 常量之一设置主体模式。
+从\ :ref:`BodyMode<enum_PhysicsServer_BodyMode>`\ 常量之一设置主体模式。
 
 ----
 
@@ -1407,7 +1407,7 @@ Method Descriptions
 
 - void **body_set_param** **(** :ref:`RID<class_RID>` body, :ref:`BodyParameter<enum_PhysicsServer_BodyParameter>` param, :ref:`float<class_float>` value **)**
 
-设置物体参数。可用参数列表位于:ref:`BodyParameter<enum_PhysicsServer_BodyParameter>`\ 常量上。
+设置物体参数。可用参数列表位于\ :ref:`BodyParameter<enum_PhysicsServer_BodyParameter>`\ 常量上。
 
 ----
 
@@ -1415,7 +1415,7 @@ Method Descriptions
 
 - void **body_set_ray_pickable** **(** :ref:`RID<class_RID>` body, :ref:`bool<class_bool>` enable **)**
 
-如果设置了``enabled``，则设置可使用光线拾取的物体。
+如果设置了\ ``enabled``，则设置可使用光线拾取的物体。
 
 ----
 
@@ -1423,7 +1423,7 @@ Method Descriptions
 
 - void **body_set_shape** **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` shape_idx, :ref:`RID<class_RID>` shape **)**
 
-用一个给定的物体形状代替另一个。旧的形状是通过其索引选择的，新的是通过其:ref:`RID<class_RID>`\ 选择的。
+用一个给定的物体形状代替另一个。旧的形状是通过其索引选择的，新的是通过其\ :ref:`RID<class_RID>`\ 选择的。
 
 ----
 
@@ -1445,7 +1445,7 @@ Method Descriptions
 
 - void **body_set_space** **(** :ref:`RID<class_RID>` body, :ref:`RID<class_RID>` space **)**
 
-给物体分配一个空间(参阅:ref:`space_create<class_PhysicsServer_method_space_create>`)。
+给物体分配一个空间(参阅\ :ref:`space_create<class_PhysicsServer_method_space_create>`)。
 
 ----
 
@@ -1453,7 +1453,7 @@ Method Descriptions
 
 - void **body_set_state** **(** :ref:`RID<class_RID>` body, :ref:`BodyState<enum_PhysicsServer_BodyState>` state, :ref:`Variant<class_Variant>` value **)**
 
-设置主体状态（请参阅:ref:`BodyState<enum_PhysicsServer_BodyState>`\ 常量）。
+设置主体状态（请参阅\ :ref:`BodyState<enum_PhysicsServer_BodyState>`\ 常量）。
 
 ----
 
@@ -1461,7 +1461,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **body_test_motion** **(** :ref:`RID<class_RID>` body, :ref:`Transform<class_Transform>` from, :ref:`Vector3<class_Vector3>` motion, :ref:`bool<class_bool>` infinite_inertia, :ref:`PhysicsTestMotionResult<class_PhysicsTestMotionResult>` result=null, :ref:`bool<class_bool>` exclude_raycast_shapes=true, :ref:`Array<class_Array>` exclude=[  ] **)**
 
-如果从空间的给定点向给定方向移动会导致碰撞，则返回``true``。可以通过:ref:`PhysicsTestMotionResult<class_PhysicsTestMotionResult>`\ 来返回额外的信息。
+如果从空间的给定点向给定方向移动会导致碰撞，则返回\ ``true``。可以通过\ :ref:`PhysicsTestMotionResult<class_PhysicsTestMotionResult>`\ 来返回额外的信息。
 
 ----
 
@@ -1469,7 +1469,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **cone_twist_joint_get_param** **(** :ref:`RID<class_RID>` joint, :ref:`ConeTwistJointParam<enum_PhysicsServer_ConeTwistJointParam>` param **)** |const|
 
-获取圆锥体扭曲关节参数（请参阅:ref:`ConeTwistJointParam<enum_PhysicsServer_ConeTwistJointParam>`\ 常量）。
+获取圆锥体扭曲关节参数（请参阅\ :ref:`ConeTwistJointParam<enum_PhysicsServer_ConeTwistJointParam>`\ 常量）。
 
 ----
 
@@ -1477,7 +1477,7 @@ Method Descriptions
 
 - void **cone_twist_joint_set_param** **(** :ref:`RID<class_RID>` joint, :ref:`ConeTwistJointParam<enum_PhysicsServer_ConeTwistJointParam>` param, :ref:`float<class_float>` value **)**
 
-设置圆锥体扭曲关节参数（请参阅:ref:`ConeTwistJointParam<enum_PhysicsServer_ConeTwistJointParam>`\ 常量）。
+设置圆锥体扭曲关节参数（请参阅\ :ref:`ConeTwistJointParam<enum_PhysicsServer_ConeTwistJointParam>`\ 常量）。
 
 ----
 
@@ -1493,7 +1493,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **generic_6dof_joint_get_flag** **(** :ref:`RID<class_RID>` joint, Vector3.Axis axis, :ref:`G6DOFJointAxisFlag<enum_PhysicsServer_G6DOFJointAxisFlag>` flag **)**
 
-获取generic_6_DOF_joit flag（请参阅:ref:`G6DOFJointAxisFlag<enum_PhysicsServer_G6DOFJointAxisFlag>`\ 常量）。
+获取generic_6_DOF_joit flag（请参阅\ :ref:`G6DOFJointAxisFlag<enum_PhysicsServer_G6DOFJointAxisFlag>`\ 常量）。
 
 ----
 
@@ -1501,7 +1501,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **generic_6dof_joint_get_param** **(** :ref:`RID<class_RID>` joint, Vector3.Axis axis, :ref:`G6DOFJointAxisParam<enum_PhysicsServer_G6DOFJointAxisParam>` param **)**
 
-获取 generic_6_DOF_joint 参数（请参阅:ref:`G6DOFJointAxisParam<enum_PhysicsServer_G6DOFJointAxisParam>`\ 常量）。
+获取 generic_6_DOF_joint 参数（请参阅\ :ref:`G6DOFJointAxisParam<enum_PhysicsServer_G6DOFJointAxisParam>`\ 常量）。
 
 ----
 
@@ -1509,7 +1509,7 @@ Method Descriptions
 
 - void **generic_6dof_joint_set_flag** **(** :ref:`RID<class_RID>` joint, Vector3.Axis axis, :ref:`G6DOFJointAxisFlag<enum_PhysicsServer_G6DOFJointAxisFlag>` flag, :ref:`bool<class_bool>` enable **)**
 
-设置generic_6_DOF_joint flag（请参阅:ref:`G6DOFJointAxisFlag<enum_PhysicsServer_G6DOFJointAxisFlag>`\ 常量）。
+设置generic_6_DOF_joint flag（请参阅\ :ref:`G6DOFJointAxisFlag<enum_PhysicsServer_G6DOFJointAxisFlag>`\ 常量）。
 
 ----
 
@@ -1517,7 +1517,7 @@ Method Descriptions
 
 - void **generic_6dof_joint_set_param** **(** :ref:`RID<class_RID>` joint, Vector3.Axis axis, :ref:`G6DOFJointAxisParam<enum_PhysicsServer_G6DOFJointAxisParam>` param, :ref:`float<class_float>` value **)**
 
-设置 generic_6_DOF_joint参数（请参阅:ref:`G6DOFJointAxisParam<enum_PhysicsServer_G6DOFJointAxisParam>`\ 常量）。
+设置 generic_6_DOF_joint参数（请参阅\ :ref:`G6DOFJointAxisParam<enum_PhysicsServer_G6DOFJointAxisParam>`\ 常量）。
 
 ----
 
@@ -1533,7 +1533,7 @@ Returns information about the current state of the 3D physics engine. See :ref:`
 
 - :ref:`bool<class_bool>` **hinge_joint_get_flag** **(** :ref:`RID<class_RID>` joint, :ref:`HingeJointFlag<enum_PhysicsServer_HingeJointFlag>` flag **)** |const|
 
-获取铰链关节标志（请参阅:ref:`HingeJointFlag<enum_PhysicsServer_HingeJointFlag>`\ 常量）。
+获取铰链关节标志（请参阅\ :ref:`HingeJointFlag<enum_PhysicsServer_HingeJointFlag>`\ 常量）。
 
 ----
 
@@ -1541,7 +1541,7 @@ Returns information about the current state of the 3D physics engine. See :ref:`
 
 - :ref:`float<class_float>` **hinge_joint_get_param** **(** :ref:`RID<class_RID>` joint, :ref:`HingeJointParam<enum_PhysicsServer_HingeJointParam>` param **)** |const|
 
-获取铰链关节参数（请参阅:ref:`HingeJointParam<enum_PhysicsServer_HingeJointParam>`）。
+获取铰链关节参数（请参阅\ :ref:`HingeJointParam<enum_PhysicsServer_HingeJointParam>`）。
 
 ----
 
@@ -1549,7 +1549,7 @@ Returns information about the current state of the 3D physics engine. See :ref:`
 
 - void **hinge_joint_set_flag** **(** :ref:`RID<class_RID>` joint, :ref:`HingeJointFlag<enum_PhysicsServer_HingeJointFlag>` flag, :ref:`bool<class_bool>` enabled **)**
 
-设置铰链关节标志（请参阅:ref:`HingeJointFlag<enum_PhysicsServer_HingeJointFlag>`\ 常量）。
+设置铰链关节标志（请参阅\ :ref:`HingeJointFlag<enum_PhysicsServer_HingeJointFlag>`\ 常量）。
 
 ----
 
@@ -1557,7 +1557,7 @@ Returns information about the current state of the 3D physics engine. See :ref:`
 
 - void **hinge_joint_set_param** **(** :ref:`RID<class_RID>` joint, :ref:`HingeJointParam<enum_PhysicsServer_HingeJointParam>` param, :ref:`float<class_float>` value **)**
 
-设置铰链关节参数（请参阅:ref:`HingeJointParam<enum_PhysicsServer_HingeJointParam>`\ 常量）。
+设置铰链关节参数（请参阅\ :ref:`HingeJointParam<enum_PhysicsServer_HingeJointParam>`\ 常量）。
 
 ----
 
@@ -1565,7 +1565,7 @@ Returns information about the current state of the 3D physics engine. See :ref:`
 
 - :ref:`RID<class_RID>` **joint_create_cone_twist** **(** :ref:`RID<class_RID>` body_A, :ref:`Transform<class_Transform>` local_ref_A, :ref:`RID<class_RID>` body_B, :ref:`Transform<class_Transform>` local_ref_B **)**
 
-创建一个:ref:`ConeTwistJoint<class_ConeTwistJoint>`。
+创建一个\ :ref:`ConeTwistJoint<class_ConeTwistJoint>`。
 
 ----
 
@@ -1645,7 +1645,7 @@ Returns information about the current state of the 3D physics engine. See :ref:`
 
 - :ref:`float<class_float>` **pin_joint_get_param** **(** :ref:`RID<class_RID>` joint, :ref:`PinJointParam<enum_PhysicsServer_PinJointParam>` param **)** |const|
 
-获取pin_joint参数（请参阅:ref:`PinJointParam<enum_PhysicsServer_PinJointParam>`\ 常量）。
+获取pin_joint参数（请参阅\ :ref:`PinJointParam<enum_PhysicsServer_PinJointParam>`\ 常量）。
 
 ----
 
@@ -1669,7 +1669,7 @@ Returns information about the current state of the 3D physics engine. See :ref:`
 
 - void **pin_joint_set_param** **(** :ref:`RID<class_RID>` joint, :ref:`PinJointParam<enum_PhysicsServer_PinJointParam>` param, :ref:`float<class_float>` value **)**
 
-设置pin_joint参数（请参阅:ref:`PinJointParam<enum_PhysicsServer_PinJointParam>`\ 常量）。
+设置pin_joint参数（请参阅\ :ref:`PinJointParam<enum_PhysicsServer_PinJointParam>`\ 常量）。
 
 ----
 
@@ -1695,7 +1695,7 @@ Sets the amount of iterations for calculating velocities of colliding bodies. Th
 
 - :ref:`RID<class_RID>` **shape_create** **(** :ref:`ShapeType<enum_PhysicsServer_ShapeType>` type **)**
 
-创建一个:ref:`ShapeType<enum_PhysicsServer_ShapeType>`\ 类型的形状。不把它分配给一个体或一个区域。要做到这一点，你必须使用:ref:`area_set_shape<class_PhysicsServer_method_area_set_shape>`\ 或:ref:`body_set_shape<class_PhysicsServer_method_body_set_shape>`。
+创建一个\ :ref:`ShapeType<enum_PhysicsServer_ShapeType>`\ 类型的形状。不把它分配给一个体或一个区域。要做到这一点，你必须使用\ :ref:`area_set_shape<class_PhysicsServer_method_area_set_shape>`\ 或\ :ref:`body_set_shape<class_PhysicsServer_method_body_set_shape>`。
 
 ----
 
@@ -1711,7 +1711,7 @@ Sets the amount of iterations for calculating velocities of colliding bodies. Th
 
 - :ref:`ShapeType<enum_PhysicsServer_ShapeType>` **shape_get_type** **(** :ref:`RID<class_RID>` shape **)** |const|
 
-返回形状的类型（请参阅:ref:`ShapeType<enum_PhysicsServer_ShapeType>`\ 常量）。
+返回形状的类型（请参阅\ :ref:`ShapeType<enum_PhysicsServer_ShapeType>`\ 常量）。
 
 ----
 
@@ -1719,7 +1719,7 @@ Sets the amount of iterations for calculating velocities of colliding bodies. Th
 
 - void **shape_set_data** **(** :ref:`RID<class_RID>` shape, :ref:`Variant<class_Variant>` data **)**
 
-设置定义形状和大小的形状数据。要传递的数据取决于创建的形状的类型:ref:`shape_get_type<class_PhysicsServer_method_shape_get_type>`。
+设置定义形状和大小的形状数据。要传递的数据取决于创建的形状的类型\ :ref:`shape_get_type<class_PhysicsServer_method_shape_get_type>`。
 
 ----
 
@@ -1727,7 +1727,7 @@ Sets the amount of iterations for calculating velocities of colliding bodies. Th
 
 - :ref:`float<class_float>` **slider_joint_get_param** **(** :ref:`RID<class_RID>` joint, :ref:`SliderJointParam<enum_PhysicsServer_SliderJointParam>` param **)** |const|
 
-获取slider_joint参数（请参阅:ref:`SliderJointParam<enum_PhysicsServer_SliderJointParam>`\ 常量）。
+获取slider_joint参数（请参阅\ :ref:`SliderJointParam<enum_PhysicsServer_SliderJointParam>`\ 常量）。
 
 ----
 
@@ -1735,7 +1735,7 @@ Sets the amount of iterations for calculating velocities of colliding bodies. Th
 
 - void **slider_joint_set_param** **(** :ref:`RID<class_RID>` joint, :ref:`SliderJointParam<enum_PhysicsServer_SliderJointParam>` param, :ref:`float<class_float>` value **)**
 
-获取slider_joint参数（请参阅:ref:`SliderJointParam<enum_PhysicsServer_SliderJointParam>`\ 常量）。
+获取slider_joint参数（请参阅\ :ref:`SliderJointParam<enum_PhysicsServer_SliderJointParam>`\ 常量）。
 
 ----
 
@@ -1743,7 +1743,7 @@ Sets the amount of iterations for calculating velocities of colliding bodies. Th
 
 - :ref:`RID<class_RID>` **space_create** **(** **)**
 
-创建一个空间。空间是物理引擎的参数集合，可以分配给区域或主体。它可以通过:ref:`area_set_space<class_PhysicsServer_method_area_set_space>`\ 分配给一个区域，或者通过:ref:`body_set_space<class_PhysicsServer_method_body_set_space>`\ 分配给一个主体。
+创建一个空间。空间是物理引擎的参数集合，可以分配给区域或主体。它可以通过\ :ref:`area_set_space<class_PhysicsServer_method_area_set_space>`\ 分配给一个区域，或者通过\ :ref:`body_set_space<class_PhysicsServer_method_body_set_space>`\ 分配给一个主体。
 
 ----
 
@@ -1783,7 +1783,7 @@ Sets the amount of iterations for calculating velocities of colliding bodies. Th
 
 - void **space_set_param** **(** :ref:`RID<class_RID>` space, :ref:`SpaceParameter<enum_PhysicsServer_SpaceParameter>` param, :ref:`float<class_float>` value **)**
 
-设置空间参数的值。可用参数列表位于:ref:`SpaceParameter<enum_PhysicsServer_SpaceParameter>`\ 常量上。
+设置空间参数的值。可用参数列表位于\ :ref:`SpaceParameter<enum_PhysicsServer_SpaceParameter>`\ 常量上。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

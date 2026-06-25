@@ -13,7 +13,7 @@ OccluderShape
 
 **Inherited By:** :ref:`OccluderShapeSphere<class_OccluderShapeSphere>`
 
-用于:ref:`Occluder<class_Occluder>`\ 节点进行遮挡剔除的形状的基类。
+用于\ :ref:`Occluder<class_Occluder>`\ 节点进行遮挡剔除的形状的基类。
 
 Description
 -----------

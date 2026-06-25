@@ -16,7 +16,7 @@ AnimationNodeStateMachine
 Description
 -----------
 
-包含代表动画状态的多个节点，以图的形式连接。节点转换可以配置为自动发生或通过代码，使用最短路径算法。从:ref:`AnimationTree<class_AnimationTree>`\ 节点中检索:ref:`AnimationNodeStateMachinePlayback<class_AnimationNodeStateMachinePlayback>`\ 对象，对其进行编程控制。
+包含代表动画状态的多个节点，以图的形式连接。节点转换可以配置为自动发生或通过代码，使用最短路径算法。从\ :ref:`AnimationTree<class_AnimationTree>`\ 节点中检索\ :ref:`AnimationNodeStateMachinePlayback<class_AnimationNodeStateMachinePlayback>`\ 对象，对其进行编程控制。
 
 **示例：**
 
@@ -184,7 +184,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **has_node** **(** :ref:`String<class_String>` name **)** |const|
 
-如果图中包含给定的节点，返回``true``。
+如果图中包含给定的节点，返回\ ``true``。
 
 ----
 
@@ -192,7 +192,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **has_transition** **(** :ref:`String<class_String>` from, :ref:`String<class_String>` to **)** |const|
 
-如果在给定节点之间存在过渡，返回``true``。
+如果在给定节点之间存在过渡，返回\ ``true``。
 
 ----
 

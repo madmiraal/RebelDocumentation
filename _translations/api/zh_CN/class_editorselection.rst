@@ -18,7 +18,7 @@ Description
 
 这个对象管理编辑器中的SceneTree选择。
 
-**注意：**这个类不应该直接实例化。相反，使用:ref:`EditorInterface.get_selection<class_EditorInterface_method_get_selection>`\ 访问单例。
+**注意：**\ 这个类不应该直接实例化。相反，使用\ :ref:`EditorInterface.get_selection<class_EditorInterface_method_get_selection>`\ 访问单例。
 
 Methods
 -------
@@ -53,7 +53,7 @@ Method Descriptions
 
 将一个节点添加到选择中。
 
-**注意：**新选择的节点不会在检查器中自动被编辑。如果你想编辑一个节点，请使用 :ref:`EditorInterface.edit_node<class_EditorInterface_method_edit_node>`。
+**注意：**\ 新选择的节点不会在检查器中自动被编辑。如果你想编辑一个节点，请使用 :ref:`EditorInterface.edit_node<class_EditorInterface_method_edit_node>`。
 
 ----
 

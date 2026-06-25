@@ -16,7 +16,7 @@ LightOccluder2D
 Description
 -----------
 
-遮挡Light2D投射的灯光，投射阴影。为了计算阴影，必须为LightOccluder2D提供:ref:`OccluderPolygon2D<class_OccluderPolygon2D>`。
+遮挡Light2D投射的灯光，投射阴影。为了计算阴影，必须为LightOccluder2D提供\ :ref:`OccluderPolygon2D<class_OccluderPolygon2D>`。
 
 Tutorials
 ---------
@@ -61,7 +61,7 @@ LightOccluder2D的灯光遮罩。LightOccluder2D将仅从具有相同灯光遮�
 | *Getter* | get_occluder_polygon()      |
 +----------+-----------------------------+
 
-用于计算阴影的:ref:`OccluderPolygon2D<class_OccluderPolygon2D>`。
+用于计算阴影的\ :ref:`OccluderPolygon2D<class_OccluderPolygon2D>`。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

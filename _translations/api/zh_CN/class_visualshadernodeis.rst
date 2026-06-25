@@ -16,7 +16,7 @@ VisualShaderNodeIs
 Description
 -----------
 
-返回``INF``\ 或``NaN``\ 与标量参数之间比较的布尔值结果。
+返回\ ``INF``\ 或\ ``NaN``\ 与标量参数之间比较的布尔值结果。
 
 Properties
 ----------
@@ -36,9 +36,9 @@ Enumerations
 
 enum **Function**:
 
-- **FUNC_IS_INF** = **0** --- 与``INF``（无穷大）比较。
+- **FUNC_IS_INF** = **0** --- 与\ ``INF``\ （无穷大）比较。
 
-- **FUNC_IS_NAN** = **1** --- 与``NaN``\ 比较（不是一个数字；表示无效的数字结果，如除以0）。
+- **FUNC_IS_NAN** = **1** --- 与\ ``NaN``\ 比较（不是一个数字；表示无效的数字结果，如除以0）。
 
 Property Descriptions
 ---------------------
@@ -55,7 +55,7 @@ Property Descriptions
 | *Getter*  | get_function()      |
 +-----------+---------------------+
 
-比较函数。参阅:ref:`Function<enum_VisualShaderNodeIs_Function>`\ 的选项。
+比较函数。参阅\ :ref:`Function<enum_VisualShaderNodeIs_Function>`\ 的选项。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

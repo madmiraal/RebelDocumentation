@@ -48,9 +48,9 @@ Property Descriptions
 | *Getter* | get_bounce()      |
 +----------+-------------------+
 
-实体的弹性。值范围从``0``（无弹跳）到``1``（完全弹跳）。
+实体的弹性。值范围从\ ``0``\ （无弹跳）到\ ``1``\ （完全弹跳）。
 
-已被废弃，请通过:ref:`physics_material_override<class_StaticBody2D_property_physics_material_override>`\ 使用:ref:`PhysicsMaterial.bounce<class_PhysicsMaterial_property_bounce>`\ 代替。
+已被废弃，请通过\ :ref:`physics_material_override<class_StaticBody2D_property_physics_material_override>`\ 使用\ :ref:`PhysicsMaterial.bounce<class_PhysicsMaterial_property_bounce>`\ 代替。
 
 ----
 
@@ -96,7 +96,7 @@ Property Descriptions
 | *Getter* | get_friction()      |
 +----------+---------------------+
 
-物体的摩擦。取值范围从 ``0``（无摩擦）到 ``1``（最大摩擦）。
+物体的摩擦。取值范围从 ``0``\ （无摩擦）到 ``1``\ （最大摩擦）。
 
 已废弃，请通过 :ref:`physics_material_override<class_StaticBody2D_property_physics_material_override>` 使用 :ref:`PhysicsMaterial.friction<class_PhysicsMaterial_property_friction>`。
 

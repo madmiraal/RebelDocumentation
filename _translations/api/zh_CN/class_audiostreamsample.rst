@@ -16,7 +16,7 @@ AudioStreamSample
 Description
 -----------
 
-AudioStreamSample 存储从 WAV 文件加载的声音样本。要播放存储的声音，请使用 :ref:`AudioStreamPlayer<class_AudioStreamPlayer>`（用于非定位音频）或 :ref:`AudioStreamPlayer2D<class_AudioStreamPlayer2D>`/:ref:`AudioStreamPlayer3D<class_AudioStreamPlayer3D>`（用于定位音频）。声音可以循环播放。
+AudioStreamSample 存储从 WAV 文件加载的声音样本。要播放存储的声音，请使用 :ref:`AudioStreamPlayer<class_AudioStreamPlayer>`\ （用于非定位音频）或 :ref:`AudioStreamPlayer2D<class_AudioStreamPlayer2D>`/:ref:`AudioStreamPlayer3D<class_AudioStreamPlayer3D>`\ （用于定位音频）。声音可以循环播放。
 
 此类还可用于存储动态生成的 PCM 音频数据。另请参阅 :ref:`AudioStreamGenerator<class_AudioStreamGenerator>` 以了解程序式音频生成。
 
@@ -104,7 +104,7 @@ Property Descriptions
 
 包含以字节为单位的音频数据。
 
-**注意：**此属性需要有符号的 PCM8数据。要将无符号的 PCM8转换为有符号的 PCM8，需要从每个字节中减去128。
+**注意：**\ 此属性需要有符号的 PCM8数据。要将无符号的 PCM8转换为有符号的 PCM8，需要从每个字节中减去128。
 
 ----
 
@@ -120,7 +120,7 @@ Property Descriptions
 | *Getter*  | get_format()      |
 +-----------+-------------------+
 
-音频格式。参阅:ref:`Format<enum_AudioStreamSample_Format>`\ 常量的值。
+音频格式。参阅\ :ref:`Format<enum_AudioStreamSample_Format>`\ 常量的值。
 
 ----
 
@@ -168,7 +168,7 @@ Property Descriptions
 | *Getter*  | get_loop_mode()      |
 +-----------+----------------------+
 
-循环模式。该信息将自动从WAV文件中导入（如果存在）。有关值，请参阅:ref:`LoopMode<enum_AudioStreamSample_LoopMode>`\ 常量。
+循环模式。该信息将自动从WAV文件中导入（如果存在）。有关值，请参阅\ :ref:`LoopMode<enum_AudioStreamSample_LoopMode>`\ 常量。
 
 ----
 
@@ -186,9 +186,9 @@ Property Descriptions
 
 混合这个音频的采样率。更高的数值需要更多的存储空间，但会带来更好的质量。
 
-在游戏中，常用的采样率有``11025``、``16000``、``22050``、``32000``、``44100``，以及``48000``。
+在游戏中，常用的采样率有\ ``11025``、``16000``、``22050``、``32000``、``44100``，以及\ ``48000``。
 
-根据`Nyquist-Shannon采样定理 <https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem>`__，当超过40000赫兹时，对于人的听觉没有质量上的差别（因为大多数人只能听到~20000赫兹，往往更少）。如果你使用低音调的声音，如语音，较低的采样率，如``32000``\ 或``22050``\ 可能是可用的，没有质量上的损失。
+根据\ `Nyquist-Shannon采样定理 <https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem>`__，当超过40000赫兹时，对于人的听觉没有质量上的差别（因为大多数人只能听到~20000赫兹，往往更少）。如果你使用低音调的声音，如语音，较低的采样率，如\ ``32000``\ 或\ ``22050``\ 可能是可用的，没有质量上的损失。
 
 ----
 
@@ -204,7 +204,7 @@ Property Descriptions
 | *Getter*  | is_stereo()       |
 +-----------+-------------------+
 
-如果``true``，音频为立体声。
+如果\ ``true``，音频为立体声。
 
 Method Descriptions
 -------------------
@@ -213,9 +213,9 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **save_to_wav** **(** :ref:`String<class_String>` path **)**
 
-将AudioStreamSample作为WAV文件保存到``path``。无法保存IMA ADPCM格式的样本。
+将AudioStreamSample作为WAV文件保存到\ ``path``。无法保存IMA ADPCM格式的样本。
 
-**注意：**如果缺少``.wav``\ 扩展名，则会自动将其附加到``path``。
+**注意：**\ 如果缺少\ ``.wav``\ 扩展名，则会自动将其附加到\ ``path``。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

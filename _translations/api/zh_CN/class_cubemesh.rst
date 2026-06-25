@@ -20,7 +20,7 @@ Description
 
 这个立方体的UV布局是以3×2的方式排列的，可以对每个面单独进行纹理处理。要在所有的面上应用相同的纹理，将材质的UV属性改为 ``Vector3(3, 2, 1)``。
 
-**注意：**当使用一个大的纹理 ``CubeMesh``\ 时（例如作为地板），你可能会遇到UV抖动的问题，这取决于相机的角度。为了解决这个问题，增加细分深度 :ref:`subdivide_depth<class_CubeMesh_property_subdivide_depth>`、:ref:`subdivide_height<class_CubeMesh_property_subdivide_height>` 细分高度和细分宽带 :ref:`subdivide_width<class_CubeMesh_property_subdivide_width>`，直到你不再注意到UV抖动。
+**注意：**\ 当使用一个大的纹理 ``CubeMesh``\ 时（例如作为地板），你可能会遇到UV抖动的问题，这取决于相机的角度。为了解决这个问题，增加细分深度 :ref:`subdivide_depth<class_CubeMesh_property_subdivide_depth>`、:ref:`subdivide_height<class_CubeMesh_property_subdivide_height>` 细分高度和细分宽带 :ref:`subdivide_width<class_CubeMesh_property_subdivide_width>`，直到你不再注意到UV抖动。
 
 Properties
 ----------

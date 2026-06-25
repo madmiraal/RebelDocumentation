@@ -123,7 +123,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **get_name** **(** :ref:`int<class_int>` idx **)**
 
-获取由 ``idx``（0 到 :ref:`get_name_count<class_NodePath_method_get_name_count>`）指示的节点名称。
+获取由 ``idx``\ （0 到 :ref:`get_name_count<class_NodePath_method_get_name_count>`）指示的节点名称。
 
 ::
 
@@ -148,7 +148,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **get_subname** **(** :ref:`int<class_int>` idx **)**
 
-获取由 ``idx``（0 到 :ref:`get_subname_count<class_NodePath_method_get_subname_count>`）指示的资源或属性名称。
+获取由 ``idx``\ （0 到 :ref:`get_subname_count<class_NodePath_method_get_subname_count>`）指示的资源或属性名称。
 
 ::
 
@@ -172,7 +172,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_absolute** **(** **)**
 
-如果节点路径是绝对的（而不是相对的），即以斜线字符（``/``）开始，返回``true``。绝对节点路径可以用来访问根节点（``"/root"``）或自动加载（例如``"/global"`` 如果注册了一个叫“global”的自动加载项）。
+如果节点路径是绝对的（而不是相对的），即以斜线字符（``/``）开始，返回\ ``true``。绝对节点路径可以用来访问根节点（``"/root"``）或自动加载（例如\ ``"/global"`` 如果注册了一个叫“global”的自动加载项）。
 
 ----
 

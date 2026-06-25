@@ -11,7 +11,7 @@ AnimationNodeTimeScale
 
 **Inherits:** :ref:`AnimationNode<class_AnimationNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
 
-与:ref:`AnimationTree<class_AnimationTree>`\ 一起使用的时间缩放动画节点。
+与\ :ref:`AnimationTree<class_AnimationTree>`\ 一起使用的时间缩放动画节点。
 
 Description
 -----------

@@ -11,12 +11,12 @@ CylinderMesh
 
 **Inherits:** :ref:`PrimitiveMesh<class_PrimitiveMesh>` **<** :ref:`Mesh<class_Mesh>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
 
-表示圆柱形:ref:`PrimitiveMesh<class_PrimitiveMesh>`\ 的类。
+表示圆柱形\ :ref:`PrimitiveMesh<class_PrimitiveMesh>`\ 的类。
 
 Description
 -----------
 
-表示圆柱形:ref:`PrimitiveMesh<class_PrimitiveMesh>`\ 的类。通过将:ref:`top_radius<class_CylinderMesh_property_top_radius>`\ 或:ref:`bottom_radius<class_CylinderMesh_property_bottom_radius>`\ 属性设置为``0.0``，这个类可以用来创建圆锥体。
+表示圆柱形\ :ref:`PrimitiveMesh<class_PrimitiveMesh>`\ 的类。通过将\ :ref:`top_radius<class_CylinderMesh_property_top_radius>`\ 或\ :ref:`bottom_radius<class_CylinderMesh_property_bottom_radius>`\ 属性设置为\ ``0.0``，这个类可以用来创建圆锥体。
 
 Properties
 ----------
@@ -48,7 +48,7 @@ Property Descriptions
 | *Getter*  | get_bottom_radius()      |
 +-----------+--------------------------+
 
-圆柱体的底部半径。如果设置为``0.0``，而不会生成底面，从而形成圆锥体。
+圆柱体的底部半径。如果设置为\ ``0.0``，而不会生成底面，从而形成圆锥体。
 
 ----
 

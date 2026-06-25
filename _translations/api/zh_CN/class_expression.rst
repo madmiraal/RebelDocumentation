@@ -18,9 +18,9 @@ Description
 
 表达式可以由任何算术运算、内置数学函数调用、传递实例的方法调用或内置类型构造调用组成。
 
-一个使用内置数学函数的表达式文本示例可以是``sqrt(pow(3,2)+pow(4,2))``。
+一个使用内置数学函数的表达式文本示例可以是\ ``sqrt(pow(3,2)+pow(4,2))``。
 
-在下面的例子中，我们使用一个:ref:`LineEdit<class_LineEdit>`\ 节点来写我们的表达式并显示结果。
+在下面的例子中，我们使用一个\ :ref:`LineEdit<class_LineEdit>`\ 节点来写我们的表达式并显示结果。
 
 ::
 
@@ -58,7 +58,7 @@ Method Descriptions
 
 - :ref:`Variant<class_Variant>` **execute** **(** :ref:`Array<class_Array>` inputs=[  ], :ref:`Object<class_Object>` base_instance=null, :ref:`bool<class_bool>` show_error=true **)**
 
-执行之前由:ref:`parse<class_Expression_method_parse>`\ 解析的表达式，并返回结果。在使用返回的对象之前，应该通过调用 :ref:`has_execute_failed<class_Expression_method_has_execute_failed>` 来检查方法是否失败。
+执行之前由\ :ref:`parse<class_Expression_method_parse>`\ 解析的表达式，并返回结果。在使用返回的对象之前，应该通过调用 :ref:`has_execute_failed<class_Expression_method_has_execute_failed>` 来检查方法是否失败。
 
 如果你在 :ref:`parse<class_Expression_method_parse>` 中定义了输入变量，你可以在输入数组中以同样的顺序指定它们的值。
 
@@ -68,7 +68,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **get_error_text** **(** **)** |const|
 
-如果:ref:`parse<class_Expression_method_parse>`\ 失败了，返回错误文本。
+如果\ :ref:`parse<class_Expression_method_parse>`\ 失败了，返回错误文本。
 
 ----
 
@@ -76,7 +76,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **has_execute_failed** **(** **)** |const|
 
-如果:ref:`execute<class_Expression_method_execute>`\ 失败，返回``true``。
+如果\ :ref:`execute<class_Expression_method_execute>`\ 失败，返回\ ``true``。
 
 ----
 
@@ -84,9 +84,9 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **parse** **(** :ref:`String<class_String>` expression, :ref:`PoolStringArray<class_PoolStringArray>` input_names=PoolStringArray(  ) **)**
 
-解析表达式并返回一个:ref:`Error<enum_@GlobalScope_Error>`\ 代码。
+解析表达式并返回一个\ :ref:`Error<enum_@GlobalScope_Error>`\ 代码。
 
-你可以选择用``input_names``\ 指定可能出现在表达式中的变量名称，这样你就可以在表达式被执行时绑定它们。
+你可以选择用\ ``input_names``\ 指定可能出现在表达式中的变量名称，这样你就可以在表达式被执行时绑定它们。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

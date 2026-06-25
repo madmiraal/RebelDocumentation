@@ -18,7 +18,7 @@ Description
 
 :ref:`VideoStream<class_VideoStream>`\ 资源用于通过GDNative实现的视频格式。
 
-它可以通过`godot-videodecoder <https://github.com/KidRigger/godot-videodecoder>`__使用`FFmpeg <https://ffmpeg.org>`__库来使用。
+它可以通过\ `godot-videodecoder <https://github.com/KidRigger/godot-videodecoder>`__\ 使用\ `FFmpeg <https://ffmpeg.org>`__\ 库来使用。
 
 Methods
 -------
@@ -36,7 +36,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **get_file** **(** **)**
 
-返回由这个``VideoStreamGDNative``\ 处理的视频文件。
+返回由这个\ ``VideoStreamGDNative``\ 处理的视频文件。
 
 ----
 
@@ -44,7 +44,7 @@ Method Descriptions
 
 - void **set_file** **(** :ref:`String<class_String>` file **)**
 
-设置此``VideoStreamGDNative``\ 资源处理的视频文件。支持的扩展取决于，用于公开视频格式的GDNative插件。
+设置此\ ``VideoStreamGDNative``\ 资源处理的视频文件。支持的扩展取决于，用于公开视频格式的GDNative插件。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

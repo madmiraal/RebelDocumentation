@@ -142,7 +142,7 @@ IDG控件URL。
 | *Getter*  | get_igd_our_addr()      |
 +-----------+-------------------------+
 
-将其连接到该``UPNPDevice``\ 的网络中的本地机器的地址。
+将其连接到该\ ``UPNPDevice``\ 的网络中的本地机器的地址。
 
 ----
 
@@ -174,7 +174,7 @@ IGD服务类型。
 | *Getter*  | get_igd_status()      |
 +-----------+-----------------------+
 
-IGD状态。参阅:ref:`IGDStatus<enum_UPNPDevice_IGDStatus>`。
+IGD状态。参阅\ :ref:`IGDStatus<enum_UPNPDevice_IGDStatus>`。
 
 ----
 
@@ -199,7 +199,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **add_port_mapping** **(** :ref:`int<class_int>` port, :ref:`int<class_int>` port_internal=0, :ref:`String<class_String>` desc="", :ref:`String<class_String>` proto="UDP", :ref:`int<class_int>` duration=0 **)** |const|
 
-添加一个端口映射，将这个``UPNPDevice``\ 上给定的外部端口转发到本地机器上，以给定的协议。参阅 :ref:`UPNP.add_port_mapping<class_UPNP_method_add_port_mapping>`。
+添加一个端口映射，将这个\ ``UPNPDevice``\ 上给定的外部端口转发到本地机器上，以给定的协议。参阅 :ref:`UPNP.add_port_mapping<class_UPNP_method_add_port_mapping>`。
 
 ----
 
@@ -207,7 +207,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **delete_port_mapping** **(** :ref:`int<class_int>` port, :ref:`String<class_String>` proto="UDP" **)** |const|
 
-删除该设备上由给定的端口和协议组合确定的端口映射。参阅:ref:`UPNP.delete_port_mapping<class_UPNP_method_delete_port_mapping>`。
+删除该设备上由给定的端口和协议组合确定的端口映射。参阅\ :ref:`UPNP.delete_port_mapping<class_UPNP_method_delete_port_mapping>`。
 
 ----
 
@@ -215,7 +215,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_valid_gateway** **(** **)** |const|
 
-如果这是一个有效的IGD（InternetGatewayDevice），可能支持端口转发，则返回``true``。
+如果这是一个有效的IGD（InternetGatewayDevice），可能支持端口转发，则返回\ ``true``。
 
 ----
 
@@ -223,7 +223,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **query_external_address** **(** **)** |const|
 
-返回这个``UPNPDevice``\ 的外部IP地址或空字符串。
+返回这个\ ``UPNPDevice``\ 的外部IP地址或空字符串。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

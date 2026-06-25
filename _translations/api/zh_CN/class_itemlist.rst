@@ -272,7 +272,7 @@ Property Descriptions
 | *Getter*  | get_allow_reselect()      |
 +-----------+---------------------------+
 
-如果为``true``，则可以再次选择当前选中的项目。
+如果为\ ``true``，则可以再次选择当前选中的项目。
 
 ----
 
@@ -288,7 +288,7 @@ Property Descriptions
 | *Getter*  | get_allow_rmb_select()      |
 +-----------+-----------------------------+
 
-如果为``true``，点击鼠标右键可以选中项目。
+如果为\ ``true``，点击鼠标右键可以选中项目。
 
 ----
 
@@ -356,7 +356,7 @@ Property Descriptions
 | *Getter*  | get_icon_mode()      |
 +-----------+----------------------+
 
-图标的位置，是在文本的上方还是在文本的左边。参阅:ref:`IconMode<enum_ItemList_IconMode>`\ 常量。
+图标的位置，是在文本的上方还是在文本的左边。参阅\ :ref:`IconMode<enum_ItemList_IconMode>`\ 常量。
 
 ----
 
@@ -372,7 +372,7 @@ Property Descriptions
 | *Getter*  | get_icon_scale()      |
 +-----------+-----------------------+
 
-在:ref:`fixed_icon_size<class_ItemList_property_fixed_icon_size>`\ 和转置生效后应用的图标比例。
+在\ :ref:`fixed_icon_size<class_ItemList_property_fixed_icon_size>`\ 和转置生效后应用的图标比例。
 
 ----
 
@@ -444,7 +444,7 @@ Property Descriptions
 | *Getter*  | get_select_mode()      |
 +-----------+------------------------+
 
-允许单选或多选。参阅:ref:`SelectMode<enum_ItemList_SelectMode>`\ 常量。
+允许单选或多选。参阅\ :ref:`SelectMode<enum_ItemList_SelectMode>`\ 常量。
 
 Method Descriptions
 -------------------
@@ -461,9 +461,9 @@ Method Descriptions
 
 - void **add_item** **(** :ref:`String<class_String>` text, :ref:`Texture<class_Texture>` icon=null, :ref:`bool<class_bool>` selectable=true **)**
 
-将一个项目添加到项目列表中，并指定文本。指定一个图标``icon``，或者图标``icon``\ 使用空``null``\ 作为没有图标的列表项。
+将一个项目添加到项目列表中，并指定文本。指定一个图标\ ``icon``，或者图标\ ``icon``\ 使用空\ ``null``\ 作为没有图标的列表项。
 
-如果可选择填``true``，列表项将是可选择的。
+如果可选择填\ ``true``，列表项将是可选择的。
 
 ----
 
@@ -505,7 +505,7 @@ Method Descriptions
 
 - :ref:`Color<class_Color>` **get_item_custom_bg_color** **(** :ref:`int<class_int>` idx **)** |const|
 
-返回由``idx``\ 索引指定的项目的自定义背景颜色。
+返回由\ ``idx``\ 索引指定的项目的自定义背景颜色。
 
 ----
 
@@ -513,7 +513,7 @@ Method Descriptions
 
 - :ref:`Color<class_Color>` **get_item_custom_fg_color** **(** :ref:`int<class_int>` idx **)** |const|
 
-返回由``idx``\ 索引指定项目的自定义前景颜色。
+返回由\ ``idx``\ 索引指定项目的自定义前景颜色。
 
 ----
 
@@ -529,7 +529,7 @@ Method Descriptions
 
 - :ref:`Color<class_Color>` **get_item_icon_modulate** **(** :ref:`int<class_int>` idx **)** |const|
 
-返回指定索引处的:ref:`Color<class_Color>`\ 颜色调制(modulating) 项的图标。
+返回指定索引处的\ :ref:`Color<class_Color>`\ 颜色调制(modulating) 项的图标。
 
 ----
 
@@ -635,7 +635,7 @@ Method Descriptions
 
 - void **move_item** **(** :ref:`int<class_int>` from_idx, :ref:`int<class_int>` to_idx **)**
 
-将项目从索引``from_idx``\ 移到``to_idx``。
+将项目从索引\ ``from_idx``\ 移到\ ``to_idx``。
 
 ----
 
@@ -653,7 +653,7 @@ Method Descriptions
 
 选择指定索引处的项目。
 
-**注：**此方法不触发项目选择信号。
+**注：**\ 此方法不触发项目选择信号。
 
 ----
 
@@ -661,7 +661,7 @@ Method Descriptions
 
 - void **set_item_custom_bg_color** **(** :ref:`int<class_int>` idx, :ref:`Color<class_Color>` custom_bg_color **)**
 
-将``idx``\ 索引指定的项目的背景色设置为指定的颜色:ref:`Color<class_Color>`。
+将\ ``idx``\ 索引指定的项目的背景色设置为指定的颜色\ :ref:`Color<class_Color>`。
 
 ----
 
@@ -669,7 +669,7 @@ Method Descriptions
 
 - void **set_item_custom_fg_color** **(** :ref:`int<class_int>` idx, :ref:`Color<class_Color>` custom_fg_color **)**
 
-将``idx``\ 索引指定项目的前景颜色设置为指定的颜色:ref:`Color<class_Color>`。
+将\ ``idx``\ 索引指定项目的前景颜色设置为指定的颜色\ :ref:`Color<class_Color>`。
 
 ----
 
@@ -687,7 +687,7 @@ Method Descriptions
 
 - void **set_item_icon** **(** :ref:`int<class_int>` idx, :ref:`Texture<class_Texture>` icon **)**
 
-设置（或替换）与指定索引相关的图标的纹理:ref:`Texture<class_Texture>`。
+设置（或替换）与指定索引相关的图标的纹理\ :ref:`Texture<class_Texture>`。
 
 ----
 
@@ -695,7 +695,7 @@ Method Descriptions
 
 - void **set_item_icon_modulate** **(** :ref:`int<class_int>` idx, :ref:`Color<class_Color>` modulate **)**
 
-设置与指定索引相关的项目的调制颜色:ref:`Color<class_Color>`。
+设置与指定索引相关的项目的调制颜色\ :ref:`Color<class_Color>`。
 
 ----
 
@@ -800,7 +800,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 1, 1, 1, 1 )`` |
 +-----------+-------------------------+
 
-选择项目时使用的文本颜色:ref:`Color<class_Color>`。
+选择项目时使用的文本颜色\ :ref:`Color<class_Color>`。
 
 ----
 
@@ -812,7 +812,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 0, 0, 0, 0.1 )`` |
 +-----------+---------------------------+
 
-指导线的颜色:ref:`Color<class_Color>`。指导线是在每行项目之间画的一条线。
+指导线的颜色\ :ref:`Color<class_Color>`。指导线是在每行项目之间画的一条线。
 
 ----
 
@@ -884,7 +884,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **bg_focus**
 
-当``ItemList``\ 被聚焦时使用的样式盒:ref:`StyleBox<class_StyleBox>`。
+当\ ``ItemList``\ 被聚焦时使用的样式盒\ :ref:`StyleBox<class_StyleBox>`。
 
 ----
 
@@ -892,7 +892,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **cursor**
 
-当``ItemList``\ 被聚焦时，用于光标的样式盒:ref:`StyleBox<class_StyleBox>`。
+当\ ``ItemList``\ 被聚焦时，用于光标的样式盒\ :ref:`StyleBox<class_StyleBox>`。
 
 ----
 
@@ -900,7 +900,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **cursor_unfocused**
 
-当``ItemList``\ 没有被聚焦时，用于光标的样式盒:ref:`StyleBox<class_StyleBox>`。
+当\ ``ItemList``\ 没有被聚焦时，用于光标的样式盒\ :ref:`StyleBox<class_StyleBox>`。
 
 ----
 
@@ -908,7 +908,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **selected**
 
-所选项的样式盒:ref:`StyleBox<class_StyleBox>`，当``ItemList``\ 没有获得焦点时使用。
+所选项的样式盒\ :ref:`StyleBox<class_StyleBox>`，当\ ``ItemList``\ 没有获得焦点时使用。
 
 ----
 
@@ -916,7 +916,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **selected_focus**
 
-所选项的样式盒:ref:`StyleBox<class_StyleBox>`，当``ItemList``\ 没有获得焦点时使用。
+所选项的样式盒\ :ref:`StyleBox<class_StyleBox>`，当\ ``ItemList``\ 没有获得焦点时使用。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

@@ -18,7 +18,7 @@ Description
 
 这是通用的移动VR实现，你需要提供关于所使用的手机和HMD的细节。它不依赖于任何现有的框架。这是我们拥有的最基本的接口。为了达到最好的效果，你需要一个有陀螺仪和加速器的手机。
 
-请注意，即使没有位置跟踪，相机也会假定耳机处于1.85米的高度。你可以通过设置:ref:`eye_height<class_MobileVRInterface_property_eye_height>`\ 来改变这一点。
+请注意，即使没有位置跟踪，相机也会假定耳机处于1.85米的高度。你可以通过设置\ :ref:`eye_height<class_MobileVRInterface_property_eye_height>`\ 来改变这一点。
 
 你可以按以下方式初始化这个接口：
 
@@ -94,7 +94,7 @@ Property Descriptions
 | *Getter*  | get_eye_height()      |
 +-----------+-----------------------+
 
-摄像机相对于地面所处的高度，即:ref:`ARVROrigin<class_ARVROrigin>`\ 节点。
+摄像机相对于地面所处的高度，即\ :ref:`ARVROrigin<class_ARVROrigin>`\ 节点。
 
 ----
 

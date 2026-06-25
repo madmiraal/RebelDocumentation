@@ -58,7 +58,7 @@ Method Descriptions
 
 - void **_export_begin** **(** :ref:`PoolStringArray<class_PoolStringArray>` features, :ref:`bool<class_bool>` is_debug, :ref:`String<class_String>` path, :ref:`int<class_int>` flags **)** |virtual|
 
-由用户重写的虚方法。在导出开始时它被调用，并提供关于导出的所有信息。``features`` 是导出的特性列表，``is_debug`` 是``true`` 用于调试构建，``path`` 是导出项目的目标路径。``flags``\ 只运行在可运行配置时使用，例如在Android上使用本地运行。
+由用户重写的虚方法。在导出开始时它被调用，并提供关于导出的所有信息。``features`` 是导出的特性列表，``is_debug`` 是\ ``true`` 用于调试构建，``path`` 是导出项目的目标路径。``flags``\ 只运行在可运行配置时使用，例如在Android上使用本地运行。
 
 ----
 
@@ -110,7 +110,7 @@ Method Descriptions
 
 在 iOS 的 Xcode 项目中链接阶段添加动态库（\*.dylib, \*.framework），并将其嵌入到生成的二进制文件中。
 
-**注意：**对于静态库（\*.a）的工作方式与 :ref:`add_ios_framework<class_EditorExportPlugin_method_add_ios_framework>` 相同。
+**注意：**\ 对于静态库（\*.a）的工作方式与 :ref:`add_ios_framework<class_EditorExportPlugin_method_add_ios_framework>` 相同。
 
 这个方法不应用于系统库，因为它们已经在设备上存在。
 
@@ -144,7 +144,7 @@ Method Descriptions
 
 - void **add_ios_project_static_lib** **(** :ref:`String<class_String>` path **)**
 
-从给定的``path``\ 添加静态库到iOS项目。
+从给定的\ ``path``\ 添加静态库到iOS项目。
 
 ----
 
@@ -160,7 +160,7 @@ Method Descriptions
 
 - void **skip** **(** **)**
 
-在:ref:`_export_file<class_EditorExportPlugin_method__export_file>`\ 中调用。跳过当前文件，因此它不包括在导出中。
+在\ :ref:`_export_file<class_EditorExportPlugin_method__export_file>`\ 中调用。跳过当前文件，因此它不包括在导出中。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

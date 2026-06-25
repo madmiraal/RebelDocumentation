@@ -67,7 +67,7 @@ Property Descriptions
 | *Getter* | get_mesh()      |
 +----------+-----------------+
 
-该实例的:ref:`Mesh<class_Mesh>`\ 资源。
+该实例的\ :ref:`Mesh<class_Mesh>`\ 资源。
 
 ----
 
@@ -83,7 +83,7 @@ Property Descriptions
 | *Getter*  | get_skeleton_path()      |
 +-----------+--------------------------+
 
-与实例相关联:ref:`NodePath<class_NodePath>`\ 的:ref:`Skeleton<class_Skeleton>`。
+与实例相关联\ :ref:`NodePath<class_NodePath>`\ 的\ :ref:`Skeleton<class_Skeleton>`。
 
 ----
 
@@ -113,9 +113,9 @@ Property Descriptions
 | *Getter*  | is_software_skinning_transform_normals_enabled() |
 +-----------+--------------------------------------------------+
 
-如果``true``，当使用软件蒙皮时，法线会被转换。当不需要法线时，设置为``false``\ 以获得更好的性能。
+如果\ ``true``，当使用软件蒙皮时，法线会被转换。当不需要法线时，设置为\ ``false``\ 以获得更好的性能。
 
-关于如何启用软件蒙皮的细节，参阅:ref:`ProjectSettings.rendering/quality/skinning/software_skinning_fallback<class_ProjectSettings_property_rendering/quality/skinning/software_skinning_fallback>`。
+关于如何启用软件蒙皮的细节，参阅\ :ref:`ProjectSettings.rendering/quality/skinning/software_skinning_fallback<class_ProjectSettings_property_rendering/quality/skinning/software_skinning_fallback>`。
 
 Method Descriptions
 -------------------
@@ -124,11 +124,11 @@ Method Descriptions
 
 - void **create_convex_collision** **(** :ref:`bool<class_bool>` clean=true, :ref:`bool<class_bool>` simplify=false **)**
 
-这个助手创建:ref:`StaticBody<class_StaticBody>`\ 子节点，该节点具有从网格几何形状计算的:ref:`ConvexPolygonShape<class_ConvexPolygonShape>`\ 碰撞形状。其主要用于测试。
+这个助手创建\ :ref:`StaticBody<class_StaticBody>`\ 子节点，该节点具有从网格几何形状计算的\ :ref:`ConvexPolygonShape<class_ConvexPolygonShape>`\ 碰撞形状。其主要用于测试。
 
-如果``clean``\ 是``true``（默认），重复的顶点和内部顶点会被自动移除。可以把它设置为``false``，以便在不需要的情况下使这个过程更快。
+如果\ ``clean``\ 是\ ``true``\ （默认），重复的顶点和内部顶点会被自动移除。可以把它设置为\ ``false``，以便在不需要的情况下使这个过程更快。
 
-如果``simplify``\ 是``true``，可以进一步简化几何体以减少顶点的数量。默认情况下是禁用的。
+如果\ ``simplify``\ 是\ ``true``，可以进一步简化几何体以减少顶点的数量。默认情况下是禁用的。
 
 ----
 
@@ -136,7 +136,7 @@ Method Descriptions
 
 - void **create_debug_tangents** **(** **)**
 
-这个辅助工具创建``MeshInstance``\ 子节点，在每个顶点都有根据网格几何形状计算的辅助线框。其主要用于测试。
+这个辅助工具创建\ ``MeshInstance``\ 子节点，在每个顶点都有根据网格几何形状计算的辅助线框。其主要用于测试。
 
 ----
 
@@ -144,7 +144,7 @@ Method Descriptions
 
 - void **create_multiple_convex_collisions** **(** **)**
 
-这个助手创建:ref:`StaticBody<class_StaticBody>`\ 子节点，该节点具有多个:ref:`ConvexPolygonShape<class_ConvexPolygonShape>`\ 碰撞形状，这些碰撞形状是通过凸面分解从网格几何形状计算出来的。其主要用于测试。
+这个助手创建\ :ref:`StaticBody<class_StaticBody>`\ 子节点，该节点具有多个\ :ref:`ConvexPolygonShape<class_ConvexPolygonShape>`\ 碰撞形状，这些碰撞形状是通过凸面分解从网格几何形状计算出来的。其主要用于测试。
 
 ----
 
@@ -152,7 +152,7 @@ Method Descriptions
 
 - void **create_trimesh_collision** **(** **)**
 
-这个助手创建:ref:`StaticBody<class_StaticBody>`\ 子节点，其碰撞形状是由网格的几何形状计算出来的:ref:`ConcavePolygonShape<class_ConcavePolygonShape>`，其主要用于测试。
+这个助手创建\ :ref:`StaticBody<class_StaticBody>`\ 子节点，其碰撞形状是由网格的几何形状计算出来的\ :ref:`ConcavePolygonShape<class_ConcavePolygonShape>`，其主要用于测试。
 
 ----
 
@@ -160,7 +160,7 @@ Method Descriptions
 
 - :ref:`Material<class_Material>` **get_active_material** **(** :ref:`int<class_int>` surface **)** |const|
 
-返回:ref:`Mesh<class_Mesh>`\ 绘制时使用的:ref:`Material<class_Material>`。这可以返回:ref:`GeometryInstance.material_override<class_GeometryInstance_property_material_override>`，这个``MeshInstance``\ 中定义的表面覆盖:ref:`Material<class_Material>`，或者:ref:`Mesh<class_Mesh>`\ 中定义的表面:ref:`Material<class_Material>`。例如，如果使用:ref:`GeometryInstance.material_override<class_GeometryInstance_property_material_override>`，所有的表面都会返回覆盖的材质。
+返回\ :ref:`Mesh<class_Mesh>`\ 绘制时使用的\ :ref:`Material<class_Material>`。这可以返回\ :ref:`GeometryInstance.material_override<class_GeometryInstance_property_material_override>`，这个\ ``MeshInstance``\ 中定义的表面覆盖\ :ref:`Material<class_Material>`，或者\ :ref:`Mesh<class_Mesh>`\ 中定义的表面\ :ref:`Material<class_Material>`。例如，如果使用\ :ref:`GeometryInstance.material_override<class_GeometryInstance_property_material_override>`，所有的表面都会返回覆盖的材质。
 
 ----
 

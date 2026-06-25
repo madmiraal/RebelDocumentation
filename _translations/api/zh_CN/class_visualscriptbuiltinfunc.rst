@@ -18,7 +18,7 @@ Description
 
 在 :ref:`VisualScript<class_VisualScript>` 中使用的内置函数。它通常是一个数学函数或一个实用函数。
 
-也可参阅:ref:`@GDScript<class_@GDScript>`，了解GDScript语言中的相同函数。
+也可参阅\ :ref:`@GDScript<class_@GDScript>`，了解GDScript语言中的相同函数。
 
 Properties
 ----------
@@ -212,7 +212,7 @@ enum **BuiltinFunc**:
 
 - **MATH_LOG** = **19** --- 返回输入的自然对数。注意，这不是计算器使用的典型的以10为基数的对数函数。
 
-- **MATH_EXP** = **20** --- 返回数学常量**e**提高到指定的幂。**e**的近似值为2.71828。
+- **MATH_EXP** = **20** --- 返回数学常量\ **e**\ 提高到指定的幂。**e**\ 的近似值为2.71828。
 
 - **MATH_ISNAN** = **21** --- 返回输入是否为NaN（Not a Number）。NaN通常是由0除以0产生的，当然也有其他方式。
 
@@ -224,7 +224,7 @@ enum **BuiltinFunc**:
 
 - **MATH_STEPIFY** = **25** --- 返回给定步骤的输入断点。
 
-- **MATH_LERP** = **26** --- 返回一个在前两个输入之间线性插值的数字，以第三个输入为基础。使用公式``a + (a - b) * t``。
+- **MATH_LERP** = **26** --- 返回一个在前两个输入之间线性插值的数字，以第三个输入为基础。使用公式\ ``a + (a - b) * t``。
 
 - **MATH_INVERSE_LERP** = **27**
 
@@ -232,7 +232,7 @@ enum **BuiltinFunc**:
 
 - **MATH_MOVE_TOWARD** = **29** --- 根据第三个输入，将数字向一个值移动。
 
-- **MATH_DECTIME** = **30** --- 返回``value``\ 减少``step``\*``amount``\ 的结果。
+- **MATH_DECTIME** = **30** --- 返回\ ``value``\ 减少\ ``step``\*``amount``\ 的结果。
 
 - **MATH_RANDOMIZE** = **31** --- 随机化随机数生成器的种子（或内部状态）。目前的实现是使用一个基于时间的数字重新做种。
 
@@ -266,17 +266,17 @@ enum **BuiltinFunc**:
 
 - **LOGIC_MIN** = **46** --- 返回两个数字中较小的一个，也被称为它们的最小值。
 
-- **LOGIC_CLAMP** = **47** --- 返回限定在给定范围内的输入，确保结果永远不会超出该范围。相当于``min(max(input, range_low), range_high)``。
+- **LOGIC_CLAMP** = **47** --- 返回限定在给定范围内的输入，确保结果永远不会超出该范围。相当于\ ``min(max(input, range_low), range_high)``。
 
 - **LOGIC_NEAREST_PO2** = **48** --- 将最接近的2的次方返回给输入。
 
-- **OBJ_WEAKREF** = **49** --- 从输入创建一个:ref:`WeakRef<class_WeakRef>`。
+- **OBJ_WEAKREF** = **49** --- 从输入创建一个\ :ref:`WeakRef<class_WeakRef>`。
 
-- **FUNC_FUNCREF** = **50** --- 从输入创建一个:ref:`FuncRef<class_FuncRef>`。
+- **FUNC_FUNCREF** = **50** --- 从输入创建一个\ :ref:`FuncRef<class_FuncRef>`。
 
 - **TYPE_CONVERT** = **51** --- 在类型之间转换。
 
-- **TYPE_OF** = **52** --- 返回输入的类型为整数。请查看:ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`\ 以了解可能被返回的整数。
+- **TYPE_OF** = **52** --- 返回输入的类型为整数。请查看\ :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`\ 以了解可能被返回的整数。
 
 - **TYPE_EXISTS** = **53** --- 检查类型是否已在 :ref:`ClassDB<class_ClassDB>` 中注册。
 
@@ -298,9 +298,9 @@ enum **BuiltinFunc**:
 
 - **BYTES_TO_VAR** = **62** --- 从使用 :ref:`VAR_TO_BYTES<class_VisualScriptBuiltinFunc_constant_VAR_TO_BYTES>` 序列化的 :ref:`PoolByteArray<class_PoolByteArray>` 反序列化 :ref:`Variant<class_Variant>`。
 
-- **COLORN** = **63** --- 返回具有给定名称的:ref:`Color<class_Color>`\ 和从0到1的alpha。
+- **COLORN** = **63** --- 返回具有给定名称的\ :ref:`Color<class_Color>`\ 和从0到1的alpha。
 
-**注意：** 名称在``color_names.inc``\ 中定义。
+**注意：** 名称在\ ``color_names.inc``\ 中定义。
 
 - **MATH_SMOOTHSTEP** = **64** --- 返回一个在前两个输入之间平滑内插的数字，基于第三个输入。类似于 :ref:`MATH_LERP<class_VisualScriptBuiltinFunc_constant_MATH_LERP>`，但在开始时插值较快，结束时插值较慢。使用Hermite插值公式。
 
@@ -315,7 +315,7 @@ enum **BuiltinFunc**:
 
 - **TEXT_ORD** = **67**
 
-- **FUNC_MAX** = **68** --- 表示:ref:`BuiltinFunc<enum_VisualScriptBuiltinFunc_BuiltinFunc>`\ 枚举的大小。
+- **FUNC_MAX** = **68** --- 表示\ :ref:`BuiltinFunc<enum_VisualScriptBuiltinFunc_BuiltinFunc>`\ 枚举的大小。
 
 Property Descriptions
 ---------------------

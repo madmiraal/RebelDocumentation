@@ -66,7 +66,7 @@ Method Descriptions
 
 - :ref:`PoolByteArray<class_PoolByteArray>` **PoolByteArray** **(** :ref:`Array<class_Array>` from **)**
 
-构建新的``PoolByteArray``。你可以选择传入一个通用的:ref:`Array<class_Array>`，它将被转换。
+构建新的\ ``PoolByteArray``。你可以选择传入一个通用的\ :ref:`Array<class_Array>`，它将被转换。
 
 ----
 
@@ -82,7 +82,7 @@ Method Descriptions
 
 - void **append_array** **(** :ref:`PoolByteArray<class_PoolByteArray>` array **)**
 
-在这个数组的最后添加``PoolByteArray``。
+在这个数组的最后添加\ ``PoolByteArray``。
 
 ----
 
@@ -90,7 +90,7 @@ Method Descriptions
 
 - :ref:`PoolByteArray<class_PoolByteArray>` **compress** **(** :ref:`int<class_int>` compression_mode=0 **)**
 
-返回新的``PoolByteArray``，其中的数据被压缩。使用:ref:`CompressionMode<enum_File_CompressionMode>`\ 中的一个常数来设置压缩模式。
+返回新的\ ``PoolByteArray``，其中的数据被压缩。使用\ :ref:`CompressionMode<enum_File_CompressionMode>`\ 中的一个常数来设置压缩模式。
 
 ----
 
@@ -128,7 +128,7 @@ GZIP has a maximal compression ratio of 1032:1, meaning it's very possible for a
 
 - :ref:`String<class_String>` **get_string_from_ascii** **(** **)**
 
-返回数组内容的副本为:ref:`String<class_String>`。如果内容是ASCII码，可以通过:ref:`get_string_from_utf8<class_PoolByteArray_method_get_string_from_utf8>`\ 来对其快速替代。与UTF-8函数不同，该函数将每个字节映射为数组中的一个字符。多字节的序列不会被正确解释。对于解析用户输入的内容，总是使用:ref:`get_string_from_utf8<class_PoolByteArray_method_get_string_from_utf8>`。
+返回数组内容的副本为\ :ref:`String<class_String>`。如果内容是ASCII码，可以通过\ :ref:`get_string_from_utf8<class_PoolByteArray_method_get_string_from_utf8>`\ 来对其快速替代。与UTF-8函数不同，该函数将每个字节映射为数组中的一个字符。多字节的序列不会被正确解释。对于解析用户输入的内容，总是使用\ :ref:`get_string_from_utf8<class_PoolByteArray_method_get_string_from_utf8>`。
 
 ----
 
@@ -136,7 +136,7 @@ GZIP has a maximal compression ratio of 1032:1, meaning it's very possible for a
 
 - :ref:`String<class_String>` **get_string_from_utf8** **(** **)**
 
-返回数组内容的副本:ref:`String<class_String>`。比:ref:`get_string_from_ascii<class_PoolByteArray_method_get_string_from_ascii>`\ 慢，但支持UTF-8编码的数据。如果不确定数据的来源，请使用此函数。对于用户输入，应该始终首选此函数。
+返回数组内容的副本\ :ref:`String<class_String>`。比\ :ref:`get_string_from_ascii<class_PoolByteArray_method_get_string_from_ascii>`\ 慢，但支持UTF-8编码的数据。如果不确定数据的来源，请使用此函数。对于用户输入，应该始终首选此函数。
 
 ----
 
@@ -144,7 +144,7 @@ GZIP has a maximal compression ratio of 1032:1, meaning it's very possible for a
 
 - :ref:`String<class_String>` **hex_encode** **(** **)**
 
-返回该数组的十六进制，表示为一个:ref:`String<class_String>`。
+返回该数组的十六进制，表示为一个\ :ref:`String<class_String>`。
 
 ::
 
@@ -215,7 +215,7 @@ GZIP has a maximal compression ratio of 1032:1, meaning it's very possible for a
 
 - :ref:`PoolByteArray<class_PoolByteArray>` **subarray** **(** :ref:`int<class_int>` from, :ref:`int<class_int>` to **)**
 
-返回索引（包括）之间的``PoolByteArray``\ 的片断为一个新的``PoolByteArray``。任何负的索引都被认为是从数组的末端开始的。
+返回索引（包括）之间的\ ``PoolByteArray``\ 的片断为一个新的\ ``PoolByteArray``。任何负的索引都被认为是从数组的末端开始的。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

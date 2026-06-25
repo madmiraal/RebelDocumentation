@@ -16,7 +16,7 @@ Mutex
 Description
 -----------
 
-一个同步互斥锁（mutex）。它用于同步多个:ref:`Thread<class_Thread>`，相当于一个二进制:ref:`Semaphore<class_Semaphore>`。它保证每次只有一个线程可以获得锁。互斥锁可以用来保护临界区；但是，要注意避免死锁。
+一个同步互斥锁（mutex）。它用于同步多个\ :ref:`Thread<class_Thread>`，相当于一个二进制\ :ref:`Semaphore<class_Semaphore>`。它保证每次只有一个线程可以获得锁。互斥锁可以用来保护临界区；但是，要注意避免死锁。
 
 Tutorials
 ---------
@@ -51,9 +51,9 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **try_lock** **(** **)**
 
-试图锁定此``Mutex``，但并不阻塞。成功时返回:ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`，否则返回:ref:`@GlobalScope.ERR_BUSY<class_@GlobalScope_constant_ERR_BUSY>`。
+试图锁定此\ ``Mutex``，但并不阻塞。成功时返回\ :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`，否则返回\ :ref:`@GlobalScope.ERR_BUSY<class_@GlobalScope_constant_ERR_BUSY>`。
 
-**注意：** 如果线程已经拥有了该Mutex的所有权，该函数返回:ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`。
+**注意：** 如果线程已经拥有了该Mutex的所有权，该函数返回\ :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`。
 
 ----
 
@@ -63,7 +63,7 @@ Method Descriptions
 
 解锁这个 ``Mutex``，把它留给其他线程。
 
-**注意：**如果一个线程在已经拥有互斥锁的情况下多次调用:ref:`lock<class_Mutex_method_lock>`\ 或:ref:`try_lock<class_Mutex_method_try_lock>`，它也必须调用相同次数的:ref:`unlock<class_Mutex_method_unlock>`\ 才能正确解锁.
+**注意：**\ 如果一个线程在已经拥有互斥锁的情况下多次调用\ :ref:`lock<class_Mutex_method_lock>`\ 或\ :ref:`try_lock<class_Mutex_method_try_lock>`，它也必须调用相同次数的\ :ref:`unlock<class_Mutex_method_unlock>`\ 才能正确解锁.
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

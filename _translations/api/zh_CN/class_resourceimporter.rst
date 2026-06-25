@@ -18,7 +18,7 @@ ResourceImporter
 Description
 -----------
 
-这是在核心部分实现的资源导入器的基类。要使用编辑器插件实现你自己的资源导入器，请参阅:ref:`EditorImportPlugin<class_EditorImportPlugin>`。
+这是在核心部分实现的资源导入器的基类。要使用编辑器插件实现你自己的资源导入器，请参阅\ :ref:`EditorImportPlugin<class_EditorImportPlugin>`。
 
 Tutorials
 ---------
@@ -38,7 +38,7 @@ enum **ImportOrder**:
 
 - **IMPORT_ORDER_DEFAULT** = **0** --- 默认导入顺序。
 
-- **IMPORT_ORDER_SCENE** = **100** --- 场景的导入顺序，确保场景被导入在所有其他核心资源（如纹理）*之后*。自定义导入器的导入顺序一般应低于``100``，以避免导入依赖自定义资源的场景时出现问题。
+- **IMPORT_ORDER_SCENE** = **100** --- 场景的导入顺序，确保场景被导入在所有其他核心资源（如纹理）*之后*。自定义导入器的导入顺序一般应低于\ ``100``，以避免导入依赖自定义资源的场景时出现问题。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`
