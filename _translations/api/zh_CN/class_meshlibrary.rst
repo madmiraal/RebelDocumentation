@@ -16,7 +16,7 @@ MeshLibrary
 Description
 -----------
 
-网格库包含一个:ref:`Mesh<class_Mesh>`\ 资源列表，每个资源都有一个名称和ID。每个项目还可以包括碰撞和导航形状。这个资源在:ref:`GridMap<class_GridMap>`\ 中使用。
+网格库包含一个\ :ref:`Mesh<class_Mesh>`\ 资源列表，每个资源都有一个名称和ID。每个项目还可以包括碰撞和导航形状。这个资源在\ :ref:`GridMap<class_GridMap>`\ 中使用。
 
 Methods
 -------
@@ -80,7 +80,7 @@ Method Descriptions
 
 使用给定的ID在库中创建一个新项。
 
-你可以从:ref:`get_last_unused_item_id<class_MeshLibrary_method_get_last_unused_item_id>`\ 获取一个未使用的ID。
+你可以从\ :ref:`get_last_unused_item_id<class_MeshLibrary_method_get_last_unused_item_id>`\ 获取一个未使用的ID。
 
 ----
 
@@ -144,7 +144,7 @@ Method Descriptions
 
 - :ref:`Texture<class_Texture>` **get_item_preview** **(** :ref:`int<class_int>` id **)** |const|
 
-当在编辑器中运行时，返回生成的项目预览（等距透视的3D渲染）。当在运行的项目中使用时，返回手动定义的项目预览，可以使用:ref:`set_item_preview<class_MeshLibrary_method_set_item_preview>`\ 来设置。如果在运行的项目中没有手动设置预览，返回空的:ref:`Texture<class_Texture>`。
+当在编辑器中运行时，返回生成的项目预览（等距透视的3D渲染）。当在运行的项目中使用时，返回手动定义的项目预览，可以使用\ :ref:`set_item_preview<class_MeshLibrary_method_set_item_preview>`\ 来设置。如果在运行的项目中没有手动设置预览，返回空的\ :ref:`Texture<class_Texture>`。
 
 ----
 
@@ -154,7 +154,7 @@ Method Descriptions
 
 返回项目的碰撞形状。
 
-这个数组由每个:ref:`Shape<class_Shape>`\ 和它的:ref:`Transform<class_Transform>`\ 组成。
+这个数组由每个\ :ref:`Shape<class_Shape>`\ 和它的\ :ref:`Transform<class_Transform>`\ 组成。
 
 ----
 
@@ -196,7 +196,7 @@ Method Descriptions
 
 设置项的名称。
 
-该名称显示在编辑器中。稍后还可以使用:ref:`find_item_by_name<class_MeshLibrary_method_find_item_by_name>`\ 来查找该项。
+该名称显示在编辑器中。稍后还可以使用\ :ref:`find_item_by_name<class_MeshLibrary_method_find_item_by_name>`\ 来查找该项。
 
 ----
 
@@ -230,7 +230,7 @@ Method Descriptions
 
 设置项目的碰撞形状。
 
-数组应由:ref:`Shape<class_Shape>`\ 对象组成，每个对象之后都有应用于它的:ref:`Transform<class_Transform>`。对于不应有变换的形状，使用:ref:`Transform.IDENTITY<class_Transform_constant_IDENTITY>`。
+数组应由\ :ref:`Shape<class_Shape>`\ 对象组成，每个对象之后都有应用于它的\ :ref:`Transform<class_Transform>`。对于不应有变换的形状，使用\ :ref:`Transform.IDENTITY<class_Transform_constant_IDENTITY>`。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

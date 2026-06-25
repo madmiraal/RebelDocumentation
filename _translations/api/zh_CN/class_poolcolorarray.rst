@@ -9,12 +9,12 @@
 PoolColorArray
 ==============
 
-:ref:`Color<class_Color>`\ 的:ref:`Array<class_Array>`\ 的集合。
+:ref:`Color<class_Color>`\ 的\ :ref:`Array<class_Array>`\ 的集合。
 
 Description
 -----------
 
-专门用于保存:ref:`Color<class_Color>`\ 的:ref:`Array<class_Array>`。对内存的使用进行了优化，不会使内存碎片化。
+专门用于保存\ :ref:`Color<class_Color>`\ 的\ :ref:`Array<class_Array>`。对内存的使用进行了优化，不会使内存碎片化。
 
 **注意：** 这种类型是通过值传递的，而不是引用。
 
@@ -52,7 +52,7 @@ Method Descriptions
 
 - :ref:`PoolColorArray<class_PoolColorArray>` **PoolColorArray** **(** :ref:`Array<class_Array>` from **)**
 
-构建新的``PoolColorArray``。你可以选择传入一个通用的:ref:`Array<class_Array>`，它将被转换。
+构建新的\ ``PoolColorArray``。你可以选择传入一个通用的\ :ref:`Array<class_Array>`，它将被转换。
 
 ----
 
@@ -68,7 +68,7 @@ Method Descriptions
 
 - void **append_array** **(** :ref:`PoolColorArray<class_PoolColorArray>` array **)**
 
-在这个数组的最后添加一个``PoolColorArray``。
+在这个数组的最后添加一个\ ``PoolColorArray``。
 
 ----
 
@@ -124,7 +124,7 @@ Method Descriptions
 
 - void **set** **(** :ref:`int<class_int>` idx, :ref:`Color<class_Color>` color **)**
 
-更改给定索引处的:ref:`Color<class_Color>`。
+更改给定索引处的\ :ref:`Color<class_Color>`。
 
 ----
 

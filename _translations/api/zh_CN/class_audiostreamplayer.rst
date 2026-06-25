@@ -18,7 +18,7 @@ Description
 
 以非位置方式支持播放音频流。
 
-要在位置上播放音频，请使用:ref:`AudioStreamPlayer2D<class_AudioStreamPlayer2D>`\ 或:ref:`AudioStreamPlayer3D<class_AudioStreamPlayer3D>`\ 而不是``AudioStreamPlayer``。
+要在位置上播放音频，请使用\ :ref:`AudioStreamPlayer2D<class_AudioStreamPlayer2D>`\ 或\ :ref:`AudioStreamPlayer3D<class_AudioStreamPlayer3D>`\ 而不是\ ``AudioStreamPlayer``。
 
 Tutorials
 ---------
@@ -104,7 +104,7 @@ Property Descriptions
 | *Getter*  | is_autoplay_enabled() |
 +-----------+-----------------------+
 
-如果``true``，则在添加到场景树时播放音频。
+如果\ ``true``，则在添加到场景树时播放音频。
 
 ----
 
@@ -136,7 +136,7 @@ Property Descriptions
 | *Getter*  | get_mix_target()      |
 +-----------+-----------------------+
 
-如果音频配置有两个以上的扬声器，则设置目标通道。请参阅:ref:`MixTarget<enum_AudioStreamPlayer_MixTarget>`\ 常量。
+如果音频配置有两个以上的扬声器，则设置目标通道。请参阅\ :ref:`MixTarget<enum_AudioStreamPlayer_MixTarget>`\ 常量。
 
 ----
 
@@ -166,7 +166,7 @@ Property Descriptions
 | *Getter*  | is_playing() |
 +-----------+--------------+
 
-如果``true``，则播放音频。
+如果\ ``true``，则播放音频。
 
 ----
 
@@ -180,7 +180,7 @@ Property Descriptions
 | *Getter* | get_stream()      |
 +----------+-------------------+
 
-要播放的:ref:`AudioStream<class_AudioStream>`\ 对象。
+要播放的\ :ref:`AudioStream<class_AudioStream>`\ 对象。
 
 ----
 
@@ -221,7 +221,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **get_playback_position** **(** **)**
 
-返回:ref:`AudioStream<class_AudioStream>`\ 中的位置，单位为秒。
+返回\ :ref:`AudioStream<class_AudioStream>`\ 中的位置，单位为秒。
 
 ----
 
@@ -229,7 +229,7 @@ Method Descriptions
 
 - :ref:`AudioStreamPlayback<class_AudioStreamPlayback>` **get_stream_playback** **(** **)**
 
-返回与此``AudioStreamPlayer``\ 关联的:ref:`AudioStreamPlayback<class_AudioStreamPlayback>`\ 对象。
+返回与此\ ``AudioStreamPlayer``\ 关联的\ :ref:`AudioStreamPlayback<class_AudioStreamPlayback>`\ 对象。
 
 ----
 
@@ -237,7 +237,7 @@ Method Descriptions
 
 - void **play** **(** :ref:`float<class_float>` from_position=0.0 **)**
 
-从给定的``from_position``\ 播放音频，以秒为单位。
+从给定的\ ``from_position``\ 播放音频，以秒为单位。
 
 ----
 

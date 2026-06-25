@@ -24,9 +24,9 @@ Description
 
 - 想要启动连接的对等体（``A``\ 从现在开始）创建一个提交，并将其发送给另一个对等体（``B``\ 从现在开始）。
 
-- ``B``\ 收到要约，生成和回答，并将其发送给``A``）。
+- ``B``\ 收到要约，生成和回答，并将其发送给\ ``A``）。
 
-- ``A``\ 和``B``\ 然后生成并相互交换ICE候选。
+- ``A``\ 和\ ``B``\ 然后生成并相互交换ICE候选。
 
 在这些步骤之后，连接应该成功建立。继续阅读或查看教程以了解更多信息。
 
@@ -60,9 +60,9 @@ Signals
 
 - **data_channel_received** **(** :ref:`Object<class_Object>` channel **)**
 
-当收到一个新的带内通道时发出，即在通道是用``negotiated: false``（默认）。
+当收到一个新的带内通道时发出，即在通道是用\ ``negotiated: false``\ （默认）。
 
-该对象将是:ref:`WebRTCDataChannel<class_WebRTCDataChannel>`\ 的一个实例。你必须保持它的引用，否则它将被自动关闭。参阅:ref:`create_data_channel<class_WebRTCPeerConnection_method_create_data_channel>`。
+该对象将是\ :ref:`WebRTCDataChannel<class_WebRTCDataChannel>`\ 的一个实例。你必须保持它的引用，否则它将被自动关闭。参阅\ :ref:`create_data_channel<class_WebRTCPeerConnection_method_create_data_channel>`。
 
 ----
 
@@ -78,7 +78,7 @@ Signals
 
 - **session_description_created** **(** :ref:`String<class_String>` type, :ref:`String<class_String>` sdp **)**
 
-在成功调用:ref:`create_offer<class_WebRTCPeerConnection_method_create_offer>`\ 或:ref:`set_remote_description<class_WebRTCPeerConnection_method_set_remote_description>`\ 后触发，当它产生一个应答时。这些参数是为了传递给这个对象上的:ref:`set_local_description<class_WebRTCPeerConnection_method_set_local_description>`，并通过信号服务器发送给远程对等体。
+在成功调用\ :ref:`create_offer<class_WebRTCPeerConnection_method_create_offer>`\ 或\ :ref:`set_remote_description<class_WebRTCPeerConnection_method_set_remote_description>`\ 后触发，当它产生一个应答时。这些参数是为了传递给这个对象上的\ :ref:`set_local_description<class_WebRTCPeerConnection_method_set_local_description>`，并通过信号服务器发送给远程对等体。
 
 Enumerations
 ------------
@@ -109,7 +109,7 @@ enum **ConnectionState**:
 
 - **STATE_FAILED** = **4** --- 一个或更多的ICE传输失败。
 
-- **STATE_CLOSED** = **5** --- 对等连接已关闭，例如在调用:ref:`close<class_WebRTCPeerConnection_method_close>`\ 后。
+- **STATE_CLOSED** = **5** --- 对等连接已关闭，例如在调用\ :ref:`close<class_WebRTCPeerConnection_method_close>`\ 后。
 
 Method Descriptions
 -------------------
@@ -118,7 +118,7 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **add_ice_candidate** **(** :ref:`String<class_String>` media, :ref:`int<class_int>` index, :ref:`String<class_String>` name **)**
 
-添加一个由远程对等体产生的冻结候选，并通过信令服务器接收。请参阅:ref:`ice_candidate_created<class_WebRTCPeerConnection_signal_ice_candidate_created>`。
+添加一个由远程对等体产生的冻结候选，并通过信令服务器接收。请参阅\ :ref:`ice_candidate_created<class_WebRTCPeerConnection_signal_ice_candidate_created>`。
 
 ----
 
@@ -128,7 +128,7 @@ Method Descriptions
 
 关闭对等体连接和与之相关的所有数据通道。
 
-**注意：**你不能为一个新的连接重复使用这个对象，除非你调用:ref:`initialize<class_WebRTCPeerConnection_method_initialize>`。
+**注意：**\ 你不能为一个新的连接重复使用这个对象，除非你调用\ :ref:`initialize<class_WebRTCPeerConnection_method_initialize>`。
 
 ----
 
@@ -138,9 +138,9 @@ Method Descriptions
 
 返回新的 :ref:`WebRTCDataChannel<class_WebRTCDataChannel>`，或在失败时返回 ``null``，具有给定的 ``label``，并通过 ``options`` 字典进行配置。这个方法只有在连接处于 :ref:`STATE_NEW<class_WebRTCPeerConnection_constant_STATE_NEW>` 状态时才能被调用。
 
-有两种方法来创建工作数据通道：要么只在其中一个对等体上调用 :ref:`create_data_channel<class_WebRTCPeerConnection_method_create_data_channel>`，并在另一个对等体上监听:ref:`data_channel_received<class_WebRTCPeerConnection_signal_data_channel_received>`，要么在两个对等体上调用 :ref:`create_data_channel<class_WebRTCPeerConnection_method_create_data_channel>`，数值相同，并将 ``negotiated`` 选项设置为 ``true``。
+有两种方法来创建工作数据通道：要么只在其中一个对等体上调用 :ref:`create_data_channel<class_WebRTCPeerConnection_method_create_data_channel>`，并在另一个对等体上监听\ :ref:`data_channel_received<class_WebRTCPeerConnection_signal_data_channel_received>`，要么在两个对等体上调用 :ref:`create_data_channel<class_WebRTCPeerConnection_method_create_data_channel>`，数值相同，并将 ``negotiated`` 选项设置为 ``true``。
 
-有效的``options``\ 是:
+有效的\ ``options``\ 是:
 
 ::
 
@@ -156,7 +156,7 @@ Method Descriptions
         "protocol":"my-custom-protocol", # 这个通道的自定义子协议字符串。
     }
 
-**注意：**你必须保持对以这种方式创建的通道的引用，否则它将被关闭。
+**注意：**\ 你必须保持对以这种方式创建的通道的引用，否则它将被关闭。
 
 ----
 
@@ -164,9 +164,9 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **create_offer** **(** **)**
 
-创建一个新的SDP提交，以开始与远程对等体的WebRTC连接。在调用此方法之前，至少要创建一个:ref:`WebRTCDataChannel<class_WebRTCDataChannel>`。
+创建一个新的SDP提交，以开始与远程对等体的WebRTC连接。在调用此方法之前，至少要创建一个\ :ref:`WebRTCDataChannel<class_WebRTCDataChannel>`。
 
-如果这个函数返回:ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`，当会话准备好被发送时，:ref:`session_description_created<class_WebRTCPeerConnection_signal_session_description_created>`\ 将被调用。
+如果这个函数返回\ :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`，当会话准备好被发送时，:ref:`session_description_created<class_WebRTCPeerConnection_signal_session_description_created>`\ 将被调用。
 
 ----
 
@@ -174,7 +174,7 @@ Method Descriptions
 
 - :ref:`ConnectionState<enum_WebRTCPeerConnection_ConnectionState>` **get_connection_state** **(** **)** |const|
 
-返回连接状态。参阅:ref:`ConnectionState<enum_WebRTCPeerConnection_ConnectionState>`。
+返回连接状态。参阅\ :ref:`ConnectionState<enum_WebRTCPeerConnection_ConnectionState>`。
 
 ----
 
@@ -182,9 +182,9 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **initialize** **(** :ref:`Dictionary<class_Dictionary>` configuration={} **)**
 
-重新初始化这个对等体连接，关闭任何先前活动的连接，并回到状态:ref:`STATE_NEW<class_WebRTCPeerConnection_constant_STATE_NEW>`。可以通过``options``\ 的字典来配置对等连接。
+重新初始化这个对等体连接，关闭任何先前活动的连接，并回到状态\ :ref:`STATE_NEW<class_WebRTCPeerConnection_constant_STATE_NEW>`。可以通过\ ``options``\ 的字典来配置对等连接。
 
-有效的``options``\ 是:
+有效的\ ``options``\ 是:
 
 ::
 
@@ -207,7 +207,7 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **poll** **(** **)**
 
-经常调用这个方法以正确接收信号，例如在:ref:`Node._process<class_Node_method__process>`\ 或:ref:`Node._physics_process<class_Node_method__physics_process>`\ 中。
+经常调用这个方法以正确接收信号，例如在\ :ref:`Node._process<class_Node_method__process>`\ 或\ :ref:`Node._physics_process<class_Node_method__physics_process>`\ 中。
 
 ----
 
@@ -215,9 +215,9 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **set_local_description** **(** :ref:`String<class_String>` type, :ref:`String<class_String>` sdp **)**
 
-设置本地对等体的SDP描述。这应是在响应:ref:`session_description_created<class_WebRTCPeerConnection_signal_session_description_created>`\ 时调用的。
+设置本地对等体的SDP描述。这应是在响应\ :ref:`session_description_created<class_WebRTCPeerConnection_signal_session_description_created>`\ 时调用的。
 
-调用此函数后，对等体将开始发出:ref:`ice_candidate_created<class_WebRTCPeerConnection_signal_ice_candidate_created>`，除非返回与:ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`\ 不同的:ref:`Error<enum_@GlobalScope_Error>`。
+调用此函数后，对等体将开始发出\ :ref:`ice_candidate_created<class_WebRTCPeerConnection_signal_ice_candidate_created>`，除非返回与\ :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`\ 不同的\ :ref:`Error<enum_@GlobalScope_Error>`。
 
 ----
 
@@ -227,9 +227,9 @@ Method Descriptions
 
 设置远程对等体的SDP描述。应用远程对等体产生的值来调用，并通过信号服务器接收。
 
-如果``type``\ 是``offer``，对等体将发出:ref:`session_description_created<class_WebRTCPeerConnection_signal_session_description_created>`\ 并给出适当的答案。
+如果\ ``type``\ 是\ ``offer``，对等体将发出\ :ref:`session_description_created<class_WebRTCPeerConnection_signal_session_description_created>`\ 并给出适当的答案。
 
-如果``type``\ 是``answer``，对等体将开始发出:ref:`ice_candidate_created<class_WebRTCPeerConnection_signal_ice_candidate_created>`。
+如果\ ``type``\ 是\ ``answer``，对等体将开始发出\ :ref:`ice_candidate_created<class_WebRTCPeerConnection_signal_ice_candidate_created>`。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

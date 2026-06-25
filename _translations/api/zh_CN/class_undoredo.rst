@@ -227,7 +227,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_commiting_action** **(** **)** |const|
 
-如果 ``UndoRedo`` 当前正在提交动作，即运行其“do”的方法或属性变化，则返回``true``（请参阅 :ref:`commit_action<class_UndoRedo_method_commit_action>`）。
+如果 ``UndoRedo`` 当前正在提交动作，即运行其“do”的方法或属性变化，则返回\ ``true``\ （请参阅 :ref:`commit_action<class_UndoRedo_method_commit_action>`）。
 
 ----
 

@@ -62,7 +62,7 @@ Method Descriptions
 
 - void **create** **(** :ref:`int<class_int>` width, :ref:`int<class_int>` height, :ref:`int<class_int>` depth, :ref:`Format<enum_Image_Format>` format, :ref:`int<class_int>` flags=7 **)**
 
-以指定的``width``、``height``\ 和``depth``\ 创建TextureArray。参阅:ref:`Format<enum_Image_Format>`\ 的``format``\ 选项。参阅:ref:`Flags<enum_TextureLayered_Flags>`\ 枚举器的``flags``\ 选项。
+以指定的\ ``width``、``height``\ 和\ ``depth``\ 创建TextureArray。参阅\ :ref:`Format<enum_Image_Format>`\ 的\ ``format``\ 选项。参阅\ :ref:`Flags<enum_TextureLayered_Flags>`\ 枚举器的\ ``flags``\ 选项。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

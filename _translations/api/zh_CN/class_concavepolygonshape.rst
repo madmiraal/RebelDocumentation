@@ -16,7 +16,7 @@ ConcavePolygonShape
 Description
 -----------
 
-凹多边形形状资源，可设置为:ref:`PhysicsBody<class_PhysicsBody>`\ 或区域。这个形状是通过提供一个三角形列表来创建的。
+凹多边形形状资源，可设置为\ :ref:`PhysicsBody<class_PhysicsBody>`\ 或区域。这个形状是通过提供一个三角形列表来创建的。
 
 **注意：** 用于碰撞时，``ConcavePolygonShape`` 旨在与静态 :ref:`PhysicsBody<class_PhysicsBody>` 节点一起使用，如 :ref:`StaticBody<class_StaticBody>`，并且不适用于具有非静态模式的 :ref:`KinematicBody<class_KinematicBody>` 或 :ref:`RigidBody<class_RigidBody>`。
 

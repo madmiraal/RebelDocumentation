@@ -44,7 +44,7 @@ Method Descriptions
 
 - void **add_resource** **(** :ref:`String<class_String>` name, :ref:`Resource<class_Resource>` resource **)**
 
-将一个资源添加到预加载器中，并给出``name``。如果给定的``name``\ 的资源已经存在，新的资源将被重命名为"``name`` N"，其中N是一个从2开始的递增数字。
+将一个资源添加到预加载器中，并给出\ ``name``。如果给定的\ ``name``\ 的资源已经存在，新的资源将被重命名为"``name`` N"，其中N是一个从2开始的递增数字。
 
 ----
 
@@ -68,7 +68,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **has_resource** **(** :ref:`String<class_String>` name **)** |const|
 
-如果预加载器包含一个与``name``\ 相关的资源，则返回``true``。
+如果预加载器包含一个与\ ``name``\ 相关的资源，则返回\ ``true``。
 
 ----
 
@@ -76,7 +76,7 @@ Method Descriptions
 
 - void **remove_resource** **(** :ref:`String<class_String>` name **)**
 
-从预加载器中删除与``name``\ 有关的资源。
+从预加载器中删除与\ ``name``\ 有关的资源。
 
 ----
 
@@ -84,7 +84,7 @@ Method Descriptions
 
 - void **rename_resource** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` newname **)**
 
-将预加载器中的资源从``name``\ 重命名为``newname``。
+将预加载器中的资源从\ ``name``\ 重命名为\ ``newname``。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

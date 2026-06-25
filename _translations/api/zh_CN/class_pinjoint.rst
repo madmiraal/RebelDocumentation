@@ -16,7 +16,7 @@ PinJoint
 Description
 -----------
 
-3D刚体的钉关节。它将两个物体（刚体或静态体）钉在一起。参阅:ref:`Generic6DOFJoint<class_Generic6DOFJoint>`。
+3D刚体的钉关节。它将两个物体（刚体或静态体）钉在一起。参阅\ :ref:`Generic6DOFJoint<class_Generic6DOFJoint>`。
 
 Properties
 ----------

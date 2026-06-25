@@ -64,7 +64,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **get_resource_type** **(** :ref:`String<class_String>` path **)** |virtual|
 
-获取与给定路径相关的资源的类名。如果加载器不能处理它，它应该返回``""``。
+获取与给定路径相关的资源的类名。如果加载器不能处理它，它应该返回\ ``""``。
 
 **注意：** :ref:`ClassDB<class_ClassDB>` 不知道脚本定义的自定义资源类型，因此您可能只为它们返回 ``"Resource"``。
 
@@ -84,7 +84,7 @@ Method Descriptions
 
 - :ref:`Variant<class_Variant>` **load** **(** :ref:`String<class_String>` path, :ref:`String<class_String>` original_path **)** |virtual|
 
-当引擎发现这个加载器是兼容的，就会加载一个资源。如果加载的资源是导入的结果，``original_path``\ 将针对源文件。成功时返回一个:ref:`Resource<class_Resource>`\ 对象，失败时返回一个:ref:`Error<enum_@GlobalScope_Error>`\ 常量。
+当引擎发现这个加载器是兼容的，就会加载一个资源。如果加载的资源是导入的结果，``original_path``\ 将针对源文件。成功时返回一个\ :ref:`Resource<class_Resource>`\ 对象，失败时返回一个\ :ref:`Error<enum_@GlobalScope_Error>`\ 常量。
 
 ----
 

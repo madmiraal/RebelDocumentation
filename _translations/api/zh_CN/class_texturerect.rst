@@ -16,9 +16,9 @@ TextureRect
 Description
 -----------
 
-用于在用户界面上绘制图标和精灵。纹理的位置可以通过:ref:`stretch_mode<class_TextureRect_property_stretch_mode>`\ 属性来控制。它可以缩放、平铺，或者在其边界矩形内保持居中。
+用于在用户界面上绘制图标和精灵。纹理的位置可以通过\ :ref:`stretch_mode<class_TextureRect_property_stretch_mode>`\ 属性来控制。它可以缩放、平铺，或者在其边界矩形内保持居中。
 
-**注意：** 当使用TextureRect来显示:ref:`ViewportTexture<class_ViewportTexture>`\ 时，你应该启用:ref:`flip_v<class_TextureRect_property_flip_v>`。或者，你也可以在视窗上启用:ref:`Viewport.render_target_v_flip<class_Viewport_property_render_target_v_flip>`。否则，图像会出现颠倒的情况。
+**注意：** 当使用TextureRect来显示\ :ref:`ViewportTexture<class_ViewportTexture>`\ 时，你应该启用\ :ref:`flip_v<class_TextureRect_property_flip_v>`。或者，你也可以在视窗上启用\ :ref:`Viewport.render_target_v_flip<class_Viewport_property_render_target_v_flip>`。否则，图像会出现颠倒的情况。
 
 Properties
 ----------
@@ -60,7 +60,7 @@ Enumerations
 
 enum **StretchMode**:
 
-- **STRETCH_SCALE_ON_EXPAND** = **0** --- 缩放以适应节点的边界矩形，只有当``expand``\ 为``true``\ 时生效。默认为``stretch_mode``，用于向后兼容。在你将``expand``\ 设置为``true``\ 之前，纹理会表现得像:ref:`STRETCH_KEEP<class_TextureRect_constant_STRETCH_KEEP>`。
+- **STRETCH_SCALE_ON_EXPAND** = **0** --- 缩放以适应节点的边界矩形，只有当\ ``expand``\ 为\ ``true``\ 时生效。默认为\ ``stretch_mode``，用于向后兼容。在你将\ ``expand``\ 设置为\ ``true``\ 之前，纹理会表现得像\ :ref:`STRETCH_KEEP<class_TextureRect_constant_STRETCH_KEEP>`。
 
 - **STRETCH_SCALE** = **1** --- 缩放以适应节点的边界矩形。
 
@@ -139,7 +139,7 @@ Property Descriptions
 | *Getter*  | get_stretch_mode()      |
 +-----------+-------------------------+
 
-控件纹理在调整节点边界矩形时的行为。参阅:ref:`StretchMode<enum_TextureRect_StretchMode>`。
+控件纹理在调整节点边界矩形时的行为。参阅\ :ref:`StretchMode<enum_TextureRect_StretchMode>`。
 
 ----
 

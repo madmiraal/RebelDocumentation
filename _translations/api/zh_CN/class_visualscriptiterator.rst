@@ -16,7 +16,7 @@ VisualScriptIterator
 Description
 -----------
 
-这个节点在给定的输入中逐项进行。输入可以是任何序列数据类型，如:ref:`Array<class_Array>`\ 或:ref:`String<class_String>`。当每个项被处理完后，执行传出``exit`` 序列端口。
+这个节点在给定的输入中逐项进行。输入可以是任何序列数据类型，如\ :ref:`Array<class_Array>`\ 或\ :ref:`String<class_String>`。当每个项被处理完后，执行传出\ ``exit`` 序列端口。
 
 **Input Ports:**
 

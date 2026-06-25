@@ -16,7 +16,7 @@ VisualShaderNodeVectorScalarMix
 Description
 -----------
 
-在着色器语言中转换成``mix(a, b, weight)``，其中``a``\ 和``b``\ 是向量，``weight``\ 是标量。
+在着色器语言中转换成\ ``mix(a, b, weight)``，其中\ ``a``\ 和\ ``b``\ 是向量，``weight``\ 是标量。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

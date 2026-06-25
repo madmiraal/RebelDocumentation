@@ -116,7 +116,7 @@ Signals
 
 当队列中前一个动画播放完毕，要播放下一个动画时触发信号，参见 :ref:`queue<class_AnimationPlayer_method_queue>`。
 
-**注意：**如果是通过 :ref:`play<class_AnimationPlayer_method_play>` 方法或 :ref:`AnimationTree<class_AnimationTree>` 改变的动画，该信号不会触发。
+**注意：**\ 如果是通过 :ref:`play<class_AnimationPlayer_method_play>` 方法或 :ref:`AnimationTree<class_AnimationTree>` 改变的动画，该信号不会触发。
 
 ----
 
@@ -140,7 +140,7 @@ Signals
 
 - **caches_cleared** **(** **)**
 
-当缓存被清除时，通过:ref:`clear_caches<class_AnimationPlayer_method_clear_caches>`\ 自动或手动通知。
+当缓存被清除时，通过\ :ref:`clear_caches<class_AnimationPlayer_method_clear_caches>`\ 自动或手动通知。
 
 Enumerations
 ------------
@@ -159,7 +159,7 @@ enum **AnimationProcessMode**:
 
 - **ANIMATION_PROCESS_IDLE** = **1** --- 在空闲过程中处理动画。
 
-- **ANIMATION_PROCESS_MANUAL** = **2** --- 不处理动画。使用:ref:`advance<class_AnimationPlayer_method_advance>`\ 手动处理动画。
+- **ANIMATION_PROCESS_MANUAL** = **2** --- 不处理动画。使用\ :ref:`advance<class_AnimationPlayer_method_advance>`\ 手动处理动画。
 
 ----
 
@@ -220,9 +220,9 @@ Property Descriptions
 | *Getter*  | get_current_animation()      |
 +-----------+------------------------------+
 
-当前播放的动画的名称。如果没有动画正在播放，该属性的值是一个空字符串。改变这个值不会重新启动动画。关于播放动画的更多信息请参阅:ref:`play<class_AnimationPlayer_method_play>`。
+当前播放的动画的名称。如果没有动画正在播放，该属性的值是一个空字符串。改变这个值不会重新启动动画。关于播放动画的更多信息请参阅\ :ref:`play<class_AnimationPlayer_method_play>`。
 
-**注意：** 虽然这个属性出现在检查器中，但它不是用来编辑的，也不会保存在场景中。该属性主要用于获取当前播放的动画，内部用于动画播放轨道。有关详细信息，请参阅动画:ref:`Animation<class_Animation>`。
+**注意：** 虽然这个属性出现在检查器中，但它不是用来编辑的，也不会保存在场景中。该属性主要用于获取当前播放的动画，内部用于动画播放轨道。有关详细信息，请参阅动画\ :ref:`Animation<class_Animation>`。
 
 ----
 
@@ -276,7 +276,7 @@ Property Descriptions
 | *Getter* | is_active()       |
 +----------+-------------------+
 
-如果``true``，根据流程相关通知更新动画。
+如果\ ``true``，根据流程相关通知更新动画。
 
 ----
 
@@ -447,7 +447,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **get_playing_speed** **(** **)** |const|
 
-获取当前动画的实际播放速度，如果没有播放则为0。这个速度是调用:ref:`play<class_AnimationPlayer_method_play>`\ 方法时指定的:ref:`playback_speed<class_AnimationPlayer_property_playback_speed>`\ 属性乘以``custom_speed``\ 参数。
+获取当前动画的实际播放速度，如果没有播放则为0。这个速度是调用\ :ref:`play<class_AnimationPlayer_method_play>`\ 方法时指定的\ :ref:`playback_speed<class_AnimationPlayer_property_playback_speed>`\ 属性乘以\ ``custom_speed``\ 参数。
 
 ----
 
@@ -463,7 +463,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **has_animation** **(** :ref:`String<class_String>` name **)** |const|
 
-如果``AnimationPlayer``\ 存储了带有``name``\ with key:ref:`Animation<class_Animation>`，返回``true``。
+如果\ ``AnimationPlayer``\ 存储了带有\ ``name``\ with key\ :ref:`Animation<class_Animation>`，返回\ ``true``。
 
 ----
 
@@ -483,7 +483,7 @@ Method Descriptions
 
 ``AnimationPlayer`` 使用 :ref:`assigned_animation<class_AnimationPlayer_property_assigned_animation>` 跟踪其当前或最后播放的动画。如果使用相同的动画名 ``name`` 或没有 ``name`` 参数调用此方法，则分配的动画将在暂停时继续播放，或者在停止时重新启动（请参阅 :ref:`stop<class_AnimationPlayer_method_stop>`，同时暂停和停止。如果动画已经在播放，它将继续播放。
 
-**注意：**下次处理 ``AnimationPlayer`` 时，动画将被更新。如果在调用的同时更新了其他变量，则它们可能更新得太早。要立即执行更新，请调用 ``advance(0)``。
+**注意：**\ 下次处理 ``AnimationPlayer`` 时，动画将被更新。如果在调用的同时更新了其他变量，则它们可能更新得太早。要立即执行更新，请调用 ``advance(0)``。
 
 ----
 
@@ -503,7 +503,7 @@ Method Descriptions
 
 当当前动画播放完毕后，排队等待播放。
 
-**注意：**如果当前正在播放循环动画，除非以某种方式停止循环动画，否则排队的动画将永远不会播放。
+**注意：**\ 如果当前正在播放循环动画，除非以某种方式停止循环动画，否则排队的动画将永远不会播放。
 
 ----
 
@@ -511,7 +511,7 @@ Method Descriptions
 
 - void **remove_animation** **(** :ref:`String<class_String>` name **)**
 
-移除按键``name``\ 的动画。
+移除按键\ ``name``\ 的动画。
 
 ----
 
@@ -519,7 +519,7 @@ Method Descriptions
 
 - void **rename_animation** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` newname **)**
 
-将键值为``name``\ 的现有动画重命名为``newname``。
+将键值为\ ``name``\ 的现有动画重命名为\ ``newname``。
 
 ----
 
@@ -527,7 +527,7 @@ Method Descriptions
 
 - void **seek** **(** :ref:`float<class_float>` seconds, :ref:`bool<class_bool>` update=false **)**
 
-将动画寻道到时间点 ``seconds``（单位为秒）。``update`` 为 ``true`` 时会同时更新动画，否则会在处理时更新。当前帧和 ``seconds`` 之间的事件会被跳过。
+将动画寻道到时间点 ``seconds``\ （单位为秒）。``update`` 为 ``true`` 时会同时更新动画，否则会在处理时更新。当前帧和 ``seconds`` 之间的事件会被跳过。
 
 ----
 

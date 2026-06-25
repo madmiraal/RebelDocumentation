@@ -14,7 +14,7 @@ Transform
 Description
 -----------
 
-用于 3D 线性变换的 3×4 矩阵（3 行 4 列），可以表示平移、旋转、缩放等变换。它由一个 :ref:`basis<class_Transform_property_basis>`（前 3 列）和一个 :ref:`origin<class_Transform_property_origin>` 的 :ref:`Vector3<class_Vector3>`（最后一列）组成。
+用于 3D 线性变换的 3×4 矩阵（3 行 4 列），可以表示平移、旋转、缩放等变换。它由一个 :ref:`basis<class_Transform_property_basis>`\ （前 3 列）和一个 :ref:`origin<class_Transform_property_origin>` 的 :ref:`Vector3<class_Vector3>`\ （最后一列）组成。
 
 更多信息请阅读文档文章《矩阵和变换》。
 
@@ -103,7 +103,7 @@ Property Descriptions
 | *Default* | ``Basis( 1, 0, 0, 0, 1, 0, 0, 0, 1 )`` |
 +-----------+----------------------------------------+
 
-基础是一个包含3个:ref:`Vector3<class_Vector3>`\ 作为其列的矩阵：X轴、Y轴和Z轴。这些向量可以被解释为随物体移动的局部坐标系的基础向量。
+基础是一个包含3个\ :ref:`Vector3<class_Vector3>`\ 作为其列的矩阵：X轴、Y轴和Z轴。这些向量可以被解释为随物体移动的局部坐标系的基础向量。
 
 ----
 
@@ -115,7 +115,7 @@ Property Descriptions
 | *Default* | ``Vector3( 0, 0, 0 )`` |
 +-----------+------------------------+
 
-变换的平移偏移量，即第3、4列。相当于数组索引``3``。
+变换的平移偏移量，即第3、4列。相当于数组索引\ ``3``。
 
 Method Descriptions
 -------------------
@@ -180,7 +180,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_equal_approx** **(** :ref:`Transform<class_Transform>` transform **)**
 
-如果这个变换和``transform``\ 近似相等，通过对每个分量调用``is_equal_approx``，而返回``true``。
+如果这个变换和\ ``transform``\ 近似相等，通过对每个分量调用\ ``is_equal_approx``，而返回\ ``true``。
 
 ----
 
@@ -188,9 +188,9 @@ Method Descriptions
 
 - :ref:`Transform<class_Transform>` **looking_at** **(** :ref:`Vector3<class_Vector3>` target, :ref:`Vector3<class_Vector3>` up **)**
 
-返回一个旋转后的变换副本，使其-Z轴指向``target``\ 位置。
+返回一个旋转后的变换副本，使其-Z轴指向\ ``target``\ 位置。
 
-变换将首先围绕给定的``up``\ 向量旋转，然后进一步通过围绕垂直于``target``\ 和``up``\ 向量的轴旋转，来完全与目标对齐。
+变换将首先围绕给定的\ ``up``\ 向量旋转，然后进一步通过围绕垂直于\ ``target``\ 和\ ``up``\ 向量的轴旋转，来完全与目标对齐。
 
 操作是在全局空间进行的。
 
@@ -226,7 +226,7 @@ Method Descriptions
 
 相对于变换的基础向量，将变换按给定的偏移量进行平移。
 
-与:ref:`rotated<class_Transform_method_rotated>`\ 和:ref:`scaled<class_Transform_method_scaled>`\ 不同，它不使用矩阵乘法。
+与\ :ref:`rotated<class_Transform_method_rotated>`\ 和\ :ref:`scaled<class_Transform_method_scaled>`\ 不同，它不使用矩阵乘法。
 
 ----
 
@@ -234,7 +234,7 @@ Method Descriptions
 
 - :ref:`Variant<class_Variant>` **xform** **(** :ref:`Variant<class_Variant>` v **)**
 
-通过这个变换对指定的:ref:`Vector3<class_Vector3>`、:ref:`Plane<class_Plane>`、:ref:`AABB<class_AABB>`\ 或:ref:`PoolVector3Array<class_PoolVector3Array>`\ 进行变换。
+通过这个变换对指定的\ :ref:`Vector3<class_Vector3>`、:ref:`Plane<class_Plane>`、:ref:`AABB<class_AABB>`\ 或\ :ref:`PoolVector3Array<class_PoolVector3Array>`\ 进行变换。
 
 ----
 

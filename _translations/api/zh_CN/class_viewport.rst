@@ -178,7 +178,7 @@ Signals
 
 - **size_changed** **(** **)**
 
-当视窗的大小被改变时，无论是通过:ref:`set_size_override<class_Viewport_method_set_size_override>`，调整窗口的大小，还是其他方式，都会触发。
+当视窗的大小被改变时，无论是通过\ :ref:`set_size_override<class_Viewport_method_set_size_override>`，调整窗口的大小，还是其他方式，都会触发。
 
 Enumerations
 ------------
@@ -239,7 +239,7 @@ enum **ShadowAtlasQuadrantSubdiv**:
 
 - **SHADOW_ATLAS_QUADRANT_SUBDIV_1024** = **6** --- 这个象限将被分成1024个方向，并被最多1024个阴影贴图使用。除非 :ref:`shadow_atlas_size<class_Viewport_property_shadow_atlas_size>` 非常高，否则这个象限内的阴影分辨率会非常低。
 
-- **SHADOW_ATLAS_QUADRANT_SUBDIV_MAX** = **7** --- 代表:ref:`ShadowAtlasQuadrantSubdiv<enum_Viewport_ShadowAtlasQuadrantSubdiv>`\ 枚举的大小。
+- **SHADOW_ATLAS_QUADRANT_SUBDIV_MAX** = **7** --- 代表\ :ref:`ShadowAtlasQuadrantSubdiv<enum_Viewport_ShadowAtlasQuadrantSubdiv>`\ 枚举的大小。
 
 ----
 
@@ -347,7 +347,7 @@ enum **Usage**:
 
 - **USAGE_2D** = **0** --- 分配绘制2D场景所需的所有缓冲区。这比3D使用模式占用更少的VRAM。请注意，使用这种模式时，诸如辉光和HDR等3D渲染效果是不可用的。
 
-- **USAGE_2D_NO_SAMPLING** = **1** --- 分配2D场景所需的缓冲区，而不分配屏幕拷贝的缓冲区。相应地，你不能从屏幕上读取。在:ref:`Usage<enum_Viewport_Usage>`\ 类型中，这需要最少的VRAM。注意，使用这种模式时，诸如辉光和HDR等3D渲染效果是不可用的。
+- **USAGE_2D_NO_SAMPLING** = **1** --- 分配2D场景所需的缓冲区，而不分配屏幕拷贝的缓冲区。相应地，你不能从屏幕上读取。在\ :ref:`Usage<enum_Viewport_Usage>`\ 类型中，这需要最少的VRAM。注意，使用这种模式时，诸如辉光和HDR等3D渲染效果是不可用的。
 
 - **USAGE_3D** = **2** --- 为绘制3D场景和所有3D效果分配完整的缓冲区，包括2D场景和效果所需的缓冲区。
 
@@ -386,7 +386,7 @@ Property Descriptions
 | *Getter*  | use_arvr()          |
 +-----------+---------------------+
 
-如果``true``，视窗将用于AR/VR进程。
+如果\ ``true``，视窗将用于AR/VR进程。
 
 ----
 
@@ -402,7 +402,7 @@ Property Descriptions
 | *Getter*  | is_audio_listener_2d()          |
 +-----------+---------------------------------+
 
-如果``true``，视窗将处理2D音频流。
+如果\ ``true``，视窗将处理2D音频流。
 
 ----
 
@@ -418,7 +418,7 @@ Property Descriptions
 | *Getter*  | is_audio_listener()          |
 +-----------+------------------------------+
 
-如果``true``，视窗将处理3D音频流。
+如果\ ``true``，视窗将处理3D音频流。
 
 ----
 
@@ -432,7 +432,7 @@ Property Descriptions
 | *Getter* | get_canvas_transform()      |
 +----------+-----------------------------+
 
-视窗的画布变换，对改变所有子:ref:`CanvasItem<class_CanvasItem>`\ 的屏幕位置很有用。这与视窗的全局画布变换有关。
+视窗的画布变换，对改变所有子\ :ref:`CanvasItem<class_CanvasItem>`\ 的屏幕位置很有用。这与视窗的全局画布变换有关。
 
 ----
 
@@ -448,9 +448,9 @@ Property Descriptions
 | *Getter*  | get_use_debanding()      |
 +-----------+--------------------------+
 
-如果``true``，则使用一个快速的后期处理滤波器，使带状现象明显减少。在某些情况下，去带可能会引入稍微明显的抖动模式。建议只有在实际需要时才启用去带，因为抖动模式会使无损压缩的屏幕截图变大。
+如果\ ``true``，则使用一个快速的后期处理滤波器，使带状现象明显减少。在某些情况下，去带可能会引入稍微明显的抖动模式。建议只有在实际需要时才启用去带，因为抖动模式会使无损压缩的屏幕截图变大。
 
-**注意：** 仅在GLES3后端可用。:ref:`hdr<class_Viewport_property_hdr>`\ 也必须是``true``\ 才能使debanding去带生效。
+**注意：** 仅在GLES3后端可用。:ref:`hdr<class_Viewport_property_hdr>`\ 也必须是\ ``true``\ 才能使debanding去带生效。
 
 ----
 
@@ -482,7 +482,7 @@ Property Descriptions
 | *Getter*  | is_3d_disabled()      |
 +-----------+-----------------------+
 
-如果``true``，视窗将禁用3D渲染。对于实际禁用，使用``usage``。
+如果\ ``true``，视窗将禁用3D渲染。对于实际禁用，使用\ ``usage``。
 
 ----
 
@@ -498,7 +498,7 @@ Property Descriptions
 | *Getter*  | get_use_fxaa()      |
 +-----------+---------------------+
 
-启用快速近似抗锯齿。FXAA是一种流行的屏幕空间抗锯齿方法，它的速度很快，但会使图像看起来很模糊，特别是在较低的分辨率。在1440p和4K这样的大分辨率下，它仍然可以较好工作。一些损失的锐度可以通过启用对比度适应性锐化来恢复，参阅:ref:`sharpen_intensity<class_Viewport_property_sharpen_intensity>`。
+启用快速近似抗锯齿。FXAA是一种流行的屏幕空间抗锯齿方法，它的速度很快，但会使图像看起来很模糊，特别是在较低的分辨率。在1440p和4K这样的大分辨率下，它仍然可以较好工作。一些损失的锐度可以通过启用对比度适应性锐化来恢复，参阅\ :ref:`sharpen_intensity<class_Viewport_property_sharpen_intensity>`。
 
 ----
 
@@ -528,7 +528,7 @@ Property Descriptions
 | *Getter*  | is_input_disabled()      |
 +-----------+--------------------------+
 
-如果``true``，视窗将不接收输入事件。
+如果\ ``true``，视窗将不接收输入事件。
 
 ----
 
@@ -544,7 +544,7 @@ Property Descriptions
 | *Getter*  | is_snap_controls_to_pixels_enabled() |
 +-----------+--------------------------------------+
 
-如果``true``，视窗上的GUI控件将完美地放置像素。
+如果\ ``true``，视窗上的GUI控件将完美地放置像素。
 
 ----
 
@@ -592,7 +592,7 @@ If ``true``, the viewport rendering will receive benefits from High Dynamic Rang
 | *Getter*  | get_keep_3d_linear()      |
 +-----------+---------------------------+
 
-如果``true``，3D渲染后的结果将不会应用线性到sRGB的颜色转换。当视窗被用作渲染目标时，这点很重要，因为渲染结果会被用作另一个视窗中渲染的三维物体的纹理。如果视窗被用来创建不基于颜色的数据，噪声、高度图、采图等，这也很重要。当视窗被用作2D对象的纹理时，或者视窗是你的最终输出时，请不要启用这个功能。对于GLES2驱动来说，这将把sRGB输出转换为线性输出，这应该只用于需要线性色彩空间输入的VR插件!
+如果\ ``true``，3D渲染后的结果将不会应用线性到sRGB的颜色转换。当视窗被用作渲染目标时，这点很重要，因为渲染结果会被用作另一个视窗中渲染的三维物体的纹理。如果视窗被用来创建不基于颜色的数据，噪声、高度图、采图等，这也很重要。当视窗被用作2D对象的纹理时，或者视窗是你的最终输出时，请不要启用这个功能。对于GLES2驱动来说，这将把sRGB输出转换为线性输出，这应该只用于需要线性色彩空间输入的VR插件!
 
 ----
 
@@ -624,7 +624,7 @@ If ``true``, the viewport rendering will receive benefits from High Dynamic Rang
 | *Getter*  | is_using_own_world()     |
 +-----------+--------------------------+
 
-如果``true``，视窗将使用``world``\ 属性中定义的:ref:`World<class_World>`。
+如果\ ``true``，视窗将使用\ ``world``\ 属性中定义的\ :ref:`World<class_World>`。
 
 ----
 
@@ -640,7 +640,7 @@ If ``true``, the viewport rendering will receive benefits from High Dynamic Rang
 | *Getter*  | get_physics_object_picking()      |
 +-----------+-----------------------------------+
 
-如果``true``，则视窗渲染的对象将成为鼠标拾取过程的对象。
+如果\ ``true``，则视窗渲染的对象将成为鼠标拾取过程的对象。
 
 ----
 
@@ -656,7 +656,7 @@ If ``true``, the viewport rendering will receive benefits from High Dynamic Rang
 | *Getter*  | is_using_render_direct_to_screen()     |
 +-----------+----------------------------------------+
 
-如果``true``，直接将视窗渲染到屏幕上，而不是渲染到根视窗上。只在GLES2中可用。这是一个低级别的优化，在大多数情况下不应该使用。如果使用，从视窗或从``SCREEN_TEXTURE``\ 读取将变得不可用。更多信息参阅:ref:`VisualServer.viewport_set_render_direct_to_screen<class_VisualServer_method_viewport_set_render_direct_to_screen>`。
+如果\ ``true``，直接将视窗渲染到屏幕上，而不是渲染到根视窗上。只在GLES2中可用。这是一个低级别的优化，在大多数情况下不应该使用。如果使用，从视窗或从\ ``SCREEN_TEXTURE``\ 读取将变得不可用。更多信息参阅\ :ref:`VisualServer.viewport_set_render_direct_to_screen<class_VisualServer_method_viewport_set_render_direct_to_screen>`。
 
 ----
 
@@ -788,7 +788,7 @@ If ``true``, the result of rendering will be flipped vertically. Since Viewports
 
 阴影图集的分辨率，注，用于泛光灯和聚光灯。该值将四舍五入到最接近的 2 的幂。
 
-**注意：**如果设置为0，阴影将不可见。由于用户创建的视窗默认值为 0，因此必须手动将此值设置为大于 0。
+**注意：**\ 如果设置为0，阴影将不可见。由于用户创建的视窗默认值为 0，因此必须手动将此值设置为大于 0。
 
 ----
 
@@ -804,7 +804,7 @@ If ``true``, the result of rendering will be flipped vertically. Since Viewports
 | *Getter*  | get_sharpen_intensity()      |
 +-----------+------------------------------+
 
-如果设置为大于``0.0``\ 的值，对比度适应性锐化将被应用到3D视窗中。这具有较低的性能成本，可以用来恢复使用FXAA所损失的一些锐度。一般来说，``0.5``\ 左右的数值可以得到最好的效果。参阅:ref:`fxaa<class_Viewport_property_fxaa>`。
+如果设置为大于\ ``0.0``\ 的值，对比度适应性锐化将被应用到3D视窗中。这具有较低的性能成本，可以用来恢复使用FXAA所损失的一些锐度。一般来说，``0.5``\ 左右的数值可以得到最好的效果。参阅\ :ref:`fxaa<class_Viewport_property_fxaa>`。
 
 ----
 
@@ -836,7 +836,7 @@ If ``true``, the result of rendering will be flipped vertically. Since Viewports
 | *Getter*  | is_size_override_stretch_enabled() |
 +-----------+------------------------------------+
 
-如果``true``，尺寸重写也会影响拉伸。
+如果\ ``true``，尺寸重写也会影响拉伸。
 
 ----
 
@@ -882,7 +882,7 @@ If ``true``, the result of rendering will be flipped vertically. Since Viewports
 | *Getter* | get_world()      |
 +----------+------------------+
 
-自定义的:ref:`World<class_World>`，可以作为3D环境源。
+自定义的\ :ref:`World<class_World>`，可以作为3D环境源。
 
 ----
 
@@ -896,7 +896,7 @@ If ``true``, the result of rendering will be flipped vertically. Since Viewports
 | *Getter* | get_world_2d()      |
 +----------+---------------------+
 
-自定义的:ref:`World2D<class_World2D>`，可以作为2D环境源。
+自定义的\ :ref:`World2D<class_World2D>`，可以作为2D环境源。
 
 Method Descriptions
 -------------------
@@ -961,7 +961,7 @@ Method Descriptions
 
 - :ref:`ShadowAtlasQuadrantSubdiv<enum_Viewport_ShadowAtlasQuadrantSubdiv>` **get_shadow_atlas_quadrant_subdiv** **(** :ref:`int<class_int>` quadrant **)** |const|
 
-返回指定象限的:ref:`ShadowAtlasQuadrantSubdiv<enum_Viewport_ShadowAtlasQuadrantSubdiv>`。
+返回指定象限的\ :ref:`ShadowAtlasQuadrantSubdiv<enum_Viewport_ShadowAtlasQuadrantSubdiv>`。
 
 ----
 
@@ -969,7 +969,7 @@ Method Descriptions
 
 - :ref:`Vector2<class_Vector2>` **get_size_override** **(** **)** |const|
 
-返回用:ref:`set_size_override<class_Viewport_method_set_size_override>`\ 设置的尺寸重写。
+返回用\ :ref:`set_size_override<class_Viewport_method_set_size_override>`\ 设置的尺寸重写。
 
 ----
 
@@ -979,7 +979,7 @@ Method Descriptions
 
 返回视窗的纹理。
 
-**注意：** 由于OpenGL的工作方式，产生的:ref:`ViewportTexture<class_ViewportTexture>`\ 是垂直翻转的。你可以在:ref:`Texture.get_data<class_Texture_method_get_data>`\ 的结果上使用:ref:`Image.flip_y<class_Image_method_flip_y>`\ 来将其翻转回去，例如。
+**注意：** 由于OpenGL的工作方式，产生的\ :ref:`ViewportTexture<class_ViewportTexture>`\ 是垂直翻转的。你可以在\ :ref:`Texture.get_data<class_Texture_method_get_data>`\ 的结果上使用\ :ref:`Image.flip_y<class_Image_method_flip_y>`\ 来将其翻转回去，例如。
 
 ::
 
@@ -992,7 +992,7 @@ Method Descriptions
 
 - :ref:`RID<class_RID>` **get_viewport_rid** **(** **)** |const|
 
-从:ref:`VisualServer<class_VisualServer>`\ 返回视窗的RID。
+从\ :ref:`VisualServer<class_VisualServer>`\ 返回视窗的RID。
 
 ----
 
@@ -1016,7 +1016,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **gui_has_modal_stack** **(** **)** |const|
 
-如果屏幕上有可见的模型，返回``true``。
+如果屏幕上有可见的模型，返回\ ``true``。
 
 ----
 
@@ -1024,7 +1024,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **gui_is_dragging** **(** **)** |const|
 
-如果当前视窗正在执行拖动操作，则返回``true``。
+如果当前视窗正在执行拖动操作，则返回\ ``true``。
 
 ----
 
@@ -1044,7 +1044,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_size_override_enabled** **(** **)** |const|
 
-如果启用了尺寸重写，返回``true``。参阅:ref:`set_size_override<class_Viewport_method_set_size_override>`。
+如果启用了尺寸重写，返回\ ``true``。参阅\ :ref:`set_size_override<class_Viewport_method_set_size_override>`。
 
 ----
 
@@ -1052,7 +1052,7 @@ Method Descriptions
 
 - void **set_attach_to_screen_rect** **(** :ref:`Rect2<class_Rect2>` rect **)**
 
-用指定的矩形将这个``Viewport``\ 附加到根``Viewport``\ 视窗上。这就绕过了另一个节点来显示这个``Viewport``\ 的需要，但让你负责手动更新这个``Viewport``\ 的坐标。
+用指定的矩形将这个\ ``Viewport``\ 附加到根\ ``Viewport``\ 视窗上。这就绕过了另一个节点来显示这个\ ``Viewport``\ 的需要，但让你负责手动更新这个\ ``Viewport``\ 的坐标。
 
 ----
 
@@ -1060,7 +1060,7 @@ Method Descriptions
 
 - void **set_input_as_handled** **(** **)**
 
-阻止输入继续向下传播:ref:`SceneTree<class_SceneTree>`。
+阻止输入继续向下传播\ :ref:`SceneTree<class_SceneTree>`。
 
 ----
 
@@ -1076,7 +1076,7 @@ Method Descriptions
 
 - void **set_size_override** **(** :ref:`bool<class_bool>` enable, :ref:`Vector2<class_Vector2>` size=Vector2( -1, -1 ), :ref:`Vector2<class_Vector2>` margin=Vector2( 0, 0 ) **)**
 
-设置视窗的尺寸重写。如果``enable``\ 参数是``true``，就会使用重写，否则就使用默认尺寸。如果尺寸参数是``(-1, -1)``，它将不会更新尺寸。
+设置视窗的尺寸重写。如果\ ``enable``\ 参数是\ ``true``，就会使用重写，否则就使用默认尺寸。如果尺寸参数是\ ``(-1, -1)``，它将不会更新尺寸。
 
 ----
 

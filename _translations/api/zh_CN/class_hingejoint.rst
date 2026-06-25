@@ -83,9 +83,9 @@ enum **Param**:
 
 - **PARAM_BIAS** = **0** --- 两个物体向不同方向移动时被拉回到一起的速度。
 
-- **PARAM_LIMIT_UPPER** = **1** --- 最大的旋转量。只有在:ref:`angular_limit/enable<class_HingeJoint_property_angular_limit/enable>`\ 为``true``\ 时才有效。
+- **PARAM_LIMIT_UPPER** = **1** --- 最大的旋转量。只有在\ :ref:`angular_limit/enable<class_HingeJoint_property_angular_limit/enable>`\ 为\ ``true``\ 时才有效。
 
-- **PARAM_LIMIT_LOWER** = **2** --- 最小的旋转量。只有在:ref:`angular_limit/enable<class_HingeJoint_property_angular_limit/enable>`\ 为``true``\ 时才有效。
+- **PARAM_LIMIT_LOWER** = **2** --- 最小的旋转量。只有在\ :ref:`angular_limit/enable<class_HingeJoint_property_angular_limit/enable>`\ 为\ ``true``\ 时才有效。
 
 - **PARAM_LIMIT_BIAS** = **3** --- 垂直于铰链的轴线上的旋转得到纠正的速度。
 
@@ -111,11 +111,11 @@ enum **Param**:
 
 enum **Flag**:
 
-- **FLAG_USE_LIMIT** = **0** --- 如果为``true``,则会对由:ref:`angular_limit/lower<class_HingeJoint_property_angular_limit/lower>`\ 和:ref:`angular_limit/upper<class_HingeJoint_property_angular_limit/upper>`\ 定义的铰链最大和最小旋转量产生影响。
+- **FLAG_USE_LIMIT** = **0** --- 如果为\ ``true``,则会对由\ :ref:`angular_limit/lower<class_HingeJoint_property_angular_limit/lower>`\ 和\ :ref:`angular_limit/upper<class_HingeJoint_property_angular_limit/upper>`\ 定义的铰链最大和最小旋转量产生影响。
 
 - **FLAG_ENABLE_MOTOR** = **1** --- 激活后，电机会使铰链转动。
 
-- **FLAG_MAX** = **2** --- 表示:ref:`Flag<enum_HingeJoint_Flag>`\ 枚举的大小。
+- **FLAG_MAX** = **2** --- 表示\ :ref:`Flag<enum_HingeJoint_Flag>`\ 枚举的大小。
 
 Property Descriptions
 ---------------------
@@ -148,7 +148,7 @@ Property Descriptions
 | *Getter*  | get_flag()      |
 +-----------+-----------------+
 
-如果为``true``,则会对由:ref:`angular_limit/lower<class_HingeJoint_property_angular_limit/lower>`\ 和:ref:`angular_limit/upper<class_HingeJoint_property_angular_limit/upper>`\ 定义的铰链最大和最小旋转量产生影响。
+如果为\ ``true``,则会对由\ :ref:`angular_limit/lower<class_HingeJoint_property_angular_limit/lower>`\ 和\ :ref:`angular_limit/upper<class_HingeJoint_property_angular_limit/upper>`\ 定义的铰链最大和最小旋转量产生影响。
 
 ----
 
@@ -160,7 +160,7 @@ Property Descriptions
 | *Default* | ``-90.0`` |
 +-----------+-----------+
 
-最小的旋转量。只有在:ref:`angular_limit/enable<class_HingeJoint_property_angular_limit/enable>`\ 为``true``\ 时才有效。
+最小的旋转量。只有在\ :ref:`angular_limit/enable<class_HingeJoint_property_angular_limit/enable>`\ 为\ ``true``\ 时才有效。
 
 ----
 
@@ -202,7 +202,7 @@ Property Descriptions
 | *Default* | ``90.0`` |
 +-----------+----------+
 
-最大的旋转量。只有在:ref:`angular_limit/enable<class_HingeJoint_property_angular_limit/enable>`\ 为``true``\ 时才有效。
+最大的旋转量。只有在\ :ref:`angular_limit/enable<class_HingeJoint_property_angular_limit/enable>`\ 为\ ``true``\ 时才有效。
 
 ----
 

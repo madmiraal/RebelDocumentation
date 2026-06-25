@@ -113,7 +113,7 @@ Property Descriptions
 | *Default* | ``0.0`` |
 +-----------+---------+
 
-四元数的X分量（虚轴``i``\ 部分）。
+四元数的X分量（虚轴\ ``i``\ 部分）。
 
 四元数分量通常不应直接操作。
 
@@ -127,7 +127,7 @@ Property Descriptions
 | *Default* | ``0.0`` |
 +-----------+---------+
 
-四元数的Y分量（虚轴``j``\ 部分）。
+四元数的Y分量（虚轴\ ``j``\ 部分）。
 
 四元数分量通常不应直接操作。
 
@@ -141,7 +141,7 @@ Property Descriptions
 | *Default* | ``0.0`` |
 +-----------+---------+
 
-四元数的Z分量（虚轴``k``\ 部分）。
+四元数的Z分量（虚轴\ ``k``\ 部分）。
 
 四元数分量通常不应该被直接操作。
 
@@ -180,7 +180,7 @@ Method Descriptions
 
 返回此四元数与 ``to`` 之间的角度。这是从一个到另一个旋转所需的角度大小。
 
-**注意：**该方法的浮点错误率异常高，因此:ref:`@GDScript.is_zero_approx<class_@GDScript_method_is_zero_approx>`\ 等方法结果不可靠。
+**注意：**\ 该方法的浮点错误率异常高，因此\ :ref:`@GDScript.is_zero_approx<class_@GDScript_method_is_zero_approx>`\ 等方法结果不可靠。
 
 ----
 
@@ -286,7 +286,7 @@ Method Descriptions
 
 - :ref:`Quat<class_Quat>` **slerpni** **(** :ref:`Quat<class_Quat>` to, :ref:`float<class_float>` weight **)**
 
-以``weight``\ 值为权重,返回这个四元数和``to``\ 之间的球面线性插值的结果，但不会检查旋转路径是否不大于90度。
+以\ ``weight``\ 值为权重,返回这个四元数和\ ``to``\ 之间的球面线性插值的结果，但不会检查旋转路径是否不大于90度。
 
 ----
 

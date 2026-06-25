@@ -22,13 +22,13 @@ Description
 
 任何 ``CanvasItem`` 都可以绘图。要绘图就必须调用 :ref:`update<class_CanvasItem_method_update>`，然后就会在空闲时接收到 :ref:`NOTIFICATION_DRAW<class_CanvasItem_constant_NOTIFICATION_DRAW>` 来请求重绘。因此画布项目不需要每一帧都重绘，大大提升了性能。提供了几个用于在 ``CanvasItem`` 上绘图的函数（请参阅 ``draw_*`` 函数）。但是，它们只能在 :ref:`Object._notification<class_Object_method__notification>`、信号或虚函数 :ref:`_draw<class_CanvasItem_method__draw>` 内部使用。
 
-画布项目是按树状顺序绘制的。默认情况下，子项目在其父项目的顶部，因此根``CanvasItem``\ 将被画在所有项目的后面。这种行为可以在每个项目的基础上进行更改。
+画布项目是按树状顺序绘制的。默认情况下，子项目在其父项目的顶部，因此根\ ``CanvasItem``\ 将被画在所有项目的后面。这种行为可以在每个项目的基础上进行更改。
 
 ``CanvasItem`` 也可以被隐藏，这也将隐藏其子项目。它提供了许多方法来改变参数，如调制（对它自己和它的子项目）和自调制（只对它自己），以及它的混合模式。
 
 最终，可以请求一个变换通知，它将在父树改变的情况下通知节点它的全局位置发生了变化。
 
-**注意：**除非另有说明，所有具有角度参数的方法必须将角度指定为*弧度*。要将度数转换为弧度，请使用 :ref:`@GDScript.deg2rad<class_@GDScript_method_deg2rad>`。
+**注意：**\ 除非另有说明，所有具有角度参数的方法必须将角度指定为\ *弧度*。要将度数转换为弧度，请使用 :ref:`@GDScript.deg2rad<class_@GDScript_method_deg2rad>`。
 
 Tutorials
 ---------
@@ -162,7 +162,7 @@ Signals
 
 - **draw** **(** **)**
 
-当``CanvasItem``\ 必须重绘时发出。这只能是实时连接，因为延迟将不允许绘制。
+当\ ``CanvasItem``\ 必须重绘时发出。这只能是实时连接，因为延迟将不允许绘制。
 
 ----
 
@@ -178,7 +178,7 @@ Signals
 
 - **item_rect_changed** **(** **)**
 
-在物体:ref:`Rect2<class_Rect2>`\ 边缘（位置或大小）改变，或有影响到边缘的操作（比如修改:ref:`Sprite.texture<class_Sprite_property_texture>`）时触发。
+在物体\ :ref:`Rect2<class_Rect2>`\ 边缘（位置或大小）改变，或有影响到边缘的操作（比如修改\ :ref:`Sprite.texture<class_Sprite_property_texture>`）时触发。
 
 ----
 
@@ -232,9 +232,9 @@ Constants
 
 .. _class_CanvasItem_constant_NOTIFICATION_EXIT_CANVAS:
 
-- **NOTIFICATION_TRANSFORM_CHANGED** = **2000** --- ``CanvasItem``\ 的变换已更改。仅当:ref:`set_notify_transform<class_CanvasItem_method_set_notify_transform>`\ 或:ref:`set_notify_local_transform<class_CanvasItem_method_set_notify_local_transform>`\ 启用时，才会收到此通知。
+- **NOTIFICATION_TRANSFORM_CHANGED** = **2000** --- ``CanvasItem``\ 的变换已更改。仅当\ :ref:`set_notify_transform<class_CanvasItem_method_set_notify_transform>`\ 或\ :ref:`set_notify_local_transform<class_CanvasItem_method_set_notify_local_transform>`\ 启用时，才会收到此通知。
 
-- **NOTIFICATION_DRAW** = **30** --- 要求绘制``CanvasItem``。
+- **NOTIFICATION_DRAW** = **30** --- 要求绘制\ ``CanvasItem``。
 
 - **NOTIFICATION_VISIBILITY_CHANGED** = **31** --- ``CanvasItem``\ 的可见性已更改。
 
@@ -257,7 +257,7 @@ Property Descriptions
 | *Getter*  | get_light_mask()      |
 +-----------+-----------------------+
 
-此``CanvasItem``\ 在其中响应:ref:`Light2D<class_Light2D>`\ 节点的渲染层。
+此\ ``CanvasItem``\ 在其中响应\ :ref:`Light2D<class_Light2D>`\ 节点的渲染层。
 
 ----
 
@@ -271,7 +271,7 @@ Property Descriptions
 | *Getter* | get_material()      |
 +----------+---------------------+
 
-在此``CanvasItem``\ 上应用于纹理的材质。
+在此\ ``CanvasItem``\ 上应用于纹理的材质。
 
 ----
 
@@ -287,7 +287,7 @@ Property Descriptions
 | *Getter*  | get_modulate()          |
 +-----------+-------------------------+
 
-应用于此``CanvasItem``\ 上纹理的颜色。
+应用于此\ ``CanvasItem``\ 上纹理的颜色。
 
 ----
 
@@ -303,7 +303,7 @@ Property Descriptions
 | *Getter*  | get_self_modulate()      |
 +-----------+--------------------------+
 
-应用于此``CanvasItem``\ 上纹理的颜色。子节点``CanvasItem``\ 不能继承这个颜色。
+应用于此\ ``CanvasItem``\ 上纹理的颜色。子节点\ ``CanvasItem``\ 不能继承这个颜色。
 
 ----
 
@@ -319,7 +319,7 @@ Property Descriptions
 | *Getter*  | is_draw_behind_parent_enabled() |
 +-----------+---------------------------------+
 
-如果``true``，则对象在其父对象后面绘制。
+如果\ ``true``，则对象在其父对象后面绘制。
 
 ----
 
@@ -327,7 +327,7 @@ Property Descriptions
 
 - :ref:`bool<class_bool>` **show_on_top**
 
-如果``true``，则对象在其父对象的顶部绘制。
+如果\ ``true``，则对象在其父对象的顶部绘制。
 
 ----
 
@@ -343,7 +343,7 @@ Property Descriptions
 | *Getter*  | get_use_parent_material()      |
 +-----------+--------------------------------+
 
-如果``true``，则将父级``CanvasItem``\ 的:ref:`material<class_CanvasItem_property_material>`\ 属性用作此项的材质。
+如果\ ``true``，则将父级\ ``CanvasItem``\ 的\ :ref:`material<class_CanvasItem_property_material>`\ 属性用作此项的材质。
 
 ----
 
@@ -359,9 +359,9 @@ Property Descriptions
 | *Getter*  | is_visible()       |
 +-----------+--------------------+
 
-如果``true``，这个``CanvasItem``\ 被绘制。只有当它的所有父节点也可见时，该节点才是可见的（换句话说，:ref:`is_visible_in_tree<class_CanvasItem_method_is_visible_in_tree>`\ 必须返回``true``）。
+如果\ ``true``，这个\ ``CanvasItem``\ 被绘制。只有当它的所有父节点也可见时，该节点才是可见的（换句话说，:ref:`is_visible_in_tree<class_CanvasItem_method_is_visible_in_tree>`\ 必须返回\ ``true``）。
 
-**注意：**对于继承了:ref:`Popup<class_Popup>`\ 的控件，使其可见的正确方法是调用多个``popup*()``\ 函数之一。
+**注意：**\ 对于继承了\ :ref:`Popup<class_Popup>`\ 的控件，使其可见的正确方法是调用多个\ ``popup*()``\ 函数之一。
 
 Method Descriptions
 -------------------
@@ -430,7 +430,7 @@ Draws a line from a 2D point to another, with a given color and width. It can be
 
 - void **draw_mesh** **(** :ref:`Mesh<class_Mesh>` mesh, :ref:`Texture<class_Texture>` texture, :ref:`Texture<class_Texture>` normal_map=null, :ref:`Transform2D<class_Transform2D>` transform=Transform2D( 1, 0, 0, 1, 0, 0 ), :ref:`Color<class_Color>` modulate=Color( 1, 1, 1, 1 ) **)**
 
-使用所提供的纹理以2D方式绘制一个:ref:`Mesh<class_Mesh>`。相关文档请参阅:ref:`MeshInstance2D<class_MeshInstance2D>`。
+使用所提供的纹理以2D方式绘制一个\ :ref:`Mesh<class_Mesh>`。相关文档请参阅\ :ref:`MeshInstance2D<class_MeshInstance2D>`。
 
 ----
 
@@ -458,7 +458,7 @@ Draws multiple disconnected lines with a uniform ``width`` and segment-by-segmen
 
 - void **draw_multimesh** **(** :ref:`MultiMesh<class_MultiMesh>` multimesh, :ref:`Texture<class_Texture>` texture, :ref:`Texture<class_Texture>` normal_map=null **)**
 
-用所提供的纹理以 2D 方式绘制 :ref:`MultiMesh<class_MultiMesh>`。相关文档请参考:ref:`MultiMeshInstance2D<class_MultiMeshInstance2D>`。
+用所提供的纹理以 2D 方式绘制 :ref:`MultiMesh<class_MultiMesh>`。相关文档请参考\ :ref:`MultiMeshInstance2D<class_MultiMeshInstance2D>`。
 
 ----
 
@@ -532,7 +532,7 @@ Draws a rectangle. If ``filled`` is ``true``, the rectangle will be filled with 
 
 - void **draw_string** **(** :ref:`Font<class_Font>` font, :ref:`Vector2<class_Vector2>` position, :ref:`String<class_String>` text, :ref:`Color<class_Color>` modulate=Color( 1, 1, 1, 1 ), :ref:`int<class_int>` clip_w=-1 **)**
 
-使用指定的``font``\ 在``position``\ 绘制``text``（左下角作为字体的基线）。该文本的颜色将乘以``modulate``。如果``clip_w``\ 大于或等于0，文本超过了指定的宽度，将被裁剪。
+使用指定的\ ``font``\ 在\ ``position``\ 绘制\ ``text``\ （左下角作为字体的基线）。该文本的颜色将乘以\ ``modulate``。如果\ ``clip_w``\ 大于或等于0，文本超过了指定的宽度，将被裁剪。
 
 **使用项目默认字体的例子：**
 
@@ -544,7 +544,7 @@ Draws a rectangle. If ``filled`` is ``true``, the rectangle will be filled with 
     var default_font = Control.new().get_font("font")
     draw_string(default_font, Vector2(64, 64), "Hello world")
 
-参阅:ref:`Font.draw<class_Font_method_draw>`。
+参阅\ :ref:`Font.draw<class_Font_method_draw>`。
 
 ----
 
@@ -656,7 +656,7 @@ Draws a rectangle. If ``filled`` is ``true``, the rectangle will be filled with 
 
 - :ref:`Rect2<class_Rect2>` **get_viewport_rect** **(** **)** |const|
 
-以:ref:`Rect2<class_Rect2>`\ 形式返回视窗的边界。
+以\ :ref:`Rect2<class_Rect2>`\ 形式返回视窗的边界。
 
 ----
 
@@ -672,7 +672,7 @@ Draws a rectangle. If ``filled`` is ``true``, the rectangle will be filled with 
 
 - :ref:`World2D<class_World2D>` **get_world_2d** **(** **)** |const|
 
-返回此物品所在的:ref:`World2D<class_World2D>`。
+返回此物品所在的\ :ref:`World2D<class_World2D>`。
 
 ----
 
@@ -688,7 +688,7 @@ Hide the ``CanvasItem`` if it's currently visible. This is equivalent to setting
 
 - :ref:`bool<class_bool>` **is_local_transform_notification_enabled** **(** **)** |const|
 
-如果将本地转换通知传达给子级，则返回``true``。
+如果将本地转换通知传达给子级，则返回\ ``true``。
 
 ----
 
@@ -696,7 +696,7 @@ Hide the ``CanvasItem`` if it's currently visible. This is equivalent to setting
 
 - :ref:`bool<class_bool>` **is_set_as_toplevel** **(** **)** |const|
 
-如果节点设置为顶层，则返回``true``。参阅:ref:`set_as_toplevel<class_CanvasItem_method_set_as_toplevel>`。
+如果节点设置为顶层，则返回\ ``true``。参阅\ :ref:`set_as_toplevel<class_CanvasItem_method_set_as_toplevel>`。
 
 ----
 
@@ -704,7 +704,7 @@ Hide the ``CanvasItem`` if it's currently visible. This is equivalent to setting
 
 - :ref:`bool<class_bool>` **is_transform_notification_enabled** **(** **)** |const|
 
-如果将全局转换通知传达给子级，则返回``true``。
+如果将全局转换通知传达给子级，则返回\ ``true``。
 
 ----
 
@@ -712,7 +712,7 @@ Hide the ``CanvasItem`` if it's currently visible. This is equivalent to setting
 
 - :ref:`bool<class_bool>` **is_visible_in_tree** **(** **)** |const|
 
-如果该节点位于:ref:`SceneTree<class_SceneTree>`\ 中，并且其:ref:`visible<class_CanvasItem_property_visible>`\ 属性为``true``，并且其所有前提均可见，则返回``true``。如果任何先决条件被隐藏，则该节点在场景树中将不可见。
+如果该节点位于\ :ref:`SceneTree<class_SceneTree>`\ 中，并且其\ :ref:`visible<class_CanvasItem_property_visible>`\ 属性为\ ``true``，并且其所有前提均可见，则返回\ ``true``。如果任何先决条件被隐藏，则该节点在场景树中将不可见。
 
 ----
 
@@ -720,7 +720,7 @@ Hide the ``CanvasItem`` if it's currently visible. This is equivalent to setting
 
 - :ref:`Vector2<class_Vector2>` **make_canvas_position_local** **(** :ref:`Vector2<class_Vector2>` screen_point **)** |const|
 
-分配``screen_point``\ 作为该节点的新本地转换。
+分配\ ``screen_point``\ 作为该节点的新本地转换。
 
 ----
 
@@ -744,7 +744,7 @@ If ``enable`` is ``true``, this ``CanvasItem`` will *not* inherit its transform 
 
 - void **set_notify_local_transform** **(** :ref:`bool<class_bool>` enable **)**
 
-如果``enable``\ 为``true``，则将使用局部变换数据更新子项。
+如果\ ``enable``\ 为\ ``true``，则将使用局部变换数据更新子项。
 
 ----
 
@@ -752,7 +752,7 @@ If ``enable`` is ``true``, this ``CanvasItem`` will *not* inherit its transform 
 
 - void **set_notify_transform** **(** :ref:`bool<class_bool>` enable **)**
 
-如果``enable``\ 为``true``，则将使用全局变换数据更新子项。
+如果\ ``enable``\ 为\ ``true``，则将使用全局变换数据更新子项。
 
 ----
 
@@ -768,7 +768,7 @@ Show the ``CanvasItem`` if it's currently hidden. This is equivalent to setting 
 
 - void **update** **(** **)**
 
-将``CanvasItem``\ 排队等待更新。在空闲时间将调用:ref:`NOTIFICATION_DRAW<class_CanvasItem_constant_NOTIFICATION_DRAW>`\ 以请求重绘。
+将\ ``CanvasItem``\ 排队等待更新。在空闲时间将调用\ :ref:`NOTIFICATION_DRAW<class_CanvasItem_constant_NOTIFICATION_DRAW>`\ 以请求重绘。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

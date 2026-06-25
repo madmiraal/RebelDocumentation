@@ -105,7 +105,7 @@ Returns the current amount of data in the outbound websocket buffer. **Note:** W
 
 - :ref:`WriteMode<enum_WebSocketPeer_WriteMode>` **get_write_mode** **(** **)** |const|
 
-获取当前选择的写入模式。参阅:ref:`WriteMode<enum_WebSocketPeer_WriteMode>`。
+获取当前选择的写入模式。参阅\ :ref:`WriteMode<enum_WebSocketPeer_WriteMode>`。
 
 ----
 
@@ -113,7 +113,7 @@ Returns the current amount of data in the outbound websocket buffer. **Note:** W
 
 - :ref:`bool<class_bool>` **is_connected_to_host** **(** **)** |const|
 
-如果该对等体当前已连接，则返回``true``。
+如果该对等体当前已连接，则返回\ ``true``。
 
 ----
 
@@ -131,7 +131,7 @@ Disable Nagle's algorithm on the underling TCP socket (default). See :ref:`Strea
 
 - void **set_write_mode** **(** :ref:`WriteMode<enum_WebSocketPeer_WriteMode>` mode **)**
 
-将套接字设置为使用给定的:ref:`WriteMode<enum_WebSocketPeer_WriteMode>`。
+将套接字设置为使用给定的\ :ref:`WriteMode<enum_WebSocketPeer_WriteMode>`。
 
 ----
 
@@ -139,7 +139,7 @@ Disable Nagle's algorithm on the underling TCP socket (default). See :ref:`Strea
 
 - :ref:`bool<class_bool>` **was_string_packet** **(** **)** |const|
 
-如果最后收到的数据包是作为文本有效载荷发送的，返回``true``。参阅:ref:`WriteMode<enum_WebSocketPeer_WriteMode>`。
+如果最后收到的数据包是作为文本有效载荷发送的，返回\ ``true``。参阅\ :ref:`WriteMode<enum_WebSocketPeer_WriteMode>`。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

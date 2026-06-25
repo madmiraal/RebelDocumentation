@@ -16,7 +16,7 @@ InputEventScreenDrag
 Description
 -----------
 
-包含屏幕拖动信息。见:ref:`Node._input<class_Node_method__input>`。
+包含屏幕拖动信息。见\ :ref:`Node._input<class_Node_method__input>`。
 
 Tutorials
 ---------

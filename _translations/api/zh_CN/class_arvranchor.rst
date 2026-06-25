@@ -51,7 +51,7 @@ Signals
 
 - **mesh_updated** **(** :ref:`Mesh<class_Mesh>` mesh **)**
 
-当与锚点相关的网格发生变化或有可用的网格时触发。这对于不断``Mesh_updated``\ 更新的拓扑结构尤为重要。
+当与锚点相关的网格发生变化或有可用的网格时触发。这对于不断\ ``Mesh_updated``\ 更新的拓扑结构尤为重要。
 
 Property Descriptions
 ---------------------
@@ -93,7 +93,7 @@ Method Descriptions
 
 - :ref:`Mesh<class_Mesh>` **get_mesh** **(** **)** |const|
 
-如果由:ref:`ARVRInterface<class_ARVRInterface>`\ 提供，这将返回一个锚的网格对象。对于一个锚，这可以是一个与被追踪物体相关的形状，也可以是一个提供与锚相关的拓扑的网格，可以用于在表面上创建阴影/反射，或者用于生成碰撞形状。
+如果由\ :ref:`ARVRInterface<class_ARVRInterface>`\ 提供，这将返回一个锚的网格对象。对于一个锚，这可以是一个与被追踪物体相关的形状，也可以是一个提供与锚相关的拓扑的网格，可以用于在表面上创建阴影/反射，或者用于生成碰撞形状。
 
 ----
 

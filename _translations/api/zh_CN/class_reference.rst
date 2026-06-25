@@ -24,7 +24,7 @@ Description
 
 在绝大多数用例中，您只需要实例化和使用 ``Reference`` 派生类型。此类中提供的方法仅适用于高级用户，如果误用可能会导致问题。
 
-**注意：**在C#中，引用不再使用后不会立即释放。相反，垃圾收集将定期运行并释放不再使用的引用。这意味着未使用的引用会在被删除之前停留一段时间。
+**注意：**\ 在C#中，引用不再使用后不会立即释放。相反，垃圾收集将定期运行并释放不再使用的引用。这意味着未使用的引用会在被删除之前停留一段时间。
 
 Tutorials
 ---------
@@ -61,7 +61,7 @@ Method Descriptions
 
 内部引用增量计数器。只有在你真的知道你在做什么的时候才使用这个。
 
-如果增量成功，返回``true``，否则返回``false``。
+如果增量成功，返回\ ``true``，否则返回\ ``false``。
 
 ----
 
@@ -71,7 +71,7 @@ Method Descriptions
 
 内部引用减量计数器。只有在你真的知道你在做什么的时候才使用这个。
 
-如果减量成功，返回``true``，否则返回``false``。
+如果减量成功，返回\ ``true``，否则返回\ ``false``。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

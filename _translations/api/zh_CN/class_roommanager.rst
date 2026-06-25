@@ -16,7 +16,7 @@ RoomManager 节点用于控制portal剔除系统。
 Description
 -----------
 
-为了使用portal遮挡剔除系统，您必须使用 :ref:`Room<class_Room>` 和 :ref:`Portal<class_Portal>` 来构建您的关卡。在这些可以在运行时使用之前，它们必须经过一个简短的转换过程来构建 ``room graph``，这是portal剔除所需的运行时数据。 ``portal graph``\ 由``RoomManager``\ 节点控制，``RoomManager``\ 还包含整个portal系统通用的设置。
+为了使用portal遮挡剔除系统，您必须使用 :ref:`Room<class_Room>` 和 :ref:`Portal<class_Portal>` 来构建您的关卡。在这些可以在运行时使用之前，它们必须经过一个简短的转换过程来构建 ``room graph``，这是portal剔除所需的运行时数据。 ``portal graph``\ 由\ ``RoomManager``\ 节点控制，``RoomManager``\ 还包含整个portal系统通用的设置。
 
 Properties
 ----------
@@ -100,7 +100,7 @@ Property Descriptions
 
 需要注意的是，当portal剔除处于活动状态时，它负责 **所有** 3d 剔除。某些编辑器功能可能更难使用，因此切换活动标志旨在确保您的 :ref:`Room<class_Room>` / :ref:`Portal<class_Portal>` 布局在编辑器中工作。
 
-当``room graph``\ 被卸载（空间尚未转换）时，切换到``active``\ 将不起作用。
+当\ ``room graph``\ 被卸载（空间尚未转换）时，切换到\ ``active``\ 将不起作用。
 
 ----
 
@@ -134,7 +134,7 @@ Property Descriptions
 | *Getter*  | get_default_portal_margin()      |
 +-----------+----------------------------------+
 
-通常我们不希望只有**刚好**跨越边界进入相邻:ref:`Room<class_Room>`\ 的物体蔓延到那个空间。为防止这种情况发生，每个 :ref:`Portal<class_Portal>` 都有一个额外的边距或容差区，物体可以在其中进入而不会蔓延到相邻的空间。
+通常我们不希望只有\ **刚好**\ 跨越边界进入相邻\ :ref:`Room<class_Room>`\ 的物体蔓延到那个空间。为防止这种情况发生，每个 :ref:`Portal<class_Portal>` 都有一个额外的边距或容差区，物体可以在其中进入而不会蔓延到相邻的空间。
 
 在大多数情况下，您可以在此处为所有portal设置此项。可以覆盖每个portal的边距。
 
@@ -180,7 +180,7 @@ Property Descriptions
 
 如果启用，系统将在转换期间尝试合并 :ref:`Room<class_Room>` 内的相似网格（特别是在材质方面）。这可以显着减少渲染期间所需的绘制调用和状态更改的数量，尽管代价是降低了剔除粒度。
 
-**注意：**此操作在转换过程中的运行时运行，并且只会在导出或运行的项目上运行，以防止意外更改场景和丢失数据。
+**注意：**\ 此操作在转换过程中的运行时运行，并且只会在导出或运行的项目上运行，以防止意外更改场景和丢失数据。
 
 ----
 
@@ -214,7 +214,7 @@ Property Descriptions
 
 portal渲染是递归的 - 每次通过较早的portal看到一个portal时，都会产生一些成本。出于这个原因，并为了防止无限循环的可能性，此设置对递归深度提供了硬性限制。
 
-**注：** 使用``Full`` PVS 模式时不使用该值。
+**注：** 使用\ ``Full`` PVS 模式时不使用该值。
 
 ----
 
@@ -230,7 +230,7 @@ portal渲染是递归的 - 每次通过较早的portal看到一个portal时，�
 | *Getter*  | get_preview_camera_path()      |
 +-----------+--------------------------------+
 
-Portal 剔除通常使用当前的 :ref:`Camera<class_Camera>` / 多个:ref:`Camera<class_Camera>` 进行操作，但是为了在编辑器中进行调试，您可以使用此设置来覆盖此行为并强制它使用特定的相机以更好地了解遮挡的内容剔除正在做。
+Portal 剔除通常使用当前的 :ref:`Camera<class_Camera>` / 多个\ :ref:`Camera<class_Camera>` 进行操作，但是为了在编辑器中进行调试，您可以使用此设置来覆盖此行为并强制它使用特定的相机以更好地了解遮挡的内容剔除正在做。
 
 ----
 
@@ -286,7 +286,7 @@ Portal 剔除通常使用当前的 :ref:`Camera<class_Camera>` / 多个:ref:`Cam
 
 在转换过程中，:ref:`Room<class_Room>` 内对象的几何形状，或自定义指定的手动绑定，用于生成 **凸多边形绑定**。
 
-这个凸多边形在可见性系统中是 **必需的**，并且用于许多目的。最重要的是，它用于决定:ref:`Camera<class_Camera>`（或物体）是否在:ref:`Room<class_Room>`\ 内。凸多边形生成算法很好，但有时它会创建太多（或太少）的平面，无法很好地表示空间体积。
+这个凸多边形在可见性系统中是 **必需的**，并且用于许多目的。最重要的是，它用于决定\ :ref:`Camera<class_Camera>`\ （或物体）是否在\ :ref:`Room<class_Room>`\ 内。凸多边形生成算法很好，但有时它会创建太多（或太少）的平面，无法很好地表示空间体积。
 
 ``room_simplify`` 值可用于对该过程进行精细控制。它决定了如何相似平面才能将它们视为相同（并删除重复项）。该值可以设置在 0（无简化）和 1（最大简化）之间。
 
@@ -308,7 +308,7 @@ Portal 剔除通常使用当前的 :ref:`Camera<class_Camera>` / 多个:ref:`Cam
 | *Getter*  | get_roomlist_path()      |
 +-----------+--------------------------+
 
-要使 :ref:`Room<class_Room>` 转换过程成功，您必须将 ``RoomManager`` 指向 :ref:`Room<class_Room>` 和 :ref:`RoomGroup<class_RoomGroup>` 的父 :ref:`Node<class_Node>`，我们将其称为 ``roomlist``（roomlist 不是一个特殊的节点类型，它通常只是一个 :ref:`Room<class_Room>`）。
+要使 :ref:`Room<class_Room>` 转换过程成功，您必须将 ``RoomManager`` 指向 :ref:`Room<class_Room>` 和 :ref:`RoomGroup<class_RoomGroup>` 的父 :ref:`Node<class_Node>`，我们将其称为 ``roomlist``\ （roomlist 不是一个特殊的节点类型，它通常只是一个 :ref:`Room<class_Room>`）。
 
 ----
 
@@ -324,7 +324,7 @@ Portal 剔除通常使用当前的 :ref:`Camera<class_Camera>` / 多个:ref:`Cam
 | *Getter*  | get_show_margins()      |
 +-----------+-------------------------+
 
-当在编辑器中使用portal工具时，显示:ref:`Portal<class_Portal>`\ 的边界。
+当在编辑器中使用portal工具时，显示\ :ref:`Portal<class_Portal>`\ 的边界。
 
 ----
 
@@ -340,7 +340,7 @@ Portal 剔除通常使用当前的 :ref:`Camera<class_Camera>` / 多个:ref:`Cam
 | *Getter*  | get_use_secondary_pvs()      |
 +-----------+------------------------------+
 
-当对象进入和退出游戏时接收游戏回调时，**游戏区域**可以由:ref:`Room<class_Room>`\ 的主要PVS（潜在可见集）或次要PVS（主要PVS及其相邻的PVS）定义:ref:`Room<class_Room>`）。
+当对象进入和退出游戏时接收游戏回调时，**游戏区域**\ 可以由\ :ref:`Room<class_Room>`\ 的主要PVS（潜在可见集）或次要PVS（主要PVS及其相邻的PVS）定义\ :ref:`Room<class_Room>`）。
 
 有时使用次要 PVS 的较大游戏区域可能更可取。
 
@@ -351,7 +351,7 @@ Method Descriptions
 
 - void **rooms_clear** **(** **)**
 
-该方法会从**portal graph**清除所有转换数据。在卸载关卡、从关卡转换到关卡或返回主菜单时使用此选项。
+该方法会从\ **portal graph**\ 清除所有转换数据。在卸载关卡、从关卡转换到关卡或返回主菜单时使用此选项。
 
 ----
 

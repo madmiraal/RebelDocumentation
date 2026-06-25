@@ -11,7 +11,7 @@ RootMotionView
 
 **Inherits:** :ref:`VisualInstance<class_VisualInstance>` **<** :ref:`CullInstance<class_CullInstance>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-在:ref:`AnimationTree<class_AnimationTree>`\ 中设置根运动的仅编辑器可用的辅助工具。
+在\ :ref:`AnimationTree<class_AnimationTree>`\ 中设置根运动的仅编辑器可用的辅助工具。
 
 Description
 -----------

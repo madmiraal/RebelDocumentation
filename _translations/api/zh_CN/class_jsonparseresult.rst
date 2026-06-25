@@ -16,7 +16,7 @@ JSONParseResult
 Description
 -----------
 
-由:ref:`JSON.parse<class_JSON_method_parse>`\ 返回，``JSONParseResult``\ 包含解码的JSON或错误信息（如果JSON源没有被成功解析）。你可以用``if json_result.error == OK``\ 检查JSON源是否被成功解析。
+由\ :ref:`JSON.parse<class_JSON_method_parse>`\ 返回，``JSONParseResult``\ 包含解码的JSON或错误信息（如果JSON源没有被成功解析）。你可以用\ ``if json_result.error == OK``\ 检查JSON源是否被成功解析。
 
 Properties
 ----------

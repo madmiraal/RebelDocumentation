@@ -60,7 +60,7 @@ Property Descriptions
 | *Getter*  | get_format()      |
 +-----------+-------------------+
 
-指定录音样本的格式。请参阅:ref:`Format<enum_AudioStreamSample_Format>`\ 了解可用的格式。
+指定录音样本的格式。请参阅\ :ref:`Format<enum_AudioStreamSample_Format>`\ 了解可用的格式。
 
 Method Descriptions
 -------------------
@@ -85,7 +85,7 @@ Method Descriptions
 
 - void **set_recording_active** **(** :ref:`bool<class_bool>` record **)**
 
-如果``true``，将录制声音。请注意，重新开始录音将删除先前录音的样本。
+如果\ ``true``，将录制声音。请注意，重新开始录音将删除先前录音的样本。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

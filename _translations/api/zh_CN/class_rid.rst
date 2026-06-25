@@ -14,7 +14,7 @@ RID
 Description
 -----------
 
-RID类型用于访问资源的唯一整数ID。它们不透明，这意味着其本身并不授予对相关资源的访问。它们被低级别的服务类使用，如:ref:`VisualServer<class_VisualServer>`。
+RID类型用于访问资源的唯一整数ID。它们不透明，这意味着其本身并不授予对相关资源的访问。它们被低级别的服务类使用，如\ :ref:`VisualServer<class_VisualServer>`。
 
 Methods
 -------

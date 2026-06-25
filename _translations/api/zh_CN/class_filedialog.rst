@@ -96,7 +96,7 @@ Signals
 
 - **file_selected** **(** :ref:`String<class_String>` path **)**
 
-当用户通过双击文件或按**确定**按钮选择一个文件时触发。
+当用户通过双击文件或按\ **确定**\ 按钮选择一个文件时触发。
 
 ----
 
@@ -145,7 +145,7 @@ enum **Mode**:
 
 enum **Access**:
 
-- **ACCESS_RESOURCES** = **0** --- 该对话框只允许访问:ref:`Resource<class_Resource>`\ 路径下的文件（``res://``）。
+- **ACCESS_RESOURCES** = **0** --- 该对话框只允许访问\ :ref:`Resource<class_Resource>`\ 路径下的文件（``res://``）。
 
 - **ACCESS_USERDATA** = **1** --- 该对话框只允许访问用户数据路径（``user://``）下的文件。
 
@@ -280,7 +280,7 @@ The available file type filters. For example, this shows only ``.png`` and ``.gd
 | *Getter*  | is_showing_hidden_files()    |
 +-----------+------------------------------+
 
-如果``true``，对话框将显示出隐藏文件。
+如果\ ``true``，对话框将显示出隐藏文件。
 
 Method Descriptions
 -------------------
@@ -362,7 +362,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 0, 0, 0, 0.7 )`` |
 +-----------+---------------------------+
 
-禁用文件的色调（当``FileDialog``\ 在打开文件夹模式下使用时）。
+禁用文件的色调（当\ ``FileDialog``\ 在打开文件夹模式下使用时）。
 
 ----
 

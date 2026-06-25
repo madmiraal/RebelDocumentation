@@ -11,7 +11,7 @@ StyleBoxFlat
 
 **Inherits:** :ref:`StyleBox<class_StyleBox>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
 
-可通过一系列参数自定义的 :ref:`StyleBox<class_StyleBox>`（无需纹理） 。
+可通过一系列参数自定义的 :ref:`StyleBox<class_StyleBox>`\ （无需纹理） 。
 
 Description
 -----------
@@ -34,7 +34,7 @@ Description
     corner_radius_top_left = 50
     corner_radius_bottom_left = 100
 
-相对系统现在将采用两个左角的 1:2 比率来计算实际角宽度。添加的两个角**永远**不会超过高度。结果：
+相对系统现在将采用两个左角的 1:2 比率来计算实际角宽度。添加的两个角\ **永远**\ 不会超过高度。结果：
 
 ::
 
@@ -184,7 +184,7 @@ StyleBox的背景颜色。
 | *Getter*  | get_border_blend()      |
 +-----------+-------------------------+
 
-如果``true``，边框会淡入背景色。
+如果\ ``true``，边框会淡入背景色。
 
 ----
 
@@ -300,7 +300,7 @@ StyleBox的背景颜色。
 | *Getter*  | get_corner_radius()      |
 +-----------+--------------------------+
 
-左下角的半径。如果``0``，则角不圆滑。
+左下角的半径。如果\ ``0``，则角不圆滑。
 
 ----
 
@@ -316,7 +316,7 @@ StyleBox的背景颜色。
 | *Getter*  | get_corner_radius()      |
 +-----------+--------------------------+
 
-右下角的半径。如果``0``，则角不圆滑。
+右下角的半径。如果\ ``0``，则角不圆滑。
 
 ----
 
@@ -332,7 +332,7 @@ StyleBox的背景颜色。
 | *Getter*  | get_corner_radius()      |
 +-----------+--------------------------+
 
-左上角的半径。如果``0``，则角不圆滑。
+左上角的半径。如果\ ``0``，则角不圆滑。
 
 ----
 
@@ -348,7 +348,7 @@ StyleBox的背景颜色。
 | *Getter*  | get_corner_radius()      |
 +-----------+--------------------------+
 
-右上角的半径。如果``0``，则角不圆滑。
+右上角的半径。如果\ ``0``，则角不圆滑。
 
 ----
 
@@ -509,7 +509,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **get_expand_margin** **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin **)** |const|
 
-返回给定的``margin``\ 的扩展边距的大小。可能的值见:ref:`Margin<enum_@GlobalScope_Margin>`。
+返回给定的\ ``margin``\ 的扩展边距的大小。可能的值见\ :ref:`Margin<enum_@GlobalScope_Margin>`。
 
 ----
 
@@ -517,7 +517,7 @@ Method Descriptions
 
 - void **set_border_width** **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin, :ref:`int<class_int>` width **)**
 
-用给定的``margin``\ 设置边界宽度为``width``\ 像素。可能的值见:ref:`Margin<enum_@GlobalScope_Margin>`。
+用给定的\ ``margin``\ 设置边界宽度为\ ``width``\ 像素。可能的值见\ :ref:`Margin<enum_@GlobalScope_Margin>`。
 
 ----
 
@@ -533,7 +533,7 @@ Method Descriptions
 
 - void **set_corner_radius** **(** :ref:`Corner<enum_@GlobalScope_Corner>` corner, :ref:`int<class_int>` radius **)**
 
-用给定的``corner``\ 设置角的半径为``radius``\ 像素。可能的值见:ref:`Corner<enum_@GlobalScope_Corner>`。
+用给定的\ ``corner``\ 设置角的半径为\ ``radius``\ 像素。可能的值见\ :ref:`Corner<enum_@GlobalScope_Corner>`。
 
 ----
 
