@@ -16,7 +16,7 @@ AnimationNodeStateMachinePlayback
 Description
 -----------
 
-允许控制用:ref:`AnimationNodeStateMachine<class_AnimationNodeStateMachine>`\ 创建的:ref:`AnimationTree<class_AnimationTree>`\ 状态机。用``$AnimationTree.get("parameters/playback")``\ 检索。
+允许控制用\ :ref:`AnimationNodeStateMachine<class_AnimationNodeStateMachine>`\ 创建的\ :ref:`AnimationTree<class_AnimationTree>`\ 状态机。用\ ``$AnimationTree.get("parameters/playback")``\ 检索。
 
 **示例：**
 
@@ -95,7 +95,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_playing** **(** **)** |const|
 
-如果正在播放动画，返回``true``。
+如果正在播放动画，返回\ ``true``。
 
 ----
 

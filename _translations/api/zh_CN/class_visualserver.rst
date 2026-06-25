@@ -22,15 +22,15 @@ VisualServer是完全不透明的，它的内部结构的完全的具体实现�
 
 VisualServer可以用来完全绕过场景系统。
 
-可使用``*_create``\ 函数创建资源。
+可使用\ ``*_create``\ 函数创建资源。
 
-所有的对象都被绘制到视窗中。你可以使用附在:ref:`SceneTree<class_SceneTree>`\ 上的:ref:`Viewport<class_Viewport>`，或者用:ref:`viewport_create<class_VisualServer_method_viewport_create>`\ 自己创建一个。当使用自定义场景或画布时，需要使用:ref:`viewport_set_scenario<class_VisualServer_method_viewport_set_scenario>`\ 或:ref:`viewport_attach_canvas<class_VisualServer_method_viewport_attach_canvas>`\ 将场景或画布附加到视窗上。
+所有的对象都被绘制到视窗中。你可以使用附在\ :ref:`SceneTree<class_SceneTree>`\ 上的\ :ref:`Viewport<class_Viewport>`，或者用\ :ref:`viewport_create<class_VisualServer_method_viewport_create>`\ 自己创建一个。当使用自定义场景或画布时，需要使用\ :ref:`viewport_set_scenario<class_VisualServer_method_viewport_set_scenario>`\ 或\ :ref:`viewport_attach_canvas<class_VisualServer_method_viewport_attach_canvas>`\ 将场景或画布附加到视窗上。
 
-在3D中，所有的视觉对象都必须与一个场景相关联。场景是世界的一个视觉表现。如果从一个正在运行的游戏中访问视觉服务，场景可以通过:ref:`Spatial.get_world<class_Spatial_method_get_world>`\ 从场景树中的任何:ref:`Spatial<class_Spatial>`\ 节点访问。另外，可以用:ref:`scenario_create<class_VisualServer_method_scenario_create>`\ 创建一个场景。
+在3D中，所有的视觉对象都必须与一个场景相关联。场景是世界的一个视觉表现。如果从一个正在运行的游戏中访问视觉服务，场景可以通过\ :ref:`Spatial.get_world<class_Spatial_method_get_world>`\ 从场景树中的任何\ :ref:`Spatial<class_Spatial>`\ 节点访问。另外，可以用\ :ref:`scenario_create<class_VisualServer_method_scenario_create>`\ 创建一个场景。
 
 相类似地，在2D中，需要一个画布来绘制所有的画布项目。
 
-在3D中，所有可见的对象都是由资源和实例组成。资源可以是网格、粒子系统、光或任何其他3D对象。为了使资源可见，必须使用:ref:`instance_set_base<class_VisualServer_method_instance_set_base>`\ 连接到一个实例。实例也必须使用:ref:`instance_set_scenario<class_VisualServer_method_instance_set_scenario>`\ 附加到场景中，以便可见。
+在3D中，所有可见的对象都是由资源和实例组成。资源可以是网格、粒子系统、光或任何其他3D对象。为了使资源可见，必须使用\ :ref:`instance_set_base<class_VisualServer_method_instance_set_base>`\ 连接到一个实例。实例也必须使用\ :ref:`instance_set_scenario<class_VisualServer_method_instance_set_scenario>`\ 附加到场景中，以便可见。
 
 在2D中，所有可见对象都是某种形式的画布项目。为了可见，一个画布项需要是连接到视窗的画布的子项，或者它需要是最终连接到画布的另一个画布项的子项。
 
@@ -927,7 +927,7 @@ enum **ShaderMode**:
 
 - **SHADER_PARTICLES** = **2** --- 着色器是一个粒子着色器。
 
-- **SHADER_MAX** = **3** --- 代表:ref:`ShaderMode<enum_VisualServer_ShaderMode>`\ 枚举的大小。
+- **SHADER_MAX** = **3** --- 代表\ :ref:`ShaderMode<enum_VisualServer_ShaderMode>`\ 枚举的大小。
 
 ----
 
@@ -973,7 +973,7 @@ enum **ArrayType**:
 
 - **ARRAY_INDEX** = **8** --- 数组是索引数组。
 
-- **ARRAY_MAX** = **9** --- 表示:ref:`ArrayType<enum_VisualServer_ArrayType>`\ 枚举的大小。
+- **ARRAY_MAX** = **9** --- 表示\ :ref:`ArrayType<enum_VisualServer_ArrayType>`\ 枚举的大小。
 
 ----
 
@@ -1067,7 +1067,7 @@ enum **ArrayFormat**:
 
 - **ARRAY_FLAG_USE_OCTAHEDRAL_COMPRESSION** = **2097152** --- 标志用于标记数组使用法线和切线向量的八面表示法，而不是笛卡尔式。
 
-- **ARRAY_COMPRESS_DEFAULT** = **2194432** --- 用于快速设置标志:ref:`ARRAY_COMPRESS_NORMAL<class_VisualServer_constant_ARRAY_COMPRESS_NORMAL>`、:ref:`ARRAY_COMPRESS_TANGENT<class_VisualServer_constant_ARRAY_COMPRESS_TANGENT>`、:ref:`ARRAY_COMPRESS_COLOR<class_VisualServer_constant_ARRAY_COMPRESS_COLOR>`、:ref:`ARRAY_COMPRESS_TEX_UV<class_VisualServer_constant_ARRAY_COMPRESS_TEX_UV>`、:ref:`ARRAY_COMPRESS_TEX_UV2<class_VisualServer_constant_ARRAY_COMPRESS_TEX_UV2>`、:ref:`ARRAY_COMPRESS_WEIGHTS<class_VisualServer_constant_ARRAY_COMPRESS_WEIGHTS>` 和:ref:`ARRAY_FLAG_USE_OCTAHEDRAL_COMPRESSION<class_VisualServer_constant_ARRAY_FLAG_USE_OCTAHEDRAL_COMPRESSION>` 。
+- **ARRAY_COMPRESS_DEFAULT** = **2194432** --- 用于快速设置标志\ :ref:`ARRAY_COMPRESS_NORMAL<class_VisualServer_constant_ARRAY_COMPRESS_NORMAL>`、:ref:`ARRAY_COMPRESS_TANGENT<class_VisualServer_constant_ARRAY_COMPRESS_TANGENT>`、:ref:`ARRAY_COMPRESS_COLOR<class_VisualServer_constant_ARRAY_COMPRESS_COLOR>`、:ref:`ARRAY_COMPRESS_TEX_UV<class_VisualServer_constant_ARRAY_COMPRESS_TEX_UV>`、:ref:`ARRAY_COMPRESS_TEX_UV2<class_VisualServer_constant_ARRAY_COMPRESS_TEX_UV2>`、:ref:`ARRAY_COMPRESS_WEIGHTS<class_VisualServer_constant_ARRAY_COMPRESS_WEIGHTS>` 和\ :ref:`ARRAY_FLAG_USE_OCTAHEDRAL_COMPRESSION<class_VisualServer_constant_ARRAY_FLAG_USE_OCTAHEDRAL_COMPRESSION>` 。
 
 ----
 
@@ -1211,7 +1211,7 @@ enum **LightParam**:
 
 - **LIGHT_PARAM_SHADOW_BIAS_SPLIT_SCALE** = **15** --- 增加对进一步分割的偏差，以修复仅在远离相机的地方发生的自身阴影。
 
-- **LIGHT_PARAM_MAX** = **16** --- 代表:ref:`LightParam<enum_VisualServer_LightParam>`\ 枚举的大小。
+- **LIGHT_PARAM_MAX** = **16** --- 代表\ :ref:`LightParam<enum_VisualServer_LightParam>`\ 枚举的大小。
 
 ----
 
@@ -1427,7 +1427,7 @@ enum **ViewportRenderInfo**:
 
 - **VIEWPORT_RENDER_INFO_2D_DRAW_CALLS_IN_FRAME** = **7** --- 在这一帧中，2d绘制所调用的数量。
 
-- **VIEWPORT_RENDER_INFO_MAX** = **8** --- 代表:ref:`ViewportRenderInfo<enum_VisualServer_ViewportRenderInfo>`\ 枚举的大小。
+- **VIEWPORT_RENDER_INFO_MAX** = **8** --- 代表\ :ref:`ViewportRenderInfo<enum_VisualServer_ViewportRenderInfo>`\ 枚举的大小。
 
 ----
 
@@ -1447,7 +1447,7 @@ enum **ViewportDebugDraw**:
 
 - **VIEWPORT_DEBUG_DRAW_UNSHADED** = **1** --- 调试绘制将对象设置为无阴影。
 
-- **VIEWPORT_DEBUG_DRAW_OVERDRAW** = **2** --- 将清除颜色覆盖为``(0,0,0,0)``。
+- **VIEWPORT_DEBUG_DRAW_OVERDRAW** = **2** --- 将清除颜色覆盖为\ ``(0,0,0,0)``。
 
 - **VIEWPORT_DEBUG_DRAW_WIREFRAME** = **3** --- 调试绘制 在线框中绘制对象。
 
@@ -1471,7 +1471,7 @@ enum **ScenarioDebugMode**:
 
 - **SCENARIO_DEBUG_OVERDRAW** = **2** --- 以显示有多少过度绘制的方式绘制对象。当一个像素部分被绘制和着色，然后另一个物体将其覆盖时，就会发生过度绘制。为了优化一个场景，你应该减少过度绘制。
 
-- **SCENARIO_DEBUG_SHADELESS** = **3** --- 绘制没有阴影的所有物体。相当于将所有物体的着色器设置为``unshaded``。
+- **SCENARIO_DEBUG_SHADELESS** = **3** --- 绘制没有阴影的所有物体。相当于将所有物体的着色器设置为\ ``unshaded``。
 
 ----
 
@@ -1519,7 +1519,7 @@ enum **InstanceType**:
 
 - **INSTANCE_LIGHTMAP_CAPTURE** = **8** --- 该实例是一个光照贴图捕获。
 
-- **INSTANCE_MAX** = **9** --- 代表:ref:`InstanceType<enum_VisualServer_InstanceType>`\ 枚举的大小。
+- **INSTANCE_MAX** = **9** --- 代表\ :ref:`InstanceType<enum_VisualServer_InstanceType>`\ 枚举的大小。
 
 - **INSTANCE_GEOMETRY_MASK** = **30** --- 几何体实例（网格、多网格、即时和粒子）的标志的组合。
 
@@ -1539,7 +1539,7 @@ enum **InstanceFlags**:
 
 - **INSTANCE_FLAG_DRAW_NEXT_FRAME_IF_VISIBLE** = **1** --- 当设置时，手动请求在下一帧绘制几何图形。
 
-- **INSTANCE_FLAG_MAX** = **2** --- 代表:ref:`InstanceFlags<enum_VisualServer_InstanceFlags>`\ 枚举的大小。
+- **INSTANCE_FLAG_MAX** = **2** --- 代表\ :ref:`InstanceFlags<enum_VisualServer_InstanceFlags>`\ 枚举的大小。
 
 ----
 
@@ -1833,7 +1833,7 @@ enum **EnvironmentBG**:
 
 - **ENV_BG_KEEP** = **5** --- 不要清除背景，使用上一帧渲染的东西作为背景。
 
-- **ENV_BG_MAX** = **7** --- 代表:ref:`EnvironmentBG<enum_VisualServer_EnvironmentBG>`\ 枚举的大小。
+- **ENV_BG_MAX** = **7** --- 代表\ :ref:`EnvironmentBG<enum_VisualServer_EnvironmentBG>`\ 枚举的大小。
 
 ----
 
@@ -1989,7 +1989,7 @@ Property Descriptions
 | *Getter* | is_render_loop_enabled()       |
 +----------+--------------------------------+
 
-如果``false``，则完全禁用渲染，但引擎逻辑仍在处理中。即使禁用渲染，您也可以调用 :ref:`force_draw<class_VisualServer_method_force_draw>` 来绘制帧。
+如果\ ``false``，则完全禁用渲染，但引擎逻辑仍在处理中。即使禁用渲染，您也可以调用 :ref:`force_draw<class_VisualServer_method_force_draw>` 来绘制帧。
 
 Method Descriptions
 -------------------
@@ -2014,9 +2014,9 @@ Method Descriptions
 
 - :ref:`RID<class_RID>` **camera_create** **(** **)**
 
-创建一个相机并将其添加到VisualServer中。它可以通过返回的RID进行访问。这个RID将用于所有``camera_*`` VisualServer函数。
+创建一个相机并将其添加到VisualServer中。它可以通过返回的RID进行访问。这个RID将用于所有\ ``camera_*`` VisualServer函数。
 
-一旦完成了对RID的处理，你将需要使用VisualServer的:ref:`free_rid<class_VisualServer_method_free_rid>`\ 静态方法释放RID。
+一旦完成了对RID的处理，你将需要使用VisualServer的\ :ref:`free_rid<class_VisualServer_method_free_rid>`\ 静态方法释放RID。
 
 ----
 
@@ -2024,7 +2024,7 @@ Method Descriptions
 
 - void **camera_set_cull_mask** **(** :ref:`RID<class_RID>` camera, :ref:`int<class_int>` layers **)**
 
-设置与此相机相关的剔除遮罩。剔除遮罩描述了此相机渲染的 3D 层。相当于:ref:`Camera.cull_mask<class_Camera_property_cull_mask>`。
+设置与此相机相关的剔除遮罩。剔除遮罩描述了此相机渲染的 3D 层。相当于\ :ref:`Camera.cull_mask<class_Camera_property_cull_mask>`。
 
 ----
 
@@ -2032,7 +2032,7 @@ Method Descriptions
 
 - void **camera_set_environment** **(** :ref:`RID<class_RID>` camera, :ref:`RID<class_RID>` env **)**
 
-设置此相机所使用的环境。等同于:ref:`Camera.environment<class_Camera_property_environment>`。
+设置此相机所使用的环境。等同于\ :ref:`Camera.environment<class_Camera_property_environment>`。
 
 ----
 
@@ -2064,7 +2064,7 @@ Method Descriptions
 
 - void **camera_set_transform** **(** :ref:`RID<class_RID>` camera, :ref:`Transform<class_Transform>` transform **)**
 
-设置相机的:ref:`Transform<class_Transform>`。
+设置相机的\ :ref:`Transform<class_Transform>`。
 
 ----
 
@@ -2072,7 +2072,7 @@ Method Descriptions
 
 - void **camera_set_use_vertical_aspect** **(** :ref:`RID<class_RID>` camera, :ref:`bool<class_bool>` enable **)**
 
-如果 ``true``, 保留水平长宽比，相当于 :ref:`Camera.KEEP_WIDTH<class_Camera_constant_KEEP_WIDTH>`。如果``false``，保留垂直长宽比，相当于:ref:`Camera.KEEP_HEIGHT<class_Camera_constant_KEEP_HEIGHT>`。
+如果 ``true``, 保留水平长宽比，相当于 :ref:`Camera.KEEP_WIDTH<class_Camera_constant_KEEP_WIDTH>`。如果\ ``false``，保留垂直长宽比，相当于\ :ref:`Camera.KEEP_HEIGHT<class_Camera_constant_KEEP_HEIGHT>`。
 
 ----
 
@@ -2080,9 +2080,9 @@ Method Descriptions
 
 - :ref:`RID<class_RID>` **canvas_create** **(** **)**
 
-创建一个画布并返回指定的:ref:`RID<class_RID>`。可以用返回的RID来访问它。这个RID可在所有``canvas_*``\ VisualServer函数中使用。
+创建一个画布并返回指定的\ :ref:`RID<class_RID>`。可以用返回的RID来访问它。这个RID可在所有\ ``canvas_*``\ VisualServer函数中使用。
 
-你一旦完成了RID处理，可使用VisualServer的:ref:`free_rid<class_VisualServer_method_free_rid>`\ 静态方法释放RID。
+你一旦完成了RID处理，可使用VisualServer的\ :ref:`free_rid<class_VisualServer_method_free_rid>`\ 静态方法释放RID。
 
 ----
 
@@ -2098,7 +2098,7 @@ Method Descriptions
 
 - void **canvas_item_add_clip_ignore** **(** :ref:`RID<class_RID>` item, :ref:`bool<class_bool>` ignore **)**
 
-如果ignore是``true``，VisualServer将不会执行剪裁。
+如果ignore是\ ``true``，VisualServer将不会执行剪裁。
 
 ----
 
@@ -2122,7 +2122,7 @@ Method Descriptions
 
 - void **canvas_item_add_multimesh** **(** :ref:`RID<class_RID>` item, :ref:`RID<class_RID>` mesh, :ref:`RID<class_RID>` texture, :ref:`RID<class_RID>` normal_map **)**
 
-在:ref:`CanvasItem<class_CanvasItem>`\ 的绘制指令中添加一个:ref:`MultiMesh<class_MultiMesh>`。目前只影响其aabb。
+在\ :ref:`CanvasItem<class_CanvasItem>`\ 的绘制指令中添加一个\ :ref:`MultiMesh<class_MultiMesh>`。目前只影响其aabb。
 
 ----
 
@@ -2140,7 +2140,7 @@ Method Descriptions
 
 - void **canvas_item_add_particles** **(** :ref:`RID<class_RID>` item, :ref:`RID<class_RID>` particles, :ref:`RID<class_RID>` texture, :ref:`RID<class_RID>` normal_map **)**
 
-为:ref:`CanvasItem<class_CanvasItem>`\ 的绘制指令添加粒子系统。
+为\ :ref:`CanvasItem<class_CanvasItem>`\ 的绘制指令添加粒子系统。
 
 ----
 
@@ -2180,7 +2180,7 @@ Method Descriptions
 
 - void **canvas_item_add_set_transform** **(** :ref:`RID<class_RID>` item, :ref:`Transform2D<class_Transform2D>` transform **)**
 
-在:ref:`CanvasItem<class_CanvasItem>`\ 的绘图指令中添加:ref:`Transform2D<class_Transform2D>`\ 指令。
+在\ :ref:`CanvasItem<class_CanvasItem>`\ 的绘图指令中添加\ :ref:`Transform2D<class_Transform2D>`\ 指令。
 
 这在执行时设置extra_matrix uniform 。这会影响到画布项的后续指令。
 
@@ -2198,7 +2198,7 @@ Method Descriptions
 
 - void **canvas_item_add_texture_rect_region** **(** :ref:`RID<class_RID>` item, :ref:`Rect2<class_Rect2>` rect, :ref:`RID<class_RID>` texture, :ref:`Rect2<class_Rect2>` src_rect, :ref:`Color<class_Color>` modulate=Color( 1, 1, 1, 1 ), :ref:`bool<class_bool>` transpose=false, :ref:`RID<class_RID>` normal_map, :ref:`bool<class_bool>` clip_uv=true **)**
 
-在:ref:`CanvasItem<class_CanvasItem>`\ 的绘制命令中添加带有区域设置的纹理矩形。
+在\ :ref:`CanvasItem<class_CanvasItem>`\ 的绘制命令中添加带有区域设置的纹理矩形。
 
 ----
 
@@ -2214,7 +2214,7 @@ Method Descriptions
 
 - void **canvas_item_clear** **(** :ref:`RID<class_RID>` item **)**
 
-清除:ref:`CanvasItem<class_CanvasItem>`\ 并删除其中的所有命令。
+清除\ :ref:`CanvasItem<class_CanvasItem>`\ 并删除其中的所有命令。
 
 ----
 
@@ -2222,9 +2222,9 @@ Method Descriptions
 
 - :ref:`RID<class_RID>` **canvas_item_create** **(** **)**
 
-创建新的 :ref:`CanvasItem<class_CanvasItem>` 并返回其 :ref:`RID<class_RID>`。可以用返回的RID来访问它。这个RID可用于所有``canvas_item_*`` VisualServer函数。
+创建新的 :ref:`CanvasItem<class_CanvasItem>` 并返回其 :ref:`RID<class_RID>`。可以用返回的RID来访问它。这个RID可用于所有\ ``canvas_item_*`` VisualServer函数。
 
-一旦完成了你的RID处理，可使用VisualServer的:ref:`free_rid<class_VisualServer_method_free_rid>`\ 静态方法释放RID。
+一旦完成了你的RID处理，可使用VisualServer的\ :ref:`free_rid<class_VisualServer_method_free_rid>`\ 静态方法释放RID。
 
 ----
 
@@ -2232,7 +2232,7 @@ Method Descriptions
 
 - void **canvas_item_set_clip** **(** :ref:`RID<class_RID>` item, :ref:`bool<class_bool>` clip **)**
 
-为:ref:`CanvasItem<class_CanvasItem>`\ 设置剪裁。
+为\ :ref:`CanvasItem<class_CanvasItem>`\ 设置剪裁。
 
 ----
 
@@ -2280,7 +2280,7 @@ Method Descriptions
 
 - void **canvas_item_set_light_mask** **(** :ref:`RID<class_RID>` item, :ref:`int<class_int>` mask **)**
 
-光线遮罩。关于其更多信息，请参阅:ref:`LightOccluder2D<class_LightOccluder2D>`。
+光线遮罩。关于其更多信息，请参阅\ :ref:`LightOccluder2D<class_LightOccluder2D>`。
 
 ----
 
@@ -2304,7 +2304,7 @@ Method Descriptions
 
 - void **canvas_item_set_parent** **(** :ref:`RID<class_RID>` item, :ref:`RID<class_RID>` parent **)**
 
-设置:ref:`CanvasItem<class_CanvasItem>`\ 的父级。父级可以是另一个画布项目，也可以是连接到视窗的根画布。
+设置\ :ref:`CanvasItem<class_CanvasItem>`\ 的父级。父级可以是另一个画布项目，也可以是连接到视窗的根画布。
 
 ----
 
@@ -2394,9 +2394,9 @@ Method Descriptions
 
 - :ref:`RID<class_RID>` **canvas_light_occluder_create** **(** **)**
 
-创建灯光遮挡器并将其添加到VisualServer中。可以用返回的RID来访问它。这个RID可用于所有``canvas_light_ocluder_*`` VisualServer函数。
+创建灯光遮挡器并将其添加到VisualServer中。可以用返回的RID来访问它。这个RID可用于所有\ ``canvas_light_ocluder_*`` VisualServer函数。
 
-一旦完成了RID处理，可使用VisualServer的:ref:`free_rid<class_VisualServer_method_free_rid>`\ 静态方法释放RID。
+一旦完成了RID处理，可使用VisualServer的\ :ref:`free_rid<class_VisualServer_method_free_rid>`\ 静态方法释放RID。
 
 ----
 
@@ -2412,7 +2412,7 @@ Method Descriptions
 
 - void **canvas_light_occluder_set_light_mask** **(** :ref:`RID<class_RID>` occluder, :ref:`int<class_int>` mask **)**
 
-光线遮罩。关于其更多信息，请参阅:ref:`LightOccluder2D<class_LightOccluder2D>`。
+光线遮罩。关于其更多信息，请参阅\ :ref:`LightOccluder2D<class_LightOccluder2D>`。
 
 ----
 
@@ -2468,7 +2468,7 @@ Method Descriptions
 
 - void **canvas_light_set_item_cull_mask** **(** :ref:`RID<class_RID>` light, :ref:`int<class_int>` mask **)**
 
-光线遮罩。关于其更多信息，请参阅:ref:`LightOccluder2D<class_LightOccluder2D>`。
+光线遮罩。关于其更多信息，请参阅\ :ref:`LightOccluder2D<class_LightOccluder2D>`。
 
 ----
 
@@ -2492,7 +2492,7 @@ Method Descriptions
 
 - void **canvas_light_set_mode** **(** :ref:`RID<class_RID>` light, :ref:`CanvasLightMode<enum_VisualServer_CanvasLightMode>` mode **)**
 
-光的模式，详见:ref:`CanvasLightMode<enum_VisualServer_CanvasLightMode>`。
+光的模式，详见\ :ref:`CanvasLightMode<enum_VisualServer_CanvasLightMode>`。
 
 ----
 
@@ -2556,7 +2556,7 @@ Method Descriptions
 
 - void **canvas_light_set_texture** **(** :ref:`RID<class_RID>` light, :ref:`RID<class_RID>` texture **)**
 
-设置灯光使用的纹理。等同于:ref:`Light2D.texture<class_Light2D_property_texture>`。
+设置灯光使用的纹理。等同于\ :ref:`Light2D.texture<class_Light2D_property_texture>`。
 
 ----
 
@@ -2564,7 +2564,7 @@ Method Descriptions
 
 - void **canvas_light_set_texture_offset** **(** :ref:`RID<class_RID>` light, :ref:`Vector2<class_Vector2>` offset **)**
 
-设置灯光纹理的偏移量。等同于:ref:`Light2D.offset<class_Light2D_property_offset>`。
+设置灯光纹理的偏移量。等同于\ :ref:`Light2D.offset<class_Light2D_property_offset>`。
 
 ----
 
@@ -2588,9 +2588,9 @@ Method Descriptions
 
 - :ref:`RID<class_RID>` **canvas_occluder_polygon_create** **(** **)**
 
-创建新的光遮蔽器多边形并将其添加到VisualServer中。可以用返回的RID来访问它。这个RID可用于所有``canvas_occluder_polygon_*`` VisualServer函数。
+创建新的光遮蔽器多边形并将其添加到VisualServer中。可以用返回的RID来访问它。这个RID可用于所有\ ``canvas_occluder_polygon_*`` VisualServer函数。
 
-一旦完成了RID处理，可使用VisualServer的:ref:`free_rid<class_VisualServer_method_free_rid>`\ 静态方法释放RID。
+一旦完成了RID处理，可使用VisualServer的\ :ref:`free_rid<class_VisualServer_method_free_rid>`\ 静态方法释放RID。
 
 ----
 
@@ -2622,7 +2622,7 @@ Method Descriptions
 
 - void **canvas_set_item_mirroring** **(** :ref:`RID<class_RID>` canvas, :ref:`RID<class_RID>` item, :ref:`Vector2<class_Vector2>` mirroring **)**
 
-画布项目的副本将以镜像的局部偏移量:ref:`Vector2<class_Vector2>`\ 被绘制。
+画布项目的副本将以镜像的局部偏移量\ :ref:`Vector2<class_Vector2>`\ 被绘制。
 
 ----
 
@@ -2638,11 +2638,11 @@ Method Descriptions
 
 - :ref:`RID<class_RID>` **directional_light_create** **(** **)**
 
-创建定向灯并将其添加到VisualServer中。可以用返回的RID来访问它。这个RID可用于大多数``light_*`` VisualServer函数。
+创建定向灯并将其添加到VisualServer中。可以用返回的RID来访问它。这个RID可用于大多数\ ``light_*`` VisualServer函数。
 
-一旦完成了对RID的处理，可使用VisualServer的:ref:`free_rid<class_VisualServer_method_free_rid>`\ 静态方法释放RID。
+一旦完成了对RID的处理，可使用VisualServer的\ :ref:`free_rid<class_VisualServer_method_free_rid>`\ 静态方法释放RID。
 
-要在场景中放置，使用返回的RID，用:ref:`instance_set_base<class_VisualServer_method_instance_set_base>`\ 将这个定向灯附加到一个实例上。
+要在场景中放置，使用返回的RID，用\ :ref:`instance_set_base<class_VisualServer_method_instance_set_base>`\ 将这个定向灯附加到一个实例上。
 
 ----
 
@@ -2650,7 +2650,7 @@ Method Descriptions
 
 - void **draw** **(** :ref:`bool<class_bool>` swap_buffers=true, :ref:`float<class_float>` frame_step=0.0 **)**
 
-绘制一帧。*此方法已被废弃*，请使用:ref:`force_draw<class_VisualServer_method_force_draw>`\ 代替。
+绘制一帧。*此方法已被废弃*，请使用\ :ref:`force_draw<class_VisualServer_method_force_draw>`\ 代替。
 
 ----
 
@@ -2658,9 +2658,9 @@ Method Descriptions
 
 - :ref:`RID<class_RID>` **environment_create** **(** **)**
 
-创建一个环境并将其添加到VisualServer中。可以用返回的RID来访问它。这个RID可在所有``environment_*``\ VisualServer函数中使用。
+创建一个环境并将其添加到VisualServer中。可以用返回的RID来访问它。这个RID可在所有\ ``environment_*``\ VisualServer函数中使用。
 
-一旦完成了对RID的处理，可使用VisualServer的:ref:`free_rid<class_VisualServer_method_free_rid>`\ 静态方法释放RID。
+一旦完成了对RID的处理，可使用VisualServer的\ :ref:`free_rid<class_VisualServer_method_free_rid>`\ 静态方法释放RID。
 
 ----
 
@@ -2668,7 +2668,7 @@ Method Descriptions
 
 - void **environment_set_adjustment** **(** :ref:`RID<class_RID>` env, :ref:`bool<class_bool>` enable, :ref:`float<class_float>` brightness, :ref:`float<class_float>` contrast, :ref:`float<class_float>` saturation, :ref:`RID<class_RID>` ramp **)**
 
-设置用于 "调整 "后处理效果的数值。参阅:ref:`Environment<class_Environment>`\ 以了解更多细节。
+设置用于 "调整 "后处理效果的数值。参阅\ :ref:`Environment<class_Environment>`\ 以了解更多细节。
 
 ----
 
@@ -2684,7 +2684,7 @@ Method Descriptions
 
 - void **environment_set_background** **(** :ref:`RID<class_RID>` env, :ref:`EnvironmentBG<enum_VisualServer_EnvironmentBG>` bg **)**
 
-设置环境的*BGMode*。相当于:ref:`Environment.background_mode<class_Environment_property_background_mode>`。
+设置环境的\ *BGMode*。相当于\ :ref:`Environment.background_mode<class_Environment_property_background_mode>`。
 
 ----
 
@@ -2716,7 +2716,7 @@ Method Descriptions
 
 - void **environment_set_dof_blur_far** **(** :ref:`RID<class_RID>` env, :ref:`bool<class_bool>` enable, :ref:`float<class_float>` distance, :ref:`float<class_float>` transition, :ref:`float<class_float>` far_amount, :ref:`EnvironmentDOFBlurQuality<enum_VisualServer_EnvironmentDOFBlurQuality>` quality **)**
 
-设置用于 "DoF Far Blur" 后期处理效果的数值。参阅:ref:`Environment<class_Environment>`。
+设置用于 "DoF Far Blur" 后期处理效果的数值。参阅\ :ref:`Environment<class_Environment>`。
 
 ----
 
@@ -2724,7 +2724,7 @@ Method Descriptions
 
 - void **environment_set_dof_blur_near** **(** :ref:`RID<class_RID>` env, :ref:`bool<class_bool>` enable, :ref:`float<class_float>` distance, :ref:`float<class_float>` transition, :ref:`float<class_float>` far_amount, :ref:`EnvironmentDOFBlurQuality<enum_VisualServer_EnvironmentDOFBlurQuality>` quality **)**
 
-设置用于 "DoF Near Blur" 后处理效果的数值。参阅:ref:`Environment<class_Environment>`。
+设置用于 "DoF Near Blur" 后处理效果的数值。参阅\ :ref:`Environment<class_Environment>`。
 
 ----
 
@@ -2732,7 +2732,7 @@ Method Descriptions
 
 - void **environment_set_fog** **(** :ref:`RID<class_RID>` env, :ref:`bool<class_bool>` enable, :ref:`Color<class_Color>` color, :ref:`Color<class_Color>` sun_color, :ref:`float<class_float>` sun_amount **)**
 
-设置用于场景雾化的变量。更多细节见:ref:`Environment<class_Environment>`。
+设置用于场景雾化的变量。更多细节见\ :ref:`Environment<class_Environment>`。
 
 ----
 
@@ -2740,7 +2740,7 @@ Method Descriptions
 
 - void **environment_set_fog_depth** **(** :ref:`RID<class_RID>` env, :ref:`bool<class_bool>` enable, :ref:`float<class_float>` depth_begin, :ref:`float<class_float>` depth_end, :ref:`float<class_float>` depth_curve, :ref:`bool<class_bool>` transmit, :ref:`float<class_float>` transmit_curve **)**
 
-设置用于雾化深度效果的变量。参阅:ref:`Environment<class_Environment>`\ 以了解更多细节。
+设置用于雾化深度效果的变量。参阅\ :ref:`Environment<class_Environment>`\ 以了解更多细节。
 
 ----
 
@@ -2748,7 +2748,7 @@ Method Descriptions
 
 - void **environment_set_fog_height** **(** :ref:`RID<class_RID>` env, :ref:`bool<class_bool>` enable, :ref:`float<class_float>` min_height, :ref:`float<class_float>` max_height, :ref:`float<class_float>` height_curve **)**
 
-设置用于雾化高度效果的变量。参阅:ref:`Environment<class_Environment>`\ 以了解更多细节。
+设置用于雾化高度效果的变量。参阅\ :ref:`Environment<class_Environment>`\ 以了解更多细节。
 
 ----
 
@@ -2756,7 +2756,7 @@ Method Descriptions
 
 - void **environment_set_glow** **(** :ref:`RID<class_RID>` env, :ref:`bool<class_bool>` enable, :ref:`int<class_int>` level_flags, :ref:`float<class_float>` intensity, :ref:`float<class_float>` strength, :ref:`float<class_float>` bloom_threshold, :ref:`EnvironmentGlowBlendMode<enum_VisualServer_EnvironmentGlowBlendMode>` blend_mode, :ref:`float<class_float>` hdr_bleed_threshold, :ref:`float<class_float>` hdr_bleed_scale, :ref:`float<class_float>` hdr_luminance_cap, :ref:`bool<class_bool>` bicubic_upscale, :ref:`bool<class_bool>` high_quality **)**
 
-设置用于 "glow" 后处理效果的变量。参阅:ref:`Environment<class_Environment>`。
+设置用于 "glow" 后处理效果的变量。参阅\ :ref:`Environment<class_Environment>`。
 
 ----
 
@@ -2764,7 +2764,7 @@ Method Descriptions
 
 - void **environment_set_sky** **(** :ref:`RID<class_RID>` env, :ref:`RID<class_RID>` sky **)**
 
-当使用*BGMode*天空时，设置:ref:`Sky<class_Sky>`\ 作为环境的背景。相当于:ref:`Environment.background_sky<class_Environment_property_background_sky>`。
+当使用\ *BGMode*\ 天空时，设置\ :ref:`Sky<class_Sky>`\ 作为环境的背景。相当于\ :ref:`Environment.background_sky<class_Environment_property_background_sky>`。
 
 ----
 
@@ -2780,7 +2780,7 @@ Method Descriptions
 
 - void **environment_set_sky_orientation** **(** :ref:`RID<class_RID>` env, :ref:`Basis<class_Basis>` orientation **)**
 
-设置背景:ref:`Sky<class_Sky>`\ 的旋转，以:ref:`Basis<class_Basis>`\ 表示。相当于:ref:`Environment.background_sky_orientation<class_Environment_property_background_sky_orientation>`。
+设置背景\ :ref:`Sky<class_Sky>`\ 的旋转，以\ :ref:`Basis<class_Basis>`\ 表示。相当于\ :ref:`Environment.background_sky_orientation<class_Environment_property_background_sky_orientation>`。
 
 ----
 
@@ -2788,7 +2788,7 @@ Method Descriptions
 
 - void **environment_set_ssao** **(** :ref:`RID<class_RID>` env, :ref:`bool<class_bool>` enable, :ref:`float<class_float>` radius, :ref:`float<class_float>` intensity, :ref:`float<class_float>` radius2, :ref:`float<class_float>` intensity2, :ref:`float<class_float>` bias, :ref:`float<class_float>` light_affect, :ref:`float<class_float>` ao_channel_affect, :ref:`Color<class_Color>` color, :ref:`EnvironmentSSAOQuality<enum_VisualServer_EnvironmentSSAOQuality>` quality, :ref:`EnvironmentSSAOBlur<enum_VisualServer_EnvironmentSSAOBlur>` blur, :ref:`float<class_float>` bilateral_sharpness **)**
 
-设置用于 "屏幕空间环境遮蔽（SSAO）"后处理效果的变量。参阅:ref:`Environment<class_Environment>`。
+设置用于 "屏幕空间环境遮蔽（SSAO）"后处理效果的变量。参阅\ :ref:`Environment<class_Environment>`。
 
 ----
 
@@ -2796,7 +2796,7 @@ Method Descriptions
 
 - void **environment_set_ssr** **(** :ref:`RID<class_RID>` env, :ref:`bool<class_bool>` enable, :ref:`int<class_int>` max_steps, :ref:`float<class_float>` fade_in, :ref:`float<class_float>` fade_out, :ref:`float<class_float>` depth_tolerance, :ref:`bool<class_bool>` roughness **)**
 
-设置用于 "屏幕空间反射 "后处理效果的变量。更多细节见:ref:`Environment<class_Environment>`。
+设置用于 "屏幕空间反射 "后处理效果的变量。更多细节见\ :ref:`Environment<class_Environment>`。
 
 ----
 
@@ -2804,7 +2804,7 @@ Method Descriptions
 
 - void **environment_set_tonemap** **(** :ref:`RID<class_RID>` env, :ref:`EnvironmentToneMapper<enum_VisualServer_EnvironmentToneMapper>` tone_mapper, :ref:`float<class_float>` exposure, :ref:`float<class_float>` white, :ref:`bool<class_bool>` auto_exposure, :ref:`float<class_float>` min_luminance, :ref:`float<class_float>` max_luminance, :ref:`float<class_float>` auto_exp_speed, :ref:`float<class_float>` auto_exp_grey **)**
 
-设置用于 "tonemap "后处理效果的变量。参阅:ref:`Environment<class_Environment>`\ 以了解更多细节。
+设置用于 "tonemap "后处理效果的变量。参阅\ :ref:`Environment<class_Environment>`\ 以了解更多细节。
 
 ----
 
@@ -2820,7 +2820,7 @@ Method Descriptions
 
 - void **force_draw** **(** :ref:`bool<class_bool>` swap_buffers=true, :ref:`float<class_float>` frame_step=0.0 **)**
 
-当函数被调用时，强制绘制一个框架。绘制一个框架会更新所有被设置为要更新的:ref:`Viewport<class_Viewport>`。使用时要特别小心。
+当函数被调用时，强制绘制一个框架。绘制一个框架会更新所有被设置为要更新的\ :ref:`Viewport<class_Viewport>`。使用时要特别小心。
 
 ----
 
@@ -2870,7 +2870,7 @@ Method Descriptions
 
 返回视频适配器的名称（例如："GeForce GTX 1080/PCIe/SSE2"）。
 
-**注意：**当运行一个精简或服务器可执行文件时，这个函数返回一个空字符串。
+**注意：**\ 当运行一个精简或服务器可执行文件时，这个函数返回一个空字符串。
 
 ----
 
@@ -2908,7 +2908,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **gi_probe_get_bias** **(** :ref:`RID<class_RID>` probe **)** |const|
 
-返回GI探针的偏置值。偏置是用来避免自我遮挡的。相当于:ref:`GIProbeData.bias<class_GIProbeData_property_bias>`。
+返回GI探针的偏置值。偏置是用来避免自我遮挡的。相当于\ :ref:`GIProbeData.bias<class_GIProbeData_property_bias>`。
 
 ----
 
@@ -2924,7 +2924,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **gi_probe_get_cell_size** **(** :ref:`RID<class_RID>` probe **)** |const|
 
-返回由:ref:`gi_probe_set_cell_size<class_VisualServer_method_gi_probe_set_cell_size>`\ 设置的单元大小。
+返回由\ :ref:`gi_probe_set_cell_size<class_VisualServer_method_gi_probe_set_cell_size>`\ 设置的单元大小。
 
 ----
 
@@ -2940,7 +2940,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **gi_probe_get_dynamic_range** **(** :ref:`RID<class_RID>` probe **)** |const|
 
-返回该GI探针的动态范围设置。相当于:ref:`GIProbe.dynamic_range<class_GIProbe_property_dynamic_range>`。
+返回该GI探针的动态范围设置。相当于\ :ref:`GIProbe.dynamic_range<class_GIProbe_property_dynamic_range>`。
 
 ----
 
@@ -2948,7 +2948,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **gi_probe_get_energy** **(** :ref:`RID<class_RID>` probe **)** |const|
 
-返回这个GI探针的能量乘数。相当于:ref:`GIProbe.energy<class_GIProbe_property_energy>`。
+返回这个GI探针的能量乘数。相当于\ :ref:`GIProbe.energy<class_GIProbe_property_energy>`。
 
 ----
 
@@ -2956,7 +2956,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **gi_probe_get_normal_bias** **(** :ref:`RID<class_RID>` probe **)** |const|
 
-返回该GI探针的法线偏置。相当于:ref:`GIProbe.normal_bias<class_GIProbe_property_normal_bias>`。
+返回该GI探针的法线偏置。相当于\ :ref:`GIProbe.normal_bias<class_GIProbe_property_normal_bias>`。
 
 ----
 
@@ -2964,7 +2964,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **gi_probe_get_propagation** **(** :ref:`RID<class_RID>` probe **)** |const|
 
-返回这个GI探针的传播值。相当于:ref:`GIProbe.propagation<class_GIProbe_property_propagation>`。
+返回这个GI探针的传播值。相当于\ :ref:`GIProbe.propagation<class_GIProbe_property_propagation>`。
 
 ----
 
@@ -2972,7 +2972,7 @@ Method Descriptions
 
 - :ref:`Transform<class_Transform>` **gi_probe_get_to_cell_xform** **(** :ref:`RID<class_RID>` probe **)** |const|
 
-返回由:ref:`gi_probe_set_to_cell_xform<class_VisualServer_method_gi_probe_set_to_cell_xform>`\ 设置的变换。
+返回由\ :ref:`gi_probe_set_to_cell_xform<class_VisualServer_method_gi_probe_set_to_cell_xform>`\ 设置的变换。
 
 ----
 
@@ -2980,7 +2980,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **gi_probe_is_compressed** **(** :ref:`RID<class_RID>` probe **)** |const|
 
-如果与此GI探针相关的数据被压缩，返回``true``。相当于:ref:`GIProbe.compress<class_GIProbe_property_compress>`。
+如果与此GI探针相关的数据被压缩，返回\ ``true``。相当于\ :ref:`GIProbe.compress<class_GIProbe_property_compress>`。
 
 ----
 
@@ -2988,7 +2988,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **gi_probe_is_interior** **(** :ref:`RID<class_RID>` probe **)** |const|
 
-如果 GI 探针设置为内部，则返回 ``true``，这意味着它不考虑天空光。相当于:ref:`GIProbe.interior<class_GIProbe_property_interior>`。
+如果 GI 探针设置为内部，则返回 ``true``，这意味着它不考虑天空光。相当于\ :ref:`GIProbe.interior<class_GIProbe_property_interior>`。
 
 ----
 
@@ -2996,7 +2996,7 @@ Method Descriptions
 
 - void **gi_probe_set_bias** **(** :ref:`RID<class_RID>` probe, :ref:`float<class_float>` bias **)**
 
-设置偏置值以避免自遮挡。相当于:ref:`GIProbe.bias<class_GIProbe_property_bias>`。
+设置偏置值以避免自遮挡。相当于\ :ref:`GIProbe.bias<class_GIProbe_property_bias>`。
 
 ----
 
@@ -3020,7 +3020,7 @@ Method Descriptions
 
 - void **gi_probe_set_compress** **(** :ref:`RID<class_RID>` probe, :ref:`bool<class_bool>` enable **)**
 
-设置GI探针数据的压缩设置。压缩后的数据将占用更少的空间，但可能看起来更糟糕。相当于:ref:`GIProbe.compress<class_GIProbe_property_compress>`。
+设置GI探针数据的压缩设置。压缩后的数据将占用更少的空间，但可能看起来更糟糕。相当于\ :ref:`GIProbe.compress<class_GIProbe_property_compress>`。
 
 ----
 
@@ -3028,7 +3028,7 @@ Method Descriptions
 
 - void **gi_probe_set_dynamic_data** **(** :ref:`RID<class_RID>` probe, :ref:`PoolIntArray<class_PoolIntArray>` data **)**
 
-设置用于照明计算的GI探针的数据。通常这是在:ref:`GIProbe<class_GIProbe>`\ 节点内部创建和调用的。你不应该尝试自己设置。
+设置用于照明计算的GI探针的数据。通常这是在\ :ref:`GIProbe<class_GIProbe>`\ 节点内部创建和调用的。你不应该尝试自己设置。
 
 ----
 
@@ -3036,7 +3036,7 @@ Method Descriptions
 
 - void **gi_probe_set_dynamic_range** **(** :ref:`RID<class_RID>` probe, :ref:`int<class_int>` range **)**
 
-设定GI探针的动态范围。动态范围设定了灯光的亮度限制。较小的范围可以捕捉到更多的细节，但是限制了灯光的亮度。相当于:ref:`GIProbe.dynamic_range<class_GIProbe_property_dynamic_range>`。
+设定GI探针的动态范围。动态范围设定了灯光的亮度限制。较小的范围可以捕捉到更多的细节，但是限制了灯光的亮度。相当于\ :ref:`GIProbe.dynamic_range<class_GIProbe_property_dynamic_range>`。
 
 ----
 
@@ -3044,7 +3044,7 @@ Method Descriptions
 
 - void **gi_probe_set_energy** **(** :ref:`RID<class_RID>` probe, :ref:`float<class_float>` energy **)**
 
-设置该GI探针的能量乘数。较高的能量使GI探针的间接光更亮。相当于:ref:`GIProbe.energy<class_GIProbe_property_energy>`。
+设置该GI探针的能量乘数。较高的能量使GI探针的间接光更亮。相当于\ :ref:`GIProbe.energy<class_GIProbe_property_energy>`。
 
 ----
 
@@ -3060,7 +3060,7 @@ Method Descriptions
 
 - void **gi_probe_set_normal_bias** **(** :ref:`RID<class_RID>` probe, :ref:`float<class_float>` bias **)**
 
-设置该GI探针的法线偏置。法线偏置的行为类似于其他形式的偏置，可有助于减少自我遮挡。相当于:ref:`GIProbe.normal_bias<class_GIProbe_property_normal_bias>`。
+设置该GI探针的法线偏置。法线偏置的行为类似于其他形式的偏置，可有助于减少自我遮挡。相当于\ :ref:`GIProbe.normal_bias<class_GIProbe_property_normal_bias>`。
 
 ----
 
@@ -3068,7 +3068,7 @@ Method Descriptions
 
 - void **gi_probe_set_propagation** **(** :ref:`RID<class_RID>` probe, :ref:`float<class_float>` propagation **)**
 
-设置光在这个GI探针中的传播。相当于:ref:`GIProbe.propagation<class_GIProbe_property_propagation>`。
+设置光在这个GI探针中的传播。相当于\ :ref:`GIProbe.propagation<class_GIProbe_property_propagation>`。
 
 ----
 
@@ -3076,7 +3076,7 @@ Method Descriptions
 
 - void **gi_probe_set_to_cell_xform** **(** :ref:`RID<class_RID>` probe, :ref:`Transform<class_Transform>` xform **)**
 
-为这个GI探针设置单元:ref:`Transform<class_Transform>`。
+为这个GI探针设置单元\ :ref:`Transform<class_Transform>`。
 
 ----
 
@@ -3084,7 +3084,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **has_changed** **(** **)** |const|
 
-如果VisualServer的数据被更改，则返回``true``。如果发生这种情况，通常会调用:ref:`draw<class_VisualServer_method_draw>`。
+如果VisualServer的数据被更改，则返回\ ``true``。如果发生这种情况，通常会调用\ :ref:`draw<class_VisualServer_method_draw>`。
 
 ----
 
@@ -3092,7 +3092,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **has_feature** **(** :ref:`Features<enum_VisualServer_Features>` feature **)** |const|
 
-还没有实现。总是返回``false``。
+还没有实现。总是返回\ ``false``。
 
 ----
 
@@ -3100,9 +3100,9 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **has_os_feature** **(** :ref:`String<class_String>` feature **)** |const|
 
-如果操作系统支持某项功能，则返回``true``。特性可能是``s3tc``, ``etc``, ``etc2``, ``pvrtc`` 和 ``skinning_fallback``。
+如果操作系统支持某项功能，则返回\ ``true``。特性可能是\ ``s3tc``, ``etc``, ``etc2``, ``pvrtc`` 和 ``skinning_fallback``。
 
-当使用GLES2渲染时，在硬件不支持默认的GPU蒙皮过程的情况下，返回``true``\ 与``skinning_fallback``。
+当使用GLES2渲染时，在硬件不支持默认的GPU蒙皮过程的情况下，返回\ ``true``\ 与\ ``skinning_fallback``。
 
 ----
 
@@ -3110,7 +3110,7 @@ Method Descriptions
 
 - void **immediate_begin** **(** :ref:`RID<class_RID>` immediate, :ref:`PrimitiveType<enum_VisualServer_PrimitiveType>` primitive, :ref:`RID<class_RID>` texture **)**
 
-设置:ref:`ImmediateGeometry<class_ImmediateGeometry>`\ 的内部结构，为绘图做准备。相当于:ref:`ImmediateGeometry.begin<class_ImmediateGeometry_method_begin>`。
+设置\ :ref:`ImmediateGeometry<class_ImmediateGeometry>`\ 的内部结构，为绘图做准备。相当于\ :ref:`ImmediateGeometry.begin<class_ImmediateGeometry_method_begin>`。
 
 ----
 
@@ -3126,7 +3126,7 @@ Method Descriptions
 
 - void **immediate_color** **(** :ref:`RID<class_RID>` immediate, :ref:`Color<class_Color>` color **)**
 
-设置用于下一个顶点的颜色。相当于:ref:`ImmediateGeometry.set_color<class_ImmediateGeometry_method_set_color>`。
+设置用于下一个顶点的颜色。相当于\ :ref:`ImmediateGeometry.set_color<class_ImmediateGeometry_method_set_color>`。
 
 ----
 
@@ -3134,11 +3134,11 @@ Method Descriptions
 
 - :ref:`RID<class_RID>` **immediate_create** **(** **)**
 
-创建直接几何图形并将其添加到VisualServer中。它可以通过返回的RID进行访问。这个RID可在所有``immediate_*``\ VisualServer函数中使用。
+创建直接几何图形并将其添加到VisualServer中。它可以通过返回的RID进行访问。这个RID可在所有\ ``immediate_*``\ VisualServer函数中使用。
 
-一旦完成了对RID的处理，可使用VisualServer的:ref:`free_rid<class_VisualServer_method_free_rid>`\ 静态方法释放RID。
+一旦完成了对RID的处理，可使用VisualServer的\ :ref:`free_rid<class_VisualServer_method_free_rid>`\ 静态方法释放RID。
 
-要在场景中放置，使用返回的RID用:ref:`instance_set_base<class_VisualServer_method_instance_set_base>`\ 将这个直接几何体附加到一个实例上。
+要在场景中放置，使用返回的RID用\ :ref:`instance_set_base<class_VisualServer_method_instance_set_base>`\ 将这个直接几何体附加到一个实例上。
 
 ----
 
@@ -3146,7 +3146,7 @@ Method Descriptions
 
 - void **immediate_end** **(** :ref:`RID<class_RID>` immediate **)**
 
-结束绘制:ref:`ImmediateGeometry<class_ImmediateGeometry>`\ 并显示它。相当于:ref:`ImmediateGeometry.end<class_ImmediateGeometry_method_end>`。
+结束绘制\ :ref:`ImmediateGeometry<class_ImmediateGeometry>`\ 并显示它。相当于\ :ref:`ImmediateGeometry.end<class_ImmediateGeometry_method_end>`。
 
 ----
 
@@ -3154,7 +3154,7 @@ Method Descriptions
 
 - :ref:`RID<class_RID>` **immediate_get_material** **(** :ref:`RID<class_RID>` immediate **)** |const|
 
-返回分配给:ref:`ImmediateGeometry<class_ImmediateGeometry>`\ 的材质。
+返回分配给\ :ref:`ImmediateGeometry<class_ImmediateGeometry>`\ 的材质。
 
 ----
 
@@ -3162,7 +3162,7 @@ Method Descriptions
 
 - void **immediate_normal** **(** :ref:`RID<class_RID>` immediate, :ref:`Vector3<class_Vector3>` normal **)**
 
-设置用于下一个顶点的法线。相当于:ref:`ImmediateGeometry.set_normal<class_ImmediateGeometry_method_set_normal>`。
+设置用于下一个顶点的法线。相当于\ :ref:`ImmediateGeometry.set_normal<class_ImmediateGeometry_method_set_normal>`。
 
 ----
 
@@ -3170,7 +3170,7 @@ Method Descriptions
 
 - void **immediate_set_material** **(** :ref:`RID<class_RID>` immediate, :ref:`RID<class_RID>` material **)**
 
-设置用于绘制:ref:`ImmediateGeometry<class_ImmediateGeometry>`\ 的材质。
+设置用于绘制\ :ref:`ImmediateGeometry<class_ImmediateGeometry>`\ 的材质。
 
 ----
 
@@ -3178,7 +3178,7 @@ Method Descriptions
 
 - void **immediate_tangent** **(** :ref:`RID<class_RID>` immediate, :ref:`Plane<class_Plane>` tangent **)**
 
-设置用于下一个顶点的切线。相当于:ref:`ImmediateGeometry.set_tangent<class_ImmediateGeometry_method_set_tangent>`。
+设置用于下一个顶点的切线。相当于\ :ref:`ImmediateGeometry.set_tangent<class_ImmediateGeometry_method_set_tangent>`。
 
 ----
 
@@ -3186,7 +3186,7 @@ Method Descriptions
 
 - void **immediate_uv** **(** :ref:`RID<class_RID>` immediate, :ref:`Vector2<class_Vector2>` tex_uv **)**
 
-设置用于下一个顶点的UV。相当于:ref:`ImmediateGeometry.set_uv<class_ImmediateGeometry_method_set_uv>`。
+设置用于下一个顶点的UV。相当于\ :ref:`ImmediateGeometry.set_uv<class_ImmediateGeometry_method_set_uv>`。
 
 ----
 
@@ -3194,7 +3194,7 @@ Method Descriptions
 
 - void **immediate_uv2** **(** :ref:`RID<class_RID>` immediate, :ref:`Vector2<class_Vector2>` tex_uv **)**
 
-设置用于下一个顶点的UV2。相当于:ref:`ImmediateGeometry.set_uv2<class_ImmediateGeometry_method_set_uv2>`。
+设置用于下一个顶点的UV2。相当于\ :ref:`ImmediateGeometry.set_uv2<class_ImmediateGeometry_method_set_uv2>`。
 
 ----
 
@@ -3202,7 +3202,7 @@ Method Descriptions
 
 - void **immediate_vertex** **(** :ref:`RID<class_RID>` immediate, :ref:`Vector3<class_Vector3>` vertex **)**
 
-使用预先提供的信息添加下一个顶点。相当于:ref:`ImmediateGeometry.add_vertex<class_ImmediateGeometry_method_add_vertex>`。
+使用预先提供的信息添加下一个顶点。相当于\ :ref:`ImmediateGeometry.add_vertex<class_ImmediateGeometry_method_add_vertex>`。
 
 ----
 
@@ -3210,7 +3210,7 @@ Method Descriptions
 
 - void **immediate_vertex_2d** **(** :ref:`RID<class_RID>` immediate, :ref:`Vector2<class_Vector2>` vertex **)**
 
-使用预先提供的信息添加下一个顶点。这是一个辅助类，它在后台调用:ref:`immediate_vertex<class_VisualServer_method_immediate_vertex>`。相当于:ref:`ImmediateGeometry.add_vertex<class_ImmediateGeometry_method_add_vertex>`。
+使用预先提供的信息添加下一个顶点。这是一个辅助类，它在后台调用\ :ref:`immediate_vertex<class_VisualServer_method_immediate_vertex>`。相当于\ :ref:`ImmediateGeometry.add_vertex<class_ImmediateGeometry_method_add_vertex>`。
 
 ----
 
@@ -3226,7 +3226,7 @@ Method Descriptions
 
 - void **instance_attach_object_instance_id** **(** :ref:`RID<class_RID>` instance, :ref:`int<class_int>` id **)**
 
-将唯一的对象ID附加到实例上。必须将对象ID附加到实例上，以便通过:ref:`instances_cull_aabb<class_VisualServer_method_instances_cull_aabb>`、:ref:`instances_cull_convex<class_VisualServer_method_instances_cull_convex>`\ 和:ref:`instances_cull_ray<class_VisualServer_method_instances_cull_ray>`\ 进行正确的筛除。
+将唯一的对象ID附加到实例上。必须将对象ID附加到实例上，以便通过\ :ref:`instances_cull_aabb<class_VisualServer_method_instances_cull_aabb>`、:ref:`instances_cull_convex<class_VisualServer_method_instances_cull_convex>`\ 和\ :ref:`instances_cull_ray<class_VisualServer_method_instances_cull_ray>`\ 进行正确的筛除。
 
 ----
 
@@ -3242,9 +3242,9 @@ Method Descriptions
 
 - :ref:`RID<class_RID>` **instance_create** **(** **)**
 
-创建一个可视化实例并将其添加到VisualServer中。可以用返回的RID来访问它。这个RID可在所有``instance_*``\ VisualServer函数中使用。
+创建一个可视化实例并将其添加到VisualServer中。可以用返回的RID来访问它。这个RID可在所有\ ``instance_*``\ VisualServer函数中使用。
 
-一旦完成了对RID的处理，可使用VisualServer的:ref:`free_rid<class_VisualServer_method_free_rid>`\ 静态方法释放RID。
+一旦完成了对RID的处理，可使用VisualServer的\ :ref:`free_rid<class_VisualServer_method_free_rid>`\ 静态方法释放RID。
 
 实例是在场景中放置 3D 对象的一种方式。粒子、网格和反射探针等对象需要与使用 :ref:`instance_set_base<class_VisualServer_method_instance_set_base>` 的实例关联才能在场景中可见。
 
@@ -3254,9 +3254,9 @@ Method Descriptions
 
 - :ref:`RID<class_RID>` **instance_create2** **(** :ref:`RID<class_RID>` base, :ref:`RID<class_RID>` scenario **)**
 
-创建一个可视化实例，将其添加到VisualServer中，并设置基本和效果。可以用返回的RID来访问它。这个RID可在所有``instance_*``\ VisualServer函数中使用。
+创建一个可视化实例，将其添加到VisualServer中，并设置基本和效果。可以用返回的RID来访问它。这个RID可在所有\ ``instance_*``\ VisualServer函数中使用。
 
-一旦完成了对RID的处理，可使用VisualServer的:ref:`free_rid<class_VisualServer_method_free_rid>`\ 静态方法释放RID。
+一旦完成了对RID的处理，可使用VisualServer的\ :ref:`free_rid<class_VisualServer_method_free_rid>`\ 静态方法释放RID。
 
 ----
 
@@ -3272,7 +3272,7 @@ Not implemented in Rebel Engine.
 
 - void **instance_geometry_set_cast_shadows_setting** **(** :ref:`RID<class_RID>` instance, :ref:`ShadowCastingSetting<enum_VisualServer_ShadowCastingSetting>` shadow_casting_setting **)**
 
-将阴影投射设置为:ref:`ShadowCastingSetting<enum_VisualServer_ShadowCastingSetting>`\ 中的一个。相当于:ref:`GeometryInstance.cast_shadow<class_GeometryInstance_property_cast_shadow>`。
+将阴影投射设置为\ :ref:`ShadowCastingSetting<enum_VisualServer_ShadowCastingSetting>`\ 中的一个。相当于\ :ref:`GeometryInstance.cast_shadow<class_GeometryInstance_property_cast_shadow>`。
 
 ----
 
@@ -3288,7 +3288,7 @@ Not implemented in Rebel Engine.
 
 - void **instance_geometry_set_flag** **(** :ref:`RID<class_RID>` instance, :ref:`InstanceFlags<enum_VisualServer_InstanceFlags>` flag, :ref:`bool<class_bool>` enabled **)**
 
-设置给定的:ref:`InstanceFlags<enum_VisualServer_InstanceFlags>`\ 标志。更多细节请参阅:ref:`InstanceFlags<enum_VisualServer_InstanceFlags>`。
+设置给定的\ :ref:`InstanceFlags<enum_VisualServer_InstanceFlags>`\ 标志。更多细节请参阅\ :ref:`InstanceFlags<enum_VisualServer_InstanceFlags>`。
 
 ----
 
@@ -3296,7 +3296,7 @@ Not implemented in Rebel Engine.
 
 - void **instance_geometry_set_material_override** **(** :ref:`RID<class_RID>` instance, :ref:`RID<class_RID>` material **)**
 
-设置一个材质，覆盖与此实例关联的网格上的所有表面的材质。相当于:ref:`GeometryInstance.material_override<class_GeometryInstance_property_material_override>`。
+设置一个材质，覆盖与此实例关联的网格上的所有表面的材质。相当于\ :ref:`GeometryInstance.material_override<class_GeometryInstance_property_material_override>`。
 
 ----
 
@@ -3320,7 +3320,7 @@ Not implemented in Rebel Engine.
 
 - void **instance_set_custom_aabb** **(** :ref:`RID<class_RID>` instance, :ref:`AABB<class_AABB>` aabb **)**
 
-设置自定义的AABB，当从视图中剔除对象时使用。相当于:ref:`GeometryInstance.set_custom_aabb<class_GeometryInstance_method_set_custom_aabb>`。
+设置自定义的AABB，当从视图中剔除对象时使用。相当于\ :ref:`GeometryInstance.set_custom_aabb<class_GeometryInstance_method_set_custom_aabb>`。
 
 ----
 
@@ -3336,7 +3336,7 @@ Function not implemented in Rebel Engine.
 
 - void **instance_set_extra_visibility_margin** **(** :ref:`RID<class_RID>` instance, :ref:`float<class_float>` margin **)**
 
-设置边距，在剔除视域范围内的对象时增加AABB的大小。这可以让你避免剔除落在视域范围外的物体。相当于:ref:`GeometryInstance.extra_cull_margin<class_GeometryInstance_property_extra_cull_margin>`。
+设置边距，在剔除视域范围内的对象时增加AABB的大小。这可以让你避免剔除落在视域范围外的物体。相当于\ :ref:`GeometryInstance.extra_cull_margin<class_GeometryInstance_property_extra_cull_margin>`。
 
 ----
 
@@ -3344,7 +3344,7 @@ Function not implemented in Rebel Engine.
 
 - void **instance_set_layer_mask** **(** :ref:`RID<class_RID>` instance, :ref:`int<class_int>` mask **)**
 
-设置该实例将被绘制的渲染层。相当于:ref:`VisualInstance.layers<class_VisualInstance_property_layers>`。
+设置该实例将被绘制的渲染层。相当于\ :ref:`VisualInstance.layers<class_VisualInstance_property_layers>`。
 
 ----
 
@@ -3360,7 +3360,7 @@ Function not implemented in Rebel Engine.
 
 - void **instance_set_surface_material** **(** :ref:`RID<class_RID>` instance, :ref:`int<class_int>` surface, :ref:`RID<class_RID>` material **)**
 
-设置特定表面的材质。相当于:ref:`MeshInstance.set_surface_material<class_MeshInstance_method_set_surface_material>`。
+设置特定表面的材质。相当于\ :ref:`MeshInstance.set_surface_material<class_MeshInstance_method_set_surface_material>`。
 
 ----
 
@@ -3368,7 +3368,7 @@ Function not implemented in Rebel Engine.
 
 - void **instance_set_transform** **(** :ref:`RID<class_RID>` instance, :ref:`Transform<class_Transform>` transform **)**
 
-设置实例的世界空间变换。相当于:ref:`Spatial.transform<class_Spatial_property_transform>`。
+设置实例的世界空间变换。相当于\ :ref:`Spatial.transform<class_Spatial_property_transform>`。
 
 ----
 
@@ -3392,7 +3392,7 @@ Function not implemented in Rebel Engine.
 
 - :ref:`Array<class_Array>` **instances_cull_aabb** **(** :ref:`AABB<class_AABB>` aabb, :ref:`RID<class_RID>` scenario **)** |const|
 
-返回一个与所提供的AABB相交的物体ID数组。只考虑可视化的3D节点，例如:ref:`MeshInstance<class_MeshInstance>`\ 或:ref:`DirectionalLight<class_DirectionalLight>`。使用:ref:`@GDScript.instance_from_id<class_@GDScript_method_instance_from_id>`\ 来获取实际节点。这必须提供一个场景的RID，该RID在你想查询的:ref:`World<class_World>`\ 中是可用的。这将强制更新所有排队等待更新的资源。
+返回一个与所提供的AABB相交的物体ID数组。只考虑可视化的3D节点，例如\ :ref:`MeshInstance<class_MeshInstance>`\ 或\ :ref:`DirectionalLight<class_DirectionalLight>`。使用\ :ref:`@GDScript.instance_from_id<class_@GDScript_method_instance_from_id>`\ 来获取实际节点。这必须提供一个场景的RID，该RID在你想查询的\ :ref:`World<class_World>`\ 中是可用的。这将强制更新所有排队等待更新的资源。
 
 **警告：** 这个函数主要用于编辑器使用。对于游戏中的使用情况，最好是物理碰撞。
 
@@ -3402,7 +3402,7 @@ Function not implemented in Rebel Engine.
 
 - :ref:`Array<class_Array>` **instances_cull_convex** **(** :ref:`Array<class_Array>` convex, :ref:`RID<class_RID>` scenario **)** |const|
 
-返回一个与所提供的凸形相交的物体ID数组。只考虑可视化的3D节点，如:ref:`MeshInstance<class_MeshInstance>`\ 或:ref:`DirectionalLight<class_DirectionalLight>`。使用:ref:`@GDScript.instance_from_id<class_@GDScript_method_instance_from_id>`\ 来获取实际节点。必须提供一个场景的RID，这个RID在你想查询的:ref:`World<class_World>`\ 中是可用的。这将强制更新所有排队等待更新的资源。
+返回一个与所提供的凸形相交的物体ID数组。只考虑可视化的3D节点，如\ :ref:`MeshInstance<class_MeshInstance>`\ 或\ :ref:`DirectionalLight<class_DirectionalLight>`。使用\ :ref:`@GDScript.instance_from_id<class_@GDScript_method_instance_from_id>`\ 来获取实际节点。必须提供一个场景的RID，这个RID在你想查询的\ :ref:`World<class_World>`\ 中是可用的。这将强制更新所有排队等待更新的资源。
 
 **警告：** 这个函数主要用于编辑器使用。对于游戏中的使用情况，最好是物理碰撞。
 
@@ -3412,7 +3412,7 @@ Function not implemented in Rebel Engine.
 
 - :ref:`Array<class_Array>` **instances_cull_ray** **(** :ref:`Vector3<class_Vector3>` from, :ref:`Vector3<class_Vector3>` to, :ref:`RID<class_RID>` scenario **)** |const|
 
-返回一个与所提供的3D射线相交的物体ID数组。只考虑可视化的3D节点，例如:ref:`MeshInstance<class_MeshInstance>`\ 或:ref:`DirectionalLight<class_DirectionalLight>`。使用:ref:`@GDScript.instance_from_id<class_@GDScript_method_instance_from_id>`\ 来获取实际节点。必须提供一个场景的RID，这个RID在你想查询的:ref:`World<class_World>`\ 中是可用的。这将强制更新所有排队等待更新的资源。
+返回一个与所提供的3D射线相交的物体ID数组。只考虑可视化的3D节点，例如\ :ref:`MeshInstance<class_MeshInstance>`\ 或\ :ref:`DirectionalLight<class_DirectionalLight>`。使用\ :ref:`@GDScript.instance_from_id<class_@GDScript_method_instance_from_id>`\ 来获取实际节点。必须提供一个场景的RID，这个RID在你想查询的\ :ref:`World<class_World>`\ 中是可用的。这将强制更新所有排队等待更新的资源。
 
 **警告：** 这个函数主要用于编辑器的使用。对于游戏中的使用情况，最好是物理碰撞。
 
@@ -3422,7 +3422,7 @@ Function not implemented in Rebel Engine.
 
 - void **light_directional_set_blend_splits** **(** :ref:`RID<class_RID>` light, :ref:`bool<class_bool>` enable **)**
 
-如果``true``，这个平行光会在阴影贴图分割之间混合，以使它们之间的过渡更加平滑。相当于:ref:`DirectionalLight.directional_shadow_blend_splits<class_DirectionalLight_property_directional_shadow_blend_splits>`。
+如果\ ``true``，这个平行光会在阴影贴图分割之间混合，以使它们之间的过渡更加平滑。相当于\ :ref:`DirectionalLight.directional_shadow_blend_splits<class_DirectionalLight_property_directional_shadow_blend_splits>`。
 
 ----
 
@@ -3430,7 +3430,7 @@ Function not implemented in Rebel Engine.
 
 - void **light_directional_set_shadow_depth_range_mode** **(** :ref:`RID<class_RID>` light, :ref:`LightDirectionalShadowDepthRangeMode<enum_VisualServer_LightDirectionalShadowDepthRangeMode>` range_mode **)**
 
-设置这个平行光源的阴影深度范围模式。相当于:ref:`DirectionalLight.directional_shadow_depth_range<class_DirectionalLight_property_directional_shadow_depth_range>`。参阅:ref:`LightDirectionalShadowDepthRangeMode<enum_VisualServer_LightDirectionalShadowDepthRangeMode>`\ 的选项。
+设置这个平行光源的阴影深度范围模式。相当于\ :ref:`DirectionalLight.directional_shadow_depth_range<class_DirectionalLight_property_directional_shadow_depth_range>`。参阅\ :ref:`LightDirectionalShadowDepthRangeMode<enum_VisualServer_LightDirectionalShadowDepthRangeMode>`\ 的选项。
 
 ----
 
@@ -3438,7 +3438,7 @@ Function not implemented in Rebel Engine.
 
 - void **light_directional_set_shadow_mode** **(** :ref:`RID<class_RID>` light, :ref:`LightDirectionalShadowMode<enum_VisualServer_LightDirectionalShadowMode>` mode **)**
 
-设置此平行光源的阴影模式。相当于:ref:`DirectionalLight.directional_shadow_mode<class_DirectionalLight_property_directional_shadow_mode>`。参阅:ref:`LightDirectionalShadowMode<enum_VisualServer_LightDirectionalShadowMode>`\ 的选项。
+设置此平行光源的阴影模式。相当于\ :ref:`DirectionalLight.directional_shadow_mode<class_DirectionalLight_property_directional_shadow_mode>`。参阅\ :ref:`LightDirectionalShadowMode<enum_VisualServer_LightDirectionalShadowMode>`\ 的选项。
 
 ----
 
@@ -3454,7 +3454,7 @@ Function not implemented in Rebel Engine.
 
 - void **light_omni_set_shadow_mode** **(** :ref:`RID<class_RID>` light, :ref:`LightOmniShadowMode<enum_VisualServer_LightOmniShadowMode>` mode **)**
 
-设置阴影贴图是使用双抛物面还是立方体贴图。双抛物面速度更快，但可能会出现伪影。相当于:ref:`OmniLight.omni_shadow_mode<class_OmniLight_property_omni_shadow_mode>`。
+设置阴影贴图是使用双抛物面还是立方体贴图。双抛物面速度更快，但可能会出现伪影。相当于\ :ref:`OmniLight.omni_shadow_mode<class_OmniLight_property_omni_shadow_mode>`。
 
 ----
 
@@ -3470,7 +3470,7 @@ Function not implemented in Rebel Engine.
 
 - void **light_set_color** **(** :ref:`RID<class_RID>` light, :ref:`Color<class_Color>` color **)**
 
-设置灯光的颜色。相当于:ref:`Light.light_color<class_Light_property_light_color>`。
+设置灯光的颜色。相当于\ :ref:`Light.light_color<class_Light_property_light_color>`。
 
 ----
 
@@ -3478,7 +3478,7 @@ Function not implemented in Rebel Engine.
 
 - void **light_set_cull_mask** **(** :ref:`RID<class_RID>` light, :ref:`int<class_int>` mask **)**
 
-设置此灯光的剔除遮罩。灯光仅影响选定图层中的对象。相当于:ref:`Light.light_cull_mask<class_Light_property_light_cull_mask>`。
+设置此灯光的剔除遮罩。灯光仅影响选定图层中的对象。相当于\ :ref:`Light.light_cull_mask<class_Light_property_light_cull_mask>`。
 
 ----
 
@@ -3486,7 +3486,7 @@ Function not implemented in Rebel Engine.
 
 - void **light_set_negative** **(** :ref:`RID<class_RID>` light, :ref:`bool<class_bool>` enable **)**
 
-如果``true``，光将减去光而不是增加光。相当于:ref:`Light.light_negative<class_Light_property_light_negative>`。
+如果\ ``true``，光将减去光而不是增加光。相当于\ :ref:`Light.light_negative<class_Light_property_light_negative>`。
 
 ----
 
@@ -3494,7 +3494,7 @@ Function not implemented in Rebel Engine.
 
 - void **light_set_param** **(** :ref:`RID<class_RID>` light, :ref:`LightParam<enum_VisualServer_LightParam>` param, :ref:`float<class_float>` value **)**
 
-设置指定的灯光参数。参阅:ref:`LightParam<enum_VisualServer_LightParam>`\ 的选项。相当于:ref:`Light.set_param<class_Light_method_set_param>`。
+设置指定的灯光参数。参阅\ :ref:`LightParam<enum_VisualServer_LightParam>`\ 的选项。相当于\ :ref:`Light.set_param<class_Light_method_set_param>`。
 
 ----
 
@@ -3510,7 +3510,7 @@ Not implemented in Rebel Engine.
 
 - void **light_set_reverse_cull_face_mode** **(** :ref:`RID<class_RID>` light, :ref:`bool<class_bool>` enabled **)**
 
-如果``true``，反转网格的背面剔除。当你有一个平面网格后面有灯光时，这可能很有用。如果你需要在网格的两面都投下阴影，可以用:ref:`instance_geometry_set_cast_shadows_setting<class_VisualServer_method_instance_geometry_set_cast_shadows_setting>`\ 将网格设置为使用双面阴影。相当于:ref:`Light.shadow_reverse_cull_face<class_Light_property_shadow_reverse_cull_face>`。
+如果\ ``true``，反转网格的背面剔除。当你有一个平面网格后面有灯光时，这可能很有用。如果你需要在网格的两面都投下阴影，可以用\ :ref:`instance_geometry_set_cast_shadows_setting<class_VisualServer_method_instance_geometry_set_cast_shadows_setting>`\ 将网格设置为使用双面阴影。相当于\ :ref:`Light.shadow_reverse_cull_face<class_Light_property_shadow_reverse_cull_face>`。
 
 ----
 
@@ -3518,7 +3518,7 @@ Not implemented in Rebel Engine.
 
 - void **light_set_shadow** **(** :ref:`RID<class_RID>` light, :ref:`bool<class_bool>` enabled **)**
 
-如果``true``，光线会投射阴影。相当于:ref:`Light.shadow_enabled<class_Light_property_shadow_enabled>`。
+如果\ ``true``，光线会投射阴影。相当于\ :ref:`Light.shadow_enabled<class_Light_property_shadow_enabled>`。
 
 ----
 
@@ -3526,7 +3526,7 @@ Not implemented in Rebel Engine.
 
 - void **light_set_shadow_color** **(** :ref:`RID<class_RID>` light, :ref:`Color<class_Color>` color **)**
 
-设置灯光投射阴影的颜色。相当于:ref:`Light.shadow_color<class_Light_property_shadow_color>`。
+设置灯光投射阴影的颜色。相当于\ :ref:`Light.shadow_color<class_Light_property_shadow_color>`。
 
 ----
 
@@ -3534,7 +3534,7 @@ Not implemented in Rebel Engine.
 
 - void **light_set_use_gi** **(** :ref:`RID<class_RID>` light, :ref:`bool<class_bool>` enabled **)**
 
-设置GI探针是否从这个灯中捕捉光线信息。*废弃的方法。*使用:ref:`light_set_bake_mode<class_VisualServer_method_light_set_bake_mode>`\ 代替。这个方法只是出于兼容性考虑而被保留，它在内部调用:ref:`light_set_bake_mode<class_VisualServer_method_light_set_bake_mode>`，根据给定的参数将烘烤模式设置为:ref:`LIGHT_BAKE_DISABLED<class_VisualServer_constant_LIGHT_BAKE_DISABLED>`\ 或:ref:`LIGHT_BAKE_INDIRECT<class_VisualServer_constant_LIGHT_BAKE_INDIRECT>`。
+设置GI探针是否从这个灯中捕捉光线信息。*废弃的方法。*\ 使用\ :ref:`light_set_bake_mode<class_VisualServer_method_light_set_bake_mode>`\ 代替。这个方法只是出于兼容性考虑而被保留，它在内部调用\ :ref:`light_set_bake_mode<class_VisualServer_method_light_set_bake_mode>`，根据给定的参数将烘烤模式设置为\ :ref:`LIGHT_BAKE_DISABLED<class_VisualServer_constant_LIGHT_BAKE_DISABLED>`\ 或\ :ref:`LIGHT_BAKE_INDIRECT<class_VisualServer_constant_LIGHT_BAKE_INDIRECT>`。
 
 ----
 
@@ -3542,11 +3542,11 @@ Not implemented in Rebel Engine.
 
 - :ref:`RID<class_RID>` **lightmap_capture_create** **(** **)**
 
-创建一个光照贴图捕获并将其添加到VisualServer中。可以用返回的RID来访问它。这个RID可用于所有``lightmap_capture_*`` VisualServer函数。
+创建一个光照贴图捕获并将其添加到VisualServer中。可以用返回的RID来访问它。这个RID可用于所有\ ``lightmap_capture_*`` VisualServer函数。
 
-一旦完成了RID处理，可使用VisualServer的:ref:`free_rid<class_VisualServer_method_free_rid>`\ 静态方法释放RID。
+一旦完成了RID处理，可使用VisualServer的\ :ref:`free_rid<class_VisualServer_method_free_rid>`\ 静态方法释放RID。
 
-要在场景中放置，使用返回的RID，用:ref:`instance_set_base<class_VisualServer_method_instance_set_base>`\ 将这个lightmap capture附加到一个实例上。
+要在场景中放置，使用返回的RID，用\ :ref:`instance_set_base<class_VisualServer_method_instance_set_base>`\ 将这个lightmap capture附加到一个实例上。
 
 ----
 
@@ -3610,7 +3610,7 @@ Not implemented in Rebel Engine.
 
 - void **lightmap_capture_set_energy** **(** :ref:`RID<class_RID>` capture, :ref:`float<class_float>` energy **)**
 
-设置此光照贴图捕获的能量乘数。相当于:ref:`BakedLightmapData.energy<class_BakedLightmapData_property_energy>`。
+设置此光照贴图捕获的能量乘数。相当于\ :ref:`BakedLightmapData.energy<class_BakedLightmapData_property_energy>`。
 
 ----
 
@@ -3626,7 +3626,7 @@ Not implemented in Rebel Engine.
 
 - void **lightmap_capture_set_octree** **(** :ref:`RID<class_RID>` capture, :ref:`PoolByteArray<class_PoolByteArray>` octree **)**
 
-设置此光照贴图捕获要使用的八叉树。该函数通常由 :ref:`BakedLightmap<class_BakedLightmap>` 节点使用。相当于:ref:`BakedLightmapData.octree<class_BakedLightmapData_property_octree>`。
+设置此光照贴图捕获要使用的八叉树。该函数通常由 :ref:`BakedLightmap<class_BakedLightmap>` 节点使用。相当于\ :ref:`BakedLightmapData.octree<class_BakedLightmapData_property_octree>`。
 
 ----
 
@@ -3634,7 +3634,7 @@ Not implemented in Rebel Engine.
 
 - void **lightmap_capture_set_octree_cell_subdiv** **(** :ref:`RID<class_RID>` capture, :ref:`int<class_int>` subdiv **)**
 
-设置此光照贴图捕获八叉树的细分级别。相当于:ref:`BakedLightmapData.cell_subdiv<class_BakedLightmapData_property_cell_subdiv>`。
+设置此光照贴图捕获八叉树的细分级别。相当于\ :ref:`BakedLightmapData.cell_subdiv<class_BakedLightmapData_property_cell_subdiv>`。
 
 ----
 
@@ -3642,7 +3642,7 @@ Not implemented in Rebel Engine.
 
 - void **lightmap_capture_set_octree_cell_transform** **(** :ref:`RID<class_RID>` capture, :ref:`Transform<class_Transform>` xform **)**
 
-设置此光照贴图捕获的八叉树的八叉树单元变换。相当于:ref:`BakedLightmapData.cell_space_transform<class_BakedLightmapData_property_cell_space_transform>`。
+设置此光照贴图捕获的八叉树的八叉树单元变换。相当于\ :ref:`BakedLightmapData.cell_space_transform<class_BakedLightmapData_property_cell_space_transform>`。
 
 ----
 
@@ -4010,7 +4010,7 @@ Function is unused in Rebel Engine.
 
 - :ref:`Transform<class_Transform>` **multimesh_instance_get_transform** **(** :ref:`RID<class_RID>` multimesh, :ref:`int<class_int>` index **)** |const|
 
-返回指定实例的:ref:`Transform<class_Transform>`。
+返回指定实例的\ :ref:`Transform<class_Transform>`。
 
 ----
 
@@ -4026,7 +4026,7 @@ Function is unused in Rebel Engine.
 
 - void **multimesh_instance_set_color** **(** :ref:`RID<class_RID>` multimesh, :ref:`int<class_int>` index, :ref:`Color<class_Color>` color **)**
 
-设置这个实例的调制颜色。等同于:ref:`MultiMesh.set_instance_color<class_MultiMesh_method_set_instance_color>`。
+设置这个实例的调制颜色。等同于\ :ref:`MultiMesh.set_instance_color<class_MultiMesh_method_set_instance_color>`。
 
 ----
 
@@ -4034,7 +4034,7 @@ Function is unused in Rebel Engine.
 
 - void **multimesh_instance_set_custom_data** **(** :ref:`RID<class_RID>` multimesh, :ref:`int<class_int>` index, :ref:`Color<class_Color>` custom_data **)**
 
-为这个实例设置自定义数据。自定义数据以:ref:`Color<class_Color>`\ 的形式传递，但在着色器中会被解释为``vec4``。等同于:ref:`MultiMesh.set_instance_custom_data<class_MultiMesh_method_set_instance_custom_data>`。
+为这个实例设置自定义数据。自定义数据以\ :ref:`Color<class_Color>`\ 的形式传递，但在着色器中会被解释为\ ``vec4``。等同于\ :ref:`MultiMesh.set_instance_custom_data<class_MultiMesh_method_set_instance_custom_data>`。
 
 ----
 
@@ -4042,7 +4042,7 @@ Function is unused in Rebel Engine.
 
 - void **multimesh_instance_set_transform** **(** :ref:`RID<class_RID>` multimesh, :ref:`int<class_int>` index, :ref:`Transform<class_Transform>` transform **)**
 
-设置此实例的 :ref:`Transform<class_Transform>`。相当于:ref:`MultiMesh.set_instance_transform<class_MultiMesh_method_set_instance_transform>`。
+设置此实例的 :ref:`Transform<class_Transform>`。相当于\ :ref:`MultiMesh.set_instance_transform<class_MultiMesh_method_set_instance_transform>`。
 
 ----
 
@@ -4050,7 +4050,7 @@ Function is unused in Rebel Engine.
 
 - void **multimesh_instance_set_transform_2d** **(** :ref:`RID<class_RID>` multimesh, :ref:`int<class_int>` index, :ref:`Transform2D<class_Transform2D>` transform **)**
 
-为此实例设置 :ref:`Transform2D<class_Transform2D>`。用于在 2D 中使用multimesh时。相当于:ref:`MultiMesh.set_instance_transform_2d<class_MultiMesh_method_set_instance_transform_2d>`。
+为此实例设置 :ref:`Transform2D<class_Transform2D>`。用于在 2D 中使用multimesh时。相当于\ :ref:`MultiMesh.set_instance_transform_2d<class_MultiMesh_method_set_instance_transform_2d>`。
 
 ----
 
@@ -4082,7 +4082,7 @@ Function is unused in Rebel Engine.
 
 - void **multimesh_set_visible_instances** **(** :ref:`RID<class_RID>` multimesh, :ref:`int<class_int>` visible **)**
 
-设置在给定时间内可见的实例的数量。如果是-1，所有被分配的实例都会被画出来。等同于:ref:`MultiMesh.visible_instance_count<class_MultiMesh_property_visible_instance_count>`。
+设置在给定时间内可见的实例的数量。如果是-1，所有被分配的实例都会被画出来。等同于\ :ref:`MultiMesh.visible_instance_count<class_MultiMesh_property_visible_instance_count>`。
 
 ----
 
@@ -4114,7 +4114,7 @@ Function is unused in Rebel Engine.
 
 - :ref:`AABB<class_AABB>` **particles_get_current_aabb** **(** :ref:`RID<class_RID>` particles **)**
 
-计算并返回包含所有粒子的轴对齐边界框。相当于:ref:`Particles.capture_aabb<class_Particles_method_capture_aabb>`。
+计算并返回包含所有粒子的轴对齐边界框。相当于\ :ref:`Particles.capture_aabb<class_Particles_method_capture_aabb>`。
 
 ----
 
@@ -4122,7 +4122,7 @@ Function is unused in Rebel Engine.
 
 - :ref:`bool<class_bool>` **particles_get_emitting** **(** :ref:`RID<class_RID>` particles **)**
 
-如果当前粒子被设置发射，则返回``true``。
+如果当前粒子被设置发射，则返回\ ``true``。
 
 ----
 
@@ -4146,7 +4146,7 @@ Function is unused in Rebel Engine.
 
 - void **particles_restart** **(** :ref:`RID<class_RID>` particles **)**
 
-在下次更新时重置粒子。相当于:ref:`Particles.restart<class_Particles_method_restart>`。
+在下次更新时重置粒子。相当于\ :ref:`Particles.restart<class_Particles_method_restart>`。
 
 ----
 
@@ -4154,7 +4154,7 @@ Function is unused in Rebel Engine.
 
 - void **particles_set_amount** **(** :ref:`RID<class_RID>` particles, :ref:`int<class_int>` amount **)**
 
-设置要绘制的粒子的数量，并为其分配内存。相当于:ref:`Particles.amount<class_Particles_property_amount>`。
+设置要绘制的粒子的数量，并为其分配内存。相当于\ :ref:`Particles.amount<class_Particles_property_amount>`。
 
 ----
 
@@ -4202,7 +4202,7 @@ Function is unused in Rebel Engine.
 
 - void **particles_set_emitting** **(** :ref:`RID<class_RID>` particles, :ref:`bool<class_bool>` emitting **)**
 
-如果``true``，粒子会随着时间的推移而发射出来。设置为false不会重置粒子，而只是停止其发射。相当于:ref:`Particles.emitting<class_Particles_property_emitting>`。
+如果\ ``true``，粒子会随着时间的推移而发射出来。设置为false不会重置粒子，而只是停止其发射。相当于\ :ref:`Particles.emitting<class_Particles_property_emitting>`。
 
 ----
 
@@ -4210,7 +4210,7 @@ Function is unused in Rebel Engine.
 
 - void **particles_set_explosiveness_ratio** **(** :ref:`RID<class_RID>` particles, :ref:`float<class_float>` ratio **)**
 
-设置爆炸率。相当于:ref:`Particles.explosiveness<class_Particles_property_explosiveness>`。
+设置爆炸率。相当于\ :ref:`Particles.explosiveness<class_Particles_property_explosiveness>`。
 
 ----
 
@@ -4218,7 +4218,7 @@ Function is unused in Rebel Engine.
 
 - void **particles_set_fixed_fps** **(** :ref:`RID<class_RID>` particles, :ref:`int<class_int>` fps **)**
 
-设置粒子系统渲染的固定帧率。相当于:ref:`Particles.fixed_fps<class_Particles_property_fixed_fps>`。
+设置粒子系统渲染的固定帧率。相当于\ :ref:`Particles.fixed_fps<class_Particles_property_fixed_fps>`。
 
 ----
 
@@ -4250,7 +4250,7 @@ Function is unused in Rebel Engine.
 
 - void **particles_set_pre_process_time** **(** :ref:`RID<class_RID>` particles, :ref:`float<class_float>` time **)**
 
-设置粒子动画的预处理时间。这使您可以延迟启动动画，直到粒子开始发射。相当于:ref:`Particles.preprocess<class_Particles_property_preprocess>`。
+设置粒子动画的预处理时间。这使您可以延迟启动动画，直到粒子开始发射。相当于\ :ref:`Particles.preprocess<class_Particles_property_preprocess>`。
 
 ----
 
@@ -4260,7 +4260,7 @@ Function is unused in Rebel Engine.
 
 设置用于处理粒子的材质。
 
-**注意：** 这不是用于绘制材质的材质。相当于:ref:`Particles.process_material<class_Particles_property_process_material>`。
+**注意：** 这不是用于绘制材质的材质。相当于\ :ref:`Particles.process_material<class_Particles_property_process_material>`。
 
 ----
 
@@ -4292,11 +4292,11 @@ Function is unused in Rebel Engine.
 
 - :ref:`RID<class_RID>` **reflection_probe_create** **(** **)**
 
-创建一个反射探针并将其添加到VisualServer中。可以用返回的RID来访问它。这个RID可用于所有``reflection_probe_*`` VisualServer函数。
+创建一个反射探针并将其添加到VisualServer中。可以用返回的RID来访问它。这个RID可用于所有\ ``reflection_probe_*`` VisualServer函数。
 
-一旦完成了RID处理，可使用VisualServer的:ref:`free_rid<class_VisualServer_method_free_rid>`\ 静态方法释放RID。
+一旦完成了RID处理，可使用VisualServer的\ :ref:`free_rid<class_VisualServer_method_free_rid>`\ 静态方法释放RID。
 
-要在场景中放置，使用返回的RID，用:ref:`instance_set_base<class_VisualServer_method_instance_set_base>`\ 将这个反射探针附加到一个实例上。
+要在场景中放置，使用返回的RID，用\ :ref:`instance_set_base<class_VisualServer_method_instance_set_base>`\ 将这个反射探针附加到一个实例上。
 
 ----
 
@@ -4312,7 +4312,7 @@ Function is unused in Rebel Engine.
 
 - void **reflection_probe_set_cull_mask** **(** :ref:`RID<class_RID>` probe, :ref:`int<class_int>` layers **)**
 
-为这个反射探针设置渲染遮蔽。只有具有匹配的遮蔽罩的实例才会被这个探针渲染。等同于:ref:`ReflectionProbe.cull_mask<class_ReflectionProbe_property_cull_mask>`。
+为这个反射探针设置渲染遮蔽。只有具有匹配的遮蔽罩的实例才会被这个探针渲染。等同于\ :ref:`ReflectionProbe.cull_mask<class_ReflectionProbe_property_cull_mask>`。
 
 ----
 
@@ -4352,7 +4352,7 @@ Function is unused in Rebel Engine.
 
 - void **reflection_probe_set_interior_ambient** **(** :ref:`RID<class_RID>` probe, :ref:`Color<class_Color>` color **)**
 
-设置为内部模式时，为此反射探针设置环境光颜色。相当于:ref:`ReflectionProbe.interior_ambient_color<class_ReflectionProbe_property_interior_ambient_color>`。
+设置为内部模式时，为此反射探针设置环境光颜色。相当于\ :ref:`ReflectionProbe.interior_ambient_color<class_ReflectionProbe_property_interior_ambient_color>`。
 
 ----
 
@@ -4360,7 +4360,7 @@ Function is unused in Rebel Engine.
 
 - void **reflection_probe_set_interior_ambient_energy** **(** :ref:`RID<class_RID>` probe, :ref:`float<class_float>` energy **)**
 
-当设置为内部模式时，设置此反射探针环境光贡献的能量乘数。相当于:ref:`ReflectionProbe.interior_ambient_energy<class_ReflectionProbe_property_interior_ambient_energy>`。
+当设置为内部模式时，设置此反射探针环境光贡献的能量乘数。相当于\ :ref:`ReflectionProbe.interior_ambient_energy<class_ReflectionProbe_property_interior_ambient_energy>`。
 
 ----
 
@@ -4376,7 +4376,7 @@ Function is unused in Rebel Engine.
 
 - void **reflection_probe_set_max_distance** **(** :ref:`RID<class_RID>` probe, :ref:`float<class_float>` distance **)**
 
-设置物体在被删除前与探针的最大距离。等同于:ref:`ReflectionProbe.max_distance<class_ReflectionProbe_property_max_distance>`。
+设置物体在被删除前与探针的最大距离。等同于\ :ref:`ReflectionProbe.max_distance<class_ReflectionProbe_property_max_distance>`。
 
 ----
 
@@ -4384,7 +4384,7 @@ Function is unused in Rebel Engine.
 
 - void **reflection_probe_set_origin_offset** **(** :ref:`RID<class_RID>` probe, :ref:`Vector3<class_Vector3>` offset **)**
 
-设置当此反射探针处于框项目模式时要使用的源偏移。相当于:ref:`ReflectionProbe.origin_offset<class_ReflectionProbe_property_origin_offset>`。
+设置当此反射探针处于框项目模式时要使用的源偏移。相当于\ :ref:`ReflectionProbe.origin_offset<class_ReflectionProbe_property_origin_offset>`。
 
 ----
 
@@ -4392,7 +4392,7 @@ Function is unused in Rebel Engine.
 
 - void **reflection_probe_set_update_mode** **(** :ref:`RID<class_RID>` probe, :ref:`ReflectionProbeUpdateMode<enum_VisualServer_ReflectionProbeUpdateMode>` mode **)**
 
-设置反射探针的更新频率。可以是一次，也可以是每一帧。参阅:ref:`ReflectionProbeUpdateMode<enum_VisualServer_ReflectionProbeUpdateMode>`\ 选项。
+设置反射探针的更新频率。可以是一次，也可以是每一帧。参阅\ :ref:`ReflectionProbeUpdateMode<enum_VisualServer_ReflectionProbeUpdateMode>`\ 选项。
 
 ----
 
@@ -4400,9 +4400,9 @@ Function is unused in Rebel Engine.
 
 - void **request_frame_drawn_callback** **(** :ref:`Object<class_Object>` where, :ref:`String<class_String>` method, :ref:`Variant<class_Variant>` userdata **)**
 
-在画完一帧后，在``where``\ 上安排一个回调给相应的命名的``method``。
+在画完一帧后，在\ ``where``\ 上安排一个回调给相应的命名的\ ``method``。
 
-回调方法必须只使用1个参数，它将与``userdata``\ 一起被调用。
+回调方法必须只使用1个参数，它将与\ ``userdata``\ 一起被调用。
 
 ----
 
@@ -4410,9 +4410,9 @@ Function is unused in Rebel Engine.
 
 - :ref:`RID<class_RID>` **scenario_create** **(** **)**
 
-创建一个场景并将其添加到VisualServer中。它可以通过返回的RID进行访问。这个RID可在所有``scenario_*``\ VisualServer函数中使用。
+创建一个场景并将其添加到VisualServer中。它可以通过返回的RID进行访问。这个RID可在所有\ ``scenario_*``\ VisualServer函数中使用。
 
-一旦完成了对RID的处理，可使用VisualServer的:ref:`free_rid<class_VisualServer_method_free_rid>`\ 静态方法释放RID。
+一旦完成了对RID的处理，可使用VisualServer的\ :ref:`free_rid<class_VisualServer_method_free_rid>`\ 静态方法释放RID。
 
 场景是所有视觉实例所存在的三维世界。
 
@@ -4422,7 +4422,7 @@ Function is unused in Rebel Engine.
 
 - void **scenario_set_debug** **(** :ref:`RID<class_RID>` scenario, :ref:`ScenarioDebugMode<enum_VisualServer_ScenarioDebugMode>` debug_mode **)**
 
-设置该场景的:ref:`ScenarioDebugMode<enum_VisualServer_ScenarioDebugMode>`。
+设置该场景的\ :ref:`ScenarioDebugMode<enum_VisualServer_ScenarioDebugMode>`。
 
 ----
 
@@ -4454,7 +4454,7 @@ Function is unused in Rebel Engine.
 
 - void **set_boot_image** **(** :ref:`Image<class_Image>` image, :ref:`Color<class_Color>` color, :ref:`bool<class_bool>` scale, :ref:`bool<class_bool>` use_filter=true **)**
 
-设置一个启动图像。颜色定义了背景颜色。如果``scale``\ 是``true``，图像将被缩放以适应屏幕尺寸。如果``use_filter``\ 是``true``，图像将以线性插值进行缩放。如果``use_filter``\ 是``false``，图像将以近邻插值的方式缩放。
+设置一个启动图像。颜色定义了背景颜色。如果\ ``scale``\ 是\ ``true``，图像将被缩放以适应屏幕尺寸。如果\ ``use_filter``\ 是\ ``true``，图像将以线性插值进行缩放。如果\ ``use_filter``\ 是\ ``false``，图像将以近邻插值的方式缩放。
 
 ----
 
@@ -4480,7 +4480,7 @@ Function is unused in Rebel Engine.
 
 设置应用于着色器 ``TIME`` 内置时间流逝的比例。
 
-默认值是``1.0``，表示``TIME``\ 会随着时间的推移计算实时时间，不会缩小或拉伸它。
+默认值是\ ``1.0``，表示\ ``TIME``\ 会随着时间的推移计算实时时间，不会缩小或拉伸它。
 
 ----
 
@@ -4554,7 +4554,7 @@ Function is unused in Rebel Engine.
 
 - :ref:`Transform<class_Transform>` **skeleton_bone_get_transform** **(** :ref:`RID<class_RID>` skeleton, :ref:`int<class_int>` bone **)** |const|
 
-返回这个骨架的特定骨骼的:ref:`Transform<class_Transform>`\ 集合。
+返回这个骨架的特定骨骼的\ :ref:`Transform<class_Transform>`\ 集合。
 
 ----
 
@@ -4562,7 +4562,7 @@ Function is unused in Rebel Engine.
 
 - :ref:`Transform2D<class_Transform2D>` **skeleton_bone_get_transform_2d** **(** :ref:`RID<class_RID>` skeleton, :ref:`int<class_int>` bone **)** |const|
 
-返回此骨架的特定骨骼的:ref:`Transform2D<class_Transform2D>`\ 集合。
+返回此骨架的特定骨骼的\ :ref:`Transform2D<class_Transform2D>`\ 集合。
 
 ----
 
@@ -4586,9 +4586,9 @@ Function is unused in Rebel Engine.
 
 - :ref:`RID<class_RID>` **skeleton_create** **(** **)**
 
-创建一个骨架并将其添加到VisualServer中。它可以通过返回的RID进行访问。这个RID可用于所有``skeleton_*`` VisualServer函数。
+创建一个骨架并将其添加到VisualServer中。它可以通过返回的RID进行访问。这个RID可用于所有\ ``skeleton_*`` VisualServer函数。
 
-一旦完成了对RID的处理，可使用VisualServer的:ref:`free_rid<class_VisualServer_method_free_rid>`\ 静态方法释放RID。
+一旦完成了对RID的处理，可使用VisualServer的\ :ref:`free_rid<class_VisualServer_method_free_rid>`\ 静态方法释放RID。
 
 ----
 
@@ -4604,9 +4604,9 @@ Function is unused in Rebel Engine.
 
 - :ref:`RID<class_RID>` **sky_create** **(** **)**
 
-创建一个空的天空并将其添加到VisualServer中。可以用返回的RID来访问它。这个RID可用于所有``sky_*`` VisualServer函数。
+创建一个空的天空并将其添加到VisualServer中。可以用返回的RID来访问它。这个RID可用于所有\ ``sky_*`` VisualServer函数。
 
-一旦完成了对RID的处理，可使用VisualServer的:ref:`free_rid<class_VisualServer_method_free_rid>`\ 静态方法释放RID。
+一旦完成了对RID的处理，可使用VisualServer的\ :ref:`free_rid<class_VisualServer_method_free_rid>`\ 静态方法释放RID。
 
 ----
 
@@ -4622,11 +4622,11 @@ Function is unused in Rebel Engine.
 
 - :ref:`RID<class_RID>` **spot_light_create** **(** **)**
 
-创建一个聚光灯并将其添加到VisualServer中。可以用返回的RID来访问它。这个RID可用于大多数``light_*`` VisualServer函数。
+创建一个聚光灯并将其添加到VisualServer中。可以用返回的RID来访问它。这个RID可用于大多数\ ``light_*`` VisualServer函数。
 
-一旦完成了对RID的处理，可使用VisualServer的:ref:`free_rid<class_VisualServer_method_free_rid>`\ 静态方法释放RID。
+一旦完成了对RID的处理，可使用VisualServer的\ :ref:`free_rid<class_VisualServer_method_free_rid>`\ 静态方法释放RID。
 
-要在场景中放置，请使用返回的RID，用:ref:`instance_set_base<class_VisualServer_method_instance_set_base>`\ 将该聚光灯附加到一个实例上。
+要在场景中放置，请使用返回的RID，用\ :ref:`instance_set_base<class_VisualServer_method_instance_set_base>`\ 将该聚光灯附加到一个实例上。
 
 ----
 
@@ -4658,9 +4658,9 @@ Not implemented in Rebel Engine.
 
 - :ref:`RID<class_RID>` **texture_create** **(** **)**
 
-创建一个空纹理并将其添加到VisualServer中。可以用返回的RID来访问它。这个RID可用于所有``texture_*`` VisualServer函数中。
+创建一个空纹理并将其添加到VisualServer中。可以用返回的RID来访问它。这个RID可用于所有\ ``texture_*`` VisualServer函数中。
 
-一旦完成了对RID的处理，可使用VisualServer的:ref:`free_rid<class_VisualServer_method_free_rid>`\ 静态方法释放RID。
+一旦完成了对RID的处理，可使用VisualServer的\ :ref:`free_rid<class_VisualServer_method_free_rid>`\ 静态方法释放RID。
 
 ----
 
@@ -4740,7 +4740,7 @@ Not implemented in Rebel Engine.
 
 - :ref:`TextureType<enum_VisualServer_TextureType>` **texture_get_type** **(** :ref:`RID<class_RID>` texture **)** |const|
 
-返回纹理的类型，可以是:ref:`TextureType<enum_VisualServer_TextureType>`\ 中的任何一种。
+返回纹理的类型，可以是\ :ref:`TextureType<enum_VisualServer_TextureType>`\ 中的任何一种。
 
 ----
 
@@ -4772,7 +4772,7 @@ Not implemented in Rebel Engine.
 
 - void **texture_set_flags** **(** :ref:`RID<class_RID>` texture, :ref:`int<class_int>` flags **)**
 
-设置纹理的标志flags。选项见:ref:`TextureFlags<enum_VisualServer_TextureFlags>`。
+设置纹理的标志flags。选项见\ :ref:`TextureFlags<enum_VisualServer_TextureFlags>`。
 
 ----
 
@@ -4788,7 +4788,7 @@ Not implemented in Rebel Engine.
 
 - void **texture_set_shrink_all_x2_on_set_data** **(** :ref:`bool<class_bool>` shrink **)**
 
-如果为``true``，设置内部进程，将所有图像数据缩小到一半大小。
+如果为\ ``true``，设置内部进程，将所有图像数据缩小到一半大小。
 
 ----
 
@@ -4804,7 +4804,7 @@ Not implemented in Rebel Engine.
 
 - void **textures_keep_original** **(** :ref:`bool<class_bool>` enable **)**
 
-如果为``true``，如果被覆盖，图像将存储在纹理的图像数组中。
+如果为\ ``true``，如果被覆盖，图像将存储在纹理的图像数组中。
 
 ----
 
@@ -4828,7 +4828,7 @@ Not implemented in Rebel Engine.
 
 - void **viewport_attach_to_screen** **(** :ref:`RID<class_RID>` viewport, :ref:`Rect2<class_Rect2>` rect=Rect2( 0, 0, 0, 0 ), :ref:`int<class_int>` screen=0 **)**
 
-将视窗复制到屏幕上由``rect``\ 指定的区域。如果:ref:`Viewport.render_direct_to_screen<class_Viewport_property_render_direct_to_screen>`\ 是``true``，那么视窗就不会使用帧缓冲器，视窗的内容会直接渲染到屏幕上。然而，请注意，根视窗是最后绘制的，因此它将在屏幕上绘制。因此，你必须将根视窗设置为一个不覆盖你所附加的这个视窗的区域。
+将视窗复制到屏幕上由\ ``rect``\ 指定的区域。如果\ :ref:`Viewport.render_direct_to_screen<class_Viewport_property_render_direct_to_screen>`\ 是\ ``true``，那么视窗就不会使用帧缓冲器，视窗的内容会直接渲染到屏幕上。然而，请注意，根视窗是最后绘制的，因此它将在屏幕上绘制。因此，你必须将根视窗设置为一个不覆盖你所附加的这个视窗的区域。
 
 例如，你可以用以下代码将根视窗设置为完全不渲染。
 
@@ -4846,9 +4846,9 @@ Not implemented in Rebel Engine.
 
 - :ref:`RID<class_RID>` **viewport_create** **(** **)**
 
-创建一个空视窗并将其添加到VisualServer中。可以用返回的RID来访问它。这个RID将用于所有``viewport_*`` 的VisualServer函数。
+创建一个空视窗并将其添加到VisualServer中。可以用返回的RID来访问它。这个RID将用于所有\ ``viewport_*`` 的VisualServer函数。
 
-一旦你用完了RID，你要使用VisualServer的:ref:`free_rid<class_VisualServer_method_free_rid>`\ 静态方法释放RID。
+一旦你用完了RID，你要使用VisualServer的\ :ref:`free_rid<class_VisualServer_method_free_rid>`\ 静态方法释放RID。
 
 ----
 
@@ -4898,7 +4898,7 @@ Not implemented in Rebel Engine.
 
 设置视窗画布的堆叠顺序。
 
-``layer``\ 是实际的画布层，而``sublayer``\ 则指定画布在同一层中的堆叠顺序。
+``layer``\ 是实际的画布层，而\ ``sublayer``\ 则指定画布在同一层中的堆叠顺序。
 
 ----
 
@@ -4914,7 +4914,7 @@ Not implemented in Rebel Engine.
 
 - void **viewport_set_clear_mode** **(** :ref:`RID<class_RID>` viewport, :ref:`ViewportClearMode<enum_VisualServer_ViewportClearMode>` clear_mode **)**
 
-设置视窗的清除模式。详见:ref:`ViewportClearMode<enum_VisualServer_ViewportClearMode>`。
+设置视窗的清除模式。详见\ :ref:`ViewportClearMode<enum_VisualServer_ViewportClearMode>`。
 
 ----
 
@@ -4922,7 +4922,7 @@ Not implemented in Rebel Engine.
 
 - void **viewport_set_debug_draw** **(** :ref:`RID<class_RID>` viewport, :ref:`ViewportDebugDraw<enum_VisualServer_ViewportDebugDraw>` draw **)**
 
-设置视窗的调试绘图模式。详见:ref:`ViewportDebugDraw<enum_VisualServer_ViewportDebugDraw>`。
+设置视窗的调试绘图模式。详见\ :ref:`ViewportDebugDraw<enum_VisualServer_ViewportDebugDraw>`。
 
 ----
 
@@ -4978,7 +4978,7 @@ Currently unimplemented in Rebel Engine.
 
 - void **viewport_set_msaa** **(** :ref:`RID<class_RID>` viewport, :ref:`ViewportMSAA<enum_VisualServer_ViewportMSAA>` msaa **)**
 
-设置抗锯齿模式。详见:ref:`ViewportMSAA<enum_VisualServer_ViewportMSAA>`。
+设置抗锯齿模式。详见\ :ref:`ViewportMSAA<enum_VisualServer_ViewportMSAA>`。
 
 ----
 
@@ -4994,7 +4994,7 @@ Currently unimplemented in Rebel Engine.
 
 - void **viewport_set_render_direct_to_screen** **(** :ref:`RID<class_RID>` viewport, :ref:`bool<class_bool>` enabled **)**
 
-如果``true``，直接将视窗的内容渲染到屏幕上。这允许一个低级别的优化，你可以跳过绘制视窗到根视窗。虽然这种优化可以显著提高速度（特别是在旧设备上），但它是以牺牲可用性为代价的。当启用这个功能时，你不能从视窗或``SCREEN_TEXTURE``\ 中读取。你也会失去某些窗口设置的好处，比如各种拉伸模式。另一个需要注意的后果是，在2D中，渲染是以窗口坐标进行的，所以如果你有一个两倍于窗口大小的视窗，并且你设置了这个，那么只有适合窗口的部分才会被绘制，没有自动缩放的可能，即使你的游戏场景明显大于窗口大小。
+如果\ ``true``，直接将视窗的内容渲染到屏幕上。这允许一个低级别的优化，你可以跳过绘制视窗到根视窗。虽然这种优化可以显著提高速度（特别是在旧设备上），但它是以牺牲可用性为代价的。当启用这个功能时，你不能从视窗或\ ``SCREEN_TEXTURE``\ 中读取。你也会失去某些窗口设置的好处，比如各种拉伸模式。另一个需要注意的后果是，在2D中，渲染是以窗口坐标进行的，所以如果你有一个两倍于窗口大小的视窗，并且你设置了这个，那么只有适合窗口的部分才会被绘制，没有自动缩放的可能，即使你的游戏场景明显大于窗口大小。
 
 ----
 
@@ -5004,7 +5004,7 @@ Currently unimplemented in Rebel Engine.
 
 设置一个视窗的场景。
 
-场景包含:ref:`ScenarioDebugMode<enum_VisualServer_ScenarioDebugMode>`\ 的信息、环境信息、反射图集等。
+场景包含\ :ref:`ScenarioDebugMode<enum_VisualServer_ScenarioDebugMode>`\ 的信息、环境信息、反射图集等。
 
 ----
 
@@ -5028,7 +5028,7 @@ Currently unimplemented in Rebel Engine.
 
 - void **viewport_set_sharpen_intensity** **(** :ref:`RID<class_RID>` viewport, :ref:`float<class_float>` intensity **)**
 
-为视窗``viewport``\ 设定锐化强度``intensity``。如果设置为大于``0.0``\ 的值，对比度适应性锐化将被应用到3D视窗中。这具有较低的性能成本，可以用来恢复使用FXAA时损失的一些锐度。一般来说，``0.5``\ 左右的值可以得到最好的效果。参阅:ref:`viewport_set_use_fxaa<class_VisualServer_method_viewport_set_use_fxaa>`。
+为视窗\ ``viewport``\ 设定锐化强度\ ``intensity``。如果设置为大于\ ``0.0``\ 的值，对比度适应性锐化将被应用到3D视窗中。这具有较低的性能成本，可以用来恢复使用FXAA时损失的一些锐度。一般来说，``0.5``\ 左右的值可以得到最好的效果。参阅\ :ref:`viewport_set_use_fxaa<class_VisualServer_method_viewport_set_use_fxaa>`。
 
 ----
 
@@ -5060,7 +5060,7 @@ Currently unimplemented in Rebel Engine.
 
 - void **viewport_set_usage** **(** :ref:`RID<class_RID>` viewport, :ref:`ViewportUsage<enum_VisualServer_ViewportUsage>` usage **)**
 
-设置视窗的2D/3D模式。选项见:ref:`ViewportUsage<enum_VisualServer_ViewportUsage>`\ 视窗使用常数。
+设置视窗的2D/3D模式。选项见\ :ref:`ViewportUsage<enum_VisualServer_ViewportUsage>`\ 视窗使用常数。
 
 ----
 
@@ -5078,7 +5078,7 @@ Currently unimplemented in Rebel Engine.
 
 如果为 ``true``，则使用一个快速的后处理滤波器，使带状现象明显减少。在某些情况下，去带可能会引入一个稍微明显的抖动模式。建议只有在实际需要时才启用去带，因为抖动模式会使无损压缩的屏幕截图变大。
 
-**注意：**仅在 GLES3 后端可用。:ref:`Viewport.hdr<class_Viewport_property_hdr>` 也必须是 ``true`` 才能使 debanding 生效。
+**注意：**\ 仅在 GLES3 后端可用。:ref:`Viewport.hdr<class_Viewport_property_hdr>` 也必须是 ``true`` 才能使 debanding 生效。
 
 ----
 
@@ -5086,7 +5086,7 @@ Currently unimplemented in Rebel Engine.
 
 - void **viewport_set_use_fxaa** **(** :ref:`RID<class_RID>` viewport, :ref:`bool<class_bool>` fxaa **)**
 
-启用该视窗的快速近似抗锯齿。FXAA是一种流行的屏幕空间抗锯齿方法，它速度快，但会使图像看起来很模糊，特别是在低分辨率下。在大的分辨率下，如1440p和4K，它仍然可以工作得比较好。一些损失的锐度可以通过启用对比度适应性锐化来恢复（见:ref:`viewport_set_sharpen_intensity<class_VisualServer_method_viewport_set_sharpen_intensity>`）。
+启用该视窗的快速近似抗锯齿。FXAA是一种流行的屏幕空间抗锯齿方法，它速度快，但会使图像看起来很模糊，特别是在低分辨率下。在大的分辨率下，如1440p和4K，它仍然可以工作得比较好。一些损失的锐度可以通过启用对比度适应性锐化来恢复（见\ :ref:`viewport_set_sharpen_intensity<class_VisualServer_method_viewport_set_sharpen_intensity>`）。
 
 ----
 

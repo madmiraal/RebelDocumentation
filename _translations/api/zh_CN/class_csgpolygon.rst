@@ -95,7 +95,7 @@ enum **PathRotation**:
 
 - **PATH_ROTATION_POLYGON** = **0** --- :ref:`polygon<class_CSGPolygon_property_polygon>` 多边形的形状不会被旋转。
 
-**注意：**要求路径的Z坐标不断减少，以确保可行的形状。
+**注意：**\ 要求路径的Z坐标不断减少，以确保可行的形状。
 
 - **PATH_ROTATION_PATH** = **1** --- :ref:`polygon<class_CSGPolygon_property_polygon>` 多边形的形状沿路径旋转，但不绕路径轴旋转。
 
@@ -113,7 +113,7 @@ enum **PathRotation**:
 
 enum **PathIntervalType**:
 
-- **PATH_INTERVAL_DISTANCE** = **0** --- 当 :ref:`mode<class_CSGPolygon_property_mode>` 被设置为路径:ref:`MODE_PATH<class_CSGPolygon_constant_MODE_PATH>` 时，:ref:`path_interval<class_CSGPolygon_property_path_interval>` 将决定路径的每个间隔将被挤出的距离，单位为米。
+- **PATH_INTERVAL_DISTANCE** = **0** --- 当 :ref:`mode<class_CSGPolygon_property_mode>` 被设置为路径\ :ref:`MODE_PATH<class_CSGPolygon_constant_MODE_PATH>` 时，:ref:`path_interval<class_CSGPolygon_property_path_interval>` 将决定路径的每个间隔将被挤出的距离，单位为米。
 
 - **PATH_INTERVAL_SUBDIVIDE** = **1** --- 当 :ref:`mode<class_CSGPolygon_property_mode>` 被设置为路径 :ref:`MODE_PATH<class_CSGPolygon_constant_MODE_PATH>`\ 时，:ref:`path_interval<class_CSGPolygon_property_path_interval>` 将沿着路径细分多边形。
 
@@ -132,7 +132,7 @@ Property Descriptions
 | *Getter*  | get_depth()      |
 +-----------+------------------+
 
-当:ref:`mode<class_CSGPolygon_property_mode>`\ 为:ref:`MODE_DEPTH<class_CSGPolygon_constant_MODE_DEPTH>`\ 时，挤出的深度。
+当\ :ref:`mode<class_CSGPolygon_property_mode>`\ 为\ :ref:`MODE_DEPTH<class_CSGPolygon_constant_MODE_DEPTH>`\ 时，挤出的深度。
 
 ----
 
@@ -176,7 +176,7 @@ Property Descriptions
 | *Getter* | is_path_continuous_u()       |
 +----------+------------------------------+
 
-当 :ref:`mode<class_CSGPolygon_property_mode>` 为:ref:`MODE_PATH<class_CSGPolygon_constant_MODE_PATH>`\ 时，默认情况下， :ref:`material<class_CSGPolygon_property_material>`\ 的上半部分会沿着挤出形状的整个长度被拉伸。如果``false``，挤出的每一步都会重复材质的上半部分。
+当 :ref:`mode<class_CSGPolygon_property_mode>` 为\ :ref:`MODE_PATH<class_CSGPolygon_constant_MODE_PATH>`\ 时，默认情况下， :ref:`material<class_CSGPolygon_property_material>`\ 的上半部分会沿着挤出形状的整个长度被拉伸。如果\ ``false``，挤出的每一步都会重复材质的上半部分。
 
 ----
 
@@ -190,7 +190,7 @@ Property Descriptions
 | *Getter* | get_path_interval()      |
 +----------+--------------------------+
 
-当:ref:`mode<class_CSGPolygon_property_mode>` 为:ref:`MODE_PATH<class_CSGPolygon_constant_MODE_PATH>`\ 时，路径间隔或路径点比例挤出。
+当\ :ref:`mode<class_CSGPolygon_property_mode>` 为\ :ref:`MODE_PATH<class_CSGPolygon_constant_MODE_PATH>`\ 时，路径间隔或路径点比例挤出。
 
 ----
 
@@ -232,7 +232,7 @@ Property Descriptions
 | *Getter* | is_path_local()       |
 +----------+-----------------------+
 
-当:ref:`mode<class_CSGPolygon_property_mode>`\ 为:ref:`MODE_PATH<class_CSGPolygon_constant_MODE_PATH>`\ 时，如果``true``，则使用``CSGPolygon``\ 的:ref:`Transform<class_Transform>`\ 作为挤出的起点，而不是:ref:`path_node<class_CSGPolygon_property_path_node>`\ 的:ref:`Transform<class_Transform>`。
+当\ :ref:`mode<class_CSGPolygon_property_mode>`\ 为\ :ref:`MODE_PATH<class_CSGPolygon_constant_MODE_PATH>`\ 时，如果\ ``true``，则使用\ ``CSGPolygon``\ 的\ :ref:`Transform<class_Transform>`\ 作为挤出的起点，而不是\ :ref:`path_node<class_CSGPolygon_property_path_node>`\ 的\ :ref:`Transform<class_Transform>`。
 
 ----
 
@@ -246,7 +246,7 @@ Property Descriptions
 | *Getter* | get_path_node()      |
 +----------+----------------------+
 
-:ref:`mode<class_CSGPolygon_property_mode>` 为:ref:`MODE_PATH<class_CSGPolygon_constant_MODE_PATH>`\ 时，用于挤出 :ref:`polygon<class_CSGPolygon_property_polygon>` 的 :ref:`Path<class_Path>` 对象的坐标。
+:ref:`mode<class_CSGPolygon_property_mode>` 为\ :ref:`MODE_PATH<class_CSGPolygon_constant_MODE_PATH>`\ 时，用于挤出 :ref:`polygon<class_CSGPolygon_property_polygon>` 的 :ref:`Path<class_Path>` 对象的坐标。
 
 ----
 
@@ -260,7 +260,7 @@ Property Descriptions
 | *Getter* | get_path_rotation()      |
 +----------+--------------------------+
 
-当 :ref:`mode<class_CSGPolygon_property_mode>` 为 :ref:`MODE_PATH<class_CSGPolygon_constant_MODE_PATH>` 时，:ref:`PathRotation<enum_CSGPolygon_PathRotation>` 方法用于在挤出时旋转:ref:`polygon<class_CSGPolygon_property_polygon>`。
+当 :ref:`mode<class_CSGPolygon_property_mode>` 为 :ref:`MODE_PATH<class_CSGPolygon_constant_MODE_PATH>` 时，:ref:`PathRotation<enum_CSGPolygon_PathRotation>` 方法用于在挤出时旋转\ :ref:`polygon<class_CSGPolygon_property_polygon>`。
 
 ----
 
@@ -288,7 +288,7 @@ Property Descriptions
 | *Getter* | get_path_u_distance()      |
 +----------+----------------------------+
 
-当:ref:`mode<class_CSGPolygon_property_mode>` 为:ref:`MODE_PATH<class_CSGPolygon_constant_MODE_PATH>` 时，这是纹理坐标沿着路径的距离，以米为单位，将进行平铺。当设置为0时，纹理坐标将与几何图形完全匹配，没有平铺。
+当\ :ref:`mode<class_CSGPolygon_property_mode>` 为\ :ref:`MODE_PATH<class_CSGPolygon_constant_MODE_PATH>` 时，这是纹理坐标沿着路径的距离，以米为单位，将进行平铺。当设置为0时，纹理坐标将与几何图形完全匹配，没有平铺。
 
 ----
 
@@ -322,7 +322,7 @@ The point array that defines the 2D polygon that is extruded. This can be a conv
 | *Getter*  | get_smooth_faces()      |
 +-----------+-------------------------+
 
-如果``true``，则对挤出应用平滑着色。
+如果\ ``true``，则对挤出应用平滑着色。
 
 ----
 
@@ -336,7 +336,7 @@ The point array that defines the 2D polygon that is extruded. This can be a conv
 | *Getter* | get_spin_degrees()      |
 +----------+-------------------------+
 
-当:ref:`mode<class_CSGPolygon_property_mode>`\ 为:ref:`MODE_SPIN<class_CSGPolygon_constant_MODE_SPIN>`，:ref:`polygon<class_CSGPolygon_property_polygon>`\ 在挤出时旋转的总度数。
+当\ :ref:`mode<class_CSGPolygon_property_mode>`\ 为\ :ref:`MODE_SPIN<class_CSGPolygon_constant_MODE_SPIN>`，:ref:`polygon<class_CSGPolygon_property_polygon>`\ 在挤出时旋转的总度数。
 
 ----
 

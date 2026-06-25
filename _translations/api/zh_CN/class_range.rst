@@ -18,7 +18,7 @@ Range
 Description
 -----------
 
-Range是一个用于:ref:`Control<class_Control>`\ 节点的基类，它在*最小值*和*最大值*之间改变一个浮点*值*，用于*步进*和*页面*，例如:ref:`ScrollBar<class_ScrollBar>`。
+Range是一个用于\ :ref:`Control<class_Control>`\ 节点的基类，它在\ *最小值*\ 和\ *最大值*\ 之间改变一个浮点\ *值*，用于\ *步进*\ 和\ *页面*，例如\ :ref:`ScrollBar<class_ScrollBar>`。
 
 Properties
 ----------
@@ -88,7 +88,7 @@ Property Descriptions
 | *Getter*  | is_greater_allowed()     |
 +-----------+--------------------------+
 
-如果``true``，:ref:`value<class_Range_property_value>`\ 可能大于:ref:`max_value<class_Range_property_max_value>`。
+如果\ ``true``，:ref:`value<class_Range_property_value>`\ 可能大于\ :ref:`max_value<class_Range_property_max_value>`。
 
 ----
 
@@ -104,7 +104,7 @@ Property Descriptions
 | *Getter*  | is_lesser_allowed()     |
 +-----------+-------------------------+
 
-如果``true``，:ref:`value<class_Range_property_value>`\ 可能小于:ref:`min_value<class_Range_property_min_value>`。
+如果\ ``true``，:ref:`value<class_Range_property_value>`\ 可能小于\ :ref:`min_value<class_Range_property_min_value>`。
 
 ----
 
@@ -120,7 +120,7 @@ Property Descriptions
 | *Getter*  | is_ratio_exp()       |
 +-----------+----------------------+
 
-如果``true``，并且``min_value``\ 大于0，``value``\ 将以指数方式而不是线性方式表示。
+如果\ ``true``，并且\ ``min_value``\ 大于0，``value``\ 将以指数方式而不是线性方式表示。
 
 ----
 
@@ -136,7 +136,7 @@ Property Descriptions
 | *Getter*  | get_max()      |
 +-----------+----------------+
 
-最大值。如果``value``\ 大于``max_value``，则会被范围限制。
+最大值。如果\ ``value``\ 大于\ ``max_value``，则会被范围限制。
 
 ----
 
@@ -152,7 +152,7 @@ Property Descriptions
 | *Getter*  | get_min()      |
 +-----------+----------------+
 
-最小值。如果``value``\ 小于``min_value``，则会被范围限制。
+最小值。如果\ ``value``\ 小于\ ``min_value``，则会被范围限制。
 
 ----
 
@@ -168,7 +168,7 @@ Property Descriptions
 | *Getter*  | get_page()      |
 +-----------+-----------------+
 
-页面大小。主要用于:ref:`ScrollBar<class_ScrollBar>`。ScrollBar的长度是它的尺寸乘以``page``\ 超过``min_value``\ 和``max_value``\ 之间的差值。
+页面大小。主要用于\ :ref:`ScrollBar<class_ScrollBar>`。ScrollBar的长度是它的尺寸乘以\ ``page``\ 超过\ ``min_value``\ 和\ ``max_value``\ 之间的差值。
 
 ----
 
@@ -214,7 +214,7 @@ Property Descriptions
 | *Getter*  | get_step()      |
 +-----------+-----------------+
 
-如果大于0，``value``\ 将总是被四舍五入为``step``\ 的倍数。如果``rounded``\ 也是``true``，``value``\ 将首先被四舍五入为``step``\ 的倍数，然后舍入为最近的整数。
+如果大于0，``value``\ 将总是被四舍五入为\ ``step``\ 的倍数。如果\ ``rounded``\ 也是\ ``true``，``value``\ 将首先被四舍五入为\ ``step``\ 的倍数，然后舍入为最近的整数。
 
 ----
 

@@ -47,7 +47,7 @@ Property Descriptions
 | *Getter* | get_material()      |
 +----------+---------------------+
 
-用于绘制CSG形状的:ref:`Material<class_Material>`。
+用于绘制CSG形状的\ :ref:`Material<class_Material>`。
 
 ----
 
@@ -61,9 +61,9 @@ Property Descriptions
 | *Getter* | get_mesh()      |
 +----------+-----------------+
 
-用来作为CSG形状的:ref:`Mesh<class_Mesh>`\ 资源。
+用来作为CSG形状的\ :ref:`Mesh<class_Mesh>`\ 资源。
 
-**注意：** 当使用:ref:`ArrayMesh<class_ArrayMesh>`\ 时，除非需要一个平面着色器，否则要避免使用顶点法线的网格。默认情况下，CSGMesh会忽略网格的顶点法线，并使用面的法线计算平整的着色器。如果需要使用平面着色器，请确保所有面的顶点法线是平行的。
+**注意：** 当使用\ :ref:`ArrayMesh<class_ArrayMesh>`\ 时，除非需要一个平面着色器，否则要避免使用顶点法线的网格。默认情况下，CSGMesh会忽略网格的顶点法线，并使用面的法线计算平整的着色器。如果需要使用平面着色器，请确保所有面的顶点法线是平行的。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

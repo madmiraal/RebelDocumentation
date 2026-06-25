@@ -18,7 +18,7 @@ Description
 
 这种按钮主要用于与按钮的交互引起上下文变化时，如链接到网页。
 
-参阅:ref:`BaseButton<class_BaseButton>`，它包含了该节点相关的常用属性和方法。
+参阅\ :ref:`BaseButton<class_BaseButton>`，它包含了该节点相关的常用属性和方法。
 
 Properties
 ----------
@@ -102,7 +102,7 @@ Property Descriptions
 | *Getter*  | get_underline_mode()      |
 +-----------+---------------------------+
 
-决定何时显示下划线。参阅:ref:`UnderlineMode<enum_LinkButton_UnderlineMode>`\ 的选项。
+决定何时显示下划线。参阅\ :ref:`UnderlineMode<enum_LinkButton_UnderlineMode>`\ 的选项。
 
 Theme Property Descriptions
 ---------------------------
@@ -115,7 +115,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 0.88, 0.88, 0.88, 1 )`` |
 +-----------+----------------------------------+
 
-``LinkButton``\ 默认的字体颜色:ref:`Color<class_Color>`。
+``LinkButton``\ 默认的字体颜色\ :ref:`Color<class_Color>`。
 
 ----
 
@@ -127,7 +127,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 0.94, 0.94, 0.94, 1 )`` |
 +-----------+----------------------------------+
 
-当``LinkButton``\ 获得焦点时使用的文本:ref:`Color<class_Color>`。只替换按钮的正常文本颜色。禁用、悬停和按下状态优先于这个颜色。
+当\ ``LinkButton``\ 获得焦点时使用的文本\ :ref:`Color<class_Color>`。只替换按钮的正常文本颜色。禁用、悬停和按下状态优先于这个颜色。
 
 ----
 
@@ -139,7 +139,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 0.94, 0.94, 0.94, 1 )`` |
 +-----------+----------------------------------+
 
-当``LinkButton``\ 被悬停时使用的文本颜色:ref:`Color<class_Color>`。
+当\ ``LinkButton``\ 被悬停时使用的文本颜色\ :ref:`Color<class_Color>`。
 
 ----
 
@@ -151,7 +151,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 1, 1, 1, 1 )`` |
 +-----------+-------------------------+
 
-当``LinkButton``\ 被按下时使用的文本颜色:ref:`Color<class_Color>`。
+当\ ``LinkButton``\ 被按下时使用的文本颜色\ :ref:`Color<class_Color>`。
 
 ----
 
@@ -171,7 +171,7 @@ Theme Property Descriptions
 
 - :ref:`Font<class_Font>` **font**
 
-``LinkButton``\ 文本的字体:ref:`Font<class_Font>`。
+``LinkButton``\ 文本的字体\ :ref:`Font<class_Font>`。
 
 ----
 
@@ -179,7 +179,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **focus**
 
-当 ``LinkButton`` 被聚焦时使用的样式盒 :ref:`StyleBox<class_StyleBox>`。它显示在当前的:ref:`StyleBox<class_StyleBox>`\ 上，所以使用:ref:`StyleBoxEmpty<class_StyleBoxEmpty>`\ 将只是禁用焦点的视觉效果。
+当 ``LinkButton`` 被聚焦时使用的样式盒 :ref:`StyleBox<class_StyleBox>`。它显示在当前的\ :ref:`StyleBox<class_StyleBox>`\ 上，所以使用\ :ref:`StyleBoxEmpty<class_StyleBoxEmpty>`\ 将只是禁用焦点的视觉效果。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

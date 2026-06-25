@@ -11,7 +11,7 @@ AnimationNodeAdd3
 
 **Inherits:** :ref:`AnimationNode<class_AnimationNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
 
-在:ref:`AnimationNodeBlendTree<class_AnimationNodeBlendTree>`\ 内部将三个动画中的两个动画相加。
+在\ :ref:`AnimationNodeBlendTree<class_AnimationNodeBlendTree>`\ 内部将三个动画中的两个动画相加。
 
 Description
 -----------
@@ -22,9 +22,9 @@ Description
 
 - 要添加到基础动画中的动画
 
-- 当混合量在``[-1.0，0.0]``\ 范围内时，添加动画进行混合。
+- 当混合量在\ ``[-1.0，0.0]``\ 范围内时，添加动画进行混合。
 
-- 当混合量在``[0.0，1.0]``\ 范围内时，添加动画进行混合
+- 当混合量在\ ``[0.0，1.0]``\ 范围内时，添加动画进行混合
 
 Tutorials
 ---------
@@ -53,7 +53,7 @@ Property Descriptions
 | *Getter*  | is_using_sync()     |
 +-----------+---------------------+
 
-如果``true``，在调用:ref:`AnimationNode.blend_input<class_AnimationNode_method_blend_input>`\ 时，将``optimization`` to``false``，强制混合后的动画每一帧更新。
+如果\ ``true``，在调用\ :ref:`AnimationNode.blend_input<class_AnimationNode_method_blend_input>`\ 时，将\ ``optimization`` to\ ``false``，强制混合后的动画每一帧更新。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

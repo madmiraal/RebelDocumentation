@@ -11,7 +11,7 @@ VisualShaderNodeTransformVecMult
 
 **Inherits:** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
 
-在可视化着色器图中，将一个:ref:`Transform<class_Transform>`\ 和一个:ref:`Vector3<class_Vector3>`\ 相乘。
+在可视化着色器图中，将一个\ :ref:`Transform<class_Transform>`\ 和一个\ :ref:`Vector3<class_Vector3>`\ 相乘。
 
 Description
 -----------
@@ -40,13 +40,13 @@ Enumerations
 
 enum **Operator**:
 
-- **OP_AxB** = **0** --- 将变换``a``\ 乘以向量``b``。
+- **OP_AxB** = **0** --- 将变换\ ``a``\ 乘以向量\ ``b``。
 
-- **OP_BxA** = **1** --- 向量``b``\ 与变换``a``\ 相乘。
+- **OP_BxA** = **1** --- 向量\ ``b``\ 与变换\ ``a``\ 相乘。
 
-- **OP_3x3_AxB** = **2** --- 将变换``a``\ 乘以向量``b``，跳过变换的最后一行和一列。
+- **OP_3x3_AxB** = **2** --- 将变换\ ``a``\ 乘以向量\ ``b``，跳过变换的最后一行和一列。
 
-- **OP_3x3_BxA** = **3** --- 向量``b``\ 与变换``a``\ 相乘，跳过变换的最后一行和一列。
+- **OP_3x3_BxA** = **3** --- 向量\ ``b``\ 与变换\ ``a``\ 相乘，跳过变换的最后一行和一列。
 
 Property Descriptions
 ---------------------
@@ -63,7 +63,7 @@ Property Descriptions
 | *Getter*  | get_operator()      |
 +-----------+---------------------+
 
-要执行的乘法类型。参阅:ref:`Operator<enum_VisualShaderNodeTransformVecMult_Operator>`\ 的选项。
+要执行的乘法类型。参阅\ :ref:`Operator<enum_VisualShaderNodeTransformVecMult_Operator>`\ 的选项。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

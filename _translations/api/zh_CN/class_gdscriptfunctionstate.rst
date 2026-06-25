@@ -43,7 +43,7 @@ Method Descriptions
 
 检查函数调用是否可以被恢复。如果函数状态已经被恢复，则不存在这种情况。
 
-如果``extended_check``\ 被启用，它还会检查相关的脚本和对象是否仍然存在。扩展检查是在调试模式下作为:ref:`resume<class_GDScriptFunctionState_method_resume>`\ 的一部分进行的，但是如果你知道你可能在不确定对象和/或脚本已经存活到那个点的情况下尝试恢复，你可以使用这个。
+如果\ ``extended_check``\ 被启用，它还会检查相关的脚本和对象是否仍然存在。扩展检查是在调试模式下作为\ :ref:`resume<class_GDScriptFunctionState_method_resume>`\ 的一部分进行的，但是如果你知道你可能在不确定对象和/或脚本已经存活到那个点的情况下尝试恢复，你可以使用这个。
 
 ----
 

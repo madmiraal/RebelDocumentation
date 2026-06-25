@@ -20,7 +20,7 @@ RayCast 表示一条从原点到目标位置 ``cast_to`` 的直线。它被用�
 
 RayCast2D 可以忽略一些物体，通过 ``add_exception`` 将它们添加到异常列表中，通过设置碰撞层进行适当的过滤，或者通过类型掩码过滤物体类型。
 
-RayCast2D 可以被配置为报告 :ref:`Area2D<class_Area2D>`（:ref:`collide_with_areas<class_RayCast2D_property_collide_with_areas>`）和 :ref:`PhysicsBody2D<class_PhysicsBody2D>`（:ref:`collide_with_bodies<class_RayCast2D_property_collide_with_bodies>`）之间或彼此间的碰撞。
+RayCast2D 可以被配置为报告 :ref:`Area2D<class_Area2D>`\ （:ref:`collide_with_areas<class_RayCast2D_property_collide_with_areas>`）和 :ref:`PhysicsBody2D<class_PhysicsBody2D>`\ （:ref:`collide_with_bodies<class_RayCast2D_property_collide_with_bodies>`）之间或彼此间的碰撞。
 
 只有被激活的 Raycast 才能够查询空间并报告碰撞情况。
 
@@ -110,7 +110,7 @@ Property Descriptions
 | *Getter*  | is_collide_with_areas_enabled() |
 +-----------+---------------------------------+
 
-如果``true``，将报告与:ref:`Area2D<class_Area2D>`\ 的碰撞。
+如果\ ``true``，将报告与\ :ref:`Area2D<class_Area2D>`\ 的碰撞。
 
 ----
 
@@ -126,7 +126,7 @@ Property Descriptions
 | *Getter*  | is_collide_with_bodies_enabled() |
 +-----------+----------------------------------+
 
-如果``true``，会报告与:ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 的碰撞。
+如果\ ``true``，会报告与\ :ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 的碰撞。
 
 ----
 
@@ -174,7 +174,7 @@ The ray's collision mask. Only objects in at least one collision layer enabled i
 | *Getter*  | get_exclude_parent_body()      |
 +-----------+--------------------------------+
 
-如果``true``，父节点将被排除在碰撞检测之外。
+如果\ ``true``，父节点将被排除在碰撞检测之外。
 
 Method Descriptions
 -------------------
@@ -217,7 +217,7 @@ Method Descriptions
 
 - :ref:`Object<class_Object>` **get_collider** **(** **)** |const|
 
-返回射线相交的第一个对象，如果没有对象与射线相交，则返回 ``null``（即 :ref:`is_colliding<class_RayCast2D_method_is_colliding>` 返回 ``false``）。
+返回射线相交的第一个对象，如果没有对象与射线相交，则返回 ``null``\ （即 :ref:`is_colliding<class_RayCast2D_method_is_colliding>` 返回 ``false``）。
 
 ----
 
@@ -225,7 +225,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_collider_shape** **(** **)** |const|
 
-返回射线相交的第一个对象的形状 ID，如果没有对象与射线相交，则返回 ``0``（即 :ref:`is_colliding<class_RayCast2D_method_is_colliding>` 返回 ``false``）。
+返回射线相交的第一个对象的形状 ID，如果没有对象与射线相交，则返回 ``0``\ （即 :ref:`is_colliding<class_RayCast2D_method_is_colliding>` 返回 ``false``）。
 
 ----
 
@@ -251,7 +251,7 @@ Method Descriptions
 
 返回射线与最近的物体相交的碰撞点。
 
-**注意：**这个点是在**全局**坐标系中。
+**注意：**\ 这个点是在\ **全局**\ 坐标系中。
 
 ----
 

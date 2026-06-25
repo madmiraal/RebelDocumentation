@@ -55,7 +55,7 @@ Enumerations
 
 enum **Storage**:
 
-- **STORAGE_RAW** = **0** --- 存储``CubeMap``\ 而不进行任何压缩。
+- **STORAGE_RAW** = **0** --- 存储\ ``CubeMap``\ 而不进行任何压缩。
 
 - **STORAGE_COMPRESS_LOSSY** = **1** --- 以降低图像质量的强压缩方式存储 ``CubeMap``。
 
@@ -169,7 +169,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_height** **(** **)** |const|
 
-返回``CubeMap``\ 的高度。
+返回\ ``CubeMap``\ 的高度。
 
 ----
 
@@ -185,7 +185,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_width** **(** **)** |const|
 
-返回``CubeMap``\ 的宽度。
+返回\ ``CubeMap``\ 的宽度。
 
 ----
 

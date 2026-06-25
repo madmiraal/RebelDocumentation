@@ -18,7 +18,7 @@ AudioStream
 Description
 -----------
 
-音频流的基类。音频流用于声音效果和音乐播放，支持 WAV（通过:ref:`AudioStreamSample<class_AudioStreamSample>`）和 OGG（通过:ref:`AudioStreamOGGVorbis<class_AudioStreamOGGVorbis>`）文件格式。
+音频流的基类。音频流用于声音效果和音乐播放，支持 WAV（通过\ :ref:`AudioStreamSample<class_AudioStreamSample>`）和 OGG（通过\ :ref:`AudioStreamOGGVorbis<class_AudioStreamOGGVorbis>`）文件格式。
 
 Tutorials
 ---------

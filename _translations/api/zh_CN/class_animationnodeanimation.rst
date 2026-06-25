@@ -11,7 +11,7 @@ AnimationNodeAnimation
 
 **Inherits:** :ref:`AnimationRootNode<class_AnimationRootNode>` **<** :ref:`AnimationNode<class_AnimationNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
 
-输入要在:ref:`AnimationNodeBlendTree<class_AnimationNodeBlendTree>`\ 中使用的动画。
+输入要在\ :ref:`AnimationNodeBlendTree<class_AnimationNodeBlendTree>`\ 中使用的动画。
 
 Description
 -----------
@@ -45,7 +45,7 @@ Property Descriptions
 | *Getter*  | get_animation()      |
 +-----------+----------------------+
 
-作为输出使用的动画。它是:ref:`AnimationTree.anim_player<class_AnimationTree_property_anim_player>`\ 提供的动画之一。
+作为输出使用的动画。它是\ :ref:`AnimationTree.anim_player<class_AnimationTree_property_anim_player>`\ 提供的动画之一。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

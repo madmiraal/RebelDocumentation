@@ -109,9 +109,9 @@ Property Descriptions
 | *Getter*  | get_amount()      |
 +-----------+-------------------+
 
-在一个发射周期内排放的粒子数（对应于:ref:`lifetime<class_Particles2D_property_lifetime>`）。
+在一个发射周期内排放的粒子数（对应于\ :ref:`lifetime<class_Particles2D_property_lifetime>`）。
 
-**注意：**改变:ref:`amount<class_Particles2D_property_amount>`\ 将重置粒子发射，因此，在改变:ref:`amount<class_Particles2D_property_amount>`\ 之前已经排放的所有粒子将被移除。
+**注意：**\ 改变\ :ref:`amount<class_Particles2D_property_amount>`\ 将重置粒子发射，因此，在改变\ :ref:`amount<class_Particles2D_property_amount>`\ 之前已经排放的所有粒子将被移除。
 
 ----
 
@@ -127,7 +127,7 @@ Property Descriptions
 | *Getter*  | get_draw_order()      |
 +-----------+-----------------------+
 
-粒子绘制顺序。使用:ref:`DrawOrder<enum_Particles2D_DrawOrder>`\ 值。
+粒子绘制顺序。使用\ :ref:`DrawOrder<enum_Particles2D_DrawOrder>`\ 值。
 
 ----
 
@@ -143,7 +143,7 @@ Property Descriptions
 | *Getter*  | is_emitting()       |
 +-----------+---------------------+
 
-如果``true``，则正在发射粒子。
+如果\ ``true``，则正在发射粒子。
 
 ----
 
@@ -159,7 +159,7 @@ Property Descriptions
 | *Getter*  | get_explosiveness_ratio()      |
 +-----------+--------------------------------+
 
-粒子在一个发射周期中的发射速度有多快。如果大于``0``，则在下一个循环开始之前会有排放量缺口。
+粒子在一个发射周期中的发射速度有多快。如果大于\ ``0``，则在下一个循环开始之前会有排放量缺口。
 
 ----
 
@@ -191,7 +191,7 @@ Property Descriptions
 | *Getter*  | get_fractional_delta()      |
 +-----------+-----------------------------+
 
-如果``true``，将导致分数增量计算，该显示具有更平滑的粒子显示效果。
+如果\ ``true``，将导致分数增量计算，该显示具有更平滑的粒子显示效果。
 
 ----
 
@@ -223,7 +223,7 @@ Property Descriptions
 | *Getter*  | get_use_local_coordinates()      |
 +-----------+----------------------------------+
 
-如果``true``，则粒子将使用父节点的坐标空间。如果``false``，则使用全局坐标。
+如果\ ``true``，则粒子将使用父节点的坐标空间。如果\ ``false``，则使用全局坐标。
 
 ----
 
@@ -317,7 +317,7 @@ Normal map to be used for the :ref:`texture<class_Particles2D_property_texture>`
 | *Getter*  | get_speed_scale()      |
 +-----------+------------------------+
 
-粒子系统的运行速度缩放比例。值``0``\ 可用于暂停粒子。
+粒子系统的运行速度缩放比例。值\ ``0``\ 可用于暂停粒子。
 
 ----
 
@@ -331,7 +331,7 @@ Normal map to be used for the :ref:`texture<class_Particles2D_property_texture>`
 | *Getter* | get_texture()      |
 +----------+--------------------+
 
-粒子纹理。如果``null``，则粒子将为正方形。
+粒子纹理。如果\ ``null``，则粒子将为正方形。
 
 ----
 

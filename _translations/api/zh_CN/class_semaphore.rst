@@ -39,7 +39,7 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **post** **(** **)**
 
-试图锁定这个:ref:`Mutex<class_Mutex>`，但并不阻塞。成功时返回:ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`，否则返回:ref:`@GlobalScope.ERR_BUSY<class_@GlobalScope_constant_ERR_BUSY>`。
+试图锁定这个\ :ref:`Mutex<class_Mutex>`，但并不阻塞。成功时返回\ :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`，否则返回\ :ref:`@GlobalScope.ERR_BUSY<class_@GlobalScope_constant_ERR_BUSY>`。
 
 ----
 
@@ -47,7 +47,7 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **wait** **(** **)**
 
-试图锁定这个:ref:`Mutex<class_Mutex>`，但并不阻塞。成功时返回:ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`，否则返回:ref:`@GlobalScope.ERR_BUSY<class_@GlobalScope_constant_ERR_BUSY>`。
+试图锁定这个\ :ref:`Mutex<class_Mutex>`，但并不阻塞。成功时返回\ :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`，否则返回\ :ref:`@GlobalScope.ERR_BUSY<class_@GlobalScope_constant_ERR_BUSY>`。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

@@ -16,7 +16,7 @@ UDP数据包客户端。
 Description
 -----------
 
-UDP数据包对等体。可以用来发送原始的UDP数据包以及:ref:`Variant<class_Variant>`。
+UDP数据包对等体。可以用来发送原始的UDP数据包以及\ :ref:`Variant<class_Variant>`。
 
 Methods
 -------
@@ -54,7 +54,7 @@ Method Descriptions
 
 - void **close** **(** **)**
 
-关闭``PacketPeerUDP``\ 当前正在侦听的UDP套接字。
+关闭\ ``PacketPeerUDP``\ 当前正在侦听的UDP套接字。
 
 ----
 
@@ -62,9 +62,9 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **connect_to_host** **(** :ref:`String<class_String>` host, :ref:`int<class_int>` port **)**
 
-调用此方法将UDP对等体连接到给定的``host``/``port``\ 对。UDP实际上是无连接的，所以这个选项只意味着来自不同地址的入包被自动丢弃，而出包总是被发送到连接的地址(不允许将来调用:ref:`set_dest_address<class_PacketPeerUDP_method_set_dest_address>`)。该方法不向远程对等体发送任何数据，要发送数据，请使用:ref:`PacketPeer.put_var<class_PacketPeer_method_put_var>`\ 或:ref:`PacketPeer.put_packet<class_PacketPeer_method_put_packet>`。参见:ref:`UDPServer<class_UDPServer>`。
+调用此方法将UDP对等体连接到给定的\ ``host``/``port``\ 对。UDP实际上是无连接的，所以这个选项只意味着来自不同地址的入包被自动丢弃，而出包总是被发送到连接的地址(不允许将来调用\ :ref:`set_dest_address<class_PacketPeerUDP_method_set_dest_address>`)。该方法不向远程对等体发送任何数据，要发送数据，请使用\ :ref:`PacketPeer.put_var<class_PacketPeer_method_put_var>`\ 或\ :ref:`PacketPeer.put_packet<class_PacketPeer_method_put_packet>`。参见\ :ref:`UDPServer<class_UDPServer>`。
 
-**注意:**连接到远程对等体并不能防止IP欺骗等恶意攻击。如果您觉得您的应用程序正在传输敏感信息，可以考虑使用SSL或DTLS等加密技术。
+**注意:**\ 连接到远程对等体并不能防止IP欺骗等恶意攻击。如果您觉得您的应用程序正在传输敏感信息，可以考虑使用SSL或DTLS等加密技术。
 
 ----
 
@@ -72,7 +72,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **get_packet_ip** **(** **)** |const|
 
-返回发送最后一个数据包（通过:ref:`PacketPeer.get_packet<class_PacketPeer_method_get_packet>`\ 或:ref:`PacketPeer.get_var<class_PacketPeer_method_get_var>`\ 接收）的远程对等体的IP。
+返回发送最后一个数据包（通过\ :ref:`PacketPeer.get_packet<class_PacketPeer_method_get_packet>`\ 或\ :ref:`PacketPeer.get_var<class_PacketPeer_method_get_var>`\ 接收）的远程对等体的IP。
 
 ----
 
@@ -80,7 +80,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_packet_port** **(** **)** |const|
 
-返回发送最后一个数据包（通过:ref:`PacketPeer.get_packet<class_PacketPeer_method_get_packet>`\ 或:ref:`PacketPeer.get_var<class_PacketPeer_method_get_var>`\ 接收）的远程对等方的端口。
+返回发送最后一个数据包（通过\ :ref:`PacketPeer.get_packet<class_PacketPeer_method_get_packet>`\ 或\ :ref:`PacketPeer.get_var<class_PacketPeer_method_get_var>`\ 接收）的远程对等方的端口。
 
 ----
 
@@ -88,7 +88,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_connected_to_host** **(** **)** |const|
 
-如果UDP套接字已打开并已连接到远程地址，则返回``true``。请参阅:ref:`connect_to_host<class_PacketPeerUDP_method_connect_to_host>`。
+如果UDP套接字已打开并已连接到远程地址，则返回\ ``true``。请参阅\ :ref:`connect_to_host<class_PacketPeerUDP_method_connect_to_host>`。
 
 ----
 
@@ -96,7 +96,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_listening** **(** **)** |const|
 
-返回这个``PacketPeerUDP``\ 是否正在监听。
+返回这个\ ``PacketPeerUDP``\ 是否正在监听。
 
 ----
 
@@ -108,7 +108,7 @@ Method Descriptions
 
 您可以使用多个接口加入同一个多播组。使用 :ref:`IP.get_local_interfaces<class_IP_method_get_local_interfaces>` 了解哪些接口可用。
 
-**注意：**一些 Android 设备可能需要 ``CHANGE_WIFI_MULTICAST_STATE`` 权限才能进行多播。
+**注意：**\ 一些 Android 设备可能需要 ``CHANGE_WIFI_MULTICAST_STATE`` 权限才能进行多播。
 
 ----
 
@@ -116,7 +116,7 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **leave_multicast_group** **(** :ref:`String<class_String>` multicast_address, :ref:`String<class_String>` interface_name **)**
 
-从``multicast_address``\ 指定的组播组中移除``interface_name``\ 标识的接口。
+从\ ``multicast_address``\ 指定的组播组中移除\ ``interface_name``\ 标识的接口。
 
 ----
 
@@ -124,13 +124,13 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **listen** **(** :ref:`int<class_int>` port, :ref:`String<class_String>` bind_address="*", :ref:`int<class_int>` recv_buf_size=65536 **)**
 
-使这个``PacketPeerUDP``\ 在与``bind_address``\ 绑定的``端口``\ 上监听，缓冲区大小为``recv_buf_size``。
+使这个\ ``PacketPeerUDP``\ 在与\ ``bind_address``\ 绑定的\ ``端口``\ 上监听，缓冲区大小为\ ``recv_buf_size``。
 
-如果``bind_address``\ 被设置为``"*"``（默认），对等体将监听所有可用地址（包括IPv4和IPv6）。
+如果\ ``bind_address``\ 被设置为\ ``"*"``\ （默认），对等体将监听所有可用地址（包括IPv4和IPv6）。
 
-如果``bind_address``\ 被设置为``"0.0.0.0"``（对于IPv4）或``":"``（对于IPv6），对等体将监听所有符合该IP类型的可用地址。
+如果\ ``bind_address``\ 被设置为\ ``"0.0.0.0"``\ （对于IPv4）或\ ``":"``\ （对于IPv6），对等体将监听所有符合该IP类型的可用地址。
 
-如果``bind_address``\ 被设置为任何有效的地址（例如``"192.168.1.101"``，``":1"``\ 等），对等体将只监听具有该地址的接口（如果不存在具有该地址的接口，则失败）。
+如果\ ``bind_address``\ 被设置为任何有效的地址（例如\ ``"192.168.1.101"``，``":1"``\ 等），对等体将只监听具有该地址的接口（如果不存在具有该地址的接口，则失败）。
 
 ----
 
@@ -140,7 +140,7 @@ Method Descriptions
 
 启用或禁用广播数据包的发送（例如：``set_dest_address("255.255.255.255", 4343)``。这个选项在默认情况下是禁用的。
 
-**注意：**一些 Android 设备可能需要 ``CHANGE_WIFI_MULTICAST_STATE`` 权限和本选项被启用来接收广播包。
+**注意：**\ 一些 Android 设备可能需要 ``CHANGE_WIFI_MULTICAST_STATE`` 权限和本选项被启用来接收广播包。
 
 ----
 
@@ -150,7 +150,7 @@ Method Descriptions
 
 设置发送数据包和变量的目标地址和端口。如果需要，将使用DNS解析一个主机名。
 
-**注意：**在向广播地址（例如：``255.255.255.255``）发送数据包之前，必须启用:ref:`set_broadcast_enabled<class_PacketPeerUDP_method_set_broadcast_enabled>`。
+**注意：**\ 在向广播地址（例如：``255.255.255.255``）发送数据包之前，必须启用\ :ref:`set_broadcast_enabled<class_PacketPeerUDP_method_set_broadcast_enabled>`。
 
 ----
 
@@ -158,9 +158,9 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **wait** **(** **)**
 
-等待数据包到达侦听端口。参见:ref:`listen<class_PacketPeerUDP_method_listen>`。
+等待数据包到达侦听端口。参见\ :ref:`listen<class_PacketPeerUDP_method_listen>`。
 
-**注意：**:ref:`wait<class_PacketPeerUDP_method_wait>`\ 一旦被调用就不能被中断。这可以通过允许另一方发送一个特定的“death pill”包来解决，如下所示：
+**注意：**\ :ref:`wait<class_PacketPeerUDP_method_wait>`\ 一旦被调用就不能被中断。这可以通过允许另一方发送一个特定的“death pill”包来解决，如下所示：
 
 ::
 

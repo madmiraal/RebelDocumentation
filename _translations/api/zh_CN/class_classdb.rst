@@ -78,7 +78,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **can_instance** **(** :ref:`String<class_String>` class **)** |const|
 
-如果可以实例化指定``class``\ 中的对象，则返回``true``，否则返回``false``。
+如果可以实例化指定\ ``class``\ 中的对象，则返回\ ``true``，否则返回\ ``false``。
 
 ----
 
@@ -86,7 +86,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **class_exists** **(** :ref:`String<class_String>` class **)** |const|
 
-返回指定的``class``\ 是否可用。
+返回指定的\ ``class``\ 是否可用。
 
 ----
 
@@ -118,7 +118,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **class_get_integer_constant** **(** :ref:`String<class_String>` class, :ref:`String<class_String>` name **)** |const|
 
-返回``class``\ 的整数常量``name``\ 或其父级的值。找不到常量时，始终返回0。
+返回\ ``class``\ 的整数常量\ ``name``\ 或其父级的值。找不到常量时，始终返回0。
 
 ----
 
@@ -142,9 +142,9 @@ Method Descriptions
 
 - :ref:`Array<class_Array>` **class_get_method_list** **(** :ref:`String<class_String>` class, :ref:`bool<class_bool>` no_inheritance=false **)** |const|
 
-如果``no_inheritance``\ 是``false``，返回一个包含``class``\ 或其父级所有方法的数组。数组的每个元素都是一个:ref:`Dictionary<class_Dictionary>`，其键值如:``args``, ``default_args``, ``flags``, ``id``, ``name``, ``return:(class_name, hint, hint_string, name, type, usage)``。
+如果\ ``no_inheritance``\ 是\ ``false``，返回一个包含\ ``class``\ 或其父级所有方法的数组。数组的每个元素都是一个\ :ref:`Dictionary<class_Dictionary>`，其键值如:``args``, ``default_args``, ``flags``, ``id``, ``name``, ``return:(class_name, hint, hint_string, name, type, usage)``。
 
-**注意：**在导出的发布版本中，调试信息不可用，所以返回的字典将只包含方法名称。
+**注意：**\ 在导出的发布版本中，调试信息不可用，所以返回的字典将只包含方法名称。
 
 ----
 
@@ -152,7 +152,7 @@ Method Descriptions
 
 - :ref:`Variant<class_Variant>` **class_get_property** **(** :ref:`Object<class_Object>` object, :ref:`String<class_String>` property **)** |const|
 
-返回``class``\ 的``property``\ 的值或其父级。
+返回\ ``class``\ 的\ ``property``\ 的值或其父级。
 
 ----
 
@@ -160,7 +160,7 @@ Method Descriptions
 
 - :ref:`Array<class_Array>` **class_get_property_list** **(** :ref:`String<class_String>` class, :ref:`bool<class_bool>` no_inheritance=false **)** |const|
 
-如果``no_inheritance``\ 为``false``，则返回具有``class``\ 或其父级所有属性的数组。
+如果\ ``no_inheritance``\ 为\ ``false``，则返回具有\ ``class``\ 或其父级所有属性的数组。
 
 ----
 
@@ -168,7 +168,7 @@ Method Descriptions
 
 - :ref:`Dictionary<class_Dictionary>` **class_get_signal** **(** :ref:`String<class_String>` class, :ref:`String<class_String>` signal **)** |const|
 
-返回 ``class`` 或其父级的``信号``\ 数据。返回 :ref:`Dictionary<class_Dictionary>` 并带有以下键： ``args``, ``default_args``, ``flags``, ``id``, ``name``, ``return:(class_name, hint, hint_string, name, type, usage)``。
+返回 ``class`` 或其父级的\ ``信号``\ 数据。返回 :ref:`Dictionary<class_Dictionary>` 并带有以下键： ``args``, ``default_args``, ``flags``, ``id``, ``name``, ``return:(class_name, hint, hint_string, name, type, usage)``。
 
 ----
 
@@ -184,7 +184,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **class_has_enum** **(** :ref:`String<class_String>` class, :ref:`String<class_String>` name, :ref:`bool<class_bool>` no_inheritance=false **)** |const|
 
-返回``class``\ 或其父级是否有一个称为``name``\ 的信号。
+返回\ ``class``\ 或其父级是否有一个称为\ ``name``\ 的信号。
 
 ----
 
@@ -192,7 +192,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **class_has_integer_constant** **(** :ref:`String<class_String>` class, :ref:`String<class_String>` name **)** |const|
 
-返回``class``\ 或其父级是否具有称为``name``\ 的整数常量。
+返回\ ``class``\ 或其父级是否具有称为\ ``name``\ 的整数常量。
 
 ----
 
@@ -200,7 +200,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **class_has_method** **(** :ref:`String<class_String>` class, :ref:`String<class_String>` method, :ref:`bool<class_bool>` no_inheritance=false **)** |const|
 
-返回 ``class`` 是否有名为 ``method`` 的方法。（如果``no_inheritance``\ 为``false``，则返回其父级）。
+返回 ``class`` 是否有名为 ``method`` 的方法。（如果\ ``no_inheritance``\ 为\ ``false``，则返回其父级）。
 
 ----
 
@@ -208,7 +208,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **class_has_signal** **(** :ref:`String<class_String>` class, :ref:`String<class_String>` signal **)** |const|
 
-返回``class``\ 或其父级是否有一个称为``signal``\ 的信号。
+返回\ ``class``\ 或其父级是否有一个称为\ ``signal``\ 的信号。
 
 ----
 
@@ -216,7 +216,7 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **class_set_property** **(** :ref:`Object<class_Object>` object, :ref:`String<class_String>` property, :ref:`Variant<class_Variant>` value **)** |const|
 
-将``class``\ 的``property``\ 值设置为``value``。
+将\ ``class``\ 的\ ``property``\ 值设置为\ ``value``。
 
 ----
 
@@ -232,7 +232,7 @@ Method Descriptions
 
 - :ref:`PoolStringArray<class_PoolStringArray>` **get_inheriters_from_class** **(** :ref:`String<class_String>` class **)** |const|
 
-返回直接或间接继承自``class``\ 的所有类的名称。
+返回直接或间接继承自\ ``class``\ 的所有类的名称。
 
 ----
 
@@ -240,7 +240,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **get_parent_class** **(** :ref:`String<class_String>` class **)** |const|
 
-返回``class``\ 的父类。
+返回\ ``class``\ 的父类。
 
 ----
 
@@ -248,7 +248,7 @@ Method Descriptions
 
 - :ref:`Variant<class_Variant>` **instance** **(** :ref:`String<class_String>` class **)** |const|
 
-创建``class``\ 的实例。
+创建\ ``class``\ 的实例。
 
 ----
 
@@ -256,7 +256,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_class_enabled** **(** :ref:`String<class_String>` class **)** |const|
 
-返回是否启用此``class``。
+返回是否启用此\ ``class``。
 
 ----
 
@@ -264,7 +264,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_parent_class** **(** :ref:`String<class_String>` class, :ref:`String<class_String>` inherits **)** |const|
 
-返回``inherits``\ 是否是``class``\ 的祖先。
+返回\ ``inherits``\ 是否是\ ``class``\ 的祖先。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

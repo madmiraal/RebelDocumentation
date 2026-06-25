@@ -37,7 +37,7 @@ Property Descriptions
 | *Getter*  | get_position()      |
 +-----------+---------------------+
 
-相对于:ref:`Viewport<class_Viewport>`\ 的本地手势位置。如果在:ref:`Control._gui_input<class_Control_method__gui_input>`\ 中使用，位置是相对于当前接收该手势的控件:ref:`Control<class_Control>`\ 而言的。
+相对于\ :ref:`Viewport<class_Viewport>`\ 的本地手势位置。如果在\ :ref:`Control._gui_input<class_Control_method__gui_input>`\ 中使用，位置是相对于当前接收该手势的控件\ :ref:`Control<class_Control>`\ 而言的。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

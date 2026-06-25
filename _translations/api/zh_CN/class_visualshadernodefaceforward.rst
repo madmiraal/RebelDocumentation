@@ -16,7 +16,7 @@ VisualShaderNodeFaceForward
 Description
 -----------
 
-在着色器语言中翻译为``faceforward(N, I, Nref)``。该函数有三个向量参数。``N``，定向矢量，``I``，入射矢量，以及``Nref``，参考矢量。如果``I``\ 和``Nref``\ 的点积小于零，返回值为``N``。否则，将返回``-N``。
+在着色器语言中翻译为\ ``faceforward(N, I, Nref)``。该函数有三个向量参数。``N``，定向矢量，``I``，入射矢量，以及\ ``Nref``，参考矢量。如果\ ``I``\ 和\ ``Nref``\ 的点积小于零，返回值为\ ``N``。否则，将返回\ ``-N``。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

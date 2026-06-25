@@ -16,7 +16,7 @@ CanvasModulate
 Description
 -----------
 
-``CanvasModulate``\ 使用其分配的:ref:`color<class_CanvasModulate_property_color>`\ 对画布元素进行着色。
+``CanvasModulate``\ 使用其分配的\ :ref:`color<class_CanvasModulate_property_color>`\ 对画布元素进行着色。
 
 Properties
 ----------

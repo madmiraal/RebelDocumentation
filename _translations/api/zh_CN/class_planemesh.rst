@@ -18,7 +18,7 @@ Description
 
 表示平面 :ref:`PrimitiveMesh<class_PrimitiveMesh>` 的类。这个平面网格没有厚度。默认情况下，此网格在 X 轴和 Z 轴上对齐；此默认旋转不适合与广告牌材质一起使用。对于广告牌材质，请改用 :ref:`QuadMesh<class_QuadMesh>`。
 
-**注意：** 当使用大纹理 ``PlaneMesh``（例如作为地板）时，你可能会偶然发现 UV 抖动问题，具体取决于相机角度。要解决此问题，请增加 :ref:`subdivide_depth<class_PlaneMesh_property_subdivide_depth>` 和 :ref:`subdivide_width<class_PlaneMesh_property_subdivide_width>`，直到你不再注意到 UV 抖动。
+**注意：** 当使用大纹理 ``PlaneMesh``\ （例如作为地板）时，你可能会偶然发现 UV 抖动问题，具体取决于相机角度。要解决此问题，请增加 :ref:`subdivide_depth<class_PlaneMesh_property_subdivide_depth>` 和 :ref:`subdivide_width<class_PlaneMesh_property_subdivide_width>`，直到你不再注意到 UV 抖动。
 
 Properties
 ----------

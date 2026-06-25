@@ -16,7 +16,7 @@ CollisionPolygon2D
 Description
 -----------
 
-为:ref:`CollisionObject2D<class_CollisionObject2D>`\ 父级提供2D碰撞多边形。多边形可以在编辑器中绘制，也可以由顶点列表指定。
+为\ :ref:`CollisionObject2D<class_CollisionObject2D>`\ 父级提供2D碰撞多边形。多边形可以在编辑器中绘制，也可以由顶点列表指定。
 
 Properties
 ----------
@@ -63,7 +63,7 @@ Property Descriptions
 | *Getter*  | get_build_mode()      |
 +-----------+-----------------------+
 
-碰撞构建模式。使用:ref:`BuildMode<enum_CollisionPolygon2D_BuildMode>`\ 常量之一。
+碰撞构建模式。使用\ :ref:`BuildMode<enum_CollisionPolygon2D_BuildMode>`\ 常量之一。
 
 ----
 
@@ -79,7 +79,7 @@ Property Descriptions
 | *Getter*  | is_disabled()       |
 +-----------+---------------------+
 
-如果``true``，将不会检测到碰撞。
+如果\ ``true``，将不会检测到碰撞。
 
 ----
 
@@ -95,7 +95,7 @@ Property Descriptions
 | *Getter*  | is_one_way_collision_enabled() |
 +-----------+--------------------------------+
 
-如果``true``，相对于``CollisionPolygon2D``\ 的旋转而言，只有面朝上的边缘才会与其他对象发生碰撞。
+如果\ ``true``，相对于\ ``CollisionPolygon2D``\ 的旋转而言，只有面朝上的边缘才会与其他对象发生碰撞。
 
 ----
 

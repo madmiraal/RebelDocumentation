@@ -11,12 +11,12 @@ VisualShaderNodeColorFunc
 
 **Inherits:** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
 
-一个:ref:`Color<class_Color>`\ 函数，在可视化着色器图中使用。
+一个\ :ref:`Color<class_Color>`\ 函数，在可视化着色器图中使用。
 
 Description
 -----------
 
-接受一个:ref:`Color<class_Color>`\ 到输入端口，并根据 :ref:`function<class_VisualShaderNodeColorFunc_property_function>` 对其进行转换。
+接受一个\ :ref:`Color<class_Color>`\ 到输入端口，并根据 :ref:`function<class_VisualShaderNodeColorFunc_property_function>` 对其进行转换。
 
 Properties
 ----------
@@ -71,7 +71,7 @@ Property Descriptions
 | *Getter*  | get_function()      |
 +-----------+---------------------+
 
-要应用于输入颜色的函数。参阅:ref:`Function<enum_VisualShaderNodeColorFunc_Function>`\ 的选项。
+要应用于输入颜色的函数。参阅\ :ref:`Function<enum_VisualShaderNodeColorFunc_Function>`\ 的选项。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

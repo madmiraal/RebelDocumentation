@@ -38,7 +38,7 @@ Method Descriptions
 
 - :ref:`PoolStringArray<class_PoolStringArray>` **get_recognized_extensions** **(** :ref:`Resource<class_Resource>` resource **)** |virtual|
 
-返回可用于保存资源对象的扩展列表，前提是它被识别（见:ref:`recognize<class_ResourceFormatSaver_method_recognize>`）。
+返回可用于保存资源对象的扩展列表，前提是它被识别（见\ :ref:`recognize<class_ResourceFormatSaver_method_recognize>`）。
 
 ----
 
@@ -54,9 +54,9 @@ Method Descriptions
 
 - :ref:`int<class_int>` **save** **(** :ref:`String<class_String>` path, :ref:`Resource<class_Resource>` resource, :ref:`int<class_int>` flags **)** |virtual|
 
-将给定的资源对象保存到目标``path``\ 处的文件。``flags``\ 是一个由:ref:`SaverFlags<enum_ResourceSaver_SaverFlags>`\ 常量组成的位掩码。
+将给定的资源对象保存到目标\ ``path``\ 处的文件。``flags``\ 是一个由\ :ref:`SaverFlags<enum_ResourceSaver_SaverFlags>`\ 常量组成的位掩码。
 
-成功时返回:ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`，失败时返回:ref:`Error<enum_@GlobalScope_Error>`\ 常量。
+成功时返回\ :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`，失败时返回\ :ref:`Error<enum_@GlobalScope_Error>`\ 常量。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

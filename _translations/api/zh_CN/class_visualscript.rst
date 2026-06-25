@@ -164,7 +164,7 @@ Method Descriptions
 
 - void **custom_signal_add_argument** **(** :ref:`String<class_String>` name, :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` type, :ref:`String<class_String>` argname, :ref:`int<class_int>` index=-1 **)**
 
-为用:ref:`add_custom_signal<class_VisualScript_method_add_custom_signal>`\ 添加的自定义信号添加一个参数。
+为用\ :ref:`add_custom_signal<class_VisualScript_method_add_custom_signal>`\ 添加的自定义信号添加一个参数。
 
 ----
 
@@ -228,7 +228,7 @@ Method Descriptions
 
 - void **data_connect** **(** :ref:`String<class_String>` func, :ref:`int<class_int>` from_node, :ref:`int<class_int>` from_port, :ref:`int<class_int>` to_node, :ref:`int<class_int>` to_port **)**
 
-连接两个数据端口。``from_node``\ 的``from_port``\ 的值将被输入``to_node``\ 的``to_port``。
+连接两个数据端口。``from_node``\ 的\ ``from_port``\ 的值将被输入\ ``to_node``\ 的\ ``to_port``。
 
 ----
 
@@ -236,7 +236,7 @@ Method Descriptions
 
 - void **data_disconnect** **(** :ref:`String<class_String>` func, :ref:`int<class_int>` from_node, :ref:`int<class_int>` from_port, :ref:`int<class_int>` to_node, :ref:`int<class_int>` to_port **)**
 
-断开之前用:ref:`data_connect<class_VisualScript_method_data_connect>`\ 连接的两个数据端口。
+断开之前用\ :ref:`data_connect<class_VisualScript_method_data_connect>`\ 连接的两个数据端口。
 
 ----
 
@@ -404,9 +404,9 @@ Method Descriptions
 
 - void **sequence_connect** **(** :ref:`String<class_String>` func, :ref:`int<class_int>` from_node, :ref:`int<class_int>` from_output, :ref:`int<class_int>` to_node **)**
 
-连接两个序列端口。执行将从``from_node``\ 的``from_output``\ 输入``to_node``。
+连接两个序列端口。执行将从\ ``from_node``\ 的\ ``from_output``\ 输入\ ``to_node``。
 
-与:ref:`data_connect<class_VisualScript_method_data_connect>`\ 不同，没有``to_port``，因为目标节点只能有一个序列端口。
+与\ :ref:`data_connect<class_VisualScript_method_data_connect>`\ 不同，没有\ ``to_port``，因为目标节点只能有一个序列端口。
 
 ----
 
@@ -414,7 +414,7 @@ Method Descriptions
 
 - void **sequence_disconnect** **(** :ref:`String<class_String>` func, :ref:`int<class_int>` from_node, :ref:`int<class_int>` from_output, :ref:`int<class_int>` to_node **)**
 
-断开之前用:ref:`sequence_connect<class_VisualScript_method_sequence_connect>`\ 连接的两个序列端口。
+断开之前用\ :ref:`sequence_connect<class_VisualScript_method_sequence_connect>`\ 连接的两个序列端口。
 
 ----
 

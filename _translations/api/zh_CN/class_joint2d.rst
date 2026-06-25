@@ -64,7 +64,7 @@ Property Descriptions
 | *Getter*  | get_exclude_nodes_from_collision()      |
 +-----------+-----------------------------------------+
 
-如果为``true``，:ref:`node_a<class_Joint2D_property_node_a>`\ 和:ref:`node_b<class_Joint2D_property_node_b>`\ 不能碰撞。
+如果为\ ``true``，:ref:`node_a<class_Joint2D_property_node_a>`\ 和\ :ref:`node_b<class_Joint2D_property_node_b>`\ 不能碰撞。
 
 ----
 
@@ -96,7 +96,7 @@ Property Descriptions
 | *Getter*  | get_node_b()      |
 +-----------+-------------------+
 
-连接到关节的第二实体。必须继承自:ref:`PhysicsBody2D<class_PhysicsBody2D>`。
+连接到关节的第二实体。必须继承自\ :ref:`PhysicsBody2D<class_PhysicsBody2D>`。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`
