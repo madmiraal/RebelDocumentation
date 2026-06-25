@@ -18073,7 +18073,7 @@ msgstr "Spatial"
 #: development/engine/inheritance_class_tree.rst:29
 #, fuzzy
 msgid "Source files: :download:`class-tree.zip <files/class-tree.zip>`."
-msgstr "源文件::download:`class_tree.zip <files/class_tree.zip>`."
+msgstr "源文件::download:`class-tree.zip <files/class-tree.zip>`."
 
 #: development/engine/introduction_to_rebel_development.rst:2
 #, fuzzy
@@ -19805,7 +19805,8 @@ msgid ""
 "make the game. Extract the archive and move the ``art/`` and ``fonts/`` "
 "directories to your project's directory."
 msgstr ""
-"下载 :download:`dodge_assets.zip <files/dodge_assets.zip>`\\ 。归档文件中包含"
+"下载 :download:`dodge-the-creeps-assets.zip <files/dodge-the-creeps-"
+"assets.zip>`\\ 。归档文件中包含"
 "你会在制作游戏过程中使用到的图片和声音。请解压归档文件，将 ``art/`` 和 "
 "``fonts/`` 目录移动到你的项目目录。"
 
@@ -19853,8 +19854,9 @@ msgid ""
 "including a ``SConstruct`` file, a ``dodge_the_creeps.gdnlib`` file, a "
 "``player.gdns`` file, and an ``entry.cpp`` file."
 msgstr ""
-"下载： :download:`dodge_assets_with_gdnative.zip <files/"
-"dodge_assets_with_gdnative.zip>` 。存档包含您将用于制作游戏的图像和声音。它还"
+"下载： :download:`dodge-the-creeps-"
+"gdnative-assets.zip <files/dodge-the-creeps-"
+"gdnative-assets.zip>` 。存档包含您将用于制作游戏的图像和声音。它还"
 "包含一个初学者GDNative项目，包括一个 ``SConstruct`` 文件，一个 "
 "``dodge_the_creeps.gdnlib`` 文件，一个 ``player.gdns`` 文件和一个 "
 "``entry.cpp`` 文件。"
@@ -21715,14 +21717,18 @@ msgstr "我们准备了一些你需要下载的游戏资源，以便我们可以
 msgid ""
 "Download :download:`Dodge the Creeps Assets <files/dodge-the-creeps-"
 "assets.zip>`."
-msgstr ":download:`dodge_assets.zip <files/dodge_assets.zip>`\\ 。"
+msgstr ":download:`dodge-the-creeps-"
+"assets.zip <files/dodge-the-creeps-"
+"assets.zip>`\\ 。"
 
 #: getting_started/first_2d_game/index.rst:77
 #, fuzzy
 msgid ""
 "Download :download:`Dodge the Creeps GDNative Assets <files/dodge-the-creeps-"
 "gdnative-assets.zip>`."
-msgstr ":download:`dodge_assets.zip <files/dodge_assets.zip>`\\ 。"
+msgstr ":download:`dodge-the-creeps-"
+"gdnative-assets.zip <files/dodge-the-creeps-"
+"gdnative-assets.zip>`\\ 。"
 
 #: getting_started/first_2d_game/index.rst:80
 #: getting_started/first_3d_game/index.rst:49
@@ -29786,8 +29792,7 @@ msgid ""
 "You can download this sample project here: :download:`2D Movement Demo "
 "<files/2d-movement.zip>`"
 msgstr ""
-"可以在此处下载此示例项目: :download:`2D_movement_demo.zip <files/"
-"2D_movement_demo.zip>`"
+"可以在此处下载此示例项目: :download:`2d-movement.zip <files/2d-movement.zip>`"
 
 #: tutorials/2d/2d_sprite_animation.rst:2
 msgid "2D Sprite animation"
@@ -37649,8 +37654,9 @@ msgid ""
 "Download this tutorial project: :download:`Rooms and Portals <files/rooms-"
 "and-portals.zip>`"
 msgstr ""
-"可以在此处下载此示例项目: :download:`2D_movement_demo.zip <files/"
-"2D_movement_demo.zip>`"
+"可以在此处下载此示例项目: :download:`rooms-"
+"and-portals.zip <files/rooms-"
+"and-portals.zip>`"
 
 #: tutorials/3d/portals/rooms_and_portals_example.rst:10
 msgid ""
@@ -40621,7 +40627,7 @@ msgid ""
 "project: :download:`Gridmap <files/gridmap.zip>`."
 msgstr ""
 "要学习 GridMaps 是怎么样工作的，请先下载示例项目："
-"\\ :download:`gridmap_demo.zip <files/gridmap_demo.zip>`\\ 。"
+"\\ :download:`gridmap.zip <files/gridmap.zip>`\\ 。"
 
 #: tutorials/3d/using_gridmaps.rst:22
 msgid ""
@@ -59305,8 +59311,8 @@ msgid ""
 "Download the localization example here: :download:`Localization <files/"
 "localization.zip>`"
 msgstr ""
-"你可以在此处下载此示例项目: :download:`run_animation.zip <files/"
-"run_animation.zip>`"
+"你可以在此处下载此示例项目: :download:`localization.zip <files/"
+"localization.zip>`"
 
 #: tutorials/i18n/internationalizing_games.rst:26
 msgid "Configuring the imported translation"
@@ -74545,8 +74551,7 @@ msgid ""
 "creating a new scene for the character. Use the robot sprite and create a "
 "scene like this:"
 msgstr ""
-"要进行测试, 这里有场景(来自tilemap教程): :download:`kbscene.zip <files/"
-"kbscene.zip>`. 我们将为角色创造一个新场景. 使用机器人精灵并创建一个这样的场"
+"要进行测试, 这里有场景(来自tilemap教程): :download:`kinematic-body.zip <files/kinematic-body.zip>`. 我们将为角色创造一个新场景. 使用机器人精灵并创建一个这样的场"
 "景:"
 
 #: tutorials/physics/kinematic_character_2d.rst:86
@@ -76278,8 +76283,9 @@ msgid ""
 "You can download this project here: :download:`Using Area 2D <files/using-"
 "area-2d.zip>`"
 msgstr ""
-"你可以在这里下载这个项目 : :download:`using_area_2d.zip <files/"
-"using_area_2d.zip>`"
+"你可以在这里下载这个项目 : :download:`using-"
+"area-2d.zip <files/using-"
+"area-2d.zip>`"
 
 #: tutorials/physics/using_kinematic_body_2d.rst:2
 msgid "Using KinematicBody2D"
@@ -76598,8 +76604,7 @@ msgid ""
 "To see these examples in action, download the sample "
 "project: :download:`Using Kinematic 2D <files/using-kinematic-2d.zip>`."
 msgstr ""
-"要查看这些示例, 请下载示例项目: :download:`using_kinematic2d.zip <files/"
-"using_kinematic2d.zip>`."
+"要查看这些示例, 请下载示例项目: :download:`using-kinematic-2d.zip <files/using-kinematic-2d.zip>`."
 
 #: tutorials/physics/using_kinematic_body_2d.rst:213
 msgid "Movement and walls"
@@ -84438,8 +84443,7 @@ msgid ""
 "To see an example project, download the OS Test demo here: :download:`OS "
 "Test <files/os-test.zip>`"
 msgstr ""
-"要查看这些示例, 请下载示例项目: :download:`using_kinematic2d.zip <files/"
-"using_kinematic2d.zip>`."
+"要查看这些示例, 请下载示例项目: :download:`os-test.zip <files/os-test.zip>`."
 
 #: tutorials/scripting/c_sharp/c_sharp_style_guide.rst:2
 msgid "C# style guide"
