@@ -130,7 +130,7 @@ Method Descriptions
 
 返回创建时分配给该通道的ID，或在协商时自动分配。
 
-如果该通道没有进行带外协商，那么该ID将只在连接建立后可用，在此之前将返回``65535``。
+如果该通道没有进行带外协商，那么该ID将只在连接建立后可用，在此之前将返回\ ``65535``。
 
 ----
 
@@ -146,9 +146,9 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_max_packet_life_time** **(** **)** |const|
 
-返回创建时分配给这个通道的``maxPacketLifeTime``\ 值。
+返回创建时分配给这个通道的\ ``maxPacketLifeTime``\ 值。
 
-如果没有指定，将是``65535``。
+如果没有指定，将是\ ``65535``。
 
 ----
 
@@ -156,9 +156,9 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_max_retransmits** **(** **)** |const|
 
-返回创建时分配给这个通道的``maxRetransmits``\ 值。
+返回创建时分配给这个通道的\ ``maxRetransmits``\ 值。
 
-如果没有指定，将是``65535``。
+如果没有指定，将是\ ``65535``。
 
 ----
 
@@ -174,7 +174,7 @@ Method Descriptions
 
 - :ref:`ChannelState<enum_WebRTCDataChannel_ChannelState>` **get_ready_state** **(** **)** |const|
 
-返回该通道的当前状态，参阅:ref:`ChannelState<enum_WebRTCDataChannel_ChannelState>`。
+返回该通道的当前状态，参阅\ :ref:`ChannelState<enum_WebRTCDataChannel_ChannelState>`。
 
 ----
 
@@ -182,7 +182,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_negotiated** **(** **)** |const|
 
-如果这个通道是用带外配置创建的，返回``true``。
+如果这个通道是用带外配置创建的，返回\ ``true``。
 
 ----
 
@@ -190,7 +190,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_ordered** **(** **)** |const|
 
-如果这个通道在创建时启用了排序功能，则默认返回``true``。
+如果这个通道在创建时启用了排序功能，则默认返回\ ``true``。
 
 ----
 
@@ -206,7 +206,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **was_string_packet** **(** **)** |const|
 
-如果最后收到的数据包是以文本形式传输，则返回``true``。参阅:ref:`write_mode<class_WebRTCDataChannel_property_write_mode>`。
+如果最后收到的数据包是以文本形式传输，则返回\ ``true``。参阅\ :ref:`write_mode<class_WebRTCDataChannel_property_write_mode>`。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

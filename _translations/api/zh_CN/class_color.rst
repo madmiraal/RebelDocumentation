@@ -911,7 +911,7 @@ Method Descriptions
 
 - :ref:`Color<class_Color>` **from_hsv** **(** :ref:`float<class_float>` h, :ref:`float<class_float>` s, :ref:`float<class_float>` v, :ref:`float<class_float>` a=1.0 **)**
 
-从 HSV 配置文件中构建一个颜色。``h``、``s``\ 和``v``\ 是0和1之间的值。
+从 HSV 配置文件中构建一个颜色。``h``、``s``\ 和\ ``v``\ 是0和1之间的值。
 
 ::
 
@@ -938,7 +938,7 @@ Method Descriptions
 
 - :ref:`Color<class_Color>` **inverted** **(** **)**
 
-返回反色``(1-r，1-g，1-b，a)``。
+返回反色\ ``(1-r，1-g，1-b，a)``。
 
 ::
 
@@ -951,7 +951,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_equal_approx** **(** :ref:`Color<class_Color>` color **)**
 
-通过在每个组件上运行:ref:`@GDScript.is_equal_approx<class_@GDScript_method_is_equal_approx>`，如果这个颜色和``color``\ 近似相等，返回``true``。
+通过在每个组件上运行\ :ref:`@GDScript.is_equal_approx<class_@GDScript_method_is_equal_approx>`，如果这个颜色和\ ``color``\ 近似相等，返回\ ``true``。
 
 ----
 

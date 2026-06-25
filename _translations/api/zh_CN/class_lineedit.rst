@@ -164,7 +164,7 @@ Signals
 
 - **text_change_rejected** **(** :ref:`String<class_String>` rejected_substring **)**
 
-当附加的文本超过了:ref:`max_length<class_LineEdit_property_max_length>`\ 时触发。附加的文本被截断以适应:ref:`max_length<class_LineEdit_property_max_length>`，不能适应的部分被作为``rejected_substring``\ 参数传递。
+当附加的文本超过了\ :ref:`max_length<class_LineEdit_property_max_length>`\ 时触发。附加的文本被截断以适应\ :ref:`max_length<class_LineEdit_property_max_length>`，不能适应的部分被作为\ ``rejected_substring``\ 参数传递。
 
 ----
 
@@ -180,7 +180,7 @@ Signals
 
 - **text_entered** **(** :ref:`String<class_String>` new_text **)**
 
-当用户按``LineEdit``\ 上的:ref:`@GlobalScope.KEY_ENTER<class_@GlobalScope_constant_KEY_ENTER>`\ 时触发。
+当用户按\ ``LineEdit``\ 上的\ :ref:`@GlobalScope.KEY_ENTER<class_@GlobalScope_constant_KEY_ENTER>`\ 时触发。
 
 Enumerations
 ------------
@@ -203,7 +203,7 @@ enum **Align**:
 
 - **ALIGN_RIGHT** = **2** --- ``LineEdit``\ 文本右对齐。
 
-- **ALIGN_FILL** = **3** --- 拉伸空白以适应``LineEdit``\ 的宽度。
+- **ALIGN_FILL** = **3** --- 拉伸空白以适应\ ``LineEdit``\ 的宽度。
 
 ----
 
@@ -233,17 +233,17 @@ enum **MenuItems**:
 
 - **MENU_PASTE** = **2** --- 将剪贴板文本粘贴到所选文本上(或光标所在位置)。
 
-不可打印的转义字符将通过:ref:`String.strip_escapes<class_String_method_strip_escapes>`\ 从操作系统剪贴板中自动剥离。
+不可打印的转义字符将通过\ :ref:`String.strip_escapes<class_String_method_strip_escapes>`\ 从操作系统剪贴板中自动剥离。
 
-- **MENU_CLEAR** = **3** --- 删除整个``LineEdit``\ 文本。
+- **MENU_CLEAR** = **3** --- 删除整个\ ``LineEdit``\ 文本。
 
-- **MENU_SELECT_ALL** = **4** --- 选择``LineEdit``\ 中所有文本。
+- **MENU_SELECT_ALL** = **4** --- 选择\ ``LineEdit``\ 中所有文本。
 
 - **MENU_UNDO** = **5** --- 撤销之前的操作。
 
 - **MENU_REDO** = **6** --- 反转最后一个撤销动作。
 
-- **MENU_MAX** = **7** --- 表示:ref:`MenuItems<enum_LineEdit_MenuItems>`\ 枚举的大小。
+- **MENU_MAX** = **7** --- 表示\ :ref:`MenuItems<enum_LineEdit_MenuItems>`\ 枚举的大小。
 
 Property Descriptions
 ---------------------
@@ -260,7 +260,7 @@ Property Descriptions
 | *Getter*  | get_align()      |
 +-----------+------------------+
 
-在:ref:`Align<enum_LineEdit_Align>`\ 枚举中定义文本对齐方式。
+在\ :ref:`Align<enum_LineEdit_Align>`\ 枚举中定义文本对齐方式。
 
 ----
 
@@ -276,7 +276,7 @@ Property Descriptions
 | *Getter*  | cursor_get_blink_enabled()      |
 +-----------+---------------------------------+
 
-如果为``true``，插入符号（可视光标）将闪烁。
+如果为\ ``true``，插入符号（可视光标）将闪烁。
 
 ----
 
@@ -308,7 +308,7 @@ Property Descriptions
 | *Getter*  | get_cursor_position()      |
 +-----------+----------------------------+
 
-光标在``LineEdit``\ 中的位置。设置后，文本可以滚动以适应它。
+光标在\ ``LineEdit``\ 中的位置。设置后，文本可以滚动以适应它。
 
 ----
 
@@ -340,7 +340,7 @@ Property Descriptions
 | *Getter*  | is_context_menu_enabled()       |
 +-----------+---------------------------------+
 
-如果为``true``，右键单击将出现上下文菜单。
+如果为\ ``true``，右键单击将出现上下文菜单。
 
 ----
 
@@ -356,7 +356,7 @@ Property Descriptions
 | *Getter*  | is_editable()       |
 +-----------+---------------------+
 
-如果为``false``，则不能修改现在的文本，也不能添加新文本。
+如果为\ ``false``，则不能修改现在的文本，也不能添加新文本。
 
 ----
 
@@ -372,7 +372,7 @@ Property Descriptions
 | *Getter*  | get_expand_to_text_length()      |
 +-----------+----------------------------------+
 
-如果``true``，则``LineEdit``\ 宽度将增加到比:ref:`text<class_LineEdit_property_text>`\ 长。如果:ref:`text<class_LineEdit_property_text>`\ 被缩短，它将**不**压缩。
+如果\ ``true``，则\ ``LineEdit``\ 宽度将增加到比\ :ref:`text<class_LineEdit_property_text>`\ 长。如果\ :ref:`text<class_LineEdit_property_text>`\ 被缩短，它将\ **不**\ 压缩。
 
 ----
 
@@ -388,9 +388,9 @@ Property Descriptions
 | *Getter*  | get_max_length()      |
 +-----------+-----------------------+
 
-在``LineEdit``\ 内可输入的最大字符量。如果``0``，则没有限制。
+在\ ``LineEdit``\ 内可输入的最大字符量。如果\ ``0``，则没有限制。
 
-当定义了限制时，超过:ref:`max_length<class_LineEdit_property_max_length>`\ 的字符会被截断。这在设置最大长度时现有的 :ref:`text<class_LineEdit_property_text>` 内容，或在``LineEdit``\ 中插入的新文本，包括粘贴时发生。如果任何输入的文本被截断，:ref:`text_change_rejected<class_LineEdit_signal_text_change_rejected>`\ 信号将以被截断的子串为参数发送出来。
+当定义了限制时，超过\ :ref:`max_length<class_LineEdit_property_max_length>`\ 的字符会被截断。这在设置最大长度时现有的 :ref:`text<class_LineEdit_property_text>` 内容，或在\ ``LineEdit``\ 中插入的新文本，包括粘贴时发生。如果任何输入的文本被截断，:ref:`text_change_rejected<class_LineEdit_signal_text_change_rejected>`\ 信号将以被截断的子串为参数发送出来。
 
 **例如:**
 
@@ -418,7 +418,7 @@ Property Descriptions
 | *Getter*  | get_placeholder_alpha()      |
 +-----------+------------------------------+
 
-:ref:`placeholder_text<class_LineEdit_property_placeholder_text>`\ 的不透明度。值从``0``\ 到``1``。
+:ref:`placeholder_text<class_LineEdit_property_placeholder_text>`\ 的不透明度。值从\ ``0``\ 到\ ``1``。
 
 ----
 
@@ -434,7 +434,7 @@ Property Descriptions
 | *Getter*  | get_placeholder()      |
 +-----------+------------------------+
 
-当``LineEdit``\ 为空时显示的文本。它**不是**``LineEdit``\ 的默认值（见 :ref:`text<class_LineEdit_property_text>`）。
+当\ ``LineEdit``\ 为空时显示的文本。它\ **不是**\ ``LineEdit``\ 的默认值（见 :ref:`text<class_LineEdit_property_text>`）。
 
 ----
 
@@ -448,7 +448,7 @@ Property Descriptions
 | *Getter* | get_right_icon()      |
 +----------+-----------------------+
 
-如果没有:ref:`text<class_LineEdit_property_text>`，或如果:ref:`clear_button_enabled<class_LineEdit_property_clear_button_enabled>`\ 设置为``false``，则设置将出现在``LineEdit``\ 右端的图标。
+如果没有\ :ref:`text<class_LineEdit_property_text>`，或如果\ :ref:`clear_button_enabled<class_LineEdit_property_clear_button_enabled>`\ 设置为\ ``false``，则设置将出现在\ ``LineEdit``\ 右端的图标。
 
 ----
 
@@ -464,7 +464,7 @@ Property Descriptions
 | *Getter*  | is_secret()       |
 +-----------+-------------------+
 
-如果为``true``，每个字符都会被替换成密码字符（参考:ref:`secret_character<class_LineEdit_property_secret_character>`）。
+如果为\ ``true``，每个字符都会被替换成密码字符（参考\ :ref:`secret_character<class_LineEdit_property_secret_character>`）。
 
 ----
 
@@ -496,7 +496,7 @@ Property Descriptions
 | *Getter*  | is_selecting_enabled()       |
 +-----------+------------------------------+
 
-如果为``false``，则无法用鼠标或键盘选择文本。
+如果为\ ``false``，则无法用鼠标或键盘选择文本。
 
 ----
 
@@ -512,7 +512,7 @@ Property Descriptions
 | *Getter*  | is_shortcut_keys_enabled()       |
 +-----------+----------------------------------+
 
-如果为``false``，快捷键将被禁用。
+如果为\ ``false``，快捷键将被禁用。
 
 ----
 
@@ -530,7 +530,7 @@ Property Descriptions
 
 ``LineEdit``\ 的字符串值。
 
-**注意:**使用这个属性更改文本不会触发:ref:`text_changed<class_LineEdit_signal_text_changed>`\ 信号。
+**注意:**\ 使用这个属性更改文本不会触发\ :ref:`text_changed<class_LineEdit_signal_text_changed>`\ 信号。
 
 ----
 
@@ -546,7 +546,7 @@ Property Descriptions
 | *Getter*  | is_virtual_keyboard_enabled()       |
 +-----------+-------------------------------------+
 
-如果``true``，则本机虚拟键盘将显示在支持它的平台上。
+如果\ ``true``，则本机虚拟键盘将显示在支持它的平台上。
 
 Method Descriptions
 -------------------
@@ -555,7 +555,7 @@ Method Descriptions
 
 - void **append_at_cursor** **(** :ref:`String<class_String>` text **)**
 
-在光标后添加``text``\ 文本。如果产生的值长于:ref:`max_length<class_LineEdit_property_max_length>`，则不会发生任何事情。
+在光标后添加\ ``text``\ 文本。如果产生的值长于\ :ref:`max_length<class_LineEdit_property_max_length>`，则不会发生任何事情。
 
 ----
 
@@ -571,7 +571,7 @@ Method Descriptions
 
 - void **delete_char_at_cursor** **(** **)**
 
-在光标的当前位置删除一个字符（相当于按``Delete``\ 键）。
+在光标的当前位置删除一个字符（相当于按\ ``Delete``\ 键）。
 
 ----
 
@@ -579,7 +579,7 @@ Method Descriptions
 
 - void **delete_text** **(** :ref:`int<class_int>` from_column, :ref:`int<class_int>` to_column **)**
 
-删除从``from_column``\ 到``to_column``\ 位置的文本:ref:`text<class_LineEdit_property_text>`\ 的一部分。两个参数都应该在文本的长度之内。
+删除从\ ``from_column``\ 到\ ``to_column``\ 位置的文本\ :ref:`text<class_LineEdit_property_text>`\ 的一部分。两个参数都应该在文本的长度之内。
 
 ----
 
@@ -595,7 +595,7 @@ Method Descriptions
 
 - :ref:`PopupMenu<class_PopupMenu>` **get_menu** **(** **)** |const|
 
-返回这个``LineEdit``\ 的:ref:`PopupMenu<class_PopupMenu>`。默认情况下，这个菜单在右键点击``LineEdit``\ 时显示。
+返回这个\ ``LineEdit``\ 的\ :ref:`PopupMenu<class_PopupMenu>`。默认情况下，这个菜单在右键点击\ ``LineEdit``\ 时显示。
 
 **警告：** 这是一个必要的内部节点，移除和释放它可能会导致崩溃。如果你想隐藏它或它的任何子节点，请使用其的 :ref:`CanvasItem.visible<class_CanvasItem_property_visible>` 属性。
 
@@ -605,7 +605,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_scroll_offset** **(** **)** |const|
 
-返回由:ref:`caret_position<class_LineEdit_property_caret_position>`\ 引起的滚动偏移，作为数字字符串。
+返回由\ :ref:`caret_position<class_LineEdit_property_caret_position>`\ 引起的滚动偏移，作为数字字符串。
 
 ----
 
@@ -613,7 +613,7 @@ Method Descriptions
 
 - void **menu_option** **(** :ref:`int<class_int>` option **)**
 
-执行:ref:`MenuItems<enum_LineEdit_MenuItems>`\ 枚举中定义的给定操作。
+执行\ :ref:`MenuItems<enum_LineEdit_MenuItems>`\ 枚举中定义的给定操作。
 
 ----
 
@@ -621,7 +621,7 @@ Method Descriptions
 
 - void **select** **(** :ref:`int<class_int>` from=0, :ref:`int<class_int>` to=-1 **)**
 
-在``from``\ 和``to``\ 之间的``LineEdit``\ 内选择字符。默认情况下，``from``\ 位于开头，``to``\ 位于结尾。
+在\ ``from``\ 和\ ``to``\ 之间的\ ``LineEdit``\ 内选择字符。默认情况下，``from``\ 位于开头，``to``\ 位于结尾。
 
 ::
 
@@ -749,7 +749,7 @@ Theme Property Descriptions
 
 - :ref:`Texture<class_Texture>` **clear**
 
-“清除”按钮的纹理。请参阅:ref:`clear_button_enabled<class_LineEdit_property_clear_button_enabled>`。
+“清除”按钮的纹理。请参阅\ :ref:`clear_button_enabled<class_LineEdit_property_clear_button_enabled>`。
 
 ----
 
@@ -757,7 +757,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **focus**
 
-当``LineEdit``\ 具有图形用户界面焦点时使用的背景。
+当\ ``LineEdit``\ 具有图形用户界面焦点时使用的背景。
 
 ----
 
@@ -773,7 +773,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **read_only**
 
-``LineEdit``\ 处于只读模式时使用的背景(:ref:`editable<class_LineEdit_property_editable>`\ 设置为``false``)。
+``LineEdit``\ 处于只读模式时使用的背景(:ref:`editable<class_LineEdit_property_editable>`\ 设置为\ ``false``)。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

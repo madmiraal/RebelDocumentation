@@ -11,12 +11,12 @@ VisualShaderNodeVectorDecompose
 
 **Inherits:** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
 
-将一个:ref:`Vector3<class_Vector3>`\ 分解为可视化着色器图中的三个标量。
+将一个\ :ref:`Vector3<class_Vector3>`\ 分解为可视化着色器图中的三个标量。
 
 Description
 -----------
 
-取一个``vec3``\ 并将其分解为三个标量值，可作为单独的输入。
+取一个\ ``vec3``\ 并将其分解为三个标量值，可作为单独的输入。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

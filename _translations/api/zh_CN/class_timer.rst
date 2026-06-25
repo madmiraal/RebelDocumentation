@@ -18,7 +18,7 @@ Description
 
 可以设置为重复或 "一次性" 模式。
 
-**注意：**要创建一个一次性定时器而不需要实例化一个节点，请使用:ref:`SceneTree.create_timer<class_SceneTree_method_create_timer>`。
+**注意：**\ 要创建一个一次性定时器而不需要实例化一个节点，请使用\ :ref:`SceneTree.create_timer<class_SceneTree_method_create_timer>`。
 
 Properties
 ----------
@@ -87,9 +87,9 @@ Property Descriptions
 | *Getter*  | has_autostart()      |
 +-----------+----------------------+
 
-如果``true``，定时器将在进入场景树时自动启动。
+如果\ ``true``，定时器将在进入场景树时自动启动。
 
-**注意：**在定时器进入场景树并启动后，该属性会自动设置为``false``。
+**注意：**\ 在定时器进入场景树并启动后，该属性会自动设置为\ ``false``。
 
 ----
 
@@ -105,7 +105,7 @@ Property Descriptions
 | *Getter*  | is_one_shot()       |
 +-----------+---------------------+
 
-如果``true``，定时器将在达到0时停止。 如果``false``，它将重新启动。
+如果\ ``true``，定时器将在达到0时停止。 如果\ ``false``，它将重新启动。
 
 ----
 
@@ -119,7 +119,7 @@ Property Descriptions
 | *Getter* | is_paused()       |
 +----------+-------------------+
 
-如果``true``，定时器会被暂停，并且不再处理，即使调用:ref:`start<class_Timer_method_start>`，直到它被取消暂停。
+如果\ ``true``，定时器会被暂停，并且不再处理，即使调用\ :ref:`start<class_Timer_method_start>`，直到它被取消暂停。
 
 ----
 
@@ -135,7 +135,7 @@ Property Descriptions
 | *Getter*  | get_timer_process_mode()      |
 +-----------+-------------------------------+
 
-处理模式。参阅:ref:`TimerProcessMode<enum_Timer_TimerProcessMode>`。
+处理模式。参阅\ :ref:`TimerProcessMode<enum_Timer_TimerProcessMode>`。
 
 ----
 
@@ -149,7 +149,7 @@ Property Descriptions
 
 定时器的剩余时间，单位是秒。如果定时器处于非激活状态，则返回0。
 
-**注意：** 你不能设置这个值。要改变定时器的剩余时间，请使用:ref:`start<class_Timer_method_start>`。
+**注意：** 你不能设置这个值。要改变定时器的剩余时间，请使用\ :ref:`start<class_Timer_method_start>`。
 
 ----
 
@@ -176,7 +176,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_stopped** **(** **)** |const|
 
-如果定时器被停止，返回``true``。
+如果定时器被停止，返回\ ``true``。
 
 ----
 
@@ -184,7 +184,7 @@ Method Descriptions
 
 - void **start** **(** :ref:`float<class_float>` time_sec=-1 **)**
 
-启动定时器。如果``time_sec>0``，将``wait_time``\ 设置为``time_sec``。这也会将剩余时间重置为``wait_time``。
+启动定时器。如果\ ``time_sec>0``，将\ ``wait_time``\ 设置为\ ``time_sec``。这也会将剩余时间重置为\ ``wait_time``。
 
 **注意：** 这个方法不会恢复一个暂停的定时器。参阅 :ref:`paused<class_Timer_property_paused>`。
 

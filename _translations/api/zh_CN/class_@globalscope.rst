@@ -1891,15 +1891,15 @@ enum **PropertyHint**:
 
 - **PROPERTY_HINT_NONE** = **0** --- 没有关于已编辑属性的提示。
 
-- **PROPERTY_HINT_RANGE** = **1** --- 通过提示串``"min,max"`` 或``"min,max,step"``\ 来提示一个整数或浮点数属性应当落在指定范围内。提示串可以选择性地包含 ``"or_greater"`` 与/或 ``"or_lesser"`` 来允许手动输入的值超过或低于最大最小值。例如： ``"-360,360,1,or_greater,or_lesser"``。
+- **PROPERTY_HINT_RANGE** = **1** --- 通过提示串\ ``"min,max"`` 或\ ``"min,max,step"``\ 来提示一个整数或浮点数属性应当落在指定范围内。提示串可以选择性地包含 ``"or_greater"`` 与/或 ``"or_lesser"`` 来允许手动输入的值超过或低于最大最小值。例如： ``"-360,360,1,or_greater,or_lesser"``。
 
-- **PROPERTY_HINT_EXP_RANGE** = **2** --- 提示一个整数或浮点数属性应当落在通过提示字符串``"min,max"`` 或``"min,max,step"``\ 来指定的范围内。提示字符串可以选择性地包含 ``"or_greater"`` 与/或 ``"or_lesser"`` 来允许手动输入的值超过最大值或低于最小值。例如： ``"0.01,100,0.01,or_greater"``。
+- **PROPERTY_HINT_EXP_RANGE** = **2** --- 提示一个整数或浮点数属性应当落在通过提示字符串\ ``"min,max"`` 或\ ``"min,max,step"``\ 来指定的范围内。提示字符串可以选择性地包含 ``"or_greater"`` 与/或 ``"or_lesser"`` 来允许手动输入的值超过最大值或低于最小值。例如： ``"0.01,100,0.01,or_greater"``。
 
 - **PROPERTY_HINT_ENUM** = **3** --- Hints that an integer, float or string property is an enumerated value to pick in a list specified via a hint string.
 
 The hint string is a comma separated list of names such as ``"Hello,Something,Else"``. For integer and float properties, the first name in the list has value 0, the next 1, and so on. Explicit values can also be specified by appending ``:integer`` to the name, e.g. ``"Zero,One,Three:3,Four,Six:6"``.
 
-- **PROPERTY_HINT_EXP_EASING** = **4** --- 提示一个浮点数属性应当通过指数缓动函数来编辑。此处的提示串可以包含 ``"attenuation"`` 来翻转曲线的水平方向，并且/或者也可以通过``"inout"``\ 来控制是否缓入缓出。
+- **PROPERTY_HINT_EXP_EASING** = **4** --- 提示一个浮点数属性应当通过指数缓动函数来编辑。此处的提示串可以包含 ``"attenuation"`` 来翻转曲线的水平方向，并且/或者也可以通过\ ``"inout"``\ 来控制是否缓入缓出。
 
 - **PROPERTY_HINT_LENGTH** = **5** --- 已废弃的提示标识，未被使用。
 
@@ -2103,25 +2103,25 @@ enum **Variant.Type**:
 
 - **TYPE_NIL** = **0** --- 变量是 ``null``.
 
-- **TYPE_BOOL** = **1** --- 变量是:ref:`bool<class_bool>`\ 类型。
+- **TYPE_BOOL** = **1** --- 变量是\ :ref:`bool<class_bool>`\ 类型。
 
-- **TYPE_INT** = **2** --- 变量是:ref:`int<class_int>`\ 类型。
+- **TYPE_INT** = **2** --- 变量是\ :ref:`int<class_int>`\ 类型。
 
-- **TYPE_REAL** = **3** --- 变量是:ref:`float<class_float>`\ 类型(实数)。
+- **TYPE_REAL** = **3** --- 变量是\ :ref:`float<class_float>`\ 类型(实数)。
 
-- **TYPE_STRING** = **4** --- 变量是:ref:`String<class_String>`\ 类型。
+- **TYPE_STRING** = **4** --- 变量是\ :ref:`String<class_String>`\ 类型。
 
-- **TYPE_VECTOR2** = **5** --- 变量类型为:ref:`Vector2<class_Vector2>`。
+- **TYPE_VECTOR2** = **5** --- 变量类型为\ :ref:`Vector2<class_Vector2>`。
 
-- **TYPE_RECT2** = **6** --- 变量类型为:ref:`Rect2<class_Rect2>`。
+- **TYPE_RECT2** = **6** --- 变量类型为\ :ref:`Rect2<class_Rect2>`。
 
-- **TYPE_VECTOR3** = **7** --- 变量类型为:ref:`Vector3<class_Vector3>`。
+- **TYPE_VECTOR3** = **7** --- 变量类型为\ :ref:`Vector3<class_Vector3>`。
 
-- **TYPE_TRANSFORM2D** = **8** --- 变量类型为:ref:`Transform2D<class_Transform2D>`。
+- **TYPE_TRANSFORM2D** = **8** --- 变量类型为\ :ref:`Transform2D<class_Transform2D>`。
 
-- **TYPE_PLANE** = **9** --- 变量类型为:ref:`Plane<class_Plane>`。
+- **TYPE_PLANE** = **9** --- 变量类型为\ :ref:`Plane<class_Plane>`。
 
-- **TYPE_QUAT** = **10** --- 变量的类型为:ref:`Quat<class_Quat>`。
+- **TYPE_QUAT** = **10** --- 变量的类型为\ :ref:`Quat<class_Quat>`。
 
 - **TYPE_AABB** = **11** --- 变量的类型为 :ref:`AABB<class_AABB>`.
 
@@ -2129,33 +2129,33 @@ enum **Variant.Type**:
 
 - **TYPE_TRANSFORM** = **13** --- 变量的类型为 :ref:`Transform<class_Transform>`.
 
-- **TYPE_COLOR** = **14** --- 变量的类型为:ref:`Color<class_Color>`.
+- **TYPE_COLOR** = **14** --- 变量的类型为\ :ref:`Color<class_Color>`.
 
 - **TYPE_NODE_PATH** = **15** --- 变量的类型为 :ref:`NodePath<class_NodePath>`。
 
-- **TYPE_RID** = **16** --- 变量的类型为:ref:`RID<class_RID>`.
+- **TYPE_RID** = **16** --- 变量的类型为\ :ref:`RID<class_RID>`.
 
-- **TYPE_OBJECT** = **17** --- 变量的类型为:ref:`Object<class_Object>`.
+- **TYPE_OBJECT** = **17** --- 变量的类型为\ :ref:`Object<class_Object>`.
 
-- **TYPE_DICTIONARY** = **18** --- 变量的类型为:ref:`Dictionary<class_Dictionary>`。
+- **TYPE_DICTIONARY** = **18** --- 变量的类型为\ :ref:`Dictionary<class_Dictionary>`。
 
-- **TYPE_ARRAY** = **19** --- 变量的类型为:ref:`Array<class_Array>`。
+- **TYPE_ARRAY** = **19** --- 变量的类型为\ :ref:`Array<class_Array>`。
 
-- **TYPE_RAW_ARRAY** = **20** --- 变量的类型是:ref:`PoolByteArray<class_PoolByteArray>`。
+- **TYPE_RAW_ARRAY** = **20** --- 变量的类型是\ :ref:`PoolByteArray<class_PoolByteArray>`。
 
-- **TYPE_INT_ARRAY** = **21** --- 变量的类型是:ref:`PoolIntArray<class_PoolIntArray>`。
+- **TYPE_INT_ARRAY** = **21** --- 变量的类型是\ :ref:`PoolIntArray<class_PoolIntArray>`。
 
-- **TYPE_REAL_ARRAY** = **22** --- 变量的类型是:ref:`PoolRealArray<class_PoolRealArray>`。
+- **TYPE_REAL_ARRAY** = **22** --- 变量的类型是\ :ref:`PoolRealArray<class_PoolRealArray>`。
 
-- **TYPE_STRING_ARRAY** = **23** --- 变量的类型是:ref:`PoolStringArray<class_PoolStringArray>`。
+- **TYPE_STRING_ARRAY** = **23** --- 变量的类型是\ :ref:`PoolStringArray<class_PoolStringArray>`。
 
-- **TYPE_VECTOR2_ARRAY** = **24** --- 变量的类型是:ref:`PoolVector2Array<class_PoolVector2Array>`。
+- **TYPE_VECTOR2_ARRAY** = **24** --- 变量的类型是\ :ref:`PoolVector2Array<class_PoolVector2Array>`。
 
-- **TYPE_VECTOR3_ARRAY** = **25** --- 变量的类型是:ref:`PoolVector3Array<class_PoolVector3Array>`。
+- **TYPE_VECTOR3_ARRAY** = **25** --- 变量的类型是\ :ref:`PoolVector3Array<class_PoolVector3Array>`。
 
-- **TYPE_COLOR_ARRAY** = **26** --- 变量的类型是:ref:`PoolColorArray<class_PoolColorArray>`。
+- **TYPE_COLOR_ARRAY** = **26** --- 变量的类型是\ :ref:`PoolColorArray<class_PoolColorArray>`。
 
-- **TYPE_MAX** = **27** --- 表示:ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`\ 枚举的大小。
+- **TYPE_MAX** = **27** --- 表示\ :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`\ 枚举的大小。
 
 ----
 
@@ -2255,17 +2255,17 @@ enum **Variant.Operator**:
 
 - **OP_BIT_NEGATE** = **19** --- 按位NOT运算符(``〜``)。
 
-- **OP_AND** = **20** --- 逻辑AND运算符(``and``\ 或``&&``)。
+- **OP_AND** = **20** --- 逻辑AND运算符(``and``\ 或\ ``&&``)。
 
-- **OP_OR** = **21** --- 逻辑或运算符（``或``\ 或``||``）。
+- **OP_OR** = **21** --- 逻辑或运算符（``或``\ 或\ ``||``）。
 
 - **OP_XOR** = **22** --- 逻辑XOR运算符(未在GDScript中实现)。
 
-- **OP_NOT** = **23** --- 逻辑NOT运算符(``not``\ 或``!``)。
+- **OP_NOT** = **23** --- 逻辑NOT运算符(``not``\ 或\ ``!``)。
 
 - **OP_IN** = **24** --- 逻辑IN运算符(``in``)。
 
-- **OP_MAX** = **25** --- 表示:ref:`Variant.Operator<enum_@GlobalScope_Variant.Operator>`\ 枚举的大小。
+- **OP_MAX** = **25** --- 表示\ :ref:`Variant.Operator<enum_@GlobalScope_Variant.Operator>`\ 枚举的大小。
 
 Constants
 ---------

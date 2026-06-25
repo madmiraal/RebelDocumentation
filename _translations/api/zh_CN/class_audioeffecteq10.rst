@@ -40,7 +40,7 @@ Description
 
 频段10：16000赫兹
 
-参阅:ref:`AudioEffectEQ<class_AudioEffectEQ>`、:ref:`AudioEffectEQ6<class_AudioEffectEQ6>`、:ref:`AudioEffectEQ21<class_AudioEffectEQ21>`。
+参阅\ :ref:`AudioEffectEQ<class_AudioEffectEQ>`、:ref:`AudioEffectEQ6<class_AudioEffectEQ6>`、:ref:`AudioEffectEQ21<class_AudioEffectEQ21>`。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

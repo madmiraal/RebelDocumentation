@@ -18,7 +18,7 @@ Description
 
 图形编辑GraphEdit管理它所包含的图形节点GraphNodes的显示，以及它们之间的连接和断开。这两个事件中的每一个都会发送信号。默认情况下，图形节点GraphNode插槽之间的断开连接是禁用的。
 
-在使用图形编辑GraphEdits时，我们强烈建议启用低处理器使用模式（见:ref:`OS.low_processor_usage_mode<class_OS_property_low_processor_usage_mode>`）。
+在使用图形编辑GraphEdits时，我们强烈建议启用低处理器使用模式（见\ :ref:`OS.low_processor_usage_mode<class_OS_property_low_processor_usage_mode>`）。
 
 Properties
 ----------
@@ -154,7 +154,7 @@ Signals
 
 - **connection_request** **(** :ref:`String<class_String>` from, :ref:`int<class_int>` from_slot, :ref:`String<class_String>` to, :ref:`int<class_int>` to_slot **)**
 
-当试图创建``来自from``\ 图形节点GraphNode1的``from_slot``\ 槽和``to``\ 图形节点GraphNode2的``to_slot``\ 槽之间的连接时，会向图形编辑GraphEdit发出。
+当试图创建\ ``来自from``\ 图形节点GraphNode1的\ ``from_slot``\ 槽和\ ``to``\ 图形节点GraphNode2的\ ``to_slot``\ 槽之间的连接时，会向图形编辑GraphEdit发出。
 
 ----
 
@@ -170,7 +170,7 @@ Signals
 
 - **copy_nodes_request** **(** **)**
 
-当用户按``Ctrl + C``\ 时触发。
+当用户按\ ``Ctrl + C``\ 时触发。
 
 ----
 
@@ -186,7 +186,7 @@ Signals
 
 - **disconnection_request** **(** :ref:`String<class_String>` from, :ref:`int<class_int>` from_slot, :ref:`String<class_String>` to, :ref:`int<class_int>` to_slot **)**
 
-当试图移除 ``from`` 图形节点GraphNode1的 ``from_slot``\ 槽和``to`` 图形节点GraphNode 的``to_slot`` 槽之间的连接时，会发送到图形编辑GraphEdit。
+当试图移除 ``from`` 图形节点GraphNode1的 ``from_slot``\ 槽和\ ``to`` 图形节点GraphNode 的\ ``to_slot`` 槽之间的连接时，会发送到图形编辑GraphEdit。
 
 ----
 
@@ -216,7 +216,7 @@ Signals
 
 - **paste_nodes_request** **(** **)**
 
-当用户按下``Ctrl + V``\ 时触发。
+当用户按下\ ``Ctrl + V``\ 时触发。
 
 ----
 
@@ -224,7 +224,7 @@ Signals
 
 - **popup_request** **(** :ref:`Vector2<class_Vector2>` position **)**
 
-当请求弹出窗口时发出。在图形编辑GraphEdit中右键单击时发生。坐标``position`` 是发送信号时鼠标指针的位置。
+当请求弹出窗口时发出。在图形编辑GraphEdit中右键单击时发生。坐标\ ``position`` 是发送信号时鼠标指针的位置。
 
 ----
 
@@ -249,7 +249,7 @@ Property Descriptions
 | *Getter*  | is_minimap_enabled()       |
 +-----------+----------------------------+
 
-如果``true``，小图是可见的。
+如果\ ``true``，小图是可见的。
 
 ----
 
@@ -297,7 +297,7 @@ Property Descriptions
 | *Getter*  | is_right_disconnects_enabled() |
 +-----------+--------------------------------+
 
-如果``true``，通过拖动右端，可以断开图形编辑GraphEdit中现有的连接。
+如果\ ``true``，通过拖动右端，可以断开图形编辑GraphEdit中现有的连接。
 
 ----
 
@@ -329,7 +329,7 @@ Property Descriptions
 | *Getter*  | is_showing_zoom_label()    |
 +-----------+----------------------------+
 
-如果``true``，则使当前缩放级别的标签可见。缩放值以百分比显示。
+如果\ ``true``，则使当前缩放级别的标签可见。缩放值以百分比显示。
 
 ----
 
@@ -361,7 +361,7 @@ Property Descriptions
 | *Getter*  | is_using_snap()     |
 +-----------+---------------------+
 
-如果为``true``，启用自动吸附。
+如果为\ ``true``，启用自动吸附。
 
 ----
 
@@ -434,7 +434,7 @@ Method Descriptions
 
 - void **add_valid_connection_type** **(** :ref:`int<class_int>` from_type, :ref:`int<class_int>` to_type **)**
 
-使得两个不同插槽型之间的连接成为可能。该类型是通过:ref:`GraphNode.set_slot<class_GraphNode_method_set_slot>`\ 方法定义的。
+使得两个不同插槽型之间的连接成为可能。该类型是通过\ :ref:`GraphNode.set_slot<class_GraphNode_method_set_slot>`\ 方法定义的。
 
 ----
 
@@ -466,7 +466,7 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **connect_node** **(** :ref:`String<class_String>` from, :ref:`int<class_int>` from_port, :ref:`String<class_String>` to, :ref:`int<class_int>` to_port **)**
 
-在``from``\ 图形节点GraphNode的``from_port``\ 槽和``to``\ 图形节点GraphNode的``to_port``\ 槽之间创建一个连接。如果该连接已经存在，则不创建连接。
+在\ ``from``\ 图形节点GraphNode的\ ``from_port``\ 槽和\ ``to``\ 图形节点GraphNode的\ ``to_port``\ 槽之间创建一个连接。如果该连接已经存在，则不创建连接。
 
 ----
 
@@ -474,7 +474,7 @@ Method Descriptions
 
 - void **disconnect_node** **(** :ref:`String<class_String>` from, :ref:`int<class_int>` from_port, :ref:`String<class_String>` to, :ref:`int<class_int>` to_port **)**
 
-删除``from`` 图形节点GraphNode1的``from_port``\ 插槽与``to`` 图形节点GraphNode2的``to_port``\ 插槽之间的连接。如果连接不存在，则不会删除任何连接。
+删除\ ``from`` 图形节点GraphNode1的\ ``from_port``\ 插槽与\ ``to`` 图形节点GraphNode2的\ ``to_port``\ 插槽之间的连接。如果连接不存在，则不会删除任何连接。
 
 ----
 
@@ -482,7 +482,7 @@ Method Descriptions
 
 - :ref:`Array<class_Array>` **get_connection_list** **(** **)** |const|
 
-返回一个包含连接列表的数组。一个连接包括一个结构，其形式为``{ from_port:0, from: "GraphNode name 0", to_port:1, to:"GraphNode name 1" }``.
+返回一个包含连接列表的数组。一个连接包括一个结构，其形式为\ ``{ from_port:0, from: "GraphNode name 0", to_port:1, to:"GraphNode name 1" }``.
 
 ----
 
@@ -500,7 +500,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_node_connected** **(** :ref:`String<class_String>` from, :ref:`int<class_int>` from_port, :ref:`String<class_String>` to, :ref:`int<class_int>` to_port **)**
 
-如果``from`` 图形节点GraphNode1的``from_port``\ 槽与``to``\ 图形节点GraphNode2的``to_port``\ 槽相连，则返回``true``。
+如果\ ``from`` 图形节点GraphNode1的\ ``from_port``\ 槽与\ ``to``\ 图形节点GraphNode2的\ ``to_port``\ 槽相连，则返回\ ``true``。
 
 ----
 
@@ -516,7 +516,7 @@ Method Descriptions
 
 - void **remove_valid_connection_type** **(** :ref:`int<class_int>` from_type, :ref:`int<class_int>` to_type **)**
 
-使得两个不同槽型之间的连接成为不可能。该类型是通过:ref:`GraphNode.set_slot<class_GraphNode_method_set_slot>`\ 方法定义的。
+使得两个不同槽型之间的连接成为不可能。该类型是通过\ :ref:`GraphNode.set_slot<class_GraphNode_method_set_slot>`\ 方法定义的。
 
 ----
 
@@ -540,7 +540,7 @@ Method Descriptions
 
 - void **set_connection_activity** **(** :ref:`String<class_String>` from, :ref:`int<class_int>` from_port, :ref:`String<class_String>` to, :ref:`int<class_int>` to_port, :ref:`float<class_float>` amount **)**
 
-将``from``\ 的``from_port``\ 和``to``\ 的``to_port``\ 之间的连接的颜色纹理设置为当前正在使用``activity``\ 的主题中的颜色。
+将\ ``from``\ 的\ ``from_port``\ 和\ ``to``\ 的\ ``to_port``\ 之间的连接的颜色纹理设置为当前正在使用\ ``activity``\ 的主题中的颜色。
 
 ----
 
@@ -548,7 +548,7 @@ Method Descriptions
 
 - void **set_selected** **(** :ref:`Node<class_Node>` node **)**
 
-选中一个特定的节点``node``.
+选中一个特定的节点\ ``node``.
 
 Theme Property Descriptions
 ---------------------------

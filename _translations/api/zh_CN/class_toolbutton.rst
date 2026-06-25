@@ -16,7 +16,7 @@ ToolButton
 Description
 -----------
 
-这是一个辅助类，用于生成一个扁平的:ref:`Button<class_Button>`，参阅 :ref:`Button.flat<class_Button_property_flat>`，创建一个``ToolButton``\ 就相当于:
+这是一个辅助类，用于生成一个扁平的\ :ref:`Button<class_Button>`，参阅 :ref:`Button.flat<class_Button_property_flat>`，创建一个\ ``ToolButton``\ 就相当于:
 
 ::
 
@@ -138,7 +138,7 @@ Theme Property Descriptions
 
 - :ref:`Font<class_Font>` **font**
 
-``ToolButton``\ 的文本的:ref:`Font<class_Font>`\ 字体。
+``ToolButton``\ 的文本的\ :ref:`Font<class_Font>`\ 字体。
 
 ----
 
@@ -146,7 +146,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **disabled**
 
-当``ToolButton``\ 被禁用时使用的:ref:`StyleBox<class_StyleBox>`。
+当\ ``ToolButton``\ 被禁用时使用的\ :ref:`StyleBox<class_StyleBox>`。
 
 ----
 
@@ -162,7 +162,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **hover**
 
-当``ToolButton``\ 被悬停时使用的:ref:`StyleBox<class_StyleBox>`。
+当\ ``ToolButton``\ 被悬停时使用的\ :ref:`StyleBox<class_StyleBox>`。
 
 ----
 
@@ -178,7 +178,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **pressed**
 
-当``ToolButton``\ 被按下时使用的:ref:`StyleBox<class_StyleBox>`。
+当\ ``ToolButton``\ 被按下时使用的\ :ref:`StyleBox<class_StyleBox>`。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

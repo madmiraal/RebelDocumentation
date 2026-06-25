@@ -109,7 +109,7 @@ enum **SamplePartitionType**:
 
 - **SAMPLE_PARTITION_LAYERS** = **2** --- 层分区。用于具有中小型瓷砖的平铺导航网格的不错选择。
 
-- **SAMPLE_PARTITION_MAX** = **3** --- 表示:ref:`SamplePartitionType<enum_NavigationMesh_SamplePartitionType>`\ 枚举的大小。
+- **SAMPLE_PARTITION_MAX** = **3** --- 表示\ :ref:`SamplePartitionType<enum_NavigationMesh_SamplePartitionType>`\ 枚举的大小。
 
 ----
 
@@ -131,7 +131,7 @@ enum **ParsedGeometryType**:
 
 - **PARSED_GEOMETRY_BOTH** = **2** --- :ref:`PARSED_GEOMETRY_MESH_INSTANCES<class_NavigationMesh_constant_PARSED_GEOMETRY_MESH_INSTANCES>` 和 :ref:`PARSED_GEOMETRY_STATIC_COLLIDERS<class_NavigationMesh_constant_PARSED_GEOMETRY_STATIC_COLLIDERS>`.
 
-- **PARSED_GEOMETRY_MAX** = **3** --- 表示:ref:`ParsedGeometryType<enum_NavigationMesh_ParsedGeometryType>`\ 枚举的大小。
+- **PARSED_GEOMETRY_MAX** = **3** --- 表示\ :ref:`ParsedGeometryType<enum_NavigationMesh_ParsedGeometryType>`\ 枚举的大小。
 
 ----
 
@@ -151,9 +151,9 @@ enum **SourceGeometryMode**:
 
 - **SOURCE_GEOMETRY_GROUPS_WITH_CHILDREN** = **1** --- 以递归方式扫描组中的节点及其子节点以获取几何图形。该组由 :ref:`geometry/source_group_name<class_NavigationMesh_property_geometry/source_group_name>` 指定。
 
-- **SOURCE_GEOMETRY_GROUPS_EXPLICIT** = **2** --- 使用一个组中的节点进行几何运算。该组由:ref:`geometry/source_group_name<class_NavigationMesh_property_geometry/source_group_name>`\ 指定。
+- **SOURCE_GEOMETRY_GROUPS_EXPLICIT** = **2** --- 使用一个组中的节点进行几何运算。该组由\ :ref:`geometry/source_group_name<class_NavigationMesh_property_geometry/source_group_name>`\ 指定。
 
-- **SOURCE_GEOMETRY_MAX** = **3** --- 表示:ref:`SourceGeometryMode<enum_NavigationMesh_SourceGeometryMode>`\ 枚举的大小。
+- **SOURCE_GEOMETRY_MAX** = **3** --- 表示\ :ref:`SourceGeometryMode<enum_NavigationMesh_SourceGeometryMode>`\ 枚举的大小。
 
 Property Descriptions
 ---------------------
@@ -172,7 +172,7 @@ Property Descriptions
 
 地板到天花板的最小高度，仍然允许被认为是可行走的地板。
 
-**注意：**烘焙时，这个值会向上取整到最接近的:ref:`cell/height<class_NavigationMesh_property_cell/height>`\ 的倍数。
+**注意：**\ 烘焙时，这个值会向上取整到最接近的\ :ref:`cell/height<class_NavigationMesh_property_cell/height>`\ 的倍数。
 
 ----
 
@@ -190,7 +190,7 @@ Property Descriptions
 
 被认为仍可穿越的最小墙壁高度。
 
-**注意：**烘焙时，该值将向下舍入到最接近的:ref:`cell/height<class_NavigationMesh_property_cell/height>`\ 的倍数。
+**注意：**\ 烘焙时，该值将向下舍入到最接近的\ :ref:`cell/height<class_NavigationMesh_property_cell/height>`\ 的倍数。
 
 ----
 
@@ -224,7 +224,7 @@ Property Descriptions
 
 侵蚀/缩小远离障碍物的高度场的可行走区域距离。
 
-**注意：**烘焙时，这个值会向上取整到最接近的:ref:`cell/size<class_NavigationMesh_property_cell/size>`\ 的倍数。
+**注意：**\ 烘焙时，这个值会向上取整到最接近的\ :ref:`cell/size<class_NavigationMesh_property_cell/size>`\ 的倍数。
 
 ----
 
@@ -322,7 +322,7 @@ The maximum distance a simplified contour's border edges should deviate from the
 
 沿网格边界的轮廓的最大允许长度。
 
-**注意：**烘焙时，这个值会向上取整到最接近的:ref:`cell/size<class_NavigationMesh_property_cell/size>`\ 的倍数。
+**注意：**\ 烘焙时，这个值会向上取整到最接近的\ :ref:`cell/size<class_NavigationMesh_property_cell/size>`\ 的倍数。
 
 ----
 
@@ -354,7 +354,7 @@ The maximum distance a simplified contour's border edges should deviate from the
 | *Getter*  | get_filter_ledge_spans()      |
 +-----------+-------------------------------+
 
-如果``true``，标记边缘间的跨度为不可行走。
+如果\ ``true``，标记边缘间的跨度为不可行走。
 
 ----
 
@@ -386,7 +386,7 @@ The maximum distance a simplified contour's border edges should deviate from the
 
 用于扫描静态碰撞的物理层。
 
-仅在:ref:`geometry/parsed_geometry_type<class_NavigationMesh_property_geometry/parsed_geometry_type>`\ 是:ref:`PARSED_GEOMETRY_STATIC_COLLIDERS<class_NavigationMesh_constant_PARSED_GEOMETRY_STATIC_COLLIDERS>`\ 或:ref:`PARSED_GEOMETRY_BOTH<class_NavigationMesh_constant_PARSED_GEOMETRY_BOTH>`\ 时才使用。
+仅在\ :ref:`geometry/parsed_geometry_type<class_NavigationMesh_property_geometry/parsed_geometry_type>`\ 是\ :ref:`PARSED_GEOMETRY_STATIC_COLLIDERS<class_NavigationMesh_constant_PARSED_GEOMETRY_STATIC_COLLIDERS>`\ 或\ :ref:`PARSED_GEOMETRY_BOTH<class_NavigationMesh_constant_PARSED_GEOMETRY_BOTH>`\ 时才使用。
 
 ----
 
@@ -402,7 +402,7 @@ The maximum distance a simplified contour's border edges should deviate from the
 | *Getter*  | get_parsed_geometry_type()      |
 +-----------+---------------------------------+
 
-决定哪种类型的节点可解析为几何图形。参阅:ref:`ParsedGeometryType<enum_NavigationMesh_ParsedGeometryType>`。
+决定哪种类型的节点可解析为几何图形。参阅\ :ref:`ParsedGeometryType<enum_NavigationMesh_ParsedGeometryType>`。
 
 ----
 
@@ -418,7 +418,7 @@ The maximum distance a simplified contour's border edges should deviate from the
 | *Getter*  | get_source_geometry_mode()      |
 +-----------+---------------------------------+
 
-烘焙时使用的几何体的源。参阅:ref:`SourceGeometryMode<enum_NavigationMesh_SourceGeometryMode>`。
+烘焙时使用的几何体的源。参阅\ :ref:`SourceGeometryMode<enum_NavigationMesh_SourceGeometryMode>`。
 
 ----
 
@@ -434,7 +434,7 @@ The maximum distance a simplified contour's border edges should deviate from the
 
 要扫描的几何体组的名称。
 
-只有当:ref:`geometry/source_geometry_mode<class_NavigationMesh_property_geometry/source_geometry_mode>`\ 是:ref:`SOURCE_GEOMETRY_GROUPS_WITH_CHILDREN<class_NavigationMesh_constant_SOURCE_GEOMETRY_GROUPS_WITH_CHILDREN>`\ 或:ref:`SOURCE_GEOMETRY_GROUPS_EXPLICIT<class_NavigationMesh_constant_SOURCE_GEOMETRY_GROUPS_EXPLICIT>`\ 时才使用。
+只有当\ :ref:`geometry/source_geometry_mode<class_NavigationMesh_property_geometry/source_geometry_mode>`\ 是\ :ref:`SOURCE_GEOMETRY_GROUPS_WITH_CHILDREN<class_NavigationMesh_constant_SOURCE_GEOMETRY_GROUPS_WITH_CHILDREN>`\ 或\ :ref:`SOURCE_GEOMETRY_GROUPS_EXPLICIT<class_NavigationMesh_constant_SOURCE_GEOMETRY_GROUPS_EXPLICIT>`\ 时才使用。
 
 ----
 
@@ -468,7 +468,7 @@ The maximum distance a simplified contour's border edges should deviate from the
 
 如果可能的话，任何小于这个尺寸的区域将与较大的区域合并。
 
-**注意：**这个值将被平方来计算单元格的数量。例如，一个20的值将把单元格的数量设为400。
+**注意：**\ 这个值将被平方来计算单元格的数量。例如，一个20的值将把单元格的数量设为400。
 
 ----
 
@@ -486,7 +486,7 @@ The maximum distance a simplified contour's border edges should deviate from the
 
 一个区域被创建的最小尺寸。
 
-**注意：**该值将被平方，以计算出允许形成孤岛区域的最小单元数。例如，8的值将把单元格的数量设为64。
+**注意：**\ 该值将被平方，以计算出允许形成孤岛区域的最小单元数。例如，8的值将把单元格的数量设为64。
 
 ----
 
@@ -502,7 +502,7 @@ The maximum distance a simplified contour's border edges should deviate from the
 | *Getter*  | get_sample_partition_type()      |
 +-----------+----------------------------------+
 
-创建导航网格polys单元的分割算法。参阅:ref:`SamplePartitionType<enum_NavigationMesh_SamplePartitionType>`。
+创建导航网格polys单元的分割算法。参阅\ :ref:`SamplePartitionType<enum_NavigationMesh_SamplePartitionType>`。
 
 Method Descriptions
 -------------------
@@ -511,7 +511,7 @@ Method Descriptions
 
 - void **add_polygon** **(** :ref:`PoolIntArray<class_PoolIntArray>` polygon **)**
 
-使用调用:ref:`get_vertices<class_NavigationMesh_method_get_vertices>`\ 得到的顶点的索引添加一个多边形。
+使用调用\ :ref:`get_vertices<class_NavigationMesh_method_get_vertices>`\ 得到的顶点的索引添加一个多边形。
 
 ----
 
@@ -535,7 +535,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **get_collision_mask_bit** **(** :ref:`int<class_int>` bit **)** |const|
 
-返回:ref:`geometry/collision_mask<class_NavigationMesh_property_geometry/collision_mask>`\ 的指定``bit``\ 是否被设置。
+返回\ :ref:`geometry/collision_mask<class_NavigationMesh_property_geometry/collision_mask>`\ 的指定\ ``bit``\ 是否被设置。
 
 ----
 
@@ -543,7 +543,7 @@ Method Descriptions
 
 - :ref:`PoolIntArray<class_PoolIntArray>` **get_polygon** **(** :ref:`int<class_int>` idx **)**
 
-返回包含创建的多边形顶点索引的:ref:`PoolIntArray<class_PoolIntArray>`。
+返回包含创建的多边形顶点索引的\ :ref:`PoolIntArray<class_PoolIntArray>`。
 
 ----
 
@@ -559,7 +559,7 @@ Method Descriptions
 
 - :ref:`PoolVector3Array<class_PoolVector3Array>` **get_vertices** **(** **)** |const|
 
-返回包含用于创建多边形的所有顶点的:ref:`PoolVector3Array<class_PoolVector3Array>`。
+返回包含用于创建多边形的所有顶点的\ :ref:`PoolVector3Array<class_PoolVector3Array>`。
 
 ----
 
@@ -577,7 +577,7 @@ Method Descriptions
 
 - void **set_vertices** **(** :ref:`PoolVector3Array<class_PoolVector3Array>` vertices **)**
 
-设置顶点，然后使用:ref:`add_polygon<class_NavigationMesh_method_add_polygon>`\ 方法创建多边形。
+设置顶点，然后使用\ :ref:`add_polygon<class_NavigationMesh_method_add_polygon>`\ 方法创建多边形。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

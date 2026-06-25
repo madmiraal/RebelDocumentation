@@ -16,9 +16,9 @@ EditorInspector
 Description
 -----------
 
-编辑器检查器默认位于编辑器的右侧。用来编辑所选节点的属性。例如，你可以选择一个节点，如:ref:`Sprite<class_Sprite>`，然后通过检查器工具编辑其transform变换。编辑器检查器是游戏开发工作流程中的一个重要工具。
+编辑器检查器默认位于编辑器的右侧。用来编辑所选节点的属性。例如，你可以选择一个节点，如\ :ref:`Sprite<class_Sprite>`，然后通过检查器工具编辑其transform变换。编辑器检查器是游戏开发工作流程中的一个重要工具。
 
-**注意：** 这个类不应该被直接实例化。而是，使用:ref:`EditorInterface.get_inspector<class_EditorInterface_method_get_inspector>`\ 访问单例。
+**注意：** 这个类不应该被直接实例化。而是，使用\ :ref:`EditorInterface.get_inspector<class_EditorInterface_method_get_inspector>`\ 访问单例。
 
 Properties
 ----------
@@ -41,7 +41,7 @@ Signals
 
 - **object_id_selected** **(** :ref:`int<class_int>` id **)**
 
-在检查器中按下:ref:`Object<class_Object>`\ 的编辑按钮时触发。主要用于远程场景树检查器中。
+在检查器中按下\ :ref:`Object<class_Object>`\ 的编辑按钮时触发。主要用于远程场景树检查器中。
 
 ----
 
@@ -75,7 +75,7 @@ Signals
 
 在检查器中切换布尔属性时发出。
 
-**注意：**如果启用了内部``autoclear``\ 属性，则该信号永远不会触发。由于该属性在编辑器检查器中始终处于启用状态，因此编辑器本身绝不会发出该信号。
+**注意：**\ 如果启用了内部\ ``autoclear``\ 属性，则该信号永远不会触发。由于该属性在编辑器检查器中始终处于启用状态，因此编辑器本身绝不会发出该信号。
 
 ----
 
@@ -102,7 +102,7 @@ Method Descriptions
 
 重新刷新检查器。
 
-**注意:**为了节省CPU资源，如果``docks/property_editor/auto_refresh_interval``\ 编辑器设置中指定的时间在上一次调用本方法后还没有过去，那么调用本方法将不做任何操作。(默认情况下，这个时间间隔被设置为0.3秒)
+**注意:**\ 为了节省CPU资源，如果\ ``docks/property_editor/auto_refresh_interval``\ 编辑器设置中指定的时间在上一次调用本方法后还没有过去，那么调用本方法将不做任何操作。(默认情况下，这个时间间隔被设置为0.3秒)
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

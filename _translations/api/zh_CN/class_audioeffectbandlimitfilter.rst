@@ -16,7 +16,7 @@ AudioEffectBandLimitFilter
 Description
 -----------
 
-限制:ref:`AudioEffectFilter.cutoff_hz<class_AudioEffectFilter_property_cutoff_hz>`\ 周围范围内的频率，允许这个范围外的频率通过。
+限制\ :ref:`AudioEffectFilter.cutoff_hz<class_AudioEffectFilter_property_cutoff_hz>`\ 周围范围内的频率，允许这个范围外的频率通过。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

@@ -18,9 +18,9 @@ Description
 
 基于CPU的2D粒子节点，用于创建各种粒子系统和效果。
 
-参阅:ref:`Particles2D<class_Particles2D>`，它通过硬件加速提供相同的功能，但可能无法在旧设备上运行。
+参阅\ :ref:`Particles2D<class_Particles2D>`，它通过硬件加速提供相同的功能，但可能无法在旧设备上运行。
 
-**注意：** 其与:ref:`Particles2D<class_Particles2D>`\ 不同，可见性矩形是即时生成的，不需要用户配置。
+**注意：** 其与\ :ref:`Particles2D<class_Particles2D>`\ 不同，可见性矩形是即时生成的，不需要用户配置。
 
 Tutorials
 ---------
@@ -252,7 +252,7 @@ enum **Parameter**:
 
 - **PARAM_ANIM_OFFSET** = **11** --- 用于在 :ref:`set_param<class_CPUParticles2D_method_set_param>`、:ref:`set_param_randomness<class_CPUParticles2D_method_set_param_randomness>` 和 :ref:`set_param_curve<class_CPUParticles2D_method_set_param_curve>` 中设置动画偏移属性。
 
-- **PARAM_MAX** = **12** --- 表示:ref:`Parameter<enum_CPUParticles2D_Parameter>`\ 枚举的大小。
+- **PARAM_MAX** = **12** --- 表示\ :ref:`Parameter<enum_CPUParticles2D_Parameter>`\ 枚举的大小。
 
 ----
 
@@ -274,7 +274,7 @@ enum **Flags**:
 
 - **FLAG_DISABLE_Z** = **2** --- 为了与3D粒子节点保持一致而存在，在2D中不使用。
 
-- **FLAG_MAX** = **3** --- 表示:ref:`Flags<enum_CPUParticles2D_Flags>`\ 枚举的大小。
+- **FLAG_MAX** = **3** --- 表示\ :ref:`Flags<enum_CPUParticles2D_Flags>`\ 枚举的大小。
 
 ----
 
@@ -300,11 +300,11 @@ enum **EmissionShape**:
 
 - **EMISSION_SHAPE_RECTANGLE** = **2** --- 粒子将在矩形区域内发射。
 
-- **EMISSION_SHAPE_POINTS** = **3** --- 粒子将在:ref:`emission_points<class_CPUParticles2D_property_emission_points>`\ 中随机选择的位置发射。粒子颜色将通过:ref:`emission_colors<class_CPUParticles2D_property_emission_colors>`\ 进行调制。
+- **EMISSION_SHAPE_POINTS** = **3** --- 粒子将在\ :ref:`emission_points<class_CPUParticles2D_property_emission_points>`\ 中随机选择的位置发射。粒子颜色将通过\ :ref:`emission_colors<class_CPUParticles2D_property_emission_colors>`\ 进行调制。
 
-- **EMISSION_SHAPE_DIRECTED_POINTS** = **4** --- 粒子将在:ref:`emission_points<class_CPUParticles2D_property_emission_points>`\ 中随机选择的位置发射。粒子的速度和旋转将基于:ref:`emission_normals<class_CPUParticles2D_property_emission_normals>`\ 进行设置。粒子颜色将通过:ref:`emission_colors<class_CPUParticles2D_property_emission_colors>`\ 进行调制。
+- **EMISSION_SHAPE_DIRECTED_POINTS** = **4** --- 粒子将在\ :ref:`emission_points<class_CPUParticles2D_property_emission_points>`\ 中随机选择的位置发射。粒子的速度和旋转将基于\ :ref:`emission_normals<class_CPUParticles2D_property_emission_normals>`\ 进行设置。粒子颜色将通过\ :ref:`emission_colors<class_CPUParticles2D_property_emission_colors>`\ 进行调制。
 
-- **EMISSION_SHAPE_MAX** = **5** --- 表示:ref:`EmissionShape<enum_CPUParticles2D_EmissionShape>`\ 枚举的大小。
+- **EMISSION_SHAPE_MAX** = **5** --- 表示\ :ref:`EmissionShape<enum_CPUParticles2D_EmissionShape>`\ 枚举的大小。
 
 Property Descriptions
 ---------------------
@@ -321,9 +321,9 @@ Property Descriptions
 | *Getter*  | get_amount()      |
 +-----------+-------------------+
 
-在一个发射周期内排放的粒子数（对应于:ref:`lifetime<class_CPUParticles2D_property_lifetime>`）。
+在一个发射周期内排放的粒子数（对应于\ :ref:`lifetime<class_CPUParticles2D_property_lifetime>`）。
 
-**注意：**改变:ref:`amount<class_CPUParticles2D_property_amount>`\ 将重置粒子发射，因此，在改变:ref:`amount<class_CPUParticles2D_property_amount>`\ 之前已经排放的所有粒子将被移除。
+**注意：**\ 改变\ :ref:`amount<class_CPUParticles2D_property_amount>`\ 将重置粒子发射，因此，在改变\ :ref:`amount<class_CPUParticles2D_property_amount>`\ 之前已经排放的所有粒子将被移除。
 
 ----
 
@@ -353,7 +353,7 @@ Property Descriptions
 | *Getter* | get_param_curve()      |
 +----------+------------------------+
 
-每个粒子的旋转将沿此:ref:`Curve<class_Curve>`\ 进行动画处理。
+每个粒子的旋转将沿此\ :ref:`Curve<class_Curve>`\ 进行动画处理。
 
 ----
 
@@ -385,7 +385,7 @@ Property Descriptions
 | *Getter*  | get_param()      |
 +-----------+------------------+
 
-应用于每个粒子的初始角速度，单位为*度*每秒。设置粒子的旋转速度。
+应用于每个粒子的初始角速度，单位为\ *度*\ 每秒。设置粒子的旋转速度。
 
 ----
 
@@ -399,7 +399,7 @@ Property Descriptions
 | *Getter* | get_param_curve()      |
 +----------+------------------------+
 
-每个粒子的角速度将沿此:ref:`Curve<class_Curve>`\ 变化。
+每个粒子的角速度将沿此\ :ref:`Curve<class_Curve>`\ 变化。
 
 ----
 
@@ -445,7 +445,7 @@ Property Descriptions
 | *Getter* | get_param_curve()      |
 +----------+------------------------+
 
-每个粒子的动画偏移将沿此:ref:`Curve<class_Curve>`\ 变化。
+每个粒子的动画偏移将沿此\ :ref:`Curve<class_Curve>`\ 变化。
 
 ----
 
@@ -491,7 +491,7 @@ Property Descriptions
 | *Getter* | get_param_curve()      |
 +----------+------------------------+
 
-每个粒子的动画速度将沿此:ref:`Curve<class_Curve>`\ 变化。
+每个粒子的动画速度将沿此\ :ref:`Curve<class_Curve>`\ 变化。
 
 ----
 
@@ -537,7 +537,7 @@ Property Descriptions
 | *Getter* | get_color_ramp()      |
 +----------+-----------------------+
 
-每个粒子的颜色将随着这个:ref:`Gradient<class_Gradient>`\ 变化，即与:ref:`color<class_CPUParticles2D_property_color>`\ 相乘。
+每个粒子的颜色将随着这个\ :ref:`Gradient<class_Gradient>`\ 变化，即与\ :ref:`color<class_CPUParticles2D_property_color>`\ 相乘。
 
 ----
 
@@ -567,7 +567,7 @@ Property Descriptions
 | *Getter* | get_param_curve()      |
 +----------+------------------------+
 
-阻尼将沿着这条:ref:`Gradient<class_Gradient>`\ 变化。
+阻尼将沿着这条\ :ref:`Gradient<class_Gradient>`\ 变化。
 
 ----
 
@@ -615,7 +615,7 @@ Property Descriptions
 | *Getter*  | get_draw_order()      |
 +-----------+-----------------------+
 
-粒子绘制顺序。使用:ref:`DrawOrder<enum_CPUParticles2D_DrawOrder>`\ 值。
+粒子绘制顺序。使用\ :ref:`DrawOrder<enum_CPUParticles2D_DrawOrder>`\ 值。
 
 ----
 
@@ -629,7 +629,7 @@ Property Descriptions
 | *Getter* | get_emission_colors()      |
 +----------+----------------------------+
 
-设置:ref:`Color<class_Color>`\ 以使用:ref:`EMISSION_SHAPE_POINTS<class_CPUParticles2D_constant_EMISSION_SHAPE_POINTS>`\ 或:ref:`EMISSION_SHAPE_DIRECTED_POINTS<class_CPUParticles2D_constant_EMISSION_SHAPE_DIRECTED_POINTS>`\ 来调制粒子。
+设置\ :ref:`Color<class_Color>`\ 以使用\ :ref:`EMISSION_SHAPE_POINTS<class_CPUParticles2D_constant_EMISSION_SHAPE_POINTS>`\ 或\ :ref:`EMISSION_SHAPE_DIRECTED_POINTS<class_CPUParticles2D_constant_EMISSION_SHAPE_DIRECTED_POINTS>`\ 来调制粒子。
 
 ----
 
@@ -643,7 +643,7 @@ Property Descriptions
 | *Getter* | get_emission_normals()      |
 +----------+-----------------------------+
 
-设置使用:ref:`EMISSION_SHAPE_DIRECTED_POINTS<class_CPUParticles2D_constant_EMISSION_SHAPE_DIRECTED_POINTS>`\ 时粒子发射的方向。
+设置使用\ :ref:`EMISSION_SHAPE_DIRECTED_POINTS<class_CPUParticles2D_constant_EMISSION_SHAPE_DIRECTED_POINTS>`\ 时粒子发射的方向。
 
 ----
 
@@ -657,7 +657,7 @@ Property Descriptions
 | *Getter* | get_emission_points()      |
 +----------+----------------------------+
 
-设置使用:ref:`EMISSION_SHAPE_POINTS<class_CPUParticles2D_constant_EMISSION_SHAPE_POINTS>`\ 或:ref:`EMISSION_SHAPE_DIRECTED_POINTS<class_CPUParticles2D_constant_EMISSION_SHAPE_DIRECTED_POINTS>`\ 时产生粒子的初始位置。
+设置使用\ :ref:`EMISSION_SHAPE_POINTS<class_CPUParticles2D_constant_EMISSION_SHAPE_POINTS>`\ 或\ :ref:`EMISSION_SHAPE_DIRECTED_POINTS<class_CPUParticles2D_constant_EMISSION_SHAPE_DIRECTED_POINTS>`\ 时产生粒子的初始位置。
 
 ----
 
@@ -687,7 +687,7 @@ Property Descriptions
 | *Getter*  | get_emission_shape()      |
 +-----------+---------------------------+
 
-粒子将在此区域内发射。有关可能的值，请参阅:ref:`EmissionShape<enum_CPUParticles2D_EmissionShape>`。
+粒子将在此区域内发射。有关可能的值，请参阅\ :ref:`EmissionShape<enum_CPUParticles2D_EmissionShape>`。
 
 ----
 
@@ -717,7 +717,7 @@ Property Descriptions
 | *Getter*  | is_emitting()       |
 +-----------+---------------------+
 
-如果``true``，则正在发射粒子。
+如果\ ``true``，则正在发射粒子。
 
 ----
 
@@ -733,7 +733,7 @@ Property Descriptions
 | *Getter*  | get_explosiveness_ratio()      |
 +-----------+--------------------------------+
 
-粒子在一个发射周期中的发射速度有多快。如果大于``0``，则在下一个循环开始之前会有排放量缺口。
+粒子在一个发射周期中的发射速度有多快。如果大于\ ``0``，则在下一个循环开始之前会有排放量缺口。
 
 ----
 
@@ -781,7 +781,7 @@ Property Descriptions
 | *Getter*  | get_fractional_delta()      |
 +-----------+-----------------------------+
 
-如果``true``，将导致分数增量计算，该显示具有更平滑的粒子显示效果。
+如果\ ``true``，将导致分数增量计算，该显示具有更平滑的粒子显示效果。
 
 ----
 
@@ -859,7 +859,7 @@ Property Descriptions
 | *Getter*  | get_param()      |
 +-----------+------------------+
 
-每个粒子的初始速度大小。方向来自:ref:`spread<class_CPUParticles2D_property_spread>`\ 和节点的方向。
+每个粒子的初始速度大小。方向来自\ :ref:`spread<class_CPUParticles2D_property_spread>`\ 和节点的方向。
 
 ----
 
@@ -937,7 +937,7 @@ Property Descriptions
 | *Getter* | get_param_curve()      |
 +----------+------------------------+
 
-每个粒子的线性加速度将沿此:ref:`Curve<class_Curve>`\ 变化。
+每个粒子的线性加速度将沿此\ :ref:`Curve<class_Curve>`\ 变化。
 
 ----
 
@@ -969,7 +969,7 @@ Property Descriptions
 | *Getter*  | get_use_local_coordinates()      |
 +-----------+----------------------------------+
 
-如果``true``，则粒子将使用父节点的坐标空间。如果``false``，则使用全局坐标。
+如果\ ``true``，则粒子将使用父节点的坐标空间。如果\ ``false``，则使用全局坐标。
 
 ----
 
@@ -1031,7 +1031,7 @@ Normal map to be used for the :ref:`texture<class_CPUParticles2D_property_textur
 | *Getter* | get_param_curve()      |
 +----------+------------------------+
 
-每个粒子的轨道速度将沿此:ref:`Curve<class_Curve>`\ 变化。
+每个粒子的轨道速度将沿此\ :ref:`Curve<class_Curve>`\ 变化。
 
 ----
 
@@ -1093,7 +1093,7 @@ Normal map to be used for the :ref:`texture<class_CPUParticles2D_property_textur
 | *Getter* | get_param_curve()      |
 +----------+------------------------+
 
-每个粒子的径向加速度将沿此:ref:`Curve<class_Curve>`\ 变化。
+每个粒子的径向加速度将沿此\ :ref:`Curve<class_Curve>`\ 变化。
 
 ----
 
@@ -1155,7 +1155,7 @@ Normal map to be used for the :ref:`texture<class_CPUParticles2D_property_textur
 | *Getter* | get_param_curve()      |
 +----------+------------------------+
 
-每个粒子的比例将随着:ref:`Curve<class_Curve>`\ 的变化而变化。
+每个粒子的比例将随着\ :ref:`Curve<class_Curve>`\ 的变化而变化。
 
 ----
 
@@ -1187,7 +1187,7 @@ Normal map to be used for the :ref:`texture<class_CPUParticles2D_property_textur
 | *Getter*  | get_speed_scale()      |
 +-----------+------------------------+
 
-粒子系统的运行速度缩放比例。值``0``\ 可用于暂停粒子。
+粒子系统的运行速度缩放比例。值\ ``0``\ 可用于暂停粒子。
 
 ----
 
@@ -1203,7 +1203,7 @@ Normal map to be used for the :ref:`texture<class_CPUParticles2D_property_textur
 | *Getter*  | get_spread()      |
 +-----------+-------------------+
 
-每个粒子的初始方向范围为``+spread`` 到 ``-spread``\ 度。
+每个粒子的初始方向范围为\ ``+spread`` 到 ``-spread``\ 度。
 
 ----
 
@@ -1233,7 +1233,7 @@ Normal map to be used for the :ref:`texture<class_CPUParticles2D_property_textur
 | *Getter* | get_param_curve()      |
 +----------+------------------------+
 
-每个粒子的切向加速度将沿此:ref:`Curve<class_Curve>`\ 变化。
+每个粒子的切向加速度将沿此\ :ref:`Curve<class_Curve>`\ 变化。
 
 ----
 
@@ -1263,7 +1263,7 @@ Normal map to be used for the :ref:`texture<class_CPUParticles2D_property_textur
 | *Getter* | get_texture()      |
 +----------+--------------------+
 
-粒子纹理。如果``null``，则粒子将为正方形。
+粒子纹理。如果\ ``null``，则粒子将为正方形。
 
 Method Descriptions
 -------------------
@@ -1280,7 +1280,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **get_param** **(** :ref:`Parameter<enum_CPUParticles2D_Parameter>` param **)** |const|
 
-返回由:ref:`Parameter<enum_CPUParticles2D_Parameter>`\ 指定的参数的基值。
+返回由\ :ref:`Parameter<enum_CPUParticles2D_Parameter>`\ 指定的参数的基值。
 
 ----
 
@@ -1288,7 +1288,7 @@ Method Descriptions
 
 - :ref:`Curve<class_Curve>` **get_param_curve** **(** :ref:`Parameter<enum_CPUParticles2D_Parameter>` param **)** |const|
 
-返回由:ref:`Parameter<enum_CPUParticles2D_Parameter>`\ 指定的参数的:ref:`Curve<class_Curve>`。
+返回由\ :ref:`Parameter<enum_CPUParticles2D_Parameter>`\ 指定的参数的\ :ref:`Curve<class_Curve>`。
 
 ----
 
@@ -1296,7 +1296,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **get_param_randomness** **(** :ref:`Parameter<enum_CPUParticles2D_Parameter>` param **)** |const|
 
-返回:ref:`Parameter<enum_CPUParticles2D_Parameter>`\ 指定的参数的随机性系数。
+返回\ :ref:`Parameter<enum_CPUParticles2D_Parameter>`\ 指定的参数的随机性系数。
 
 ----
 
@@ -1304,7 +1304,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **get_particle_flag** **(** :ref:`Flags<enum_CPUParticles2D_Flags>` flag **)** |const|
 
-返回给定标志的启用状态（有关选项，请参阅:ref:`Flags<enum_CPUParticles2D_Flags>`）。
+返回给定标志的启用状态（有关选项，请参阅\ :ref:`Flags<enum_CPUParticles2D_Flags>`）。
 
 ----
 
@@ -1320,7 +1320,7 @@ Method Descriptions
 
 - void **set_param** **(** :ref:`Parameter<enum_CPUParticles2D_Parameter>` param, :ref:`float<class_float>` value **)**
 
-设置:ref:`Parameter<enum_CPUParticles2D_Parameter>`\ 指定的参数的基值。
+设置\ :ref:`Parameter<enum_CPUParticles2D_Parameter>`\ 指定的参数的基值。
 
 ----
 
@@ -1328,7 +1328,7 @@ Method Descriptions
 
 - void **set_param_curve** **(** :ref:`Parameter<enum_CPUParticles2D_Parameter>` param, :ref:`Curve<class_Curve>` curve **)**
 
-设置:ref:`Parameter<enum_CPUParticles2D_Parameter>`\ 指定的参数的:ref:`Curve<class_Curve>`。
+设置\ :ref:`Parameter<enum_CPUParticles2D_Parameter>`\ 指定的参数的\ :ref:`Curve<class_Curve>`。
 
 ----
 
@@ -1336,7 +1336,7 @@ Method Descriptions
 
 - void **set_param_randomness** **(** :ref:`Parameter<enum_CPUParticles2D_Parameter>` param, :ref:`float<class_float>` randomness **)**
 
-设置:ref:`Parameter<enum_CPUParticles2D_Parameter>`\ 指定的参数的随机性因子。
+设置\ :ref:`Parameter<enum_CPUParticles2D_Parameter>`\ 指定的参数的随机性因子。
 
 ----
 
@@ -1344,7 +1344,7 @@ Method Descriptions
 
 - void **set_particle_flag** **(** :ref:`Flags<enum_CPUParticles2D_Flags>` flag, :ref:`bool<class_bool>` enable **)**
 
-启用或禁用给定标志（有关选项，请参阅:ref:`Flags<enum_CPUParticles2D_Flags>`）。
+启用或禁用给定标志（有关选项，请参阅\ :ref:`Flags<enum_CPUParticles2D_Flags>`）。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

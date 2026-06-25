@@ -16,9 +16,9 @@ VisualShaderNodeVectorScalarStep
 Description
 -----------
 
-在着色器语言中转换成``step(edge, x)``。
+在着色器语言中转换成\ ``step(edge, x)``。
 
-如果``x``\ 小于``edge``，返回``0.0``，否则返回``1.0``。
+如果\ ``x``\ 小于\ ``edge``，返回\ ``0.0``，否则返回\ ``1.0``。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

@@ -16,11 +16,11 @@ VisibilityEnabler2D
 Description
 -----------
 
-VisibilityEnabler2D会在:ref:`RigidBody2D<class_RigidBody2D>`、:ref:`AnimationPlayer<class_AnimationPlayer>`\ 和其他节点不可见时禁用它们。它只会影响与VisibilityEnabler2D的根节点相同的节点，以及根节点本身。
+VisibilityEnabler2D会在\ :ref:`RigidBody2D<class_RigidBody2D>`、:ref:`AnimationPlayer<class_AnimationPlayer>`\ 和其他节点不可见时禁用它们。它只会影响与VisibilityEnabler2D的根节点相同的节点，以及根节点本身。
 
-如果你只想接收通知，请使用:ref:`VisibilityNotifier2D<class_VisibilityNotifier2D>`\ 代替。
+如果你只想接收通知，请使用\ :ref:`VisibilityNotifier2D<class_VisibilityNotifier2D>`\ 代替。
 
-**注意：** 由于性能原因，VisibilityEnabler2D使用一个近似的启发式方法，其精度由 :ref:`ProjectSettings.world/2d/cell_size<class_ProjectSettings_property_world/2d/cell_size>` 决定。如果你需要精确的可见性检查，请使用另一种方法，例如添加一个:ref:`Area2D<class_Area2D>`\ 节点作为:ref:`Camera2D<class_Camera2D>`\ 节点的子节点。
+**注意：** 由于性能原因，VisibilityEnabler2D使用一个近似的启发式方法，其精度由 :ref:`ProjectSettings.world/2d/cell_size<class_ProjectSettings_property_world/2d/cell_size>` 决定。如果你需要精确的可见性检查，请使用另一种方法，例如添加一个\ :ref:`Area2D<class_Area2D>`\ 节点作为\ :ref:`Camera2D<class_Camera2D>`\ 节点的子节点。
 
 **注意：** VisibilityEnabler2D不会影响场景初始化后添加的节点。
 
@@ -71,19 +71,19 @@ Enumerations
 
 enum **Enabler**:
 
-- **ENABLER_PAUSE_ANIMATIONS** = **0** --- 这个启用程序将暂停:ref:`AnimationPlayer<class_AnimationPlayer>`\ 节点。
+- **ENABLER_PAUSE_ANIMATIONS** = **0** --- 这个启用程序将暂停\ :ref:`AnimationPlayer<class_AnimationPlayer>`\ 节点。
 
-- **ENABLER_FREEZE_BODIES** = **1** --- 这个启用程序将冻结:ref:`RigidBody2D<class_RigidBody2D>`\ 节点。
+- **ENABLER_FREEZE_BODIES** = **1** --- 这个启用程序将冻结\ :ref:`RigidBody2D<class_RigidBody2D>`\ 节点。
 
-- **ENABLER_PAUSE_PARTICLES** = **2** --- 这个启用程序将停止:ref:`Particles2D<class_Particles2D>`\ 节点。
+- **ENABLER_PAUSE_PARTICLES** = **2** --- 这个启用程序将停止\ :ref:`Particles2D<class_Particles2D>`\ 节点。
 
 - **ENABLER_PARENT_PROCESS** = **3** --- 这个启用程序将停止父类的_process函数。
 
 - **ENABLER_PARENT_PHYSICS_PROCESS** = **4** --- 这个启用程序将停止父类的_physics_process函数。
 
-- **ENABLER_PAUSE_ANIMATED_SPRITES** = **5** --- 这个启用程序将停止:ref:`AnimatedSprite<class_AnimatedSprite>`\ 节点的动画。
+- **ENABLER_PAUSE_ANIMATED_SPRITES** = **5** --- 这个启用程序将停止\ :ref:`AnimatedSprite<class_AnimatedSprite>`\ 节点的动画。
 
-- **ENABLER_MAX** = **6** --- 表示:ref:`Enabler<enum_VisibilityEnabler2D_Enabler>`\ 枚举的大小。
+- **ENABLER_MAX** = **6** --- 表示\ :ref:`Enabler<enum_VisibilityEnabler2D_Enabler>`\ 枚举的大小。
 
 Property Descriptions
 ---------------------
@@ -100,7 +100,7 @@ Property Descriptions
 | *Getter*  | is_enabler_enabled() |
 +-----------+----------------------+
 
-如果``true``，:ref:`RigidBody2D<class_RigidBody2D>`\ 节点将被暂停。
+如果\ ``true``，:ref:`RigidBody2D<class_RigidBody2D>`\ 节点将被暂停。
 
 ----
 
@@ -116,7 +116,7 @@ Property Descriptions
 | *Getter*  | is_enabler_enabled() |
 +-----------+----------------------+
 
-如果``true``，:ref:`AnimatedSprite<class_AnimatedSprite>`\ 节点将被暂停。
+如果\ ``true``，:ref:`AnimatedSprite<class_AnimatedSprite>`\ 节点将被暂停。
 
 ----
 
@@ -132,7 +132,7 @@ Property Descriptions
 | *Getter*  | is_enabler_enabled() |
 +-----------+----------------------+
 
-如果``true``，:ref:`AnimationPlayer<class_AnimationPlayer>`\ 节点将被暂停。
+如果\ ``true``，:ref:`AnimationPlayer<class_AnimationPlayer>`\ 节点将被暂停。
 
 ----
 
@@ -148,7 +148,7 @@ Property Descriptions
 | *Getter*  | is_enabler_enabled() |
 +-----------+----------------------+
 
-如果``true``，:ref:`Particles2D<class_Particles2D>`\ 节点将被暂停。
+如果\ ``true``，:ref:`Particles2D<class_Particles2D>`\ 节点将被暂停。
 
 ----
 
@@ -164,7 +164,7 @@ Property Descriptions
 | *Getter*  | is_enabler_enabled() |
 +-----------+----------------------+
 
-如果``true``，父级的:ref:`Node._physics_process<class_Node_method__physics_process>`\ 将被停止。
+如果\ ``true``，父级的\ :ref:`Node._physics_process<class_Node_method__physics_process>`\ 将被停止。
 
 ----
 
@@ -180,7 +180,7 @@ Property Descriptions
 | *Getter*  | is_enabler_enabled() |
 +-----------+----------------------+
 
-如果``true``，父级的:ref:`Node._process<class_Node_method__process>`\ 将被停止。
+如果\ ``true``，父级的\ :ref:`Node._process<class_Node_method__process>`\ 将被停止。
 
 Method Descriptions
 -------------------
@@ -197,7 +197,7 @@ Method Descriptions
 
 - void **set_enabler** **(** :ref:`Enabler<enum_VisibilityEnabler2D_Enabler>` enabler, :ref:`bool<class_bool>` enabled **)**
 
-设置由给定的:ref:`Enabler<enum_VisibilityEnabler2D_Enabler>`\ 常量识别的启用程序的活动状态。
+设置由给定的\ :ref:`Enabler<enum_VisibilityEnabler2D_Enabler>`\ 常量识别的启用程序的活动状态。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

@@ -83,7 +83,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **get_file_type** **(** :ref:`String<class_String>` path **)** |const|
 
-返回文件的资源类型，给定完整路径。这将返回字符串，如``"Resource"``\ 或``"GDScript"``，*不是*文件扩展名，如``".gd"``。
+返回文件的资源类型，给定完整路径。这将返回字符串，如\ ``"Resource"``\ 或\ ``"GDScript"``，*不是*\ 文件扩展名，如\ ``".gd"``。
 
 ----
 

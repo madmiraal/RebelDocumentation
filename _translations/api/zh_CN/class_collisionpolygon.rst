@@ -62,7 +62,7 @@ Property Descriptions
 | *Getter*  | is_disabled()       |
 +-----------+---------------------+
 
-如果``true``，将不会产生碰撞。
+如果\ ``true``，将不会产生碰撞。
 
 ----
 
@@ -78,7 +78,7 @@ Property Descriptions
 | *Getter*  | get_margin()      |
 +-----------+-------------------+
 
-生成的:ref:`Shape<class_Shape>`\ 的碰撞边。参阅:ref:`Shape.margin<class_Shape_property_margin>`\ 获取更多细节。
+生成的\ :ref:`Shape<class_Shape>`\ 的碰撞边。参阅\ :ref:`Shape.margin<class_Shape_property_margin>`\ 获取更多细节。
 
 ----
 
@@ -96,7 +96,7 @@ Property Descriptions
 
 定义多边形的顶点数组。
 
-**注意：**返回的值是原始值的副本。改变返回值的大小或属性的方法不会影响原始多边形。要更改多边形的属性，请将其分配给临时变量并进行更改，然后再重新分配``polygon``\ 成员。
+**注意：**\ 返回的值是原始值的副本。改变返回值的大小或属性的方法不会影响原始多边形。要更改多边形的属性，请将其分配给临时变量并进行更改，然后再重新分配\ ``polygon``\ 成员。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

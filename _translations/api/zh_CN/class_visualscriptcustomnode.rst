@@ -72,11 +72,11 @@ Enumerations
 
 enum **StartMode**:
 
-- **START_MODE_BEGIN_SEQUENCE** = **0** --- 当:ref:`_step<class_VisualScriptCustomNode_method__step>`\ 被调用时，首次使用的启动模式。
+- **START_MODE_BEGIN_SEQUENCE** = **0** --- 当\ :ref:`_step<class_VisualScriptCustomNode_method__step>`\ 被调用时，首次使用的启动模式。
 
-- **START_MODE_CONTINUE_SEQUENCE** = **1** --- 当从:ref:`STEP_PUSH_STACK_BIT<class_VisualScriptCustomNode_constant_STEP_PUSH_STACK_BIT>`\ 返回后调用:ref:`_step<class_VisualScriptCustomNode_method__step>`\ 时使用的启动模式。
+- **START_MODE_CONTINUE_SEQUENCE** = **1** --- 当从\ :ref:`STEP_PUSH_STACK_BIT<class_VisualScriptCustomNode_constant_STEP_PUSH_STACK_BIT>`\ 返回后调用\ :ref:`_step<class_VisualScriptCustomNode_method__step>`\ 时使用的启动模式。
 
-- **START_MODE_RESUME_YIELD** = **2** --- 从:ref:`STEP_YIELD_BIT<class_VisualScriptCustomNode_constant_STEP_YIELD_BIT>`\ 恢复后调用:ref:`_step<class_VisualScriptCustomNode_method__step>`\ 时使用的启动模式。
+- **START_MODE_RESUME_YIELD** = **2** --- 从\ :ref:`STEP_YIELD_BIT<class_VisualScriptCustomNode_constant_STEP_YIELD_BIT>`\ 恢复后调用\ :ref:`_step<class_VisualScriptCustomNode_method__step>`\ 时使用的启动模式。
 
 Constants
 ---------
@@ -91,19 +91,19 @@ Constants
 
 .. _class_VisualScriptCustomNode_constant_STEP_YIELD_BIT:
 
-- **STEP_PUSH_STACK_BIT** = **16777216** --- 由:ref:`_step<class_VisualScriptCustomNode_method__step>`\ 使用的提示，告诉控件应该在没有其他节点可以执行时返回给它。
+- **STEP_PUSH_STACK_BIT** = **16777216** --- 由\ :ref:`_step<class_VisualScriptCustomNode_method__step>`\ 使用的提示，告诉控件应该在没有其他节点可以执行时返回给它。
 
-这被:ref:`VisualScriptCondition<class_VisualScriptCondition>`\ 用来在``true``/``false``\ 分支执行完毕后，将序列重定向到 "Done" 端口。
+这被\ :ref:`VisualScriptCondition<class_VisualScriptCondition>`\ 用来在\ ``true``/``false``\ 分支执行完毕后，将序列重定向到 "Done" 端口。
 
-- **STEP_GO_BACK_BIT** = **33554432** --- 由:ref:`_step<class_VisualScriptCustomNode_method__step>`\ 使用的提示，告诉控件应该返回，要么命中之前的:ref:`STEP_PUSH_STACK_BIT<class_VisualScriptCustomNode_constant_STEP_PUSH_STACK_BIT>`，要么退出函数。
+- **STEP_GO_BACK_BIT** = **33554432** --- 由\ :ref:`_step<class_VisualScriptCustomNode_method__step>`\ 使用的提示，告诉控件应该返回，要么命中之前的\ :ref:`STEP_PUSH_STACK_BIT<class_VisualScriptCustomNode_constant_STEP_PUSH_STACK_BIT>`，要么退出函数。
 
 - **STEP_NO_ADVANCE_BIT** = **67108864**
 
 - **STEP_EXIT_FUNCTION_BIT** = **134217728** --- :ref:`_step<class_VisualScriptCustomNode_method__step>`\ 用来告诉控件应该停止和退出函数的提示。
 
-- **STEP_YIELD_BIT** = **268435456** --- 由:ref:`_step<class_VisualScriptCustomNode_method__step>`\ 使用的提示，告诉函数应该被yielded。
+- **STEP_YIELD_BIT** = **268435456** --- 由\ :ref:`_step<class_VisualScriptCustomNode_method__step>`\ 使用的提示，告诉函数应该被yielded。
 
-使用这个要求你至少有一个工作存储槽，它被用于:ref:`VisualScriptFunctionState<class_VisualScriptFunctionState>`。
+使用这个要求你至少有一个工作存储槽，它被用于\ :ref:`VisualScriptFunctionState<class_VisualScriptFunctionState>`。
 
 Method Descriptions
 -------------------
@@ -160,7 +160,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **_get_input_value_port_type** **(** :ref:`int<class_int>` idx **)** |virtual|
 
-返回指定输入端口的类型。参阅:ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`\ 值。
+返回指定输入端口的类型。参阅\ :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`\ 值。
 
 ----
 
@@ -168,7 +168,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **_get_output_sequence_port_count** **(** **)** |virtual|
 
-返回输出**sequence**序列端口的数量。
+返回输出\ **sequence**\ 序列端口的数量。
 
 ----
 
@@ -176,7 +176,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **_get_output_sequence_port_text** **(** :ref:`int<class_int>` idx **)** |virtual|
 
-返回指定的**sequence**序列输出的名称。
+返回指定的\ **sequence**\ 序列输出的名称。
 
 ----
 
@@ -192,7 +192,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **_get_output_value_port_hint** **(** :ref:`int<class_int>` idx **)** |virtual|
 
-返回指定输出端口的提示。参阅:ref:`PropertyHint<enum_@GlobalScope_PropertyHint>` 提示。
+返回指定输出端口的提示。参阅\ :ref:`PropertyHint<enum_@GlobalScope_PropertyHint>` 提示。
 
 ----
 
@@ -216,7 +216,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **_get_output_value_port_type** **(** :ref:`int<class_int>` idx **)** |virtual|
 
-返回指定输出端口的类型。参阅:ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`\ 值。
+返回指定输出端口的类型。参阅\ :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`\ 值。
 
 ----
 
@@ -224,7 +224,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **_get_text** **(** **)** |virtual|
 
-返回自定义节点的文本，就在输入**sequence**序列端口旁边显示，如果没有，则在通常被它占用的位置。
+返回自定义节点的文本，就在输入\ **sequence**\ 序列端口旁边显示，如果没有，则在通常被它占用的位置。
 
 ----
 
@@ -240,7 +240,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **_has_input_sequence_port** **(** **)** |virtual|
 
-返回自定义节点是否有输入**sequence**序列端口。
+返回自定义节点是否有输入\ **sequence**\ 序列端口。
 
 ----
 
@@ -248,17 +248,17 @@ Method Descriptions
 
 - :ref:`Variant<class_Variant>` **_step** **(** :ref:`Array<class_Array>` inputs, :ref:`Array<class_Array>` outputs, :ref:`int<class_int>` start_mode, :ref:`Array<class_Array>` working_mem **)** |virtual|
 
-执行自定义节点的逻辑，返回要使用的输出序列端口的索引，或者在有错误时返回一个:ref:`String<class_String>`。
+执行自定义节点的逻辑，返回要使用的输出序列端口的索引，或者在有错误时返回一个\ :ref:`String<class_String>`。
 
 ``inputs``\ 数组包含输入端口的值。
 
 ``output``\ 是一个数组，其索引应被设置为相应的输出。
 
-``start_mode``\ 通常是:ref:`START_MODE_BEGIN_SEQUENCE<class_VisualScriptCustomNode_constant_START_MODE_BEGIN_SEQUENCE>`，除非你使用了``STEP_*``\ 常量。
+``start_mode``\ 通常是\ :ref:`START_MODE_BEGIN_SEQUENCE<class_VisualScriptCustomNode_constant_START_MODE_BEGIN_SEQUENCE>`，除非你使用了\ ``STEP_*``\ 常量。
 
-``working_mem``\ 是一个数组，可以用来在自定义节点的运行之间持续保存信息。其大小需要用:ref:`_get_working_memory_size<class_VisualScriptCustomNode_method__get_working_memory_size>`\ 来预定义。
+``working_mem``\ 是一个数组，可以用来在自定义节点的运行之间持续保存信息。其大小需要用\ :ref:`_get_working_memory_size<class_VisualScriptCustomNode_method__get_working_memory_size>`\ 来预定义。
 
-当返回时，你可以用``STEP_*``\ 中的一个常量来屏蔽返回值。
+当返回时，你可以用\ ``STEP_*``\ 中的一个常量来屏蔽返回值。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

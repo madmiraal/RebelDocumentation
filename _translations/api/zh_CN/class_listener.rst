@@ -16,7 +16,7 @@ Listener
 Description
 -----------
 
-一旦被添加到场景树并使用:ref:`make_current<class_Listener_method_make_current>`\ 启用，这个节点将覆盖听到声音的位置。这可以用来从:ref:`Camera<class_Camera>`\ 不同的位置聆听。
+一旦被添加到场景树并使用\ :ref:`make_current<class_Listener_method_make_current>`\ 启用，这个节点将覆盖听到声音的位置。这可以用来从\ :ref:`Camera<class_Camera>`\ 不同的位置聆听。
 
 Methods
 -------
@@ -46,7 +46,7 @@ Method Descriptions
 
 - :ref:`Transform<class_Transform>` **get_listener_transform** **(** **)** |const|
 
-返回监听器的全局正则化:ref:`Transform<class_Transform>`。
+返回监听器的全局正则化\ :ref:`Transform<class_Transform>`。
 
 ----
 
@@ -54,7 +54,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_current** **(** **)** |const|
 
-如果使用:ref:`make_current<class_Listener_method_make_current>`\ 方法，使监听器成为当前状态，则返回``true``，否则返回``false``。
+如果使用\ :ref:`make_current<class_Listener_method_make_current>`\ 方法，使监听器成为当前状态，则返回\ ``true``，否则返回\ ``false``。
 
 **注意:** 在场景树中可能有一个以上的监听器被标记为 "当前"，但只有最后变成当前的那个才会被使用。
 

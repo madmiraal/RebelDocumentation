@@ -16,7 +16,7 @@ ConvexPolygonShape
 Description
 -----------
 
-凸多边形形状资源，可以添加到:ref:`PhysicsBody<class_PhysicsBody>`\ 或area区域。
+凸多边形形状资源，可以添加到\ :ref:`PhysicsBody<class_PhysicsBody>`\ 或area区域。
 
 Properties
 ----------

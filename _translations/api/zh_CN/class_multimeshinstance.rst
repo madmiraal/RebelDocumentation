@@ -16,7 +16,7 @@ MultiMeshInstance
 Description
 -----------
 
-``MultiMeshInstance``\ 是特有的节点，用于基于:ref:`MultiMesh<class_MultiMesh>`\ 资源的:ref:`GeometryInstance<class_GeometryInstance>`\ 的实例。
+``MultiMeshInstance``\ 是特有的节点，用于基于\ :ref:`MultiMesh<class_MultiMesh>`\ 资源的\ :ref:`GeometryInstance<class_GeometryInstance>`\ 的实例。
 
 这对于优化给定网格的大量实例的渲染是非常有用的（例如，森林中的树木或草丛）。
 
@@ -49,7 +49,7 @@ Property Descriptions
 | *Getter* | get_multimesh()      |
 +----------+----------------------+
 
-在``MultiMeshInstance``\ 的所有实例中使用和共享的:ref:`MultiMesh<class_MultiMesh>`\ 资源。
+在\ ``MultiMeshInstance``\ 的所有实例中使用和共享的\ :ref:`MultiMesh<class_MultiMesh>`\ 资源。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

@@ -16,7 +16,7 @@ AudioEffectHighPassFilter
 Description
 -----------
 
-削减比:ref:`AudioEffectFilter.cutoff_hz<class_AudioEffectFilter_property_cutoff_hz>`\ 更低的频率，允许更高的频率通过。
+削减比\ :ref:`AudioEffectFilter.cutoff_hz<class_AudioEffectFilter_property_cutoff_hz>`\ 更低的频率，允许更高的频率通过。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

@@ -16,7 +16,7 @@ Area2D
 Description
 -----------
 
-检测:ref:`CollisionObject2D<class_CollisionObject2D>`\ 节点重叠、进入或退出的2D区域。还可以改变或覆盖局部物理参数（重力、阻尼），并将音频路由到一个自定义的音频总线。
+检测\ :ref:`CollisionObject2D<class_CollisionObject2D>`\ 节点重叠、进入或退出的2D区域。还可以改变或覆盖局部物理参数（重力、阻尼），并将音频路由到一个自定义的音频总线。
 
 Tutorials
 ---------
@@ -72,7 +72,7 @@ Signals
 
 - **area_entered** **(** :ref:`Area2D<class_Area2D>` area **)**
 
-当另一个Area2D进入这个Area2D时发出的。需要将监控:ref:`monitoring<class_Area2D_property_monitoring>`\ 设置为``true``。
+当另一个Area2D进入这个Area2D时发出的。需要将监控\ :ref:`monitoring<class_Area2D_property_monitoring>`\ 设置为\ ``true``。
 
 ``area``\ 参数是其他Area2D。
 
@@ -82,7 +82,7 @@ Signals
 
 - **area_exited** **(** :ref:`Area2D<class_Area2D>` area **)**
 
-当另一个Area2D离开这个Area2D时发出的。要求监控:ref:`monitoring<class_Area2D_property_monitoring>`\ 被设置为``true``。
+当另一个Area2D离开这个Area2D时发出的。要求监控\ :ref:`monitoring<class_Area2D_property_monitoring>`\ 被设置为\ ``true``。
 
 ``area``\ 参数是其他Area2D。
 
@@ -92,15 +92,15 @@ Signals
 
 - **area_shape_entered** **(** :ref:`RID<class_RID>` area_rid, :ref:`Area2D<class_Area2D>` area, :ref:`int<class_int>` area_shape_index, :ref:`int<class_int>` local_shape_index **)**
 
-当另一个Area2D的:ref:`Shape2D<class_Shape2D>`\ 进入此Area2D的:ref:`Shape2D<class_Shape2D>`\ 时触发。需要将 :ref:`monitoring<class_Area2D_property_monitoring>` 设置为``true``。
+当另一个Area2D的\ :ref:`Shape2D<class_Shape2D>`\ 进入此Area2D的\ :ref:`Shape2D<class_Shape2D>`\ 时触发。需要将 :ref:`monitoring<class_Area2D_property_monitoring>` 设置为\ ``true``。
 
-``area_rid`` 由:ref:`Physics2DServer<class_Physics2DServer>`\ 使用的其他Area2D的:ref:`CollisionObject2D<class_CollisionObject2D>`\ 的:ref:`RID<class_RID>`。
+``area_rid`` 由\ :ref:`Physics2DServer<class_Physics2DServer>`\ 使用的其他Area2D的\ :ref:`CollisionObject2D<class_CollisionObject2D>`\ 的\ :ref:`RID<class_RID>`。
 
 ``area`` 其他Area2D。
 
-``area_shape_index``:ref:`Physics2DServer<class_Physics2DServer>`\ 使用的其他Area2D的:ref:`Shape2D<class_Shape2D>`\ 的索引。用``area.shape_owner_get_owner(area_shape_index)``\ 获得:ref:`CollisionShape2D<class_CollisionShape2D>`\ 节点。
+``area_shape_index``\ :ref:`Physics2DServer<class_Physics2DServer>`\ 使用的其他Area2D的\ :ref:`Shape2D<class_Shape2D>`\ 的索引。用\ ``area.shape_owner_get_owner(area_shape_index)``\ 获得\ :ref:`CollisionShape2D<class_CollisionShape2D>`\ 节点。
 
-``local_shape_index``\ 此Area2D的:ref:`Shape2D<class_Shape2D>`\ 的索引，由:ref:`Physics2DServer<class_Physics2DServer>`\ 使用。用``self.shape_owner_get_owner(local_shape_index)``\ 获取:ref:`CollisionShape2D<class_CollisionShape2D>`\ 节点。
+``local_shape_index``\ 此Area2D的\ :ref:`Shape2D<class_Shape2D>`\ 的索引，由\ :ref:`Physics2DServer<class_Physics2DServer>`\ 使用。用\ ``self.shape_owner_get_owner(local_shape_index)``\ 获取\ :ref:`CollisionShape2D<class_CollisionShape2D>`\ 节点。
 
 ----
 
@@ -108,15 +108,15 @@ Signals
 
 - **area_shape_exited** **(** :ref:`RID<class_RID>` area_rid, :ref:`Area2D<class_Area2D>` area, :ref:`int<class_int>` area_shape_index, :ref:`int<class_int>` local_shape_index **)**
 
-当另一个Area2D的:ref:`Shape2D<class_Shape2D>`\ 退出这个Area2D的:ref:`Shape2D<class_Shape2D>`\ 之一时触发。要求:ref:`monitoring<class_Area2D_property_monitoring>` 被设置为``true``。
+当另一个Area2D的\ :ref:`Shape2D<class_Shape2D>`\ 退出这个Area2D的\ :ref:`Shape2D<class_Shape2D>`\ 之一时触发。要求\ :ref:`monitoring<class_Area2D_property_monitoring>` 被设置为\ ``true``。
 
-``area_rid`` 由:ref:`Physics2DServer<class_Physics2DServer>`\ 使用的其他Area2D的:ref:`CollisionObject2D<class_CollisionObject2D>`\ 的:ref:`RID<class_RID>`。
+``area_rid`` 由\ :ref:`Physics2DServer<class_Physics2DServer>`\ 使用的其他Area2D的\ :ref:`CollisionObject2D<class_CollisionObject2D>`\ 的\ :ref:`RID<class_RID>`。
 
 ``area`` 其他Area2D。
 
-``area_shape_index``:ref:`Physics2DServer<class_Physics2DServer>`\ 使用的其他Area2D的:ref:`Shape2D<class_Shape2D>`\ 的索引。用``area.shape_owner_get_owner(area_shape_index)``\ 获取:ref:`CollisionShape2D<class_CollisionShape2D>`\ 节点。
+``area_shape_index``\ :ref:`Physics2DServer<class_Physics2DServer>`\ 使用的其他Area2D的\ :ref:`Shape2D<class_Shape2D>`\ 的索引。用\ ``area.shape_owner_get_owner(area_shape_index)``\ 获取\ :ref:`CollisionShape2D<class_CollisionShape2D>`\ 节点。
 
-``local_shape_index``\ 这个Area2D的:ref:`Shape2D<class_Shape2D>`\ 的索引，由:ref:`Physics2DServer<class_Physics2DServer>`\ 使用。用``self.shape_owner_get_owner(local_shape_index)``\ 获得:ref:`CollisionShape2D<class_CollisionShape2D>`\ 节点。
+``local_shape_index``\ 这个Area2D的\ :ref:`Shape2D<class_Shape2D>`\ 的索引，由\ :ref:`Physics2DServer<class_Physics2DServer>`\ 使用。用\ ``self.shape_owner_get_owner(local_shape_index)``\ 获得\ :ref:`CollisionShape2D<class_CollisionShape2D>`\ 节点。
 
 ----
 
@@ -124,9 +124,9 @@ Signals
 
 - **body_entered** **(** :ref:`Node<class_Node>` body **)**
 
-当一个:ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或:ref:`TileMap<class_TileMap>`\ 进入这个Area2D时发出的。需要将监控:ref:`monitoring<class_Area2D_property_monitoring>`\ 设置为``true``。如果:ref:`TileSet<class_TileSet>`\ 有碰撞形状:ref:`Shape2D<class_Shape2D>`，则检测到:ref:`TileMap<class_TileMap>`。
+当一个\ :ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或\ :ref:`TileMap<class_TileMap>`\ 进入这个Area2D时发出的。需要将监控\ :ref:`monitoring<class_Area2D_property_monitoring>`\ 设置为\ ``true``。如果\ :ref:`TileSet<class_TileSet>`\ 有碰撞形状\ :ref:`Shape2D<class_Shape2D>`，则检测到\ :ref:`TileMap<class_TileMap>`。
 
-``body``\ 参数是其他:ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或:ref:`TileMap<class_TileMap>`\ 的:ref:`Node<class_Node>`，如果它存在于树中。
+``body``\ 参数是其他\ :ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或\ :ref:`TileMap<class_TileMap>`\ 的\ :ref:`Node<class_Node>`，如果它存在于树中。
 
 ----
 
@@ -134,7 +134,7 @@ Signals
 
 - **body_exited** **(** :ref:`Node<class_Node>` body **)**
 
-当 :ref:`PhysicsBody2D<class_PhysicsBody2D>` 或 :ref:`TileMap<class_TileMap>` 离开此 Area2D 时发出。需要将监控:ref:`monitoring<class_Area2D_property_monitoring>`\ 设置为``true``。如果 :ref:`TileSet<class_TileSet>` 具有碰撞形状 :ref:`Shape2D<class_Shape2D>`，则会检测到 :ref:`TileMap<class_TileMap>`。
+当 :ref:`PhysicsBody2D<class_PhysicsBody2D>` 或 :ref:`TileMap<class_TileMap>` 离开此 Area2D 时发出。需要将监控\ :ref:`monitoring<class_Area2D_property_monitoring>`\ 设置为\ ``true``。如果 :ref:`TileSet<class_TileSet>` 具有碰撞形状 :ref:`Shape2D<class_Shape2D>`，则会检测到 :ref:`TileMap<class_TileMap>`。
 
 ``body`` 参数是其他 :ref:`PhysicsBody2D<class_PhysicsBody2D>` 或 :ref:`TileMap<class_TileMap>` 的 :ref:`Node<class_Node>`，如果它存在于树中。
 
@@ -144,15 +144,15 @@ Signals
 
 - **body_shape_entered** **(** :ref:`RID<class_RID>` body_rid, :ref:`Node<class_Node>` body, :ref:`int<class_int>` body_shape_index, :ref:`int<class_int>` local_shape_index **)**
 
-当:ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或:ref:`TileMap<class_TileMap>`\ 的:ref:`Shape2D<class_Shape2D>`\ 之一进入此Area2D的:ref:`Shape2D<class_Shape2D>`\ 之一时触发。需要将:ref:`monitoring<class_Area2D_property_monitoring>`\ 设置为``true``。如果:ref:`TileSet<class_TileSet>`\ 有Collision:ref:`Shape2D<class_Shape2D>`，就会检测到:ref:`TileMap<class_TileMap>`。
+当\ :ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或\ :ref:`TileMap<class_TileMap>`\ 的\ :ref:`Shape2D<class_Shape2D>`\ 之一进入此Area2D的\ :ref:`Shape2D<class_Shape2D>`\ 之一时触发。需要将\ :ref:`monitoring<class_Area2D_property_monitoring>`\ 设置为\ ``true``。如果\ :ref:`TileSet<class_TileSet>`\ 有Collision\ :ref:`Shape2D<class_Shape2D>`，就会检测到\ :ref:`TileMap<class_TileMap>`。
 
-``body_rid`` :ref:`Physics2DServer<class_Physics2DServer>`\ 使用的:ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或:ref:`TileSet<class_TileSet>`\ 的:ref:`CollisionObject2D<class_CollisionObject2D>`\ 的:ref:`RID<class_RID>`。
+``body_rid`` :ref:`Physics2DServer<class_Physics2DServer>`\ 使用的\ :ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或\ :ref:`TileSet<class_TileSet>`\ 的\ :ref:`CollisionObject2D<class_CollisionObject2D>`\ 的\ :ref:`RID<class_RID>`。
 
-``body`` :ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或:ref:`TileMap<class_TileMap>`\ 的:ref:`Node<class_Node>`，如果它在树上存在的话。
+``body`` :ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或\ :ref:`TileMap<class_TileMap>`\ 的\ :ref:`Node<class_Node>`，如果它在树上存在的话。
 
-``body_shape_index`` :ref:`Physics2DServer<class_Physics2DServer>`\ 使用的:ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或:ref:`TileMap<class_TileMap>`\ 的:ref:`Shape2D<class_Shape2D>`\ 的索引。用``body.shape_owner_get_owner(body_shape_index)``\ 获得:ref:`CollisionShape2D<class_CollisionShape2D>`\ 节点。
+``body_shape_index`` :ref:`Physics2DServer<class_Physics2DServer>`\ 使用的\ :ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或\ :ref:`TileMap<class_TileMap>`\ 的\ :ref:`Shape2D<class_Shape2D>`\ 的索引。用\ ``body.shape_owner_get_owner(body_shape_index)``\ 获得\ :ref:`CollisionShape2D<class_CollisionShape2D>`\ 节点。
 
-``local_shape_index``\ 此Area2D的:ref:`Shape2D<class_Shape2D>`\ 的索引，由:ref:`Physics2DServer<class_Physics2DServer>`\ 使用。用``self.shape_owner_get_owner(local_shape_index)``\ 获得:ref:`CollisionShape2D<class_CollisionShape2D>`\ 节点。
+``local_shape_index``\ 此Area2D的\ :ref:`Shape2D<class_Shape2D>`\ 的索引，由\ :ref:`Physics2DServer<class_Physics2DServer>`\ 使用。用\ ``self.shape_owner_get_owner(local_shape_index)``\ 获得\ :ref:`CollisionShape2D<class_CollisionShape2D>`\ 节点。
 
 ----
 
@@ -160,15 +160,15 @@ Signals
 
 - **body_shape_exited** **(** :ref:`RID<class_RID>` body_rid, :ref:`Node<class_Node>` body, :ref:`int<class_int>` body_shape_index, :ref:`int<class_int>` local_shape_index **)**
 
-当:ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或:ref:`TileMap<class_TileMap>`\ 的一个:ref:`Shape2D<class_Shape2D>`\ 退出这个Area2D的一个:ref:`Shape2D<class_Shape2D>`\ 时发出的。需要将:ref:`monitoring<class_Area2D_property_monitoring>`\ 设置为``true``。如果:ref:`TileSet<class_TileSet>`\ 有碰撞:ref:`Shape2D<class_Shape2D>`，就会检测到:ref:`TileMap<class_TileMap>`。
+当\ :ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或\ :ref:`TileMap<class_TileMap>`\ 的一个\ :ref:`Shape2D<class_Shape2D>`\ 退出这个Area2D的一个\ :ref:`Shape2D<class_Shape2D>`\ 时发出的。需要将\ :ref:`monitoring<class_Area2D_property_monitoring>`\ 设置为\ ``true``。如果\ :ref:`TileSet<class_TileSet>`\ 有碰撞\ :ref:`Shape2D<class_Shape2D>`，就会检测到\ :ref:`TileMap<class_TileMap>`。
 
-``body_rid`` 是:ref:`Physics2DServer<class_Physics2DServer>`\ 使用的:ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或:ref:`TileSet<class_TileSet>`\ 的:ref:`CollisionObject2D<class_CollisionObject2D>`\ 的:ref:`RID<class_RID>`。
+``body_rid`` 是\ :ref:`Physics2DServer<class_Physics2DServer>`\ 使用的\ :ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或\ :ref:`TileSet<class_TileSet>`\ 的\ :ref:`CollisionObject2D<class_CollisionObject2D>`\ 的\ :ref:`RID<class_RID>`。
 
-``body`` :ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或:ref:`TileMap<class_TileMap>`\ 的:ref:`Node<class_Node>`，如果它在树上存在的话。
+``body`` :ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或\ :ref:`TileMap<class_TileMap>`\ 的\ :ref:`Node<class_Node>`，如果它在树上存在的话。
 
-``body_shape_index`` :ref:`Physics2DServer<class_Physics2DServer>`\ 使用的:ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或:ref:`TileMap<class_TileMap>`\ 的:ref:`Shape2D<class_Shape2D>`\ 的索引。用``body.shape_owner_get_owner(body_shape_index)``\ 获取:ref:`CollisionShape2D<class_CollisionShape2D>`\ 节点。
+``body_shape_index`` :ref:`Physics2DServer<class_Physics2DServer>`\ 使用的\ :ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或\ :ref:`TileMap<class_TileMap>`\ 的\ :ref:`Shape2D<class_Shape2D>`\ 的索引。用\ ``body.shape_owner_get_owner(body_shape_index)``\ 获取\ :ref:`CollisionShape2D<class_CollisionShape2D>`\ 节点。
 
-``local_shape_index``\ 此Area2D的:ref:`Shape2D<class_Shape2D>`\ 的索引，由:ref:`Physics2DServer<class_Physics2DServer>`\ 使用。用``self.shape_owner_get_owner(local_shape_index)``\ 获取:ref:`CollisionShape2D<class_CollisionShape2D>`\ 节点。
+``local_shape_index``\ 此Area2D的\ :ref:`Shape2D<class_Shape2D>`\ 的索引，由\ :ref:`Physics2DServer<class_Physics2DServer>`\ 使用。用\ ``self.shape_owner_get_owner(local_shape_index)``\ 获取\ :ref:`CollisionShape2D<class_CollisionShape2D>`\ 节点。
 
 Enumerations
 ------------
@@ -392,7 +392,7 @@ Property Descriptions
 | *Getter*  | get_space_override_mode()      |
 +-----------+--------------------------------+
 
-该区域内重力和阻尼计算的覆盖模式。可能的值见:ref:`SpaceOverride<enum_Area2D_SpaceOverride>`。
+该区域内重力和阻尼计算的覆盖模式。可能的值见\ :ref:`SpaceOverride<enum_Area2D_SpaceOverride>`。
 
 Method Descriptions
 -------------------
@@ -423,7 +423,7 @@ Method Descriptions
 
 如果 ``true``，则给定区域与该区域重叠。
 
-**注意：**在移动物体后，这个测试的结果不是即时的。为了性能，重叠列表在每一帧和物理步骤之前更新一次。可以考虑用信号代替。
+**注意：**\ 在移动物体后，这个测试的结果不是即时的。为了性能，重叠列表在每一帧和物理步骤之前更新一次。可以考虑用信号代替。
 
 ----
 
@@ -431,11 +431,11 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **overlaps_body** **(** :ref:`Node<class_Node>` body **)** |const|
 
-如果``true``，给定的物理体就与Area2D发生重叠。
+如果\ ``true``，给定的物理体就与Area2D发生重叠。
 
-**注意：**在移动物体后，这个测试的结果不是即时的。为了性能，重叠列表在每一帧和物理步骤之前更新一次。可以考虑使用信号来代替。
+**注意：**\ 在移动物体后，这个测试的结果不是即时的。为了性能，重叠列表在每一帧和物理步骤之前更新一次。可以考虑使用信号来代替。
 
-``body``\ 参数可以是一个:ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或一个:ref:`TileMap<class_TileMap>`\ 实例（虽然TileMaps本身不是物理体，但它们用碰撞形状注册它们的瓦片作为一个虚拟物理体）。
+``body``\ 参数可以是一个\ :ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或一个\ :ref:`TileMap<class_TileMap>`\ 实例（虽然TileMaps本身不是物理体，但它们用碰撞形状注册它们的瓦片作为一个虚拟物理体）。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

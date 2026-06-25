@@ -53,7 +53,7 @@ Property Descriptions
 
 允许你根据你的游戏的单位来调整比例。大多数AR/VR平台假定1个游戏世界的单位=1个现实世界的米的比例。
 
-**注意：**这种方法是通过:ref:`ARVRServer<class_ARVRServer>`\ 本身的。
+**注意：**\ 这种方法是通过\ :ref:`ARVRServer<class_ARVRServer>`\ 本身的。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

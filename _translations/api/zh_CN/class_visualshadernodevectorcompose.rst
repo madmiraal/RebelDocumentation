@@ -11,12 +11,12 @@ VisualShaderNodeVectorCompose
 
 **Inherits:** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
 
-从可视化着色器图中的三个标量组成一个:ref:`Vector3<class_Vector3>`。
+从可视化着色器图中的三个标量组成一个\ :ref:`Vector3<class_Vector3>`。
 
 Description
 -----------
 
-使用三个标量值创建一个``vec3``，这些标量值可以由单独的输入提供。
+使用三个标量值创建一个\ ``vec3``，这些标量值可以由单独的输入提供。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

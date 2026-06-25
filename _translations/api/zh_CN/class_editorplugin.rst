@@ -16,7 +16,7 @@ EditorPlugin
 Description
 -----------
 
-编辑器使用插件来扩展功能。最常见的插件类型是编辑给定的节点或资源类型、导入插件和导出插件。另请参阅:ref:`EditorScript<class_EditorScript>`\ 向编辑器添加函数。
+编辑器使用插件来扩展功能。最常见的插件类型是编辑给定的节点或资源类型、导入插件和导出插件。另请参阅\ :ref:`EditorScript<class_EditorScript>`\ 向编辑器添加函数。
 
 Tutorials
 ---------
@@ -159,7 +159,7 @@ Signals
 
 - **scene_changed** **(** :ref:`Node<class_Node>` scene_root **)**
 
-在编辑器中更改场景时触发。该参数将返回刚刚变为活动状态的场景的根节点。如果此场景是新场景且为空，则参数将为``null``。
+在编辑器中更改场景时触发。该参数将返回刚刚变为活动状态的场景的根节点。如果此场景是新场景且为空，则参数将为\ ``null``。
 
 ----
 
@@ -264,7 +264,7 @@ enum **DockSlot**:
 
 - **DOCK_SLOT_RIGHT_BR** = **7**
 
-- **DOCK_SLOT_MAX** = **8** --- 表示:ref:`DockSlot<enum_EditorPlugin_DockSlot>`\ 枚举的大小。
+- **DOCK_SLOT_MAX** = **8** --- 表示\ :ref:`DockSlot<enum_EditorPlugin_DockSlot>`\ 枚举的大小。
 
 Method Descriptions
 -------------------
@@ -281,7 +281,7 @@ Method Descriptions
 
 - :ref:`ToolButton<class_ToolButton>` **add_control_to_bottom_panel** **(** :ref:`Control<class_Control>` control, :ref:`String<class_String>` title **)**
 
-将控件添加到底部面板（以及“输出”，“调试”，“动画”等）。返回对添加的按钮的引用。您可以根据需要隐藏/显示按钮。停用插件后，请确保使用:ref:`remove_control_from_bottom_panel<class_EditorPlugin_method_remove_control_from_bottom_panel>`\ 删除自定义控件，并使用:ref:`Node.queue_free<class_Node_method_queue_free>`\ 释放它。
+将控件添加到底部面板（以及“输出”，“调试”，“动画”等）。返回对添加的按钮的引用。您可以根据需要隐藏/显示按钮。停用插件后，请确保使用\ :ref:`remove_control_from_bottom_panel<class_EditorPlugin_method_remove_control_from_bottom_panel>`\ 删除自定义控件，并使用\ :ref:`Node.queue_free<class_Node_method_queue_free>`\ 释放它。
 
 ----
 
@@ -289,11 +289,11 @@ Method Descriptions
 
 - void **add_control_to_container** **(** :ref:`CustomControlContainer<enum_EditorPlugin_CustomControlContainer>` container, :ref:`Control<class_Control>` control **)**
 
-将自定义控件添加到容器中（参阅:ref:`CustomControlContainer<enum_EditorPlugin_CustomControlContainer>`）。在编辑器用户界面中，有许多位置可以添加自定义控件，请记住，您必须自己管理您的自定义控件的可见性（并且很可能在添加后隐藏它）。
+将自定义控件添加到容器中（参阅\ :ref:`CustomControlContainer<enum_EditorPlugin_CustomControlContainer>`）。在编辑器用户界面中，有许多位置可以添加自定义控件，请记住，您必须自己管理您的自定义控件的可见性（并且很可能在添加后隐藏它）。
 
 请记住，您必须自己管理您的自定义控件的可见性（并且很可能在添加后隐藏它）。
 
-当你的插件停用时，请确保使用:ref:`remove_control_from_container<class_EditorPlugin_method_remove_control_from_container>`\ 删除你的自定义控件，并使用:ref:`Node.queue_free<class_Node_method_queue_free>`\ 释放它。
+当你的插件停用时，请确保使用\ :ref:`remove_control_from_container<class_EditorPlugin_method_remove_control_from_container>`\ 删除你的自定义控件，并使用\ :ref:`Node.queue_free<class_Node_method_queue_free>`\ 释放它。
 
 ----
 
@@ -301,11 +301,11 @@ Method Descriptions
 
 - void **add_control_to_dock** **(** :ref:`DockSlot<enum_EditorPlugin_DockSlot>` slot, :ref:`Control<class_Control>` control **)**
 
-将控件添加到特定的停靠面板（有关选项，请参阅:ref:`DockSlot<enum_EditorPlugin_DockSlot>`）。
+将控件添加到特定的停靠面板（有关选项，请参阅\ :ref:`DockSlot<enum_EditorPlugin_DockSlot>`）。
 
 如果重新放置了停靠面板，并且只要插件处于活动状态，编辑器就会在以后的会话中保存停靠面板的位置。
 
-停用插件后，请确保使用:ref:`remove_control_from_docks<class_EditorPlugin_method_remove_control_from_docks>`\ 删除自定义控件，并使用:ref:`Node.queue_free<class_Node_method_queue_free>`\ 释放它。
+停用插件后，请确保使用\ :ref:`remove_control_from_docks<class_EditorPlugin_method_remove_control_from_docks>`\ 删除自定义控件，并使用\ :ref:`Node.queue_free<class_Node_method_queue_free>`\ 释放它。
 
 ----
 
@@ -349,7 +349,7 @@ Method Descriptions
 
 - void **add_inspector_plugin** **(** :ref:`EditorInspectorPlugin<class_EditorInspectorPlugin>` plugin **)**
 
-注册一个新的编辑器属性检查器插件:ref:`EditorInspectorPlugin<class_EditorInspectorPlugin>`。检查器插件用于扩展 :ref:`EditorInspector<class_EditorInspector>` 并为你的对象属性提供自定义配置工具。
+注册一个新的编辑器属性检查器插件\ :ref:`EditorInspectorPlugin<class_EditorInspectorPlugin>`。检查器插件用于扩展 :ref:`EditorInspector<class_EditorInspector>` 并为你的对象属性提供自定义配置工具。
 
 **注意：** 当你的 ``EditorPlugin`` 被禁用时，一定要使用 :ref:`remove_inspector_plugin<class_EditorPlugin_method_remove_inspector_plugin>` 来删除注册的 :ref:`EditorInspectorPlugin<class_EditorInspectorPlugin>`，以防止泄漏和出现意外行为。
 
@@ -388,7 +388,7 @@ Method Descriptions
 
 - void **add_tool_menu_item** **(** :ref:`String<class_String>` name, :ref:`Object<class_Object>` handler, :ref:`String<class_String>` callback, :ref:`Variant<class_Variant>` ud=null **)**
 
-在**项目 > 工具**中添加一个自定义菜单项，作为``name``，当用户激活它时，该菜单项将调用``callback``\ 参数为``ud``\ 的``handler``\ 实例。
+在\ **项目 > 工具**\ 中添加一个自定义菜单项，作为\ ``name``，当用户激活它时，该菜单项将调用\ ``callback``\ 参数为\ ``ud``\ 的\ ``handler``\ 实例。
 
 ----
 
@@ -396,7 +396,7 @@ Method Descriptions
 
 - void **add_tool_submenu_item** **(** :ref:`String<class_String>` name, :ref:`Object<class_Object>` submenu **)**
 
-在**项目>工具>** ``name``\ 下添加自定义子菜单。 ``submenu``\ 应该是:ref:`PopupMenu<class_PopupMenu>`\ 类的对象。此子菜单应使用``remove_tool_menu_item（name）``\ 进行清理。
+在\ **项目>工具>** ``name``\ 下添加自定义子菜单。 ``submenu``\ 应该是\ :ref:`PopupMenu<class_PopupMenu>`\ 类的对象。此子菜单应使用\ ``remove_tool_menu_item（name）``\ 进行清理。
 
 ----
 
@@ -416,7 +416,7 @@ Method Descriptions
 
 这个方法在编辑器即将运行项目时被调用。然后，该插件可以在项目运行前执行所需的操作。
 
-这个方法必须返回一个布尔值。如果这个方法返回 ``false``，项目将不会运行。运行被立即中止，所以这也会阻止所有其他插件的:ref:`build<class_EditorPlugin_method_build>` 方法运行。
+这个方法必须返回一个布尔值。如果这个方法返回 ``false``，项目将不会运行。运行被立即中止，所以这也会阻止所有其他插件的\ :ref:`build<class_EditorPlugin_method_build>` 方法运行。
 
 ----
 
@@ -432,7 +432,7 @@ Method Descriptions
 
 - void **disable_plugin** **(** **)** |virtual|
 
-当用户在项目设置窗口的插件选项卡中禁用``EditorPlugin``\ 时，由引擎调用。
+当用户在项目设置窗口的插件选项卡中禁用\ ``EditorPlugin``\ 时，由引擎调用。
 
 ----
 
@@ -448,7 +448,7 @@ Method Descriptions
 
 - void **enable_plugin** **(** **)** |virtual|
 
-当用户在项目设置窗口的插件选项卡中启用``EditorPlugin``\ 时，由引擎调用。
+当用户在项目设置窗口的插件选项卡中启用\ ``EditorPlugin``\ 时，由引擎调用。
 
 ----
 
@@ -487,7 +487,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **forward_canvas_gui_input** **(** :ref:`InputEvent<class_InputEvent>` event **)** |virtual|
 
-当当前编辑场景中有一个根节点时被调用，:ref:`handles<class_EditorPlugin_method_handles>`\ 实现，在2D视窗中发生按键输入:ref:`InputEvent<class_InputEvent>`。拦截按键输入:ref:`InputEvent<class_InputEvent>`，如果``return true`` ``EditorPlugin``\ 消耗键值``event``，否则将键值``event``\ 转发给其他Editor类。例子:
+当当前编辑场景中有一个根节点时被调用，:ref:`handles<class_EditorPlugin_method_handles>`\ 实现，在2D视窗中发生按键输入\ :ref:`InputEvent<class_InputEvent>`。拦截按键输入\ :ref:`InputEvent<class_InputEvent>`，如果\ ``return true`` ``EditorPlugin``\ 消耗键值\ ``event``，否则将键值\ ``event``\ 转发给其他Editor类。例子:
 
 ::
 
@@ -544,7 +544,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **forward_spatial_gui_input** **(** :ref:`Camera<class_Camera>` camera, :ref:`InputEvent<class_InputEvent>` event **)** |virtual|
 
-在当前编辑的场景中存在根节点时调用，实现:ref:`handles<class_EditorPlugin_method_handles>`\ 并在3D视窗中发生按键输入:ref:`InputEvent<class_InputEvent>`。拦截按键输入:ref:`InputEvent<class_InputEvent>`，如果``return true``，则``EditorPlugin``\ 会使用键值``event``，否则将键值``event``\ 转发到其他Editor类。例子：
+在当前编辑的场景中存在根节点时调用，实现\ :ref:`handles<class_EditorPlugin_method_handles>`\ 并在3D视窗中发生按键输入\ :ref:`InputEvent<class_InputEvent>`。拦截按键输入\ :ref:`InputEvent<class_InputEvent>`，如果\ ``return true``，则\ ``EditorPlugin``\ 会使用键值\ ``event``，否则将键值\ ``event``\ 转发到其他Editor类。例子：
 
 ::
 
@@ -644,7 +644,7 @@ For main screen plugins, this appears at the top of the screen, to the right of 
 
 - void **get_window_layout** **(** :ref:`ConfigFile<class_ConfigFile>` layout **)** |virtual|
 
-获取插件的GUI布局。当调用:ref:`queue_save_layout<class_EditorPlugin_method_queue_save_layout>`\ 更改了编辑器布局（例如，更改停靠点的位置）时或保存项目的编辑器布局。
+获取插件的GUI布局。当调用\ :ref:`queue_save_layout<class_EditorPlugin_method_queue_save_layout>`\ 更改了编辑器布局（例如，更改停靠点的位置）时或保存项目的编辑器布局。
 
 ----
 
@@ -660,7 +660,7 @@ For main screen plugins, this appears at the top of the screen, to the right of 
 
 - :ref:`bool<class_bool>` **has_main_screen** **(** **)** |virtual|
 
-如果这是一个主屏幕编辑插件，返回``true``\ (它与**2D**、**3D**、**Script**和**AssetLib**一起放在工作区选择器中)。
+如果这是一个主屏幕编辑插件，返回\ ``true``\ (它与\ **2D**、**3D**、**Script**\ 和\ **AssetLib**\ 一起放在工作区选择器中)。
 
 ----
 
@@ -702,7 +702,7 @@ For main screen plugins, this appears at the top of the screen, to the right of 
 
 - void **remove_autoload_singleton** **(** :ref:`String<class_String>` name **)**
 
-从列表中删除自动加载``name``。
+从列表中删除自动加载\ ``name``。
 
 ----
 
@@ -710,7 +710,7 @@ For main screen plugins, this appears at the top of the screen, to the right of 
 
 - void **remove_control_from_bottom_panel** **(** :ref:`Control<class_Control>` control **)**
 
-从底部面板上删除控件。您必须手动:ref:`Node.queue_free<class_Node_method_queue_free>`\ 释放控件。
+从底部面板上删除控件。您必须手动\ :ref:`Node.queue_free<class_Node_method_queue_free>`\ 释放控件。
 
 ----
 
@@ -718,7 +718,7 @@ For main screen plugins, this appears at the top of the screen, to the right of 
 
 - void **remove_control_from_container** **(** :ref:`CustomControlContainer<enum_EditorPlugin_CustomControlContainer>` container, :ref:`Control<class_Control>` control **)**
 
-从指定的容器中删除控件。您必须手动:ref:`Node.queue_free<class_Node_method_queue_free>`\ 释放控件。
+从指定的容器中删除控件。您必须手动\ :ref:`Node.queue_free<class_Node_method_queue_free>`\ 释放控件。
 
 ----
 
@@ -726,7 +726,7 @@ For main screen plugins, this appears at the top of the screen, to the right of 
 
 - void **remove_control_from_docks** **(** :ref:`Control<class_Control>` control **)**
 
-从扩展面板中删除控件。您必须手动:ref:`Node.queue_free<class_Node_method_queue_free>`\ 释放控件。
+从扩展面板中删除控件。您必须手动\ :ref:`Node.queue_free<class_Node_method_queue_free>`\ 释放控件。
 
 ----
 
@@ -782,7 +782,7 @@ For main screen plugins, this appears at the top of the screen, to the right of 
 
 - void **remove_tool_menu_item** **(** :ref:`String<class_String>` name **)**
 
-从**项目 > 工具**中删除菜单``name``。
+从\ **项目 > 工具**\ 中删除菜单\ ``name``。
 
 ----
 
@@ -806,7 +806,7 @@ For main screen plugins, this appears at the top of the screen, to the right of 
 
 - void **set_input_event_forwarding_always_enabled** **(** **)**
 
-如果你想在:ref:`forward_spatial_gui_input<class_EditorPlugin_method_forward_spatial_gui_input>`\ 里面接收来自3D视图屏幕的输入，请使用这个方法。如果你的插件想要在场景中使用光线广播，那么这个方法可能特别有用。
+如果你想在\ :ref:`forward_spatial_gui_input<class_EditorPlugin_method_forward_spatial_gui_input>`\ 里面接收来自3D视图屏幕的输入，请使用这个方法。如果你的插件想要在场景中使用光线广播，那么这个方法可能特别有用。
 
 ----
 
@@ -814,7 +814,7 @@ For main screen plugins, this appears at the top of the screen, to the right of 
 
 - void **set_state** **(** :ref:`Dictionary<class_Dictionary>` state **)** |virtual|
 
-恢复:ref:`get_state<class_EditorPlugin_method_get_state>`\ 保存的状态。
+恢复\ :ref:`get_state<class_EditorPlugin_method_get_state>`\ 保存的状态。
 
 ----
 
@@ -822,7 +822,7 @@ For main screen plugins, this appears at the top of the screen, to the right of 
 
 - void **set_window_layout** **(** :ref:`ConfigFile<class_ConfigFile>` layout **)** |virtual|
 
-恢复:ref:`get_window_layout<class_EditorPlugin_method_get_window_layout>`\ 保存的插件GUI布局。
+恢复\ :ref:`get_window_layout<class_EditorPlugin_method_get_window_layout>`\ 保存的插件GUI布局。
 
 ----
 

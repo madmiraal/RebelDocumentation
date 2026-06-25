@@ -11,12 +11,12 @@ VisualScriptPreload
 
 **Inherits:** :ref:`VisualScriptNode<class_VisualScriptNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
 
-创建新的:ref:`Resource<class_Resource>`\ 或从文件系统加载一个。
+创建新的\ :ref:`Resource<class_Resource>`\ 或从文件系统加载一个。
 
 Description
 -----------
 
-创建新的:ref:`Resource<class_Resource>`\ 或从文件系统加载一个。
+创建新的\ :ref:`Resource<class_Resource>`\ 或从文件系统加载一个。
 
 **Input Ports:**
 
@@ -46,7 +46,7 @@ Property Descriptions
 | *Getter* | get_preload()      |
 +----------+--------------------+
 
-要加载的:ref:`Resource<class_Resource>`\ 资源。
+要加载的\ :ref:`Resource<class_Resource>`\ 资源。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

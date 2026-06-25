@@ -11,7 +11,7 @@ Label
 
 **Inherits:** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-在一行中显示纯文本，或在一个矩形内包裹。对于格式化的文本，使用:ref:`RichTextLabel<class_RichTextLabel>`。
+在一行中显示纯文本，或在一个矩形内包裹。对于格式化的文本，使用\ :ref:`RichTextLabel<class_RichTextLabel>`。
 
 Description
 -----------
@@ -147,7 +147,7 @@ Property Descriptions
 | *Getter*  | get_align()      |
 +-----------+------------------+
 
-控制文本的水平对齐。支持左对齐、居中对齐、右对齐和填充，或者两端对齐。把它设置为:ref:`Align<enum_Label_Align>`\ 常量之一。
+控制文本的水平对齐。支持左对齐、居中对齐、右对齐和填充，或者两端对齐。把它设置为\ :ref:`Align<enum_Label_Align>`\ 常量之一。
 
 ----
 
@@ -163,7 +163,7 @@ Property Descriptions
 | *Getter*  | has_autowrap()      |
 +-----------+---------------------+
 
-如果``true``，则将文本包裹在节点的边界矩形内。如果你调整节点的大小，它将自动改变其高度以显示所有的文本。
+如果\ ``true``，则将文本包裹在节点的边界矩形内。如果你调整节点的大小，它将自动改变其高度以显示所有的文本。
 
 ----
 
@@ -227,7 +227,7 @@ Property Descriptions
 | *Getter*  | get_percent_visible()      |
 +-----------+----------------------------+
 
-限制可见字符的数量。如果你把``%_visible``\ 设置为0.5，屏幕上最多只能显示文本的一半字符。这在对话框中对文本进行动画处理很有用。
+限制可见字符的数量。如果你把\ ``%_visible``\ 设置为0.5，屏幕上最多只能显示文本的一半字符。这在对话框中对文本进行动画处理很有用。
 
 ----
 
@@ -275,7 +275,7 @@ Property Descriptions
 | *Getter*  | get_valign()      |
 +-----------+-------------------+
 
-控制文本的垂直对齐。支持顶部、中心、底部和填充。参阅:ref:`VAlign<enum_Label_VAlign>`\ 常数。
+控制文本的垂直对齐。支持顶部、中心、底部和填充。参阅\ :ref:`VAlign<enum_Label_VAlign>`\ 常数。
 
 ----
 
@@ -324,7 +324,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_visible_line_count** **(** **)** |const|
 
-返回显示的行数。如果``Label``\ 的高度目前无法显示所有的行数，将会有用。
+返回显示的行数。如果\ ``Label``\ 的高度目前无法显示所有的行数，将会有用。
 
 Theme Property Descriptions
 ---------------------------
@@ -337,7 +337,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 1, 1, 1, 1 )`` |
 +-----------+-------------------------+
 
-``Label``\ 标签的默认文本颜色:ref:`Color<class_Color>`。
+``Label``\ 标签的默认文本颜色\ :ref:`Color<class_Color>`。
 
 ----
 
@@ -349,7 +349,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 0, 0, 0, 0 )`` |
 +-----------+-------------------------+
 
-文本阴影效果的颜色:ref:`Color<class_Color>`。
+文本阴影效果的颜色\ :ref:`Color<class_Color>`。
 
 ----
 
@@ -361,7 +361,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 1, 1, 1, 1 )`` |
 +-----------+-------------------------+
 
-:ref:`Font<class_Font>`\ 轮廓的色调。参阅:ref:`DynamicFont.outline_color<class_DynamicFont_property_outline_color>`。
+:ref:`Font<class_Font>`\ 轮廓的色调。参阅\ :ref:`DynamicFont.outline_color<class_DynamicFont_property_outline_color>`。
 
 ----
 
@@ -373,7 +373,7 @@ Theme Property Descriptions
 | *Default* | ``3`` |
 +-----------+-------+
 
-多行``Label``\ 中各行之间的垂直空间。
+多行\ ``Label``\ 中各行之间的垂直空间。
 
 ----
 
@@ -385,7 +385,7 @@ Theme Property Descriptions
 | *Default* | ``0`` |
 +-----------+-------+
 
-布尔值。如果设置为1，即``true``，整个文本周围显示阴影轮廓。
+布尔值。如果设置为1，即\ ``true``，整个文本周围显示阴影轮廓。
 
 ----
 
@@ -417,7 +417,7 @@ Theme Property Descriptions
 
 - :ref:`Font<class_Font>` **font**
 
-用于标签``Label``\ 文本的字体:ref:`Font<class_Font>`。
+用于标签\ ``Label``\ 文本的字体\ :ref:`Font<class_Font>`。
 
 ----
 
@@ -425,7 +425,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **normal**
 
-为``Label``\ 设置背景样式:ref:`StyleBox<class_StyleBox>`。
+为\ ``Label``\ 设置背景样式\ :ref:`StyleBox<class_StyleBox>`。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`
