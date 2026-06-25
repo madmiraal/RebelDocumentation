@@ -145,7 +145,7 @@ Property Descriptions
 | *Getter*  | get_stretch_mode()      |
 +-----------+-------------------------+
 
-控制纹理在你调整节点的边界矩形时的行为，**只有在**:ref:`expand<class_TextureButton_property_expand>` 为 ``true`` 的情况下。把它设置为 :ref:`StretchMode<enum_TextureButton_StretchMode>` 常量之一。请看常量来了解更多。
+控制纹理在你调整节点的边界矩形时的行为，**只有在**\ :ref:`expand<class_TextureButton_property_expand>` 为 ``true`` 的情况下。把它设置为 :ref:`StretchMode<enum_TextureButton_StretchMode>` 常量之一。请看常量来了解更多。
 
 ----
 
@@ -159,7 +159,7 @@ Property Descriptions
 | *Getter* | get_click_mask()      |
 +----------+-----------------------+
 
-用于点击检测的纯黑白:ref:`BitMap<class_BitMap>`\ 图像。在遮罩上，白色像素代表按钮的可点击区域。可用它来创建具有弯曲形状的按钮。
+用于点击检测的纯黑白\ :ref:`BitMap<class_BitMap>`\ 图像。在遮罩上，白色像素代表按钮的可点击区域。可用它来创建具有弯曲形状的按钮。
 
 ----
 
@@ -173,7 +173,7 @@ Property Descriptions
 | *Getter* | get_disabled_texture()      |
 +----------+-----------------------------+
 
-节点被禁用时显示的纹理。参阅:ref:`BaseButton.disabled<class_BaseButton_property_disabled>`。
+节点被禁用时显示的纹理。参阅\ :ref:`BaseButton.disabled<class_BaseButton_property_disabled>`。
 
 ----
 
@@ -215,7 +215,7 @@ Property Descriptions
 | *Getter* | get_normal_texture()      |
 +----------+---------------------------+
 
-节点**不处于**禁用、聚焦、悬停、按下状态时，默认显示的纹理。
+节点\ **不处于**\ 禁用、聚焦、悬停、按下状态时，默认显示的纹理。
 
 ----
 

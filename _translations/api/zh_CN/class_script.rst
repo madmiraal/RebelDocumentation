@@ -20,7 +20,7 @@ Description
 
 一个存储为资源的类。用脚本扩展所有以它为实例的对象的功能。
 
-脚本子类的``new``\ 方法创建一个新的实例。如果一个现有的对象的类与脚本的基类之一相匹配，:ref:`Object.set_script<class_Object_method_set_script>` 会扩展该对象。
+脚本子类的\ ``new``\ 方法创建一个新的实例。如果一个现有的对象的类与脚本的基类之一相匹配，:ref:`Object.set_script<class_Object_method_set_script>` 会扩展该对象。
 
 Tutorials
 ---------

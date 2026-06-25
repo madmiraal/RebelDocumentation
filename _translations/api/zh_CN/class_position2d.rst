@@ -16,7 +16,7 @@ Position2D
 Description
 -----------
 
-用于编辑的通用2D位置提示。它就像一个普通的:ref:`Node2D<class_Node2D>`，但它在2D编辑器中始终显示为一个十字。选择节点时，可以使用2D编辑器中的小控件来设置十字的视觉大小。
+用于编辑的通用2D位置提示。它就像一个普通的\ :ref:`Node2D<class_Node2D>`，但它在2D编辑器中始终显示为一个十字。选择节点时，可以使用2D编辑器中的小控件来设置十字的视觉大小。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

@@ -16,7 +16,7 @@ RayShape
 Description
 -----------
 
-用于3D碰撞的射线形状，它可以被设置成一个:ref:`PhysicsBody<class_PhysicsBody>`\ 或:ref:`Area<class_Area>`。一条射线并不是真正的碰撞体；然而，它试图将自己与其远端点接触的东西分开。这通常对角色很有用。
+用于3D碰撞的射线形状，它可以被设置成一个\ :ref:`PhysicsBody<class_PhysicsBody>`\ 或\ :ref:`Area<class_Area>`。一条射线并不是真正的碰撞体；然而，它试图将自己与其远端点接触的东西分开。这通常对角色很有用。
 
 Properties
 ----------

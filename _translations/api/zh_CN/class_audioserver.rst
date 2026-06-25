@@ -126,7 +126,7 @@ Signals
 
 - **bus_layout_changed** **(** **)**
 
-当:ref:`AudioBusLayout<class_AudioBusLayout>`\ 改变时发出。
+当\ :ref:`AudioBusLayout<class_AudioBusLayout>`\ 改变时发出。
 
 Enumerations
 ------------
@@ -198,7 +198,7 @@ Name of the current device for audio output (see :ref:`get_device_list<class_Aud
 | *Getter*  | get_global_rate_scale()      |
 +-----------+------------------------------+
 
-缩放播放音频的速率（即将其设置为``0.5``\ 将使音频播放速度提高一倍）。
+缩放播放音频的速率（即将其设置为\ ``0.5``\ 将使音频播放速度提高一倍）。
 
 Method Descriptions
 -------------------
@@ -207,7 +207,7 @@ Method Descriptions
 
 - void **add_bus** **(** :ref:`int<class_int>` at_position=-1 **)**
 
-在``at_position``\ 处添加一条总线。
+在\ ``at_position``\ 处添加一条总线。
 
 ----
 
@@ -215,7 +215,7 @@ Method Descriptions
 
 - void **add_bus_effect** **(** :ref:`int<class_int>` bus_idx, :ref:`AudioEffect<class_AudioEffect>` effect, :ref:`int<class_int>` at_position=-1 **)**
 
-在``bus_idx``\ at``at_position``\ 处给总线添加:ref:`AudioEffect<class_AudioEffect>`\ 效果。
+在\ ``bus_idx``\ at\ ``at_position``\ 处给总线添加\ :ref:`AudioEffect<class_AudioEffect>`\ 效果。
 
 ----
 
@@ -247,7 +247,7 @@ Sets which audio input device is used for audio capture. On systems with multipl
 
 - :ref:`AudioBusLayout<class_AudioBusLayout>` **generate_bus_layout** **(** **)** |const|
 
-使用可用的总线和效果生成:ref:`AudioBusLayout<class_AudioBusLayout>`。
+使用可用的总线和效果生成\ :ref:`AudioBusLayout<class_AudioBusLayout>`。
 
 ----
 
@@ -255,7 +255,7 @@ Sets which audio input device is used for audio capture. On systems with multipl
 
 - :ref:`int<class_int>` **get_bus_channels** **(** :ref:`int<class_int>` bus_idx **)** |const|
 
-返回索引为``bus_idx``\ 的总线通道数。
+返回索引为\ ``bus_idx``\ 的总线通道数。
 
 ----
 
@@ -271,7 +271,7 @@ Sets which audio input device is used for audio capture. On systems with multipl
 
 - :ref:`int<class_int>` **get_bus_effect_count** **(** :ref:`int<class_int>` bus_idx **)**
 
-返回``bus_idx``\ 处总线上的效果数。
+返回\ ``bus_idx``\ 处总线上的效果数。
 
 ----
 
@@ -279,7 +279,7 @@ Sets which audio input device is used for audio capture. On systems with multipl
 
 - :ref:`AudioEffectInstance<class_AudioEffectInstance>` **get_bus_effect_instance** **(** :ref:`int<class_int>` bus_idx, :ref:`int<class_int>` effect_idx, :ref:`int<class_int>` channel=0 **)**
 
-返回分配给给定总线和效果指数（以及可选的通道）的:ref:`AudioEffectInstance<class_AudioEffectInstance>`。
+返回分配给给定总线和效果指数（以及可选的通道）的\ :ref:`AudioEffectInstance<class_AudioEffectInstance>`。
 
 ----
 
@@ -287,7 +287,7 @@ Sets which audio input device is used for audio capture. On systems with multipl
 
 - :ref:`int<class_int>` **get_bus_index** **(** :ref:`String<class_String>` bus_name **)** |const|
 
-返回名称为``bus_name``\ 的总线的索引。
+返回名称为\ ``bus_name``\ 的总线的索引。
 
 ----
 
@@ -303,7 +303,7 @@ Sets which audio input device is used for audio capture. On systems with multipl
 
 - :ref:`float<class_float>` **get_bus_peak_volume_left_db** **(** :ref:`int<class_int>` bus_idx, :ref:`int<class_int>` channel **)** |const|
 
-返回总线索引``bus_idx``\ 和通道索引``channel``\ 处左扬声器的峰值音量。
+返回总线索引\ ``bus_idx``\ 和通道索引\ ``channel``\ 处左扬声器的峰值音量。
 
 ----
 
@@ -311,7 +311,7 @@ Sets which audio input device is used for audio capture. On systems with multipl
 
 - :ref:`float<class_float>` **get_bus_peak_volume_right_db** **(** :ref:`int<class_int>` bus_idx, :ref:`int<class_int>` channel **)** |const|
 
-返回总线索引``bus_idx``\ 和通道索引``channel``\ 处右扬声器的峰值音量。
+返回总线索引\ ``bus_idx``\ 和通道索引\ ``channel``\ 处右扬声器的峰值音量。
 
 ----
 
@@ -319,7 +319,7 @@ Sets which audio input device is used for audio capture. On systems with multipl
 
 - :ref:`String<class_String>` **get_bus_send** **(** :ref:`int<class_int>` bus_idx **)** |const|
 
-返回位于索引``bus_idx``\ 处的总线所发送的总线名称。
+返回位于索引\ ``bus_idx``\ 处的总线所发送的总线名称。
 
 ----
 
@@ -327,7 +327,7 @@ Sets which audio input device is used for audio capture. On systems with multipl
 
 - :ref:`float<class_float>` **get_bus_volume_db** **(** :ref:`int<class_int>` bus_idx **)** |const|
 
-返回索引``bus_idx``\ 处总线的音量，单位为dB。
+返回索引\ ``bus_idx``\ 处总线的音量，单位为dB。
 
 ----
 
@@ -343,7 +343,7 @@ Sets which audio input device is used for audio capture. On systems with multipl
 
 - :ref:`float<class_float>` **get_mix_rate** **(** **)** |const|
 
-返回``AudioServer``\ 输出的采样率。
+返回\ ``AudioServer``\ 输出的采样率。
 
 ----
 
@@ -383,7 +383,7 @@ Sets which audio input device is used for audio capture. On systems with multipl
 
 - :ref:`bool<class_bool>` **is_bus_bypassing_effects** **(** :ref:`int<class_int>` bus_idx **)** |const|
 
-如果``true``，则位于index``bus_idx``\ 的总线会绕过效果。
+如果\ ``true``，则位于index\ ``bus_idx``\ 的总线会绕过效果。
 
 ----
 
@@ -391,7 +391,7 @@ Sets which audio input device is used for audio capture. On systems with multipl
 
 - :ref:`bool<class_bool>` **is_bus_effect_enabled** **(** :ref:`int<class_int>` bus_idx, :ref:`int<class_int>` effect_idx **)** |const|
 
-如果``true``，则启用索引``effect_idx``\ 在索引``bus_idx``\ 的总线上的效果。
+如果\ ``true``，则启用索引\ ``effect_idx``\ 在索引\ ``bus_idx``\ 的总线上的效果。
 
 ----
 
@@ -399,7 +399,7 @@ Sets which audio input device is used for audio capture. On systems with multipl
 
 - :ref:`bool<class_bool>` **is_bus_mute** **(** :ref:`int<class_int>` bus_idx **)** |const|
 
-如果为``true``，则索引``bus_idx``\ 处的总线被静音。
+如果为\ ``true``，则索引\ ``bus_idx``\ 处的总线被静音。
 
 ----
 
@@ -407,7 +407,7 @@ Sets which audio input device is used for audio capture. On systems with multipl
 
 - :ref:`bool<class_bool>` **is_bus_solo** **(** :ref:`int<class_int>` bus_idx **)** |const|
 
-如果为``true``，则索引``bus_idx``\ 处的总线处于solo模式。
+如果为\ ``true``，则索引\ ``bus_idx``\ 处的总线处于solo模式。
 
 ----
 
@@ -417,7 +417,7 @@ Sets which audio input device is used for audio capture. On systems with multipl
 
 锁定音频驱动程序的主循环。
 
-**注意：**记得事后解锁。
+**注意：**\ 记得事后解锁。
 
 ----
 
@@ -425,7 +425,7 @@ Sets which audio input device is used for audio capture. On systems with multipl
 
 - void **move_bus** **(** :ref:`int<class_int>` index, :ref:`int<class_int>` to_index **)**
 
-将总线从索引``index``\ 移动到索引``to_index``。
+将总线从索引\ ``index``\ 移动到索引\ ``to_index``。
 
 ----
 
@@ -433,7 +433,7 @@ Sets which audio input device is used for audio capture. On systems with multipl
 
 - void **remove_bus** **(** :ref:`int<class_int>` index **)**
 
-移除索引``index``\ 处的总线。
+移除索引\ ``index``\ 处的总线。
 
 ----
 
@@ -449,7 +449,7 @@ Sets which audio input device is used for audio capture. On systems with multipl
 
 - void **set_bus_bypass_effects** **(** :ref:`int<class_int>` bus_idx, :ref:`bool<class_bool>` enable **)**
 
-如果``true``，则位于index``bus_idx``\ 的总线会绕过效果。
+如果\ ``true``，则位于index\ ``bus_idx``\ 的总线会绕过效果。
 
 ----
 
@@ -457,7 +457,7 @@ Sets which audio input device is used for audio capture. On systems with multipl
 
 - void **set_bus_effect_enabled** **(** :ref:`int<class_int>` bus_idx, :ref:`int<class_int>` effect_idx, :ref:`bool<class_bool>` enabled **)**
 
-如果``true``，则启用索引``effect_idx``\ 在索引``bus_idx``\ 的总线上的效果。
+如果\ ``true``，则启用索引\ ``effect_idx``\ 在索引\ ``bus_idx``\ 的总线上的效果。
 
 ----
 
@@ -465,7 +465,7 @@ Sets which audio input device is used for audio capture. On systems with multipl
 
 - void **set_bus_layout** **(** :ref:`AudioBusLayout<class_AudioBusLayout>` bus_layout **)**
 
-覆盖当前使用的:ref:`AudioBusLayout<class_AudioBusLayout>`。
+覆盖当前使用的\ :ref:`AudioBusLayout<class_AudioBusLayout>`。
 
 ----
 
@@ -473,7 +473,7 @@ Sets which audio input device is used for audio capture. On systems with multipl
 
 - void **set_bus_mute** **(** :ref:`int<class_int>` bus_idx, :ref:`bool<class_bool>` enable **)**
 
-如果为``true``，则索引``bus_idx``\ 处的总线被静音。
+如果为\ ``true``，则索引\ ``bus_idx``\ 处的总线被静音。
 
 ----
 
@@ -481,7 +481,7 @@ Sets which audio input device is used for audio capture. On systems with multipl
 
 - void **set_bus_name** **(** :ref:`int<class_int>` bus_idx, :ref:`String<class_String>` name **)**
 
-将索引``bus_idx``\ 处的总线名称设置为``name``。
+将索引\ ``bus_idx``\ 处的总线名称设置为\ ``name``。
 
 ----
 
@@ -497,7 +497,7 @@ Sets which audio input device is used for audio capture. On systems with multipl
 
 - void **set_bus_solo** **(** :ref:`int<class_int>` bus_idx, :ref:`bool<class_bool>` enable **)**
 
-如果为``true``，则索引``bus_idx``\ 处的总线处于solo模式。
+如果为\ ``true``，则索引\ ``bus_idx``\ 处的总线处于solo模式。
 
 ----
 
@@ -513,7 +513,7 @@ Sets which audio input device is used for audio capture. On systems with multipl
 
 - void **swap_bus_effects** **(** :ref:`int<class_int>` bus_idx, :ref:`int<class_int>` effect_idx, :ref:`int<class_int>` by_effect_idx **)**
 
-在``bus_idx``\ 中交换两个效果的位置。
+在\ ``bus_idx``\ 中交换两个效果的位置。
 
 ----
 

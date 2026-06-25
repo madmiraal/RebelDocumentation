@@ -20,13 +20,13 @@ Description
 
 在场景中使用 ``GIProbe`` 会很消耗资源，可以在 :ref:`ProjectSettings<class_ProjectSettings>` 中使用 :ref:`ProjectSettings.rendering/quality/voxel_cone_tracing/high_quality<class_ProjectSettings_property_rendering/quality/voxel_cone_tracing/high_quality>` 来降低探针的质量，换取更好的性能。
 
-**程序式生成：**``GIProbe`` 在导出后的项目中也可以进行烘焙，因此它适合程序式生成或者用户构建的关卡，只需保证所有几何体都是预先生成的即可。
+**程序式生成：**\ ``GIProbe`` 在导出后的项目中也可以进行烘焙，因此它适合程序式生成或者用户构建的关卡，只需保证所有几何体都是预先生成的即可。
 
-**性能：**``GIProbe`` 相对更耗 GPU，不适合在集成显卡等低端硬件上使用，可考虑换用 :ref:`BakedLightmap<class_BakedLightmap>`。要为低端硬件提供备选方案，可考虑在你项目的选项菜单中添加禁用 ``GIProbe`` 的选项。隐藏 ``GIProbe`` 节点即可将其禁用。
+**性能：**\ ``GIProbe`` 相对更耗 GPU，不适合在集成显卡等低端硬件上使用，可考虑换用 :ref:`BakedLightmap<class_BakedLightmap>`。要为低端硬件提供备选方案，可考虑在你项目的选项菜单中添加禁用 ``GIProbe`` 的选项。隐藏 ``GIProbe`` 节点即可将其禁用。
 
-**注意：**网格应该有足够厚的墙以避免漏光，注，避免单面墙。对于内部关卡，将你的关卡几何体包围在一个足够大的盒子里，并将环路联接起来以关闭网格。
+**注意：**\ 网格应该有足够厚的墙以避免漏光，注，避免单面墙。对于内部关卡，将你的关卡几何体包围在一个足够大的盒子里，并将环路联接起来以关闭网格。
 
-**注意：**由于渲染器的限制，在``GIProbe``\ 中使用发光的:ref:`ShaderMaterial<class_ShaderMaterial>`\ 时不能发光。只有发射型的:ref:`SpatialMaterial<class_SpatialMaterial>`\ 可以在``GIProbe``\ 中发射光线。
+**注意：**\ 由于渲染器的限制，在\ ``GIProbe``\ 中使用发光的\ :ref:`ShaderMaterial<class_ShaderMaterial>`\ 时不能发光。只有发射型的\ :ref:`SpatialMaterial<class_SpatialMaterial>`\ 可以在\ ``GIProbe``\ 中发射光线。
 
 Tutorials
 ---------
@@ -127,7 +127,7 @@ Property Descriptions
 | *Getter*  | is_compressed()     |
 +-----------+---------------------+
 
-*已废弃*由于已知的错误，这个属性已被废弃，启用后不再有任何效果。
+*已废弃*\ 由于已知的错误，这个属性已被废弃，启用后不再有任何效果。
 
 ----
 
@@ -205,7 +205,7 @@ Property Descriptions
 | *Getter*  | is_interior()       |
 +-----------+---------------------+
 
-如果为``true``，在计算照明时忽略天空的贡献。
+如果为\ ``true``，在计算照明时忽略天空的贡献。
 
 ----
 

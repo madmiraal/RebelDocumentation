@@ -16,7 +16,7 @@ StreamTexture
 Description
 -----------
 
-从``.stex``\ 文件加载的纹理。
+从\ ``.stex``\ 文件加载的纹理。
 
 Properties
 ----------

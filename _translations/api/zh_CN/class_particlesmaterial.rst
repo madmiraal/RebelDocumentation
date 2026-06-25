@@ -16,11 +16,11 @@ ParticlesMaterial
 Description
 -----------
 
-ParticlesMaterial定义了粒子的属性和行为。它可用于:ref:`Particles<class_Particles>`\ 和:ref:`Particles2D<class_Particles2D>`\ 发射器节点的``process_material``\ 中。
+ParticlesMaterial定义了粒子的属性和行为。它可用于\ :ref:`Particles<class_Particles>`\ 和\ :ref:`Particles2D<class_Particles2D>`\ 发射器节点的\ ``process_material``\ 中。
 
-这个材质的一些属性在发射时被应用到每个粒子上，而其他属性可以应用:ref:`CurveTexture<class_CurveTexture>`\ 来在粒子的生命周期中改变数值。
+这个材质的一些属性在发射时被应用到每个粒子上，而其他属性可以应用\ :ref:`CurveTexture<class_CurveTexture>`\ 来在粒子的生命周期中改变数值。
 
-当随机性比率被应用到一个属性时，用来以一个随机量来扩展该属性。随机率用来在``1.0``\ 和一个小于1的随机数之间插值，结果乘以属性，得到随机的属性。例如，一个``0.4``\ 的随机比率将在``0.4-1.0``\ 之间缩放原始属性的原值。
+当随机性比率被应用到一个属性时，用来以一个随机量来扩展该属性。随机率用来在\ ``1.0``\ 和一个小于1的随机数之间插值，结果乘以属性，得到随机的属性。例如，一个\ ``0.4``\ 的随机比率将在\ ``0.4-1.0``\ 之间缩放原始属性的原值。
 
 Properties
 ----------
@@ -223,7 +223,7 @@ enum **Parameter**:
 
 - **PARAM_ANIM_OFFSET** = **11** --- 用于在 :ref:`set_param<class_ParticlesMaterial_method_set_param>`、:ref:`set_param_randomness<class_ParticlesMaterial_method_set_param_randomness>` 和 :ref:`set_param_texture<class_ParticlesMaterial_method_set_param_texture>` 中设置动画偏移属性。
 
-- **PARAM_MAX** = **12** --- 表示:ref:`Parameter<enum_ParticlesMaterial_Parameter>`\ 枚举的大小。
+- **PARAM_MAX** = **12** --- 表示\ :ref:`Parameter<enum_ParticlesMaterial_Parameter>`\ 枚举的大小。
 
 ----
 
@@ -245,7 +245,7 @@ enum **Flags**:
 
 - **FLAG_DISABLE_Z** = **2** --- 用于在 :ref:`set_flag<class_ParticlesMaterial_method_set_flag>` 中设置 :ref:`flag_disable_z<class_ParticlesMaterial_property_flag_disable_z>`。
 
-- **FLAG_MAX** = **3** --- 表示:ref:`Flags<enum_ParticlesMaterial_Flags>`\ 枚举的大小。
+- **FLAG_MAX** = **3** --- 表示\ :ref:`Flags<enum_ParticlesMaterial_Flags>`\ 枚举的大小。
 
 ----
 
@@ -273,13 +273,13 @@ enum **EmissionShape**:
 
 - **EMISSION_SHAPE_BOX** = **2** --- 粒子将在盒子的体积中发射。
 
-- **EMISSION_SHAPE_POINTS** = **3** --- 粒子将在:ref:`emission_point_texture<class_ParticlesMaterial_property_emission_point_texture>`\ 上随机采样点所决定的位置发射。粒子颜色将由:ref:`emission_color_texture<class_ParticlesMaterial_property_emission_color_texture>`\ 调节。
+- **EMISSION_SHAPE_POINTS** = **3** --- 粒子将在\ :ref:`emission_point_texture<class_ParticlesMaterial_property_emission_point_texture>`\ 上随机采样点所决定的位置发射。粒子颜色将由\ :ref:`emission_color_texture<class_ParticlesMaterial_property_emission_color_texture>`\ 调节。
 
-- **EMISSION_SHAPE_DIRECTED_POINTS** = **4** --- 粒子将在:ref:`emission_point_texture<class_ParticlesMaterial_property_emission_point_texture>`\ 上随机采样点所决定的位置发射。粒子速度和旋转将基于:ref:`emission_normal_texture<class_ParticlesMaterial_property_emission_normal_texture>`\ 进行设置。粒子颜色将由:ref:`emission_color_texture<class_ParticlesMaterial_property_emission_color_texture>`\ 调节。
+- **EMISSION_SHAPE_DIRECTED_POINTS** = **4** --- 粒子将在\ :ref:`emission_point_texture<class_ParticlesMaterial_property_emission_point_texture>`\ 上随机采样点所决定的位置发射。粒子速度和旋转将基于\ :ref:`emission_normal_texture<class_ParticlesMaterial_property_emission_normal_texture>`\ 进行设置。粒子颜色将由\ :ref:`emission_color_texture<class_ParticlesMaterial_property_emission_color_texture>`\ 调节。
 
 - **EMISSION_SHAPE_RING** = **5** --- 粒子将以环形或圆柱的形式发射出来。
 
-- **EMISSION_SHAPE_MAX** = **6** --- 表示:ref:`EmissionShape<enum_ParticlesMaterial_EmissionShape>`\ 枚举的大小。
+- **EMISSION_SHAPE_MAX** = **6** --- 表示\ :ref:`EmissionShape<enum_ParticlesMaterial_EmissionShape>`\ 枚举的大小。
 
 Property Descriptions
 ---------------------
@@ -298,7 +298,7 @@ Property Descriptions
 
 应用于每个粒子的初始旋转，以度为单位。
 
-**注意：**仅在 :ref:`flag_disable_z<class_ParticlesMaterial_property_flag_disable_z>` 或 :ref:`flag_rotate_y<class_ParticlesMaterial_property_flag_rotate_y>` 为 ``true`` 或用于绘制粒子的 :ref:`SpatialMaterial<class_SpatialMaterial>` 使用 :ref:`SpatialMaterial.BILLBOARD_PARTICLES<class_SpatialMaterial_constant_BILLBOARD_PARTICLES>` 时应用。
+**注意：**\ 仅在 :ref:`flag_disable_z<class_ParticlesMaterial_property_flag_disable_z>` 或 :ref:`flag_rotate_y<class_ParticlesMaterial_property_flag_rotate_y>` 为 ``true`` 或用于绘制粒子的 :ref:`SpatialMaterial<class_SpatialMaterial>` 使用 :ref:`SpatialMaterial.BILLBOARD_PARTICLES<class_SpatialMaterial_constant_BILLBOARD_PARTICLES>` 时应用。
 
 ----
 
@@ -312,7 +312,7 @@ Property Descriptions
 | *Getter* | get_param_texture()      |
 +----------+--------------------------+
 
-每个粒子的旋转将沿着这个:ref:`CurveTexture<class_CurveTexture>`\ 动画。
+每个粒子的旋转将沿着这个\ :ref:`CurveTexture<class_CurveTexture>`\ 动画。
 
 ----
 
@@ -344,9 +344,9 @@ Property Descriptions
 | *Getter*  | get_param()      |
 +-----------+------------------+
 
-应用于每个粒子的初始角速度，单位为*度*每秒。设置粒子的旋转速度。
+应用于每个粒子的初始角速度，单位为\ *度*\ 每秒。设置粒子的旋转速度。
 
-**注意：**仅在 :ref:`flag_disable_z<class_ParticlesMaterial_property_flag_disable_z>` 或 :ref:`flag_rotate_y<class_ParticlesMaterial_property_flag_rotate_y>` 为 ``true`` 或用于绘制粒子的 :ref:`SpatialMaterial<class_SpatialMaterial>` 使用 :ref:`SpatialMaterial.BILLBOARD_PARTICLES<class_SpatialMaterial_constant_BILLBOARD_PARTICLES>` 时应用。
+**注意：**\ 仅在 :ref:`flag_disable_z<class_ParticlesMaterial_property_flag_disable_z>` 或 :ref:`flag_rotate_y<class_ParticlesMaterial_property_flag_rotate_y>` 为 ``true`` 或用于绘制粒子的 :ref:`SpatialMaterial<class_SpatialMaterial>` 使用 :ref:`SpatialMaterial.BILLBOARD_PARTICLES<class_SpatialMaterial_constant_BILLBOARD_PARTICLES>` 时应用。
 
 ----
 
@@ -360,7 +360,7 @@ Property Descriptions
 | *Getter* | get_param_texture()      |
 +----------+--------------------------+
 
-每个粒子的角速度将沿着这个:ref:`CurveTexture<class_CurveTexture>`\ 变化。
+每个粒子的角速度将沿着这个\ :ref:`CurveTexture<class_CurveTexture>`\ 变化。
 
 ----
 
@@ -406,7 +406,7 @@ Property Descriptions
 | *Getter* | get_param_texture()      |
 +----------+--------------------------+
 
-每个粒子的动画偏移将沿着这个:ref:`CurveTexture<class_CurveTexture>`\ 变化。
+每个粒子的动画偏移将沿着这个\ :ref:`CurveTexture<class_CurveTexture>`\ 变化。
 
 ----
 
@@ -452,7 +452,7 @@ Property Descriptions
 | *Getter* | get_param_texture()      |
 +----------+--------------------------+
 
-每个粒子的动画速度将沿着这个:ref:`CurveTexture<class_CurveTexture>`\ 变化。
+每个粒子的动画速度将沿着这个\ :ref:`CurveTexture<class_CurveTexture>`\ 变化。
 
 ----
 
@@ -498,7 +498,7 @@ Property Descriptions
 | *Getter* | get_color_ramp()      |
 +----------+-----------------------+
 
-每个粒子的颜色将在其生命周期内随着这个:ref:`GradientTexture<class_GradientTexture>`\ 变化，即与:ref:`color<class_ParticlesMaterial_property_color>`\ 相乘。
+每个粒子的颜色将在其生命周期内随着这个\ :ref:`GradientTexture<class_GradientTexture>`\ 变化，即与\ :ref:`color<class_ParticlesMaterial_property_color>`\ 相乘。
 
 ----
 
@@ -528,7 +528,7 @@ Property Descriptions
 | *Getter* | get_param_texture()      |
 +----------+--------------------------+
 
-阻尼将沿着这个:ref:`CurveTexture<class_CurveTexture>`\ 变化。
+阻尼将沿着这个\ :ref:`CurveTexture<class_CurveTexture>`\ 变化。
 
 ----
 
@@ -574,7 +574,7 @@ Property Descriptions
 | *Getter* | get_emission_box_extents()      |
 +----------+---------------------------------+
 
-``emission_shape``\ 设置为:ref:`EMISSION_SHAPE_BOX<class_ParticlesMaterial_constant_EMISSION_SHAPE_BOX>`\ 时，Box的范围。
+``emission_shape``\ 设置为\ :ref:`EMISSION_SHAPE_BOX<class_ParticlesMaterial_constant_EMISSION_SHAPE_BOX>`\ 时，Box的范围。
 
 ----
 
@@ -588,7 +588,7 @@ Property Descriptions
 | *Getter* | get_emission_color_texture()      |
 +----------+-----------------------------------+
 
-粒子颜色将由颜色调制，颜色由采样纹理在与:ref:`emission_point_texture<class_ParticlesMaterial_property_emission_point_texture>`\ 相同的点决定。
+粒子颜色将由颜色调制，颜色由采样纹理在与\ :ref:`emission_point_texture<class_ParticlesMaterial_property_emission_point_texture>`\ 相同的点决定。
 
 ----
 
@@ -602,7 +602,7 @@ Property Descriptions
 | *Getter* | get_emission_normal_texture()      |
 +----------+------------------------------------+
 
-粒子的速度和旋转将通过在与:ref:`emission_point_texture<class_ParticlesMaterial_property_emission_point_texture>`\ 相同的点上对该纹理进行采样来设置。仅在:ref:`EMISSION_SHAPE_DIRECTED_POINTS<class_ParticlesMaterial_constant_EMISSION_SHAPE_DIRECTED_POINTS>`\ 中使用。可以通过选择工具栏中 "粒子 "工具下的 "从网格/节点创建发射点"，从网格或节点自动创建。
+粒子的速度和旋转将通过在与\ :ref:`emission_point_texture<class_ParticlesMaterial_property_emission_point_texture>`\ 相同的点上对该纹理进行采样来设置。仅在\ :ref:`EMISSION_SHAPE_DIRECTED_POINTS<class_ParticlesMaterial_constant_EMISSION_SHAPE_DIRECTED_POINTS>`\ 中使用。可以通过选择工具栏中 "粒子 "工具下的 "从网格/节点创建发射点"，从网格或节点自动创建。
 
 ----
 
@@ -616,7 +616,7 @@ Property Descriptions
 | *Getter* | get_emission_point_count()      |
 +----------+---------------------------------+
 
-``emission_shape``\ 设置为:ref:`EMISSION_SHAPE_POINTS<class_ParticlesMaterial_constant_EMISSION_SHAPE_POINTS>`\ 或:ref:`EMISSION_SHAPE_DIRECTED_POINTS<class_ParticlesMaterial_constant_EMISSION_SHAPE_DIRECTED_POINTS>`，时的释放粒子数。
+``emission_shape``\ 设置为\ :ref:`EMISSION_SHAPE_POINTS<class_ParticlesMaterial_constant_EMISSION_SHAPE_POINTS>`\ 或\ :ref:`EMISSION_SHAPE_DIRECTED_POINTS<class_ParticlesMaterial_constant_EMISSION_SHAPE_DIRECTED_POINTS>`，时的释放粒子数。
 
 ----
 
@@ -630,7 +630,7 @@ Property Descriptions
 | *Getter* | get_emission_point_texture()      |
 +----------+-----------------------------------+
 
-粒子将被发射到由随机采样纹理所决定的位置。与:ref:`EMISSION_SHAPE_POINTS<class_ParticlesMaterial_constant_EMISSION_SHAPE_POINTS>`\ 和:ref:`EMISSION_SHAPE_DIRECTED_POINTS<class_ParticlesMaterial_constant_EMISSION_SHAPE_DIRECTED_POINTS>`\ 一起使用。可以通过选择工具栏中的“粒子”工具下的“从网格/节点中创建发射点”自动创建网格或节点。
+粒子将被发射到由随机采样纹理所决定的位置。与\ :ref:`EMISSION_SHAPE_POINTS<class_ParticlesMaterial_constant_EMISSION_SHAPE_POINTS>`\ 和\ :ref:`EMISSION_SHAPE_DIRECTED_POINTS<class_ParticlesMaterial_constant_EMISSION_SHAPE_DIRECTED_POINTS>`\ 一起使用。可以通过选择工具栏中的“粒子”工具下的“从网格/节点中创建发射点”自动创建网格或节点。
 
 ----
 
@@ -702,7 +702,7 @@ Property Descriptions
 | *Getter*  | get_emission_shape()      |
 +-----------+---------------------------+
 
-粒子将在这个区域内发射。使用:ref:`EmissionShape<enum_ParticlesMaterial_EmissionShape>`\ 常量作为值。
+粒子将在这个区域内发射。使用\ :ref:`EmissionShape<enum_ParticlesMaterial_EmissionShape>`\ 常量作为值。
 
 ----
 
@@ -716,7 +716,7 @@ Property Descriptions
 | *Getter* | get_emission_sphere_radius()      |
 +----------+-----------------------------------+
 
-当``emission_shape``\ 设置为:ref:`EMISSION_SHAPE_SPHERE<class_ParticlesMaterial_constant_EMISSION_SHAPE_SPHERE>`\ 时，球体的半径。
+当\ ``emission_shape``\ 设置为\ :ref:`EMISSION_SHAPE_SPHERE<class_ParticlesMaterial_constant_EMISSION_SHAPE_SPHERE>`\ 时，球体的半径。
 
 ----
 
@@ -748,7 +748,7 @@ Property Descriptions
 | *Getter*  | get_flag()      |
 +-----------+-----------------+
 
-如果``true``，则粒子将不会在z轴上移动。
+如果\ ``true``，则粒子将不会在z轴上移动。
 
 ----
 
@@ -764,7 +764,7 @@ Property Descriptions
 | *Getter*  | get_flag()      |
 +-----------+-----------------+
 
-如果``true``，粒子绕Y轴旋转:ref:`angle<class_ParticlesMaterial_property_angle>`。
+如果\ ``true``，粒子绕Y轴旋转\ :ref:`angle<class_ParticlesMaterial_property_angle>`。
 
 ----
 
@@ -826,7 +826,7 @@ Property Descriptions
 | *Getter* | get_param_texture()      |
 +----------+--------------------------+
 
-每个粒子的色调将沿着这个:ref:`CurveTexture<class_CurveTexture>`\ 变化。
+每个粒子的色调将沿着这个\ :ref:`CurveTexture<class_CurveTexture>`\ 变化。
 
 ----
 
@@ -858,7 +858,7 @@ Property Descriptions
 | *Getter*  | get_param()      |
 +-----------+------------------+
 
-每个粒子的初始速度大小。方向来自:ref:`spread<class_ParticlesMaterial_property_spread>`\ 和节点的方向。
+每个粒子的初始速度大小。方向来自\ :ref:`spread<class_ParticlesMaterial_property_spread>`\ 和节点的方向。
 
 ----
 
@@ -920,7 +920,7 @@ Property Descriptions
 | *Getter* | get_param_texture()      |
 +----------+--------------------------+
 
-每个粒子的线性加速度将沿着这个:ref:`CurveTexture<class_CurveTexture>`\ 变化。
+每个粒子的线性加速度将沿着这个\ :ref:`CurveTexture<class_CurveTexture>`\ 变化。
 
 ----
 
@@ -952,7 +952,7 @@ Property Descriptions
 
 每个粒子的轨道速度。使粒子绕原点旋转。以每秒绕原点的完整旋转数指定。
 
-**注意：**仅当 :ref:`flag_disable_z<class_ParticlesMaterial_property_flag_disable_z>` 为 ``true`` 时可用。
+**注意：**\ 仅当 :ref:`flag_disable_z<class_ParticlesMaterial_property_flag_disable_z>` 为 ``true`` 时可用。
 
 ----
 
@@ -966,7 +966,7 @@ Property Descriptions
 | *Getter* | get_param_texture()      |
 +----------+--------------------------+
 
-每个粒子的轨道速度将沿着这个:ref:`CurveTexture<class_CurveTexture>`\ 变化。
+每个粒子的轨道速度将沿着这个\ :ref:`CurveTexture<class_CurveTexture>`\ 变化。
 
 ----
 
@@ -1010,7 +1010,7 @@ Property Descriptions
 | *Getter* | get_param_texture()      |
 +----------+--------------------------+
 
-每个粒子的径向加速度将沿着这个:ref:`CurveTexture<class_CurveTexture>`\ 变化。
+每个粒子的径向加速度将沿着这个\ :ref:`CurveTexture<class_CurveTexture>`\ 变化。
 
 ----
 
@@ -1056,7 +1056,7 @@ Property Descriptions
 | *Getter* | get_param_texture()      |
 +----------+--------------------------+
 
-每个粒子的比例将沿着这个:ref:`CurveTexture<class_CurveTexture>`\ 变化。
+每个粒子的比例将沿着这个\ :ref:`CurveTexture<class_CurveTexture>`\ 变化。
 
 ----
 
@@ -1088,7 +1088,7 @@ Property Descriptions
 | *Getter*  | get_spread()      |
 +-----------+-------------------+
 
-每个粒子的初始方向范围为``+spread`` 到 ``-spread``\ 度。
+每个粒子的初始方向范围为\ ``+spread`` 到 ``-spread``\ 度。
 
 ----
 
@@ -1118,7 +1118,7 @@ Property Descriptions
 | *Getter* | get_param_texture()      |
 +----------+--------------------------+
 
-每个粒子的切向加速度将沿着这个:ref:`CurveTexture<class_CurveTexture>`\ 变化。
+每个粒子的切向加速度将沿着这个\ :ref:`CurveTexture<class_CurveTexture>`\ 变化。
 
 ----
 
@@ -1148,7 +1148,7 @@ Property Descriptions
 | *Getter* | get_trail_color_modifier()      |
 +----------+---------------------------------+
 
-轨迹粒子的颜色将沿着这个:ref:`GradientTexture<class_GradientTexture>`\ 变化。
+轨迹粒子的颜色将沿着这个\ :ref:`GradientTexture<class_GradientTexture>`\ 变化。
 
 ----
 
@@ -1164,7 +1164,7 @@ Property Descriptions
 | *Getter*  | get_trail_divisor()      |
 +-----------+--------------------------+
 
-发射器将发射``amount``\ 除以``trail_visor``\ 的粒子。剩下的粒子将作为轨迹使用。
+发射器将发射\ ``amount``\ 除以\ ``trail_visor``\ 的粒子。剩下的粒子将作为轨迹使用。
 
 ----
 
@@ -1178,7 +1178,7 @@ Property Descriptions
 | *Getter* | get_trail_size_modifier()      |
 +----------+--------------------------------+
 
-轨迹粒子的大小将沿着这个:ref:`CurveTexture<class_CurveTexture>`\ 变化。
+轨迹粒子的大小将沿着这个\ :ref:`CurveTexture<class_CurveTexture>`\ 变化。
 
 Method Descriptions
 -------------------
@@ -1187,7 +1187,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **get_flag** **(** :ref:`Flags<enum_ParticlesMaterial_Flags>` flag **)** |const|
 
-如果指定的Flag被启用，返回``true``。
+如果指定的Flag被启用，返回\ ``true``。
 
 ----
 
@@ -1219,7 +1219,7 @@ Method Descriptions
 
 - void **set_flag** **(** :ref:`Flags<enum_ParticlesMaterial_Flags>` flag, :ref:`bool<class_bool>` enable **)**
 
-如果``true``，启用指定的Flag。选项请参阅:ref:`Flags<enum_ParticlesMaterial_Flags>`。
+如果\ ``true``，启用指定的Flag。选项请参阅\ :ref:`Flags<enum_ParticlesMaterial_Flags>`。
 
 ----
 
@@ -1227,7 +1227,7 @@ Method Descriptions
 
 - void **set_param** **(** :ref:`Parameter<enum_ParticlesMaterial_Parameter>` param, :ref:`float<class_float>` value **)**
 
-设置指定的:ref:`Parameter<enum_ParticlesMaterial_Parameter>`。
+设置指定的\ :ref:`Parameter<enum_ParticlesMaterial_Parameter>`。
 
 ----
 
@@ -1235,7 +1235,7 @@ Method Descriptions
 
 - void **set_param_randomness** **(** :ref:`Parameter<enum_ParticlesMaterial_Parameter>` param, :ref:`float<class_float>` randomness **)**
 
-为指定的:ref:`Parameter<enum_ParticlesMaterial_Parameter>`\ 设置随机比率。
+为指定的\ :ref:`Parameter<enum_ParticlesMaterial_Parameter>`\ 设置随机比率。
 
 ----
 

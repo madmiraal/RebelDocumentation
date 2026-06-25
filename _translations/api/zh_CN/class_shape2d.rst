@@ -71,7 +71,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **collide** **(** :ref:`Transform2D<class_Transform2D>` local_xform, :ref:`Shape2D<class_Shape2D>` with_shape, :ref:`Transform2D<class_Transform2D>` shape_xform **)**
 
-如果这个形状与另一个形状发生碰撞，返回``true``。
+如果这个形状与另一个形状发生碰撞，返回\ ``true``。
 
 这个方法需要这个形状的变换矩阵（``local_xform``），要检查碰撞的形状（``with_shape``），以及那个形状的变换矩阵（``shape_xform``）。
 
@@ -119,7 +119,7 @@ This method needs the transformation matrix for this shape (``local_xform``), th
 
 - void **draw** **(** :ref:`RID<class_RID>` canvas_item, :ref:`Color<class_Color>` color **)**
 
-用:ref:`VisualServer<class_VisualServer>`\ API在:ref:`CanvasItem<class_CanvasItem>`\ 上绘制实体形状，并填充指定的``color``。确切的绘制方法是每个形状特有的，无法配置。
+用\ :ref:`VisualServer<class_VisualServer>`\ API在\ :ref:`CanvasItem<class_CanvasItem>`\ 上绘制实体形状，并填充指定的\ ``color``。确切的绘制方法是每个形状特有的，无法配置。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

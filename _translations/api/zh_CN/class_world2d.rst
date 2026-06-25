@@ -45,7 +45,7 @@ Property Descriptions
 | *Getter* | get_canvas() |
 +----------+--------------+
 
-这个世界的画布资源的:ref:`RID<class_RID>`。由:ref:`VisualServer<class_VisualServer>`\ 用于2D绘制。
+这个世界的画布资源的\ :ref:`RID<class_RID>`。由\ :ref:`VisualServer<class_VisualServer>`\ 用于2D绘制。
 
 ----
 
@@ -69,7 +69,7 @@ Property Descriptions
 | *Getter* | get_space() |
 +----------+-------------+
 
-这个世界物理空间资源的:ref:`RID<class_RID>`。 :ref:`Physics2DServer<class_Physics2DServer>` 用于 2D 物理，将其视为空间和区域。
+这个世界物理空间资源的\ :ref:`RID<class_RID>`。 :ref:`Physics2DServer<class_Physics2DServer>` 用于 2D 物理，将其视为空间和区域。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

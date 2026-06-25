@@ -14,7 +14,7 @@ PoolVector2Array
 Description
 -----------
 
-专门用来保存:ref:`Vector2<class_Vector2>`\ 的:ref:`Array<class_Array>`。对内存的使用进行了优化，不会使内存碎片化。
+专门用来保存\ :ref:`Vector2<class_Vector2>`\ 的\ :ref:`Array<class_Array>`。对内存的使用进行了优化，不会使内存碎片化。
 
 **注意：** 这种类型是通过值传递的，而不是引用。
 
@@ -52,7 +52,7 @@ Method Descriptions
 
 - :ref:`PoolVector2Array<class_PoolVector2Array>` **PoolVector2Array** **(** :ref:`Array<class_Array>` from **)**
 
-构建新的``PoolVector2Array``。你可以选择传入一个通用的:ref:`Array<class_Array>`，它将被转换。
+构建新的\ ``PoolVector2Array``。你可以选择传入一个通用的\ :ref:`Array<class_Array>`，它将被转换。
 
 ----
 
@@ -68,7 +68,7 @@ Method Descriptions
 
 - void **append_array** **(** :ref:`PoolVector2Array<class_PoolVector2Array>` array **)**
 
-在这个数组的最后添加``PoolVector2Array``。
+在这个数组的最后添加\ ``PoolVector2Array``。
 
 ----
 
@@ -100,7 +100,7 @@ Method Descriptions
 
 - void **push_back** **(** :ref:`Vector2<class_Vector2>` vector2 **)**
 
-在末尾插入:ref:`Vector2<class_Vector2>`。
+在末尾插入\ :ref:`Vector2<class_Vector2>`。
 
 ----
 
@@ -124,7 +124,7 @@ Method Descriptions
 
 - void **set** **(** :ref:`int<class_int>` idx, :ref:`Vector2<class_Vector2>` vector2 **)**
 
-在给定索引处更改:ref:`Vector2<class_Vector2>`。
+在给定索引处更改\ :ref:`Vector2<class_Vector2>`。
 
 ----
 

@@ -98,7 +98,7 @@ Method Descriptions
 
 - void **add_input_port** **(** :ref:`int<class_int>` id, :ref:`int<class_int>` type, :ref:`String<class_String>` name **)**
 
-用指定的``type``\ 和``name``\ 添加一个输入端口，参阅:ref:`PortType<enum_VisualShaderNode_PortType>`。
+用指定的\ ``type``\ 和\ ``name``\ 添加一个输入端口，参阅\ :ref:`PortType<enum_VisualShaderNode_PortType>`。
 
 ----
 
@@ -106,7 +106,7 @@ Method Descriptions
 
 - void **add_output_port** **(** :ref:`int<class_int>` id, :ref:`int<class_int>` type, :ref:`String<class_String>` name **)**
 
-用指定的``type``\ 和``name``\ 添加一个输出端口，参阅:ref:`PortType<enum_VisualShaderNode_PortType>`。
+用指定的\ ``type``\ 和\ ``name``\ 添加一个输出端口，参阅\ :ref:`PortType<enum_VisualShaderNode_PortType>`。
 
 ----
 
@@ -130,7 +130,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_free_input_port_id** **(** **)** |const|
 
-返回一个空闲的输入端口ID，可以在:ref:`add_input_port<class_VisualShaderNodeGroupBase_method_add_input_port>`\ 中使用。
+返回一个空闲的输入端口ID，可以在\ :ref:`add_input_port<class_VisualShaderNodeGroupBase_method_add_input_port>`\ 中使用。
 
 ----
 
@@ -138,7 +138,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_free_output_port_id** **(** **)** |const|
 
-返回一个空闲的输出端口ID，可以在:ref:`add_output_port<class_VisualShaderNodeGroupBase_method_add_output_port>`\ 中使用。
+返回一个空闲的输出端口ID，可以在\ :ref:`add_output_port<class_VisualShaderNodeGroupBase_method_add_output_port>`\ 中使用。
 
 ----
 
@@ -146,7 +146,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_input_port_count** **(** **)** |const|
 
-返回正在使用的输入端口的数量。替代:ref:`get_free_input_port_id<class_VisualShaderNodeGroupBase_method_get_free_input_port_id>`。
+返回正在使用的输入端口的数量。替代\ :ref:`get_free_input_port_id<class_VisualShaderNodeGroupBase_method_get_free_input_port_id>`。
 
 ----
 
@@ -154,7 +154,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **get_inputs** **(** **)** |const|
 
-返回输入端口的:ref:`String<class_String>`\ 描述，是一个用冒号分隔的列表，格式为``id,type,name;``，参阅:ref:`add_input_port<class_VisualShaderNodeGroupBase_method_add_input_port>`。
+返回输入端口的\ :ref:`String<class_String>`\ 描述，是一个用冒号分隔的列表，格式为\ ``id,type,name;``，参阅\ :ref:`add_input_port<class_VisualShaderNodeGroupBase_method_add_input_port>`。
 
 ----
 
@@ -162,7 +162,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_output_port_count** **(** **)** |const|
 
-返回正在使用的输出端口的数量。替代:ref:`get_free_output_port_id<class_VisualShaderNodeGroupBase_method_get_free_output_port_id>`。
+返回正在使用的输出端口的数量。替代\ :ref:`get_free_output_port_id<class_VisualShaderNodeGroupBase_method_get_free_output_port_id>`。
 
 ----
 
@@ -170,7 +170,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **get_outputs** **(** **)** |const|
 
-返回输出端口的:ref:`String<class_String>`\ 描述，作为一个用冒号分隔的列表，格式为``id,type,name;``，参阅:ref:`add_output_port<class_VisualShaderNodeGroupBase_method_add_output_port>`。
+返回输出端口的\ :ref:`String<class_String>`\ 描述，作为一个用冒号分隔的列表，格式为\ ``id,type,name;``，参阅\ :ref:`add_output_port<class_VisualShaderNodeGroupBase_method_add_output_port>`。
 
 ----
 
@@ -178,7 +178,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **has_input_port** **(** :ref:`int<class_int>` id **)** |const|
 
-如果指定的输入端口存在，返回``true``。
+如果指定的输入端口存在，返回\ ``true``。
 
 ----
 
@@ -186,7 +186,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **has_output_port** **(** :ref:`int<class_int>` id **)** |const|
 
-如果指定的输出端口存在，返回``true``。
+如果指定的输出端口存在，返回\ ``true``。
 
 ----
 
@@ -194,7 +194,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_valid_port_name** **(** :ref:`String<class_String>` name **)** |const|
 
-如果指定的端口名称没有重写现有的端口名称，并且在着色器中有效，则返回``true``。
+如果指定的端口名称没有重写现有的端口名称，并且在着色器中有效，则返回\ ``true``。
 
 ----
 
@@ -226,7 +226,7 @@ Method Descriptions
 
 - void **set_input_port_type** **(** :ref:`int<class_int>` id, :ref:`int<class_int>` type **)**
 
-设置指定的输入端口的类型，参阅:ref:`PortType<enum_VisualShaderNode_PortType>`。
+设置指定的输入端口的类型，参阅\ :ref:`PortType<enum_VisualShaderNode_PortType>`。
 
 ----
 
@@ -234,7 +234,7 @@ Method Descriptions
 
 - void **set_inputs** **(** :ref:`String<class_String>` inputs **)**
 
-使用一个:ref:`String<class_String>`\ 格式的以冒号分隔的列表来定义所有输入端口:``id,type,name;``，参阅:ref:`add_input_port<class_VisualShaderNodeGroupBase_method_add_input_port>`。
+使用一个\ :ref:`String<class_String>`\ 格式的以冒号分隔的列表来定义所有输入端口:``id,type,name;``，参阅\ :ref:`add_input_port<class_VisualShaderNodeGroupBase_method_add_input_port>`。
 
 ----
 
@@ -250,7 +250,7 @@ Method Descriptions
 
 - void **set_output_port_type** **(** :ref:`int<class_int>` id, :ref:`int<class_int>` type **)**
 
-设置指定输出端口的类型，参阅:ref:`PortType<enum_VisualShaderNode_PortType>`。
+设置指定输出端口的类型，参阅\ :ref:`PortType<enum_VisualShaderNode_PortType>`。
 
 ----
 
@@ -258,7 +258,7 @@ Method Descriptions
 
 - void **set_outputs** **(** :ref:`String<class_String>` outputs **)**
 
-使用一个:ref:`String<class_String>`\ 格式的以冒号分隔的列表来定义所有输出端口: ``id,type,name;`` ，参阅:ref:`add_output_port<class_VisualShaderNodeGroupBase_method_add_output_port>`。
+使用一个\ :ref:`String<class_String>`\ 格式的以冒号分隔的列表来定义所有输出端口: ``id,type,name;`` ，参阅\ :ref:`add_output_port<class_VisualShaderNodeGroupBase_method_add_output_port>`。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

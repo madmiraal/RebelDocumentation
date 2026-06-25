@@ -16,9 +16,9 @@ FuncRef
 Description
 -----------
 
-在GDScript中，函数不是*第一类对象*。这意味着不可能将它们直接作为变量存储，从另一个函数中返回，或将它们作为参数传递。
+在GDScript中，函数不是\ *第一类对象*。这意味着不可能将它们直接作为变量存储，从另一个函数中返回，或将它们作为参数传递。
 
-然而，通过使用:ref:`@GDScript.funcref<class_@GDScript_method_funcref>`\ 函数创建一个``FuncRef``，可以创建、传递和调用给定对象中的一个函数的引用。
+然而，通过使用\ :ref:`@GDScript.funcref<class_@GDScript_method_funcref>`\ 函数创建一个\ ``FuncRef``，可以创建、传递和调用给定对象中的一个函数的引用。
 
 Properties
 ----------
@@ -88,7 +88,7 @@ Method Descriptions
 
 - void **set_instance** **(** :ref:`Object<class_Object>` instance **)**
 
-包含被引用函数的对象。这个对象必须是实际继承自:ref:`Object<class_Object>`\ 的类型，而不是像:ref:`int<class_int>`、:ref:`Vector2<class_Vector2>`\ 或:ref:`Dictionary<class_Dictionary>`\ 这样的内置类型。
+包含被引用函数的对象。这个对象必须是实际继承自\ :ref:`Object<class_Object>`\ 的类型，而不是像\ :ref:`int<class_int>`、:ref:`Vector2<class_Vector2>`\ 或\ :ref:`Dictionary<class_Dictionary>`\ 这样的内置类型。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

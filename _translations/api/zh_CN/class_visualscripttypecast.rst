@@ -42,7 +42,7 @@ Property Descriptions
 | *Getter*  | get_base_script()      |
 +-----------+------------------------+
 
-要转换的目标脚本类。如果没有，将只使用:ref:`base_type<class_VisualScriptTypeCast_property_base_type>`。
+要转换的目标脚本类。如果没有，将只使用\ :ref:`base_type<class_VisualScriptTypeCast_property_base_type>`。
 
 ----
 

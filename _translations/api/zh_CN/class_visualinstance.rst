@@ -18,7 +18,7 @@ VisualInstance
 Description
 -----------
 
-``VisualInstance``\ 用于连接一个资源和一个视觉显示。所有的可视化三维节点都继承自``VisualInstance``。你不应该直接访问``VisualInstance``\ 的属性，一般来说，它们是由继承自``VisualInstance``\ 的节点访问和管理的。``VisualInstance``\ 是:ref:`VisualServer<class_VisualServer>`\ 实例的节点表示。
+``VisualInstance``\ 用于连接一个资源和一个视觉显示。所有的可视化三维节点都继承自\ ``VisualInstance``。你不应该直接访问\ ``VisualInstance``\ 的属性，一般来说，它们是由继承自\ ``VisualInstance``\ 的节点访问和管理的。``VisualInstance``\ 是\ :ref:`VisualServer<class_VisualServer>`\ 实例的节点表示。
 
 Properties
 ----------
@@ -63,7 +63,7 @@ Property Descriptions
 
 绘制此 ``VisualInstance`` 的渲染层。
 
-此对象仅对:ref:`Camera<class_Camera>`\ 可见，其剔除遮罩包括此``VisualInstance``\ 设置的渲染对象。
+此对象仅对\ :ref:`Camera<class_Camera>`\ 可见，其剔除遮罩包括此\ ``VisualInstance``\ 设置的渲染对象。
 
 Method Descriptions
 -------------------
@@ -72,7 +72,7 @@ Method Descriptions
 
 - :ref:`AABB<class_AABB>` **get_aabb** **(** **)** |const|
 
-返回此``VisualInstance``\ 的:ref:`AABB<class_AABB>`，也称为边界框。参阅:ref:`get_transformed_aabb<class_VisualInstance_method_get_transformed_aabb>`。
+返回此\ ``VisualInstance``\ 的\ :ref:`AABB<class_AABB>`，也称为边界框。参阅\ :ref:`get_transformed_aabb<class_VisualInstance_method_get_transformed_aabb>`。
 
 ----
 
@@ -80,7 +80,7 @@ Method Descriptions
 
 - :ref:`RID<class_RID>` **get_base** **(** **)** |const|
 
-返回与此``VisualInstance``\ 相关的资源的RID。例如，如果该节点是一个:ref:`MeshInstance<class_MeshInstance>`，这将返回相关的:ref:`Mesh<class_Mesh>`\ 的RID。
+返回与此\ ``VisualInstance``\ 相关的资源的RID。例如，如果该节点是一个\ :ref:`MeshInstance<class_MeshInstance>`，这将返回相关的\ :ref:`Mesh<class_Mesh>`\ 的RID。
 
 ----
 
@@ -88,7 +88,7 @@ Method Descriptions
 
 - :ref:`RID<class_RID>` **get_instance** **(** **)** |const|
 
-返回这个实例的RID。这个RID与:ref:`VisualServer.instance_create<class_VisualServer_method_instance_create>`\ 所返回的RID相同。如果你想在这个``VisualInstance``\ 上直接调用:ref:`VisualServer<class_VisualServer>`\ 函数，就需要这个RID。
+返回这个实例的RID。这个RID与\ :ref:`VisualServer.instance_create<class_VisualServer_method_instance_create>`\ 所返回的RID相同。如果你想在这个\ ``VisualInstance``\ 上直接调用\ :ref:`VisualServer<class_VisualServer>`\ 函数，就需要这个RID。
 
 ----
 
@@ -96,7 +96,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **get_layer_mask_bit** **(** :ref:`int<class_int>` layer **)** |const|
 
-当指定的层在 :ref:`layers<class_VisualInstance_property_layers>` 中被启用时，返回``true``，否则返回``false``。
+当指定的层在 :ref:`layers<class_VisualInstance_property_layers>` 中被启用时，返回\ ``true``，否则返回\ ``false``。
 
 ----
 
@@ -104,9 +104,9 @@ Method Descriptions
 
 - :ref:`AABB<class_AABB>` **get_transformed_aabb** **(** **)** |const|
 
-返回此``VisualInstance``\ 的变换后的:ref:`AABB<class_AABB>`，也称为边界框。
+返回此\ ``VisualInstance``\ 的变换后的\ :ref:`AABB<class_AABB>`，也称为边界框。
 
-这里的变换是指:ref:`AABB<class_AABB>`\ 加上:ref:`Spatial<class_Spatial>`\ 的:ref:`Transform<class_Transform>`\ 的位置、旋转和缩放。参阅:ref:`get_aabb<class_VisualInstance_method_get_aabb>`。
+这里的变换是指\ :ref:`AABB<class_AABB>`\ 加上\ :ref:`Spatial<class_Spatial>`\ 的\ :ref:`Transform<class_Transform>`\ 的位置、旋转和缩放。参阅\ :ref:`get_aabb<class_VisualInstance_method_get_aabb>`。
 
 ----
 
@@ -114,7 +114,7 @@ Method Descriptions
 
 - void **set_base** **(** :ref:`RID<class_RID>` base **)**
 
-设置由该``VisualInstance``\ 实例化的资源，这将改变引擎对该``VisualInstance``\ 的处理方式。相当于:ref:`VisualServer.instance_set_base<class_VisualServer_method_instance_set_base>`。
+设置由该\ ``VisualInstance``\ 实例化的资源，这将改变引擎对该\ ``VisualInstance``\ 的处理方式。相当于\ :ref:`VisualServer.instance_set_base<class_VisualServer_method_instance_set_base>`。
 
 ----
 

@@ -11,14 +11,14 @@ CheckButton
 
 **Inherits:** :ref:`Button<class_Button>` **<** :ref:`BaseButton<class_BaseButton>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-可检查的按钮。另请参阅:ref:`CheckBox<class_CheckBox>`。
+可检查的按钮。另请参阅\ :ref:`CheckBox<class_CheckBox>`。
 
 Description
 -----------
 
-CheckButton是一个切换按钮，显示为一个可选字段。它在功能上类似于:ref:`CheckBox<class_CheckBox>`，但外观不同。为了遵循用户体验，建议在切换它对某些东西有**直接**影响时使用CheckButton。例如，如果切换它可以启用或禁用设置而不需要用户按下确认按钮时，使用它。
+CheckButton是一个切换按钮，显示为一个可选字段。它在功能上类似于\ :ref:`CheckBox<class_CheckBox>`，但外观不同。为了遵循用户体验，建议在切换它对某些东西有\ **直接**\ 影响时使用CheckButton。例如，如果切换它可以启用或禁用设置而不需要用户按下确认按钮时，使用它。
 
-参阅:ref:`BaseButton<class_BaseButton>`，它包含了与该节点相关的常规属性和方法。
+参阅\ :ref:`BaseButton<class_BaseButton>`，它包含了与该节点相关的常规属性和方法。
 
 Properties
 ----------
@@ -119,7 +119,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 0.94, 0.94, 0.94, 1 )`` |
 +-----------+----------------------------------+
 
-悬停时``CheckButton``\ 文本的字体颜色。
+悬停时\ ``CheckButton``\ 文本的字体颜色。
 
 ----
 
@@ -131,7 +131,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 1, 1, 1, 1 )`` |
 +-----------+-------------------------+
 
-当``CheckButton``\ 被悬停和按下时，其文本的字体颜色。
+当\ ``CheckButton``\ 被悬停和按下时，其文本的字体颜色。
 
 ----
 
@@ -143,7 +143,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 1, 1, 1, 1 )`` |
 +-----------+-------------------------+
 
-按下``CheckButton``\ 时文本的字体颜色。
+按下\ ``CheckButton``\ 时文本的字体颜色。
 
 ----
 
@@ -175,7 +175,7 @@ Theme Property Descriptions
 
 - :ref:`Font<class_Font>` **font**
 
-用于``CheckButton``\ 文本的:ref:`Font<class_Font>`。
+用于\ ``CheckButton``\ 文本的\ :ref:`Font<class_Font>`。
 
 ----
 
@@ -183,7 +183,7 @@ Theme Property Descriptions
 
 - :ref:`Texture<class_Texture>` **off**
 
-未选中``CheckButton``\ 时显示的图标。
+未选中\ ``CheckButton``\ 时显示的图标。
 
 ----
 
@@ -191,7 +191,7 @@ Theme Property Descriptions
 
 - :ref:`Texture<class_Texture>` **off_disabled**
 
-未选中和禁用``CheckButton``\ 时显示的图标。
+未选中和禁用\ ``CheckButton``\ 时显示的图标。
 
 ----
 
@@ -199,7 +199,7 @@ Theme Property Descriptions
 
 - :ref:`Texture<class_Texture>` **on**
 
-选中``CheckButton``\ 时显示的图标。
+选中\ ``CheckButton``\ 时显示的图标。
 
 ----
 
@@ -207,7 +207,7 @@ Theme Property Descriptions
 
 - :ref:`Texture<class_Texture>` **on_disabled**
 
-选中并禁用``CheckButton``\ 时显示的图标。
+选中并禁用\ ``CheckButton``\ 时显示的图标。
 
 ----
 
@@ -215,7 +215,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **disabled**
 
-当``CheckButton``\ 被禁用时，作为背景显示的:ref:`StyleBox<class_StyleBox>`。
+当\ ``CheckButton``\ 被禁用时，作为背景显示的\ :ref:`StyleBox<class_StyleBox>`。
 
 ----
 
@@ -223,7 +223,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **focus**
 
-当``CheckButton``\ 被聚焦时作为背景显示的:ref:`StyleBox<class_StyleBox>`。
+当\ ``CheckButton``\ 被聚焦时作为背景显示的\ :ref:`StyleBox<class_StyleBox>`。
 
 ----
 
@@ -231,7 +231,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **hover**
 
-当``CheckButton``\ 被悬停时作为背景显示的:ref:`StyleBox<class_StyleBox>`。
+当\ ``CheckButton``\ 被悬停时作为背景显示的\ :ref:`StyleBox<class_StyleBox>`。
 
 ----
 
@@ -239,7 +239,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **hover_pressed**
 
-当``CheckButton``\ 被悬停和按下时作为背景显示的:ref:`StyleBox<class_StyleBox>`。
+当\ ``CheckButton``\ 被悬停和按下时作为背景显示的\ :ref:`StyleBox<class_StyleBox>`。
 
 ----
 
@@ -255,7 +255,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **pressed**
 
-当``CheckButton``\ 被按下时作为背景显示的:ref:`StyleBox<class_StyleBox>`。
+当\ ``CheckButton``\ 被按下时作为背景显示的\ :ref:`StyleBox<class_StyleBox>`。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

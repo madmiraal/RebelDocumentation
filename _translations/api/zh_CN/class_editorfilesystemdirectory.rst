@@ -98,7 +98,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **get_file_path** **(** :ref:`int<class_int>` idx **)** |const|
 
-返回索引为``idx`` 文件的路径。
+返回索引为\ ``idx`` 文件的路径。
 
 ----
 
@@ -106,7 +106,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **get_file_script_class_extends** **(** :ref:`int<class_int>` idx **)** |const|
 
-返回这个文件中脚本类（script class）在索引处``idx``\ 定义的基类（base class)。如果这个文件没有使用 ``class_name`` 关键字定义脚本类，将返回一个空字符串。
+返回这个文件中脚本类（script class）在索引处\ ``idx``\ 定义的基类（base class)。如果这个文件没有使用 ``class_name`` 关键字定义脚本类，将返回一个空字符串。
 
 ----
 
@@ -122,7 +122,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **get_file_type** **(** :ref:`int<class_int>` idx **)** |const|
 
-返回索引``idx``\ 处文件的资源类型。这将返回字符串，如``"Resource"``\ 或``"GDScript"``，*不是*文件扩展名，如``".gd"``。
+返回索引\ ``idx``\ 处文件的资源类型。这将返回字符串，如\ ``"Resource"``\ 或\ ``"GDScript"``，*不是*\ 文件扩展名，如\ ``".gd"``。
 
 ----
 

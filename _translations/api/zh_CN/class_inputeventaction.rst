@@ -16,7 +16,7 @@ InputEventAction
 Description
 -----------
 
-包含一个通用动作，可以由不同类型的输入触发。动作可以在**项目 > 项目设置**菜单中的**键位映射**选项卡中创建。请参阅 :ref:`Node._input<class_Node_method__input>`。
+包含一个通用动作，可以由不同类型的输入触发。动作可以在\ **项目 > 项目设置**\ 菜单中的\ **键位映射**\ 选项卡中创建。请参阅 :ref:`Node._input<class_Node_method__input>`。
 
 Tutorials
 ---------

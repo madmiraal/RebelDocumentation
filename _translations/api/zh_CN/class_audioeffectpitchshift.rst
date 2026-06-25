@@ -60,7 +60,7 @@ enum **FFT_Size**:
 
 - **FFT_SIZE_4096** = **4** --- 使用 4096 个样品的缓冲器进行快速傅里叶变换。随着时间的推移，延迟最高但最稳定。
 
-- **FFT_SIZE_MAX** = **5** --- 表示:ref:`FFT_Size<enum_AudioEffectPitchShift_FFT_Size>`\ 枚举的大小。
+- **FFT_SIZE_MAX** = **5** --- 表示\ :ref:`FFT_Size<enum_AudioEffectPitchShift_FFT_Size>`\ 枚举的大小。
 
 Property Descriptions
 ---------------------
@@ -77,7 +77,7 @@ Property Descriptions
 | *Getter*  | get_fft_size()      |
 +-----------+---------------------+
 
-`快速傅里叶变换 <https://en.wikipedia.org/wiki/Fast_Fourier_transform>`__缓冲区的大小。较高的数值可以使效果随时间平滑，但有较大的延迟。这种较高的延迟对有突然幅度变化的声音的影响特别明显。
+`快速傅里叶变换 <https://en.wikipedia.org/wiki/Fast_Fourier_transform>`__\ 缓冲区的大小。较高的数值可以使效果随时间平滑，但有较大的延迟。这种较高的延迟对有突然幅度变化的声音的影响特别明显。
 
 ----
 
@@ -109,7 +109,7 @@ Property Descriptions
 | *Getter*  | get_pitch_scale()      |
 +-----------+------------------------+
 
-要使用的音阶。``1.0``\ 是默认的音高，播放的声音没有改变。:ref:`pitch_scale<class_AudioEffectPitchShift_property_pitch_scale>`\ 的范围从``0.0``（无限低的音调，听不见）到``16``（比初始音调高16倍）。
+要使用的音阶。``1.0``\ 是默认的音高，播放的声音没有改变。:ref:`pitch_scale<class_AudioEffectPitchShift_property_pitch_scale>`\ 的范围从\ ``0.0``\ （无限低的音调，听不见）到\ ``16``\ （比初始音调高16倍）。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`
