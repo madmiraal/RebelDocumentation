@@ -64,7 +64,7 @@ Method Descriptions
 
 - void **add_collision_segments** **(** :ref:`PoolVector3Array<class_PoolVector3Array>` segments **)**
 
-将指定的``segments``\ 添加到gizmo的碰撞形状中，以便挑选。在:ref:`redraw<class_EditorSpatialGizmo_method_redraw>`\ 时调用此函数。
+将指定的\ ``segments``\ 添加到gizmo的碰撞形状中，以便挑选。在\ :ref:`redraw<class_EditorSpatialGizmo_method_redraw>`\ 时调用此函数。
 
 ----
 
@@ -72,7 +72,7 @@ Method Descriptions
 
 - void **add_collision_triangles** **(** :ref:`TriangleMesh<class_TriangleMesh>` triangles **)**
 
-将碰撞三角形添加到小工具中，供挑选。也可以从普通的:ref:`Mesh<class_Mesh>`\ 生成:ref:`TriangleMesh<class_TriangleMesh>`。在:ref:`redraw<class_EditorSpatialGizmo_method_redraw>`\ 时调用此函数。
+将碰撞三角形添加到小工具中，供挑选。也可以从普通的\ :ref:`Mesh<class_Mesh>`\ 生成\ :ref:`TriangleMesh<class_TriangleMesh>`。在\ :ref:`redraw<class_EditorSpatialGizmo_method_redraw>`\ 时调用此函数。
 
 ----
 
@@ -90,7 +90,7 @@ Method Descriptions
 
 - void **add_lines** **(** :ref:`PoolVector3Array<class_PoolVector3Array>` lines, :ref:`Material<class_Material>` material, :ref:`bool<class_bool>` billboard=false, :ref:`Color<class_Color>` modulate=Color( 1, 1, 1, 1 ) **)**
 
-用给定的材质在小工具上添加线条到gizmo （作为2个点的集合）。线条用于可视化gizmo。在:ref:`redraw<class_EditorSpatialGizmo_method_redraw>`\ 时调用此函数。
+用给定的材质在小工具上添加线条到gizmo （作为2个点的集合）。线条用于可视化gizmo。在\ :ref:`redraw<class_EditorSpatialGizmo_method_redraw>`\ 时调用此函数。
 
 ----
 
@@ -106,7 +106,7 @@ Method Descriptions
 
 - void **add_unscaled_billboard** **(** :ref:`Material<class_Material>` material, :ref:`float<class_float>` default_scale=1, :ref:`Color<class_Color>` modulate=Color( 1, 1, 1, 1 ) **)**
 
-添加一个未缩放的广告牌以实现可视化。在:ref:`redraw<class_EditorSpatialGizmo_method_redraw>`\ 时调用此函数。
+添加一个未缩放的广告牌以实现可视化。在\ :ref:`redraw<class_EditorSpatialGizmo_method_redraw>`\ 时调用此函数。
 
 ----
 
@@ -122,9 +122,9 @@ Method Descriptions
 
 - void **commit_handle** **(** :ref:`int<class_int>` index, :ref:`Variant<class_Variant>` restore, :ref:`bool<class_bool>` cancel=false **)** |virtual|
 
-提交一个正在编辑的句柄（句柄必须是之前通过:ref:`add_handles<class_EditorSpatialGizmo_method_add_handles>`\ 添加的）。
+提交一个正在编辑的句柄（句柄必须是之前通过\ :ref:`add_handles<class_EditorSpatialGizmo_method_add_handles>`\ 添加的）。
 
-如果``cancel``\ 参数是``true``，则提供了一个将编辑后的值恢复到原始值的选项。
+如果\ ``cancel``\ 参数是\ ``true``，则提供了一个将编辑后的值恢复到原始值的选项。
 
 ----
 
@@ -132,7 +132,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **get_handle_name** **(** :ref:`int<class_int>` index **)** |virtual|
 
-获取已编辑的句柄的名称（句柄必须是之前通过:ref:`add_handles<class_EditorSpatialGizmo_method_add_handles>`\ 添加的）。
+获取已编辑的句柄的名称（句柄必须是之前通过\ :ref:`add_handles<class_EditorSpatialGizmo_method_add_handles>`\ 添加的）。
 
 句柄的名称可以在编辑时被命名作为用户参考。
 
@@ -142,7 +142,7 @@ Method Descriptions
 
 - :ref:`Variant<class_Variant>` **get_handle_value** **(** :ref:`int<class_int>` index **)** |virtual|
 
-获取一个句柄的实际值，这个值可以是任何东西，用于在调用:ref:`commit_handle<class_EditorSpatialGizmo_method_commit_handle>`\ 时最终撤销动作。这个值可以是任何东西，用于在调用:ref:`commit_handle<class_EditorSpatialGizmo_method_commit_handle>`\ 时最终撤销动作。
+获取一个句柄的实际值，这个值可以是任何东西，用于在调用\ :ref:`commit_handle<class_EditorSpatialGizmo_method_commit_handle>`\ 时最终撤销动作。这个值可以是任何东西，用于在调用\ :ref:`commit_handle<class_EditorSpatialGizmo_method_commit_handle>`\ 时最终撤销动作。
 
 ----
 
@@ -166,7 +166,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_handle_highlighted** **(** :ref:`int<class_int>` index **)** |virtual|
 
-如果鼠标悬停索引为 ``index`` 的句柄高亮，则返回``true``。
+如果鼠标悬停索引为 ``index`` 的句柄高亮，则返回\ ``true``。
 
 ----
 
@@ -192,7 +192,7 @@ Method Descriptions
 
 - void **set_hidden** **(** :ref:`bool<class_bool>` hidden **)**
 
-设置工具的隐藏状态。如果``true``，则小控件将被隐藏。如果``false``，将显示它。
+设置工具的隐藏状态。如果\ ``true``，则小控件将被隐藏。如果\ ``false``，将显示它。
 
 ----
 

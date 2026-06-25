@@ -16,9 +16,9 @@ TouchScreenButton
 Description
 -----------
 
-TouchScreenButton允许你为触摸设备创建屏幕上的按钮。其为游戏使用，比如在必须触摸才能移动的设备。与:ref:`Button<class_Button>`\ 不同，TouchScreenButton原生支持多点触摸。几个TouchScreenButton可以通过触摸输入同时被按下。
+TouchScreenButton允许你为触摸设备创建屏幕上的按钮。其为游戏使用，比如在必须触摸才能移动的设备。与\ :ref:`Button<class_Button>`\ 不同，TouchScreenButton原生支持多点触摸。几个TouchScreenButton可以通过触摸输入同时被按下。
 
-这个节点继承自:ref:`Node2D<class_Node2D>`。与:ref:`Control<class_Control>`\ 节点不同，你不能在它上面设置锚点。如果要创建菜单或用户界面，可用:ref:`Button<class_Button>`\ 节点代替。为了使按钮节点对触摸事件作出反应，可在项目设置中启用模拟鼠标选项。
+这个节点继承自\ :ref:`Node2D<class_Node2D>`。与\ :ref:`Control<class_Control>`\ 节点不同，你不能在它上面设置锚点。如果要创建菜单或用户界面，可用\ :ref:`Button<class_Button>`\ 节点代替。为了使按钮节点对触摸事件作出反应，可在项目设置中启用模拟鼠标选项。
 
 可将TouchScreenButton配置为只在触摸设备上可见，有助你同时为桌面和移动设备开发游戏。
 
@@ -99,7 +99,7 @@ Property Descriptions
 | *Getter*  | get_action()      |
 +-----------+-------------------+
 
-按钮的动作。动作可以用:ref:`InputEventAction<class_InputEventAction>`\ 来处理。
+按钮的动作。动作可以用\ :ref:`InputEventAction<class_InputEventAction>`\ 来处理。
 
 ----
 
@@ -143,9 +143,9 @@ Property Descriptions
 | *Getter*  | is_passby_press_enabled() |
 +-----------+---------------------------+
 
-如果``true``，只要按下的手指进出按钮，就会发出 :ref:`pressed<class_TouchScreenButton_signal_pressed>` 和:ref:`released<class_TouchScreenButton_signal_released>` ]信号，即使压力开始于按钮的有效区域之外。
+如果\ ``true``，只要按下的手指进出按钮，就会发出 :ref:`pressed<class_TouchScreenButton_signal_pressed>` 和\ :ref:`released<class_TouchScreenButton_signal_released>` ]信号，即使压力开始于按钮的有效区域之外。
 
-**注意：**这是一种 "pass-by" 的按压模式 ，而不是 "bypass"。
+**注意：**\ 这是一种 "pass-by" 的按压模式 ，而不是 "bypass"。
 
 ----
 
@@ -189,7 +189,7 @@ Property Descriptions
 | *Getter*  | is_shape_centered()       |
 +-----------+---------------------------+
 
-如果``true``，按钮的形状会在提供的纹理中居中。如果没有使用纹理，这个属性就没有效果。
+如果\ ``true``，按钮的形状会在提供的纹理中居中。如果没有使用纹理，这个属性就没有效果。
 
 ----
 
@@ -205,7 +205,7 @@ Property Descriptions
 | *Getter*  | is_shape_visible()       |
 +-----------+--------------------------+
 
-如果``true``，按钮的形状是可见的。
+如果\ ``true``，按钮的形状是可见的。
 
 ----
 
@@ -221,7 +221,7 @@ Property Descriptions
 | *Getter*  | get_visibility_mode()      |
 +-----------+----------------------------+
 
-按钮的可见性模式。有关可能的值，参阅:ref:`VisibilityMode<enum_TouchScreenButton_VisibilityMode>`。
+按钮的可见性模式。有关可能的值，参阅\ :ref:`VisibilityMode<enum_TouchScreenButton_VisibilityMode>`。
 
 Method Descriptions
 -------------------
@@ -230,7 +230,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_pressed** **(** **)** |const|
 
-如果这个按钮当前被按下，则返回``true``。
+如果这个按钮当前被按下，则返回\ ``true``。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

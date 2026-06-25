@@ -18,11 +18,11 @@ Description
 
 :ref:`Portal<class_Portal>` 剔除系统需要使用在称为 ``Room`` 的区域中按位置分组在一起的对象来构建关卡。在许多情况下，这些将对应于建筑物中的实际空间，但不一定（峡谷区域可能被视为空间）。
 
-如果 :ref:`VisualInstance<class_VisualInstance>` 的 ``portal_mode`` 设置为 ``STATIC``（不移动) 或 ``DYNAMIC``（仅在空间内移动），那么任何作为 ``Room`` 的子代或孙代的 :ref:`VisualInstance<class_VisualInstance>` 将被分配到该空间。
+如果 :ref:`VisualInstance<class_VisualInstance>` 的 ``portal_mode`` 设置为 ``STATIC``\ （不移动) 或 ``DYNAMIC``\ （仅在空间内移动），那么任何作为 ``Room`` 的子代或孙代的 :ref:`VisualInstance<class_VisualInstance>` 将被分配到该空间。
 
-在内部，空间边界必须形成一个**凸多边形**，默认情况下，这由您放置在空间内的对象的几何形状自动确定。
+在内部，空间边界必须形成一个\ **凸多边形**，默认情况下，这由您放置在空间内的对象的几何形状自动确定。
 
-您也可以精确指定**手动绑定**。如果放置一个名称以 ``Bound_`` 为前缀的 :ref:`MeshInstance<class_MeshInstance>`，它将关闭几何体的边界生成，而是在转换阶段使用这个MeshInstance 的顶点直接计算凸多边形（见:ref:`RoomManager<class_RoomManager>`）。
+您也可以精确指定\ **手动绑定**。如果放置一个名称以 ``Bound_`` 为前缀的 :ref:`MeshInstance<class_MeshInstance>`，它将关闭几何体的边界生成，而是在转换阶段使用这个MeshInstance 的顶点直接计算凸多边形（见\ :ref:`RoomManager<class_RoomManager>`）。
 
 为了从一个空间看到相邻的空间，:ref:`Portal<class_Portal>` 必须放置在空间之间的非遮挡开口上。这些通常会放置在门窗上。
 

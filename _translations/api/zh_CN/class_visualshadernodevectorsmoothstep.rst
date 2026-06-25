@@ -16,9 +16,9 @@ VisualShaderNodeVectorSmoothStep
 Description
 -----------
 
-在着色器语言中转换成``smoothstep(edge0, edge1, x)``，其中``x``\ 是一个向量。
+在着色器语言中转换成\ ``smoothstep(edge0, edge1, x)``，其中\ ``x``\ 是一个向量。
 
-如果``x``\ 小于``edge0``，返回``0.0``，如果``x``\ 大于``edge1``，返回``1.0``。否则返回值在``0.0``\ 和``1.0``\ 之间使用Hermite多项式进行插值。
+如果\ ``x``\ 小于\ ``edge0``，返回\ ``0.0``，如果\ ``x``\ 大于\ ``edge1``，返回\ ``1.0``。否则返回值在\ ``0.0``\ 和\ ``1.0``\ 之间使用Hermite多项式进行插值。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

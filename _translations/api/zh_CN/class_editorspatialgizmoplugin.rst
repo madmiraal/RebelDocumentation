@@ -71,7 +71,7 @@ Method Descriptions
 
 - void **add_material** **(** :ref:`String<class_String>` name, :ref:`SpatialMaterial<class_SpatialMaterial>` material **)**
 
-将新材质添加到插件的内部插件列表中。然后可以使用:ref:`get_material<class_EditorSpatialGizmoPlugin_method_get_material>`\ 访问它。不会该被覆盖。
+将新材质添加到插件的内部插件列表中。然后可以使用\ :ref:`get_material<class_EditorSpatialGizmoPlugin_method_get_material>`\ 访问它。不会该被覆盖。
 
 ----
 
@@ -79,7 +79,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **can_be_hidden** **(** **)** |virtual|
 
-重写此方法以定义是否可以隐藏Gizmo。如果未覆盖，则返回``true``。
+重写此方法以定义是否可以隐藏Gizmo。如果未覆盖，则返回\ ``true``。
 
 ----
 
@@ -163,7 +163,7 @@ Method Descriptions
 
 重写此方法可以设置工具的优先级。值越高，优先级越高。如果具有较高优先级的工具与另一个工具发生冲突，则仅使用具有较高优先级的工具。
 
-所有内置编辑器小控件均返回``-1``\ 优先级。如果未重写，则此方法将返回``0``，这意味着自定义控件将自动覆盖内置控件。
+所有内置编辑器小控件均返回\ ``-1``\ 优先级。如果未重写，则此方法将返回\ ``0``，这意味着自定义控件将自动覆盖内置控件。
 
 ----
 

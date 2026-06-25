@@ -16,9 +16,9 @@ MarginContainer
 Description
 -----------
 
-为所有作为容器的直接子节点的:ref:`Control<class_Control>`\ 节点添加顶部、左侧、底部和右侧的边距。要控制``MarginContainer``\ 的边距，请使用下面列出的``margin_*`` 主题属性。
+为所有作为容器的直接子节点的\ :ref:`Control<class_Control>`\ 节点添加顶部、左侧、底部和右侧的边距。要控制\ ``MarginContainer``\ 的边距，请使用下面列出的\ ``margin_*`` 主题属性。
 
-**注意：**要小心，:ref:`Control<class_Control>`\ 的margin值与常量margin值不同。如果你想通过代码改变``MarginContainer``\ 的自定义边距值，应该使用下面的例子:
+**注意：**\ 要小心，:ref:`Control<class_Control>`\ 的margin值与常量margin值不同。如果你想通过代码改变\ ``MarginContainer``\ 的自定义边距值，应该使用下面的例子:
 
 ::
 
@@ -53,7 +53,7 @@ Theme Property Descriptions
 | *Default* | ``0`` |
 +-----------+-------+
 
-所有``MarginContainer``\ 的直接子代将有``margin_bottom``\ 像素的底边距。
+所有\ ``MarginContainer``\ 的直接子代将有\ ``margin_bottom``\ 像素的底边距。
 
 ----
 
@@ -65,7 +65,7 @@ Theme Property Descriptions
 | *Default* | ``0`` |
 +-----------+-------+
 
-所有``MarginContainer``\ 的直接子代将有``margin_left``\ 像素的左边距。
+所有\ ``MarginContainer``\ 的直接子代将有\ ``margin_left``\ 像素的左边距。
 
 ----
 
@@ -77,7 +77,7 @@ Theme Property Descriptions
 | *Default* | ``0`` |
 +-----------+-------+
 
-所有``MarginContainer``\ 的直接子代将有``margin_right``\ 像素的右边距。
+所有\ ``MarginContainer``\ 的直接子代将有\ ``margin_right``\ 像素的右边距。
 
 ----
 
@@ -89,7 +89,7 @@ Theme Property Descriptions
 | *Default* | ``0`` |
 +-----------+-------+
 
-所有``MarginContainer``\ 的直接子代将有``margin_right``\ 像素的顶边距。
+所有\ ``MarginContainer``\ 的直接子代将有\ ``margin_right``\ 像素的顶边距。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

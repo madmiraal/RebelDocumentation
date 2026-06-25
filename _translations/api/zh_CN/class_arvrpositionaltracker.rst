@@ -95,7 +95,7 @@ Property Descriptions
 | *Getter*  | get_rumble()      |
 +-----------+-------------------+
 
-追踪器噪声的程度。范围从``0.0``\ 到``1.0``，精度``.01``。
+追踪器噪声的程度。范围从\ ``0.0``\ 到\ ``1.0``，精度\ ``.01``。
 
 Method Descriptions
 -------------------
@@ -104,7 +104,7 @@ Method Descriptions
 
 - :ref:`TrackerHand<enum_ARVRPositionalTracker_TrackerHand>` **get_hand** **(** **)** |const|
 
-返回持有此追踪器的手，如果知道。参阅:ref:`TrackerHand<enum_ARVRPositionalTracker_TrackerHand>`\ 常量。
+返回持有此追踪器的手，如果知道。参阅\ :ref:`TrackerHand<enum_ARVRPositionalTracker_TrackerHand>`\ 常量。
 
 ----
 
@@ -152,7 +152,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_tracker_id** **(** **)** |const|
 
-返回内部跟踪器的ID。这是对每个跟踪器类型的唯一标识，与你需要为:ref:`ARVRController<class_ARVRController>`\ 和:ref:`ARVRAnchor<class_ARVRAnchor>`\ 节点指定的ID相匹配。
+返回内部跟踪器的ID。这是对每个跟踪器类型的唯一标识，与你需要为\ :ref:`ARVRController<class_ARVRController>`\ 和\ :ref:`ARVRAnchor<class_ARVRAnchor>`\ 节点指定的ID相匹配。
 
 ----
 
@@ -160,7 +160,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **get_tracks_orientation** **(** **)** |const|
 
-如果该设备跟踪方向，则返回``true``。
+如果该设备跟踪方向，则返回\ ``true``。
 
 ----
 
@@ -168,7 +168,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **get_tracks_position** **(** **)** |const|
 
-如果该设备跟踪位置，则返回``true``。
+如果该设备跟踪位置，则返回\ ``true``。
 
 ----
 

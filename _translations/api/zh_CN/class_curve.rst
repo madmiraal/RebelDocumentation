@@ -156,7 +156,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **add_point** **(** :ref:`Vector2<class_Vector2>` position, :ref:`float<class_float>` left_tangent=0, :ref:`float<class_float>` right_tangent=0, :ref:`TangentMode<enum_Curve_TangentMode>` left_mode=0, :ref:`TangentMode<enum_Curve_TangentMode>` right_mode=0 **)**
 
-在曲线上添加一个点。对于每一侧，如果``*_mode``\ 为:ref:`TANGENT_LINEAR<class_Curve_constant_TANGENT_LINEAR>`，则``*_tangent``\ 角度（以度为单位）将使用曲线到邻近点的一半的斜率。如果``*_mode``\ 设置为:ref:`TANGENT_FREE<class_Curve_constant_TANGENT_FREE>`，则允许自定义分配给``*_tangent``\ 角度。
+在曲线上添加一个点。对于每一侧，如果\ ``*_mode``\ 为\ :ref:`TANGENT_LINEAR<class_Curve_constant_TANGENT_LINEAR>`，则\ ``*_tangent``\ 角度（以度为单位）将使用曲线到邻近点的一半的斜率。如果\ ``*_mode``\ 设置为\ :ref:`TANGENT_FREE<class_Curve_constant_TANGENT_FREE>`，则允许自定义分配给\ ``*_tangent``\ 角度。
 
 ----
 
@@ -172,7 +172,7 @@ Method Descriptions
 
 - void **clean_dupes** **(** **)**
 
-删除比曲线上的相邻点近``CMP_EPSILON``（0.00001）个单位的点。
+删除比曲线上的相邻点近\ ``CMP_EPSILON``\ （0.00001）个单位的点。
 
 ----
 
@@ -196,7 +196,7 @@ Method Descriptions
 
 - :ref:`TangentMode<enum_Curve_TangentMode>` **get_point_left_mode** **(** :ref:`int<class_int>` index **)** |const|
 
-返回``index``\ 处的点的左侧:ref:`TangentMode<enum_Curve_TangentMode>`。
+返回\ ``index``\ 处的点的左侧\ :ref:`TangentMode<enum_Curve_TangentMode>`。
 
 ----
 
@@ -204,7 +204,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **get_point_left_tangent** **(** :ref:`int<class_int>` index **)** |const|
 
-返回``index``\ 处的点的左切线角（以度为单位）。
+返回\ ``index``\ 处的点的左切线角（以度为单位）。
 
 ----
 
@@ -212,7 +212,7 @@ Method Descriptions
 
 - :ref:`Vector2<class_Vector2>` **get_point_position** **(** :ref:`int<class_int>` index **)** |const|
 
-返回``index``\ 处该点的曲线坐标。
+返回\ ``index``\ 处该点的曲线坐标。
 
 ----
 
@@ -220,7 +220,7 @@ Method Descriptions
 
 - :ref:`TangentMode<enum_Curve_TangentMode>` **get_point_right_mode** **(** :ref:`int<class_int>` index **)** |const|
 
-返回在``index``\ 处的点的右:ref:`TangentMode<enum_Curve_TangentMode>`。
+返回在\ ``index``\ 处的点的右\ :ref:`TangentMode<enum_Curve_TangentMode>`。
 
 ----
 
@@ -228,7 +228,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **get_point_right_tangent** **(** :ref:`int<class_int>` index **)** |const|
 
-返回``index``\ 处的点的左切线角（以度为单位）。
+返回\ ``index``\ 处的点的左切线角（以度为单位）。
 
 ----
 
@@ -236,7 +236,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **interpolate** **(** :ref:`float<class_float>` offset **)** |const|
 
-返回沿曲线的X位置``offset``\ 处将存在的点的Y值。
+返回沿曲线的X位置\ ``offset``\ 处将存在的点的Y值。
 
 ----
 
@@ -244,7 +244,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **interpolate_baked** **(** :ref:`float<class_float>` offset **)**
 
-使用烘焙的缓存返回沿曲线的X位置``offset``\ 处将存在的点的Y值。如果尚未烘焙曲线的点，则将其烘焙。
+使用烘焙的缓存返回沿曲线的X位置\ ``offset``\ 处将存在的点的Y值。如果尚未烘焙曲线的点，则将其烘焙。
 
 ----
 
@@ -252,7 +252,7 @@ Method Descriptions
 
 - void **remove_point** **(** :ref:`int<class_int>` index **)**
 
-从曲线中删除``index``\ 处的点。
+从曲线中删除\ ``index``\ 处的点。
 
 ----
 
@@ -260,7 +260,7 @@ Method Descriptions
 
 - void **set_point_left_mode** **(** :ref:`int<class_int>` index, :ref:`TangentMode<enum_Curve_TangentMode>` mode **)**
 
-将``index``\ 处的点的左侧:ref:`TangentMode<enum_Curve_TangentMode>`\ 设置为``mode``。
+将\ ``index``\ 处的点的左侧\ :ref:`TangentMode<enum_Curve_TangentMode>`\ 设置为\ ``mode``。
 
 ----
 
@@ -276,7 +276,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **set_point_offset** **(** :ref:`int<class_int>` index, :ref:`float<class_float>` offset **)**
 
-设置相对于``0.5``\ 的偏移量。
+设置相对于\ ``0.5``\ 的偏移量。
 
 ----
 
@@ -284,7 +284,7 @@ Method Descriptions
 
 - void **set_point_right_mode** **(** :ref:`int<class_int>` index, :ref:`TangentMode<enum_Curve_TangentMode>` mode **)**
 
-将``index``\ 上的点的右侧:ref:`TangentMode<enum_Curve_TangentMode>`\ 设置为``mode``。
+将\ ``index``\ 上的点的右侧\ :ref:`TangentMode<enum_Curve_TangentMode>`\ 设置为\ ``mode``。
 
 ----
 
@@ -292,7 +292,7 @@ Method Descriptions
 
 - void **set_point_right_tangent** **(** :ref:`int<class_int>` index, :ref:`float<class_float>` tangent **)**
 
-设置``index``\ 至``tangent``\ 处的点的右切线角。
+设置\ ``index``\ 至\ ``tangent``\ 处的点的右切线角。
 
 ----
 
@@ -300,7 +300,7 @@ Method Descriptions
 
 - void **set_point_value** **(** :ref:`int<class_int>` index, :ref:`float<class_float>` y **)**
 
-将垂直位置``y``\ 分配给``index``\ 处的点。
+将垂直位置\ ``y``\ 分配给\ ``index``\ 处的点。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

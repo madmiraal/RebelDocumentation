@@ -124,11 +124,11 @@ Enumerations
 
 enum **ArrayType**:
 
-- **ARRAY_VERTEX** = **0** --- :ref:`PoolVector3Array<class_PoolVector3Array>`, :ref:`PoolVector2Array<class_PoolVector2Array>`, 或:ref:`Array<class_Array>`\ 的顶点位置。
+- **ARRAY_VERTEX** = **0** --- :ref:`PoolVector3Array<class_PoolVector3Array>`, :ref:`PoolVector2Array<class_PoolVector2Array>`, 或\ :ref:`Array<class_Array>`\ 的顶点位置。
 
 - **ARRAY_NORMAL** = **1** --- :ref:`PoolVector3Array<class_PoolVector3Array>` 顶点法线。
 
-- **ARRAY_TANGENT** = **2** --- 顶点切线的:ref:`PoolRealArray<class_PoolRealArray>`。每个元素以4个浮点数为一组，前3个浮点数决定切线，最后一个是-1或1的双法线方向。
+- **ARRAY_TANGENT** = **2** --- 顶点切线的\ :ref:`PoolRealArray<class_PoolRealArray>`。每个元素以4个浮点数为一组，前3个浮点数决定切线，最后一个是-1或1的双法线方向。
 
 - **ARRAY_COLOR** = **3** --- :ref:`PoolColorArray<class_PoolColorArray>` 顶点颜色。
 
@@ -136,15 +136,15 @@ enum **ArrayType**:
 
 - **ARRAY_TEX_UV2** = **5** --- :ref:`PoolVector2Array<class_PoolVector2Array>`\ 用于第二UV坐标。
 
-- **ARRAY_BONES** = **6** --- :ref:`PoolRealArray<class_PoolRealArray>`\ 或:ref:`PoolIntArray<class_PoolIntArray>`\ 的骨骼索引。每个元素以4个浮点数为一组。
+- **ARRAY_BONES** = **6** --- :ref:`PoolRealArray<class_PoolRealArray>`\ 或\ :ref:`PoolIntArray<class_PoolIntArray>`\ 的骨骼索引。每个元素以4个浮点数为一组。
 
-- **ARRAY_WEIGHTS** = **7** --- 骨骼权重的:ref:`PoolRealArray<class_PoolRealArray>`。每个元素以4个浮点数为一组。
+- **ARRAY_WEIGHTS** = **7** --- 骨骼权重的\ :ref:`PoolRealArray<class_PoolRealArray>`。每个元素以4个浮点数为一组。
 
 - **ARRAY_INDEX** = **8** --- :ref:`PoolIntArray<class_PoolIntArray>`\ 整数数组，用作引用顶点、颜色、法线、切线和纹理的索引。所有这些数组必须具有与顶点数组相同的元素数量。任何索引都不能超过顶点数组的大小。当这个索引数组出现时，它使函数进入“索引模式”，其中索引选择 \*i\* 的顶点、法线、切线、颜色、UV 等。这意味着如果你想沿着一条边有不同的法线或颜色，需拷贝顶点。
 
 对于三角形，索引数组被解释为三元组，指的是每个三角形的顶点。对于线，索引数组是成对的，表示每条线的起点和终点。
 
-- **ARRAY_MAX** = **9** --- 表示:ref:`ArrayType<enum_ArrayMesh_ArrayType>`\ 枚举的大小。
+- **ARRAY_MAX** = **9** --- 表示\ :ref:`ArrayType<enum_ArrayMesh_ArrayType>`\ 枚举的大小。
 
 ----
 
@@ -214,7 +214,7 @@ Property Descriptions
 | *Getter*  | get_blend_shape_mode()      |
 +-----------+-----------------------------+
 
-将混合形状模式设置为:ref:`BlendShapeMode<enum_Mesh_BlendShapeMode>`\ 之一。
+将混合形状模式设置为\ :ref:`BlendShapeMode<enum_Mesh_BlendShapeMode>`\ 之一。
 
 ----
 
@@ -230,7 +230,7 @@ Property Descriptions
 | *Getter*  | get_custom_aabb()            |
 +-----------+------------------------------+
 
-用用户定义的用于使用视锥剔除的一种替代:ref:`AABB<class_AABB>`。在使用着色器偏移顶点时，避免非预期的剔除特别有用。
+用用户定义的用于使用视锥剔除的一种替代\ :ref:`AABB<class_AABB>`。在使用着色器偏移顶点时，避免非预期的剔除特别有用。
 
 Method Descriptions
 -------------------
@@ -239,7 +239,7 @@ Method Descriptions
 
 - void **add_blend_shape** **(** :ref:`String<class_String>` name **)**
 
-为混合形状添加名称，该名称将用:ref:`add_surface_from_arrays<class_ArrayMesh_method_add_surface_from_arrays>`\ 添加。必须在添加曲面之前调用。
+为混合形状添加名称，该名称将用\ :ref:`add_surface_from_arrays<class_ArrayMesh_method_add_surface_from_arrays>`\ 添加。必须在添加曲面之前调用。
 
 ----
 
@@ -259,7 +259,7 @@ Method Descriptions
 
 - void **clear_blend_shapes** **(** **)**
 
-删除此``ArrayMesh``\ 的所有混合形状。
+删除此\ ``ArrayMesh``\ 的所有混合形状。
 
 ----
 
@@ -267,7 +267,7 @@ Method Descriptions
 
 - void **clear_surfaces** **(** **)**
 
-删除此``ArrayMesh``\ 的所有表面。
+删除此\ ``ArrayMesh``\ 的所有表面。
 
 ----
 
@@ -275,7 +275,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_blend_shape_count** **(** **)** |const|
 
-返回``ArrayMesh``\ 持有的混合形状的数量。
+返回\ ``ArrayMesh``\ 持有的混合形状的数量。
 
 ----
 
@@ -291,7 +291,7 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **lightmap_unwrap** **(** :ref:`Transform<class_Transform>` transform, :ref:`float<class_float>` texel_size **)**
 
-将在``ArrayMesh``\ 上执行UV展开，以准备用于光照贴图的网格。
+将在\ ``ArrayMesh``\ 上执行UV展开，以准备用于光照贴图的网格。
 
 ----
 
@@ -299,7 +299,7 @@ Method Descriptions
 
 - void **regen_normalmaps** **(** **)**
 
-将为``ArrayMesh``\ 重新生成法线图。
+将为\ ``ArrayMesh``\ 重新生成法线图。
 
 ----
 
@@ -313,7 +313,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **surface_find_by_name** **(** :ref:`String<class_String>` name **)** |const|
 
-返回此``ArrayMesh``\ 中带有此名称的第一个曲面的索引。如果没有找到，则返回-1。
+返回此\ ``ArrayMesh``\ 中带有此名称的第一个曲面的索引。如果没有找到，则返回-1。
 
 ----
 
@@ -321,7 +321,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **surface_get_array_index_len** **(** :ref:`int<class_int>` surf_idx **)** |const|
 
-返回请求的曲面的索引数组的长度，以指数为单位（参阅:ref:`add_surface_from_arrays<class_ArrayMesh_method_add_surface_from_arrays>`）。
+返回请求的曲面的索引数组的长度，以指数为单位（参阅\ :ref:`add_surface_from_arrays<class_ArrayMesh_method_add_surface_from_arrays>`）。
 
 ----
 
@@ -329,7 +329,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **surface_get_array_len** **(** :ref:`int<class_int>` surf_idx **)** |const|
 
-返回所请求曲面中顶点数组的顶点长度（请参阅:ref:`add_surface_from_arrays<class_ArrayMesh_method_add_surface_from_arrays>`）。
+返回所请求曲面中顶点数组的顶点长度（请参阅\ :ref:`add_surface_from_arrays<class_ArrayMesh_method_add_surface_from_arrays>`）。
 
 ----
 
@@ -337,7 +337,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **surface_get_format** **(** :ref:`int<class_int>` surf_idx **)** |const|
 
-返回所请求表面的格式掩码（请参阅:ref:`add_surface_from_arrays<class_ArrayMesh_method_add_surface_from_arrays>`）。
+返回所请求表面的格式掩码（请参阅\ :ref:`add_surface_from_arrays<class_ArrayMesh_method_add_surface_from_arrays>`）。
 
 ----
 
@@ -353,7 +353,7 @@ Method Descriptions
 
 - :ref:`PrimitiveType<enum_Mesh_PrimitiveType>` **surface_get_primitive_type** **(** :ref:`int<class_int>` surf_idx **)** |const|
 
-返回所请求曲面的基本类型（请参阅:ref:`add_surface_from_arrays<class_ArrayMesh_method_add_surface_from_arrays>`）。
+返回所请求曲面的基本类型（请参阅\ :ref:`add_surface_from_arrays<class_ArrayMesh_method_add_surface_from_arrays>`）。
 
 ----
 
@@ -361,7 +361,7 @@ Method Descriptions
 
 - void **surface_remove** **(** :ref:`int<class_int>` surf_idx **)**
 
-移除位置``surf_idx``\ 的一个面，将较大的面向下移动一个``surf_idx``\ 槽。
+移除位置\ ``surf_idx``\ 的一个面，将较大的面向下移动一个\ ``surf_idx``\ 槽。
 
 ----
 
@@ -379,7 +379,7 @@ Method Descriptions
 
 更新 GPU 上的网格数组的指定区域。
 
-**警告：**仅在知道您在做什么时使用。通过用不恰当的参数调用此功能，您可以轻松地导致崩溃。
+**警告：**\ 仅在知道您在做什么时使用。通过用不恰当的参数调用此功能，您可以轻松地导致崩溃。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

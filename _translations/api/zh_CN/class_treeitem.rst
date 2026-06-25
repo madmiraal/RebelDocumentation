@@ -16,9 +16,9 @@ TreeItem
 Description
 -----------
 
-控件:ref:`Tree<class_Tree>`\ 中的单个项目。可以有子级``TreeItem``， 样式， 以及包含按钮。
+控件\ :ref:`Tree<class_Tree>`\ 中的单个项目。可以有子级\ ``TreeItem``， 样式， 以及包含按钮。
 
-您可以使用:ref:`Object.free<class_Object_method_free>`\ 删除``TreeItem``。
+您可以使用\ :ref:`Object.free<class_Object_method_free>`\ 删除\ ``TreeItem``。
 
 Properties
 ----------
@@ -199,11 +199,11 @@ enum **TreeCellMode**:
 
 enum **TextAlign**:
 
-- **ALIGN_LEFT** = **0** --- 将文本向左对齐。参阅``set_text_align()``。
+- **ALIGN_LEFT** = **0** --- 将文本向左对齐。参阅\ ``set_text_align()``。
 
-- **ALIGN_CENTER** = **1** --- 将文本居中。参阅``set_text_align()``。
+- **ALIGN_CENTER** = **1** --- 将文本居中。参阅\ ``set_text_align()``。
 
-- **ALIGN_RIGHT** = **2** --- 将文本向右对齐。参阅``set_text_align()``。
+- **ALIGN_RIGHT** = **2** --- 将文本向右对齐。参阅\ ``set_text_align()``。
 
 Property Descriptions
 ---------------------
@@ -218,7 +218,7 @@ Property Descriptions
 | *Getter* | is_collapsed()       |
 +----------+----------------------+
 
-如果``true``，TreeItem树项被折叠。
+如果\ ``true``，TreeItem树项被折叠。
 
 ----
 
@@ -246,7 +246,7 @@ Property Descriptions
 | *Getter* | is_folding_disabled()      |
 +----------+----------------------------+
 
-如果``true``，则TreeItem树项禁用折叠。
+如果\ ``true``，则TreeItem树项禁用折叠。
 
 Method Descriptions
 -------------------
@@ -263,7 +263,7 @@ Adds a button with :ref:`Texture<class_Texture>` ``button`` at column ``column``
 
 - :ref:`Variant<class_Variant>` **call_recursive** **(** :ref:`String<class_String>` method, ... **)** |vararg|
 
-在实际的TreeItem树项及其子项上递归地调用``method``。以逗号分隔的列表形式传递参数。
+在实际的TreeItem树项及其子项上递归地调用\ ``method``。以逗号分隔的列表形式传递参数。
 
 ----
 
@@ -295,7 +295,7 @@ Adds a button with :ref:`Texture<class_Texture>` ``button`` at column ``column``
 
 - void **erase_button** **(** :ref:`int<class_int>` column, :ref:`int<class_int>` button_idx **)**
 
-删除列``column``\ 中索引``button_idx``\ 处的按钮。
+删除列\ ``column``\ 中索引\ ``button_idx``\ 处的按钮。
 
 ----
 
@@ -303,7 +303,7 @@ Adds a button with :ref:`Texture<class_Texture>` ``button`` at column ``column``
 
 - :ref:`Texture<class_Texture>` **get_button** **(** :ref:`int<class_int>` column, :ref:`int<class_int>` button_idx **)** |const|
 
-返回在``column``\ 中索引``button_idx``\ 按钮的:ref:`Texture<class_Texture>`。
+返回在\ ``column``\ 中索引\ ``button_idx``\ 按钮的\ :ref:`Texture<class_Texture>`。
 
 ----
 
@@ -319,7 +319,7 @@ Returns the number of buttons in column ``column``.
 
 - :ref:`String<class_String>` **get_button_tooltip** **(** :ref:`int<class_int>` column, :ref:`int<class_int>` button_idx **)** |const|
 
-返回在``column``\ 中索引``button_idx``\ 按钮的提示信息字符串。
+返回在\ ``column``\ 中索引\ ``button_idx``\ 按钮的提示信息字符串。
 
 ----
 
@@ -343,7 +343,7 @@ Returns the number of buttons in column ``column``.
 
 - :ref:`Color<class_Color>` **get_custom_bg_color** **(** :ref:`int<class_int>` column **)** |const|
 
-返回列``column``\ 的自定义背景颜色。
+返回列\ ``column``\ 的自定义背景颜色。
 
 ----
 
@@ -351,7 +351,7 @@ Returns the number of buttons in column ``column``.
 
 - :ref:`Color<class_Color>` **get_custom_color** **(** :ref:`int<class_int>` column **)** |const|
 
-返回列``column``\ 的自定义颜色。
+返回列\ ``column``\ 的自定义颜色。
 
 ----
 
@@ -359,7 +359,7 @@ Returns the number of buttons in column ``column``.
 
 - :ref:`bool<class_bool>` **get_expand_right** **(** :ref:`int<class_int>` column **)** |const|
 
-如果设置了``expand_right``，返回``true``。
+如果设置了\ ``expand_right``，返回\ ``true``。
 
 ----
 
@@ -383,7 +383,7 @@ Returns the number of buttons in column ``column``.
 
 - :ref:`Color<class_Color>` **get_icon_modulate** **(** :ref:`int<class_int>` column **)** |const|
 
-返回调制列的图标的:ref:`Color<class_Color>`\ 颜色。
+返回调制列的图标的\ :ref:`Color<class_Color>`\ 颜色。
 
 ----
 
@@ -417,7 +417,7 @@ Returns the number of buttons in column ``column``.
 
 返回树中下一个可见的TreeItem树项，如果没有，则返回空对象。
 
-如果``wrap``\ 被启用，当在最后一个可见元素上调用时，该方法将环绕到树中的第一个可见元素，否则它将返回``null``。
+如果\ ``wrap``\ 被启用，当在最后一个可见元素上调用时，该方法将环绕到树中的第一个可见元素，否则它将返回\ ``null``。
 
 ----
 
@@ -443,7 +443,7 @@ Returns the number of buttons in column ``column``.
 
 返回树中前一个可见的TreeItem树项，如果没有，则返回null对象。
 
-如果``wrap``\ 被启用，当在第一个可见元素上调用时，该方法将环绕到树中最后一个可见元素，否则它将返回``null``。
+如果\ ``wrap``\ 被启用，当在第一个可见元素上调用时，该方法将环绕到树中最后一个可见元素，否则它将返回\ ``null``。
 
 ----
 
@@ -499,7 +499,7 @@ Returns the number of buttons in column ``column``.
 
 - :ref:`bool<class_bool>` **is_button_disabled** **(** :ref:`int<class_int>` column, :ref:`int<class_int>` button_idx **)** |const|
 
-如果给定列的索引``button_idx``\ 处的按钮被禁用，返回``true``。
+如果给定列的索引\ ``button_idx``\ 处的按钮被禁用，返回\ ``true``。
 
 ----
 
@@ -507,7 +507,7 @@ Returns the number of buttons in column ``column``.
 
 - :ref:`bool<class_bool>` **is_checked** **(** :ref:`int<class_int>` column **)** |const|
 
-如果给定的列被选中，返回``true``。
+如果给定的列被选中，返回\ ``true``。
 
 ----
 
@@ -521,7 +521,7 @@ Returns the number of buttons in column ``column``.
 
 - :ref:`bool<class_bool>` **is_editable** **(** :ref:`int<class_int>` column **)**
 
-如果列``column``\ 是可编辑的，则返回``true``。
+如果列\ ``column``\ 是可编辑的，则返回\ ``true``。
 
 ----
 
@@ -529,7 +529,7 @@ Returns the number of buttons in column ``column``.
 
 - :ref:`bool<class_bool>` **is_selectable** **(** :ref:`int<class_int>` column **)** |const|
 
-如果列``column``\ 是可选择的，则返回``true``。
+如果列\ ``column``\ 是可选择的，则返回\ ``true``。
 
 ----
 
@@ -537,7 +537,7 @@ Returns the number of buttons in column ``column``.
 
 - :ref:`bool<class_bool>` **is_selected** **(** :ref:`int<class_int>` column **)**
 
-如果列``column``\ 被选中，返回``true``。
+如果列\ ``column``\ 被选中，返回\ ``true``。
 
 ----
 
@@ -545,7 +545,7 @@ Returns the number of buttons in column ``column``.
 
 - void **move_to_bottom** **(** **)**
 
-将此TreeItem树项移动到:ref:`Tree<class_Tree>`\ 层次结构的底部。
+将此TreeItem树项移动到\ :ref:`Tree<class_Tree>`\ 层次结构的底部。
 
 ----
 
@@ -553,7 +553,7 @@ Returns the number of buttons in column ``column``.
 
 - void **move_to_top** **(** **)**
 
-将此TreeItem树项移动到:ref:`Tree<class_Tree>`\ 树层次结构的顶部。
+将此TreeItem树项移动到\ :ref:`Tree<class_Tree>`\ 树层次结构的顶部。
 
 ----
 
@@ -561,7 +561,7 @@ Returns the number of buttons in column ``column``.
 
 - void **remove_child** **(** :ref:`Object<class_Object>` child **)**
 
-将给定的子项``TreeItem``\ 和它的所有子项从:ref:`Tree<class_Tree>`\ 中移除。注意，它并未从内存中释放该项，所以之后可重新使用。要完全删除一个``TreeItem``，请使用:ref:`Object.free<class_Object_method_free>`。
+将给定的子项\ ``TreeItem``\ 和它的所有子项从\ :ref:`Tree<class_Tree>`\ 中移除。注意，它并未从内存中释放该项，所以之后可重新使用。要完全删除一个\ ``TreeItem``，请使用\ :ref:`Object.free<class_Object_method_free>`。
 
 ----
 
@@ -569,7 +569,7 @@ Returns the number of buttons in column ``column``.
 
 - void **select** **(** :ref:`int<class_int>` column **)**
 
-选择列``column``。
+选择列\ ``column``。
 
 ----
 
@@ -577,7 +577,7 @@ Returns the number of buttons in column ``column``.
 
 - void **set_button** **(** :ref:`int<class_int>` column, :ref:`int<class_int>` button_idx, :ref:`Texture<class_Texture>` button **)**
 
-设置索引``button_idx``\ 的给定列的按钮``button``\ 的:ref:`Texture<class_Texture>`。
+设置索引\ ``button_idx``\ 的给定列的按钮\ ``button``\ 的\ :ref:`Texture<class_Texture>`。
 
 ----
 
@@ -585,7 +585,7 @@ Returns the number of buttons in column ``column``.
 
 - void **set_button_disabled** **(** :ref:`int<class_int>` column, :ref:`int<class_int>` button_idx, :ref:`bool<class_bool>` disabled **)**
 
-如果``true``，则禁用列``column``\ 中索引``button_idx``\ 的按钮。
+如果\ ``true``，则禁用列\ ``column``\ 中索引\ ``button_idx``\ 的按钮。
 
 ----
 
@@ -593,7 +593,7 @@ Returns the number of buttons in column ``column``.
 
 - void **set_cell_mode** **(** :ref:`int<class_int>` column, :ref:`TreeCellMode<enum_TreeItem_TreeCellMode>` mode **)**
 
-设置给定列的单元格模式为``mode``。参阅:ref:`TreeCellMode<enum_TreeItem_TreeCellMode>`\ 常量。
+设置给定列的单元格模式为\ ``mode``。参阅\ :ref:`TreeCellMode<enum_TreeItem_TreeCellMode>`\ 常量。
 
 ----
 
@@ -601,7 +601,7 @@ Returns the number of buttons in column ``column``.
 
 - void **set_checked** **(** :ref:`int<class_int>` column, :ref:`bool<class_bool>` checked **)**
 
-如果``true``，则选中``column``。
+如果\ ``true``，则选中\ ``column``。
 
 ----
 
@@ -631,9 +631,9 @@ Returns the number of buttons in column ``column``.
 
 - void **set_custom_draw** **(** :ref:`int<class_int>` column, :ref:`Object<class_Object>` object, :ref:`String<class_String>` callback **)**
 
-设置给定列的自定义绘制回调到``object``\ 上的``callback``\ 回调方法。
+设置给定列的自定义绘制回调到\ ``object``\ 上的\ ``callback``\ 回调方法。
 
-``callback``\ 应该接受两个参数：被绘制的``TreeItem``\ 树项以及它的位置和大小是一个:ref:`Rect2<class_Rect2>`。
+``callback``\ 应该接受两个参数：被绘制的\ ``TreeItem``\ 树项以及它的位置和大小是一个\ :ref:`Rect2<class_Rect2>`。
 
 ----
 
@@ -673,7 +673,7 @@ Returns the number of buttons in column ``column``.
 
 - void **set_icon_modulate** **(** :ref:`int<class_int>` column, :ref:`Color<class_Color>` modulate **)**
 
-用``modulate``\ 调制给定列的图标。
+用\ ``modulate``\ 调制给定列的图标。
 
 ----
 
@@ -715,7 +715,7 @@ Returns the number of buttons in column ``column``.
 
 - void **set_selectable** **(** :ref:`int<class_int>` column, :ref:`bool<class_bool>` selectable **)**
 
-如果``true``，给定的列是可选择的。
+如果\ ``true``，给定的列是可选择的。
 
 ----
 
@@ -739,7 +739,7 @@ Returns the number of buttons in column ``column``.
 
 - void **set_text_align** **(** :ref:`int<class_int>` column, :ref:`TextAlign<enum_TreeItem_TextAlign>` text_align **)**
 
-设置给定列的文本对齐方式。可能的值，参阅:ref:`TextAlign<enum_TreeItem_TextAlign>`。
+设置给定列的文本对齐方式。可能的值，参阅\ :ref:`TextAlign<enum_TreeItem_TextAlign>`。
 
 ----
 

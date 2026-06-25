@@ -70,7 +70,7 @@ Property Descriptions
 | *Getter* | get_stream_peer()      |
 +----------+------------------------+
 
-被·包装的:ref:`StreamPeer<class_StreamPeer>`\ 对象。
+被·包装的\ :ref:`StreamPeer<class_StreamPeer>`\ 对象。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

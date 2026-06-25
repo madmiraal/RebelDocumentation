@@ -11,12 +11,12 @@ AnimationNodeTimeSeek
 
 **Inherits:** :ref:`AnimationNode<class_AnimationNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
 
-与:ref:`AnimationTree<class_AnimationTree>`\ 配合使用的寻时动画节点。
+与\ :ref:`AnimationTree<class_AnimationTree>`\ 配合使用的寻时动画节点。
 
 Description
 -----------
 
-这个节点可以使命令发生在动画图示的所有子级上。使用这个节点类型可以从:ref:`AnimationNodeBlendTree<class_AnimationNodeBlendTree>`\ 内部的开头或某个播放位置开始播放:ref:`Animation<class_Animation>`。在设置时间和改变动画播放后，通过设置其``seek_position``\ 值为``-1.0``，使节点在下一个处理帧自动进入休眠模式。
+这个节点可以使命令发生在动画图示的所有子级上。使用这个节点类型可以从\ :ref:`AnimationNodeBlendTree<class_AnimationNodeBlendTree>`\ 内部的开头或某个播放位置开始播放\ :ref:`Animation<class_Animation>`。在设置时间和改变动画播放后，通过设置其\ ``seek_position``\ 值为\ ``-1.0``，使节点在下一个处理帧自动进入休眠模式。
 
 ::
 

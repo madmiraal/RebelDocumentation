@@ -18,7 +18,7 @@ Description
 
 这展示了一个可以选择、展开和折叠的项目树。该树可以有多列的自定义控件，如文本编辑、按钮和弹出窗口。它对于结构化显示和互动很有用。
 
-树通过代码建立，使用:ref:`TreeItem<class_TreeItem>`\ 对象来构建结构。它们有一个单独根节点，但如果添加一个虚拟的隐藏根节点，就可以模拟多个根。
+树通过代码建立，使用\ :ref:`TreeItem<class_TreeItem>`\ 对象来构建结构。它们有一个单独根节点，但如果添加一个虚拟的隐藏根节点，就可以模拟多个根。
 
 ::
 
@@ -31,7 +31,7 @@ Description
         var subchild1 = tree.create_item(child1)
         subchild1.set_text(0, "Subchild1")
 
-要遍历一个``Tree``\ 对象中的所有:ref:`TreeItem<class_TreeItem>`\ 对象，在通过:ref:`get_root<class_Tree_method_get_root>`\ 获得根之后，使用:ref:`TreeItem.get_next<class_TreeItem_method_get_next>`\ 和:ref:`TreeItem.get_children<class_TreeItem_method_get_children>`\ 方法。你可以对一个:ref:`TreeItem<class_TreeItem>`\ 使用:ref:`Object.free<class_Object_method_free>`\ 来把它从``Tree``\ 中移除。
+要遍历一个\ ``Tree``\ 对象中的所有\ :ref:`TreeItem<class_TreeItem>`\ 对象，在通过\ :ref:`get_root<class_Tree_method_get_root>`\ 获得根之后，使用\ :ref:`TreeItem.get_next<class_TreeItem_method_get_next>`\ 和\ :ref:`TreeItem.get_children<class_TreeItem_method_get_children>`\ 方法。你可以对一个\ :ref:`TreeItem<class_TreeItem>`\ 使用\ :ref:`Object.free<class_Object_method_free>`\ 来把它从\ ``Tree``\ 中移除。
 
 Properties
 ----------
@@ -195,7 +195,7 @@ Signals
 
 - **button_pressed** **(** :ref:`TreeItem<class_TreeItem>` item, :ref:`int<class_int>` column, :ref:`int<class_int>` id **)**
 
-当树中按钮被按下时触发，参阅:ref:`TreeItem.add_button<class_TreeItem_method_add_button>`。
+当树中按钮被按下时触发，参阅\ :ref:`TreeItem.add_button<class_TreeItem_method_add_button>`。
 
 ----
 
@@ -219,7 +219,7 @@ Signals
 
 - **custom_popup_edited** **(** :ref:`bool<class_bool>` arrow_clicked **)**
 
-当具有:ref:`TreeItem.CELL_MODE_CUSTOM<class_TreeItem_constant_CELL_MODE_CUSTOM>`\ 的单元格被点击，进行编辑时触发。
+当具有\ :ref:`TreeItem.CELL_MODE_CUSTOM<class_TreeItem_constant_CELL_MODE_CUSTOM>`\ 的单元格被点击，进行编辑时触发。
 
 ----
 
@@ -259,7 +259,7 @@ Signals
 
 - **item_custom_button_pressed** **(** **)**
 
-当自定义按钮被按下时触发，即在:ref:`TreeItem.CELL_MODE_CUSTOM<class_TreeItem_constant_CELL_MODE_CUSTOM>`\ 模式单元格中。
+当自定义按钮被按下时触发，即在\ :ref:`TreeItem.CELL_MODE_CUSTOM<class_TreeItem_constant_CELL_MODE_CUSTOM>`\ 模式单元格中。
 
 ----
 
@@ -307,7 +307,7 @@ Signals
 
 - **multi_selected** **(** :ref:`TreeItem<class_TreeItem>` item, :ref:`int<class_int>` column, :ref:`bool<class_bool>` selected **)**
 
-如果``select_mode``\ 是:ref:`SELECT_MULTI<class_Tree_constant_SELECT_MULTI>`，则触发代替``item_selected``。
+如果\ ``select_mode``\ 是\ :ref:`SELECT_MULTI<class_Tree_constant_SELECT_MULTI>`，则触发代替\ ``item_selected``。
 
 ----
 
@@ -354,17 +354,17 @@ enum **SelectMode**:
 
 enum **DropModeFlags**:
 
-- **DROP_MODE_DISABLED** = **0** --- 禁用所有放置部分，但仍然允许通过:ref:`get_drop_section_at_position<class_Tree_method_get_drop_section_at_position>`\ 检测 "物品上" 的放置部分。
+- **DROP_MODE_DISABLED** = **0** --- 禁用所有放置部分，但仍然允许通过\ :ref:`get_drop_section_at_position<class_Tree_method_get_drop_section_at_position>`\ 检测 "物品上" 的放置部分。
 
-**注意：**这是默认的标志，当与其他标志结合时，它没有效果。
+**注意：**\ 这是默认的标志，当与其他标志结合时，它没有效果。
 
 - **DROP_MODE_ON_ITEM** = **1** --- 启用 "项目上" 的放置部分。这个放置部分覆盖整个项。
 
-当与:ref:`DROP_MODE_INBETWEEN<class_Tree_constant_DROP_MODE_INBETWEEN>`\ 结合使用时，这个放置部分的高度减半，并保持垂直居中。
+当与\ :ref:`DROP_MODE_INBETWEEN<class_Tree_constant_DROP_MODE_INBETWEEN>`\ 结合使用时，这个放置部分的高度减半，并保持垂直居中。
 
 - **DROP_MODE_INBETWEEN** = **2** --- 启用 "项目上方" 和 "项目下方" 的放置部分。"项目上方" 的放置部分覆盖项目的上半部分，"项目下方" 的放置部分覆盖下半部分。
 
-当与:ref:`DROP_MODE_ON_ITEM<class_Tree_constant_DROP_MODE_ON_ITEM>`\ 结合时，这些放置部分的高度减半，并相应地停留在顶部或底部。
+当与\ :ref:`DROP_MODE_ON_ITEM<class_Tree_constant_DROP_MODE_ON_ITEM>`\ 结合时，这些放置部分的高度减半，并相应地停留在顶部或底部。
 
 Property Descriptions
 ---------------------
@@ -381,7 +381,7 @@ Property Descriptions
 | *Getter*  | get_allow_reselect()      |
 +-----------+---------------------------+
 
-如果``true``，可以再次选择当前选定的单元。
+如果\ ``true``，可以再次选择当前选定的单元。
 
 ----
 
@@ -397,7 +397,7 @@ Property Descriptions
 | *Getter*  | get_allow_rmb_select()      |
 +-----------+-----------------------------+
 
-如果``true``，鼠标右键点击可以选择项目。
+如果\ ``true``，鼠标右键点击可以选择项目。
 
 ----
 
@@ -429,7 +429,7 @@ Property Descriptions
 | *Getter*  | get_drop_mode_flags()      |
 +-----------+----------------------------+
 
-作为一个标志的OR组合的放置模式。参阅:ref:`DropModeFlags<enum_Tree_DropModeFlags>`\ 常量。一旦拖动完成，将恢复到:ref:`DROP_MODE_DISABLED<class_Tree_constant_DROP_MODE_DISABLED>`。建议在:ref:`Control.can_drop_data<class_Control_method_can_drop_data>`\ 中设置这个。
+作为一个标志的OR组合的放置模式。参阅\ :ref:`DropModeFlags<enum_Tree_DropModeFlags>`\ 常量。一旦拖动完成，将恢复到\ :ref:`DROP_MODE_DISABLED<class_Tree_constant_DROP_MODE_DISABLED>`。建议在\ :ref:`Control.can_drop_data<class_Control_method_can_drop_data>`\ 中设置这个。
 
 控件放置部分，即根据鼠标位置决定和绘制可能的放置位置。
 
@@ -447,7 +447,7 @@ Property Descriptions
 | *Getter*  | is_folding_hidden()     |
 +-----------+-------------------------+
 
-如果``true``，隐藏折叠箭头。
+如果\ ``true``，隐藏折叠箭头。
 
 ----
 
@@ -463,7 +463,7 @@ Property Descriptions
 | *Getter*  | is_root_hidden()     |
 +-----------+----------------------+
 
-如果``true``，则隐藏树的根节点。
+如果\ ``true``，则隐藏树的根节点。
 
 ----
 
@@ -479,7 +479,7 @@ Property Descriptions
 | *Getter*  | get_select_mode()      |
 +-----------+------------------------+
 
-允许单选或多选。参阅:ref:`SelectMode<enum_Tree_SelectMode>`\ 常量。
+允许单选或多选。参阅\ :ref:`SelectMode<enum_Tree_SelectMode>`\ 常量。
 
 Method Descriptions
 -------------------
@@ -488,7 +488,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **are_column_titles_visible** **(** **)** |const|
 
-如果显示列标题，则返回``true``。
+如果显示列标题，则返回\ ``true``。
 
 ----
 
@@ -516,7 +516,7 @@ The new item will be the ``idx``\ th child of parent, or it will be the last chi
 
 - :ref:`bool<class_bool>` **edit_selected** **(** **)**
 
-编辑选中的树项，就像它被点击一样。该项必须通过:ref:`TreeItem.set_editable<class_TreeItem_method_set_editable>`\ 设置为可编辑。其可被编辑，则返回``true``。如果没有项被选中，则失败。
+编辑选中的树项，就像它被点击一样。该项必须通过\ :ref:`TreeItem.set_editable<class_TreeItem_method_set_editable>`\ 设置为可编辑。其可被编辑，则返回\ ``true``。如果没有项被选中，则失败。
 
 ----
 
@@ -526,9 +526,9 @@ The new item will be the ``idx``\ th child of parent, or it will be the last chi
 
 使当前获得焦点的单元可见。
 
-如果有必要，将滚动树。在:ref:`SELECT_ROW<class_Tree_constant_SELECT_ROW>`\ 模式下，不会做水平滚动，因为所选行中的所有单元都按逻辑获得焦点。
+如果有必要，将滚动树。在\ :ref:`SELECT_ROW<class_Tree_constant_SELECT_ROW>`\ 模式下，不会做水平滚动，因为所选行中的所有单元都按逻辑获得焦点。
 
-**注意：**尽管这个方法的名称是这样的，但焦点光标本身只在 :ref:`SELECT_MULTI<class_Tree_constant_SELECT_MULTI>` 模式下可见。
+**注意：**\ 尽管这个方法的名称是这样的，但焦点光标本身只在 :ref:`SELECT_MULTI<class_Tree_constant_SELECT_MULTI>` 模式下可见。
 
 ----
 
@@ -536,7 +536,7 @@ The new item will be the ``idx``\ th child of parent, or it will be the last chi
 
 - :ref:`int<class_int>` **get_column_at_position** **(** :ref:`Vector2<class_Vector2>` position **)** |const|
 
-返回在``position``\ 的列索引，如果那里没有项目，则返回-1。
+返回在\ ``position``\ 的列索引，如果那里没有项目，则返回-1。
 
 ----
 
@@ -560,7 +560,7 @@ The new item will be the ``idx``\ th child of parent, or it will be the last chi
 
 - :ref:`Rect2<class_Rect2>` **get_custom_popup_rect** **(** **)** |const|
 
-返回自定义弹出窗口的矩形。帮助创建显示弹出式的自定义单元格控件。参阅:ref:`TreeItem.set_cell_mode<class_TreeItem_method_set_cell_mode>`。
+返回自定义弹出窗口的矩形。帮助创建显示弹出式的自定义单元格控件。参阅\ :ref:`TreeItem.set_cell_mode<class_TreeItem_method_set_cell_mode>`。
 
 ----
 
@@ -568,11 +568,11 @@ The new item will be the ``idx``\ th child of parent, or it will be the last chi
 
 - :ref:`int<class_int>` **get_drop_section_at_position** **(** :ref:`Vector2<class_Vector2>` position **)** |const|
 
-返回位于``position``\ 的放置部分，如果没有项目，则返回-100。
+返回位于\ ``position``\ 的放置部分，如果没有项目，则返回-100。
 
-在 "项目上方"、"项目之上"和 "项目下方"的放置部分将分别返回-1、0或1的值。请参阅:ref:`DropModeFlags<enum_Tree_DropModeFlags>`\ 以了解每个放置部分的描述。
+在 "项目上方"、"项目之上"和 "项目下方"的放置部分将分别返回-1、0或1的值。请参阅\ :ref:`DropModeFlags<enum_Tree_DropModeFlags>`\ 以了解每个放置部分的描述。
 
-要获得返回的放置部分相对项，请使用:ref:`get_item_at_position<class_Tree_method_get_item_at_position>`。
+要获得返回的放置部分相对项，请使用\ :ref:`get_item_at_position<class_Tree_method_get_item_at_position>`。
 
 ----
 
@@ -638,7 +638,7 @@ If ``from`` is ``null``, this returns the first selected item.
 
 - :ref:`TreeItem<class_TreeItem>` **get_root** **(** **)**
 
-返回树的根项，如果树是空的，则返回``null``。
+返回树的根项，如果树是空的，则返回\ ``null``。
 
 ----
 
@@ -654,11 +654,11 @@ If ``from`` is ``null``, this returns the first selected item.
 
 - :ref:`TreeItem<class_TreeItem>` **get_selected** **(** **)** |const|
 
-返回当前的焦点项，如果没有焦点项，则返回``null``。
+返回当前的焦点项，如果没有焦点项，则返回\ ``null``。
 
-在:ref:`SELECT_ROW<class_Tree_constant_SELECT_ROW>`\ 和:ref:`SELECT_SINGLE<class_Tree_constant_SELECT_SINGLE>`\ 模式下，焦点项与选择项相同。在:ref:`SELECT_MULTI<class_Tree_constant_SELECT_MULTI>`\ 模式下，焦点项是焦点光标下的项目，不一定被选中。
+在\ :ref:`SELECT_ROW<class_Tree_constant_SELECT_ROW>`\ 和\ :ref:`SELECT_SINGLE<class_Tree_constant_SELECT_SINGLE>`\ 模式下，焦点项与选择项相同。在\ :ref:`SELECT_MULTI<class_Tree_constant_SELECT_MULTI>`\ 模式下，焦点项是焦点光标下的项目，不一定被选中。
 
-要获得当前选中项，请使用:ref:`get_next_selected<class_Tree_method_get_next_selected>`。
+要获得当前选中项，请使用\ :ref:`get_next_selected<class_Tree_method_get_next_selected>`。
 
 ----
 
@@ -668,9 +668,9 @@ If ``from`` is ``null``, this returns the first selected item.
 
 返回当前获得焦点的列，如果没有焦点列，则返回-1。
 
-在:ref:`SELECT_SINGLE<class_Tree_constant_SELECT_SINGLE>`\ 模式下，焦点列是被选中的列。在:ref:`SELECT_ROW<class_Tree_constant_SELECT_ROW>`\ 模式下，如果有任意项被选中，焦点列总是0。在:ref:`SELECT_MULTI<class_Tree_constant_SELECT_MULTI>`\ 模式下，焦点列是焦点光标下的列，但不一定有列被选中。
+在\ :ref:`SELECT_SINGLE<class_Tree_constant_SELECT_SINGLE>`\ 模式下，焦点列是被选中的列。在\ :ref:`SELECT_ROW<class_Tree_constant_SELECT_ROW>`\ 模式下，如果有任意项被选中，焦点列总是0。在\ :ref:`SELECT_MULTI<class_Tree_constant_SELECT_MULTI>`\ 模式下，焦点列是焦点光标下的列，但不一定有列被选中。
 
-要判断一个项的某一列是否被选中，请使用:ref:`TreeItem.is_selected<class_TreeItem_method_is_selected>`。
+要判断一个项的某一列是否被选中，请使用\ :ref:`TreeItem.is_selected<class_TreeItem_method_is_selected>`。
 
 ----
 
@@ -710,7 +710,7 @@ Causes the ``Tree`` to jump to the specified :ref:`TreeItem<class_TreeItem>`.
 
 - void **set_column_titles_visible** **(** :ref:`bool<class_bool>` visible **)**
 
-如果``true``，列标题可见。
+如果\ ``true``，列标题可见。
 
 Theme Property Descriptions
 ---------------------------
@@ -723,7 +723,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 0.94, 0.94, 0.94, 1 )`` |
 +-----------+----------------------------------+
 
-当:ref:`TreeItem.CELL_MODE_CUSTOM<class_TreeItem_constant_CELL_MODE_CUSTOM>`\ 模式的单元格被悬停时的文本:ref:`Color<class_Color>`\ 颜色。
+当\ :ref:`TreeItem.CELL_MODE_CUSTOM<class_TreeItem_constant_CELL_MODE_CUSTOM>`\ 模式的单元格被悬停时的文本\ :ref:`Color<class_Color>`\ 颜色。
 
 ----
 
@@ -735,7 +735,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 1, 0.3, 0.2, 1 )`` |
 +-----------+-----------------------------+
 
-用于绘制可能的放置位置的:ref:`Color<class_Color>`\ 颜色。有关放置位置的描述，参阅:ref:`DropModeFlags<enum_Tree_DropModeFlags>`\ 常量。
+用于绘制可能的放置位置的\ :ref:`Color<class_Color>`\ 颜色。有关放置位置的描述，参阅\ :ref:`DropModeFlags<enum_Tree_DropModeFlags>`\ 常量。
 
 ----
 
@@ -759,7 +759,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 1, 1, 1, 1 )`` |
 +-----------+-------------------------+
 
-选择项目时使用的文本颜色:ref:`Color<class_Color>`。
+选择项目时使用的文本颜色\ :ref:`Color<class_Color>`。
 
 ----
 
@@ -771,7 +771,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 0, 0, 0, 0.1 )`` |
 +-----------+---------------------------+
 
-参考线的:ref:`Color<class_Color>`\ 颜色。
+参考线的\ :ref:`Color<class_Color>`\ 颜色。
 
 ----
 
@@ -783,7 +783,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 0.27, 0.27, 0.27, 1 )`` |
 +-----------+----------------------------------+
 
-关系线的:ref:`Color<class_Color>`\ 颜色。
+关系线的\ :ref:`Color<class_Color>`\ 颜色。
 
 ----
 
@@ -795,7 +795,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 0.88, 0.88, 0.88, 1 )`` |
 +-----------+----------------------------------+
 
-标题按钮的默认文本:ref:`Color<class_Color>`\ 颜色。
+标题按钮的默认文本\ :ref:`Color<class_Color>`\ 颜色。
 
 ----
 
@@ -907,7 +907,7 @@ Theme Property Descriptions
 
 - :ref:`Font<class_Font>` **title_button_font**
 
-标题按钮文本的:ref:`Font<class_Font>`\ 字体。
+标题按钮文本的\ :ref:`Font<class_Font>`\ 字体。
 
 ----
 
@@ -931,7 +931,7 @@ Theme Property Descriptions
 
 - :ref:`Texture<class_Texture>` **checked**
 
-当:ref:`TreeItem.CELL_MODE_CHECK<class_TreeItem_constant_CELL_MODE_CHECK>`\ 模式单元格被选中时，显示的选中图标。
+当\ :ref:`TreeItem.CELL_MODE_CHECK<class_TreeItem_constant_CELL_MODE_CHECK>`\ 模式单元格被选中时，显示的选中图标。
 
 ----
 
@@ -939,7 +939,7 @@ Theme Property Descriptions
 
 - :ref:`Texture<class_Texture>` **select_arrow**
 
-为:ref:`TreeItem.CELL_MODE_RANGE<class_TreeItem_constant_CELL_MODE_RANGE>`\ 模式单元显示的箭头图标。
+为\ :ref:`TreeItem.CELL_MODE_RANGE<class_TreeItem_constant_CELL_MODE_RANGE>`\ 模式单元显示的箭头图标。
 
 ----
 
@@ -947,7 +947,7 @@ Theme Property Descriptions
 
 - :ref:`Texture<class_Texture>` **unchecked**
 
-当:ref:`TreeItem.CELL_MODE_CHECK<class_TreeItem_constant_CELL_MODE_CHECK>`\ 模式单元未被选中时，要显示的选中图标。
+当\ :ref:`TreeItem.CELL_MODE_CHECK<class_TreeItem_constant_CELL_MODE_CHECK>`\ 模式单元未被选中时，要显示的选中图标。
 
 ----
 
@@ -955,7 +955,7 @@ Theme Property Descriptions
 
 - :ref:`Texture<class_Texture>` **updown**
 
-为:ref:`TreeItem.CELL_MODE_RANGE<class_TreeItem_constant_CELL_MODE_RANGE>`\ 模式单元显示的向下箭头图标。
+为\ :ref:`TreeItem.CELL_MODE_RANGE<class_TreeItem_constant_CELL_MODE_RANGE>`\ 模式单元显示的向下箭头图标。
 
 ----
 
@@ -963,7 +963,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **bg**
 
-``Tree``\ 的默认:ref:`StyleBox<class_StyleBox>`，即在控件没有获得焦点时使用。
+``Tree``\ 的默认\ :ref:`StyleBox<class_StyleBox>`，即在控件没有获得焦点时使用。
 
 ----
 
@@ -971,7 +971,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **bg_focus**
 
-当``Tree``\ 获得焦点时使用的:ref:`StyleBox<class_StyleBox>`。
+当\ ``Tree``\ 获得焦点时使用的\ :ref:`StyleBox<class_StyleBox>`。
 
 ----
 
@@ -979,7 +979,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **button_pressed**
 
-当树中的按钮被按下时使用的:ref:`StyleBox<class_StyleBox>`。
+当树中的按钮被按下时使用的\ :ref:`StyleBox<class_StyleBox>`。
 
 ----
 
@@ -987,7 +987,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **cursor**
 
-当``Tree``\ 获得焦点时，用于光标的:ref:`StyleBox<class_StyleBox>`。
+当\ ``Tree``\ 获得焦点时，用于光标的\ :ref:`StyleBox<class_StyleBox>`。
 
 ----
 
@@ -995,7 +995,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **cursor_unfocused**
 
-当``Tree``\ 未获聚焦时，用于光标的:ref:`StyleBox<class_StyleBox>`。
+当\ ``Tree``\ 未获聚焦时，用于光标的\ :ref:`StyleBox<class_StyleBox>`。
 
 ----
 
@@ -1003,7 +1003,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **custom_button**
 
-为:ref:`TreeItem.CELL_MODE_CUSTOM<class_TreeItem_constant_CELL_MODE_CUSTOM>`\ 模式的单元格默认的:ref:`StyleBox<class_StyleBox>`。
+为\ :ref:`TreeItem.CELL_MODE_CUSTOM<class_TreeItem_constant_CELL_MODE_CUSTOM>`\ 模式的单元格默认的\ :ref:`StyleBox<class_StyleBox>`。
 
 ----
 
@@ -1011,7 +1011,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **custom_button_hover**
 
-当:ref:`TreeItem.CELL_MODE_CUSTOM<class_TreeItem_constant_CELL_MODE_CUSTOM>`\ 模式的单元格被悬停时的:ref:`StyleBox<class_StyleBox>`。
+当\ :ref:`TreeItem.CELL_MODE_CUSTOM<class_TreeItem_constant_CELL_MODE_CUSTOM>`\ 模式的单元格被悬停时的\ :ref:`StyleBox<class_StyleBox>`。
 
 ----
 
@@ -1019,7 +1019,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **custom_button_pressed**
 
-当:ref:`TreeItem.CELL_MODE_CUSTOM<class_TreeItem_constant_CELL_MODE_CUSTOM>`\ 模式的单元格被按下时的:ref:`StyleBox<class_StyleBox>`。
+当\ :ref:`TreeItem.CELL_MODE_CUSTOM<class_TreeItem_constant_CELL_MODE_CUSTOM>`\ 模式的单元格被按下时的\ :ref:`StyleBox<class_StyleBox>`。
 
 ----
 
@@ -1027,7 +1027,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **selected**
 
-所选项的:ref:`StyleBox<class_StyleBox>`，当``Tree``\ 没有获得焦点时使用。
+所选项的\ :ref:`StyleBox<class_StyleBox>`，当\ ``Tree``\ 没有获得焦点时使用。
 
 ----
 
@@ -1035,7 +1035,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **selected_focus**
 
-所选项目的:ref:`StyleBox<class_StyleBox>`，在``Tree``\ 获得焦点时使用。
+所选项目的\ :ref:`StyleBox<class_StyleBox>`，在\ ``Tree``\ 获得焦点时使用。
 
 ----
 
@@ -1043,7 +1043,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **title_button_hover**
 
-当标题按钮被悬停时使用的:ref:`StyleBox<class_StyleBox>`。
+当标题按钮被悬停时使用的\ :ref:`StyleBox<class_StyleBox>`。
 
 ----
 
@@ -1051,7 +1051,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **title_button_normal**
 
-标题按钮的默认:ref:`StyleBox<class_StyleBox>`。
+标题按钮的默认\ :ref:`StyleBox<class_StyleBox>`。
 
 ----
 
@@ -1059,7 +1059,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **title_button_pressed**
 
-当标题按钮被按下时使用的:ref:`StyleBox<class_StyleBox>`。
+当标题按钮被按下时使用的\ :ref:`StyleBox<class_StyleBox>`。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

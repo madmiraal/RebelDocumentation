@@ -11,7 +11,7 @@ EditorFileDialog
 
 **Inherits:** :ref:`ConfirmationDialog<class_ConfirmationDialog>` **<** :ref:`AcceptDialog<class_AcceptDialog>` **<** :ref:`WindowDialog<class_WindowDialog>` **<** :ref:`Popup<class_Popup>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-编辑器使用的:ref:`FileDialog<class_FileDialog>`\ 的修改版。
+编辑器使用的\ :ref:`FileDialog<class_FileDialog>`\ 的修改版。
 
 Properties
 ----------
@@ -119,7 +119,7 @@ enum **Access**:
 
 - **ACCESS_RESOURCES** = **0** --- ``EditorFileDialog`` 只能查看 ``res://`` 目录里的内容。
 
-- **ACCESS_USERDATA** = **1** --- ``EditorFileDialog`` 只能查看``user://`` 目录里的内容。
+- **ACCESS_USERDATA** = **1** --- ``EditorFileDialog`` 只能查看\ ``user://`` 目录里的内容。
 
 - **ACCESS_FILESYSTEM** = **2** --- ``EditorFileDialog`` 可以查看整个本地文件系统。
 
@@ -152,7 +152,7 @@ Property Descriptions
 | *Getter*  | get_access()      |
 +-----------+-------------------+
 
-用户可以选择文件的位置，包括``res://``、``user://``\ 和本地文件系统。
+用户可以选择文件的位置，包括\ ``res://``、``user://``\ 和本地文件系统。
 
 ----
 
@@ -216,7 +216,7 @@ Property Descriptions
 | *Getter*  | is_overwrite_warning_disabled()      |
 +-----------+--------------------------------------+
 
-如果``true``，``EditorFileDialog``\ 将不会在覆盖文件之前警告用户。
+如果\ ``true``，``EditorFileDialog``\ 将不会在覆盖文件之前警告用户。
 
 ----
 
@@ -264,7 +264,7 @@ Property Descriptions
 | *Getter*  | is_showing_hidden_files()    |
 +-----------+------------------------------+
 
-如果``true``，隐藏的文件和目录将在``EditorFileDialog``\ 中可见。
+如果\ ``true``，隐藏的文件和目录将在\ ``EditorFileDialog``\ 中可见。
 
 Method Descriptions
 -------------------
@@ -291,7 +291,7 @@ Method Descriptions
 
 - :ref:`VBoxContainer<class_VBoxContainer>` **get_vbox** **(** **)**
 
-返回用于显示文件系统的``VBoxContainer``。
+返回用于显示文件系统的\ ``VBoxContainer``。
 
 **警告：** 这是一个必需的内部节点，移除和释放它可能会导致崩溃。如果你想隐藏它或它的任何子节点，请使用 :ref:`CanvasItem.visible<class_CanvasItem_property_visible>` 属性。
 
@@ -301,7 +301,7 @@ Method Descriptions
 
 - void **invalidate** **(** **)**
 
-通知``EditorFileDialog``\ 它的数据视图不再准确。在下次视图更新时更新视图内容。
+通知\ ``EditorFileDialog``\ 它的数据视图不再准确。在下次视图更新时更新视图内容。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

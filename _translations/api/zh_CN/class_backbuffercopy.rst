@@ -11,7 +11,7 @@ BackBufferCopy
 
 **Inherits:** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-将屏幕的某个区域（或整个屏幕）复制到缓冲区，以便可以通过``texture（SCREEN_TEXTURE，...）``\ 函数在着色器脚本中对其进行访问。
+将屏幕的某个区域（或整个屏幕）复制到缓冲区，以便可以通过\ ``texture（SCREEN_TEXTURE，...）``\ 函数在着色器脚本中对其进行访问。
 
 Description
 -----------

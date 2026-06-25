@@ -78,7 +78,7 @@ Returns the path between two given points. Points are in local coordinate space.
 
 - void **navpoly_remove** **(** :ref:`int<class_int>` id **)**
 
-移除具有指定ID的:ref:`NavigationPolygon<class_NavigationPolygon>`。
+移除具有指定ID的\ :ref:`NavigationPolygon<class_NavigationPolygon>`。
 
 ----
 
@@ -86,7 +86,7 @@ Returns the path between two given points. Points are in local coordinate space.
 
 - void **navpoly_set_transform** **(** :ref:`int<class_int>` id, :ref:`Transform2D<class_Transform2D>` xform **)**
 
-设置应用于具有指定ID的:ref:`NavigationPolygon<class_NavigationPolygon>`\ 的变换。
+设置应用于具有指定ID的\ :ref:`NavigationPolygon<class_NavigationPolygon>`\ 的变换。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

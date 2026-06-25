@@ -146,7 +146,7 @@ enum **TweenProcessMode**:
 
 - **TWEEN_PROCESS_PHYSICS** = **0** --- 补间通过 ``_physics_process`` 回调进行更新。
 
-- **TWEEN_PROCESS_IDLE** = **1** --- 补间通过``_process``\ 回调进行更新。
+- **TWEEN_PROCESS_IDLE** = **1** --- 补间通过\ ``_process``\ 回调进行更新。
 
 ----
 
@@ -235,7 +235,7 @@ Property Descriptions
 | *Getter*  | get_tween_process_mode()      |
 +-----------+-------------------------------+
 
-补间动画处理线程。参阅:ref:`TweenProcessMode<enum_Tween_TweenProcessMode>`。
+补间动画处理线程。参阅\ :ref:`TweenProcessMode<enum_Tween_TweenProcessMode>`。
 
 ----
 
@@ -251,7 +251,7 @@ Property Descriptions
 | *Getter*  | get_speed_scale()      |
 +-----------+------------------------+
 
-补间的速度乘数。例如，设置为``1.0``\ 为正常速度，``2.0``\ 为正常速度的2倍，或者``0.5``\ 为正常速度的一半。值为``0``\ 时，动画会暂停，另请参阅:ref:`set_active<class_Tween_method_set_active>`\ 或:ref:`stop_all<class_Tween_method_stop_all>`。
+补间的速度乘数。例如，设置为\ ``1.0``\ 为正常速度，``2.0``\ 为正常速度的2倍，或者\ ``0.5``\ 为正常速度的一半。值为\ ``0``\ 时，动画会暂停，另请参阅\ :ref:`set_active<class_Tween_method_set_active>`\ 或\ :ref:`stop_all<class_Tween_method_stop_all>`。
 
 ----
 
@@ -267,7 +267,7 @@ Property Descriptions
 | *Getter*  | is_repeat()       |
 +-----------+-------------------+
 
-如果``true``，补间循环。
+如果\ ``true``，补间循环。
 
 Method Descriptions
 -------------------
@@ -342,7 +342,7 @@ Method Descriptions
 
 如果当前有补间正在运行，则返回 ``true``。
 
-**注意：**这个方法不考虑已经结束的补间。
+**注意：**\ 这个方法不考虑已经结束的补间。
 
 ----
 
@@ -350,7 +350,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **remove** **(** :ref:`Object<class_Object>` object, :ref:`String<class_String>` key="" **)**
 
-停止动画并移除补间，指定其对象和属性或方法的对。默认情况下，除非指定``key``，否则所有的补间都会被移除。
+停止动画并移除补间，指定其对象和属性或方法的对。默认情况下，除非指定\ ``key``，否则所有的补间都会被移除。
 
 ----
 
@@ -366,7 +366,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **reset** **(** :ref:`Object<class_Object>` object, :ref:`String<class_String>` key="" **)**
 
-将补间重置到它的初始值，即给定的值，而不是补间之前的值，指定其对象和属性或方法的对。默认情况下，除非指定了``key``，否则所有的补间都被移除。
+将补间重置到它的初始值，即给定的值，而不是补间之前的值，指定其对象和属性或方法的对。默认情况下，除非指定了\ ``key``，否则所有的补间都被移除。
 
 ----
 
@@ -382,7 +382,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **resume** **(** :ref:`Object<class_Object>` object, :ref:`String<class_String>` key="" **)**
 
-继续停止的补间制作动画，指定其对象和属性或方法的对。默认情况下，除非指定了``key``，否则所有的补间都恢复。
+继续停止的补间制作动画，指定其对象和属性或方法的对。默认情况下，除非指定了\ ``key``，否则所有的补间都恢复。
 
 ----
 
@@ -398,7 +398,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **seek** **(** :ref:`float<class_float>` time **)**
 
-设置插值为指定的``time``，单位秒。
+设置插值为指定的\ ``time``，单位秒。
 
 ----
 
@@ -406,7 +406,7 @@ Method Descriptions
 
 - void **set_active** **(** :ref:`bool<class_bool>` active **)**
 
-激活或停用补间。别请参阅:ref:`stop_all<class_Tween_method_stop_all>`\ 和:ref:`resume_all<class_Tween_method_resume_all>`。
+激活或停用补间。别请参阅\ :ref:`stop_all<class_Tween_method_stop_all>`\ 和\ :ref:`resume_all<class_Tween_method_resume_all>`。
 
 ----
 

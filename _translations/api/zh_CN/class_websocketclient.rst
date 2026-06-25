@@ -18,9 +18,9 @@ Description
 
 该类实现了一个与任何符合RFC 6455的WebSocket服务器兼容的WebSocket客户端。
 
-这个客户端可以选择性地作为:ref:`MultiplayerAPI<class_MultiplayerAPI>`\ 的网络对等体使用。
+这个客户端可以选择性地作为\ :ref:`MultiplayerAPI<class_MultiplayerAPI>`\ 的网络对等体使用。
 
-在启动客户端后（:ref:`connect_to_url<class_WebSocketClient_method_connect_to_url>`），你需要:ref:`NetworkedMultiplayerPeer.poll<class_NetworkedMultiplayerPeer_method_poll>`\ 它以固定的时间间隔，例如在:ref:`Node._process<class_Node_method__process>`\ 内。
+在启动客户端后（:ref:`connect_to_url<class_WebSocketClient_method_connect_to_url>`），你需要\ :ref:`NetworkedMultiplayerPeer.poll<class_NetworkedMultiplayerPeer_method_poll>`\ 它以固定的时间间隔，例如在\ :ref:`Node._process<class_Node_method__process>`\ 内。
 
 当连接、断开连接或有新数据时，你将收到适当的信号。
 
@@ -53,7 +53,7 @@ Signals
 
 - **connection_closed** **(** :ref:`bool<class_bool>` was_clean_close **)**
 
-当与服务器的连接被关闭时触发。``was_clean_close`` 将是``true`` 如果连接完全关闭。
+当与服务器的连接被关闭时触发。``was_clean_close`` 将是\ ``true`` 如果连接完全关闭。
 
 ----
 
@@ -79,7 +79,7 @@ Signals
 
 当收到WebSocket消息时触发。
 
-**注意：**当作为高级别的多人对等体使用时，这个信号*not*不发射。
+**注意：**\ 当作为高级别的多人对等体使用时，这个信号\ *not*\ 不发射。
 
 ----
 
@@ -87,7 +87,7 @@ Signals
 
 - **server_close_request** **(** :ref:`int<class_int>` code, :ref:`String<class_String>` reason **)**
 
-当服务器请求完全关闭时触发。你应该继续进行轮询，直到获得:ref:`connection_closed<class_WebSocketClient_signal_connection_closed>`\ 信号，以实现彻底的关闭。更多细节参阅:ref:`WebSocketPeer.close<class_WebSocketPeer_method_close>`。
+当服务器请求完全关闭时触发。你应该继续进行轮询，直到获得\ :ref:`connection_closed<class_WebSocketClient_signal_connection_closed>`\ 信号，以实现彻底的关闭。更多细节参阅\ :ref:`WebSocketPeer.close<class_WebSocketPeer_method_close>`。
 
 Property Descriptions
 ---------------------
@@ -147,7 +147,7 @@ You can optionally pass a list of ``custom_headers`` to be added to the handshak
 
 - void **disconnect_from_host** **(** :ref:`int<class_int>` code=1000, :ref:`String<class_String>` reason="" **)**
 
-断开此客户端与所连接主机的连接。更多信息参阅:ref:`WebSocketPeer.close<class_WebSocketPeer_method_close>`。
+断开此客户端与所连接主机的连接。更多信息参阅\ :ref:`WebSocketPeer.close<class_WebSocketPeer_method_close>`。
 
 ----
 

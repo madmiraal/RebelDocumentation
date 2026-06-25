@@ -28,11 +28,11 @@ SpinBox是一个数字输入文本字段。它允许输入整数和浮点数。
     line_edit.context_menu_enabled = false
     spin_box.align = LineEdit.ALIGN_RIGHT
 
-上面的代码将创建一个``SpinBox``，禁用其上的上下文菜单，并将文本对齐方式设置为右对齐。
+上面的代码将创建一个\ ``SpinBox``，禁用其上的上下文菜单，并将文本对齐方式设置为右对齐。
 
-参阅:ref:`Range<class_Range>`\ 类，以获得更多关于``SpinBox``\ 的选项。
+参阅\ :ref:`Range<class_Range>`\ 类，以获得更多关于\ ``SpinBox``\ 的选项。
 
-**注意：** ``SpinBox`` 依赖于底层的:ref:`LineEdit<class_LineEdit>`\ 节点。要为``SpinBox``\ 的背景设置主题，请为:ref:`LineEdit<class_LineEdit>`\ 添加主题项，并对其进行定制。
+**注意：** ``SpinBox`` 依赖于底层的\ :ref:`LineEdit<class_LineEdit>`\ 节点。要为\ ``SpinBox``\ 的背景设置主题，请为\ :ref:`LineEdit<class_LineEdit>`\ 添加主题项，并对其进行定制。
 
 Properties
 ----------
@@ -143,7 +143,7 @@ Method Descriptions
 
 - :ref:`LineEdit<class_LineEdit>` **get_line_edit** **(** **)**
 
-返回这个``SpinBox``\ 中的:ref:`LineEdit<class_LineEdit>`\ 实例。你可以用它来访问:ref:`LineEdit<class_LineEdit>`\ 的属性和方法。
+返回这个\ ``SpinBox``\ 中的\ :ref:`LineEdit<class_LineEdit>`\ 实例。你可以用它来访问\ :ref:`LineEdit<class_LineEdit>`\ 的属性和方法。
 
 **警告：** 这是一个必要的内部节点，移除和释放它可能会导致崩溃。如果你想隐藏它或它的任何子节点，请使用其 :ref:`CanvasItem.visible<class_CanvasItem_property_visible>` 属性。
 

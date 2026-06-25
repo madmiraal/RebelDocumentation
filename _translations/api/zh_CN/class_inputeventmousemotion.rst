@@ -73,7 +73,7 @@ Property Descriptions
 
 鼠标相对于前一个位置的位置（上一帧的位置）。
 
-**注意：** 因为``InputEventMouseMotion``\ 只在鼠标移动时发出，当用户停止移动鼠标时，最后一个事件的相对位置不会是``Vector2(0, 0)``。
+**注意：** 因为\ ``InputEventMouseMotion``\ 只在鼠标移动时发出，当用户停止移动鼠标时，最后一个事件的相对位置不会是\ ``Vector2(0, 0)``。
 
 ----
 
@@ -105,7 +105,7 @@ Property Descriptions
 | *Getter*  | get_tilt()          |
 +-----------+---------------------+
 
-代表笔的倾斜角度。正的X坐标值表示向右倾斜。正的Y坐标值表示向用户自身倾斜。两个轴的范围是``-1.0``\ 到``1.0``。
+代表笔的倾斜角度。正的X坐标值表示向右倾斜。正的Y坐标值表示向用户自身倾斜。两个轴的范围是\ ``-1.0``\ 到\ ``1.0``。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

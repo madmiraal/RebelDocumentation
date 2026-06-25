@@ -244,7 +244,7 @@ Property Descriptions
 | *Getter*  | is_z_relative()          |
 +-----------+--------------------------+
 
-如果``true``，节点的Z索引是相对于它的父节点的Z索引而言的。如果这个节点的Z索引是2，它的父节点的有效Z索引是3，那么这个节点的有效Z索引将是2+3=5。
+如果\ ``true``，节点的Z索引是相对于它的父节点的Z索引而言的。如果这个节点的Z索引是2，它的父节点的有效Z索引是3，那么这个节点的有效Z索引将是2+3=5。
 
 ----
 
@@ -313,7 +313,7 @@ Returns the angle between the node and the ``point`` in radians.
 
 - void **move_local_x** **(** :ref:`float<class_float>` delta, :ref:`bool<class_bool>` scaled=false **)**
 
-基于:ref:`Node._process<class_Node_method__process>`\ 的``delta``，在节点的X轴上应用一个局部平移。如果``scaled``\ 是``false``，则对运动进行标准化。
+基于\ :ref:`Node._process<class_Node_method__process>`\ 的\ ``delta``，在节点的X轴上应用一个局部平移。如果\ ``scaled``\ 是\ ``false``，则对运动进行标准化。
 
 ----
 
@@ -321,7 +321,7 @@ Returns the angle between the node and the ``point`` in radians.
 
 - void **move_local_y** **(** :ref:`float<class_float>` delta, :ref:`bool<class_bool>` scaled=false **)**
 
-基于:ref:`Node._process<class_Node_method__process>`\ 的``delta``，在节点的Y轴上应用一个局部平移。如果``scaled``\ 是``false``，则对运动进行标准化。
+基于\ :ref:`Node._process<class_Node_method__process>`\ 的\ ``delta``，在节点的Y轴上应用一个局部平移。如果\ ``scaled``\ 是\ ``false``，则对运动进行标准化。
 
 ----
 

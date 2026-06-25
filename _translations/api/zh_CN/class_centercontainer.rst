@@ -40,7 +40,7 @@ Property Descriptions
 | *Getter*  | is_using_top_left()     |
 +-----------+-------------------------+
 
-如果``true``，将子节点相对于``CenterContainer``\ 的左上角居中。
+如果\ ``true``，将子节点相对于\ ``CenterContainer``\ 的左上角居中。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

@@ -16,7 +16,7 @@ StyleBoxLine
 Description
 -----------
 
-显示给定颜色和粗细的单线:ref:`StyleBox<class_StyleBox>` 。它可用于绘制分隔符之类的东西。
+显示给定颜色和粗细的单线\ :ref:`StyleBox<class_StyleBox>` 。它可用于绘制分隔符之类的东西。
 
 Properties
 ----------
