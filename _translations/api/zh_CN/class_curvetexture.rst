@@ -16,7 +16,7 @@ CurveTexture
 Description
 -----------
 
-渲染提供给它的:ref:`Curve<class_Curve>`。简化了绘制曲线和/或保存为图像文件的任务。
+渲染提供给它的\ :ref:`Curve<class_Curve>`。简化了绘制曲线和/或保存为图像文件的任务。
 
 Properties
 ----------

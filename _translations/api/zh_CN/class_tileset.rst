@@ -16,7 +16,7 @@ TileSet
 Description
 -----------
 
-图块集是:ref:`TileMap<class_TileMap>`\ 图块地图的一个图块库。它包含图块的列表，每个图块由一个精灵和可选的碰撞形状组成。
+图块集是\ :ref:`TileMap<class_TileMap>`\ 图块地图的一个图块库。它包含图块的列表，每个图块由一个精灵和可选的碰撞形状组成。
 
 图块由唯一的整数ID引用。
 
@@ -266,7 +266,7 @@ Method Descriptions
 
 确定什么时候自动图块器应该考虑将两个不同的自动图块器ID绑定在一起。
 
-**注意：** ``neighbour_id``\ 当检查一个图块与一个空的相邻图块时，将是``-1``，即:ref:`TileMap.INVALID_CELL<class_TileMap_constant_INVALID_CELL>`。
+**注意：** ``neighbour_id``\ 当检查一个图块与一个空的相邻图块时，将是\ ``-1``，即\ :ref:`TileMap.INVALID_CELL<class_TileMap_constant_INVALID_CELL>`。
 
 ----
 
@@ -292,7 +292,7 @@ The value is the sum of the values in :ref:`AutotileBindings<enum_TileSet_Autoti
 
 - :ref:`BitmaskMode<enum_TileSet_BitmaskMode>` **autotile_get_bitmask_mode** **(** :ref:`int<class_int>` id **)** |const|
 
-返回自动图块的:ref:`BitmaskMode<enum_TileSet_BitmaskMode>`\ bit位掩码模式。
+返回自动图块的\ :ref:`BitmaskMode<enum_TileSet_BitmaskMode>`\ bit位掩码模式。
 
 ----
 
@@ -370,7 +370,7 @@ The value is the sum of the values in :ref:`AutotileBindings<enum_TileSet_Autoti
 
 - void **autotile_set_bitmask_mode** **(** :ref:`int<class_int>` id, :ref:`BitmaskMode<enum_TileSet_BitmaskMode>` mode **)**
 
-设置自动图块的:ref:`BitmaskMode<enum_TileSet_BitmaskMode>`\ 位掩码模式。
+设置自动图块的\ :ref:`BitmaskMode<enum_TileSet_BitmaskMode>`\ 位掩码模式。
 
 ----
 
@@ -604,7 +604,7 @@ Sets the drawing index of the sub-tile from an atlas/autotile given its coordina
 
 - :ref:`Transform2D<class_Transform2D>` **tile_get_shape_transform** **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id **)** |const|
 
-返回图块形状的:ref:`Transform2D<class_Transform2D>`。
+返回图块形状的\ :ref:`Transform2D<class_Transform2D>`。
 
 ----
 
@@ -648,7 +648,7 @@ Sets the drawing index of the sub-tile from an atlas/autotile given its coordina
 
 - :ref:`TileMode<enum_TileSet_TileMode>` **tile_get_tile_mode** **(** :ref:`int<class_int>` id **)** |const|
 
-返回图块的:ref:`TileMode<enum_TileSet_TileMode>`。
+返回图块的\ :ref:`TileMode<enum_TileSet_TileMode>`。
 
 ----
 
@@ -770,7 +770,7 @@ Sets the tile's normal map texture.
 
 - void **tile_set_shape_transform** **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id, :ref:`Transform2D<class_Transform2D>` shape_transform **)**
 
-在图块的形状上设置:ref:`Transform2D<class_Transform2D>`。
+在图块的形状上设置\ :ref:`Transform2D<class_Transform2D>`。
 
 ----
 
@@ -802,7 +802,7 @@ Sets the tile's normal map texture.
 
 - void **tile_set_tile_mode** **(** :ref:`int<class_int>` id, :ref:`TileMode<enum_TileSet_TileMode>` tilemode **)**
 
-设置图块的:ref:`TileMode<enum_TileSet_TileMode>`。
+设置图块的\ :ref:`TileMode<enum_TileSet_TileMode>`。
 
 ----
 

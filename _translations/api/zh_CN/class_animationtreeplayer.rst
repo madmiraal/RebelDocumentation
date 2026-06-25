@@ -16,11 +16,11 @@ AnimationTreePlayer
 Description
 -----------
 
-*已弃用。* 节点图示工具，用于混合绑定在:ref:`AnimationPlayer<class_AnimationPlayer>`\ 上的多个动画。对于给角色或其他基于骨架的配件制作动画特别有用。它可以结合几个动画来形成一个所需的姿势。
+*已弃用。* 节点图示工具，用于混合绑定在\ :ref:`AnimationPlayer<class_AnimationPlayer>`\ 上的多个动画。对于给角色或其他基于骨架的配件制作动画特别有用。它可以结合几个动画来形成一个所需的姿势。
 
-它从:ref:`AnimationPlayer<class_AnimationPlayer>`\ 节点获取:ref:`Animation<class_Animation>`，并根据图示将它们混合起来。
+它从\ :ref:`AnimationPlayer<class_AnimationPlayer>`\ 节点获取\ :ref:`Animation<class_Animation>`，并根据图示将它们混合起来。
 
-参阅:ref:`AnimationTree<class_AnimationTree>`\ 以获得该节点的更全面的功能替代。
+参阅\ :ref:`AnimationTree<class_AnimationTree>`\ 以获得该节点的更全面的功能替代。
 
 Tutorials
 ---------
@@ -235,7 +235,7 @@ Property Descriptions
 | *Getter*  | is_active()       |
 +-----------+-------------------+
 
-如果``true``，``AnimationTreePlayer``\ 就能够播放动画。
+如果\ ``true``，``AnimationTreePlayer``\ 就能够播放动画。
 
 ----
 
@@ -253,7 +253,7 @@ Property Descriptions
 
 相对访问其他节点的节点。
 
-它访问骨骼，应该指向:ref:`AnimationPlayer<class_AnimationPlayer>`\ 将指向其根节点的同一个节点。
+它访问骨骼，应该指向\ :ref:`AnimationPlayer<class_AnimationPlayer>`\ 将指向其根节点的同一个节点。
 
 ----
 
@@ -271,7 +271,7 @@ Property Descriptions
 
 通过 :ref:`AnimationPlayer<class_AnimationPlayer>` 的路径，此 ``AnimationTreePlayer`` 将动画绑定到动画节点。
 
-设置后，:ref:`Animation<class_Animation>`\ 节点可以添加到:ref:`AnimationPlayer<class_AnimationPlayer>`。
+设置后，:ref:`Animation<class_Animation>`\ 节点可以添加到\ :ref:`AnimationPlayer<class_AnimationPlayer>`。
 
 ----
 
@@ -296,7 +296,7 @@ Method Descriptions
 
 - void **add_node** **(** :ref:`NodeType<enum_AnimationTreePlayer_NodeType>` type, :ref:`String<class_String>` id **)**
 
-添加``type``\ 节点到图示中，名称为``id``。
+添加\ ``type``\ 节点到图示中，名称为\ ``id``。
 
 ----
 
@@ -304,7 +304,7 @@ Method Descriptions
 
 - void **advance** **(** :ref:`float<class_float>` delta **)**
 
-移动动画时间轴上的位置。``delta``\ 是移动的时间，单位是秒。当前帧和``delta``\ 之间的事件被处理。
+移动动画时间轴上的位置。``delta``\ 是移动的时间，单位是秒。当前帧和\ ``delta``\ 之间的事件被处理。
 
 ----
 
@@ -312,7 +312,7 @@ Method Descriptions
 
 - :ref:`Animation<class_Animation>` **animation_node_get_animation** **(** :ref:`String<class_String>` id **)** |const|
 
-返回与``AnimationTreePlayer``\ 的动画节点绑定的:ref:`Animation<class_Animation>`，名称为``id``。
+返回与\ ``AnimationTreePlayer``\ 的动画节点绑定的\ :ref:`Animation<class_Animation>`，名称为\ ``id``。
 
 ----
 
@@ -320,7 +320,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **animation_node_get_master_animation** **(** :ref:`String<class_String>` id **)** |const|
 
-返回与此动画节点绑定的:ref:`master_player<class_AnimationTreePlayer_property_master_player>`\ 的:ref:`Animation<class_Animation>`\ 名称。
+返回与此动画节点绑定的\ :ref:`master_player<class_AnimationTreePlayer_property_master_player>`\ 的\ :ref:`Animation<class_Animation>`\ 名称。
 
 ----
 
@@ -328,7 +328,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **animation_node_get_position** **(** :ref:`String<class_String>` id **)** |const|
 
-返回名称为``id``\ 的动画节点的绝对播放时间戳。
+返回名称为\ ``id``\ 的动画节点的绝对播放时间戳。
 
 ----
 
@@ -336,7 +336,7 @@ Method Descriptions
 
 - void **animation_node_set_animation** **(** :ref:`String<class_String>` id, :ref:`Animation<class_Animation>` animation **)**
 
-将名称为``id``\ 的新:ref:`Animation<class_Animation>`\ 从:ref:`master_player<class_AnimationTreePlayer_property_master_player>`\ 绑定到``AnimationTreePlayer``\ 的动画节点。
+将名称为\ ``id``\ 的新\ :ref:`Animation<class_Animation>`\ 从\ :ref:`master_player<class_AnimationTreePlayer_property_master_player>`\ 绑定到\ ``AnimationTreePlayer``\ 的动画节点。
 
 ----
 
@@ -344,7 +344,7 @@ Method Descriptions
 
 - void **animation_node_set_filter_path** **(** :ref:`String<class_String>` id, :ref:`NodePath<class_NodePath>` path, :ref:`bool<class_bool>` enable **)**
 
-如果``enable``\ 为``true``，则ID为``id``\ 的动画节点将关闭修改``path``\ 属性的轨道。修改后的节点的子代继续进行动画处理。
+如果\ ``enable``\ 为\ ``true``，则ID为\ ``id``\ 的动画节点将关闭修改\ ``path``\ 属性的轨道。修改后的节点的子代继续进行动画处理。
 
 ----
 
@@ -352,7 +352,7 @@ Method Descriptions
 
 - void **animation_node_set_master_animation** **(** :ref:`String<class_String>` id, :ref:`String<class_String>` source **)**
 
-将:ref:`master_player<class_AnimationTreePlayer_property_master_player>`\ 中名为``source``\ 的:ref:`Animation<class_Animation>`\ 绑定到动画节点``id``。重新计算缓存。
+将\ :ref:`master_player<class_AnimationTreePlayer_property_master_player>`\ 中名为\ ``source``\ 的\ :ref:`Animation<class_Animation>`\ 绑定到动画节点\ ``id``。重新计算缓存。
 
 ----
 
@@ -360,7 +360,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **are_nodes_connected** **(** :ref:`String<class_String>` id, :ref:`String<class_String>` dst_id, :ref:`int<class_int>` dst_input_idx **)** |const|
 
-返回节点``id``\ 和``dst_id``\ 是否在指定的插槽上连接。
+返回节点\ ``id``\ 和\ ``dst_id``\ 是否在指定的插槽上连接。
 
 ----
 
@@ -388,7 +388,7 @@ Method Descriptions
 
 - void **blend2_node_set_filter_path** **(** :ref:`String<class_String>` id, :ref:`NodePath<class_NodePath>` path, :ref:`bool<class_bool>` enable **)**
 
-如果``enable``\ 是``true``，名称为``id``\ 的Blend2节点会关闭修改``path``\ 处属性的轨道。被修改的节点的子节点继续处理动画。
+如果\ ``enable``\ 是\ ``true``，名称为\ ``id``\ 的Blend2节点会关闭修改\ ``path``\ 处属性的轨道。被修改的节点的子节点继续处理动画。
 
 ----
 
@@ -436,7 +436,7 @@ Blend4节点可以混合两对动画。
 
 - :ref:`Error<enum_@GlobalScope_Error>` **connect_nodes** **(** :ref:`String<class_String>` id, :ref:`String<class_String>` dst_id, :ref:`int<class_int>` dst_input_idx **)**
 
-将节点``id``\ 连接到指定输入插槽的``dst_id``。
+将节点\ ``id``\ 连接到指定输入插槽的\ ``dst_id``。
 
 ----
 
@@ -444,7 +444,7 @@ Blend4节点可以混合两对动画。
 
 - void **disconnect_nodes** **(** :ref:`String<class_String>` id, :ref:`int<class_int>` dst_input_idx **)**
 
-断开在指定输入插槽连接到``id``\ 的节点。
+断开在指定输入插槽连接到\ ``id``\ 的节点。
 
 ----
 
@@ -452,7 +452,7 @@ Blend4节点可以混合两对动画。
 
 - :ref:`PoolStringArray<class_PoolStringArray>` **get_node_list** **(** **)**
 
-返回包含所有节点名称的:ref:`PoolStringArray<class_PoolStringArray>`。
+返回包含所有节点名称的\ :ref:`PoolStringArray<class_PoolStringArray>`。
 
 ----
 
@@ -510,7 +510,7 @@ Blend4节点可以混合两对动画。
 
 - :ref:`NodeType<enum_AnimationTreePlayer_NodeType>` **node_get_type** **(** :ref:`String<class_String>` id **)** |const|
 
-获取节点类型，将从:ref:`NodeType<enum_AnimationTreePlayer_NodeType>`\ 枚举中返回。
+获取节点类型，将从\ :ref:`NodeType<enum_AnimationTreePlayer_NodeType>`\ 枚举中返回。
 
 ----
 
@@ -622,7 +622,7 @@ Blend4节点可以混合两对动画。
 
 - void **oneshot_node_set_filter_path** **(** :ref:`String<class_String>` id, :ref:`NodePath<class_NodePath>` path, :ref:`bool<class_bool>` enable **)**
 
-如果``enable``\ 是``true``，ID为``id``\ 的OneShot节点会关闭修改``path``\ 处属性的轨道。被修改的节点的子节点继续进行动画。
+如果\ ``enable``\ 是\ ``true``，ID为\ ``id``\ 的OneShot节点会关闭修改\ ``path``\ 处属性的轨道。被修改的节点的子节点继续进行动画。
 
 ----
 
@@ -638,7 +638,7 @@ Blend4节点可以混合两对动画。
 
 - void **oneshot_node_stop** **(** :ref:`String<class_String>` id **)**
 
-停止名称为``id``\ 的OneShot节点。
+停止名称为\ ``id``\ 的OneShot节点。
 
 ----
 
@@ -654,7 +654,7 @@ Blend4节点可以混合两对动画。
 
 - void **remove_node** **(** :ref:`String<class_String>` id **)**
 
-移除名称为``id``\ 的动画节点。
+移除名称为\ ``id``\ 的动画节点。
 
 ----
 
@@ -670,7 +670,7 @@ Blend4节点可以混合两对动画。
 
 - :ref:`float<class_float>` **timescale_node_get_scale** **(** :ref:`String<class_String>` id **)** |const|
 
-返回名称为``id``\ 的TimeScale节点的时间缩放值。
+返回名称为\ ``id``\ 的TimeScale节点的时间缩放值。
 
 ----
 
@@ -678,9 +678,9 @@ Blend4节点可以混合两对动画。
 
 - void **timescale_node_set_scale** **(** :ref:`String<class_String>` id, :ref:`float<class_float>` scale **)**
 
-设置名称为``id``\ 的TimeScale节点的时间缩放为``scale``。
+设置名称为\ ``id``\ 的TimeScale节点的时间缩放为\ ``scale``。
 
-时间缩放节点用来加快:ref:`Animation<class_Animation>`\ 的速度，如果缩放高于1，就会减慢它们。
+时间缩放节点用来加快\ :ref:`Animation<class_Animation>`\ 的速度，如果缩放高于1，就会减慢它们。
 
 如果在混合后应用，会影响到该混合的所有输入动画。
 
@@ -690,9 +690,9 @@ Blend4节点可以混合两对动画。
 
 - void **timeseek_node_seek** **(** :ref:`String<class_String>` id, :ref:`float<class_float>` seconds **)**
 
-设置名称为``id``\ 的TimeSeek节点的时间查寻值为``seconds``。
+设置名称为\ ``id``\ 的TimeSeek节点的时间查寻值为\ ``seconds``。
 
-这在:ref:`Animation<class_Animation>`\ 或输入的:ref:`Animation<class_Animation>`\ 的混合中起到查寻的作用。
+这在\ :ref:`Animation<class_Animation>`\ 或输入的\ :ref:`Animation<class_Animation>`\ 的混合中起到查寻的作用。
 
 ----
 
@@ -700,7 +700,7 @@ Blend4节点可以混合两对动画。
 
 - void **transition_node_delete_input** **(** :ref:`String<class_String>` id, :ref:`int<class_int>` input_idx **)**
 
-删除名称为``id``\ 的过渡节点的``input_idx``\ 的输入。
+删除名称为\ ``id``\ 的过渡节点的\ ``input_idx``\ 的输入。
 
 ----
 
@@ -708,7 +708,7 @@ Blend4节点可以混合两对动画。
 
 - :ref:`int<class_int>` **transition_node_get_current** **(** :ref:`String<class_String>` id **)** |const|
 
-返回名称为``id``\ 的过渡节点的当前评估输入的索引。
+返回名称为\ ``id``\ 的过渡节点的当前评估输入的索引。
 
 ----
 
@@ -716,7 +716,7 @@ Blend4节点可以混合两对动画。
 
 - :ref:`int<class_int>` **transition_node_get_input_count** **(** :ref:`String<class_String>` id **)** |const|
 
-返回名称为``id``\ 的过渡节点的输入数。你可以通过右键点击过渡节点来增加输入。
+返回名称为\ ``id``\ 的过渡节点的输入数。你可以通过右键点击过渡节点来增加输入。
 
 ----
 
@@ -724,7 +724,7 @@ Blend4节点可以混合两对动画。
 
 - :ref:`float<class_float>` **transition_node_get_xfade_time** **(** :ref:`String<class_String>` id **)** |const|
 
-返回名称为``id``\ 的过渡节点的交叉淡化时间。
+返回名称为\ ``id``\ 的过渡节点的交叉淡化时间。
 
 ----
 
@@ -732,7 +732,7 @@ Blend4节点可以混合两对动画。
 
 - :ref:`bool<class_bool>` **transition_node_has_input_auto_advance** **(** :ref:`String<class_String>` id, :ref:`int<class_int>` input_idx **)** |const|
 
-如果过渡节点上名称为``id``\ 的``input_idx``\ 的输入被设置为在完成后自动前进到下一个输入，则返回``true``。
+如果过渡节点上名称为\ ``id``\ 的\ ``input_idx``\ 的输入被设置为在完成后自动前进到下一个输入，则返回\ ``true``。
 
 ----
 
@@ -748,7 +748,7 @@ Blend4节点可以混合两对动画。
 
 - void **transition_node_set_input_auto_advance** **(** :ref:`String<class_String>` id, :ref:`int<class_int>` input_idx, :ref:`bool<class_bool>` enable **)**
 
-当``input_idx``\ 处的输入完成后，名称为``id``\ 的过渡节点自动进行到下一个输入。
+当\ ``input_idx``\ 处的输入完成后，名称为\ ``id``\ 的过渡节点自动进行到下一个输入。
 
 ----
 
@@ -756,7 +756,7 @@ Blend4节点可以混合两对动画。
 
 - void **transition_node_set_input_count** **(** :ref:`String<class_String>` id, :ref:`int<class_int>` count **)**
 
-调整名称为``id``\ 的过渡节点的可用输入数。
+调整名称为\ ``id``\ 的过渡节点的可用输入数。
 
 ----
 
@@ -764,7 +764,7 @@ Blend4节点可以混合两对动画。
 
 - void **transition_node_set_xfade_time** **(** :ref:`String<class_String>` id, :ref:`float<class_float>` time_sec **)**
 
-名称为``id``\ 的过渡节点将其交叉淡化时间设置为``time_sec``。
+名称为\ ``id``\ 的过渡节点将其交叉淡化时间设置为\ ``time_sec``。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

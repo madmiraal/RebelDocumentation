@@ -99,7 +99,7 @@ Property Descriptions
 | *Getter*  | get_h_axis_stretch_mode()      |
 +-----------+--------------------------------+
 
-水平拉伸/平铺时使用的拉伸模式。参阅:ref:`AxisStretchMode<enum_NinePatchRect_AxisStretchMode>`。
+水平拉伸/平铺时使用的拉伸模式。参阅\ :ref:`AxisStretchMode<enum_NinePatchRect_AxisStretchMode>`。
 
 ----
 
@@ -115,7 +115,7 @@ Property Descriptions
 | *Getter*  | get_v_axis_stretch_mode()      |
 +-----------+--------------------------------+
 
-用于垂直拉伸/平铺的拉伸模式。参阅:ref:`AxisStretchMode<enum_NinePatchRect_AxisStretchMode>`。
+用于垂直拉伸/平铺的拉伸模式。参阅\ :ref:`AxisStretchMode<enum_NinePatchRect_AxisStretchMode>`。
 
 ----
 
@@ -131,7 +131,7 @@ Property Descriptions
 | *Getter*  | is_draw_center_enabled() |
 +-----------+--------------------------+
 
-如果``true``，则绘制面板的中心。否则，只画9-slice的边框。
+如果\ ``true``，则绘制面板的中心。否则，只画9-slice的边框。
 
 ----
 
@@ -234,7 +234,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_patch_margin** **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin **)** |const|
 
-返回由给定的:ref:`Margin<enum_@GlobalScope_Margin>`\ 常量标识的边距大小。
+返回由给定的\ :ref:`Margin<enum_@GlobalScope_Margin>`\ 常量标识的边距大小。
 
 ----
 
@@ -242,7 +242,7 @@ Method Descriptions
 
 - void **set_patch_margin** **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin, :ref:`int<class_int>` value **)**
 
-将由给定的:ref:`Margin<enum_@GlobalScope_Margin>`\ 常量标识的边距大小设置为``value``，单位为像素。
+将由给定的\ :ref:`Margin<enum_@GlobalScope_Margin>`\ 常量标识的边距大小设置为\ ``value``，单位为像素。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

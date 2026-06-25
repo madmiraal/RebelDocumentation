@@ -35,11 +35,11 @@ Description
         file.close()
         return content
 
-在上面的例子中，文件将被保存在:doc:`数据路径 </tutorials/io/data_paths>`\ 文件中指定的用户数据文件夹中。
+在上面的例子中，文件将被保存在\ :doc:`数据路径 </tutorials/io/data_paths>`\ 文件中指定的用户数据文件夹中。
 
-**注意:**要在导出后访问项目资源，建议使用 :ref:`ResourceLoader<class_ResourceLoader>` 而不是 ``File`` API，因为有些文件被转换为引擎特定的格式，其原始源文件可能不存在于导出的 PCK 包中。
+**注意:**\ 要在导出后访问项目资源，建议使用 :ref:`ResourceLoader<class_ResourceLoader>` 而不是 ``File`` API，因为有些文件被转换为引擎特定的格式，其原始源文件可能不存在于导出的 PCK 包中。
 
-**注意:**只有在进程“正常”退出时，例如通过点击窗口管理器的关闭按钮或按 **Alt + F4**，文件才会自动关闭。如果你在项目运行时按 **F8** 停止项目执行，文件将不会被关闭，因为游戏进程将被杀死。你可以通过定期调用 :ref:`flush<class_File_method_flush>` 来解决这个问题。
+**注意:**\ 只有在进程“正常”退出时，例如通过点击窗口管理器的关闭按钮或按 **Alt + F4**，文件才会自动关闭。如果你在项目运行时按 **F8** 停止项目执行，文件将不会被关闭，因为游戏进程将被杀死。你可以通过定期调用 :ref:`flush<class_File_method_flush>` 来解决这个问题。
 
 Tutorials
 ---------
@@ -208,11 +208,11 @@ Property Descriptions
 | *Getter*  | get_endian_swap()      |
 +-----------+------------------------+
 
-为 ``true`` 时文件以大端`字节序 <https://zh.wikipedia.org/wiki/%E5%AD%97%E8%8A%82%E5%BA%8F>`__读取。为 ``false`` 时文件以小端字节序读取。如果不确定，请将其保留为 ``false``，因为大多数文件都是以小端字节序编写的。
+为 ``true`` 时文件以大端\ `字节序 <https://zh.wikipedia.org/wiki/%E5%AD%97%E8%8A%82%E5%BA%8F>`__\ 读取。为 ``false`` 时文件以小端字节序读取。如果不确定，请将其保留为 ``false``，因为大多数文件都是以小端字节序编写的。
 
-**注意：**:ref:`endian_swap<class_File_property_endian_swap>` 只是文件格式，与 CPU 类型无关。 CPU 字节序不会影响写入文件的默认字节序。
+**注意：**\ :ref:`endian_swap<class_File_property_endian_swap>` 只是文件格式，与 CPU 类型无关。 CPU 字节序不会影响写入文件的默认字节序。
 
-**注意：**每当您打开文件时，它总是重置为 ``false``。因此，必须在*打开文件之后*设置 :ref:`endian_swap<class_File_property_endian_swap>`，而不是之前。
+**注意：**\ 每当您打开文件时，它总是重置为 ``false``。因此，必须在\ *打开文件之后*\ 设置 :ref:`endian_swap<class_File_property_endian_swap>`，而不是之前。
 
 Method Descriptions
 -------------------
@@ -231,7 +231,7 @@ Method Descriptions
 
 如果文件光标已经读到了文件的末端，返回 ``true``。
 
-**注意：**``eof_reached() == false`` 不能用来检查是否有更多的数据可用。要在有更多数据可用时进行循环，请使用：
+**注意：**\ ``eof_reached() == false`` 不能用来检查是否有更多的数据可用。要在有更多数据可用时进行循环，请使用：
 
 ::
 
@@ -246,7 +246,7 @@ Method Descriptions
 
 如果文件存在于给定的路径中，返回 ``true``。
 
-**注意：**许多资源类型导入后，例如纹理或声音文件，其源资产不会包含在导出的游戏中，因为只使用导入的版本。有关考虑资源重新映射的替代方法，请参阅 :ref:`ResourceLoader.exists<class_ResourceLoader_method_exists>`。
+**注意：**\ 许多资源类型导入后，例如纹理或声音文件，其源资产不会包含在导出的游戏中，因为只使用导入的版本。有关考虑资源重新映射的替代方法，请参阅 :ref:`ResourceLoader.exists<class_ResourceLoader_method_exists>`。
 
 ----
 
@@ -256,7 +256,7 @@ Method Descriptions
 
 将文件的缓冲区写入磁盘。关闭文件时会自动执行刷新。这意味着您不需要在使用 :ref:`close<class_File_method_close>` 关闭文件之前手动调用 :ref:`flush<class_File_method_flush>`。尽管如此，即使项目崩溃而不是正常关闭，调用 :ref:`flush<class_File_method_flush>` 仍可用于确保数据安全。
 
-**注意：**只有在你真正需要的时候才调用 :ref:`flush<class_File_method_flush>`。否则，它会由于不断的磁盘写入而降低性能。
+**注意：**\ 只有在你真正需要的时候才调用 :ref:`flush<class_File_method_flush>`。否则，它会由于不断的磁盘写入而降低性能。
 
 ----
 
@@ -272,7 +272,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_32** **(** **)** |const|
 
-以整数形式返回文件中接下来的 32 位。请参阅:ref:`store_32<class_File_method_store_32>`，以获取有关可以通过这种方式存储和检索哪些值的详细信息。
+以整数形式返回文件中接下来的 32 位。请参阅\ :ref:`store_32<class_File_method_store_32>`，以获取有关可以通过这种方式存储和检索哪些值的详细信息。
 
 ----
 
@@ -314,7 +314,7 @@ Method Descriptions
 
 - :ref:`PoolStringArray<class_PoolStringArray>` **get_csv_line** **(** :ref:`String<class_String>` delim="," **)** |const|
 
-以 CSV（逗号分隔值）格式返回文件的下一个值。您可以传递不同的分隔符 ``delim`` 以使用默认 ``","``（逗号）以外的其他分隔符。此分隔符必须为一个字符长，并且不能是双引号。
+以 CSV（逗号分隔值）格式返回文件的下一个值。您可以传递不同的分隔符 ``delim`` 以使用默认 ``","``\ （逗号）以外的其他分隔符。此分隔符必须为一个字符长，并且不能是双引号。
 
 将按照 UTF-8 编码解析文本。如果文本值包含分隔符，则必须用双引号括起来。文本值中的双引号可以通过将它们的出现次数加倍来转义。
 
@@ -326,7 +326,7 @@ Method Descriptions
     Bob,Alice! What a surprise!
     Alice,"I thought you'd reply with ""Hello, world""."
 
-请注意第二行如何省略封闭引号，因为它不包含分隔符。然而它*可以*很好地使用引号，它只是为了演示目的而没有编写。第三行必须使用 ``""`` 来表示每个需要被解释为引号的引号，而不是文本值的结束。
+请注意第二行如何省略封闭引号，因为它不包含分隔符。然而它\ *可以*\ 很好地使用引号，它只是为了演示目的而没有编写。第三行必须使用 ``""`` 来表示每个需要被解释为引号的引号，而不是文本值的结束。
 
 ----
 
@@ -376,7 +376,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **get_md5** **(** :ref:`String<class_String>` path **)** |const|
 
-返回一个给定路径文件的MD5字符串，如果失败则返回一个空的:ref:`String<class_String>`。
+返回一个给定路径文件的MD5字符串，如果失败则返回一个空的\ :ref:`String<class_String>`。
 
 ----
 
@@ -384,7 +384,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_modified_time** **(** :ref:`String<class_String>` file **)** |const|
 
-返回unix格式的时间戳``file``\ 为文件的最后修改时间，或者返回一个:ref:`String<class_String>`"ERROR IN ``file``"。这个unix时间戳可以通过使用:ref:`OS.get_datetime_from_unix_time<class_OS_method_get_datetime_from_unix_time>`\ 转换为数据时间。
+返回unix格式的时间戳\ ``file``\ 为文件的最后修改时间，或者返回一个\ :ref:`String<class_String>`"ERROR IN ``file``"。这个unix时间戳可以通过使用\ :ref:`OS.get_datetime_from_unix_time<class_OS_method_get_datetime_from_unix_time>`\ 转换为数据时间。
 
 ----
 
@@ -402,7 +402,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **get_path** **(** **)** |const|
 
-返回当前打开的文件的路径为:ref:`String<class_String>`。
+返回当前打开的文件的路径为\ :ref:`String<class_String>`。
 
 ----
 
@@ -410,7 +410,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **get_path_absolute** **(** **)** |const|
 
-返回当前打开的文件的绝对路径为:ref:`String<class_String>`。
+返回当前打开的文件的绝对路径为\ :ref:`String<class_String>`。
 
 ----
 
@@ -444,7 +444,7 @@ Method Descriptions
 
 返回文件中的下一个 :ref:`Variant<class_Variant>` 值。``allow_objects`` 为 ``true`` 时允许对对象进行解码。
 
-**警告：**反序列化得到的对象可能包含被执行的代码。如果序列化的对象来自不受信任的来源，请不要使用这个选项，以避免潜在的安全威胁，如远程代码执行。
+**警告：**\ 反序列化得到的对象可能包含被执行的代码。如果序列化的对象来自不受信任的来源，请不要使用这个选项，以避免潜在的安全威胁，如远程代码执行。
 
 ----
 
@@ -452,7 +452,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_open** **(** **)** |const|
 
-如果文件当前被打开，返回``true``。
+如果文件当前被打开，返回\ ``true``。
 
 ----
 
@@ -506,7 +506,7 @@ Opens a compressed file for reading or writing.
 
 将文件的读/写光标改变到指定的位置（从文件的末端算起，以字节为单位）。
 
-**注意：**这是一个偏移量，所以你应该使用负数，否则光标会在文件的末端。
+**注意：**\ 这是一个偏移量，所以你应该使用负数，否则光标会在文件的末端。
 
 ----
 
@@ -516,7 +516,7 @@ Opens a compressed file for reading or writing.
 
 将一个整数以 16 位形式存储在文件中。
 
-**注意：**``value`` 应该位于 ``[0, 2^16 - 1]`` 区间内。任何其他的值都会溢出并进行环绕。
+**注意：**\ ``value`` 应该位于 ``[0, 2^16 - 1]`` 区间内。任何其他的值都会溢出并进行环绕。
 
 要存储有符号的整数，请使用 :ref:`store_64<class_File_method_store_64>` 或者从区间 ``[-2^15, 2^15 - 1]`` 中存储一个有符号的整数（即保留一位作为有符号），在读取时手动计算其符号。比如说
 
@@ -547,7 +547,7 @@ Opens a compressed file for reading or writing.
 
 将一个整数以 32 位形式存储在文件中。
 
-**注意：**``value`` 应该位于 ``[0, 2^32 - 1]`` 区间内。任何其他的值都会溢出并环绕。
+**注意：**\ ``value`` 应该位于 ``[0, 2^32 - 1]`` 区间内。任何其他的值都会溢出并环绕。
 
 要存储有符号的整数，请使用 :ref:`store_64<class_File_method_store_64>`，或者手动转换（见 :ref:`store_16<class_File_method_store_16>` 的例子）。
 
@@ -559,7 +559,7 @@ Opens a compressed file for reading or writing.
 
 将一个整数以 64 位形式存储在文件中。
 
-**注意：**``value`` 必须位于 ``[-2^63, 2^63 - 1]`` 的区间内（即有效的 :ref:`int<class_int>` 值）。
+**注意：**\ ``value`` 必须位于 ``[-2^63, 2^63 - 1]`` 的区间内（即有效的 :ref:`int<class_int>` 值）。
 
 ----
 
@@ -569,7 +569,7 @@ Opens a compressed file for reading or writing.
 
 将一个整数以 8 位形式存储在文件中。
 
-**注意：**``value`` 应该位于 ``[0, 255]`` 的区间内。任何其他的值都会溢出并环绕。
+**注意：**\ ``value`` 应该位于 ``[0, 255]`` 的区间内。任何其他的值都会溢出并环绕。
 
 要存储有符号的整数，请使用 :ref:`store_64<class_File_method_store_64>`，或者手动转换（见 :ref:`store_16<class_File_method_store_16>` 的例子）。
 
@@ -587,7 +587,7 @@ Opens a compressed file for reading or writing.
 
 - void **store_csv_line** **(** :ref:`PoolStringArray<class_PoolStringArray>` values, :ref:`String<class_String>` delim="," **)**
 
-将给定的 :ref:`PoolStringArray<class_PoolStringArray>` 作为 CSV（逗号分隔值）格式的行存储在文件中。您可以传递不同的分隔符 ``delim`` 以使用默认 ``","``（逗号）以外的其他分隔符。此分隔符的长度必须为一个字符。
+将给定的 :ref:`PoolStringArray<class_PoolStringArray>` 作为 CSV（逗号分隔值）格式的行存储在文件中。您可以传递不同的分隔符 ``delim`` 以使用默认 ``","``\ （逗号）以外的其他分隔符。此分隔符的长度必须为一个字符。
 
 将使用 UTF-8 编码文本。
 
@@ -621,7 +621,7 @@ Appends ``line`` to the file followed by a line return character (``\n``), encod
 
 - void **store_pascal_string** **(** :ref:`String<class_String>` string **)**
 
-将给定的:ref:`String<class_String>`\ 以Pascal格式存储在文件中（例如，也将字符串长度存储）。
+将给定的\ :ref:`String<class_String>`\ 以Pascal格式存储在文件中（例如，也将字符串长度存储）。
 
 文本将被编码为UTF-8。
 
@@ -641,7 +641,7 @@ Appends ``line`` to the file followed by a line return character (``\n``), encod
 
 将 ``string`` 字符串追加到文件中，不带换行，文本将被编码为 UTF-8。
 
-**注意：**本方法是为写入文本文件准备的。字符串会被存储为 UTF-8 编码的缓冲区，不带字符串长度或末尾零，所以无法轻易读回。如果你想要在二进制文件中存储可取回的字符串，请考虑换用 :ref:`store_pascal_string<class_File_method_store_pascal_string>`。要从文本文件中获取字符串，你可以使用 ``get_buffer(length).get_string_from_utf8()``（需要已知长度）或 :ref:`get_as_text<class_File_method_get_as_text>`。
+**注意：**\ 本方法是为写入文本文件准备的。字符串会被存储为 UTF-8 编码的缓冲区，不带字符串长度或末尾零，所以无法轻易读回。如果你想要在二进制文件中存储可取回的字符串，请考虑换用 :ref:`store_pascal_string<class_File_method_store_pascal_string>`。要从文本文件中获取字符串，你可以使用 ``get_buffer(length).get_string_from_utf8()``\ （需要已知长度）或 :ref:`get_as_text<class_File_method_get_as_text>`。
 
 ----
 

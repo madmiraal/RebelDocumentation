@@ -99,15 +99,15 @@ enum **FillMode**:
 
 - **FILL_BOTTOM_TO_TOP** = **3** --- :ref:`texture_progress<class_TextureProgress_property_texture_progress>` 自下而上填充。
 
-- **FILL_CLOCKWISE** = **4** --- 将节点变成径向条形。:ref:`texture_progress<class_TextureProgress_property_texture_progress>` 顺时针填充。参阅:ref:`radial_center_offset<class_TextureProgress_property_radial_center_offset>`、:ref:`radial_initial_angle<class_TextureProgress_property_radial_initial_angle>`\ 和:ref:`radial_fill_degrees<class_TextureProgress_property_radial_fill_degrees>`\ 来控制条形填充的方式。
+- **FILL_CLOCKWISE** = **4** --- 将节点变成径向条形。:ref:`texture_progress<class_TextureProgress_property_texture_progress>` 顺时针填充。参阅\ :ref:`radial_center_offset<class_TextureProgress_property_radial_center_offset>`、:ref:`radial_initial_angle<class_TextureProgress_property_radial_initial_angle>`\ 和\ :ref:`radial_fill_degrees<class_TextureProgress_property_radial_fill_degrees>`\ 来控制条形填充的方式。
 
-- **FILL_COUNTER_CLOCKWISE** = **5** --- 将节点变成径向条形。:ref:`texture_progress<class_TextureProgress_property_texture_progress>`\ 逆时针填充。参阅:ref:`radial_center_offset<class_TextureProgress_property_radial_center_offset>`、:ref:`radial_initial_angle<class_TextureProgress_property_radial_initial_angle>`\ 和:ref:`radial_fill_degrees<class_TextureProgress_property_radial_fill_degrees>`\ 来控制条形填充的方式。
+- **FILL_COUNTER_CLOCKWISE** = **5** --- 将节点变成径向条形。:ref:`texture_progress<class_TextureProgress_property_texture_progress>`\ 逆时针填充。参阅\ :ref:`radial_center_offset<class_TextureProgress_property_radial_center_offset>`、:ref:`radial_initial_angle<class_TextureProgress_property_radial_initial_angle>`\ 和\ :ref:`radial_fill_degrees<class_TextureProgress_property_radial_fill_degrees>`\ 来控制条形填充的方式。
 
 - **FILL_BILINEAR_LEFT_AND_RIGHT** = **6** --- :ref:`texture_progress<class_TextureProgress_property_texture_progress>`\ 从中心开始填充，向左和向右扩展。
 
 - **FILL_BILINEAR_TOP_AND_BOTTOM** = **7** --- :ref:`texture_progress<class_TextureProgress_property_texture_progress>`\ 从中心开始填充，同时向顶部和底部扩展。
 
-- **FILL_CLOCKWISE_AND_COUNTER_CLOCKWISE** = **8** --- 将节点变成径向条形。:ref:`texture_progress<class_TextureProgress_property_texture_progress>`\ 从中心径向填充，顺时针和逆时针扩展。参阅:ref:`radial_center_offset<class_TextureProgress_property_radial_center_offset>`、:ref:`radial_initial_angle<class_TextureProgress_property_radial_initial_angle>`\ 和:ref:`radial_fill_degrees<class_TextureProgress_property_radial_fill_degrees>`\ 来控制条形填充的方式。
+- **FILL_CLOCKWISE_AND_COUNTER_CLOCKWISE** = **8** --- 将节点变成径向条形。:ref:`texture_progress<class_TextureProgress_property_texture_progress>`\ 从中心径向填充，顺时针和逆时针扩展。参阅\ :ref:`radial_center_offset<class_TextureProgress_property_radial_center_offset>`、:ref:`radial_initial_angle<class_TextureProgress_property_radial_initial_angle>`\ 和\ :ref:`radial_fill_degrees<class_TextureProgress_property_radial_fill_degrees>`\ 来控制条形填充的方式。
 
 Property Descriptions
 ---------------------
@@ -124,7 +124,7 @@ Property Descriptions
 | *Getter*  | get_fill_mode()      |
 +-----------+----------------------+
 
-填充方向。有关可能的值，参阅:ref:`FillMode<enum_TextureProgress_FillMode>`。
+填充方向。有关可能的值，参阅\ :ref:`FillMode<enum_TextureProgress_FillMode>`。
 
 ----
 
@@ -156,7 +156,7 @@ If ``true``, Rebel Engine treats the bar's textures like in :ref:`NinePatchRect<
 | *Getter*  | get_radial_center_offset()      |
 +-----------+---------------------------------+
 
-如果:ref:`fill_mode<class_TextureProgress_property_fill_mode>`\ 是:ref:`FILL_CLOCKWISE<class_TextureProgress_constant_FILL_CLOCKWISE>`\ 或:ref:`FILL_COUNTER_CLOCKWISE<class_TextureProgress_constant_FILL_COUNTER_CLOCKWISE>`，则对:ref:`texture_progress<class_TextureProgress_property_texture_progress>`\ 进行偏移。
+如果\ :ref:`fill_mode<class_TextureProgress_property_fill_mode>`\ 是\ :ref:`FILL_CLOCKWISE<class_TextureProgress_constant_FILL_CLOCKWISE>`\ 或\ :ref:`FILL_COUNTER_CLOCKWISE<class_TextureProgress_constant_FILL_COUNTER_CLOCKWISE>`，则对\ :ref:`texture_progress<class_TextureProgress_property_texture_progress>`\ 进行偏移。
 
 ----
 
@@ -172,9 +172,9 @@ If ``true``, Rebel Engine treats the bar's textures like in :ref:`NinePatchRect<
 | *Getter*  | get_fill_degrees()      |
 +-----------+-------------------------+
 
-如果:ref:`fill_mode<class_TextureProgress_property_fill_mode>`\ 是:ref:`FILL_CLOCKWISE<class_TextureProgress_constant_FILL_CLOCKWISE>`\ 或:ref:`FILL_COUNTER_CLOCKWISE<class_TextureProgress_constant_FILL_COUNTER_CLOCKWISE>`，则为:ref:`texture_progress<class_TextureProgress_property_texture_progress>`\ 的填充上限。当节点的``value``\ 等于其``max_value``\ 时，纹理会填充到这个角度。
+如果\ :ref:`fill_mode<class_TextureProgress_property_fill_mode>`\ 是\ :ref:`FILL_CLOCKWISE<class_TextureProgress_constant_FILL_CLOCKWISE>`\ 或\ :ref:`FILL_COUNTER_CLOCKWISE<class_TextureProgress_constant_FILL_COUNTER_CLOCKWISE>`，则为\ :ref:`texture_progress<class_TextureProgress_property_texture_progress>`\ 的填充上限。当节点的\ ``value``\ 等于其\ ``max_value``\ 时，纹理会填充到这个角度。
 
-参阅:ref:`Range.value<class_Range_property_value>`, :ref:`Range.max_value<class_Range_property_max_value>`。
+参阅\ :ref:`Range.value<class_Range_property_value>`, :ref:`Range.max_value<class_Range_property_max_value>`。
 
 ----
 
@@ -190,7 +190,7 @@ If ``true``, Rebel Engine treats the bar's textures like in :ref:`NinePatchRect<
 | *Getter*  | get_radial_initial_angle()      |
 +-----------+---------------------------------+
 
-如果:ref:`fill_mode<class_TextureProgress_property_fill_mode>`\ 是:ref:`FILL_CLOCKWISE<class_TextureProgress_constant_FILL_CLOCKWISE>`\ 或:ref:`FILL_COUNTER_CLOCKWISE<class_TextureProgress_constant_FILL_COUNTER_CLOCKWISE>`，:ref:`texture_progress<class_TextureProgress_property_texture_progress>`\ 的填充起始角度。当节点的``value``\ 等于其``min_value``\ 时，纹理根本不会显示出来。当``value``\ 增加时，纹理会被填满并趋向于:ref:`radial_fill_degrees<class_TextureProgress_property_radial_fill_degrees>`。
+如果\ :ref:`fill_mode<class_TextureProgress_property_fill_mode>`\ 是\ :ref:`FILL_CLOCKWISE<class_TextureProgress_constant_FILL_CLOCKWISE>`\ 或\ :ref:`FILL_COUNTER_CLOCKWISE<class_TextureProgress_constant_FILL_COUNTER_CLOCKWISE>`，:ref:`texture_progress<class_TextureProgress_property_texture_progress>`\ 的填充起始角度。当节点的\ ``value``\ 等于其\ ``min_value``\ 时，纹理根本不会显示出来。当\ ``value``\ 增加时，纹理会被填满并趋向于\ :ref:`radial_fill_degrees<class_TextureProgress_property_radial_fill_degrees>`。
 
 ----
 
@@ -282,9 +282,9 @@ If ``true``, Rebel Engine treats the bar's textures like in :ref:`NinePatchRect<
 | *Getter* | get_progress_texture()      |
 +----------+-----------------------------+
 
-基于节点的``value``\ 和:ref:`fill_mode<class_TextureProgress_property_fill_mode>`\ 进行裁剪:ref:`Texture<class_Texture>`。随着``value``\ 的增加，纹理会被填满。当``value``\ 达到``max_value``\ 时，它完全显示。如果``value``\ 等于``min_value``，它就完全不显示了。
+基于节点的\ ``value``\ 和\ :ref:`fill_mode<class_TextureProgress_property_fill_mode>`\ 进行裁剪\ :ref:`Texture<class_Texture>`。随着\ ``value``\ 的增加，纹理会被填满。当\ ``value``\ 达到\ ``max_value``\ 时，它完全显示。如果\ ``value``\ 等于\ ``min_value``，它就完全不显示了。
 
-``value``\ 属性来自:ref:`Range<class_Range>`。参阅:ref:`Range.value<class_Range_property_value>`, :ref:`Range.min_value<class_Range_property_min_value>`, :ref:`Range.max_value<class_Range_property_max_value>`。
+``value``\ 属性来自\ :ref:`Range<class_Range>`。参阅\ :ref:`Range.value<class_Range_property_value>`, :ref:`Range.min_value<class_Range_property_min_value>`, :ref:`Range.max_value<class_Range_property_max_value>`。
 
 ----
 
@@ -300,7 +300,7 @@ If ``true``, Rebel Engine treats the bar's textures like in :ref:`NinePatchRect<
 | *Getter*  | get_texture_progress_offset()      |
 +-----------+------------------------------------+
 
-:ref:`texture_progress<class_TextureProgress_property_texture_progress>`\ 的偏移量。对于带有花哨的边框的:ref:`texture_over<class_TextureProgress_property_texture_over>`\ 和:ref:`texture_under<class_TextureProgress_property_texture_under>`\ 很有用，可以避免进度纹理的边缘透明。
+:ref:`texture_progress<class_TextureProgress_property_texture_progress>`\ 的偏移量。对于带有花哨的边框的\ :ref:`texture_over<class_TextureProgress_property_texture_over>`\ 和\ :ref:`texture_under<class_TextureProgress_property_texture_under>`\ 很有用，可以避免进度纹理的边缘透明。
 
 ----
 
@@ -314,7 +314,7 @@ If ``true``, Rebel Engine treats the bar's textures like in :ref:`NinePatchRect<
 | *Getter* | get_under_texture()      |
 +----------+--------------------------+
 
-在进度条下面绘制的:ref:`Texture<class_Texture>`。即背景。
+在进度条下面绘制的\ :ref:`Texture<class_Texture>`。即背景。
 
 ----
 

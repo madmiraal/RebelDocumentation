@@ -18,7 +18,7 @@ Description
 
 用于 :ref:`AnimationPlayer<class_AnimationPlayer>` 中高级动画过渡的节点。
 
-**注意：**与 :ref:`AnimationPlayer<class_AnimationPlayer>` 连接时，该 :ref:`AnimationPlayer<class_AnimationPlayer>` 的一些属性和方法将不会像预期的那样发挥作用。播放和过渡应该只使用 ``AnimationTree`` 和组成它的 :ref:`AnimationNode<class_AnimationNode>` 来处理。:ref:`AnimationPlayer<class_AnimationPlayer>` 节点应仅用于添加、删除和编辑动画。
+**注意：**\ 与 :ref:`AnimationPlayer<class_AnimationPlayer>` 连接时，该 :ref:`AnimationPlayer<class_AnimationPlayer>` 的一些属性和方法将不会像预期的那样发挥作用。播放和过渡应该只使用 ``AnimationTree`` 和组成它的 :ref:`AnimationNode<class_AnimationNode>` 来处理。:ref:`AnimationPlayer<class_AnimationPlayer>` 节点应仅用于添加、删除和编辑动画。
 
 Tutorials
 ---------
@@ -166,7 +166,7 @@ Method Descriptions
 
 - :ref:`Transform<class_Transform>` **get_root_motion_transform** **(** **)** |const|
 
-检索:ref:`root_motion_track<class_AnimationTree_property_root_motion_track>`\ 的运动，作为一个可以在其他地方使用的:ref:`Transform<class_Transform>`。如果:ref:`root_motion_track<class_AnimationTree_property_root_motion_track>`\ 不是一个:ref:`Animation.TYPE_TRANSFORM<class_Animation_constant_TYPE_TRANSFORM>`\ 类型轨道的路径，返回一个变换ID。参阅:ref:`root_motion_track<class_AnimationTree_property_root_motion_track>`\ 和:ref:`RootMotionView<class_RootMotionView>`。
+检索\ :ref:`root_motion_track<class_AnimationTree_property_root_motion_track>`\ 的运动，作为一个可以在其他地方使用的\ :ref:`Transform<class_Transform>`。如果\ :ref:`root_motion_track<class_AnimationTree_property_root_motion_track>`\ 不是一个\ :ref:`Animation.TYPE_TRANSFORM<class_Animation_constant_TYPE_TRANSFORM>`\ 类型轨道的路径，返回一个变换ID。参阅\ :ref:`root_motion_track<class_AnimationTree_property_root_motion_track>`\ 和\ :ref:`RootMotionView<class_RootMotionView>`。
 
 ----
 

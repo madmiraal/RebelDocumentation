@@ -20,7 +20,7 @@ Description
 
 会忽略非 :ref:`Control<class_Control>` 子节点。
 
-**注意：**可点击的选项卡本身的绘制是由该节点进行的。无需添加 :ref:`Tabs<class_Tabs>` 作为子节点。
+**注意：**\ 可点击的选项卡本身的绘制是由该节点进行的。无需添加 :ref:`Tabs<class_Tabs>` 作为子节点。
 
 Properties
 ----------
@@ -538,7 +538,7 @@ Theme Property Descriptions
 
 - :ref:`Texture<class_Texture>` **menu**
 
-菜单按钮的图标（见:ref:`set_popup<class_TabContainer_method_set_popup>`）。
+菜单按钮的图标（见\ :ref:`set_popup<class_TabContainer_method_set_popup>`）。
 
 ----
 

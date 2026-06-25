@@ -18,7 +18,7 @@ ConfirmationDialog
 Description
 -----------
 
-用于确认操作的对话框。这个对话框继承自:ref:`AcceptDialog<class_AcceptDialog>`，但默认有一个确定和取消按钮（按主机操作系统顺序）。
+用于确认操作的对话框。这个对话框继承自\ :ref:`AcceptDialog<class_AcceptDialog>`，但默认有一个确定和取消按钮（按主机操作系统顺序）。
 
 要获得取消操作，你可以使用
 

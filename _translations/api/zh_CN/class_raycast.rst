@@ -24,7 +24,7 @@ RayCast 可以配置为报告与 :ref:`Area<class_Area>`\ (:ref:`collide_with_ar
 
 只有启用的光线投射才能检测空间并报告碰撞。
 
-RayCast 计算每个物理帧的交集（参阅 :ref:`Node<class_Node>`），并将结果缓存起来，以便稍后使用，直到下一帧。如果物理帧之间（或同一帧期间）需要多次检测，请在调整光线投射后使用:ref:`force_raycast_update<class_RayCast_method_force_raycast_update>`。
+RayCast 计算每个物理帧的交集（参阅 :ref:`Node<class_Node>`），并将结果缓存起来，以便稍后使用，直到下一帧。如果物理帧之间（或同一帧期间）需要多次检测，请在调整光线投射后使用\ :ref:`force_raycast_update<class_RayCast_method_force_raycast_update>`。
 
 Tutorials
 ---------
@@ -164,7 +164,7 @@ The ray's collision mask. Only objects in at least one collision layer enabled i
 
 如果在 **Debug** 菜单中启用了可见碰撞形状 **Visible Collision Shapes**，则可用于在编辑器中和运行时绘制形状的自定义颜色。如果 ``RayCast`` 与某物体发生碰撞，此颜色将在运行时突出显示。
 
-如果设置为 ``Color(0.0, 0.0, 0.0)``（默认），则使用 :ref:`ProjectSettings.debug/shapes/collision/shape_color<class_ProjectSettings_property_debug/shapes/collision/shape_color>` 中设置的颜色。
+如果设置为 ``Color(0.0, 0.0, 0.0)``\ （默认），则使用 :ref:`ProjectSettings.debug/shapes/collision/shape_color<class_ProjectSettings_property_debug/shapes/collision/shape_color>` 中设置的颜色。
 
 ----
 
@@ -257,7 +257,7 @@ Method Descriptions
 
 - :ref:`Object<class_Object>` **get_collider** **(** **)** |const|
 
-返回射线相交的第一个对象，如果没有对象与射线相交，则返回 ``null``（即 :ref:`is_colliding<class_RayCast_method_is_colliding>` 返回 ``false``）。
+返回射线相交的第一个对象，如果没有对象与射线相交，则返回 ``null``\ （即 :ref:`is_colliding<class_RayCast_method_is_colliding>` 返回 ``false``）。
 
 ----
 
@@ -265,7 +265,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_collider_shape** **(** **)** |const|
 
-返回射线相交的第一个对象的形状 ID，如果没有对象与射线相交，则返回 ``0``（即 :ref:`is_colliding<class_RayCast_method_is_colliding>` 返回 ``false``）。
+返回射线相交的第一个对象的形状 ID，如果没有对象与射线相交，则返回 ``0``\ （即 :ref:`is_colliding<class_RayCast_method_is_colliding>` 返回 ``false``）。
 
 ----
 
@@ -273,7 +273,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **get_collision_mask_bit** **(** :ref:`int<class_int>` bit **)** |const|
 
-如果通过的位索引被打开，则返回``true``。
+如果通过的位索引被打开，则返回\ ``true``。
 
 **注意：** 位指数范围为0-19。
 
@@ -293,7 +293,7 @@ Method Descriptions
 
 返回射线与最近的物体相交的碰撞点。
 
-**注意：**这个点是在**全局**坐标系中。
+**注意：**\ 这个点是在\ **全局**\ 坐标系中。
 
 ----
 
@@ -325,7 +325,7 @@ Method Descriptions
 
 - void **set_collision_mask_bit** **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**
 
-将传递的位索引设置为传递的``值``。
+将传递的位索引设置为传递的\ ``值``。
 
 **注意：** 位索引的范围是0-19。
 

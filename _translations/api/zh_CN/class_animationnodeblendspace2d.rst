@@ -11,7 +11,7 @@ AnimationNodeBlendSpace2D
 
 **Inherits:** :ref:`AnimationRootNode<class_AnimationRootNode>` **<** :ref:`AnimationNode<class_AnimationNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
 
-在二维空间中放置的三个任意类型的:ref:`AnimationNode<class_AnimationNode>`\ 之间线性融合。
+在二维空间中放置的三个任意类型的\ :ref:`AnimationNode<class_AnimationNode>`\ 之间线性融合。
 
 Description
 -----------
@@ -99,7 +99,7 @@ enum **BlendMode**:
 
 - **BLEND_MODE_DISCRETE** = **1** --- 混合空间播放混合位置最接近的节点的动画。对逐帧的2D动画很有用。
 
-- **BLEND_MODE_DISCRETE_CARRY** = **2** --- 类似于:ref:`BLEND_MODE_DISCRETE<class_AnimationNodeBlendSpace2D_constant_BLEND_MODE_DISCRETE>`，但在最后一个动画的播放位置开始新的动画。
+- **BLEND_MODE_DISCRETE_CARRY** = **2** --- 类似于\ :ref:`BLEND_MODE_DISCRETE<class_AnimationNodeBlendSpace2D_constant_BLEND_MODE_DISCRETE>`，但在最后一个动画的播放位置开始新的动画。
 
 Property Descriptions
 ---------------------
@@ -245,7 +245,7 @@ Method Descriptions
 
 - :ref:`AnimationRootNode<class_AnimationRootNode>` **get_blend_point_node** **(** :ref:`int<class_int>` point **)** |const|
 
-返回索引``point``\ 处的点所引用的:ref:`AnimationRootNode<class_AnimationRootNode>`。
+返回索引\ ``point``\ 处的点所引用的\ :ref:`AnimationRootNode<class_AnimationRootNode>`。
 
 ----
 
@@ -253,7 +253,7 @@ Method Descriptions
 
 - :ref:`Vector2<class_Vector2>` **get_blend_point_position** **(** :ref:`int<class_int>` point **)** |const|
 
-返回索引``point``\ 处的点的位置。
+返回索引\ ``point``\ 处的点的位置。
 
 ----
 
@@ -269,7 +269,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_triangle_point** **(** :ref:`int<class_int>` triangle, :ref:`int<class_int>` point **)**
 
-返回索引``point``\ 处的点在索引``triangle``\ 的三角形中的位置。
+返回索引\ ``point``\ 处的点在索引\ ``triangle``\ 的三角形中的位置。
 
 ----
 
@@ -277,7 +277,7 @@ Method Descriptions
 
 - void **remove_blend_point** **(** :ref:`int<class_int>` point **)**
 
-从混合空间中删除索引``point``\ 处的点。
+从混合空间中删除索引\ ``point``\ 处的点。
 
 ----
 
@@ -285,7 +285,7 @@ Method Descriptions
 
 - void **remove_triangle** **(** :ref:`int<class_int>` triangle **)**
 
-从混合空间中删除索引``triangle``\ 处的三角形。
+从混合空间中删除索引\ ``triangle``\ 处的三角形。
 
 ----
 
@@ -293,7 +293,7 @@ Method Descriptions
 
 - void **set_blend_point_node** **(** :ref:`int<class_int>` point, :ref:`AnimationRootNode<class_AnimationRootNode>` node **)**
 
-改变索引``point``\ 处的点所引用的:ref:`AnimationNode<class_AnimationNode>`。
+改变索引\ ``point``\ 处的点所引用的\ :ref:`AnimationNode<class_AnimationNode>`。
 
 ----
 
@@ -301,7 +301,7 @@ Method Descriptions
 
 - void **set_blend_point_position** **(** :ref:`int<class_int>` point, :ref:`Vector2<class_Vector2>` pos **)**
 
-更新混合轴上索引``point``\ 处的点的位置。
+更新混合轴上索引\ ``point``\ 处的点的位置。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

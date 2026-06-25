@@ -96,7 +96,7 @@ Property Descriptions
 | *Getter*  | is_active()       |
 +-----------+-------------------+
 
-如果``true``，则源是激活的。
+如果\ ``true``，则源是激活的。
 
 ----
 

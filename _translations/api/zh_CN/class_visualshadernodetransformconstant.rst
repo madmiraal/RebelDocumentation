@@ -11,12 +11,12 @@ VisualShaderNodeTransformConstant
 
 **Inherits:** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
 
-一个:ref:`Transform<class_Transform>`\ 常量，在可视化着色器图中使用。
+一个\ :ref:`Transform<class_Transform>`\ 常量，在可视化着色器图中使用。
 
 Description
 -----------
 
-一个常量:ref:`Transform<class_Transform>`，可以作为一个输入节点使用。
+一个常量\ :ref:`Transform<class_Transform>`，可以作为一个输入节点使用。
 
 Properties
 ----------
@@ -40,7 +40,7 @@ Property Descriptions
 | *Getter*  | get_constant()                                      |
 +-----------+-----------------------------------------------------+
 
-一个:ref:`Transform<class_Transform>`\ 常量，表示这个节点的状态。
+一个\ :ref:`Transform<class_Transform>`\ 常量，表示这个节点的状态。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

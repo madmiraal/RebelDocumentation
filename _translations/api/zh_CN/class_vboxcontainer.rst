@@ -18,7 +18,7 @@ VBoxContainer
 Description
 -----------
 
-垂直盒式容器。参阅:ref:`BoxContainer<class_BoxContainer>`。
+垂直盒式容器。参阅\ :ref:`BoxContainer<class_BoxContainer>`。
 
 Theme Properties
 ----------------

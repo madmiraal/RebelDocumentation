@@ -16,7 +16,7 @@ VisualScriptReturn
 Description
 -----------
 
-结束一个函数的执行并将控制权返回给调用函数。可选，它可以返回一个:ref:`Variant<class_Variant>`\ 值。
+结束一个函数的执行并将控制权返回给调用函数。可选，它可以返回一个\ :ref:`Variant<class_Variant>`\ 值。
 
 **Input Ports:**
 
@@ -52,7 +52,7 @@ Property Descriptions
 | *Getter*  | is_return_value_enabled()      |
 +-----------+--------------------------------+
 
-如果``true``，则``return``\ 输入端口可用。
+如果\ ``true``，则\ ``return``\ 输入端口可用。
 
 ----
 

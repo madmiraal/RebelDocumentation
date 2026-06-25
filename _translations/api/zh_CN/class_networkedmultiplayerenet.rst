@@ -11,7 +11,7 @@ NetworkedMultiplayerENet
 
 **Inherits:** :ref:`NetworkedMultiplayerPeer<class_NetworkedMultiplayerPeer>` **<** :ref:`PacketPeer<class_PacketPeer>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
 
-使用`ENet <http://enet.bespin.org/index.html>`__库实现PacketPeer。
+使用\ `ENet <http://enet.bespin.org/index.html>`__\ 库实现PacketPeer。
 
 Description
 -----------
@@ -106,9 +106,9 @@ enum **CompressionMode**:
 
 - **COMPRESS_FASTLZ** = **2** --- `FastLZ <http://fastlz.org/>`__ 压缩。与 :ref:`COMPRESS_ZLIB<class_NetworkedMultiplayerENet_constant_COMPRESS_ZLIB>` 相比，该选项使用的 CPU 资源更少，但使用的带宽更多。
 
-- **COMPRESS_ZLIB** = **3** --- `Zlib <https://www.zlib.net/>`__压缩。与 :ref:`COMPRESS_FASTLZ<class_NetworkedMultiplayerENet_constant_COMPRESS_FASTLZ>` 相比，这个选项使用较少的带宽，但代价是使用更多的 CPU 资源。请注意，这种算法对小于4KB的数据包不是很有效。因此，建议在大多数情况下使用其他压缩算法。
+- **COMPRESS_ZLIB** = **3** --- `Zlib <https://www.zlib.net/>`__\ 压缩。与 :ref:`COMPRESS_FASTLZ<class_NetworkedMultiplayerENet_constant_COMPRESS_FASTLZ>` 相比，这个选项使用较少的带宽，但代价是使用更多的 CPU 资源。请注意，这种算法对小于4KB的数据包不是很有效。因此，建议在大多数情况下使用其他压缩算法。
 
-- **COMPRESS_ZSTD** = **4** --- `Zstandard <https://facebook.github.io/zstd/>`__压缩。
+- **COMPRESS_ZSTD** = **4** --- `Zstandard <https://facebook.github.io/zstd/>`__\ 压缩。
 
 Property Descriptions
 ---------------------
@@ -195,7 +195,7 @@ The compression method used for network packets. These have different tradeoffs 
 | *Getter*  | is_dtls_verify_enabled()       |
 +-----------+--------------------------------+
 
-当:ref:`use_dtls<class_NetworkedMultiplayerENet_property_use_dtls>` ``true``\ 时启用或禁用证书验证。
+当\ :ref:`use_dtls<class_NetworkedMultiplayerENet_property_use_dtls>` ``true``\ 时启用或禁用证书验证。
 
 ----
 
@@ -211,7 +211,7 @@ The compression method used for network packets. These have different tradeoffs 
 | *Getter*  | is_server_relay_enabled()       |
 +-----------+---------------------------------+
 
-启用或禁用服务器特性，该特性通知客户端其他对等体的连接/断开，并在它们之间转发消息。当此选项为``false``\ 时，客户端将不会自动收到其他对等体的通知，也无法通过服务器向他们发送数据包。
+启用或禁用服务器特性，该特性通知客户端其他对等体的连接/断开，并在它们之间转发消息。当此选项为\ ``false``\ 时，客户端将不会自动收到其他对等体的通知，也无法通过服务器向他们发送数据包。
 
 ----
 
@@ -227,7 +227,7 @@ The compression method used for network packets. These have different tradeoffs 
 | *Getter*  | get_transfer_channel()      |
 +-----------+-----------------------------+
 
-设置用于传输数据的默认通道。缺省情况下，该值为``-1``，表示ENet只使用2个通道:一个用于可靠报文，一个用于不可靠报文。通道``0``\ 被保留，不能使用。将该成员设置为``0``\ 和:ref:`channel_count<class_NetworkedMultiplayerENet_property_channel_count>`\ (不包括)之间的任何值将强制ENet使用该通道发送数据。有关ENet通道的更多信息，请参阅:ref:`channel_count<class_NetworkedMultiplayerENet_property_channel_count>`。
+设置用于传输数据的默认通道。缺省情况下，该值为\ ``-1``，表示ENet只使用2个通道:一个用于可靠报文，一个用于不可靠报文。通道\ ``0``\ 被保留，不能使用。将该成员设置为\ ``0``\ 和\ :ref:`channel_count<class_NetworkedMultiplayerENet_property_channel_count>`\ (不包括)之间的任何值将强制ENet使用该通道发送数据。有关ENet通道的更多信息，请参阅\ :ref:`channel_count<class_NetworkedMultiplayerENet_property_channel_count>`。
 
 ----
 
@@ -243,9 +243,9 @@ The compression method used for network packets. These have different tradeoffs 
 | *Getter*  | is_dtls_enabled()       |
 +-----------+-------------------------+
 
-启用后，由该对等体创建的客户端或服务器将使用:ref:`PacketPeerDTLS<class_PacketPeerDTLS>`，而不是原始UDP套接字与远程对等体进行通信。通信使用DTLS加密，代价是更高的资源占用和可能更大的数据包。
+启用后，由该对等体创建的客户端或服务器将使用\ :ref:`PacketPeerDTLS<class_PacketPeerDTLS>`，而不是原始UDP套接字与远程对等体进行通信。通信使用DTLS加密，代价是更高的资源占用和可能更大的数据包。
 
-**注意：** 当创建DTLS服务器时，确保用:ref:`set_dtls_key<class_NetworkedMultiplayerENet_method_set_dtls_key>`\ 和:ref:`set_dtls_certificate<class_NetworkedMultiplayerENet_method_set_dtls_certificate>`\ 设置密钥/证书对。对于DTLS客户端，查看:ref:`dtls_verify<class_NetworkedMultiplayerENet_property_dtls_verify>`\ 选项，用:ref:`set_dtls_certificate<class_NetworkedMultiplayerENet_method_set_dtls_certificate>`\ 配置相应的证书。
+**注意：** 当创建DTLS服务器时，确保用\ :ref:`set_dtls_key<class_NetworkedMultiplayerENet_method_set_dtls_key>`\ 和\ :ref:`set_dtls_certificate<class_NetworkedMultiplayerENet_method_set_dtls_certificate>`\ 设置密钥/证书对。对于DTLS客户端，查看\ :ref:`dtls_verify<class_NetworkedMultiplayerENet_property_dtls_verify>`\ 选项，用\ :ref:`set_dtls_certificate<class_NetworkedMultiplayerENet_method_set_dtls_certificate>`\ 配置相应的证书。
 
 Method Descriptions
 -------------------
@@ -262,7 +262,7 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **create_client** **(** :ref:`String<class_String>` address, :ref:`int<class_int>` port, :ref:`int<class_int>` in_bandwidth=0, :ref:`int<class_int>` out_bandwidth=0, :ref:`int<class_int>` client_port=0 **)**
 
-创建客户端，使用指定的``端口``\ 连接到``地址``\ 的服务器上。给定的地址需要是一个完全合格的域名（例如，``"www.example.com"``）或一个IPv4或IPv6格式的IP地址（例如，``"192.168.1.1"``）。``port``\ 是服务器所监听的端口。``in_bandwidth``\ 和``out_bandwidth``\ 参数可用于将传入和传出的带宽限制在给定的字节数/秒。默认的0意味着无限的带宽。请注意，ENet会在对等体之间连接的特定一侧战略性地丢弃数据包，以确保对等体的带宽不被淹没。带宽参数也决定了连接的窗口大小，它限制了在任何给定时间内可能正在传输的可靠数据包的数量。如果创建了一个客户端，返回:ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`；如果这个NetworkedMultiplayerENet实例已经有一个开放的连接（在这种情况下，你需要先调用:ref:`close_connection<class_NetworkedMultiplayerENet_method_close_connection>`），返回:ref:`@GlobalScope.ERR_CANT_CREATE<class_@GlobalScope_constant_ERR_CANT_CREATE>`；如果不能创建客户端，返回:ref:`@GlobalScope.ERR_CANT_CREATE<class_@GlobalScope_constant_ERR_CANT_CREATE>`。如果指定了``client_port``，客户端也将监听给定的端口；这对一些NAT穿越技术很有用。
+创建客户端，使用指定的\ ``端口``\ 连接到\ ``地址``\ 的服务器上。给定的地址需要是一个完全合格的域名（例如，``"www.example.com"``）或一个IPv4或IPv6格式的IP地址（例如，``"192.168.1.1"``）。``port``\ 是服务器所监听的端口。``in_bandwidth``\ 和\ ``out_bandwidth``\ 参数可用于将传入和传出的带宽限制在给定的字节数/秒。默认的0意味着无限的带宽。请注意，ENet会在对等体之间连接的特定一侧战略性地丢弃数据包，以确保对等体的带宽不被淹没。带宽参数也决定了连接的窗口大小，它限制了在任何给定时间内可能正在传输的可靠数据包的数量。如果创建了一个客户端，返回\ :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`；如果这个NetworkedMultiplayerENet实例已经有一个开放的连接（在这种情况下，你需要先调用\ :ref:`close_connection<class_NetworkedMultiplayerENet_method_close_connection>`），返回\ :ref:`@GlobalScope.ERR_CANT_CREATE<class_@GlobalScope_constant_ERR_CANT_CREATE>`；如果不能创建客户端，返回\ :ref:`@GlobalScope.ERR_CANT_CREATE<class_@GlobalScope_constant_ERR_CANT_CREATE>`。如果指定了\ ``client_port``，客户端也将监听给定的端口；这对一些NAT穿越技术很有用。
 
 ----
 
@@ -270,7 +270,7 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **create_server** **(** :ref:`int<class_int>` port, :ref:`int<class_int>` max_clients=32, :ref:`int<class_int>` in_bandwidth=0, :ref:`int<class_int>` out_bandwidth=0 **)**
 
-创建服务器，通过``port``\ 监听连接。该端口需要是一个可用的、未使用的端口，在0到65535之间。注意，低于1024的端口是特权端口，根据平台的不同可能需要提高权限。要改变服务器监听的接口，请使用:ref:`set_bind_ip<class_NetworkedMultiplayerENet_method_set_bind_ip>`。默认IP是通配符``"*"``，它监听所有可用的接口。``max_clients``\ 是允许同时进行的最大客户数，可以使用任何数字，最高可达4095，尽管可实现的同时进行的客户数可能要低得多，并且取决于应用。关于带宽参数的其他细节，见:ref:`create_client<class_NetworkedMultiplayerENet_method_create_client>`。如果服务器被创建，返回:ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`；如果这个NetworkedMultiplayerENet实例已经有一个开放的连接（在这种情况下，你需要先调用:ref:`close_connection<class_NetworkedMultiplayerENet_method_close_connection>`），返回:ref:`@GlobalScope.ERR_CANT_CREATE<class_@GlobalScope_constant_ERR_CANT_CREATE>`；如果服务器不能被创建，返回:ref:`@GlobalScope.ERR_CANT_CREATE<class_@GlobalScope_constant_ERR_CANT_CREATE>`。
+创建服务器，通过\ ``port``\ 监听连接。该端口需要是一个可用的、未使用的端口，在0到65535之间。注意，低于1024的端口是特权端口，根据平台的不同可能需要提高权限。要改变服务器监听的接口，请使用\ :ref:`set_bind_ip<class_NetworkedMultiplayerENet_method_set_bind_ip>`。默认IP是通配符\ ``"*"``，它监听所有可用的接口。``max_clients``\ 是允许同时进行的最大客户数，可以使用任何数字，最高可达4095，尽管可实现的同时进行的客户数可能要低得多，并且取决于应用。关于带宽参数的其他细节，见\ :ref:`create_client<class_NetworkedMultiplayerENet_method_create_client>`。如果服务器被创建，返回\ :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`；如果这个NetworkedMultiplayerENet实例已经有一个开放的连接（在这种情况下，你需要先调用\ :ref:`close_connection<class_NetworkedMultiplayerENet_method_close_connection>`），返回\ :ref:`@GlobalScope.ERR_CANT_CREATE<class_@GlobalScope_constant_ERR_CANT_CREATE>`；如果服务器不能被创建，返回\ :ref:`@GlobalScope.ERR_CANT_CREATE<class_@GlobalScope_constant_ERR_CANT_CREATE>`。
 
 ----
 
@@ -278,7 +278,7 @@ Method Descriptions
 
 - void **disconnect_peer** **(** :ref:`int<class_int>` id, :ref:`bool<class_bool>` now=false **)**
 
-断开给定对等体的连接。如果 "now "被设置为``true``，连接将被立即关闭而不冲刷队列中的消息。
+断开给定对等体的连接。如果 "now "被设置为\ ``true``，连接将被立即关闭而不冲刷队列中的消息。
 
 ----
 
@@ -286,7 +286,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_last_packet_channel** **(** **)** |const|
 
-返回通过:ref:`PacketPeer.get_packet<class_PacketPeer_method_get_packet>`\ 获取的最后一个包的Channel。
+返回通过\ :ref:`PacketPeer.get_packet<class_PacketPeer_method_get_packet>`\ 获取的最后一个包的Channel。
 
 ----
 
@@ -294,7 +294,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_packet_channel** **(** **)** |const|
 
-返回将通过:ref:`PacketPeer.get_packet<class_PacketPeer_method_get_packet>`\ 获取的下一个数据包的Channel。
+返回将通过\ :ref:`PacketPeer.get_packet<class_PacketPeer_method_get_packet>`\ 获取的下一个数据包的Channel。
 
 ----
 
@@ -318,7 +318,7 @@ Method Descriptions
 
 - void **set_bind_ip** **(** :ref:`String<class_String>` ip **)**
 
-创建服务器时使用的IP。默认情况下，这被设置为通配符``"*"``，它绑定到所有可用的接口。IP地址格式为IPv4或IPv6，例如:``"192.168.1.1"``。
+创建服务器时使用的IP。默认情况下，这被设置为通配符\ ``"*"``，它绑定到所有可用的接口。IP地址格式为IPv4或IPv6，例如:``"192.168.1.1"``。
 
 ----
 
@@ -326,7 +326,7 @@ Method Descriptions
 
 - void **set_dtls_certificate** **(** :ref:`X509Certificate<class_X509Certificate>` certificate **)**
 
-当:ref:`use_dtls<class_NetworkedMultiplayerENet_property_use_dtls>`\ 为``true``\ 时，配置:ref:`X509Certificate<class_X509Certificate>`\ 使用。对于服务器，您还必须通过:ref:`set_dtls_key<class_NetworkedMultiplayerENet_method_set_dtls_key>`\ 设置:ref:`CryptoKey<class_CryptoKey>`。
+当\ :ref:`use_dtls<class_NetworkedMultiplayerENet_property_use_dtls>`\ 为\ ``true``\ 时，配置\ :ref:`X509Certificate<class_X509Certificate>`\ 使用。对于服务器，您还必须通过\ :ref:`set_dtls_key<class_NetworkedMultiplayerENet_method_set_dtls_key>`\ 设置\ :ref:`CryptoKey<class_CryptoKey>`。
 
 ----
 
@@ -334,7 +334,7 @@ Method Descriptions
 
 - void **set_dtls_key** **(** :ref:`CryptoKey<class_CryptoKey>` key **)**
 
-当:ref:`use_dtls<class_NetworkedMultiplayerENet_property_use_dtls>`\ 为``true``\ 时，配置:ref:`CryptoKey<class_CryptoKey>`\ 来使用。记住也要调用:ref:`set_dtls_certificate<class_NetworkedMultiplayerENet_method_set_dtls_certificate>`\ 来设置:ref:`X509Certificate<class_X509Certificate>`。
+当\ :ref:`use_dtls<class_NetworkedMultiplayerENet_property_use_dtls>`\ 为\ ``true``\ 时，配置\ :ref:`CryptoKey<class_CryptoKey>`\ 来使用。记住也要调用\ :ref:`set_dtls_certificate<class_NetworkedMultiplayerENet_method_set_dtls_certificate>`\ 来设置\ :ref:`X509Certificate<class_X509Certificate>`。
 
 ----
 

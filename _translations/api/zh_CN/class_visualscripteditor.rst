@@ -38,7 +38,7 @@ Method Descriptions
 
 - void **add_custom_node** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` category, :ref:`Script<class_Script>` script **)**
 
-在编辑器中添加自定义可视化脚本节点。它放在 "自定义节点" 下，以``category``\ 作为参数。
+在编辑器中添加自定义可视化脚本节点。它放在 "自定义节点" 下，以\ ``category``\ 作为参数。
 
 ----
 

@@ -201,7 +201,7 @@ Property Descriptions
 | *Default* | ``0.0`` |
 +-----------+---------+
 
-向量的Z分量。也可以通过使用索引位置``[2]``\ 访问。
+向量的Z分量。也可以通过使用索引位置\ ``[2]``\ 访问。
 
 Method Descriptions
 -------------------
@@ -258,7 +258,7 @@ Method Descriptions
 
 - :ref:`Vector3<class_Vector3>` **cubic_interpolate** **(** :ref:`Vector3<class_Vector3>` b, :ref:`Vector3<class_Vector3>` pre_a, :ref:`Vector3<class_Vector3>` post_b, :ref:`float<class_float>` weight **)**
 
-在向量``pre_a``, ``a``, ``b``, ``post_b``（``a``\ 是当前的）之间，通过给定的量``weight``\ 进行三次插值。``weight``\ 的范围是0.0到1.0，表示插值的数量。
+在向量\ ``pre_a``, ``a``, ``b``, ``post_b``\ （``a``\ 是当前的）之间，通过给定的量\ ``weight``\ 进行三次插值。``weight``\ 的范围是0.0到1.0，表示插值的数量。
 
 ----
 
@@ -266,7 +266,7 @@ Method Descriptions
 
 - :ref:`Vector3<class_Vector3>` **direction_to** **(** :ref:`Vector3<class_Vector3>` b **)**
 
-返回从这个向量指向``b``\ 的归一化向量。这相当于使用``(b-a).normalized()``。
+返回从这个向量指向\ ``b``\ 的归一化向量。这相当于使用\ ``(b-a).normalized()``。
 
 ----
 
@@ -274,9 +274,9 @@ Method Descriptions
 
 - :ref:`float<class_float>` **distance_squared_to** **(** :ref:`Vector3<class_Vector3>` b **)**
 
-返回这个向量与``b``\ 之间的平方距离。
+返回这个向量与\ ``b``\ 之间的平方距离。
 
-这个方法比:ref:`distance_to<class_Vector3_method_distance_to>`\ 运行得更快，所以如果你需要比较向量或需要一些公式的平方距离，则更喜欢它。
+这个方法比\ :ref:`distance_to<class_Vector3_method_distance_to>`\ 运行得更快，所以如果你需要比较向量或需要一些公式的平方距离，则更喜欢它。
 
 ----
 
@@ -284,7 +284,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **distance_to** **(** :ref:`Vector3<class_Vector3>` b **)**
 
-返回此向量与``b``\ 之间的距离。
+返回此向量与\ ``b``\ 之间的距离。
 
 ----
 
@@ -292,13 +292,13 @@ Method Descriptions
 
 - :ref:`float<class_float>` **dot** **(** :ref:`Vector3<class_Vector3>` b **)**
 
-返回此向量与``b``\ 的点积。这可以用来比较两个向量之间的角度。例如，这可以用来确定一个敌人是否正面对玩家。
+返回此向量与\ ``b``\ 的点积。这可以用来比较两个向量之间的角度。例如，这可以用来确定一个敌人是否正面对玩家。
 
-对于直角90度，点积将是``0``，对于窄于90度的角度，点积大于0，对于宽于90度的角度，点积小于0。
+对于直角90度，点积将是\ ``0``，对于窄于90度的角度，点积大于0，对于宽于90度的角度，点积小于0。
 
-当使用归一化单位向量，向量朝向相反方向时，结果总是在``-1.0``（180度角）和``1.0``（0度角）之间，当向量对齐。
+当使用归一化单位向量，向量朝向相反方向时，结果总是在\ ``-1.0``\ （180度角）和\ ``1.0``\ （0度角）之间，当向量对齐。
 
-**注意：**``a.dot(b)``\ 等同于``b.dot(a)``。
+**注意：**\ ``a.dot(b)``\ 等同于\ ``b.dot(a)``。
 
 ----
 
@@ -314,7 +314,7 @@ Method Descriptions
 
 - :ref:`Vector3<class_Vector3>` **inverse** **(** **)**
 
-返回向量的反值。这与``Vector3( 1.0 / v.x, 1.0 / v.y, 1.0 / v.z )``\ 相同。
+返回向量的反值。这与\ ``Vector3( 1.0 / v.x, 1.0 / v.y, 1.0 / v.z )``\ 相同。
 
 ----
 
@@ -322,7 +322,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_equal_approx** **(** :ref:`Vector3<class_Vector3>` v **)**
 
-通过对每个分量运行:ref:`@GDScript.is_equal_approx<class_@GDScript_method_is_equal_approx>`，如果这个向量和``v``\ 近似相等，返回``true``。
+通过对每个分量运行\ :ref:`@GDScript.is_equal_approx<class_@GDScript_method_is_equal_approx>`，如果这个向量和\ ``v``\ 近似相等，返回\ ``true``。
 
 ----
 
@@ -330,7 +330,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_normalized** **(** **)**
 
-如果向量被归一化，返回``true``，否则返回``false``。
+如果向量被归一化，返回\ ``true``，否则返回\ ``false``。
 
 ----
 
@@ -348,7 +348,7 @@ Method Descriptions
 
 返回这个向量的平方长度，即平方大小。
 
-这个方法比:ref:`length<class_Vector3_method_length>`\ 运行得更快，所以如果你需要比较向量或需要一些公式的平方距离时，更喜欢用它。
+这个方法比\ :ref:`length<class_Vector3_method_length>`\ 运行得更快，所以如果你需要比较向量或需要一些公式的平方距离时，更喜欢用它。
 
 ----
 
@@ -356,7 +356,7 @@ Method Descriptions
 
 - :ref:`Vector3<class_Vector3>` **linear_interpolate** **(** :ref:`Vector3<class_Vector3>` to, :ref:`float<class_float>` weight **)**
 
-返回这个向量与``to``\ 之间的线性插值的结果，插值量为``t``。``weight``\ 的范围是0.0到1.0，表示插值的数量。
+返回这个向量与\ ``to``\ 之间的线性插值的结果，插值量为\ ``t``。``weight``\ 的范围是0.0到1.0，表示插值的数量。
 
 ----
 
@@ -364,7 +364,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **max_axis** **(** **)**
 
-返回向量的最大值的轴。参阅``AXIS_*``\ 常量。如果所有分量都相等，该方法返回:ref:`AXIS_X<class_Vector3_constant_AXIS_X>`。
+返回向量的最大值的轴。参阅\ ``AXIS_*``\ 常量。如果所有分量都相等，该方法返回\ :ref:`AXIS_X<class_Vector3_constant_AXIS_X>`。
 
 ----
 
@@ -372,7 +372,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **min_axis** **(** **)**
 
-返回矢量的最小值的轴。参阅``AXIS_*``\ 常量。如果所有分量都相等，本方法返回:ref:`AXIS_Z<class_Vector3_constant_AXIS_Z>`。
+返回矢量的最小值的轴。参阅\ ``AXIS_*``\ 常量。如果所有分量都相等，本方法返回\ :ref:`AXIS_Z<class_Vector3_constant_AXIS_Z>`。
 
 ----
 
@@ -380,7 +380,7 @@ Method Descriptions
 
 - :ref:`Vector3<class_Vector3>` **move_toward** **(** :ref:`Vector3<class_Vector3>` to, :ref:`float<class_float>` delta **)**
 
-将此向量向``to``\ 移动，以固定``delta``\ 量。
+将此向量向\ ``to``\ 移动，以固定\ ``delta``\ 量。
 
 ----
 
@@ -388,7 +388,7 @@ Method Descriptions
 
 - :ref:`Vector3<class_Vector3>` **normalized** **(** **)**
 
-返回缩放为单位长度的向量。相当于``v/v.length()``。
+返回缩放为单位长度的向量。相当于\ ``v/v.length()``。
 
 ----
 
@@ -404,7 +404,7 @@ Method Descriptions
 
 - :ref:`Vector3<class_Vector3>` **posmod** **(** :ref:`float<class_float>` mod **)**
 
-返回一个由这个向量分量的:ref:`@GDScript.fposmod<class_@GDScript_method_fposmod>`\ 和``mod``\ 组成的向量。
+返回一个由这个向量分量的\ :ref:`@GDScript.fposmod<class_@GDScript_method_fposmod>`\ 和\ ``mod``\ 组成的向量。
 
 ----
 
@@ -412,7 +412,7 @@ Method Descriptions
 
 - :ref:`Vector3<class_Vector3>` **posmodv** **(** :ref:`Vector3<class_Vector3>` modv **)**
 
-返回一个由这个向量的``modv``\ 分量和:ref:`@GDScript.fposmod<class_@GDScript_method_fposmod>`\ 分量组成的向量。
+返回一个由这个向量的\ ``modv``\ 分量和\ :ref:`@GDScript.fposmod<class_@GDScript_method_fposmod>`\ 分量组成的向量。
 
 ----
 
@@ -420,7 +420,7 @@ Method Descriptions
 
 - :ref:`Vector3<class_Vector3>` **project** **(** :ref:`Vector3<class_Vector3>` b **)**
 
-返回这个向量投射到另一个向量``b``\ 上的结果。
+返回这个向量投射到另一个向量\ ``b``\ 上的结果。
 
 ----
 
@@ -436,7 +436,7 @@ Method Descriptions
 
 - :ref:`Vector3<class_Vector3>` **rotated** **(** :ref:`Vector3<class_Vector3>` axis, :ref:`float<class_float>` phi **)**
 
-将此向量绕给定的轴旋转``phi``\ 弧度。该轴必须是归一化的矢量。
+将此向量绕给定的轴旋转\ ``phi``\ 弧度。该轴必须是归一化的矢量。
 
 ----
 
@@ -460,7 +460,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **signed_angle_to** **(** :ref:`Vector3<class_Vector3>` to, :ref:`Vector3<class_Vector3>` axis **)**
 
-返回给定向量的带符号的角度，单位是弧度。当从``axis``\ 指定的一侧看，该角度的符号在逆时针方向是正的，在顺时针方向是负的。
+返回给定向量的带符号的角度，单位是弧度。当从\ ``axis``\ 指定的一侧看，该角度的符号在逆时针方向是正的，在顺时针方向是负的。
 
 ----
 
@@ -468,9 +468,9 @@ Method Descriptions
 
 - :ref:`Vector3<class_Vector3>` **slerp** **(** :ref:`Vector3<class_Vector3>` to, :ref:`float<class_float>` weight **)**
 
-返回这个向量与``to``\ 之间的球面线性插值的结果，按``weight``\ 的数量。``weight``\ 的范围是0.0到1.0，表示插值的数量。
+返回这个向量与\ ``to``\ 之间的球面线性插值的结果，按\ ``weight``\ 的数量。``weight``\ 的范围是0.0到1.0，表示插值的数量。
 
-**注意：**两个向量都必须被归一化。
+**注意：**\ 两个向量都必须被归一化。
 
 ----
 
@@ -486,7 +486,7 @@ Method Descriptions
 
 - :ref:`Vector3<class_Vector3>` **snapped** **(** :ref:`Vector3<class_Vector3>` by **)**
 
-返回这个向量，每个分量都捕捉到``step``\ 的最近倍数。这也可以用来四舍五入到任意数量的小数。
+返回这个向量，每个分量都捕捉到\ ``step``\ 的最近倍数。这也可以用来四舍五入到任意数量的小数。
 
 ----
 

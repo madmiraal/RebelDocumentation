@@ -104,7 +104,7 @@ Property Descriptions
 | *Getter*  | has_autoplay()      |
 +-----------+---------------------+
 
-如果``true``，当场景加载时开始播放。
+如果\ ``true``，当场景加载时开始播放。
 
 ----
 
@@ -152,7 +152,7 @@ Property Descriptions
 | *Getter*  | has_expand()      |
 +-----------+-------------------+
 
-如果``true``，视频会缩放到控件的尺寸。否则，控件的最小尺寸将被自动调整以匹配视频流的尺寸。
+如果\ ``true``，视频会缩放到控件的尺寸。否则，控件的最小尺寸将被自动调整以匹配视频流的尺寸。
 
 ----
 
@@ -168,7 +168,7 @@ Property Descriptions
 | *Getter*  | is_paused()       |
 +-----------+-------------------+
 
-如果``true``，则暂停视频。
+如果\ ``true``，则暂停视频。
 
 ----
 
@@ -237,7 +237,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **get_stream_name** **(** **)** |const|
 
-返回视频流的名称，如果没有指定视频流，则返回``"<No Stream>"``。
+返回视频流的名称，如果没有指定视频流，则返回\ ``"<No Stream>"``。
 
 ----
 
@@ -245,7 +245,7 @@ Method Descriptions
 
 - :ref:`Texture<class_Texture>` **get_video_texture** **(** **)** |const|
 
-将当前帧作为:ref:`Texture<class_Texture>`\ 返回。
+将当前帧作为\ :ref:`Texture<class_Texture>`\ 返回。
 
 ----
 
@@ -253,7 +253,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_playing** **(** **)** |const|
 
-如果视频正在播放，返回``true`` 。
+如果视频正在播放，返回\ ``true`` 。
 
 **注意：** 如果在播放过程中暂停，视频仍被认为在播放。
 

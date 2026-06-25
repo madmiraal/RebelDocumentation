@@ -16,13 +16,13 @@ AudioStreamPlayer3D
 Description
 -----------
 
-播放具有定向性的声音效果，如果需要，可随着距离的增加而减弱，产生空间中可听到的位置效果。为了更逼真，低通滤波器会自动应用于远处的声音。这可以通过设置:ref:`attenuation_filter_cutoff_hz<class_AudioStreamPlayer3D_property_attenuation_filter_cutoff_hz>`\ 为``20500``\ 来禁用。
+播放具有定向性的声音效果，如果需要，可随着距离的增加而减弱，产生空间中可听到的位置效果。为了更逼真，低通滤波器会自动应用于远处的声音。这可以通过设置\ :ref:`attenuation_filter_cutoff_hz<class_AudioStreamPlayer3D_property_attenuation_filter_cutoff_hz>`\ 为\ ``20500``\ 来禁用。
 
-默认情况下，音频是从相机的位置听到的，这可以通过在场景中添加一个:ref:`Listener<class_Listener>`\ 节点，并通过对其调用:ref:`Listener.make_current<class_Listener_method_make_current>`\ 来启用它，以改变。
+默认情况下，音频是从相机的位置听到的，这可以通过在场景中添加一个\ :ref:`Listener<class_Listener>`\ 节点，并通过对其调用\ :ref:`Listener.make_current<class_Listener_method_make_current>`\ 来启用它，以改变。
 
-参阅:ref:`AudioStreamPlayer<class_AudioStreamPlayer>`\ 来播放非位置的声音。
+参阅\ :ref:`AudioStreamPlayer<class_AudioStreamPlayer>`\ 来播放非位置的声音。
 
-**注意：** 隐藏一个``AudioStreamPlayer3D``\ 节点并不能禁用其音频输出。要暂时禁用``AudioStreamPlayer3D``\ 的音频输出，请将:ref:`unit_db<class_AudioStreamPlayer3D_property_unit_db>`\ 设置为一个非常低的值，如``-100``（人的听觉听不到）。
+**注意：** 隐藏一个\ ``AudioStreamPlayer3D``\ 节点并不能禁用其音频输出。要暂时禁用\ ``AudioStreamPlayer3D``\ 的音频输出，请将\ :ref:`unit_db<class_AudioStreamPlayer3D_property_unit_db>`\ 设置为一个非常低的值，如\ ``-100``\ （人的听觉听不到）。
 
 Tutorials
 ---------
@@ -264,7 +264,7 @@ Determines which :ref:`Area<class_Area>` layers affect the sound for reverb and 
 
 决定 `多普勒效应 <https://en.wikipedia.org/wiki/Doppler_effect>`__ 应该在哪一步计算。
 
-**注意：**仅当当前 :ref:`Camera<class_Camera>` 的 :ref:`Camera.doppler_tracking<class_Camera_property_doppler_tracking>` 属性设置为 :ref:`Camera.DOPPLER_TRACKING_DISABLED<class_Camera_constant_DOPPLER_TRACKING_DISABLED>` 以外的值时有效。
+**注意：**\ 仅当当前 :ref:`Camera<class_Camera>` 的 :ref:`Camera.doppler_tracking<class_Camera_property_doppler_tracking>` 属性设置为 :ref:`Camera.DOPPLER_TRACKING_DISABLED<class_Camera_constant_DOPPLER_TRACKING_DISABLED>` 以外的值时有效。
 
 ----
 
@@ -296,7 +296,7 @@ Determines which :ref:`Area<class_Area>` layers affect the sound for reverb and 
 | *Getter*  | is_emission_angle_enabled()       |
 +-----------+-----------------------------------+
 
-如果``true``，则应根据声音的方向对音频进行衰减。
+如果\ ``true``，则应根据声音的方向对音频进行衰减。
 
 ----
 
@@ -344,7 +344,7 @@ Determines which :ref:`Area<class_Area>` layers affect the sound for reverb and 
 | *Getter*  | get_max_distance()      |
 +-----------+-------------------------+
 
-设置:ref:`out_of_range_mode<class_AudioStreamPlayer3D_property_out_of_range_mode>`\ 生效的距离。设置为0时没有效果。
+设置\ :ref:`out_of_range_mode<class_AudioStreamPlayer3D_property_out_of_range_mode>`\ 生效的距离。设置为0时没有效果。
 
 ----
 
@@ -390,7 +390,7 @@ Determines which :ref:`Area<class_Area>` layers affect the sound for reverb and 
 | *Getter*  | is_playing() |
 +-----------+--------------+
 
-如果``true``，则播放音频。
+如果\ ``true``，则播放音频。
 
 ----
 
@@ -404,7 +404,7 @@ Determines which :ref:`Area<class_Area>` layers affect the sound for reverb and 
 | *Getter* | get_stream()      |
 +----------+-------------------+
 
-要播放的:ref:`AudioStream<class_AudioStream>`\ 资源。
+要播放的\ :ref:`AudioStream<class_AudioStream>`\ 资源。
 
 ----
 
@@ -420,7 +420,7 @@ Determines which :ref:`Area<class_Area>` layers affect the sound for reverb and 
 | *Getter*  | get_stream_paused()      |
 +-----------+--------------------------+
 
-如果``true``，则播放会暂停。你可以通过设置:ref:`stream_paused<class_AudioStreamPlayer3D_property_stream_paused>`\ 为``false``\ 来恢复它。
+如果\ ``true``，则播放会暂停。你可以通过设置\ :ref:`stream_paused<class_AudioStreamPlayer3D_property_stream_paused>`\ 为\ ``false``\ 来恢复它。
 
 ----
 
@@ -461,7 +461,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **get_playback_position** **(** **)**
 
-返回:ref:`AudioStream<class_AudioStream>`\ 中的位置。
+返回\ :ref:`AudioStream<class_AudioStream>`\ 中的位置。
 
 ----
 
@@ -469,7 +469,7 @@ Method Descriptions
 
 - :ref:`AudioStreamPlayback<class_AudioStreamPlayback>` **get_stream_playback** **(** **)**
 
-返回与该``AudioStreamPlayer3D``\ 相关联的:ref:`AudioStreamPlayback<class_AudioStreamPlayback>`\ 对象。
+返回与该\ ``AudioStreamPlayer3D``\ 相关联的\ :ref:`AudioStreamPlayback<class_AudioStreamPlayback>`\ 对象。
 
 ----
 
@@ -477,7 +477,7 @@ Method Descriptions
 
 - void **play** **(** :ref:`float<class_float>` from_position=0.0 **)**
 
-从给定的位置``from_position``\ 播放音频，以秒为单位。
+从给定的位置\ ``from_position``\ 播放音频，以秒为单位。
 
 ----
 

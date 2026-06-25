@@ -435,7 +435,7 @@ Returns a copy of the string with escaped characters replaced by their meanings.
 
 - :ref:`String<class_String>` **capitalize** **(** **)**
 
-更改某些字母的大小写。用空格替换下划线，在词内大写字符之前添加空格，将所有字母转换为小写，然后将第一个字母和空格字符后面的每个字母大写。对于``capitalize camelCase mixed_with_underscores``，它将返回``Capitalize Camel Case Mixed With Underscores``。
+更改某些字母的大小写。用空格替换下划线，在词内大写字符之前添加空格，将所有字母转换为小写，然后将第一个字母和空格字符后面的每个字母大写。对于\ ``capitalize camelCase mixed_with_underscores``，它将返回\ ``Capitalize Camel Case Mixed With Underscores``。
 
 ----
 
@@ -445,7 +445,7 @@ Returns a copy of the string with escaped characters replaced by their meanings.
 
 与另一个字符串进行比较，区分大小写。小于时返回 ``-1``、大于时返回 ``1``、等于时返回 ``0``。“小于”和“大于”比较的是字符串中的 `Unicode 码位 <https://zh.wikipedia.org/wiki/Unicode%E5%AD%97%E7%AC%A6%E5%88%97%E8%A1%A8>`__，大致与字母表顺序一致。
 
-**字符串长度不同时的行为：** “基准”字符串比 ``to`` 字符串长时返回 ``-1``，“基准”字符串比 ``to`` 字符串短时返回 ``-1``。请注意此处的长度为 Unicode 码位的长度，*不是*实际的可见字符。
+**字符串长度不同时的行为：** “基准”字符串比 ``to`` 字符串长时返回 ``-1``，“基准”字符串比 ``to`` 字符串短时返回 ``-1``。请注意此处的长度为 Unicode 码位的长度，*不是*\ 实际的可见字符。
 
 **存在空字符串的行为：** “基准”字符串为空时返回 ``-1``，字符串 ``to`` 为空时返回 ``1``，两者都为空时返回 ``0``。
 
@@ -465,7 +465,7 @@ Returns a copy of the string with escaped characters replaced by their meanings.
 
 - :ref:`int<class_int>` **countn** **(** :ref:`String<class_String>` what, :ref:`int<class_int>` from=0, :ref:`int<class_int>` to=0 **)**
 
-返回子串 ``what``（忽略大小写）在 ``from`` 和 ``to`` 位置之间出现的次数。如果 ``from`` 和 ``to`` 等于 0，则将使用整个字符串。如果只有 ``to`` 等于 0，则将使用剩余的子串。
+返回子串 ``what``\ （忽略大小写）在 ``from`` 和 ``to`` 位置之间出现的次数。如果 ``from`` 和 ``to`` 等于 0，则将使用整个字符串。如果只有 ``to`` 等于 0，则将使用剩余的子串。
 
 ----
 
@@ -598,7 +598,7 @@ Returns the 32-bit hash value representing the string's contents.
 
 - :ref:`int<class_int>` **hex_to_int** **(** **)**
 
-将包含十六进制数的字符串转换为整数。十六进制字符串应以“``0x``”为前缀，否则返回 ``0``。
+将包含十六进制数的字符串转换为整数。十六进制字符串应以“\ ``0x``”为前缀，否则返回 ``0``。
 
 ::
 
@@ -634,7 +634,7 @@ Unescapes (decodes) a string in URL encoded format. Also referred to as 'URL dec
 
 - :ref:`String<class_String>` **humanize_size** **(** :ref:`int<class_int>` size **)**
 
-将以字节数表示的``大小``\ 转换为人类可读的格式，使用国际化的数据大小单位集，即。B, KiB, MiB, GiB, TiB, PiB, EiB。请注意，下一个最小的单位是自动挑选的，最多可容纳1024个单位。
+将以字节数表示的\ ``大小``\ 转换为人类可读的格式，使用国际化的数据大小单位集，即。B, KiB, MiB, GiB, TiB, PiB, EiB。请注意，下一个最小的单位是自动挑选的，最多可容纳1024个单位。
 
 ::
 
@@ -771,7 +771,7 @@ Returns ``true`` if this string contains a valid integer.
 
 - :ref:`bool<class_bool>` **is_valid_ip_address** **(** **)**
 
-如果此字符串仅包含格式正确的 IPv4 或 IPv6 地址，则返回 ``true``。该方法认为`保留IP地址 <https://en.wikipedia.org/wiki/Reserved_IP_addresses>`__如``0.0.0.0``\ 是有效的。
+如果此字符串仅包含格式正确的 IPv4 或 IPv6 地址，则返回 ``true``。该方法认为\ `保留IP地址 <https://en.wikipedia.org/wiki/Reserved_IP_addresses>`__\ 如\ ``0.0.0.0``\ 是有效的。
 
 ----
 
@@ -845,11 +845,11 @@ Does a simple case-insensitive expression match, where ``"*"`` matches zero or m
 
 - :ref:`int<class_int>` **naturalnocasecmp_to** **(** :ref:`String<class_String>` to **)**
 
-与另一个字符串进行*自然顺序*比较，不区分大小写。小于时返回 ``-1``、大于时返回 ``1``、等于时返回 ``0``。“小于”和“大于”比较的是字符串中的 `Unicode 码位 <https://zh.wikipedia.org/wiki/Unicode%E5%AD%97%E7%AC%A6%E5%88%97%E8%A1%A8>`__，大致与字母表顺序一致。内部实现时，会将小写字符转换为大写后进行比较。
+与另一个字符串进行\ *自然顺序*\ 比较，不区分大小写。小于时返回 ``-1``、大于时返回 ``1``、等于时返回 ``0``。“小于”和“大于”比较的是字符串中的 `Unicode 码位 <https://zh.wikipedia.org/wiki/Unicode%E5%AD%97%E7%AC%A6%E5%88%97%E8%A1%A8>`__，大致与字母表顺序一致。内部实现时，会将小写字符转换为大写后进行比较。
 
 使用自然顺序进行排序时，对连续数字的排序符合大多数人的预期。使用自然顺序对 1 到 10 进行排序后，会得到 ``[1, 2, 3, ...]`` 而不是 ``[1, 10, 2, 3, ...]``。
 
-**字符串长度不同时的行为：** “基准”字符串比 ``to`` 字符串长时返回 ``-1``，“基准”字符串比 ``to`` 字符串短时返回 ``-1``。请注意此处的长度为 Unicode 码位的长度，*不是*实际的可见字符。
+**字符串长度不同时的行为：** “基准”字符串比 ``to`` 字符串长时返回 ``-1``，“基准”字符串比 ``to`` 字符串短时返回 ``-1``。请注意此处的长度为 Unicode 码位的长度，*不是*\ 实际的可见字符。
 
 **存在空字符串的行为：** “基准”字符串为空时返回 ``-1``，字符串 ``to`` 为空时返回 ``1``，两者都为空时返回 ``0``。
 
@@ -863,7 +863,7 @@ Does a simple case-insensitive expression match, where ``"*"`` matches zero or m
 
 与另一个字符串进行比较，不区分大小写。小于时返回 ``-1``、大于时返回 ``1``、等于时返回 ``0``。“小于”和“大于”比较的是字符串中的 `Unicode 码位 <https://zh.wikipedia.org/wiki/Unicode%E5%AD%97%E7%AC%A6%E5%88%97%E8%A1%A8>`__，大致与字母表顺序一致。内部实现时，会将小写字符转换为大写后进行比较。
 
-**字符串长度不同时的行为：** “基准”字符串比 ``to`` 字符串长时返回 ``-1``，“基准”字符串比 ``to`` 字符串短时返回 ``-1``。请注意此处的长度为 Unicode 码位的长度，*不是*实际的可见字符。
+**字符串长度不同时的行为：** “基准”字符串比 ``to`` 字符串长时返回 ``-1``，“基准”字符串比 ``to`` 字符串短时返回 ``-1``。请注意此处的长度为 Unicode 码位的长度，*不是*\ 实际的可见字符。
 
 **存在空字符串的行为：** “基准”字符串为空时返回 ``-1``，字符串 ``to`` 为空时返回 ``1``，两者都为空时返回 ``0``。
 
@@ -899,7 +899,7 @@ Does a simple case-insensitive expression match, where ``"*"`` matches zero or m
 
 - :ref:`String<class_String>` **percent_decode** **(** **)**
 
-解码一个百分比编码的字符串。参阅:ref:`percent_encode<class_String_method_percent_encode>`。
+解码一个百分比编码的字符串。参阅\ :ref:`percent_encode<class_String_method_percent_encode>`。
 
 ----
 
@@ -1114,7 +1114,7 @@ Returns a copy of the string stripped of any escape character. These include all
 
 - :ref:`PoolByteArray<class_PoolByteArray>` **to_ascii** **(** **)**
 
-将 String（字符数组）转换为 :ref:`PoolByteArray<class_PoolByteArray>`（字节数组）。与 :ref:`to_utf8<class_String_method_to_utf8>` 相比，转换速度更快，因为此方法假定 String 中的所有字符都是 ASCII 字符。
+将 String（字符数组）转换为 :ref:`PoolByteArray<class_PoolByteArray>`\ （字节数组）。与 :ref:`to_utf8<class_String_method_to_utf8>` 相比，转换速度更快，因为此方法假定 String 中的所有字符都是 ASCII 字符。
 
 ----
 
@@ -1167,7 +1167,7 @@ Converts a string containing an integer number into an ``int``. The method will 
 
 - :ref:`PoolByteArray<class_PoolByteArray>` **to_utf8** **(** **)**
 
-将字符串（字符数组）转换为 :ref:`PoolByteArray<class_PoolByteArray>`（字节数组）。转换比 :ref:`to_ascii<class_String_method_to_ascii>` 慢一点，但支持所有 UTF-8 字符。因此，您应该更喜欢这个函数而不是 :ref:`to_ascii<class_String_method_to_ascii>`。
+将字符串（字符数组）转换为 :ref:`PoolByteArray<class_PoolByteArray>`\ （字节数组）。转换比 :ref:`to_ascii<class_String_method_to_ascii>` 慢一点，但支持所有 UTF-8 字符。因此，您应该更喜欢这个函数而不是 :ref:`to_ascii<class_String_method_to_ascii>`。
 
 ----
 
@@ -1175,7 +1175,7 @@ Converts a string containing an integer number into an ``int``. The method will 
 
 - :ref:`PoolByteArray<class_PoolByteArray>` **to_wchar** **(** **)**
 
-将字符串（字符的数组）转换为 :ref:`PoolByteArray<class_PoolByteArray>`（字节的数组）。
+将字符串（字符的数组）转换为 :ref:`PoolByteArray<class_PoolByteArray>`\ （字节的数组）。
 
 ----
 

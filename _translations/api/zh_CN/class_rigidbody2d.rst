@@ -18,15 +18,15 @@ Description
 
 该节点实现了模拟的2D物理。你不能直接控制一个RigidBody2D。而是，你对它施加力（重力、冲力等），物理模拟会根据它的质量、摩擦力和其他物理属性来计算出运动结果。
 
-RigidBody2D有4种行为:ref:`mode<class_RigidBody2D_property_mode>`。刚性、静态、角色和运动。
+RigidBody2D有4种行为\ :ref:`mode<class_RigidBody2D_property_mode>`。刚性、静态、角色和运动。
 
-**注意：** 你不应该每一帧或经常改变RigidBody2D的``position``\ 或``linear_velocity``。如果需要直接影响物体的状态，请使用:ref:`_integrate_forces<class_RigidBody2D_method__integrate_forces>`，它允许你直接访问物理状态。
+**注意：** 你不应该每一帧或经常改变RigidBody2D的\ ``position``\ 或\ ``linear_velocity``。如果需要直接影响物体的状态，请使用\ :ref:`_integrate_forces<class_RigidBody2D_method__integrate_forces>`，它允许你直接访问物理状态。
 
 要记住，物理物体在自己管理变换，它会覆盖你的变换设置。所以任何直接或间接的变换（包括节点或其父级的缩放）将只在编辑器中可见，并在运行时立即重置。
 
-如果你需要重载默认的物理行为或者在运行时添加变换，你可以写一个自定义的合力。参阅:ref:`custom_integrator<class_RigidBody2D_property_custom_integrator>`。
+如果你需要重载默认的物理行为或者在运行时添加变换，你可以写一个自定义的合力。参阅\ :ref:`custom_integrator<class_RigidBody2D_property_custom_integrator>`。
 
-质量中心总是位于节点的原点，而不考虑:ref:`CollisionShape2D<class_CollisionShape2D>`\ 中心点的偏移。
+质量中心总是位于节点的原点，而不考虑\ :ref:`CollisionShape2D<class_CollisionShape2D>`\ 中心点的偏移。
 
 Properties
 ----------
@@ -105,9 +105,9 @@ Signals
 
 - **body_entered** **(** :ref:`Node<class_Node>` body **)**
 
-当与另一个:ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或:ref:`TileMap<class_TileMap>`\ 发生碰撞时触发。需要将:ref:`contact_monitor<class_RigidBody2D_property_contact_monitor>`\ 设置为``true``，并且将:ref:`contacts_reported<class_RigidBody2D_property_contacts_reported>`\ 设置得足够高以检测所有的碰撞。如果:ref:`TileSet<class_TileSet>`\ 有碰撞:ref:`Shape2D<class_Shape2D>`，就会检测到:ref:`TileMap<class_TileMap>`\ 的。
+当与另一个\ :ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或\ :ref:`TileMap<class_TileMap>`\ 发生碰撞时触发。需要将\ :ref:`contact_monitor<class_RigidBody2D_property_contact_monitor>`\ 设置为\ ``true``，并且将\ :ref:`contacts_reported<class_RigidBody2D_property_contacts_reported>`\ 设置得足够高以检测所有的碰撞。如果\ :ref:`TileSet<class_TileSet>`\ 有碰撞\ :ref:`Shape2D<class_Shape2D>`，就会检测到\ :ref:`TileMap<class_TileMap>`\ 的。
 
-``body``\ 是其他:ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或:ref:`TileMap<class_TileMap>`\ 的:ref:`Node<class_Node>`，如果它存在于树中。
+``body``\ 是其他\ :ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或\ :ref:`TileMap<class_TileMap>`\ 的\ :ref:`Node<class_Node>`，如果它存在于树中。
 
 ----
 
@@ -115,9 +115,9 @@ Signals
 
 - **body_exited** **(** :ref:`Node<class_Node>` body **)**
 
-当与另一个:ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或:ref:`TileMap<class_TileMap>`\ 的碰撞结束时发出的。需要将 :ref:`contact_monitor<class_RigidBody2D_property_contact_monitor>` 设置为 ``true`` 并将 :ref:`contacts_reported<class_RigidBody2D_property_contacts_reported>` 设置为足够高以检测所有碰撞。如果:ref:`TileSet<class_TileSet>`\ 有碰撞:ref:`Shape2D<class_Shape2D>`，就会检测到:ref:`TileMap<class_TileMap>`。
+当与另一个\ :ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或\ :ref:`TileMap<class_TileMap>`\ 的碰撞结束时发出的。需要将 :ref:`contact_monitor<class_RigidBody2D_property_contact_monitor>` 设置为 ``true`` 并将 :ref:`contacts_reported<class_RigidBody2D_property_contacts_reported>` 设置为足够高以检测所有碰撞。如果\ :ref:`TileSet<class_TileSet>`\ 有碰撞\ :ref:`Shape2D<class_Shape2D>`，就会检测到\ :ref:`TileMap<class_TileMap>`。
 
-``body`` 其他:ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或:ref:`TileMap<class_TileMap>`\ 的:ref:`Node<class_Node>`\ (如果它存在于树中)。
+``body`` 其他\ :ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或\ :ref:`TileMap<class_TileMap>`\ 的\ :ref:`Node<class_Node>`\ (如果它存在于树中)。
 
 ----
 
@@ -125,11 +125,11 @@ Signals
 
 - **body_shape_entered** **(** :ref:`RID<class_RID>` body_rid, :ref:`Node<class_Node>` body, :ref:`int<class_int>` body_shape_index, :ref:`int<class_int>` local_shape_index **)**
 
-当这个RigidBody2D的:ref:`Shape2D<class_Shape2D>`\ 与另一个:ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或:ref:`TileMap<class_TileMap>`\ 的:ref:`Shape2D<class_Shape2D>`\ 碰撞时发出。要求 :ref:`contact_monitor<class_RigidBody2D_property_contact_monitor>` 设置为 ``true`` 并且 :ref:`contacts_reported<class_RigidBody2D_property_contacts_reported>` 设置得足够高，以检测所有碰撞。如果 :ref:`TileMap<class_TileMap>` 具有碰撞 :ref:`Shape2D<class_Shape2D>`，就会检测到 :ref:`TileSet<class_TileSet>`。
+当这个RigidBody2D的\ :ref:`Shape2D<class_Shape2D>`\ 与另一个\ :ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或\ :ref:`TileMap<class_TileMap>`\ 的\ :ref:`Shape2D<class_Shape2D>`\ 碰撞时发出。要求 :ref:`contact_monitor<class_RigidBody2D_property_contact_monitor>` 设置为 ``true`` 并且 :ref:`contacts_reported<class_RigidBody2D_property_contacts_reported>` 设置得足够高，以检测所有碰撞。如果 :ref:`TileMap<class_TileMap>` 具有碰撞 :ref:`Shape2D<class_Shape2D>`，就会检测到 :ref:`TileSet<class_TileSet>`。
 
 ``body_rid`` 由 :ref:`Physics2DServer<class_Physics2DServer>` 使用的其他 :ref:`PhysicsBody2D<class_PhysicsBody2D>` 或 :ref:`TileSet<class_TileSet>` 的 :ref:`CollisionObject2D<class_CollisionObject2D>` 的 :ref:`RID<class_RID>`。
 
-``body``\ 其他:ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或:ref:`TileMap<class_TileMap>`\ 的:ref:`Node<class_Node>`\ (如果它存在于树上)。
+``body``\ 其他\ :ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或\ :ref:`TileMap<class_TileMap>`\ 的\ :ref:`Node<class_Node>`\ (如果它存在于树上)。
 
 ``body_shape_index`` 其他 :ref:`PhysicsBody2D<class_PhysicsBody2D>` 或 :ref:`TileMap<class_TileMap>` 使用 :ref:`Physics2DServer<class_Physics2DServer>` 的 :ref:`Shape2D<class_Shape2D>` 索引。获得带有 ``body.shape_owner_get_owner （body_shape_index）`` 的 :ref:`CollisionShape2D<class_CollisionShape2D>` 节点。
 
@@ -141,15 +141,15 @@ Signals
 
 - **body_shape_exited** **(** :ref:`RID<class_RID>` body_rid, :ref:`Node<class_Node>` body, :ref:`int<class_int>` body_shape_index, :ref:`int<class_int>` local_shape_index **)**
 
-当这个RigidBody2D的一个:ref:`Shape2D<class_Shape2D>`\ 和另一个:ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或:ref:`TileMap<class_TileMap>`\ 的:ref:`Shape2D<class_Shape2D>`\ 之间的碰撞结束时触发。要求:ref:`contact_monitor<class_RigidBody2D_property_contact_monitor>`\ 设置为``true``，:ref:`contacts_reported<class_RigidBody2D_property_contacts_reported>`\ 设置得足够高以检测所有的碰撞。如果:ref:`TileSet<class_TileSet>`\ 有碰撞:ref:`Shape2D<class_Shape2D>`，就会检测到:ref:`TileMap<class_TileMap>`\ 的。
+当这个RigidBody2D的一个\ :ref:`Shape2D<class_Shape2D>`\ 和另一个\ :ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或\ :ref:`TileMap<class_TileMap>`\ 的\ :ref:`Shape2D<class_Shape2D>`\ 之间的碰撞结束时触发。要求\ :ref:`contact_monitor<class_RigidBody2D_property_contact_monitor>`\ 设置为\ ``true``，:ref:`contacts_reported<class_RigidBody2D_property_contacts_reported>`\ 设置得足够高以检测所有的碰撞。如果\ :ref:`TileSet<class_TileSet>`\ 有碰撞\ :ref:`Shape2D<class_Shape2D>`，就会检测到\ :ref:`TileMap<class_TileMap>`\ 的。
 
-``body_rid`` :ref:`Physics2DServer<class_Physics2DServer>`\ 使用的其他:ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或:ref:`TileSet<class_TileSet>`\ 的:ref:`CollisionObject2D<class_CollisionObject2D>`\ 的 :ref:`RID<class_RID>`。
+``body_rid`` :ref:`Physics2DServer<class_Physics2DServer>`\ 使用的其他\ :ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或\ :ref:`TileSet<class_TileSet>`\ 的\ :ref:`CollisionObject2D<class_CollisionObject2D>`\ 的 :ref:`RID<class_RID>`。
 
-``body`` 另一个:ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或:ref:`TileMap<class_TileMap>`\ 的:ref:`Node<class_Node>`，如果它存在于树中。
+``body`` 另一个\ :ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或\ :ref:`TileMap<class_TileMap>`\ 的\ :ref:`Node<class_Node>`，如果它存在于树中。
 
-``body_shape_index`` 由:ref:`Physics2DServer<class_Physics2DServer>`\ 使用的其他:ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或:ref:`TileMap<class_TileMap>`\ 的:ref:`Shape2D<class_Shape2D>`\ 的索引。用``body.shape_owner_get_owner(body_shape_index)``\ 获得:ref:`CollisionShape2D<class_CollisionShape2D>`\ 节点。
+``body_shape_index`` 由\ :ref:`Physics2DServer<class_Physics2DServer>`\ 使用的其他\ :ref:`PhysicsBody2D<class_PhysicsBody2D>`\ 或\ :ref:`TileMap<class_TileMap>`\ 的\ :ref:`Shape2D<class_Shape2D>`\ 的索引。用\ ``body.shape_owner_get_owner(body_shape_index)``\ 获得\ :ref:`CollisionShape2D<class_CollisionShape2D>`\ 节点。
 
-``local_shape_index``\ 这个RigidBody2D的:ref:`Shape2D<class_Shape2D>`\ 的索引，由:ref:`Physics2DServer<class_Physics2DServer>`\ 使用。用``self.shape_owner_get_owner(local_shape_index)``\ 获取:ref:`CollisionShape2D<class_CollisionShape2D>`\ 节点。
+``local_shape_index``\ 这个RigidBody2D的\ :ref:`Shape2D<class_Shape2D>`\ 的索引，由\ :ref:`Physics2DServer<class_Physics2DServer>`\ 使用。用\ ``self.shape_owner_get_owner(local_shape_index)``\ 获取\ :ref:`CollisionShape2D<class_CollisionShape2D>`\ 节点。
 
 ----
 
@@ -159,7 +159,7 @@ Signals
 
 当物理引擎改变物体的睡眠状态时发出。
 
-**注意：**改变:ref:`sleeping<class_RigidBody2D_property_sleeping>`\ 的值不会触发这个信号。只有当物理引擎改变了睡眠状态或者使用了``emit_signal("sleeping_state_changed")``\ 时，它才会被发出。
+**注意：**\ 改变\ :ref:`sleeping<class_RigidBody2D_property_sleeping>`\ 的值不会触发这个信号。只有当物理引擎改变了睡眠状态或者使用了\ ``emit_signal("sleeping_state_changed")``\ 时，它才会被发出。
 
 Enumerations
 ------------
@@ -178,11 +178,11 @@ enum **Mode**:
 
 - **MODE_RIGID** = **0** --- 刚性模式。物体的行为就像一个物理物体。它与其他物体发生碰撞，并对施加在它身上的力做出反应。这是默认模式。
 
-- **MODE_STATIC** = **1** --- 静态模式。物体的行为就像一个:ref:`StaticBody2D<class_StaticBody2D>`，不会移动。
+- **MODE_STATIC** = **1** --- 静态模式。物体的行为就像一个\ :ref:`StaticBody2D<class_StaticBody2D>`，不会移动。
 
-- **MODE_CHARACTER** = **2** --- 角色模式。与:ref:`MODE_RIGID<class_RigidBody2D_constant_MODE_RIGID>`\ 类似，但主体不能旋转。
+- **MODE_CHARACTER** = **2** --- 角色模式。与\ :ref:`MODE_RIGID<class_RigidBody2D_constant_MODE_RIGID>`\ 类似，但主体不能旋转。
 
-- **MODE_KINEMATIC** = **3** --- 运动学模式。这个物体的行为就像一个:ref:`KinematicBody2D<class_KinematicBody2D>`，必须通过代码来移动。
+- **MODE_KINEMATIC** = **3** --- 运动学模式。这个物体的行为就像一个\ :ref:`KinematicBody2D<class_KinematicBody2D>`，必须通过代码来移动。
 
 ----
 
@@ -235,7 +235,7 @@ See :ref:`ProjectSettings.physics/2d/default_angular_damp<class_ProjectSettings_
 | *Getter*  | get_angular_velocity()      |
 +-----------+-----------------------------+
 
-物体的旋转速度，单位为*弧度*每秒。
+物体的旋转速度，单位为\ *弧度*\ 每秒。
 
 ----
 
@@ -281,9 +281,9 @@ See :ref:`ProjectSettings.physics/2d/default_angular_damp<class_ProjectSettings_
 | *Getter* | get_bounce()      |
 +----------+-------------------+
 
-实体的弹性。值范围从``0``（无弹跳）到``1``（完全弹跳）。
+实体的弹性。值范围从\ ``0``\ （无弹跳）到\ ``1``\ （完全弹跳）。
 
-已被废弃，请通过:ref:`physics_material_override<class_RigidBody2D_property_physics_material_override>`\ 使用:ref:`PhysicsMaterial.bounce<class_PhysicsMaterial_property_bounce>`\ 代替。
+已被废弃，请通过\ :ref:`physics_material_override<class_RigidBody2D_property_physics_material_override>`\ 使用\ :ref:`PhysicsMaterial.bounce<class_PhysicsMaterial_property_bounce>`\ 代替。
 
 ----
 
@@ -299,9 +299,9 @@ See :ref:`ProjectSettings.physics/2d/default_angular_damp<class_ProjectSettings_
 | *Getter*  | is_able_to_sleep()   |
 +-----------+----------------------+
 
-如果``true``，身体可以在没有运动的情况下进入睡眠模式。见:ref:`sleeping<class_RigidBody2D_property_sleeping>`。
+如果\ ``true``，身体可以在没有运动的情况下进入睡眠模式。见\ :ref:`sleeping<class_RigidBody2D_property_sleeping>`。
 
-**注意：** RigidBody2D 的:ref:`mode<class_RigidBody2D_property_mode>` 为:ref:`MODE_CHARACTER<class_RigidBody2D_constant_MODE_CHARACTER>` 时不会自动进入休眠模式。仍然可以通过将其 :ref:`sleeping<class_RigidBody2D_property_sleeping>` 属性设置为 ``true`` 来手动使其休眠。
+**注意：** RigidBody2D 的\ :ref:`mode<class_RigidBody2D_property_mode>` 为\ :ref:`MODE_CHARACTER<class_RigidBody2D_constant_MODE_CHARACTER>` 时不会自动进入休眠模式。仍然可以通过将其 :ref:`sleeping<class_RigidBody2D_property_sleeping>` 属性设置为 ``true`` 来手动使其休眠。
 
 ----
 
@@ -317,7 +317,7 @@ See :ref:`ProjectSettings.physics/2d/default_angular_damp<class_ProjectSettings_
 | *Getter*  | is_contact_monitor_enabled() |
 +-----------+------------------------------+
 
-如果``true``，则物体在与另一个RigidBody2D碰撞时会发出信号。参阅:ref:`contacts_reported<class_RigidBody2D_property_contacts_reported>`。
+如果\ ``true``，则物体在与另一个RigidBody2D碰撞时会发出信号。参阅\ :ref:`contacts_reported<class_RigidBody2D_property_contacts_reported>`。
 
 ----
 
@@ -335,7 +335,7 @@ See :ref:`ProjectSettings.physics/2d/default_angular_damp<class_ProjectSettings_
 
 将被记录的最大接触次数。需要将 :ref:`contact_monitor<class_RigidBody2D_property_contact_monitor>` 设置为 ``true``。
 
-**注：**接触次数与碰撞次数不同。平行边之间的碰撞将意味着两个接触（每端一个），平行面之间的碰撞将意味着四个接触（每个角一个）。
+**注：**\ 接触次数与碰撞次数不同。平行边之间的碰撞将意味着两个接触（每端一个），平行面之间的碰撞将意味着四个接触（每个角一个）。
 
 ----
 
@@ -383,7 +383,7 @@ See :ref:`ProjectSettings.physics/2d/default_angular_damp<class_ProjectSettings_
 | *Getter* | get_friction()      |
 +----------+---------------------+
 
-物体的摩擦。取值范围从``0``\ (无摩擦)到``1``\ (最大摩擦)。
+物体的摩擦。取值范围从\ ``0``\ (无摩擦)到\ ``1``\ (最大摩擦)。
 
 已弃用，通过 :ref:`physics_material_override<class_RigidBody2D_property_physics_material_override>` 使用 :ref:`PhysicsMaterial.friction<class_PhysicsMaterial_property_friction>`。
 
@@ -401,7 +401,7 @@ See :ref:`ProjectSettings.physics/2d/default_angular_damp<class_ProjectSettings_
 | *Getter*  | get_gravity_scale()      |
 +-----------+--------------------------+
 
-乘以施加在物体上的重力。物体的重力是由**项目 > 项目设置 > Physics > 2d**中的 **Default Gravity**（默认重力）值和/或任何由 :ref:`Area2D<class_Area2D>` 应用的额外重力矢量计算出来的。
+乘以施加在物体上的重力。物体的重力是由\ **项目 > 项目设置 > Physics > 2d**\ 中的 **Default Gravity**\ （默认重力）值和/或任何由 :ref:`Area2D<class_Area2D>` 应用的额外重力矢量计算出来的。
 
 ----
 
@@ -449,7 +449,7 @@ See :ref:`ProjectSettings.physics/2d/default_linear_damp<class_ProjectSettings_p
 | *Getter*  | get_linear_velocity()      |
 +-----------+----------------------------+
 
-物体的线速度，单位为像素每秒。可以偶尔使用，但是**不要每一帧都设置它**，因为物理可能在另一个线程中运行，并且以不同的间隔。使用 :ref:`_integrate_forces<class_RigidBody2D_method__integrate_forces>` 作为你的进程循环，以精确控制物体状态。
+物体的线速度，单位为像素每秒。可以偶尔使用，但是\ **不要每一帧都设置它**，因为物理可能在另一个线程中运行，并且以不同的间隔。使用 :ref:`_integrate_forces<class_RigidBody2D_method__integrate_forces>` 作为你的进程循环，以精确控制物体状态。
 
 ----
 
@@ -481,7 +481,7 @@ See :ref:`ProjectSettings.physics/2d/default_linear_damp<class_ProjectSettings_p
 | *Getter*  | get_mode()      |
 +-----------+-----------------+
 
-物体的模式。可能的值见:ref:`Mode<enum_RigidBody2D_Mode>`。
+物体的模式。可能的值见\ :ref:`Mode<enum_RigidBody2D_Mode>`。
 
 ----
 
@@ -529,7 +529,7 @@ See :ref:`ProjectSettings.physics/2d/default_linear_damp<class_ProjectSettings_p
 | *Getter*  | get_weight()      |
 +-----------+-------------------+
 
-物体的重量基于其质量和**项目 > 项目设置 > Physics > 2d** 中的 **Default Gravity**（默认重力）值。
+物体的重量基于其质量和\ **项目 > 项目设置 > Physics > 2d** 中的 **Default Gravity**\ （默认重力）值。
 
 Method Descriptions
 -------------------
@@ -538,7 +538,7 @@ Method Descriptions
 
 - void **_integrate_forces** **(** :ref:`Physics2DDirectBodyState<class_Physics2DDirectBodyState>` state **)** |virtual|
 
-允许你读取并安全地修改对象的模拟状态。如果你需要直接改变物体的``position``\ 或其他物理属性，请使用它代替:ref:`Node._physics_process<class_Node_method__physics_process>`。默认情况下，它是在通常的物理行为之外工作的，但是:ref:`custom_integrator<class_RigidBody2D_property_custom_integrator>`\ 允许你禁用默认行为并为一个物体编写自定义的合力。
+允许你读取并安全地修改对象的模拟状态。如果你需要直接改变物体的\ ``position``\ 或其他物理属性，请使用它代替\ :ref:`Node._physics_process<class_Node_method__physics_process>`。默认情况下，它是在通常的物理行为之外工作的，但是\ :ref:`custom_integrator<class_RigidBody2D_property_custom_integrator>`\ 允许你禁用默认行为并为一个物体编写自定义的合力。
 
 ----
 
@@ -594,7 +594,7 @@ Method Descriptions
 
 - :ref:`Array<class_Array>` **get_colliding_bodies** **(** **)** |const|
 
-返回一个与此碰撞的物体的列表。要求:ref:`contact_monitor<class_RigidBody2D_property_contact_monitor>`\ 设置为``true``，:ref:`contacts_reported<class_RigidBody2D_property_contacts_reported>`\ 设置得足够高，以检测所有碰撞。
+返回一个与此碰撞的物体的列表。要求\ :ref:`contact_monitor<class_RigidBody2D_property_contact_monitor>`\ 设置为\ ``true``，:ref:`contacts_reported<class_RigidBody2D_property_contacts_reported>`\ 设置得足够高，以检测所有碰撞。
 
 **注意：** 在移动物体后，这个测试的结果不是立即的。为了性能，碰撞列表每帧在物理运算之前更新一次。可以考虑使用信号来代替。
 

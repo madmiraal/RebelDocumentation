@@ -64,11 +64,11 @@ enum **Status**:
 
 - **STATUS_DISCONNECTED** = **0** --- 表示已断开连接的 ``StreamPeerSSL`` 的状态。
 
-- **STATUS_HANDSHAKING** = **1** --- 代表在握手期间``StreamPeerSSL``\ 的状态。
+- **STATUS_HANDSHAKING** = **1** --- 代表在握手期间\ ``StreamPeerSSL``\ 的状态。
 
 - **STATUS_CONNECTED** = **2** --- 表示连接到主机的 ``StreamPeerSSL`` 的状态。
 
-- **STATUS_ERROR** = **3** --- 代表``StreamPeerSSL``\ 处于错误状态的状态。
+- **STATUS_ERROR** = **3** --- 代表\ ``StreamPeerSSL``\ 处于错误状态的状态。
 
 - **STATUS_ERROR_HOSTNAME_MISMATCH** = **4** --- 一种错误状态，显示主机提交的SSL证书域与请求验证的域不匹配。
 
@@ -120,7 +120,7 @@ Connects to a peer using an underlying :ref:`StreamPeer<class_StreamPeer>` ``str
 
 - :ref:`Status<enum_StreamPeerSSL_Status>` **get_status** **(** **)** |const|
 
-返回连接的状态。有关值，请参阅:ref:`Status<enum_StreamPeerSSL_Status>`。
+返回连接的状态。有关值，请参阅\ :ref:`Status<enum_StreamPeerSSL_Status>`。
 
 ----
 

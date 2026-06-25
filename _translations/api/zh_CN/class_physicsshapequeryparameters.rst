@@ -59,7 +59,7 @@ Property Descriptions
 | *Getter*  | is_collide_with_areas_enabled() |
 +-----------+---------------------------------+
 
-如果``true``，查询将考虑 :ref:`Area<class_Area>`。
+如果\ ``true``，查询将考虑 :ref:`Area<class_Area>`。
 
 ----
 
@@ -137,7 +137,7 @@ Property Descriptions
 | *Getter* | get_shape_rid()      |
 +----------+----------------------+
 
-查询形状的 :ref:`RID<class_RID>`。另见:ref:`set_shape<class_PhysicsShapeQueryParameters_method_set_shape>`。
+查询形状的 :ref:`RID<class_RID>`。另见\ :ref:`set_shape<class_PhysicsShapeQueryParameters_method_set_shape>`。
 
 ----
 
