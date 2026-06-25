@@ -20,7 +20,7 @@ Description
 
 新建 ``Directory`` 时，其默认打开的目录为 ``res://``。这在将来可能会改变，因此建议始终使用 :ref:`open<class_Directory_method_open>` 将您要操作的 ``Directory`` 初始化至想要操作的位置，并进行显式的错误检查。
 
-**注意：**很多资源类型是经过导入的（例如纹理或声音文件），导出后的游戏中不会包含源素材，只会使用导入后的版本。请使用 :ref:`ResourceLoader<class_ResourceLoader>` 访问导入后的资源。
+**注意：**\ 很多资源类型是经过导入的（例如纹理或声音文件），导出后的游戏中不会包含源素材，只会使用导入后的版本。请使用 :ref:`ResourceLoader<class_ResourceLoader>` 访问导入后的资源。
 
 下面是一个关于如何遍历目录文件的示例：
 
@@ -105,7 +105,7 @@ Method Descriptions
 
 将 ``from`` 文件复制到 ``to`` 目标位置。两个参数都应该是相对或绝对文件的路径。如果目标文件存在且没有访问保护，则会被覆盖。
 
-返回:ref:`Error<enum_@GlobalScope_Error>`\ 代码常量之一(成功时返回``OK``)。
+返回\ :ref:`Error<enum_@GlobalScope_Error>`\ 代码常量之一(成功时返回\ ``OK``)。
 
 ----
 
@@ -113,7 +113,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **current_is_dir** **(** **)** |const|
 
-返回上一次 :ref:`get_next<class_Directory_method_get_next>` 调用处理的当前项目是否为目录（``.``\ 和``.``\ 被认为是目录）。
+返回上一次 :ref:`get_next<class_Directory_method_get_next>` 调用处理的当前项目是否为目录（``.``\ 和\ ``.``\ 被认为是目录）。
 
 ----
 
@@ -145,7 +145,7 @@ Returns the absolute path to the currently opened directory (e.g. ``res://folder
 
 - :ref:`int<class_int>` **get_current_drive** **(** **)**
 
-返回当前打开的目录的驱动器索引。请参阅:ref:`get_drive<class_Directory_method_get_drive>`\ 将返回的索引转换为驱动器的名称。
+返回当前打开的目录的驱动器索引。请参阅\ :ref:`get_drive<class_Directory_method_get_drive>`\ 将返回的索引转换为驱动器的名称。
 
 ----
 
@@ -169,7 +169,7 @@ Returns the absolute path to the currently opened directory (e.g. ``res://folder
 
 - :ref:`String<class_String>` **get_next** **(** **)**
 
-返回当前目录中的下一个元素（文件或目录）（包括``.``\ 和``.``，除非``skip_navigational``\ 被赋予:ref:`list_dir_begin<class_Directory_method_list_dir_begin>`）。
+返回当前目录中的下一个元素（文件或目录）（包括\ ``.``\ 和\ ``.``，除非\ ``skip_navigational``\ 被赋予\ :ref:`list_dir_begin<class_Directory_method_list_dir_begin>`）。
 
 返回的是文件或目录的名称（而不是它的完整路径）。一旦流被完全处理，该方法返回一个空的String，并自动关闭流（即在这种情况下，:ref:`list_dir_end<class_Directory_method_list_dir_end>`\ 将不是强制性的）。
 
@@ -199,7 +199,7 @@ Returns the absolute path to the currently opened directory (e.g. ``res://folder
 
 - void **list_dir_end** **(** **)**
 
-关闭用:ref:`list_dir_begin<class_Directory_method_list_dir_begin>`\ 打开的当前流，并不关注是否已经用:ref:`get_next<class_Directory_method_get_next>`\ 完成处理。
+关闭用\ :ref:`list_dir_begin<class_Directory_method_list_dir_begin>`\ 打开的当前流，并不关注是否已经用\ :ref:`get_next<class_Directory_method_get_next>`\ 完成处理。
 
 ----
 
@@ -207,7 +207,7 @@ Returns the absolute path to the currently opened directory (e.g. ``res://folder
 
 - :ref:`Error<enum_@GlobalScope_Error>` **make_dir** **(** :ref:`String<class_String>` path **)**
 
-创建一个目录。参数可以是当前目录的相对路径，也可以是绝对路径。目标目录应该放置在一个已经存在的目录中（如果要递归创建完整的路径，请参阅:ref:`make_dir_recursive<class_Directory_method_make_dir_recursive>`）。
+创建一个目录。参数可以是当前目录的相对路径，也可以是绝对路径。目标目录应该放置在一个已经存在的目录中（如果要递归创建完整的路径，请参阅\ :ref:`make_dir_recursive<class_Directory_method_make_dir_recursive>`）。
 
 返回 :ref:`Error<enum_@GlobalScope_Error>` 代码常量之一（成功时返回 ``OK``）。
 
@@ -219,7 +219,7 @@ Returns the absolute path to the currently opened directory (e.g. ``res://folder
 
 通过递归调用 :ref:`make_dir<class_Directory_method_make_dir>`\ 方法，创建一个目标目录和其路径中所有必要的中间目录。参数可以是相对于当前目录的，也可以是绝对路径。
 
-返回:ref:`Error<enum_@GlobalScope_Error>`\ 代码常量之一(成功时返回``OK``)。
+返回\ :ref:`Error<enum_@GlobalScope_Error>`\ 代码常量之一(成功时返回\ ``OK``)。
 
 ----
 
@@ -239,7 +239,7 @@ Returns one of the :ref:`Error<enum_@GlobalScope_Error>` code constants (``OK`` 
 
 删除目标文件或空目录。参数可以是相对于当前目录的，也可以是绝对路径。如果目标目录不是空的，操作将失败。
 
-返回:ref:`Error<enum_@GlobalScope_Error>`\ 代码常量之一(成功时返回``OK``)。
+返回\ :ref:`Error<enum_@GlobalScope_Error>`\ 代码常量之一(成功时返回\ ``OK``)。
 
 ----
 

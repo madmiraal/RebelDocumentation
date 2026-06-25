@@ -16,7 +16,7 @@ PCKPacker
 Description
 -----------
 
-``PCKPacker``\ 用于创建可以通过:ref:`ProjectSettings.load_resource_pack<class_ProjectSettings_method_load_resource_pack>`\ 加载到正在运行的项目中的包。
+``PCKPacker``\ 用于创建可以通过\ :ref:`ProjectSettings.load_resource_pack<class_ProjectSettings_method_load_resource_pack>`\ 加载到正在运行的项目中的包。
 
 ::
 
@@ -25,7 +25,7 @@ Description
     packer.add_file("res://text.txt", "text.txt")
     packer.flush()
 
-上面的``PCKPacker``\ 创建包``test.pck``，然后在包的根目录中添加一个名为``text.txt``\ 的文件。
+上面的\ ``PCKPacker``\ 创建包\ ``test.pck``，然后在包的根目录中添加一个名为\ ``text.txt``\ 的文件。
 
 Methods
 -------
@@ -45,7 +45,7 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **add_file** **(** :ref:`String<class_String>` pck_path, :ref:`String<class_String>` source_path **)**
 
-将``source_path``\ 文件添加到当前PCK包的``pck_path``\ 内部路径(应该以``res://``\ 开始)。
+将\ ``source_path``\ 文件添加到当前PCK包的\ ``pck_path``\ 内部路径(应该以\ ``res://``\ 开始)。
 
 ----
 
@@ -53,7 +53,7 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **flush** **(** :ref:`bool<class_bool>` verbose=false **)**
 
-自上次刷新以来，使用所有:ref:`add_file<class_PCKPacker_method_add_file>`\ 调用写入指定的文件。如果``verbose``\ 为``true``，添加的文件列表将被打印到控制台，以便于调试。
+自上次刷新以来，使用所有\ :ref:`add_file<class_PCKPacker_method_add_file>`\ 调用写入指定的文件。如果\ ``verbose``\ 为\ ``true``，添加的文件列表将被打印到控制台，以便于调试。
 
 ----
 
@@ -61,7 +61,7 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **pck_start** **(** :ref:`String<class_String>` pck_name, :ref:`int<class_int>` alignment=0 **)**
 
-创建一个名为``pck_name``\ 的新PCK文件。``.Pck``\ 文件扩展名不会自动添加，所以它应该是``pck_name``\ 的一部分(即使它不是必需的)。
+创建一个名为\ ``pck_name``\ 的新PCK文件。``.Pck``\ 文件扩展名不会自动添加，所以它应该是\ ``pck_name``\ 的一部分(即使它不是必需的)。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

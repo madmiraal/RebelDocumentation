@@ -11,14 +11,14 @@ Path2D
 
 **Inherits:** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-包含一个:ref:`Curve2D<class_Curve2D>`\ 路径，供:ref:`PathFollow2D<class_PathFollow2D>`\ 节点遵循。
+包含一个\ :ref:`Curve2D<class_Curve2D>`\ 路径，供\ :ref:`PathFollow2D<class_PathFollow2D>`\ 节点遵循。
 
 Description
 -----------
 
-可以让:ref:`PathFollow2D<class_PathFollow2D>`\ 子节点沿着:ref:`Curve2D<class_Curve2D>`\ 移动。有关用法的更多信息，请参阅:ref:`PathFollow2D<class_PathFollow2D>`。
+可以让\ :ref:`PathFollow2D<class_PathFollow2D>`\ 子节点沿着\ :ref:`Curve2D<class_Curve2D>`\ 移动。有关用法的更多信息，请参阅\ :ref:`PathFollow2D<class_PathFollow2D>`。
 
-**注:**该路径被认为是相对于移动的节点(:ref:`PathFollow2D<class_PathFollow2D>`\ 的子节点)。因此，曲线通常以零向量(``(0,0)``)开始。
+**注:**\ 该路径被认为是相对于移动的节点(:ref:`PathFollow2D<class_PathFollow2D>`\ 的子节点)。因此，曲线通常以零向量(``(0,0)``)开始。
 
 Properties
 ----------

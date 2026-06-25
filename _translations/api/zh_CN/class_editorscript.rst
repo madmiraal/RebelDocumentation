@@ -52,7 +52,7 @@ Method Descriptions
 
 - void **_run** **(** **)** |virtual|
 
-当使用**文件 > 运行**时，此方法由编辑器执行。
+当使用\ **文件 > 运行**\ 时，此方法由编辑器执行。
 
 ----
 
@@ -60,9 +60,9 @@ Method Descriptions
 
 - void **add_root_node** **(** :ref:`Node<class_Node>` node **)**
 
-将``node``\ 添加为编辑器上下文中根节点的子级。
+将\ ``node``\ 添加为编辑器上下文中根节点的子级。
 
-**警告：**此方法的实现前处于禁用状态。
+**警告：**\ 此方法的实现前处于禁用状态。
 
 ----
 
@@ -70,7 +70,7 @@ Method Descriptions
 
 - :ref:`EditorInterface<class_EditorInterface>` **get_editor_interface** **(** **)**
 
-返回:ref:`EditorInterface<class_EditorInterface>`\ 单例的实例。
+返回\ :ref:`EditorInterface<class_EditorInterface>`\ 单例的实例。
 
 ----
 

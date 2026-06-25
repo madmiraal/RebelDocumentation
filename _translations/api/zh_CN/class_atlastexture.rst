@@ -16,11 +16,11 @@ AtlasTexture
 Description
 -----------
 
-:ref:`Texture<class_Texture>`\ 资源，由:ref:`region<class_AtlasTexture_property_region>`\ 定义，裁剪出:ref:`atlas<class_AtlasTexture_property_atlas>`\ 纹理的一个部分。主要的用例是从纹理图集中裁剪出纹理，一个大的纹理文件，包含了多个较小的纹理。由 :ref:`atlas<class_AtlasTexture_property_atlas>`\ 的:ref:`Texture<class_Texture>`、定义使用 :ref:`atlas<class_AtlasTexture_property_atlas>`\ 区域的:ref:`region<class_AtlasTexture_property_region>`\ 和定义边界宽度的:ref:`margin<class_AtlasTexture_property_margin>`\ 组成。
+:ref:`Texture<class_Texture>`\ 资源，由\ :ref:`region<class_AtlasTexture_property_region>`\ 定义，裁剪出\ :ref:`atlas<class_AtlasTexture_property_atlas>`\ 纹理的一个部分。主要的用例是从纹理图集中裁剪出纹理，一个大的纹理文件，包含了多个较小的纹理。由 :ref:`atlas<class_AtlasTexture_property_atlas>`\ 的\ :ref:`Texture<class_Texture>`、定义使用 :ref:`atlas<class_AtlasTexture_property_atlas>`\ 区域的\ :ref:`region<class_AtlasTexture_property_region>`\ 和定义边界宽度的\ :ref:`margin<class_AtlasTexture_property_margin>`\ 组成。
 
-``AtlasTexture``\ 不能在:ref:`AnimatedTexture<class_AnimatedTexture>`\ 中使用，不能在:ref:`TextureRect<class_TextureRect>`\ 等节点中平铺，如果在其他``AtlasTexture``\ 资源内部使用，将不能正常工作。多个``AtlasTexture``\ 资源可以用来裁剪图集中的多个纹理。与使用多个小文件相比，使用一个纹理图集有助于优化视频内存消耗和渲染调用。
+``AtlasTexture``\ 不能在\ :ref:`AnimatedTexture<class_AnimatedTexture>`\ 中使用，不能在\ :ref:`TextureRect<class_TextureRect>`\ 等节点中平铺，如果在其他\ ``AtlasTexture``\ 资源内部使用，将不能正常工作。多个\ ``AtlasTexture``\ 资源可以用来裁剪图集中的多个纹理。与使用多个小文件相比，使用一个纹理图集有助于优化视频内存消耗和渲染调用。
 
-**注意：** AtlasTextures不支持重复。当使用AtlasTexture时，:ref:`Texture.FLAG_REPEAT<class_Texture_constant_FLAG_REPEAT>`\ 和:ref:`Texture.FLAG_MIRRORED_REPEAT<class_Texture_constant_FLAG_MIRRORED_REPEAT>`\ 标志被忽略。
+**注意：** AtlasTextures不支持重复。当使用AtlasTexture时，:ref:`Texture.FLAG_REPEAT<class_Texture_constant_FLAG_REPEAT>`\ 和\ :ref:`Texture.FLAG_MIRRORED_REPEAT<class_Texture_constant_FLAG_MIRRORED_REPEAT>`\ 标志被忽略。
 
 Properties
 ----------
@@ -50,7 +50,7 @@ Property Descriptions
 | *Getter* | get_atlas()      |
 +----------+------------------+
 
-包含图集的纹理。可以是任何:ref:`Texture<class_Texture>`\ 子类型。
+包含图集的纹理。可以是任何\ :ref:`Texture<class_Texture>`\ 子类型。
 
 ----
 
@@ -66,7 +66,7 @@ Property Descriptions
 | *Getter*  | has_filter_clip()      |
 +-----------+------------------------+
 
-如果``true``，剪辑区域外的区域，以避免周围纹理像素的出血。
+如果\ ``true``，剪辑区域外的区域，以避免周围纹理像素的出血。
 
 ----
 

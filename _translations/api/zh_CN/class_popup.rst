@@ -89,7 +89,7 @@ Property Descriptions
 | *Getter*  | is_exclusive()       |
 +-----------+----------------------+
 
-如果``true``，当点击事件发生在它之外，或者当它收到``ui_cancel``\ 动作事件时，弹出窗口不会被隐藏。
+如果\ ``true``，当点击事件发生在它之外，或者当它收到\ ``ui_cancel``\ 动作事件时，弹出窗口不会被隐藏。
 
 **注意：** 启用此属性不会影响从此类继承的对话框中关闭或取消按钮的行为。作为解决方法，您可以使用 :ref:`WindowDialog.get_close_button<class_WindowDialog_method_get_close_button>` 或 :ref:`ConfirmationDialog.get_cancel<class_ConfirmationDialog_method_get_cancel>` 并通过将其 :ref:`CanvasItem.visible<class_CanvasItem_property_visible>` 属性设置为 ``false`` 来隐藏有问题的按钮。
 
@@ -116,7 +116,7 @@ Method Descriptions
 
 - void **popup_centered_clamped** **(** :ref:`Vector2<class_Vector2>` size=Vector2( 0, 0 ), :ref:`float<class_float>` fallback_ratio=0.75 **)**
 
-相对于当前画布变换在屏幕中央弹出（以模态形式显示控件），将大小限制为``size``，并确保弹出窗口不大于视口大小乘以``fallback_ratio``。
+相对于当前画布变换在屏幕中央弹出（以模态形式显示控件），将大小限制为\ ``size``，并确保弹出窗口不大于视口大小乘以\ ``fallback_ratio``。
 
 ----
 

@@ -18,7 +18,7 @@ Description
 
 点击后会弹出 :ref:`PopupMenu<class_PopupMenu>` 的特殊按钮。
 
-可以使用 ``get_popup().add_item("菜单项目名称")`` 在这个 :ref:`PopupMenu<class_PopupMenu>` 中创建新项目。你也可以直接从编辑器中创建它们。要做到这点，选择 ``MenuButton`` 节点，然后在 2D 编辑器顶部的工具栏中，点击**项目**，然后点击弹出窗口中的**添加**。你将能够赋予每个项目新的属性。
+可以使用 ``get_popup().add_item("菜单项目名称")`` 在这个 :ref:`PopupMenu<class_PopupMenu>` 中创建新项目。你也可以直接从编辑器中创建它们。要做到这点，选择 ``MenuButton`` 节点，然后在 2D 编辑器顶部的工具栏中，点击\ **项目**，然后点击弹出窗口中的\ **添加**。你将能够赋予每个项目新的属性。
 
 与该节点相关的常用属性和方法请参阅 :ref:`BaseButton<class_BaseButton>`。
 
@@ -82,7 +82,7 @@ Signals
 
 - **about_to_show** **(** **)**
 
-当此MenuButton的:ref:`PopupMenu<class_PopupMenu>`\ 即将显示时触发。
+当此MenuButton的\ :ref:`PopupMenu<class_PopupMenu>`\ 即将显示时触发。
 
 Property Descriptions
 ---------------------
@@ -99,7 +99,7 @@ Property Descriptions
 | *Getter*  | is_switch_on_hover()       |
 +-----------+----------------------------+
 
-如果``true``，当光标悬停在同一父级中也启用了``switch_on_hover``\ 的另一个``MenuButton``\ 上方时，它将关闭当前的``MenuButton``\ 并打开另一个。
+如果\ ``true``，当光标悬停在同一父级中也启用了\ ``switch_on_hover``\ 的另一个\ ``MenuButton``\ 上方时，它将关闭当前的\ ``MenuButton``\ 并打开另一个。
 
 Method Descriptions
 -------------------
@@ -110,7 +110,7 @@ Method Descriptions
 
 返回这个按钮中包含的 :ref:`PopupMenu<class_PopupMenu>`。
 
-**警告：**这是一个必需的内部节点，移除和释放它可能会导致崩溃。如果你想隐藏它或它的任何子节点，请使用其 :ref:`CanvasItem.visible<class_CanvasItem_property_visible>` 属性。
+**警告：**\ 这是一个必需的内部节点，移除和释放它可能会导致崩溃。如果你想隐藏它或它的任何子节点，请使用其 :ref:`CanvasItem.visible<class_CanvasItem_property_visible>` 属性。
 
 ----
 
@@ -118,7 +118,7 @@ Method Descriptions
 
 - void **set_disable_shortcuts** **(** :ref:`bool<class_bool>` disabled **)**
 
-如果``true``，快捷方式将被禁用，无法用于触发按钮。
+如果\ ``true``，快捷方式将被禁用，无法用于触发按钮。
 
 Theme Property Descriptions
 ---------------------------
@@ -131,7 +131,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 0.88, 0.88, 0.88, 1 )`` |
 +-----------+----------------------------------+
 
-``MenuButton``\ 默认的字体:ref:`Color<class_Color>`\ 颜色。
+``MenuButton``\ 默认的字体\ :ref:`Color<class_Color>`\ 颜色。
 
 ----
 
@@ -143,7 +143,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 1, 1, 1, 0.3 )`` |
 +-----------+---------------------------+
 
-``MenuButton``\ 被禁用时的字体:ref:`Color<class_Color>`\ 颜色。
+``MenuButton``\ 被禁用时的字体\ :ref:`Color<class_Color>`\ 颜色。
 
 ----
 
@@ -155,7 +155,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 0.94, 0.94, 0.94, 1 )`` |
 +-----------+----------------------------------+
 
-当``MenuButton``\ 获得焦点时使用的文本:ref:`Color<class_Color>`。只替换按钮的正常文本颜色。禁用、悬停和按下状态优先于这个颜色。
+当\ ``MenuButton``\ 获得焦点时使用的文本\ :ref:`Color<class_Color>`。只替换按钮的正常文本颜色。禁用、悬停和按下状态优先于这个颜色。
 
 ----
 
@@ -179,7 +179,7 @@ Theme Property Descriptions
 | *Default* | ``Color( 1, 1, 1, 1 )`` |
 +-----------+-------------------------+
 
-当``MenuButton``\ 被按下时使用的字体:ref:`Color<class_Color>`\ 颜色。
+当\ ``MenuButton``\ 被按下时使用的字体\ :ref:`Color<class_Color>`\ 颜色。
 
 ----
 
@@ -199,7 +199,7 @@ Theme Property Descriptions
 
 - :ref:`Font<class_Font>` **font**
 
-``MenuButton``\ 文本的:ref:`Font<class_Font>`。
+``MenuButton``\ 文本的\ :ref:`Font<class_Font>`。
 
 ----
 
@@ -207,7 +207,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **disabled**
 
-当``MenuButton``\ 被禁用时使用的:ref:`StyleBox<class_StyleBox>`。
+当\ ``MenuButton``\ 被禁用时使用的\ :ref:`StyleBox<class_StyleBox>`。
 
 ----
 
@@ -215,7 +215,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **focus**
 
-当``MenuButton``\ 被聚焦时使用的:ref:`StyleBox<class_StyleBox>`。它显示在当前的:ref:`StyleBox<class_StyleBox>`\ 上，所以使用:ref:`StyleBoxEmpty<class_StyleBoxEmpty>`\ 将只是禁用焦点的视觉效果。
+当\ ``MenuButton``\ 被聚焦时使用的\ :ref:`StyleBox<class_StyleBox>`。它显示在当前的\ :ref:`StyleBox<class_StyleBox>`\ 上，所以使用\ :ref:`StyleBoxEmpty<class_StyleBoxEmpty>`\ 将只是禁用焦点的视觉效果。
 
 ----
 
@@ -231,7 +231,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **normal**
 
-``MenuButton``\ 的默认:ref:`StyleBox<class_StyleBox>`\ 样式盒。
+``MenuButton``\ 的默认\ :ref:`StyleBox<class_StyleBox>`\ 样式盒。
 
 ----
 
@@ -239,7 +239,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **pressed**
 
-``MenuButton``\ 被按下时的:ref:`StyleBox<class_StyleBox>`\ 样式盒。
+``MenuButton``\ 被按下时的\ :ref:`StyleBox<class_StyleBox>`\ 样式盒。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

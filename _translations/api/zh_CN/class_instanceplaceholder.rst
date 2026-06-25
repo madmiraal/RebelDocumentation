@@ -16,7 +16,7 @@ InstancePlaceholder
 Description
 -----------
 
-在编辑器中为实例化场景打开选项 **加载为占位符** 会导致在运行游戏时将其替换为实例占位符``InstancePlaceholder``。这使得实际加载场景的时间可以推迟到调用:ref:`replace_by_instance<class_InstancePlaceholder_method_replace_by_instance>`。这对于通过选择性加载部分场景来避免一次性加载大场景很有用。
+在编辑器中为实例化场景打开选项 **加载为占位符** 会导致在运行游戏时将其替换为实例占位符\ ``InstancePlaceholder``。这使得实际加载场景的时间可以推迟到调用\ :ref:`replace_by_instance<class_InstancePlaceholder_method_replace_by_instance>`。这对于通过选择性加载部分场景来避免一次性加载大场景很有用。
 
 实例占位符没有变换(transform)属性。这导致任何子节点从点（0,0）开始相对于视窗进行定位，而不是在编辑器中显示的父节点。用一个具有变换属性的场景来替换占位符，将使子节点再次相对于它们的父节点进行变换。
 
@@ -40,7 +40,7 @@ Method Descriptions
 
 - :ref:`Node<class_Node>` **create_instance** **(** :ref:`bool<class_bool>` replace=false, :ref:`PackedScene<class_PackedScene>` custom_scene=null **)**
 
-不是线程安全的。如果从线程调用，请使用:ref:`Object.call_deferred<class_Object_method_call_deferred>`。
+不是线程安全的。如果从线程调用，请使用\ :ref:`Object.call_deferred<class_Object_method_call_deferred>`。
 
 ----
 
@@ -48,7 +48,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **get_instance_path** **(** **)** |const|
 
-获取调用 :ref:`replace_by_instance<class_InstancePlaceholder_method_replace_by_instance>` 时默认加载的 :ref:`PackedScene<class_PackedScene>` 资源文件的路径。不是线程安全的。如果从线程调用，请使用:ref:`Object.call_deferred<class_Object_method_call_deferred>`。
+获取调用 :ref:`replace_by_instance<class_InstancePlaceholder_method_replace_by_instance>` 时默认加载的 :ref:`PackedScene<class_PackedScene>` 资源文件的路径。不是线程安全的。如果从线程调用，请使用\ :ref:`Object.call_deferred<class_Object_method_call_deferred>`。
 
 ----
 

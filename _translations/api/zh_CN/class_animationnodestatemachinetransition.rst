@@ -42,7 +42,7 @@ Signals
 
 - **advance_condition_changed** **(** **)**
 
-变更:ref:`advance_condition<class_AnimationNodeStateMachineTransition_property_advance_condition>`\ 时发出。
+变更\ :ref:`advance_condition<class_AnimationNodeStateMachineTransition_property_advance_condition>`\ 时发出。
 
 Enumerations
 ------------
@@ -78,7 +78,7 @@ Property Descriptions
 | *Getter*  | get_advance_condition()      |
 +-----------+------------------------------+
 
-设置此条件，开启自动前进。提供的名称将成为:ref:`AnimationTree<class_AnimationTree>`\ 上的一个布尔参数，可以通过代码控制，参阅:ref:`tutorials/animation/animation_tree:controlling from code`。例如，如果:ref:`AnimationTree.tree_root<class_AnimationTree_property_tree_root>`\ 是一个:ref:`AnimationNodeStateMachine<class_AnimationNodeStateMachine>`，:ref:`advance_condition<class_AnimationNodeStateMachineTransition_property_advance_condition>`\ 被设置为``"idle"``。
+设置此条件，开启自动前进。提供的名称将成为\ :ref:`AnimationTree<class_AnimationTree>`\ 上的一个布尔参数，可以通过代码控制，参阅\ :ref:`tutorials/animation/animation_tree:controlling from code`。例如，如果\ :ref:`AnimationTree.tree_root<class_AnimationTree_property_tree_root>`\ 是一个\ :ref:`AnimationNodeStateMachine<class_AnimationNodeStateMachine>`，:ref:`advance_condition<class_AnimationNodeStateMachineTransition_property_advance_condition>`\ 被设置为\ ``"idle"``。
 
 ::
 
@@ -98,7 +98,7 @@ Property Descriptions
 | *Getter*  | has_auto_advance()      |
 +-----------+-------------------------+
 
-当达到该状态时，自动开启过渡。这与:ref:`SWITCH_MODE_AT_END<class_AnimationNodeStateMachineTransition_constant_SWITCH_MODE_AT_END>`\ 配合使用效果最好。
+当达到该状态时，自动开启过渡。这与\ :ref:`SWITCH_MODE_AT_END<class_AnimationNodeStateMachineTransition_constant_SWITCH_MODE_AT_END>`\ 配合使用效果最好。
 
 ----
 
@@ -114,7 +114,7 @@ Property Descriptions
 | *Getter*  | is_disabled()       |
 +-----------+---------------------+
 
-不要在:ref:`AnimationNodeStateMachinePlayback.travel<class_AnimationNodeStateMachinePlayback_method_travel>`\ 或:ref:`auto_advance<class_AnimationNodeStateMachineTransition_property_auto_advance>`\ 期间使用这个过渡。
+不要在\ :ref:`AnimationNodeStateMachinePlayback.travel<class_AnimationNodeStateMachinePlayback_method_travel>`\ 或\ :ref:`auto_advance<class_AnimationNodeStateMachineTransition_property_auto_advance>`\ 期间使用这个过渡。
 
 ----
 
@@ -130,7 +130,7 @@ Property Descriptions
 | *Getter*  | get_priority()      |
 +-----------+---------------------+
 
-当通过:ref:`AnimationNodeStateMachinePlayback.travel<class_AnimationNodeStateMachinePlayback_method_travel>`\ 或:ref:`auto_advance<class_AnimationNodeStateMachineTransition_property_auto_advance>`\ 在树中旅行时，优先级较低的转场。
+当通过\ :ref:`AnimationNodeStateMachinePlayback.travel<class_AnimationNodeStateMachinePlayback_method_travel>`\ 或\ :ref:`auto_advance<class_AnimationNodeStateMachineTransition_property_auto_advance>`\ 在树中旅行时，优先级较低的转场。
 
 ----
 

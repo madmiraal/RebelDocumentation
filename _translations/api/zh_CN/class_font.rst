@@ -60,7 +60,7 @@ Method Descriptions
 
 - void **draw** **(** :ref:`RID<class_RID>` canvas_item, :ref:`Vector2<class_Vector2>` position, :ref:`String<class_String>` string, :ref:`Color<class_Color>` modulate=Color( 1, 1, 1, 1 ), :ref:`int<class_int>` clip_w=-1, :ref:`Color<class_Color>` outline_modulate=Color( 1, 1, 1, 1 ) **)** |const|
 
-在给定位置使用字体将``string``\ 绘制到画布项目中，并使用``modulate``\ 颜色，并可以选择裁剪宽度。 ``position``\ 指定基线，而不是顶部。要从顶部绘制，必须在 Y 轴上添加*升部*。
+在给定位置使用字体将\ ``string``\ 绘制到画布项目中，并使用\ ``modulate``\ 颜色，并可以选择裁剪宽度。 ``position``\ 指定基线，而不是顶部。要从顶部绘制，必须在 Y 轴上添加\ *升部*。
 
 另请参阅 :ref:`CanvasItem.draw_string<class_CanvasItem_method_draw_string>`。
 
@@ -70,7 +70,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **draw_char** **(** :ref:`RID<class_RID>` canvas_item, :ref:`Vector2<class_Vector2>` position, :ref:`int<class_int>` char, :ref:`int<class_int>` next=-1, :ref:`Color<class_Color>` modulate=Color( 1, 1, 1, 1 ), :ref:`bool<class_bool>` outline=false **)** |const|
 
-使用字体在画布项目的指定位置绘制字符 ``char``，使用的颜色是 ``modulate``，并且会根据宽度做裁剪，如果传入了 ``next`` 还会利用到字偶距。``position`` 指定的是基线，而不是顶部。要从顶部绘制，必须在 Y 轴上加上*字体的升部大小*。该函数返回的是字符所使用的宽度，因此用来逐字符绘制字符串非常方便。
+使用字体在画布项目的指定位置绘制字符 ``char``，使用的颜色是 ``modulate``，并且会根据宽度做裁剪，如果传入了 ``next`` 还会利用到字偶距。``position`` 指定的是基线，而不是顶部。要从顶部绘制，必须在 Y 轴上加上\ *字体的升部大小*。该函数返回的是字符所使用的宽度，因此用来逐字符绘制字符串非常方便。
 
 ----
 

@@ -18,7 +18,7 @@ Description
 
 PointMesh是由单个的点构成。与其依赖三角形与点在屏幕上渲染形成具有恒定尺寸的单独矩形。其旨在与粒子系统一起使用，但也可以作为一种消耗小的方式来渲染恒定尺寸的广告牌精灵，例如，在点云中。
 
-PointMeshes，必须与具有点大小的材质一起使用。点大小可以通过``POINT_SIZE``\ 在着色器中访问，或者通过设置:ref:`SpatialMaterial.flags_use_point_size<class_SpatialMaterial_property_flags_use_point_size>`\ 和变量:ref:`SpatialMaterial.params_point_size<class_SpatialMaterial_property_params_point_size>`\ 在:ref:`SpatialMaterial<class_SpatialMaterial>`\ 中访问。
+PointMeshes，必须与具有点大小的材质一起使用。点大小可以通过\ ``POINT_SIZE``\ 在着色器中访问，或者通过设置\ :ref:`SpatialMaterial.flags_use_point_size<class_SpatialMaterial_property_flags_use_point_size>`\ 和变量\ :ref:`SpatialMaterial.params_point_size<class_SpatialMaterial_property_params_point_size>`\ 在\ :ref:`SpatialMaterial<class_SpatialMaterial>`\ 中访问。
 
 当使用PointMeshes时，通常改变顶点的属性将被忽略，包括广告牌模式、增长和剔除面。
 

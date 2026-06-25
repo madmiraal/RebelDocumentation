@@ -16,9 +16,9 @@ DTLS数据包客户端。
 Description
 -----------
 
-这个类表示DTLS对等连接。它可以用来连接到DTLS服务器，由:ref:`DTLSServer.take_connection<class_DTLSServer_method_take_connection>`\ 返回。
+这个类表示DTLS对等连接。它可以用来连接到DTLS服务器，由\ :ref:`DTLSServer.take_connection<class_DTLSServer_method_take_connection>`\ 返回。
 
-**警告:**当前不支持SSL/TLS证书撤销和证书固定。只要撤销的证书在其他情况下是有效的，都将被接受。如果这是一个问题，您可能希望使用具有短有效期的自动管理证书。
+**警告:**\ 当前不支持SSL/TLS证书撤销和证书固定。只要撤销的证书在其他情况下是有效的，都将被接受。如果这是一个问题，您可能希望使用具有短有效期的自动管理证书。
 
 Methods
 -------
@@ -50,13 +50,13 @@ Enumerations
 
 enum **Status**:
 
-- **STATUS_DISCONNECTED** = **0** --- 表示已断开连接的``PacketPeerDTLS``\ 的状态。
+- **STATUS_DISCONNECTED** = **0** --- 表示已断开连接的\ ``PacketPeerDTLS``\ 的状态。
 
-- **STATUS_HANDSHAKING** = **1** --- 表示当前正在与远程对等方进行握手的``PacketPeerDTLS``\ 的状态。
+- **STATUS_HANDSHAKING** = **1** --- 表示当前正在与远程对等方进行握手的\ ``PacketPeerDTLS``\ 的状态。
 
-- **STATUS_CONNECTED** = **2** --- 表示连接到远程对等方的``PacketPeerDTLS``\ 的状态。
+- **STATUS_CONNECTED** = **2** --- 表示连接到远程对等方的\ ``PacketPeerDTLS``\ 的状态。
 
-- **STATUS_ERROR** = **3** --- 表示处于一般错误状态的``PacketPeerDTLS``\ 的状态。
+- **STATUS_ERROR** = **3** --- 表示处于一般错误状态的\ ``PacketPeerDTLS``\ 的状态。
 
 - **STATUS_ERROR_HOSTNAME_MISMATCH** = **4** --- 显示主机提供的DTLS证书域与请求验证的域不匹配的错误状态。
 
@@ -67,7 +67,7 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **connect_to_peer** **(** :ref:`PacketPeerUDP<class_PacketPeerUDP>` packet_peer, :ref:`bool<class_bool>` validate_certs=true, :ref:`String<class_String>` for_hostname="", :ref:`X509Certificate<class_X509Certificate>` valid_certificate=null **)**
 
-使用必须连接的底层:ref:`PacketPeerUDP<class_PacketPeerUDP>`（见:ref:`PacketPeerUDP.connect_to_host<class_PacketPeerUDP_method_connect_to_host>`）连接一个``peer``，开始DTLS握手过程。如果``validate_certs``\ 是``true``，``PacketPeerDTLS``\ 将验证远程对等体提交的证书并与``for_hostname``\ 参数匹配。你可以通过``valid_certificate``\ 参数指定一个自定义的:ref:`X509Certificate<class_X509Certificate>`\ 来进行验证。
+使用必须连接的底层\ :ref:`PacketPeerUDP<class_PacketPeerUDP>`\ （见\ :ref:`PacketPeerUDP.connect_to_host<class_PacketPeerUDP_method_connect_to_host>`）连接一个\ ``peer``，开始DTLS握手过程。如果\ ``validate_certs``\ 是\ ``true``，``PacketPeerDTLS``\ 将验证远程对等体提交的证书并与\ ``for_hostname``\ 参数匹配。你可以通过\ ``valid_certificate``\ 参数指定一个自定义的\ :ref:`X509Certificate<class_X509Certificate>`\ 来进行验证。
 
 ----
 
@@ -83,7 +83,7 @@ Method Descriptions
 
 - :ref:`Status<enum_PacketPeerDTLS_Status>` **get_status** **(** **)** |const|
 
-返回连接的状态。有关值，请参阅:ref:`Status<enum_PacketPeerDTLS_Status>`。
+返回连接的状态。有关值，请参阅\ :ref:`Status<enum_PacketPeerDTLS_Status>`。
 
 ----
 

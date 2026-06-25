@@ -302,7 +302,7 @@ enum **TextureParam**:
 
 - **TEXTURE_CLEARCOAT** = **6** --- 指定每像素清漆值的纹理。
 
-- **TEXTURE_FLOWMAP** = **7** --- 指定每个像素流图方向的纹理，用于:ref:`anisotropy<class_SpatialMaterial_property_anisotropy>`。
+- **TEXTURE_FLOWMAP** = **7** --- 指定每个像素流图方向的纹理，用于\ :ref:`anisotropy<class_SpatialMaterial_property_anisotropy>`。
 
 - **TEXTURE_AMBIENT_OCCLUSION** = **8** --- 指定每个像素环境遮挡值的纹理。
 
@@ -320,7 +320,7 @@ enum **TextureParam**:
 
 - **TEXTURE_DETAIL_NORMAL** = **15** --- 指定每个像素细节法线的纹理。
 
-- **TEXTURE_MAX** = **16** --- 表示:ref:`TextureParam<enum_SpatialMaterial_TextureParam>`\ 枚举的大小。
+- **TEXTURE_MAX** = **16** --- 表示\ :ref:`TextureParam<enum_SpatialMaterial_TextureParam>`\ 枚举的大小。
 
 ----
 
@@ -332,9 +332,9 @@ enum **TextureParam**:
 
 enum **DetailUV**:
 
-- **DETAIL_UV_1** = **0** --- 使用``UV``\ 与细节纹理。
+- **DETAIL_UV_1** = **0** --- 使用\ ``UV``\ 与细节纹理。
 
-- **DETAIL_UV_2** = **1** --- 使用``UV2``\ 与细节纹理。
+- **DETAIL_UV_2** = **1** --- 使用\ ``UV2``\ 与细节纹理。
 
 ----
 
@@ -370,29 +370,29 @@ enum **Feature**:
 
 - **FEATURE_TRANSPARENT** = **0** --- 用于设置 :ref:`flags_transparent<class_SpatialMaterial_property_flags_transparent>` 的常量。
 
-- **FEATURE_EMISSION** = **1** --- 用于设置:ref:`emission_enabled<class_SpatialMaterial_property_emission_enabled>`\ 的常量。
+- **FEATURE_EMISSION** = **1** --- 用于设置\ :ref:`emission_enabled<class_SpatialMaterial_property_emission_enabled>`\ 的常量。
 
-- **FEATURE_NORMAL_MAPPING** = **2** --- 用于设置:ref:`normal_enabled<class_SpatialMaterial_property_normal_enabled>`\ 的常量。
+- **FEATURE_NORMAL_MAPPING** = **2** --- 用于设置\ :ref:`normal_enabled<class_SpatialMaterial_property_normal_enabled>`\ 的常量。
 
-- **FEATURE_RIM** = **3** --- 用于设置:ref:`rim_enabled<class_SpatialMaterial_property_rim_enabled>`\ 的常量。
+- **FEATURE_RIM** = **3** --- 用于设置\ :ref:`rim_enabled<class_SpatialMaterial_property_rim_enabled>`\ 的常量。
 
-- **FEATURE_CLEARCOAT** = **4** --- 用于设置:ref:`clearcoat_enabled<class_SpatialMaterial_property_clearcoat_enabled>`\ 的常量。
+- **FEATURE_CLEARCOAT** = **4** --- 用于设置\ :ref:`clearcoat_enabled<class_SpatialMaterial_property_clearcoat_enabled>`\ 的常量。
 
 - **FEATURE_ANISOTROPY** = **5** --- 用于设置 :ref:`anisotropy_enabled<class_SpatialMaterial_property_anisotropy_enabled>` 的常量。
 
-- **FEATURE_AMBIENT_OCCLUSION** = **6** --- 用于设置:ref:`ao_enabled<class_SpatialMaterial_property_ao_enabled>`\ 的常量。
+- **FEATURE_AMBIENT_OCCLUSION** = **6** --- 用于设置\ :ref:`ao_enabled<class_SpatialMaterial_property_ao_enabled>`\ 的常量。
 
 - **FEATURE_DEPTH_MAPPING** = **7** --- 用于设置 :ref:`depth_enabled<class_SpatialMaterial_property_depth_enabled>` 的常量。
 
-- **FEATURE_SUBSURACE_SCATTERING** = **8** --- 用于设置:ref:`subsurf_scatter_enabled<class_SpatialMaterial_property_subsurf_scatter_enabled>`\ 的常量。
+- **FEATURE_SUBSURACE_SCATTERING** = **8** --- 用于设置\ :ref:`subsurf_scatter_enabled<class_SpatialMaterial_property_subsurf_scatter_enabled>`\ 的常量。
 
 - **FEATURE_TRANSMISSION** = **9** --- 用于设置 :ref:`transmission_enabled<class_SpatialMaterial_property_transmission_enabled>` 的常量。
 
-- **FEATURE_REFRACTION** = **10** --- 用于设置:ref:`refraction_enabled<class_SpatialMaterial_property_refraction_enabled>`\ 的常量。
+- **FEATURE_REFRACTION** = **10** --- 用于设置\ :ref:`refraction_enabled<class_SpatialMaterial_property_refraction_enabled>`\ 的常量。
 
-- **FEATURE_DETAIL** = **11** --- 用于设置:ref:`detail_enabled<class_SpatialMaterial_property_detail_enabled>`\ 的常量。
+- **FEATURE_DETAIL** = **11** --- 用于设置\ :ref:`detail_enabled<class_SpatialMaterial_property_detail_enabled>`\ 的常量。
 
-- **FEATURE_MAX** = **12** --- 表示:ref:`Feature<enum_SpatialMaterial_Feature>`\ 枚举的大小。
+- **FEATURE_MAX** = **12** --- 表示\ :ref:`Feature<enum_SpatialMaterial_Feature>`\ 枚举的大小。
 
 ----
 
@@ -518,13 +518,13 @@ enum **Flags**:
 
 - **FLAG_BILLBOARD_KEEP_SCALE** = **7** --- 着色器将保持为网格的缩放设置。否则，当做广告牌时，缩放会丢失。仅在 :ref:`params_billboard_mode<class_SpatialMaterial_property_params_billboard_mode>` 为 :ref:`BILLBOARD_ENABLED<class_SpatialMaterial_constant_BILLBOARD_ENABLED>` 时适用。
 
-- **FLAG_UV1_USE_TRIPLANAR** = **8** --- 对所有通常会使用``UV``\ 的纹理查找使用三平面纹理查找。
+- **FLAG_UV1_USE_TRIPLANAR** = **8** --- 对所有通常会使用\ ``UV``\ 的纹理查找使用三平面纹理查找。
 
-- **FLAG_UV2_USE_TRIPLANAR** = **9** --- 对所有通常会使用``UV2``\ 的纹理查找使用三平面纹理查找。
+- **FLAG_UV2_USE_TRIPLANAR** = **9** --- 对所有通常会使用\ ``UV2``\ 的纹理查找使用三平面纹理查找。
 
-- **FLAG_AO_ON_UV2** = **11** --- 使用``UV2``\ 坐标从:ref:`ao_texture<class_SpatialMaterial_property_ao_texture>`\ 中查找。
+- **FLAG_AO_ON_UV2** = **11** --- 使用\ ``UV2``\ 坐标从\ :ref:`ao_texture<class_SpatialMaterial_property_ao_texture>`\ 中查找。
 
-- **FLAG_EMISSION_ON_UV2** = **12** --- 使用``UV2``\ 坐标，从:ref:`emission_texture<class_SpatialMaterial_property_emission_texture>`\ 中查找。
+- **FLAG_EMISSION_ON_UV2** = **12** --- 使用\ ``UV2``\ 坐标，从\ :ref:`emission_texture<class_SpatialMaterial_property_emission_texture>`\ 中查找。
 
 - **FLAG_USE_ALPHA_SCISSOR** = **13** --- 使用alpha剪刀。由 :ref:`params_use_alpha_scissor<class_SpatialMaterial_property_params_use_alpha_scissor>` 设置。
 
@@ -540,7 +540,7 @@ enum **Flags**:
 
 - **FLAG_USE_SHADOW_TO_OPACITY** = **18** --- 启用阴影到不透明度功能。
 
-- **FLAG_MAX** = **19** --- 表示:ref:`Flags<enum_SpatialMaterial_Flags>`\ 枚举的大小。
+- **FLAG_MAX** = **19** --- 表示\ :ref:`Flags<enum_SpatialMaterial_Flags>`\ 枚举的大小。
 
 ----
 
@@ -614,9 +614,9 @@ enum **BillboardMode**:
 
 - **BILLBOARD_FIXED_Y** = **2** --- 对象的X轴将始终面向相机。
 
-- **BILLBOARD_PARTICLES** = **3** --- 当分配给:ref:`Particles<class_Particles>`\ 和:ref:`CPUParticles<class_CPUParticles>`\ 节点时用于粒子系统。启用``particles_anim_*``\ 属性。
+- **BILLBOARD_PARTICLES** = **3** --- 当分配给\ :ref:`Particles<class_Particles>`\ 和\ :ref:`CPUParticles<class_CPUParticles>`\ 节点时用于粒子系统。启用\ ``particles_anim_*``\ 属性。
 
-为了播放动画，:ref:`ParticlesMaterial.anim_speed<class_ParticlesMaterial_property_anim_speed>`\ 或:ref:`CPUParticles.anim_speed<class_CPUParticles_property_anim_speed>`\ 也应该被设置为正值。
+为了播放动画，:ref:`ParticlesMaterial.anim_speed<class_ParticlesMaterial_property_anim_speed>`\ 或\ :ref:`CPUParticles.anim_speed<class_CPUParticles_property_anim_speed>`\ 也应该被设置为正值。
 
 ----
 
@@ -678,7 +678,7 @@ enum **DistanceFadeMode**:
 
 - **DISTANCE_FADE_PIXEL_DITHER** = **2** --- 根据每个像素与相机的距离，使用抖动方法平滑地淡化对象。抖动会根据设定的模式丢弃像素，在不启用透明的情况下平滑淡化。在某些硬件上，这比 :ref:`DISTANCE_FADE_PIXEL_ALPHA<class_SpatialMaterial_constant_DISTANCE_FADE_PIXEL_ALPHA>` 更快。
 
-- **DISTANCE_FADE_OBJECT_DITHER** = **3** --- 根据对象与相机的距离，使用抖动的方法平滑地淡化对象。抖动根据设定的模式丢弃像素，在不启用透明度的情况下平滑淡化。在某些硬件上，这可能比:ref:`DISTANCE_FADE_PIXEL_ALPHA<class_SpatialMaterial_constant_DISTANCE_FADE_PIXEL_ALPHA>`\ 更快。
+- **DISTANCE_FADE_OBJECT_DITHER** = **3** --- 根据对象与相机的距离，使用抖动的方法平滑地淡化对象。抖动根据设定的模式丢弃像素，在不启用透明度的情况下平滑淡化。在某些硬件上，这可能比\ :ref:`DISTANCE_FADE_PIXEL_ALPHA<class_SpatialMaterial_constant_DISTANCE_FADE_PIXEL_ALPHA>`\ 更快。
 
 Property Descriptions
 ---------------------
@@ -803,7 +803,7 @@ If present, the texture's alpha channel will be used to multiply the strength of
 | *Getter* | get_flag()      |
 +----------+-----------------+
 
-如果 ``true``，请使用 ``UV2`` 坐标从:ref:`ao_texture<class_SpatialMaterial_property_ao_texture>`\ 中查找。
+如果 ``true``，请使用 ``UV2`` 坐标从\ :ref:`ao_texture<class_SpatialMaterial_property_ao_texture>`\ 中查找。
 
 ----
 
@@ -863,7 +863,7 @@ If present, the texture's alpha channel will be used to multiply the strength of
 
 如果 ``true``，则启用清漆渲染。在照明计算中添加二级透明通路，从而导致添加镜面反射斑点。这使得材质看起来好像有一层透明层，可以是有光泽的也可以是粗糙的。
 
-**注意：**如果材质将 :ref:`flags_unshaded<class_SpatialMaterial_property_flags_unshaded>` 设置为 ``true``，则透明涂层渲染不可见。
+**注意：**\ 如果材质将 :ref:`flags_unshaded<class_SpatialMaterial_property_flags_unshaded>` 设置为 ``true``，则透明涂层渲染不可见。
 
 ----
 
@@ -923,7 +923,7 @@ If present, the texture's alpha channel will be used to multiply the strength of
 
 如果 ``true``，则启用深度映射（也称为“视差映射”或“高度映射”）。另见 :ref:`normal_enabled<class_SpatialMaterial_property_normal_enabled>`。
 
-**注意：**如果在同一材质上使用三平面贴图，则不支持深度贴图。如果启用 :ref:`uv1_triplanar<class_SpatialMaterial_property_uv1_triplanar>`，则 :ref:`depth_enabled<class_SpatialMaterial_property_depth_enabled>` 的值将被忽略。
+**注意：**\ 如果在同一材质上使用三平面贴图，则不支持深度贴图。如果启用 :ref:`uv1_triplanar<class_SpatialMaterial_property_uv1_triplanar>`，则 :ref:`depth_enabled<class_SpatialMaterial_property_depth_enabled>` 的值将被忽略。
 
 ----
 
@@ -1051,7 +1051,7 @@ If present, the texture's alpha channel will be used to multiply the strength of
 | *Getter*  | get_feature()      |
 +-----------+--------------------+
 
-如果``true``，启用细节叠加。Detail是基于:ref:`detail_mask<class_SpatialMaterial_property_detail_mask>`\ 在对象表面混合的第二个纹理。这可以用来给物体增加变化，或者在两种不同的反射率/法线纹理之间进行混合。
+如果\ ``true``，启用细节叠加。Detail是基于\ :ref:`detail_mask<class_SpatialMaterial_property_detail_mask>`\ 在对象表面混合的第二个纹理。这可以用来给物体增加变化，或者在两种不同的反射率/法线纹理之间进行混合。
 
 ----
 
@@ -1095,7 +1095,7 @@ Texture that specifies the per-pixel normal of the detail overlay.
 | *Getter* | get_detail_uv()      |
 +----------+----------------------+
 
-指定细节层是使用``UV``\ 还是``UV2``。选项请参阅:ref:`DetailUV<enum_SpatialMaterial_DetailUV>`。
+指定细节层是使用\ ``UV``\ 还是\ ``UV2``。选项请参阅\ :ref:`DetailUV<enum_SpatialMaterial_DetailUV>`。
 
 ----
 
@@ -1111,7 +1111,7 @@ Texture that specifies the per-pixel normal of the detail overlay.
 
 物体看起来完全不透明的距离。
 
-**注意：**如果 ``distance_fade_max_distance`` 小于 ``distance_fade_min_distance``，则行为相反。物体将在 ``distance_fade_max_distance`` 处开始逐渐消失，并在到达 ``distance_fade_min_distance`` 时完全消失。
+**注意：**\ 如果 ``distance_fade_max_distance`` 小于 ``distance_fade_min_distance``，则行为相反。物体将在 ``distance_fade_max_distance`` 处开始逐渐消失，并在到达 ``distance_fade_min_distance`` 时完全消失。
 
 ----
 
@@ -1127,7 +1127,7 @@ Texture that specifies the per-pixel normal of the detail overlay.
 
 物体开始变得可见的距离。如果物体的距离小于这个距离，它将是不可见的。
 
-**注意：**如果 ``distance_fade_min_distance`` 大于 ``distance_fade_max_distance``，则行为将相反。物体将在 ``distance_fade_max_distance`` 处开始逐渐消失，并在到达 ``distance_fade_min_distance`` 时完全消失。
+**注意：**\ 如果 ``distance_fade_min_distance`` 大于 ``distance_fade_max_distance``，则行为将相反。物体将在 ``distance_fade_max_distance`` 处开始逐渐消失，并在到达 ``distance_fade_min_distance`` 时完全消失。
 
 ----
 
@@ -1143,7 +1143,7 @@ Texture that specifies the per-pixel normal of the detail overlay.
 | *Getter*  | get_distance_fade()      |
 +-----------+--------------------------+
 
-指定要使用的淡入淡出类型。可以是任何一个:ref:`DistanceFadeMode<enum_SpatialMaterial_DistanceFadeMode>`。
+指定要使用的淡入淡出类型。可以是任何一个\ :ref:`DistanceFadeMode<enum_SpatialMaterial_DistanceFadeMode>`。
 
 ----
 
@@ -1157,7 +1157,7 @@ Texture that specifies the per-pixel normal of the detail overlay.
 | *Getter* | get_emission()      |
 +----------+---------------------+
 
-发出的光的颜色。参阅:ref:`emission_enabled<class_SpatialMaterial_property_emission_enabled>`。
+发出的光的颜色。参阅\ :ref:`emission_enabled<class_SpatialMaterial_property_emission_enabled>`。
 
 ----
 
@@ -1187,7 +1187,7 @@ Texture that specifies the per-pixel normal of the detail overlay.
 | *Getter* | get_emission_energy()      |
 +----------+----------------------------+
 
-发出的光的强度。参阅:ref:`emission_enabled<class_SpatialMaterial_property_emission_enabled>`。
+发出的光的强度。参阅\ :ref:`emission_enabled<class_SpatialMaterial_property_emission_enabled>`。
 
 ----
 
@@ -1201,7 +1201,7 @@ Texture that specifies the per-pixel normal of the detail overlay.
 | *Getter* | get_flag()      |
 +----------+-----------------+
 
-使用``UV2``\ 从:ref:`emission_texture<class_SpatialMaterial_property_emission_texture>`\ 中读取。
+使用\ ``UV2``\ 从\ :ref:`emission_texture<class_SpatialMaterial_property_emission_texture>`\ 中读取。
 
 ----
 
@@ -1215,7 +1215,7 @@ Texture that specifies the per-pixel normal of the detail overlay.
 | *Getter* | get_emission_operator()      |
 +----------+------------------------------+
 
-设置:ref:`emission<class_SpatialMaterial_property_emission>`\ 与:ref:`emission_texture<class_SpatialMaterial_property_emission_texture>`\ 的交互方式。可以是加法或乘法。选项参阅 :ref:`EmissionOperator<enum_SpatialMaterial_EmissionOperator>` 。
+设置\ :ref:`emission<class_SpatialMaterial_property_emission>`\ 与\ :ref:`emission_texture<class_SpatialMaterial_property_emission_texture>`\ 的交互方式。可以是加法或乘法。选项参阅 :ref:`EmissionOperator<enum_SpatialMaterial_EmissionOperator>` 。
 
 ----
 
@@ -1261,7 +1261,7 @@ Texture that specifies the per-pixel normal of the detail overlay.
 | *Getter*  | get_flag()      |
 +-----------+-----------------+
 
-如果``true``，则对象不接收环境光。
+如果\ ``true``，则对象不接收环境光。
 
 ----
 
@@ -1277,7 +1277,7 @@ Texture that specifies the per-pixel normal of the detail overlay.
 | *Getter*  | get_flag()      |
 +-----------+-----------------+
 
-如果``true``，则对象不会收到投射到其上的阴影。
+如果\ ``true``，则对象不会收到投射到其上的阴影。
 
 ----
 
@@ -1309,7 +1309,7 @@ Texture that specifies the per-pixel normal of the detail overlay.
 | *Getter*  | get_flag()      |
 +-----------+-----------------+
 
-如果``true``，则无论距离远近，对象都以相同的尺寸呈现。
+如果\ ``true``，则无论距离远近，对象都以相同的尺寸呈现。
 
 ----
 
@@ -1325,7 +1325,7 @@ Texture that specifies the per-pixel normal of the detail overlay.
 | *Getter*  | get_flag()      |
 +-----------+-----------------+
 
-如果``true``，深度测试被禁用，对象将按渲染顺序绘制。
+如果\ ``true``，深度测试被禁用，对象将按渲染顺序绘制。
 
 ----
 
@@ -1341,7 +1341,7 @@ Texture that specifies the per-pixel normal of the detail overlay.
 | *Getter*  | get_feature()      |
 +-----------+--------------------+
 
-如果``true``，则启用物体的透明度。参阅 :ref:`params_blend_mode<class_SpatialMaterial_property_params_blend_mode>`。
+如果\ ``true``，则启用物体的透明度。参阅 :ref:`params_blend_mode<class_SpatialMaterial_property_params_blend_mode>`。
 
 ----
 
@@ -1373,9 +1373,9 @@ Texture that specifies the per-pixel normal of the detail overlay.
 | *Getter*  | get_flag()      |
 +-----------+-----------------+
 
-如果``true``，可以改变渲染点的大小。
+如果\ ``true``，可以改变渲染点的大小。
 
-**注意:**这只对几何体是基于点而不是基于三角形的对象有效。参阅:ref:`params_point_size<class_SpatialMaterial_property_params_point_size>`。
+**注意:**\ 这只对几何体是基于点而不是基于三角形的对象有效。参阅\ :ref:`params_point_size<class_SpatialMaterial_property_params_point_size>`。
 
 ----
 
@@ -1445,7 +1445,7 @@ See also :ref:`ProjectSettings.rendering/quality/shading/force_vertex_shading<cl
 | *Getter*  | get_metallic()      |
 +-----------+---------------------+
 
-高值使材质看起来更像金属。非金属使用其反射率作为漫射色，并在镜面反射上添加漫射。对于非金属，反射出现在反照率颜色之上。金属使用其反射率作为镜面反射的倍数，并将漫射色设置为黑色，从而产生有色反射。材质在全金属或全非金属时效果更好，介于 ``0`` 和 ``1`` 之间的值只能用于金属和非金属部分之间的混合。要改变反射量，请使用:ref:`roughness<class_SpatialMaterial_property_roughness>`。
+高值使材质看起来更像金属。非金属使用其反射率作为漫射色，并在镜面反射上添加漫射。对于非金属，反射出现在反照率颜色之上。金属使用其反射率作为镜面反射的倍数，并将漫射色设置为黑色，从而产生有色反射。材质在全金属或全非金属时效果更好，介于 ``0`` 和 ``1`` 之间的值只能用于金属和非金属部分之间的混合。要改变反射量，请使用\ :ref:`roughness<class_SpatialMaterial_property_roughness>`。
 
 ----
 
@@ -1463,7 +1463,7 @@ See also :ref:`ProjectSettings.rendering/quality/shading/force_vertex_shading<cl
 
 设置镜面光叶的大小。镜面叶是光源反射的亮点。
 
-**注意:**与:ref:`metallic<class_SpatialMaterial_property_metallic>`\ 不同，这不是能量守恒，所以在大多数情况下，应该将其保留在``0.5``。参阅:ref:`roughness<class_SpatialMaterial_property_roughness>`。
+**注意:**\ 与\ :ref:`metallic<class_SpatialMaterial_property_metallic>`\ 不同，这不是能量守恒，所以在大多数情况下，应该将其保留在\ ``0.5``。参阅\ :ref:`roughness<class_SpatialMaterial_property_roughness>`。
 
 ----
 
@@ -1477,7 +1477,7 @@ See also :ref:`ProjectSettings.rendering/quality/shading/force_vertex_shading<cl
 | *Getter* | get_texture()      |
 +----------+--------------------+
 
-用于指定对象的金属质感。此值乘:ref:`metallic<class_SpatialMaterial_property_metallic>`。
+用于指定对象的金属质感。此值乘\ :ref:`metallic<class_SpatialMaterial_property_metallic>`。
 
 ----
 
@@ -1509,7 +1509,7 @@ See also :ref:`ProjectSettings.rendering/quality/shading/force_vertex_shading<cl
 | *Getter*  | get_feature()      |
 +-----------+--------------------+
 
-如果``true``，则启用法线映射。
+如果\ ``true``，则启用法线映射。
 
 ----
 
@@ -1587,9 +1587,9 @@ alpha scissor 会丢弃数值的阈值。
 | *Getter*  | get_billboard_mode()      |
 +-----------+---------------------------+
 
-控制对象如何面向摄像机。参阅:ref:`BillboardMode<enum_SpatialMaterial_BillboardMode>`。
+控制对象如何面向摄像机。参阅\ :ref:`BillboardMode<enum_SpatialMaterial_BillboardMode>`。
 
-**注意：** 广告牌模式不适合VR，因为当屏幕贴在你的头部而不是在桌子上时，摄像机的左右向量不是水平的。参阅`GitHub issue #41567 <https://github.com/godotengine/godot/issues/41567>`__。
+**注意：** 广告牌模式不适合VR，因为当屏幕贴在你的头部而不是在桌子上时，摄像机的左右向量不是水平的。参阅\ `GitHub issue #41567 <https://github.com/godotengine/godot/issues/41567>`__。
 
 ----
 
@@ -1607,7 +1607,7 @@ alpha scissor 会丢弃数值的阈值。
 
 材质的混合模式。
 
-**注意:**除 ``Mix`` 以外的值会强制对象进入透明管道。参阅 :ref:`BlendMode<enum_SpatialMaterial_BlendMode>`。
+**注意:**\ 除 ``Mix`` 以外的值会强制对象进入透明管道。参阅 :ref:`BlendMode<enum_SpatialMaterial_BlendMode>`。
 
 ----
 
@@ -1639,7 +1639,7 @@ alpha scissor 会丢弃数值的阈值。
 | *Getter*  | get_depth_draw_mode()      |
 +-----------+----------------------------+
 
-确定深度渲染发生的时间。请参阅深度绘制模式 :ref:`DepthDrawMode<enum_SpatialMaterial_DepthDrawMode>` 。另见:ref:`flags_transparent<class_SpatialMaterial_property_flags_transparent>`。
+确定深度渲染发生的时间。请参阅深度绘制模式 :ref:`DepthDrawMode<enum_SpatialMaterial_DepthDrawMode>` 。另见\ :ref:`flags_transparent<class_SpatialMaterial_property_flags_transparent>`。
 
 ----
 
@@ -1671,7 +1671,7 @@ alpha scissor 会丢弃数值的阈值。
 | *Getter*  | is_grow_enabled()       |
 +-----------+-------------------------+
 
-如果``true``，启用顶点生长设置。参见:ref:`params_grow_amount<class_SpatialMaterial_property_params_grow_amount>`。
+如果\ ``true``，启用顶点生长设置。参见\ :ref:`params_grow_amount<class_SpatialMaterial_property_params_grow_amount>`。
 
 ----
 
@@ -1717,7 +1717,7 @@ Currently unimplemented in Rebel Engine.
 | *Getter*  | get_point_size()      |
 +-----------+-----------------------+
 
-点的大小，以像素为单位。参见:ref:`flags_use_point_size<class_SpatialMaterial_property_flags_use_point_size>`。
+点的大小，以像素为单位。参见\ :ref:`flags_use_point_size<class_SpatialMaterial_property_flags_use_point_size>`。
 
 ----
 
@@ -1733,7 +1733,7 @@ Currently unimplemented in Rebel Engine.
 | *Getter*  | get_specular_mode()      |
 +-----------+--------------------------+
 
-镜面小球的渲染方法。参阅:ref:`SpecularMode<enum_SpatialMaterial_SpecularMode>`。
+镜面小球的渲染方法。参阅\ :ref:`SpecularMode<enum_SpatialMaterial_SpecularMode>`。
 
 ----
 
@@ -1749,7 +1749,7 @@ Currently unimplemented in Rebel Engine.
 | *Getter*  | get_flag()      |
 +-----------+-----------------+
 
-如果``true``，着色器将丢弃所有alpha值小于:ref:`params_alpha_scissor_threshold<class_SpatialMaterial_property_params_alpha_scissor_threshold>`\ 的像素。
+如果\ ``true``，着色器将丢弃所有alpha值小于\ :ref:`params_alpha_scissor_threshold<class_SpatialMaterial_property_params_alpha_scissor_threshold>`\ 的像素。
 
 ----
 
@@ -1763,7 +1763,7 @@ Currently unimplemented in Rebel Engine.
 | *Getter* | get_particles_anim_h_frames()      |
 +----------+------------------------------------+
 
-粒子精灵表中的水平帧数。仅在使用 :ref:`BILLBOARD_PARTICLES<class_SpatialMaterial_constant_BILLBOARD_PARTICLES>` 时启用。参阅:ref:`params_billboard_mode<class_SpatialMaterial_property_params_billboard_mode>`。
+粒子精灵表中的水平帧数。仅在使用 :ref:`BILLBOARD_PARTICLES<class_SpatialMaterial_constant_BILLBOARD_PARTICLES>` 时启用。参阅\ :ref:`params_billboard_mode<class_SpatialMaterial_property_params_billboard_mode>`。
 
 ----
 
@@ -1777,7 +1777,7 @@ Currently unimplemented in Rebel Engine.
 | *Getter* | get_particles_anim_loop()      |
 +----------+--------------------------------+
 
-如果 ``true``，循环粒子动画。仅在使用 :ref:`BILLBOARD_PARTICLES<class_SpatialMaterial_constant_BILLBOARD_PARTICLES>` 时启用。参阅:ref:`params_billboard_mode<class_SpatialMaterial_property_params_billboard_mode>`。
+如果 ``true``，循环粒子动画。仅在使用 :ref:`BILLBOARD_PARTICLES<class_SpatialMaterial_constant_BILLBOARD_PARTICLES>` 时启用。参阅\ :ref:`params_billboard_mode<class_SpatialMaterial_property_params_billboard_mode>`。
 
 ----
 
@@ -1791,7 +1791,7 @@ Currently unimplemented in Rebel Engine.
 | *Getter* | get_particles_anim_v_frames()      |
 +----------+------------------------------------+
 
-粒子精灵表中的垂直帧数。仅在使用 :ref:`BILLBOARD_PARTICLES<class_SpatialMaterial_constant_BILLBOARD_PARTICLES>` 时启用。参阅:ref:`params_billboard_mode<class_SpatialMaterial_property_params_billboard_mode>`。
+粒子精灵表中的垂直帧数。仅在使用 :ref:`BILLBOARD_PARTICLES<class_SpatialMaterial_constant_BILLBOARD_PARTICLES>` 时启用。参阅\ :ref:`params_billboard_mode<class_SpatialMaterial_property_params_billboard_mode>`。
 
 ----
 
@@ -1821,7 +1821,7 @@ Currently unimplemented in Rebel Engine.
 | *Getter*  | is_proximity_fade_enabled() |
 +-----------+-----------------------------+
 
-如果``true``，则启用接近淡出效果。邻近淡出效果会根据每个像素与另一个对象的距离淡出。
+如果\ ``true``，则启用接近淡出效果。邻近淡出效果会根据每个像素与另一个对象的距离淡出。
 
 ----
 
@@ -1837,7 +1837,7 @@ Currently unimplemented in Rebel Engine.
 | *Getter*  | get_feature()      |
 +-----------+--------------------+
 
-如果``true``，则启用折射效果。折射是根据来自物体后面的光线来扭曲透明度的。当使用GLES3后端时，材质的粗糙度值会影响折射的模糊度。较高的粗糙度值会使折射看起来更模糊。
+如果\ ``true``，则启用折射效果。折射是根据来自物体后面的光线来扭曲透明度的。当使用GLES3后端时，材质的粗糙度值会影响折射的模糊度。较高的粗糙度值会使折射看起来更模糊。
 
 ----
 
@@ -1865,7 +1865,7 @@ Currently unimplemented in Rebel Engine.
 | *Getter* | get_texture()      |
 +----------+--------------------+
 
-控制每个像素折射强度的纹理。乘以:ref:`refraction_scale<class_SpatialMaterial_property_refraction_scale>`。
+控制每个像素折射强度的纹理。乘以\ :ref:`refraction_scale<class_SpatialMaterial_property_refraction_scale>`。
 
 ----
 
@@ -1879,7 +1879,7 @@ Currently unimplemented in Rebel Engine.
 | *Getter* | get_refraction_texture_channel()      |
 +----------+---------------------------------------+
 
-指定存储折射信息的:ref:`refraction_texture<class_SpatialMaterial_property_refraction_texture>`\ 的通道。当你在纹理中存储多种效果的信息时，这很有用。例如，如果你在红色通道中存储金属效果，在蓝色通道中存储粗糙度，在绿色通道中存储环境遮挡，就可以减少使用纹理的数量。
+指定存储折射信息的\ :ref:`refraction_texture<class_SpatialMaterial_property_refraction_texture>`\ 的通道。当你在纹理中存储多种效果的信息时，这很有用。例如，如果你在红色通道中存储金属效果，在蓝色通道中存储粗糙度，在绿色通道中存储环境遮挡，就可以减少使用纹理的数量。
 
 ----
 
@@ -1925,7 +1925,7 @@ Currently unimplemented in Rebel Engine.
 | *Getter* | get_texture()      |
 +----------+--------------------+
 
-纹理用于设置每个像素的边缘光照效果的强度。乘以:ref:`rim<class_SpatialMaterial_property_rim>`。
+纹理用于设置每个像素的边缘光照效果的强度。乘以\ :ref:`rim<class_SpatialMaterial_property_rim>`。
 
 ----
 
@@ -1939,7 +1939,7 @@ Currently unimplemented in Rebel Engine.
 | *Getter* | get_rim_tint()      |
 +----------+---------------------+
 
-渲染边缘效果时，混合光照色和反射色的数量。如果``0``\ 表示使用光色，``1``\ 表示使用反照色。一般来说，中间值的效果最好。
+渲染边缘效果时，混合光照色和反射色的数量。如果\ ``0``\ 表示使用光色，``1``\ 表示使用反照色。一般来说，中间值的效果最好。
 
 ----
 
@@ -1955,7 +1955,7 @@ Currently unimplemented in Rebel Engine.
 | *Getter*  | get_roughness()      |
 +-----------+----------------------+
 
-表面反射。``0`` 值表示一面完美的镜像，而 ``1`` 值则完全模糊了反射。另请参阅:ref:`metallic<class_SpatialMaterial_property_metallic>`。
+表面反射。``0`` 值表示一面完美的镜像，而 ``1`` 值则完全模糊了反射。另请参阅\ :ref:`metallic<class_SpatialMaterial_property_metallic>`。
 
 ----
 
@@ -1969,7 +1969,7 @@ Currently unimplemented in Rebel Engine.
 | *Getter* | get_texture()      |
 +----------+--------------------+
 
-用于控制每个像素粗糙度的纹理。乘以:ref:`roughness<class_SpatialMaterial_property_roughness>`。
+用于控制每个像素粗糙度的纹理。乘以\ :ref:`roughness<class_SpatialMaterial_property_roughness>`。
 
 ----
 
@@ -2001,7 +2001,7 @@ Currently unimplemented in Rebel Engine.
 | *Getter*  | get_feature()      |
 +-----------+--------------------+
 
-如果``true``，则启用次表面散射。模拟光线穿透物体表面，被散射，然后出现。
+如果\ ``true``，则启用次表面散射。模拟光线穿透物体表面，被散射，然后出现。
 
 ----
 
@@ -2029,7 +2029,7 @@ Currently unimplemented in Rebel Engine.
 | *Getter* | get_texture()      |
 +----------+--------------------+
 
-用于控制次表面散射强度的纹理。存储在红色纹理通道中。乘以:ref:`subsurf_scatter_strength<class_SpatialMaterial_property_subsurf_scatter_strength>`。
+用于控制次表面散射强度的纹理。存储在红色纹理通道中。乘以\ :ref:`subsurf_scatter_strength<class_SpatialMaterial_property_subsurf_scatter_strength>`。
 
 ----
 
@@ -2073,7 +2073,7 @@ Currently unimplemented in Rebel Engine.
 | *Getter* | get_texture()      |
 +----------+--------------------+
 
-纹理用于控制每个像素的传输效果。添加到:ref:`transmission<class_SpatialMaterial_property_transmission>`。
+纹理用于控制每个像素的传输效果。添加到\ :ref:`transmission<class_SpatialMaterial_property_transmission>`。
 
 ----
 
@@ -2105,7 +2105,7 @@ Currently unimplemented in Rebel Engine.
 | *Getter*  | get_uv1_scale()        |
 +-----------+------------------------+
 
-缩放 ``UV`` 坐标的多少。这个值乘以顶点函数中的``UV``。
+缩放 ``UV`` 坐标的多少。这个值乘以顶点函数中的\ ``UV``。
 
 ----
 
@@ -2169,7 +2169,7 @@ Currently unimplemented in Rebel Engine.
 | *Getter*  | get_uv2_scale()        |
 +-----------+------------------------+
 
-缩放 ``UV`` 坐标的多少。这个值乘以顶点函数中的``UV``。
+缩放 ``UV`` 坐标的多少。这个值乘以顶点函数中的\ ``UV``。
 
 ----
 
@@ -2217,7 +2217,7 @@ Currently unimplemented in Rebel Engine.
 | *Getter*  | get_flag()      |
 +-----------+-----------------+
 
-如果``true``，则模型的顶点颜色将作为 sRGB 模式处理。
+如果\ ``true``，则模型的顶点颜色将作为 sRGB 模式处理。
 
 ----
 
@@ -2233,7 +2233,7 @@ Currently unimplemented in Rebel Engine.
 | *Getter*  | get_flag()      |
 +-----------+-----------------+
 
-如果``true``，则使用顶点颜色作为反射率颜色。
+如果\ ``true``，则使用顶点颜色作为反射率颜色。
 
 Method Descriptions
 -------------------

@@ -76,7 +76,7 @@ Property Descriptions
 | *Getter*  | get_editor_only()      |
 +-----------+------------------------+
 
-如果设置为``true``，``ReferenceRect``\ 将只在编辑器中可见。否则，``ReferenceRect``\ 将在游戏中可见。
+如果设置为\ ``true``，``ReferenceRect``\ 将只在编辑器中可见。否则，``ReferenceRect``\ 将在游戏中可见。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

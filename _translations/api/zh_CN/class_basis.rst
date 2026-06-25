@@ -102,7 +102,7 @@ Constants
 
 - **IDENTITY** = **Basis( 1, 0, 0, 0, 1, 0, 0, 0, 1 )** --- 无旋转或缩放的单位基底。
 
-这与调用``Basis()``\ 而不使用任何参数是一样的。这个常量可以用来让你的代码更清晰，并与C#保持一致。
+这与调用\ ``Basis()``\ 而不使用任何参数是一样的。这个常量可以用来让你的代码更清晰，并与C#保持一致。
 
 - **FLIP_X** = **Basis( -1, 0, 0, 0, 1, 0, 0, 0, 1 )** --- 在变换中使用时，会沿 X 轴翻转某物的基础。
 
@@ -121,7 +121,7 @@ Property Descriptions
 | *Default* | ``Vector3( 1, 0, 0 )`` |
 +-----------+------------------------+
 
-基本矩阵的X向量（第0列）。等效于数组索引``0``。
+基本矩阵的X向量（第0列）。等效于数组索引\ ``0``。
 
 ----
 
@@ -133,7 +133,7 @@ Property Descriptions
 | *Default* | ``Vector3( 0, 1, 0 )`` |
 +-----------+------------------------+
 
-基础矩阵的Y向量（第1列）。相当于数组索引``1``。
+基础矩阵的Y向量（第1列）。相当于数组索引\ ``1``。
 
 ----
 
@@ -145,7 +145,7 @@ Property Descriptions
 | *Default* | ``Vector3( 0, 0, 1 )`` |
 +-----------+------------------------+
 
-基础矩阵的Z向量（第2列）。相当于数组索引``2``。
+基础矩阵的Z向量（第2列）。相当于数组索引\ ``2``。
 
 Method Descriptions
 -------------------
@@ -162,7 +162,7 @@ Method Descriptions
 
 根据给定的欧拉角构造一个纯旋转基础矩阵（按照 YXZ 惯例：当\*合成时，先 Y，然后 X，最后 Z），向量格式为（X 角，Y 角，Z 角）。
 
-可以考虑使用:ref:`Quat<class_Quat>`\ 构造函数代替，它使用四元组代替欧拉角。
+可以考虑使用\ :ref:`Quat<class_Quat>`\ 构造函数代替，它使用四元组代替欧拉角。
 
 ----
 
@@ -194,7 +194,7 @@ Method Descriptions
 
 以欧拉角的形式返回基础的旋转角度（按照 YXZ 惯例：分解时，先 Z、再 X、最后 Y）。返回的向量包含格式为（X角、Y角、Z角）的旋转角。
 
-可以考虑使用 :ref:`get_rotation_quat<class_Basis_method_get_rotation_quat>` 代替，该方法返回的是:ref:`Quat<class_Quat>`\ 四元组而不是欧拉角。
+可以考虑使用 :ref:`get_rotation_quat<class_Basis_method_get_rotation_quat>` 代替，该方法返回的是\ :ref:`Quat<class_Quat>`\ 四元组而不是欧拉角。
 
 ----
 
@@ -234,7 +234,7 @@ This function considers a discretization of rotations into 24 points on unit sph
 
 - :ref:`bool<class_bool>` **is_equal_approx** **(** :ref:`Basis<class_Basis>` b, :ref:`float<class_float>` epsilon=1e-05 **)**
 
-如果这个 basis 和``b``\ 近似相等，返回``true``，是通过对每个分量调用``is_equal_approx``。
+如果这个 basis 和\ ``b``\ 近似相等，返回\ ``true``，是通过对每个分量调用\ ``is_equal_approx``。
 
 **注意：** 由于复杂的原因，epsilon参数总是被丢弃，不要使用它，它没有任何作用。
 
@@ -318,7 +318,7 @@ This function considers a discretization of rotations into 24 points on unit sph
 
 返回一个由转置基数矩阵变换（乘法）的向量。
 
-**注意:**只有当矩阵代表旋转反射时，才会产生矩阵的反相乘法。
+**注意:**\ 只有当矩阵代表旋转反射时，才会产生矩阵的反相乘法。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

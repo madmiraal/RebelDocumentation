@@ -16,7 +16,7 @@ SceneTreeTimer
 Description
 -----------
 
-由场景树管理的一次性定时器，它在完成时发:ref:`timeout<class_SceneTreeTimer_signal_timeout>` 信号。请参阅 :ref:`SceneTree.create_timer<class_SceneTree_method_create_timer>`。
+由场景树管理的一次性定时器，它在完成时发\ :ref:`timeout<class_SceneTreeTimer_signal_timeout>` 信号。请参阅 :ref:`SceneTree.create_timer<class_SceneTree_method_create_timer>`。
 
 与 :ref:`Timer<class_Timer>` 相反，它不需要实例化节点。常用于创建一次性的延迟定时器，如下面的例子：
 

@@ -18,7 +18,7 @@ Description
 
 显示一个取色器部件。可以从RGB/RGBA彩色空间内选取一个颜色。
 
-**注意：**这个控件就是取色器本身。如果你需要一个能够弹出一个``ColorPicker``\ 窗口的按钮，你可以使用一个:ref:`ColorPickerButton<class_ColorPickerButton>`\ 来代替它。
+**注意：**\ 这个控件就是取色器本身。如果你需要一个能够弹出一个\ ``ColorPicker``\ 窗口的按钮，你可以使用一个\ :ref:`ColorPickerButton<class_ColorPickerButton>`\ 来代替它。
 
 Properties
 ----------
@@ -133,7 +133,7 @@ Property Descriptions
 | *Getter*  | is_deferred_mode()       |
 +-----------+--------------------------+
 
-如果``true``，只有在用户松开鼠标按钮后才会应用颜色，否则即使在鼠标移动事件中也会立即应用(会造成性能问题)。
+如果\ ``true``，只有在用户松开鼠标按钮后才会应用颜色，否则即使在鼠标移动事件中也会立即应用(会造成性能问题)。
 
 ----
 
@@ -165,9 +165,9 @@ If ``true``, shows an alpha channel slider (opacity).
 | *Getter*  | is_hsv_mode()       |
 +-----------+---------------------+
 
-如果``true``，则允许使用“色相/饱和度/值”滑块编辑颜色。
+如果\ ``true``，则允许使用“色相/饱和度/值”滑块编辑颜色。
 
-**注意：**如果启用了原始模式，则无法启用。
+**注意：**\ 如果启用了原始模式，则无法启用。
 
 ----
 
@@ -183,7 +183,7 @@ If ``true``, shows an alpha channel slider (opacity).
 | *Getter*  | are_presets_enabled()      |
 +-----------+----------------------------+
 
-如果``true``，则启用 "添加预置 "按钮。
+如果\ ``true``，则启用 "添加预置 "按钮。
 
 ----
 
@@ -199,7 +199,7 @@ If ``true``, shows an alpha channel slider (opacity).
 | *Getter*  | are_presets_visible()      |
 +-----------+----------------------------+
 
-如果``true``，则保存的颜色预设可见。
+如果\ ``true``，则保存的颜色预设可见。
 
 ----
 
@@ -215,9 +215,9 @@ If ``true``, shows an alpha channel slider (opacity).
 | *Getter*  | is_raw_mode()       |
 +-----------+---------------------+
 
-如果``true``，则允许颜色R，G，B分量值超过1.0，该值可用于需要它的某些特殊操作（例如着色而不会使HDR变暗或渲染精灵）。
+如果\ ``true``，则允许颜色R，G，B分量值超过1.0，该值可用于需要它的某些特殊操作（例如着色而不会使HDR变暗或渲染精灵）。
 
-**注意：**如果启用了HSV模式，则无法启用。
+**注意：**\ 如果启用了HSV模式，则无法启用。
 
 Method Descriptions
 -------------------
@@ -228,7 +228,7 @@ Method Descriptions
 
 将给定的颜色添加到颜色预设列表中。用户将能够选择颜色选择器中颜色预设。
 
-**注意：**预设列表仅适用于*这个*颜色选择器。
+**注意：**\ 预设列表仅适用于\ *这个*\ 颜色选择器。
 
 ----
 

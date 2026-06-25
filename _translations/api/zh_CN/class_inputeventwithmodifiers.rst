@@ -18,7 +18,7 @@ InputEventWithModifiers
 Description
 -----------
 
-包含具有修饰符支持的按键事件信息，如 ``Shift`` 或 ``Alt``。见:ref:`Node._input<class_Node_method__input>`。
+包含具有修饰符支持的按键事件信息，如 ``Shift`` 或 ``Alt``。见\ :ref:`Node._input<class_Node_method__input>`。
 
 Tutorials
 ---------

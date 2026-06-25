@@ -126,7 +126,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **can_connect_nodes** **(** :ref:`Type<enum_VisualShader_Type>` type, :ref:`int<class_int>` from_node, :ref:`int<class_int>` from_port, :ref:`int<class_int>` to_node, :ref:`int<class_int>` to_port **)** |const|
 
-如果指定节点和端口可以连接在一起，则返回``true``。
+如果指定节点和端口可以连接在一起，则返回\ ``true``。
 
 ----
 
@@ -158,7 +158,7 @@ Method Descriptions
 
 - :ref:`VisualShaderNode<class_VisualShaderNode>` **get_node** **(** :ref:`Type<enum_VisualShader_Type>` type, :ref:`int<class_int>` id **)** |const|
 
-返回具有指定``type``\ 和``id``\ 的着色器节点实例。
+返回具有指定\ ``type``\ 和\ ``id``\ 的着色器节点实例。
 
 ----
 
@@ -196,7 +196,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_node_connection** **(** :ref:`Type<enum_VisualShader_Type>` type, :ref:`int<class_int>` from_node, :ref:`int<class_int>` from_port, :ref:`int<class_int>` to_node, :ref:`int<class_int>` to_port **)** |const|
 
-如果指定的节点和端口连接存在，返回``true``。
+如果指定的节点和端口连接存在，返回\ ``true``。
 
 ----
 

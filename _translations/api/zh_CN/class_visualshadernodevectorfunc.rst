@@ -102,13 +102,13 @@ Enumerations
 
 enum **Function**:
 
-- **FUNC_NORMALIZE** = **0** --- 将向量归一化，使其长度为``1``，但指向相同的方向。
+- **FUNC_NORMALIZE** = **0** --- 将向量归一化，使其长度为\ ``1``，但指向相同的方向。
 
-- **FUNC_SATURATE** = **1** --- 限制``0.0``\ 和``1.0``\ 之间的值。
+- **FUNC_SATURATE** = **1** --- 限制\ ``0.0``\ 和\ ``1.0``\ 之间的值。
 
 - **FUNC_NEGATE** = **2** --- 返回参数的相反值。
 
-- **FUNC_RECIPROCAL** = **3** --- 返回``1/vector``。
+- **FUNC_RECIPROCAL** = **3** --- 返回\ ``1/vector``。
 
 - **FUNC_RGB2HSV** = **4** --- 将 RGB 向量转换为等效的 HSV 向量。
 
@@ -156,7 +156,7 @@ enum **Function**:
 
 - **FUNC_ROUNDEVEN** = **26** --- 查找参数最近的偶数。
 
-- **FUNC_SIGN** = **27** --- 提取参数的符号，即如果参数是负的，返回``-1``，如果是正的，返回``1``，否则返回``0``。
+- **FUNC_SIGN** = **27** --- 提取参数的符号，即如果参数是负的，返回\ ``-1``，如果是正的，返回\ ``1``，否则返回\ ``0``。
 
 - **FUNC_SIN** = **28** --- 返回参数的正弦值。
 
@@ -170,7 +170,7 @@ enum **Function**:
 
 - **FUNC_TRUNC** = **33** --- 返回一个等于与参数最接近的整数的值，该值的绝对值不大于参数的绝对值。
 
-- **FUNC_ONEMINUS** = **34** --- 返回``1.0 - vector``。
+- **FUNC_ONEMINUS** = **34** --- 返回\ ``1.0 - vector``。
 
 Property Descriptions
 ---------------------
@@ -187,7 +187,7 @@ Property Descriptions
 | *Getter*  | get_function()      |
 +-----------+---------------------+
 
-要执行的函数。参阅:ref:`Function<enum_VisualShaderNodeVectorFunc_Function>`\ 的选项。
+要执行的函数。参阅\ :ref:`Function<enum_VisualShaderNodeVectorFunc_Function>`\ 的选项。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

@@ -120,7 +120,7 @@ Signals
 
 - **connected_to_server** **(** **)**
 
-当这个``SceneTree``\ 的:ref:`network_peer<class_SceneTree_property_network_peer>`\ 成功连接到一个服务器时发出。只在客户端发出。
+当这个\ ``SceneTree``\ 的\ :ref:`network_peer<class_SceneTree_property_network_peer>`\ 成功连接到一个服务器时发出。只在客户端发出。
 
 ----
 
@@ -152,7 +152,7 @@ Signals
 
 - **idle_frame** **(** **)**
 
-在对``SceneTree``\ 中的每个节点调用:ref:`Node._process<class_Node_method__process>`\ 之前立即发出。
+在对\ ``SceneTree``\ 中的每个节点调用\ :ref:`Node._process<class_Node_method__process>`\ 之前立即发出。
 
 ----
 
@@ -160,7 +160,7 @@ Signals
 
 - **network_peer_connected** **(** :ref:`int<class_int>` id **)**
 
-当这个``SceneTree``\ 的:ref:`network_peer<class_SceneTree_property_network_peer>`\ 与一个新的对等体连接时发出。ID是新对等体的对等体ID。当其他客户端连接到同一个服务器时，客户端会得到通知。当连接到一个服务器时，客户端也会收到该服务器的这个信号（ID为1）。
+当这个\ ``SceneTree``\ 的\ :ref:`network_peer<class_SceneTree_property_network_peer>`\ 与一个新的对等体连接时发出。ID是新对等体的对等体ID。当其他客户端连接到同一个服务器时，客户端会得到通知。当连接到一个服务器时，客户端也会收到该服务器的这个信号（ID为1）。
 
 ----
 
@@ -390,9 +390,9 @@ Property Descriptions
 | *Getter*  | is_multiplayer_poll_enabled()       |
 +-----------+-------------------------------------+
 
-如果 ``true``（默认值），则在 :ref:`idle_frame<class_SceneTree_signal_idle_frame>` 期间启用此 SceneTree 的 :ref:`MultiplayerAPI<class_MultiplayerAPI>` 自动轮询。
+如果 ``true``\ （默认值），则在 :ref:`idle_frame<class_SceneTree_signal_idle_frame>` 期间启用此 SceneTree 的 :ref:`MultiplayerAPI<class_MultiplayerAPI>` 自动轮询。
 
-如果``false``，则需要手动调用:ref:`MultiplayerAPI.poll<class_MultiplayerAPI_method_poll>`\ 来处理网络数据包并投递RPCs/RSETs。这允许在不同的循环（例如物理、线程、特定时间步长）中运行 RPC/RSET，并在从线程访问 :ref:`MultiplayerAPI<class_MultiplayerAPI>` 时进行手动 :ref:`Mutex<class_Mutex>` 保护。
+如果\ ``false``，则需要手动调用\ :ref:`MultiplayerAPI.poll<class_MultiplayerAPI_method_poll>`\ 来处理网络数据包并投递RPCs/RSETs。这允许在不同的循环（例如物理、线程、特定时间步长）中运行 RPC/RSET，并在从线程访问 :ref:`MultiplayerAPI<class_MultiplayerAPI>` 时进行手动 :ref:`Mutex<class_Mutex>` 保护。
 
 ----
 
@@ -406,7 +406,7 @@ Property Descriptions
 | *Getter* | get_network_peer()      |
 +----------+-------------------------+
 
-处理 RPC 系统的对等对象（设置后有效地启用网络）。根据peer本身的不同，``SceneTree``\ 将成为网络服务器（检查:ref:`is_network_server<class_SceneTree_method_is_network_server>`）并将根节点的网络模式设置为master，或者它将成为根节点被设置为puppet的普通对等体。所有子节点默认设置为继承网络模式。与网络相关的事件（连接、断开连接、新客户端）的处理是通过连接到 ``SceneTree`` 的信号来完成的。
+处理 RPC 系统的对等对象（设置后有效地启用网络）。根据peer本身的不同，``SceneTree``\ 将成为网络服务器（检查\ :ref:`is_network_server<class_SceneTree_method_is_network_server>`）并将根节点的网络模式设置为master，或者它将成为根节点被设置为puppet的普通对等体。所有子节点默认设置为继承网络模式。与网络相关的事件（连接、断开连接、新客户端）的处理是通过连接到 ``SceneTree`` 的信号来完成的。
 
 ----
 
@@ -422,11 +422,11 @@ Property Descriptions
 | *Getter*  | is_paused()      |
 +-----------+------------------+
 
-如果``true``，``SceneTree``\ 会暂停。这样做会有以下行为:
+如果\ ``true``，``SceneTree``\ 会暂停。这样做会有以下行为:
 
 - 2D和3D物理将停止。这包括信号和碰撞检测。
 
-- 节点不再调用:ref:`Node._process<class_Node_method__process>`、:ref:`Node._physics_process<class_Node_method__physics_process>`\ 和:ref:`Node._input<class_Node_method__input>`。
+- 节点不再调用\ :ref:`Node._process<class_Node_method__process>`、:ref:`Node._physics_process<class_Node_method__physics_process>`\ 和\ :ref:`Node._input<class_Node_method__input>`。
 
 ----
 
@@ -472,9 +472,9 @@ Property Descriptions
 
 为 ``true`` 时启用字体过采样。这意味着根据视窗的缩放比例不同，:ref:`DynamicFont<class_DynamicFont>` 渲染的大小会比配置大小更高或更低。例如，如果视窗的缩放系数为 1.5，那么配置为 14 号大小的字体将会按照 21 号大小渲染（``14 * 1.5``）。
 
-**注意：**字体过采样仅在视窗拉伸模式为 :ref:`STRETCH_MODE_VIEWPORT<class_SceneTree_constant_STRETCH_MODE_VIEWPORT>` 且拉伸比例模式不是 :ref:`STRETCH_ASPECT_IGNORE<class_SceneTree_constant_STRETCH_ASPECT_IGNORE>` 时有效。
+**注意：**\ 字体过采样仅在视窗拉伸模式为 :ref:`STRETCH_MODE_VIEWPORT<class_SceneTree_constant_STRETCH_MODE_VIEWPORT>` 且拉伸比例模式不是 :ref:`STRETCH_ASPECT_IGNORE<class_SceneTree_constant_STRETCH_ASPECT_IGNORE>` 时有效。
 
-**注意：**项目启动时会为活动的 ``SceneTree`` 自动设置该属性，取值为 :ref:`ProjectSettings<class_ProjectSettings>` 的 ``rendering/quality/dynamic_fonts/use_oversampling``。不过运行时可以根据需要对该属性进行覆盖。
+**注意：**\ 项目启动时会为活动的 ``SceneTree`` 自动设置该属性，取值为 :ref:`ProjectSettings<class_ProjectSettings>` 的 ``rendering/quality/dynamic_fonts/use_oversampling``。不过运行时可以根据需要对该属性进行覆盖。
 
 Method Descriptions
 -------------------
@@ -514,11 +514,11 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **change_scene** **(** :ref:`String<class_String>` path **)**
 
-将正在运行的场景改变为指定的``path``\ 中的场景，在将其加载到:ref:`PackedScene<class_PackedScene>`\ 中并创建一个新的实例。
+将正在运行的场景改变为指定的\ ``path``\ 中的场景，在将其加载到\ :ref:`PackedScene<class_PackedScene>`\ 中并创建一个新的实例。
 
-成功时返回:ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`，如果``path``\ 不能被加载到一个:ref:`PackedScene<class_PackedScene>`\ 中，，该场景不能被实例化，则返回:ref:`@GlobalScope.ERR_CANT_CREATE<class_@GlobalScope_constant_ERR_CANT_CREATE>`。
+成功时返回\ :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`，如果\ ``path``\ 不能被加载到一个\ :ref:`PackedScene<class_PackedScene>`\ 中，，该场景不能被实例化，则返回\ :ref:`@GlobalScope.ERR_CANT_CREATE<class_@GlobalScope_constant_ERR_CANT_CREATE>`。
 
-**注意：**场景改变有延迟，即新的场景节点是在下一个空闲帧中添加。在:ref:`change_scene<class_SceneTree_method_change_scene>`\ 调用之后，你不能立即访问它。
+**注意：**\ 场景改变有延迟，即新的场景节点是在下一个空闲帧中添加。在\ :ref:`change_scene<class_SceneTree_method_change_scene>`\ 调用之后，你不能立即访问它。
 
 ----
 
@@ -583,7 +583,7 @@ Returns :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` on success or :re
 
 - :ref:`int<class_int>` **get_node_count** **(** **)** |const|
 
-返回此``SceneTree``\ 中的节点数。
+返回此\ ``SceneTree``\ 中的节点数。
 
 ----
 
@@ -607,7 +607,7 @@ Returns :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` on success or :re
 
 - :ref:`bool<class_bool>` **has_group** **(** :ref:`String<class_String>` name **)** |const|
 
-如果给定的组存在，返回``true``。
+如果给定的组存在，返回\ ``true``。
 
 ----
 
@@ -615,7 +615,7 @@ Returns :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` on success or :re
 
 - :ref:`bool<class_bool>` **has_network_peer** **(** **)** |const|
 
-如果有一个:ref:`network_peer<class_SceneTree_property_network_peer>`\ 设置，返回``true``。
+如果有一个\ :ref:`network_peer<class_SceneTree_property_network_peer>`\ 设置，返回\ ``true``。
 
 ----
 
@@ -665,7 +665,7 @@ Returns :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` on success or :re
 
 在当前迭代结束时退出应用程序。进程的 ``exit_code`` 可以选择性地作为参数传递。如果这个参数大于等于 ``0``，它将覆盖在退出应用程序之前定义的 :ref:`OS.exit_code<class_OS_property_exit_code>`。
 
-**注意：**这个方法在 iOS 上不起作用。根据《iOS 人机界面指南》中的建议，用户应该通过 Home 键来关闭应用程序。
+**注意：**\ 这个方法在 iOS 上不起作用。根据《iOS 人机界面指南》中的建议，用户应该通过 Home 键来关闭应用程序。
 
 ----
 

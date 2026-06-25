@@ -11,12 +11,12 @@ Panel
 
 **Inherits:** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-为:ref:`Control<class_Control>`\ 子控件提供不透明的背景。
+为\ :ref:`Control<class_Control>`\ 子控件提供不透明的背景。
 
 Description
 -----------
 
-面板是一个显示不透明背景的:ref:`Control<class_Control>`。它通常用作其他类型的:ref:`Control<class_Control>`\ 节点的父节点和容器。
+面板是一个显示不透明背景的\ :ref:`Control<class_Control>`。它通常用作其他类型的\ :ref:`Control<class_Control>`\ 节点的父节点和容器。
 
 Theme Properties
 ----------------

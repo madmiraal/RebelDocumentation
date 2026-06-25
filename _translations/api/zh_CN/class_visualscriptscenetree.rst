@@ -11,12 +11,12 @@ VisualScriptSceneTree
 
 **Inherits:** :ref:`VisualScriptNode<class_VisualScriptNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
 
-用于访问:ref:`SceneTree<class_SceneTree>`\ 方法的Visual Script节点。
+用于访问\ :ref:`SceneTree<class_SceneTree>`\ 方法的Visual Script节点。
 
 Description
 -----------
 
-用于访问:ref:`SceneTree<class_SceneTree>`\ 方法的Visual Script节点。
+用于访问\ :ref:`SceneTree<class_SceneTree>`\ 方法的Visual Script节点。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

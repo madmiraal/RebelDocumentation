@@ -42,7 +42,7 @@ Method Descriptions
 
 - :ref:`PoolByteArray<class_PoolByteArray>` **base64_to_raw** **(** :ref:`String<class_String>` base64_str **)**
 
-返回对应于Base64编码字符串``base64_str``\ 的解码的:ref:`PoolByteArray<class_PoolByteArray>`。
+返回对应于Base64编码字符串\ ``base64_str``\ 的解码的\ :ref:`PoolByteArray<class_PoolByteArray>`。
 
 ----
 
@@ -50,7 +50,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **base64_to_utf8** **(** :ref:`String<class_String>` base64_str **)**
 
-返回一个与Base64编码的字符串``base64_str``\ 相对应的解码字符串。
+返回一个与Base64编码的字符串\ ``base64_str``\ 相对应的解码字符串。
 
 ----
 
@@ -58,7 +58,7 @@ Method Descriptions
 
 - :ref:`Variant<class_Variant>` **base64_to_variant** **(** :ref:`String<class_String>` base64_str, :ref:`bool<class_bool>` allow_objects=false **)**
 
-返回一个对应于Base64编码的字符串``base64_str``\ 的解码:ref:`Variant<class_Variant>`。如果``allow_objects``\ 是``true``，则允许对对象进行解码。
+返回一个对应于Base64编码的字符串\ ``base64_str``\ 的解码\ :ref:`Variant<class_Variant>`。如果\ ``allow_objects``\ 是\ ``true``，则允许对对象进行解码。
 
 **警告：** 反序列化的对象可能包含会被执行的代码。如果序列化的对象来自不受信任的来源，请不要使用这个选项，以避免潜在的安全威胁，如远程代码执行。
 
@@ -68,7 +68,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **raw_to_base64** **(** :ref:`PoolByteArray<class_PoolByteArray>` array **)**
 
-返回给定:ref:`PoolByteArray<class_PoolByteArray>`\ 的Base64编码的字符串。
+返回给定\ :ref:`PoolByteArray<class_PoolByteArray>`\ 的Base64编码的字符串。
 
 ----
 
@@ -76,7 +76,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **utf8_to_base64** **(** :ref:`String<class_String>` utf8_str **)**
 
-返回UTF-8字符串``utf8_str``\ 的一个Base64编码的字符串。
+返回UTF-8字符串\ ``utf8_str``\ 的一个Base64编码的字符串。
 
 ----
 
@@ -84,7 +84,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **variant_to_base64** **(** :ref:`Variant<class_Variant>` variant, :ref:`bool<class_bool>` full_objects=false **)**
 
-返回一个Base64编码的:ref:`Variant<class_Variant>```variant``\ 的字符串。如果``full_objects``\ 是``true``，允许对对象进行编码（有可能包括代码）。
+返回一个Base64编码的\ :ref:`Variant<class_Variant>`\ ``variant``\ 的字符串。如果\ ``full_objects``\ 是\ ``true``，允许对对象进行编码（有可能包括代码）。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

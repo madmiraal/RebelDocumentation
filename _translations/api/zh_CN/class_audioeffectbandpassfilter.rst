@@ -16,7 +16,7 @@ AudioEffectBandPassFilter
 Description
 -----------
 
-衰减:ref:`AudioEffectFilter.cutoff_hz<class_AudioEffectFilter_property_cutoff_hz>`\ 周围范围内的频率，并切断这个频段之外的频率。
+衰减\ :ref:`AudioEffectFilter.cutoff_hz<class_AudioEffectFilter_property_cutoff_hz>`\ 周围范围内的频率，并切断这个频段之外的频率。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

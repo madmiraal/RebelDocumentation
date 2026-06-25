@@ -63,7 +63,7 @@ Property Descriptions
 
 *已废弃。* 你应该使用 ``get_var`` 和 ``put_var`` 参数来代替它。
 
-如果``true``，多人游戏API将允许在RPC/RSETs期间对对象进行编码和解码。
+如果\ ``true``，多人游戏API将允许在RPC/RSETs期间对对象进行编码和解码。
 
 **警告：** 反序列化的对象可能包含会被执行的代码。如果序列化的对象来自不受信任的来源，请不要使用这个选项，以避免潜在的安全威胁，如远程代码执行。
 
@@ -81,9 +81,9 @@ Property Descriptions
 | *Getter*  | get_encode_buffer_max_size()      |
 +-----------+-----------------------------------+
 
-编码:ref:`Variant<class_Variant>`\ 时允许的最大缓冲区大小。提高此值以支持更大的内存分配。
+编码\ :ref:`Variant<class_Variant>`\ 时允许的最大缓冲区大小。提高此值以支持更大的内存分配。
 
-:ref:`put_var<class_PacketPeer_method_put_var>`\ 方法在堆栈上分配内存，使用的缓冲区将自动增长到最接近的二次方，以匹配:ref:`Variant<class_Variant>`\ 的大小。如果:ref:`Variant<class_Variant>`\ 大于 ``encode_buffer_max_size``，则该方法将以:ref:`@GlobalScope.ERR_OUT_OF_MEMORY<class_@GlobalScope_constant_ERR_OUT_OF_MEMORY>`\ 出错。
+:ref:`put_var<class_PacketPeer_method_put_var>`\ 方法在堆栈上分配内存，使用的缓冲区将自动增长到最接近的二次方，以匹配\ :ref:`Variant<class_Variant>`\ 的大小。如果\ :ref:`Variant<class_Variant>`\ 大于 ``encode_buffer_max_size``，则该方法将以\ :ref:`@GlobalScope.ERR_OUT_OF_MEMORY<class_@GlobalScope_constant_ERR_OUT_OF_MEMORY>`\ 出错。
 
 Method Descriptions
 -------------------
@@ -108,7 +108,7 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **get_packet_error** **(** **)** |const|
 
-返回最后接收的数据包的错误状态（通过:ref:`get_packet<class_PacketPeer_method_get_packet>`\ 和:ref:`get_var<class_PacketPeer_method_get_var>`）。
+返回最后接收的数据包的错误状态（通过\ :ref:`get_packet<class_PacketPeer_method_get_packet>`\ 和\ :ref:`get_var<class_PacketPeer_method_get_var>`）。
 
 ----
 
@@ -116,9 +116,9 @@ Method Descriptions
 
 - :ref:`Variant<class_Variant>` **get_var** **(** :ref:`bool<class_bool>` allow_objects=false **)**
 
-获取一个变量。如果``allow_objects`` 或 :ref:`allow_object_decoding<class_PacketPeer_property_allow_object_decoding>`\ 为``true``，则允许对对象进行解码。
+获取一个变量。如果\ ``allow_objects`` 或 :ref:`allow_object_decoding<class_PacketPeer_property_allow_object_decoding>`\ 为\ ``true``，则允许对对象进行解码。
 
-**警告：**反序列化对象可能包含执行的代码。如果序列化对象来自不受信任的源，请不要使用此选项，以避免潜在的安全威胁，如远程代码执行。
+**警告：**\ 反序列化对象可能包含执行的代码。如果序列化对象来自不受信任的源，请不要使用此选项，以避免潜在的安全威胁，如远程代码执行。
 
 ----
 
@@ -134,7 +134,7 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **put_var** **(** :ref:`Variant<class_Variant>` var, :ref:`bool<class_bool>` full_objects=false **)**
 
-将:ref:`Variant<class_Variant>`\ 作为数据包发送。如果``full_objects`` 或 :ref:`allow_object_decoding<class_PacketPeer_property_allow_object_decoding>`\ 为``true``，则允许对对象进行编码（并且可能包含代码）。
+将\ :ref:`Variant<class_Variant>`\ 作为数据包发送。如果\ ``full_objects`` 或 :ref:`allow_object_decoding<class_PacketPeer_property_allow_object_decoding>`\ 为\ ``true``，则允许对对象进行编码（并且可能包含代码）。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

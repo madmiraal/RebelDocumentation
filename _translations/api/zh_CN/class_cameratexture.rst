@@ -16,9 +16,9 @@ CameraTexture
 Description
 -----------
 
-该纹理可以访问:ref:`CameraFeed<class_CameraFeed>`\ 提供的相机纹理。
+该纹理可以访问\ :ref:`CameraFeed<class_CameraFeed>`\ 提供的相机纹理。
 
-**注意：**许多相机提供需要在着色器中转换的YCbCr图像。
+**注意：**\ 许多相机提供需要在着色器中转换的YCbCr图像。
 
 Properties
 ----------
@@ -80,7 +80,7 @@ Property Descriptions
 | *Getter*  | get_which_feed()      |
 +-----------+-----------------------+
 
-我们要访问:ref:`CameraFeed<class_CameraFeed>`\ 中的哪个图像，如果相机图像被分割成Y和CbCr组件，这一点很重要。
+我们要访问\ :ref:`CameraFeed<class_CameraFeed>`\ 中的哪个图像，如果相机图像被分割成Y和CbCr组件，这一点很重要。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`
