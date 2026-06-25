@@ -18,7 +18,7 @@ Mesh
 Description
 -----------
 
-网格是一种包含了基于顶点数组的几何资源。网格被分为各种*平面*，每一个平面包含了一个完整的、单独的顶点数组和材质用来绘制它。通过明智的设计，一个由多个面组成的网格胜过单个面的，这是因为在3D编辑软件中，一个物体通常包含多种材质。
+网格是一种包含了基于顶点数组的几何资源。网格被分为各种\ *平面*，每一个平面包含了一个完整的、单独的顶点数组和材质用来绘制它。通过明智的设计，一个由多个面组成的网格胜过单个面的，这是因为在3D编辑软件中，一个物体通常包含多种材质。
 
 Properties
 ----------
@@ -173,7 +173,7 @@ enum **ArrayFormat**:
 
 - **ARRAY_FORMAT_INDEX** = **256** --- 网格组使用索引。
 
-- **ARRAY_COMPRESS_BASE** = **9** --- 内部用于计算其他``ARRAY_COMPRESS_*``\ 枚举值。不要使用。
+- **ARRAY_COMPRESS_BASE** = **9** --- 内部用于计算其他\ ``ARRAY_COMPRESS_*``\ 枚举值。不要使用。
 
 - **ARRAY_COMPRESS_VERTEX** = **512** --- 用于标记压缩（半精度浮点）顶点数组的标志。
 
@@ -199,7 +199,7 @@ enum **ArrayFormat**:
 
 - **ARRAY_FLAG_USE_OCTAHEDRAL_COMPRESSION** = **2097152** --- 标志用于标记数组使用法线和切线向量的八面表示法，而不是笛卡尔式。
 
-- **ARRAY_COMPRESS_DEFAULT** = **2194432** --- 用于快速设置标志:ref:`ARRAY_COMPRESS_VERTEX<class_Mesh_constant_ARRAY_COMPRESS_VERTEX>`, :ref:`ARRAY_COMPRESS_NORMAL<class_Mesh_constant_ARRAY_COMPRESS_NORMAL>`, :ref:`ARRAY_COMPRESS_TANGENT<class_Mesh_constant_ARRAY_COMPRESS_TANGENT>`, :ref:`ARRAY_COMPRESS_COLOR<class_Mesh_constant_ARRAY_COMPRESS_COLOR>`, :ref:`ARRAY_COMPRESS_TEX_UV<class_Mesh_constant_ARRAY_COMPRESS_TEX_UV>`, :ref:`ARRAY_COMPRESS_TEX_UV2<class_Mesh_constant_ARRAY_COMPRESS_TEX_UV2>` , :ref:`ARRAY_COMPRESS_WEIGHTS<class_Mesh_constant_ARRAY_COMPRESS_WEIGHTS>`, 和:ref:`ARRAY_FLAG_USE_OCTAHEDRAL_COMPRESSION<class_Mesh_constant_ARRAY_FLAG_USE_OCTAHEDRAL_COMPRESSION>` 。
+- **ARRAY_COMPRESS_DEFAULT** = **2194432** --- 用于快速设置标志\ :ref:`ARRAY_COMPRESS_VERTEX<class_Mesh_constant_ARRAY_COMPRESS_VERTEX>`, :ref:`ARRAY_COMPRESS_NORMAL<class_Mesh_constant_ARRAY_COMPRESS_NORMAL>`, :ref:`ARRAY_COMPRESS_TANGENT<class_Mesh_constant_ARRAY_COMPRESS_TANGENT>`, :ref:`ARRAY_COMPRESS_COLOR<class_Mesh_constant_ARRAY_COMPRESS_COLOR>`, :ref:`ARRAY_COMPRESS_TEX_UV<class_Mesh_constant_ARRAY_COMPRESS_TEX_UV>`, :ref:`ARRAY_COMPRESS_TEX_UV2<class_Mesh_constant_ARRAY_COMPRESS_TEX_UV2>` , :ref:`ARRAY_COMPRESS_WEIGHTS<class_Mesh_constant_ARRAY_COMPRESS_WEIGHTS>`, 和\ :ref:`ARRAY_FLAG_USE_OCTAHEDRAL_COMPRESSION<class_Mesh_constant_ARRAY_FLAG_USE_OCTAHEDRAL_COMPRESSION>` 。
 
 ----
 
@@ -245,7 +245,7 @@ enum **ArrayType**:
 
 - **ARRAY_INDEX** = **8** --- 索引数组。
 
-- **ARRAY_MAX** = **9** --- 表示:ref:`ArrayType<enum_Mesh_ArrayType>`\ 枚举的大小。
+- **ARRAY_MAX** = **9** --- 表示\ :ref:`ArrayType<enum_Mesh_ArrayType>`\ 枚举的大小。
 
 Property Descriptions
 ---------------------
@@ -262,7 +262,7 @@ Property Descriptions
 | *Getter*  | get_lightmap_size_hint()      |
 +-----------+-------------------------------+
 
-设置提示，用于:ref:`BakedLightmap<class_BakedLightmap>`\ 中的光照贴图分辨率。重写:ref:`BakedLightmap.default_texels_per_unit<class_BakedLightmap_property_default_texels_per_unit>`。
+设置提示，用于\ :ref:`BakedLightmap<class_BakedLightmap>`\ 中的光照贴图分辨率。重写\ :ref:`BakedLightmap.default_texels_per_unit<class_BakedLightmap_property_default_texels_per_unit>`。
 
 Method Descriptions
 -------------------
@@ -275,7 +275,7 @@ Method Descriptions
 
 如果 ``clean`` 是 ``true`` （默认），重复的和内部的顶点会被自动移除。你可以把它设为 ``false`` 来使这个过程更快，如果不需要的话。
 
-如果``simplify``\ 是``true``，可以进一步简化几何体以减少顶点的数量。默认情况下是禁用的。
+如果\ ``simplify``\ 是\ ``true``，可以进一步简化几何体以减少顶点的数量。默认情况下是禁用的。
 
 ----
 
@@ -293,7 +293,7 @@ Method Descriptions
 
 - :ref:`Shape<class_Shape>` **create_trimesh_shape** **(** **)** |const|
 
-从网格中计算出:ref:`ConcavePolygonShape<class_ConcavePolygonShape>`。
+从网格中计算出\ :ref:`ConcavePolygonShape<class_ConcavePolygonShape>`。
 
 ----
 
@@ -301,7 +301,7 @@ Method Descriptions
 
 - :ref:`TriangleMesh<class_TriangleMesh>` **generate_triangle_mesh** **(** **)** |const|
 
-从网格生成:ref:`TriangleMesh<class_TriangleMesh>`。
+从网格生成\ :ref:`TriangleMesh<class_TriangleMesh>`。
 
 ----
 
@@ -309,9 +309,9 @@ Method Descriptions
 
 - :ref:`AABB<class_AABB>` **get_aabb** **(** **)** |const|
 
-返回局部空间中包围这个网格的最小的:ref:`AABB<class_AABB>`。不受``custom_aabb``\ 的影响。参阅 :ref:`VisualInstance.get_transformed_aabb<class_VisualInstance_method_get_transformed_aabb>`。
+返回局部空间中包围这个网格的最小的\ :ref:`AABB<class_AABB>`。不受\ ``custom_aabb``\ 的影响。参阅 :ref:`VisualInstance.get_transformed_aabb<class_VisualInstance_method_get_transformed_aabb>`。
 
-**注意：**这只对:ref:`ArrayMesh<class_ArrayMesh>`\ 和:ref:`PrimitiveMesh<class_PrimitiveMesh>`\ 实现。
+**注意：**\ 这只对\ :ref:`ArrayMesh<class_ArrayMesh>`\ 和\ :ref:`PrimitiveMesh<class_PrimitiveMesh>`\ 实现。
 
 ----
 
@@ -335,7 +335,7 @@ Method Descriptions
 
 - :ref:`Array<class_Array>` **surface_get_arrays** **(** :ref:`int<class_int>` surf_idx **)** |const|
 
-返回所有组成面所需的东西构成的数组的数组，例如顶点，法向，UV等。（参阅:ref:`ArrayMesh.add_surface_from_arrays<class_ArrayMesh_method_add_surface_from_arrays>`）。
+返回所有组成面所需的东西构成的数组的数组，例如顶点，法向，UV等。（参阅\ :ref:`ArrayMesh.add_surface_from_arrays<class_ArrayMesh_method_add_surface_from_arrays>`）。
 
 ----
 
@@ -351,7 +351,7 @@ Method Descriptions
 
 - :ref:`Material<class_Material>` **surface_get_material** **(** :ref:`int<class_int>` surf_idx **)** |const|
 
-返回给定面的:ref:`Material<class_Material>`\ 材质。面将由该材质来渲染。
+返回给定面的\ :ref:`Material<class_Material>`\ 材质。面将由该材质来渲染。
 
 ----
 
@@ -359,7 +359,7 @@ Method Descriptions
 
 - void **surface_set_material** **(** :ref:`int<class_int>` surf_idx, :ref:`Material<class_Material>` material **)**
 
-设置给定面的:ref:`Material<class_Material>`\ 材质。该面将会使用此材质渲染。
+设置给定面的\ :ref:`Material<class_Material>`\ 材质。该面将会使用此材质渲染。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

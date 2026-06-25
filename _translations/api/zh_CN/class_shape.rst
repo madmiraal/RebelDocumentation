@@ -18,7 +18,7 @@ Shape
 Description
 -----------
 
-所有3D形状资源的基类。继承于此的节点可以作为:ref:`PhysicsBody<class_PhysicsBody>`\ 或:ref:`Area<class_Area>`\ 对象的形状。
+所有3D形状资源的基类。继承于此的节点可以作为\ :ref:`PhysicsBody<class_PhysicsBody>`\ 或\ :ref:`Area<class_Area>`\ 对象的形状。
 
 Tutorials
 ---------
@@ -65,7 +65,7 @@ Method Descriptions
 
 - :ref:`ArrayMesh<class_ArrayMesh>` **get_debug_mesh** **(** **)**
 
-返回用于绘制此``Shape``\ 的调试碰撞的:ref:`ArrayMesh<class_ArrayMesh>`。
+返回用于绘制此\ ``Shape``\ 的调试碰撞的\ :ref:`ArrayMesh<class_ArrayMesh>`。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

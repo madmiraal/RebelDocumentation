@@ -16,7 +16,7 @@ OccluderPolygon2D
 Description
 -----------
 
-编辑工具，帮助你绘制一个2D多边形用作资源:ref:`LightOccluder2D<class_LightOccluder2D>`。
+编辑工具，帮助你绘制一个2D多边形用作资源\ :ref:`LightOccluder2D<class_LightOccluder2D>`。
 
 Properties
 ----------
@@ -42,11 +42,11 @@ Enumerations
 
 enum **CullMode**:
 
-- **CULL_DISABLED** = **0** --- 禁用剔除。参阅:ref:`cull_mode<class_OccluderPolygon2D_property_cull_mode>`。
+- **CULL_DISABLED** = **0** --- 禁用剔除。参阅\ :ref:`cull_mode<class_OccluderPolygon2D_property_cull_mode>`。
 
-- **CULL_CLOCKWISE** = **1** --- 按顺时针方向进行剔除。见:ref:`cull_mode<class_OccluderPolygon2D_property_cull_mode>`。
+- **CULL_CLOCKWISE** = **1** --- 按顺时针方向进行剔除。见\ :ref:`cull_mode<class_OccluderPolygon2D_property_cull_mode>`。
 
-- **CULL_COUNTER_CLOCKWISE** = **2** --- 按逆时针方向进行剔除。参阅:ref:`cull_mode<class_OccluderPolygon2D_property_cull_mode>`。
+- **CULL_COUNTER_CLOCKWISE** = **2** --- 按逆时针方向进行剔除。参阅\ :ref:`cull_mode<class_OccluderPolygon2D_property_cull_mode>`。
 
 Property Descriptions
 ---------------------
@@ -63,7 +63,7 @@ Property Descriptions
 | *Getter*  | is_closed()       |
 +-----------+-------------------+
 
-如果``true``，封闭该多边形。一个封闭的polygon2d封闭来自任何方向的光。一个开放的OccluderPolygon2D只在其轮廓方向上遮挡光。
+如果\ ``true``，封闭该多边形。一个封闭的polygon2d封闭来自任何方向的光。一个开放的OccluderPolygon2D只在其轮廓方向上遮挡光。
 
 ----
 
@@ -95,9 +95,9 @@ Property Descriptions
 | *Getter*  | get_polygon()            |
 +-----------+--------------------------+
 
-带有多边形顶点位置索引的:ref:`Vector2<class_Vector2>`\ 数组。
+带有多边形顶点位置索引的\ :ref:`Vector2<class_Vector2>`\ 数组。
 
-**注意:**返回值是基础数组的副本，而不是引用。
+**注意:**\ 返回值是基础数组的副本，而不是引用。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

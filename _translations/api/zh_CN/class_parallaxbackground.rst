@@ -100,7 +100,7 @@ Property Descriptions
 | *Getter*  | get_limit_begin()      |
 +-----------+------------------------+
 
-开始滚动的左上角限制。如果相机超出这个限制，背景将停止滚动。必须低于:ref:`scroll_limit_end<class_ParallaxBackground_property_scroll_limit_end>`\ 才能工作。
+开始滚动的左上角限制。如果相机超出这个限制，背景将停止滚动。必须低于\ :ref:`scroll_limit_end<class_ParallaxBackground_property_scroll_limit_end>`\ 才能工作。
 
 ----
 
@@ -116,7 +116,7 @@ Property Descriptions
 | *Getter*  | get_limit_end()      |
 +-----------+----------------------+
 
-右下角限制滚动结束。如果相机超出这个限制，背景将停止滚动。必须高于:ref:`scroll_limit_begin<class_ParallaxBackground_property_scroll_limit_begin>`\ 才能工作。
+右下角限制滚动结束。如果相机超出这个限制，背景将停止滚动。必须高于\ :ref:`scroll_limit_begin<class_ParallaxBackground_property_scroll_limit_begin>`\ 才能工作。
 
 ----
 
@@ -132,7 +132,7 @@ Property Descriptions
 | *Getter*  | get_scroll_offset()      |
 +-----------+--------------------------+
 
-视差背景的滚动值。使用:ref:`Camera2D<class_Camera2D>`\ 时自动计算，但可用于手动管理无摄像头时的滚动。
+视差背景的滚动值。使用\ :ref:`Camera2D<class_Camera2D>`\ 时自动计算，但可用于手动管理无摄像头时的滚动。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

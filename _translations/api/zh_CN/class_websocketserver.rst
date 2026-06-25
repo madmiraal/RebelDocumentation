@@ -63,7 +63,7 @@ Signals
 
 - **client_close_request** **(** :ref:`int<class_int>` id, :ref:`int<class_int>` code, :ref:`String<class_String>` reason **)**
 
-当一个客户端要求彻底关闭时触发。你应该继续轮询，直到你得到一个具有相同``id``\ 的:ref:`client_disconnected<class_WebSocketServer_signal_client_disconnected>`\ 信号，以实现彻底关闭。请参阅:ref:`WebSocketPeer.close<class_WebSocketPeer_method_close>`\ 以了解更多细节。
+当一个客户端要求彻底关闭时触发。你应该继续轮询，直到你得到一个具有相同\ ``id``\ 的\ :ref:`client_disconnected<class_WebSocketServer_signal_client_disconnected>`\ 信号，以实现彻底关闭。请参阅\ :ref:`WebSocketPeer.close<class_WebSocketPeer_method_close>`\ 以了解更多细节。
 
 ----
 
@@ -79,7 +79,7 @@ Signals
 
 - **client_disconnected** **(** :ref:`int<class_int>` id, :ref:`bool<class_bool>` was_clean_close **)**
 
-当客户端断开连接时触发。如果连接被彻底关闭``was_clean_close`` 将是``true`` 。
+当客户端断开连接时触发。如果连接被彻底关闭\ ``was_clean_close`` 将是\ ``true`` 。
 
 ----
 
@@ -89,7 +89,7 @@ Signals
 
 当收到一个新消息时触发。
 
-**注意：**这个信号在用作高级多人对等的时候，*不*触发。
+**注意：**\ 这个信号在用作高级多人对等的时候，*不*\ 触发。
 
 Property Descriptions
 ---------------------
@@ -106,7 +106,7 @@ Property Descriptions
 | *Getter*  | get_bind_ip()      |
 +-----------+--------------------+
 
-当不设置为``*``\ 时，将限制进入的连接到指定的IP地址。将``bind_ip``\ 设置为``127.0.0.1``\ 将导致服务器只监听本地主机。
+当不设置为\ ``*``\ 时，将限制进入的连接到指定的IP地址。将\ ``bind_ip``\ 设置为\ ``127.0.0.1``\ 将导致服务器只监听本地主机。
 
 ----
 
@@ -120,7 +120,7 @@ Property Descriptions
 | *Getter* | get_ca_chain()      |
 +----------+---------------------+
 
-当使用SSL时，你可以将其设置为一个有效的:ref:`X509Certificate<class_X509Certificate>`，作为SSL握手过程中额外的CA链信息提供。参阅:ref:`private_key<class_WebSocketServer_property_private_key>`\ 和:ref:`ssl_certificate<class_WebSocketServer_property_ssl_certificate>`。
+当使用SSL时，你可以将其设置为一个有效的\ :ref:`X509Certificate<class_X509Certificate>`，作为SSL握手过程中额外的CA链信息提供。参阅\ :ref:`private_key<class_WebSocketServer_property_private_key>`\ 和\ :ref:`ssl_certificate<class_WebSocketServer_property_ssl_certificate>`。
 
 ----
 
@@ -150,7 +150,7 @@ Property Descriptions
 | *Getter* | get_private_key()      |
 +----------+------------------------+
 
-当设置为有效的:ref:`CryptoKey<class_CryptoKey>`\ 时，与:ref:`ssl_certificate<class_WebSocketServer_property_ssl_certificate>`\ 一起，将导致服务器需要SSL而不是普通的TCP，即``wss://``\ 协议。
+当设置为有效的\ :ref:`CryptoKey<class_CryptoKey>`\ 时，与\ :ref:`ssl_certificate<class_WebSocketServer_property_ssl_certificate>`\ 一起，将导致服务器需要SSL而不是普通的TCP，即\ ``wss://``\ 协议。
 
 ----
 
@@ -164,7 +164,7 @@ Property Descriptions
 | *Getter* | get_ssl_certificate()      |
 +----------+----------------------------+
 
-当设置为有效的:ref:`X509Certificate<class_X509Certificate>`\ 时，连同:ref:`private_key<class_WebSocketServer_property_private_key>`，将导致服务器需要SSL而不是普通的TCP，即``wss://``\ 协议。
+当设置为有效的\ :ref:`X509Certificate<class_X509Certificate>`\ 时，连同\ :ref:`private_key<class_WebSocketServer_property_private_key>`，将导致服务器需要SSL而不是普通的TCP，即\ ``wss://``\ 协议。
 
 Method Descriptions
 -------------------
@@ -173,7 +173,7 @@ Method Descriptions
 
 - void **disconnect_peer** **(** :ref:`int<class_int>` id, :ref:`int<class_int>` code=1000, :ref:`String<class_String>` reason="" **)**
 
-断开由``id``\ 标识的对等体与服务器的连接。更多信息参阅:ref:`WebSocketPeer.close<class_WebSocketPeer_method_close>`。
+断开由\ ``id``\ 标识的对等体与服务器的连接。更多信息参阅\ :ref:`WebSocketPeer.close<class_WebSocketPeer_method_close>`。
 
 ----
 
@@ -197,7 +197,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **has_peer** **(** :ref:`int<class_int>` id **)** |const|
 
-如果一个具有给定ID的对等体被连接，则返回``true``。
+如果一个具有给定ID的对等体被连接，则返回\ ``true``。
 
 ----
 
@@ -205,7 +205,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_listening** **(** **)** |const|
 
-如果服务器正在监听某个端口，返回``true``。
+如果服务器正在监听某个端口，返回\ ``true``。
 
 ----
 

@@ -84,7 +84,7 @@ enum **Feature**:
 
 - **FEATURE_IMPORT_DOCK** = **6** --- 导入扩展面板。如果禁用此功能，则导入扩展面板将不可见。
 
-- **FEATURE_MAX** = **7** --- 表示:ref:`Feature<enum_EditorFeatureProfile_Feature>`\ 枚举的大小。
+- **FEATURE_MAX** = **7** --- 表示\ :ref:`Feature<enum_EditorFeatureProfile_Feature>`\ 枚举的大小。
 
 Method Descriptions
 -------------------
@@ -93,7 +93,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **get_feature_name** **(** :ref:`Feature<enum_EditorFeatureProfile_Feature>` feature **)**
 
-返回指定的``feature``\ 的可读名称。
+返回指定的\ ``feature``\ 的可读名称。
 
 ----
 
@@ -101,7 +101,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_class_disabled** **(** :ref:`String<class_String>` class_name **)** |const|
 
-如果``class_name``\ 指定的类被禁用，返回``true``。当类被禁用时，该类将不会出现在创建新节点的对话框中。
+如果\ ``class_name``\ 指定的类被禁用，返回\ ``true``。当类被禁用时，该类将不会出现在创建新节点的对话框中。
 
 ----
 
@@ -109,7 +109,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_class_editor_disabled** **(** :ref:`String<class_String>` class_name **)** |const|
 
-如果``class_name``\ 指定的类的编辑被禁用，返回``true``。禁用时，类仍然会出现在 "创建新节点 "对话框中，但在选择继承的节点时，检查器将是只读的。
+如果\ ``class_name``\ 指定的类的编辑被禁用，返回\ ``true``。禁用时，类仍然会出现在 "创建新节点 "对话框中，但在选择继承的节点时，检查器将是只读的。
 
 ----
 
@@ -117,7 +117,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_class_property_disabled** **(** :ref:`String<class_String>` class_name, :ref:`String<class_String>` property **)** |const|
 
-如果``class_name``\ 指定的类中的``property``\ 被禁用，则返回``true``。当属性被禁用时，当``class_name``\ 类被指定为类的(继承)父节点时，它将不会出现在检查器中。
+如果\ ``class_name``\ 指定的类中的\ ``property``\ 被禁用，则返回\ ``true``。当属性被禁用时，当\ ``class_name``\ 类被指定为类的(继承)父节点时，它将不会出现在检查器中。
 
 ----
 
@@ -125,7 +125,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_feature_disabled** **(** :ref:`Feature<enum_EditorFeatureProfile_Feature>` feature **)** |const|
 
-如果``feature``\ 被禁用，返回``true``。当一个功能被禁用时，它将从编辑器中完全消失。
+如果\ ``feature``\ 被禁用，返回\ ``true``。当一个功能被禁用时，它将从编辑器中完全消失。
 
 ----
 
@@ -133,7 +133,7 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **load_from_file** **(** :ref:`String<class_String>` path **)**
 
-从文件中加载一个编辑器功能配置文件。该文件必须遵循JSON格式，通过使用功能配置文件管理器的**Export**按钮或:ref:`save_to_file<class_EditorFeatureProfile_method_save_to_file>`\ 方法获得。
+从文件中加载一个编辑器功能配置文件。该文件必须遵循JSON格式，通过使用功能配置文件管理器的\ **Export**\ 按钮或\ :ref:`save_to_file<class_EditorFeatureProfile_method_save_to_file>`\ 方法获得。
 
 ----
 
@@ -141,7 +141,7 @@ Method Descriptions
 
 - :ref:`Error<enum_@GlobalScope_Error>` **save_to_file** **(** :ref:`String<class_String>` path **)**
 
-将编辑器的功能配置保存到JSON格式的文件中。然后可以使用特征配置文件管理器的**导入**按钮或:ref:`load_from_file<class_EditorFeatureProfile_method_load_from_file>`\ 按钮导入它。
+将编辑器的功能配置保存到JSON格式的文件中。然后可以使用特征配置文件管理器的\ **导入**\ 按钮或\ :ref:`load_from_file<class_EditorFeatureProfile_method_load_from_file>`\ 按钮导入它。
 
 ----
 

@@ -16,9 +16,9 @@ MultiMeshInstance2D
 Description
 -----------
 
-``MultiMeshInstance2D``\ 是特有的节点，用于实例化2D的:ref:`MultiMesh<class_MultiMesh>`\ 资源。
+``MultiMeshInstance2D``\ 是特有的节点，用于实例化2D的\ :ref:`MultiMesh<class_MultiMesh>`\ 资源。
 
-使用方法与:ref:`MultiMeshInstance<class_MultiMeshInstance>`\ 相同。
+使用方法与\ :ref:`MultiMeshInstance<class_MultiMeshInstance>`\ 相同。
 
 Properties
 ----------
@@ -38,7 +38,7 @@ Signals
 
 - **texture_changed** **(** **)**
 
-当:ref:`texture<class_MultiMeshInstance2D_property_texture>`\ 被改变时触发。
+当\ :ref:`texture<class_MultiMeshInstance2D_property_texture>`\ 被改变时触发。
 
 Property Descriptions
 ---------------------
@@ -53,7 +53,7 @@ Property Descriptions
 | *Getter* | get_multimesh()      |
 +----------+----------------------+
 
-将由``MultiMeshInstance2D``\ 绘制的:ref:`MultiMesh<class_MultiMesh>`。
+将由\ ``MultiMeshInstance2D``\ 绘制的\ :ref:`MultiMesh<class_MultiMesh>`。
 
 ----
 
@@ -83,7 +83,7 @@ The normal map that will be used if using the default :ref:`CanvasItemMaterial<c
 | *Getter* | get_texture()      |
 +----------+--------------------+
 
-如果使用默认的:ref:`CanvasItemMaterial<class_CanvasItemMaterial>`，就会使用:ref:`Texture<class_Texture>`。可以在CanvasItem着色器中作为``TEXTURE``\ 访问。
+如果使用默认的\ :ref:`CanvasItemMaterial<class_CanvasItemMaterial>`，就会使用\ :ref:`Texture<class_Texture>`。可以在CanvasItem着色器中作为\ ``TEXTURE``\ 访问。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

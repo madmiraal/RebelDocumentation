@@ -116,7 +116,7 @@ Property Descriptions
 
 可碰撞的物体可以存在于 32 个不同层中的任何一个。这些层的工作就像一个标签系统，并不是可视化的。一个可碰撞物体可以使用这些层来选择它可以与哪些物体碰撞，使用 collision_mask 属性。
 
-如果对象 A 在对象 B 所扫描的任何层中，或者对象 B 在对象 A 所扫描的任何层中，就会检测到接触。更多信息请参阅文档中的:ref:`碰撞层和掩码 <tutorials/physics/physics_introduction:collision layers and masks>`。
+如果对象 A 在对象 B 所扫描的任何层中，或者对象 B 在对象 A 所扫描的任何层中，就会检测到接触。更多信息请参阅文档中的\ :ref:`碰撞层和掩码 <tutorials/physics/physics_introduction:collision layers and masks>`。
 
 ----
 
@@ -132,7 +132,7 @@ Property Descriptions
 | *Getter*  | get_collision_mask()      |
 +-----------+---------------------------+
 
-此 SoftBody 扫描碰撞的物理层。更多信息请参阅文档中的:ref:`碰撞层和掩码 <tutorials/physics/physics_introduction:collision layers and masks>`。
+此 SoftBody 扫描碰撞的物理层。更多信息请参阅文档中的\ :ref:`碰撞层和掩码 <tutorials/physics/physics_introduction:collision layers and masks>`。
 
 ----
 
@@ -377,7 +377,7 @@ Method Descriptions
 
 - void **set_point_pinned** **(** :ref:`int<class_int>` point_index, :ref:`bool<class_bool>` pinned, :ref:`NodePath<class_NodePath>` attachment_path=NodePath("") **)**
 
-设置表面顶点的固定状态。当设置为 ``true`` 时，可选的``attachment_path``\ 可以定义一个空间:ref:`Spatial<class_Spatial>`，被固定的顶点将连接到这个空间。
+设置表面顶点的固定状态。当设置为 ``true`` 时，可选的\ ``attachment_path``\ 可以定义一个空间\ :ref:`Spatial<class_Spatial>`，被固定的顶点将连接到这个空间。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

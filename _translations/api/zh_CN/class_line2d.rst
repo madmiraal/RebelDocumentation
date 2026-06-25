@@ -81,7 +81,7 @@ Enumerations
 
 enum **LineJointMode**:
 
-- **LINE_JOINT_SHARP** = **0** --- 这条线的接头将是尖的。如果``sharp_limit``\ 大于关节的旋转，则它将变为斜角关节。
+- **LINE_JOINT_SHARP** = **0** --- 这条线的接头将是尖的。如果\ ``sharp_limit``\ 大于关节的旋转，则它将变为斜角关节。
 
 - **LINE_JOINT_BEVEL** = **1** --- 线的接头将斜切/倒角。
 
@@ -119,9 +119,9 @@ enum **LineTextureMode**:
 
 - **LINE_TEXTURE_NONE** = **0** --- 获取纹理的左侧像素并在整个线条上渲染它。
 
-- **LINE_TEXTURE_TILE** = **1** --- 在线条上平铺纹理。导入纹理时必须启用**Repeat**才能正常工作。
+- **LINE_TEXTURE_TILE** = **1** --- 在线条上平铺纹理。导入纹理时必须启用\ **Repeat**\ 才能正常工作。
 
-- **LINE_TEXTURE_STRETCH** = **2** --- 沿直线拉伸纹理。导入禁用**重复**的纹理以获得最佳效果。
+- **LINE_TEXTURE_STRETCH** = **2** --- 沿直线拉伸纹理。导入禁用\ **重复**\ 的纹理以获得最佳效果。
 
 Property Descriptions
 ---------------------
@@ -158,7 +158,7 @@ If ``true``, the line's border will attempt to perform antialiasing by drawing t
 | *Getter*  | get_begin_cap_mode()      |
 +-----------+---------------------------+
 
-控制直线的第一个点的样式。使用:ref:`LineCapMode<enum_Line2D_LineCapMode>`\ 线帽模式常数。
+控制直线的第一个点的样式。使用\ :ref:`LineCapMode<enum_Line2D_LineCapMode>`\ 线帽模式常数。
 
 ----
 
@@ -190,7 +190,7 @@ If ``true``, the line's border will attempt to perform antialiasing by drawing t
 | *Getter*  | get_end_cap_mode()      |
 +-----------+-------------------------+
 
-控制线条最后一点的样式。使用:ref:`LineCapMode<enum_Line2D_LineCapMode>`\ 常数。
+控制线条最后一点的样式。使用\ :ref:`LineCapMode<enum_Line2D_LineCapMode>`\ 常数。
 
 ----
 
@@ -282,7 +282,7 @@ If ``true``, the line's border will attempt to perform antialiasing by drawing t
 | *Getter* | get_texture()      |
 +----------+--------------------+
 
-用于线条纹理的纹理。使用``texture_mode``\ 作为绘图样式。
+用于线条纹理的纹理。使用\ ``texture_mode``\ 作为绘图样式。
 
 ----
 
@@ -298,7 +298,7 @@ If ``true``, the line's border will attempt to perform antialiasing by drawing t
 | *Getter*  | get_texture_mode()      |
 +-----------+-------------------------+
 
-在线条上渲染``texture``\ 的样式。使用:ref:`LineTextureMode<enum_Line2D_LineTextureMode>`\ 常量。
+在线条上渲染\ ``texture``\ 的样式。使用\ :ref:`LineTextureMode<enum_Line2D_LineTextureMode>`\ 常量。
 
 ----
 
@@ -337,9 +337,9 @@ Method Descriptions
 
 - void **add_point** **(** :ref:`Vector2<class_Vector2>` position, :ref:`int<class_int>` at_position=-1 **)**
 
-在``position``\ 添加点。将点追加到直线的末尾。
+在\ ``position``\ 添加点。将点追加到直线的末尾。
 
-如果给定了位置``at_position``，则在位置``at_position``\ 之前插入该点，并将该点（以及之后的每个点）移动到插入点之后。如果未给出位置处的``at_position``，或者是非法值（``at_position <0``\ 或位置处的``>=[method get_point_count]``），则该点将追加到点列表的末尾。
+如果给定了位置\ ``at_position``，则在位置\ ``at_position``\ 之前插入该点，并将该点（以及之后的每个点）移动到插入点之后。如果未给出位置处的\ ``at_position``，或者是非法值（``at_position <0``\ 或位置处的\ ``>=[method get_point_count]``），则该点将追加到点列表的末尾。
 
 ----
 
@@ -363,7 +363,7 @@ Method Descriptions
 
 - :ref:`Vector2<class_Vector2>` **get_point_position** **(** :ref:`int<class_int>` i **)** |const|
 
-返回点``i``\ 的位置。
+返回点\ ``i``\ 的位置。
 
 ----
 
@@ -371,7 +371,7 @@ Method Descriptions
 
 - void **remove_point** **(** :ref:`int<class_int>` i **)**
 
-将索引``i``\ 处的点从直线中移除。
+将索引\ ``i``\ 处的点从直线中移除。
 
 ----
 
@@ -379,7 +379,7 @@ Method Descriptions
 
 - void **set_point_position** **(** :ref:`int<class_int>` i, :ref:`Vector2<class_Vector2>` position **)**
 
-用提供的``position``\ 位置覆盖索引``i``\ 处点的位置。
+用提供的\ ``position``\ 位置覆盖索引\ ``i``\ 处点的位置。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

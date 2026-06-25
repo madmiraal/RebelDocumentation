@@ -20,7 +20,7 @@ Description
 
 此 :ref:`Control<class_Control>` 节点用于编辑器的属性检查器以允许编辑 :ref:`Resource<class_Resource>` 类型属性。它提供了创建、加载、保存和转换资源的选项。可以与 :ref:`EditorInspectorPlugin<class_EditorInspectorPlugin>` 检查器插件一起使用以重新创建相同的行为。
 
-**注意：**这个 :ref:`Control<class_Control>` 不包括资源的任何编辑器，因为编辑是由属性检查器本身或子检查器控制的。
+**注意：**\ 这个 :ref:`Control<class_Control>` 不包括资源的任何编辑器，因为编辑是由属性检查器本身或子检查器控制的。
 
 Properties
 ----------
@@ -69,7 +69,7 @@ Signals
 
 - **resource_selected** **(** :ref:`Resource<class_Resource>` resource, :ref:`bool<class_bool>` edit **)**
 
-当资源值被设置，并且用户点击它编辑时触发。当``edit``\ 为``true``\ 时，该信号是由上下文菜单的 "Edit" 选项引起。
+当资源值被设置，并且用户点击它编辑时触发。当\ ``edit``\ 为\ ``true``\ 时，该信号是由上下文菜单的 "Edit" 选项引起。
 
 Property Descriptions
 ---------------------
@@ -177,7 +177,7 @@ Method Descriptions
 
 在更新 ``EditorResourcePicker`` 的上下文菜单时调用这个虚方法。实现这个方法可以用你自己的选项覆盖“新建...”项目。``menu_node`` 是对 :ref:`PopupMenu<class_PopupMenu>` 菜单弹窗节点的引用。
 
-**注意：**实现 :ref:`handle_menu_selected<class_EditorResourcePicker_method_handle_menu_selected>` 来处理这些自定义项目。
+**注意：**\ 实现 :ref:`handle_menu_selected<class_EditorResourcePicker_method_handle_menu_selected>` 来处理这些自定义项目。
 
 ----
 

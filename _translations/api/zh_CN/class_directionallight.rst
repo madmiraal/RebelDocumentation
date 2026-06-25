@@ -63,7 +63,7 @@ enum **ShadowMode**:
 
 - **SHADOW_ORTHOGONAL** = **0** --- 从正交的角度渲染整个场景的阴影图。这是最快的方向性阴影模式。可能会导致近距离物体的阴影更模糊。
 
-- **SHADOW_PARALLEL_2_SPLITS** = **1** --- 将视图分割成2个区域，每个区域都有自己的阴影图。这个阴影模式是:ref:`SHADOW_ORTHOGONAL<class_DirectionalLight_constant_SHADOW_ORTHOGONAL>`\ 和:ref:`SHADOW_PARALLEL_4_SPLITS<class_DirectionalLight_constant_SHADOW_PARALLEL_4_SPLITS>`\ 在性能上的折中。
+- **SHADOW_PARALLEL_2_SPLITS** = **1** --- 将视图分割成2个区域，每个区域都有自己的阴影图。这个阴影模式是\ :ref:`SHADOW_ORTHOGONAL<class_DirectionalLight_constant_SHADOW_ORTHOGONAL>`\ 和\ :ref:`SHADOW_PARALLEL_4_SPLITS<class_DirectionalLight_constant_SHADOW_PARALLEL_4_SPLITS>`\ 在性能上的折中。
 
 - **SHADOW_PARALLEL_4_SPLITS** = **2** --- 将视图frustum分成4个区域，每个区域都有自己的阴影图。这是最慢的方向性阴影模式。
 
@@ -112,7 +112,7 @@ Property Descriptions
 | *Getter*  | is_blend_splits_enabled() |
 +-----------+---------------------------+
 
-如果``true``，则会牺牲阴影细节，以换取更平滑的分割之间的过渡。
+如果\ ``true``，则会牺牲阴影细节，以换取更平滑的分割之间的过渡。
 
 ----
 
@@ -128,7 +128,7 @@ Property Descriptions
 | *Getter*  | get_shadow_depth_range()      |
 +-----------+-------------------------------+
 
-优化阴影渲染的细节与运动。参阅:ref:`ShadowDepthRange<enum_DirectionalLight_ShadowDepthRange>`。
+优化阴影渲染的细节与运动。参阅\ :ref:`ShadowDepthRange<enum_DirectionalLight_ShadowDepthRange>`。
 
 ----
 
@@ -160,7 +160,7 @@ Property Descriptions
 | *Getter*  | get_shadow_mode()      |
 +-----------+------------------------+
 
-灯光的阴影渲染算法。参阅:ref:`ShadowMode<enum_DirectionalLight_ShadowMode>`。
+灯光的阴影渲染算法。参阅\ :ref:`ShadowMode<enum_DirectionalLight_ShadowMode>`。
 
 ----
 
@@ -192,7 +192,7 @@ Property Descriptions
 | *Getter*  | get_param()      |
 +-----------+------------------+
 
-相机到影子分割1的距离。相对于:ref:`directional_shadow_max_distance<class_DirectionalLight_property_directional_shadow_max_distance>`。只有当:ref:`directional_shadow_mode<class_DirectionalLight_property_directional_shadow_mode>`\ 是``SHADOW_PARALLEL_2_SPLITS``\ 或``SHADOW_PARALLEL_4_SPLITS``\ 时才使用。
+相机到影子分割1的距离。相对于\ :ref:`directional_shadow_max_distance<class_DirectionalLight_property_directional_shadow_max_distance>`。只有当\ :ref:`directional_shadow_mode<class_DirectionalLight_property_directional_shadow_mode>`\ 是\ ``SHADOW_PARALLEL_2_SPLITS``\ 或\ ``SHADOW_PARALLEL_4_SPLITS``\ 时才使用。
 
 ----
 
@@ -208,7 +208,7 @@ Property Descriptions
 | *Getter*  | get_param()      |
 +-----------+------------------+
 
-阴影分割1到分割2的距离。相对于:ref:`directional_shadow_max_distance<class_DirectionalLight_property_directional_shadow_max_distance>`。仅在:ref:`directional_shadow_mode<class_DirectionalLight_property_directional_shadow_mode>`\ 为``SHADOW_PARALLEL_2_SPLITS``\ 或``SHADOW_PARALLEL_4_SPLITS``\ 时使用。
+阴影分割1到分割2的距离。相对于\ :ref:`directional_shadow_max_distance<class_DirectionalLight_property_directional_shadow_max_distance>`。仅在\ :ref:`directional_shadow_mode<class_DirectionalLight_property_directional_shadow_mode>`\ 为\ ``SHADOW_PARALLEL_2_SPLITS``\ 或\ ``SHADOW_PARALLEL_4_SPLITS``\ 时使用。
 
 ----
 
@@ -224,7 +224,7 @@ Property Descriptions
 | *Getter*  | get_param()      |
 +-----------+------------------+
 
-从影子分割2到分割3的距离。相对于:ref:`directional_shadow_max_distance<class_DirectionalLight_property_directional_shadow_max_distance>`。只有当:ref:`directional_shadow_mode<class_DirectionalLight_property_directional_shadow_mode>`\ 为``SHADOW_PARALLEL_4_SPLITS``\ 时才使用。
+从影子分割2到分割3的距离。相对于\ :ref:`directional_shadow_max_distance<class_DirectionalLight_property_directional_shadow_max_distance>`。只有当\ :ref:`directional_shadow_mode<class_DirectionalLight_property_directional_shadow_mode>`\ 为\ ``SHADOW_PARALLEL_4_SPLITS``\ 时才使用。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

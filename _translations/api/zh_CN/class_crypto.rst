@@ -81,9 +81,9 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **constant_time_compare** **(** :ref:`PoolByteArray<class_PoolByteArray>` trusted, :ref:`PoolByteArray<class_PoolByteArray>` received **)**
 
-比较两个:ref:`PoolByteArray<class_PoolByteArray>`\ 是否相等，而不泄露时间信息，以防止计时攻击。
+比较两个\ :ref:`PoolByteArray<class_PoolByteArray>`\ 是否相等，而不泄露时间信息，以防止计时攻击。
 
-更多信息参阅`这篇博文 <https://paragonie.com/blog/2015/11/preventing-timing-attacks-on-string-comparison-with-double-hmac-strategy>`__。
+更多信息参阅\ `这篇博文 <https://paragonie.com/blog/2015/11/preventing-timing-attacks-on-string-comparison-with-double-hmac-strategy>`__。
 
 ----
 
@@ -91,9 +91,9 @@ Method Descriptions
 
 - :ref:`PoolByteArray<class_PoolByteArray>` **decrypt** **(** :ref:`CryptoKey<class_CryptoKey>` key, :ref:`PoolByteArray<class_PoolByteArray>` ciphertext **)**
 
-用提供的私人``key``\ 解密给定的``ciphertext``。
+用提供的私人\ ``key``\ 解密给定的\ ``ciphertext``。
 
-**注意：**所接受的密码文本的最大尺寸受到密钥大小限制。
+**注意：**\ 所接受的密码文本的最大尺寸受到密钥大小限制。
 
 ----
 
@@ -101,9 +101,9 @@ Method Descriptions
 
 - :ref:`PoolByteArray<class_PoolByteArray>` **encrypt** **(** :ref:`CryptoKey<class_CryptoKey>` key, :ref:`PoolByteArray<class_PoolByteArray>` plaintext **)**
 
-用提供的公钥 ``key`` 加密给定的``plaintext``。
+用提供的公钥 ``key`` 加密给定的\ ``plaintext``。
 
-**注意：**接受的明文的最大尺寸受到密钥大小的限制。
+**注意：**\ 接受的明文的最大尺寸受到密钥大小的限制。
 
 ----
 
@@ -119,7 +119,7 @@ Method Descriptions
 
 - :ref:`CryptoKey<class_CryptoKey>` **generate_rsa** **(** :ref:`int<class_int>` size **)**
 
-生成可用于创建自签名证书并传递给:ref:`StreamPeerSSL.accept_stream<class_StreamPeerSSL_method_accept_stream>`\ 的RSA :ref:`CryptoKey<class_CryptoKey>`。
+生成可用于创建自签名证书并传递给\ :ref:`StreamPeerSSL.accept_stream<class_StreamPeerSSL_method_accept_stream>`\ 的RSA :ref:`CryptoKey<class_CryptoKey>`。
 
 ----
 
@@ -127,7 +127,7 @@ Method Descriptions
 
 - :ref:`X509Certificate<class_X509Certificate>` **generate_self_signed_certificate** **(** :ref:`CryptoKey<class_CryptoKey>` key, :ref:`String<class_String>` issuer_name="CN=myserver,O=myorganisation,C=IT", :ref:`String<class_String>` not_before="20140101000000", :ref:`String<class_String>` not_after="20340101000000" **)**
 
-根据给定的:ref:`CryptoKey<class_CryptoKey>`\ 和``issuer_name``\ 生成自签名的:ref:`X509Certificate<class_X509Certificate>`。证书的有效性将由``not_before``\ 和``not_after``（第一个有效日期和最后一个有效日期）定义。 ``issuer_name``\ 必须至少包含“ CN =“（通用名称，即域名），“ O =”（组织，即您的公司名称），“ C =“（国家，即2个字母的ISO） -3166组织所在国家/地区的代码）。
+根据给定的\ :ref:`CryptoKey<class_CryptoKey>`\ 和\ ``issuer_name``\ 生成自签名的\ :ref:`X509Certificate<class_X509Certificate>`。证书的有效性将由\ ``not_before``\ 和\ ``not_after``\ （第一个有效日期和最后一个有效日期）定义。 ``issuer_name``\ 必须至少包含“ CN =“（通用名称，即域名），“ O =”（组织，即您的公司名称），“ C =“（国家，即2个字母的ISO） -3166组织所在国家/地区的代码）。
 
 一个生成RSA密钥和X509自签名证书的小示例。
 
@@ -155,7 +155,7 @@ Method Descriptions
 
 - :ref:`PoolByteArray<class_PoolByteArray>` **sign** **(** :ref:`HashType<enum_HashingContext_HashType>` hash_type, :ref:`PoolByteArray<class_PoolByteArray>` hash, :ref:`CryptoKey<class_CryptoKey>` key **)**
 
-使用提供的私有``key``\ 对类型为``hash_type``\ 的给定的``hash``\ 进行签名。
+使用提供的私有\ ``key``\ 对类型为\ ``hash_type``\ 的给定的\ ``hash``\ 进行签名。
 
 ----
 
@@ -163,7 +163,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **verify** **(** :ref:`HashType<enum_HashingContext_HashType>` hash_type, :ref:`PoolByteArray<class_PoolByteArray>` hash, :ref:`PoolByteArray<class_PoolByteArray>` signature, :ref:`CryptoKey<class_CryptoKey>` key **)**
 
-对照提供的公共``key``\ 验证类型为``hash_type``\ 的``hash_type``\ 的给定``签名``。
+对照提供的公共\ ``key``\ 验证类型为\ ``hash_type``\ 的\ ``hash_type``\ 的给定\ ``签名``。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

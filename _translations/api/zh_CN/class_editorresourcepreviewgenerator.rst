@@ -16,7 +16,7 @@ EditorResourcePreviewGenerator
 Description
 -----------
 
-自定义代码来生成预览。请查看:ref:`EditorSettings<class_EditorSettings>`\ 中的``file_dialog/thumbnail_size``，找出适合做预览的尺寸。
+自定义代码来生成预览。请查看\ :ref:`EditorSettings<class_EditorSettings>`\ 中的\ ``file_dialog/thumbnail_size``，找出适合做预览的尺寸。
 
 Methods
 -------
@@ -40,9 +40,9 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **can_generate_small_preview** **(** **)** |virtual|
 
-如果该函数返回``true``，生成器将调用:ref:`generate<class_EditorResourcePreviewGenerator_method_generate>`\ 或:ref:`generate_from_path<class_EditorResourcePreviewGenerator_method_generate_from_path>`\ 来进行小型预览。
+如果该函数返回\ ``true``，生成器将调用\ :ref:`generate<class_EditorResourcePreviewGenerator_method_generate>`\ 或\ :ref:`generate_from_path<class_EditorResourcePreviewGenerator_method_generate_from_path>`\ 来进行小型预览。
 
-默认情况下，它会返回``false``。
+默认情况下，它会返回\ ``false``。
 
 ----
 
@@ -62,7 +62,7 @@ Method Descriptions
 
 - :ref:`Texture<class_Texture>` **generate_from_path** **(** :ref:`String<class_String>` path, :ref:`Vector2<class_Vector2>` size **)** |virtual|
 
-直接从指定大小的路径生成预览。实现此操作是可选的，因为默认代码将加载并调用:ref:`generate<class_EditorResourcePreviewGenerator_method_generate>`。
+直接从指定大小的路径生成预览。实现此操作是可选的，因为默认代码将加载并调用\ :ref:`generate<class_EditorResourcePreviewGenerator_method_generate>`。
 
 返回空纹理是失败的好方法，并让另一个生成器负责。
 
@@ -74,9 +74,9 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **generate_small_preview_automatically** **(** **)** |virtual|
 
-如果此函数返回``true``，则生成器将根据由:ref:`generate<class_EditorResourcePreviewGenerator_method_generate>`\ 或:ref:`generate_from_path<class_EditorResourcePreviewGenerator_method_generate_from_path>`\ 方法生成的常规预览纹理自动生成较小的预览。
+如果此函数返回\ ``true``，则生成器将根据由\ :ref:`generate<class_EditorResourcePreviewGenerator_method_generate>`\ 或\ :ref:`generate_from_path<class_EditorResourcePreviewGenerator_method_generate_from_path>`\ 方法生成的常规预览纹理自动生成较小的预览。
 
-默认情况下，它返回``false``。
+默认情况下，它返回\ ``false``。
 
 ----
 
@@ -84,7 +84,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **handles** **(** :ref:`String<class_String>` type **)** |virtual|
 
-如果你的生成器支持类型``type``\ 的资源，返回``true``。
+如果你的生成器支持类型\ ``type``\ 的资源，返回\ ``true``。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

@@ -11,7 +11,7 @@ PhysicsDirectBodyState
 
 **Inherits:** :ref:`Object<class_Object>`
 
-直接访问:ref:`PhysicsServer<class_PhysicsServer>`\ 中的物理体的对象。
+直接访问\ :ref:`PhysicsServer<class_PhysicsServer>`\ 中的物理体的对象。
 
 Description
 -----------
@@ -112,7 +112,7 @@ Property Descriptions
 | *Getter* | get_angular_velocity()      |
 +----------+-----------------------------+
 
-物体的旋转速度，使用轴-角格式。向量的大小表示旋转率，单位为*弧度*每秒。
+物体的旋转速度，使用轴-角格式。向量的大小表示旋转率，单位为\ *弧度*\ 每秒。
 
 ----
 
@@ -184,7 +184,7 @@ Property Descriptions
 | *Getter* | is_sleeping()          |
 +----------+------------------------+
 
-如果``true``，则该物体当前处于睡眠状态(不活动)。
+如果\ ``true``，则该物体当前处于睡眠状态(不活动)。
 
 ----
 
@@ -257,7 +257,7 @@ Method Descriptions
 
 增加一个恒定的方向力，而不影响旋转。
 
-这相当于``add_force(force, Vector3(0,0,0))``。
+这相当于\ ``add_force(force, Vector3(0,0,0))``。
 
 ----
 
@@ -283,7 +283,7 @@ Method Descriptions
 
 施加单一方向的冲量而不影响旋转。
 
-这等价于``apply_impulse(Vector3(0,0,0)， impulse)``。
+这等价于\ ``apply_impulse(Vector3(0,0,0)， impulse)``。
 
 ----
 
@@ -299,7 +299,7 @@ Method Descriptions
 
 - void **apply_torque_impulse** **(** :ref:`Vector3<class_Vector3>` j **)**
 
-施加一个扭矩冲量(这将受到物体质量和形状的影响)。这将围绕作为参数传递的向量``j``\ 旋转主体。
+施加一个扭矩冲量(这将受到物体质量和形状的影响)。这将围绕作为参数传递的向量\ ``j``\ 旋转主体。
 
 ----
 
@@ -307,7 +307,7 @@ Method Descriptions
 
 - :ref:`RID<class_RID>` **get_contact_collider** **(** :ref:`int<class_int>` contact_idx **)** |const|
 
-返回碰撞体的:ref:`RID<class_RID>`。
+返回碰撞体的\ :ref:`RID<class_RID>`。
 
 ----
 
@@ -357,7 +357,7 @@ Method Descriptions
 
 返回此物体与其他物体的接触次数。
 
-**注意：**默认情况下，除非物体被设为监视接触者，否则返回0。参阅 :ref:`RigidBody2D.contact_monitor<class_RigidBody2D_property_contact_monitor>`。
+**注意：**\ 默认情况下，除非物体被设为监视接触者，否则返回0。参阅 :ref:`RigidBody2D.contact_monitor<class_RigidBody2D_property_contact_monitor>`。
 
 ----
 

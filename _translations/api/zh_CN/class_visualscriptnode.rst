@@ -57,7 +57,7 @@ Method Descriptions
 
 - :ref:`VisualScript<class_VisualScript>` **get_visual_script** **(** **)** |const|
 
-返回该节点所绑定的:ref:`VisualScript<class_VisualScript>`\ 实例。
+返回该节点所绑定的\ :ref:`VisualScript<class_VisualScript>`\ 实例。
 
 ----
 

@@ -16,7 +16,7 @@ SliderJoint
 Description
 -----------
 
-在枢轴对象的X轴上滑动。参阅:ref:`Generic6DOFJoint<class_Generic6DOFJoint>`。
+在枢轴对象的X轴上滑动。参阅\ :ref:`Generic6DOFJoint<class_Generic6DOFJoint>`。
 
 Properties
 ----------
@@ -364,7 +364,7 @@ Property Descriptions
 | *Getter*  | get_param()      |
 +-----------+------------------+
 
-一旦超过:ref:`linear_limit/lower_distance<class_SliderJoint_property_linear_limit/lower_distance>`\ 和:ref:`linear_limit/upper_distance<class_SliderJoint_property_linear_limit/upper_distance>`\ 所定义的极限，就会产生的阻尼量。
+一旦超过\ :ref:`linear_limit/lower_distance<class_SliderJoint_property_linear_limit/lower_distance>`\ 和\ :ref:`linear_limit/upper_distance<class_SliderJoint_property_linear_limit/upper_distance>`\ 所定义的极限，就会产生的阻尼量。
 
 ----
 

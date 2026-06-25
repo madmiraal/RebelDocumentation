@@ -16,7 +16,7 @@ VisualShaderNodeScalarDerivativeFunc
 Description
 -----------
 
-此节点仅在``Fragment``\ 和``Light``\ 可视化着色器中可用。
+此节点仅在\ ``Fragment``\ 和\ ``Light``\ 可视化着色器中可用。
 
 Properties
 ----------
@@ -40,9 +40,9 @@ enum **Function**:
 
 - **FUNC_SUM** = **0** --- ``x`` 和 ``y`` 的绝对导数之和。
 
-- **FUNC_X** = **1** --- 在``x``\ 中使用局部差分的导数。
+- **FUNC_X** = **1** --- 在\ ``x``\ 中使用局部差分的导数。
 
-- **FUNC_Y** = **2** --- 在``y``\ 中使用局部差分的导数。
+- **FUNC_Y** = **2** --- 在\ ``y``\ 中使用局部差分的导数。
 
 Property Descriptions
 ---------------------

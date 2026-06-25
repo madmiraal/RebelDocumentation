@@ -47,7 +47,7 @@ Method Descriptions
 
 - :ref:`JavaScriptObject<class_JavaScriptObject>` **create_callback** **(** :ref:`Object<class_Object>` object, :ref:`String<class_String>` method **)**
 
-创建脚本函数的引用，可以被JavaScript用作回调。这个引用必须保持到回调发生为止，否则它就不会被调用。使用方法参阅:ref:`JavaScriptObject<class_JavaScriptObject>`。
+创建脚本函数的引用，可以被JavaScript用作回调。这个引用必须保持到回调发生为止，否则它就不会被调用。使用方法参阅\ :ref:`JavaScriptObject<class_JavaScriptObject>`。
 
 ----
 
@@ -55,7 +55,7 @@ Method Descriptions
 
 - :ref:`Variant<class_Variant>` **create_object** **(** :ref:`String<class_String>` object, ... **)** |vararg|
 
-使用``new``\ 构造函数创建新的JavaScript对象。``object``\ 必须是JavaScript``window``\ 的有效属性。使用方法参阅:ref:`JavaScriptObject<class_JavaScriptObject>`。
+使用\ ``new``\ 构造函数创建新的JavaScript对象。``object``\ 必须是JavaScript\ ``window``\ 的有效属性。使用方法参阅\ :ref:`JavaScriptObject<class_JavaScriptObject>`。
 
 ----
 
@@ -63,11 +63,11 @@ Method Descriptions
 
 - void **download_buffer** **(** :ref:`PoolByteArray<class_PoolByteArray>` buffer, :ref:`String<class_String>` name, :ref:`String<class_String>` mime="application/octet-stream" **)**
 
-提示用户下载一个包含指定``buffer``\ 缓冲区的文件。该文件将具有给定的``name``\ 和``mime``\ 类型。
+提示用户下载一个包含指定\ ``buffer``\ 缓冲区的文件。该文件将具有给定的\ ``name``\ 和\ ``mime``\ 类型。
 
-**注意：** 浏览器可能会根据文件``name``\ 的扩展名，覆盖所提供的`MIME类型 <https://en.wikipedia.org/wiki/Media_type>`__。
+**注意：** 浏览器可能会根据文件\ ``name``\ 的扩展名，覆盖所提供的\ `MIME类型 <https://en.wikipedia.org/wiki/Media_type>`__。
 
-**注意：** 如果:ref:`download_buffer<class_JavaScript_method_download_buffer>`\ 不是由用户交互调用，如点击按钮，浏览器可能会阻止下载。
+**注意：** 如果\ :ref:`download_buffer<class_JavaScript_method_download_buffer>`\ 不是由用户交互调用，如点击按钮，浏览器可能会阻止下载。
 
 **注意：** 如果快速连续提出多个下载请求，浏览器可能会要求用户同意或阻止下载。
 
@@ -77,9 +77,9 @@ Method Descriptions
 
 - :ref:`Variant<class_Variant>` **eval** **(** :ref:`String<class_String>` code, :ref:`bool<class_bool>` use_global_execution_context=false **)**
 
-在浏览器窗口中执行字符串``code``\ 作为JavaScript代码。这是对实际的全局JavaScript函数``eval()``\ 的调用。
+在浏览器窗口中执行字符串\ ``code``\ 作为JavaScript代码。这是对实际的全局JavaScript函数\ ``eval()``\ 的调用。
 
-如果``use_global_execution_context``\ 是``true``，代码将在全局执行环境中被求值。否则，它将在引擎运行时环境中函数的执行上下文中进行求值。
+如果\ ``use_global_execution_context``\ 是\ ``true``，代码将在全局执行环境中被求值。否则，它将在引擎运行时环境中函数的执行上下文中进行求值。
 
 ----
 
@@ -87,7 +87,7 @@ Method Descriptions
 
 - :ref:`JavaScriptObject<class_JavaScriptObject>` **get_interface** **(** :ref:`String<class_String>` interface **)**
 
-返回可以被脚本使用的JavaScript对象的接口。这个``interface``\ 必须是JavaScript``window``\ 的一个有效属性。回调必须接受一个:ref:`Array<class_Array>`\ 参数，它将包含JavaScript ``arguments``。参阅:ref:`JavaScriptObject<class_JavaScriptObject>`\ 的用法。
+返回可以被脚本使用的JavaScript对象的接口。这个\ ``interface``\ 必须是JavaScript\ ``window``\ 的一个有效属性。回调必须接受一个\ :ref:`Array<class_Array>`\ 参数，它将包含JavaScript ``arguments``。参阅\ :ref:`JavaScriptObject<class_JavaScriptObject>`\ 的用法。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

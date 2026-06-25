@@ -52,7 +52,7 @@ Signals
 
 - **editor_refresh_request** **(** **)**
 
-当节点请求刷新编辑器时触发。目前只在:ref:`VisualShaderNodeTexture.source<class_VisualShaderNodeTexture_property_source>`、:ref:`VisualShaderNodeTexture<class_VisualShaderNodeTexture>`\ 和:ref:`VisualShaderNodeCubeMap<class_VisualShaderNodeCubeMap>`\ 及其派生对象的setter中调用。
+当节点请求刷新编辑器时触发。目前只在\ :ref:`VisualShaderNodeTexture.source<class_VisualShaderNodeTexture_property_source>`、:ref:`VisualShaderNodeTexture<class_VisualShaderNodeTexture>`\ 和\ :ref:`VisualShaderNodeCubeMap<class_VisualShaderNodeCubeMap>`\ 及其派生对象的setter中调用。
 
 Enumerations
 ------------
@@ -73,7 +73,7 @@ Enumerations
 
 enum **PortType**:
 
-- **PORT_TYPE_SCALAR** = **0** --- 浮点标量。在着色器代码中被转换成``float``\ 类型。
+- **PORT_TYPE_SCALAR** = **0** --- 浮点标量。在着色器代码中被转换成\ ``float``\ 类型。
 
 - **PORT_TYPE_VECTOR** = **1** --- 浮点值的 3D 向量。在着色器代码中转换为 ``vec3`` 类型。
 
@@ -83,7 +83,7 @@ enum **PortType**:
 
 - **PORT_TYPE_SAMPLER** = **4** --- 采样器类型。转换为着色器代码中的采样器uniform引用。只能用于non-uniform节点中的输入端口。
 
-- **PORT_TYPE_MAX** = **5** --- 表示:ref:`PortType<enum_VisualShaderNode_PortType>`\ 枚举的大小。
+- **PORT_TYPE_MAX** = **5** --- 表示\ :ref:`PortType<enum_VisualShaderNode_PortType>`\ 枚举的大小。
 
 Property Descriptions
 ---------------------
@@ -100,7 +100,7 @@ Property Descriptions
 | *Getter*  | get_output_port_for_preview()      |
 +-----------+------------------------------------+
 
-设置将被显示为预览的输出端口索引。如果设置为``-1``，则没有端口会被打开进行预览。
+设置将被显示为预览的输出端口索引。如果设置为\ ``-1``，则没有端口会被打开进行预览。
 
 Method Descriptions
 -------------------
@@ -109,7 +109,7 @@ Method Descriptions
 
 - :ref:`Array<class_Array>` **get_default_input_values** **(** **)** |const|
 
-返回一个包含节点所有输入端口默认值的:ref:`Array<class_Array>`，形式为``[index0, value0, index1, value1, ...]``。
+返回一个包含节点所有输入端口默认值的\ :ref:`Array<class_Array>`，形式为\ ``[index0, value0, index1, value1, ...]``。
 
 ----
 
@@ -117,7 +117,7 @@ Method Descriptions
 
 - :ref:`Variant<class_Variant>` **get_input_port_default_value** **(** :ref:`int<class_int>` port **)** |const|
 
-返回输入``port``\ 的默认值。
+返回输入\ ``port``\ 的默认值。
 
 ----
 
@@ -125,7 +125,7 @@ Method Descriptions
 
 - void **set_default_input_values** **(** :ref:`Array<class_Array>` values **)**
 
-使用``[index0, value0, index1, value1, ...]``\ 形式的:ref:`Array<class_Array>`\ 设置默认输入端口值。例如: ``[0, Vector3(0, 0, 0), 1, Vector3(0, 0, 0)]``。
+使用\ ``[index0, value0, index1, value1, ...]``\ 形式的\ :ref:`Array<class_Array>`\ 设置默认输入端口值。例如: ``[0, Vector3(0, 0, 0), 1, Vector3(0, 0, 0)]``。
 
 ----
 
@@ -133,7 +133,7 @@ Method Descriptions
 
 - void **set_input_port_default_value** **(** :ref:`int<class_int>` port, :ref:`Variant<class_Variant>` value **)**
 
-设置所选输入``port``\ 的默认值。
+设置所选输入\ ``port``\ 的默认值。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

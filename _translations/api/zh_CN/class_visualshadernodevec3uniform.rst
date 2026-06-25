@@ -11,12 +11,12 @@ VisualShaderNodeVec3Uniform
 
 **Inherits:** :ref:`VisualShaderNodeUniform<class_VisualShaderNodeUniform>` **<** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
 
-一个:ref:`Vector3<class_Vector3>`\ 的uniform，在可视化着色器图中使用。
+一个\ :ref:`Vector3<class_Vector3>`\ 的uniform，在可视化着色器图中使用。
 
 Description
 -----------
 
-在着色器语言中被转换成``uniform vec3``。
+在着色器语言中被转换成\ ``uniform vec3``。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

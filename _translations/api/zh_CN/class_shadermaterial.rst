@@ -75,7 +75,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **property_can_revert** **(** :ref:`String<class_String>` name **)**
 
-如果由``name``\ 标识的属性可以恢复到默认值，则返回``true``。
+如果由\ ``name``\ 标识的属性可以恢复到默认值，则返回\ ``true``。
 
 ----
 

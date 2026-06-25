@@ -203,7 +203,7 @@ enum **TrackType**:
 
 - **TYPE_METHOD** = **2** --- 方法跟踪每个键给定参数的调用函数。
 
-- **TYPE_BEZIER** = **3** --- Bezier轨迹用于使用自定义曲线对数值进行插值。它们也可以用来对向量和颜色的子属性进行动画处理（例如:ref:`Color<class_Color>`\ 的alpha值）。
+- **TYPE_BEZIER** = **3** --- Bezier轨迹用于使用自定义曲线对数值进行插值。它们也可以用来对向量和颜色的子属性进行动画处理（例如\ :ref:`Color<class_Color>`\ 的alpha值）。
 
 - **TYPE_AUDIO** = **4** --- 音频轨道可以用来通过任意类型的 :ref:`AudioStreamPlayer<class_AudioStreamPlayer>` 播放音频流。该流可以在动画中进行修剪和预览。
 
@@ -266,7 +266,7 @@ Property Descriptions
 
 动画的总长度（单位：秒）。
 
-**注意：**长度不以最后一个键为界，因为这个键可能在结束前或结束后，以确保正确的插值和循环。
+**注意：**\ 长度不以最后一个键为界，因为这个键可能在结束前或结束后，以确保正确的插值和循环。
 
 ----
 
@@ -323,7 +323,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **animation_track_insert_key** **(** :ref:`int<class_int>` track_idx, :ref:`float<class_float>` time, :ref:`String<class_String>` animation **)**
 
-在给定的``time``（以秒为单位）中插入值``animation``\ 的键。 ``track_idx``\ 必须是动画轨道的索引。
+在给定的\ ``time``\ （以秒为单位）中插入值\ ``animation``\ 的键。 ``track_idx``\ 必须是动画轨道的索引。
 
 ----
 
@@ -393,7 +393,7 @@ Method Descriptions
 
 - void **audio_track_set_key_stream** **(** :ref:`int<class_int>` track_idx, :ref:`int<class_int>` key_idx, :ref:`Resource<class_Resource>` stream **)**
 
-将 ``key_idx`` 所标识的键流设置为``stream``\ 值。``track_idx``\ 必须是一个音频轨道的索引。
+将 ``key_idx`` 所标识的键流设置为\ ``stream``\ 值。``track_idx``\ 必须是一个音频轨道的索引。
 
 ----
 
@@ -425,9 +425,9 @@ Method Descriptions
 
 - :ref:`int<class_int>` **bezier_track_insert_key** **(** :ref:`int<class_int>` track_idx, :ref:`float<class_float>` time, :ref:`float<class_float>` value, :ref:`Vector2<class_Vector2>` in_handle=Vector2( 0, 0 ), :ref:`Vector2<class_Vector2>` out_handle=Vector2( 0, 0 ) **)**
 
-在给定的``时间``\ 插入一个贝塞尔轨道键，单位为秒。``track_idx`` 必须是 Bezier轨道的索引。
+在给定的\ ``时间``\ 插入一个贝塞尔轨道键，单位为秒。``track_idx`` 必须是 Bezier轨道的索引。
 
-``in_handle``\ 是添加的Bezier曲线点的左侧权重，``out_handle``\ 是右侧权重，而``value``\ 是这个点的实际值。
+``in_handle``\ 是添加的Bezier曲线点的左侧权重，``out_handle``\ 是右侧权重，而\ ``value``\ 是这个点的实际值。
 
 ----
 
@@ -475,7 +475,7 @@ Method Descriptions
 
 - void **copy_track** **(** :ref:`int<class_int>` track_idx, :ref:`Animation<class_Animation>` to_animation **)**
 
-从``to_animation``\ 中添加一个新的轨道，它是给定轨道的副本。
+从\ ``to_animation``\ 中添加一个新的轨道，它是给定轨道的副本。
 
 ----
 
@@ -571,7 +571,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **track_get_key_transition** **(** :ref:`int<class_int>` track_idx, :ref:`int<class_int>` key_idx **)** |const|
 
-返回特定键的过渡曲线（缓动）（参阅内置数学函数:ref:`@GDScript.ease<class_@GDScript_method_ease>`）。
+返回特定键的过渡曲线（缓动）（参阅内置数学函数\ :ref:`@GDScript.ease<class_@GDScript_method_ease>`）。
 
 ----
 
@@ -587,7 +587,7 @@ Method Descriptions
 
 - :ref:`NodePath<class_NodePath>` **track_get_path** **(** :ref:`int<class_int>` track_idx **)** |const|
 
-获取轨迹的路径。有关路径格式的详细信息，请参阅:ref:`track_set_path<class_Animation_method_track_set_path>`。
+获取轨迹的路径。有关路径格式的详细信息，请参阅\ :ref:`track_set_path<class_Animation_method_track_set_path>`。
 
 ----
 
@@ -611,7 +611,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **track_is_enabled** **(** :ref:`int<class_int>` track_idx **)** |const|
 
-如果启用了索引``idx``\ 处的轨迹，则返回``true``。
+如果启用了索引\ ``idx``\ 处的轨迹，则返回\ ``true``。
 
 ----
 
@@ -619,7 +619,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **track_is_imported** **(** :ref:`int<class_int>` track_idx **)** |const|
 
-如果给定的轨迹被导入，返回``true``。否则，返回``false``。
+如果给定的轨迹被导入，返回\ ``true``。否则，返回\ ``false``。
 
 ----
 
@@ -683,7 +683,7 @@ Method Descriptions
 
 - void **track_set_interpolation_loop_wrap** **(** :ref:`int<class_int>` track_idx, :ref:`bool<class_bool>` interpolation **)**
 
-如果``true``，则``idx``\ 处的轨迹包住插值循环。
+如果\ ``true``，则\ ``idx``\ 处的轨迹包住插值循环。
 
 ----
 
@@ -707,7 +707,7 @@ Method Descriptions
 
 - void **track_set_key_transition** **(** :ref:`int<class_int>` track_idx, :ref:`int<class_int>` key_idx, :ref:`float<class_float>` transition **)**
 
-设置特定键的过渡曲线（缓动）（参阅内置数学函数:ref:`@GDScript.ease<class_@GDScript_method_ease>`）。
+设置特定键的过渡曲线（缓动）（参阅内置数学函数\ :ref:`@GDScript.ease<class_@GDScript_method_ease>`）。
 
 ----
 
@@ -723,9 +723,9 @@ Method Descriptions
 
 - void **track_set_path** **(** :ref:`int<class_int>` track_idx, :ref:`NodePath<class_NodePath>` path **)**
 
-设置轨道的路径。路径必须是指向节点场景树的有效路径，必须从将要实现动画的节点的父节点开始指定。控件属性或骨骼的轨道必须在路径后面加上它们的名字，用``":"``\ 分隔。
+设置轨道的路径。路径必须是指向节点场景树的有效路径，必须从将要实现动画的节点的父节点开始指定。控件属性或骨骼的轨道必须在路径后面加上它们的名字，用\ ``":"``\ 分隔。
 
-例如，``"character/skeleton:ankle"`` 或``"character/mesh:transform/local"`` 。
+例如，``"character/skeleton:ankle"`` 或\ ``"character/mesh:transform/local"`` 。
 
 ----
 
@@ -781,7 +781,7 @@ Method Descriptions
 
 - void **value_track_set_update_mode** **(** :ref:`int<class_int>` track_idx, :ref:`UpdateMode<enum_Animation_UpdateMode>` mode **)**
 
-设置值跟踪的更新模式（参阅:ref:`UpdateMode<enum_Animation_UpdateMode>`）。
+设置值跟踪的更新模式（参阅\ :ref:`UpdateMode<enum_Animation_UpdateMode>`）。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

@@ -18,7 +18,7 @@ InputEventScreenTouch
 Description
 -----------
 
-存储多点触摸的按压/释放信息。支持触摸按压、触摸释放和:ref:`index<class_InputEventScreenTouch_property_index>`\ 的多点触摸计数和顺序。
+存储多点触摸的按压/释放信息。支持触摸按压、触摸释放和\ :ref:`index<class_InputEventScreenTouch_property_index>`\ 的多点触摸计数和顺序。
 
 Tutorials
 ---------
@@ -83,7 +83,7 @@ Property Descriptions
 | *Getter*  | is_pressed()       |
 +-----------+--------------------+
 
-如果``true``，触摸的状态为按下。如果``false``，触摸的状态被释放。
+如果\ ``true``，触摸的状态为按下。如果\ ``false``，触摸的状态被释放。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

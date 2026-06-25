@@ -48,7 +48,7 @@ Property Descriptions
 
 胶囊体中间圆柱体（除了两个半球体的部分）的高度。
 
-**注意：**圆柱体的总高度等于 :ref:`mid_height<class_CapsuleMesh_property_mid_height>` + 2 \* :ref:`radius<class_CapsuleMesh_property_radius>`。
+**注意：**\ 圆柱体的总高度等于 :ref:`mid_height<class_CapsuleMesh_property_mid_height>` + 2 \* :ref:`radius<class_CapsuleMesh_property_radius>`。
 
 ----
 

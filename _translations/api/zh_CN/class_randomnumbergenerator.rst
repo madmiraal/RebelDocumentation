@@ -125,7 +125,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **randf** **(** **)**
 
-产生一个``0.0``\ 和``1.0``（包括端点）之间的伪随机浮点数。
+产生一个\ ``0.0``\ 和\ ``1.0``\ （包括端点）之间的伪随机浮点数。
 
 ----
 
@@ -133,7 +133,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **randf_range** **(** :ref:`float<class_float>` from, :ref:`float<class_float>` to **)**
 
-产生一个``from``\ 和``to``（包括端点）之间的伪随机浮点数。
+产生一个\ ``from``\ 和\ ``to``\ （包括端点）之间的伪随机浮点数。
 
 ----
 
@@ -141,7 +141,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **randfn** **(** :ref:`float<class_float>` mean=0.0, :ref:`float<class_float>` deviation=1.0 **)**
 
-产生一个`正态分布 <https://en.wikipedia.org/wiki/Normal_distribution>`__的伪随机数，使用Box-Muller变换，具有指定的``mean``\ 和标准``deviation``。这也被称为高斯分布。
+产生一个\ `正态分布 <https://en.wikipedia.org/wiki/Normal_distribution>`__\ 的伪随机数，使用Box-Muller变换，具有指定的\ ``mean``\ 和标准\ ``deviation``。这也被称为高斯分布。
 
 ----
 
@@ -149,7 +149,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **randi** **(** **)**
 
-产生一个``0``\ 和``4294967295``（含端点）之间的伪随机32位无符号整数。
+产生一个\ ``0``\ 和\ ``4294967295``\ （含端点）之间的伪随机32位无符号整数。
 
 ----
 
@@ -157,7 +157,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **randi_range** **(** :ref:`int<class_int>` from, :ref:`int<class_int>` to **)**
 
-产生一个``to``\ 和``from``（含端点）之间的伪随机32位有符号整数。
+产生一个\ ``to``\ 和\ ``from``\ （含端点）之间的伪随机32位有符号整数。
 
 ----
 

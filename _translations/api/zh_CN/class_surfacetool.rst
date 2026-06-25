@@ -94,7 +94,7 @@ Method Descriptions
 
 - void **add_bones** **(** :ref:`PoolIntArray<class_PoolIntArray>` bones **)**
 
-指定*下一个*顶点所使用的骨骼数组。 ``bones`` 必须包含 4 个整数。
+指定\ *下一个*\ 顶点所使用的骨骼数组。 ``bones`` 必须包含 4 个整数。
 
 ----
 
@@ -102,9 +102,9 @@ Method Descriptions
 
 - void **add_color** **(** :ref:`Color<class_Color>` color **)**
 
-指定*下一个*顶点所使用的 :ref:`Color<class_Color>`。如果每个顶点都需要设置此信息，而您未能为第一个顶点提交此信息，此信息可能根本就不会被使用。
+指定\ *下一个*\ 顶点所使用的 :ref:`Color<class_Color>`。如果每个顶点都需要设置此信息，而您未能为第一个顶点提交此信息，此信息可能根本就不会被使用。
 
-**注意：**材质必须启用:ref:`SpatialMaterial.vertex_color_use_as_albedo<class_SpatialMaterial_property_vertex_color_use_as_albedo>`\ 才能使顶点颜色可见。
+**注意：**\ 材质必须启用\ :ref:`SpatialMaterial.vertex_color_use_as_albedo<class_SpatialMaterial_property_vertex_color_use_as_albedo>`\ 才能使顶点颜色可见。
 
 ----
 
@@ -120,7 +120,7 @@ Method Descriptions
 
 - void **add_normal** **(** :ref:`Vector3<class_Vector3>` normal **)**
 
-指定*下一个*顶点所使用的法线。如果每个顶点都需要设置此信息，而你没有为第一个顶点提交，则可能根本无法使用此信息。
+指定\ *下一个*\ 顶点所使用的法线。如果每个顶点都需要设置此信息，而你没有为第一个顶点提交，则可能根本无法使用此信息。
 
 ----
 
@@ -136,7 +136,7 @@ Method Descriptions
 
 - void **add_tangent** **(** :ref:`Plane<class_Plane>` tangent **)**
 
-指定*下一个*顶点所使用的切线。如果每个顶点都需要设置此信息，而你没有为第一个顶点提交，则可能根本无法使用此信息。
+指定\ *下一个*\ 顶点所使用的切线。如果每个顶点都需要设置此信息，而你没有为第一个顶点提交，则可能根本无法使用此信息。
 
 ----
 
@@ -154,7 +154,7 @@ Method Descriptions
 
 - void **add_uv** **(** :ref:`Vector2<class_Vector2>` uv **)**
 
-指定*下一个*顶点所使用的 UV 坐标。如果每个顶点都需要设置此信息，而您未能为第一个顶点提交此信息，此信息可能根本就不会被使用。
+指定\ *下一个*\ 顶点所使用的 UV 坐标。如果每个顶点都需要设置此信息，而您未能为第一个顶点提交此信息，此信息可能根本就不会被使用。
 
 ----
 
@@ -162,7 +162,7 @@ Method Descriptions
 
 - void **add_uv2** **(** :ref:`Vector2<class_Vector2>` uv2 **)**
 
-指定可选的第二组UV坐标，用于*next*顶点。如果每个顶点都需要设置这个信息，而你没有为第一个顶点提交这个信息，此信息可能根本就不会被使用。
+指定可选的第二组UV坐标，用于\ *next*\ 顶点。如果每个顶点都需要设置这个信息，而你没有为第一个顶点提交这个信息，此信息可能根本就不会被使用。
 
 ----
 
@@ -178,7 +178,7 @@ Method Descriptions
 
 - void **add_weights** **(** :ref:`PoolRealArray<class_PoolRealArray>` weights **)**
 
-指定*下一个*顶点所使用的权重值。 ``weights`` 必须包含 4 个值。如果每个顶点都需要设置此信息，而您未能为第一个顶点提交此信息，此信息可能根本就不会被使用。
+指定\ *下一个*\ 顶点所使用的权重值。 ``weights`` 必须包含 4 个值。如果每个顶点都需要设置此信息，而您未能为第一个顶点提交此信息，此信息可能根本就不会被使用。
 
 ----
 
@@ -196,7 +196,7 @@ Method Descriptions
 
 - void **begin** **(** :ref:`PrimitiveType<enum_Mesh_PrimitiveType>` primitive **)**
 
-在添加任何顶点之前被调用。接收原始类型作为参数（例如：原始三角形:ref:`Mesh.PRIMITIVE_TRIANGLES<class_Mesh_constant_PRIMITIVE_TRIANGLES>`）。
+在添加任何顶点之前被调用。接收原始类型作为参数（例如：原始三角形\ :ref:`Mesh.PRIMITIVE_TRIANGLES<class_Mesh_constant_PRIMITIVE_TRIANGLES>`）。
 
 ----
 
@@ -222,7 +222,7 @@ Method Descriptions
 
 - :ref:`Array<class_Array>` **commit_to_arrays** **(** **)**
 
-将数据提交给:ref:`ArrayMesh.add_surface_from_arrays<class_ArrayMesh_method_add_surface_from_arrays>`\ 使用的相同格式。这样你就可以使用:ref:`ArrayMesh<class_ArrayMesh>`\ 的API接口进一步处理网格数据。
+将数据提交给\ :ref:`ArrayMesh.add_surface_from_arrays<class_ArrayMesh_method_add_surface_from_arrays>`\ 使用的相同格式。这样你就可以使用\ :ref:`ArrayMesh<class_ArrayMesh>`\ 的API接口进一步处理网格数据。
 
 ----
 
@@ -254,7 +254,7 @@ Method Descriptions
 
 - void **generate_normals** **(** :ref:`bool<class_bool>` flip=false **)**
 
-从顶点生成法线，因此您不必手动执行。如果 ``flip`` 为 ``true``，则生成的法线将被反转。 :ref:`generate_normals<class_SurfaceTool_method_generate_normals>` 应在生成几何体*之后* 调用，在*之前*使用 :ref:`commit<class_SurfaceTool_method_commit>` 或 :ref:`commit_to_arrays<class_SurfaceTool_method_commit_to_arrays>` 提交网格。为了正确显示法线贴图表面，您还必须使用 :ref:`generate_tangents<class_SurfaceTool_method_generate_tangents>` 生成切线。
+从顶点生成法线，因此您不必手动执行。如果 ``flip`` 为 ``true``，则生成的法线将被反转。 :ref:`generate_normals<class_SurfaceTool_method_generate_normals>` 应在生成几何体\ *之后* 调用，在\ *之前*\ 使用 :ref:`commit<class_SurfaceTool_method_commit>` 或 :ref:`commit_to_arrays<class_SurfaceTool_method_commit_to_arrays>` 提交网格。为了正确显示法线贴图表面，您还必须使用 :ref:`generate_tangents<class_SurfaceTool_method_generate_tangents>` 生成切线。
 
 **注意：** :ref:`generate_normals<class_SurfaceTool_method_generate_normals>` 仅当基本类型设置为 :ref:`Mesh.PRIMITIVE_TRIANGLES<class_Mesh_constant_PRIMITIVE_TRIANGLES>` 时才有效。
 

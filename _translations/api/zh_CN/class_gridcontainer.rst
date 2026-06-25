@@ -16,7 +16,7 @@ GridContainer
 Description
 -----------
 
-GridContainer将把它的Control派生的子级排布在一个类似网格的结构中，网格列是:ref:`columns<class_GridContainer_property_columns>`\ 属性指定，行的数量等于容器中子级的数量除以列的数量。例如，如果容器有5个子级，2个列，容器中就会有3行。
+GridContainer将把它的Control派生的子级排布在一个类似网格的结构中，网格列是\ :ref:`columns<class_GridContainer_property_columns>`\ 属性指定，行的数量等于容器中子级的数量除以列的数量。例如，如果容器有5个子级，2个列，容器中就会有3行。
 
 请注意，网格布局将保留每个大小的容器的列和行，并且空列将自动扩展。
 
@@ -55,7 +55,7 @@ Property Descriptions
 | *Getter*  | get_columns()      |
 +-----------+--------------------+
 
-在``GridContainer``\ 中的列的数量。如果修改，``GridContainer``\ 会重新排列其Control派生的子代，以适应新的布局。
+在\ ``GridContainer``\ 中的列的数量。如果修改，``GridContainer``\ 会重新排列其Control派生的子代，以适应新的布局。
 
 Theme Property Descriptions
 ---------------------------
