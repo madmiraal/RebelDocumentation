@@ -18,7 +18,7 @@ Description
 
 该对象用于生成文件资源的预览。
 
-**注意：**不应该直接实例化这个类，而是使用:ref:`EditorInterface.get_resource_previewer<class_EditorInterface_method_get_resource_previewer>`\ 访问单例。而是，使用:ref:`EditorInterface.get_resource_previewer<class_EditorInterface_method_get_resource_previewer>`\ 访问单例。
+**注意：**\ 不应该直接实例化这个类，而是使用\ :ref:`EditorInterface.get_resource_previewer<class_EditorInterface_method_get_resource_previewer>`\ 访问单例。而是，使用\ :ref:`EditorInterface.get_resource_previewer<class_EditorInterface_method_get_resource_previewer>`\ 访问单例。
 
 Methods
 -------
@@ -69,7 +69,7 @@ Method Descriptions
 
 将正在编辑的资源 ``resource`` 排队进行预览。一旦预览准备好了，接收器 ``receiver`` 的 ``receiver_func`` 将被调用。``receiver_func`` 必须接受以下四个参数。:ref:`String<class_String>` path, :ref:`Texture<class_Texture>` preview, :ref:`Texture<class_Texture>` thumbnail_preview, :ref:`Variant<class_Variant>` userdata。``userdata`` 可以是任何东西，并将在 ``receiver_func`` 被调用时返回。
 
-**注意：**如果无法创建预览，``receiver_func`` 仍将被调用，但预览将为空。
+**注意：**\ 如果无法创建预览，``receiver_func`` 仍将被调用，但预览将为空。
 
 ----
 
@@ -79,7 +79,7 @@ Method Descriptions
 
 将位于路径 ``path`` 的资源文件排队以进行预览。预览准备好后，将调用 ``receiver`` 的 ``receiver_func`` 函数。``receiver_func`` 必须带有以下四个参数：:ref:`String<class_String>` path、:ref:`Texture<class_Texture>` preview、:ref:`Texture<class_Texture>` thumbnail_preview、:ref:`Variant<class_Variant>` userdata。用户数据 ``userdata`` 可以是任意的，会在调用 ``receiver_func`` 时返回。
 
-**注意：**无法创建预览时仍将调用 ``receiver_func``，但 preview 会是 null。
+**注意：**\ 无法创建预览时仍将调用 ``receiver_func``，但 preview 会是 null。
 
 ----
 

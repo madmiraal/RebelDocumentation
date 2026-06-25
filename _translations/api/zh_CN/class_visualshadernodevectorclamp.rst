@@ -16,7 +16,7 @@ VisualShaderNodeVectorClamp
 Description
 -----------
 
-将一个值限制在``min``\ 和``max``\ 之间。该操作是对向量的每个分量单独执行的。
+将一个值限制在\ ``min``\ 和\ ``max``\ 之间。该操作是对向量的每个分量单独执行的。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

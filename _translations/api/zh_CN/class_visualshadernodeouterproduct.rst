@@ -16,7 +16,7 @@ VisualShaderNodeOuterProduct
 Description
 -----------
 
-``OuterProduct``\ 将第一个参数``c``\ 作为列向量（有一列的矩阵），将第二个参数``r``\ 作为行向量（有一行的矩阵），进行线性代数矩阵乘法``c * r``。产生一个矩阵，其行数是``c``\ 的分量数，其列数是``r``\ 的分量数。
+``OuterProduct``\ 将第一个参数\ ``c``\ 作为列向量（有一列的矩阵），将第二个参数\ ``r``\ 作为行向量（有一行的矩阵），进行线性代数矩阵乘法\ ``c * r``。产生一个矩阵，其行数是\ ``c``\ 的分量数，其列数是\ ``r``\ 的分量数。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

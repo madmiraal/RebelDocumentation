@@ -87,7 +87,7 @@ Signals
 
 当按钮被切换或按下时发出。如果 :ref:`action_mode<class_BaseButton_property_action_mode>` 是 :ref:`ACTION_MODE_BUTTON_PRESS<class_BaseButton_constant_ACTION_MODE_BUTTON_PRESS>`，则在 :ref:`button_down<class_BaseButton_signal_button_down>` 上，否则在 :ref:`button_up<class_BaseButton_signal_button_up>` 上。
 
-如果您需要知道按钮的按压状态（并且 :ref:`toggle_mode<class_BaseButton_property_toggle_mode>` 是活动的），请使用:ref:`toggled<class_BaseButton_signal_toggled>`\ 代替。
+如果您需要知道按钮的按压状态（并且 :ref:`toggle_mode<class_BaseButton_property_toggle_mode>` 是活动的），请使用\ :ref:`toggled<class_BaseButton_signal_toggled>`\ 代替。
 
 ----
 
@@ -95,7 +95,7 @@ Signals
 
 - **toggled** **(** :ref:`bool<class_bool>` button_pressed **)**
 
-当按钮刚刚在按下和正常状态之间切换时发出(仅当:ref:`toggle_mode<class_BaseButton_property_toggle_mode>`\ 处于活动状态时)。新状态包含在``button_pressed``\ 参数中。
+当按钮刚刚在按下和正常状态之间切换时发出(仅当\ :ref:`toggle_mode<class_BaseButton_property_toggle_mode>`\ 处于活动状态时)。新状态包含在\ ``button_pressed``\ 参数中。
 
 Enumerations
 ------------
@@ -187,7 +187,7 @@ Property Descriptions
 | *Getter*  | is_disabled()       |
 +-----------+---------------------+
 
-如果``true``，则该按钮处于禁用状态，无法点击或切换。
+如果\ ``true``，则该按钮处于禁用状态，无法点击或切换。
 
 ----
 
@@ -217,7 +217,7 @@ Property Descriptions
 | *Getter* | get_button_group()      |
 +----------+-------------------------+
 
-与按钮相关联的:ref:`ButtonGroup<class_ButtonGroup>`。
+与按钮相关联的\ :ref:`ButtonGroup<class_ButtonGroup>`。
 
 ----
 
@@ -233,9 +233,9 @@ Property Descriptions
 | *Getter*  | is_keep_pressed_outside()       |
 +-----------+---------------------------------+
 
-如果``true``，当按下按钮时将光标移到按钮外时，按钮会保持按下状态。
+如果\ ``true``，当按下按钮时将光标移到按钮外时，按钮会保持按下状态。
 
-**注意：**该属性只影响按钮的视觉表现。无论该属性的值是多少，信号都会在同一时刻发出。
+**注意：**\ 该属性只影响按钮的视觉表现。无论该属性的值是多少，信号都会在同一时刻发出。
 
 ----
 
@@ -253,7 +253,7 @@ Property Descriptions
 
 如果 ``true``，按钮为按下状态。表示按钮被按下或切换（如果 :ref:`toggle_mode<class_BaseButton_property_toggle_mode>` 处于激活状态）。仅当 :ref:`toggle_mode<class_BaseButton_property_toggle_mode>` 为 ``true`` 时才有效。
 
-**注：**设置 :ref:`pressed<class_BaseButton_property_pressed>` 将导致 :ref:`toggled<class_BaseButton_signal_toggled>` 触发。如果你想在不触发该信号的情况下更改按下状态，请使用 :ref:`set_pressed_no_signal<class_BaseButton_method_set_pressed_no_signal>`。
+**注：**\ 设置 :ref:`pressed<class_BaseButton_property_pressed>` 将导致 :ref:`toggled<class_BaseButton_signal_toggled>` 触发。如果你想在不触发该信号的情况下更改按下状态，请使用 :ref:`set_pressed_no_signal<class_BaseButton_method_set_pressed_no_signal>`。
 
 ----
 
@@ -267,7 +267,7 @@ Property Descriptions
 | *Getter* | get_shortcut()      |
 +----------+---------------------+
 
-与按钮相关联的:ref:`ShortCut<class_ShortCut>`。
+与按钮相关联的\ :ref:`ShortCut<class_ShortCut>`。
 
 ----
 
@@ -283,7 +283,7 @@ Property Descriptions
 | *Getter*  | is_shortcut_in_tooltip_enabled() |
 +-----------+----------------------------------+
 
-如果``true``，按钮将在工具提示中添加其快捷方式的信息。
+如果\ ``true``，按钮将在工具提示中添加其快捷方式的信息。
 
 ----
 
@@ -299,7 +299,7 @@ Property Descriptions
 | *Getter*  | is_toggle_mode()       |
 +-----------+------------------------+
 
-如果``true``，则按钮处于切换模式。使按钮在每次点击其区域时，在按下和未按下之间转换状态。
+如果\ ``true``，则按钮处于切换模式。使按钮在每次点击其区域时，在按下和未按下之间转换状态。
 
 Method Descriptions
 -------------------
@@ -308,7 +308,7 @@ Method Descriptions
 
 - void **_pressed** **(** **)** |virtual|
 
-当按钮被按下时调用。如果你需要知道按钮被按下的状态(并且 :ref:`toggle_mode<class_BaseButton_property_toggle_mode>` is active]是活动状态)，请使用:ref:`_toggled<class_BaseButton_method__toggled>`\ 代替。
+当按钮被按下时调用。如果你需要知道按钮被按下的状态(并且 :ref:`toggle_mode<class_BaseButton_property_toggle_mode>` is active]是活动状态)，请使用\ :ref:`_toggled<class_BaseButton_method__toggled>`\ 代替。
 
 ----
 
@@ -332,7 +332,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_hovered** **(** **)** |const|
 
-如果鼠标已进入按钮，且尚未离开，则返回``true``。
+如果鼠标已进入按钮，且尚未离开，则返回\ ``true``。
 
 ----
 
@@ -340,9 +340,9 @@ Method Descriptions
 
 - void **set_pressed_no_signal** **(** :ref:`bool<class_bool>` pressed **)**
 
-改变按钮的:ref:`pressed<class_BaseButton_property_pressed>`\ 状态，不触发:ref:`toggled<class_BaseButton_signal_toggled>`。当你只想改变按钮的状态而不发送按下事件时使用（例如，在初始化场景时）。只有当:ref:`toggle_mode<class_BaseButton_property_toggle_mode>`\ 是``true``\ 时才有效。
+改变按钮的\ :ref:`pressed<class_BaseButton_property_pressed>`\ 状态，不触发\ :ref:`toggled<class_BaseButton_signal_toggled>`。当你只想改变按钮的状态而不发送按下事件时使用（例如，在初始化场景时）。只有当\ :ref:`toggle_mode<class_BaseButton_property_toggle_mode>`\ 是\ ``true``\ 时才有效。
 
-**注意：** 这个方法不会释放其按钮:ref:`group<class_BaseButton_property_group>` 中的其他按钮。
+**注意：** 这个方法不会释放其按钮\ :ref:`group<class_BaseButton_property_group>` 中的其他按钮。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

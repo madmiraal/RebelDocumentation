@@ -16,7 +16,7 @@ HSeparator
 Description
 -----------
 
-水平分离器。见:ref:`Separator<class_Separator>`。尽管它看起来是水平的，但被用于垂直分隔对象。
+水平分离器。见\ :ref:`Separator<class_Separator>`。尽管它看起来是水平的，但被用于垂直分隔对象。
 
 Theme Properties
 ----------------
@@ -46,7 +46,7 @@ Theme Property Descriptions
 
 - :ref:`StyleBox<class_StyleBox>` **separator**
 
-分隔符的样式。与:ref:`StyleBoxLine<class_StyleBoxLine>`\ 配合使用效果更佳。
+分隔符的样式。与\ :ref:`StyleBoxLine<class_StyleBoxLine>`\ 配合使用效果更佳。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

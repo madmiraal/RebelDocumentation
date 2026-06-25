@@ -13,12 +13,12 @@ PrimitiveMesh
 
 **Inherited By:** :ref:`CapsuleMesh<class_CapsuleMesh>`, :ref:`CubeMesh<class_CubeMesh>`, :ref:`CylinderMesh<class_CylinderMesh>`, :ref:`PlaneMesh<class_PlaneMesh>`, :ref:`PointMesh<class_PointMesh>`, :ref:`PrismMesh<class_PrismMesh>`, :ref:`QuadMesh<class_QuadMesh>`, :ref:`SphereMesh<class_SphereMesh>`
 
-所有原始网格的基类。处理将材质:ref:`Material<class_Material>`\ 应用到原始网格的问题。
+所有原始网格的基类。处理将材质\ :ref:`Material<class_Material>`\ 应用到原始网格的问题。
 
 Description
 -----------
 
-所有基本网格的基类。处理将:ref:`Material<class_Material>`\ 材质应用于基本网格。示例包括 :ref:`CapsuleMesh<class_CapsuleMesh>`、:ref:`CubeMesh<class_CubeMesh>`、:ref:`CylinderMesh<class_CylinderMesh>`、:ref:`PlaneMesh<class_PlaneMesh>`、:ref:`PrismMesh<class_PrismMesh>`、:ref:`QuadMesh<class_QuadMesh>`、:ref:`SphereMesh<class_SphereMesh>` 等。
+所有基本网格的基类。处理将\ :ref:`Material<class_Material>`\ 材质应用于基本网格。示例包括 :ref:`CapsuleMesh<class_CapsuleMesh>`、:ref:`CubeMesh<class_CubeMesh>`、:ref:`CylinderMesh<class_CylinderMesh>`、:ref:`PlaneMesh<class_PlaneMesh>`、:ref:`PrismMesh<class_PrismMesh>`、:ref:`QuadMesh<class_QuadMesh>`、:ref:`SphereMesh<class_SphereMesh>` 等。
 
 Properties
 ----------
@@ -53,7 +53,7 @@ Property Descriptions
 | *Getter*  | get_custom_aabb()            |
 +-----------+------------------------------+
 
-用用户定义的用于使用视锥剔除的一种替代:ref:`AABB<class_AABB>`。在使用着色器偏移顶点时，避免非预期的剔除特别有用。
+用用户定义的用于使用视锥剔除的一种替代\ :ref:`AABB<class_AABB>`。在使用着色器偏移顶点时，避免非预期的剔除特别有用。
 
 ----
 
@@ -85,7 +85,7 @@ Property Descriptions
 | *Getter* | get_material()      |
 +----------+---------------------+
 
-原始网格的当前:ref:`Material<class_Material>`。
+原始网格的当前\ :ref:`Material<class_Material>`。
 
 Method Descriptions
 -------------------
@@ -94,7 +94,7 @@ Method Descriptions
 
 - :ref:`Array<class_Array>` **get_mesh_arrays** **(** **)** |const|
 
-返回用于构成:ref:`Mesh<class_Mesh>`\ 表面的网格数组。结果可以传递给 :ref:`ArrayMesh.add_surface_from_arrays<class_ArrayMesh_method_add_surface_from_arrays>`\ 来创建一个新的曲面。例如:
+返回用于构成\ :ref:`Mesh<class_Mesh>`\ 表面的网格数组。结果可以传递给 :ref:`ArrayMesh.add_surface_from_arrays<class_ArrayMesh_method_add_surface_from_arrays>`\ 来创建一个新的曲面。例如:
 
 ::
 

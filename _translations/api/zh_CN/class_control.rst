@@ -286,7 +286,7 @@ Signals
 
 - **gui_input** **(** :ref:`InputEvent<class_InputEvent>` event **)**
 
-在节点收到:ref:`InputEvent<class_InputEvent>`\ 时发出。
+在节点收到\ :ref:`InputEvent<class_InputEvent>`\ 时发出。
 
 ----
 
@@ -302,7 +302,7 @@ Signals
 
 - **modal_closed** **(** **)**
 
-当模态控件``Control``\ 被关闭时触发。参阅:ref:`show_modal<class_Control_method_show_modal>`。
+当模态控件\ ``Control``\ 被关闭时触发。参阅\ :ref:`show_modal<class_Control_method_show_modal>`。
 
 ----
 
@@ -310,9 +310,9 @@ Signals
 
 - **mouse_entered** **(** **)**
 
-当鼠标进入控件的``Rect``\ 区域时触发，只要其:ref:`mouse_filter<class_Control_property_mouse_filter>`\ 允许事件到达。
+当鼠标进入控件的\ ``Rect``\ 区域时触发，只要其\ :ref:`mouse_filter<class_Control_property_mouse_filter>`\ 允许事件到达。
 
-**注意：** 如果鼠标在进入父控件的``Rect``\ 区域之前进入子``Control``\ 节点，在鼠标移动到父控件的``Rect``\ 区域之前，不会发出:ref:`mouse_entered<class_Control_signal_mouse_entered>`。
+**注意：** 如果鼠标在进入父控件的\ ``Rect``\ 区域之前进入子\ ``Control``\ 节点，在鼠标移动到父控件的\ ``Rect``\ 区域之前，不会发出\ :ref:`mouse_entered<class_Control_signal_mouse_entered>`。
 
 ----
 
@@ -346,7 +346,7 @@ If you want to check whether the mouse truly left the area, ignoring any top nod
 
 - **size_flags_changed** **(** **)**
 
-当大小标志之一更改时发出。请参阅:ref:`size_flags_horizontal<class_Control_property_size_flags_horizontal>`\ 和:ref:`size_flags_vertical<class_Control_property_size_flags_vertical>`。
+当大小标志之一更改时发出。请参阅\ :ref:`size_flags_horizontal<class_Control_property_size_flags_horizontal>`\ 和\ :ref:`size_flags_vertical<class_Control_property_size_flags_vertical>`。
 
 Enumerations
 ------------
@@ -407,7 +407,7 @@ enum **FocusMode**:
 
 enum **CursorShape**:
 
-- **CURSOR_ARROW** = **0** --- 当用户将节点悬停时，显示系统的箭头鼠标光标。与:ref:`mouse_default_cursor_shape<class_Control_property_mouse_default_cursor_shape>`\ 成员一起使用。
+- **CURSOR_ARROW** = **0** --- 当用户将节点悬停时，显示系统的箭头鼠标光标。与\ :ref:`mouse_default_cursor_shape<class_Control_property_mouse_default_cursor_shape>`\ 成员一起使用。
 
 - **CURSOR_IBEAM** = **1** --- 当用户将节点悬停时，显示系统的I型光束鼠标光标。工字梁指针的形状类似于“ I”。它告诉用户他们可以突出显示或插入文本。
 
@@ -431,13 +431,13 @@ enum **CursorShape**:
 
 - **CURSOR_BDIAGSIZE** = **11** --- 当用户将节点悬停时，显示系统窗口调整大小的鼠标光标。光标是从左下角到右上角的双向箭头。它告诉用户可以水平和垂直调整窗口或面板的大小。
 
-- **CURSOR_FDIAGSIZE** = **12** --- 当用户将节点悬停时，显示系统窗口调整大小的鼠标光标。光标是一个双向箭头，从左上角到右下角，与:ref:`CURSOR_BDIAGSIZE<class_Control_constant_CURSOR_BDIAGSIZE>`\ 相反。它告诉用户可以水平和垂直调整窗口或面板的大小。
+- **CURSOR_FDIAGSIZE** = **12** --- 当用户将节点悬停时，显示系统窗口调整大小的鼠标光标。光标是一个双向箭头，从左上角到右下角，与\ :ref:`CURSOR_BDIAGSIZE<class_Control_constant_CURSOR_BDIAGSIZE>`\ 相反。它告诉用户可以水平和垂直调整窗口或面板的大小。
 
 - **CURSOR_MOVE** = **13** --- 当用户将节点悬停时，显示系统的移动鼠标光标。它以90度角显示2个双向箭头。它告诉用户他们可以自由移动UI元素。
 
 - **CURSOR_VSPLIT** = **14** --- 当用户将节点悬停时，显示系统的垂直拆分鼠标光标。在 Windows 上，它与 :ref:`CURSOR_VSIZE<class_Control_constant_CURSOR_VSIZE>` 相同。
 
-- **CURSOR_HSPLIT** = **15** --- 当用户将节点悬停时，显示系统的水平拆分鼠标光标。在Windows上，它与:ref:`CURSOR_HSIZE<class_Control_constant_CURSOR_HSIZE>`\ 相同。
+- **CURSOR_HSPLIT** = **15** --- 当用户将节点悬停时，显示系统的水平拆分鼠标光标。在Windows上，它与\ :ref:`CURSOR_HSIZE<class_Control_constant_CURSOR_HSIZE>`\ 相同。
 
 - **CURSOR_HELP** = **16** --- 当用户将节点悬停在一个节点上时，显示系统的帮助鼠标光标，一个问号。
 
@@ -479,37 +479,37 @@ enum **CursorShape**:
 
 enum **LayoutPreset**:
 
-- **PRESET_TOP_LEFT** = **0** --- 将所有4个定位点对齐到父控件边界的左上角。与:ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\ 一起使用。
+- **PRESET_TOP_LEFT** = **0** --- 将所有4个定位点对齐到父控件边界的左上角。与\ :ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\ 一起使用。
 
-- **PRESET_TOP_RIGHT** = **1** --- 将所有4个定位点对齐到父控件边界的右上角。与:ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\ 一起使用。
+- **PRESET_TOP_RIGHT** = **1** --- 将所有4个定位点对齐到父控件边界的右上角。与\ :ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\ 一起使用。
 
-- **PRESET_BOTTOM_LEFT** = **2** --- 将所有4个定位点对齐到父控件的边界的左下角。与:ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\ 一起使用。
+- **PRESET_BOTTOM_LEFT** = **2** --- 将所有4个定位点对齐到父控件的边界的左下角。与\ :ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\ 一起使用。
 
-- **PRESET_BOTTOM_RIGHT** = **3** --- 将所有4个定位点对齐到父控件的边界的右下角。与:ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\ 一起使用。
+- **PRESET_BOTTOM_RIGHT** = **3** --- 将所有4个定位点对齐到父控件的边界的右下角。与\ :ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\ 一起使用。
 
-- **PRESET_CENTER_LEFT** = **4** --- 将所有4个定位点对齐到父控件边界的左边缘的中心。与:ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\ 一起使用。
+- **PRESET_CENTER_LEFT** = **4** --- 将所有4个定位点对齐到父控件边界的左边缘的中心。与\ :ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\ 一起使用。
 
-- **PRESET_CENTER_TOP** = **5** --- 将所有4个定位点对齐到父控件边界的上边缘的中心。与:ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\ 一起使用。
+- **PRESET_CENTER_TOP** = **5** --- 将所有4个定位点对齐到父控件边界的上边缘的中心。与\ :ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\ 一起使用。
 
-- **PRESET_CENTER_RIGHT** = **6** --- 将所有4个锚点对齐到父控件边界右边缘的中心。与:ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\ 一起使用。
+- **PRESET_CENTER_RIGHT** = **6** --- 将所有4个锚点对齐到父控件边界右边缘的中心。与\ :ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\ 一起使用。
 
-- **PRESET_CENTER_BOTTOM** = **7** --- 将所有 4 个锚捕捉到父控制边界底部边缘的中心。使用:ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`。
+- **PRESET_CENTER_BOTTOM** = **7** --- 将所有 4 个锚捕捉到父控制边界底部边缘的中心。使用\ :ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`。
 
-- **PRESET_CENTER** = **8** --- 将所有4个定位点对齐到父控件边界的中心。与:ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\ 一起使用。
+- **PRESET_CENTER** = **8** --- 将所有4个定位点对齐到父控件边界的中心。与\ :ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\ 一起使用。
 
-- **PRESET_LEFT_WIDE** = **9** --- 将所有4个定位点对齐到父控件的左边缘。左边距相对于节点父节点的左边缘，而上边距相对于节点父节点的左上角。与:ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\ 一起使用。
+- **PRESET_LEFT_WIDE** = **9** --- 将所有4个定位点对齐到父控件的左边缘。左边距相对于节点父节点的左边缘，而上边距相对于节点父节点的左上角。与\ :ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\ 一起使用。
 
-- **PRESET_TOP_WIDE** = **10** --- 将所有4个定位点对齐到父控件的顶部边缘。左侧边距相对于节点父节点的左上角，顶部边距相对于顶部的边缘，右侧边距相对于节点的父节点。与:ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\ 一起使用。
+- **PRESET_TOP_WIDE** = **10** --- 将所有4个定位点对齐到父控件的顶部边缘。左侧边距相对于节点父节点的左上角，顶部边距相对于顶部的边缘，右侧边距相对于节点的父节点。与\ :ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\ 一起使用。
 
-- **PRESET_RIGHT_WIDE** = **11** --- 将所有4个定位点对齐到父控件的顶部边缘。左侧边距相对于节点父节点的左上角，顶部边距相对于顶部的边缘，右侧边距相对于节点的父节点。与:ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\ 一起使用。
+- **PRESET_RIGHT_WIDE** = **11** --- 将所有4个定位点对齐到父控件的顶部边缘。左侧边距相对于节点父节点的左上角，顶部边距相对于顶部的边缘，右侧边距相对于节点的父节点。与\ :ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\ 一起使用。
 
-- **PRESET_BOTTOM_WIDE** = **12** --- 将所有4个定位点对齐到父控件的底部边缘。左侧边距相对于节点父节点的左下角，底部边距相对于底部的边缘，而右侧边距相对于节点的右下角。与:ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\ 一起使用。
+- **PRESET_BOTTOM_WIDE** = **12** --- 将所有4个定位点对齐到父控件的底部边缘。左侧边距相对于节点父节点的左下角，底部边距相对于底部的边缘，而右侧边距相对于节点的右下角。与\ :ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\ 一起使用。
 
-- **PRESET_VCENTER_WIDE** = **13** --- 将所有4个锚点对齐到一条垂直线，该垂直线将父控件切成两半。与:ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\ 一起使用。
+- **PRESET_VCENTER_WIDE** = **13** --- 将所有4个锚点对齐到一条垂直线，该垂直线将父控件切成两半。与\ :ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\ 一起使用。
 
-- **PRESET_HCENTER_WIDE** = **14** --- 将所有4个锚点对齐到一条水平线，该水平线将父控件切成两半。与:ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\ 一起使用。
+- **PRESET_HCENTER_WIDE** = **14** --- 将所有4个锚点对齐到一条水平线，该水平线将父控件切成两半。与\ :ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\ 一起使用。
 
-- **PRESET_WIDE** = **15** --- 将所有4个定位点对齐到父控件的各个角。应用此预设后，将所有4个页边距设置为0，``Control``\ 将适合其上级控件。这等效于编辑器中的“全角”布局选项。与:ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\ 一起使用。
+- **PRESET_WIDE** = **15** --- 将所有4个定位点对齐到父控件的各个角。应用此预设后，将所有4个页边距设置为0，``Control``\ 将适合其上级控件。这等效于编辑器中的“全角”布局选项。与\ :ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\ 一起使用。
 
 ----
 
@@ -549,15 +549,15 @@ enum **LayoutPresetMode**:
 
 enum **SizeFlags**:
 
-- **SIZE_FILL** = **1** --- 告诉父:ref:`Container<class_Container>`\ 扩展此节点的边界，以在不推其他节点的情况下填充所有可用空间。使用:ref:`size_flags_horizontal<class_Control_property_size_flags_horizontal>`\ 和:ref:`size_flags_vertical<class_Control_property_size_flags_vertical>`。
+- **SIZE_FILL** = **1** --- 告诉父\ :ref:`Container<class_Container>`\ 扩展此节点的边界，以在不推其他节点的情况下填充所有可用空间。使用\ :ref:`size_flags_horizontal<class_Control_property_size_flags_horizontal>`\ 和\ :ref:`size_flags_vertical<class_Control_property_size_flags_vertical>`。
 
-- **SIZE_EXPAND** = **2** --- 告诉父级:ref:`Container<class_Container>`\ 让该节点占用您标记的轴上的所有可用空间。如果将多个相邻节点设置为扩展，它们将根据其拉伸比共享空间。参阅:ref:`size_flags_stretch_ratio<class_Control_property_size_flags_stretch_ratio>`。与:ref:`size_flags_horizontal<class_Control_property_size_flags_horizontal>`\ 和:ref:`size_flags_vertical<class_Control_property_size_flags_vertical>`\ 一起使用。
+- **SIZE_EXPAND** = **2** --- 告诉父级\ :ref:`Container<class_Container>`\ 让该节点占用您标记的轴上的所有可用空间。如果将多个相邻节点设置为扩展，它们将根据其拉伸比共享空间。参阅\ :ref:`size_flags_stretch_ratio<class_Control_property_size_flags_stretch_ratio>`。与\ :ref:`size_flags_horizontal<class_Control_property_size_flags_horizontal>`\ 和\ :ref:`size_flags_vertical<class_Control_property_size_flags_vertical>`\ 一起使用。
 
 - **SIZE_EXPAND_FILL** = **3** --- 将节点的大小标志设置为同时填充和扩展。有关更多信息，请参阅上面的2个常量。
 
 - **SIZE_SHRINK_CENTER** = **4** --- 告诉父级 :ref:`Container<class_Container>` 使节点本身居中。它基于控件的包围框居中，因此它不适用于 fill 或 expand 尺寸标志。与 :ref:`size_flags_horizontal<class_Control_property_size_flags_horizontal>` 和 :ref:`size_flags_vertical<class_Control_property_size_flags_vertical>` 一起使用。
 
-- **SIZE_SHRINK_END** = **8** --- 告诉父级:ref:`Container<class_Container>`\ 将节点与其末端（底部或右侧）对齐。它不适用于fill或expand size标志。与:ref:`size_flags_horizontal<class_Control_property_size_flags_horizontal>`\ 和:ref:`size_flags_vertical<class_Control_property_size_flags_vertical>`\ 一起使用。
+- **SIZE_SHRINK_END** = **8** --- 告诉父级\ :ref:`Container<class_Container>`\ 将节点与其末端（底部或右侧）对齐。它不适用于fill或expand size标志。与\ :ref:`size_flags_horizontal<class_Control_property_size_flags_horizontal>`\ 和\ :ref:`size_flags_vertical<class_Control_property_size_flags_vertical>`\ 一起使用。
 
 ----
 
@@ -630,7 +630,7 @@ Constants
 
 .. _class_Control_constant_NOTIFICATION_SCROLL_END:
 
-- **NOTIFICATION_RESIZED** = **40** --- 当节点更改大小时发送。使用:ref:`rect_size<class_Control_property_rect_size>`\ 获取新大小。
+- **NOTIFICATION_RESIZED** = **40** --- 当节点更改大小时发送。使用\ :ref:`rect_size<class_Control_property_rect_size>`\ 获取新大小。
 
 - **NOTIFICATION_MOUSE_ENTER** = **41** --- 当鼠标指针进入节点时发送。
 
@@ -642,11 +642,11 @@ Constants
 
 - **NOTIFICATION_THEME_CHANGED** = **45** --- Sent when the node's :ref:`theme<class_Control_property_theme>` changes, right before Rebel Engine redraws the control. Happens when you call one of the ``add_*_override`` methods.
 
-- **NOTIFICATION_MODAL_CLOSE** = **46** --- 当一个打开的模态对话框关闭时发送。参阅:ref:`show_modal<class_Control_method_show_modal>`。
+- **NOTIFICATION_MODAL_CLOSE** = **46** --- 当一个打开的模态对话框关闭时发送。参阅\ :ref:`show_modal<class_Control_method_show_modal>`。
 
-- **NOTIFICATION_SCROLL_BEGIN** = **47** --- 当此节点在已开始滚动的:ref:`ScrollContainer<class_ScrollContainer>`\ 内部时发送。
+- **NOTIFICATION_SCROLL_BEGIN** = **47** --- 当此节点在已开始滚动的\ :ref:`ScrollContainer<class_ScrollContainer>`\ 内部时发送。
 
-- **NOTIFICATION_SCROLL_END** = **48** --- 当此节点在已停止滚动的:ref:`ScrollContainer<class_ScrollContainer>`\ 内部时发送。
+- **NOTIFICATION_SCROLL_END** = **48** --- 当此节点在已停止滚动的\ :ref:`ScrollContainer<class_ScrollContainer>`\ 内部时发送。
 
 Property Descriptions
 ---------------------
@@ -661,7 +661,7 @@ Property Descriptions
 | *Getter*  | get_anchor() |
 +-----------+--------------+
 
-将节点的底部边缘锚定到其父控件的原点，中心或末端。当节点移动或更改大小时，它会更改底部边距的更新方式。为了方便起见，可以使用:ref:`Anchor<enum_Control_Anchor>`\ 常量之一。
+将节点的底部边缘锚定到其父控件的原点，中心或末端。当节点移动或更改大小时，它会更改底部边距的更新方式。为了方便起见，可以使用\ :ref:`Anchor<enum_Control_Anchor>`\ 常量之一。
 
 ----
 
@@ -675,7 +675,7 @@ Property Descriptions
 | *Getter*  | get_anchor() |
 +-----------+--------------+
 
-将节点的左边缘锚定到其父控件的原点，中心或末端。当节点移动或更改大小时，它会更改左侧边距的更新方式。为了方便起见，可以使用:ref:`Anchor<enum_Control_Anchor>`\ 常量之一。
+将节点的左边缘锚定到其父控件的原点，中心或末端。当节点移动或更改大小时，它会更改左侧边距的更新方式。为了方便起见，可以使用\ :ref:`Anchor<enum_Control_Anchor>`\ 常量之一。
 
 ----
 
@@ -689,7 +689,7 @@ Property Descriptions
 | *Getter*  | get_anchor() |
 +-----------+--------------+
 
-将节点的右边缘锚定到其父控件的原点，中心或末端。当节点移动或更改大小时，它会更改右边距的更新方式。为了方便起见，可以使用:ref:`Anchor<enum_Control_Anchor>`\ 常量之一。
+将节点的右边缘锚定到其父控件的原点，中心或末端。当节点移动或更改大小时，它会更改右边距的更新方式。为了方便起见，可以使用\ :ref:`Anchor<enum_Control_Anchor>`\ 常量之一。
 
 ----
 
@@ -703,7 +703,7 @@ Property Descriptions
 | *Getter*  | get_anchor() |
 +-----------+--------------+
 
-锚定节点的顶部边缘到原点、中心或其父控件的末端。当节点移动或改变大小时，它可以改变顶边的更新方式。为了便捷，你可以使用:ref:`Anchor<enum_Control_Anchor>`\ 常数之一。
+锚定节点的顶部边缘到原点、中心或其父控件的末端。当节点移动或改变大小时，它可以改变顶边的更新方式。为了便捷，你可以使用\ :ref:`Anchor<enum_Control_Anchor>`\ 常数之一。
 
 ----
 
@@ -865,9 +865,9 @@ If this property is not set, Rebel Engine will select a "best guess" based on su
 | *Setter*  | set_tooltip(value) |
 +-----------+--------------------+
 
-改变工具提示的文本。当用户的鼠标光标在这个控件上停留片刻，工具提示就会出现，前提是:ref:`mouse_filter<class_Control_property_mouse_filter>`\ 属性非:ref:`MOUSE_FILTER_IGNORE<class_Control_constant_MOUSE_FILTER_IGNORE>`。你可以用项目设置中的``gui/timers/tooltip_delay_sec``\ 选项改变工具提示出现的时间。
+改变工具提示的文本。当用户的鼠标光标在这个控件上停留片刻，工具提示就会出现，前提是\ :ref:`mouse_filter<class_Control_property_mouse_filter>`\ 属性非\ :ref:`MOUSE_FILTER_IGNORE<class_Control_constant_MOUSE_FILTER_IGNORE>`。你可以用项目设置中的\ ``gui/timers/tooltip_delay_sec``\ 选项改变工具提示出现的时间。
 
-工具提示的弹出将使用默认的实现，或者你可以通过覆盖:ref:`_make_custom_tooltip<class_Control_method__make_custom_tooltip>`\ 提供一个自定义的实现。默认的工具提示包括一个:ref:`PopupPanel<class_PopupPanel>`\ 和:ref:`Label<class_Label>`，其主题属性可以通过``"TooltipPanel"``\ 和``"TooltipLabel"``\ 方法分别进行自定义。如:
+工具提示的弹出将使用默认的实现，或者你可以通过覆盖\ :ref:`_make_custom_tooltip<class_Control_method__make_custom_tooltip>`\ 提供一个自定义的实现。默认的工具提示包括一个\ :ref:`PopupPanel<class_PopupPanel>`\ 和\ :ref:`Label<class_Label>`，其主题属性可以通过\ ``"TooltipPanel"``\ 和\ ``"TooltipLabel"``\ 方法分别进行自定义。如:
 
 ::
 
@@ -894,7 +894,7 @@ If this property is not set, Rebel Engine will select a "best guess" based on su
 
 启用当你关闭控件模态时，输入是否传播。
 
-如果``false``，在视窗输入事件处理时停止事件处理。视窗首先隐藏模态，之后将输入标记为已处理。
+如果\ ``false``，在视窗输入事件处理时停止事件处理。视窗首先隐藏模态，之后将输入标记为已处理。
 
 ----
 
@@ -910,9 +910,9 @@ If this property is not set, Rebel Engine will select a "best guess" based on su
 | *Getter*  | get_margin()      |
 +-----------+-------------------+
 
-节点底边与其父控件之间的距离，基于:ref:`anchor_bottom<class_Control_property_anchor_bottom>`。
+节点底边与其父控件之间的距离，基于\ :ref:`anchor_bottom<class_Control_property_anchor_bottom>`。
 
-边距通常由一个或多个父:ref:`Container<class_Container>`\ 节点控制，因此，如果您的节点是:ref:`Container<class_Container>`\ 的直接子级，则不应手动修改它们。当您移动或调整节点大小时，边距会自动更新。
+边距通常由一个或多个父\ :ref:`Container<class_Container>`\ 节点控制，因此，如果您的节点是\ :ref:`Container<class_Container>`\ 的直接子级，则不应手动修改它们。当您移动或调整节点大小时，边距会自动更新。
 
 ----
 
@@ -928,9 +928,9 @@ If this property is not set, Rebel Engine will select a "best guess" based on su
 | *Getter*  | get_margin()      |
 +-----------+-------------------+
 
-节点的左边缘与其父控件之间的距离，基于:ref:`anchor_left<class_Control_property_anchor_left>`。
+节点的左边缘与其父控件之间的距离，基于\ :ref:`anchor_left<class_Control_property_anchor_left>`。
 
-边距通常由一个或多个父:ref:`Container<class_Container>`\ 节点控制，因此，如果您的节点是:ref:`Container<class_Container>`\ 的直接子级，则不应手动修改它们。当您移动或调整节点大小时，边距会自动更新。
+边距通常由一个或多个父\ :ref:`Container<class_Container>`\ 节点控制，因此，如果您的节点是\ :ref:`Container<class_Container>`\ 的直接子级，则不应手动修改它们。当您移动或调整节点大小时，边距会自动更新。
 
 ----
 
@@ -946,9 +946,9 @@ If this property is not set, Rebel Engine will select a "best guess" based on su
 | *Getter*  | get_margin()      |
 +-----------+-------------------+
 
-节点的右边缘与其父控件之间的距离，基于:ref:`anchor_right<class_Control_property_anchor_right>`。
+节点的右边缘与其父控件之间的距离，基于\ :ref:`anchor_right<class_Control_property_anchor_right>`。
 
-边距通常由一个或多个父:ref:`Container<class_Container>`\ 节点控制，因此，如果您的节点是:ref:`Container<class_Container>`\ 的直接子级，则不应手动修改它们。当您移动或调整节点大小时，边距会自动更新。
+边距通常由一个或多个父\ :ref:`Container<class_Container>`\ 节点控制，因此，如果您的节点是\ :ref:`Container<class_Container>`\ 的直接子级，则不应手动修改它们。当您移动或调整节点大小时，边距会自动更新。
 
 ----
 
@@ -964,7 +964,7 @@ If this property is not set, Rebel Engine will select a "best guess" based on su
 | *Getter*  | get_margin()      |
 +-----------+-------------------+
 
-节点的顶边与其父控件之间的距离，基于:ref:`anchor_top<class_Control_property_anchor_top>`。
+节点的顶边与其父控件之间的距离，基于\ :ref:`anchor_top<class_Control_property_anchor_top>`。
 
 边距通常由一个或多个父 :ref:`Container<class_Container>` 节点控制，所以如果您的节点是 :ref:`Container<class_Container>` 的直接子节点，您不应该手动修改它们。当您移动或调整节点大小时，边距会自动更新。
 
@@ -1000,7 +1000,7 @@ The default cursor shape for this control. Useful for Rebel Engine plugins and a
 | *Getter*  | get_mouse_filter()      |
 +-----------+-------------------------+
 
-控制控件是否能够通过:ref:`_gui_input<class_Control_method__gui_input>`\ 接收鼠标按钮输入事件，以及如何处理这些事件。还控制控件是否能接收:ref:`mouse_entered<class_Control_signal_mouse_entered>`\ 和:ref:`mouse_exited<class_Control_signal_mouse_exited>`\ 信号。参阅常量来了解每个常量的作用。
+控制控件是否能够通过\ :ref:`_gui_input<class_Control_method__gui_input>`\ 接收鼠标按钮输入事件，以及如何处理这些事件。还控制控件是否能接收\ :ref:`mouse_entered<class_Control_signal_mouse_entered>`\ 和\ :ref:`mouse_exited<class_Control_signal_mouse_exited>`\ 信号。参阅常量来了解每个常量的作用。
 
 ----
 
@@ -1016,7 +1016,7 @@ The default cursor shape for this control. Useful for Rebel Engine plugins and a
 | *Getter*  | is_clipping_contents()   |
 +-----------+--------------------------+
 
-启用是否应将基于:ref:`CanvasItem<class_CanvasItem>`\ 的子控件渲染到该控件的矩形上。如果``true``，则不会渲染子控件中明显在矩形之外的部分。
+启用是否应将基于\ :ref:`CanvasItem<class_CanvasItem>`\ 的子控件渲染到该控件的矩形上。如果\ ``true``，则不会渲染子控件中明显在矩形之外的部分。
 
 ----
 
@@ -1074,7 +1074,7 @@ By default, the node's pivot is its top-left corner. When you change its :ref:`r
 | *Getter*  | get_position()      |
 +-----------+---------------------+
 
-节点相对于其父节点的位置。它对应于矩形的左上角。该属性不受:ref:`rect_pivot_offset<class_Control_property_rect_pivot_offset>`\ 的影响。
+节点相对于其父节点的位置。它对应于矩形的左上角。该属性不受\ :ref:`rect_pivot_offset<class_Control_property_rect_pivot_offset>`\ 的影响。
 
 ----
 
@@ -1090,7 +1090,7 @@ By default, the node's pivot is its top-left corner. When you change its :ref:`r
 | *Getter*  | get_rotation_degrees()      |
 +-----------+-----------------------------+
 
-节点围绕其枢轴的旋转（以度为单位）。请参阅:ref:`rect_pivot_offset<class_Control_property_rect_pivot_offset>`\ 更改枢轴的位置。
+节点围绕其枢轴的旋转（以度为单位）。请参阅\ :ref:`rect_pivot_offset<class_Control_property_rect_pivot_offset>`\ 更改枢轴的位置。
 
 ----
 
@@ -1108,9 +1108,9 @@ By default, the node's pivot is its top-left corner. When you change its :ref:`r
 
 节点的缩放，相对于其 :ref:`rect_size<class_Control_property_rect_size>`。改变这个属性可以使节点围绕它的 :ref:`rect_pivot_offset<class_Control_property_rect_pivot_offset>` 缩放。该 Control 的 :ref:`hint_tooltip<class_Control_property_hint_tooltip>` 也将根据这个值进行缩放。
 
-**注意：**这个属性主要用于动画用途。当控件被缩放时，控件内的文本将看起来是像素化或模糊的。要在你的项目支持多种分辨率，请使用:doc:`文档 </tutorials/rendering/multiple_resolutions>`\ 中描述的合适的视窗拉伸模式，而不是单独缩放控件。
+**注意：**\ 这个属性主要用于动画用途。当控件被缩放时，控件内的文本将看起来是像素化或模糊的。要在你的项目支持多种分辨率，请使用\ :doc:`文档 </tutorials/rendering/multiple_resolutions>`\ 中描述的合适的视窗拉伸模式，而不是单独缩放控件。
 
-**注意：**如果控件节点是 :ref:`Container<class_Container>` 节点的子节点，当场景实例化时，缩放将被重置为 ``Vector2(1, 1)``。要在实例化时设置控件的缩放，使用 ``yield(get_tree(), "idle_frame")`` 等待一帧，然后设置其 :ref:`rect_scale<class_Control_property_rect_scale>` 属性。
+**注意：**\ 如果控件节点是 :ref:`Container<class_Container>` 节点的子节点，当场景实例化时，缩放将被重置为 ``Vector2(1, 1)``。要在实例化时设置控件的缩放，使用 ``yield(get_tree(), "idle_frame")`` 等待一帧，然后设置其 :ref:`rect_scale<class_Control_property_rect_scale>` 属性。
 
 ----
 
@@ -1140,7 +1140,7 @@ By default, the node's pivot is its top-left corner. When you change its :ref:`r
 | *Getter*  | get_h_size_flags()      |
 +-----------+-------------------------+
 
-告诉父:ref:`Container<class_Container>`\ 节点应如何调整尺寸并将其放置在X轴上。使用:ref:`SizeFlags<enum_Control_SizeFlags>`\ 常量之一更改标志。查看常量以了解每个常量的作用。
+告诉父\ :ref:`Container<class_Container>`\ 节点应如何调整尺寸并将其放置在X轴上。使用\ :ref:`SizeFlags<enum_Control_SizeFlags>`\ 常量之一更改标志。查看常量以了解每个常量的作用。
 
 ----
 
@@ -1156,7 +1156,7 @@ By default, the node's pivot is its top-left corner. When you change its :ref:`r
 | *Getter*  | get_stretch_ratio()      |
 +-----------+--------------------------+
 
-如果这个节点和它的至少一个相邻节点使用:ref:`SIZE_EXPAND<class_Control_constant_SIZE_EXPAND>`\ 大小标志，父节点:ref:`Container<class_Container>`\ 将根据这个属性让它占用更多或更少的空间。如果这个节点的拉伸比为2，而它的相邻节点的拉伸比为1，这个节点将占用三分之二的可用空间。
+如果这个节点和它的至少一个相邻节点使用\ :ref:`SIZE_EXPAND<class_Control_constant_SIZE_EXPAND>`\ 大小标志，父节点\ :ref:`Container<class_Container>`\ 将根据这个属性让它占用更多或更少的空间。如果这个节点的拉伸比为2，而它的相邻节点的拉伸比为1，这个节点将占用三分之二的可用空间。
 
 ----
 
@@ -1172,7 +1172,7 @@ By default, the node's pivot is its top-left corner. When you change its :ref:`r
 | *Getter*  | get_v_size_flags()      |
 +-----------+-------------------------+
 
-告诉父:ref:`Container<class_Container>`\ 节点应如何调整尺寸并将其放置在X轴上。使用:ref:`SizeFlags<enum_Control_SizeFlags>`\ 常量之一更改标志。查看常量以了解每个常量的作用。
+告诉父\ :ref:`Container<class_Container>`\ 节点应如何调整尺寸并将其放置在X轴上。使用\ :ref:`SizeFlags<enum_Control_SizeFlags>`\ 常量之一更改标志。查看常量以了解每个常量的作用。
 
 ----
 
@@ -1186,7 +1186,7 @@ By default, the node's pivot is its top-left corner. When you change its :ref:`r
 | *Getter* | get_theme()      |
 +----------+------------------+
 
-更改此属性将替换该节点及其所有``Control``\ 子级使用的当前:ref:`Theme<class_Theme>`\ 资源。
+更改此属性将替换该节点及其所有\ ``Control``\ 子级使用的当前\ :ref:`Theme<class_Theme>`\ 资源。
 
 Method Descriptions
 -------------------
@@ -1215,7 +1215,7 @@ Method Descriptions
 
 - void **_gui_input** **(** :ref:`InputEvent<class_InputEvent>` event **)** |virtual|
 
-由用户实现的虚方法。使用此方法处理和接受 UI 元素上的输入。参阅:ref:`accept_event<class_Control_method_accept_event>`。
+由用户实现的虚方法。使用此方法处理和接受 UI 元素上的输入。参阅\ :ref:`accept_event<class_Control_method_accept_event>`。
 
 例：单击控件。
 
@@ -1228,7 +1228,7 @@ Method Descriptions
 
 如果出现以下情况，则不会触发该事件：
 
-\* 在控件外点击（参阅:ref:`has_point<class_Control_method_has_point>`）；
+\* 在控件外点击（参阅\ :ref:`has_point<class_Control_method_has_point>`）；
 
 \* 控件将 :ref:`mouse_filter<class_Control_property_mouse_filter>` 设置为 :ref:`MOUSE_FILTER_IGNORE<class_Control_constant_MOUSE_FILTER_IGNORE>`；
 
@@ -1252,7 +1252,7 @@ Method Descriptions
 
 返回的节点将作为子节点添加到 :ref:`PopupPanel<class_PopupPanel>`，因此你应该只提供该面板的内容。该 :ref:`PopupPanel<class_PopupPanel>` 可以使用 :ref:`Theme.set_stylebox<class_Theme_method_set_stylebox>` 为类型 ``"TooltipPanel"`` 设置主题，参阅 :ref:`hint_tooltip<class_Control_property_hint_tooltip>` 示例。
 
-**注意：**工具提示缩小到最小尺寸。如果你想确保它完全可见，需将其 :ref:`rect_min_size<class_Control_property_rect_min_size>` 设置为非零值。
+**注意：**\ 工具提示缩小到最小尺寸。如果你想确保它完全可见，需将其 :ref:`rect_min_size<class_Control_property_rect_min_size>` 设置为非零值。
 
 自定义构建节点的使用示例：
 
@@ -1278,7 +1278,7 @@ Method Descriptions
 
 - void **accept_event** **(** **)**
 
-将输入事件标记为已处理。一旦接受输入事件，它就会停止传播，甚至传播到正在侦听:ref:`Node._unhandled_input<class_Node_method__unhandled_input>`\ 或:ref:`Node._unhandled_key_input<class_Node_method__unhandled_key_input>`\ 的节点。
+将输入事件标记为已处理。一旦接受输入事件，它就会停止传播，甚至传播到正在侦听\ :ref:`Node._unhandled_input<class_Node_method__unhandled_input>`\ 或\ :ref:`Node._unhandled_key_input<class_Node_method__unhandled_key_input>`\ 的节点。
 
 ----
 
@@ -1288,7 +1288,7 @@ Method Descriptions
 
 使用指定的 ``name`` 为主题 :ref:`Color<class_Color>` 创建本地覆盖项。获取控件的主题项时，本地覆盖项始终优先。无法删除覆盖项，但可以使用相应的默认值覆盖它。
 
-参阅:ref:`get_color<class_Control_method_get_color>`。
+参阅\ :ref:`get_color<class_Control_method_get_color>`。
 
 **覆盖标签颜色并其后重置的示例:**
 
@@ -1307,7 +1307,7 @@ Method Descriptions
 
 为指定 ``name`` 的主题常量创建本地覆盖项。获取控件的主题项时，本地覆盖项始终优先。无法删除覆盖项，但可以使用相应的默认值覆盖它。
 
-参阅:ref:`get_constant<class_Control_method_get_constant>`。
+参阅\ :ref:`get_constant<class_Control_method_get_constant>`。
 
 ----
 
@@ -1317,7 +1317,7 @@ Method Descriptions
 
 使用指定的 ``name`` 为主题 :ref:`Font<class_Font>` 创建本地覆盖项。获取控件的主题项时，本地覆盖项始终优先。可以通过为其分配 ``null`` 值来删除覆盖。
 
-参阅:ref:`get_font<class_Control_method_get_font>`。
+参阅\ :ref:`get_font<class_Control_method_get_font>`。
 
 ----
 
@@ -1327,7 +1327,7 @@ Method Descriptions
 
 为指定 ``name`` 的主题图标创建本地覆盖项。获取控件的主题项时，本地覆盖项始终优先。可以通过为其分配 ``null`` 值来删除覆盖。
 
-参阅:ref:`get_icon<class_Control_method_get_icon>`。
+参阅\ :ref:`get_icon<class_Control_method_get_icon>`。
 
 ----
 
@@ -1400,7 +1400,7 @@ Rebel Engine calls this method to pass you the ``data`` from a control's :ref:`g
 
 - :ref:`Control<class_Control>` **find_next_valid_focus** **(** **)** |const|
 
-找到下一个可以接受焦点的``Control``，在树的下方。
+找到下一个可以接受焦点的\ ``Control``，在树的下方。
 
 ----
 
@@ -1408,7 +1408,7 @@ Rebel Engine calls this method to pass you the ``data`` from a control's :ref:`g
 
 - :ref:`Control<class_Control>` **find_prev_valid_focus** **(** **)** |const|
 
-找到可以接收焦点的上一个``Control``，在树的上方。
+找到可以接收焦点的上一个\ ``Control``，在树的上方。
 
 ----
 
@@ -1416,9 +1416,9 @@ Rebel Engine calls this method to pass you the ``data`` from a control's :ref:`g
 
 - void **force_drag** **(** :ref:`Variant<class_Variant>` data, :ref:`Control<class_Control>` preview **)**
 
-通过传递``data``\ 和``preview``\ 强制拖动并绕过:ref:`get_drag_data<class_Control_method_get_drag_data>`\ 和:ref:`set_drag_preview<class_Control_method_set_drag_preview>`。即使鼠标既不在该控件上，也未在该控件上按下，都将开始拖动。
+通过传递\ ``data``\ 和\ ``preview``\ 强制拖动并绕过\ :ref:`get_drag_data<class_Control_method_get_drag_data>`\ 和\ :ref:`set_drag_preview<class_Control_method_set_drag_preview>`。即使鼠标既不在该控件上，也未在该控件上按下，都将开始拖动。
 
-方法:ref:`can_drop_data<class_Control_method_can_drop_data>`\ 和:ref:`drop_data<class_Control_method_drop_data>`\ 必须在要接收放置数据的控件上实现。
+方法\ :ref:`can_drop_data<class_Control_method_can_drop_data>`\ 和\ :ref:`drop_data<class_Control_method_drop_data>`\ 必须在要接收放置数据的控件上实现。
 
 ----
 
@@ -1426,7 +1426,7 @@ Rebel Engine calls this method to pass you the ``data`` from a control's :ref:`g
 
 - :ref:`float<class_float>` **get_anchor** **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin **)** |const|
 
-从:ref:`Margin<enum_@GlobalScope_Margin>`\ 枚举返回由``margin``\ 常量标识的锚。 :ref:`anchor_bottom<class_Control_property_anchor_bottom>`，:ref:`anchor_left<class_Control_property_anchor_left>`，:ref:`anchor_right<class_Control_property_anchor_right>`\ 和:ref:`anchor_top<class_Control_property_anchor_top>`\ 的获取方法。
+从\ :ref:`Margin<enum_@GlobalScope_Margin>`\ 枚举返回由\ ``margin``\ 常量标识的锚。 :ref:`anchor_bottom<class_Control_property_anchor_bottom>`，:ref:`anchor_left<class_Control_property_anchor_left>`，:ref:`anchor_right<class_Control_property_anchor_right>`\ 和\ :ref:`anchor_top<class_Control_property_anchor_top>`\ 的获取方法。
 
 ----
 
@@ -1434,7 +1434,7 @@ Rebel Engine calls this method to pass you the ``data`` from a control's :ref:`g
 
 - :ref:`Vector2<class_Vector2>` **get_begin** **(** **)** |const|
 
-返回:ref:`margin_left<class_Control_property_margin_left>`\ 和:ref:`margin_top<class_Control_property_margin_top>`。另请参阅:ref:`rect_position<class_Control_property_rect_position>`。
+返回\ :ref:`margin_left<class_Control_property_margin_left>`\ 和\ :ref:`margin_top<class_Control_property_margin_top>`。另请参阅\ :ref:`rect_position<class_Control_property_rect_position>`。
 
 ----
 
@@ -1444,7 +1444,7 @@ Rebel Engine calls this method to pass you the ``data`` from a control's :ref:`g
 
 如果该 :ref:`Theme<class_Theme>` 具有指定 ``name`` 和 ``theme_type`` 的颜色项，则从树中第一个匹配的 :ref:`Theme<class_Theme>` 返回 :ref:`Color<class_Color>`。如果省略 ``theme_type``，则使用当前控件的类名作为类型。如果类型是类名，则还会按继承顺序检查其父类。
 
-对于当前控件，首先考虑其本地覆盖项，参阅 :ref:`add_color_override<class_Control_method_add_color_override>`，然后是其分配的 :ref:`theme<class_Control_property_theme>`。在当前控件之后，考虑每个父控件及其分配的 :ref:`theme<class_Control_property_theme>`；未分配:ref:`theme<class_Control_property_theme>`\ 的控件将被跳过。如果在树中找不到匹配的 :ref:`Theme<class_Theme>`，则使用自定义项目 :ref:`Theme<class_Theme>`\ 和默认的 :ref:`Theme<class_Theme>`，参阅 :ref:`ProjectSettings.gui/theme/custom<class_ProjectSettings_property_gui/theme/custom>`。
+对于当前控件，首先考虑其本地覆盖项，参阅 :ref:`add_color_override<class_Control_method_add_color_override>`，然后是其分配的 :ref:`theme<class_Control_property_theme>`。在当前控件之后，考虑每个父控件及其分配的 :ref:`theme<class_Control_property_theme>`；未分配\ :ref:`theme<class_Control_property_theme>`\ 的控件将被跳过。如果在树中找不到匹配的 :ref:`Theme<class_Theme>`，则使用自定义项目 :ref:`Theme<class_Theme>`\ 和默认的 :ref:`Theme<class_Theme>`，参阅 :ref:`ProjectSettings.gui/theme/custom<class_ProjectSettings_property_gui/theme/custom>`。
 
 ::
 
@@ -1460,7 +1460,7 @@ Rebel Engine calls this method to pass you the ``data`` from a control's :ref:`g
 
 - :ref:`Vector2<class_Vector2>` **get_combined_minimum_size** **(** **)** |const|
 
-返回:ref:`rect_min_size<class_Control_property_rect_min_size>`\ 和:ref:`get_minimum_size<class_Control_method_get_minimum_size>`\ 的组合最小大小。
+返回\ :ref:`rect_min_size<class_Control_property_rect_min_size>`\ 和\ :ref:`get_minimum_size<class_Control_method_get_minimum_size>`\ 的组合最小大小。
 
 ----
 
@@ -1478,7 +1478,7 @@ Rebel Engine calls this method to pass you the ``data`` from a control's :ref:`g
 
 - :ref:`CursorShape<enum_Control_CursorShape>` **get_cursor_shape** **(** :ref:`Vector2<class_Vector2>` position=Vector2( 0, 0 ) **)** |const|
 
-返回控件在鼠标悬停时显示的鼠标指针形状。参阅:ref:`CursorShape<enum_Control_CursorShape>`。
+返回控件在鼠标悬停时显示的鼠标指针形状。参阅\ :ref:`CursorShape<enum_Control_CursorShape>`。
 
 ----
 
@@ -1503,7 +1503,7 @@ A preview that will follow the mouse that should represent the data can be set w
 
 - :ref:`Vector2<class_Vector2>` **get_end** **(** **)** |const|
 
-返回:ref:`margin_right<class_Control_property_margin_right>`\ 和:ref:`margin_bottom<class_Control_property_margin_bottom>`。
+返回\ :ref:`margin_right<class_Control_property_margin_right>`\ 和\ :ref:`margin_bottom<class_Control_property_margin_bottom>`。
 
 ----
 
@@ -1511,7 +1511,7 @@ A preview that will follow the mouse that should represent the data can be set w
 
 - :ref:`NodePath<class_NodePath>` **get_focus_neighbour** **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin **)** |const|
 
-返回由:ref:`Margin<enum_@GlobalScope_Margin>`\ 枚举的``margin``\ 常量标识的焦点邻居。 :ref:`focus_neighbour_bottom<class_Control_property_focus_neighbour_bottom>`，:ref:`focus_neighbour_left<class_Control_property_focus_neighbour_left>`，:ref:`focus_neighbour_right<class_Control_property_focus_neighbour_right>`\ 和:ref:`focus_neighbour_top<class_Control_property_focus_neighbour_top>`\ 的获取方法。
+返回由\ :ref:`Margin<enum_@GlobalScope_Margin>`\ 枚举的\ ``margin``\ 常量标识的焦点邻居。 :ref:`focus_neighbour_bottom<class_Control_property_focus_neighbour_bottom>`，:ref:`focus_neighbour_left<class_Control_property_focus_neighbour_left>`，:ref:`focus_neighbour_right<class_Control_property_focus_neighbour_right>`\ 和\ :ref:`focus_neighbour_top<class_Control_property_focus_neighbour_top>`\ 的获取方法。
 
 ----
 
@@ -1519,7 +1519,7 @@ A preview that will follow the mouse that should represent the data can be set w
 
 - :ref:`Control<class_Control>` **get_focus_owner** **(** **)** |const|
 
-返回有键盘焦点的控件，如果没有，则返回``null``。
+返回有键盘焦点的控件，如果没有，则返回\ ``null``。
 
 ----
 
@@ -1537,7 +1537,7 @@ A preview that will follow the mouse that should represent the data can be set w
 
 - :ref:`Rect2<class_Rect2>` **get_global_rect** **(** **)** |const|
 
-返回控件相对于屏幕左上角的位置和大小。请参阅:ref:`rect_position<class_Control_property_rect_position>`\ 和:ref:`rect_size<class_Control_property_rect_size>`。
+返回控件相对于屏幕左上角的位置和大小。请参阅\ :ref:`rect_position<class_Control_property_rect_position>`\ 和\ :ref:`rect_size<class_Control_property_rect_size>`。
 
 ----
 
@@ -1555,7 +1555,7 @@ A preview that will follow the mouse that should represent the data can be set w
 
 - :ref:`float<class_float>` **get_margin** **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin **)** |const|
 
-从:ref:`Margin<enum_@GlobalScope_Margin>`\ 枚举返回由``margin``\ 常量标识的锚。 :ref:`margin_bottom<class_Control_property_margin_bottom>`，:ref:`margin_left<class_Control_property_margin_left>`，:ref:`margin_right<class_Control_property_margin_right>`\ 和:ref:`margin_top<class_Control_property_margin_top>`\ 的获取方法。
+从\ :ref:`Margin<enum_@GlobalScope_Margin>`\ 枚举返回由\ ``margin``\ 常量标识的锚。 :ref:`margin_bottom<class_Control_property_margin_bottom>`，:ref:`margin_left<class_Control_property_margin_left>`，:ref:`margin_right<class_Control_property_margin_right>`\ 和\ :ref:`margin_top<class_Control_property_margin_top>`\ 的获取方法。
 
 ----
 
@@ -1563,7 +1563,7 @@ A preview that will follow the mouse that should represent the data can be set w
 
 - :ref:`Vector2<class_Vector2>` **get_minimum_size** **(** **)** |const|
 
-返回此控件的最小尺寸。参阅:ref:`rect_min_size<class_Control_property_rect_min_size>`。
+返回此控件的最小尺寸。参阅\ :ref:`rect_min_size<class_Control_property_rect_min_size>`。
 
 ----
 
@@ -1587,7 +1587,7 @@ A preview that will follow the mouse that should represent the data can be set w
 
 - :ref:`Rect2<class_Rect2>` **get_rect** **(** **)** |const|
 
-返回相对于父控件左上角的控件的位置和大小。请参阅:ref:`rect_position<class_Control_property_rect_position>`\ 和:ref:`rect_size<class_Control_property_rect_size>`。
+返回相对于父控件左上角的控件的位置和大小。请参阅\ :ref:`rect_position<class_Control_property_rect_position>`\ 和\ :ref:`rect_size<class_Control_property_rect_size>`。
 
 ----
 
@@ -1623,7 +1623,7 @@ A preview that will follow the mouse that should represent the data can be set w
 
 - :ref:`String<class_String>` **get_tooltip** **(** :ref:`Vector2<class_Vector2>` at_position=Vector2( 0, 0 ) **)** |const|
 
-返回工具提示，当光标停留在该控件上时将显示该工具提示。请参阅:ref:`hint_tooltip<class_Control_property_hint_tooltip>`。
+返回工具提示，当光标停留在该控件上时将显示该工具提示。请参阅\ :ref:`hint_tooltip<class_Control_property_hint_tooltip>`。
 
 ----
 
@@ -1631,7 +1631,7 @@ A preview that will follow the mouse that should represent the data can be set w
 
 - void **grab_click_focus** **(** **)**
 
-创建一个:ref:`InputEventMouseButton<class_InputEventMouseButton>`，尝试点击控件。如果接收到该事件，控件就会获得焦点。
+创建一个\ :ref:`InputEventMouseButton<class_InputEventMouseButton>`，尝试点击控件。如果接收到该事件，控件就会获得焦点。
 
 ::
 
@@ -1644,7 +1644,7 @@ A preview that will follow the mouse that should represent the data can be set w
 
 - void **grab_focus** **(** **)**
 
-从另一个控件中窃取焦点，并成为焦点控件（请参阅:ref:`focus_mode<class_Control_property_focus_mode>`）。
+从另一个控件中窃取焦点，并成为焦点控件（请参阅\ :ref:`focus_mode<class_Control_property_focus_mode>`）。
 
 ----
 
@@ -1692,7 +1692,7 @@ A preview that will follow the mouse that should represent the data can be set w
 
 - :ref:`bool<class_bool>` **has_focus** **(** **)** |const|
 
-如果这是当前的焦点控件，则返回``true``。参阅:ref:`focus_mode<class_Control_property_focus_mode>`。
+如果这是当前的焦点控件，则返回\ ``true``。参阅\ :ref:`focus_mode<class_Control_property_focus_mode>`。
 
 ----
 
@@ -1712,7 +1712,7 @@ A preview that will follow the mouse that should represent the data can be set w
 
 如果在此 ``Control`` 节点中具有指定 ``name`` 的主题 :ref:`Font<class_Font>` 的本地覆盖项目，则返回 ``true``。
 
-参阅:ref:`add_font_override<class_Control_method_add_font_override>`。
+参阅\ :ref:`add_font_override<class_Control_method_add_font_override>`。
 
 ----
 
@@ -1744,7 +1744,7 @@ A preview that will follow the mouse that should represent the data can be set w
 
 如果未覆盖，则默认行为是检查该点是否在控件的 Rect 范围内。
 
-**注意：**如果要检查控件中是否有点，可以使用 ``get_rect().has_point(point)``。
+**注意：**\ 如果要检查控件中是否有点，可以使用 ``get_rect().has_point(point)``。
 
 ----
 
@@ -1754,7 +1754,7 @@ A preview that will follow the mouse that should represent the data can be set w
 
 如果此 ``Control`` 节点中具有指定 ``name`` 的主题着色器存在本地覆盖项，则返回 ``true``。
 
-参阅:ref:`add_shader_override<class_Control_method_add_shader_override>`。
+参阅\ :ref:`add_shader_override<class_Control_method_add_shader_override>`。
 
 ----
 
@@ -1782,7 +1782,7 @@ A preview that will follow the mouse that should represent the data can be set w
 
 - void **minimum_size_changed** **(** **)**
 
-使此节点和父节点（直至最高级别）中的大小缓存无效。打算在更改返回值时与:ref:`get_minimum_size<class_Control_method_get_minimum_size>`\ 一起使用。设置:ref:`rect_min_size<class_Control_property_rect_min_size>`\ 直接直接自动调用此方法。
+使此节点和父节点（直至最高级别）中的大小缓存无效。打算在更改返回值时与\ :ref:`get_minimum_size<class_Control_method_get_minimum_size>`\ 一起使用。设置\ :ref:`rect_min_size<class_Control_property_rect_min_size>`\ 直接直接自动调用此方法。
 
 ----
 
@@ -1798,11 +1798,11 @@ A preview that will follow the mouse that should represent the data can be set w
 
 - void **set_anchor** **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin, :ref:`float<class_float>` anchor, :ref:`bool<class_bool>` keep_margin=false, :ref:`bool<class_bool>` push_opposite_anchor=true **)**
 
-将由:ref:`Margin<enum_@GlobalScope_Margin>`\ 枚举的``margin``\ 常量标识的锚设置为值``anchor``。用于:ref:`anchor_bottom<class_Control_property_anchor_bottom>`，:ref:`anchor_left<class_Control_property_anchor_left>`，:ref:`anchor_right<class_Control_property_anchor_right>`\ 和:ref:`anchor_top<class_Control_property_anchor_top>`\ 的setter方法。
+将由\ :ref:`Margin<enum_@GlobalScope_Margin>`\ 枚举的\ ``margin``\ 常量标识的锚设置为值\ ``anchor``。用于\ :ref:`anchor_bottom<class_Control_property_anchor_bottom>`，:ref:`anchor_left<class_Control_property_anchor_left>`，:ref:`anchor_right<class_Control_property_anchor_right>`\ 和\ :ref:`anchor_top<class_Control_property_anchor_top>`\ 的setter方法。
 
-如果``keep_margin``\ 为``true``，则在执行此操作后不会更新边距。
+如果\ ``keep_margin``\ 为\ ``true``，则在执行此操作后不会更新边距。
 
-如果``push_opposite_anchor``\ 为``true``，并且相对的锚点与该锚点重叠，则相对的锚点将覆盖其值。例如，当将左锚点设置为1且右锚点的值为0.5时，右锚点的值也将为1。如果``push_opposite_anchor``\ 为``false``，则左锚点将得到值0.5。
+如果\ ``push_opposite_anchor``\ 为\ ``true``，并且相对的锚点与该锚点重叠，则相对的锚点将覆盖其值。例如，当将左锚点设置为1且右锚点的值为0.5时，右锚点的值也将为1。如果\ ``push_opposite_anchor``\ 为\ ``false``，则左锚点将得到值0.5。
 
 ----
 
@@ -1810,7 +1810,7 @@ A preview that will follow the mouse that should represent the data can be set w
 
 - void **set_anchor_and_margin** **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin, :ref:`float<class_float>` anchor, :ref:`float<class_float>` offset, :ref:`bool<class_bool>` push_opposite_anchor=false **)**
 
-与:ref:`set_anchor<class_Control_method_set_anchor>`\ 的工作原理相同，但是它代替``keep_margin``\ 参数和边距的自动更新，它允许您自己设置边距偏移量（请参阅:ref:`set_margin<class_Control_method_set_margin>`）。
+与\ :ref:`set_anchor<class_Control_method_set_anchor>`\ 的工作原理相同，但是它代替\ ``keep_margin``\ 参数和边距的自动更新，它允许您自己设置边距偏移量（请参阅\ :ref:`set_margin<class_Control_method_set_margin>`）。
 
 ----
 
@@ -1818,7 +1818,7 @@ A preview that will follow the mouse that should represent the data can be set w
 
 - void **set_anchors_and_margins_preset** **(** :ref:`LayoutPreset<enum_Control_LayoutPreset>` preset, :ref:`LayoutPresetMode<enum_Control_LayoutPresetMode>` resize_mode=0, :ref:`int<class_int>` margin=0 **)**
 
-设置锚定预设和边距预设。请参阅:ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\ 和:ref:`set_margins_preset<class_Control_method_set_margins_preset>`。
+设置锚定预设和边距预设。请参阅\ :ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\ 和\ :ref:`set_margins_preset<class_Control_method_set_margins_preset>`。
 
 ----
 
@@ -1836,7 +1836,7 @@ A preview that will follow the mouse that should represent the data can be set w
 
 - void **set_begin** **(** :ref:`Vector2<class_Vector2>` position **)**
 
-同时设置:ref:`margin_left<class_Control_property_margin_left>`\ 和:ref:`margin_top<class_Control_property_margin_top>`。等效于更改:ref:`rect_position<class_Control_property_rect_position>`。
+同时设置\ :ref:`margin_left<class_Control_property_margin_left>`\ 和\ :ref:`margin_top<class_Control_property_margin_top>`。等效于更改\ :ref:`rect_position<class_Control_property_rect_position>`。
 
 ----
 
@@ -1897,7 +1897,7 @@ A preview that will follow the mouse that should represent the data can be set w
 
 - void **set_end** **(** :ref:`Vector2<class_Vector2>` position **)**
 
-同时设置:ref:`margin_right<class_Control_property_margin_right>`\ 和:ref:`margin_bottom<class_Control_property_margin_bottom>`。
+同时设置\ :ref:`margin_right<class_Control_property_margin_right>`\ 和\ :ref:`margin_bottom<class_Control_property_margin_bottom>`。
 
 ----
 
@@ -1905,7 +1905,7 @@ A preview that will follow the mouse that should represent the data can be set w
 
 - void **set_focus_neighbour** **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin, :ref:`NodePath<class_NodePath>` neighbour **)**
 
-设置由``margin``\ 常量标识的锚，从:ref:`Margin<enum_@GlobalScope_Margin>`\ 枚举到``neighbor``\ 节点路径处的``Control``。用于:ref:`focus_neighbour_bottom<class_Control_property_focus_neighbour_bottom>`，:ref:`focus_neighbour_left<class_Control_property_focus_neighbour_left>`，:ref:`focus_neighbour_right<class_Control_property_focus_neighbour_right>`\ 和:ref:`focus_neighbour_top<class_Control_property_focus_neighbour_top>`\ 的设置方法。
+设置由\ ``margin``\ 常量标识的锚，从\ :ref:`Margin<enum_@GlobalScope_Margin>`\ 枚举到\ ``neighbor``\ 节点路径处的\ ``Control``。用于\ :ref:`focus_neighbour_bottom<class_Control_property_focus_neighbour_bottom>`，:ref:`focus_neighbour_left<class_Control_property_focus_neighbour_left>`，:ref:`focus_neighbour_right<class_Control_property_focus_neighbour_right>`\ 和\ :ref:`focus_neighbour_top<class_Control_property_focus_neighbour_top>`\ 的设置方法。
 
 ----
 
@@ -1913,9 +1913,9 @@ A preview that will follow the mouse that should represent the data can be set w
 
 - void **set_global_position** **(** :ref:`Vector2<class_Vector2>` position, :ref:`bool<class_bool>` keep_margins=false **)**
 
-将:ref:`rect_global_position<class_Control_property_rect_global_position>`\ 设置为给定的``position``。
+将\ :ref:`rect_global_position<class_Control_property_rect_global_position>`\ 设置为给定的\ ``position``。
 
-如果``keep_margins``\ 为``true``，则控件的锚点将被更新，而不是边距。
+如果\ ``keep_margins``\ 为\ ``true``，则控件的锚点将被更新，而不是边距。
 
 ----
 
@@ -1923,7 +1923,7 @@ A preview that will follow the mouse that should represent the data can be set w
 
 - void **set_margin** **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin, :ref:`float<class_float>` offset **)**
 
-设置由:ref:`Margin<enum_@GlobalScope_Margin>`\ 枚举到``offset``\ 的``margin``\ 常量所标识的边距。用于:ref:`margin_bottom<class_Control_property_margin_bottom>`，:ref:`margin_left<class_Control_property_margin_left>`，:ref:`margin_right<class_Control_property_margin_right>`\ 和:ref:`margin_top<class_Control_property_margin_top>`\ 的设置方法。
+设置由\ :ref:`Margin<enum_@GlobalScope_Margin>`\ 枚举到\ ``offset``\ 的\ ``margin``\ 常量所标识的边距。用于\ :ref:`margin_bottom<class_Control_property_margin_bottom>`，:ref:`margin_left<class_Control_property_margin_left>`，:ref:`margin_right<class_Control_property_margin_right>`\ 和\ :ref:`margin_top<class_Control_property_margin_top>`\ 的设置方法。
 
 ----
 
@@ -1933,7 +1933,7 @@ A preview that will follow the mouse that should represent the data can be set w
 
 从 :ref:`LayoutPreset<enum_Control_LayoutPreset>` 枚举将边距设置为 ``preset``。这是等效于在 2D 编辑器中使用布局菜单的编码。
 
-使用参数 ``resize_mode`` 和 :ref:`LayoutPresetMode<enum_Control_LayoutPresetMode>` 中的常量来更好地确定 ``Control`` 的最终大小。如果与更改大小的预设一起使用，则常规大小将被忽略，例如``PRESET_LEFT_WIDE``。
+使用参数 ``resize_mode`` 和 :ref:`LayoutPresetMode<enum_Control_LayoutPresetMode>` 中的常量来更好地确定 ``Control`` 的最终大小。如果与更改大小的预设一起使用，则常规大小将被忽略，例如\ ``PRESET_LEFT_WIDE``。
 
 使用参数 ``margin`` 确定 ``Control`` 和边缘之间的间隙。
 
@@ -1943,9 +1943,9 @@ A preview that will follow the mouse that should represent the data can be set w
 
 - void **set_position** **(** :ref:`Vector2<class_Vector2>` position, :ref:`bool<class_bool>` keep_margins=false **)**
 
-将:ref:`rect_position<class_Control_property_rect_position>`\ 设置为给定的``position``。
+将\ :ref:`rect_position<class_Control_property_rect_position>`\ 设置为给定的\ ``position``。
 
-如果``keep_margins``\ 为``true``，则控件的锚点将被更新，而不是边距。
+如果\ ``keep_margins``\ 为\ ``true``，则控件的锚点将被更新，而不是边距。
 
 ----
 
@@ -1961,9 +1961,9 @@ A preview that will follow the mouse that should represent the data can be set w
 
 - void **set_size** **(** :ref:`Vector2<class_Vector2>` size, :ref:`bool<class_bool>` keep_margins=false **)**
 
-设置控件的大小(参阅:ref:`rect_size<class_Control_property_rect_size>`)。
+设置控件的大小(参阅\ :ref:`rect_size<class_Control_property_rect_size>`)。
 
-如果``keep_margins``\ 是``true``，则会更新控件的锚点而不是页边距。
+如果\ ``keep_margins``\ 是\ ``true``，则会更新控件的锚点而不是页边距。
 
 ----
 

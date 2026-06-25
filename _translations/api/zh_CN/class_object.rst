@@ -40,7 +40,7 @@ Description
 
 **注意：** 与对 :ref:`Reference<class_Reference>` 的引用不同，对存储在变量中的对象的引用可能会在没有警告的情况下变得无效。因此，建议对数据类使用 :ref:`Reference<class_Reference>` 而不是 ``Object``。
 
-**注意：**由于一个错误，你不能使用 ``Object.new()`` 创建一个“普通”对象。请使用 ``ClassDB.instance("Object")``。这个错误只适用于Object本身，而不是它的任何子类，如:ref:`Reference<class_Reference>`。
+**注意：**\ 由于一个错误，你不能使用 ``Object.new()`` 创建一个“普通”对象。请使用 ``ClassDB.instance("Object")``。这个错误只适用于Object本身，而不是它的任何子类，如\ :ref:`Reference<class_Reference>`。
 
 Tutorials
 ---------
@@ -212,7 +212,7 @@ Method Descriptions
 
 返回对象的属性列表为一个 :ref:`Array<class_Array>` 的字典。
 
-每个属性的 :ref:`Dictionary<class_Dictionary>` 必须至少包含 ``name: String`` 和 ``type: int``（见:ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`）条目。另外，它还可以包括 ``hint: int``（见 :ref:`PropertyHint<enum_@GlobalScope_PropertyHint>`）、``hint_string: String``，以及 ``usage: int``（见 :ref:`PropertyUsageFlags<enum_@GlobalScope_PropertyUsageFlags>`）。
+每个属性的 :ref:`Dictionary<class_Dictionary>` 必须至少包含 ``name: String`` 和 ``type: int``\ （见\ :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`）条目。另外，它还可以包括 ``hint: int``\ （见 :ref:`PropertyHint<enum_@GlobalScope_PropertyHint>`）、``hint_string: String``，以及 ``usage: int``\ （见 :ref:`PropertyUsageFlags<enum_@GlobalScope_PropertyUsageFlags>`）。
 
 ----
 
@@ -230,7 +230,7 @@ Called when the object is initialized in memory. Can be defined to take in param
 
 - void **_notification** **(** :ref:`int<class_int>` what **)** |virtual|
 
-每当对象收到一个通知时就会被调用，这个通知在``what``\ 中由一个常量来标识。基类 ``Object`` 有两个常量 :ref:`NOTIFICATION_POSTINITIALIZE<class_Object_constant_NOTIFICATION_POSTINITIALIZE>` 和 :ref:`NOTIFICATION_PREDELETE<class_Object_constant_NOTIFICATION_PREDELETE>`，但是诸如 :ref:`Node<class_Node>` 等子类定义了更多的通知，这些通知也是由这个方法接收。
+每当对象收到一个通知时就会被调用，这个通知在\ ``what``\ 中由一个常量来标识。基类 ``Object`` 有两个常量 :ref:`NOTIFICATION_POSTINITIALIZE<class_Object_constant_NOTIFICATION_POSTINITIALIZE>` 和 :ref:`NOTIFICATION_PREDELETE<class_Object_constant_NOTIFICATION_PREDELETE>`，但是诸如 :ref:`Node<class_Node>` 等子类定义了更多的通知，这些通知也是由这个方法接收。
 
 ----
 
@@ -258,7 +258,7 @@ Called when the object is initialized in memory. Can be defined to take in param
 
 - void **add_user_signal** **(** :ref:`String<class_String>` signal, :ref:`Array<class_Array>` arguments=[  ] **)**
 
-添加一个用户定义的``signal``。参数是可选的，但可以作为一个字典的:ref:`Array<class_Array>`\ 来添加，每个字典包含``name: String``\ 和``type: int``（见:ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`）条目。
+添加一个用户定义的\ ``signal``。参数是可选的，但可以作为一个字典的\ :ref:`Array<class_Array>`\ 来添加，每个字典包含\ ``name: String``\ 和\ ``type: int``\ （见\ :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`）条目。
 
 ----
 
@@ -294,7 +294,7 @@ Calls the ``method`` on the object during idle time. This method supports a vari
 
 - :ref:`Variant<class_Variant>` **callv** **(** :ref:`String<class_String>` method, :ref:`Array<class_Array>` arg_array **)**
 
-在对象上调用``method``\ 并返回结果。与:ref:`call<class_Object_method_call>`\ 相反，这个方法不支持可变数量的参数，而是期望所有的参数都通过一个:ref:`Array<class_Array>`。
+在对象上调用\ ``method``\ 并返回结果。与\ :ref:`call<class_Object_method_call>`\ 相反，这个方法不支持可变数量的参数，而是期望所有的参数都通过一个\ :ref:`Array<class_Array>`。
 
 ::
 
@@ -306,7 +306,7 @@ Calls the ``method`` on the object during idle time. This method supports a vari
 
 - :ref:`bool<class_bool>` **can_translate_messages** **(** **)** |const|
 
-如果该对象可以翻译字符串，则返回``true``。参阅:ref:`set_message_translation<class_Object_method_set_message_translation>`\ 和:ref:`tr<class_Object_method_tr>`。
+如果该对象可以翻译字符串，则返回\ ``true``。参阅\ :ref:`set_message_translation<class_Object_method_set_message_translation>`\ 和\ :ref:`tr<class_Object_method_tr>`。
 
 ----
 
@@ -353,7 +353,7 @@ If you try to disconnect a connection that does not exist, the method will print
 
 - void **emit_signal** **(** :ref:`String<class_String>` signal, ... **)** |vararg|
 
-发射给定的``信号``。这个信号必须存在，所以它应该是这个类或其父类中的一个内置信号，或者是一个用户定义的信号。这个方法支持可变数量的参数，所以参数是以逗号分隔的列表形式传递。例子。
+发射给定的\ ``信号``。这个信号必须存在，所以它应该是这个类或其父类中的一个内置信号，或者是一个用户定义的信号。这个方法支持可变数量的参数，所以参数是以逗号分隔的列表形式传递。例子。
 
 ::
 
@@ -368,7 +368,7 @@ If you try to disconnect a connection that does not exist, the method will print
 
 立即从内存中删除对象。对于 :ref:`Node<class_Node>`，您可能希望使用 :ref:`Node.queue_free<class_Node_method_queue_free>` 将节点排队以在当前帧的末尾安全删除。
 
-**重要提示：** 如果你有一个指向一个对象的变量，一旦对象被释放，它将 *不会* 分配为 ``null``。相反，它会指向一个*先前释放的实例*，您应该在尝试调用其方法或访问其属性之前使用 :ref:`@GDScript.is_instance_valid<class_@GDScript_method_is_instance_valid>` 对其进行验证。
+**重要提示：** 如果你有一个指向一个对象的变量，一旦对象被释放，它将 *不会* 分配为 ``null``。相反，它会指向一个\ *先前释放的实例*，您应该在尝试调用其方法或访问其属性之前使用 :ref:`@GDScript.is_instance_valid<class_@GDScript_method_is_instance_valid>` 对其进行验证。
 
 ----
 
@@ -386,9 +386,9 @@ Returns the :ref:`Variant<class_Variant>` value of the given ``property``. If th
 
 - :ref:`String<class_String>` **get_class** **(** **)** |const|
 
-返回对象的类型为一个:ref:`String<class_String>`。参见:ref:`is_class<class_Object_method_is_class>`。
+返回对象的类型为一个\ :ref:`String<class_String>`。参见\ :ref:`is_class<class_Object_method_is_class>`。
 
-**注意：** :ref:`get_class<class_Object_method_get_class>` 不考虑``class_name``\ 的声明。如果对象有一个``class_name``\ 的定义，基类名称将被返回。
+**注意：** :ref:`get_class<class_Object_method_get_class>` 不考虑\ ``class_name``\ 的声明。如果对象有一个\ ``class_name``\ 的定义，基类名称将被返回。
 
 ----
 
@@ -414,7 +414,7 @@ Returns the :ref:`Variant<class_Variant>` value of the given ``property``. If th
 
 获取由给定的 :ref:`NodePath<class_NodePath>` 索引的对象的属性。节点路径应该是相对于当前对象的，可以使用冒号字符（``:``）来访问嵌套属性。例如：``"position:x"`` 或 ``"material:next_pass:blend_mode"``。
 
-**注意：**虽然该方法的参数是 :ref:`NodePath<class_NodePath>` 节点路径，但是它实际并不支持指向场景树中 :ref:`Node<class_Node>` 节点的路径，只能使用冒号分隔的子属性路径。针对节点的话，请改用 :ref:`Node.get_node_and_resource<class_Node_method_get_node_and_resource>`。
+**注意：**\ 虽然该方法的参数是 :ref:`NodePath<class_NodePath>` 节点路径，但是它实际并不支持指向场景树中 :ref:`Node<class_Node>` 节点的路径，只能使用冒号分隔的子属性路径。针对节点的话，请改用 :ref:`Node.get_node_and_resource<class_Node_method_get_node_and_resource>`。
 
 ----
 
@@ -424,7 +424,7 @@ Returns the :ref:`Variant<class_Variant>` value of the given ``property``. If th
 
 返回对象的唯一实例ID。
 
-这个ID可以保存在:ref:`EncodedObjectAsID<class_EncodedObjectAsID>`\ 中，并且可以用:ref:`@GDScript.instance_from_id<class_@GDScript_method_instance_from_id>`\ 来检索对象实例。
+这个ID可以保存在\ :ref:`EncodedObjectAsID<class_EncodedObjectAsID>`\ 中，并且可以用\ :ref:`@GDScript.instance_from_id<class_@GDScript_method_instance_from_id>`\ 来检索对象实例。
 
 ----
 
@@ -432,7 +432,7 @@ Returns the :ref:`Variant<class_Variant>` value of the given ``property``. If th
 
 - :ref:`Variant<class_Variant>` **get_meta** **(** :ref:`String<class_String>` name **)** |const|
 
-返回给定``name``\ 的对象的元数据条目。
+返回给定\ ``name``\ 的对象的元数据条目。
 
 ----
 
@@ -458,7 +458,7 @@ Returns the :ref:`Variant<class_Variant>` value of the given ``property``. If th
 
 将该对象的属性列表作为 :ref:`Array<class_Array>` 返回，元素为字典。
 
-每个属性的 :ref:`Dictionary<class_Dictionary>` 至少包含 ``name: String`` 和 ``type: int``（见 :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`）条目。另外，它还可以包括 ``hint: int``（见:ref:`PropertyHint<enum_@GlobalScope_PropertyHint>`）、``hint_string: String``，以及``usage: int``（见:ref:`PropertyUsageFlags<enum_@GlobalScope_PropertyUsageFlags>`）。
+每个属性的 :ref:`Dictionary<class_Dictionary>` 至少包含 ``name: String`` 和 ``type: int``\ （见 :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`）条目。另外，它还可以包括 ``hint: int``\ （见\ :ref:`PropertyHint<enum_@GlobalScope_PropertyHint>`）、``hint_string: String``，以及\ ``usage: int``\ （见\ :ref:`PropertyUsageFlags<enum_@GlobalScope_PropertyUsageFlags>`）。
 
 ----
 
@@ -466,7 +466,7 @@ Returns the :ref:`Variant<class_Variant>` value of the given ``property``. If th
 
 - :ref:`Reference<class_Reference>` **get_script** **(** **)** |const|
 
-返回该对象的:ref:`Script<class_Script>`\ 实例，如果没有指定，则返回``null``。
+返回该对象的\ :ref:`Script<class_Script>`\ 实例，如果没有指定，则返回\ ``null``。
 
 ----
 
@@ -474,7 +474,7 @@ Returns the :ref:`Variant<class_Variant>` value of the given ``property``. If th
 
 - :ref:`Array<class_Array>` **get_signal_connection_list** **(** :ref:`String<class_String>` signal **)** |const|
 
-返回给定``signal``\ 的连接的:ref:`Array<class_Array>`。
+返回给定\ ``signal``\ 的连接的\ :ref:`Array<class_Array>`。
 
 ----
 
@@ -490,7 +490,7 @@ Returns the :ref:`Variant<class_Variant>` value of the given ``property``. If th
 
 - :ref:`bool<class_bool>` **has_meta** **(** :ref:`String<class_String>` name **)** |const|
 
-如果找到一个具有给定``name``\ 的元数据条目，则返回``true``。
+如果找到一个具有给定\ ``name``\ 的元数据条目，则返回\ ``true``。
 
 ----
 
@@ -498,7 +498,7 @@ Returns the :ref:`Variant<class_Variant>` value of the given ``property``. If th
 
 - :ref:`bool<class_bool>` **has_method** **(** :ref:`String<class_String>` method **)** |const|
 
-如果对象包含给定的``method``，返回``true``。
+如果对象包含给定的\ ``method``，返回\ ``true``。
 
 ----
 
@@ -506,7 +506,7 @@ Returns the :ref:`Variant<class_Variant>` value of the given ``property``. If th
 
 - :ref:`bool<class_bool>` **has_signal** **(** :ref:`String<class_String>` signal **)** |const|
 
-如果给定的``signal``\ 存在，返回``true``。
+如果给定的\ ``signal``\ 存在，返回\ ``true``。
 
 ----
 
@@ -514,7 +514,7 @@ Returns the :ref:`Variant<class_Variant>` value of the given ``property``. If th
 
 - :ref:`bool<class_bool>` **has_user_signal** **(** :ref:`String<class_String>` signal **)** |const|
 
-如果给定的用户定义的``signal``\ 存在，返回``true``。只有使用:ref:`add_user_signal<class_Object_method_add_user_signal>`\ 添加的信号才被考虑在内。
+如果给定的用户定义的\ ``signal``\ 存在，返回\ ``true``。只有使用\ :ref:`add_user_signal<class_Object_method_add_user_signal>`\ 添加的信号才被考虑在内。
 
 ----
 
@@ -522,7 +522,7 @@ Returns the :ref:`Variant<class_Variant>` value of the given ``property``. If th
 
 - :ref:`bool<class_bool>` **is_blocking_signals** **(** **)** |const|
 
-如果启用了信号发射阻断，则返回``true``。
+如果启用了信号发射阻断，则返回\ ``true``。
 
 ----
 
@@ -548,7 +548,7 @@ Returns the :ref:`Variant<class_Variant>` value of the given ``property``. If th
 
 - :ref:`bool<class_bool>` **is_queued_for_deletion** **(** **)** |const|
 
-如果为该对象调用了:ref:`Node.queue_free<class_Node_method_queue_free>`\ 方法，返回``true``。
+如果为该对象调用了\ :ref:`Node.queue_free<class_Node_method_queue_free>`\ 方法，返回\ ``true``。
 
 ----
 
@@ -556,9 +556,9 @@ Returns the :ref:`Variant<class_Variant>` value of the given ``property``. If th
 
 - void **notification** **(** :ref:`int<class_int>` what, :ref:`bool<class_bool>` reversed=false **)**
 
-向对象发送一个给定的通知，这也将触发对该对象继承的所有类的:ref:`_notification<class_Object_method__notification>`\ 方法的调用。
+向对象发送一个给定的通知，这也将触发对该对象继承的所有类的\ :ref:`_notification<class_Object_method__notification>`\ 方法的调用。
 
-如果``reversed``\ 是``true``，:ref:`_notification<class_Object_method__notification>`\ 首先在对象自己的类上被调用，然后再到其连续的父类上。如果``reversed``\ 是``false``，:ref:`_notification<class_Object_method__notification>`\ 首先在最高的祖先（``Object``\ 本身）上被调用，然后向下到其连续的继承类。
+如果\ ``reversed``\ 是\ ``true``，:ref:`_notification<class_Object_method__notification>`\ 首先在对象自己的类上被调用，然后再到其连续的父类上。如果\ ``reversed``\ 是\ ``false``，:ref:`_notification<class_Object_method__notification>`\ 首先在最高的祖先（``Object``\ 本身）上被调用，然后向下到其连续的继承类。
 
 ----
 
@@ -592,7 +592,7 @@ Assigns a new value to the given property. If the ``property`` does not exist or
 
 - void **set_block_signals** **(** :ref:`bool<class_bool>` enable **)**
 
-如果设置为``true``，信号发射被阻止。
+如果设置为\ ``true``，信号发射被阻止。
 
 ----
 
@@ -610,7 +610,7 @@ Assigns a new value to the given property, after the current frame's physics ste
 
 - void **set_indexed** **(** :ref:`NodePath<class_NodePath>` property, :ref:`Variant<class_Variant>` value **)**
 
-为:ref:`NodePath<class_NodePath>`\ 标识的属性分配一个新值。节点路径应该相对于当前对象，可以使用冒号(``:``)访问嵌套属性。举例如下:
+为\ :ref:`NodePath<class_NodePath>`\ 标识的属性分配一个新值。节点路径应该相对于当前对象，可以使用冒号(``:``)访问嵌套属性。举例如下:
 
 ::
 
@@ -624,7 +624,7 @@ Assigns a new value to the given property, after the current frame's physics ste
 
 - void **set_message_translation** **(** :ref:`bool<class_bool>` enable **)**
 
-定义对象是否可以转换字符串(通过调用:ref:`tr<class_Object_method_tr>`)。默认启用。
+定义对象是否可以转换字符串(通过调用\ :ref:`tr<class_Object_method_tr>`)。默认启用。
 
 ----
 
@@ -644,7 +644,7 @@ Assigns a new value to the given property, after the current frame's physics ste
 
 将脚本分配给对象。每个对象都可以有一个分配给它的脚本，用于扩展其功能。
 
-如果对象已经有一个脚本，则前一个脚本实例将被释放，它的变量和状态将丢失。新脚本的:ref:`_init<class_Object_method__init>`\ 方法将被调用。
+如果对象已经有一个脚本，则前一个脚本实例将被释放，它的变量和状态将丢失。新脚本的\ :ref:`_init<class_Object_method__init>`\ 方法将被调用。
 
 ----
 

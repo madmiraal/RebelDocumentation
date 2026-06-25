@@ -11,12 +11,12 @@ VisualShaderNodeVec3Constant
 
 **Inherits:** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
 
-一个:ref:`Vector3<class_Vector3>`\ 常量，用于可视化着色器图中。
+一个\ :ref:`Vector3<class_Vector3>`\ 常量，用于可视化着色器图中。
 
 Description
 -----------
 
-一个常量:ref:`Vector3<class_Vector3>`，它可以作为输入节点使用。
+一个常量\ :ref:`Vector3<class_Vector3>`，它可以作为输入节点使用。
 
 Properties
 ----------
@@ -40,7 +40,7 @@ Property Descriptions
 | *Getter*  | get_constant()         |
 +-----------+------------------------+
 
-一个:ref:`Vector3<class_Vector3>`\ 常量，表示该节点的状态。
+一个\ :ref:`Vector3<class_Vector3>`\ 常量，表示该节点的状态。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

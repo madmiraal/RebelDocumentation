@@ -16,7 +16,7 @@ MultiMesh
 Description
 -----------
 
-MultiMesh提供了低级别的网格实例化功能。绘制数以千计的:ref:`MeshInstance<class_MeshInstance>`\ 节点可能会很慢，因为每个对象都要提交给GPU然后单独绘制。
+MultiMesh提供了低级别的网格实例化功能。绘制数以千计的\ :ref:`MeshInstance<class_MeshInstance>`\ 节点可能会很慢，因为每个对象都要提交给GPU然后单独绘制。
 
 MultiMesh要快得多，因为它可以通过一次绘制调用来绘制成千上万的实例，从而减少API的开销。
 
@@ -171,7 +171,7 @@ Property Descriptions
 | *Getter*  | get_instance_count()      |
 +-----------+---------------------------+
 
-将被绘制的实例的数量。这将清除并（重新）调整缓冲区的大小。默认情况下，所有的实例都会被画出来，但你可以用:ref:`visible_instance_count<class_MultiMesh_property_visible_instance_count>`\ 来限制它。
+将被绘制的实例的数量。这将清除并（重新）调整缓冲区的大小。默认情况下，所有的实例都会被画出来，但你可以用\ :ref:`visible_instance_count<class_MultiMesh_property_visible_instance_count>`\ 来限制它。
 
 ----
 
@@ -250,7 +250,7 @@ Method Descriptions
 
 - :ref:`Transform<class_Transform>` **get_instance_transform** **(** :ref:`int<class_int>` instance **)** |const|
 
-返回一个特定实例的:ref:`Transform<class_Transform>`。
+返回一个特定实例的\ :ref:`Transform<class_Transform>`。
 
 ----
 
@@ -278,9 +278,9 @@ Method Descriptions
 
 - void **set_instance_color** **(** :ref:`int<class_int>` instance, :ref:`Color<class_Color>` color **)**
 
-通过*乘以*网格的现有顶点颜色来设置特定实例的颜色。
+通过\ *乘以*\ 网格的现有顶点颜色来设置特定实例的颜色。
 
-为了使颜色生效，请确保``MultiMesh``\ 上的:ref:`color_format<class_MultiMesh_property_color_format>`\ 不是``null``，并且:ref:`SpatialMaterial.vertex_color_use_as_albedo<class_SpatialMaterial_property_vertex_color_use_as_albedo>`\ 上的材质是``true``。
+为了使颜色生效，请确保\ ``MultiMesh``\ 上的\ :ref:`color_format<class_MultiMesh_property_color_format>`\ 不是\ ``null``，并且\ :ref:`SpatialMaterial.vertex_color_use_as_albedo<class_SpatialMaterial_property_vertex_color_use_as_albedo>`\ 上的材质是\ ``true``。
 
 ----
 
@@ -288,7 +288,7 @@ Method Descriptions
 
 - void **set_instance_custom_data** **(** :ref:`int<class_int>` instance, :ref:`Color<class_Color>` custom_data **)**
 
-为特定的实例设置自定义数据。虽然使用了:ref:`Color<class_Color>`，但它只是一个容纳4个浮点数的容器。数字的格式可以根据使用的:ref:`CustomDataFormat<enum_MultiMesh_CustomDataFormat>`\ 来改变。
+为特定的实例设置自定义数据。虽然使用了\ :ref:`Color<class_Color>`，但它只是一个容纳4个浮点数的容器。数字的格式可以根据使用的\ :ref:`CustomDataFormat<enum_MultiMesh_CustomDataFormat>`\ 来改变。
 
 ----
 

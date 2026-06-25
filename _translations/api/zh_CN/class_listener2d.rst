@@ -16,9 +16,9 @@ Listener2D
 Description
 -----------
 
-一旦被添加到场景树，并使用:ref:`make_current<class_Listener2D_method_make_current>`\ 启用，这个节点将覆盖听到声音的位置。只有一个``Listener2D``\ 可以是当前的。使用:ref:`make_current<class_Listener2D_method_make_current>`\ 将禁用以前的``Listener2D``。
+一旦被添加到场景树，并使用\ :ref:`make_current<class_Listener2D_method_make_current>`\ 启用，这个节点将覆盖听到声音的位置。只有一个\ ``Listener2D``\ 可以是当前的。使用\ :ref:`make_current<class_Listener2D_method_make_current>`\ 将禁用以前的\ ``Listener2D``。
 
-如果在当前的:ref:`Viewport<class_Viewport>`\ 中没有激活的``Listener2D``，屏幕中心将被用作音频的聆听点。``Listener2D``\ 需要在:ref:`SceneTree<class_SceneTree>`\ 内才能发挥作用。
+如果在当前的\ :ref:`Viewport<class_Viewport>`\ 中没有激活的\ ``Listener2D``，屏幕中心将被用作音频的聆听点。``Listener2D``\ 需要在\ :ref:`SceneTree<class_SceneTree>`\ 内才能发挥作用。
 
 Methods
 -------
@@ -38,7 +38,7 @@ Method Descriptions
 
 - void **clear_current** **(** **)**
 
-禁用``Listener2D``。如果未将其设置为当前，此方法将无效。
+禁用\ ``Listener2D``。如果未将其设置为当前，此方法将无效。
 
 ----
 
@@ -46,7 +46,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **is_current** **(** **)** |const|
 
-如果此``Listener2D``\ 当前处于激活状态，则返回``true``。
+如果此\ ``Listener2D``\ 当前处于激活状态，则返回\ ``true``。
 
 ----
 
@@ -54,9 +54,9 @@ Method Descriptions
 
 - void **make_current** **(** **)**
 
-使``Listener2D``\ 处于激活状态，将其设置为声音的聆听点。如果已经有另一个激活的``Listener2D``，它将被禁用。
+使\ ``Listener2D``\ 处于激活状态，将其设置为声音的聆听点。如果已经有另一个激活的\ ``Listener2D``，它将被禁用。
 
-如果``Listener2D``\ 未添加到:ref:`SceneTree<class_SceneTree>`\ 中，此方法将无效。
+如果\ ``Listener2D``\ 未添加到\ :ref:`SceneTree<class_SceneTree>`\ 中，此方法将无效。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

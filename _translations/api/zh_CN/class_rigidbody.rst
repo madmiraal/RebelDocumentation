@@ -120,9 +120,9 @@ Signals
 
 - **body_entered** **(** :ref:`Node<class_Node>` body **)**
 
-当与另一个:ref:`PhysicsBody<class_PhysicsBody>`\ 或:ref:`GridMap<class_GridMap>`\ 发生碰撞时触发。需要将:ref:`contact_monitor<class_RigidBody_property_contact_monitor>`\ 设置为``true``，并且将:ref:`contacts_reported<class_RigidBody_property_contacts_reported>`\ 设置得足够高以检测所有的碰撞。如果:ref:`MeshLibrary<class_MeshLibrary>`\ 有碰撞:ref:`Shape<class_Shape>`，:ref:`GridMap<class_GridMap>`\ 就会被检测到。
+当与另一个\ :ref:`PhysicsBody<class_PhysicsBody>`\ 或\ :ref:`GridMap<class_GridMap>`\ 发生碰撞时触发。需要将\ :ref:`contact_monitor<class_RigidBody_property_contact_monitor>`\ 设置为\ ``true``，并且将\ :ref:`contacts_reported<class_RigidBody_property_contacts_reported>`\ 设置得足够高以检测所有的碰撞。如果\ :ref:`MeshLibrary<class_MeshLibrary>`\ 有碰撞\ :ref:`Shape<class_Shape>`，:ref:`GridMap<class_GridMap>`\ 就会被检测到。
 
-``body``\ 的:ref:`Node<class_Node>`，如果它存在于树中，则是其他:ref:`PhysicsBody<class_PhysicsBody>`\ 或:ref:`GridMap<class_GridMap>`\ 的节点。
+``body``\ 的\ :ref:`Node<class_Node>`，如果它存在于树中，则是其他\ :ref:`PhysicsBody<class_PhysicsBody>`\ 或\ :ref:`GridMap<class_GridMap>`\ 的节点。
 
 ----
 
@@ -130,9 +130,9 @@ Signals
 
 - **body_exited** **(** :ref:`Node<class_Node>` body **)**
 
-当与另一个:ref:`PhysicsBody<class_PhysicsBody>`\ 或:ref:`GridMap<class_GridMap>`\ 的碰撞结束时触发。需要将:ref:`contact_monitor<class_RigidBody_property_contact_monitor>`\ 设置为``true``，并且将:ref:`contacts_reported<class_RigidBody_property_contacts_reported>`\ 设置得足够高以检测到所有的碰撞。如果:ref:`MeshLibrary<class_MeshLibrary>`\ 有碰撞:ref:`Shape<class_Shape>`，:ref:`GridMap<class_GridMap>`\ 就会被检测到。
+当与另一个\ :ref:`PhysicsBody<class_PhysicsBody>`\ 或\ :ref:`GridMap<class_GridMap>`\ 的碰撞结束时触发。需要将\ :ref:`contact_monitor<class_RigidBody_property_contact_monitor>`\ 设置为\ ``true``，并且将\ :ref:`contacts_reported<class_RigidBody_property_contacts_reported>`\ 设置得足够高以检测到所有的碰撞。如果\ :ref:`MeshLibrary<class_MeshLibrary>`\ 有碰撞\ :ref:`Shape<class_Shape>`，:ref:`GridMap<class_GridMap>`\ 就会被检测到。
 
-``body``\ 的:ref:`Node<class_Node>`，如果它存在于树中，则是其他:ref:`PhysicsBody<class_PhysicsBody>`\ 或:ref:`GridMap<class_GridMap>`\ 的节点。
+``body``\ 的\ :ref:`Node<class_Node>`，如果它存在于树中，则是其他\ :ref:`PhysicsBody<class_PhysicsBody>`\ 或\ :ref:`GridMap<class_GridMap>`\ 的节点。
 
 ----
 
@@ -140,17 +140,17 @@ Signals
 
 - **body_shape_entered** **(** :ref:`RID<class_RID>` body_rid, :ref:`Node<class_Node>` body, :ref:`int<class_int>` body_shape_index, :ref:`int<class_int>` local_shape_index **)**
 
-当:ref:`PhysicsBody<class_PhysicsBody>`\ 或:ref:`GridMap<class_GridMap>`\ 的一个形状:ref:`Shape<class_Shape>`\ 进入这个区域的一个形状:ref:`Shape<class_Shape>`\ 时发出的。需要将监控:ref:`contact_monitor<class_RigidBody_property_contact_monitor>`\ 设置为``true``，且:ref:`contacts_reported<class_RigidBody_property_contacts_reported>`\ 设置的足够高以检测所有碰撞。如果:ref:`MeshLibrary<class_MeshLibrary>`\ 有碰撞形状:ref:`Shape<class_Shape>`，就会检测到:ref:`GridMap<class_GridMap>`。
+当\ :ref:`PhysicsBody<class_PhysicsBody>`\ 或\ :ref:`GridMap<class_GridMap>`\ 的一个形状\ :ref:`Shape<class_Shape>`\ 进入这个区域的一个形状\ :ref:`Shape<class_Shape>`\ 时发出的。需要将监控\ :ref:`contact_monitor<class_RigidBody_property_contact_monitor>`\ 设置为\ ``true``，且\ :ref:`contacts_reported<class_RigidBody_property_contacts_reported>`\ 设置的足够高以检测所有碰撞。如果\ :ref:`MeshLibrary<class_MeshLibrary>`\ 有碰撞形状\ :ref:`Shape<class_Shape>`，就会检测到\ :ref:`GridMap<class_GridMap>`。
 
-``body_id``\ 由:ref:`PhysicsServer<class_PhysicsServer>`\ 使用的其他:ref:`PhysicsBody<class_PhysicsBody>`\ 或:ref:`MeshLibrary<class_MeshLibrary>`\ 的:ref:`CollisionObject<class_CollisionObject>`\ 的:ref:`RID<class_RID>`。
+``body_id``\ 由\ :ref:`PhysicsServer<class_PhysicsServer>`\ 使用的其他\ :ref:`PhysicsBody<class_PhysicsBody>`\ 或\ :ref:`MeshLibrary<class_MeshLibrary>`\ 的\ :ref:`CollisionObject<class_CollisionObject>`\ 的\ :ref:`RID<class_RID>`。
 
-``body`` 其他:ref:`PhysicsBody<class_PhysicsBody>`\ 或:ref:`GridMap<class_GridMap>`\ 的:ref:`Node<class_Node>`\ (如果它存在于树中)。
+``body`` 其他\ :ref:`PhysicsBody<class_PhysicsBody>`\ 或\ :ref:`GridMap<class_GridMap>`\ 的\ :ref:`Node<class_Node>`\ (如果它存在于树中)。
 
-``body_shape_index`` 由:ref:`PhysicsServer<class_PhysicsServer>`\ 使用的其他:ref:`PhysicsBody<class_PhysicsBody>`\ 或:ref:`GridMap<class_GridMap>`\ 的:ref:`Shape<class_Shape>`\ 的索引。用 ``body.shape_owner_get_owner(body_shape_index)``\ 获取 :ref:`CollisionShape<class_CollisionShape>` 节点。
+``body_shape_index`` 由\ :ref:`PhysicsServer<class_PhysicsServer>`\ 使用的其他\ :ref:`PhysicsBody<class_PhysicsBody>`\ 或\ :ref:`GridMap<class_GridMap>`\ 的\ :ref:`Shape<class_Shape>`\ 的索引。用 ``body.shape_owner_get_owner(body_shape_index)``\ 获取 :ref:`CollisionShape<class_CollisionShape>` 节点。
 
-``local_shape`` 由:ref:`PhysicsServer<class_PhysicsServer>`\ 使用的这个刚体(RigidBody)的:ref:`Shape<class_Shape>`\ 的索引。用``self.shape_owner_get_owner(local_shape_index)``\ 获取:ref:`CollisionShape<class_CollisionShape>`\ 节点。
+``local_shape`` 由\ :ref:`PhysicsServer<class_PhysicsServer>`\ 使用的这个刚体(RigidBody)的\ :ref:`Shape<class_Shape>`\ 的索引。用\ ``self.shape_owner_get_owner(local_shape_index)``\ 获取\ :ref:`CollisionShape<class_CollisionShape>`\ 节点。
 
-**注意：**当使用:ref:`ConcavePolygonShape<class_ConcavePolygonShape>`\ 时，对于子弹的物理运算无法识别形状索引。如果你需要形状指数，在使用:ref:`ConcavePolygonShape<class_ConcavePolygonShape>`\ 和对于子弹的物理运算时，不要使用多个:ref:`CollisionShape<class_CollisionShape>`。
+**注意：**\ 当使用\ :ref:`ConcavePolygonShape<class_ConcavePolygonShape>`\ 时，对于子弹的物理运算无法识别形状索引。如果你需要形状指数，在使用\ :ref:`ConcavePolygonShape<class_ConcavePolygonShape>`\ 和对于子弹的物理运算时，不要使用多个\ :ref:`CollisionShape<class_CollisionShape>`。
 
 ----
 
@@ -168,7 +168,7 @@ Signals
 
 ``local_shape_index`` :ref:`PhysicsServer<class_PhysicsServer>` 使用的这个 RigidBody 的 :ref:`Shape<class_Shape>` 的索引。使用 ``self.shape_owner_get_owner(local_shape_index)`` 获取 :ref:`CollisionShape<class_CollisionShape>` 节点。
 
-**注意：**使用:ref:`ConcavePolygonShape<class_ConcavePolygonShape>`\ 时，对于子弹的物理运算无法识别形状索引。如果需要形状索引，请不要在使用带有对于子弹的物理运算的 :ref:`ConcavePolygonShape<class_ConcavePolygonShape>` 时使用多个 :ref:`CollisionShape<class_CollisionShape>`。
+**注意：**\ 使用\ :ref:`ConcavePolygonShape<class_ConcavePolygonShape>`\ 时，对于子弹的物理运算无法识别形状索引。如果需要形状索引，请不要在使用带有对于子弹的物理运算的 :ref:`ConcavePolygonShape<class_ConcavePolygonShape>` 时使用多个 :ref:`CollisionShape<class_CollisionShape>`。
 
 ----
 
@@ -178,7 +178,7 @@ Signals
 
 当物理引擎改变物体的睡眠状态时发出。
 
-**注意：**改变:ref:`sleeping<class_RigidBody_property_sleeping>`\ 的值不会触发这个信号。只有当物理引擎改变了睡眠状态或者使用了``emit_signal("sleeping_state_changed")``\ 时，它才会被发出。
+**注意：**\ 改变\ :ref:`sleeping<class_RigidBody_property_sleeping>`\ 的值不会触发这个信号。只有当物理引擎改变了睡眠状态或者使用了\ ``emit_signal("sleeping_state_changed")``\ 时，它才会被发出。
 
 Enumerations
 ------------
@@ -197,11 +197,11 @@ enum **Mode**:
 
 - **MODE_RIGID** = **0** --- 刚体模式。这是一个刚体的 "自然 "状态。它受到力的影响，可以移动、旋转，并受到用户代码的影响。
 
-- **MODE_STATIC** = **1** --- 静止模式。实体的行为就像一个:ref:`StaticBody<class_StaticBody>`，只能通过用户代码移动。
+- **MODE_STATIC** = **1** --- 静止模式。实体的行为就像一个\ :ref:`StaticBody<class_StaticBody>`，只能通过用户代码移动。
 
 - **MODE_CHARACTER** = **2** --- 角色模式。这与刚体的行为类似，但不能旋转。
 
-- **MODE_KINEMATIC** = **3** --- 运动体模式。这个实体的行为就像一个:ref:`KinematicBody<class_KinematicBody>`，只能通过用户代码来移动。
+- **MODE_KINEMATIC** = **3** --- 运动体模式。这个实体的行为就像一个\ :ref:`KinematicBody<class_KinematicBody>`，只能通过用户代码来移动。
 
 Property Descriptions
 ---------------------
@@ -236,7 +236,7 @@ See :ref:`ProjectSettings.physics/3d/default_angular_damp<class_ProjectSettings_
 | *Getter*  | get_angular_velocity()      |
 +-----------+-----------------------------+
 
-物体的旋转速度，使用轴-角格式。向量的大小表示旋转率，单位为*弧度*每秒。
+物体的旋转速度，使用轴-角格式。向量的大小表示旋转率，单位为\ *弧度*\ 每秒。
 
 ----
 
@@ -346,9 +346,9 @@ See :ref:`ProjectSettings.physics/3d/default_angular_damp<class_ProjectSettings_
 | *Getter* | get_bounce()      |
 +----------+-------------------+
 
-实体的弹性。值范围从``0``（无弹跳）到``1``（完全弹跳）。
+实体的弹性。值范围从\ ``0``\ （无弹跳）到\ ``1``\ （完全弹跳）。
 
-已被废弃，请通过:ref:`physics_material_override<class_RigidBody_property_physics_material_override>`\ 使用:ref:`PhysicsMaterial.bounce<class_PhysicsMaterial_property_bounce>`\ 代替。
+已被废弃，请通过\ :ref:`physics_material_override<class_RigidBody_property_physics_material_override>`\ 使用\ :ref:`PhysicsMaterial.bounce<class_PhysicsMaterial_property_bounce>`\ 代替。
 
 ----
 
@@ -364,9 +364,9 @@ See :ref:`ProjectSettings.physics/3d/default_angular_damp<class_ProjectSettings_
 | *Getter*  | is_able_to_sleep()   |
 +-----------+----------------------+
 
-如果``true``，实体可以在没有运动的情况下进入睡眠模式。见:ref:`sleeping<class_RigidBody_property_sleeping>`。
+如果\ ``true``，实体可以在没有运动的情况下进入睡眠模式。见\ :ref:`sleeping<class_RigidBody_property_sleeping>`。
 
-**注意：** RigidBody3D 的模式:ref:`mode<class_RigidBody_property_mode>` 为常量:ref:`MODE_CHARACTER<class_RigidBody_constant_MODE_CHARACTER>` 时不会自动进入休眠模式。仍然可以通过将其 :ref:`sleeping<class_RigidBody_property_sleeping>` 属性设置为 ``true`` 来手动使其进入休眠状态。
+**注意：** RigidBody3D 的模式\ :ref:`mode<class_RigidBody_property_mode>` 为常量\ :ref:`MODE_CHARACTER<class_RigidBody_constant_MODE_CHARACTER>` 时不会自动进入休眠模式。仍然可以通过将其 :ref:`sleeping<class_RigidBody_property_sleeping>` 属性设置为 ``true`` 来手动使其进入休眠状态。
 
 ----
 
@@ -382,7 +382,7 @@ See :ref:`ProjectSettings.physics/3d/default_angular_damp<class_ProjectSettings_
 | *Getter*  | is_contact_monitor_enabled() |
 +-----------+------------------------------+
 
-如果``true``，当RigidBody与另一个RigidBody碰撞时会发出信号。参阅:ref:`contacts_reported<class_RigidBody_property_contacts_reported>`。
+如果\ ``true``，当RigidBody与另一个RigidBody碰撞时会发出信号。参阅\ :ref:`contacts_reported<class_RigidBody_property_contacts_reported>`。
 
 ----
 
@@ -400,7 +400,7 @@ See :ref:`ProjectSettings.physics/3d/default_angular_damp<class_ProjectSettings_
 
 将被记录的最大接触次数。需要将 :ref:`contact_monitor<class_RigidBody_property_contact_monitor>` 设置为 ``true``。
 
-**注：**接触次数与碰撞次数不同。平行边之间的碰撞将导致两个接触（每端一个），平行面之间的碰撞将导致四个接触（每个角一个）。
+**注：**\ 接触次数与碰撞次数不同。平行边之间的碰撞将导致两个接触（每端一个），平行面之间的碰撞将导致四个接触（每个角一个）。
 
 ----
 
@@ -466,7 +466,7 @@ See :ref:`ProjectSettings.physics/3d/default_angular_damp<class_ProjectSettings_
 | *Getter*  | get_gravity_scale()      |
 +-----------+--------------------------+
 
-这与在**项目 > 项目设置 > Physics > 3d** 中找到的全局 3D 重力设置相乘，产生 RigidBody 的重力。例如，1 的值将是正常的重力，2 将应用双倍的重力，0.5 将对这个物体应用一半的重力。
+这与在\ **项目 > 项目设置 > Physics > 3d** 中找到的全局 3D 重力设置相乘，产生 RigidBody 的重力。例如，1 的值将是正常的重力，2 将应用双倍的重力，0.5 将对这个物体应用一半的重力。
 
 ----
 
@@ -500,7 +500,7 @@ See :ref:`ProjectSettings.physics/3d/default_linear_damp<class_ProjectSettings_p
 | *Getter*  | get_linear_velocity()      |
 +-----------+----------------------------+
 
-物体的线速度，单位为单位每秒。可以偶尔使用，但是**不要每一帧都设置它**，因为物理可能在另一个线程中运行，并且以不同的间隔。使用 :ref:`_integrate_forces<class_RigidBody_method__integrate_forces>` 作为你的进程循环，以精确控制物体状态。
+物体的线速度，单位为单位每秒。可以偶尔使用，但是\ **不要每一帧都设置它**，因为物理可能在另一个线程中运行，并且以不同的间隔。使用 :ref:`_integrate_forces<class_RigidBody_method__integrate_forces>` 作为你的进程循环，以精确控制物体状态。
 
 ----
 
@@ -532,7 +532,7 @@ See :ref:`ProjectSettings.physics/3d/default_linear_damp<class_ProjectSettings_p
 | *Getter*  | get_mode()      |
 +-----------+-----------------+
 
-物体的模式。可能的值见:ref:`Mode<enum_RigidBody_Mode>`。
+物体的模式。可能的值见\ :ref:`Mode<enum_RigidBody_Mode>`。
 
 ----
 
@@ -580,7 +580,7 @@ See :ref:`ProjectSettings.physics/3d/default_linear_damp<class_ProjectSettings_p
 | *Getter*  | get_weight()      |
 +-----------+-------------------+
 
-实体的重量基于其质量和全局 3D 重力。全局值在**项目 > 项目设置 > Physics > 3D** 中设置。
+实体的重量基于其质量和全局 3D 重力。全局值在\ **项目 > 项目设置 > Physics > 3D** 中设置。
 
 Method Descriptions
 -------------------
@@ -589,7 +589,7 @@ Method Descriptions
 
 - void **_integrate_forces** **(** :ref:`PhysicsDirectBodyState<class_PhysicsDirectBodyState>` state **)** |virtual|
 
-在物理处理过程中被调用，允许你读取并安全地修改对象的模拟状态。默认情况下，它是在通常的物理行为之外工作的，但是:ref:`custom_integrator<class_RigidBody_property_custom_integrator>`\ 属性允许你禁用默认行为，为一个物体施加完全自定义的合力。
+在物理处理过程中被调用，允许你读取并安全地修改对象的模拟状态。默认情况下，它是在通常的物理行为之外工作的，但是\ :ref:`custom_integrator<class_RigidBody_property_custom_integrator>`\ 属性允许你禁用默认行为，为一个物体施加完全自定义的合力。
 
 ----
 
@@ -627,7 +627,7 @@ Method Descriptions
 
 施加单一方向的冲量而不影响旋转。
 
-这等价于``apply_impulse(Vector3(0,0,0), impulse)``。
+这等价于\ ``apply_impulse(Vector3(0,0,0), impulse)``。
 
 ----
 
@@ -643,7 +643,7 @@ Method Descriptions
 
 - void **apply_torque_impulse** **(** :ref:`Vector3<class_Vector3>` impulse **)**
 
-施加一个冲量矩，它将受到物体质量和形状的影响。这将使物体围绕所传递的``impulse``\ 向量进行旋转。
+施加一个冲量矩，它将受到物体质量和形状的影响。这将使物体围绕所传递的\ ``impulse``\ 向量进行旋转。
 
 ----
 
@@ -659,7 +659,7 @@ Method Descriptions
 
 - :ref:`Array<class_Array>` **get_colliding_bodies** **(** **)** |const|
 
-返回一个与此碰撞的物体的列表。要求:ref:`contact_monitor<class_RigidBody_property_contact_monitor>`\ 设置为``true``，:ref:`contacts_reported<class_RigidBody_property_contacts_reported>`\ 设置得足够高，以检测所有碰撞。
+返回一个与此碰撞的物体的列表。要求\ :ref:`contact_monitor<class_RigidBody_property_contact_monitor>`\ 设置为\ ``true``，:ref:`contacts_reported<class_RigidBody_property_contacts_reported>`\ 设置得足够高，以检测所有碰撞。
 
 **注意：** 在移动物体后，这个测试的结果不是立即的。为了性能，碰撞列表每帧在物理运算之前更新一次。可以考虑使用信号来代替。
 

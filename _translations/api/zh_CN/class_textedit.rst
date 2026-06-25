@@ -409,7 +409,7 @@ enum **MenuItems**:
 
 - **MENU_REDO** = **6** --- 重做前一个动作。
 
-- **MENU_MAX** = **7** --- 表示:ref:`MenuItems<enum_TextEdit_MenuItems>`\ 枚举的大小。
+- **MENU_MAX** = **7** --- 表示\ :ref:`MenuItems<enum_TextEdit_MenuItems>`\ 枚举的大小。
 
 Property Descriptions
 ---------------------
@@ -458,7 +458,7 @@ Property Descriptions
 | *Getter*  | cursor_get_blink_enabled()      |
 +-----------+---------------------------------+
 
-如果为``true``，插入符号（可视光标）将闪烁。
+如果为\ ``true``，插入符号（可视光标）将闪烁。
 
 ----
 
@@ -686,7 +686,7 @@ Property Descriptions
 | *Getter*  | is_readonly()       |
 +-----------+---------------------+
 
-如果``true``，启用只读模式。现有的文本不能被修改，新的文本不能被添加。
+如果\ ``true``，启用只读模式。现有的文本不能被修改，新的文本不能被添加。
 
 ----
 
@@ -734,9 +734,9 @@ Property Descriptions
 | *Getter*  | is_selecting_enabled()       |
 +-----------+------------------------------+
 
-如果``true``，文本可以被选择。
+如果\ ``true``，文本可以被选择。
 
-如果``false``，用户或使用:ref:`select<class_TextEdit_method_select>`\ 或:ref:`select_all<class_TextEdit_method_select_all>`\ 方法都不能选择文本。
+如果\ ``false``，用户或使用\ :ref:`select<class_TextEdit_method_select>`\ 或\ :ref:`select_all<class_TextEdit_method_select_all>`\ 方法都不能选择文本。
 
 ----
 
@@ -848,7 +848,7 @@ Property Descriptions
 | *Getter*  | is_virtual_keyboard_enabled()       |
 +-----------+-------------------------------------+
 
-如果``true``，则本机虚拟键盘将显示在支持它的平台上。
+如果\ ``true``，则本机虚拟键盘将显示在支持它的平台上。
 
 ----
 
@@ -881,7 +881,7 @@ Method Descriptions
 
 - void **add_keyword_color** **(** :ref:`String<class_String>` keyword, :ref:`Color<class_Color>` color **)**
 
-添加一个关键字``keyword``\ 和它的颜色:ref:`Color<class_Color>`。
+添加一个关键字\ ``keyword``\ 和它的颜色\ :ref:`Color<class_Color>`。
 
 ----
 
@@ -905,7 +905,7 @@ Method Descriptions
 
 - void **clear_colors** **(** **)**
 
-清除之前用:ref:`add_color_region<class_TextEdit_method_add_color_region>`\ 或:ref:`add_keyword_color<class_TextEdit_method_add_keyword_color>`\ 添加的所有自定义语法着色信息。
+清除之前用\ :ref:`add_color_region<class_TextEdit_method_add_color_region>`\ 或\ :ref:`add_keyword_color<class_TextEdit_method_add_keyword_color>`\ 添加的所有自定义语法着色信息。
 
 ----
 
@@ -1007,7 +1007,7 @@ Method Descriptions
 
 - :ref:`Color<class_Color>` **get_keyword_color** **(** :ref:`String<class_String>` keyword **)** |const|
 
-返回指定的关键字``keyword``\ 的颜色:ref:`Color<class_Color>`。
+返回指定的关键字\ ``keyword``\ 的颜色\ :ref:`Color<class_Color>`。
 
 ----
 
@@ -1071,7 +1071,7 @@ Method Descriptions
 
 - :ref:`PopupMenu<class_PopupMenu>` **get_menu** **(** **)** |const|
 
-返回此``TextEdit``\ 的:ref:`PopupMenu<class_PopupMenu>`。默认情况下，这个菜单在右键点击``TextEdit``\ 的时候显示。
+返回此\ ``TextEdit``\ 的\ :ref:`PopupMenu<class_PopupMenu>`。默认情况下，这个菜单在右键点击\ ``TextEdit``\ 的时候显示。
 
 **警告：** 这是一个必要的内部节点，删除和释放它可能会导致崩溃。如果你想隐藏它或它的任何子节点，请使用其的 :ref:`CanvasItem.visible<class_CanvasItem_property_visible>` 属性。
 
@@ -1083,7 +1083,7 @@ Method Descriptions
 
 返回给定行 ``line`` 和列 ``column`` 的本地位置。如果返回向量的 ``x`` 或 ``y`` 等于 ``-1``，该位置位于该控件的可视范围之外。
 
-**注意：**位置的 Y 对应行的底部。请使用 :ref:`get_rect_at_line_column<class_TextEdit_method_get_rect_at_line_column>` 来获取顶部位置。
+**注意：**\ 位置的 Y 对应行的底部。请使用 :ref:`get_rect_at_line_column<class_TextEdit_method_get_rect_at_line_column>` 来获取顶部位置。
 
 ----
 
@@ -1093,7 +1093,7 @@ Method Descriptions
 
 返回位于给定行 ``line`` 和列 ``column`` 的字形大小。如果返回的矩形位置的 ``x`` 或 ``y`` 等于 ``-1``，该位置位于该控件的可视范围之外。
 
-**注意：**位置的 Y 对应行的顶部，而 :ref:`get_pos_at_line_column<class_TextEdit_method_get_pos_at_line_column>` 返回的则是底部位置。
+**注意：**\ 位置的 Y 对应行的顶部，而 :ref:`get_pos_at_line_column<class_TextEdit_method_get_pos_at_line_column>` 返回的则是底部位置。
 
 ----
 
@@ -1277,9 +1277,9 @@ Method Descriptions
 
 - :ref:`PoolIntArray<class_PoolIntArray>` **search** **(** :ref:`String<class_String>` key, :ref:`int<class_int>` flags, :ref:`int<class_int>` from_line, :ref:`int<class_int>` from_column **)** |const|
 
-在文本内部进行搜索。搜索标志可以在:ref:`SearchFlags<enum_TextEdit_SearchFlags>`\ 枚举中指定。
+在文本内部进行搜索。搜索标志可以在\ :ref:`SearchFlags<enum_TextEdit_SearchFlags>`\ 枚举中指定。
 
-如果没有找到结果，返回一个空的``PoolIntArray``。否则，可以通过:ref:`SearchResult<enum_TextEdit_SearchResult>`\ 枚举中指定的索引访问结果行和列，例如。
+如果没有找到结果，返回一个空的\ ``PoolIntArray``。否则，可以通过\ :ref:`SearchResult<enum_TextEdit_SearchResult>`\ 枚举中指定的索引访问结果行和列，例如。
 
 ::
 

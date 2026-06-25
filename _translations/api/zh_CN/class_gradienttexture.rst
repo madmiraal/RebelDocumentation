@@ -40,7 +40,7 @@ Property Descriptions
 | *Getter* | get_gradient()      |
 +----------+---------------------+
 
-将用于填充纹理的:ref:`Gradient<class_Gradient>`。
+将用于填充纹理的\ :ref:`Gradient<class_Gradient>`。
 
 ----
 
@@ -56,7 +56,7 @@ Property Descriptions
 | *Getter*  | get_width()      |
 +-----------+------------------+
 
-将从:ref:`Gradient<class_Gradient>`\ 中获得的颜色样本的数量。
+将从\ :ref:`Gradient<class_Gradient>`\ 中获得的颜色样本的数量。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

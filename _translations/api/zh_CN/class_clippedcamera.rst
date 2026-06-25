@@ -84,7 +84,7 @@ Property Descriptions
 | *Getter*  | is_clip_to_areas_enabled() |
 +-----------+----------------------------+
 
-如果``true``，相机与:ref:`Area<class_Area>`\ s接触时停止。
+如果\ ``true``，相机与\ :ref:`Area<class_Area>`\ s接触时停止。
 
 ----
 
@@ -100,7 +100,7 @@ Property Descriptions
 | *Getter*  | is_clip_to_bodies_enabled() |
 +-----------+-----------------------------+
 
-如果``true``，相机在接触:ref:`PhysicsBody<class_PhysicsBody>`\ 时停止。
+如果\ ``true``，相机在接触\ :ref:`PhysicsBody<class_PhysicsBody>`\ 时停止。
 
 ----
 
@@ -148,7 +148,7 @@ The camera's collision mask. Only objects in at least one collision layer matchi
 | *Getter*  | get_process_mode()      |
 +-----------+-------------------------+
 
-相机的过程回调。请参阅:ref:`ProcessMode<enum_ClippedCamera_ProcessMode>`。
+相机的过程回调。请参阅\ :ref:`ProcessMode<enum_ClippedCamera_ProcessMode>`。
 
 Method Descriptions
 -------------------
@@ -165,7 +165,7 @@ Method Descriptions
 
 - void **add_exception_rid** **(** :ref:`RID<class_RID>` rid **)**
 
-添加碰撞例外，以使相机不会与指定的:ref:`RID<class_RID>`\ 碰撞。
+添加碰撞例外，以使相机不会与指定的\ :ref:`RID<class_RID>`\ 碰撞。
 
 ----
 
@@ -189,9 +189,9 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **get_collision_mask_bit** **(** :ref:`int<class_int>` bit **)** |const|
 
-如果指定的位索引打开，则返回``true``。
+如果指定的位索引打开，则返回\ ``true``。
 
-**注意：**位索引的范围是0-19。
+**注意：**\ 位索引的范围是0-19。
 
 ----
 
@@ -215,9 +215,9 @@ Method Descriptions
 
 - void **set_collision_mask_bit** **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**
 
-将指定的位索引设置为``value``。
+将指定的位索引设置为\ ``value``。
 
-**注意：**位索引的范围是0-19。
+**注意：**\ 位索引的范围是0-19。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

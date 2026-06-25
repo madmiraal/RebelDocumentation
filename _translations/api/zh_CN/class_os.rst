@@ -439,15 +439,15 @@ enum **HandleType**:
 
 - Linux：主窗口的 ``X11::Window*``。
 
-- MacOS：主窗口的 ``NSWindow*``（尚未实现）
+- MacOS：主窗口的 ``NSWindow*``\ （尚未实现）
 
-- Android：主 Android activity 的 ``jObject``（尚未实现）
+- Android：主 Android activity 的 ``jObject``\ （尚未实现）
 
 - **WINDOW_VIEW** = **3** --- 窗口视图：
 
 - Windows：主窗口绘图环境的 ``HDC``
 
-- MacOS：主窗口视图的 ``NSView*``（尚未实现）
+- MacOS：主窗口视图的 ``NSView*``\ （尚未实现）
 
 - **OPENGL_CONTEXT** = **4** --- OpenGL上下文：
 
@@ -618,9 +618,9 @@ Property Descriptions
 | *Getter*  | get_exit_code()      |
 +-----------+----------------------+
 
-主循环退出时传递给操作系统的退出代码。按照惯例，一个``0``\ 的退出代码表示成功，而一个非零的退出代码表示错误。出于可移植性的考虑，退出代码应该设置在0到125之间（包括125）。
+主循环退出时传递给操作系统的退出代码。按照惯例，一个\ ``0``\ 的退出代码表示成功，而一个非零的退出代码表示错误。出于可移植性的考虑，退出代码应该设置在0到125之间（包括125）。
 
-**注意：** 如果使用:ref:`SceneTree.quit<class_SceneTree_method_quit>`，并传递``exit_code``\ 参数，这个值将被忽略。
+**注意：** 如果使用\ :ref:`SceneTree.quit<class_SceneTree_method_quit>`，并传递\ ``exit_code``\ 参数，这个值将被忽略。
 
 ----
 
@@ -652,7 +652,7 @@ Property Descriptions
 | *Getter*  | is_in_low_processor_usage_mode()    |
 +-----------+-------------------------------------+
 
-如果``true``，引擎会通过只在需要时刷新屏幕来优化处理器的使用。可以改善移动设备上的电池消耗。
+如果\ ``true``，引擎会通过只在需要时刷新屏幕来优化处理器的使用。可以改善移动设备上的电池消耗。
 
 ----
 
@@ -768,9 +768,9 @@ Property Descriptions
 
 为 ``true`` 时，如果 ``vsync_enabled`` 为真，当操作系统的窗口合成器被启用并且游戏处于窗口模式时，将使用该合成器进行垂直同步。
 
-**注意：**此选项是实验性的，旨在缓解某些用户遇到的卡顿。但是，一些用户在使用时遇到了 Vsync 帧率减半，例如从 60 FPS 到 30 FPS。
+**注意：**\ 此选项是实验性的，旨在缓解某些用户遇到的卡顿。但是，一些用户在使用时遇到了 Vsync 帧率减半，例如从 60 FPS 到 30 FPS。
 
-**注意：**此属性仅在 Windows 上实现。
+**注意：**\ 此属性仅在 Windows 上实现。
 
 ----
 
@@ -804,7 +804,7 @@ Property Descriptions
 | *Getter*  | is_window_fullscreen()       |
 +-----------+------------------------------+
 
-如果``true``，窗口为全屏。
+如果\ ``true``，窗口为全屏。
 
 ----
 
@@ -820,7 +820,7 @@ Property Descriptions
 | *Getter*  | is_window_maximized()       |
 +-----------+-----------------------------+
 
-如果``true``，窗口被最大化。
+如果\ ``true``，窗口被最大化。
 
 ----
 
@@ -836,7 +836,7 @@ Property Descriptions
 | *Getter*  | is_window_minimized()       |
 +-----------+-----------------------------+
 
-如果``true``，窗口被最小化。
+如果\ ``true``，窗口被最小化。
 
 ----
 
@@ -931,7 +931,7 @@ Method Descriptions
 
 - :ref:`bool<class_bool>` **can_use_threads** **(** **)** |const|
 
-如果当前主机平台使用多个线程，则返回``true``。
+如果当前主机平台使用多个线程，则返回\ ``true``。
 
 ----
 
@@ -949,7 +949,7 @@ Method Descriptions
 
 关闭系统MIDI驱动程序。
 
-**注意:**该方法只在Linux, macOS和Windows上实现。
+**注意:**\ 该方法只在Linux, macOS和Windows上实现。
 
 ----
 
@@ -959,9 +959,9 @@ Method Descriptions
 
 将当前线程的执行延迟 ``msec`` 毫秒。 ``msec`` 必须大于或等于 ``0``。否则， :ref:`delay_msec<class_OS_method_delay_msec>` 将不执行任何操作并打印错误消息。
 
-**注：** :ref:`delay_msec<class_OS_method_delay_msec>`\ 是一种*阻塞*延迟代码执行的方式。要以非阻塞方式延迟代码执行，请参阅 :ref:`SceneTree.create_timer<class_SceneTree_method_create_timer>`。使用 :ref:`SceneTree.create_timer<class_SceneTree_method_create_timer>` 生成将延迟位于 ``yield`` 下方的代码的执行，而不会影响项目的其余部分（或编辑器，例如 :ref:`EditorPlugin<class_EditorPlugin>` 和 :ref:`EditorScript<class_EditorScript>`）。
+**注：** :ref:`delay_msec<class_OS_method_delay_msec>`\ 是一种\ *阻塞*\ 延迟代码执行的方式。要以非阻塞方式延迟代码执行，请参阅 :ref:`SceneTree.create_timer<class_SceneTree_method_create_timer>`。使用 :ref:`SceneTree.create_timer<class_SceneTree_method_create_timer>` 生成将延迟位于 ``yield`` 下方的代码的执行，而不会影响项目的其余部分（或编辑器，例如 :ref:`EditorPlugin<class_EditorPlugin>` 和 :ref:`EditorScript<class_EditorScript>`）。
 
-**注意：**当在主线程上调用:ref:`delay_msec<class_OS_method_delay_msec>`\ 时，它会冻结项目并阻止它重新绘制和注册输入，直到延迟结束。当使用 :ref:`delay_msec<class_OS_method_delay_msec>` 作为 :ref:`EditorPlugin<class_EditorPlugin>` 或 :ref:`EditorScript<class_EditorScript>` 的一部分时，它会冻结编辑器但不会冻结当前正在运行的项目（因为项目是一个独立的子进程）。
+**注意：**\ 当在主线程上调用\ :ref:`delay_msec<class_OS_method_delay_msec>`\ 时，它会冻结项目并阻止它重新绘制和注册输入，直到延迟结束。当使用 :ref:`delay_msec<class_OS_method_delay_msec>` 作为 :ref:`EditorPlugin<class_EditorPlugin>` 或 :ref:`EditorScript<class_EditorScript>` 的一部分时，它会冻结编辑器但不会冻结当前正在运行的项目（因为项目是一个独立的子进程）。
 
 ----
 
@@ -971,9 +971,9 @@ Method Descriptions
 
 将当前线程的执行延迟 ``usec`` 微秒。 ``usec`` 必须大于或等于 ``0``。否则， :ref:`delay_usec<class_OS_method_delay_usec>` 将什么也不做，并会打印错误消息。
 
-**注：** :ref:`delay_usec<class_OS_method_delay_usec>`\ 是一种*阻塞*延迟代码执行的方式。要以非阻塞方式延迟代码执行，请参阅 :ref:`SceneTree.create_timer<class_SceneTree_method_create_timer>`。使用 :ref:`SceneTree.create_timer<class_SceneTree_method_create_timer>` 生成将延迟位于 ``yield`` 下方的代码的执行，而不会影响项目的其余部分（或编辑器，例如 :ref:`EditorPlugin<class_EditorPlugin>` 和 :ref:`EditorScript<class_EditorScript>`）。
+**注：** :ref:`delay_usec<class_OS_method_delay_usec>`\ 是一种\ *阻塞*\ 延迟代码执行的方式。要以非阻塞方式延迟代码执行，请参阅 :ref:`SceneTree.create_timer<class_SceneTree_method_create_timer>`。使用 :ref:`SceneTree.create_timer<class_SceneTree_method_create_timer>` 生成将延迟位于 ``yield`` 下方的代码的执行，而不会影响项目的其余部分（或编辑器，例如 :ref:`EditorPlugin<class_EditorPlugin>` 和 :ref:`EditorScript<class_EditorScript>`）。
 
-**注意：**当在主线程上调用:ref:`delay_usec<class_OS_method_delay_usec>`\ 时，它会冻结项目并阻止它重绘和注册输入，直到延迟结束。当使用 :ref:`delay_usec<class_OS_method_delay_usec>` 作为 :ref:`EditorPlugin<class_EditorPlugin>` 或 :ref:`EditorScript<class_EditorScript>` 的一部分时，它会冻结编辑器但不会冻结当前正在运行的项目（因为项目是一个独立的子进程）。
+**注意：**\ 当在主线程上调用\ :ref:`delay_usec<class_OS_method_delay_usec>`\ 时，它会冻结项目并阻止它重绘和注册输入，直到延迟结束。当使用 :ref:`delay_usec<class_OS_method_delay_usec>` 作为 :ref:`EditorPlugin<class_EditorPlugin>` 或 :ref:`EditorScript<class_EditorScript>` 的一部分时，它会冻结编辑器但不会冻结当前正在运行的项目（因为项目是一个独立的子进程）。
 
 ----
 
@@ -1122,9 +1122,9 @@ Not to be confused with :ref:`get_user_data_dir<class_OS_method_get_user_data_di
 
 返回MIDI设备名称数组。
 
-如果系统MIDI驱动程序之前没有使用:ref:`open_midi_inputs<class_OS_method_open_midi_inputs>`\ 初始化，返回的数组将是空的。
+如果系统MIDI驱动程序之前没有使用\ :ref:`open_midi_inputs<class_OS_method_open_midi_inputs>`\ 初始化，返回的数组将是空的。
 
-**注意:**该方法仅在Linux, macOS和Windows上实现。
+**注意:**\ 该方法仅在Linux, macOS和Windows上实现。
 
 ----
 
@@ -1132,7 +1132,7 @@ Not to be confused with :ref:`get_user_data_dir<class_OS_method_get_user_data_di
 
 - :ref:`VideoDriver<enum_OS_VideoDriver>` **get_current_video_driver** **(** **)** |const|
 
-返回当前使用的视频驱动程序，使用:ref:`VideoDriver<enum_OS_VideoDriver>`\ 中的一个值。
+返回当前使用的视频驱动程序，使用\ :ref:`VideoDriver<enum_OS_VideoDriver>`\ 中的一个值。
 
 ----
 
@@ -1168,7 +1168,7 @@ Not to be confused with :ref:`get_user_data_dir<class_OS_method_get_user_data_di
 
 获取与给定UNIX历元时间(以秒为单位)对应的时间值字典。
 
-返回的Dictionary值将与:ref:`get_datetime<class_OS_method_get_datetime>`\ 相同，除了Daylight Savings Time，因为它不能从epoch确定。
+返回的Dictionary值将与\ :ref:`get_datetime<class_OS_method_get_datetime>`\ 相同，除了Daylight Savings Time，因为它不能从epoch确定。
 
 ----
 
@@ -1216,7 +1216,7 @@ Not to be confused with :ref:`get_user_data_dir<class_OS_method_get_user_data_di
 
 :ref:`MainLoop.NOTIFICATION_OS_IME_UPDATE<class_MainLoop_constant_NOTIFICATION_OS_IME_UPDATE>` 被发送到应用程序以通知它 IME 光标位置的变化。
 
-**注：**此方法在macOS上实现。
+**注：**\ 此方法在macOS上实现。
 
 ----
 
@@ -1228,7 +1228,7 @@ Not to be confused with :ref:`get_user_data_dir<class_OS_method_get_user_data_di
 
 :ref:`MainLoop.NOTIFICATION_OS_IME_UPDATE<class_MainLoop_constant_NOTIFICATION_OS_IME_UPDATE>` 被发送到应用程序以通知它对 IME 组合字符串的更改。
 
-**注：**此方法在macOS上实现。
+**注：**\ 此方法在macOS上实现。
 
 ----
 
@@ -1238,7 +1238,7 @@ Not to be confused with :ref:`get_user_data_dir<class_OS_method_get_user_data_di
 
 将当前拉丁键盘变体作为字符串返回。
 
-可能的返回值是： ``"QWERTY"``， ``"AZERTY"``， ``"QZERTY"``，``"DVORAK"``，``"NEO"``，``"COLEMAK"``\ 或``"错误ERROR"``。
+可能的返回值是： ``"QWERTY"``， ``"AZERTY"``， ``"QZERTY"``，``"DVORAK"``，``"NEO"``，``"COLEMAK"``\ 或\ ``"错误ERROR"``。
 
 **注意：** 此方法在 Linux、macOS 和 Windows 上实现。在不受支持的平台上返回 ``"QWERTY"`` 。
 
@@ -1250,9 +1250,9 @@ Not to be confused with :ref:`get_user_data_dir<class_OS_method_get_user_data_di
 
 将主机操作系统区域设置为 ``language_Script_COUNTRY_VARIANT@extra`` 形式的字符串。如果您只想要语言代码而不是操作系统中完全指定的语言环境，您可以使用 :ref:`get_locale_language<class_OS_method_get_locale_language>`。
 
-``language`` - 2 个或 3 个字母的`语言代码 <https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes>`__，小写。
+``language`` - 2 个或 3 个字母的\ `语言代码 <https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes>`__，小写。
 
-``Script`` - 可选，4 个字母的`文字代码 <https://en.wikipedia.org/wiki/ISO_15924>`__，首字母大写。
+``Script`` - 可选，4 个字母的\ `文字代码 <https://en.wikipedia.org/wiki/ISO_15924>`__，首字母大写。
 
 ``COUNTRY`` - 可选，2 个或 3 个字母 `国家地区代码 <https://en.wikipedia.org/wiki/ISO_3166-1>`__，大写。
 
@@ -1278,7 +1278,7 @@ Not to be confused with :ref:`get_user_data_dir<class_OS_method_get_user_data_di
 
 返回当前设备的模型名称。
 
-**注意:**此方法仅在Android和iOS上实现。在不支持的平台上返回``"GenericDevice"``。
+**注意:**\ 此方法仅在Android和iOS上实现。在不支持的平台上返回\ ``"GenericDevice"``。
 
 ----
 
@@ -1296,7 +1296,7 @@ Returns the name of the host OS. Possible values are: ``"Android"``, ``"iOS"``, 
 
 返回内部结构指针，以便在GDNative插件中使用。
 
-**注意：**此方法在Linux和Windows上实现（其他操作系统将很快被支持）。
+**注意：**\ 此方法在Linux和Windows上实现（其他操作系统将很快被支持）。
 
 ----
 
@@ -1306,7 +1306,7 @@ Returns the name of the host OS. Possible values are: ``"Android"``, ``"iOS"``, 
 
 以百分比形式返回设备中剩余的电池电量。如果电源状态未知，则返回 ``-1``。
 
-**注意：**该方法在Linux、macOS和Windows上实现。
+**注意：**\ 该方法在Linux、macOS和Windows上实现。
 
 ----
 
@@ -1326,7 +1326,7 @@ Returns the name of the host OS. Possible values are: ``"Android"``, ``"iOS"``, 
 
 返回设备关于电池和电源的当前状态。请参阅 :ref:`PowerState<enum_OS_PowerState>` 常量。
 
-**注意：**该方法在Linux、macOS和Windows上实现。
+**注意：**\ 该方法在Linux、macOS和Windows上实现。
 
 ----
 
@@ -1336,7 +1336,7 @@ Returns the name of the host OS. Possible values are: ``"Android"``, ``"iOS"``, 
 
 返回项目的进程 ID。
 
-**注意：**此方法在Android、iOS、Linux、macOS和Windows上实现。
+**注意：**\ 此方法在Android、iOS、Linux、macOS和Windows上实现。
 
 ----
 
@@ -1378,11 +1378,11 @@ Returns the name of the host OS. Possible values are: ``"Android"``, ``"iOS"``, 
 
 - :ref:`int<class_int>` **get_screen_dpi** **(** :ref:`int<class_int>` screen=-1 **)** |const|
 
-返回指定屏幕的每英寸点数密度。如果 ``screen`` 为 ``-1``（默认值），将使用当前屏幕。
+返回指定屏幕的每英寸点数密度。如果 ``screen`` 为 ``-1``\ （默认值），将使用当前屏幕。
 
-**注意：**在 macOS 上，如果使用小数显示缩放模式，则返回值不准确。
+**注意：**\ 在 macOS 上，如果使用小数显示缩放模式，则返回值不准确。
 
-**注意：**在 Android 设备上，实际屏幕密度被归为六种广义密度：
+**注意：**\ 在 Android 设备上，实际屏幕密度被归为六种广义密度：
 
 ::
 
@@ -1393,7 +1393,7 @@ Returns the name of the host OS. Possible values are: ``"Android"``, ``"iOS"``, 
      xxhdpi - 480 dpi
     xxxhdpi - 640 dpi
 
-**注意：**此方法在 Android、Linux、macOS 和 Windows 上实现。在不受支持的平台上返回 ``72``。
+**注意：**\ 此方法在 Android、Linux、macOS 和 Windows 上实现。在不受支持的平台上返回 ``72``。
 
 ----
 
@@ -1403,9 +1403,9 @@ Returns the name of the host OS. Possible values are: ``"Android"``, ``"iOS"``, 
 
 返回最大的屏幕的缩放。
 
-**注：** 在macOS上，如果系统中至少有一个hiDPI(Retina)屏幕，则返回值为``2.0``，其他情况为``1.0``。
+**注：** 在macOS上，如果系统中至少有一个hiDPI(Retina)屏幕，则返回值为\ ``2.0``，其他情况为\ ``1.0``。
 
-**注意：**此方法仅在macOS上实现。
+**注意：**\ 此方法仅在macOS上实现。
 
 ----
 
@@ -1413,7 +1413,7 @@ Returns the name of the host OS. Possible values are: ``"Android"``, ``"iOS"``, 
 
 - :ref:`Vector2<class_Vector2>` **get_screen_position** **(** :ref:`int<class_int>` screen=-1 **)** |const|
 
-返回索引所指定屏幕的位置。如果 ``screen`` 为 ``-1``（默认值），将使用当前屏幕。
+返回索引所指定屏幕的位置。如果 ``screen`` 为 ``-1``\ （默认值），将使用当前屏幕。
 
 ----
 
@@ -1421,11 +1421,11 @@ Returns the name of the host OS. Possible values are: ``"Android"``, ``"iOS"``, 
 
 - :ref:`float<class_float>` **get_screen_scale** **(** :ref:`int<class_int>` screen=-1 **)** |const|
 
-返回索引所指定屏幕的缩放系数。如果 ``screen`` 是 ``-1``（默认值），将使用当前屏幕。
+返回索引所指定屏幕的缩放系数。如果 ``screen`` 是 ``-1``\ （默认值），将使用当前屏幕。
 
-**注意：**在 macOS 上，对于 hiDPI（Retina）屏幕，返回值是 ``2.0``，对于所有其他情况，返回值是 ``1.0``。
+**注意：**\ 在 macOS 上，对于 hiDPI（Retina）屏幕，返回值是 ``2.0``，对于所有其他情况，返回值是 ``1.0``。
 
-**注意：**此方法在 macOS 上实现。
+**注意：**\ 此方法在 macOS 上实现。
 
 ----
 
@@ -1433,7 +1433,7 @@ Returns the name of the host OS. Possible values are: ``"Android"``, ``"iOS"``, 
 
 - :ref:`Vector2<class_Vector2>` **get_screen_size** **(** :ref:`int<class_int>` screen=-1 **)** |const|
 
-返回指定屏幕的尺寸，单位为像素。如果 ``screen`` 是 ``-1``（默认值），将使用当前屏幕。
+返回指定屏幕的尺寸，单位为像素。如果 ``screen`` 是 ``-1``\ （默认值），将使用当前屏幕。
 
 ----
 
@@ -1465,7 +1465,7 @@ Returns the amount of static memory being used by the program in bytes (only wor
 
 - :ref:`String<class_String>` **get_system_dir** **(** :ref:`SystemDir<enum_OS_SystemDir>` dir, :ref:`bool<class_bool>` shared_storage=true **)** |const|
 
-返回不同平台上常用文件夹的实际路径。可用的位置在:ref:`SystemDir<enum_OS_SystemDir>`\ 中指定。
+返回不同平台上常用文件夹的实际路径。可用的位置在\ :ref:`SystemDir<enum_OS_SystemDir>`\ 中指定。
 
 **注意:** 这个方法在Android、Linux、macOS和Windows上实现。
 
@@ -1495,7 +1495,7 @@ Returns the amount of static memory being used by the program in bytes (only wor
 
 返回可用的写字板（译注：或触摸板、数位板，在此处尚未明确）驱动程序的总数。
 
-**注意:**该方法是在Windows上实现的。
+**注意:**\ 该方法是在Windows上实现的。
 
 ----
 
@@ -1505,7 +1505,7 @@ Returns the amount of static memory being used by the program in bytes (only wor
 
 返回给定索引的写字板（译注：或触摸板、数位板，在此处尚未明确）驱动程序名称。
 
-**注意:**该方法是在Windows上实现的。
+**注意:**\ 该方法是在Windows上实现的。
 
 ----
 
@@ -1569,7 +1569,7 @@ Returns a string that is unique to the device.
 
 以秒为单位返回当前的 UNIX 纪元时间戳。
 
-**重要：** 这是用户可以手动设置的系统时钟。 **永远不要使用**这种方法进行精确的时间计算，因为它的结果也会受到操作系统的自动调整。 **始终使用** :ref:`get_ticks_usec<class_OS_method_get_ticks_usec>` 或 :ref:`get_ticks_msec<class_OS_method_get_ticks_msec>` 进行精确时间计算，因为它们保证是单调的（即永不减少）。
+**重要：** 这是用户可以手动设置的系统时钟。 **永远不要使用**\ 这种方法进行精确的时间计算，因为它的结果也会受到操作系统的自动调整。 **始终使用** :ref:`get_ticks_usec<class_OS_method_get_ticks_usec>` 或 :ref:`get_ticks_msec<class_OS_method_get_ticks_msec>` 进行精确时间计算，因为它们保证是单调的（即永不减少）。
 
 ----
 
@@ -1643,7 +1643,7 @@ Not to be confused with :ref:`get_data_dir<class_OS_method_get_data_dir>`, which
 
 将带有文本“标签”的新项目添加到全局菜单。使用“_dock”菜单将项目添加到 macOS 停靠栏图标菜单。
 
-**注：**此方法在macOS上实现。
+**注：**\ 此方法在macOS上实现。
 
 ----
 
@@ -1663,7 +1663,7 @@ Not to be confused with :ref:`get_data_dir<class_OS_method_get_data_dir>`, which
 
 清除全局菜单，实际上是删除所有项目。
 
-**注意：**这个方法在macOS上实现。
+**注意：**\ 这个方法在macOS上实现。
 
 ----
 
@@ -1691,9 +1691,9 @@ Not to be confused with :ref:`get_data_dir<class_OS_method_get_data_dir>`, which
 
 - :ref:`bool<class_bool>` **has_feature** **(** :ref:`String<class_String>` tag_name **)** |const|
 
-如果给定的特征标签的特征在当前运行的实例中得到支持，则返回 ``true``，具体取决于平台和构建等。可以用来检查你当前是否在运行一个调试构建，是否在某个平台或架构上，等等。更多细节请参考:doc:`功能标签 </tutorials/export/feature_tags>`\ 文档。
+如果给定的特征标签的特征在当前运行的实例中得到支持，则返回 ``true``，具体取决于平台和构建等。可以用来检查你当前是否在运行一个调试构建，是否在某个平台或架构上，等等。更多细节请参考\ :doc:`功能标签 </tutorials/export/feature_tags>`\ 文档。
 
-**注意：**标签名称区分大小写。
+**注意：**\ 标签名称区分大小写。
 
 ----
 
@@ -1701,7 +1701,7 @@ Not to be confused with :ref:`get_data_dir<class_OS_method_get_data_dir>`, which
 
 - :ref:`bool<class_bool>` **has_touchscreen_ui_hint** **(** **)** |const|
 
-如果设备有触摸屏或模拟有触摸屏，则返回``true``。
+如果设备有触摸屏或模拟有触摸屏，则返回\ ``true``。
 
 ----
 
@@ -1709,7 +1709,7 @@ Not to be confused with :ref:`get_data_dir<class_OS_method_get_data_dir>`, which
 
 - :ref:`bool<class_bool>` **has_virtual_keyboard** **(** **)** |const|
 
-如果平台有虚拟键盘，返回``true``，否则返回``false``。
+如果平台有虚拟键盘，返回\ ``true``，否则返回\ ``false``。
 
 ----
 
@@ -1737,7 +1737,7 @@ To check whether the Rebel Engine binary used to run the project is an export te
 
 - :ref:`bool<class_bool>` **is_ok_left_and_cancel_right** **(** **)** |const|
 
-如果**OK**按钮应该显示在左边，**Cancel**显示在右边，则返回``true``。
+如果\ **OK**\ 按钮应该显示在左边，**Cancel**\ 显示在右边，则返回\ ``true``。
 
 ----
 
@@ -1745,7 +1745,7 @@ To check whether the Rebel Engine binary used to run the project is an export te
 
 - :ref:`bool<class_bool>` **is_scancode_unicode** **(** :ref:`int<class_int>` code **)** |const|
 
-如果输入的键码与Unicode字符对应，则返回``true``。
+如果输入的键码与Unicode字符对应，则返回\ ``true``。
 
 ----
 
@@ -1753,7 +1753,7 @@ To check whether the Rebel Engine binary used to run the project is an export te
 
 - :ref:`bool<class_bool>` **is_stdout_verbose** **(** **)** |const|
 
-如果引擎是用``-v``（verbose stdout）执行的，返回``true``。
+如果引擎是用\ ``-v``\ （verbose stdout）执行的，返回\ ``true``。
 
 ----
 
@@ -1769,7 +1769,7 @@ If ``true``, the ``user://`` file system is persistent, so that its state is the
 
 - :ref:`bool<class_bool>` **is_window_always_on_top** **(** **)** |const|
 
-如果该窗口应总是在其他窗口之上，则返回``true``。
+如果该窗口应总是在其他窗口之上，则返回\ ``true``。
 
 ----
 
@@ -1777,9 +1777,9 @@ If ``true``, the ``user://`` file system is persistent, so that its state is the
 
 - :ref:`bool<class_bool>` **is_window_focused** **(** **)** |const|
 
-如果窗口当前获得焦点，则返回``true``。
+如果窗口当前获得焦点，则返回\ ``true``。
 
-**注意：** 只在桌面平台上实现。在其他平台上，它将总是返回``true``。
+**注意：** 只在桌面平台上实现。在其他平台上，它将总是返回\ ``true``。
 
 ----
 
@@ -1789,7 +1789,7 @@ If ``true``, the ``user://`` file system is persistent, so that its state is the
 
 返回活动键盘布局索引。
 
-**注意:**本方法在Linux、macOS和Windows上实现。
+**注意:**\ 本方法在Linux、macOS和Windows上实现。
 
 ----
 
@@ -1799,7 +1799,7 @@ If ``true``, the ``user://`` file system is persistent, so that its state is the
 
 返回键盘布局的数量。
 
-**注意：**本方法在Linux、macOS和Windows上实现。
+**注意：**\ 本方法在Linux、macOS和Windows上实现。
 
 ----
 
@@ -1809,7 +1809,7 @@ If ``true``, the ``user://`` file system is persistent, so that its state is the
 
 返回位于 ``index`` 位置的键盘布局的 ISO-639/BCP-47 语言代码。
 
-**注意：**本方法在 Linux、macOS 和 Windows 上实现。
+**注意：**\ 本方法在 Linux、macOS 和 Windows 上实现。
 
 ----
 
@@ -1817,7 +1817,7 @@ If ``true``, the ``user://`` file system is persistent, so that its state is the
 
 - :ref:`String<class_String>` **keyboard_get_layout_name** **(** :ref:`int<class_int>` index **)** |const|
 
-返回位于``index``\ 位置的键盘布局的本地名称。
+返回位于\ ``index``\ 位置的键盘布局的本地名称。
 
 **注意:** 本方法可在Linux、macOS和Windows上实现。
 
@@ -1829,7 +1829,7 @@ If ``true``, the ``user://`` file system is persistent, so that its state is the
 
 设置活动键盘布局。
 
-**注：**此方法可在Linux、macOS和Windows上实现。
+**注：**\ 此方法可在Linux、macOS和Windows上实现。
 
 ----
 
@@ -1839,9 +1839,9 @@ If ``true``, the ``user://`` file system is persistent, so that its state is the
 
 杀死（终止）由给定的进程 ID（``pid``）标识的进程，例如，在非阻塞模式下由 :ref:`execute<class_OS_method_execute>` 返回的进程。
 
-**注意：**这个方法也可以用来杀死不是由游戏产生的进程。
+**注意：**\ 这个方法也可以用来杀死不是由游戏产生的进程。
 
-**注意：**这个方法在 Android、iOS、Linux、macOS 和 Windows 上实现。
+**注意：**\ 这个方法在 Android、iOS、Linux、macOS 和 Windows 上实现。
 
 ----
 
@@ -1851,7 +1851,7 @@ If ``true``, the ``user://`` file system is persistent, so that its state is the
 
 将窗口移到前面。
 
-**注意：**这个方法在 Linux、macOS 和 Windows 上实现。
+**注意：**\ 这个方法在 Linux、macOS 和 Windows 上实现。
 
 ----
 
@@ -1859,7 +1859,7 @@ If ``true``, the ``user://`` file system is persistent, so that its state is the
 
 - :ref:`bool<class_bool>` **native_video_is_playing** **(** **)**
 
-如果本地视频正在播放，返回``true``。
+如果本地视频正在播放，返回\ ``true``。
 
 **注意：** 这个方法只在iOS上实现。
 
@@ -1919,7 +1919,7 @@ If ``true``, the ``user://`` file system is persistent, so that its state is the
 
 - void **print_all_resources** **(** :ref:`String<class_String>` tofile="" **)**
 
-显示游戏中的所有资源。也可以通过在``tofile``\ 中指定文件路径将该列表写入文件。
+显示游戏中的所有资源。也可以通过在\ ``tofile``\ 中指定文件路径将该列表写入文件。
 
 ----
 
@@ -1961,7 +1961,7 @@ Request the user attention to the window. It'll flash the taskbar button on Wind
 
 - :ref:`bool<class_bool>` **request_permission** **(** :ref:`String<class_String>` name **)**
 
-目前，这个函数只被``AudioDriverOpenSL``\ 用来请求Android上``RECORD_AUDIO``\ 的权限。
+目前，这个函数只被\ ``AudioDriverOpenSL``\ 用来请求Android上\ ``RECORD_AUDIO``\ 的权限。
 
 ----
 
@@ -2009,7 +2009,7 @@ The same image is used for window caption, taskbar/dock and window selection dia
 
 输入完成时提交完成的组合字符串。
 
-**注：**该方法在Linux、macOS和Windows上实现。
+**注：**\ 该方法在Linux、macOS和Windows上实现。
 
 ----
 
@@ -2047,7 +2047,7 @@ The same image is used for window caption, taskbar/dock and window selection dia
 
 - void **set_use_file_access_save_and_swap** **(** :ref:`bool<class_bool>` enabled **)**
 
-如果``enabled``\ 为``true``，则启用备份保存。
+如果\ ``enabled``\ 为\ ``true``，则启用备份保存。
 
 ----
 
@@ -2080,7 +2080,7 @@ The same image is used for window caption, taskbar/dock and window selection dia
     # 重置区域为默认值。
     OS.set_window_mouse_passthrough([] )
 
-**注意:**在Windows上，位于区域外的窗口部分不会被绘制，而在Linux和macOS上则会。
+**注意:**\ 在Windows上，位于区域外的窗口部分不会被绘制，而在Linux和macOS上则会。
 
 **注意:** 这个方法在Linux、macOS和Windows上实现。
 
@@ -2124,9 +2124,9 @@ Use :ref:`ProjectSettings.globalize_path<class_ProjectSettings_method_globalize_
 
 ``existing_text`` 参数对于实现您自己的 :ref:`LineEdit<class_LineEdit>` 或 :ref:`TextEdit<class_TextEdit>` 很有用，因为它告诉虚拟键盘已经输入了哪些文本（虚拟键盘使用它进行自动更正和预测）。
 
-``multiline``\ 参数需要设置为``true``\ 才能输入多行文本，如:ref:`TextEdit<class_TextEdit>`。
+``multiline``\ 参数需要设置为\ ``true``\ 才能输入多行文本，如\ :ref:`TextEdit<class_TextEdit>`。
 
-**注：**此方法在Android、iOS和UWP上实现。
+**注：**\ 此方法在Android、iOS和UWP上实现。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

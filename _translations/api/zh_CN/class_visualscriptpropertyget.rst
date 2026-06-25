@@ -11,7 +11,7 @@ VisualScriptPropertyGet
 
 **Inherits:** :ref:`VisualScriptNode<class_VisualScriptNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
 
-一个Visual Script节点，从:ref:`Object<class_Object>`\ 返回属性值。
+一个Visual Script节点，从\ :ref:`Object<class_Object>`\ 返回属性值。
 
 Description
 -----------
@@ -163,7 +163,7 @@ Property Descriptions
 | *Getter*  | get_call_mode()      |
 +-----------+----------------------+
 
-``set_mode`` 决定从哪个目标对象中获取属性。参阅:ref:`CallMode<enum_VisualScriptPropertyGet_CallMode>`\ 的选项。
+``set_mode`` 决定从哪个目标对象中获取属性。参阅\ :ref:`CallMode<enum_VisualScriptPropertyGet_CallMode>`\ 的选项。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

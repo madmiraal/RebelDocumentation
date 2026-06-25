@@ -16,7 +16,7 @@ VisualScriptYield
 Description
 -----------
 
-``VisualScriptYield``\ 将暂停函数调用并返回:ref:`VisualScriptFunctionState<class_VisualScriptFunctionState>`，可用于恢复函数。
+``VisualScriptYield``\ 将暂停函数调用并返回\ :ref:`VisualScriptFunctionState<class_VisualScriptFunctionState>`，可用于恢复函数。
 
 Properties
 ----------
@@ -61,7 +61,7 @@ Property Descriptions
 | *Getter*  | get_yield_mode()      |
 +-----------+-----------------------+
 
-用于yield返回的模式。参阅:ref:`YieldMode<enum_VisualScriptYield_YieldMode>`\ 中的可用选项。
+用于yield返回的模式。参阅\ :ref:`YieldMode<enum_VisualScriptYield_YieldMode>`\ 中的可用选项。
 
 ----
 

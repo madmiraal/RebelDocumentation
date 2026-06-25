@@ -16,7 +16,7 @@ VisualScriptClassConstant
 Description
 -----------
 
-该节点从指定类中返回常量，例如:ref:`@GlobalScope.TYPE_INT<class_@GlobalScope_constant_TYPE_INT>`。关于可用的常量，请参阅指定类的文档。
+该节点从指定类中返回常量，例如\ :ref:`@GlobalScope.TYPE_INT<class_@GlobalScope_constant_TYPE_INT>`。关于可用的常量，请参阅指定类的文档。
 
 **Input Ports:**
 

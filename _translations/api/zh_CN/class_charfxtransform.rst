@@ -11,12 +11,12 @@ CharFXTransform
 
 **Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
 
-控制单个字符在:ref:`RichTextEffect<class_RichTextEffect>`\ 中的显示方式。
+控制单个字符在\ :ref:`RichTextEffect<class_RichTextEffect>`\ 中的显示方式。
 
 Description
 -----------
 
-通过在此对象上设置各种属性，可以控制单个字符在:ref:`RichTextEffect<class_RichTextEffect>`\ 中的显示方式。
+通过在此对象上设置各种属性，可以控制单个字符在\ :ref:`RichTextEffect<class_RichTextEffect>`\ 中的显示方式。
 
 Tutorials
 ---------
@@ -113,9 +113,9 @@ The index of the current character (starting from 0) for the :ref:`RichTextLabel
 | *Getter*  | get_elapsed_time()      |
 +-----------+-------------------------+
 
-自:ref:`RichTextLabel<class_RichTextLabel>`\ 被添加到场景树后所经过的时间，单位秒。时间在:ref:`RichTextLabel<class_RichTextLabel>`\ 暂停时停止，参阅:ref:`Node.pause_mode<class_Node_property_pause_mode>`。当:ref:`RichTextLabel<class_RichTextLabel>`\ 中的文本改变时，会重新设置。
+自\ :ref:`RichTextLabel<class_RichTextLabel>`\ 被添加到场景树后所经过的时间，单位秒。时间在\ :ref:`RichTextLabel<class_RichTextLabel>`\ 暂停时停止，参阅\ :ref:`Node.pause_mode<class_Node_property_pause_mode>`。当\ :ref:`RichTextLabel<class_RichTextLabel>`\ 中的文本改变时，会重新设置。
 
-**注意：** 当:ref:`RichTextLabel<class_RichTextLabel>`\ 被隐藏时，时间仍会增加。
+**注意：** 当\ :ref:`RichTextLabel<class_RichTextLabel>`\ 被隐藏时，时间仍会增加。
 
 ----
 
@@ -131,9 +131,9 @@ The index of the current character (starting from 0) for the :ref:`RichTextLabel
 | *Getter*  | get_environment()      |
 +-----------+------------------------+
 
-包含在开头的BBCode标记中传递的参数。默认情况下，参数是字符串。如果它们的内容与:ref:`bool<class_bool>`，:ref:`int<class_int>`\ 或:ref:`float<class_float>`\ 之类的类型匹配，它们将被自动转换。格式为``#rrggbb``\ 或``#rgb``\ 的颜色代码将转换为不透明的:ref:`Color<class_Color>`。字符串参数即使使用引号也不能包含空格。如果存在，引号也将出现在最终字符串中。
+包含在开头的BBCode标记中传递的参数。默认情况下，参数是字符串。如果它们的内容与\ :ref:`bool<class_bool>`，:ref:`int<class_int>`\ 或\ :ref:`float<class_float>`\ 之类的类型匹配，它们将被自动转换。格式为\ ``#rrggbb``\ 或\ ``#rgb``\ 的颜色代码将转换为不透明的\ :ref:`Color<class_Color>`。字符串参数即使使用引号也不能包含空格。如果存在，引号也将出现在最终字符串中。
 
-例如，开头的BBCode标签``[example foo = hello bar = true baz = 42 color =＃ffffff]``\ 将映射到以下:ref:`Dictionary<class_Dictionary>`：
+例如，开头的BBCode标签\ ``[example foo = hello bar = true baz = 42 color =＃ffffff]``\ 将映射到以下\ :ref:`Dictionary<class_Dictionary>`：
 
 ::
 
@@ -185,7 +185,7 @@ The index of the current character (starting from 0) for this :ref:`RichTextEffe
 | *Getter*  | is_visible()          |
 +-----------+-----------------------+
 
-如果``true``，将绘制字符。如果``false``，则隐藏字符。隐藏字符周围的字符将重排以占用隐藏字符的空间。如果不希望这样做，可以将它们的:ref:`color<class_CharFXTransform_property_color>`\ 设置为``Color(1, 1, 1, 0)``。
+如果\ ``true``，将绘制字符。如果\ ``false``，则隐藏字符。隐藏字符周围的字符将重排以占用隐藏字符的空间。如果不希望这样做，可以将它们的\ :ref:`color<class_CharFXTransform_property_color>`\ 设置为\ ``Color(1, 1, 1, 0)``。
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

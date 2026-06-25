@@ -75,7 +75,7 @@ Property Descriptions
 | *Getter*  | get_rest()                          |
 +-----------+-------------------------------------+
 
-骨骼的静止变换。您可以使用:ref:`apply_rest<class_Bone2D_method_apply_rest>`\ 将节点的变换重置为这个值。
+骨骼的静止变换。您可以使用\ :ref:`apply_rest<class_Bone2D_method_apply_rest>`\ 将节点的变换重置为这个值。
 
 Method Descriptions
 -------------------
@@ -84,7 +84,7 @@ Method Descriptions
 
 - void **apply_rest** **(** **)**
 
-将节点当前的变换存储在:ref:`rest<class_Bone2D_property_rest>`\ 中。
+将节点当前的变换存储在\ :ref:`rest<class_Bone2D_property_rest>`\ 中。
 
 ----
 
@@ -92,7 +92,7 @@ Method Descriptions
 
 - :ref:`int<class_int>` **get_index_in_skeleton** **(** **)** |const|
 
-返回节点的索引，作为整个骨架的一部分。参阅:ref:`Skeleton2D<class_Skeleton2D>`。
+返回节点的索引，作为整个骨架的一部分。参阅\ :ref:`Skeleton2D<class_Skeleton2D>`。
 
 ----
 

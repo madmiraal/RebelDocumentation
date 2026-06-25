@@ -54,7 +54,7 @@ enum **StretchMode**:
 
 - **STRETCH_COVER** = **3** --- 子控件的宽度和高度被自动调整，以使其边界矩形覆盖容器的整个区域，同时保持长宽比。
 
-当子控件的边界矩形超过容器的大小，并且:ref:`Control.rect_clip_content<class_Control_property_rect_clip_content>`\ 被启用时，这仅允许显示受其自身边界矩形限制的容器区域。
+当子控件的边界矩形超过容器的大小，并且\ :ref:`Control.rect_clip_content<class_Control_property_rect_clip_content>`\ 被启用时，这仅允许显示受其自身边界矩形限制的容器区域。
 
 ----
 
@@ -121,7 +121,7 @@ Property Descriptions
 | *Getter*  | get_ratio()      |
 +-----------+------------------+
 
-对子控件强制实施的长宽比。这是宽度除以高度。这个比例取决于:ref:`stretch_mode<class_AspectRatioContainer_property_stretch_mode>`。
+对子控件强制实施的长宽比。这是宽度除以高度。这个比例取决于\ :ref:`stretch_mode<class_AspectRatioContainer_property_stretch_mode>`。
 
 ----
 

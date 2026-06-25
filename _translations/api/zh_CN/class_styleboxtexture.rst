@@ -11,7 +11,7 @@ StyleBoxTexture
 
 **Inherits:** :ref:`StyleBox<class_StyleBox>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
 
-基于纹理的九宫格:ref:`StyleBox<class_StyleBox>`。
+基于纹理的九宫格\ :ref:`StyleBox<class_StyleBox>`。
 
 Description
 -----------
@@ -145,7 +145,7 @@ Property Descriptions
 | *Getter*  | is_draw_center_enabled() |
 +-----------+--------------------------+
 
-如果``true``，将绘制九宫格纹理的中心瓦片。
+如果\ ``true``，将绘制九宫格纹理的中心瓦片。
 
 ----
 
@@ -229,7 +229,7 @@ Property Descriptions
 
 更高的值意味着更多的源纹理被认为是3×3 box的底边的一部分。
 
-如果:ref:`StyleBox.content_margin_bottom<class_StyleBox_property_content_margin_bottom>`\ 为负值，这个值也是作为后备值使用。
+如果\ :ref:`StyleBox.content_margin_bottom<class_StyleBox_property_content_margin_bottom>`\ 为负值，这个值也是作为后备值使用。
 
 ----
 
@@ -249,7 +249,7 @@ Property Descriptions
 
 较高的值意味着更多的源纹理被认为是 3×3 box左边框的一部分。
 
-如果:ref:`StyleBox.content_margin_left<class_StyleBox_property_content_margin_left>`\ 为负值，这个值也是作为后备值使用。
+如果\ :ref:`StyleBox.content_margin_left<class_StyleBox_property_content_margin_left>`\ 为负值，这个值也是作为后备值使用。
 
 ----
 
@@ -269,7 +269,7 @@ Property Descriptions
 
 较高的值意味着更多的源纹理被认为是 3×3 box右边框的一部分。
 
-如果:ref:`StyleBox.content_margin_right<class_StyleBox_property_content_margin_right>`\ 为负值，这个值也是作为后备值使用。
+如果\ :ref:`StyleBox.content_margin_right<class_StyleBox_property_content_margin_right>`\ 为负值，这个值也是作为后备值使用。
 
 ----
 
@@ -289,7 +289,7 @@ Property Descriptions
 
 较高的值意味着更多的源纹理被认为是 3×3 box上边框的一部分。
 
-如果:ref:`StyleBox.content_margin_top<class_StyleBox_property_content_margin_top>`\ 为负值，这个值也是作为后备值使用。
+如果\ :ref:`StyleBox.content_margin_top<class_StyleBox_property_content_margin_top>`\ 为负值，这个值也是作为后备值使用。
 
 ----
 
@@ -362,7 +362,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **get_expand_margin_size** **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin **)** |const|
 
-返回给定的``margin``\ 的扩展边距的大小。可能的值见:ref:`Margin<enum_@GlobalScope_Margin>`。
+返回给定的\ ``margin``\ 的扩展边距的大小。可能的值见\ :ref:`Margin<enum_@GlobalScope_Margin>`。
 
 ----
 

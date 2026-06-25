@@ -16,7 +16,7 @@ Input
 Description
 -----------
 
-处理输入的单例。这包括按键、鼠标点击和移动、游戏手柄和输入动作。可以在**项目 > 项目设置**的**输入映射**选项卡中或使用 :ref:`InputMap<class_InputMap>` 类设置操作及其事件。
+处理输入的单例。这包括按键、鼠标点击和移动、游戏手柄和输入动作。可以在\ **项目 > 项目设置**\ 的\ **输入映射**\ 选项卡中或使用 :ref:`InputMap<class_InputMap>` 类设置操作及其事件。
 
 Tutorials
 ---------
@@ -156,7 +156,7 @@ enum **MouseMode**:
 
 - **MOUSE_MODE_CAPTURED** = **2** --- 捕获鼠标。鼠标将被隐藏，其位置被锁定在屏幕的中心。
 
-**注意：**如果你想在这种模式下处理鼠标的移动，需要使用 :ref:`InputEventMouseMotion.relative<class_InputEventMouseMotion_property_relative>`。
+**注意：**\ 如果你想在这种模式下处理鼠标的移动，需要使用 :ref:`InputEventMouseMotion.relative<class_InputEventMouseMotion_property_relative>`。
 
 - **MOUSE_MODE_CONFINED** = **3** --- 使鼠标光标可见，并将其限制在游戏窗口中。
 
@@ -224,13 +224,13 @@ enum **CursorShape**:
 
 - **CURSOR_BDIAGSIZE** = **11** --- 窗口调整大小的光标。该光标是一个双头箭头，从左下方到右上方。它告诉用户他们可以在水平和垂直方向上调整窗口或面板的大小。
 
-- **CURSOR_FDIAGSIZE** = **12** --- 窗口调整大小的光标。是一个双头的箭头，从左上角到右下角，与:ref:`CURSOR_BDIAGSIZE<class_Input_constant_CURSOR_BDIAGSIZE>`\ 相反。它告诉用户他们可以在水平和垂直方向上调整窗口或面板的大小。
+- **CURSOR_FDIAGSIZE** = **12** --- 窗口调整大小的光标。是一个双头的箭头，从左上角到右下角，与\ :ref:`CURSOR_BDIAGSIZE<class_Input_constant_CURSOR_BDIAGSIZE>`\ 相反。它告诉用户他们可以在水平和垂直方向上调整窗口或面板的大小。
 
 - **CURSOR_MOVE** = **13** --- 移动光标。表示那些东西可以移动。
 
 - **CURSOR_VSPLIT** = **14** --- 垂直拆分鼠标光标。在 Windows 上，它与 :ref:`CURSOR_VSIZE<class_Input_constant_CURSOR_VSIZE>` 相同。
 
-- **CURSOR_HSPLIT** = **15** --- 水平分割的鼠标光标。在Windows上，它与:ref:`CURSOR_HSIZE<class_Input_constant_CURSOR_HSIZE>`\ 相同。
+- **CURSOR_HSPLIT** = **15** --- 水平分割的鼠标光标。在Windows上，它与\ :ref:`CURSOR_HSIZE<class_Input_constant_CURSOR_HSIZE>`\ 相同。
 
 - **CURSOR_HELP** = **16** --- 帮助光标。通常是一个问号。
 
@@ -245,7 +245,7 @@ Method Descriptions
 
 强度可以用于非布尔运算的动作，它的范围在0到1之间，代表给定动作的力度。
 
-**注意：** 这个方法不会引起任何:ref:`Node._input<class_Node_method__input>`\ 调用。它旨在与:ref:`is_action_pressed<class_Input_method_is_action_pressed>`\ 和:ref:`is_action_just_pressed<class_Input_method_is_action_just_pressed>`\ 一起使用。如果你想模拟``_input``，请使用:ref:`parse_input_event<class_Input_method_parse_input_event>`\ 代替。
+**注意：** 这个方法不会引起任何\ :ref:`Node._input<class_Node_method__input>`\ 调用。它旨在与\ :ref:`is_action_pressed<class_Input_method_is_action_pressed>`\ 和\ :ref:`is_action_just_pressed<class_Input_method_is_action_just_pressed>`\ 一起使用。如果你想模拟\ ``_input``，请使用\ :ref:`parse_input_event<class_Input_method_parse_input_event>`\ 代替。
 
 ----
 
@@ -279,11 +279,11 @@ Method Descriptions
 
 - :ref:`Vector3<class_Vector3>` **get_accelerometer** **(** **)** |const|
 
-如果设备有加速度传感器，则返回设备的加速度。否则，该方法返回:ref:`Vector3.ZERO<class_Vector3_constant_ZERO>`。
+如果设备有加速度传感器，则返回设备的加速度。否则，该方法返回\ :ref:`Vector3.ZERO<class_Vector3_constant_ZERO>`。
 
-请注意，即使你的设备有一个加速度计，当从编辑器运行时，该方法也会返回一个空的:ref:`Vector3<class_Vector3>`。你必须将项目导出到一个支持的设备上，以便从加速度计上读取数值。
+请注意，即使你的设备有一个加速度计，当从编辑器运行时，该方法也会返回一个空的\ :ref:`Vector3<class_Vector3>`。你必须将项目导出到一个支持的设备上，以便从加速度计上读取数值。
 
-**注意：** 这个方法只在iOS、Android和UWP上工作。在其他平台上，它总是返回:ref:`Vector3.ZERO<class_Vector3_constant_ZERO>`。在Android上，每个轴的测量单位是m/s²，而在iOS和UWP上，它是地球重力加速度的倍数``g``（~9.81 m/s²）。
+**注意：** 这个方法只在iOS、Android和UWP上工作。在其他平台上，它总是返回\ :ref:`Vector3.ZERO<class_Vector3_constant_ZERO>`。在Android上，每个轴的测量单位是m/s²，而在iOS和UWP上，它是地球重力加速度的倍数\ ``g``\ （~9.81 m/s²）。
 
 ----
 
@@ -291,9 +291,9 @@ Method Descriptions
 
 - :ref:`float<class_float>` **get_action_raw_strength** **(** :ref:`String<class_String>` action, :ref:`bool<class_bool>` exact=false **)** |const|
 
-返回介于0和1之间的值，代表给定动作的原始强度，忽略动作的死区。在大多数情况下，你应该使用:ref:`get_action_strength<class_Input_method_get_action_strength>`\ 来代替。
+返回介于0和1之间的值，代表给定动作的原始强度，忽略动作的死区。在大多数情况下，你应该使用\ :ref:`get_action_strength<class_Input_method_get_action_strength>`\ 来代替。
 
-如果``exact``\ 是``false``，它将忽略:ref:`InputEventKey<class_InputEventKey>`\ 和:ref:`InputEventMouseButton<class_InputEventMouseButton>`\ 事件的输入修饰符，以及:ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>`\ 事件的方向。
+如果\ ``exact``\ 是\ ``false``，它将忽略\ :ref:`InputEventKey<class_InputEventKey>`\ 和\ :ref:`InputEventMouseButton<class_InputEventMouseButton>`\ 事件的输入修饰符，以及\ :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>`\ 事件的方向。
 
 ----
 
@@ -303,7 +303,7 @@ Method Descriptions
 
 返回介于0和1之间的值，代表给定动作的强度。例如，在一个操纵板上，轴（模拟杆或L2、R2触发器）离死区越远，数值就越接近1。如果动作被映射到一个没有轴作为键盘的控件上，返回的数值将是0或1。
 
-如果``exact``\ 是``false``，它将忽略:ref:`InputEventKey<class_InputEventKey>`\ 和:ref:`InputEventMouseButton<class_InputEventMouseButton>`\ 事件的输入修饰符，以及:ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>`\ 事件的方向。
+如果\ ``exact``\ 是\ ``false``，它将忽略\ :ref:`InputEventKey<class_InputEventKey>`\ 和\ :ref:`InputEventMouseButton<class_InputEventMouseButton>`\ 事件的输入修饰符，以及\ :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>`\ 事件的方向。
 
 ----
 
@@ -313,7 +313,7 @@ Method Descriptions
 
 通过指定两个动作来获取轴的输入，一个是负的，一个是正的。
 
-这是写``Input.get_action_strength("positive_action")-Input.get_action_strength("negative_action")``\ 的简写。
+这是写\ ``Input.get_action_strength("positive_action")-Input.get_action_strength("negative_action")``\ 的简写。
 
 ----
 
@@ -337,9 +337,9 @@ Method Descriptions
 
 - :ref:`Vector3<class_Vector3>` **get_gravity** **(** **)** |const|
 
-如果设备有加速度传感器，则返回设备的重力。否则，该方法返回:ref:`Vector3.ZERO<class_Vector3_constant_ZERO>`。
+如果设备有加速度传感器，则返回设备的重力。否则，该方法返回\ :ref:`Vector3.ZERO<class_Vector3_constant_ZERO>`。
 
-**注意：** 这个方法只在Android和iOS上工作。在其他平台上，它总是返回:ref:`Vector3.ZERO<class_Vector3_constant_ZERO>`。在Android上，每个轴的测量单位是m/s²，而在iOS上，它是地球重力加速度的倍数``g``（~9.81 m/s²）。
+**注意：** 这个方法只在Android和iOS上工作。在其他平台上，它总是返回\ :ref:`Vector3.ZERO<class_Vector3_constant_ZERO>`。在Android上，每个轴的测量单位是m/s²，而在iOS上，它是地球重力加速度的倍数\ ``g``\ （~9.81 m/s²）。
 
 ----
 
@@ -347,9 +347,9 @@ Method Descriptions
 
 - :ref:`Vector3<class_Vector3>` **get_gyroscope** **(** **)** |const|
 
-如果设备有陀螺仪传感器，则返回围绕设备X、Y、Z轴的旋转速率，单位为rad/s。否则，该方法返回:ref:`Vector3.ZERO<class_Vector3_constant_ZERO>`。
+如果设备有陀螺仪传感器，则返回围绕设备X、Y、Z轴的旋转速率，单位为rad/s。否则，该方法返回\ :ref:`Vector3.ZERO<class_Vector3_constant_ZERO>`。
 
-**注意：** 这个方法只在Android和iOS上工作。在其他平台上，总是返回:ref:`Vector3.ZERO<class_Vector3_constant_ZERO>`。
+**注意：** 这个方法只在Android和iOS上工作。在其他平台上，总是返回\ :ref:`Vector3.ZERO<class_Vector3_constant_ZERO>`。
 
 ----
 
@@ -357,7 +357,7 @@ Method Descriptions
 
 - :ref:`float<class_float>` **get_joy_axis** **(** :ref:`int<class_int>` device, :ref:`int<class_int>` axis **)** |const|
 
-返回给定索引的游戏手柄轴的当前值，参阅:ref:`JoystickList<enum_@GlobalScope_JoystickList>`。
+返回给定索引的游戏手柄轴的当前值，参阅\ :ref:`JoystickList<enum_@GlobalScope_JoystickList>`。
 
 ----
 
@@ -389,7 +389,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **get_joy_button_string** **(** :ref:`int<class_int>` button_index **)**
 
-从:ref:`JoystickList<enum_@GlobalScope_JoystickList>`\ 中接收游戏手柄按钮，并将其对应的名称作为一个字符串返回。
+从\ :ref:`JoystickList<enum_@GlobalScope_JoystickList>`\ 中接收游戏手柄按钮，并将其对应的名称作为一个字符串返回。
 
 ----
 
@@ -397,7 +397,7 @@ Method Descriptions
 
 - :ref:`String<class_String>` **get_joy_guid** **(** :ref:`int<class_int>` device **)** |const|
 
-在使用游戏手柄重映射的平台上返回一个SDL2兼容的设备GUID。否则返回``"Default Gamepad"``\ 默认游戏手柄。
+在使用游戏手柄重映射的平台上返回一个SDL2兼容的设备GUID。否则返回\ ``"Default Gamepad"``\ 默认游戏手柄。
 
 ----
 
@@ -437,9 +437,9 @@ Method Descriptions
 
 - :ref:`Vector3<class_Vector3>` **get_magnetometer** **(** **)** |const|
 
-如果设备有磁力传感器，则返回设备所有轴的磁场强度，微特斯拉。否则，该方法返回:ref:`Vector3.ZERO<class_Vector3_constant_ZERO>`。
+如果设备有磁力传感器，则返回设备所有轴的磁场强度，微特斯拉。否则，该方法返回\ :ref:`Vector3.ZERO<class_Vector3_constant_ZERO>`。
 
-**注意：** 这个方法只在Android、iOS和UWP上有效。在其他平台上，总是返回:ref:`Vector3.ZERO<class_Vector3_constant_ZERO>`。
+**注意：** 这个方法只在Android、iOS和UWP上有效。在其他平台上，总是返回\ :ref:`Vector3.ZERO<class_Vector3_constant_ZERO>`。
 
 ----
 
@@ -489,9 +489,9 @@ If ``exact`` is ``false``, it ignores the input modifiers for :ref:`InputEventKe
 
 - :ref:`bool<class_bool>` **is_action_just_released** **(** :ref:`String<class_String>` action, :ref:`bool<class_bool>` exact=false **)** |const|
 
-当用户停止按下动作事件时，返回``true``，也就是说，只有在用户释放按钮的那一帧才是``true``。
+当用户停止按下动作事件时，返回\ ``true``，也就是说，只有在用户释放按钮的那一帧才是\ ``true``。
 
-如果``exact``\ 是``false``，它将忽略:ref:`InputEventKey<class_InputEventKey>`\ 和:ref:`InputEventMouseButton<class_InputEventMouseButton>`\ 事件的输入修饰符，以及:ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>`\ 事件的方向。
+如果\ ``exact``\ 是\ ``false``，它将忽略\ :ref:`InputEventKey<class_InputEventKey>`\ 和\ :ref:`InputEventMouseButton<class_InputEventMouseButton>`\ 事件的输入修饰符，以及\ :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>`\ 事件的方向。
 
 ----
 
@@ -511,7 +511,7 @@ If ``exact`` is ``false``, it ignores the input modifiers for :ref:`InputEventKe
 
 - :ref:`bool<class_bool>` **is_joy_button_pressed** **(** :ref:`int<class_int>` device, :ref:`int<class_int>` button **)** |const|
 
-如果你正在按下手柄按钮，则返回``true``，参阅:ref:`JoystickList<enum_@GlobalScope_JoystickList>`。
+如果你正在按下手柄按钮，则返回\ ``true``，参阅\ :ref:`JoystickList<enum_@GlobalScope_JoystickList>`。
 
 ----
 
@@ -519,7 +519,7 @@ If ``exact`` is ``false``, it ignores the input modifiers for :ref:`InputEventKe
 
 - :ref:`bool<class_bool>` **is_joy_known** **(** :ref:`int<class_int>` device **)**
 
-如果系统知道指定的设备，则返回``true``。这意味着它将完全按照:ref:`JoystickList<enum_@GlobalScope_JoystickList>`\ 中的定义设置所有按钮和轴的索引。未知的操纵杆可能不会与这些常数相匹配，但你仍然可以从中检索事件。
+如果系统知道指定的设备，则返回\ ``true``。这意味着它将完全按照\ :ref:`JoystickList<enum_@GlobalScope_JoystickList>`\ 中的定义设置所有按钮和轴的索引。未知的操纵杆可能不会与这些常数相匹配，但你仍然可以从中检索事件。
 
 ----
 
@@ -604,15 +604,15 @@ Returns ``true`` if you are pressing the key in the physical location on the 101
 
 - void **set_custom_mouse_cursor** **(** :ref:`Resource<class_Resource>` image, :ref:`CursorShape<enum_Input_CursorShape>` shape=0, :ref:`Vector2<class_Vector2>` hotspot=Vector2( 0, 0 ) **)**
 
-设置一个自定义鼠标光标图像，该图像仅当游戏窗口内可见。还可以指定热点。将``null``\ 传递给image参数将重置为系统光标。有关详细信息，请参阅 :ref:`CursorShape<enum_Input_CursorShape>` 形状列表。
+设置一个自定义鼠标光标图像，该图像仅当游戏窗口内可见。还可以指定热点。将\ ``null``\ 传递给image参数将重置为系统光标。有关详细信息，请参阅 :ref:`CursorShape<enum_Input_CursorShape>` 形状列表。
 
 ``image``\ 的大小必须小于256×256。
 
-``hotspot``\ 的大小必须在``image``\ 的范围内。
+``hotspot``\ 的大小必须在\ ``image``\ 的范围内。
 
-**注意：**不支持AnimatedTexture作为自定义鼠标光标。如果使用:ref:`AnimatedTexture<class_AnimatedTexture>`，将仅显示第一帧。
+**注意：**\ 不支持AnimatedTexture作为自定义鼠标光标。如果使用\ :ref:`AnimatedTexture<class_AnimatedTexture>`，将仅显示第一帧。
 
-**注意：**仅支持以**无损**，**有损**或**未压缩**压缩模式导入的图像。**Video RAM**压缩模式不能用于自定义光标。
+**注意：**\ 仅支持以\ **无损**，**有损**\ 或\ **未压缩**\ 压缩模式导入的图像。**Video RAM**\ 压缩模式不能用于自定义光标。
 
 ----
 
@@ -620,11 +620,11 @@ Returns ``true`` if you are pressing the key in the physical location on the 101
 
 - void **set_default_cursor_shape** **(** :ref:`CursorShape<enum_Input_CursorShape>` shape=0 **)**
 
-设置视窗中使用的默认光标形状，而不是:ref:`CURSOR_ARROW<class_Input_constant_CURSOR_ARROW>`。
+设置视窗中使用的默认光标形状，而不是\ :ref:`CURSOR_ARROW<class_Input_constant_CURSOR_ARROW>`。
 
-**注意：**如果要更改:ref:`Control<class_Control>`\ 节点的默认光标形状，请改用 :ref:`Control.mouse_default_cursor_shape<class_Control_property_mouse_default_cursor_shape>`。
+**注意：**\ 如果要更改\ :ref:`Control<class_Control>`\ 节点的默认光标形状，请改用 :ref:`Control.mouse_default_cursor_shape<class_Control_property_mouse_default_cursor_shape>`。
 
-**注意：**这个方法生成一个:ref:`InputEventMouseMotion<class_InputEventMouseMotion>`\ 以立即更新游标。
+**注意：**\ 这个方法生成一个\ :ref:`InputEventMouseMotion<class_InputEventMouseMotion>`\ 以立即更新游标。
 
 ----
 
@@ -702,7 +702,7 @@ Input accumulation can be disabled to get slightly more precise/reactive input a
 
 振动 Android 和 iOS 设备。
 
-**注意：**Android 需要导出设置中的 ``VIBRATE`` 权限。 iOS 不支持持续时间。
+**注意：**\ Android 需要导出设置中的 ``VIBRATE`` 权限。 iOS 不支持持续时间。
 
 ----
 
