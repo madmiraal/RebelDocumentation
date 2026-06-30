@@ -1,6 +1,6 @@
 # Rebel Toolbox Translations
 
-This folder contains the Rebel Toolbox translation files.
+This folder contains the Rebel Toolbox documentation translation files.
 
 If you want to contribute to any of the Rebel Toolbox translations,
 please use our [Weblate](https://hosted.weblate.org/engage/rebel-toolbox/) project.
@@ -32,7 +32,7 @@ it is added to the supported Rebel Engine API translations.
 To add a supported Rebel Engine API translation, we add a folder with the name of the language code.
 The next time the [Make file](https://github.com/RebelToolbox/RebelDocumentation/blob/main/_translations/api/Makefile)'s `update-translations` recipe is run, the new translation will be created.
 
-The Make file depends on a build of Rebel Editor, which contains the current translations.
+The Make file depends on a build of Rebel Editor, which contains the current Rebel Engine API translations.
 The Make file expects to find the executable `RebelEngine/bin/rebel.linux.tools.64` in the Rebel Documentation root folder.
 The best way to achieve this is to clone the [Rebel Engine](https://github.com/RebelToolbox/RebelEngine/) repository into the root of Rebel Documentation.
 The `.gitignore` file has been updated to ignore this `RebelEngine/` folder.
@@ -46,7 +46,7 @@ For each language code folder found in the `api/` folder,
 the Make file will run Rebel Editor with the `--generate-docs -l <LANGUAGE_CODE>` options.
 This converts the XML files to translated XML files.
 The Make file will then use our [`rst_from_xml.py`](https://github.com/RebelToolbox/RebelEngine/blob/main/tools/scripts/rst_from_xml.py) script to convert the translated XML files to translated reST files.
-The translated reST files are saved in the `api/<LANGUAGE_CODE>' folder.
+The translated reST files are saved in the `api/<LANGUAGE_CODE>` folder.
 Finally, the changes made to the Rebel Engine XML files are reset back to the original English.
 
 ## Rebel Documentation translations
@@ -59,8 +59,9 @@ The Rebel Documentation translation updates are managed in three stages:
 ### Rebel Documentation translation templates
 
 The Rebel Documentation is written in English using [reStructuredText](https://docutils.sourceforge.io/rst.html) (reST) files.
-The [Sphinx](https://www.sphinx-doc.org/en/master/usage/advanced/intl.html#sphinx-internationalization-details) [`gettext`](https://www.gnu.org/software/gettext/manual/gettext.html) build tool is used to extract the text strings into `pot` (Portable Object Template) files.
-These `pot` files, except for the `api.pot` file, are merged into the `docs/docs.pot` file
+The [Sphinx](https://www.sphinx-doc.org/en/master/usage/advanced/intl.html#sphinx-internationalization-details) [`gettext`](https://www.gnu.org/software/gettext/manual/gettext.html) build tool is used to extract the text strings into `.pot` (Portable Object Template) files.
+Each section (folder in the Rebel Documentation root directory) has its own `.pot` file.
+These `.pot` files, except for the `api.pot` file, are merged into the `docs/docs.pot` file
 using [`msgcat`](https://www.gnu.org/software/gettext/manual/html_node/msgcat-Invocation.html).
 The `api.pot` file is excluded, because the Rebel Engine API is translated separately.
 See the [Rebel Engine API translations](#rebel-engine-api-translations) section above.
@@ -70,9 +71,10 @@ The `docs/docs.pot` file contains all the Rebel Documentation text strings.
 
 Each language has its own translation file; its `.po` ([Portable Object](https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html)) file.
 The `.po` filename is the [language code used by Weblate](https://docs.weblate.org/en/latest/admin/languages.html#language-code).
+These language translation `.po` files are stored in the `docs` folder.
 
-The Rebel Documentation translations depend on the `docs.pot` translation template file created [above](#rebel-documentation-translation-templates).
-Updates to the `docs.pot` file strings are merged into each `.po` file
+The Rebel Documentation translations depend on the `docs\docs.pot` translation template file created [above](#rebel-documentation-translation-templates).
+Updates to the `docs.pot` file's text strings are merged into each language's translation `.po` file
 using [`msgmerge`](https://www.gnu.org/software/gettext/manual/html_node/msgmerge-Invocation.html).
 
 The `docs.pot` file and all the `.po` files in the `docs/` folder are synched with our [Weblate project](https://hosted.weblate.org/projects/rebel-toolbox/rebel-documentation/).
@@ -96,7 +98,7 @@ it is added to the supported Rebel Documentation translations.
 To add a supported Rebel Documentation translation, we add a folder with the name of the language code to the `locales/` folder.
 The next time the [Make file](https://github.com/RebelToolbox/RebelDocumentation/blob/main/_translations/docs/Makefile)'s `update-translations` recipe is run, the new translation will be created.
 
-The Make file depends on the Rebel Documentation [templates](#rebel-documentation-translation-templates) and the language's [`.po` (Portable Object file)](#rebel-documentation-strings-and-portable-object-files) created above.
+The Make file depends on the Rebel Documentation section [templates](#rebel-documentation-translation-templates) and the language's [`.po` (Portable Object file)](#rebel-documentation-strings-and-portable-object-files) created above.
 The language's `.po` file is merged with each section's `.pot` template file using [`msgmerge`](https://www.gnu.org/software/gettext/manual/html_node/msgmerge-Invocation.html).
 Each section's `.po` file is saved in the langauge's `locales/<LANGUAGE_CODE>/LC_MESSAGES` folder.
 
