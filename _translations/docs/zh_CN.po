@@ -354,8 +354,8 @@ msgid ""
 "modules disabled </development/compiling/optimizing_for_size>`, you don't "
 "need to list the disabled modules' licenses in your exported project."
 msgstr ""
-"如果你导出的项目使用的是\\ :ref:`禁用了特定模块的自定义构建 "
-"<doc_optimizing_for_size>`\\ ，在导出后的项目中无需列出禁用模块的协议。"
+"如果你导出的项目使用的是\\ :doc:`禁用了特定模块的自定义构建 </development/"
+"compiling/optimizing_for_size>`\\ ，在导出后的项目中无需列出禁用模块的协议。"
 
 #: about/faq.rst:-1
 msgid "FAQ"
@@ -619,8 +619,8 @@ msgstr ""
 "GDScript 是 Godot 所集成的脚本语言。它是从头开始构建的，目标是用最少的代码让 "
 "Godot 的潜力最大化，使新手和专业开发人员都能尽可能快地利用 Godot 的优势。如果"
 "你曾经用像 Python 这样的语言写过任何东西，那么你会感到宾至如归。如果您想了解"
-"关于 GDScript 的示例、历史、以及完整的功能介绍，请查看 :ref:`GDScript 脚本指"
-"南 <doc_gdscript>`\\ 。"
+"关于 GDScript 的示例、历史、以及完整的功能介绍，请查看 :doc:`GDScript 脚本指"
+"南 </tutorials/scripting/gdscript/gdscript_basics>`\\ 。"
 
 #: about/faq.rst:90
 msgid ""
@@ -678,8 +678,8 @@ msgid ""
 "typed languages can be found in the :doc:`/tutorials/scripting/gdscript/"
 "gdscript_advanced` tutorial."
 msgstr ""
-"有关熟悉 GDScript 或动态类型语言的更多信息，请参"
-"阅 :ref:`doc_gdscript_more_efficiently` 教程。"
+"有关熟悉 GDScript 或动态类型语言的更多信息，请参阅 :doc:`/tutorials/"
+"scripting/gdscript/gdscript_advanced` 教程。"
 
 #: about/faq.rst:115
 msgid "What were the motivations behind creating GDScript?"
@@ -924,8 +924,8 @@ msgid ""
 msgstr ""
 "将 Godot 二进制文件进行重命名，然后移动到处于 ``PATH`` 环境变量中的某个位置。"
 "通常是 ``/usr/local/bin/godot`` 或者 ``/usr/bin/godot``\\ 。这个操作需要管理"
-"员权限，不过能够让你通过输入 ``godot`` 直接\\ :ref:`从命令行运行 Godot 编辑"
-"器 <doc_command_line_tutorial>`\\ 。"
+"员权限，不过能够让你通过输入 ``godot`` 直接\\ :doc:`从命令行运行 Godot 编辑"
+"器 </tutorials/editor/command_line_tutorial>`\\ 。"
 
 #: about/faq.rst:209
 #, fuzzy
@@ -980,7 +980,7 @@ msgid ""
 msgstr ""
 "不过，配置文件会写入到针对用户的配置或数据目录。通常来说，这是不错的做法，但"
 "也意味着将包含 Godot 可执行文件的文件夹复制到另一台机器上是无法带走配置文件"
-"的。更多信息请参阅 :ref:`doc_data_paths`\\ 。"
+"的。更多信息请参阅 :doc:`/tutorials/io/data_paths`\\ 。"
 
 #: about/faq.rst:231
 #, fuzzy
@@ -989,7 +989,7 @@ msgid ""
 "follow the steps in :ref:`tutorials/io/data_paths:self-contained mode`."
 msgstr ""
 "如果你需要\\ *真·绿色*\\ 的操作（例如放到 U 盘上使用），请按"
-"照 :ref:`doc_data_paths_self_contained_mode` 中的步骤操作。"
+"照 :ref:`tutorials/io/data_paths:self-contained mode` 中的步骤操作。"
 
 #: about/faq.rst:235
 #, fuzzy
@@ -1119,8 +1119,8 @@ msgstr ""
 "基于上述原因，我们必须选择哪些功能作为 Godot 的核心功能。这就是为什么我们计划"
 "在 Godot 的未来版本里，将转移一些核心功能到官方支持的附加组件中。在文件大小方"
 "面，这也算是一个优点，你的项目可以精简掉没有实际使用过的功能（目前，你可以通"
-"过\\ :ref:`编译自定义导出模板、禁用未使用的功能 <doc_optimizing_for_size>`\\ "
-"来优化项目的发布大小。）"
+"过\\ :doc:`编译自定义导出模板、禁用未使用的功能 </development/compiling/"
+"optimizing_for_size>`\\ 来优化项目的发布大小。）"
 
 #: about/faq.rst:295
 msgid ""
@@ -1174,8 +1174,8 @@ msgid ""
 "ratios works best. Check the :doc:`/tutorials/rendering/"
 "multiple_resolutions` tutorial on how to achieve this."
 msgstr ""
-"使用 Godot 中的拉伸选项；2D 保持宽高比时拉伸效果最好。请参阅教"
-"程 :ref:`doc_multiple_resolutions` 来学习如何实现。"
+"使用 Godot 中的拉伸选项；2D 保持宽高比时拉伸效果最好。请参阅教程 :doc:`/"
+"tutorials/rendering/multiple_resolutions` 来学习如何实现。"
 
 #: about/faq.rst:321
 #, fuzzy
@@ -1186,8 +1186,8 @@ msgid ""
 "explained in :doc:`/tutorials/rendering/multiple_resolutions`."
 msgstr ""
 "确定最小分辨率，然后决定是否希望游戏垂直或水平拉伸以获得不同的宽高比，或者如"
-"果有一个宽高比并且您希望显示黑条。这也在 :ref:`doc_multiple_resolutions` 中有"
-"所解释。"
+"果有一个宽高比并且您希望显示黑条。这也在 :doc:`/tutorials/rendering/"
+"multiple_resolutions` 中有所解释。"
 
 #: about/faq.rst:326
 #, fuzzy
@@ -1196,8 +1196,8 @@ msgid ""
 "size_and_anchors>` to determine where controls should stay and move. If UIs "
 "are more complex, consider learning about Containers."
 msgstr ""
-"对于用户界面，请使用 :ref:`锚定 <doc_size_and_anchors>` 来确定控件应停留和移"
-"动的位置。如果 UI 更复杂，请考虑学习 Container（容器）。"
+"对于用户界面，请使用 :doc:`锚定 </tutorials/ui/size_and_anchors>` 来确定控件"
+"应停留和移动的位置。如果 UI 更复杂，请考虑学习 Container（容器）。"
 
 #: about/faq.rst:330
 msgid "And that's it! Your game should work in multiple resolutions."
@@ -1227,7 +1227,8 @@ msgid ""
 "tutorials/plugins/editor/making_plugins>` and tool scripts."
 msgstr ""
 "要扩展 Godot，比如创建 Godot 编辑器插件或添加对其他语言的支持，请参阅"
-"\\ :ref:`编辑器插件 <doc_making_plugins>`\\ 和工具脚本。"
+"\\ :doc:`编辑器插件 </tutorials/plugins/editor/making_plugins>`\\ 和工具脚"
+"本。"
 
 #: about/faq.rst:344
 #, fuzzy
@@ -1248,7 +1249,7 @@ msgstr "Godot 的下一个版本什么时候发布？"
 #: about/faq.rst:351
 #, fuzzy
 msgid "When it's ready! See :doc:`release_policy` for more information."
-msgstr "当它准备好的时候！详情见 :ref:`doc_running_code_in_the_editor`\\ 。"
+msgstr "当它准备好的时候！详情见 :doc:`release_policy`\\ 。"
 
 #: about/faq.rst:355
 msgid "I would like to contribute! How can I get started?"
@@ -1464,9 +1465,10 @@ msgid ""
 "Rebel Engine to create non-game applications by using the editor <about/"
 "faq:Is it possible to use Rebel Engine to create non-game applications?>`."
 msgstr ""
-"这个自定义 UI 工具包\\ :ref:`不能作为一个库使用 "
-"<doc_faq_use_godot_as_library>`，但你仍然可以\\ :ref:`通过使用 Godot 编辑器来"
-"创建非游戏应用程序<doc_faq_non_game_applications>`。"
+"这个自定义 UI 工具包\\ :ref:`不能作为一个库使用 <about/faq:Is it possible to "
+"use Rebel Engine as a library?>`，但你仍然可以\\ :ref:`通过使用 Godot 编辑器"
+"来创建非游戏应用程序<about/faq:Is it possible to use Rebel Engine to create "
+"non-game applications?>`。"
 
 #: about/faq.rst:445
 #, fuzzy
@@ -1614,7 +1616,7 @@ msgstr "如何支持或参与 Godot 的发展？"
 #: about/faq.rst:499
 #, fuzzy
 msgid "See :doc:`/contributing/ways_to_contribute`."
-msgstr "请参阅 :ref:`doc_ways_to_contribute`。"
+msgstr "请参阅 :doc:`/contributing/ways_to_contribute`。"
 
 #: about/list_of_features.rst:2
 msgid "List of features"
@@ -1686,7 +1688,7 @@ msgstr "iOS 10.0 及更高版本。"
 #: about/list_of_features.rst:32
 #, fuzzy
 msgid ":doc:`Consoles </tutorials/platforms/consoles>`."
-msgstr ":ref:`主机 <doc_consoles>`。"
+msgstr ":doc:`主机 </tutorials/platforms/consoles>`。"
 
 #: about/list_of_features.rst:33
 #, fuzzy
@@ -1694,7 +1696,8 @@ msgid ""
 ":doc:`Headless Linux and macOS servers </tutorials/export/"
 "exporting_for_dedicated_servers>`."
 msgstr ""
-":ref:`无头 Linux 和 macOS 服务器 <doc_exporting_for_dedicated_servers>`\\ 。"
+":doc:`无头 Linux 和 macOS 服务器 </tutorials/export/"
+"exporting_for_dedicated_servers>`\\ 。"
 
 #: about/list_of_features.rst:35
 #, fuzzy
@@ -1728,13 +1731,13 @@ msgid ""
 "Support for :doc:`external script editors </tutorials/editor/"
 "external_editor>` such as Visual Studio Code or Vim."
 msgstr ""
-"支持 Visual Studio Code、VIM 等\\ :ref:`外部文本编辑器 "
-"<doc_external_editor>`。"
+"支持 Visual Studio Code、VIM 等\\ :doc:`外部文本编辑器 </tutorials/editor/"
+"external_editor>`。"
 
 #: about/list_of_features.rst:47
 #, fuzzy
 msgid "GDScript :doc:`debugger </tutorials/scripting/debug/debugger_panel>`."
-msgstr "GDScript :ref:`调试器 <doc_debugger_panel>`。"
+msgstr "GDScript :doc:`调试器 </tutorials/scripting/debug/debugger_panel>`。"
 
 #: about/list_of_features.rst:49
 msgid "No support for debugging in threads yet."
@@ -1791,8 +1794,8 @@ msgid ""
 "own plugins </tutorials/plugins/editor/making_plugins>` using GDScript to "
 "add new features or speed up your workflow."
 msgstr ""
-"使用 GDScript :ref:`自己创建插件 <doc_making_plugins>`\\ ，添加新功能或者加速"
-"你的工作流。"
+"使用 GDScript :doc:`自己创建插件 </tutorials/plugins/editor/"
+"making_plugins>`\\ ，添加新功能或者加速你的工作流。"
 
 #: about/list_of_features.rst:72
 msgid "2D graphics"
@@ -2316,8 +2319,8 @@ msgid ""
 "index>`. Supports gameplay notifications with primary and secondary "
 "visibility to disable AI/physics processing for nodes that don't need it."
 msgstr ""
-"使用\\ :ref:`房间与入口 <doc_rooms_and_portals>`\\ 实现遮挡剔除。支持游戏通"
-"知，根据主次两级可见性来禁用不需要的节点的 AI/物理处理。"
+"使用\\ :doc:`房间与入口 </tutorials/3d/portals/index>`\\ 实现遮挡剔除。支持游"
+"戏通知，根据主次两级可见性来禁用不需要的节点的 AI/物理处理。"
 
 #: about/list_of_features.rst:272
 #, fuzzy
@@ -2351,14 +2354,15 @@ msgstr "内置网格：立方体、圆柱体/圆锥体、（半）球体、棱�
 msgid ""
 "Tools for :doc:`procedural geometry generation </tutorials/3d/"
 "procedural_geometry/index>`."
-msgstr ":ref:`程序式几何体生成<doc_procedural_geometry>`\\ 工具。"
+msgstr ""
+":doc:`程序式几何体生成</tutorials/3d/procedural_geometry/index>`\\ 工具。"
 
 #: about/list_of_features.rst:286
 #, fuzzy
 msgid ""
 ":doc:`Constructive solid geometry </tutorials/3d/csg_tools>` (intended for "
 "prototyping)."
-msgstr ":ref:`构造实体几何 <doc_csg_tools>`\\ （用于原型制作）。"
+msgstr ":doc:`构造实体几何 </tutorials/3d/csg_tools>`\\ （用于原型制作）。"
 
 #: about/list_of_features.rst:287
 msgid "Path3D node to represent a path in 3D space."
@@ -2424,8 +2428,8 @@ msgid ""
 "Text-based shaders using a :doc:`shader language inspired by GLSL </"
 "tutorials/shaders/shader_reference/shading_language>`."
 msgstr ""
-"基于文本的着色器，使用\\ :ref:`由 GLSL 启发的着色器语言 "
-"<doc_shading_language>`\\ 。"
+"基于文本的着色器，使用\\ :doc:`由 GLSL 启发的着色器语言 </tutorials/shaders/"
+"shader_reference/shading_language>`\\ 。"
 
 #: about/list_of_features.rst:321
 msgid "Visual shader editor."
@@ -2458,7 +2462,9 @@ msgstr "用于脚本之间通信的信号和组."
 msgid ""
 "Support for :doc:`cross-language scripting </tutorials/scripting/"
 "cross_language_scripting>`."
-msgstr "支持\\ :ref:`跨语言脚本编程 <doc_cross_language_scripting>`\\ 。"
+msgstr ""
+"支持\\ :doc:`跨语言脚本编程 </tutorials/scripting/"
+"cross_language_scripting>`\\ 。"
 
 #: about/list_of_features.rst:333
 msgid ""
@@ -2476,8 +2482,8 @@ msgid ""
 "gdscript_basics>` with :doc:`optional static typing </tutorials/scripting/"
 "gdscript/static_typing>`."
 msgstr ""
-"带 :ref:`可选静态类型 <doc_gdscript_static_typing>`\\ 的\\ :ref:`高级解释语"
-"言 <doc_gdscript>`\\ 。"
+"带 :doc:`可选静态类型 </tutorials/scripting/gdscript/gdscript_basics>`\\ 的"
+"\\ :doc:`高级解释语言 </tutorials/scripting/gdscript/static_typing>`\\ 。"
 
 #: about/list_of_features.rst:339
 msgid "Syntax inspired by Python."
@@ -2493,8 +2499,8 @@ msgid ""
 ":doc:`Use threads </tutorials/performance/threads/using_multiple_threads>` "
 "to perform asynchronous actions or make use of multiple processor cores."
 msgstr ""
-":ref:`使用线程 <doc_using_multiple_threads>`\\ 执行异步操作或使用多个处理器内"
-"核。"
+":doc:`使用线程 </tutorials/performance/threads/using_multiple_threads>`\\ 执"
+"行异步操作或使用多个处理器内核。"
 
 #: about/list_of_features.rst:344
 msgid ":ref:`C#: <toc-learn-scripting-C#>`"
@@ -2530,7 +2536,9 @@ msgstr ":ref:`VisualScript： <toc-learn-scripting-visual_script>`"
 msgid ""
 ":doc:`Graph-based visual scripting language </tutorials/scripting/"
 "visual_script/what_is_visual_scripting>`."
-msgstr ":ref:`基于图的可视化脚本语言 <doc_what_is_visual_script>`\\ 。"
+msgstr ""
+":doc:`基于图的可视化脚本语言 </tutorials/scripting/visual_script/"
+"what_is_visual_scripting>`\\ 。"
 
 #: about/list_of_features.rst:357
 msgid ""
@@ -2597,7 +2605,8 @@ msgstr "选择 2D 或 3D 的多普勒效应。"
 msgid ""
 "Support for re-routable :doc:`audio buses </tutorials/audio/audio_buses>` "
 "and effects with dozens of effects included."
-msgstr "支持重路由 :ref:`音频总线 <doc_audio_buses>` 以及大量其它效果."
+msgstr ""
+"支持重路由 :doc:`音频总线 </tutorials/audio/audio_buses>` 以及大量其它效果."
 
 #: about/list_of_features.rst:386
 msgid ""
@@ -2644,7 +2653,8 @@ msgstr "导入"
 msgid ""
 "Support for :doc:`custom import plugins </tutorials/plugins/editor/"
 "import_plugins>`."
-msgstr "支持\\ :ref:`自定义导入插件 <doc_import_plugins>`\\ 。"
+msgstr ""
+"支持\\ :doc:`自定义导入插件 </tutorials/plugins/editor/import_plugins>`\\ 。"
 
 #: about/list_of_features.rst:403
 msgid "**Formats:**"
@@ -2653,7 +2663,7 @@ msgstr "**格式：**"
 #: about/list_of_features.rst:405
 #, fuzzy
 msgid "*Images:* See :doc:`/tutorials/assets_pipeline/importing_images`."
-msgstr "*图片：* 请参阅 :ref:`doc_import_images` 。"
+msgstr "*图片：* 请参阅 :doc:`/tutorials/assets_pipeline/importing_images` 。"
 
 #: about/list_of_features.rst:406
 msgid "*Audio:*"
@@ -2845,8 +2855,8 @@ msgid ""
 "internationalizing_games>` or :doc:`gettext </tutorials/i18n/"
 "localization_using_gettext>`."
 msgstr ""
-"使用 :ref:`CSV <doc_internationalizing_games>` 或 :ref:`gettext "
-"<doc_localization_using_gettext>` 存储本地化字符串."
+"使用 :doc:`CSV </tutorials/i18n/internationalizing_games>` 或 :doc:`gettext "
+"</tutorials/i18n/localization_using_gettext>` 存储本地化字符串."
 
 #: about/list_of_features.rst:477
 msgid ""
@@ -2922,10 +2932,11 @@ msgid ""
 "window`` :doc:`command line argument </tutorials/editor/"
 "command_line_tutorial>`."
 msgstr ""
-"可以下载 Linux 的\\ :ref:`无头/服务器二进制文件 "
-"<doc_exporting_for_dedicated_servers>`\\ ，也可以\\ :ref:`为 macOS 编译 "
-"<doc_compiling_for_osx>`\\ 。任何二进制文件都可以使用 ``--no-window`` :ref:`"
-"命令行参数 <doc_command_line_tutorial>`\\ 关闭窗口使用。"
+"可以下载 Linux 的\\ :doc:`无头/服务器二进制文件 </tutorials/export/"
+"exporting_for_dedicated_servers>`\\ ，也可以\\ :doc:`为 macOS 编译 </"
+"development/compiling/compiling_for_osx>`\\ 。任何二进制文件都可以使用 ``--"
+"no-window`` :doc:`命令行参数 </tutorials/editor/command_line_tutorial>`\\ 关"
+"闭窗口使用。"
 
 #: about/list_of_features.rst:504
 msgid "Mobile"
@@ -3013,8 +3024,8 @@ msgid ""
 "RichTextLabel for :doc:`text formatted using BBCode </tutorials/ui/"
 "bbcode_in_richtextlabel>`."
 msgstr ""
-"使用 RichTextLabel 显示 :ref:`使用 BBCode 的格式化文本 "
-"<doc_bbcode_in_richtextlabel>` 。"
+"使用 RichTextLabel 显示 :doc:`使用 BBCode 的格式化文本 </tutorials/ui/"
+"bbcode_in_richtextlabel>` 。"
 
 #: about/list_of_features.rst:535
 msgid "Trees (can also be used to represent tables)."
@@ -3149,7 +3160,8 @@ msgstr "文件格式"
 msgid ""
 "Scenes and resources can be saved in :doc:`text-based </development/"
 "file_formats/tscn>` or binary formats."
-msgstr "场景和资源可保存为 :ref:`文本 <doc_tscn_file_format>` 或二进制格式."
+msgstr ""
+"场景和资源可保存为 :doc:`文本 </development/file_formats/tscn>` 或二进制格式."
 
 #: about/list_of_features.rst:584
 msgid ""
@@ -3202,8 +3214,8 @@ msgid ""
 ":doc:`Export additional PCK files</tutorials/export/exporting_pcks>` that "
 "can be read by the engine to support mods and DLCs."
 msgstr ""
-":ref:`导出额外的 PCK 文件 <doc_exporting_pcks>`\\ ，引擎可以读取这些文件以支"
-"持 mod 和 DLC。"
+":doc:`导出额外的 PCK 文件 </tutorials/export/exporting_pcks>`\\ ，引擎可以读"
+"取这些文件以支持 mod 和 DLC。"
 
 #: about/list_of_features.rst:603
 msgid "Miscellaneous"
@@ -3215,15 +3227,17 @@ msgid ""
 ":doc:`Low-level access to servers </tutorials/performance/using_servers>` "
 "which allows bypassing the scene tree's overhead when needed."
 msgstr ""
-":ref:`对服务器的低级别访问 <doc_using_servers>`\\ ，能够在必要时绕过场景树的"
-"开销。"
+":doc:`对服务器的低级别访问 </tutorials/performance/using_servers>`\\ ，能够在"
+"必要时绕过场景树的开销。"
 
 #: about/list_of_features.rst:607
 #, fuzzy
 msgid ""
 ":doc:`Command line interface </tutorials/editor/command_line_tutorial>` for "
 "automation."
-msgstr "使用\\ :ref:`命令行接口 <doc_command_line_tutorial>`\\ 进行自动化。"
+msgstr ""
+"使用\\ :doc:`命令行接口 </tutorials/editor/command_line_tutorial>`\\ 进行自动"
+"化。"
 
 #: about/list_of_features.rst:609
 msgid "Export and deploy projects using continuous integration platforms."
@@ -3244,8 +3258,8 @@ msgid ""
 "Support for :doc:`C++ modules </development/engine/custom_modules_in_cpp>` "
 "statically linked into the engine binary."
 msgstr ""
-"支持将 :ref:`C++ 模块 <doc_custom_modules_in_c++>` 静态链接到引擎二进制文件"
-"中."
+"支持将 :doc:`C++ 模块 </development/engine/custom_modules_in_cpp++>` 静态链接"
+"到引擎二进制文件中."
 
 #: about/list_of_features.rst:615
 msgid "Engine and editor written in C++03."
@@ -3258,8 +3272,8 @@ msgid ""
 "introduction_to_the_buildsystem>` using GCC, Clang and MSVC. MinGW is also "
 "supported."
 msgstr ""
-"可使用 GCC、Clang、MSVC 进行\\ :ref:`编译 "
-"<doc_introduction_to_the_buildsystem>`\\ 。同时支持 MinGW。"
+"可使用 GCC、Clang、MSVC 进行\\ :doc:`编译 </development/compiling/"
+"introduction_to_the_buildsystem>`\\ 。同时支持 MinGW。"
 
 #: about/list_of_features.rst:619
 #, fuzzy
@@ -3280,7 +3294,7 @@ msgstr "使用宽松的 MIT 许可。"
 msgid ""
 "Open development process with :doc:`contributions welcome </contributing/"
 "ways_to_contribute>`."
-msgstr "开放的开发过程, :ref:`欢迎贡献 <doc_ways_to_contribute>` ."
+msgstr "开放的开发过程, :doc:`欢迎贡献 </contributing/ways_to_contribute>` ."
 
 #: about/release_policy.rst:2
 #, fuzzy
@@ -3688,8 +3702,8 @@ msgid ""
 "multiple_resolutions>`."
 msgstr ""
 "要解决此问题，请打开\\ **项目 > 项目设置**\\ 然后启用 **显示 > 窗口 > DPI > "
-"允许 hiDPI**\\ 。此外，请确保你的项目已经配置为支持\\ :ref:`多分辨率 "
-"<doc_multiple_resolutions>`\\ 。"
+"允许 hiDPI**\\ 。此外，请确保你的项目已经配置为支持\\ :doc:`多分辨率 </"
+"tutorials/rendering/multiple_resolutions>`\\ 。"
 
 #: about/troubleshooting.rst:80
 #, fuzzy
@@ -3707,8 +3721,8 @@ msgid ""
 msgstr ""
 "这是一个\\ `已知问题 <https://github.com/godotengine/godot/issues/"
 "13017>`_\\ 。解决方法是打开\\ **项目 > 项目设置**\\ 并开启 **显示 > 窗口 > "
-"DPI > 允许 hiDPI**\\ 。此外，请确保你的项目已经配置为支持\\ :ref:`多分辨率 "
-"<doc_multiple_resolutions>`\\ 。"
+"DPI > 允许 hiDPI**\\ 。此外，请确保你的项目已经配置为支持\\ :doc:`多分辨率 </"
+"tutorials/rendering/multiple_resolutions>`\\ 。"
 
 #: about/troubleshooting.rst:88
 #, fuzzy
@@ -3731,7 +3745,8 @@ msgstr ""
 "这通常是在导出对话框中忘记筛选非资源文件所导致的。默认情况下，Godot只会将实际"
 "的\\ *资源*\\ 包含在 PCK 文件中。一些常用的文件，例如 JSON 文件，不会被视为资"
 "源。例如，当你在导出的项目中加载 ``test.json`` 时，你需要在非资源导出过滤器中"
-"指定 ``*.json``\\ 。详见：\\ :ref:`doc_exporting_projects_export_mode`\\ 。"
+"指定 ``*.json``\\ 。详见：\\ :ref:`tutorials/export/"
+"exporting_projects:resource options`\\ 。"
 
 #: about/troubleshooting.rst:97
 #, fuzzy
@@ -3743,10 +3758,10 @@ msgid ""
 "the virtual PCK filesystem is case-sensitive, while Windows's filesystem is "
 "case-insensitive by default."
 msgstr ""
-"在 Windows 上，也可能是\\ :ref:`大小写敏感性 "
-"<doc_project_organization_case_sensitivity>`\\ 的问题。如果你在脚本里引用资源"
-"时所使用的大小写与文件系统中的不符，在导出项目后就会载入失败。这是因为虚拟 "
-"PCK 文件系统是大小写敏感的，而 Windows 的文件系统是大小写不敏感的。"
+"在 Windows 上，也可能是\\ :doc:`大小写敏感性 <tutorials/best_practices/"
+"project_organization:Case sensitivity>`\\ 的问题。如果你在脚本里引用资源时所"
+"使用的大小写与文件系统中的不符，在导出项目后就会载入失败。这是因为虚拟 PCK 文"
+"件系统是大小写敏感的，而 Windows 的文件系统是大小写不敏感的。"
 
 #: about/what_is_rebel.rst:2
 #, fuzzy
@@ -3814,7 +3829,7 @@ msgid ""
 "version control system, see :doc:`updating_the_api_documentation`."
 msgstr ""
 "要学习如何使用 Git 版本控制系统向 Godot 项目提交你的修改，请参"
-"见 :ref:`doc_updating_the_class_reference`\\ 。"
+"见 :doc:`updating_the_api_documentation`\\ 。"
 
 #: contributing/api_writing_guidelines.rst:13
 msgid ""
@@ -3882,9 +3897,9 @@ msgid ""
 "descriptions: each line in the XML file will result in a new paragraph, even "
 "if it is empty."
 msgstr ""
-"用清晰简单的语言编写。始终遵循\\ :ref:`编写规范 "
-"<doc_docs_writing_guidelines>`\\ 以使你的描述简短易读。在描述中\\ **不要留下"
-"空行**\\ ：XML 文件中的每一行都将生成一个新段落，空行也是一样。"
+"用清晰简单的语言编写。始终遵循\\ :doc:`编写规范 </contributing/"
+"docs_writing_guidelines>`\\ 以使你的描述简短易读。在描述中\\ **不要留下空行"
+"**\\ ：XML 文件中的每一行都将生成一个新段落，空行也是一样。"
 
 #: contributing/api_writing_guidelines.rst:85
 msgid "How to edit class XML"
@@ -3908,8 +3923,7 @@ msgstr ""
 msgid ""
 "For some modules in the engine's source code, you'll find the XML files in "
 "the ``modules/<module_name>/docs/`` directory instead."
-msgstr ""
-"游戏引擎中某些模块的 XML 文件在 ``modules/<模块名称>/doc_classes/`` 目录下。"
+msgstr "游戏引擎中某些模块的 XML 文件在 ``modules/<模块名称>/docs/`` 目录下。"
 
 #: contributing/api_writing_guidelines.rst:95
 msgid ""
@@ -4922,8 +4936,9 @@ msgid ""
 "getting_source>`. Once this is done, in the terminal window, use ``cd`` to "
 "reach the Rebel Engine repository folder and enter the following command:"
 msgstr ""
-":ref:`使用 Git 获取 Godot 的源代码 <doc_getting_source>`\\ 。完成后，在终端窗"
-"口中，使用 ``cd`` 进入 Godot 仓库文件夹并输入以下命令："
+":doc:`使用 Git 获取 Godot 的源代码 </development/compiling/"
+"getting_source>`\\ 。完成后，在终端窗口中，使用 ``cd`` 进入 Godot 仓库文件夹"
+"并输入以下命令："
 
 #: contributing/bisecting_regressions.rst:69
 #, fuzzy
@@ -5470,7 +5485,7 @@ msgid ""
 "for a list of language features that are permitted in pull requests."
 msgstr ""
 "这些规范只涉及代码的格式化。拉取请求中所允许的语言特性列表请参"
-"阅 :ref:`doc_cpp_usage_guidelines`\\ 。"
+"阅 :doc:`cpp_usage_guidelines`\\ 。"
 
 #: contributing/code_style_guidelines.rst:55
 msgid "Using clang-format locally"
@@ -5917,8 +5932,8 @@ msgid ""
 "updating_the_api_documentation>` instead."
 msgstr ""
 "你可以在函数或宏定义上面使用Javadoc风格的注释. 建议只对不公开给脚本的方法使用"
-"Javadoc风格的注释. 这是因为公开的方法应该在 :ref:`class reference XML "
-"<doc_updating_the_class_reference>` 中进行记录."
+"Javadoc风格的注释. 这是因为公开的方法应该在 :doc:`API Documentation </"
+"contributing/updating_the_api_documentation>` 中进行记录."
 
 #: contributing/code_style_guidelines.rst:356
 msgid ""
@@ -6166,8 +6181,7 @@ msgid ""
 "For details on Git usage and the pull request workflow, please refer to "
 "the :doc:`pr_workflow` page."
 msgstr ""
-"至于 Git 用法及拉取请求工作流程的详细信息，请参阅 :ref:`doc_pr_workflow` 页"
-"面。"
+"至于 Git 用法及拉取请求工作流程的详细信息，请参阅 :doc:`pr_workflow` 页面。"
 
 #: contributing/contributing_to_the_documentation.rst:17
 #, fuzzy
@@ -6181,7 +6195,7 @@ msgstr ""
 "类参考的源文件位于 `Godot 引擎仓库 <https://github.com/godotengine/"
 "godot>`_\\ 中。我们会用它来生成本文档的 :ref:`Godot API <toc-api>` 章节。如果"
 "你想要更新类、方法、属性等的描述信息，请参"
-"阅 :ref:`doc_updating_the_class_reference`\\ 。"
+"阅 :doc:`updating_the_api_documentation`\\ 。"
 
 #: contributing/contributing_to_the_documentation.rst:25
 #, fuzzy
@@ -6210,8 +6224,8 @@ msgid ""
 "The :doc:`/contributing/docs_writing_guidelines`. There, you will find rules "
 "and recommendations to write in a way that everyone understands."
 msgstr ""
-":ref:`doc_docs_writing_guidelines`\\ 。为了让写出的内容让所有人都能够理解，你"
-"可以在这里找到相关的规定和建议。"
+":doc:`/contributing/docs_writing_guidelines`\\ 。为了让写出的内容让所有人都能"
+"够理解，你可以在这里找到相关的规定和建议。"
 
 #: contributing/contributing_to_the_documentation.rst:36
 msgid ""
@@ -6262,7 +6276,7 @@ msgstr ""
 "你就可以将修改提交、推送到你的 Fork 中，然后创建拉取请求。\\ **注意，请勿在此"
 "编辑** ``classes/`` **中的页面。**\\ 它们是根据 Godot 的 `XML 类参考 "
 "<https://github.com/godotengine/godot/tree/master/doc/classes>`__\\ 自动生成"
-"的。详情请参阅 :ref:`doc_updating_the_class_reference`\\ 。"
+"的。详情请参阅 :doc:`updating_the_api_documentation`\\ 。"
 
 #: contributing/contributing_to_the_documentation.rst:59
 #, fuzzy
@@ -6270,7 +6284,8 @@ msgid ""
 "To build the manual and test changes on your computer, "
 "see :doc:`building_the_documentation`."
 msgstr ""
-"要在你的电脑上构建手册并测试修改，请参阅 :ref:`doc_building_the_manual`\\ 。"
+"要在你的电脑上构建手册并测试修改，请参"
+"阅 :doc:`building_the_documentation`\\ 。"
 
 #: contributing/contributing_to_the_documentation.rst:63
 msgid "Editing pages online"
@@ -6365,7 +6380,7 @@ msgstr "确认目前不存在涉及该话题的页面。"
 #: contributing/contributing_to_the_documentation.rst:99
 #, fuzzy
 msgid "Read our :doc:`content_guidelines`."
-msgstr "阅读我们的 :ref:`doc_content_guidelines`\\ 。"
+msgstr "阅读我们的 :doc:`content_guidelines`\\ 。"
 
 #: contributing/contributing_to_the_documentation.rst:101
 msgid ""
@@ -6527,12 +6542,12 @@ msgid ""
 "also :doc:`best_practices_for_engine_contributors`."
 msgstr ""
 "以下规范并不适用于第三方依赖，虽然我们一般倾向于使用小型的库而不是大型的解决"
-"方案。另请参阅 :ref:`doc_best_practices_for_engine_contributors`\\ 。"
+"方案。另请参阅 :doc:`best_practices_for_engine_contributors`\\ 。"
 
 #: contributing/cpp_usage_guidelines.rst:31
 #, fuzzy
 msgid "See :doc:`code_style_guidelines` for formatting guidelines."
-msgstr "格式化规范请参阅 :ref:`doc_code_style_guidelines`\\ 。"
+msgstr "格式化规范请参阅 :doc:`code_style_guidelines`\\ 。"
 
 #: contributing/cpp_usage_guidelines.rst:34
 msgid "Disallowed features"
@@ -6563,7 +6578,8 @@ msgid ""
 msgstr ""
 "我们不允许使用 `STL <https://en.wikipedia.org/wiki/"
 "Standard_Template_Library>`__\\ ，因为 Godot 提供了自有的数据类型（及其他工"
-"具）。详情请参阅 :ref:`doc_faq_why_not_stl`\\ 。"
+"具）。详情请参阅 :ref:`about/faq:why does rebel engine not use stl (standard "
+"template library)?`\\ 。"
 
 #: contributing/cpp_usage_guidelines.rst:48
 #, fuzzy
@@ -6664,8 +6680,8 @@ msgid ""
 "See :ref:`contributing/code_style_guidelines:header includes` for guidelines "
 "on sorting includes in C++ and Objective-C files."
 msgstr ""
-"C++ 和 Objective-C 文件中 include 的排序规范请参"
-"阅 :ref:`doc_code_style_guidelines_header_includes`\\ 。"
+"C++ 和 Objective-C 文件中 include 的排序规范请参阅 :ref:`contributing/"
+"code_style_guidelines:header includes`\\ 。"
 
 #: contributing/docs_writing_guidelines.rst:2
 msgid "Docs writing guidelines"
@@ -6765,8 +6781,8 @@ msgid ""
 "information on the types of documentation you can write in the official "
 "documentation."
 msgstr ""
-"请查看\\ :ref:`内容规范 <doc_content_guidelines>`\\ ，了解你可以在官方文档中"
-"编写哪些类型的文档。"
+"请查看\\ :doc:`内容规范 </contributing/content_guidelines>`\\ ，了解你可以在"
+"官方文档中编写哪些类型的文档。"
 
 #: contributing/docs_writing_guidelines.rst:39
 msgid "7 rules for clear English"
@@ -7443,7 +7459,7 @@ msgstr ""
 "类参考的源文件位于 `Godot 引擎仓库 <https://github.com/godotengine/"
 "godot>`_\\ 中。我们会用它来生成本文档的 :ref:`Godot API <toc-api>` 章节。如果"
 "你想要更新类、方法、属性等的描述信息，请参"
-"阅 :ref:`doc_updating_the_class_reference`\\ 。"
+"阅 :doc:`updating_the_api_documentation`\\ 。"
 
 #: contributing/documentation_guidelines.rst:30
 #, fuzzy
@@ -7458,7 +7474,7 @@ msgstr ""
 "如果你想编辑 **API参考手册** , 请注意它 *不* 应该在godot-docs仓库中完成. 而"
 "是, 你应该编辑Godot的主仓库的 ``doc/classes/*`` XML文件. 这些文件随后将用于生"
 "成编辑器内文档以及在线文档的API参考手册. 在这"
-"里 :ref:`doc_updating_the_class_reference` 阅读更多."
+"里 :doc:`updating_the_api_documentation` 阅读更多."
 
 #: contributing/documentation_guidelines.rst:38
 msgid "The 'Edit on GitHub' link"
@@ -7530,7 +7546,7 @@ msgid ""
 "and objective. Also, have a look at the :doc:`docs_writing_guidelines`."
 msgstr ""
 "文件应该用通俗的英语写好，使用格式良好的句子和不同层次的章节和分节。它应该是"
-"清晰和客观的。另请参阅 :ref:`doc_docs_writing_guidelines`\\ 。"
+"清晰和客观的。另请参阅 :doc:`docs_writing_guidelines`\\ 。"
 
 #: contributing/documentation_guidelines.rst:71
 msgid ""
@@ -8102,7 +8118,8 @@ msgid ""
 msgstr ""
 "如果您已经创建了一个合并提交而不使用 ``rebase``\\ ，或者进行了其他任何导致不"
 "希望的历史记录的更改，那么最好的选择是在上游分支上进行\\ *交互式变基*\\ 。相"
-"关说明请参见\\ :ref:`专门的章节 <doc_pr_workflow_rebase>`\\ 。"
+"关说明请参见\\ :ref:`专门的章节 <contributing/pr_workflow:The interactive "
+"rebase>`\\ 。"
 
 #: contributing/pr_workflow.rst:239
 msgid ""
@@ -8604,8 +8621,9 @@ msgid ""
 "source>` instead."
 msgstr ""
 "由于GitHub Actions的限制，构建只在拉取请求最后更新后的90天内可用。如果你仍然"
-"希望在本地尝试拉取请求，你可以 :ref:`从源代码编译拉取请求 "
-"<doc_testing_pull_requests_compile>` 分支来代替。"
+"希望在本地尝试拉取请求，你可以 :ref:`从源代码编译拉取请求 <contributing/"
+"testing_pull_requests:Compiling a pull request branch from source>` 分支来代"
+"替。"
 
 #: contributing/testing_pull_requests.rst:28
 msgid "If you have a GitHub account"
@@ -8770,8 +8788,7 @@ msgid ""
 "You can find the writing guidelines for the Rebel Engine API :doc:`here "
 "<api_writing_guidelines>`."
 msgstr ""
-"你可以在\\ :ref:`这里 <doc_class_reference_writing_guidelines>`\\ 找到类参考"
-"手册的编写规范。"
+"你可以在\\ :doc:`这里 <api_writing_guideline>`\\ 找到类参考手册的编写规范。"
 
 #: contributing/updating_the_api_documentation.rst:26
 #, fuzzy
@@ -8819,9 +8836,8 @@ msgid ""
 "validation scripts as described in :ref:`contributing/"
 "api_writing_guidelines:how to edit class xml`."
 msgstr ""
-"而且，你也没法在引擎中测试你的修改，也不能"
-"像 :ref:`doc_class_reference_writing_guidelines_editing_xml` 中描述的一样使用"
-"校验脚本。"
+"而且，你也没法在引擎中测试你的修改，也不能像 :ref:`contributing/"
+"api_writing_guidelines:how to edit class xml` 中描述的一样使用校验脚本。"
 
 #: contributing/updating_the_api_documentation.rst:49
 msgid "Updating the documentation template"
@@ -8845,10 +8861,10 @@ msgid ""
 "the ``--doctool`` option. For example, if you're on 64-bit Linux, the "
 "command is::"
 msgstr ""
-"为了达到这个目的，你首先需要编译 Godot。方法请参"
-"阅 :ref:`doc_introduction_to_the_buildsystem` 页面。然后，在 Godot 根目录中使"
-"用 ``--doctool`` 选项运行编译出的 Godot 二进制文件。例如，在 64 位 Linux 下，"
-"命令为： ::"
+"为了达到这个目的，你首先需要编译 Godot。方法请参阅 :doc:`/development/"
+"compiling/introduction_to_the_buildsystem` 页面。然后，在 Godot 根目录中使用 "
+"``--doctool`` 选项运行编译出的 Godot 二进制文件。例如，在 64 位 Linux 下，命"
+"令为： ::"
 
 #: contributing/updating_the_api_documentation.rst:60
 #, fuzzy
@@ -9038,7 +9054,7 @@ msgstr ""
 msgid ""
 "Technical details about the PR workflow are outlined in a specific "
 "section, :doc:`pr_workflow`."
-msgstr "有关PR工作流程的技术细节在特定章节 :ref:`doc_pr_workflow` 中概述."
+msgstr "有关PR工作流程的技术细节在特定章节 :doc:`pr_workflow` 中概述."
 
 #: contributing/ways_to_contribute.rst:87
 #, fuzzy
@@ -9047,7 +9063,7 @@ msgid ""
 "to enforce them are outlined in :doc:`code_style_guidelines`."
 msgstr ""
 "有关代码样式规范和用于实施它们的 ``clang-format`` 工具的详细信息，将"
-"在 :ref:`doc_code_style_guidelines` 概述。"
+"在 :doc:`code_style_guidelines` 概述。"
 
 #: contributing/ways_to_contribute.rst:91
 #, fuzzy
@@ -9246,8 +9262,8 @@ msgstr ""
 "**类参考。**\\ 这是 Godot API 的完整文档，会暴露给 GDScript 和其他脚本语言。"
 "可以在离线状态下，直接在 Godot 的代码编辑器中查阅，也可以在 :ref:`Godot API "
 "<toc-api>` 在线查阅。要对类参考做出贡献，你需要编辑与类对应的 XML 文件，并创"
-"建拉取请求详情请参阅 :ref:`doc_updating_the_class_reference` "
-"和 :ref:`doc_class_reference_writing_guidelines`\\ 。"
+"建拉取请求详情请参阅 :doc:`updating_the_api_documentation` "
+"和 :doc:`api_writing_guidelines`\\ 。"
 
 #: contributing/ways_to_contribute.rst:189
 #, fuzzy
@@ -9261,8 +9277,9 @@ msgid ""
 msgstr ""
 "**教程和引擎文档及其翻译。**\\ 这是您现在正在阅读的部分，它以 HTML 格式分发。"
 "它的内容是用 reStructured Text（rst）格式的纯文本文件生成的，您可以在 `godot-"
-"docs <https://github.com/godotengine/godot-docs>`_ GitHub 仓库上通过拉取请求"
-"来为其进行贡献。详情请参阅 :ref:`doc_documentation_guidelines`\\ 。"
+"docs <https://github.com/RebelToolbox/RebelDocumentation>`__ GitHub 仓库上通"
+"过拉取请求来为其进行贡献。详情请参"
+"阅 :doc:`contributing_to_the_documentation`\\ 。"
 
 #: development/compiling/build_for_android.rst:2
 #, fuzzy
@@ -9376,7 +9393,7 @@ msgid ""
 "see :doc:`introduction_to_the_buildsystem`."
 msgstr ""
 "有关 Godot 的 SCons 用法的一般概述，请参"
-"阅 :ref:`doc_introduction_to_the_buildsystem`。"
+"阅 :doc:`introduction_to_the_buildsystem`。"
 
 #: development/compiling/build_for_android.rst:47
 #, fuzzy
@@ -9644,7 +9661,7 @@ msgid ""
 "tutorials/export/exporting_for_ios`."
 msgstr ""
 "这个页面描述的是如何从源码编译 iOS 导出模板二进制。如果你想要找的是导出项目"
-"到 iOS，请阅读 :ref:`doc_exporting_for_ios`\\ 。"
+"到 iOS，请阅读 :doc:`/tutorials/export/exporting_for_ios`\\ 。"
 
 #: development/compiling/compiling_for_ios.rst:14
 #, fuzzy
@@ -9670,7 +9687,7 @@ msgstr "Xcode 10.0(或更高版本)以及iOS(10.0)SDK和命令行工具."
 #, fuzzy
 msgid ""
 "To get the Rebel Engine source code for compiling, see :doc:`getting_source`."
-msgstr "要获取编译所需的 Godot 源码，请参阅 :ref:`doc_getting_source`\\ 。"
+msgstr "要获取编译所需的 Godot 源码，请参阅 :doc:`getting_source`\\ 。"
 
 #: development/compiling/compiling_for_ios.rst:26
 #: development/compiling/compiling_for_osx.rst:43
@@ -9749,7 +9766,8 @@ msgid ""
 "To run on a device or simulator, follow these instructions: :doc:`/tutorials/"
 "export/exporting_for_ios`."
 msgstr ""
-"要在设备或模拟器上运行, 请按照以下说明操作: :ref:`doc_exporting_for_ios`."
+"要在设备或模拟器上运行, 请按照以下说明操作: :doc:`/tutorials/export/"
+"exporting_for_ios`."
 
 #: development/compiling/compiling_for_ios.rst:82
 msgid ""
@@ -9772,7 +9790,7 @@ msgid ""
 "read :doc:`/tutorials/export/exporting_for_macos`."
 msgstr ""
 "这个页面描述的是如何从源码编译 macOS 编辑器和导出模板二进制文件。如果你要找的"
-"是导出项目到 macOS，请阅读 :ref:`doc_exporting_for_macos`\\ 。"
+"是导出项目到 macOS，请阅读 :doc:`/tutorials/export/exporting_for_macos`\\ 。"
 
 #: development/compiling/compiling_for_osx.rst:14
 msgid "For compiling under macOS, the following is required:"
@@ -9871,7 +9889,7 @@ msgid ""
 msgstr ""
 "如果你想为自己的 Godot 构建和官方发布使用单独的编辑器设置，你可以通过在 "
 "``bin/`` 文件夹中创建一个名为 ``._sc_`` 或 ``_sc_`` 的文件来启"
-"用 :ref:`doc_data_paths_self_contained_mode`\\ 。"
+"用 :ref:`tutorials/io/data_paths:self-contained mode`\\ 。"
 
 #: development/compiling/compiling_for_osx.rst:69
 msgid ""
@@ -9902,8 +9920,8 @@ msgid ""
 "To compile a debug *server* build which can be used with :doc:`remote "
 "debugging tools </tutorials/editor/command_line_tutorial>`, use::"
 msgstr ""
-"如果要编译调试版本的\\ *服务器*\\ ，支持\\ :ref:`远程调试工具 "
-"<doc_command_line_tutorial>`\\ ，那么请使用： ::"
+"如果要编译调试版本的\\ *服务器*\\ ，支持\\ :doc:`远程调试工具 </tutorials/"
+"editor/command_line_tutorial>`\\ ，那么请使用： ::"
 
 #: development/compiling/compiling_for_osx.rst:91
 msgid ""
@@ -10052,12 +10070,12 @@ msgid ""
 "tutorials/export/exporting_for_uwp`."
 msgstr ""
 "这个页面描述的是如何从源码编译 UWP 导出模板二进制。如果你想要找的是导出项目"
-"到 UWP，请阅读 :ref:`doc_exporting_for_uwp`\\ 。"
+"到 UWP，请阅读 :doc:`/tutorials/export/exporting_for_uwp`\\ 。"
 
 #: development/compiling/compiling_for_uwp.rst:14
 #, fuzzy
 msgid "SCons 3.0+ (see :doc:`compiling_for_windows` for more details)."
-msgstr "SCons 3.0+ (详见 :ref:`doc_compiling_for_windows` )."
+msgstr "SCons 3.0+ (详见 :doc:`compiling_for_windows` )."
 
 #: development/compiling/compiling_for_uwp.rst:15
 #, fuzzy
@@ -10066,7 +10084,7 @@ msgid ""
 "caveats of installing it and the various prompts."
 msgstr ""
 "Visual Studio 2017或更高版本. 关于安装的注意事项和各种提示, 请参"
-"见 :ref:`doc_compiling_for_windows`."
+"见 :doc:`compiling_for_windows`."
 
 #: development/compiling/compiling_for_uwp.rst:17
 msgid "Windows 10 SDK (can be selected in Visual Studio installation)."
@@ -10110,7 +10128,7 @@ msgid ""
 "prompts work."
 msgstr ""
 "你需要为要构建的目标体系结构打开正确的Visual Studio提示符. 检"
-"查 :ref:`doc_compiling_for_windows` 以查看这些提示是如何工作的."
+"查 :doc:`compiling_for_windows` 以查看这些提示是如何工作的."
 
 #: development/compiling/compiling_for_uwp.rst:45
 msgid ""
@@ -10338,7 +10356,7 @@ msgid ""
 "read :doc:`/tutorials/export/exporting_for_web`."
 msgstr ""
 "这个页面描述的是如何从源码编译 HTML5 编辑器和导出模板二进制文件。如果你要找的"
-"是导出项目到 HTML5，请阅读 :ref:`doc_exporting_for_web`\\ 。"
+"是导出项目到 HTML5，请阅读 :doc:`/tutorials/export/exporting_for_web`\\ 。"
 
 #: development/compiling/compiling_for_web.rst:14
 msgid "To compile export templates for the Web, the following is required:"
@@ -10382,9 +10400,10 @@ msgid ""
 "enabled. Since ``eval()`` calls can be a security concern, the "
 "``javascript_eval`` option can be used to build without the singleton::"
 msgstr ""
-"默认情况下，\\ :ref:`JavaScript singleton <doc_javascript_eval>` 将被内置到引"
-"擎中，官方导出模板也启用了 JavaScript 单例。由于 ``eval()`` 调用可能是一个安"
-"全问题，\\ ``javascript_eval`` 选项可以用来构建，而无需单例： ::"
+"默认情况下，\\ :ref:`JavaScript singleton <tutorials/export/"
+"exporting_for_web:Calling JavaScript from script>` 将被内置到引擎中，官方导出"
+"模板也启用了 JavaScript 单例。由于 ``eval()`` 调用可能是一个安全问题，\\ "
+"``javascript_eval`` 选项可以用来构建，而无需单例： ::"
 
 #: development/compiling/compiling_for_web.rst:48
 #, fuzzy
@@ -10422,7 +10441,7 @@ msgid ""
 "export/exporting_for_web:Export options>` for more info."
 msgstr ""
 "由于性能和兼容性的原因，默认的导出模板不包括线程和 GDNative 支持。更多信息见"
-"\\ :ref:`导出页面 <doc_javascript_export_options>`。"
+"\\ :ref:`导出页面 <tutorials/export/exporting_for_web:Export options>`。"
 
 #: development/compiling/compiling_for_web.rst:69
 msgid ""
@@ -10489,8 +10508,8 @@ msgid ""
 "Refer to the :ref:`export page <tutorials/export/exporting_for_web:Export "
 "options>` for the web server requirements."
 msgstr ""
-"关于网络服务器的要求，请参考\\ :ref:`导出页面 "
-"<doc_javascript_export_options>`。"
+"关于网络服务器的要求，请参考\\ :ref:`导出页面 <tutorials/export/"
+"exporting_for_web:Export options>`。"
 
 #: development/compiling/compiling_for_windows.rst:2
 msgid "Compiling for Windows"
@@ -10504,7 +10523,8 @@ msgid ""
 "instead, read :doc:`/tutorials/export/exporting_for_windows`."
 msgstr ""
 "这个页面描述的是如何从源码编译 Windows 编辑器和导出模板二进制文件。如果你要找"
-"的是导出项目到 Windows，请阅读 :ref:`doc_exporting_for_windows`\\ 。"
+"的是导出项目到 Windows，请阅读 :doc:`/tutorials/export/"
+"exporting_for_windows`\\ 。"
 
 #: development/compiling/compiling_for_windows.rst:14
 msgid "For compiling under Windows, the following is required:"
@@ -10666,7 +10686,7 @@ msgstr "下载 Godot 的源代码"
 #: development/compiling/compiling_for_windows.rst:90
 #, fuzzy
 msgid "Refer to :doc:`getting_source` for detailed instructions."
-msgstr "详细步骤请参考 :ref:`doc_getting_source`\\ 。"
+msgstr "详细步骤请参考 :doc:`getting_source`\\ 。"
 
 #: development/compiling/compiling_for_windows.rst:92
 #, fuzzy
@@ -10983,7 +11003,7 @@ msgid ""
 "read :doc:`/tutorials/export/exporting_for_linux`."
 msgstr ""
 "这个页面描述的是如何从源码编译 Linux 编辑器和导出模板二进制文件。如果你要找的"
-"是导出项目到 Linux，请阅读 :ref:`doc_exporting_for_linux`\\ 。"
+"是导出项目到 Linux，请阅读 :doc:`/tutorials/export/exporting_for_linux`\\ 。"
 
 #: development/compiling/compiling_for_x11.rst:14
 msgid ""
@@ -11752,9 +11772,9 @@ msgid ""
 "[...] mono_prefix=\"$HOME/mono-installs/android-armeabi-v7a-release\"`` "
 "(This path may be different on your system)."
 msgstr ""
-"一旦你建立了Mono, 你就可以按照本页和 :ref:`Compiling for "
-"Android<doc_compiling_for_android>` 页面中描述的说明继续构建Godot. 请确保让"
-"SCons知道你刚刚构建的Mono运行时的位置, 例如. ``scons [...] "
+"一旦你建立了Mono, 你就可以按照本页和 :doc:`Compiling for Android</"
+"development/compiling/build_for_android>` 页面中描述的说明继续构建Godot. 请确"
+"保让SCons知道你刚刚构建的Mono运行时的位置, 例如. ``scons [...] "
 "mono_prefix=\"$HOME/mono-installs/android-armeabi-v7a-release\"`` (这个路径在"
 "你的系统上可能不同)."
 
@@ -11772,9 +11792,9 @@ msgid ""
 "[...] mono_prefix=\"$HOME/mono-installs/ios-arm64-release\"`` (This path may "
 "be different on your system)."
 msgstr ""
-"一旦你构建了Mono, 你就可以按照本页面和 :ref:`Compiling for "
-"iOS<doc_compiling_for_ios>` 页面中描述的说明来构建Godot. 请确保让SCons知道你"
-"刚刚构建的Mono运行时的位置, 例如. ``scons [...] mono_prefix=\"$HOME/mono-"
+"一旦你构建了Mono, 你就可以按照本页面和 :doc:`Compiling for iOS</development/"
+"compiling/compiling_for_ios>` 页面中描述的说明来构建Godot. 请确保让SCons知道"
+"你刚刚构建的Mono运行时的位置, 例如. ``scons [...] mono_prefix=\"$HOME/mono-"
 "installs/ios-arm64-release\"`` (这个路径在你的系统上可能不同)."
 
 #: development/compiling/compiling_with_mono.rst:260
@@ -11834,10 +11854,11 @@ msgid ""
 "[...] mono_prefix=\"$HOME/mono-installs/wasm-runtime-release\"`` (This path "
 "may be different on your system)."
 msgstr ""
-"一旦你建立了Mono, 你就可以按照本页和 :ref:`Compiling for the "
-"Web<doc_compiling_for_web>` 页面中描述的说明继续建立Godot. 请确保让SCons知道"
-"你刚刚构建的Mono运行时的位置, 例如. ``scons [...] mono_prefix=\"$HOME/mono-"
-"installs/wasm-runtime-release\"`` (这个路径在你的系统上可能不同)."
+"一旦你建立了Mono, 你就可以按照本页和 :doc:`Compiling for the Web</"
+"development/compiling/compiling_for_web>` 页面中描述的说明继续建立Godot. 请确"
+"保让SCons知道你刚刚构建的Mono运行时的位置, 例如. ``scons [...] "
+"mono_prefix=\"$HOME/mono-installs/wasm-runtime-release\"`` (这个路径在你的系"
+"统上可能不同)."
 
 #: development/compiling/compiling_with_mono.rst:310
 msgid "Base Class Library"
@@ -12302,8 +12323,9 @@ msgid ""
 "introduction_to_the_buildsystem>` and compiling Rebel Engine, you need to "
 "actually download the Rebel Engine source code."
 msgstr ""
-"在\\ :ref:`进入 SCons 构建系统 <doc_introduction_to_the_buildsystem>`\\ 并编"
-"译 Godot 之前，你需要将 Godot 的源代码下载到本地。"
+"在\\ :doc:`进入 SCons 构建系统 </development/compiling/"
+"introduction_to_the_buildsystem>`\\ 并编译 Godot 之前，你需要将 Godot 的源代"
+"码下载到本地。"
 
 #: development/compiling/getting_source.rst:12
 #, fuzzy
@@ -12322,8 +12344,8 @@ msgid ""
 "should follow the instructions from the :doc:`Pull Request workflow </"
 "contributing/pr_workflow>`."
 msgstr ""
-"如果你是为了做贡献或拉动请求而进行编译，你应该遵循\\ :ref:`拉取请求工作流 "
-"<doc_pr_workflow>`\\ 中的说明。"
+"如果你是为了做贡献或拉动请求而进行编译，你应该遵循\\ :doc:`拉取请求工作流 </"
+"contributing/pr_workflow>`\\ 中的说明。"
 
 #: development/compiling/getting_source.rst:19
 msgid ""
@@ -12382,8 +12404,8 @@ msgid ""
 "compiling Rebel Engine </development/compiling/"
 "introduction_to_the_buildsystem>`."
 msgstr ""
-"获取到 Godot 的源代码之后，你就可以继续\\ :ref:`编译 Godot "
-"<doc_introduction_to_the_buildsystem>` 了。"
+"获取到 Godot 的源代码之后，你就可以继续\\ :doc:`编译 Godot </development/"
+"compiling/introduction_to_the_buildsystem>` 了。"
 
 #: development/compiling/introduction_to_the_buildsystem.rst:2
 msgid "Introduction to the buildsystem"
@@ -12484,10 +12506,10 @@ msgid ""
 "for :doc:`build_for_android`, :doc:`compiling_for_ios`, :doc:`compiling_for_osx`, :doc:`compiling_for_uwp`, :doc:`compiling_for_web`, :doc:`compiling_for_windows` "
 "and :doc:`compiling_for_x11`."
 msgstr ""
-"你可以参照平台相关的构建文档 :ref:`doc_compiling_for_android`、"
-"\\ :ref:`doc_compiling_for_ios`、\\ :ref:`doc_compiling_for_osx`、"
-"\\ :ref:`doc_compiling_for_uwp`、\\ :ref:`doc_compiling_for_web`、"
-"\\ :ref:`doc_compiling_for_windows`、\\ :ref:`doc_compiling_for_x11`。"
+"你可以参照平台相关的构建文档 :doc:`build_for_android`、"
+"\\ :doc:`compiling_for_ios`、\\ :doc:`compiling_for_osx`、"
+"\\ :doc:`compiling_for_uwp`、\\ :doc:`compiling_for_web`、"
+"\\ :doc:`compiling_for_windows`、\\ :doc:`compiling_for_x11`。"
 
 #: development/compiling/introduction_to_the_buildsystem.rst:45
 msgid ""
@@ -12727,7 +12749,7 @@ msgstr ""
 #: development/compiling/introduction_to_the_buildsystem.rst:205
 #, fuzzy
 msgid ":doc:`/development/engine/custom_modules_in_cpp`"
-msgstr ":ref:`doc_custom_modules_in_c++`"
+msgstr ":doc:`/development/engine/custom_modules_in_cpp`"
 
 #: development/compiling/introduction_to_the_buildsystem.rst:208
 msgid "Cleaning generated files"
@@ -12801,8 +12823,8 @@ msgid ""
 "some time it takes to build the engine. See :doc:`/development/compiling/"
 "optimizing_for_size` page for more details."
 msgstr ""
-"你也可以在编译前禁用一些内置模块，节省一些构建引擎的时间。详情请参"
-"阅 :ref:`doc_optimizing_for_size` 页面。"
+"你也可以在编译前禁用一些内置模块，节省一些构建引擎的时间。详情请参阅 :doc:`/"
+"development/compiling/optimizing_for_size` 页面。"
 
 #: development/compiling/introduction_to_the_buildsystem.rst:250
 msgid ""
@@ -12962,9 +12984,9 @@ msgid ""
 "built-in GDScript profiler)."
 msgstr ""
 "这样可以将编译后二进制文件减少到原先五分之一到十分之一的大小。缺点是崩溃追踪"
-"中就无法再提供准确的信息了（可用于查找崩溃原因）。\\ :ref:`C++ 性能分析器 "
-"<doc_using_cpp_profilers>`\\ 也将无法显示函数名称（不影响内置的 GDScript 性能"
-"分析器）。"
+"中就无法再提供准确的信息了（可用于查找崩溃原因）。\\ :doc:`C++ 性能分析器 </"
+"development/engine/using_cpp_profilers>`\\ 也将无法显示函数名称（不影响内置"
+"的 GDScript 性能分析器）。"
 
 #: development/compiling/optimizing_for_size.rst:46
 msgid ""
@@ -13228,7 +13250,9 @@ msgstr ""
 msgid ""
 ":ref:`development/compiling/introduction_to_the_buildsystem:overriding the "
 "build options`."
-msgstr "参见 :ref:`doc_introduction_to_the_buildsystem`, 获取完整的参数列表."
+msgstr ""
+"参见 :ref:`development/compiling/introduction_to_the_buildsystem:overriding "
+"the build options`, 获取完整的参数列表."
 
 #: development/configuring_an_ide/android_studio.rst:2
 msgid "Android Studio"
@@ -13920,9 +13944,9 @@ msgid ""
 msgstr ""
 "选择 **\"Make \"命令** 选项卡, 删除所有构建目标的所有现有命令. 对于每个构建目"
 "标, 在 **Build project/target** 字段中输入用于创建所需构建的 **SCons** 命令. "
-"最小值为 ``scons`` . 关于 **SCons** 构建选项的详细信息, 请参"
-"见 :ref:`doc_introduction_to_the_buildsystem` . 将 **Clean project/target** "
-"字段中的 ``scons --clean`` 命令添加到项目的默认命令中也很有用."
+"最小值为 ``scons`` . 关于 **SCons** 构建选项的详细信息, 请参见 :doc:`/"
+"development/compiling/introduction_to_the_buildsystem` . 将 **Clean project/"
+"target** 字段中的 ``scons --clean`` 命令添加到项目的默认命令中也很有用."
 
 #: development/configuring_an_ide/code_blocks.rst:160
 msgid "\"Make\" commands: Build: \"scons\", Clean: \"scons --clean\""
@@ -14199,8 +14223,8 @@ msgid ""
 "<https://scons.org/>`__. For details on compiling Rebel Engine using SCons, "
 "see :doc:`/development/compiling/introduction_to_the_buildsystem`."
 msgstr ""
-"获取到 Godot 的源代码之后，你就可以继续\\ :ref:`编译 Godot "
-"<doc_introduction_to_the_buildsystem>` 了。"
+"获取到 Godot 的源代码之后，你就可以继续\\ :doc:`编译 Godot </development/"
+"compiling/introduction_to_the_buildsystem>` 了。"
 
 #: development/configuring_an_ide/kdevelop.rst:67
 #, fuzzy
@@ -14496,8 +14520,8 @@ msgid ""
 "<https://scons.org/>`__. For details on compiling Rebel Engine using SCons, "
 "see :doc:`/development/compiling/introduction_to_the_buildsystem`."
 msgstr ""
-"获取到 Godot 的源代码之后，你就可以继续\\ :ref:`编译 Godot "
-"<doc_introduction_to_the_buildsystem>` 了。"
+"获取到 Godot 的源代码之后，你就可以继续\\ :doc:`编译 Godot </development/"
+"compiling/introduction_to_the_buildsystem>` 了。"
 
 #: development/configuring_an_ide/qt_creator.rst:128
 msgid "Under Build Steps, remove the default **Make** build step."
@@ -15129,8 +15153,8 @@ msgid ""
 "options used to compile Rebel Engine, see :doc:`/development/compiling/"
 "introduction_to_the_buildsystem`."
 msgstr ""
-"获取到 Godot 的源代码之后，你就可以继续\\ :ref:`编译 Godot "
-"<doc_introduction_to_the_buildsystem>` 了。"
+"获取到 Godot 的源代码之后，你就可以继续\\ :doc:`编译 Godot </development/"
+"compiling/introduction_to_the_buildsystem>` 了。"
 
 #: development/configuring_an_ide/visual_studio_code.rst:80
 msgid ""
@@ -15281,7 +15305,9 @@ msgstr "参数"
 msgid ""
 "See :doc:`/development/compiling/introduction_to_the_buildsystem` for a full "
 "list of arguments."
-msgstr "参见 :ref:`doc_introduction_to_the_buildsystem`, 获取完整的参数列表."
+msgstr ""
+"参见 :doc:`/development/compiling/introduction_to_the_buildsystem`, 获取完整"
+"的参数列表."
 
 #: development/configuring_an_ide/xcode.rst:24
 msgid "Directory"
@@ -15593,8 +15619,8 @@ msgid ""
 "to :ref:`Creating custom module icons<development/engine/"
 "custom_modules_in_cpp:adding custom editor icons>`."
 msgstr ""
-"有关如何创建模块图标的特定说明, 请参考 :ref:`创建自定义模块图标 "
-"<doc_custom_module_icons>`."
+"有关如何创建模块图标的特定说明, 请参考 :ref:`创建自定义模块图标 <development/"
+"engine/custom_modules_in_cpp:adding custom editor icons>`."
 
 #: development/editor/creating_icons.rst:91
 msgid "If icons don't appear in the editor, make sure that:"
@@ -15683,7 +15709,8 @@ msgstr ""
 msgid ""
 "Try to follow the :doc:`/contributing/docs_writing_guidelines` in addition "
 "to the guidelines outlined above."
-msgstr "除了上述规范外，尽量遵循 :ref:`doc_docs_writing_guidelines`。"
+msgstr ""
+"除了上述规范外，尽量遵循 :doc:`/contributing/docs_writing_guidelines`。"
 
 #: development/editor/editor_style_guide.rst:33
 msgid "Button and menu texts"
@@ -15862,7 +15889,7 @@ msgid ""
 "making_plugins` instead."
 msgstr ""
 "本指南针对的是目前或未来的引擎贡献者。要在GDScript中创建编辑器插件，请参"
-"见 :ref:`doc_making_plugins` 。"
+"见 :doc:`/tutorials/plugins/editor/making_plugins` 。"
 
 #: development/editor/introduction_to_editor_development.rst:14
 #, fuzzy
@@ -15872,9 +15899,9 @@ msgid ""
 "a Rebel project written in C++, much of the engine's philosophy applies to "
 "the editor."
 msgstr ""
-"如果你是 Godot 的新手，建议你在继续之前先阅"
-"读 :ref:`doc_godot_design_philosophy` 。由于 Godot 编辑器是用 C++ 编写的 "
-"Godot 项目，引擎的许多理念同样适用于编辑器。"
+"如果你是 Godot 的新手，建议你在继续之前先阅读 :doc:`/getting_started/"
+"introduction/design_philosophy` 。由于 Godot 编辑器是用 C++ 编写的 Godot 项"
+"目，引擎的许多理念同样适用于编辑器。"
 
 #: development/editor/introduction_to_editor_development.rst:20
 msgid "Technical choices"
@@ -15922,10 +15949,10 @@ msgid ""
 "`modules/ <https://github.com/RebelToolbox/RebelEngine/tree/main/modules>`__ "
 "folder in the Rebel Engine source repository."
 msgstr ""
-"一些编辑器的功能也是通过 :ref:`modules <doc_custom_modules_in_c++>` 实现的。"
-"其中一些只在编辑器构建中启用，以减少导出模板的二进制文件大小。参见Godot源码库"
-"中的 `modules/ <https://github.com/godotengine/godot/tree/master/modules>`__ "
-"文件夹。"
+"一些编辑器的功能也是通过 :doc:`modules </development/engine/"
+"custom_modules_in_cpp>` 实现的。其中一些只在编辑器构建中启用，以减少导出模板"
+"的二进制文件大小。参见Godot源码库中的 `modules/ <https://github.com/"
+"godotengine/godot/tree/master/modules>`__ 文件夹。"
 
 #: development/editor/introduction_to_editor_development.rst:43
 msgid "Some important files in the editor are:"
@@ -16053,9 +16080,10 @@ msgid ""
 "command_line_tutorial>` after compiling the editor. This way, you don't have "
 "to go through the project manager every time you start Rebel Editor."
 msgstr ""
-"为了快速迭代编辑器，我们建议建立一个测试项目，并在编译编辑器后\\ :ref:`从命令"
-"行打开 <doc_command_line_tutorial>`。这样，你就不必在每次启动 Godot 时都要经"
-"过项目管理器了。"
+"为了快速迭代编辑器，我们建议建立一个测试项目，并在编译编辑器后\\ :doc:`从命令"
+"行打开 </tutorials/editor/command_line_tutorial>` after compiling the "
+"editor. This way, you don't have to go through the pro>`。这样，你就不必在每"
+"次启动 Godot 时都要经过项目管理器了。"
 
 #: development/engine/binding_to_external_libraries.rst:2
 msgid "Binding to external libraries"
@@ -16074,8 +16102,8 @@ msgid ""
 "Let's look at an example using `Festival <https://www.cstr.ed.ac.uk/projects/"
 "festival/>`__, a speech synthesis (text-to-speech) library written in C++."
 msgstr ""
-":ref:`doc_custom_modules_in_c++` 中的Summator例子对于小型自定义的模块来说是非"
-"常好, 但是如果想使用一个更大的外部库呢？来看一个使用 `Festival <http://"
+":doc:`custom_modules_in_cpp` 中的Summator例子对于小型自定义的模块来说是非常"
+"好, 但是如果想使用一个更大的外部库呢？来看一个使用 `Festival <http://"
 "www.cstr.ed.ac.uk/projects/festival/>`_ 的例子, 这是一个用C++编写的语音合成库"
 "(文本到语音)."
 
@@ -16907,7 +16935,7 @@ msgid ""
 "to this guide :doc:`custom_modules_in_cpp`."
 msgstr ""
 "本指南假设读者知道如何创建C++模块. 如果没有, 请参考该指"
-"南 :ref:`doc_custom_modules_in_c++`."
+"南 :doc:`custom_modules_in_cpp`."
 
 #: development/engine/custom_audiostreams.rst:22
 #: development/engine/custom_audiostreams.rst:115
@@ -17210,8 +17238,8 @@ msgid ""
 "external libraries."
 msgstr ""
 "前面的Summator例子对于小型的自定义模块来说是很好的, 但是如果你想使用一个更大"
-"的外部库呢？请参考 :ref:`doc_binding_to_external_libraries`, 了解有关绑定外部"
-"库的细节."
+"的外部库呢？请参考 :doc:`binding_to_external_libraries`, 了解有关绑定外部库的"
+"细节."
 
 #: development/engine/custom_modules_in_cpp.rst:248
 msgid ""
@@ -17310,7 +17338,8 @@ msgid ""
 ":ref:`Introduction to the buildsystem - Custom modules build option "
 "<development/compiling/introduction_to_the_buildsystem:custom modules>`."
 msgstr ""
-":ref:`构建系统介绍 - 自定义模块构建选项 <doc_buildsystem_custom_modules>`."
+":ref:`构建系统介绍 - 自定义模块构建选项 <development/compiling/"
+"introduction_to_the_buildsystem:custom modules>`."
 
 #: development/engine/custom_modules_in_cpp.rst:308
 msgid "Improving the build system for development"
@@ -17324,8 +17353,8 @@ msgid ""
 "use :doc:`GDNative </tutorials/scripting/gdnative/what_is_gdnative>` instead."
 msgstr ""
 "如果想要在不对引擎进行重新编译的情况下，将模块分发给其他用户，请使"
-"用 :ref:`GDNative <doc_what_is_gdnative>`\\ 。此处的共享库支持并不是为此设计"
-"的。"
+"用 :doc:`GDNative </tutorials/scripting/gdnative/what_is_gdnativ>`\\ 。此处的"
+"共享库支持并不是为此设计的。"
 
 #: development/engine/custom_modules_in_cpp.rst:316
 #, fuzzy
@@ -17445,8 +17474,8 @@ msgid ""
 "classes here. The classes that you don't list will end up in the main "
 "``docs`` directory."
 msgstr ""
-"``get_doc_classes()`` 方法对于构建系统知道哪些注册的类属于该模块是必要的. 你"
-"需要在这里列出你所有的类. 你没有列出的类最终将出现主 ``doc/classes`` 目录中."
+"``get_classes()`` 方法对于构建系统知道哪些注册的类属于该模块是必要的. 你需要"
+"在这里列出你所有的类. 你没有列出的类最终将出现主 ``doc/classes`` 目录中."
 
 #: development/engine/custom_modules_in_cpp.rst:451
 msgid ""
@@ -17484,15 +17513,17 @@ msgid ""
 "see that it contains a ``Summator.xml`` file, or any other classes that you "
 "referenced in your ``get_classes`` function."
 msgstr ""
-"现在, 如果进入 ``godot/modules/summator/doc_classes`` 文件夹, 会看到它包含一"
-"个在 ``get_doc_classes`` 函数中引用的 ``Summator.xml`` 文件, 或者其他类."
+"现在, 如果进入 ``RebelEngine/modules/summator/docs`` 文件夹, 会看到它包含一个"
+"在 ``get_classes`` 函数中引用的 ``Summator.xml`` 文件, 或者其他类."
 
 #: development/engine/custom_modules_in_cpp.rst:483
 #, fuzzy
 msgid ""
 "Edit the file(s) following :doc:`/contributing/"
 "updating_the_api_documentation` and recompile the engine."
-msgstr "编译以下文件 :ref:`doc_updating_the_class_reference` 并重新编译引擎."
+msgstr ""
+"编译以下文件 :doc:`/contributing/updating_the_api_documentation` 并重新编译引"
+"擎."
 
 #: development/engine/custom_modules_in_cpp.rst:485
 msgid ""
@@ -17539,8 +17570,8 @@ msgid ""
 "For the actual process of creating editor icons to be integrated within the "
 "engine, please refer to :doc:`/development/editor/creating_icons` first."
 msgstr ""
-"有关创建要集成到引擎中的编辑器图标的实际过程, 首先请参"
-"考 :ref:`doc_editor_icons`."
+"有关创建要集成到引擎中的编辑器图标的实际过程, 首先请参考 :doc:`/development/"
+"editor/creating_icons`."
 
 #: development/engine/custom_modules_in_cpp.rst:505
 msgid "Once you've created your icon(s), proceed with the following steps:"
@@ -17632,7 +17663,7 @@ msgid ""
 "Engine data types. If not, refer to this guide :doc:`custom_modules_in_cpp`."
 msgstr ""
 "本指南假定读者知道如何创建C++模块和Godot数据类型. 如果不知道, 请参考本指"
-"南 :ref:`doc_custom_modules_in_c++` ."
+"南 :doc:`custom_modules_in_cpp` ."
 
 #: development/engine/custom_resource_format_loaders.rst:17
 msgid ":ref:`ResourceLoader<class_resourceloader>`"
@@ -17735,8 +17766,8 @@ msgid ""
 "or managed resources. Rebel Engine needs a new registered data type to "
 "understand additional binary formats such as machine learning models."
 msgstr ""
-"Godot在其 :ref:`doc_core_types` 或托管的资源中可能没有适当的替代品. 这时Godot"
-"需要新的注册数据类型来理解其他二进制格式, 例如机器学习模型."
+"Godot在其 :doc:`core_types` 或托管的资源中可能没有适当的替代品. 这时Godot需要"
+"新的注册数据类型来理解其他二进制格式, 例如机器学习模型."
 
 #: development/engine/custom_resource_format_loaders.rst:160
 msgid "Here is an example of creating a custom datatype:"
@@ -17834,7 +17865,7 @@ msgid ""
 "Engine data types. If not, refer to :doc:`custom_modules_in_cpp`."
 msgstr ""
 "本指南假设读者知道如何创建C++模块和Godot数据类型. 如果没有, 请参"
-"考 :ref:`doc_custom_modules_in_c++`."
+"考 :doc:`custom_modules_in_cpp`."
 
 #: development/engine/custom_servers.rst:18
 msgid "`Singleton pattern <https://en.wikipedia.org/wiki/Singleton_pattern>`__"
@@ -18492,7 +18523,8 @@ msgid ""
 msgstr ""
 "Godot 中的每个对象都实现了 :ref:`_notification "
 "<class_Object_method__notification>` 方法。其目的是允许对象响应可能与之相关的"
-"各种引擎级回调。更多信息可以在 :ref:`doc_godot_notifications` 页面查看。"
+"各种引擎级回调。更多信息可以在 :doc:`/tutorials/best_practices/"
+"notifications` 页面查看。"
 
 #: development/engine/object_class.rst:242
 msgid "References"
@@ -18731,7 +18763,9 @@ msgstr ""
 msgid ""
 "See :doc:`/tutorials/editor/command_line_tutorial` for more command line "
 "arguments supported by Rebel Engine."
-msgstr "更多 Godot 支持的命令行参数见 :ref:`doc_command_line_tutorial`\\ 。"
+msgstr ""
+"更多 Godot 支持的命令行参数见 :doc:`/tutorials/editor/"
+"command_line_tutorial`\\ 。"
 
 #: development/engine/using_cpp_profilers.rst:62
 msgid "Profiler-specific instructions"
@@ -19836,7 +19870,8 @@ msgid ""
 "engine`."
 msgstr ""
 "确保你拥有在Godot中使用C#所需的依赖性。你需要 .NET Core 3.1 SDK 和一个编辑"
-"器，如VS Code。参见 :ref:`doc_c_sharp_setup` 。"
+"器，如VS Code。参见 :doc:`tutorials/scripting/c_sharp/c_sharp_basics:setting "
+"up c# for rebel engine` 。"
 
 #: getting_started/first_2d_game/01.project_setup.rst:29
 #: getting_started/first_2d_game/index.rst:51
@@ -20016,8 +20051,8 @@ msgid ""
 "gdscript/gdscript_styleguide`)."
 msgstr ""
 "**GDScript**\\ ：类（节点）使用 PascalCase（大驼峰命名法），变量和函数使用 "
-"snake_case（蛇形命名法），常量使用 ALL_CAPS（全大写）（请参"
-"阅 :ref:`doc_gdscript_styleguide`\\ ）。"
+"snake_case（蛇形命名法），常量使用 ALL_CAPS（全大写）（请参阅 :doc:`/"
+"tutorials/scripting/gdscript/gdscript_styleguide`\\ ）。"
 
 #: getting_started/first_2d_game/02.player_scene.rst:45
 #, fuzzy
@@ -20029,8 +20064,8 @@ msgid ""
 msgstr ""
 "**C#**\\ ：类、导出变量和方法使用 PascalCase（大驼峰命名法），私有字段使用 "
 "_camelCase（前缀下划线的小驼峰命名法），局部变量和参数使用 camelCase（小驼峰"
-"命名法）（请参阅 :ref:`doc_c_sharp_styleguide`\\ ）。连接信号时，请务必准确键"
-"入方法名称。"
+"命名法）（请参阅 :doc:`/tutorials/scripting/c_sharp/"
+"c_sharp_style_guide`\\ ）。连接信号时，请务必准确键入方法名称。"
 
 #: getting_started/first_2d_game/02.player_scene.rst:52
 msgid "Sprite animation"
@@ -20152,7 +20187,8 @@ msgid ""
 "If this is your first time encountering GDScript, please read :doc:`/"
 "getting_started/step_by_step/scripting_languages` before continuing."
 msgstr ""
-"如果这是你第一次接触 GDScript，请在继续之前阅读 :ref:`doc_scripting`\\ 。"
+"如果这是你第一次接触 GDScript，请在继续之前阅读 :doc:`/getting_started/"
+"step_by_step/scripting_languages`\\ 。"
 
 #: getting_started/first_2d_game/03.coding_the_player.rst:24
 msgid "Start by declaring the member variables this object will need:"
@@ -20320,9 +20356,9 @@ msgid ""
 "vector_math`. It's good to know but won't be necessary for the rest of this "
 "tutorial."
 msgstr ""
-"如果您以前从未使用过向量数学，或者需要复习，可以在 Godot 中"
-"的 :ref:`doc_vector_math` 上查看向量用法的解释。最好了解一下，但对于本教程的"
-"其余部分而言，这不是必需的。"
+"如果您以前从未使用过向量数学，或者需要复习，可以在 Godot 中的 :doc:`/"
+"tutorials/math/vector_math` 上查看向量用法的解释。最好了解一下，但对于本教程"
+"的其余部分而言，这不是必需的。"
 
 #: getting_started/first_2d_game/03.coding_the_player.rst:265
 msgid ""
@@ -21542,8 +21578,8 @@ msgid ""
 "first_3d_game/index` to learn to create a complete 3D game from scratch, in "
 "Rebel Editor."
 msgstr ""
-"当你准备好了，你可以继续学习 :ref:`doc_your_first_3d_game`\\ ，学习在 Godot "
-"中从头开始创建一个完整的 3D 游戏。"
+"当你准备好了，你可以继续学习 :doc:`/getting_started/first_3d_game/index`\\ ，"
+"学习在 Godot 中从头开始创建一个完整的 3D 游戏。"
 
 #: getting_started/first_2d_game/index.rst:2
 msgid "Your first 2D game"
@@ -21603,7 +21639,8 @@ msgid ""
 "scripting_languages`."
 msgstr ""
 "这个项目是对 Godot 引擎的介绍，假定你已经有一些编程经验。如果你对编程完全陌"
-"生，应该从这里开始：\\ :ref:`doc_scripting`\\ 。"
+"生，应该从这里开始：\\ :doc:`/getting_started/step_by_step/"
+"scripting_languages`\\ 。"
 
 #: getting_started/first_2d_game/index.rst:17
 msgid ""
@@ -22368,8 +22405,8 @@ msgid ""
 "To learn more about the different physics node types, see the :doc:`/"
 "tutorials/physics/physics_introduction`."
 msgstr ""
-"要学习更多关于不同物理节点类型的内容，请参"
-"阅 :ref:`doc_physics_introduction`\\ 。"
+"要学习更多关于不同物理节点类型的内容，请参阅 :doc:`/tutorials/physics/"
+"physics_introduction`\\ 。"
 
 #: getting_started/first_3d_game/02.player_input.rst:27
 msgid ""
@@ -22682,7 +22719,7 @@ msgid ""
 "idle_and_physics_processing`."
 msgstr ""
 "要了解更多关于 ``_process()`` 和 ``_physics_process()`` 之间的区别，"
-"见 :ref:`doc_idle_and_physics_processing`\\ 。"
+"见 :doc:`/tutorials/scripting/idle_and_physics_processing`\\ 。"
 
 #: getting_started/first_3d_game/03.player_movement_code.rst:116
 msgid ""
@@ -23089,8 +23126,8 @@ msgid ""
 msgstr ""
 "使用 GDScript 时，你不必担心这个问题。用对象池的主要目的是避免 C# 或 Lua 等带"
 "垃圾回收的语言带来的停滞。GDScript 管理内存的技术和它们是不同的，用的是引用计"
-"数，不会产生那种问题。你可以在这里了解更多相关内容："
-"\\ :ref:`doc_gdscript_basics_memory_management`\\ 。"
+"数，不会产生那种问题。你可以在这里了解更多相关内容：\\ :doc:`/tutorials/"
+"scripting/gdscript/gdscript_basics`\\ 。"
 
 #: getting_started/first_3d_game/04.mob_scene.rst:72
 msgid ""
@@ -23158,7 +23195,7 @@ msgstr ""
 "值。这是正常现象。你可以直接忽略这个警告，或者如果你想完全将其隐藏的话，就在 "
 "``move_and_slide(velocity)`` 这一行的上一行加上 ``# warning-"
 "ignore:return_value_discarded`` 的注释。更多关于 GDScript 警告系统的内容请参"
-"阅 :ref:`doc_gdscript_warning_system`\\ 。"
+"阅 :doc:`/tutorials/scripting/gdscript/warning_system`\\ 。"
 
 #: getting_started/first_3d_game/04.mob_scene.rst:147
 msgid ""
@@ -23730,8 +23767,8 @@ msgid ""
 "Enter the world of :ref:`physics layers <tutorials/physics/"
 "physics_introduction:collision layers and masks>`."
 msgstr ""
-"首先我们要修改一些物理交互相关的设置。请进入\\ :ref:`物理层 "
-"<doc_physics_introduction_collision_layers_and_masks>`\\ 的世界。"
+"首先我们要修改一些物理交互相关的设置。请进入\\ :doc:`物理层 <tutorials/"
+"physics/physics_introduction:collision layers and masks>`\\ 的世界。"
 
 #: getting_started/first_3d_game/06.jump_and_squash.rst:12
 msgid "Controlling physics interactions"
@@ -23973,7 +24010,7 @@ msgid ""
 "tutorials/scripting/groups>` tagging feature."
 msgstr ""
 "我们需要检测与怪物的碰撞，并和与地板的碰撞相区分。要这么做，我们可以使用 "
-"Godot 的\\ :ref:`分组 <doc_groups>`\\ 标签功能。"
+"Godot 的\\ :doc:`分组 </tutorials/scripting/groups>`\\ 标签功能。"
 
 #: getting_started/first_3d_game/06.jump_and_squash.rst:181
 msgid ""
@@ -24436,7 +24473,7 @@ msgid ""
 "creating and editing themes, see :doc:`/tutorials/ui/gui_skinning`."
 msgstr ""
 "你可以为主题资源添加更多属性，从而设计更复杂的用户界面，不过这就超出本系列的"
-"范畴了。要学习主题的创建和编辑，请参阅 :ref:`doc_gui_skinning`\\ 。"
+"范畴了。要学习主题的创建和编辑，请参阅 :doc:`/tutorials/ui/gui_skinning`\\ 。"
 
 #: getting_started/first_3d_game/08.score_and_replay.rst:64
 msgid "Click the *Default Font* property and create a new *DynamicFont*."
@@ -24561,8 +24598,8 @@ msgid ""
 "You can learn more about string formatting here: :doc:`/tutorials/scripting/"
 "gdscript/gdscript_format_string`."
 msgstr ""
-"你可以在这里了解更多关于字符串格式化的内容："
-"\\ :ref:`doc_gdscript_printf`\\ 。"
+"你可以在这里了解更多关于字符串格式化的内容：\\ :doc:`/tutorials/scripting/"
+"gdscript/gdscript_format_string`\\ 。"
 
 #: getting_started/first_3d_game/08.score_and_replay.rst:172
 msgid ""
@@ -24724,8 +24761,8 @@ msgid ""
 "another feature in Rebel Engine: :doc:`autoloads </tutorials/scripting/"
 "singletons_autoload>`."
 msgstr ""
-"要添加音乐，让音乐在后台连续播放，我们就要用到 Godot 的另一项特性：\\ :ref:`"
-"自动加载 <doc_singletons_autoload>`\\ 。"
+"要添加音乐，让音乐在后台连续播放，我们就要用到 Godot 的另一项特性：\\ :doc:`"
+"自动加载 </tutorials/scripting/singletons_autoload>`\\ 。"
 
 #: getting_started/first_3d_game/08.score_and_replay.rst:311
 msgid ""
@@ -25339,9 +25376,9 @@ msgid ""
 "creeps. This way, you will both **recognize patterns** you learned in the "
 "previous tutorial and **build upon them** with new code and features."
 msgstr ""
-"我们要编写的游戏和 :ref:`doc_your_first_2d_game` 差不多，但是：你可以跳起来"
-"了，并且目标是把敌人踩扁。这样，你既可以\\ **复习**\\ 之前教程中学到的内容，"
-"也可以\\ **以此为基础**\\ 编写新的代码和特性。"
+"我们要编写的游戏和 :doc:`/getting_started/first_2d_game/index` 差不多，但是："
+"你可以跳起来了，并且目标是把敌人踩扁。这样，你既可以\\ **复习**\\ 之前教程中"
+"学到的内容，也可以\\ **以此为基础**\\ 编写新的代码和特性。"
 
 #: getting_started/first_3d_game/index.rst:17
 msgid "Work with 3D coordinates with a jumping mechanic."
@@ -25919,7 +25956,8 @@ msgid ""
 "Read :doc:`/tutorials/3d/introduction_to_3d` for more detail about the **3D "
 "main screen**."
 msgstr ""
-"更多关于\\ **3D 主屏幕**\\ 的细节请查看 :ref:`doc_introduction_to_3d`\\ 。"
+"更多关于\\ **3D 主屏幕**\\ 的细节请查看 :doc:`/tutorials/3d/"
+"introduction_to_3d`\\ 。"
 
 #: getting_started/introduction/first_look_at_the_editor.rst:113
 msgid ""
@@ -26055,7 +26093,7 @@ msgid ""
 msgstr ""
 "由于游戏主机制造商施加的许可条款，Godot 团队无法提供开源的主机导出项。但是，"
 "无论您使用哪种引擎，在主机上发布游戏始终是一项繁重的工作。你可以在这里阅读更"
-"多：\\ :ref:`doc_consoles`\\ 。"
+"多：\\ :doc:`/tutorials/platforms/consoles`\\ 。"
 
 #: getting_started/introduction/introduction_to_rebel.rst:28
 msgid "How does it work and look?"
@@ -26147,7 +26185,8 @@ msgid ""
 "compatibility>`."
 msgstr ""
 "这些是官方支持的五种编程语言。社区保持对更多语言的支持。更多信息，请参"
-"阅 :ref:`GDNative 第三方绑定<doc_what_is_gdnative_third_party_bindings>`。"
+"阅 :ref:`GDNative 第三方绑定<tutorials/scripting/gdnative/"
+"what_is_gdnative:version compatibility>`。"
 
 #: getting_started/introduction/introduction_to_rebel.rst:73
 #, fuzzy
@@ -26652,9 +26691,9 @@ msgid ""
 "explore more features in other sections. We also included links to pages "
 "that cover a given topic in-depth where appropriate."
 msgstr ""
-"以下课程旨在为您准备 :ref:`doc_your_first_2d_game` ，这是一个分步教程，您将从"
-"头开始编写游戏代码。到最后，您将拥有必要的基础来探索其他部分中的更多功能。我"
-"们还在适当的地方包含了深入涵盖给定主题的页面链接。"
+"以下课程旨在为您准备 :doc:`/getting_started/first_2d_game/index` ，这是一个分"
+"步教程，您将从头开始编写游戏代码。到最后，您将拥有必要的基础来探索其他部分中"
+"的更多功能。我们还在适当的地方包含了深入涵盖给定主题的页面链接。"
 
 #: getting_started/step_by_step/instancing.rst:2
 msgid "Creating instances"
@@ -27064,9 +27103,9 @@ msgid ""
 "this lesson, we explain a bit more about them. You will also create your "
 "first scene."
 msgstr ""
-"在 :ref:`doc_key_concepts_overview` 中，我们看到 Godot 游戏就是由场景构成的树"
-"状结构，而每一个场景又是一个由节点构成的树状结构。在这一节中，我们将更详细地"
-"解释这些概念，你还将创建你的第一个场景。"
+"在 :doc:`/getting_started/introduction/key_concepts_overview` 中，我们看到 "
+"Godot 游戏就是由场景构成的树状结构，而每一个场景又是一个由节点构成的树状结"
+"构。在这一节中，我们将更详细地解释这些概念，你还将创建你的第一个场景。"
 
 #: getting_started/step_by_step/nodes_and_scenes.rst:13
 msgid ""
@@ -27305,7 +27344,8 @@ msgid ""
 msgstr ""
 "“场景另存为”对话框，和编辑器中的其他文件对话框一样，只允许你将文件保存在项目"
 "之中。窗口顶部的 ``res://`` 路径表示项目的根目录，表示“resource path”（资源路"
-"径）。Godot 中文件路径的更多信息请参阅 :ref:`doc_filesystem`\\ 。"
+"径）。Godot 中文件路径的更多信息请参阅 :doc:`/tutorials/scripting/"
+"filesystem`\\ 。"
 
 #: getting_started/step_by_step/nodes_and_scenes.rst:150
 msgid ""
@@ -27400,15 +27440,17 @@ msgid ""
 "To learn more about GDScript, its keywords, and its syntax, head to "
 "the :doc:`GDScript reference</tutorials/scripting/gdscript/gdscript_basics>`."
 msgstr ""
-"要了解更多关于GDScript、其关键字和语法的信息，请前往 :ref:`GDScript 参考"
-"<doc_gdscript>`\\ 。"
+"要了解更多关于GDScript、其关键字和语法的信息，请前往 :doc:`GDScript 参考</"
+"tutorials/scripting/gdscript/gdscript_basics>`\\ 。"
 
 #: getting_started/step_by_step/scripting_first_script.rst:29
 #, fuzzy
 msgid ""
 "To learn more about C#, head to the :doc:`C# basics </tutorials/scripting/"
 "c_sharp/c_sharp_basics>` page."
-msgstr "要了解更多关于 C# 的信息，请前往 :ref:`C# 基础 <doc_c_sharp>`\\ 页面。"
+msgstr ""
+"要了解更多关于 C# 的信息，请前往 :doc:`C# 基础 </tutorials/scripting/c_sharp/"
+"c_sharp_basics>`\\ 页面。"
 
 #: getting_started/step_by_step/scripting_first_script.rst:32
 #: tutorials/2d/using_tilemaps.rst:19
@@ -27784,8 +27826,8 @@ msgid ""
 "the floor. In :doc:`/getting_started/first_2d_game/index`, you will learn "
 "another approach to moving objects while detecting collisions."
 msgstr ""
-"使用这样的方法不会考虑与墙壁和地面的碰撞。在 :ref:`doc_your_first_2d_game` "
-"中，你会学到另一种移动对象的方法，可以检测碰撞。"
+"使用这样的方法不会考虑与墙壁和地面的碰撞。在 :doc:`/getting_started/"
+"first_2d_game/index` 中，你会学到另一种移动对象的方法，可以检测碰撞。"
 
 #: getting_started/step_by_step/scripting_first_script.rst:304
 #, fuzzy
@@ -27793,8 +27835,8 @@ msgid ""
 "Our node currently moves by itself. In the next "
 "part :doc:`scripting_player_input`, we'll use player input to control it."
 msgstr ""
-"我们的节点目前是自行移动的。在下一部分 :ref:`doc_scripting_player_input` 中，"
-"我们会让玩家的输入来控制它。"
+"我们的节点目前是自行移动的。在下一部分 :doc:`scripting_player_input` 中，我们"
+"会让玩家的输入来控制它。"
 
 #: getting_started/step_by_step/scripting_first_script.rst:308
 #: getting_started/step_by_step/scripting_player_input.rst:111
@@ -27854,8 +27896,9 @@ msgid ""
 "what_is_gdnative:version compatibility>`, but these are the official ones."
 msgstr ""
 "Godot 提供了\\ **五种游戏编程语言**\\ ：GDScript、C#、VisualScript 以及通过 "
-"GDNative 技术提供的 C++ 和 C。还有更多\\ :ref:`社区支持的语言"
-"<doc_what_is_gdnative_third_party_bindings>`\\ ，但这些是官方语言。"
+"GDNative 技术提供的 C++ 和 C。还有更多\\ :ref:`社区支持的语言<tutorials/"
+"scripting/gdnative/what_is_gdnative:version compatibility>`\\ ，但这些是官方"
+"语言。"
 
 #: getting_started/step_by_step/scripting_languages.rst:29
 msgid ""
@@ -27917,8 +27960,8 @@ msgid ""
 "programming language built for Rebel Engine. It's made by and for game "
 "developers to save you time coding games. Its features include:"
 msgstr ""
-":ref:`GDScript<doc_gdscript>` 是一门\\ `面向对象 <https://zh.wikipedia.org/"
-"wiki/"
+":doc:`GDScript</tutorials/scripting/gdscript/gdscript_basics>` 是一门\\ `面向"
+"对象 <https://zh.wikipedia.org/wiki/"
 "%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1>`_\\ "
 "的\\ `指令式 <https://zh.wikipedia.org/wiki/"
 "%E6%8C%87%E4%BB%A4%E5%BC%8F%E7%B7%A8%E7%A8%8B>`_\\ 编程语言，专为 Godot 构"
@@ -28073,9 +28116,10 @@ msgid ""
 "where you connect blocks. It can be a great tool for non-programmers like "
 "game designers and artists."
 msgstr ""
-":ref:`Visual Scripting<doc_what_is_visual_script>` 是一种基于图的可视化编程语"
-"言，你可以将其中的代码块连接起来以进行编程。对于非程序员（如游戏设计人员和艺"
-"术家）来说，它可能是一个很好的工具。"
+":doc:`Visual Scripting</tutorials/scripting/visual_script/"
+"what_is_visual_scripting>` 是一种基于图的可视化编程语言，你可以将其中的代码块"
+"连接起来以进行编程。对于非程序员（如游戏设计人员和艺术家）来说，它可能是一个"
+"很好的工具。"
 
 #: getting_started/step_by_step/scripting_languages.rst:133
 msgid ""
@@ -28101,8 +28145,8 @@ msgid ""
 "For more information, see :doc:`Getting started with VisualScript </"
 "tutorials/scripting/visual_script/getting_started>`."
 msgstr ""
-"更多信息请参阅 :ref:`VisualScript 入门 "
-"<doc_getting_started_visual_script>`\\ 。"
+"更多信息请参阅 :doc:`VisualScript 入门 </tutorials/scripting/visual_script/"
+"getting_started>`\\ 。"
 
 #: getting_started/step_by_step/scripting_languages.rst:147
 msgid "C and C++ via GDNative"
@@ -28173,9 +28217,8 @@ msgid ""
 "at another important feature of any game: giving control to the player. To "
 "add this, we need to modify our ``Sprite.gd`` code."
 msgstr ""
-"在上一课 :ref:`doc_scripting_first_script` 的基础上，让我们看看任何游戏的另一"
-"个重要特征：将控制权交给玩家。为了增加这一点，我们需要修改 ``Sprite.gd`` 的代"
-"码。"
+"在上一课 :doc:`scripting_first_script` 的基础上，让我们看看任何游戏的另一个重"
+"要特征：将控制权交给玩家。为了增加这一点，我们需要修改 ``Sprite.gd`` 的代码。"
 
 #: getting_started/step_by_step/scripting_player_input.rst:14
 #, fuzzy
@@ -28194,7 +28237,7 @@ msgstr ""
 "内置的输入回调，主要是 ``_unhandled_input()``\\ 。像 ``_process()``\\ ，它是"
 "一个内置的虚函数，Godot 每次在玩家按下一个键时都会调用。它是你想用来对那些不"
 "是每一帧都发生的事件做出反应的工具，比如按 :kbd:`Space` 来跳跃。要了解更多关"
-"于输入回调的信息，请参阅 :ref:`doc_inputevent` 。"
+"于输入回调的信息，请参阅 :doc:`/tutorials/inputs/inputevent` 。"
 
 #: getting_started/step_by_step/scripting_player_input.rst:21
 #, fuzzy
@@ -28374,8 +28417,8 @@ msgid ""
 "In the next lesson :doc:`signals`, we'll build upon the relationship between "
 "scripts and nodes by having our nodes trigger code in scripts."
 msgstr ""
-"在下一课 :ref:`doc_signals` 中，我们会让节点触发脚本中的代码，让脚本和代码之"
-"间产生联系。"
+"在下一课 :doc:`signals` 中，我们会让节点触发脚本中的代码，让脚本和代码之间产"
+"生联系。"
 
 #: getting_started/step_by_step/signals.rst:-1
 #: tutorials/scripting/instancing_with_signals.rst:-1
@@ -28435,8 +28478,8 @@ msgid ""
 "We will now use a signal to make our Rebel icon from the previous lesson "
 "(:doc:`scripting_player_input`) move and stop by pressing a button."
 msgstr ""
-"现在，我们将使用信号来使上一节课（\\ :ref:`doc_scripting_player_input`\\ ）中"
-"的 Godot 图标移动，并通过按下按钮来停止。"
+"现在，我们将使用信号来使上一节课（\\ :doc:`scripting_player_input`\\ ）中的 "
+"Godot 图标移动，并通过按下按钮来停止。"
 
 #: getting_started/step_by_step/signals.rst:36
 #: tutorials/animation/introduction.rst:104
@@ -28889,8 +28932,8 @@ msgid ""
 "create a complete 2D game and put everything you learned so far into "
 "practice."
 msgstr ""
-"在下一节 :ref:`doc_your_first_2d_game` 中，你将创建一个完整的 2D 游戏，使用目"
-"前为止学到的东西进行实战。"
+"在下一节 :doc:`/getting_started/first_2d_game/index` 中，你将创建一个完整的 "
+"2D 游戏，使用目前为止学到的东西进行实战。"
 
 #: index.rst:4
 msgid "What's New"
@@ -29239,8 +29282,8 @@ msgid ""
 "The animations in the demo will not be covered here. See :doc:`/tutorials/"
 "animation/introduction` for information on creating animations."
 msgstr ""
-"这里将不涉及演示中的动画。有关创建动画的信息，请参"
-"见 :ref:`doc_introduction_animation` 。"
+"这里将不涉及演示中的动画。有关创建动画的信息，请参见 :doc:`/tutorials/"
+"animation/introduction` 。"
 
 #: tutorials/2d/2d_lights_and_shadows.rst:130
 msgid ""
@@ -29494,8 +29537,8 @@ msgid ""
 "If you are interested in displaying 3D meshes on a 2D viewport, see "
 "the :doc:`/tutorials/shaders/using_viewport_as_texture` tutorial."
 msgstr ""
-"如果你对在二维视口上显示三维网格感兴趣, 请参"
-"见 :ref:`doc_viewport_as_texture` 教程."
+"如果你对在二维视口上显示三维网格感兴趣, 请参见 :doc:`/tutorials/shaders/"
+"using_viewport_as_texture` 教程."
 
 #: tutorials/2d/2d_meshes.rst:13
 msgid ""
@@ -29622,7 +29665,7 @@ msgid ""
 "inputevent>` for details):"
 msgstr ""
 "打开\\ ``项目 -> 项目设置``\\ 并选择“输入映射”选项卡。添加以下输入操作（相关"
-"详细信息请参阅 :ref:`InputEvent <doc_inputevent>`）："
+"详细信息请参阅 :doc:`InputEvent </tutorials/inputs/inputevent>`）："
 
 #: tutorials/2d/2d_movement.rst:27
 msgid "8-way movement"
@@ -29668,8 +29711,8 @@ msgid ""
 "explanation of vector usage in Rebel Engine at :doc:`/tutorials/math/"
 "vector_math`."
 msgstr ""
-"如果你之前从未接触过向量数学, 或者需要复习, 你可以在 :ref:`doc_vector_math` "
-"看到Godot中向量用法的解释."
+"如果你之前从未接触过向量数学, 或者需要复习, 你可以在 :doc:`/tutorials/math/"
+"vector_math` 看到Godot中向量用法的解释."
 
 #: tutorials/2d/2d_movement.rst:112
 #, fuzzy
@@ -29678,8 +29721,8 @@ msgid ""
 "you've set up input actions correctly as described in the `Setup`_ part of "
 "this tutorial."
 msgstr ""
-"如果在你按下键时上面的代码不起任何作用, 请仔细检查你是否按照本教程"
-"的 :ref:`doc_2d_movement_setup` 部分所描述的正确设置了输入操作."
+"如果在你按下键时上面的代码不起任何作用, 请仔细检查你是否按照本教程的 "
+"`Setup`_ 部分所描述的正确设置了输入操作."
 
 #: tutorials/2d/2d_movement.rst:117
 msgid "Rotation + movement"
@@ -29871,8 +29914,8 @@ msgid ""
 msgstr ""
 "根节点也可以是 :ref:`Area2D <class_Area2D>` 或 :ref:`RigidBody2D "
 "<class_RigidBody2D>`\\ 。动画仍然会以同样的方式制作。一旦动画完成，你就可以"
-"为 CollisionShape2D 形状分配一个形状。更多信息请参见\\ :ref:`物理介绍 "
-"<doc_physics_introduction>`\\ 。"
+"为 CollisionShape2D 形状分配一个形状。更多信息请参见\\ :doc:`物理介绍 </"
+"tutorials/physics/physics_introduction>`\\ 。"
 
 #: tutorials/2d/2d_sprite_animation.rst:43
 msgid ""
@@ -30158,10 +30201,10 @@ msgid ""
 "has a transform (translation, rotation, scale, etc.) that can be accessed as "
 "a :ref:`Transform2D <class_Transform2D>`."
 msgstr ""
-"正如前面教程 :ref:`doc_canvas_layers` 中提到的那样，每个 CanvasItem 节点（要"
-"记得 Node2D 和基于 Control 的节点都使用 CanvasItem 作为它们的公共根）将驻留"
-"在 *Canvas Layer* 中。每个 Canvas Layer 都有一个变换（平移、旋转、缩放等），"
-"可以作为 :ref:`Transform2D <class_Transform2D>` 进行访问。"
+"正如前面教程 :doc:`canvas_layers` 中提到的那样，每个 CanvasItem 节点（要记得 "
+"Node2D 和基于 Control 的节点都使用 CanvasItem 作为它们的公共根）将驻留在 "
+"*Canvas Layer* 中。每个 Canvas Layer 都有一个变换（平移、旋转、缩放等），可以"
+"作为 :ref:`Transform2D <class_Transform2D>` 进行访问。"
 
 #: tutorials/2d/2d_transforms.rst:20
 msgid ""
@@ -30201,8 +30244,8 @@ msgid ""
 "manually set on each viewport."
 msgstr ""
 "最后，Viewport 有\\ *拉伸变换*\\ ，用于调整大小或拉伸屏幕。此变换在内部使用"
-"（见 :ref:`doc_multiple_resolutions`\\ ），但也可以在每个 Viewport 上手动设"
-"置。"
+"（见 :doc:`/tutorials/rendering/multiple_resolutions`\\ ），但也可以在每个 "
+"Viewport 上手动设置。"
 
 #: tutorials/2d/2d_transforms.rst:41
 msgid ""
@@ -30902,7 +30945,7 @@ msgid ""
 "information."
 msgstr ""
 "在编辑器中运行节点时，可能也会用到绘图。可以用于某些特性或行为的预览或可视"
-"化。详情请参阅 :ref:`doc_running_code_in_the_editor`\\ 。"
+"化。详情请参阅 :doc:`/tutorials/plugins/running_code_in_the_editor`\\ 。"
 
 #: tutorials/2d/index.rst:2 tutorials/performance/index.rst:70
 msgid "2D"
@@ -31543,7 +31586,7 @@ msgstr ""
 "使用图块集时, 相邻的图块匹配很重要. Godot的默认设置是使用插值的 \"滤镜"
 "(Filter)\" 模式导入2D图像, 这将导致图块之间的边界很丑. 选择图像, 然后单击 "
 "\"导入(Import)\" 选项卡. 关闭 ``Filter`` , 然后单击 \"重新导入\". 有关详细信"
-"息, 请参见 :ref:`doc_import_images` ."
+"息, 请参见 :doc:`/tutorials/assets_pipeline/importing_images` ."
 
 #: tutorials/2d/using_tilemaps.rst:35
 msgid "TileMap node"
@@ -32161,7 +32204,7 @@ msgid ""
 "tutorials/platforms/mobile_rendering_limitations` for more information."
 msgstr ""
 "除了下面列出的限制之外，移动平台通常比桌面平台有更多的 3D 渲染方面的限制。详"
-"情请参阅 :ref:`doc_mobile_rendering_limitations`\\ 。"
+"情请参阅 :doc:`/tutorials/platforms/mobile_rendering_limitations`\\ 。"
 
 #: tutorials/3d/3d_rendering_limitations.rst:13
 #, fuzzy
@@ -32474,9 +32517,9 @@ msgid ""
 "performance gains."
 msgstr ""
 "烘焙的光照贴图也是一种为场景添加间接光照（也叫全烘焙光照）的工作流程。"
-"与 :ref:`doc_gi_probes` 的方法不同，烘焙光照贴图在低端PC和移动设备上运行良"
-"好，因为在运行时几乎不消耗资源。与 GIProbe 的另一个不同点是，烘焙光照贴图还能"
-"够用来保存直接光照，可以进一步提升性能。"
+"与 :doc:`gi_probes` 的方法不同，烘焙光照贴图在低端PC和移动设备上运行良好，因"
+"为在运行时几乎不消耗资源。与 GIProbe 的另一个不同点是，烘焙光照贴图还能够用来"
+"保存直接光照，可以进一步提升性能。"
 
 #: tutorials/3d/baked_lightmaps.rst:13
 #, fuzzy
@@ -32488,7 +32531,7 @@ msgid ""
 msgstr ""
 "烘焙光照贴图与 GIProbe 不同，是完全静态的，一旦被烘焙就完全不能被修改。它也不"
 "能为场景提供反射，所以如果要达到较好的画质，在室内场景（或者是使用 Sky 的室外"
-"场景）中就需要和 :ref:`doc_reflection_probes` 搭配使用。"
+"场景）中就需要和 :doc:`reflection_probes` 搭配使用。"
 
 #: tutorials/3d/baked_lightmaps.rst:18
 msgid ""
@@ -32513,7 +32556,7 @@ msgid ""
 "built-in :doc:`spatial_material` or in custom shaders)."
 msgstr ""
 "烘焙光照贴图还会占用被烘焙材质的 UV2 栏位，也就是说你无法再把 UV2 用于该材质"
-"的其它用途（无论是内置的 :ref:`doc_spatial_material` 还是自定义着色器）。"
+"的其它用途（无论是内置的 :doc:`spatial_material` 还是自定义着色器）。"
 
 #: tutorials/3d/baked_lightmaps.rst:29
 msgid ""
@@ -33120,7 +33163,7 @@ msgid ""
 "indirect lighting for dynamic objects. Adjust this value depending on your "
 "scene to make dynamic objects better fit with static baked lighting."
 msgstr ""
-"**Propagation（传播）** ：类似于 :ref:`GIProbe <doc_gi_probes>` 的 "
+"**Propagation（传播）** ：类似于 :doc:`GIProbe </tutorials/3d/gi_probes>` 的 "
 "Propagation 属性。取值越高，动态对象间接光照就越亮、漫反射越强。根据场景的实"
 "际情况调整此选项，可以让动态对象更好地融入静态的烘焙光照。"
 
@@ -33641,11 +33684,11 @@ msgid ""
 "when prototyping, it can be used to quickly apply textures to CSG-based "
 "levels."
 msgstr ""
-"Godot的 :ref:`doc_spatial_material` 支持*triplanar mapping*, 它可以用来自动将"
-"纹理应用到任意对象上, 而不会发生变形. 这在使用CSG时很方便, 因为Godot还不支持"
-"在CSG节点上编辑UV贴图. 三面贴图的速度相对较慢, 这通常限制了它的使用, 比如地形"
-"等有机表面. 不过, 在原型设计时, 还是可以用它来快速将纹理应用到基于CSG的关卡"
-"上. (CSG: 构造实体几何(Constructive Solid Geometry)的简写)."
+"Godot的 :doc:`spatial_material` 支持*triplanar mapping*, 它可以用来自动将纹理"
+"应用到任意对象上, 而不会发生变形. 这在使用CSG时很方便, 因为Godot还不支持在CSG"
+"节点上编辑UV贴图. 三面贴图的速度相对较慢, 这通常限制了它的使用, 比如地形等有"
+"机表面. 不过, 在原型设计时, 还是可以用它来快速将纹理应用到基于CSG的关卡上. "
+"(CSG: 构造实体几何(Constructive Solid Geometry)的简写)."
 
 #: tutorials/3d/csg_tools.rst:251
 msgid ""
@@ -34585,8 +34628,8 @@ msgid ""
 "backend. :doc:`baked_lightmaps` can be used as an alternative when using the "
 "GLES2 renderer."
 msgstr ""
-"此功能仅在使用 GLES3 后端时可用。\\ :ref:`doc_baked_lightmaps` 可用作使用 "
-"GLES2 渲染器时的替代方法。"
+"此功能仅在使用 GLES3 后端时可用。\\ :doc:`baked_lightmaps` 可用作使用 GLES2 "
+"渲染器时的替代方法。"
 
 #: tutorials/3d/gi_probes.rst:11
 #, fuzzy
@@ -34596,9 +34639,9 @@ msgid ""
 "Probes are similar to Reflection Probes, but they use a different and more "
 "complex technique to produce indirect light and reflections."
 msgstr ""
-"就像 :ref:`doc_reflection_probes`, 并且如 :ref:`doc_spatial_material` 中所"
-"述, 对象可以显示反射光或漫反射光. GI探针类似于反射探针, 但它们使用不同且更复"
-"杂的技术来产生间接光和反射."
+"就像 :doc:`reflection_probes`, 并且如 :doc:`spatial_material` 中所述, 对象可"
+"以显示反射光或漫反射光. GI探针类似于反射探针, 但它们使用不同且更复杂的技术来"
+"产生间接光和反射."
 
 #: tutorials/3d/gi_probes.rst:16
 msgid ""
@@ -35068,7 +35111,7 @@ msgid ""
 msgstr ""
 "HDR可以在 :ref:`Environment <class_Environment>` 资源中找到. 这些在大多数情况"
 "下都可以在 :ref:`WorldEnvironment <class_WorldEnvironment>` 节点中找到或在相"
-"机中设置. 更多信息请参阅 :ref:`doc_environment_and_post_processing`."
+"机中设置. 更多信息请参阅 :doc:`environment_and_post_processing`."
 
 #: tutorials/3d/index.rst:2 tutorials/performance/index.rst:79
 #: tutorials/platforms/mobile_rendering_limitations.rst:31
@@ -35103,8 +35146,9 @@ msgid ""
 "for game developers, not mathematicians or engineers) will help pave the way "
 "for you to develop 3D games efficiently."
 msgstr ""
-"在3D中, 数学比2D更复杂一些, 所以看看Wiki里的 :ref:`doc_vector_math` 将有助于"
-"为有效开发3D游戏铺平道路(它是为游戏开发者, 而不是数学家或工程师, 特别创建的)."
+"在3D中, 数学比2D更复杂一些, 所以看看Wiki里的 :doc:`/tutorials/math/"
+"vector_math` 将有助于为有效开发3D游戏铺平道路(它是为游戏开发者, 而不是数学家"
+"或工程师, 特别创建的)."
 
 #: tutorials/3d/introduction_to_3d.rst:18
 msgid "Spatial node"
@@ -35164,9 +35208,9 @@ msgid ""
 "importing_scenes`, which allows you to import entire scenes (just as they "
 "look in the DCC), including animation, skeletal rigs, blend shapes, etc."
 msgstr ""
-"有两条线路可以导入3D模型到Godot中. 第一个也是最常见的一个, 是通"
-"过 :ref:`doc_importing_3d_scenes` , 它允许导入整个场景(就像它们在DCC中看起来"
-"的那样), 包括动画, 骨架绑定, 混合形状等."
+"有两条线路可以导入3D模型到Godot中. 第一个也是最常见的一个, 是通过 :doc:`/"
+"tutorials/assets_pipeline/importing_scenes` , 它允许导入整个场景(就像它们在"
+"DCC中看起来的那样), 包括动画, 骨架绑定, 混合形状等."
 
 #: tutorials/3d/introduction_to_3d.rst:53
 msgid ""
@@ -35499,7 +35543,7 @@ msgstr ":ref:`Environment <class_Environment>` 中的环境光."
 #: tutorials/3d/lights_and_shadows.rst:15
 #, fuzzy
 msgid "Baked Light (read :doc:`baked_lightmaps`)."
-msgstr "烘焙光 (参见 :ref:`doc_baked_lightmaps`)."
+msgstr "烘焙光 (参见 :doc:`baked_lightmaps`)."
 
 #: tutorials/3d/lights_and_shadows.rst:17
 #, fuzzy
@@ -35507,8 +35551,7 @@ msgid ""
 "The emission color is a material property. You can read more about it in "
 "the :doc:`spatial_material` tutorial."
 msgstr ""
-"自发光颜色是材质特性. 可以在 :ref:`doc_spatial_material` 教程中阅读更多相关内"
-"容."
+"自发光颜色是材质特性. 可以在 :doc:`spatial_material` 教程中阅读更多相关内容."
 
 #: tutorials/3d/lights_and_shadows.rst:21
 msgid "Light nodes"
@@ -35537,7 +35580,7 @@ msgid ""
 "working with :doc:`high_dynamic_range`."
 msgstr ""
 "**Energy(能量)** : 能量乘数. 这对于使灯光饱和或使"
-"用 :ref:`doc_high_dynamic_range` 非常有用."
+"用 :doc:`high_dynamic_range` 非常有用."
 
 #: tutorials/3d/lights_and_shadows.rst:33
 msgid ""
@@ -35569,7 +35612,7 @@ msgid ""
 "see :doc:`baked_lightmaps`"
 msgstr ""
 "**Bake Mode（烘焙模式）** ：设置灯光的烘焙模式。更多信息"
-"见 :ref:`doc_baked_lightmaps`"
+"见 :doc:`baked_lightmaps`"
 
 #: tutorials/3d/lights_and_shadows.rst:37
 msgid ""
@@ -36072,9 +36115,9 @@ msgid ""
 "geometric ``Occluder`` nodes. These are geometric shapes that are shown in "
 "the editor using gizmos, but are invisible at runtime."
 msgstr ""
-"除了通过 :ref:`doc_rooms_and_portals` 实现遮挡外，Godot 还提供了使用简单几何 "
-"``Occluder``\\ （遮挡器）节点进行简单遮挡的能力。这些几何体形状会在编辑器中以"
-"小工具的形式显示，在运行时不可见。"
+"除了通过 :doc:`/tutorials/3d/portals/index` 实现遮挡外，Godot 还提供了使用简"
+"单几何 ``Occluder``\\ （遮挡器）节点进行简单遮挡的能力。这些几何体形状会在编"
+"辑器中以小工具的形式显示，在运行时不可见。"
 
 #: tutorials/3d/occluders.rst:6
 #, fuzzy
@@ -36086,9 +36129,8 @@ msgid ""
 "significantly boost performance in some situations."
 msgstr ""
 "完全被该形状遮挡（位于背部或内部）的对象在运行时会被剔除。它们是以简单易用、"
-"不带来运行时负担为目的而设计的，但也因此可能没"
-"有 :ref:`doc_rooms_and_portals` 高效。然而，在某些情况下仍然会带来显著的性能"
-"提升。"
+"不带来运行时负担为目的而设计的，但也因此可能没有 :doc:`/tutorials/3d/portals/"
+"index` 高效。然而，在某些情况下仍然会带来显著的性能提升。"
 
 #: tutorials/3d/occluders.rst:8
 #, fuzzy
@@ -37299,8 +37341,9 @@ msgid ""
 "portals/advanced_room_and_portal_usage:Internal Rooms>`. You do not have to "
 "worry about these to start with."
 msgstr ""
-"但\\ :ref:`内部房间 <doc_rooms_and_portals_internal_rooms>`\\ 是例外。初学时"
-"不必担心这些。"
+"但\\ :ref:`内部房间 <tutorials/3d/portals/"
+"advanced_room_and_portal_usage:Internal Rooms>`\\ 是例外。初学时不必担心这"
+"些。"
 
 #: tutorials/3d/portals/first_steps_with_rooms_and_portals.rst:70
 msgid "How do I create a room?"
@@ -37343,7 +37386,8 @@ msgid ""
 "portals/editing_rooms_and_portals:room point editing`)."
 msgstr ""
 "通过在房间检查器中手动编辑定义凸体的点，或使用编辑器小工具拖动这些点"
-"（见 :ref:`doc_room_point_editing`）。"
+"（见 :ref:`tutorials/3d/portals/editing_rooms_and_portals:room point "
+"editing`）。"
 
 #: tutorials/3d/portals/first_steps_with_rooms_and_portals.rst:81
 #, fuzzy
@@ -37357,7 +37401,8 @@ msgid ""
 msgstr ""
 "提供手动绑定。这是房间中的网络实例，具有所需范围形状的几何体，名称带有后缀 "
 "``-bound``\\ 。如果您在 Blender 或类似软件中创建关卡，可能会选择这样做"
-"（见 :ref:`doc_rooms_and_portals_blender`）。"
+"（见 :ref:`tutorials/3d/portals/editing_rooms_and_portals:creating room "
+"systems in blender (or other modeling tools)`）。"
 
 #: tutorials/3d/portals/first_steps_with_rooms_and_portals.rst:83
 msgid ""
@@ -38305,7 +38350,8 @@ msgstr ""
 "向扩展到邻近的房间。例外的"
 "是 :ref:`DirectionalLight<class_DirectionalLight>`. 平行光没有源房间，影响 *"
 "任何地方* 。因此它们不应该被放置在房间中。由于平行光可能很消耗，所以在室内时"
-"最好将其关闭，参阅 :ref:`doc_rooms_and_portals_roomgroups` 部分。"
+"最好将其关闭，参阅 :ref:`tutorials/3d/portals/"
+"advanced_room_and_portal_usage:roomgroups` 部分。"
 
 #: tutorials/3d/portals/using_objects_in_rooms_and_portals.rst:95
 msgid ""
@@ -39004,7 +39050,8 @@ msgid ""
 "For more information about the ArrayMesh, please see the :doc:`ArrayMesh "
 "tutorial </tutorials/3d/procedural_geometry/arraymesh>`."
 msgstr ""
-"有关ArrayMesh的更多信息, 请参阅 :ref:`ArrayMesh tutorial <doc_arraymesh>`."
+"有关ArrayMesh的更多信息, 请参阅 :doc:`ArrayMesh tutorial </tutorials/3d/"
+"procedural_geometry/arraymesh>`."
 
 #: tutorials/3d/procedural_geometry/index.rst:88
 msgid "MeshDataTool"
@@ -39025,8 +39072,8 @@ msgid ""
 "the :doc:`MeshDataTool tutorial </tutorials/3d/procedural_geometry/"
 "meshdatatool>`."
 msgstr ""
-"有关 MeshDataTool 的完整列表, 请参见 :ref:`MeshDataTool tutorial "
-"<doc_meshdatatool>`."
+"有关 MeshDataTool 的完整列表, 请参见 :doc:`MeshDataTool tutorial </tutorials/"
+"3d/procedural_geometry/meshdatatool>`."
 
 #: tutorials/3d/procedural_geometry/index.rst:96
 msgid "SurfaceTool"
@@ -39044,8 +39091,8 @@ msgid ""
 "For more information about the SurfaceTool, please see the :doc:`SurfaceTool "
 "tutorial </tutorials/3d/procedural_geometry/surfacetool>`."
 msgstr ""
-"有关SurfaceTool的更多信息, 请阅读 :ref:`SurfaceTool tutorial "
-"<doc_surfacetool>`."
+"有关SurfaceTool的更多信息, 请阅读 :doc:`SurfaceTool tutorial </tutorials/3d/"
+"procedural_geometry/surfacetool>`."
 
 #: tutorials/3d/procedural_geometry/index.rst:103
 msgid "ImmediateGeometry"
@@ -39083,8 +39130,8 @@ msgid ""
 "the :doc:`ImmediateGeometry tutorial </tutorials/3d/procedural_geometry/"
 "immediategeometry>`."
 msgstr ""
-"有关 ImmediateGeometry 的更多信息，请参见 :ref:`ImmediateGeometry 教程 "
-"<doc_immediategeometry>`\\ 。"
+"有关 ImmediateGeometry 的更多信息，请参见 :doc:`ImmediateGeometry 教程 </"
+"tutorials/3d/procedural_geometry/immediategeometry>`\\ 。"
 
 #: tutorials/3d/procedural_geometry/index.rst:117
 msgid "Which one should I use?"
@@ -39192,7 +39239,7 @@ msgid ""
 "arraymesh>` for an example of mesh generation."
 msgstr ""
 "下面的例子中，假定已经创建了一个名叫 ``mesh`` 的 ArrayMesh。网格生成的示例"
-"见 :ref:`ArrayMesh 教程 <doc_arraymesh>`\\ 。"
+"见 :doc:`ArrayMesh 教程 </tutorials/3d/procedural_geometry/arraymesh>`\\ 。"
 
 #: tutorials/3d/procedural_geometry/meshdatatool.rst:25
 msgid ""
@@ -39263,8 +39310,8 @@ msgid ""
 "for how to generate the base mesh."
 msgstr ""
 "下面是一个完整的示例，将一个叫做 ``mesh`` 的球体网格变成随机变形的块状，法线"
-"和顶点颜色也进行了更新。如何生成基础网格见 :ref:`ArrayMesh 教程 "
-"<doc_arraymesh>`。"
+"和顶点颜色也进行了更新。如何生成基础网格见 :doc:`ArrayMesh 教程 </tutorials/"
+"3d/procedural_geometry/arraymesh>`。"
 
 #: tutorials/3d/procedural_geometry/surfacetool.rst:2
 msgid "Using the SurfaceTool"
@@ -39376,8 +39423,8 @@ msgid ""
 "diffuse light. Reflection probes are used as a source of reflected and "
 "ambient light for objects inside their area of influence."
 msgstr ""
-"如下所示 :ref:`doc_spatial_material` , 对象可以显示反射光或漫反射光. 反射探头"
-"用作其影响区域内物体的反射光和环境光源."
+"如下所示 :doc:`spatial_material` , 对象可以显示反射光或漫反射光. 反射探头用作"
+"其影响区域内物体的反射光和环境光源."
 
 #: tutorials/3d/reflection_probes.rst:10
 msgid ""
@@ -40252,8 +40299,8 @@ msgid ""
 "by other lighting in the scene."
 msgstr ""
 "*发射* 指定材质发出的光量(请记住, 这不包括环绕几何体的光, 除非使"
-"用 :ref:`doc_gi_probes` ). 此值将添加到生成的最终图像中, 并且不受场景中其他光"
-"照的影响."
+"用 :doc:`gi_probes` ). 此值将添加到生成的最终图像中, 并且不受场景中其他光照的"
+"影响."
 
 #: tutorials/3d/spatial_material.rst:365
 msgid "Normal map"
@@ -40601,10 +40648,10 @@ msgid ""
 "building a level with an unlimited amount of Lego blocks."
 msgstr ""
 ":ref:`Gridmaps <class_GridMap>` 是一种用于创建3D游戏关卡的工具, 方式类似于2D"
-"中使用 :ref:`TileMap <doc_using_tilemaps>` . 使用一个定义好的可以放在一个网格"
-"中的 3D mesh (a :ref:`class_MeshLibrary`) (译注,grid和mesh都译作网格, 这里为"
-"了清晰,mesh直接使用英文,grid则译作网格)对象集合搭建关卡, 就像您使用无限多数量"
-"的乐高积木搭建世界一样."
+"中使用 :doc:`TileMap </tutorials/2d/using_tilemaps>` . 使用一个定义好的可以放"
+"在一个网格中的 3D mesh (a :ref:`class_MeshLibrary`) (译注,grid和mesh都译作网"
+"格, 这里为了清晰,mesh直接使用英文,grid则译作网格)对象集合搭建关卡, 就像您使用"
+"无限多数量的乐高积木搭建世界一样."
 
 #: tutorials/3d/using_gridmaps.rst:13
 msgid ""
@@ -41240,7 +41287,8 @@ msgid ""
 "For more information on the mathematics of vectors and transforms, please "
 "read the :doc:`/tutorials/math/vector_math` tutorials."
 msgstr ""
-"有关向量和变换在数学方面的更多信息, 请阅读 :ref:`doc_vector_math` 教程."
+"有关向量和变换在数学方面的更多信息, 请阅读 :doc:`/tutorials/math/"
+"vector_math` 教程."
 
 #: tutorials/3d/using_transforms.rst:141
 msgid "Manipulating transforms"
@@ -41349,8 +41397,8 @@ msgid ""
 "the :doc:`/tutorials/math/vector_math` tutorial for an explanation of the "
 "dot product):"
 msgstr ""
-"敌人在看着游戏角色吗？ 为此判断你可以使用点积（请参阅 :ref:`doc_vector_math` "
-"教程以获取对点积的解释）："
+"敌人在看着游戏角色吗？ 为此判断你可以使用点积（请参阅 :doc:`/tutorials/math/"
+"vector_math` 教程以获取对点积的解释）："
 
 #: tutorials/3d/using_transforms.rst:268
 msgid "Strafe left:"
@@ -41511,8 +41559,8 @@ msgid ""
 "Before starting, we recommend you to go through the :doc:`cutout_animation` "
 "tutorial to gain a general understanding of animating within Rebel Engine."
 msgstr ""
-"在开始之前, 我们建议您先浏览一下 :ref:`doc_cutout_animation` 教程, 以便对"
-"Godot中的动画制作有一个大致的了解."
+"在开始之前, 我们建议您先浏览一下 :doc:`cutout_animation` 教程, 以便对Godot中"
+"的动画制作有一个大致的了解."
 
 #: tutorials/animation/2d_skeletons.rst:35
 msgid ""
@@ -42881,7 +42929,7 @@ msgid ""
 "Rebel Engine works, see :doc:`/tutorials/animation/introduction`."
 msgstr ""
 "下一节将是创建剪纸动画的技巧集合。关于 Godot 中的动画系统如何工作的更多信息，"
-"请参阅 :ref:`doc_introduction_animation`\\ 。"
+"请参阅 :doc:`/tutorials/animation/introduction`\\ 。"
 
 #: tutorials/animation/cutout_animation.rst:269
 msgid "Setting keyframes and excluding properties"
@@ -43070,7 +43118,8 @@ msgstr ""
 msgid ""
 "This process is described in a :doc:`separate tutorial </tutorials/animation/"
 "2d_skeletons>`."
-msgstr "这个过程在\\ :ref:`单独的教程 <doc_2d_skeletons>`\\ 中讲述。"
+msgstr ""
+"这个过程在\\ :doc:`单独的教程 </tutorials/animation/2d_skeletons>`\\ 中讲述。"
 
 #: tutorials/animation/introduction.rst:2
 msgid "Introduction to the animation features"
@@ -43634,9 +43683,9 @@ msgid ""
 "gdscript_basics` and :doc:`/api/index` you know that each node type is a "
 "class and has a bunch of callable methods."
 msgstr ""
-"Godot 的动画引擎并不止于此。如果你已经熟悉了 Godot 的脚本语"
-"言 :ref:`doc_gdscript` 和 :doc:`/classes/index`\\ ，你就知道每个节点类型都是"
-"一个类，并且有一堆可调用的方法。"
+"Godot 的动画引擎并不止于此。如果你已经熟悉了 Godot 的脚本语言 :doc:`/"
+"tutorials/scripting/gdscript/gdscript_basics` 和 :doc:`/api/index`\\ ，你就知"
+"道每个节点类型都是一个类，并且有一堆可调用的方法。"
 
 #: tutorials/animation/introduction.rst:328
 msgid ""
@@ -43869,8 +43918,8 @@ msgid ""
 "If you don't have your video in Ogg Theora format yet, jump to `Recommended "
 "Theora encoding settings`_."
 msgstr ""
-"如果你还没有把你的视频转为 Ogg Theora 格式，请跳转"
-"到 :ref:`doc_playing_videos_recommended_theora_encoding_settings`。"
+"如果你还没有把你的视频转为 Ogg Theora 格式，请跳转到 `Recommended Theora "
+"encoding settings`_。"
 
 #: tutorials/animation/playing_videos.rst:39
 msgid ""
@@ -43944,7 +43993,8 @@ msgid ""
 "See :doc:`/tutorials/rendering/multiple_resolutions` for more tips on "
 "supporting multiple aspect ratios in your project."
 msgstr ""
-"更多在项目中支持不同的长宽比的技巧，请参阅 :ref:`doc_multiple_resolutions`。"
+"更多在项目中支持不同的长宽比的技巧，请参阅 :doc:`/tutorials/rendering/"
+"multiple_resolutions`。"
 
 #: tutorials/animation/playing_videos.rst:80
 msgid "Displaying a video on a 3D surface"
@@ -44643,9 +44693,9 @@ msgid ""
 "reverb to the sound effects, reducing their size greatly and ensuring "
 "correct trimming. Say no to SFX with baked reverb!"
 msgstr ""
-"Godot 有一个带有内置效果的 :ref:`扩展总线系统 <doc_audio_buses>` 。这使 SFX "
-"艺术家无需在音效中添加混响，从而大大缩减了文件大小并能确保剪辑正确。对使用混"
-"响烘焙的 SFX 说不！"
+"Godot 有一个带有内置效果的 :doc:`扩展总线系统 </tutorials/audio/"
+"audio_buses>` 。这使 SFX 艺术家无需在音效中添加混响，从而大大缩减了文件大小并"
+"能确保剪辑正确。对使用混响烘焙的 SFX 说不！"
 
 #: tutorials/assets_pipeline/importing_audio_samples.rst:57
 msgid "As you can see above, sound effects become huge with reverb added."
@@ -45298,7 +45348,7 @@ msgid ""
 "3d/spatial_material`."
 msgstr ""
 "反转图像的颜色。有时非常有用，例如，将外部程序生成的高度图转换为深度图，以用"
-"于 :ref:`doc_spatial_material`。"
+"于 :doc:`/tutorials/3d/spatial_material`。"
 
 #: tutorials/assets_pipeline/importing_images.rst:215
 msgid "Svg"
@@ -45502,7 +45552,8 @@ msgstr ""
 msgid ""
 "For more information on Rebel Engine's materials, see :doc:`/tutorials/3d/"
 "spatial_material`."
-msgstr "关于 Godot 材质的更多信息，请参阅 :ref:`doc_spatial_material`\\ 。"
+msgstr ""
+"关于 Godot 材质的更多信息，请参阅 :doc:`/tutorials/3d/spatial_material`\\ 。"
 
 #: tutorials/assets_pipeline/importing_scenes.rst:82
 msgid "Exporting considerations"
@@ -45912,7 +45963,7 @@ msgstr "**Gen光照贴图:** 网格用于烘焙光照贴图中, 并为光照贴�
 msgid ""
 "For more information on light baking see :doc:`/tutorials/3d/"
 "baked_lightmaps`."
-msgstr "有关光线烘焙的更多信息, 请参阅 :ref:`doc_baked_lightmaps`."
+msgstr "有关光线烘焙的更多信息, 请参阅 :doc:`/tutorials/3d/baked_lightmaps`."
 
 #: tutorials/assets_pipeline/importing_scenes.rst:270
 msgid "External Files"
@@ -46310,7 +46361,7 @@ msgstr ""
 msgid ""
 "See :doc:`/tutorials/physics/collision_shapes_3d` for a comprehensive "
 "overview of collision shapes."
-msgstr "碰撞体全面概述请查看 :ref:`doc_collision_shapes_3d`."
+msgstr "碰撞体全面概述请查看 :doc:`/tutorials/physics/collision_shapes_3d`."
 
 #: tutorials/assets_pipeline/importing_scenes.rst:464
 msgid "Create navigation (-navmesh)"
@@ -46444,7 +46495,7 @@ msgid ""
 "i18n/localization_using_gettext` for details."
 msgstr ""
 "如果您需要更强大的文件格式,Godot还支持加载以gettext ``.po`` 格式编写的翻译. "
-"有关详细信息, 请参见 :ref:`doc_localization_using_gettext`."
+"有关详细信息, 请参见 :doc:`/tutorials/i18n/localization_using_gettext`."
 
 #: tutorials/assets_pipeline/importing_translations.rst:35
 msgid "Translation format"
@@ -46545,11 +46596,11 @@ msgid ""
 "cell is ignored and can be left empty or having any content. Here's an "
 "example:"
 msgstr ""
-"“lang”标签必须代表一种语言，该语言必须是引擎支持的\\ :ref:`有效地区语言 "
-"<doc_locales>`\\ 之一。“KEY”标签必须是唯一的，并且必须代表一个通用字符串（它"
-"们通常以大写形式与其他字符串区分开）。这些键将在运行时由匹配的翻译的字符串替"
-"换。特别注意，“KEY1”和“Key1”将是不同的键。左上方的单元格将被忽略，可以保留为"
-"空或包含任何内容。这是一个例子："
+"“lang”标签必须代表一种语言，该语言必须是引擎支持的\\ :doc:`有效地区语言 </"
+"tutorials/i18n/locales>`\\ 之一。“KEY”标签必须是唯一的，并且必须代表一个通用"
+"字符串（它们通常以大写形式与其他字符串区分开）。这些键将在运行时由匹配的翻译"
+"的字符串替换。特别注意，“KEY1”和“Key1”将是不同的键。左上方的单元格将被忽略，"
+"可以保留为空或包含任何内容。这是一个例子："
 
 #: tutorials/assets_pipeline/importing_translations.rst:74
 #: tutorials/i18n/locales.rst:180
@@ -46858,7 +46909,7 @@ msgstr "最后将 **Playing** 属性勾上 **On** , 声音就开始播放了."
 #: tutorials/audio/audio_buses.rst:82
 #, fuzzy
 msgid "You may also be interested in reading about :doc:`audio_streams` now."
-msgstr "你现在可能有兴趣阅读 :ref:`doc_audio_streams`。"
+msgstr "你现在可能有兴趣阅读 :doc:`audio_streams`。"
 
 #: tutorials/audio/audio_buses.rst:85
 msgid "Adding effects"
@@ -46989,8 +47040,8 @@ msgid ""
 "choice than a compressor."
 msgstr ""
 "如果你的目标是防止信号总体超过某个振幅限制, 而不是减少信号的动态范围……那"
-"么, :ref:`限幅器 (limiter)<doc_audio_buses_limiter>` 可能是比压缩器更好的选"
-"择."
+"么, :ref:`限幅器 (limiter)<tutorials/audio/audio_buses:Limiter>` 可能是比压缩"
+"器更好的选择."
 
 #: tutorials/audio/audio_buses.rst:157
 msgid "Delay"
@@ -47177,8 +47228,8 @@ msgid ""
 "sounds."
 msgstr ""
 "混响可以模拟不同大小的房间. 可以调整各种参数以获得特定房间的声效. 混响通常"
-"从 :ref:`Areas <class_Area>` 输出(见 :ref:`Reverb buses "
-"<doc_audio_streams_reverb_buses>`), 或对所有声音施加一个 \"室内\" 的感觉."
+"从 :ref:`Areas <class_Area>` 输出(见 :ref:`Reverb buses <tutorials/audio/"
+"audio_streams:Reverb buses>`), 或对所有声音施加一个 \"室内\" 的感觉."
 
 #: tutorials/audio/audio_buses.rst:262
 msgid "SpectrumAnalyzer"
@@ -47262,9 +47313,9 @@ msgid ""
 "bus via an AudioStreamPlayer node. There are different kinds of "
 "AudioStreamPlayers. Each one loads an AudioStream and plays it back."
 msgstr ""
-"正如你可能已经在 :ref:`doc_audio_buses` 中读到的一样, 声音通过"
-"AudioStreamPlayer节点发送到每个总线.AudioStreamPlayer有很多种. 每一个都会加载"
-"一个AudioStream并进行播放."
+"正如你可能已经在 :doc:`audio_buses` 中读到的一样, 声音通过AudioStreamPlayer节"
+"点发送到每个总线.AudioStreamPlayer有很多种. 每一个都会加载一个AudioStream并进"
+"行播放."
 
 #: tutorials/audio/audio_streams.rst:12
 msgid "AudioStream"
@@ -47281,8 +47332,8 @@ msgid ""
 msgstr ""
 "音频流(audio stream)是一种发出声音的抽象对象. 声音可以来自许多地方, 最常见的"
 "是从文件系统加载. 音频文件可以作为AudioStreams加载并放置在AudioStreamPlayer"
-"中. 你可以在 :ref:`doc_importing_audio_samples` 中找到有关支持的格式和格式差"
-"异的信息."
+"中. 你可以在 :doc:`/tutorials/assets_pipeline/importing_audio_samples` 中找到"
+"有关支持的格式和格式差异的信息."
 
 #: tutorials/audio/audio_streams.rst:19
 msgid ""
@@ -47894,7 +47945,7 @@ msgid ""
 "with :ref:`SceneTree.change_scene <class_SceneTree_method_change_scene>`."
 msgstr ""
 "Godot提供了一个在项目根节点自动加载节点的功能, 允许你在全局范围内访问它们, 从"
-"而完成单例作用 :ref:`doc_singletons_autoload`. 当您使"
+"而完成单例作用 :doc:`/tutorials/scripting/singletons_autoload`. 当您使"
 "用 :ref:`SceneTree.change_scene <class_SceneTree_method_change_scene>` 从代码"
 "中更改场景时, 这些自动加载的节点不会被释放."
 
@@ -48030,9 +48081,9 @@ msgid ""
 "<tutorials/scripting/gdscript/gdscript_basics:registering named classes>` "
 "keyword in GDScript."
 msgstr ""
-"对于函数，可以使用 GDScript 中的 :ref:`class_name "
-"<doc_gdscript_basics_class_name>` 关键字创建一种新的 ``Node`` 类型，为单个场"
-"景提供该功能。"
+"对于函数，可以使用 GDScript 中的 :ref:`class_name <tutorials/scripting/"
+"gdscript/gdscript_basics:registering named classes>` 关键字创建一种新的 "
+"``Node`` 类型，为单个场景提供该功能。"
 
 #: tutorials/best_practices/autoloads_versus_internal_nodes.rst:71
 msgid "When it comes to data, you can either:"
@@ -48467,8 +48518,8 @@ msgstr ""
 "Godot用愚蠢, 但动态的方式容纳数据容器实现对象. 提出问题时, 对象将查询数据源. "
 "例如, 要回答\"您是否有一个名为 ``position`` 的属性？\"的问题, 它可能会询问"
 "其 :ref:`script <class_Script>` 或 :ref:`ClassDB <class_ClassDB>`. 您可以"
-"在 :ref:`doc_what_are_godot_classes` 文章中, 找到有关什么是对象以及它们如何工"
-"作的更多信息."
+"在 :doc:`applying_object_oriented_principles` 文章中, 找到有关什么是对象以及"
+"它们如何工作的更多信息."
 
 #: tutorials/best_practices/data_preferences.rst:171
 msgid ""
@@ -48769,8 +48820,8 @@ msgstr ""
 "虽然我们需要一个 AnimationPlayer, 来为游戏设计每个独立的动画序列, 它也可以用"
 "来混合复合动画, 也就是说, 在这些动画之间实现平滑的转换. 在为对象规划的动画之"
 "间, 也可能存在一个层次结构. 在这些情况下使用 :ref:`AnimationTree "
-"<class_AnimationTree>` 效果很出色. 可以在 :ref:`这里 <doc_animation_tree>` 找"
-"到关于使用 AnimationTree 的深入指南."
+"<class_AnimationTree>` 效果很出色. 可以在 :doc:`这里 </tutorials/animation/"
+"animation_tree>` 找到关于使用 AnimationTree 的深入指南."
 
 #: tutorials/best_practices/interfaces.rst:2
 #, fuzzy
@@ -48902,8 +48953,8 @@ msgid ""
 msgstr ""
 "如果脚本没有该属性, 它在 ``ClassDB`` 中对 ``CanvasItem`` 类及其所有继承的类型"
 "执行 ``visible`` 属性的哈希表查找. 如果找到, 它将调用绑定的 ``setter`` 或 "
-"``getter``. 有关哈希表的更多信息, 参见 :ref:`数据偏好 "
-"<doc_data_preferences>` 文档."
+"``getter``. 有关哈希表的更多信息, 参见 :doc:`数据偏好 </tutorials/"
+"best_practices/data_preferences>` 文档."
 
 #: tutorials/best_practices/interfaces.rst:264
 msgid ""
@@ -49029,9 +49080,9 @@ msgid ""
 "in other Object-Oriented programming languages. It will help you make sense "
 "of the rest of the series."
 msgstr ""
-"你应该从 :ref:`doc_what_are_godot_classes` 开始阅读。里面解释了 Godot 的节点"
-"和场景与其他面向对象的编程语言中的类和对象的关联，可以帮助你理解本系列的其他"
-"内容。"
+"你应该从 :doc:`applying_object_oriented_principles` 开始阅读。里面解释了 "
+"Godot 的节点和场景与其他面向对象的编程语言中的类和对象的关联，可以帮助你理解"
+"本系列的其他内容。"
 
 #: tutorials/best_practices/introduction_best_practices.rst:24
 #, fuzzy
@@ -49252,8 +49303,8 @@ msgid ""
 "please see the :doc:`\"Change scenes manually\" </tutorials/scripting/"
 "change_scenes_manually>` documentation."
 msgstr ""
-"有关在运行时中, 可以交换场景的各种方式的示例, 请参见文档 :ref:`手动更改场景 "
-"<doc_change_scenes_manually>` ."
+"有关在运行时中, 可以交换场景的各种方式的示例, 请参见文档 :doc:`手动更改场景 "
+"</tutorials/scripting/change_scenes_manually>` ."
 
 #: tutorials/best_practices/node_alternatives.rst:2
 msgid "When and how to avoid using nodes for everything"
@@ -49379,11 +49430,11 @@ msgid ""
 "to have many such Resources/Nodes in their scenes."
 msgstr ""
 "**优势**\\ ：关于 :ref:`Resource <class_Resource>` 与传统数据存储方法相比的优"
-"势\\ :ref:`已经说了 <doc_resources>` 很多。然而，在使用 Resource 替代 Node 的"
-"情境下，Resource 的主要优点是与检查器的兼容性。虽然几乎和 Object/Reference 一"
-"样轻量，它们仍然可以在检查器中显示并导出属性。这使它们在易用性上，可以媲美使"
-"用子节点的方式，而且如果有人计划在其场景中包含许多这类 Resource/Node，它们还"
-"可以提高性能。"
+"势\\ :doc:`已经说了 </tutorials/scripting/resources>` 很多。然而，在使用 "
+"Resource 替代 Node 的情境下，Resource 的主要优点是与检查器的兼容性。虽然几乎"
+"和 Object/Reference 一样轻量，它们仍然可以在检查器中显示并导出属性。这使它们"
+"在易用性上，可以媲美使用子节点的方式，而且如果有人计划在其场景中包含许多这类 "
+"Resource/Node，它们还可以提高性能。"
 
 #: tutorials/best_practices/notifications.rst:4
 #, fuzzy
@@ -50192,8 +50243,9 @@ msgid ""
 "change_scenes_manually>` gives users full control over how their game world "
 "transitions."
 msgstr ""
-"当变更关卡时，可以稍后换出“World”节点的子级。\\ :ref:`手动更换场景 "
-"<doc_change_scenes_manually>`\\ 让用户完全控制他们的游戏世界如何过渡。"
+"当变更关卡时，可以稍后换出“World”节点的子级。\\ :doc:`手动更换场景 </"
+"tutorials/scripting/change_scenes_manually>`\\ 让用户完全控制他们的游戏世界如"
+"何过渡。"
 
 #: tutorials/best_practices/scene_organization.rst:282
 msgid ""
@@ -50219,7 +50271,8 @@ msgid ""
 "... then one should create an :doc:`autoload 'singleton' node </tutorials/"
 "scripting/singletons_autoload>`."
 msgstr ""
-"…那么应该创建一个 :ref:`自动加载单例节点 <doc_singletons_autoload>` 节点."
+"…那么应该创建一个 :doc:`自动加载单例节点 </tutorials/scripting/"
+"singletons_autoload>` 节点."
 
 #: tutorials/best_practices/scene_organization.rst:293
 msgid ""
@@ -50251,8 +50304,8 @@ msgid ""
 "tutorials/best_practices/autoloads_versus_internal_nodes>` documentation."
 msgstr ""
 "如果一个系统需要修改另一个系统的数据，那么就应该把它们分别定义成单独的脚本或"
-"者场景，不应该使用自动加载。其原因请参考文档\\ :ref:`自动加载与普通节点 "
-"<doc_autoloads_versus_internal_nodes>`\\ 。"
+"者场景，不应该使用自动加载。其原因请参考文档\\ :doc:`自动加载与普通节点 </"
+"tutorials/best_practices/autoloads_versus_internal_nodes>`\\ 。"
 
 #: tutorials/best_practices/scene_organization.rst:310
 msgid ""
@@ -50578,7 +50631,7 @@ msgstr "有两种用于注册类型的系统..."
 #: tutorials/best_practices/scenes_versus_scripts.rst:96
 #, fuzzy
 msgid ":doc:`Custom Types </tutorials/plugins/editor/making_plugins>`"
-msgstr ":ref:`自定义类型 <doc_making_plugins>`"
+msgstr ":doc:`自定义类型 </tutorials/plugins/editor/making_plugins>`"
 
 #: tutorials/best_practices/scenes_versus_scripts.rst:98
 msgid "Editor-only. Typenames are not accessible at runtime."
@@ -50622,7 +50675,9 @@ msgstr ""
 msgid ""
 ":ref:`Script Classes <tutorials/scripting/gdscript/"
 "gdscript_basics:registering named classes>`"
-msgstr ":ref:`Script 类 <doc_gdscript_basics_class_name>`"
+msgstr ""
+":ref:`Script 类 <tutorials/scripting/gdscript/gdscript_basics:registering "
+"named classes>`"
 
 #: tutorials/best_practices/scenes_versus_scripts.rst:115
 msgid "Editor and runtime accessible."
@@ -50948,8 +51003,8 @@ msgid ""
 "Start the editor instead of running the scene (:ref:`tools <development/"
 "compiling/introduction_to_the_buildsystem:tools>` must be enabled)."
 msgstr ""
-"启动编辑器，不运行场景（必须已启用 :ref:`tools "
-"<doc_introduction_to_the_buildsystem_tools>`\\ ）。"
+"启动编辑器，不运行场景（必须已启用 :ref:`tools <development/compiling/"
+"introduction_to_the_buildsystem:tools>`\\ ）。"
 
 #: tutorials/editor/command_line_tutorial.rst:49
 msgid "``-p``, ``--project-manager``"
@@ -50962,8 +51017,8 @@ msgid ""
 "<development/compiling/introduction_to_the_buildsystem:tools>` must be "
 "enabled)."
 msgstr ""
-"启动项目管理器, 即使一个项目已经被自动检测到 ( :ref:`工具 "
-"<doc_introduction_to_the_buildsystem_tools>` 必须处于开启状态)."
+"启动项目管理器, 即使一个项目已经被自动检测到 ( :ref:`工具 <development/"
+"compiling/introduction_to_the_buildsystem:tools>` 必须处于开启状态)."
 
 #: tutorials/editor/command_line_tutorial.rst:51
 msgid "``-q``, ``--quit``"
@@ -50983,8 +51038,8 @@ msgid ""
 "Use a specific locale (<locale> being a two-letter code). See :doc:`/"
 "tutorials/i18n/locales` for more details."
 msgstr ""
-"使用指定的区域设置（<locale> 是一个两个字母的代码）。详情请参"
-"阅 :ref:`doc_locales`\\ 。"
+"使用指定的区域设置（<locale> 是一个两个字母的代码）。详情请参阅 :doc:`/"
+"tutorials/i18n/locales`\\ 。"
 
 #: tutorials/editor/command_line_tutorial.rst:55
 msgid "``--path <directory>``"
@@ -51133,8 +51188,8 @@ msgid ""
 "more details)."
 msgstr ""
 "调试模式仅仅在编辑器和调试输出模板中起作用(这要求使用 ``debug`` 或 "
-"``release_debug`` 构建目标, 阅"
-"读 :ref:`doc_introduction_to_the_buildsystem_target` 以获得更多信息)."
+"``release_debug`` 构建目标, 阅读 :ref:`development/compiling/"
+"introduction_to_the_buildsystem:target` 以获得更多信息)."
 
 #: tutorials/editor/command_line_tutorial.rst:103
 msgid "``-d``, ``--debug``"
@@ -51270,7 +51325,8 @@ msgid ""
 "introduction_to_the_buildsystem:tools>` must be enabled)."
 msgstr ""
 "使用给定的导出平台导出项目. 仅当路径以.pck或.zip结尾时才导出主包(必须启"
-"用 :ref:`tools <doc_introduction_to_the_buildsystem_tools>` )."
+"用 :ref:`tools <development/compiling/"
+"introduction_to_the_buildsystem:tools>` )."
 
 #: tutorials/editor/command_line_tutorial.rst:139
 msgid "``--export-debug <target>``"
@@ -51282,8 +51338,8 @@ msgid ""
 "Like ``--export``, but use debug template (:ref:`tools <development/"
 "compiling/introduction_to_the_buildsystem:tools>` must be enabled)."
 msgstr ""
-"像 ``--export`` 一样，但是使用调试模板（必须已启用 :ref:`tools "
-"<doc_introduction_to_the_buildsystem_tools>`\\ ）。"
+"像 ``--export`` 一样，但是使用调试模板（必须已启用 :ref:`tools <development/"
+"compiling/introduction_to_the_buildsystem:tools>`\\ ）。"
 
 #: tutorials/editor/command_line_tutorial.rst:141
 msgid "``--doctool <path>``"
@@ -51297,7 +51353,8 @@ msgid ""
 "introduction_to_the_buildsystem:tools>` must be enabled)."
 msgstr ""
 "将引擎 API 参考以 XML 格式转储到给定的 <路径> 中，如果发现现有文件则合并（必"
-"须已启用 :ref:`tools <doc_introduction_to_the_buildsystem_tools>`\\ ）。"
+"须已启用 :ref:`tools <development/compiling/"
+"introduction_to_the_buildsystem:tools>`\\ ）。"
 
 #: tutorials/editor/command_line_tutorial.rst:143
 msgid "``--no-docbase``"
@@ -51310,8 +51367,8 @@ msgid ""
 "<development/compiling/introduction_to_the_buildsystem:tools>` must be "
 "enabled)."
 msgstr ""
-"禁止转储基本类型(和 ``--doctool`` 一起使用, :ref:`工具 "
-"<doc_introduction_to_the_buildsystem_tools>` 必须启用)."
+"禁止转储基本类型(和 ``--doctool`` 一起使用, :ref:`工具 <development/"
+"compiling/introduction_to_the_buildsystem:tools>` 必须启用)."
 
 #: tutorials/editor/command_line_tutorial.rst:145
 msgid "``--build-solutions``"
@@ -51324,8 +51381,8 @@ msgid ""
 "<development/compiling/introduction_to_the_buildsystem:tools>` must be "
 "enabled)."
 msgstr ""
-"构建脚本解决方案(例如用于构建C#项目, 必须启用 :ref:`tools "
-"<doc_introduction_to_the_buildsystem_tools>`)."
+"构建脚本解决方案(例如用于构建C#项目, 必须启用 :ref:`tools <development/"
+"compiling/introduction_to_the_buildsystem:tools>`)."
 
 #: tutorials/editor/command_line_tutorial.rst:147
 msgid "``--gdnative-generate-json-api``"
@@ -51338,8 +51395,8 @@ msgid ""
 "(:ref:`tools <development/compiling/introduction_to_the_buildsystem:tools>` "
 "must be enabled)."
 msgstr ""
-"为GDNative绑定生成Godot API的JSON输出(必须启用 :ref:`tools "
-"<doc_introduction_to_the_buildsystem_tools>`)."
+"为GDNative绑定生成Godot API的JSON输出(必须启用 :ref:`tools <development/"
+"compiling/introduction_to_the_buildsystem:tools>`)."
 
 #: tutorials/editor/command_line_tutorial.rst:149
 msgid "``--test <test>``"
@@ -51353,7 +51410,7 @@ msgid ""
 "must be enabled)."
 msgstr ""
 "运行单元测试. 可以先用 ``--help`` 显示测试列表.(必须启用 :ref:`tools "
-"<doc_introduction_to_the_buildsystem_tools>`)."
+"<development/compiling/introduction_to_the_buildsystem:tools>`)."
 
 #: tutorials/editor/command_line_tutorial.rst:151
 msgid "``--export-pack <preset> <path>``"
@@ -51368,8 +51425,8 @@ msgid ""
 "must be enabled)."
 msgstr ""
 "像 ``--export`` 一样，它只会以预设的参数导出游戏包。\\ ``<路径>`` 决定导出的"
-"游戏包文件后缀名为 PCK 或者 ZIP（必须已启用 :ref:`tools "
-"<doc_introduction_to_the_buildsystem_tools>`\\ ）。"
+"游戏包文件后缀名为 PCK 或者 ZIP（必须已启用 :ref:`tools <development/"
+"compiling/introduction_to_the_buildsystem:tools>`\\ ）。"
 
 #: tutorials/editor/command_line_tutorial.rst:156
 msgid "Path"
@@ -54540,8 +54597,8 @@ msgid ""
 "tutorials/animation/introduction>`."
 msgstr ""
 "在这一部分中，我们将介绍 Godot 编辑器的大体情况，从界面到如何在命令行中使用。"
-"我们也会在合适的时候在其他章节中介绍特定的编辑器界面。例如\\ :ref:`动画编辑"
-"器 <doc_introduction_animation>`\\ 。"
+"我们也会在合适的时候在其他章节中介绍特定的编辑器界面。例如\\ :doc:`动画编辑"
+"器 </tutorials/animation/introduction>`\\ 。"
 
 #: tutorials/editor/managing_editor_features.rst:2
 msgid "Managing editor features"
@@ -54573,7 +54630,7 @@ msgstr ""
 "使用功能配置，主要的功能和节点都可以在编辑器中隐藏。只会隐藏部分界面，不会真"
 "正移除对这些功能的支持，所以依赖于那些特性的场景和脚本仍然可以正常工作。这同"
 "时也意味着，功能配置并不是一种优化技巧。要了解如何对 Godot 进行优化，请参"
-"阅 :ref:`doc_optimization`\\ 。"
+"阅 :doc:`/tutorials/performance/index`\\ 。"
 
 #: tutorials/editor/managing_editor_features.rst:19
 msgid "Creating a profile"
@@ -54638,7 +54695,7 @@ msgid ""
 msgstr ""
 "如果大量电脑都需要自定义配置，这个过程可能会比较繁琐。另一种办法是启用 Godot "
 "的自包含模式，可以将所有编辑器配置放在与编辑器二进制文件同一文件夹中。详情请"
-"参阅 :ref:`doc_data_paths_self_contained_mode`\\ 。"
+"参阅 :ref:`tutorials/io/data_paths:self-contained mode`\\ 。"
 
 #: tutorials/export/android_custom_build.rst:2
 msgid "Custom builds for Android"
@@ -54677,9 +54734,9 @@ msgid ""
 "export/exporting_for_android>` up to **Setting it up in Rebel Editor**. "
 "After doing that, follow the steps below."
 msgstr ""
-"配置自定义构建是一个相当简单的过程。但首先你需要按照\\ :ref:`导出到 Android "
-"<doc_exporting_for_android>` 中的步骤，直到\\ **在 Godot 中设置它**\\ 。做完"
-"这些后，按照下面的步骤进行。"
+"配置自定义构建是一个相当简单的过程。但首先你需要按照\\ :doc:`导出到 Android "
+"</tutorials/export/exporting_for_android>` 中的步骤，直到\\ **在 Godot 中设置"
+"它**\\ 。做完这些后，按照下面的步骤进行。"
 
 #: tutorials/export/android_custom_build.rst:19
 msgid "Set up the custom build environment"
@@ -54704,8 +54761,8 @@ msgid ""
 "really need to modify the project."
 msgstr ""
 "将在 ``res://android/build`` 下创建一个基于Gradle的Android项目, 不需要编辑这"
-"些文件, 除非你想 :ref:`创建你自己的 add-ons<doc_android_plugin>` , 或者真的需"
-"要修改项目."
+"些文件, 除非你想 :doc:`创建你自己的 add-ons</tutorials/platforms/android/"
+"android_plugin>` , 或者真的需要修改项目."
 
 #: tutorials/export/android_custom_build.rst:34
 msgid "Enabling the custom build and exporting"
@@ -54908,10 +54965,11 @@ msgid ""
 "rebel-icon.ico>`__ with your own ICO file *before* compiling export "
 "templates."
 msgstr ""
-"如果 rcedit 修改图标失败，你可以在改变图标后\\ :ref:`编译你自己的 Windows 导"
-"出模板 <doc_compiling_for_windows>`\\ 。实现方法是在编译导出模板\\ *之前*\\ "
-"用你自己的 ICO 文件替换 `platform/windows/godot.ico <https://github.com/"
-"godotengine/godot/blob/master/platform/windows/godot.ico>`__\\ 。"
+"如果 rcedit 修改图标失败，你可以在改变图标后\\ :doc:`编译你自己的 Windows 导"
+"出模板 </development/compiling/compiling_for_windows>`\\ 。实现方法是在编译导"
+"出模板\\ *之前*\\ 用你自己的 ICO 文件替换 `platform/windows/godot.ico "
+"<https://github.com/godotengine/godot/blob/master/platform/windows/"
+"godot.ico>`__\\ 。"
 
 #: tutorials/export/changing_application_icon_for_windows.rst:107
 msgid ""
@@ -54968,8 +55026,8 @@ msgid ""
 "If you haven't made \"Dodge the Creeps\" yourself yet, please read :doc:`/"
 "getting_started/first_2d_game/index` before continuing with this tutorial."
 msgstr ""
-"如果你还没有制作“Dodge the Creeps”，请在继续本教程之前阅"
-"读 :ref:`doc_your_first_2d_game`\\ 。"
+"如果你还没有制作“Dodge the Creeps”，请在继续本教程之前阅读 :doc:`/"
+"getting_started/first_2d_game/index`\\ 。"
 
 #: tutorials/export/exporting_basics.rst:21
 msgid "Preparing the project"
@@ -55178,7 +55236,7 @@ msgid ""
 "See :doc:`changing_application_icon_for_windows`."
 msgstr ""
 "在 Windows 上，如果你想让导出的可执行文件的图标与默认图标不同，你需要手动更"
-"改。请参阅 :ref:`doc_changing_application_icon_for_windows`\\ 。"
+"改。请参阅 :doc:`changing_application_icon_for_windows`\\ 。"
 
 #: tutorials/export/exporting_basics.rst:321
 #, fuzzy
@@ -55398,7 +55456,8 @@ msgid ""
 "development/compiling/build_for_android`."
 msgstr ""
 "这个页面描述的是如何将 Godot 项目导出到 Android。如果你想要找的是从源码编译编"
-"辑器或导出模板二进制文件，请阅读 :ref:`doc_compiling_for_android`\\ 。"
+"辑器或导出模板二进制文件，请阅读 :doc:`/development/compiling/"
+"build_for_android`\\ 。"
 
 #: tutorials/export/exporting_for_android.rst:11
 #, fuzzy
@@ -55801,7 +55860,7 @@ msgid ""
 "optimizing_for_size` for more information."
 msgstr ""
 "您可以通过仅编译具有所需功能的Android导出模板来进一步优化大小. 有关更多信息, "
-"请参见 :ref:`doc_optimizing_for_size`."
+"请参见 :doc:`/development/compiling/optimizing_for_size`."
 
 #: tutorials/export/exporting_for_android.rst:173
 #: tutorials/export/exporting_for_ios.rst:106
@@ -55827,8 +55886,8 @@ msgid ""
 "on a desktop platform. See :doc:`/tutorials/platforms/"
 "mobile_rendering_limitations` for more information."
 msgstr ""
-"这样可能造成在桌面平台上运行项目时不会发生的渲染问题。详情请参"
-"阅 :ref:`doc_mobile_rendering_limitations`\\ 。"
+"这样可能造成在桌面平台上运行项目时不会发生的渲染问题。详情请参阅 :doc:`/"
+"tutorials/platforms/mobile_rendering_limitations`\\ 。"
 
 #: tutorials/export/exporting_for_dedicated_servers.rst:2
 #: tutorials/networking/high_level_multiplayer.rst:469
@@ -55857,8 +55916,8 @@ msgid ""
 "compiling_for_x11`."
 msgstr ""
 "**Linux:** `下载官方Linux 服务器二进制文件 <https://godotengine.org/download/"
-"server>`__. 要从源码编译服务器二进制文件, 请遵"
-"循 :ref:`doc_compiling_for_x11` 中的说明."
+"server>`__. 要从源码编译服务器二进制文件, 请遵循 :doc:`/development/"
+"compiling/compiling_for_x11` 中的说明."
 
 #: tutorials/export/exporting_for_dedicated_servers.rst:13
 #, fuzzy
@@ -55866,8 +55925,8 @@ msgid ""
 "**macOS:** :doc:`Compile a server binary from source for macOS </development/"
 "compiling/compiling_for_osx>`."
 msgstr ""
-"**macOS :** :ref:`从源代码编译macOS 的服务器二进制文件 "
-"<doc_compiling_for_osx>`."
+"**macOS :** :doc:`从源代码编译macOS 的服务器二进制文件 </development/"
+"compiling/compiling_for_osx>`."
 
 #: tutorials/export/exporting_for_dedicated_servers.rst:14
 #, fuzzy
@@ -55958,7 +56017,7 @@ msgstr ""
 #: tutorials/export/exporting_for_dedicated_servers.rst:51
 #, fuzzy
 msgid "See :doc:`exporting_projects` for more information."
-msgstr "详见 :ref:`doc_exporting_projects` ."
+msgstr "详见 :doc:`exporting_projects` ."
 
 #: tutorials/export/exporting_for_dedicated_servers.rst:55
 msgid ""
@@ -56082,7 +56141,8 @@ msgid ""
 "development/compiling/compiling_for_ios`."
 msgstr ""
 "这个页面描述的是如何将 Godot 项目导出到 iOS。如果你想要找的是从源码编译编辑器"
-"或导出模板二进制文件，请阅读 :ref:`doc_compiling_for_ios`\\ 。"
+"或导出模板二进制文件，请阅读 :doc:`/development/compiling/"
+"compiling_for_ios`\\ 。"
 
 #: tutorials/export/exporting_for_ios.rst:10
 #, fuzzy
@@ -56299,8 +56359,7 @@ msgstr "iOS 的插件"
 #: tutorials/export/exporting_for_ios.rst:103
 #, fuzzy
 msgid "Special iOS plugins can be used in Rebel Engine."
-msgstr ""
-"在 Godot 中可以使用特殊的 iOS 插件。请查看 :ref:`doc_plugins_for_ios` 页面。"
+msgstr "在 Godot 中可以使用特殊的 iOS 插件。"
 
 #: tutorials/export/exporting_for_linux.rst:2
 msgid "Exporting for Linux"
@@ -56314,7 +56373,8 @@ msgid ""
 "read :doc:`/development/compiling/compiling_for_x11`."
 msgstr ""
 "这个页面描述的是如何将 Godot 项目导出到 Linux。如果你想要找的是从源码编译编辑"
-"器或导出模板二进制文件，请阅读 :ref:`doc_compiling_for_x11`\\ 。"
+"器或导出模板二进制文件，请阅读 :doc:`/development/compiling/"
+"compiling_for_x11`\\ 。"
 
 #: tutorials/export/exporting_for_linux.rst:10
 #, fuzzy
@@ -56351,7 +56411,8 @@ msgid ""
 "read :doc:`/development/compiling/compiling_for_osx`."
 msgstr ""
 "这个页面描述的是如何将 Godot 项目导出到 macOS。如果你想要找的是从源码编译编辑"
-"器或导出模板二进制文件，请阅读 :ref:`doc_compiling_for_osx`\\ 。"
+"器或导出模板二进制文件，请阅读 :doc:`/development/compiling/"
+"compiling_for_osx`\\ 。"
 
 #: tutorials/export/exporting_for_macos.rst:10
 #, fuzzy
@@ -56392,8 +56453,8 @@ msgid ""
 "page for more information."
 msgstr ""
 "导出的项目如果没有进行代码签名和公证，那么如果是从未知来源下载到的，就会被“门"
-"禁”（Gatekeeper）阻拦。详情请参阅\\ :ref:`在 macOS 上运行 Godot 应用 "
-"<doc_running_on_macos>`\\ 页面。"
+"禁”（Gatekeeper）阻拦。详情请参阅\\ :doc:`在 macOS 上运行 Godot 应用 </"
+"tutorials/export/running_on_macos>`\\ 页面。"
 
 #: tutorials/export/exporting_for_macos.rst:24
 msgid "Code signing and notarization"
@@ -56407,8 +56468,8 @@ msgid ""
 "macOS </tutorials/export/running_on_macos>` for workarounds."
 msgstr ""
 "默认情况下，macOS 只会运行经过签名和公证的应用程序。如果你使用了其他签名配"
-"置，替代方案请参阅\\ :ref:`在 macOS 上运行 Godot 应用 "
-"<doc_running_on_macos>`\\ 。"
+"置，替代方案请参阅\\ :doc:`在 macOS 上运行 Godot 应用 </tutorials/export/"
+"running_on_macos>`\\ 。"
 
 #: tutorials/export/exporting_for_macos.rst:28
 msgid ""
@@ -56486,8 +56547,7 @@ msgid ""
 msgstr ""
 "保持 ``Code Signing`` 启用并将 ``Identity`` 选项留空（在运行 macOS 的计算机上"
 "导出时可用，这个选项在其他平台上是不可见的）。这样 Godot 就会使用 Ad-hoc 签"
-"名，让最终用户能够更方便地运行导出的 App，详情请见\\ :ref:`在 macOS 上运行 "
-"Godot App <doc_running_on_macos>` 页面。"
+"名，让最终用户能够更方便地运行导出的 App。"
 
 #: tutorials/export/exporting_for_macos.rst:50
 msgid "Signing Options"
@@ -56958,7 +57018,8 @@ msgid ""
 "development/compiling/compiling_for_uwp`."
 msgstr ""
 "这个页面描述的是如何将 Godot 项目导出到 UWP。如果你想要找的是从源码编译编辑器"
-"或导出模板二进制文件，请阅读 :ref:`doc_compiling_for_uwp`\\ 。"
+"或导出模板二进制文件，请阅读 :doc:`/development/compiling/"
+"compiling_for_uwp`\\ 。"
 
 #: tutorials/export/exporting_for_uwp.rst:10
 msgid ""
@@ -57176,7 +57237,8 @@ msgid ""
 "read :doc:`/development/compiling/compiling_for_web`."
 msgstr ""
 "这个页面描述的是如何将 Godot 项目导出到 HTML。如果你想要找的是从源码编译编辑"
-"器或导出模板二进制文件，请阅读 :ref:`doc_compiling_for_web`\\ 。"
+"器或导出模板二进制文件，请阅读 :doc:`/development/compiling/"
+"compiling_for_web`\\ 。"
 
 #: tutorials/export/exporting_for_web.rst:10
 #, fuzzy
@@ -57208,8 +57270,8 @@ msgid ""
 "exporting_for_ios>` instead, as it will also result in better performance."
 msgstr ""
 "`在iOS上运行HTML5项目有严重的bug <https://github.com/godotengine/godot/"
-"issues/26554>`__ 这与浏览器无关.推荐使用 :ref:`iOS' native export "
-"functionality <doc_exporting_for_ios>` ,同时它也有更好的性能."
+"issues/26554>`__ 这与浏览器无关.推荐使用 :doc:`iOS' native export "
+"functionality </tutorials/export/exporting_for_ios>` ,同时它也有更好的性能."
 
 #: tutorials/export/exporting_for_web.rst:26
 msgid "WebGL version"
@@ -57305,9 +57367,9 @@ msgid ""
 "for the targeted platforms (enabling both **For Desktop** and **For Mobile** "
 "will result in a bigger, but more compatible export)."
 msgstr ""
-"如果你打算使用 :ref:`VRAM compression <doc_import_images>` ，请确保为目标平台"
-"启用 **Vram Texture Compression** （同时启用 **For Desktop** 和 **For "
-"Mobile** 将导致更大，但更兼容的导出）。"
+"如果你打算使用 :doc:`VRAM compression </tutorials/assets_pipeline/"
+"importing_images>` ，请确保为目标平台启用 **Vram Texture Compression** （同时"
+"启用 **For Desktop** 和 **For Mobile** 将导致更大，但更兼容的导出）。"
 
 #: tutorials/export/exporting_for_web.rst:66
 #, fuzzy
@@ -57317,7 +57379,7 @@ msgid ""
 "customizing_html5_shell`."
 msgstr ""
 "如果给出了 **自定义HTML Shell** 文件的路径, 则将使用它来代替默认的HTML页面. "
-"请参阅 :ref:`doc_customizing_html5_shell`."
+"请参阅 :doc:`/tutorials/platforms/customizing_html5_shell`."
 
 #: tutorials/export/exporting_for_web.rst:69
 msgid ""
@@ -57453,8 +57515,9 @@ msgid ""
 "options>` multi-threading is only available if the appropriate **Export "
 "Type** is set and support for it across browsers is still limited."
 msgstr ""
-"如前所述 :ref:`以上 <doc_javascript_export_options>` 多线程只有在设置了适当"
-"的 **导出类型** 的情况下才可用，而且对跨浏览器的支持仍然有限。"
+"如前所述 :ref:`以上 <tutorials/export/exporting_for_web:Export options>` 多线"
+"程只有在设置了适当的 **导出类型** 的情况下才可用，而且对跨浏览器的支持仍然有"
+"限。"
 
 #: tutorials/export/exporting_for_web.rst:136
 #, fuzzy
@@ -57464,9 +57527,10 @@ msgid ""
 "`cross-origin isolation headers <https://developer.mozilla.org/en-US/docs/"
 "Web/HTTP/Headers/Cross-Origin-Embedder-Policy>`__."
 msgstr ""
-"需要\\ :ref:`安全上下文 <doc_javascript_secure_contexts>`\\ 。浏览器也要求在"
-"提供网页时要有特定的\\ `跨源隔离标头 <https://developer.mozilla.org/zh-CN/"
-"docs/Web/HTTP/Headers/Cross-Origin-Embedder-Policy>`__\\ 。"
+"需要\\ :ref:`安全上下文 <tutorials/export/exporting_for_web:Secure "
+"contexts>`\\ 。浏览器也要求在提供网页时要有特定的\\ `跨源隔离标头 <https://"
+"developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/Cross-Origin-Embedder-"
+"Policy>`__\\ 。"
 
 #: tutorials/export/exporting_for_web.rst:141
 #: tutorials/scripting/gdnative/index.rst:2
@@ -57480,8 +57544,8 @@ msgid ""
 "options>` GDNative is only available if the appropriate **Export Type** is "
 "set."
 msgstr ""
-"正如前面提到的 :ref:`以上 <doc_javascript_export_options>` GDNative只有在设置"
-"了适当的 **导出类型** 时才可用。"
+"正如前面提到的 :ref:`以上 <tutorials/export/exporting_for_web:Export "
+"options>` GDNative只有在设置了适当的 **导出类型** 时才可用。"
 
 #: tutorials/export/exporting_for_web.rst:146
 msgid ""
@@ -57519,7 +57583,8 @@ msgid ""
 "customizing_html5_shell>`."
 msgstr ""
 "出于同样的原因, 除非从有效的输入事件处理程序中启动引擎, 否则全屏项目设置将不"
-"起作用. 这需要 :ref:`定制HTML 页面 <doc_customizing_html5_shell>`."
+"起作用. 这需要 :doc:`定制HTML 页面 </tutorials/platforms/"
+"customizing_html5_shell>`."
 
 #: tutorials/export/exporting_for_web.rst:166
 msgid ""
@@ -57543,7 +57608,8 @@ msgid ""
 "Access to microphone requires a :ref:`secure context <tutorials/export/"
 "exporting_for_web:Secure contexts>`."
 msgstr ""
-"访问麦克风需要\\ :ref:`安全上下文 <doc_javascript_secure_contexts>`\\ 。"
+"访问麦克风需要\\ :doc:`安全上下文 <tutorials/export/exporting_for_web:Secure "
+"contexts>`\\ 。"
 
 #: tutorials/export/exporting_for_web.rst:178
 msgid ""
@@ -57558,9 +57624,10 @@ msgid ""
 "http_request_class>`, :doc:`WebSocket (client) </tutorials/networking/"
 "websocket>` and :doc:`WebRTC </tutorials/networking/webrtc>` are supported."
 msgstr ""
-"目前，只有 :ref:`HTTP client <doc_http_client_class>`, :ref:`HTTP requests "
-"<doc_http_request_class>`, :ref:`WebSocket (client) <doc_websocket>` "
-"和 :ref:`WebRTC <doc_webrtc>` 被支持。"
+"目前，只有 :doc:`HTTP client </tutorials/networking/"
+"http_client_class>`, :doc:`HTTP requests </tutorials/networking/"
+"http_request_class>`, :doc:`WebSocket (client) </tutorials/networking/"
+"websocket>` 和 :doc:`WebRTC </tutorials/networking/webrtc>` 被支持。"
 
 #: tutorials/export/exporting_for_web.rst:185
 msgid "The HTTP classes also have several restrictions on the HTML5 platform:"
@@ -57616,7 +57683,9 @@ msgstr ""
 msgid ""
 "Requires a :ref:`secure context <tutorials/export/exporting_for_web:Secure "
 "contexts>`."
-msgstr "需要\\ :ref:`安全上下文 <doc_javascript_secure_contexts>`\\ 。"
+msgstr ""
+"需要\\ :ref:`安全上下文 <tutorials/export/exporting_for_web:Secure "
+"contexts>`\\ 。"
 
 #: tutorials/export/exporting_for_web.rst:205
 msgid "Gamepads"
@@ -57649,7 +57718,8 @@ msgid ""
 "tutorials/platforms/customizing_html5_shell>` can display it."
 msgstr ""
 "默认的 HTML 页面在加载时不显示启动画面。然而，该图像会被导出为 PNG 文件，因此"
-"可以通过 :ref:`自定义 HTML 页面 <doc_customizing_html5_shell>` 来显示。"
+"可以通过 :doc:`自定义 HTML 页面 </tutorials/platforms/"
+"customizing_html5_shell>` 来显示。"
 
 #: tutorials/export/exporting_for_web.rst:223
 msgid "Shader language limitations"
@@ -57676,7 +57746,8 @@ msgid ""
 "can be used, see :doc:`/tutorials/platforms/customizing_html5_shell`."
 msgstr ""
 "导出为Web生成多个要从Web服务器提供的文件, 包括用于演示的默认HTML页面. 可以使"
-"用自定义HTML文件, 请参阅 :ref:`doc_customizing_html5_shell` ."
+"用自定义HTML文件, 请参阅 :doc:`/tutorials/platforms/"
+"customizing_html5_shell` ."
 
 #: tutorials/export/exporting_for_web.rst:235
 msgid ""
@@ -57710,8 +57781,8 @@ msgstr ""
 "其他导出的文件在 ``.html`` 文件旁边, 按原样提供, 名称不变. ``.wasm`` 文件是实"
 "现引擎的二进制WebAssembly模块. ``.pck`` 文件是包含你的游戏的Godot主包. "
 "``.js`` 文件包含启动代码, ``.html`` 文件使用它来访问引擎. ``.png`` 文件包含启"
-"动画面图像. 默认HTML页面中未使用它, 但 :ref:`自定义HTML 页面 "
-"<doc_customizing_html5_shell>` 中包含了它."
+"动画面图像. 默认HTML页面中未使用它, 但 :doc:`自定义HTML 页面 </tutorials/"
+"platforms/customizing_html5_shell>` 中包含了它."
 
 #: tutorials/export/exporting_for_web.rst:251
 msgid ""
@@ -57812,10 +57883,11 @@ msgid ""
 "singleton can be checked with the ``JavaScript`` :doc:`feature tag </"
 "tutorials/export/feature_tags>`::"
 msgstr ""
-"HTML5 导出模板可能为了提高安全性而在 :ref:`构建 <doc_compiling_for_web>` 时关"
-"闭单例支持。使用这样的模板或者在 HTML5 以外的平台上调用 ``JavaScript.eval`` "
-"也会返回 ``null``\\ 。可以通过 ``JavaScript`` :ref:`feature 标签 "
-"<doc_feature_tags>` 来检查单例的可用性： ::"
+"HTML5 导出模板可能为了提高安全性而在 :doc:`构建 </development/compiling/"
+"compiling_for_web>` 时关闭单例支持。使用这样的模板或者在 HTML5 以外的平台上调"
+"用 ``JavaScript.eval`` 也会返回 ``null``\\ 。可以通过 "
+"``JavaScript`` :doc:`feature 标签 </tutorials/export/feature_tags>` 来检查单"
+"例的可用性： ::"
 
 #: tutorials/export/exporting_for_web.rst:314
 msgid ""
@@ -57846,7 +57918,8 @@ msgid ""
 "read :doc:`/development/compiling/compiling_for_windows`."
 msgstr ""
 "这个页面描述的是如何将 Godot 项目导出到 Windows。如果你想要找的是从源码编译编"
-"辑器或导出模板二进制文件，请阅读 :ref:`doc_compiling_for_windows`\\ 。"
+"辑器或导出模板二进制文件，请阅读 :doc:`/development/compiling/"
+"compiling_for_windows`\\ 。"
 
 #: tutorials/export/exporting_for_windows.rst:10
 #, fuzzy
@@ -58047,8 +58120,9 @@ msgid ""
 "or ZIP file extension, then the export process will build that type of file "
 "for the chosen platform."
 msgstr ""
-"另一种方法是 :ref:`从命令行导出 <doc_command_line_tutorial_exporting>`. 如果"
-"输出文件以PCK或ZIP文件扩展名结尾, 则导出过程将为所选平台构建该类型的文件."
+"另一种方法是 :ref:`从命令行导出 <tutorials/editor/"
+"command_line_tutorial:exporting>`. 如果输出文件以PCK或ZIP文件扩展名结尾, 则导"
+"出过程将为所选平台构建该类型的文件."
 
 #: tutorials/export/exporting_pcks.rst:67
 msgid ""
@@ -58190,8 +58264,8 @@ msgid ""
 "Finally, Rebel Editor has a simple but efficient system for :doc:`creating "
 "DLCs as extra package files </tutorials/export/exporting_pcks>`."
 msgstr ""
-"最后,Godot有一个简单但有效的系统, 用于 :ref:`将DLC 创建为额外的包文件 "
-"<doc_exporting_pcks>` ."
+"最后,Godot有一个简单但有效的系统, 用于 :doc:`将DLC 创建为额外的包文件 </"
+"tutorials/export/exporting_pcks>` ."
 
 #: tutorials/export/exporting_projects.rst:25
 msgid "On mobile"
@@ -58444,8 +58518,8 @@ msgid ""
 "See :doc:`/tutorials/editor/command_line_tutorial` for more information "
 "about using Rebel Editor from the command line."
 msgstr ""
-"关于从命令行使用 Godot 的更多信息，请参"
-"阅 :ref:`doc_command_line_tutorial`\\ 。"
+"关于从命令行使用 Godot 的更多信息，请参阅 :doc:`/tutorials/editor/"
+"command_line_tutorial`\\ 。"
 
 #: tutorials/export/exporting_projects.rst:169
 msgid "PCK versus ZIP pack file formats"
@@ -58473,9 +58547,7 @@ msgstr "未压缩的格式。文件尺寸较大，但读写较快。"
 msgid ""
 "Not readable and writable using tools normally present on the user's "
 "operating system."
-msgstr ""
-"可以使用用户操作系统中的常见工具读取或写入. 这对简化制作mod很有用.(另请参"
-"阅 :ref:`doc_exporting_pcks`)."
+msgstr "可以使用用户操作系统中的常见工具读取或写入."
 
 #: tutorials/export/exporting_projects.rst:181
 msgid "**ZIP format:**"
@@ -58493,7 +58565,7 @@ msgid ""
 "also :doc:`exporting_pcks`)."
 msgstr ""
 "可以使用用户操作系统中的常见工具读取或写入. 这对简化制作mod很有用.(另请参"
-"阅 :ref:`doc_exporting_pcks`)."
+"阅 :doc:`exporting_pcks`)."
 
 #: tutorials/export/exporting_projects.rst:189
 msgid ""
@@ -58818,7 +58890,8 @@ msgid ""
 "user agent."
 msgstr ""
 "要检查导出为 HTML5 的项目是否是在移动设备上运行，请\\ :ref:`调用 JavaScript "
-"代码 <doc_javascript_eval>`\\ 读取浏览器的用户代理。"
+"代码 <<tutorials/export/exporting_for_web:Calling JavaScript from script>`\\ "
+"读取浏览器的用户代理。"
 
 #: tutorials/export/feature_tags.rst:99
 msgid "Custom features"
@@ -58955,8 +59028,8 @@ msgid ""
 "Make sure to follow the steps described in :doc:`exporting_for_android`. "
 "Otherwise, the one-click deploy button won't appear."
 msgstr ""
-"请确认已经按照 :ref:`doc_exporting_for_android` 中提到的步骤进行操作，否则不"
-"会出现一键部署按钮。"
+"请确认已经按照 :doc:`exporting_for_android` 中提到的步骤进行操作，否则不会出"
+"现一键部署按钮。"
 
 #: tutorials/export/one-click_deploy.rst:35
 #, fuzzy
@@ -59072,7 +59145,7 @@ msgid ""
 "your project yet, read :doc:`exporting_for_macos` first."
 msgstr ""
 "这个页面描述的是在 macOS 上运行 Godot 项目。如果你还没有导出项目，请先阅"
-"读 :ref:`doc_exporting_for_macos`\\ 。"
+"读 :doc:`exporting_for_macos`\\ 。"
 
 #: tutorials/export/running_on_macos.rst:9
 msgid ""
@@ -59299,8 +59372,8 @@ msgid ""
 msgstr ""
 "本地化通常是通过雇佣特定的工作室来完成的，尽管有大量的软件和文件格式可供使"
 "用，但迄今为止进行本地化最常见的方式仍然是使用电子表格。创建电子表格并导入电"
-"子表格的过程已经在 :ref:`doc_importing_translations` 教程中介绍过了，所以这个"
-"教程更像是对那个教程的后续。"
+"子表格的过程已经在 :doc:`/tutorials/assets_pipeline/importing_translations` "
+"教程中介绍过了，所以这个教程更像是对那个教程的后续。"
 
 #: tutorials/i18n/internationalizing_games.rst:22
 #, fuzzy
@@ -59410,10 +59483,10 @@ msgid ""
 "<class_Container>` can be useful, as well as the text wrapping options "
 "available in :ref:`Label <class_Label>`."
 msgstr ""
-"不同语言的相同文本的长度差异很大。为此，请务必阅读教"
-"程 :ref:`doc_size_and_anchors`\\ ，因为动态调整控件大小可能有所帮助。"
-"\\ :ref:`Container <class_Container>` 可能很有用，\\ :ref:`Label "
-"<class_Label>` 的文本换行选项应该也能帮上忙。"
+"不同语言的相同文本的长度差异很大。为此，请务必阅读教程 :doc:`/tutorials/ui/"
+"size_and_anchors`\\ ，因为动态调整控件大小可能有所帮助。\\ :ref:`Container "
+"<class_Container>` 可能很有用，\\ :ref:`Label <class_Label>` 的文本换行选项应"
+"该也能帮上忙。"
 
 #: tutorials/i18n/internationalizing_games.rst:99
 msgid "TranslationServer"
@@ -59495,7 +59568,8 @@ msgid ""
 "If you are unsure about the language code to use, refer to the :doc:`list of "
 "locale codes </tutorials/i18n/locales>`."
 msgstr ""
-"如果您不确定要使用的语言代码，请参阅\\ :ref:`区域代码列表 <doc_locales>`\\ 。"
+"如果您不确定要使用的语言代码，请参阅\\ :doc:`区域代码列表 </tutorials/i18n/"
+"locales>`\\ 。"
 
 #: tutorials/i18n/locales.rst:2
 msgid "Locales"
@@ -62420,9 +62494,9 @@ msgid ""
 "CSV format, Rebel Engine also supports loading translation files written in "
 "the GNU gettext (``.po``) format."
 msgstr ""
-"除了 CSV 格式的 :ref:`doc_importing_translations` 外，Godot 还支持加载 GNU "
-"gettext 格式的翻译文件（基于文本的 ``.po``\\ ，Godot 3.5 起还支持编译后的 "
-"``.mo``\\ ）。"
+"除了 CSV 格式的 :doc:`/tutorials/assets_pipeline/importing_translations` 外，"
+"Godot 还支持加载 GNU gettext 格式的翻译文件（基于文本的 ``.po``\\ ，Godot "
+"3.5 起还支持编译后的 ``.mo``\\ ）。"
 
 #: tutorials/i18n/localization_using_gettext.rst:8
 #, fuzzy
@@ -62652,7 +62726,7 @@ msgid ""
 "testing translations in Rebel Editor."
 msgstr ""
 "关于在 Godot 中导入和测试翻译的更多信息，请参"
-"阅 :ref:`doc_internationalizing_games`。"
+"阅 :doc:`internationalizing_games`。"
 
 #: tutorials/i18n/localization_using_gettext.rst:123
 msgid "Updating message files to follow the PO template"
@@ -62791,7 +62865,7 @@ msgstr ""
 #: tutorials/inputs/controllers_gamepads_joysticks.rst:31
 #, fuzzy
 msgid "Input actions are explained in detail on the :doc:`inputevent` page."
-msgstr "输入动作在 :ref:`doc_inputevent` 页面上有详细解释。"
+msgstr "输入动作在 :doc:`inputevent` 页面上有详细解释。"
 
 #: tutorials/inputs/controllers_gamepads_joysticks.rst:35
 msgid ""
@@ -63252,7 +63326,7 @@ msgid ""
 "For a detailed overview of how Rebel Engine's input event system works, "
 "see :doc:`inputevent`."
 msgstr ""
-"要详细了解 Godot 的输入事件系统是如何工作的，请参阅 :ref:`doc_inputevent`。"
+"要详细了解 Godot 的输入事件系统是如何工作的，请参阅 :doc:`inputevent`。"
 
 #: tutorials/inputs/input_examples.rst:18
 msgid "Events versus polling"
@@ -63997,8 +64071,8 @@ msgid ""
 "and viewport size, for example:"
 msgstr ""
 "Godot 使用视口（Viewport）显示内容，并且视口可以通过若干选项进行缩放（参"
-"见 :ref:`doc_multiple_resolutions` 教程）。然后，使用节点中的函数来获得鼠标坐"
-"标和视口大小，例如："
+"见 :doc:`/tutorials/rendering/multiple_resolutions` tutorial` 教程）。然后，"
+"使用节点中的函数来获得鼠标坐标和视口大小，例如："
 
 #: tutorials/inputs/mouse_and_input_coordinates.rst:53
 msgid ""
@@ -64137,7 +64211,8 @@ msgid ""
 "This example demonstrates how to load a new scene. Consider it in the "
 "context of the :doc:`/tutorials/scripting/singletons_autoload` example."
 msgstr ""
-"此示例演示如何加载新场景。请结合 :ref:`doc_singletons_autoload` 示例来看。"
+"此示例演示如何加载新场景。请结合 :doc:`/tutorials/scripting/"
+"singletons_autoload` 示例来看。"
 
 #: tutorials/io/background_loading.rst:90
 msgid ""
@@ -65402,8 +65477,8 @@ msgid ""
 "Settings, but you can override it on a per-platform basis "
 "using :doc:`feature tags </tutorials/export/feature_tags>`."
 msgstr ""
-"``[项目名称]`` 基于的是项目设置中定义的应用名称，不过你可以使用\\ :ref:`特性"
-"标签 <doc_feature_tags>`\\ 来为不同平台单独进行覆盖。"
+"``[项目名称]`` 基于的是项目设置中定义的应用名称，不过你可以使用\\ :doc:`特性"
+"标签 </tutorials/export/feature_tags>`\\ 来为不同平台单独进行覆盖。"
 
 #: tutorials/io/data_paths.rst:57
 msgid ""
@@ -65656,11 +65731,11 @@ msgid ""
 "that each line is its own object, so we have an easy way to pull the data "
 "out of the file as well."
 msgstr ""
-"正如在 :ref:`doc_filesystem` 教程中所述, 我们需要打开一个文件来向其中写入或读"
-"取数据. 既然我们有办法调用我们的组并获取它们的相关数据, 那么就让我们使"
-"用 :ref:`to_json() <class_@GDScript_method_to_json>` 将数据转换成一个容易存储"
-"的字符串并将它存储在文件中吧. 这样做可以确保每一行都是一个完整的对象的信息, "
-"这样的话将数据从文件中提取出来也会更加容易."
+"正如在 :doc:`/tutorials/scripting/filesystem` 教程中所述, 我们需要打开一个文"
+"件来向其中写入或读取数据. 既然我们有办法调用我们的组并获取它们的相关数据, 那"
+"么就让我们使用 :ref:`to_json() <class_@GDScript_method_to_json>` 将数据转换成"
+"一个容易存储的字符串并将它存储在文件中吧. 这样做可以确保每一行都是一个完整的"
+"对象的信息, 这样的话将数据从文件中提取出来也会更加容易."
 
 #: tutorials/io/saving_games.rst:200
 msgid ""
@@ -65742,9 +65817,9 @@ msgid ""
 "curves. To better understand how Bezier curves work, let's start from its "
 "simplest form: Quadratic Bezier."
 msgstr ""
-"它们依赖于 :ref:`插值 <doc_interpolation>`, 我们在上一篇文章中看到, 如何结合"
-"多个步骤来创建平滑的曲线. 为了更好地理解贝塞尔曲线的工作原理, 我们从最简单的"
-"形式开始: 二次贝塞尔曲线."
+"它们依赖于 :doc:`插值 </tutorials/math/interpolation>`, 我们在上一篇文章中看"
+"到, 如何结合多个步骤来创建平滑的曲线. 为了更好地理解贝塞尔曲线的工作原理, 我"
+"们从最简单的形式开始: 二次贝塞尔曲线."
 
 #: tutorials/math/beziers_and_curves.rst:17
 msgid "Quadratic Bezier"
@@ -66071,8 +66146,8 @@ msgid ""
 "recommended read afterwards is the :doc:`Bezier </tutorials/math/"
 "beziers_and_curves>` page."
 msgstr ""
-"还有其他类型的插值, 这里将不做讨论. 建议之后阅读 :ref:`Bezier "
-"<doc_beziers_and_curves>` 页面."
+"还有其他类型的插值, 这里将不做讨论. 建议之后阅读 :doc:`Bezier </tutorials/"
+"math/beziers_and_curves>` 页面."
 
 #: tutorials/math/interpolation.rst:27
 msgid "Vector interpolation"
@@ -66106,8 +66181,8 @@ msgstr ""
 "对于三次插值，还有 :ref:`Vector2.cubic_interpolate() "
 "<class_Vector2_method_cubic_interpolate>` "
 "和 :ref:`Vector3.cubic_interpolate() "
-"<class_Vector3_method_cubic_interpolate>` ，它们执行 :ref:`Bezier "
-"<doc_beziers_and_curves>` 式插值。"
+"<class_Vector3_method_cubic_interpolate>` ，它们执行 :doc:`Bezier </"
+"tutorials/math/beziers_and_curves>` 式插值。"
 
 #: tutorials/math/interpolation.rst:34
 msgid ""
@@ -66179,8 +66254,8 @@ msgid ""
 "understand the :doc:`vector_math` tutorial, as this tutorial requires a "
 "knowledge of vectors."
 msgstr ""
-"在阅读本教程之前，我们推荐你从头到尾阅读并且理解 :ref:`doc_vector_math` 教"
-"程，因为本教程需要一点向量的知识。"
+"在阅读本教程之前，我们推荐你从头到尾阅读并且理解 :doc:`vector_math` 教程，因"
+"为本教程需要一点向量的知识。"
 
 #: tutorials/math/matrices_and_transforms.rst:11
 #, fuzzy
@@ -67156,8 +67231,7 @@ msgid ""
 "probability`_ system, among other things."
 msgstr ""
 ":ref:`randf() <class_@GDScript_method_randf>` 返回一个0到1之间的随机浮点数. "
-"在实现 :ref:`doc_random_number_generation_weighted_random_probability` 系统等"
-"时非常有用."
+"在实现 `Weighted random probability`_ 系统等时非常有用."
 
 #: tutorials/math/random_number_generation.rst:125
 msgid ""
@@ -67216,8 +67290,9 @@ msgid ""
 "bags>` pattern instead."
 msgstr ""
 "这种方法可以让随机数生成的感觉不那么重复. 不过, 它仍然不能防止结果在有限的一"
-"组值之间 \"乒乓反复\". 为了防止这种情况, 请使用 :ref:`shuffle bag "
-"<doc_random_number_generation_shuffle_bags>` 模式来代替."
+"组值之间 \"乒乓反复\". 为了防止这种情况, 请使用 :ref:`shuffle bag <tutorials/"
+"math/random_number_generation:\"Better\" randomness using shuffle bags>` 模式"
+"来代替."
 
 #: tutorials/math/random_number_generation.rst:297
 msgid "Get a random dictionary value"
@@ -67761,12 +67836,12 @@ msgstr "有关在Godot中使用向量数学的更多信息, 请参阅以下文�
 #: tutorials/math/vector_math.rst:413
 #, fuzzy
 msgid ":doc:`vectors_advanced`"
-msgstr ":ref:`doc_vectors_advanced`"
+msgstr ":doc:`vectors_advanced`"
 
 #: tutorials/math/vector_math.rst:414 tutorials/math/vectors_advanced.rst:591
 #, fuzzy
 msgid ":doc:`matrices_and_transforms`"
-msgstr ":ref:`doc_matrices_and_transforms`"
+msgstr ":doc:`matrices_and_transforms`"
 
 #: tutorials/math/vectors_advanced.rst:2
 msgid "Advanced vector math"
@@ -68827,9 +68902,7 @@ msgstr ""
 #: tutorials/networking/high_level_multiplayer.rst:263
 #, fuzzy
 msgid "These keywords are further explained in `Synchronizing the game`_."
-msgstr ""
-"这些关键字在\\ :ref:`同步游戏 <doc_high_level_multiplayer_synchronizing>`\\ "
-"中有更完整的解释。"
+msgstr "这些关键字在\\ `Synchronizing the game`_\\ 中有更完整的解释。"
 
 #: tutorials/networking/high_level_multiplayer.rst:265
 msgid ""
@@ -69136,7 +69209,7 @@ msgid ""
 "exporting_for_dedicated_servers` for more information."
 msgstr ""
 "一旦你制作了一个多人游戏, 你可能会想导出它到一个没有GPU的专用服务器上运行. 参"
-"见 :ref:`doc_exporting_for_dedicated_servers` 获取更多信息."
+"见 :doc:`/tutorials/export/exporting_for_dedicated_servers` 获取更多信息."
 
 #: tutorials/networking/high_level_multiplayer.rst:477
 msgid ""
@@ -69178,7 +69251,7 @@ msgid ""
 msgstr ""
 ":ref:`HTTPClient <class_HTTPClient>` 提供了对HTTP通信的低层次访问. 对于一个更"
 "高级的接口, 你可能需要看看 :ref:`HTTPRequest <class_HTTPRequest>` , 它有一个"
-"可用的教程 :ref:`here <doc_http_request_class>`."
+"可用的教程 :doc:`here </tutorials/networking/http_request_clas>`."
 
 #: tutorials/networking/http_client_class.rst:15
 msgid ""
@@ -69206,7 +69279,7 @@ msgid ""
 msgstr ""
 "在Godot中, 用 :ref:`HTTPRequest <class_HTTPRequest>` 节点发出HTTP请求是最简单"
 "的方法. 它继承自更低级别的 :ref:`HTTPClient <class_HTTPClient>` , 相关的教程"
-"见 :ref:`here <doc_http_client_class>`."
+"见 :doc:`here </tutorials/networking/http_client_class>`."
 
 #: tutorials/networking/http_request_class.rst:7
 msgid ""
@@ -69299,7 +69372,7 @@ msgid ""
 "ssl_certificates>`."
 msgstr ""
 "请注意, 为了使SSL/TLS加密, 从而使HTTPS URL发挥作用, 你可能需要采取一些额外的"
-"操作步骤, 如 :ref:`here <doc_ssl_certificates>` ."
+"操作步骤, 如 :doc:`here </tutorials/networking/ssl_certificates>` ."
 
 #: tutorials/networking/http_request_class.rst:92
 msgid ""
@@ -69575,8 +69648,8 @@ msgstr ""
 "在Godot中,WebRTC是通过两个主要的类来实现的 :ref:`WebRTCPeerConnection "
 "<class_WebRTCPeerConnection>` 和 :ref:`WebRTCDataChannel "
 "<class_WebRTCDataChannel>`, 加上多人游戏API实现 :ref:`WebRTCMultiplayer "
-"<class_WebRTCMultiplayer>`. 更多细节请参见 :ref:`high-level multiplayer "
-"<doc_high_level_multiplayer>` 章节."
+"<class_WebRTCMultiplayer>`. 更多细节请参见 :doc:`high-level multiplayer </"
+"tutorials/networking/high_level_multiplayer>` 章节."
 
 #: tutorials/networking/webrtc.rst:44
 msgid "Minimal connection example"
@@ -69607,7 +69680,8 @@ msgid ""
 "singletons_autoload>` as a signaling server."
 msgstr ""
 "这个例子在上一个例子的基础上进行了扩展, 将对等体分离在两个不同的场景中, 并使"
-"用 :ref:`singleton <doc_singletons_autoload>` 作为信号服务器."
+"用 :doc:`singleton </tutorials/scripting/singletons_autoload>` 作为信号服务"
+"器."
 
 #: tutorials/networking/webrtc.rst:144
 msgid "And now for the local signaling server:"
@@ -69620,8 +69694,8 @@ msgid ""
 "tutorials/scripting/singletons_autoload>` to connect two peers in the same "
 "scene."
 msgstr ""
-"这个本地信号服务器应该是作为一个 :ref:`singleton <doc_singletons_autoload>` "
-"来连接同一场景中的两个对等体."
+"这个本地信号服务器应该是作为一个 :doc:`singleton </tutorials/scripting/"
+"singletons_autoload>` 来连接同一场景中的两个对等体."
 
 #: tutorials/networking/webrtc.rst:180
 msgid "Then you can use it like this:"
@@ -69676,8 +69750,8 @@ msgid ""
 msgstr ""
 "这个协议相当简单, 基于消息, 是一个非常强大的向浏览器推送通知的工具, 已经被用"
 "来实现聊天, 回合制游戏等. 它仍使用TCP连接, 这对可靠性有好处, 但对延迟没有好"
-"处, 所以不适合实时的应用, 比如VoIP和快节奏的游戏(这些用例见 :ref:`WebRTC "
-"<doc_webrtc>`)."
+"处, 所以不适合实时的应用, 比如VoIP和快节奏的游戏(这些用例见 :doc:`WebRTC </"
+"tutorials/networking/webrtc>`)."
 
 #: tutorials/networking/websocket.rst:12
 msgid ""
@@ -69712,8 +69786,8 @@ msgstr ""
 "在Godot中,WebSocket通过三个主要类来实现 :ref:`WebSocketClient "
 "<class_WebSocketClient>`, :ref:`WebSocketServer <class_WebSocketServer>`, "
 "和 :ref:`WebSocketPeer <class_WebSocketPeer>`.WebSocket的实现与高级多人游戏兼"
-"容. 更多细节请参见 :ref:`high-level multiplayer "
-"<doc_high_level_multiplayer>` 一节."
+"容. 更多细节请参见 :doc:`high-level multiplayer </tutorials/networking/"
+"high_level_multiplayer>` 一节."
 
 #: tutorials/networking/websocket.rst:29
 msgid "Minimal client example"
@@ -69966,8 +70040,8 @@ msgid ""
 "help you make this decision."
 msgstr ""
 "您可以将类似的对象分组, 以便于进行批处理. 虽然这样做并不是您的必须, 但可以将"
-"其视为一种可选的方法, 在某些情况下以提高性能. 请参"
-"阅 :ref:`doc_batching_diagnostics` 一节来帮助做出选择."
+"其视为一种可选的方法, 在某些情况下以提高性能. 请参阅 `Diagnostics`_ 一节来帮"
+"助做出选择."
 
 #: tutorials/performance/batching.rst:104
 msgid "A trick"
@@ -70191,8 +70265,8 @@ msgid ""
 "but is included in the appendix out of interest: `Light scissoring threshold "
 "calculation`_"
 msgstr ""
-"具体关系可能不需要用户操心, 但出于兴趣, 将其列入附"
-"录: :ref:`doc_batching_light_scissoring_threshold_calculation`"
+"具体关系可能不需要用户操心, 但出于兴趣, 将其列入附录: `Light scissoring "
+"threshold calculation`_"
 
 #: tutorials/performance/batching.rst:251
 msgid "Light scissoring example diagram"
@@ -70680,7 +70754,7 @@ msgid ""
 "tutorials/2d/custom_drawing_in_2d` for more information."
 msgstr ""
 "如果图元未做批量处理，你可能可以通过在 ``_draw()`` 函数中手动绘制多边形来获得"
-"性能提升。更多信息见 :ref:`doc_custom_drawing_in_2d` 。"
+"性能提升。更多信息见 :doc:`/tutorials/2d/custom_drawing_in_2d` 。"
 
 #: tutorials/performance/batching.rst:530
 msgid "Light scissoring threshold calculation"
@@ -70820,7 +70894,9 @@ msgstr ""
 msgid ""
 "For more info about using Rebel Editor's built-in profiler, see :doc:`/"
 "tutorials/scripting/debug/debugger_panel`."
-msgstr "有关使用Godot内置分析器的更多信息, 请参阅: :ref:`doc_debugger_panel`."
+msgstr ""
+"有关使用Godot内置分析器的更多信息, 请参阅: :doc:`/tutorials/scripting/debug/"
+"debugger_panel`."
 
 #: tutorials/performance/cpu_optimization.rst:50
 msgid "External profilers"
@@ -71083,8 +71159,8 @@ msgid ""
 msgstr ""
 "Godot是用C++编写的. 使用C++通常会带来最快的代码. 然而, 在实际操作层面上, 它是"
 "最难在不同平台上部署到终端用户的机器上的. 使用C++的选项包括 :ref:`GDNative "
-"<toc-tutorials-gdnative>` 和 :ref:`custom modules <doc_custom_modules_in_c+"
-"+>` ."
+"<toc-tutorials-gdnative>` 和 :doc:`custom modules </development/engine/"
+"custom_modules_in_cpp>` ."
 
 #: tutorials/performance/cpu_optimization.rst:198
 msgid ""
@@ -71122,7 +71198,9 @@ msgstr "线程也会使调试的难度大大增加.GDScript调试器还不支持
 msgid ""
 "For more information on threads, see :doc:`/tutorials/performance/threads/"
 "using_multiple_threads`."
-msgstr "有关线程的更多信息, 请参见 :ref:`doc_using_multiple_threads`."
+msgstr ""
+"有关线程的更多信息, 请参见 :doc:`/tutorials/performance/threads/"
+"using_multiple_threads`."
 
 #: tutorials/performance/cpu_optimization.rst:215
 #: tutorials/scripting/scene_tree.rst:31
@@ -71176,7 +71254,7 @@ msgid ""
 "information, see :doc:`using_servers`."
 msgstr ""
 "你可以通过使用服务器API来完全避免使用SceneTree. 更多信息, 请参"
-"见 :ref:`doc_using_servers` ."
+"见 :doc:`using_servers` ."
 
 #: tutorials/performance/cpu_optimization.rst:237 tutorials/physics/index.rst:2
 msgid "Physics"
@@ -71877,7 +71955,7 @@ msgstr ""
 #: tutorials/performance/gpu_optimization.rst:52
 #, fuzzy
 msgid "For more information on 2D batching, see :doc:`batching`."
-msgstr "关于2D批处理的更多信息, 参见 :ref:`doc_batching` ."
+msgstr "关于2D批处理的更多信息, 参见 :doc:`batching` ."
 
 #: tutorials/performance/gpu_optimization.rst:55
 msgid "3D batching"
@@ -71921,8 +71999,7 @@ msgstr ""
 msgid ""
 "For more information on 3D specific optimizations, "
 "see :doc:`optimizing_3d_performance`."
-msgstr ""
-"有关特定于3D的优化的更多信息, 请参阅 :ref:`doc_optimizing_3d_performance`."
+msgstr "有关特定于3D的优化的更多信息, 请参阅 :doc:`optimizing_3d_performance`."
 
 #: tutorials/performance/gpu_optimization.rst:77
 msgid "Reuse Shaders and Materials"
@@ -72424,7 +72501,7 @@ msgid ""
 "in any order, it is a good idea to start from :doc:`general_optimization`."
 msgstr ""
 "明确了这一点后, 本教程部分的目的是解释如何从Godot中获得最大的性能. 虽然这些教"
-"程可以按任何顺序阅读, 但最好从 :ref:`doc_general_optimization` 开始."
+"程可以按任何顺序阅读, 但最好从 :doc:`general_optimization` 开始."
 
 #: tutorials/performance/index.rst:41
 msgid "Common"
@@ -72539,7 +72616,7 @@ msgid ""
 "index`."
 msgstr ""
 "然而，有一种更简单的方法可以实现遮挡。 Godot 具有先进的 Portal 渲染系统，可以"
-"从相机和灯光执行遮挡剔除。参阅 :ref:`doc_rooms_and_portals`。"
+"从相机和灯光执行遮挡剔除。参阅 :doc:`/tutorials/3d/portals/index`。"
 
 #: tutorials/performance/optimizing_3d_performance.rst:52
 msgid ""
@@ -72599,7 +72676,9 @@ msgstr ""
 msgid ""
 "For more information, see the :doc:`GPU optimizations </tutorials/"
 "performance/gpu_optimization>` doc."
-msgstr "更多信息请参阅 :ref:`GPU 优化 <doc_gpu_optimization>` 文档。"
+msgstr ""
+"更多信息请参阅 :doc:`GPU 优化 </tutorials/performance/gpu_optimization>` 文"
+"档。"
 
 #: tutorials/performance/optimizing_3d_performance.rst:84
 msgid "Level of detail (LOD)"
@@ -72635,7 +72714,7 @@ msgstr ""
 "使用透明度来处理LOD的最简单版本是广告牌. 例如, 你可以用一个单一的透明四边形来"
 "表示一棵树的距离. 这可以是非常便宜的渲染, 当然, 除非前面有很多树. 在这种情况"
 "下, 透明度可能会开始吞噬填充率(关于填充率的更多信息, 请参"
-"见 :ref:`doc_gpu_optimization`)."
+"见 :doc:`gpu_optimization`)."
 
 #: tutorials/performance/optimizing_3d_performance.rst:102
 msgid ""
@@ -72681,7 +72760,9 @@ msgstr ""
 msgid ""
 "Also see the :doc:`Using MultiMesh </tutorials/performance/using_multimesh>` "
 "doc."
-msgstr "另请参阅 :ref:`Using MultiMesh <doc_using_multimesh>` 文档."
+msgstr ""
+"另请参阅 :doc:`Using MultiMesh </tutorials/performance/using_multimesh>` 文"
+"档."
 
 #: tutorials/performance/optimizing_3d_performance.rst:125
 msgid "Bake lighting"
@@ -72713,9 +72794,8 @@ msgid ""
 "use :doc:`/tutorials/3d/baked_lightmaps`. Baking can also improve the scene "
 "quality by adding indirect light bounces."
 msgstr ""
-"一般来说, 如果几个灯光需要影响一个场景, 最好使"
-"用 :ref:`doc_baked_lightmaps` . 烘焙也可以通过增加间接光的反弹来提高场景的质"
-"量."
+"一般来说, 如果几个灯光需要影响一个场景, 最好使用 :doc:`/tutorials/3d/"
+"baked_lightmaps` . 烘焙也可以通过增加间接光的反弹来提高场景的质量."
 
 #: tutorials/performance/optimizing_3d_performance.rst:140
 msgid "Animation and skinning"
@@ -72926,8 +73006,8 @@ msgid ""
 "Before using a built-in class in a thread, read :doc:`thread_safe_apis` "
 "first to check whether it can be safely used in a thread."
 msgstr ""
-"在线程中使用内置类之前，请先阅读 :ref:`doc_thread_safe_apis`\\ ，检查在线程中"
-"使用是否安全。"
+"在线程中使用内置类之前，请先阅读 :doc:`thread_safe_apis`\\ ，检查在线程中使用"
+"是否安全。"
 
 #: tutorials/performance/threads/using_multiple_threads.rst:21
 msgid "Creating a Thread"
@@ -72963,7 +73043,7 @@ msgid ""
 "support multiple thread access."
 msgstr ""
 "并不总是支持从多个线程访问对象或数据(如果你这样做, 会导致意外行为或崩溃). 请"
-"阅读 :ref:`doc_thread_safe_apis` 文档, 了解哪些引擎API支持多线程访问."
+"阅读 :doc:`thread_safe_apis` 文档, 了解哪些引擎API支持多线程访问."
 
 #: tutorials/performance/threads/using_multiple_threads.rst:62
 msgid ""
@@ -73032,8 +73112,8 @@ msgid ""
 "servers directly </tutorials/performance/using_servers>` is the recommended "
 "optimization."
 msgstr ""
-"对于大量的实例(成千上万), 需要不断处理(需要保留一定的控制), 建议优化 :ref:`直"
-"接使用服务 <doc_using_servers>` ."
+"对于大量的实例(成千上万), 需要不断处理(需要保留一定的控制), 建议优化 :doc:`直"
+"接使用服务 </tutorials/performance/using_servers>` ."
 
 #: tutorials/performance/using_multimesh.rst:8
 msgid ""
@@ -73094,9 +73174,9 @@ msgid ""
 msgstr ""
 "也可以在顶点着色器中执行一些逻辑(使用 ``INSTANCE_ID`` 或 ``INSTANCE_CUSTOM`` "
 "内置常量). 关于在MultiMesh中对数千个对象进行动画制作的例子, 请参"
-"见 :ref:`Animating thousands of fish <doc_animating_thousands_of_fish>` 教"
-"程. 可以通过纹理向着色器提供信息(有浮点 :ref:`Image<class_Image>` 格式是理想"
-"的格式)."
+"见 :doc:`Animating thousands of fish </tutorials/performance/"
+"vertex_animation/animating_thousands_of_fish>` 教程. 可以通过纹理向着色器提供"
+"信息(有浮点 :ref:`Image<class_Image>` 格式是理想的格式)."
 
 #: tutorials/performance/using_multimesh.rst:34
 msgid ""
@@ -73154,8 +73234,8 @@ msgid ""
 "games."
 msgstr ""
 "像 Godot 这样的引擎，由于其更高层次的构建和功能，提供了更多的易用性。它们中的"
-"大多数都是通过\\ :ref:`场景系统 <doc_scene_tree>`\\ 来访问和使用的。使用节点"
-"和资源可以简化复杂游戏中的项目组织和资产管理。"
+"大多数都是通过\\ :doc:`场景系统 <</tutorials/scripting/scene_tree>`\\ 来访问"
+"和使用的。使用节点和资源可以简化复杂游戏中的项目组织和资产管理。"
 
 #: tutorials/performance/using_servers.rst:8
 msgid "There are, of course, always drawbacks:"
@@ -73846,8 +73926,8 @@ msgid ""
 "tutorial </tutorials/3d/using_multi_mesh_instance>`."
 msgstr ""
 "有两种方法可以为多个时间轴设置每个实例的变换。第一个完全在编辑器中，"
-"在 :ref:`MultiMeshInstance tutorial <doc_using_multi_mesh_instance>` 中进行了"
-"描述。"
+"在 :doc:`MultiMeshInstance tutorial </tutorials/3d/"
+"using_multi_mesh_instance>` 中进行了描述。"
 
 #: tutorials/performance/vertex_animation/animating_thousands_of_fish.rst:215
 msgid ""
@@ -74133,8 +74213,8 @@ msgid ""
 msgstr ""
 "使用 ParticlesMaterial 可以随意让鱼的行为变得简单或复杂。在本教程中，我们只设"
 "置了速度，但是在你自己的着色器中，你也可以设置 ``COLOR``\\ 、旋转、缩放（通"
-"过 ``TRANSFORM``\\ ）。有关粒子着色器的更多信息，请参阅\\ :ref:`《粒子着色器"
-"参考》 <doc_particle_shader>`\\ 。"
+"过 ``TRANSFORM``\\ ）。有关粒子着色器的更多信息，请参阅\\ :doc:`《粒子着色器"
+"参考》 </tutorials/shaders/shader_reference/particle_shader>`\\ 。"
 
 #: tutorials/performance/vertex_animation/index.rst:2
 msgid "Animating thousands of objects"
@@ -74399,8 +74479,8 @@ msgid ""
 "automatically. See :doc:`/tutorials/assets_pipeline/importing_scenes` in the "
 "documentation for more information."
 msgstr ""
-"Godot可以为导入的3D场景自动生成碰撞形状. 请参阅文档中"
-"的 :ref:`doc_importing_scenes_import_hints`."
+"Godot可以为导入的3D场景自动生成碰撞形状. 请参阅文档中的 :doc:`/tutorials/"
+"assets_pipeline/importing_scenes`."
 
 #: tutorials/physics/collision_shapes_3d.rst:126
 msgid "Performance caveats"
@@ -74759,8 +74839,8 @@ msgid ""
 "rigid_body>`"
 msgstr ""
 "这是实现模拟2D物理的节点. 您不直接控制 ``RigidBody2D`` , 而是您对它施加力(重"
-"力, 冲动等), 物理引擎计算得到的运动. :ref:`阅读更多关于使用刚体的信息. "
-"<doc_rigid_body>`"
+"力, 冲动等), 物理引擎计算得到的运动. :doc:`阅读更多关于使用刚体的信息. </"
+"tutorials/physics/rigid_body>`"
 
 #: tutorials/physics/physics_introduction.rst:48
 msgid ":ref:`KinematicBody2D <class_KinematicBody2D>`"
@@ -75330,7 +75410,7 @@ msgid ""
 "``move_and_slide()``, including a demo project with detailed code."
 msgstr ""
 "有关使用 ``move_and_slide()`` 的更多详细信息, 请参"
-"阅 :ref:`doc_kinematic_character_2d` , 包括带有详细代码的演示项目."
+"阅 :doc:`kinematic_character_2d` , 包括带有详细代码的演示项目."
 
 #: tutorials/physics/ragdoll_system.rst:2
 msgid "Ragdoll system"
@@ -75509,7 +75589,9 @@ msgstr ""
 msgid ""
 "For more information, read :ref:`tutorials/physics/"
 "physics_introduction:collision layers and masks`."
-msgstr "有关更多信息, 请阅读 :ref:`doc_physics_introduction`."
+msgstr ""
+"有关更多信息, 请阅读 :ref:`tutorials/physics/physics_introduction:collision "
+"layers and masks`."
 
 #: tutorials/physics/ray-casting.rst:2
 msgid "Ray-casting"
@@ -75706,8 +75788,8 @@ msgid ""
 "See :ref:`tutorials/physics/physics_introduction:code example` for details "
 "on how to set the collision mask."
 msgstr ""
-"关于如何设置碰撞掩码, 请参"
-"阅 :ref:`doc_physics_introduction_collision_layer_code_example` ."
+"关于如何设置碰撞掩码, 请参阅 :ref:`tutorials/physics/"
+"physics_introduction:code example` ."
 
 #: tutorials/physics/ray-casting.rst:225
 msgid "3D ray casting from screen"
@@ -76034,8 +76116,7 @@ msgid ""
 "This document assumes you're familiar with Rebel Physics various bodies. "
 "Please read :doc:`physics_introduction` first."
 msgstr ""
-"本文假设您熟悉Godot中的各种物理体. 否则请先阅"
-"读 :ref:`doc_physics_introduction` ."
+"本文假设您熟悉Godot中的各种物理体. 否则请先阅读 :doc:`physics_introduction` ."
 
 #: tutorials/physics/using_area_2d.rst:17
 msgid "What is an area?"
@@ -76138,7 +76219,8 @@ msgstr ""
 msgid ""
 "If you're not familiar with using signals, see :doc:`/getting_started/"
 "step_by_step/signals` for an introduction."
-msgstr "如果熟悉使用信号, 请参阅 :ref:`doc_signals` 的介绍."
+msgstr ""
+"如果熟悉使用信号, 请参阅 :doc:`/getting_started/step_by_step/signals` 的介绍."
 
 #: tutorials/physics/using_area_2d.rst:88
 msgid "Now our player can collect the coins!"
@@ -76177,7 +76259,9 @@ msgstr ""
 msgid ""
 "See the :doc:`/getting_started/first_2d_game/index` for an example of using "
 "Area2D in a game."
-msgstr "游戏中使用 Area2D 的示例请参阅 :ref:`doc_your_first_2d_game`\\ 。"
+msgstr ""
+"游戏中使用 Area2D 的示例请参阅 :doc:`/getting_started/first_2d_game/"
+"index`\\ 。"
 
 #: tutorials/physics/using_area_2d.rst:99
 msgid "Area influence"
@@ -76634,7 +76718,7 @@ msgstr ""
 msgid ""
 "See :doc:`/tutorials/2d/2d_movement` for examples of implementing 2D "
 "movement schemes."
-msgstr "有关实现2D移动方案的示例, 请参阅 :ref:`doc_2d_movement` ."
+msgstr "有关实现2D移动方案的示例, 请参阅 :doc:`/tutorials/2d/2d_movement` ."
 
 #: tutorials/physics/using_kinematic_body_2d.rst:225
 msgid "Attach a script to the KinematicBody2D and add the following code:"
@@ -76914,8 +76998,8 @@ msgid ""
 "As a prerequisite, make sure you understand how to set up a :doc:`custom "
 "build environment</tutorials/export/android_custom_build>` for Android."
 msgstr ""
-"作为前提条件, 请确保你了解如何为Android设置一个 :ref:`自定义构建环境 "
-"<doc_android_custom_build>`."
+"作为前提条件, 请确保你了解如何为Android设置一个 :doc:`自定义构建环境 </"
+"tutorials/export/android_custom_build>`."
 
 #: tutorials/platforms/android/android_plugin.rst:35
 #, fuzzy
@@ -77573,8 +77657,8 @@ msgid ""
 "See the :doc:`HTML5 shell API documentation </tutorials/platforms/"
 "html5_shell_api>`, for the full list of methods and options available."
 msgstr ""
-"参见 :ref:`HTML5 shell 类参考 <doc_html5_shell_classref>`\\ ，以获得可用方法"
-"和选项的完整列表。"
+"参见 :doc:`HTML5 shell 类参考 </tutorials/platforms/html5_shell_api>`\\ ，以"
+"获得可用方法和选项的完整列表。"
 
 #: tutorials/platforms/customizing_html5_shell.rst:83
 msgid ""
@@ -77816,8 +77900,8 @@ msgid ""
 "customizing_html5_shell>`."
 msgstr ""
 "``Engine`` 类提供了在Web上加载和启动导出项目的方法. 对于默认的导出设置, 这已"
-"经是导出的HTML页面的一部分. 要了解 ``Engine`` 类的实际使用, 请参见 :ref:`自定"
-"义Web导出的HTML 页面 <doc_customizing_html5_shell>` ."
+"经是导出的HTML页面的一部分. 要了解 ``Engine`` 类的实际使用, 请参见 :doc:`自定"
+"义Web导出的HTML 页面 </tutorials/platforms/customizing_html5_shell>` ."
 
 #: tutorials/platforms/html5_shell_api.rst:18
 msgid "Static Methods"
@@ -78297,8 +78381,8 @@ msgid ""
 "The browser locale will be used if none is specified. See complete list "
 "of :doc:`supported locales </tutorials/i18n/locales>`."
 msgstr ""
-"如果没有指定，将使用浏览器的区域设置。请参阅完整的\\ :ref:`支持的区域设置 "
-"<doc_locales>`\\ 列表。"
+"如果没有指定，将使用浏览器的区域设置。请参阅完整的\\ :doc:`支持的区域设置 </"
+"tutorials/i18n/locales>`\\ 列表。"
 
 #: tutorials/platforms/html5_shell_api.rst:267
 #, fuzzy
@@ -78344,7 +78428,8 @@ msgstr "启动时作为命令行参数传递的参数。"
 #, fuzzy
 msgid ""
 "See :doc:`command line tutorial </tutorials/editor/command_line_tutorial>`."
-msgstr "请参阅\\ :ref:`命令行教程 <doc_command_line_tutorial>`\\ 。"
+msgstr ""
+"请参阅\\ :doc:`命令行教程 </tutorials/editor/command_line_tutoria>`\\ 。"
 
 #: tutorials/platforms/html5_shell_api.rst:286
 msgid ""
@@ -78615,8 +78700,9 @@ msgid ""
 "compilation to complete to move forward as headers are generated before the "
 "engine starts to compile."
 msgstr ""
-"运行SCons来生成头文件. 通过阅读 :ref:`doc_compiling_for_ios` 来了解这个过程. "
-"不需要等待编译完成就可以继续, 因为在引擎开始编译之前就会生成头文件."
+"运行SCons来生成头文件. 通过阅读 :doc:`/development/compiling/"
+"compiling_for_ios` 来了解这个过程. 不需要等待编译完成就可以继续, 因为在引擎开"
+"始编译之前就会生成头文件."
 
 #: tutorials/platforms/ios/ios_plugin.rst:50
 msgid ""
@@ -78821,7 +78907,8 @@ msgstr "移动设备渲染限制"
 msgid ""
 "The general :doc:`/tutorials/3d/3d_rendering_limitations` also apply to "
 "mobile platforms."
-msgstr "常规的 :ref:`doc_3d_rendering_limitations` 也适用于移动平台。"
+msgstr ""
+"常规的 :doc:`/tutorials/3d/3d_rendering_limitations` 也适用于移动平台。"
 
 #: tutorials/platforms/mobile_rendering_limitations.rst:8
 #, fuzzy
@@ -78832,8 +78919,8 @@ msgid ""
 "``.mobile`` :doc:`feature tag </tutorials/export/feature_tags>` suffix."
 msgstr ""
 "为了在移动设备上提升初始性能，Godot 在 Android 和 iOS 上默认会自动使用对低端"
-"设备友好的设置。这些设置是通过在项目设置中使用 ``.mobile`` :ref:`特性标签 "
-"<doc_feature_tags>`\\ 后缀实现的。"
+"设备友好的设置。这些设置是通过在项目设置中使用 ``.mobile`` :doc:`特性标签 </"
+"tutorials/export/feature_tags>`\\ 后缀实现的。"
 
 #: tutorials/platforms/mobile_rendering_limitations.rst:12
 msgid ""
@@ -79015,8 +79102,8 @@ msgid ""
 "doubt, refer to the :doc:`making_plugins` page. This also assumes you are "
 "acquainted with Rebel Editor's import system."
 msgstr ""
-"本教程假设您已经知道如何制作通用插件. 如有疑问, 请参"
-"阅 :ref:`doc_making_plugins` 页面. 这也假设您熟悉Godot的导入系统."
+"本教程假设您已经知道如何制作通用插件. 如有疑问, 请参阅 :doc:`making_plugins` "
+"页面. 这也假设您熟悉Godot的导入系统."
 
 #: tutorials/plugins/editor/import_plugins.rst:11
 #, fuzzy
@@ -79477,9 +79564,9 @@ msgid ""
 msgstr ""
 "这是最后一个部分, 也是相当重要的部分, 因为在这里我们把制作好的资源保存到磁盘"
 "上. 保存文件的路径由编辑器通过 ``save_path`` 参数生成并告知. 注意, 这个参数 "
-"**没有** 扩展名, 所以我们用 :ref:`string formatting <doc_gdscript_printf>` 添"
-"加它. 为此, 我们调用前面定义的 ``get_save_extension`` 方法, 这样我们就可以确"
-"保它们不会丢失同步."
+"**没有** 扩展名, 所以我们用 :doc:`string formatting </tutorials/scripting/"
+"gdscript/gdscript_format_string>` 添加它. 为此, 我们调用前面定义的 "
+"``get_save_extension`` 方法, 这样我们就可以确保它们不会丢失同步."
 
 #: tutorials/plugins/editor/import_plugins.rst:349
 msgid ""
@@ -79516,8 +79603,8 @@ msgid ""
 "variants depending on the setup."
 msgstr ""
 "``r_platform_variants`` 参数用于需要根据目标平台导入不同的资源. 虽然被称为 *"
-"平台* 变体, 但它是基于 :ref:`feature tags <doc_feature_tags>` 的存在, 所以即"
-"使是同一个平台也可以有多个变体, 这取决于设置."
+"平台* 变体, 但它是基于 :doc:`feature tags </tutorials/export/feature_tags>` "
+"的存在, 所以即使是同一个平台也可以有多个变体, 这取决于设置."
 
 #: tutorials/plugins/editor/import_plugins.rst:366
 msgid ""
@@ -79658,7 +79745,7 @@ msgstr "从创建新的空插件开始。"
 #: tutorials/plugins/editor/inspector_plugins.rst:26
 #, fuzzy
 msgid "See :doc:`making_plugins` guide to set up your new plugin."
-msgstr "如何创建新插件请参阅 :ref:`doc_making_plugins`\\ 。"
+msgstr "如何创建新插件请参阅 :doc:`making_plugins`\\ 。"
 
 #: tutorials/plugins/editor/inspector_plugins.rst:28
 msgid ""
@@ -79934,8 +80021,8 @@ msgid ""
 "\"3D\", \"Script\", and \"AssetLib\" buttons. Such editor plugins are "
 "referred as \"Main screen plugins\"."
 msgstr ""
-"正如在 :ref:`doc_making_plugins` 页面中所看到的, 制作一个扩展编辑器的基本插件"
-"是相当容易的. 主屏幕插件允许你在编辑器的中心部分创建新的用户界面, 它们出现在 "
+"正如在 :doc:`making_plugins` 页面中所看到的, 制作一个扩展编辑器的基本插件是相"
+"当容易的. 主屏幕插件允许你在编辑器的中心部分创建新的用户界面, 它们出现在 "
 "\"2D\" , \"3D\" , \"脚本\" 和 \"AssetLib\" 按钮旁边. 这种编辑器插件被称为 "
 "\"主场景插件\"."
 
@@ -80014,8 +80101,8 @@ msgid ""
 "Then connect the \"pressed\" signal to itself. If you need help with "
 "signals, see the :doc:`/getting_started/step_by_step/signals` article."
 msgstr ""
-"然后将 \"按下\" 信号连接到自身. 如果你需要信号方面的帮助, 请参"
-"考 :ref:`doc_signals` 一文."
+"然后将 \"按下\" 信号连接到自身. 如果你需要信号方面的帮助, 请参考 :doc:`/"
+"getting_started/step_by_step/signals` 一文."
 
 #: tutorials/plugins/editor/making_main_screen_plugins.rst:88
 msgid ""
@@ -80292,8 +80379,8 @@ msgid ""
 "Script Classes instead."
 msgstr ""
 "通过 EditorPlugin 添加的节点是“CustomType”（自定义类型）节点。虽然它们可以用"
-"于任何脚本语言，但功能比 :ref:`Script 类系统 "
-"<doc_gdscript_basics_class_name>`\\ 少。如果你正在编写 GDScript 或 "
+"于任何脚本语言，但功能比 :ref:`Script 类系统 <tutorials/scripting/gdscript/"
+"gdscript_basics:registering named classes>`\\ 少。如果你正在编写 GDScript 或 "
 "NativeScript，建议使用 Script 类代替。"
 
 #: tutorials/plugins/editor/making_plugins.rst:143
@@ -80401,7 +80488,7 @@ msgid ""
 "the :ref:`template we've seen before <template_code>` to get a good start."
 msgstr ""
 "然后在同一文件夹中创建脚本 ``custom_dock.gd``\\ 。填写\\ :ref:`之前见过的模"
-"板 <doc_making_plugins_template_code>`\\ 以获得良好的开端。"
+"板 <template_code>`\\ 以获得良好的开端。"
 
 #: tutorials/plugins/editor/making_plugins.rst:293
 #, fuzzy
@@ -80523,8 +80610,8 @@ msgid ""
 "This tutorial assumes you already know how to make generic plugins. If in "
 "doubt, refer to the :doc:`making_plugins` page."
 msgstr ""
-"本教程假设您已经知道如何制作通用插件。如有疑问，请参"
-"阅 :ref:`doc_making_plugins` 页面。"
+"本教程假设您已经知道如何制作通用插件。如有疑问，请参阅 :doc:`making_plugins` "
+"页面。"
 
 #: tutorials/plugins/editor/spatial_gizmos.rst:18
 msgid "The EditorSpatialGizmoPlugin"
@@ -81172,8 +81259,8 @@ msgid ""
 "baked_lightmaps>`."
 msgstr ""
 ":ref:`GIProbe <class_GIProbe>` 在 GLES2 中不起作用。请换用\\ :ref:`烘焙灯光贴"
-"图 <class_BakedLightmap>`。有关烘焙灯光贴图工作原理的描述见\\ :ref:`烘焙灯光"
-"贴图教程 <doc_baked_lightmaps>`。"
+"图 <class_BakedLightmap>`。有关烘焙灯光贴图工作原理的描述见\\ :doc:`烘焙灯光"
+"贴图教程 </tutorials/3d/baked_lightmaps>`。"
 
 #: tutorials/rendering/gles2_gles3_differences.rst:97
 msgid "Contact shadows"
@@ -81256,7 +81343,8 @@ msgid ""
 "For a complete list of built-in GLSL functions see the :doc:`Shading "
 "Language doc </tutorials/shaders/shader_reference/shading_language>`."
 msgstr ""
-"完整的 GLSL 内置函数列表见\\ :ref:`着色器语言文档 <doc_shading_language>`。"
+"完整的 GLSL 内置函数列表见\\ :doc:`着色器语言文档 </tutorials/shaders/"
+"shader_reference/shading_language>`。"
 
 #: tutorials/rendering/gles2_gles3_differences.rst:139
 #: tutorials/shaders/shader_reference/shading_language.rst:641
@@ -81971,8 +82059,8 @@ msgid ""
 "some controls can be anchored to the bottom (:doc:`/tutorials/ui/"
 "size_and_anchors`)."
 msgstr ""
-"这通常是创建可扩展的GUI或HUD的最佳选择, 因此一些控件可以锚定到底部"
-"( :ref:`doc_size_and_anchors`)."
+"这通常是创建可扩展的GUI或HUD的最佳选择, 因此一些控件可以锚定到底部( :doc:`/"
+"tutorials/ui/size_and_anchors`)."
 
 #: tutorials/rendering/multiple_resolutions.rst:193
 msgid ""
@@ -82117,9 +82205,7 @@ msgstr ""
 "或者如果你主要针对的是高端设备，那么就把基础窗口宽度设置为 ``3840``\\ 、窗口"
 "高度设置为 ``2160`` 。这样你就可以提供更高分辨率的 2D 资产，用更高的内存占用"
 "和文件大小换取更清晰的画面。注意，这样做会让未做 mipmap 的纹理在低分辨率设备"
-"上具有颗粒感，请参"
-"考 :ref:`doc_multiple_resolutions_reducing_aliasing_on_downsampling` 进行操"
-"作。"
+"上具有颗粒感，请参考 `Reducing aliasing on downsampling`_ 进行操作。"
 
 #: tutorials/rendering/multiple_resolutions.rst:271
 #: tutorials/rendering/multiple_resolutions.rst:317
@@ -82238,9 +82324,8 @@ msgstr ""
 "高度设置为 ``1080``\\ 。这样你就可以提供更高分辨率的 2D 资产，用更高的内存占"
 "用和文件大小换取更清晰的画面。很多设备拥有更高分辨率的显示屏（1440p），但因为"
 "智能手机的屏幕比较小，所以很难看出和 1080p 的区别。注意，这样做会让未做 "
-"mipmap 的纹理在低分辨率设备上具有颗粒感，请参"
-"考 :ref:`doc_multiple_resolutions_reducing_aliasing_on_downsampling` 进行操"
-"作。"
+"mipmap 的纹理在低分辨率设备上具有颗粒感，请参考 `Reducing aliasing on "
+"downsampling`_ 进行操作。"
 
 #: tutorials/rendering/multiple_resolutions.rst:323
 msgid "Mobile game in portrait mode"
@@ -82266,9 +82351,8 @@ msgstr ""
 "高度设置为 ``1920``\\ 。这样你就可以提供更高分辨率的 2D 资产，用更高的内存占"
 "用和文件大小换取更清晰的画面。很多设备拥有更高分辨率的显示屏（1440p），但因为"
 "智能手机的屏幕比较小，所以很难看出和 1080p 的区别。注意，这样做会让未做 "
-"mipmap 的纹理在低分辨率设备上具有颗粒感，请参"
-"考 :ref:`doc_multiple_resolutions_reducing_aliasing_on_downsampling` 进行操"
-"作。"
+"mipmap 的纹理在低分辨率设备上具有颗粒感，请参考 `Reducing aliasing on "
+"downsampling`_ 进行操作。"
 
 #: tutorials/rendering/multiple_resolutions.rst:335
 msgid "Set **Display > Window > Handheld > Orientation** to ``portrait``."
@@ -82404,8 +82488,8 @@ msgid ""
 "or :doc:`containers </tutorials/ui/gui_containers>`."
 msgstr ""
 "一旦考虑到不同分辨率的缩放, 请确保你的 *user interface* 也能为不同的长宽比进"
-"行缩放. 这可以使用 :ref:`anchors <doc_size_and_anchors>` 和/"
-"或 :ref:`containers <doc_gui_containers>` 来完成."
+"行缩放. 这可以使用 :doc:`anchors </tutorials/ui/size_and_anchors>` 和/"
+"或 :doc:`containers </tutorials/ui/gui_containers>` 来完成."
 
 #: tutorials/rendering/multiple_resolutions.rst:406
 msgid "Field of view scaling"
@@ -82557,8 +82641,8 @@ msgid ""
 "For more information on how Rebel Engine handles input, please read "
 "the :doc:`Input Event Tutorial</tutorials/inputs/inputevent>`."
 msgstr ""
-"关于 Godot 如何处理输入的更多信息，请阅读\\ :ref:`输入事件教程 "
-"<doc_inputevent>`\\ 。"
+"关于 Godot 如何处理输入的更多信息，请阅读\\ :doc:`输入事件教程 </tutorials/"
+"inputs/inputevent>`\\ 。"
 
 #: tutorials/rendering/viewports.rst:49
 msgid "Listener"
@@ -82574,8 +82658,8 @@ msgid ""
 "are using a custom :ref:`Viewport <class_Viewport>` to display "
 "your :ref:`World <class_World>`, don't forget to enable this!"
 msgstr ""
-"Godot 支持 3D 声音（在 2D 和 3D 节点中都支持）；更多信息可以在\\ :ref:`音频流"
-"教程 <doc_audio_streams>`\\ 中找到。为了使这种类型的声音能够被听"
+"Godot 支持 3D 声音（在 2D 和 3D 节点中都支持）；更多信息可以在\\ :doc:`音频流"
+"教程 </tutorials/audio/audio_streams>`\\ 中找到。为了使这种类型的声音能够被听"
 "到, :ref:`Viewport <class_Viewport>` 需要被启用为一个监听器(对于2D或3D). 如果"
 "你使用一个自定义的 :ref:`Viewport <class_Viewport>` 来显示你的 :ref:`World "
 "<class_World>`, 别忘了启用这个功能！"
@@ -82669,7 +82753,8 @@ msgid ""
 "multiple_resolutions>`"
 msgstr ""
 "根节点的 :ref:`Viewport <class_Viewport>` 用到项目设置中的拉伸选项。有关缩放"
-"和拉伸的更多信息，请访问\\ :ref:`多分辨率教程 <doc_multiple_resolutions>`"
+"和拉伸的更多信息，请访问\\ :doc:`多分辨率教程 </tutorials/rendering/"
+"multiple_resolutions>`"
 
 #: tutorials/rendering/viewports.rst:105
 msgid "Worlds"
@@ -82976,9 +83061,10 @@ msgid ""
 "step tutorial."
 msgstr ""
 "这个页面简单介绍了C#是什么, 以及如何在Godot中使用C#. 然后, 您可能想看"
-"看 :ref:`如何使用特定功能 <doc_c_sharp_features>`, 阅读有关 :ref:`C#和"
-"GDScript API 之间的差异 <doc_c_sharp_differences>` 并(重新)访问逐步教程"
-"的 :ref:`编写脚本部分 <doc_scripting>`."
+"看 :doc:`如何使用特定功能 </tutorials/scripting/c_sharp/c_sharp_features>`, "
+"阅读有关 :doc:`C#和GDScript API 之间的差异 </tutorials/scripting/c_sharp/"
+"c_sharp_differences>` 并(重新)访问逐步教程的 :doc:`编写脚本部分 </"
+"getting_started/step_by_step/scripting_languages>`."
 
 #: tutorials/scripting/c_sharp/c_sharp_basics.rst:22
 #, fuzzy
@@ -83069,8 +83155,8 @@ msgid ""
 "outlined in the :doc:`/development/compiling/compiling_with_mono` page."
 msgstr ""
 "如果你是从源码编译Godot, 请安装最新的稳定版 `Mono <https://www.mono-"
-"project.com/download/stable/>`__ , 并确保按照 :ref:`doc_compiling_with_mono` "
-"页面中概述的步骤在构建中启用Mono支持."
+"project.com/download/stable/>`__ , 并确保按照 :doc:`/development/compiling/"
+"compiling_with_mono` 页面中概述的步骤在构建中启用Mono支持."
 
 #: tutorials/scripting/c_sharp/c_sharp_basics.rst:69
 msgid "Configuring an external editor"
@@ -83322,9 +83408,9 @@ msgid ""
 "most concepts can be transferred easily from GDScript."
 msgstr ""
 "请注意, 虽然在某些细节上有所差别, 使用C#编写代码时, 大多数概念的工作方式是相"
-"通的. 如果您是刚接触Godot的新手, 此时您可能需要按照以下教"
-"程 :ref:`doc_scripting`. 虽然在文档中缺乏详细的C#示例, 但大部分概念都能够在"
-"GDScript轻松地阐述清楚."
+"通的. 如果您是刚接触Godot的新手, 此时您可能需要按照以下教程 :doc:`/"
+"getting_started/step_by_step/scripting_language`. 虽然在文档中缺乏详细的C#示"
+"例, 但大部分概念都能够在GDScript轻松地阐述清楚."
 
 #: tutorials/scripting/c_sharp/c_sharp_basics.rst:184
 msgid "Project setup and workflow"
@@ -83397,7 +83483,7 @@ msgstr ""
 #: tutorials/scripting/c_sharp/c_sharp_basics.rst:244
 #, fuzzy
 msgid "For more information, see the :doc:`c_sharp_differences` page."
-msgstr "有关更多信息, 请参见 :ref:`doc_c_sharp_differences` 页面."
+msgstr "有关更多信息, 请参见 :doc:`c_sharp_differences` 页面."
 
 #: tutorials/scripting/c_sharp/c_sharp_basics.rst:248
 msgid ""
@@ -83565,8 +83651,8 @@ msgid ""
 "generally uses ``PascalCase`` instead of the ``snake_case`` used in GDScript "
 "and C++."
 msgstr ""
-"如 :ref:`doc_c_sharp` 中所述,C#通常使用 ``PascalCase`` 而不是GDScript和C++中"
-"使用的 ``snake_case``."
+"如 :doc:`/tutorials/scripting/c_sharp/c_sharp_basics` 中所述,C#通常使用 "
+"``PascalCase`` 而不是GDScript和C++中使用的 ``snake_case``."
 
 #: tutorials/scripting/c_sharp/c_sharp_differences.rst:15
 msgid ""
@@ -83716,7 +83802,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "See also: :ref:`tutorials/scripting/c_sharp/c_sharp_features:c# signals`."
-msgstr "另见: :ref:`doc_c_sharp_signals` ."
+msgstr "另见: :ref:`tutorials/scripting/c_sharp/c_sharp_features:c# signals` ."
 
 #: tutorials/scripting/c_sharp/c_sharp_differences.rst:125
 msgid "`onready` keyword"
@@ -83730,7 +83816,8 @@ msgid ""
 "scripting/gdscript/gdscript_basics:onready keyword`). For example:"
 msgstr ""
 "GDScript能够推迟成员变量的初始化, 直到用 `onready` 调用ready函数(参"
-"见 :ref:`doc_gdscript_onready_keyword` ). 例如:"
+"见 :ref:`tutorials/scripting/gdscript/gdscript_basics:onready keyword` ). 例"
+"如:"
 
 #: tutorials/scripting/c_sharp/c_sharp_differences.rst:135
 msgid ""
@@ -84075,7 +84162,7 @@ msgstr "与其他脚本语言通信"
 msgid ""
 "This is explained extensively in :doc:`/tutorials/scripting/"
 "cross_language_scripting`."
-msgstr "在 :ref:`doc_cross_language_scripting` 中有详细解释。"
+msgstr "在 :doc:`/tutorials/scripting/cross_language_scripting` 中有详细解释。"
 
 #: tutorials/scripting/c_sharp/c_sharp_differences.rst:326
 #: tutorials/scripting/visual_script/nodes_purposes.rst:450
@@ -84270,7 +84357,8 @@ msgid ""
 "For a complete C# example, see the **Handling a signal** section in the step "
 "by step :doc:`/getting_started/step_by_step/scripting_languages` tutorial."
 msgstr ""
-"有关完整的C#示例, 请参阅逐步 :ref:`doc_scripting` 教程中的 **处理信号** 部分."
+"有关完整的C#示例, 请参阅逐步 :doc:`/getting_started/step_by_step/"
+"scripting_languages` 教程中的 **处理信号** 部分."
 
 #: tutorials/scripting/c_sharp/c_sharp_features.rst:82
 msgid ""
@@ -85353,8 +85441,8 @@ msgid ""
 "resources`), the script can be instantiated with :ref:`new() "
 "<class_CSharpScript_method_new>`."
 msgstr ""
-"从GDScript中使用C#并不麻烦. 加载后"
-"(见 :ref:`doc_gdscript_classes_as_resources`)脚本就可以使用 :ref:`new() "
+"从GDScript中使用C#并不麻烦. 加载后(见 :ref:`tutorials/scripting/gdscript/"
+"gdscript_basics:classes as resources`)脚本就可以使用 :ref:`new() "
 "<class_CSharpScript_method_new>` 进行实例化."
 
 #: tutorials/scripting/cross_language_scripting.rst:84
@@ -85401,7 +85489,8 @@ msgid ""
 "conversion and casting`."
 msgstr ""
 "在这里我们使用一个 :ref:`class_Object` , 但是也可以使用类型转换, "
-"如 :ref:`doc_c_sharp_features_type_conversion_and_casting` 章节所述."
+"如 :ref:`tutorials/scripting/c_sharp/c_sharp_features:type conversion and "
+"casting` 章节所述."
 
 #: tutorials/scripting/cross_language_scripting.rst:109
 msgid "Accessing fields"
@@ -85451,7 +85540,8 @@ msgid ""
 "classes extending :ref:`class_Object`."
 msgstr ""
 "牢记在给字段赋值时只能使用 GDScript 知道的类型. 实质上指的是 GDScript 的内置"
-"类型 :ref:`doc_gdscript` 或者 :ref:`class_Object` 的扩展类."
+"类型 :doc:`/tutorials/scripting/gdscript/gdscript_basics` 或"
+"者 :ref:`class_Object` 的扩展类."
 
 #: tutorials/scripting/cross_language_scripting.rst:151
 msgid "Calling methods"
@@ -85592,8 +85682,9 @@ msgid ""
 "tutorials/performance/threads/using_multiple_threads>`. This is a current "
 "limitation of the GDScript debugger."
 msgstr ""
-"如果代码是 :ref:`在线程 <doc_using_multiple_threads>` 中运行, 断点不会中断. "
-"这是当前GDScript调试器的一个限制."
+"如果代码是 :doc:`在线程 </tutorials/performance/threads/"
+"using_multiple_threads>` 中运行, 断点不会中断. 这是当前GDScript调试器的一个限"
+"制."
 
 #: tutorials/scripting/debug/debugger_panel.rst:40
 msgid "Errors"
@@ -85778,8 +85869,8 @@ msgid ""
 "Many of Rebel Editor's debugging tools are part of the Debugger panel, which "
 "you can find information about in :doc:`debugger_panel`."
 msgstr ""
-"Godot 的许多调试工具都是“调试器”面板的一部分，你可以"
-"在 :ref:`doc_debugger_panel` 中找到相关信息。"
+"Godot 的许多调试工具都是“调试器”面板的一部分，你可以在 :doc:`debugger_panel` "
+"中找到相关信息。"
 
 #: tutorials/scripting/debug/overview_of_debugging_tools.rst:22
 msgid "Debug menu options"
@@ -86343,7 +86434,7 @@ msgid ""
 msgstr ""
 "保存游戏状态和下载内容包之类的任务仍然需要对磁盘进行写入。为此，引擎保证特殊"
 "路径 ``user://`` 始终可写。根据运行项目的操作系统的不同，该路径会被解析为不同"
-"的路径。本地路径解析在 :ref:`doc_data_paths` 中有更加深入的介绍。"
+"的路径。本地路径解析在 :doc:`/tutorials/io/data_paths` 中有更加深入的介绍。"
 
 #: tutorials/scripting/filesystem.rst:81
 msgid "Host file system"
@@ -87093,8 +87184,8 @@ msgid ""
 "example </tutorials/scripting/gdnative/gdnative_c_example>`, so we highly "
 "recommend you read that first."
 msgstr ""
-"本教程建立在 :ref:`GDNative C example <doc_gdnative_c_example>` 中给出的信息"
-"之上, 因此我们强烈建议您先阅读."
+"本教程建立在 :doc:`GDNative C example </tutorials/scripting/gdnative/"
+"gdnative_c_example>` 中给出的信息之上, 因此我们强烈建议您先阅读."
 
 #: tutorials/scripting/gdnative/gdnative_cpp_example.rst:11
 #, fuzzy
@@ -87891,7 +87982,9 @@ msgstr ""
 msgid ""
 "GDNative is *not* a scripting language and has no relation to :doc:`GDScript "
 "</tutorials/scripting/gdscript/gdscript_basics>`."
-msgstr "GDNative *不是*\\ 脚本语言，与 :ref:`GDScript <doc_gdscript>` 无关。"
+msgstr ""
+"GDNative *不是*\\ 脚本语言，与 :doc:`GDScript </tutorials/scripting/gdscript/"
+"gdscript_basics>` 无关。"
 
 #: tutorials/scripting/gdnative/what_is_gdnative.rst:15
 msgid "Differences between GDNative and C++ modules"
@@ -87903,8 +87996,8 @@ msgid ""
 "You can use both GDNative and :doc:`C++ modules </development/engine/"
 "custom_modules_in_cpp>` to run C or C++ code in a Rebel Project."
 msgstr ""
-"GDNative 和 :ref:`C++ 模块 <doc_custom_modules_in_c++>`\\ 都可以用于在 Godot "
-"项目中执行 C 或 C++ 代码。"
+"GDNative 和 :doc:`C++ 模块 </development/engine/custom_modules_in_cpp>`\\ 都"
+"可以用于在 Godot 项目中执行 C 或 C++ 代码。"
 
 #: tutorials/scripting/gdnative/what_is_gdnative.rst:20
 #, fuzzy
@@ -87928,8 +88021,7 @@ msgid ""
 msgstr ""
 "与模块不同，GDNative 不需要编译引擎的源码，可以使你的作品更易于分发。它可以让"
 "你访问 GDScript、C# 使用的大多数 API，让你在编写游戏逻辑时能够完全控制性能。"
-"这是你在\\ :ref:`资产库 <doc_what_is_assetlib>`\\ 中以插件形式分发高性能代码"
-"的理想选择。"
+"中以插件形式分发高性能代码的理想选择。"
 
 #: tutorials/scripting/gdnative/what_is_gdnative.rst:32
 msgid "Also:"
@@ -87942,9 +88034,9 @@ msgid ""
 "<tutorials/scripting/gdnative/what_is_gdnative:version compatibility>`, you "
 "can use it with many other languages."
 msgstr ""
-"GDNative 并不仅限于 C 和 C++。得益于\\ :ref:`第三方绑定 "
-"<doc_what_is_gdnative_third_party_bindings>`\\ ，你也可以在很多其他语言中使"
-"用。"
+"GDNative 并不仅限于 C 和 C++。得益于\\ :ref:`第三方绑定 <tutorials/scripting/"
+"gdnative/what_is_gdnative:version compatibility>`\\ ，你也可以在很多其他语言"
+"中使用。"
 
 #: tutorials/scripting/gdnative/what_is_gdnative.rst:37
 msgid ""
@@ -87976,8 +88068,8 @@ msgid ""
 "We recommend :doc:`C++ modules </development/engine/custom_modules_in_cpp>` "
 "in cases where GDNative isn't enough:"
 msgstr ""
-"如果 GDNative 无法满足要求，我们推荐使用 :ref:`C++ 模块 "
-"<doc_custom_modules_in_c++>`\\ ："
+"如果 GDNative 无法满足要求，我们推荐使用 :doc:`C++ 模块 </development/engine/"
+"custom_modules_in_cpp>`\\ ："
 
 #: tutorials/scripting/gdnative/what_is_gdnative.rst:51
 msgid ""
@@ -88024,12 +88116,13 @@ msgstr "Godot 开发者官方支持以下 GDNative 语言绑定："
 #, fuzzy
 msgid ""
 "C++ :doc:`(tutorial) </tutorials/scripting/gdnative/gdnative_cpp_example>`"
-msgstr "C++ :ref:`（教程） <doc_gdnative_cpp_example>`"
+msgstr ""
+"C++ :doc:`（教程） </tutorials/scripting/gdnative/gdnative_cpp_example>`"
 
 #: tutorials/scripting/gdnative/what_is_gdnative.rst:68
 #, fuzzy
 msgid "C :doc:`(tutorial) </tutorials/scripting/gdnative/gdnative_c_example>`"
-msgstr "C :ref:`（教程） <doc_gdnative_c_example>`"
+msgstr "C :doc:`（教程） </tutorials/scripting/gdnative/gdnative_c_example>`"
 
 #: tutorials/scripting/gdnative/what_is_gdnative.rst:72
 msgid ""
@@ -88051,8 +88144,8 @@ msgid ""
 "version compatibility requirements as it relies on low-level *ptrcalls* to "
 "function."
 msgstr ""
-":ref:`与 Godot 本身不同 <doc_release_policy>`\\ ，GDNative 对版本兼容性的要求"
-"更严格，因为它依赖于底层的 *ptrcall* 来调用函数。"
+":ref:`与 Godot 本身不同 </about/release_policy>`\\ ，GDNative 对版本兼容性的"
+"要求更严格，因为它依赖于底层的 *ptrcall* 来调用函数。"
 
 #: tutorials/scripting/gdnative/what_is_gdnative.rst:82
 #, fuzzy
@@ -88580,7 +88673,8 @@ msgid ""
 "the :ref:`Frequently Asked Questions <about/faq:what is gdscript and why "
 "should i use it?>`."
 msgstr ""
-"关于GDScript历史的文档已被移至 :ref:`常见问题 <doc_faq_what_is_gdscript>` 中."
+"关于GDScript历史的文档已被移至 :ref:`常见问题 <about/faq:what is gdscript "
+"and why should i use it?>` 中."
 
 #: tutorials/scripting/gdscript/gdscript_basics.rst:23
 msgid "Example of GDScript"
@@ -88600,7 +88694,8 @@ msgid ""
 "read this tutorial: :doc:`/tutorials/scripting/gdscript/gdscript_advanced`."
 msgstr ""
 "如果你以前有使用C, C++或C#之类的静态类型语言的经验, 但以前从未使用过动态类型"
-"的语言, 建议你阅读此教程: :ref:`doc_gdscript_more_efficiently`."
+"的语言, 建议你阅读此教程: :doc:`/tutorials/scripting/gdscript/"
+"gdscript_advanced`."
 
 #: tutorials/scripting/gdscript/gdscript_basics.rst:115
 msgid ""
@@ -88916,7 +89011,9 @@ msgstr "remote"
 msgid ""
 "Networking RPC annotation. See :doc:`high-level multiplayer docs </tutorials/"
 "networking/high_level_multiplayer>`."
-msgstr "网络RPC注解. 参见 :ref:`高级多玩家文档 <doc_high_level_multiplayer>`."
+msgstr ""
+"网络RPC注解. 参见 :doc:`高级多玩家文档 </tutorials/networking/"
+"high_level_multiplayer>`."
 
 #: tutorials/scripting/gdscript/gdscript_basics.rst:203
 msgid "master"
@@ -89440,7 +89537,8 @@ msgstr "Unicode 代码点 ``XXXX`` (十六进制, 不区分大小写)"
 msgid ""
 "GDScript also supports :doc:`/tutorials/scripting/gdscript/"
 "gdscript_format_string`."
-msgstr "GDScript 也支持 :ref:`doc_gdscript_printf`."
+msgstr ""
+"GDScript 也支持 :doc:`/tutorials/scripting/gdscript/gdscript_format_string`."
 
 #: tutorials/scripting/gdscript/gdscript_basics.rst:405
 msgid "Vector built-in types"
@@ -90256,7 +90354,7 @@ msgid ""
 msgstr ""
 "如果脚本位于 ``res://addons/`` 目录下，\\ ``class_name`` 只有当脚本是某个\\ *"
 "已启用*\\ 的编辑器插件的一部分时，才会使节点出现在\\ **新建 Node** 对话框中。"
-"更多信息请参见 :ref:`doc_making_plugins`\\ 。"
+"更多信息请参见 :doc:`/tutorials/plugins/editor/making_plugins`\\ 。"
 
 #: tutorials/scripting/gdscript/gdscript_basics.rst:1122
 msgid "Here's a class file example:"
@@ -90437,7 +90535,7 @@ msgstr "导出"
 #: tutorials/scripting/gdscript/gdscript_basics.rst:1309
 #, fuzzy
 msgid "Documentation about exports has been moved to :doc:`gdscript_exports`."
-msgstr "有关导出的文档已移至 :ref:`doc_gdscript_exports`\\ 。"
+msgstr "有关导出的文档已移至 :doc:`gdscript_exports`\\ 。"
 
 #: tutorials/scripting/gdscript/gdscript_basics.rst:1312
 msgid "Setters/getters"
@@ -90485,8 +90583,8 @@ msgid ""
 "scripting/gdscript/gdscript_exports>` to the editor in tool scripts or "
 "plugins, for validating input."
 msgstr ""
-"在工具脚本或插件中，如果要为编辑器的\\ :ref:`导出变量 "
-"<doc_gdscript_exports>`\\ 进行输入校验时，Getter/Setter 格外好用。"
+"在工具脚本或插件中，如果要为编辑器的\\ :doc:`导出变量 </tutorials/scripting/"
+"gdscript/gdscript_exports>`\\ 进行输入校验时，Getter/Setter 格外好用。"
 
 #: tutorials/scripting/gdscript/gdscript_basics.rst:1350
 msgid ""
@@ -90516,7 +90614,7 @@ msgstr ""
 msgid ""
 "See :doc:`/tutorials/plugins/running_code_in_the_editor` for more "
 "information."
-msgstr "详情见 :ref:`doc_running_code_in_the_editor`\\ 。"
+msgstr "详情见 :doc:`/tutorials/plugins/running_code_in_the_editor`\\ 。"
 
 #: tutorials/scripting/gdscript/gdscript_basics.rst:1383
 msgid ""
@@ -90899,7 +90997,8 @@ msgid ""
 "gdscript/gdscript_basics:tool mode>`."
 msgstr ""
 "必须注意, 即使在编辑器中未运行脚本, 导出的属性仍可编辑. 可以与 :ref:`使用工具"
-"模式的脚本 <doc_gdscript_tool_mode>` 结合使用."
+"模式的脚本 <tutorials/scripting/gdscript/gdscript_basics:tool mode>` 结合使"
+"用."
 
 #: tutorials/scripting/gdscript/gdscript_exports.rst:139
 msgid "Exporting bit flags"
@@ -90969,9 +91068,9 @@ msgid ""
 "<class_Object_method_property_list_changed_notify>` after setting the "
 "exported variable's value."
 msgstr ""
-"在 :ref:`doc_gdscript_tool_mode` 下的脚本中更改一个导出变量的值时，检查器中对"
-"应的值不会自动更新。要更新它，请在设置导出变量的值之后，调"
-"用 :ref:`property_list_changed_notify() "
+"在 :ref:`tutorials/scripting/gdscript/gdscript_basics:tool mode` 下的脚本中更"
+"改一个导出变量的值时，检查器中对应的值不会自动更新。要更新它，请在设置导出变"
+"量的值之后，调用 :ref:`property_list_changed_notify() "
 "<class_Object_method_property_list_changed_notify>`\\ 。"
 
 #: tutorials/scripting/gdscript/gdscript_exports.rst:215
@@ -91002,7 +91101,8 @@ msgstr ""
 "<class_Object_method__get_property_list>`\\ 、\\ :ref:`_get() "
 "<class_Object_method__get_property_list>`\\ 、\\ :ref:`_get_property_list() "
 "<class_Object_method__get_property_list>` 方法进行定制的。详情可参"
-"阅 :ref:`doc_accessing_data_or_logic_from_object`\\ 。"
+"阅 :ref:`tutorials/best_practices/interfaces:accessing data or logic from an "
+"object`\\ 。"
 
 #: tutorials/scripting/gdscript/gdscript_exports.rst:228
 #, fuzzy
@@ -91010,8 +91110,8 @@ msgid ""
 "For binding properties using the above methods in C++, see :ref:`development/"
 "engine/object_class:binding properties`."
 msgstr ""
-"要在 C++ 中用上述方法绑定属性，请参"
-"阅 :ref:`doc_binding_properties_using_set_get_property_list`\\ 。"
+"要在 C++ 中用上述方法绑定属性，请参阅 :ref:`development/engine/"
+"object_class:binding properties`\\ 。"
 
 #: tutorials/scripting/gdscript/gdscript_exports.rst:231
 msgid ""
@@ -92166,7 +92266,8 @@ msgid ""
 "see :doc:`/tutorials/scripting/gdscript/gdscript_basics`."
 msgstr ""
 "如有必要，在后面加上 `class_name`\\ 。您可以使用此功能将 GDScript 文件转换为"
-"项目中的全局类型。有关更多信息，请参阅 :ref:`doc_gdscript`。"
+"项目中的全局类型。有关更多信息，请参阅 :doc:`/tutorials/scripting/gdscript/"
+"gdscript_basics`。"
 
 #: tutorials/scripting/gdscript/gdscript_styleguide.rst:664
 msgid "Then, add the `extends` keyword if the class extends a built-in type."
@@ -92263,8 +92364,8 @@ msgid ""
 "GDScript supports :doc:`optional static typing</tutorials/scripting/gdscript/"
 "static_typing>`."
 msgstr ""
-"从Godot 3.1开始,GDScript支持 :ref:`可选的静态类型 "
-"<doc_gdscript_static_typing>`."
+"从Godot 3.1开始,GDScript支持 :doc:`可选的静态类型 </tutorials/scripting/"
+"gdscript/static_typing>`."
 
 #: tutorials/scripting/gdscript/gdscript_styleguide.rst:788
 msgid "Declared types"
@@ -92311,8 +92412,8 @@ msgid ""
 "This option is also considered more :ref:`type-safe<tutorials/scripting/"
 "gdscript/static_typing:safe lines>` than the first."
 msgstr ""
-"这种做法也比第一种更\\ :ref:`类型安全"
-"<doc_gdscript_static_typing_safe_lines>`。"
+"这种做法也比第一种更\\ :ref:`类型安全<tutorials/scripting/gdscript/"
+"static_typing:safe lines>`。"
 
 #: tutorials/scripting/gdscript/index.rst:18
 #, fuzzy
@@ -92322,7 +92423,7 @@ msgid ""
 "or formatter."
 msgstr ""
 "如果你有兴趣编写与 GDScript 交互的第三方工具，如 linter 或 formatter，请参"
-"见 :ref:`doc_gdscript_grammar`\\ 。"
+"见 :doc:`/development/file_formats/gdscript_grammar`\\ 。"
 
 #: tutorials/scripting/gdscript/static_typing.rst:2
 msgid "Static typing in GDScript"
@@ -92474,7 +92575,8 @@ msgstr "当前, 您可以使用三类…类型:"
 #, fuzzy
 msgid ""
 ":ref:`Built-in <tutorials/scripting/gdscript/gdscript_basics:built-in types>`"
-msgstr ":ref:`内置类型 <doc_gdscript_builtin_types>`"
+msgstr ""
+":ref:`内置类型 <tutorials/scripting/gdscript/gdscript_basics:built-in types>`"
 
 #: tutorials/scripting/gdscript/static_typing.rst:102
 msgid ""
@@ -92490,8 +92592,8 @@ msgid ""
 "scripting/gdscript/gdscript_basics:registering named classes>` feature to "
 "register types in the editor."
 msgstr ""
-"您自己定义的类。查看新的 :ref:`class_name <doc_gdscript_basics_class_name>` "
-"特性，以便在编辑器中注册类型。"
+"您自己定义的类。查看新的 :ref:`class_name <tutorials/scripting/gdscript/"
+"gdscript_basics:registering named classes>` 特性，以便在编辑器中注册类型。"
 
 #: tutorials/scripting/gdscript/static_typing.rst:109
 #, fuzzy
@@ -92735,7 +92837,9 @@ msgstr "警告系统"
 msgid ""
 "Documentation about the GDScript warning system has been moved to :doc:`/"
 "tutorials/scripting/gdscript/warning_system`."
-msgstr "关于GDScript警告系统的文档已移至 :ref:`doc_gdscript_warning_system`."
+msgstr ""
+"关于GDScript警告系统的文档已移至 :doc:`/tutorials/scripting/gdscript/"
+"warning_system`."
 
 #: tutorials/scripting/gdscript/static_typing.rst:320
 msgid "Cases where you can't specify types"
@@ -92796,9 +92900,9 @@ msgid ""
 "too). It's here to help you avoid mistakes that are hard to spot during "
 "development, and that may lead to runtime errors."
 msgstr ""
-"GDScript 警告系统是对\\ :ref:`静态类型 <doc_gdscript_static_typing>`\\ 的补充"
-"（但也可以在没有静态类型的情况下工作）。它可以在开发过程中帮助您避免因难以发"
-"现的错误而导致运行时错误。"
+"GDScript 警告系统是对\\ :doc:`静态类型 </tutorials/scripting/gdscript/"
+"static_typing>`\\ 的补充（但也可以在没有静态类型的情况下工作）。它可以在开发"
+"过程中帮助您避免因难以发现的错误而导致运行时错误。"
 
 #: tutorials/scripting/gdscript/warning_system.rst:9
 msgid ""
@@ -93240,7 +93344,7 @@ msgid ""
 "instancing` for details."
 msgstr ""
 "考虑一个可以旋转并向鼠标射击的玩家角色. 每次点击鼠标按钮, 我们就在玩家的位置"
-"创建一个子弹的实例. 详见 :ref:`doc_instancing` ."
+"创建一个子弹的实例. 详见 :doc:`/getting_started/step_by_step/instancing` ."
 
 #: tutorials/scripting/instancing_with_signals.rst:23
 msgid ""
@@ -93561,8 +93665,8 @@ msgid ""
 "notifications system. To learn more about it, see :doc:`/tutorials/"
 "best_practices/notifications`."
 msgstr ""
-"这些函数在引擎内部会依赖 Godot 的底层通知系统。要了解相关学习，请参"
-"阅 :ref:`doc_godot_notifications`\\ 。"
+"这些函数在引擎内部会依赖 Godot 的底层通知系统。要了解相关学习，请参阅 :doc:`/"
+"tutorials/best_practices/notifications`\\ 。"
 
 #: tutorials/scripting/overridable_functions.rst:13
 msgid ""
@@ -93600,8 +93704,7 @@ msgid ""
 "To learn more about getting node references, "
 "read :doc:`nodes_and_scene_instances`."
 msgstr ""
-"要学习更多关于节点引用的知识，请阅"
-"读 :ref:`doc_nodes_and_scene_instances`\\ 。"
+"要学习更多关于节点引用的知识，请阅读 :doc:`nodes_and_scene_instances`\\ 。"
 
 #: tutorials/scripting/overridable_functions.rst:28
 msgid ""
@@ -93624,7 +93727,7 @@ msgid ""
 msgstr ""
 "虚函数 ``_process()`` 和 ``_physics_process()`` 可以分别用来对节点进行每帧和"
 "每物理帧的更新。要了解更多信息，请阅读专门的文档："
-"\\ :ref:`doc_idle_and_physics_processing`\\ 。"
+"\\ :doc:`idle_and_physics_processing`\\ 。"
 
 #: tutorials/scripting/overridable_functions.rst:99
 msgid ""
@@ -94180,9 +94283,10 @@ msgid ""
 "Inspector's creation dialog. This will auto-add your script to the Resource "
 "object you create."
 msgstr ""
-"如果脚本的语言支持\\ :ref:`脚本类 <doc_gdscript_basics_class_name>`\\ ，则可"
-"以简化该过程。仅为脚本定义名称会将其添加到“检查器”的创建对话框。这会将脚本自"
-"动添加到您创建的 Resource 对象中。"
+"如果脚本的语言支持\\ :ref:`脚本类 <tutorials/scripting/gdscript/"
+"gdscript_basics:registering named classes>`\\ ，则可以简化该过程。仅为脚本定"
+"义名称会将其添加到“检查器”的创建对话框。这会将脚本自动添加到您创建的 "
+"Resource 对象中。"
 
 #: tutorials/scripting/resources.rst:196
 msgid "Let's see some examples."
@@ -94526,8 +94630,8 @@ msgid ""
 msgstr ""
 "这些方法可以用来快速切换场景，但缺点是游戏会卡住，直到新场景被加载并运行。在"
 "游戏开发的某个时刻，最好使用进度条、动画化的指示器或线程（后台）加载来创建适"
-"当的加载画面。必须使用自动加载功能（请参阅下一章）"
-"和 :ref:`doc_background_loading` 手动完成此操作。"
+"当的加载画面。必须使用自动加载功能（请参阅下一章）和 :doc:`/tutorials/io/"
+"background_loading` 手动完成此操作。"
 
 #: tutorials/scripting/singletons_autoload.rst:2
 msgid "Singletons (AutoLoad)"
@@ -94702,8 +94806,8 @@ msgid ""
 msgstr ""
 "本教程将演示如何使用自动加载来构建场景切换器。基本的场景切换可以使"
 "用 :ref:`SceneTree.change_scene() <class_SceneTree_method_change_scene>`\\ "
-"（详情请参见 :ref:`doc_scene_tree`\\ ）。然而，如果在更改场景时需要更复杂的行"
-"为，这个方法可提供更多功能。"
+"（详情请参见 :doc:`scene_tree`\\ ）。然而，如果在更改场景时需要更复杂的行为，"
+"这个方法可提供更多功能。"
 
 #: tutorials/scripting/singletons_autoload.rst:114
 #, fuzzy
@@ -94804,8 +94908,8 @@ msgid ""
 "io/background_loading`."
 msgstr ""
 "当场景较小时，过渡是瞬时的。但是，如果你的场景比较复杂，则可能需要花费相当长"
-"的时间才能显示出来。要了解如何处理此问题，请参阅下一个教程："
-"\\ :ref:`doc_background_loading`。"
+"的时间才能显示出来。要了解如何处理此问题，请参阅下一个教程：\\ :doc:`/"
+"tutorials/io/background_loading`。"
 
 #: tutorials/scripting/singletons_autoload.rst:294
 msgid ""
@@ -96034,7 +96138,8 @@ msgid ""
 msgstr ""
 "本教程描述了一种在 Godot 中进行后期处理的高级方法。值得注意的是，它将解释如何"
 "编写使用深度缓冲区的后期处理着色器。您应该已经熟悉后期处理，特别是使用"
-"\\ :ref:`自定义后期处理教程 <doc_custom_postprocessing>`\\ 中介绍的方法。"
+"\\ :doc:`自定义后期处理教程 </tutorials/shaders/custom_postprocessing>`\\ 中"
+"介绍的方法。"
 
 #: tutorials/shaders/advanced_postprocessing.rst:12
 msgid ""
@@ -96061,8 +96166,9 @@ msgid ""
 "custom_postprocessing>`, we covered how to use a Viewport to make custom "
 "post-processing effects. There are two main drawbacks of using a Viewport:"
 msgstr ""
-"在\\ :ref:`自定义后期处理教程<doc_custom_postprocessing>`\\ 中，我们介绍了如"
-"何使用 Viewport 来制作自定义的后期处理特效。使用 Viewport 有两个主要的缺点："
+"在\\ :doc:`自定义后期处理教程</tutorials/shaders/custom_postprocessing>`\\ "
+"中，我们介绍了如何使用 Viewport 来制作自定义的后期处理特效。使用 Viewport 有"
+"两个主要的缺点："
 
 #: tutorials/shaders/advanced_postprocessing.rst:25
 msgid "The depth buffer cannot be accessed"
@@ -96322,8 +96428,8 @@ msgid ""
 "For detailed information on Rebel Shading Language, please refer to "
 "the :doc:`/tutorials/shaders/shader_reference/shading_language` reference."
 msgstr ""
-"关于Godot的着色语言的详细信息, 请参考 :ref:`Shading Language "
-"<doc_shading_language>` ."
+"关于Godot的着色语言的详细信息, 请参考 :doc:`Shading Language </tutorials/"
+"shaders/shader_reference/shading_language>` ."
 
 #: tutorials/shaders/converting_glsl_to_rebel_shaders.rst:12
 msgid "GLSL"
@@ -96381,8 +96487,8 @@ msgid ""
 msgstr ""
 "在GLSL中, 你可以使用属性来传递每个顶点的信息, 并且可以灵活地传递你想要的信"
 "息, 或多或少. 在Godot中, 你有一系列的输入属性, 包括 ``VERTEX`` (坐标), "
-"``COLOR`` , ``UV`` , ``UV2`` , ``NORMAL`` . 完整的列表, 请参见 :ref:`Shading "
-"language reference <doc_shading_language>` ."
+"``COLOR`` , ``UV`` , ``UV2`` , ``NORMAL`` . 完整的列表, 请参见 :doc:`Shading "
+"language reference </tutorials/shaders/shader_reference/shading_language>` ."
 
 #: tutorials/shaders/converting_glsl_to_rebel_shaders.rst:40
 #: tutorials/shaders/converting_glsl_to_rebel_shaders.rst:102
@@ -96632,7 +96738,8 @@ msgstr ""
 "在GLSL中，你可以用 ``precision`` 关键字在着色器的顶部定义一个给定类型的精度"
 "（float 或 int）。在 Godot 中，你可以在定义变量时将精度限定词 ``lowp``\\ 、"
 "\\ ``mediump``\\ 、\\ ``highp`` 放在类型前，根据需要设置单个变量的精度。更多"
-"信息请参见\\ :ref:`着色器语言 <doc_shading_language>`\\ 参考。"
+"信息请参见\\ :doc:`着色器语言 </tutorials/shaders/shader_reference/"
+"shading_language>`\\ 参考。"
 
 #: tutorials/shaders/converting_glsl_to_rebel_shaders.rst:131
 msgid "Shadertoy"
@@ -96981,8 +97088,8 @@ msgid ""
 "Tutorial </tutorials/shaders/screen-reading_shaders>` first."
 msgstr ""
 "实现自定义后期处理着色器的最简单方法是使用Godot的内置功能从屏幕纹理中读取. 如"
-"果您不熟悉这个, 您应该先阅读 :ref:`屏幕阅读着色器教程 <doc_screen-"
-"reading_shaders>` ."
+"果您不熟悉这个, 您应该先阅读 :doc:`屏幕阅读着色器教程 </tutorials/shaders/"
+"screen-reading_shaders>` ."
 
 #: tutorials/shaders/custom_postprocessing.rst:20
 #, fuzzy
@@ -97166,8 +97273,8 @@ msgid ""
 "For more information on how ``Viewport`` nodes work, see the :doc:`Viewports "
 "Tutorial </tutorials/rendering/viewports>`."
 msgstr ""
-"有关 ``Viewport`` 节点如何工作的更多信息，请参阅 :ref:`Viewport 教程 "
-"<doc_viewports>`。"
+"有关 ``Viewport`` 节点如何工作的更多信息，请参阅 :doc:`Viewport 教程 </"
+"tutorials/rendering/viewports>`。"
 
 #: tutorials/shaders/introduction_to_shaders.rst:2
 msgid "Introduction to shaders"
@@ -97181,7 +97288,7 @@ msgid ""
 "Language, see :doc:`/tutorials/shaders/shader_reference/shading_language`."
 msgstr ""
 "本页面会讲解什么是着色器，会为你综述其在 Godot 中的使用方法。引擎中着色语言的"
-"详细参考见 :ref:`doc_shading_language`\\ 。"
+"详细参考见 :doc:`/tutorials/shaders/shader_reference/shading_language`\\ 。"
 
 #: tutorials/shaders/introduction_to_shaders.rst:8
 msgid ""
@@ -97327,21 +97434,27 @@ msgstr "有以下类型可用："
 msgid ""
 ":doc:`spatial </tutorials/shaders/shader_reference/spatial_shader>` for 3D "
 "rendering."
-msgstr "用于 3D 渲染的 :ref:`spatial <doc_spatial_shader>`\\ 。"
+msgstr ""
+"用于 3D 渲染的 :doc:`spatial </tutorials/shaders/shader_reference/"
+"spatial_shader>`\\ 。"
 
 #: tutorials/shaders/introduction_to_shaders.rst:86
 #, fuzzy
 msgid ""
 ":doc:`canvas_item </tutorials/shaders/shader_reference/canvas_item_shader>` "
 "for 2D rendering."
-msgstr "用于 2D 渲染的 :ref:`canvas_item <doc_canvas_item_shader>`\\ 。"
+msgstr ""
+"用于 2D 渲染的 :doc:`canvas_item </tutorials/shaders/shader_reference/"
+"canvas_item_shader>`\\ 。"
 
 #: tutorials/shaders/introduction_to_shaders.rst:87
 #, fuzzy
 msgid ""
 ":doc:`particles </tutorials/shaders/shader_reference/particle_shader>` for "
 "particle systems."
-msgstr "用于粒子系统的 :ref:`particles <doc_particle_shader>`\\ 。"
+msgstr ""
+"用于粒子系统的 :doc:`particles </tutorials/shaders/shader_reference/"
+"particle_shader>`\\ 。"
 
 #: tutorials/shaders/introduction_to_shaders.rst:90
 #: tutorials/shaders/shader_reference/canvas_item_shader.rst:12
@@ -97421,8 +97534,8 @@ msgid ""
 "shaders/shader_reference/spatial_shader>` for an example."
 msgstr ""
 "默认情况下，Godot 会为你对顶点信息进行变换，这是将几何体投影到屏幕上所必须"
-"的。你可以使用渲染模式来自行变换数据；示例见 :ref:`Spatial 着色器文档 "
-"<doc_spatial_shader>`\\ 。"
+"的。你可以使用渲染模式来自行变换数据；示例见 :doc:`Spatial 着色器文档 </"
+"tutorials/shaders/shader_reference/spatial_shader>`\\ 。"
 
 #: tutorials/shaders/introduction_to_shaders.rst:131
 msgid "Fragment processor"
@@ -97490,8 +97603,9 @@ msgid ""
 "shader_reference/spatial_shader>`, respectively."
 msgstr ""
 "``light()`` 处理器在 2D 和 3D 中的工作方式不同；每种工作方式的详细描述请参阅"
-"它们对应的文档 :ref:`CanvasItem 着色器 <doc_canvas_item_shader>` "
-"and :ref:`Spatial 着色器 <doc_spatial_shader>`\\ 。"
+"它们对应的文档 :doc:`CanvasItem 着色器 <tutorials/shaders/shader_reference/"
+"canvas_item_shader>` and :doc:`Spatial 着色器 </tutorials/shaders/"
+"shader_reference/spatial_shader>`\\ 。"
 
 #: tutorials/shaders/making_trees.rst:2
 msgid "Making trees"
@@ -97669,10 +97783,10 @@ msgid ""
 "UV for the current fragment. As a result, this simple canvas_item fragment "
 "shader:"
 msgstr ""
-"Godot :ref:`doc_shading_language` 有一个特殊的纹理, ``SCREEN_TEXTURE`` (在3D"
-"的情况下, ``DEPTH_TEXTURE`` 代表深度). 它以屏幕的UV作为参数, 并返回一个带有颜"
-"色的RGB vec3. 一个特殊的内置变量.SCREEN_UV可以用来获取当前片段的UV. 因此, 这"
-"是个简单的canvas_item片段着色器:"
+"Godot :doc:`/tutorials/shaders/shader_reference/shading_language` 有一个特殊"
+"的纹理, ``SCREEN_TEXTURE`` (在3D的情况下, ``DEPTH_TEXTURE`` 代表深度). 它以屏"
+"幕的UV作为参数, 并返回一个带有颜色的RGB vec3. 一个特殊的内置变量.SCREEN_UV可"
+"以用来获取当前片段的UV. 因此, 这是个简单的canvas_item片段着色器:"
 
 #: tutorials/shaders/screen-reading_shaders.rst:32
 msgid "results in an invisible object, because it just shows what lies behind."
@@ -97979,7 +98093,7 @@ msgstr ""
 #: tutorials/shaders/shader_materials.rst:65
 #, fuzzy
 msgid "To learn more about visual shaders, read :doc:`visual_shaders`."
-msgstr "要了解更多关于可视化着色器的信息, 请阅读 :ref:`doc_visual_shaders` ."
+msgstr "要了解更多关于可视化着色器的信息, 请阅读 :doc:`visual_shaders` ."
 
 #: tutorials/shaders/shader_materials.rst:68
 msgid "Converting to ShaderMaterial"
@@ -98868,9 +98982,9 @@ msgid ""
 "converting_glsl_to_rebel_shaders` is a resource that will help you "
 "transition from regular GLSL to Rebel Shading Language."
 msgstr ""
-"如果您已经熟悉 GLSL，\\ :ref:`Godot 着色器迁移指南 "
-"<doc_converting_glsl_to_godot_shaders>`\\ 是一个帮助您从常规 GLSL 转换到 "
-"Godot 着色语言的资源。"
+"如果您已经熟悉 GLSL，\\ :doc:`Godot 着色器迁移指南 </tutorials/shaders/"
+"converting_glsl_to_rebel_shaders>`\\ 是一个帮助您从常规 GLSL 转换到 Godot 着"
+"色语言的资源。"
 
 #: tutorials/shaders/shader_reference/shading_language.rst:14
 msgid "Data types"
@@ -99808,20 +99922,23 @@ msgstr ""
 #, fuzzy
 msgid ""
 ":doc:`Spatial shaders </tutorials/shaders/shader_reference/spatial_shader>`"
-msgstr ":ref:`空间着色器 <doc_spatial_shader>`"
+msgstr ":doc:`空间着色器 </tutorials/shaders/shader_reference/spatial_shader>`"
 
 #: tutorials/shaders/shader_reference/shading_language.rst:628
 #, fuzzy
 msgid ""
 ":doc:`Canvas item shaders </tutorials/shaders/shader_reference/"
 "canvas_item_shader>`"
-msgstr ":ref:`画布物品着色器 <doc_canvas_item_shader>`"
+msgstr ""
+":doc:`画布物品着色器 </tutorials/shaders/shader_reference/"
+"canvas_item_shader>`"
 
 #: tutorials/shaders/shader_reference/shading_language.rst:629
 #, fuzzy
 msgid ""
 ":doc:`Particle shaders </tutorials/shaders/shader_reference/particle_shader>`"
-msgstr ":ref:`粒子着色器 <doc_particle_shader>`"
+msgstr ""
+":doc:`粒子着色器 </tutorials/shaders/shader_reference/particle_shader>`"
 
 #: tutorials/shaders/shader_reference/shading_language.rst:634
 msgid ""
@@ -99839,8 +99956,8 @@ msgid ""
 "please see the :doc:`Differences between GLES2 and GLES3 doc </tutorials/"
 "rendering/gles2_gles3_differences>`."
 msgstr ""
-"关于GLES2后端无法使用的功能列表, 请参见 :ref:`GLES2和GLES3之间的差异文档 "
-"<doc_gles2_gles3_differences>` ."
+"关于GLES2后端无法使用的功能列表, 请参见 :doc:`GLES2和GLES3之间的差异文档 </"
+"tutorials/rendering/gles2_gles3_differences>` ."
 
 #: tutorials/shaders/shader_reference/shading_language.rst:643
 msgid "vec_type **radians** (vec_type degrees)"
@@ -101327,8 +101444,8 @@ msgid ""
 "ways to avoid issues."
 msgstr ""
 "因为写入 ``ALPHA`` 而经过透明管线的着色器可能受到透明排序问题的影响。更多信息"
-"及解决方法请阅读\\ :ref:`3D 渲染限制页面的透明排序章节 "
-"<doc_3d_rendering_limitations_transparency_sorting>`\\ 。"
+"及解决方法请阅读\\ :ref:`3D 渲染限制页面的透明排序章节 <tutorials/3d/"
+"3d_rendering_limitations:Transparency sorting>`\\ 。"
 
 #: tutorials/shaders/shader_reference/spatial_shader.rst:304
 #, fuzzy
@@ -102140,8 +102257,7 @@ msgstr ""
 msgid ""
 "If you are not familiar with shaders, start by "
 "reading :doc:`introduction_to_shaders`."
-msgstr ""
-"如果你对着色器不熟悉，可以从阅读 :ref:`doc_introduction_to_shaders` 开始。"
+msgstr "如果你对着色器不熟悉，可以从阅读 :doc:`introduction_to_shaders` 开始。"
 
 #: tutorials/shaders/visual_shaders.rst:20
 msgid "Creating a VisualShader"
@@ -102450,8 +102566,8 @@ msgid ""
 "tutorials/shaders/introduction_to_shaders>`."
 msgstr ""
 "着色器是在 GPU 上运行，用来渲染图像的一种特殊程序。现代渲染都是通过着色器实现"
-"的。若想了解关于着色器更详细的说明，请查看\\ :ref:`着色器是什么 "
-"<doc_introduction_to_shaders>`\\ 。"
+"的。若想了解关于着色器更详细的说明，请查看\\ :doc:`着色器是什么 </tutorials/"
+"shaders/introduction_to_shaders>`\\ 。"
 
 #: tutorials/shaders/your_first_shader/your_first_2d_shader.rst:12
 msgid ""
@@ -102478,8 +102594,8 @@ msgid ""
 ":doc:`CanvasItem </tutorials/shaders/shader_reference/canvas_item_shader>` "
 "shaders are used to draw all 2D"
 msgstr ""
-":ref:`CanvasItem <doc_canvas_item_shader>` 着色器用于绘制 Godot 中的所有 2D "
-"的"
+":doc:`CanvasItem </tutorials/shaders/shader_reference/canvas_item_shader>` 着"
+"色器用于绘制 Godot 中的所有 2D 的"
 
 #: tutorials/shaders/your_first_shader/your_first_2d_shader.rst:24
 #, fuzzy
@@ -102487,7 +102603,8 @@ msgid ""
 "objects in Rebel Engine, while :doc:`Spatial </tutorials/shaders/"
 "shader_reference/spatial_shader>` shaders are used to draw all 3D objects."
 msgstr ""
-"对象，而 :ref:`Spatial <doc_spatial_shader>` 着色器则用于绘制所有 3D 对象。"
+"对象，而 :doc:`Spatial </tutorials/shaders/shader_reference/spatial_shader>` "
+"着色器则用于绘制所有 3D 对象。"
 
 #: tutorials/shaders/your_first_shader/your_first_2d_shader.rst:27
 #, fuzzy
@@ -102498,9 +102615,9 @@ msgid ""
 "objects with the same material, the material must be attached to each object."
 msgstr ""
 "要使用着色器，它必须要被附加到一个 :ref:`Material <class_material>`\\ （材"
-"质）上，而这个材质也必须附加在一个对象上。材质是一种 :ref:`Resource "
-"<doc_resources>`\\ 。若要使用同一材质绘制多个对象，该材质必须附加到每个对象"
-"上。"
+"质）上，而这个材质也必须附加在一个对象上。材质是一种 :doc:`Resource </"
+"tutorials/scripting/resources>`\\ 。若要使用同一材质绘制多个对象，该材质必须"
+"附加到每个对象上。"
 
 #: tutorials/shaders/your_first_shader/your_first_2d_shader.rst:32
 msgid ""
@@ -102633,9 +102750,9 @@ msgid ""
 "and the final output from it."
 msgstr ""
 "我们向内置变量 ``COLOR`` 中写入一个 ``vec4`` 来做到这点. ``vec4`` 是创建一个"
-"四维向量的简写形式. 若想进一步了解向量, 请参阅 :ref:`向量数学教程 "
-"<doc_vector_math>`. ``COLOR`` 变量既是片段函数的一个输入, 同时也是它的最终输"
-"出."
+"四维向量的简写形式. 若想进一步了解向量, 请参阅 :doc:`向量数学教程 </"
+"tutorials/math/vector_math>`. ``COLOR`` 变量既是片段函数的一个输入, 同时也是"
+"它的最终输出."
 
 #: tutorials/shaders/your_first_shader/your_first_2d_shader.rst:104
 #, fuzzy
@@ -102717,7 +102834,9 @@ msgstr "你可以像这样通过在着色器顶部定义来使用 Uniform 值：
 msgid ""
 "For more information about usage see the :doc:`Shading Language doc </"
 "tutorials/shaders/shader_reference/shading_language>`."
-msgstr "用法的更多详情请参见\\ :ref:`着色语言文档 <doc_shading_language>`\\ 。"
+msgstr ""
+"用法的更多详情请参见\\ :doc:`着色语言文档 </tutorials/shaders/"
+"shader_reference/shading_language>`\\ 。"
 
 #: tutorials/shaders/your_first_shader/your_first_2d_shader.rst:172
 msgid "Add a uniform to change the amount of blue in our Sprite."
@@ -102836,8 +102955,8 @@ msgid ""
 "topics than the :doc:`CanvasItem </tutorials/shaders/your_first_shader/"
 "your_first_2d_shader>` tutorial."
 msgstr ""
-"这个教程将说明如何编写空间着色器, 并将涵盖比 :ref:`CanvasItem "
-"<doc_your_first_canvasitem_shader>` 更多的主题."
+"这个教程将说明如何编写空间着色器, 并将涵盖比 :doc:`CanvasItem </tutorials/"
+"shaders/your_first_shader/your_first_2d_shader>` 更多的主题."
 
 #: tutorials/shaders/your_first_shader/your_first_3d_shader.rst:13
 #, fuzzy
@@ -102863,9 +102982,9 @@ msgid ""
 "fragment shader by writing an ocean water shader."
 msgstr ""
 "这是一个两部分的教程. 在第一部分中, 我们将学习如何在顶点函数中使用高度图的顶"
-"点位移来制作一个简单的地形. 在 :ref:`第二部分 "
-"<doc_your_second_spatial_shader>` 中, 我们将采用本教程中的概念, 通过编写一个"
-"海洋水着色器, 讲解如何在片段着色器中设置自定义材质."
+"点位移来制作一个简单的地形. 在 :doc:`第二部分 </tutorials/shaders/"
+"your_first_shader/your_second_3d_shader>` 中, 我们将采用本教程中的概念, 通过"
+"编写一个海洋水着色器, 讲解如何在片段着色器中设置自定义材质."
 
 #: tutorials/shaders/your_first_shader/your_first_3d_shader.rst:25
 #, fuzzy
@@ -103432,8 +103551,8 @@ msgid ""
 "For a full list of these parameters see the :doc:`spatial shader </tutorials/"
 "shaders/shader_reference/spatial_shader>` reference doc."
 msgstr ""
-"有关这些参数的完整列表, 请参见 :ref:`空间着色器 <doc_spatial_shader>` 参考文"
-"档."
+"有关这些参数的完整列表, 请参见 :doc:`空间着色器 </tutorials/shaders/"
+"shader_reference/spatial_shader>` 参考文档."
 
 #: tutorials/shaders/your_first_shader/your_second_3d_shader.rst:16
 msgid ""
@@ -103494,8 +103613,8 @@ msgid ""
 "For a full list of render modes see the :doc:`Spatial shader reference </"
 "tutorials/shaders/shader_reference/spatial_shader>`."
 msgstr ""
-"有关渲染模式的完整列表, 请参见空间着色器参考 :ref:`Spatial shader reference "
-"<doc_spatial_shader>`."
+"有关渲染模式的完整列表, 请参见空间着色器参考 :doc:`Spatial shader reference "
+"</tutorials/shaders/shader_reference/spatial_shader>`."
 
 #: tutorials/shaders/your_first_shader/your_second_3d_shader.rst:52
 msgid ""
@@ -103847,10 +103966,11 @@ msgid ""
 "the :ref:`Shading section <toc-learn-features-shading>` and the :ref:`3D "
 "<toc-learn-features-3d>` sections."
 msgstr ""
-"有关空间着色器的更多信息, 请阅读 :ref:`Shading Language "
-"<doc_shading_language>` 文档和 :ref:`Spatial Shaders <doc_spatial_shader>` 文"
-"档. 也可以看看 :ref:`Shading 部分 <toc-learn-features-shading>` 和 :ref:`3D "
-"<toc-learn-features-3d>` 部分的高级教程."
+"有关空间着色器的更多信息, 请阅读 :doc:`Shading Language </tutorials/shaders/"
+"shader_reference/shading_language>` 文档和 :doc:`Spatial Shaders </tutorials/"
+"shaders/shader_reference/spatial_shader>` 文档. 也可以看看 :ref:`Shading 部"
+"分 <toc-learn-features-shading>` 和 :ref:`3D <toc-learn-features-3d>` 部分的"
+"高级教程."
 
 #: tutorials/ui/bbcode_in_richtextlabel.rst:2
 msgid "BBCode in RichTextLabel"
@@ -103884,8 +104004,8 @@ msgid ""
 "source of the API documentation </contributing/"
 "updating_the_api_documentation>`."
 msgstr ""
-"大部分BBCode标签也可以用在 :ref:`XML 格式的类参考文档 "
-"<doc_updating_the_class_reference>` ."
+"大部分BBCode标签也可以用在 :doc:`XML 格式的类参考文档 </contributing/"
+"updating_the_api_documentation>` ."
 
 #: tutorials/ui/bbcode_in_richtextlabel.rst:20
 msgid "Using BBCode"
@@ -104059,8 +104179,7 @@ msgid ""
 "tag clicks`_."
 msgstr ""
 "显示 {url}，文字带有下划线并且可以点击。\\ **必须在“meta_clicked”信号中处理，"
-"点击才会生效。**\\ 参"
-"阅 :ref:`doc_bbcode_in_richtextlabel_handling_url_tag_clicks`\\ 。"
+"点击才会生效。**\\ 参阅 `Handling [url] tag clicks`_\\ 。"
 
 #: tutorials/ui/bbcode_in_richtextlabel.rst:75
 msgid "**url (ref)**"
@@ -104078,8 +104197,7 @@ msgid ""
 "tag clicks`_."
 msgstr ""
 "使 {text} 引用 <url>（下划线并可点击）。\\ **必须在“meta_clicked”信号中处理，"
-"点击才会生效。**\\ 参"
-"阅 :ref:`doc_bbcode_in_richtextlabel_handling_url_tag_clicks`\\ 。"
+"点击才会生效。**\\ 参阅 `Handling [url] tag clicks`_\\ 。"
 
 #: tutorials/ui/bbcode_in_richtextlabel.rst:79
 msgid "**image**"
@@ -104592,9 +104710,9 @@ msgid ""
 "mentioning due to their usefulness when drawing, so they will be detailed "
 "next:"
 msgstr ""
-"谈到绘制, 推荐看看这篇 :ref:`doc_custom_drawing_in_2d` 的教程. 同样的原理适用"
-"与控件绘制. 这里有些函数值得一提, 因为它们在绘制时有用, 所以接下来将进行详细"
-"说明:"
+"谈到绘制, 推荐看看这篇 :doc:`/tutorials/2d/custom_drawing_in_2d` 的教程. 同样"
+"的原理适用与控件绘制. 这里有些函数值得一提, 因为它们在绘制时有用, 所以接下来"
+"将进行详细说明:"
 
 #: tutorials/ui/custom_gui_controls.rst:22
 msgid "Checking control size"
@@ -104711,7 +104829,8 @@ msgstr ""
 msgid ""
 "For more information about events themselves, check the :doc:`/tutorials/"
 "inputs/inputevent` tutorial."
-msgstr "有关事件本身的详细信息，请查看 :ref:`doc_inputevent` 教程。"
+msgstr ""
+"有关事件本身的详细信息，请查看 :doc:`/tutorials/inputs/inputevent` 教程。"
 
 #: tutorials/ui/custom_gui_controls.rst:157
 msgid ""
@@ -104732,8 +104851,8 @@ msgid ""
 "handle different aspect ratios for basic multiple resolution handling in "
 "GUIs,"
 msgstr ""
-":ref:`锚点 <doc_size_and_anchors>`\\ 是处理 GUI 中基本多分辨率处理的不同纵横"
-"比的有效方法，"
+":doc:`锚点 </tutorials/ui/size_and_anchors>`\\ 是处理 GUI 中基本多分辨率处理"
+"的不同纵横比的有效方法，"
 
 #: tutorials/ui/gui_containers.rst:7
 msgid "For more complex user interfaces, they can become difficult to use."
@@ -105074,8 +105193,8 @@ msgid ""
 msgstr ""
 "对于用户界面来说，支持全键盘和控制器进行导航和交互是常见的。这有利于改善项目"
 "可访问性，不是每个人都能使用鼠标或触摸控制进行交互，或是让你的项目准备在"
-"\\ :ref:`游戏主机 <doc_consoles>`\\ 上运行，或者只是为了那些喜欢在PC上用控制"
-"器玩游戏的人。"
+"\\ :doc:`游戏主机 </tutorials/platforms/consoles>`\\ 上运行，或者只是为了那些"
+"喜欢在PC上用控制器玩游戏的人。"
 
 #: tutorials/ui/gui_navigation.rst:11
 #, fuzzy
@@ -105252,8 +105371,8 @@ msgstr ""
 "皮肤系统由 :ref:`Theme <class_Theme>` 资源驱动。每个 Godot 项目都有一个固有的"
 "默认主题，其中包含内置控制节点使用的设置。这就是使控件具有开箱即用的独特外观"
 "的原因。然而，主题仅用于描述配置，并且每个单独控件的工作仍然是按照显示自身所"
-"需的方式使用该配置。在实现 :ref:`你自己的自定义控件 "
-"<doc_custom_gui_controls>`\\ 时要记住这一点很重要。"
+"需的方式使用该配置。在实现 :doc:`你自己的自定义控件 </tutorials/ui/"
+"custom_gui_controls>`\\ 时要记住这一点很重要。"
 
 #: tutorials/ui/gui_skinning.rst:40
 #, fuzzy
@@ -105266,7 +105385,8 @@ msgid ""
 msgstr ""
 "甚至 Godot 编辑器本身也依赖于默认主题。但它看起来与 Godot 项目不同，因为它在"
 "默认主题之上应用了自己高度定制的主题。原则上，这与在您的游戏中的工作方式完全"
-"相同，\\ :ref:`如下所述 <doc_gui_theme_in_project>`\\ 。"
+"相同，\\ :ref:`如下所述 <tutorials/ui/gui_skinning:customizing a "
+"project>`\\ 。"
 
 #: tutorials/ui/gui_skinning.rst:46
 msgid "Theme items"
@@ -105631,8 +105751,8 @@ msgid ""
 "starting."
 msgstr ""
 "本文介绍如何通过 Godot 编辑器及其主题编辑器工具来创建并管理 UI 主题。我们推荐"
-"您在开始前先阅读 :ref:`doc_gui_skinning`\\ ，熟悉一下 GUI 换皮/主题背后的基本"
-"知识。"
+"您在开始前先阅读 :doc:`gui_skinning`\\ ，熟悉一下 GUI 换皮/主题背后的基本知"
+"识。"
 
 #: tutorials/ui/gui_using_theme_editor.rst:8
 msgid ""
@@ -106101,7 +106221,7 @@ msgid ""
 "Rebel Engine and/or game development."
 msgstr ""
 "虽然本教程可以由初学者完成，但如果你是 Godot 和/或游戏开发的新手，强烈建议你"
-"完成 :ref:`doc_your_first_2d_game`\\ 。"
+"完成 :doc:`/getting_started/first_2d_game/index`\\ 。"
 
 #: tutorials/vr/openvr/vr_starter_tutorial_part_one.rst:31
 #, fuzzy
@@ -106189,8 +106309,8 @@ msgid ""
 "<class_MeshInstance>` node."
 msgstr ""
 "如果您对如何使用 :ref:`Viewport <class_Viewport>` 节点在 :ref:`MeshInstance "
-"<class_MeshInstance>` 节点上显示 UI 感兴趣, 请参"
-"阅 :ref:`doc_viewport_as_texture` 教程. 它涵盖了如何使用 :ref:`Viewport "
+"<class_MeshInstance>` 节点上显示 UI 感兴趣, 请参阅 :doc:`/tutorials/shaders/"
+"using_viewport_as_texture` 教程. 它涵盖了如何使用 :ref:`Viewport "
 "<class_Viewport>` 作为渲染纹理, 以及如何将该纹理应用到 :ref:`MeshInstance "
 "<class_MeshInstance>` 节点上."
 
@@ -110387,7 +110507,8 @@ msgid ""
 "As with any other Android device, please follow the instructions for :doc:`/"
 "tutorials/export/exporting_for_android`."
 msgstr ""
-"要在设备或模拟器上运行, 请按照以下说明操作: :ref:`doc_exporting_for_ios`."
+"要在设备或模拟器上运行, 请按照以下说明操作: :doc:`/tutorials/export/"
+"exporting_for_android`."
 
 #: tutorials/vr/openxr/deploy_on_quest.rst:18
 msgid "Enable developer mode on the Quest"
@@ -110990,8 +111111,9 @@ msgid ""
 "vr_starter_tutorial_part_one>` in the official documentation may focus on "
 "OpenVR, but almost everything there applies to OpenXR as well."
 msgstr ""
-"官方文档中的 :ref:`VR 入门教程 <doc_vr_starter_tutorial_part_one>`\\ 可能是围"
-"绕 OpenVR 的，但几乎所有内容都同样适用于 OpenXR。"
+"官方文档中的 :doc:`VR 入门教程 </tutorials/vr/openvr/"
+"vr_starter_tutorial_part_one>`\\ 可能是围绕 OpenVR 的，但几乎所有内容都同样适"
+"用于 OpenXR。"
 
 #: tutorials/vr/openxr/index.rst:52
 msgid ""
@@ -111142,7 +111264,7 @@ msgid ""
 "See :doc:`enable_plugin`."
 msgstr ""
 "如果你的编辑器中没有显示这个下拉菜单，请确保该插件已启用。请参"
-"阅 :ref:`doc_enable_plugin`\\ 。"
+"阅 :doc:`enable_plugin`\\ 。"
 
 #: tutorials/vr/xr_primer.rst:2
 msgid "AR/VR primer"
