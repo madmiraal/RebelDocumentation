@@ -753,7 +753,8 @@ dictionary of that name.
 Functions
 ~~~~~~~~~
 
-Functions always belong to a `class <Classes_>`_. The scope priority for
+Functions always belong to a :ref:`class <tutorials/scripting/gdscript/gdscript_basics:Classes>`.
+The scope priority for
 variable look-up is: local → class member → global. The ``self`` variable is
 always available and is provided as an option for accessing class members, but
 is not always required (and should *not* be sent as the function's first
