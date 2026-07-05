@@ -107847,15 +107847,16 @@ msgstr ""
 "``VR_Interactable_Rigidbody``."
 
 #: tutorials/vr/openvr/vr_starter_tutorial_part_one.rst:833
+#, fuzzy
 msgid ""
 "What this section of code does is that if a :ref:`RigidBody "
 "<class_RigidBody>` was found using the grab :ref:`Area <class_Area>` "
 "or :ref:`Raycast <class_Raycast>`, it sets it up so that it can be carried "
 "by the VR controller."
 msgstr ""
-"这段代码的作用是, 如果使用抓取 :ref:`Area <class_RigidBody>` "
-"或 :ref:`Raycast <class_Raycast>` 找到了 :ref:`RigidBody <class_RigidBody>`, "
-"它就会将其设置为可以被VR控制器携带."
+"这段代码的作用是, 如果 :ref:`RigidBody <class_RigidBody>` 找到了, 使用抓"
+"取 :ref:`Area <class_Area>` 或 :ref:`Raycast <class_Raycast>`, 它就会将其设置"
+"为可以被VR控制器携带."
 
 #: tutorials/vr/openvr/vr_starter_tutorial_part_one.rst:837
 msgid "``_throw_rigidbody`` function step-by-step explanation"
