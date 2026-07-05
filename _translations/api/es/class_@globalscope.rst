@@ -998,11 +998,11 @@ enum **KeyList**:
 
 - **KEY_UNDERSCORE** = **95** --- Tecla \_.
 
-- **KEY_QUOTELEFT** = **96** --- Tecla `.
+- **KEY_QUOTELEFT** = **96** --- Tecla \`.
 
 - **KEY_BRACELEFT** = **123** --- Tecla {.
 
-- **KEY_BAR** = **124** --- Tecla |.
+- **KEY_BAR** = **124** --- Tecla \|.
 
 - **KEY_BRACERIGHT** = **125** --- Tecla }.
 
