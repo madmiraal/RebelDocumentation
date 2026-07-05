@@ -37,9 +37,9 @@ msgid ""
 "every contributor that submits code to the project does it under this same "
 "license and keeps ownership of the contribution."
 msgstr ""
-"Godot 是根据 `MIT License <https://opensource.org/licenses/MIT>`_ 创建并分发"
-"的。它也没有唯一的所有者，因为向该项目提交代码的每个贡献者都在相同的许可证下"
-"执行该代码，并保留贡献的所有权。"
+"Rebel Engine 是根据 `MIT License <https://opensource.org/licenses/MIT>`_ 创建"
+"并分发的。它也没有唯一的所有者，因为向该项目提交代码的每个贡献者都在相同的许"
+"可证下执行该代码，并保留贡献的所有权。"
 
 #: about/complying_with_licenses.rst:12
 msgid ""
@@ -143,7 +143,7 @@ msgid ""
 "your Rebel projects under any license and to create commercial games with "
 "the engine."
 msgstr ""
-"您的游戏无需遵循相同的许可证。您可以选择任意许可证自由地发布自己的 Godot 项"
+"您的游戏无需遵循相同的许可证。您可以选择任意许可证自由地发布自己的 Rebel 项"
 "目，并使用该引擎创建商业游戏。"
 
 #: about/complying_with_licenses.rst:50
@@ -228,7 +228,7 @@ msgid ""
 "license`` in your game documentation or credits would be an acceptable way "
 "to satisfy the license terms."
 msgstr ""
-"Godot 引擎开发者认为，在你游戏的文档或者制作组信息中加入指向 "
+"Rebel Toolbox 引擎开发者认为，在你游戏的文档或者制作组信息中加入指向 "
 "``godotengine.org/license`` 的链接就可以满足许可证的条款。"
 
 #: about/complying_with_licenses.rst:94
@@ -245,10 +245,10 @@ msgid ""
 "export templates, all libraries are enabled. This means you need to provide "
 "attribution for all the libraries listed below."
 msgstr ""
-"Godot本身包含 `第三方 <https://github.com/godotengine/godot/blob/master/"
-"COPYRIGHT.txt>`_ 编写的软件. 大多数软件不需要包含许可证, 但有些需要. 如果这些"
-"软件在你的Godot导出模板中被编译, 请确保这样做. 如果你使用的是官方的导出模板, "
-"所有的库都会被启用. 这意味着你需要为下面列出的所有库提供归属."
+"Rebel Engine本身包含 `第三方 <https://github.com/godotengine/godot/blob/"
+"master/COPYRIGHT.txt>`_ 编写的软件. 大多数软件不需要包含许可证, 但有些需要. "
+"如果这些软件在你的Rebel Engine导出模板中被编译, 请确保这样做. 如果你使用的是"
+"官方的导出模板, 所有的库都会被启用. 这意味着你需要为下面列出的所有库提供归属."
 
 #: about/complying_with_licenses.rst:103
 msgid "Here's a list of libraries requiring attribution:"
@@ -265,8 +265,8 @@ msgid ""
 "license requires attribution, so the following text must be included "
 "together with the Rebel Toolbox license:"
 msgstr ""
-"Godot 使用 `FreeType <https://www.freetype.org/>`_ 来渲染字体。它的许可证要求"
-"注明出处，因此以下文本必须和 Godot 许可证一起加入："
+"Rebel Engine 使用 `FreeType <https://www.freetype.org/>`_ 来渲染字体。它的许"
+"可证要求注明出处，因此以下文本必须和 Rebel Toolbox 许可证一起加入："
 
 #: about/complying_with_licenses.rst:112
 msgid ""
@@ -296,8 +296,8 @@ msgid ""
 "Rebel Engine uses the `ENet <http://enet.bespin.org/>`__ library to handle "
 "high-level multiplayer. ENet has similar licensing terms as Rebel Engine:"
 msgstr ""
-"Godot包括 `ENet <http://enet.bespin.org/>`_ 库来处理高级多人游戏.ENet的许可条"
-"款与Godot类似:"
+"Rebel Engine包括 `ENet <http://enet.bespin.org/>`_ 库来处理高级多人游戏.ENet"
+"的许可条款与Rebel Engine类似:"
 
 #: about/complying_with_licenses.rst:128
 msgid "Copyright (c) 2002-2020 Lee Salzman"
@@ -314,8 +314,8 @@ msgid ""
 "tls/>`__. The Apache license needs to be complied to by including the "
 "following text:"
 msgstr ""
-"使用 Godot 3.1 或以上版本的项目包含了 `mbed TLS <https://tls.mbed.org>`_\\ 。"
-"需要通过包含以下文本来遵守 `MBedTLS <https://tls.mbed.org>`_ Apache 许可证："
+"使用 Rebel Engine 的项目包含了 `mbed TLS <https://tls.mbed.org>`_\\ 。需要通"
+"过包含以下文本来遵守 `MBedTLS <https://tls.mbed.org>`_ Apache 许可证："
 
 #: about/complying_with_licenses.rst:142
 msgid "Copyright The Mbed TLS Contributors"
@@ -370,7 +370,7 @@ msgstr "常见问题"
 msgid ""
 "What can I do with Rebel Toolbox? How much does it cost? What are the "
 "license terms?"
-msgstr "可以用 Godot 做什么？需要花多少钱？有哪些许可条款？"
+msgstr "可以用 Rebel Toolbox 做什么？需要花多少钱？有哪些许可条款？"
 
 #: about/faq.rst:10
 #, fuzzy
@@ -380,9 +380,9 @@ msgid ""
 "<https://opensource.org/license/MIT>`__ MIT license. This means it is free "
 "as in \"free speech\" as well as in \"free beer.\""
 msgstr ""
-"Godot 是 `自由且开源的软件 <https://en.wikipedia.org/wiki/Free_and_open-"
-"source_software>`_\\ 可在 `OSI 认可的 <https://opensource.org/licenses/"
-"MIT>`_ MIT 许可证下使用，不仅是自由的而且同样免费。"
+"Rebel Engine 是 `自由且开源的软件 <https://en.wikipedia.org/wiki/"
+"Free_and_open-source_software>`_\\ 可在 `OSI 认可的 <https://opensource.org/"
+"licenses/MIT>`_ MIT 许可证下使用，不仅是自由的而且同样免费。"
 
 #: about/faq.rst:12
 msgid "In short:"
@@ -393,7 +393,7 @@ msgstr "简而言之："
 msgid ""
 "You are free to download and use Rebel Engine for any purpose: personal, non-"
 "profit, commercial, or otherwise."
-msgstr "你可以自由下载和使用 Godot，用于个人、非营利、商业等任何目的。"
+msgstr "你可以自由下载和使用 Rebel Engine，用于个人、非营利、商业等任何目的。"
 
 #: about/faq.rst:15
 #, fuzzy
@@ -401,8 +401,8 @@ msgid ""
 "You are free to modify, distribute, redistribute, and remix Rebel Engine to "
 "your heart's content, for any reason, both non-commercially and commercially."
 msgstr ""
-"无论出于任何原因，商业还是非商业，您都可以根据自己的心之所向，自由地对 Godot "
-"进行修改、分发、再分发、改版。"
+"无论出于任何原因，商业还是非商业，您都可以根据自己的心之所向，自由地对 Rebel "
+"Engine 进行修改、分发、再分发、改版。"
 
 #: about/faq.rst:17
 #, fuzzy
@@ -412,9 +412,9 @@ msgid ""
 "creativecommons.org/licenses/by/4.0/>`__) license, with attribution to "
 "\"Rebel Toolbox Contributors\""
 msgstr ""
-"该附带文档的所有内容均在宽松的知识共享署名 3.0（\\ `CC-BY 3.0 <https://"
-"creativecommons.org/licenses/by/3.0/>`_\\ ）许可下发布，署名为“Juan "
-"Linietsky、Ariel Manzur 和 Godot 引擎社区。”"
+"该附带文档的所有内容均在宽松的知识共享署名 4.0（\\ `CC-BY 4.0 <https://"
+"creativecommons.org/licenses/by/3.0/>`_\\ ）许可下发布，署名为“Rebel Toolbox "
+"Contributors。”"
 
 #: about/faq.rst:20
 #, fuzzy
@@ -423,8 +423,8 @@ msgid ""
 "that some third-party libraries included with Rebel Engine's source code may "
 "have different licenses."
 msgstr ""
-"Logo 徽标和图标均在相同的 CC 共享许可下。注意，Godot 的源代码中包含的某些第三"
-"方库可能具有不同的许可。"
+"Logo 徽标和图标均在相同的 CC 共享许可下。注意，Rebel Engine 的源代码中包含的"
+"某些第三方库可能具有不同的许可。"
 
 #: about/faq.rst:24
 #, fuzzy
@@ -434,10 +434,11 @@ msgid ""
 "github.com/RebelToolbox/RebelEngine/blob/main/LICENSE>`__ files in the Rebel "
 "Engine repository."
 msgstr ""
-"有关详细信息，请查看 Godot 仓库中的 `COPYRIGHT.txt <https://github.com/"
-"godotengine/godot/blob/master/COPYRIGHT.txt>`_ 以及 `LICENSE.txt <https://"
-"github.com/godotengine/godot/blob/master/LICENSE.txt>`_ 和 `LOGO_LICENSE.txt "
-"<https://github.com/godotengine/godot/blob/master/LOGO_LICENSE.md>`_ 文件。"
+"有关详细信息，请查看 Rebel Engine 仓库中的 `COPYRIGHT.txt <https://"
+"github.com/godotengine/godot/blob/master/COPYRIGHT.txt>`_ 以及 `LICENSE.txt "
+"<https://github.com/godotengine/godot/blob/master/LICENSE.txt>`_ 和 "
+"`LOGO_LICENSE.txt <https://github.com/godotengine/godot/blob/master/"
+"LOGO_LICENSE.md>`_ 文件。"
 
 #: about/faq.rst:26
 #, fuzzy
@@ -445,12 +446,13 @@ msgid ""
 "Also, see `the license page on the Rebel Toolbox website <https://"
 "rebeltoolbox.com/license>`__."
 msgstr ""
-"还可以查阅 `Godot 网站上的许可页面 <https://godotengine.org/license>`_\\ 。"
+"还可以查阅 `Rebel Toolbox 网站上的许可页面 <https://godotengine.org/"
+"license>`_\\ 。"
 
 #: about/faq.rst:29
 #, fuzzy
 msgid "Which platforms are supported by Rebel Engine?"
-msgstr "Godot 支持哪些平台？"
+msgstr "Rebel Engine 支持哪些平台？"
 
 #: about/faq.rst:31
 msgid "**For the editor:**"
@@ -533,7 +535,8 @@ msgstr "同时支持 32 位和 64 位的二进制文件，默认为 64 位。"
 msgid ""
 "Some users also report building and using Rebel Engine successfully on ARM-"
 "based systems with Linux, like the Raspberry Pi."
-msgstr "一些用户也在 Linux 的基于 ARM 的系统上成功构建和使用 Godot，如树莓派。"
+msgstr ""
+"一些用户也在 Linux 的基于 ARM 的系统上成功构建和使用 Rebel Engine，如树莓派。"
 
 #: about/faq.rst:52
 msgid ""
@@ -551,12 +554,12 @@ msgid ""
 "export>` and :ref:`compiling Rebel Engine yourself <toc-devel-compiling>`."
 msgstr ""
 "有关这方面的更多信息，请参阅\\ :ref:`导出 <toc-learn-workflow-export>`\\ 和"
-"\\ :ref:`编译 Godot <toc-devel-compiling>` 章节。"
+"\\ :ref:`编译 Rebel Engine <toc-devel-compiling>` 章节。"
 
 #: about/faq.rst:60
 #, fuzzy
 msgid "Which programming languages are supported in Rebel Engine?"
-msgstr "Godot 支持哪些编程语言？"
+msgstr "Rebel Engine 支持哪些编程语言？"
 
 #: about/faq.rst:62
 #, fuzzy
@@ -565,8 +568,8 @@ msgid ""
 "Scripting, C#, and C++. See the subcategories for each language in "
 "the :ref:`scripting <toc-learn-scripting>` section."
 msgstr ""
-"Godot 官方支持的语言是 GDScript、Visual Scripting、C# 和 C++。请参阅\\ :ref:`"
-"编写脚本 <toc-learn-scripting>`\\ 章节中的各个语言的相关段落。"
+"Rebel Engine 官方支持的语言是 GDScript、Visual Scripting、C# 和 C++。请参阅"
+"\\ :ref:`编写脚本 <toc-learn-scripting>`\\ 章节中的各个语言的相关段落。"
 
 #: about/faq.rst:66
 #, fuzzy
@@ -579,10 +582,10 @@ msgid ""
 "GDScript will provide a fast, friendly, and capable way of developing your "
 "games."
 msgstr ""
-"如果你刚开始接触 Godot 或一般的游戏开发，推荐学习并使用 GDScript 语言，因为它"
-"是 Godot 的原生语言。虽然从长远来看，脚本语言的性能往往不如低级语言，但对于原"
-"型设计、开发最小可行产品（MVP）和关注上市时间（TTM）来说，GDScript 将提供一种"
-"快速、友好、有能力的游戏开发方式。"
+"如果你刚开始接触 Rebel Engine 或一般的游戏开发，推荐学习并使用 GDScript 语"
+"言，因为它是 Rebel Engine 的原生语言。虽然从长远来看，脚本语言的性能往往不如"
+"低级语言，但对于原型设计、开发最小可行产品（MVP）和关注上市时间（TTM）来说，"
+"GDScript 将提供一种快速、友好、有能力的游戏开发方式。"
 
 #: about/faq.rst:73
 #, fuzzy
@@ -616,11 +619,12 @@ msgid ""
 "you, check out the :doc:`GDScript scripting guide </tutorials/scripting/"
 "gdscript/gdscript_basics>`."
 msgstr ""
-"GDScript 是 Godot 所集成的脚本语言。它是从头开始构建的，目标是用最少的代码让 "
-"Godot 的潜力最大化，使新手和专业开发人员都能尽可能快地利用 Godot 的优势。如果"
-"你曾经用像 Python 这样的语言写过任何东西，那么你会感到宾至如归。如果您想了解"
-"关于 GDScript 的示例、历史、以及完整的功能介绍，请查看 :doc:`GDScript 脚本指"
-"南 </tutorials/scripting/gdscript/gdscript_basics>`\\ 。"
+"GDScript 是 Rebel Engine 所集成的脚本语言。它是从头开始构建的，目标是用最少的"
+"代码让 Rebel Engine 的潜力最大化，使新手和专业开发人员都能尽可能快地利用 "
+"Rebel Engine 的优势。如果你曾经用像 Python 这样的语言写过任何东西，那么你会感"
+"到宾至如归。如果您想了解关于 GDScript 的示例、历史、以及完整的功能介绍，请查"
+"看 :doc:`GDScript 脚本指南 </tutorials/scripting/gdscript/"
+"gdscript_basics>`\\ 。"
 
 #: about/faq.rst:90
 msgid ""
@@ -645,11 +649,11 @@ msgid ""
 "time trying to get a small set of incremental features working across a "
 "large set of languages."
 msgstr ""
-"为 Godot 创建一个紧密集成的自定义脚本语言的原因有两点：首先，它减少了启动和运"
-"行Godot 所需的时间，使开发人员能够快速上手引擎，提高了生产力；其次，它减少了"
-"维护的总体负担，减少了问题的维度，并允许引擎的开发人员专注于排除错误并改进与"
-"引擎核心相关的功能——而不是花费大量时间来尝试在一大堆语言中获得一小组增量功"
-"能。"
+"为 Rebel Engine 创建一个紧密集成的自定义脚本语言的原因有两点：首先，它减少了"
+"启动和运行Rebel Engine 所需的时间，使开发人员能够快速上手引擎，提高了生产力；"
+"其次，它减少了维护的总体负担，减少了问题的维度，并允许引擎的开发人员专注于排"
+"除错误并改进与引擎核心相关的功能——而不是花费大量时间来尝试在一大堆语言中获得"
+"一小组增量功能。"
 
 #: about/faq.rst:102
 #, fuzzy
@@ -664,12 +668,12 @@ msgid ""
 "Just like Rebel Engine, once you see how powerful it is and rapid your "
 "development becomes, we think GDScript will grow on you."
 msgstr ""
-"由于 Godot 是开源项目，因此从一开始就必须优先考虑更加集成和无缝的体验，而不是"
-"通过支持大多人熟悉的编程语言来吸引更多用户——特别是在支持那些大多人熟悉的语言"
-"会导致更糟糕的体验时。我们理解你更想在 Godot 中使用其他语言（请参阅上面支持的"
-"选项列表）。话虽如此，如果你还没试过 GDScript，先试\\ **三天**\\ 。就像 "
-"Godot 一样，一旦你看到它有多强大并且开发多迅速，我们认为你将对 GDScript 刮目"
-"相看。"
+"由于 Rebel Engine 是开源项目，因此从一开始就必须优先考虑更加集成和无缝的体"
+"验，而不是通过支持大多人熟悉的编程语言来吸引更多用户——特别是在支持那些大多人"
+"熟悉的语言会导致更糟糕的体验时。我们理解你更想在 Rebel Engine 中使用其他语言"
+"（请参阅上面支持的选项列表）。话虽如此，如果你还没试过 GDScript，先试\\ **三"
+"天**\\ 。就像 Rebel Engine 一样，一旦你看到它有多强大并且开发多迅速，我们认为"
+"你将对 GDScript 刮目相看。"
 
 #: about/faq.rst:111
 #, fuzzy
@@ -701,7 +705,7 @@ msgstr ""
 #: about/faq.rst:123
 #, fuzzy
 msgid "The main reasons for a custom scripting language for Rebel Engine are:"
-msgstr "为 Godot 创建自定义脚本语言的主要原因有："
+msgstr "为 Rebel Engine 创建自定义脚本语言的主要原因有："
 
 #: about/faq.rst:125
 #, fuzzy
@@ -709,8 +713,8 @@ msgid ""
 "Poor threading support in most script VMs, and Rebel Engine uses threads "
 "(Lua, Python, Squirrel, JavaScript, ActionScript, etc.)."
 msgstr ""
-"Godot 使用多线程，而大多数脚本虚拟机对线程的支持不佳（Lua、Python、Squirrel、"
-"JavaScript、ActionScript 等）。"
+"Rebel Engine 使用多线程，而大多数脚本虚拟机对线程的支持不佳（Lua、Python、"
+"Squirrel、JavaScript、ActionScript 等）。"
 
 #: about/faq.rst:127
 #, fuzzy
@@ -719,7 +723,7 @@ msgid ""
 "Rebel Engine works is highly inefficient (Lua, Python, JavaScript)."
 msgstr ""
 "大多数脚本语言（Lua、Python、JavaScript）的虚拟机没有很好地支持类扩展，适配 "
-"Godot 工作方式的效率极低。"
+"Rebel Engine 工作方式的效率极低。"
 
 #: about/faq.rst:129
 msgid ""
@@ -754,7 +758,7 @@ msgid ""
 "Difficulty to integrate with the code editor for providing code completion, "
 "live editing, etc. (all of them). This is well-supported by GDScript."
 msgstr ""
-"难以与 Godot 代码编辑器集成从而支持代码补全、动态编辑等（其他语言都这样）。但"
+"难以与 Rebel 代码编辑器集成从而支持代码补全、动态编辑等（其他语言都这样）。但"
 "这方面 GDScript 支持得很好。"
 
 #: about/faq.rst:141
@@ -764,7 +768,7 @@ msgstr "GDScript 是为了减少上述问题以及防止更多问题而设计的
 #: about/faq.rst:144
 #, fuzzy
 msgid "What type of 3D model formats does Rebel Engine support?"
-msgstr "Godot 支持哪些 3D 模型格式？"
+msgstr "Rebel Engine 支持哪些 3D 模型格式？"
 
 #: about/faq.rst:146
 #, fuzzy
@@ -774,15 +778,15 @@ msgid ""
 "If you are using Blender, take a look at Godot's `Collada Exporter <https://"
 "github.com/godotengine/collada-exporter>`__."
 msgstr ""
-"Godot 通过 `OpenCollada <https://github.com/KhronosGroup/OpenCOLLADA/wiki/"
-"OpenCOLLADA-Tools>`_ 导出器（Maya、3DSMax）支持 Collada。如果你使用的是 "
+"Rebel Engine 通过 `OpenCollada <https://github.com/KhronosGroup/OpenCOLLADA/"
+"wiki/OpenCOLLADA-Tools>`_ 导出器（Maya、3DSMax）支持 Collada。如果你使用的是 "
 "Blender，可以试一试我们的 `Better Collada Exporter <https://godotengine.org/"
 "download>`_\\ 。"
 
 #: about/faq.rst:149
 #, fuzzy
 msgid "glTF is supported."
-msgstr "Godot 从 3.0 版本开始支持 glTF。"
+msgstr "支持 glTF。"
 
 #: about/faq.rst:151
 msgid ""
@@ -798,7 +802,7 @@ msgstr ""
 msgid ""
 "Will [insert closed SDK such as FMOD, GameWorks, etc.] be supported in Rebel "
 "Engine?"
-msgstr "Godot 会支持【此处插入 FMOD、GameWorks 等闭源 SDK 的名字】吗？"
+msgstr "Rebel Engine 会支持【此处插入 FMOD、GameWorks 等闭源 SDK 的名字】吗？"
 
 #: about/faq.rst:157
 #, fuzzy
@@ -808,9 +812,9 @@ msgid ""
 "Toolbox to support any third-party, closed-source/proprietary SDKs, as "
 "integrating with these would go against Rebel Toolbox's ethos."
 msgstr ""
-"Godot 的目的是创建一个自由开源，MIT 许可证，且模块化和可扩展的引擎。核心引擎"
-"开发社区没有计划支持任何第三方，闭源或专有 SDK，因为集成这些 SDK 会违背 "
-"Godot 的精神。"
+"Rebel Toolbox 的目的是创建一个自由开源，MIT 许可证，且模块化和可扩展的引擎。"
+"核心引擎开发社区没有计划支持任何第三方，闭源或专有 SDK，因为集成这些 SDK 会违"
+"背 Rebel Toolbox 的精神。"
 
 #: about/faq.rst:161
 #, fuzzy
@@ -819,8 +823,8 @@ msgid ""
 "you or anyone else interested in adding those libraries as a module and "
 "shipping your game with them--as either open- or closed-source."
 msgstr ""
-"正因为 Godot 是开源和模块化的，所以说没有什么能阻止你或其他任何感兴趣的人将这"
-"些库添加为模块并使用它们——无论是开源还是闭源——发布游戏。"
+"正因为 Rebel Engine 是开源和模块化的，所以说没有什么能阻止你或其他任何感兴趣"
+"的人将这些库添加为模块并使用它们——无论是开源还是闭源——发布游戏。"
 
 #: about/faq.rst:165
 msgid ""
@@ -837,15 +841,15 @@ msgid ""
 "belongs to the community, and it grows along with ambitious community "
 "contributors like you."
 msgstr ""
-"如果您知道 Godot 尚不支持但提供自由和开源集成的第三方SDK，请考虑自己开始集成"
-"工作。Godot 不属于个人；它属于社区，它与像您一样雄心勃勃的社区贡献者一起成"
-"长。"
+"如果您知道 Rebel Engine 尚不支持但提供自由和开源集成的第三方SDK，请考虑自己开"
+"始集成工作。Rebel Engine 不属于个人；它属于社区，它与像您一样雄心勃勃的社区贡"
+"献者一起成长。"
 
 #: about/faq.rst:174
 #, fuzzy
 msgid ""
 "How do I install the Rebel Engine on my system (for desktop integration)?"
-msgstr "如何在我的系统上安装 Godot 编辑器（进行桌面集成）？"
+msgstr "如何在我的系统上安装 Rebel Engine 编辑器（进行桌面集成）？"
 
 #: about/faq.rst:176
 msgid ""
@@ -861,13 +865,13 @@ msgid ""
 "Downloads folder), so you don't accidentally move it and break the shortcut "
 "in the future."
 msgstr ""
-"将 Godot 可执行文件移动到稳定的位置（即你的 Downloads 文件夹之外），这样你以"
-"后就不会不小心对它进行移动、不会破坏快捷方式了。"
+"将 Rebel Engine 可执行文件移动到稳定的位置（即你的 Downloads 文件夹之外），这"
+"样你以后就不会不小心对它进行移动、不会破坏快捷方式了。"
 
 #: about/faq.rst:185
 #, fuzzy
 msgid "Right-click the Rebel Engine executable and choose **Create Shortcut**."
-msgstr "右键单击 Godot 可执行文件，选择\\ **创建快捷方式**\\ 。"
+msgstr "右键单击 Rebel Engine 可执行文件，选择\\ **创建快捷方式**\\ 。"
 
 #: about/faq.rst:186
 #, fuzzy
@@ -879,8 +883,8 @@ msgid ""
 msgstr ""
 "将创建的快捷方式移动到 ``%LOCALAPPDATA%\\Microsoft\\Windows\\Start "
 "Menu\\Programs``\\ 。这是针对用户的快捷方式存放位置，会显示在开始菜单中。你也"
-"可以将 Godot 固定在任务栏上，右键单击可执行文件并选择\\ **固定至任务栏**\\ 即"
-"可。"
+"可以将 Rebel Engine 固定在任务栏上，右键单击可执行文件并选择\\ **固定至任务栏"
+"**\\ 即可。"
 
 #: about/faq.rst:194
 #, fuzzy
@@ -890,9 +894,9 @@ msgid ""
 "able to find Rebel Engine as long as it's in ``/Applications`` or ``~/"
 "Applications``."
 msgstr ""
-"将解压出的 Godot 应用拖拽至 ``/Applications/Godot.app``\\ ，如果需要的话还可"
-"以再拖到 Dock 栏上。只要 Godot 在 ``/Applications`` 或 ``~/Applications`` "
-"中，“聚焦”就能找到它。"
+"将解压出的 Rebel Engine 应用拖拽至 ``/Applications/RebelEngine.app``\\ ，如果"
+"需要的话还可以再拖到 Dock 栏上。只要 Rebel Engine 在 ``/Applications`` 或 "
+"``~/Applications`` 中，“聚焦”就能找到它。"
 
 #: about/faq.rst:199 contributing/building_the_documentation.rst:116
 #: contributing/building_the_documentation.rst:160
@@ -910,8 +914,8 @@ msgid ""
 "Downloads folder), so you don't accidentally move it and break the shortcut "
 "in the future."
 msgstr ""
-"将 Godot 二进制文件移动到稳定的位置（即你的 Downloads 文件夹之外），这样你以"
-"后就不会不小心对它进行移动、不会破坏快捷方式了。"
+"将 Rebel Engine 二进制文件移动到稳定的位置（即你的 Downloads 文件夹之外），这"
+"样你以后就不会不小心对它进行移动、不会破坏快捷方式了。"
 
 #: about/faq.rst:203
 #, fuzzy
@@ -922,10 +926,10 @@ msgid ""
 "also allows you to :doc:`run Rebel Engine from a terminal </tutorials/editor/"
 "command_line_tutorial>` by entering ``rebel``."
 msgstr ""
-"将 Godot 二进制文件进行重命名，然后移动到处于 ``PATH`` 环境变量中的某个位置。"
-"通常是 ``/usr/local/bin/godot`` 或者 ``/usr/bin/godot``\\ 。这个操作需要管理"
-"员权限，不过能够让你通过输入 ``godot`` 直接\\ :doc:`从命令行运行 Godot 编辑"
-"器 </tutorials/editor/command_line_tutorial>`\\ 。"
+"将 Rebel Engine 二进制文件进行重命名，然后移动到处于 ``PATH`` 环境变量中的某"
+"个位置。通常是 ``/usr/local/bin/godot`` 或者 ``/usr/bin/godot``\\ 。这个操作"
+"需要管理员权限，不过能够让你通过输入 ``godot`` 直接\\ :doc:`从命令行运行 "
+"Rebel Engine 编辑器 </tutorials/editor/command_line_tutorial>`\\ 。"
 
 #: about/faq.rst:209
 #, fuzzy
@@ -935,9 +939,9 @@ msgid ""
 "line in the ``.desktop`` file linked below to contain the full *absolute* "
 "path to the Rebel Engine binary."
 msgstr ""
-"如果你无法将 Godot 编辑器二进制文件移动到受保护的位置，你可以将它保存在你的家"
-"目录中的某个位置，然后修改下方链接的 ``.desktop`` 文件中的 ``Path=`` 行，让它"
-"包含指向 Godot 二进制文件的完整\\ *绝对*\\ 路径。"
+"如果你无法将 Rebel Engine 编辑器二进制文件移动到受保护的位置，你可以将它保存"
+"在你的家目录中的某个位置，然后修改下方链接的 ``.desktop`` 文件中的 ``Path=`` "
+"行，让它包含指向 Rebel Engine 二进制文件的完整\\ *绝对*\\ 路径。"
 
 #: about/faq.rst:214
 #, fuzzy
@@ -949,7 +953,7 @@ msgid ""
 "to make the shortcut available for all users."
 msgstr ""
 "将\\ `这个 .desktop 文件 <https://raw.githubusercontent.com/godotengine/"
-"godot/3.x/misc/dist/linux/org.godotengine.Godot.desktop>`__\\ 保存到 "
+"godot/3.x/misc/dist/linux/org.godotengine.rebelengine.desktop>`__\\ 保存到 "
 "``$HOME/.local/share/applications/``\\ 。如果你有管理员权限，你还可以把这个 "
 "``.desktop`` 文件保存到 ``/usr/local/share/applications`` 中，这样所有用户就"
 "都能够使用这个快捷方式了。"
@@ -957,7 +961,7 @@ msgstr ""
 #: about/faq.rst:220
 #, fuzzy
 msgid "Is the Rebel Engine editor a portable application?"
-msgstr "Godot 编辑器是绿色应用吗？"
+msgstr "Rebel Engine 编辑器是绿色应用吗？"
 
 #: about/faq.rst:222
 #, fuzzy
@@ -966,8 +970,8 @@ msgid ""
 "executable can run from any location (including non-writable locations) and "
 "never requires administrator privileges."
 msgstr ""
-"默认配置下，Godot 是\\ *半绿色*\\ 的。从任何位置运行都可以运行它的可执行文件"
-"（包括无法写入的位置），无须管理员权限。"
+"默认配置下，Rebel Engine 是\\ *半绿色*\\ 的。从任何位置运行都可以运行它的可执"
+"行文件（包括无法写入的位置），无须管理员权限。"
 
 #: about/faq.rst:226
 #, fuzzy
@@ -979,8 +983,8 @@ msgid ""
 "for more information."
 msgstr ""
 "不过，配置文件会写入到针对用户的配置或数据目录。通常来说，这是不错的做法，但"
-"也意味着将包含 Godot 可执行文件的文件夹复制到另一台机器上是无法带走配置文件"
-"的。更多信息请参阅 :doc:`/tutorials/io/data_paths`\\ 。"
+"也意味着将包含 Rebel Engine 可执行文件的文件夹复制到另一台机器上是无法带走配"
+"置文件的。更多信息请参阅 :doc:`/tutorials/io/data_paths`\\ 。"
 
 #: about/faq.rst:231
 #, fuzzy
@@ -994,7 +998,7 @@ msgstr ""
 #: about/faq.rst:235
 #, fuzzy
 msgid "Why does Rebel Engine use Vulkan or OpenGL instead of Direct3D?"
-msgstr "为什么 Godot 使用 Vulkan/OpenGL 而不是 Direct3D？"
+msgstr "为什么 Rebel Engine 使用 Vulkan/OpenGL 而不是 Direct3D？"
 
 #: about/faq.rst:237
 #, fuzzy
@@ -1005,9 +1009,9 @@ msgid ""
 "project developed with Rebel Engine on Windows will run out of the box on "
 "Linux, macOS, and more."
 msgstr ""
-"Godot 致力于实现跨平台兼容性和开放式标准。OpenGL 和 Vulkan 是几乎在所有平台上"
-"都开放且可用的技术。由于这一设计决策，在 Windows 上使用 Godot 开发的项目将在 "
-"Linux、macOS 等平台上也能“开箱即用”。"
+"Rebel Toolbox 致力于实现跨平台兼容性和开放式标准。OpenGL 和 Vulkan 是几乎在所"
+"有平台上都开放且可用的技术。由于这一设计决策，在 Windows 上使用 Rebel Engine "
+"开发的项目将在 Linux、macOS 等平台上也能“开箱即用”。"
 
 #: about/faq.rst:243
 #, fuzzy
@@ -1017,8 +1021,8 @@ msgid ""
 "single API on all platforms allows for greater consistency with fewer "
 "platform-specific issues."
 msgstr ""
-"由于 Godot 只有少数人在处理其渲染器，因此我们希望维护较少的渲染后端。最重要的"
-"是，在所有平台上使用单个 API 可以提高一致性，减少特定于平台的问题。"
+"由于 Rebel Engine 只有少数人在处理其渲染器，因此我们希望维护较少的渲染后端。"
+"最重要的是，在所有平台上使用单个 API 可以提高一致性，减少特定于平台的问题。"
 
 #: about/faq.rst:248
 #, fuzzy
@@ -1027,13 +1031,14 @@ msgid ""
 "(mainly for the Xbox's purposes), but Vulkan and OpenGL will remain the "
 "default rendering backends on all platforms, including Windows."
 msgstr ""
-"从长远来看，我们可能会为 Godot 开发 Direct3D 12 渲染器（主要用于 Xbox 的目"
-"的），但 Vulkan 和 OpenGL 仍将是所有平台（包括 Windows）上的默认渲染后端。"
+"从长远来看，我们可能会为 Rebel Engine 开发 Direct3D 12 渲染器（主要用于 Xbox "
+"的目的），但 Vulkan 和 OpenGL 仍将是所有平台（包括 Windows）上的默认渲染后"
+"端。"
 
 #: about/faq.rst:253
 #, fuzzy
 msgid "Why does Rebel Toolbox aim to keep its core feature set small?"
-msgstr "为什么 Godot 旨在保持其核心功能集较小？"
+msgstr "为什么 Rebel Toolbox 旨在保持其核心功能集较小？"
 
 #: about/faq.rst:255
 #, fuzzy
@@ -1042,8 +1047,8 @@ msgid ""
 "implemented by add-ons unless they are used very often. One example of this "
 "would be advanced artificial intelligence functionality."
 msgstr ""
-"Godot 有意不包含可以通过附加组件实现的功能，除非它们经常使用。这方面的一个例"
-"子是先进的人工智能功能。"
+"Rebel Toolbox 有意不包含可以通过附加组件实现的功能，除非它们经常使用。这方面"
+"的一个例子是先进的人工智能功能。"
 
 #: about/faq.rst:259
 msgid "There are several reasons for this:"
@@ -1061,10 +1066,10 @@ msgid ""
 "that needs to be tested and checked for regressions keeps increasing over "
 "time."
 msgstr ""
-"**代码维护和表面 bug。**\\ 每次我们在 Godot 仓库中接受新的代码时，现有的贡献"
-"者往往会承担起维护它的责任。一些贡献者在合并他们的代码后并不总是坚持下去，这"
-"会使我们难以维护有问题的代码。这可能会导致维护不善的功能以及从未修复的错误。"
-"最重要的是，需要测试和检查回归的“API 表面”随着时间的推移不断增加。"
+"**代码维护和表面 bug。**\\ 每次我们在 Rebel Engine 仓库中接受新的代码时，现有"
+"的贡献者往往会承担起维护它的责任。一些贡献者在合并他们的代码后并不总是坚持下"
+"去，这会使我们难以维护有问题的代码。这可能会导致维护不善的功能以及从未修复的"
+"错误。最重要的是，需要测试和检查回归的“API 表面”随着时间的推移不断增加。"
 
 #: about/faq.rst:269
 #, fuzzy
@@ -1075,7 +1080,7 @@ msgid ""
 "them to purchase high-end hardware."
 msgstr ""
 "**易于贡献。**\\ 通过保持代码库小而整洁, 可以保持快速、轻松地从源代码编译。这"
-"使得新贡献者更容易入门 Godot，无需他们购买高端硬件。"
+"使得新贡献者更容易入门 Rebel Engine，无需他们购买高端硬件。"
 
 #: about/faq.rst:274
 #, fuzzy
@@ -1086,8 +1091,8 @@ msgid ""
 "accessible to developers in all countries."
 msgstr ""
 "**为编辑器保持较小的二进制大小。**\\ 并非每个人都拥有快速的 Internet 连接。确"
-"保每个人都可以在 5 分钟内下载、解压缩并运行 Godot 编辑器，这使得所有国家/地区"
-"的开发人员都可以更轻松地访问 Godot。"
+"保每个人都可以在 5 分钟内下载、解压缩并运行 Rebel Engine 编辑器，这使得所有国"
+"家/地区的开发人员都可以更轻松地访问 Rebel Engine。"
 
 #: about/faq.rst:279
 #, fuzzy
@@ -1099,10 +1104,10 @@ msgid ""
 "high-speed Internet is not readily available. To add to this, strict data "
 "usage caps are often in effect in those countries."
 msgstr ""
-"**为导出模板保持较小的二进制大小。**\\ 这直接影响到 Godot 导出的项目的大小。"
-"在移动和 Web 平台上，较小的文件大小是在功率不足的设备上快速安装和加载的首要条"
-"件。同上，在许多国家，用上高速网络并不容易。并且这些国家往往有严格的数据使用"
-"上限。"
+"**为导出模板保持较小的二进制大小。**\\ 这直接影响到 Rebel Engine 导出的项目的"
+"大小。在移动和 Web 平台上，较小的文件大小是在功率不足的设备上快速安装和加载的"
+"首要条件。同上，在许多国家，用上高速网络并不容易。并且这些国家往往有严格的数"
+"据使用上限。"
 
 #: about/faq.rst:286
 #, fuzzy
@@ -1116,11 +1121,11 @@ msgid ""
 "</development/compiling/optimizing_for_size>` to optimize the distribution "
 "size of your project.)"
 msgstr ""
-"基于上述原因，我们必须选择哪些功能作为 Godot 的核心功能。这就是为什么我们计划"
-"在 Godot 的未来版本里，将转移一些核心功能到官方支持的附加组件中。在文件大小方"
-"面，这也算是一个优点，你的项目可以精简掉没有实际使用过的功能（目前，你可以通"
-"过\\ :doc:`编译自定义导出模板、禁用未使用的功能 </development/compiling/"
-"optimizing_for_size>`\\ 来优化项目的发布大小。）"
+"基于上述原因，我们必须选择哪些功能作为 Rebel Engine 的核心功能。这就是为什么"
+"我们计划在 Rebel Engine 的未来版本里，将转移一些核心功能到官方支持的附加组件"
+"中。在文件大小方面，这也算是一个优点，你的项目可以精简掉没有实际使用过的功能"
+"（目前，你可以通过\\ :doc:`编译自定义导出模板、禁用未使用的功能 </"
+"development/compiling/optimizing_for_size>`\\ 来优化项目的发布大小。）"
 
 #: about/faq.rst:295
 msgid ""
@@ -1174,8 +1179,8 @@ msgid ""
 "ratios works best. Check the :doc:`/tutorials/rendering/"
 "multiple_resolutions` tutorial on how to achieve this."
 msgstr ""
-"使用 Godot 中的拉伸选项；2D 保持宽高比时拉伸效果最好。请参阅教程 :doc:`/"
-"tutorials/rendering/multiple_resolutions` 来学习如何实现。"
+"使用 Rebel Engine 中的拉伸选项；2D 保持宽高比时拉伸效果最好。请参阅教"
+"程 :doc:`/tutorials/rendering/multiple_resolutions` 来学习如何实现。"
 
 #: about/faq.rst:321
 #, fuzzy
@@ -1217,7 +1222,7 @@ msgstr ""
 #: about/faq.rst:338
 #, fuzzy
 msgid "How can I extend Rebel Engine?"
-msgstr "如何扩展 Godot？"
+msgstr "如何扩展 Rebel Engine？"
 
 #: about/faq.rst:340
 #, fuzzy
@@ -1226,9 +1231,9 @@ msgid ""
 "support for additional languages, take a look at :doc:`EditorPlugins </"
 "tutorials/plugins/editor/making_plugins>` and tool scripts."
 msgstr ""
-"要扩展 Godot，比如创建 Godot 编辑器插件或添加对其他语言的支持，请参阅"
-"\\ :doc:`编辑器插件 </tutorials/plugins/editor/making_plugins>`\\ 和工具脚"
-"本。"
+"要扩展 Rebel Engine，比如创建 Rebel Editor 编辑器插件或添加对其他语言的支持，"
+"请参阅\\ :doc:`编辑器插件 </tutorials/plugins/editor/making_plugins>`\\ 和工"
+"具脚本。"
 
 #: about/faq.rst:344
 #, fuzzy
@@ -1237,14 +1242,14 @@ msgid ""
 "Engine modules. This would be a good starting point to see how another third-"
 "party library integrates with Rebel Engine."
 msgstr ""
-"您还可以查看 GDScript 的实现，Godot 模块以及 Godot 的\\ `非官方 Python 支持 "
-"<https://github.com/touilleMan/godot-python>`_\\ 。这个将是您了解如何将第三方"
-"库整合到 Godot 中的第一步。"
+"您还可以查看 GDScript 的实现，Rebel Engine 模块以及 Rebel Engine 的\\ `非官"
+"方 Python 支持 <https://github.com/touilleMan/godot-python>`_\\ 。这个将是您"
+"了解如何将第三方库整合到 Rebel Engine 中的第一步。"
 
 #: about/faq.rst:349
 #, fuzzy
 msgid "When is the next release of Rebel Engine out?"
-msgstr "Godot 的下一个版本什么时候发布？"
+msgstr "Rebel Engine 的下一个版本什么时候发布？"
 
 #: about/faq.rst:351
 #, fuzzy
@@ -1261,7 +1266,8 @@ msgid ""
 "Awesome! As an open-source project, Rebel Engine thrives off of the "
 "innovation and ambition of developers like you."
 msgstr ""
-"太棒了！作为一个开源项目，Godot 的发展得益于像您这样的开发者的创新和雄心。"
+"太棒了！作为一个开源项目，Rebel Engine 的发展得益于像您这样的开发者的创新和雄"
+"心。"
 
 #: about/faq.rst:360
 #, fuzzy
@@ -1280,7 +1286,7 @@ msgstr ""
 #: about/faq.rst:365
 #, fuzzy
 msgid "I have a great idea for Rebel Engine. How can I share it?"
-msgstr "我有个关于 Godot 的好主意，该如何分享它？"
+msgstr "我有个关于 Rebel Engine 的好主意，该如何分享它？"
 
 #: about/faq.rst:367
 #, fuzzy
@@ -1292,19 +1298,19 @@ msgid ""
 "contribute, but Rebel Engine's focus is and always will be the core "
 "functionality."
 msgstr ""
-"想要把一些想法带给Godot会很诱人, 比如导致大量核心变化的想法, 某种模仿其他游戏"
-"引擎所做的事情, 或者您想要在编辑器中构建另一种工作流程. 这些都是伟大的, 我们"
-"感谢有这些想要积极贡献的人, 但Godot的焦点是而且始终将是在 `路线图 <https://"
-"github.com/godotengine/godot-roadmap/blob/master/ROADMAP.md>`_ 中概述的核心功"
-"能. `排查 bug 和解决问题 <https://github.com/godotengine/godot/issues>`_, 以"
-"及与Godot社区成员之间的讨论."
+"想要把一些想法带给Rebel Engine会很诱人, 比如导致大量核心变化的想法, 某种模仿"
+"其他游戏引擎所做的事情, 或者您想要在编辑器中构建另一种工作流程. 这些都是伟大"
+"的, 我们感谢有这些想要积极贡献的人, 但Rebel Engine的焦点是而且始终将是在 `路"
+"线图 <https://github.com/godotengine/godot-roadmap/blob/master/ROADMAP.md>`_ "
+"中概述的核心功能. `排查 bug 和解决问题 <https://github.com/godotengine/godot/"
+"issues>`_, 以及与Rebel社区成员之间的讨论."
 
 #: about/faq.rst:374
 #, fuzzy
 msgid ""
 "Most developers in the Rebel Toolbox community will be more interested to "
 "learn about things like:"
-msgstr "Godot社区中的大多数开发人员都会更有兴趣了解以下内容:"
+msgstr "Rebel Toolbox社区中的大多数开发人员都会更有兴趣了解以下内容:"
 
 #: about/faq.rst:377
 msgid ""
@@ -1341,8 +1347,8 @@ msgid ""
 "try to reformulate them as a problem first, so developers and the community "
 "have a functional foundation to ground your ideas on."
 msgstr ""
-"因此, 请不要觉得您对Godot的想法是不受欢迎的. 相反, 首先尝试将它们作为问题重新"
-"表述出来, 这样开发人员和社区会有一个功能依据, 可以为您的想法奠定基础."
+"因此, 请不要觉得您对Rebel Toolbox的想法是不受欢迎的. 相反, 首先尝试将它们作为"
+"问题重新表述出来, 这样开发人员和社区会有一个功能依据, 可以为您的想法奠定基础."
 
 #: about/faq.rst:389
 msgid ""
@@ -1365,7 +1371,7 @@ msgstr "最好可以附上截图、具体数值、测试用例或示例项目（
 #: about/faq.rst:399
 #, fuzzy
 msgid "Is it possible to use Rebel Engine to create non-game applications?"
-msgstr "是否能用 Godot 创建非游戏应用？"
+msgstr "是否能用 Rebel Engine 创建非游戏应用？"
 
 #: about/faq.rst:401
 #, fuzzy
@@ -1374,8 +1380,8 @@ msgid ""
 "distribution size can make it a suitable alternative to frameworks like "
 "Electron or Qt."
 msgstr ""
-"是的！Godot 具有广泛的内置 UI 系统，其较小的软件包可以使它成为 Electron 或 "
-"Qt 等框架的合适替代品。"
+"是的！Rebel Engine 具有广泛的内置 UI 系统，其较小的软件包可以使它成为 "
+"Electron 或 Qt 等框架的合适替代品。"
 
 #: about/faq.rst:404
 msgid ""
@@ -1393,13 +1399,13 @@ msgid ""
 "That said, we wouldn't recommend using Rebel Engine to create a *mobile* "
 "application since low-processor mode isn't supported on mobile platforms yet."
 msgstr ""
-"也就是说，我们不建议使用 Godot 来创建\\ *移动*\\ 应用程序，因为移动平台还不支"
-"持低处理器模式。"
+"也就是说，我们不建议使用 Rebel Engine 来创建\\ *移动*\\ 应用程序，因为移动平"
+"台还不支持低处理器模式。"
 
 #: about/faq.rst:412
 #, fuzzy
 msgid "Is it possible to use Rebel Engine as a library?"
-msgstr "是否能将 Godot 作为库使用？"
+msgstr "是否能将 Rebel Engine 作为库使用？"
 
 #: about/faq.rst:414
 #, fuzzy
@@ -1409,9 +1415,9 @@ msgid ""
 "plans to make Rebel Engine usable as a library, as it would make the rest of "
 "the engine more convoluted and difficult to use for casual users."
 msgstr ""
-"Godot 旨在与其编辑器一起使用。我们建议您尝试一下编辑器，因为从长远来看，它很"
-"可能会节省您的时间。目前尚无计划把 Godot 作为库使用，因为这会使引擎的其余部分"
-"更加混乱，难以为普通用户使用。"
+"Rebel Engine 旨在与其编辑器一起使用。我们建议您尝试一下编辑器，因为从长远来"
+"看，它很可能会节省您的时间。目前尚无计划把 Rebel Engine 作为库使用，因为这会"
+"使引擎的其余部分更加混乱，难以为普通用户使用。"
 
 #: about/faq.rst:419
 #, fuzzy
@@ -1422,12 +1428,13 @@ msgid ""
 "difficult to find answers to your questions."
 msgstr ""
 "如果你想使用一个渲染库，那就使用一个已经建立的渲染引擎来代替。需要注意的是，"
-"与 Godot 相比，渲染引擎通常拥有更小的社区，这将会使你解决问题的难度加大。"
+"与 Rebel Toolbox 相比，渲染引擎通常拥有更小的社区，这将会使你解决问题的难度加"
+"大。"
 
 #: about/faq.rst:425
 #, fuzzy
 msgid "What user interface toolkit does Rebel Engine use?"
-msgstr "Godot 使用的用户界面工具包是什么？"
+msgstr "Rebel Engine 使用的用户界面工具包是什么？"
 
 #: about/faq.rst:427
 #, fuzzy
@@ -1439,10 +1446,11 @@ msgid ""
 "(which is written in C++). These Control nodes can also be used in projects "
 "from any scripting language supported by Rebel Engine."
 msgstr ""
-"Godot 不使用标准的 :abbr:`GUI(Graphical User Interface)` 工具箱，如 GTK、Qt "
-"或 wxWidgets。相反，Godot 使用自己的用户界面工具包，使用 OpenGL ES 或 Vulkan "
-"进行渲染。这个工具包以控件节点（Control）的形式暴露出来，用于渲染编辑器（用 "
-"C++ 编写）。这些控制节点也可以在 Godot 支持的任何脚本语言的项目中使用。"
+"Rebel Engine 不使用标准的 :abbr:`GUI(Graphical User Interface)` 工具箱，如 "
+"GTK、Qt 或 wxWidgets。相反，Rebel Engine 使用自己的用户界面工具包，使用 "
+"OpenGL ES 或 Vulkan 进行渲染。这个工具包以控件节点（Control）的形式暴露出来，"
+"用于渲染编辑器（用 C++ 编写）。这些控制节点也可以在 Rebel Engine 支持的任何脚"
+"本语言的项目中使用。"
 
 #: about/faq.rst:434
 #, fuzzy
@@ -1454,8 +1462,9 @@ msgid ""
 "editor itself is one of the most complex users of Rebel Engine's UI system."
 msgstr ""
 "这个定制的工具包使它能获益于硬件加速，并在全平台上拥有一致的外观。最重要的"
-"是，它不必处理 GTK 或 Qt 所带来的 LGPL 许可注意事项。最后，这意味着 Godot 在"
-"“自产自用”，因为编辑器本身就是 Godot UI 系统中最复杂的用例之一。"
+"是，它不必处理 GTK 或 Qt 所带来的 LGPL 许可注意事项。最后，这意味着 Rebel "
+"Engine 在“自产自用”，因为编辑器本身就是 Rebel Engine UI 系统中最复杂的用例之"
+"一。"
 
 #: about/faq.rst:440
 #, fuzzy
@@ -1466,14 +1475,14 @@ msgid ""
 "faq:Is it possible to use Rebel Engine to create non-game applications?>`."
 msgstr ""
 "这个自定义 UI 工具包\\ :ref:`不能作为一个库使用 <about/faq:Is it possible to "
-"use Rebel Engine as a library?>`，但你仍然可以\\ :ref:`通过使用 Godot 编辑器"
-"来创建非游戏应用程序<about/faq:Is it possible to use Rebel Engine to create "
-"non-game applications?>`。"
+"use Rebel Engine as a library?>`，但你仍然可以\\ :ref:`通过使用 Rebel Engine "
+"编辑器来创建非游戏应用程序<about/faq:Is it possible to use Rebel Engine to "
+"create non-game applications?>`。"
 
 #: about/faq.rst:445
 #, fuzzy
 msgid "Why does Rebel Engine not use STL (Standard Template Library)?"
-msgstr "为什么 Godot 不使用 STL（标准模板库）？"
+msgstr "为什么 Rebel Engine 不使用 STL（标准模板库）？"
 
 #: about/faq.rst:447
 #, fuzzy
@@ -1482,8 +1491,8 @@ msgid ""
 "of STL. We believe STL is a great general purpose library, but we had "
 "special requirements for Rebel Engine."
 msgstr ""
-"像许多其他库一样（Qt 就是一个例子），Godot 没有使用 STL。我们相信 STL 是一个"
-"伟大的通用库，但我们对 Godot 有特殊的要求。"
+"像许多其他库一样（Qt 就是一个例子），Rebel Engine 没有使用 STL。我们相信 STL "
+"是一个伟大的通用库，但我们对 Rebel Engine 有特殊的要求。"
 
 #: about/faq.rst:451
 msgid ""
@@ -1527,7 +1536,7 @@ msgstr ""
 #: about/faq.rst:458
 #, fuzzy
 msgid "Why does Rebel Engine not use exceptions?"
-msgstr "为什么 Godot 不使用异常？"
+msgstr "为什么 Rebel Engine 不使用异常？"
 
 #: about/faq.rst:460
 #, fuzzy
@@ -1537,8 +1546,8 @@ msgid ""
 "even to script), but then it will try to recover as gracefully as possible "
 "and keep going."
 msgstr ""
-"我们相信无论如何游戏都不应该崩溃。如果发生意外情况，Godot将打印一个错误（甚至"
-"可以追溯到脚本），但之后它会尽可能优雅地恢复，并继续前进。"
+"我们相信无论如何游戏都不应该崩溃。如果发生意外情况，Rebel Engine将打印一个错"
+"误（甚至可以追溯到脚本），但之后它会尽可能优雅地恢复，并继续前进。"
 
 #: about/faq.rst:465
 msgid ""
@@ -1549,7 +1558,7 @@ msgstr "此外，异常会显著增加可执行文件的二进制大小。"
 #: about/faq.rst:469
 #, fuzzy
 msgid "Why does Rebel Engine not enforce RTTI?"
-msgstr "为什么 Godot 不使用 RTTI？"
+msgstr "为什么 Rebel Engine 不使用 RTTI？"
 
 #: about/faq.rst:471
 #, fuzzy
@@ -1558,15 +1567,16 @@ msgid ""
 "RTTI internally. Disabling RTTI in Rebel Engine means considerably smaller "
 "binary sizes can be achieved, at a little performance cost."
 msgstr ""
-"Godot 提供了自己的类型转换系统，可以可选地在内部使用 RTTI（运行时类型识别）。"
-"在 Godot 中禁用 RTTI 意味着可以以较小的性能代价实现相当小的二进制大小。"
+"Rebel Engine 提供了自己的类型转换系统，可以可选地在内部使用 RTTI（运行时类型"
+"识别）。在 Rebel Engine 中禁用 RTTI 意味着可以以较小的性能代价实现相当小的二"
+"进制大小。"
 
 #: about/faq.rst:476
 #, fuzzy
 msgid ""
 "Why does Rebel Engine not force users to implement DoD (Data oriented "
 "Design)?"
-msgstr "为什么 Godot 不强制用户实现 DoD（面向数据设计）？"
+msgstr "为什么 Rebel Engine 不强制用户实现 DoD（面向数据设计）？"
 
 #: about/faq.rst:478
 #, fuzzy
@@ -1575,8 +1585,8 @@ msgid ""
 "attempts to use cache coherency as well as possible, we believe most users "
 "don't really need to be forced to use DoD practices."
 msgstr ""
-"虽然 Godot 内部针对许多繁重的性能任务，尝试尽可能地使用缓存一致性，但我们相信"
-"大多数用户并不真正需要被迫使用 DoD 实践。"
+"虽然 Rebel Engine 内部针对许多繁重的性能任务，尝试尽可能地使用缓存一致性，但"
+"我们相信大多数用户并不真正需要被迫使用 DoD 实践。"
 
 #: about/faq.rst:482
 msgid ""
@@ -1596,8 +1606,8 @@ msgid ""
 "The vast majority of games do not need this and Rebel Engine provides handy "
 "helpers to do the job for most cases when you do."
 msgstr ""
-"绝大多数游戏都不需要这个, 并且Godot提供了方便的辅助工具来完成大多数情况下的工"
-"作."
+"绝大多数游戏都不需要这个, 并且Rebel Engine提供了方便的辅助工具来完成大多数情"
+"况下的工作."
 
 #: about/faq.rst:492
 msgid ""
@@ -1611,7 +1621,7 @@ msgstr ""
 #: about/faq.rst:497
 #, fuzzy
 msgid "How can I support Rebel Engine development or contribute?"
-msgstr "如何支持或参与 Godot 的发展？"
+msgstr "如何支持或参与 Rebel Engine 的发展？"
 
 #: about/faq.rst:499
 #, fuzzy
@@ -1626,12 +1636,12 @@ msgstr "特性列表"
 #, fuzzy
 msgid ""
 "This page aims to list all features currently supported by Rebel Engine."
-msgstr "这个页面旨在罗列所有的现在被 Godot 支持的功能特性。"
+msgstr "这个页面旨在罗列所有的现在被 Rebel Engine 支持的功能特性。"
 
 #: about/list_of_features.rst:8
 #, fuzzy
 msgid "This page lists features supported by Rebel Engine."
-msgstr "这个页面旨在罗列所有的现在被 Godot 支持的功能特性。"
+msgstr "这个页面旨在罗列所有的现在被 Rebel Engine 支持的功能特性。"
 
 #: about/list_of_features.rst:11
 msgid "Features"
@@ -1704,7 +1714,8 @@ msgstr ""
 msgid ""
 "Rebel Engine aims to be as platform-independent as possible and can be "
 "ported to new platforms with relative ease."
-msgstr "Godot 的目标是尽可能地独立于平台，并且可以相对轻松地移植到新平台。"
+msgstr ""
+"Rebel Engine 的目标是尽可能地独立于平台，并且可以相对轻松地移植到新平台。"
 
 #: about/list_of_features.rst:39
 #: development/compiling/compiling_with_mono.rst:195
@@ -2338,8 +2349,8 @@ msgid ""
 "to further improve quality. This can be helpful when using Rebel Engine for "
 "offline rendering."
 msgstr ""
-"上述效果中的大多数都可以进行调整，从而提升性能、提高质量。这在使用 Godot 进行"
-"脱机渲染时非常有用。"
+"上述效果中的大多数都可以进行调整，从而提升性能、提高质量。这在使用 Rebel "
+"Engine 进行脱机渲染时非常有用。"
 
 #: about/list_of_features.rst:282
 msgid "3D tools"
@@ -2556,8 +2567,8 @@ msgid ""
 "While Rebel Engine will keep VisualScript supported, we "
 "recommend :ref:`trying out GDScript <toc-learn-scripting-gdscript>` instead."
 msgstr ""
-"Godot 3.x 仍会支持 VisualScript，我们建议你先\\ :ref:`试一试 GDScript <toc-"
-"learn-scripting-gdscript>`\\ ，尤其是你想要把项目移植到 Godot 4 的话。"
+"Rebel Engine 仍会支持 VisualScript，我们建议你先\\ :ref:`试一试 GDScript "
+"<toc-learn-scripting-gdscript>`\\ 。"
 
 #: about/list_of_features.rst:363
 msgid "**GDNative (C, C++, Rust, D, ...):**"
@@ -2987,8 +2998,8 @@ msgid ""
 "in Rebel Engine. The editor UI can easily be extended in many ways using add-"
 "ons."
 msgstr ""
-"Godot 的 GUI 也是使用 Control 节点搭建的，和制作游戏时所使用的节点一致。编辑"
-"器 UI 可以通过插件轻松地进行各种扩展。"
+"Rebel Engine 的 GUI 也是使用 Control 节点搭建的，和制作游戏时所使用的节点一"
+"致。编辑器 UI 可以通过插件轻松地进行各种扩展。"
 
 #: about/list_of_features.rst:526
 msgid "**Nodes:**"
@@ -3118,7 +3129,7 @@ msgstr "使用 :ref:`class_StyleBoxTexture` 进行基于纹理的主题设计。
 msgid ""
 "Rebel Engine's small distribution size can make it a suitable alternative to "
 "frameworks like Electron or Qt."
-msgstr "Godot的发行软件包较小, 使其适合替代Electron或Qt之类的框架."
+msgstr "Rebel Engine的发行软件包较小, 使其适合替代Electron或Qt之类的框架."
 
 #: about/list_of_features.rst:570 development/file_formats/tscn.rst:380
 #: tutorials/animation/index.rst:2
@@ -3193,7 +3204,7 @@ msgstr "使用 :ref:`class_ConfigFile` 读写 INI 样式的配置文件."
 #, fuzzy
 msgid ""
 "Can (de)serialize any Rebel Engine datatype, including Vector2/3, Color, ..."
-msgstr "可以（反）序列化任何 Godot 数据类型，包括 Vector2/3、Color 等。"
+msgstr "可以（反）序列化任何 Rebel Engine 数据类型，包括 Vector2/3、Color 等。"
 
 #: about/list_of_features.rst:596
 msgid "Read XML files using :ref:`class_XMLParser`."
@@ -3282,8 +3293,8 @@ msgid ""
 "instead of the ones provided by Rebel Engine. The build system doesn't "
 "download anything. Builds can be fully reproducible."
 msgstr ""
-"对打包者友好。通常情况下，可以使用系统库代替 Godot 提供的库。构建系统不会下载"
-"任何东西。构建完全可重现。"
+"对打包者友好。通常情况下，可以使用系统库代替 Rebel Engine 提供的库。构建系统"
+"不会下载任何东西。构建完全可重现。"
 
 #: about/list_of_features.rst:623
 msgid "Licensed under the permissive MIT license."
@@ -3299,7 +3310,7 @@ msgstr "开放的开发过程, :doc:`欢迎贡献 </contributing/ways_to_contrib
 #: about/release_policy.rst:2
 #, fuzzy
 msgid "Rebel Engine release policy"
-msgstr "Godot 发布策略"
+msgstr "Rebel Engine 发布策略"
 
 #: about/release_policy.rst:4
 #, fuzzy
@@ -3309,8 +3320,8 @@ msgid ""
 "actually happen depends on the choices of core contributors, and the needs "
 "of the community at a given time."
 msgstr ""
-"Godot 的发布政策是在不断改进的。以下内容是为了给各位提供一个大致的预期，但实"
-"际会发生什么取决于核心贡献者的选择，以及社区在特定时期的需求。"
+"Rebel Engine 的发布政策是在不断改进的。以下内容是为了给各位提供一个大致的预"
+"期，但实际会发生什么取决于核心贡献者的选择，以及社区在特定时期的需求。"
 
 #: about/release_policy.rst:10
 msgid "Rebel Engine versioning"
@@ -3323,7 +3334,7 @@ msgid ""
 "with a ``major.minor.patch`` versioning system, albeit with an "
 "interpretation of each term adapted to the complexity of a game engine:"
 msgstr ""
-"Godot 松散地遵循了\\ `语义化版本 <https://semver.org/>`__\\ ，采用了 "
+"Rebel Engine 松散地遵循了\\ `语义化版本 <https://semver.org/>`__\\ ，采用了 "
 "``major.minor.patch`` 的版本系统，不过对每个术语的解释都根据游戏引擎的复杂性"
 "进行了调整："
 
@@ -3356,9 +3367,9 @@ msgid ""
 "a feature, or modifying the interface of a given class, even if the rest of "
 "the engine API remains backwards compatible."
 msgstr ""
-"原因在于，作为游戏引擎，Godot 涵盖了渲染、物理、脚本等多个领域，修复某个领域"
-"的 Bug 或实现新功能，有时可能需要改变某个功能的行为，或者修改某个类的接口，即"
-"便是引擎 API 的其他部分仍然向后兼容。"
+"原因在于，作为游戏引擎，Rebel Engine 涵盖了渲染、物理、脚本等多个领域，修复某"
+"个领域的 Bug 或实现新功能，有时可能需要改变某个功能的行为，或者修改某个类的接"
+"口，即便是引擎 API 的其他部分仍然向后兼容。"
 
 #: about/release_policy.rst:33
 msgid ""
@@ -3414,9 +3425,9 @@ msgid ""
 "the letter. In particular, the 3.2 stable branch received a number of new "
 "features in 3.2.2 which would have warranted a ``minor`` version increment."
 msgstr ""
-"如导言中所述，Godot 的发布规则在不断改进，早期的 Godot 版本可能没有严格遵守上"
-"述规则。尤其是 3.2 稳定分支在 3.2.2 中获得了一些新的功能，这些新功能其实应该"
-"进行 ``minor`` 版本的递增。"
+"如导言中所述，Rebel Engine 的发布规则在不断改进，早期的 Rebel Engine 版本可能"
+"没有严格遵守上述规则。尤其是 3.2 稳定分支在 3.2.2 中获得了一些新的功能，这些"
+"新功能其实应该进行 ``minor`` 版本的递增。"
 
 #: about/release_policy.rst:64
 msgid "Release support timeline"
@@ -3442,8 +3453,7 @@ msgid ""
 "new major version."
 msgstr ""
 "每当一个新的主版本发布时，我们都会对上一个稳定分支提供长期的支持，并尽最大努"
-"力为那些无法将复杂项目移植到新的主要版本中的旧版用户提供修复帮助。2.1 分支如"
-"此，到 Godot 4.0 发布时，最新的 3.x 稳定分支也会如此。"
+"力为那些无法将复杂项目移植到新的主要版本中的旧版用户提供修复帮助。"
 
 #: about/release_policy.rst:76
 msgid ""
@@ -3510,7 +3520,7 @@ msgstr "eol"
 msgid ""
 "Pre-release Rebel Engine versions aren't intended to be used in production "
 "and are provided for testing purposes only."
-msgstr "Godot 的预览版不是为生产使用准备的，仅用于测试目的。"
+msgstr "Rebel Engine 的预览版不是为生产使用准备的，仅用于测试目的。"
 
 #: about/troubleshooting.rst:2
 #: development/compiling/compiling_for_windows.rst:241
@@ -3526,7 +3536,7 @@ msgstr "故障排除"
 msgid ""
 "This page lists common issues encountered when using Rebel Engine and "
 "possible solutions."
-msgstr "这个页面列出了使用 Godot 时的常见问题以及可能的解决办法。"
+msgstr "这个页面列出了使用 Rebel Engine 时的常见问题以及可能的解决办法。"
 
 #: about/troubleshooting.rst:7
 #, fuzzy
@@ -3585,7 +3595,7 @@ msgid ""
 "Optimus, you can use the dedicated graphics card to run Rebel Engine."
 msgstr ""
 "如果你使用的电脑支持切换显卡，比如 NVIDIA Optimus，你可以使用独立显卡运行 "
-"Godot。"
+"Rebel Engine。"
 
 #: about/troubleshooting.rst:30
 #, fuzzy
@@ -3622,13 +3632,13 @@ msgid ""
 msgstr ""
 "这是个\\ `已知错误 <https://github.com/godotengine/godot/issues/"
 "32990>`__\\ ，是由 Windows 上的第三方程序 Stardock Fences 引起的。已知的绕过"
-"方法是在使用 Godot 时禁用 Stardock Fences。"
+"方法是在使用 Rebel Engine 时禁用 Stardock Fences。"
 
 #: about/troubleshooting.rst:47
 #, fuzzy
 msgid ""
 "The Rebel Engine editor appears frozen after clicking the system console."
-msgstr "点击系统控制台后，Godot 编辑器没有响应。"
+msgstr "点击系统控制台后，Rebel Engine 编辑器没有响应。"
 
 #: about/troubleshooting.rst:49
 #, fuzzy
@@ -3639,9 +3649,9 @@ msgid ""
 "select text inside the system console. Rebel Engine cannot override this "
 "system-specific behavior."
 msgstr ""
-"在启用了系统控制台的 Windows 上运行 Godot 时，您可以通过在命令窗口中单击来意"
-"外启用\\ *选择模式*\\ 。Windows 的这种特定行为会暂停应用程序，以便您在系统控"
-"制台内选择文本。Godot 无法覆盖此系统特定的行为。"
+"在启用了系统控制台的 Windows 上运行 Rebel Engine 时，您可以通过在命令窗口中单"
+"击来意外启用\\ *选择模式*\\ 。Windows 的这种特定行为会暂停应用程序，以便您在"
+"系统控制台内选择文本。Rebel Engine 无法覆盖此系统特定的行为。"
 
 #: about/troubleshooting.rst:54
 msgid ""
@@ -3742,10 +3752,10 @@ msgid ""
 "export filter. See :ref:`tutorials/export/exporting_projects:resource "
 "options` for more information."
 msgstr ""
-"这通常是在导出对话框中忘记筛选非资源文件所导致的。默认情况下，Godot只会将实际"
-"的\\ *资源*\\ 包含在 PCK 文件中。一些常用的文件，例如 JSON 文件，不会被视为资"
-"源。例如，当你在导出的项目中加载 ``test.json`` 时，你需要在非资源导出过滤器中"
-"指定 ``*.json``\\ 。详见：\\ :ref:`tutorials/export/"
+"这通常是在导出对话框中忘记筛选非资源文件所导致的。默认情况下，Rebel Engine只"
+"会将实际的\\ *资源*\\ 包含在 PCK 文件中。一些常用的文件，例如 JSON 文件，不会"
+"被视为资源。例如，当你在导出的项目中加载 ``test.json`` 时，你需要在非资源导出"
+"过滤器中指定 ``*.json``\\ 。详见：\\ :ref:`tutorials/export/"
 "exporting_projects:resource options`\\ 。"
 
 #: about/troubleshooting.rst:97
@@ -3782,8 +3792,8 @@ msgid ""
 "available from our `Rebel Engine GitHub repository <https://github.com/"
 "RebelToolbox/RebelEngine/>`__."
 msgstr ""
-"你可以在 Godot 的 GitHub 仓库中找到类参考的源文件：\\ `doc/classes/ <https://"
-"github.com/godotengine/godot/tree/master/doc/classes>`_\\ 。"
+"你可以在 Rebel Engine 的 GitHub 仓库中找到类参考的源文件：\\ `doc/classes/ "
+"<https://github.com/godotengine/godot/tree/master/doc/classes>`_\\ 。"
 
 #: about/what_is_rebel.rst:10
 msgid ""
@@ -3804,8 +3814,8 @@ msgid ""
 "For a list of all the other tools, visit our `Rebel Toolbox GitHub <https://"
 "github.com/RebelToolbox/>`__ page."
 msgstr ""
-"从 `Godot GitHub 页面 <https://github.com/godotengine/godot>`_\\ 下载 Godot "
-"引擎的源代码。"
+"从 `Rebel Toolbox GitHub 页面 <https://github.com/godotengine/godot>`_\\ 下"
+"载 Rebel 引擎的源代码。"
 
 #: contributing/api_writing_guidelines.rst:2
 #, fuzzy
@@ -3819,8 +3829,8 @@ msgid ""
 "write new descriptions for the classes, methods, and properties for Rebel "
 "Engine's built-in node types."
 msgstr ""
-"本页面将介绍如何编写类参考手册。你会学到去哪里为 Godot 内置节点类型的类、方"
-"法、属性编写新的描述。"
+"本页面将介绍如何编写类参考手册。你会学到去哪里为 Rebel Engine 内置节点类型的"
+"类、方法、属性编写新的描述。"
 
 #: contributing/api_writing_guidelines.rst:10
 #, fuzzy
@@ -3828,7 +3838,7 @@ msgid ""
 "To learn to submit your changes to the Rebel Engine project using the Git "
 "version control system, see :doc:`updating_the_api_documentation`."
 msgstr ""
-"要学习如何使用 Git 版本控制系统向 Godot 项目提交你的修改，请参"
+"要学习如何使用 Git 版本控制系统向 Rebel Engine 项目提交你的修改，请参"
 "见 :doc:`updating_the_api_documentation`\\ 。"
 
 #: contributing/api_writing_guidelines.rst:13
@@ -3854,8 +3864,8 @@ msgid ""
 "Then, fill their documentation by completing or improving the text in these "
 "tags:"
 msgstr ""
-"你会想要在 Godot 的源代码中学习它们都有什么用。然后补全或者完善这些标签中的文"
-"本："
+"你会想要在 Rebel Engine 的源代码中学习它们都有什么用。然后补全或者完善这些标"
+"签中的文本："
 
 #: contributing/api_writing_guidelines.rst:70
 msgid "`<brief_description>`"
@@ -3914,8 +3924,8 @@ msgid ""
 "generates and updates the XML automatically."
 msgstr ""
 "如果你想要更新某个类的类参考手册，编辑 ``doc/classes/`` 中的对应文件即可。文"
-"件夹中包含了各个类的 XML 文件。在 XML 中，列出了类参考中的常量和方法。Godot "
-"会自动生成并更新这些 XML。"
+"件夹中包含了各个类的 XML 文件。在 XML 中，列出了类参考中的常量和方法。Rebel "
+"Engine 会自动生成并更新这些 XML。"
 
 #: contributing/api_writing_guidelines.rst:92
 #: contributing/updating_the_api_documentation.rst:30
@@ -3942,8 +3952,8 @@ msgid ""
 "code reference. To learn how to compile the engine, read "
 "the :ref:`compilation guide <toc-devel-compiling>`."
 msgstr ""
-"你也可以自行构建 Godot 然后在内置的类参考手册中打开被修改的页面。引擎的编译方"
-"法请查看 :ref:`compilation guide <toc-devel-compiling>`\\ 。"
+"你也可以自行构建 Rebel Engine 然后在内置的类参考手册中打开被修改的页面。引擎"
+"的编译方法请查看 :ref:`compilation guide <toc-devel-compiling>`\\ 。"
 
 #: contributing/api_writing_guidelines.rst:104
 msgid ""
@@ -3965,8 +3975,8 @@ msgid ""
 "Rebel Engine's class reference supports BBCode-like tags. They add nice "
 "formatting to the text. Here's the list of available tags:"
 msgstr ""
-"Godot的类参考支持类似BBCode的标签. 它们为文本添加了漂亮的格式. 下面是可用标签"
-"的列表:"
+"Rebel Engine的类参考支持类似BBCode的标签. 它们为文本添加了漂亮的格式. 下面是"
+"可用标签的列表:"
 
 #: contributing/api_writing_guidelines.rst:115
 #: tutorials/ui/bbcode_in_richtextlabel.rst:51
@@ -4356,9 +4366,9 @@ msgid ""
 "can lead to common misunderstandings and bad practices during the process of "
 "contributing code to the project."
 msgstr ""
-"由于项目本身主要针对具有编程能力的用户, 因此Godot拥有大量具有贡献能力的用户. "
-"尽管如此, 并非所有人都具有在大型项目或软件工程中工作的相同水平的经验, 这可能"
-"会在为项目贡献代码的过程中导致常见的误解和不良做法."
+"由于项目本身主要针对具有编程能力的用户, 因此Rebel Toolbox拥有大量具有贡献能力"
+"的用户. 尽管如此, 并非所有人都具有在大型项目或软件工程中工作的相同水平的经"
+"验, 这可能会在为项目贡献代码的过程中导致常见的误解和不良做法."
 
 #: contributing/best_practices_for_engine_contributors.rst:14
 #: tutorials/scripting/gdscript/gdscript_basics.rst:113
@@ -4491,8 +4501,8 @@ msgid ""
 "somewhere."
 msgstr ""
 "软件是为解决问题而设计的, 但我们不能指望它能解决太阳底下存在的所有问题. 作为"
-"一个游戏引擎,Godot会为你解决问题, 所以它可以帮助你把游戏做得更好更快, 但它不"
-"会让整个游戏为你服务. 必须在某处划一条线."
+"一个游戏引擎,Rebel Engine会为你解决问题, 所以它可以帮助你把游戏做得更好更快, "
+"但它不会让整个游戏为你服务. 必须在某处划一条线."
 
 #: contributing/best_practices_for_engine_contributors.rst:83
 msgid ""
@@ -4600,9 +4610,9 @@ msgid ""
 "they may not be accepted if they make something too difficult to use or if "
 "they add too much complexity to the codebase."
 msgstr ""
-"另外,Godot的理念是支持易用性和维护性, 而不是绝对性能. 性能优化将被考虑, 但是"
-"如果它们使得某些东西太难使用或者给代码库增加了太多的复杂性, 那么它们可能不会"
-"被接受."
+"另外,Rebel Toolbox的理念是支持易用性和维护性, 而不是绝对性能. 性能优化将被考"
+"虑, 但是如果它们使得某些东西太难使用或者给代码库增加了太多的复杂性, 那么它们"
+"可能不会被接受."
 
 #: contributing/best_practices_for_engine_contributors.rst:135
 msgid "#5: To each problem, its own solution"
@@ -4785,8 +4795,8 @@ msgid ""
 "As Rebel Engine requires to be shipped in a large amount of platforms, we "
 "can't link libraries dynamically. Instead, we bundle them in our source tree."
 msgstr ""
-"由于 Godot 需要在大量的平台上发布，我们无法对库进行动态链接。相反，我们将它们"
-"捆绑在我们的源代码树中。"
+"由于 Rebel Engine 需要在大量的平台上发布，我们无法对库进行动态链接。相反，我"
+"们将它们捆绑在我们的源代码树中。"
 
 #: contributing/best_practices_for_engine_contributors.rst:231
 msgid ""
@@ -4809,11 +4819,11 @@ msgid ""
 "run it on iOS in the long term. Since iOS doesn't support dynamic linking, "
 "static linking the only option on that platform."
 msgstr ""
-"此外, 库必须使用足够的许可证才能包含在Godot中. 可接受的许可证的一些例子有"
-"Apache2.0, BSD, MIT, ISC和MPL2.0. 特别是, 我们不能接受GPL或LGPL下许可的库, 因"
-"为这些许可有效地禁止专有软件中的静态链接(Godot在大多数导出项目中都是这样分发"
-"的). 这个要求也适用于编辑器, 因为我们可能希望长期在iOS上运行它. 由于iOS不支持"
-"动态链接, 因此静态链接是该平台上的唯一选项."
+"此外, 库必须使用足够的许可证才能包含在Rebel Engine中. 可接受的许可证的一些例"
+"子有Apache2.0, BSD, MIT, ISC和MPL2.0. 特别是, 我们不能接受GPL或LGPL下许可的"
+"库, 因为这些许可有效地禁止专有软件中的静态链接(Rebel Engine在大多数导出项目中"
+"都是这样分发的). 这个要求也适用于编辑器, 因为我们可能希望长期在iOS上运行它. "
+"由于iOS不支持动态链接, 因此静态链接是该平台上的唯一选项."
 
 #: contributing/bisecting_regressions.rst:2
 msgid "Bisecting regressions"
@@ -4829,10 +4839,10 @@ msgid ""
 "they can know in advance which commit caused the regression. Your effort "
 "will be widely appreciated :)"
 msgstr ""
-"二分查找是在软件中查找回归的一种方法。在 GitHub 上的 `Godot 仓库 <https://"
-"github.com/godotengine/godot>`__\\ 中报告了一个错误之后，贡献者可能会要求您去"
-"做\\ *二分查找*\\ 。二分查找可以让贡献者更快地修复错误，因为他们可以提前知道"
-"是哪个提交导致了回归。您的努力将受到广泛赞赏 :)"
+"二分查找是在软件中查找回归的一种方法。在 GitHub 上的 `Rebel Engine 仓库 "
+"<https://github.com/godotengine/godot>`__\\ 中报告了一个错误之后，贡献者可能"
+"会要求您去做\\ *二分查找*\\ 。二分查找可以让贡献者更快地修复错误，因为他们可"
+"以提前知道是哪个提交导致了回归。您的努力将受到广泛赞赏 :)"
 
 #: contributing/bisecting_regressions.rst:12
 msgid "The guide below explains how to find a regression by bisecting."
@@ -4852,8 +4862,8 @@ msgid ""
 "it's typically used for bugs, it can also be used to find other kinds of "
 "unexpected changes such as performance regressions."
 msgstr ""
-"Godot开发人员使用 `Git <https://git-scm.com/>`__ 版本控制系统. 在Git的上下文"
-"中, 二等分是执行手动 `二进制搜索 <https://en.wikipedia.org/wiki/"
+"Rebel Engine开发人员使用 `Git <https://git-scm.com/>`__ 版本控制系统. 在Git的"
+"上下文中, 二等分是执行手动 `二进制搜索 <https://en.wikipedia.org/wiki/"
 "Binary_search_algorithm>`__ 的过程, 以确定什么时候出现了回归. 尽管它通常用于"
 "错误, 但也可以用于查找其他种类的意外更改, 例如性能下降."
 
@@ -4898,9 +4908,9 @@ msgid ""
 "devel-compiling>` page for your target platform. (Compiling Rebel Engine "
 "from source doesn't require C++ programming knowledge.)"
 msgstr ""
-"在平分回归之前, 您需要设置一个构建环境以从源代码编译Godot. 为此, 请阅读目标平"
-"台的 :ref:`Compiling <toc-devel-compiling>` 页面. (从源代码编译Godot不需要C +"
-"+编程知识.)"
+"在平分回归之前, 您需要设置一个构建环境以从源代码编译Rebel Engine. 为此, 请阅"
+"读目标平台的 :ref:`Compiling <toc-devel-compiling>` 页面. (从源代码编译Rebel "
+"Engine不需要C ++编程知识.)"
 
 #: contributing/bisecting_regressions.rst:47
 #, fuzzy
@@ -4911,10 +4921,10 @@ msgid ""
 "want to stop there and report the results of your \"pre-bisecting\" on the "
 "GitHub issue so another contributor can continue bisecting from there."
 msgstr ""
-"请注意, 编译 Godot 可能需要在缓慢的硬件上一段时间(在缓慢的双核 CPU 上, 每次完"
-"全重建需要一个小时). 这意味着整个过程最多可能需要几个小时. 如果您的硬件太慢, "
-"您可能希望停止并报告 GitHub 问题的 \"预分节\" 结果, 以便其他参与者可以继续从"
-"该部分开始参与."
+"请注意, 编译 Rebel Engine 可能需要在缓慢的硬件上一段时间(在缓慢的双核 CPU "
+"上, 每次完全重建需要一个小时). 这意味着整个过程最多可能需要几个小时. 如果您的"
+"硬件太慢, 您可能希望停止并报告 GitHub 问题的 \"预分节\" 结果, 以便其他参与者"
+"可以继续从该部分开始参与."
 
 #: contributing/bisecting_regressions.rst:53
 #, fuzzy
@@ -4936,14 +4946,14 @@ msgid ""
 "getting_source>`. Once this is done, in the terminal window, use ``cd`` to "
 "reach the Rebel Engine repository folder and enter the following command:"
 msgstr ""
-":doc:`使用 Git 获取 Godot 的源代码 </development/compiling/"
-"getting_source>`\\ 。完成后，在终端窗口中，使用 ``cd`` 进入 Godot 仓库文件夹"
-"并输入以下命令："
+":doc:`使用 Git 获取 Rebel Engine 的源代码 </development/compiling/"
+"getting_source>`\\ 。完成后，在终端窗口中，使用 ``cd`` 进入 Rebel Engine 仓库"
+"文件夹并输入以下命令："
 
 #: contributing/bisecting_regressions.rst:69
 #, fuzzy
 msgid "Compile Rebel Engine. This assumes you've set up a build environment:"
-msgstr "编译 Godot。这假定您已经设置好了构建环境："
+msgstr "编译 Rebel Engine。这假定您已经设置好了构建环境："
 
 #: contributing/bisecting_regressions.rst:77
 #, fuzzy
@@ -4952,8 +4962,9 @@ msgid ""
 "threads as possible to the task. This is what the ``-j`` parameter does. "
 "Here, the command assigns 4 CPU threads to compiling Rebel Engine."
 msgstr ""
-"由于构建 Godot 需要花上一定时间，因此您会希望为任务分配尽可能多的 CPU 线程。"
-"这就是 ``-j`` 参数的作用。在此，该命令会分配 4 个 CPU 线程来编译 Godot。"
+"由于构建 Rebel Engine 需要花上一定时间，因此您会希望为任务分配尽可能多的 CPU "
+"线程。这就是 ``-j`` 参数的作用。在此，该命令会分配 4 个 CPU 线程来编译 Rebel "
+"Engine。"
 
 #: contributing/bisecting_regressions.rst:81
 msgid ""
@@ -4979,10 +4990,10 @@ msgid ""
 "to find most regressions; Git will remind you of the number of steps "
 "remaining (in the worst case scenario)."
 msgstr ""
-"输入上述命令之一后,Git 将切换到其他提交. 现在, 您应该再次构建 Godot, 尝试重"
-"现 Bug, 然后根据结果输入\"git 一部分好 \"或\"git 一次坏\". 你必须重复几次. 提"
-"交范围越长, 所需的步骤就越多.5 到 10 个步骤通常足以查找大多数回归;Git 将提醒"
-"您剩余步骤数(在最坏的情况下)."
+"输入上述命令之一后,Git 将切换到其他提交. 现在, 您应该再次构建 Rebel Engine, "
+"尝试重现 Bug, 然后根据结果输入\"git 一部分好 \"或\"git 一次坏\". 你必须重复几"
+"次. 提交范围越长, 所需的步骤就越多.5 到 10 个步骤通常足以查找大多数回归;Git "
+"将提醒您剩余步骤数(在最坏的情况下)."
 
 #: contributing/bisecting_regressions.rst:102
 #, fuzzy
@@ -4993,7 +5004,7 @@ msgid ""
 "contributing to Rebel Engine :)"
 msgstr ""
 "完成足够的步骤后,Git将在出现回归的位置显示提交哈希. 将此提交哈希值写成对一分"
-"为二的GitHub问题的评论. 这将有助于解决问题. 再次感谢您对Godot的贡献:)"
+"为二的GitHub问题的评论. 这将有助于解决问题. 再次感谢您对Rebel Engine的贡献:)"
 
 #: contributing/bisecting_regressions.rst:109
 msgid ""
@@ -5016,7 +5027,7 @@ msgid ""
 "together with the bugsquad, so do not hesitate to propose modifications to "
 "the following guidelines."
 msgstr ""
-"本页面描述了 Bug 分类团队即 bugsquad（Bug 小队）在处理 Godot `GitHub "
+"本页面描述了 Bug 分类团队即 bugsquad（Bug 小队）在处理 Rebel Engine `GitHub "
 "<https://github.com/godotengine/godot>`_ 仓库的 Issue 和 Pull Request 时的典"
 "型工作流程。它一定会与 bugsquad 一起发展，所以请对下面的规范提出修改意见，不"
 "要犹豫。"
@@ -5046,7 +5057,7 @@ msgstr "在项目仪表板中跟踪问题"
 msgid ""
 "Define one contributor as \"assignee\" among the Rebel Engine organization "
 "members"
-msgstr "在 Godot 引擎组织成员中定义一个贡献者作为“担当者”"
+msgstr "在 Rebel Engine 引擎组织成员中定义一个贡献者作为“担当者”"
 
 #: contributing/bug_triage_guidelines.rst:20
 #, fuzzy
@@ -5057,9 +5068,9 @@ msgid ""
 "it on the issue ticket and/or discussing the best way to resolve it with "
 "other developers."
 msgstr ""
-"由于GitHub上的Godot引擎组织目前的贡献者数量有限, 我们暂时不会广泛使用受托者. "
-"欢迎所有贡献者讨论任何问题, 如果在问题单上提及和/或讨论, 是与其他开发人员解决"
-"此问题的最佳方式."
+"由于GitHub上的Rebel Toolbox引擎组织目前的贡献者数量有限, 我们暂时不会广泛使用"
+"受托者. 欢迎所有贡献者讨论任何问题, 如果在问题单上提及和/或讨论, 是与其他开发"
+"人员解决此问题的最佳方式."
 
 #: contributing/bug_triage_guidelines.rst:26
 msgid "For the time being, we do not use the project dashboard feature either."
@@ -5390,9 +5401,9 @@ msgid ""
 "issues, so best setup your system as outlined below to ensure all your "
 "commits follow the guidelines."
 msgstr ""
-"在给 Godot 的源代码做贡献时，你需要遵循下面概述的样式规范。其中一些是通过持续"
-"集成过程进行检查的，评审人员将要求你修复潜在的问题，因此最好按照下面概述的方"
-"式设置系统，以确保所有提交都遵循规范。"
+"在给 Rebel Engine 的源代码做贡献时，你需要遵循下面概述的样式规范。其中一些是"
+"通过持续集成过程进行检查的，评审人员将要求你修复潜在的问题，因此最好按照下面"
+"概述的方式设置系统，以确保所有提交都遵循规范。"
 
 #: contributing/code_style_guidelines.rst:13
 msgid "C++ and Objective-C"
@@ -5436,8 +5447,8 @@ msgid ""
 "github.com/RebelToolbox/RebelEngine/blob/main/.clang-format>`__ file of the "
 "Rebel Engine repository."
 msgstr ""
-"Clang 格式使用的规则在 Godot 仓库的 `.clang-format <https://github.com/"
-"godotengine/godot/blob/master/.clang-format>`__ 文件中进行了概述。"
+"Clang 格式使用的规则在 Rebel Engine 仓库的 `.clang-format <https://"
+"github.com/godotengine/godot/blob/master/.clang-format>`__ 文件中进行了概述。"
 
 #: contributing/code_style_guidelines.rst:30
 msgid ""
@@ -5460,9 +5471,9 @@ msgid ""
 "their own style guides (or lack thereof), and don't want to introduce "
 "differences that would make syncing with upstream repositories harder."
 msgstr ""
-"Godot的代码风格 *不应该* 适用于第三方代码, 即包含在Godot的源代码树中, 但不是"
-"专门为我们的项目编写的. 这样的代码通常来自不同的上游项目, 有他们自己的风格指"
-"南(或缺乏风格规则), 我们不想引入差异, 使其与上游仓库的同步更加困难."
+"Rebel的代码风格 *不应该* 适用于第三方代码, 即包含在Rebel Engine的源代码树中, "
+"但不是专门为我们的项目编写的. 这样的代码通常来自不同的上游项目, 有他们自己的"
+"风格指南(或缺乏风格规则), 我们不想引入差异, 使其与上游仓库的同步更加困难."
 
 #: contributing/code_style_guidelines.rst:42
 #, fuzzy
@@ -5474,9 +5485,9 @@ msgid ""
 "to tell clang-format to ignore a chunk of code."
 msgstr ""
 "第三方代码通常包含在 ``thirdparty/`` 文件夹中, 因此可以很容易地从格式化脚本中"
-"排除. 在极少数情况下, 第三方代码片段需要直接包含在Godot文件中, 你可以使用 ``/"
-"* clang-format off */`` 和 ``/* clang-format on */`` 来告诉clang-format忽略某"
-"块儿的代码."
+"排除. 在极少数情况下, 第三方代码片段需要直接包含在Rebel Engine文件中, 你可以"
+"使用 ``/* clang-format off */`` 和 ``/* clang-format on */`` 来告诉clang-"
+"format忽略某块儿的代码."
 
 #: contributing/code_style_guidelines.rst:51
 #, fuzzy
@@ -5564,8 +5575,8 @@ msgid ""
 "Rebel Engine's tree. So better use ``core/*.{cpp,h}`` than ``core/*``."
 msgstr ""
 "该路径可以指向几个文件, 一个接一个, 也可以使用如在典型的Unix shell中的通配"
-"符. 在通配时要小心, 以免对Godot树中的已编译对象(.o和.a文件)运行clang格式. 因"
-"此, 最好使用 ``core/*. {cpp,h}`` 而不是 ``core/*``."
+"符. 在通配时要小心, 以免对Rebel Engine树中的已编译对象(.o和.a文件)运行clang格"
+"式. 因此, 最好使用 ``core/*. {cpp,h}`` 而不是 ``core/*``."
 
 #: contributing/code_style_guidelines.rst:94
 #, fuzzy
@@ -5678,8 +5689,8 @@ msgid ""
 "The first lines in the file should be Rebel Engine's copyright header and "
 "MIT license, copy-pasted from another file. Make sure to adjust the filename."
 msgstr ""
-"文件中的第一行应该是Godot的版权标头和MIT许可证, 从另一个文件复制粘贴. 确保调"
-"整文件名."
+"文件中的第一行应该是Rebel Engine的版权标头和MIT许可证, 从另一个文件复制粘贴. "
+"确保调整文件名."
 
 #: contributing/code_style_guidelines.rst:133
 msgid ""
@@ -5705,9 +5716,9 @@ msgid ""
 "\"core/object.h\"``. The block of Rebel Engine header includes should then "
 "be followed by an empty line for separation."
 msgstr ""
-"然后来自Godot自己的代码库的标头, 按字母顺序(由 ``clang-format`` 强制)引入, 并"
-"具有相对于根文件夹的路径. 这些引入应该用引号来完成, 例如 ``#include \"core/"
-"object.h\"``. 然后,Godot标头引入的块应用一个空行以进行分隔."
+"然后来自Rebel Engine自己的代码库的标头, 按字母顺序(由 ``clang-format`` 强制)"
+"引入, 并具有相对于根文件夹的路径. 这些引入应该用引号来完成, 例如 ``#include "
+"\"core/object.h\"``. 然后,Rebel Engine标头引入的块应用一个空行以进行分隔."
 
 #: contributing/code_style_guidelines.rst:144
 msgid ""
@@ -5727,8 +5738,8 @@ msgid ""
 "requires them, i.e. in the `.h` header if used in the declarative code or in "
 "the `.cpp` if used only in the imperative code."
 msgstr ""
-"Godot和第三方标头应包含在需要它们的文件中, 即, 如果在声明性代码中使用, 则在 "
-"`.h` 标头中；如果仅在命令性代码中使用, 则在 `.cpp` 中."
+"Rebel Engine和第三方标头应包含在需要它们的文件中, 即, 如果在声明性代码中使"
+"用, 则在 `.h` 标头中；如果仅在命令性代码中使用, 则在 `.cpp` 中."
 
 #: contributing/code_style_guidelines.rst:152
 #: tutorials/io/background_loading.rst:270
@@ -5756,9 +5767,10 @@ msgid ""
 "Rebel Engine, not third-party code such as the ``java/src/com/google`` "
 "subfolder."
 msgstr ""
-"Godot的Java代码(主要在 ``platform/android`` 中)也是通过 ``clang-format`` 来执"
-"行的, 所以请看上面的说明来设置它. 请记住, 本风格规则只适用于Godot编写和维护的"
-"代码, 而不是第三方代码, 如 ``java/src/com/google`` 子文件夹."
+"Rebel Engine的Java代码(主要在 ``platform/android`` 中)也是通过 ``clang-"
+"format`` 来执行的, 所以请看上面的说明来设置它. 请记住, 本风格规则只适用于"
+"Rebel Engine编写和维护的代码, 而不是第三方代码, 如 ``java/src/com/google`` 子"
+"文件夹."
 
 #: contributing/code_style_guidelines.rst:248
 msgid "Python"
@@ -5770,7 +5782,8 @@ msgid ""
 "Rebel Engine's SCons buildsystem is written in Python, and various scripts "
 "included in the source tree are also using Python."
 msgstr ""
-"Godot的SCons构建系统是用Python编写的, 源代码树中包含的各种脚本也使用Python."
+"Rebel Engine的SCons构建系统是用Python编写的, 源代码树中包含的各种脚本也使用"
+"Python."
 
 #: contributing/code_style_guidelines.rst:253
 #, fuzzy
@@ -5878,7 +5891,7 @@ msgstr "评论风格指南"
 msgid ""
 "This comment style guide applies to all programming languages used within "
 "Rebel Engine's codebase."
-msgstr "本注释风格指南适用于Godot代码库中使用的所有编程语言."
+msgstr "本注释风格指南适用于Rebel Engine代码库中使用的所有编程语言."
 
 #: contributing/code_style_guidelines.rst:313
 msgid ""
@@ -5972,7 +5985,7 @@ msgid ""
 "Rebel Toolbox's features work."
 msgstr ""
 "**编写完善的参考手册**\\ 。我们这里的目标不是教授编程的基础知识。我们应该提供"
-"了解如何使用 Godot 功能的参考材料。"
+"了解如何使用 Rebel Toolbox 功能的参考材料。"
 
 #: contributing/content_guidelines.rst:17
 msgid "Guidelines and principles"
@@ -5999,7 +6012,7 @@ msgid ""
 "should ensure that we cover everything Rebel Toolbox does."
 msgstr ""
 "**功能在编写文档前是不存在的**\\ 。如果用户无法找到某个功能的信息和用法，那么"
-"这个功能对于他们就不存在。我们应该保证涉及到 Godot 的方方面面。"
+"这个功能对于他们就不存在。我们应该保证涉及到 Rebel Toolbox 的方方面面。"
 
 #: contributing/content_guidelines.rst:32
 #, fuzzy
@@ -6052,8 +6065,9 @@ msgid ""
 "page about physics may use signals, in which case we could note that the "
 "page that introduces signals is a pre-requisite."
 msgstr ""
-"如果页面中要用到其他 Godot 特性，请进行提及并链接到对应的文档。例如，关于物理"
-"的页面可能会用到信号，那么就可以标明介绍信号的页面是该页面的先决条件。"
+"如果页面中要用到其他 Rebel Toolbox 特性，请进行提及并链接到对应的文档。例如，"
+"关于物理的页面可能会用到信号，那么就可以标明介绍信号的页面是该页面的先决条"
+"件。"
 
 #: contributing/content_guidelines.rst:59
 msgid "Limiting cognitive load"
@@ -6126,9 +6140,9 @@ msgid ""
 "like \"metaprogramming\". If you need to use precise terms, be sure to "
 "define them."
 msgstr ""
-"拥有编程基础是使用像 Godot 这样复杂的引擎的先决条件。你可以用到变量、函数、"
-"类。不过相对于“元编程”之类的特定术语，我们应该更倾向于使用平实的语言。如果你"
-"需要使用精准的术语，请一定要给出定义。"
+"拥有编程基础是使用像 Rebel Engine 这样复杂的引擎的先决条件。你可以用到变量、"
+"函数、类。不过相对于“元编程”之类的特定术语，我们应该更倾向于使用平实的语言。"
+"如果你需要使用精准的术语，请一定要给出定义。"
 
 #: contributing/content_guidelines.rst:92
 msgid ""
@@ -6154,7 +6168,8 @@ msgid ""
 "This guide explains how to contribute to Rebel Toolbox's documentation, be "
 "it by writing or reviewing pages."
 msgstr ""
-"本指南介绍的是如何向 Godot 的文档做出贡献，无论是编写页面还是审核页面。"
+"本指南介绍的是如何向 Rebel Toolbox 的文档做出贡献，无论是编写页面还是审核页"
+"面。"
 
 #: contributing/contributing_to_the_documentation.rst:8
 #: contributing/how_can_i_contribute.rst:14 tutorials/vr/openxr/index.rst:14
@@ -6192,15 +6207,15 @@ msgid ""
 "you want to update the description of a class, its methods, or properties, "
 "read :doc:`updating_the_api_documentation`."
 msgstr ""
-"类参考的源文件位于 `Godot 引擎仓库 <https://github.com/godotengine/"
-"godot>`_\\ 中。我们会用它来生成本文档的 :ref:`Godot API <toc-api>` 章节。如果"
+"类参考的源文件位于 `Rebel Engine 引擎仓库 <https://github.com/godotengine/"
+"godot>`_\\ 中。我们会用它来生成本文档的 :ref:`Rebel API <toc-api>` 章节。如果"
 "你想要更新类、方法、属性等的描述信息，请参"
 "阅 :doc:`updating_the_api_documentation`\\ 。"
 
 #: contributing/contributing_to_the_documentation.rst:25
 #, fuzzy
 msgid "What is the Rebel Documentation"
-msgstr "Godot 文档是什么"
+msgstr "Rebel 文档是什么"
 
 #: contributing/contributing_to_the_documentation.rst:27
 #, fuzzy
@@ -6209,8 +6224,8 @@ msgid ""
 "Rebel Toolbox. It is not meant to contain step-by-step tutorials, except for "
 "two game creation tutorials in the Getting Started section."
 msgstr ""
-"Godot 文档旨在作为 Godot 游戏引擎的完备参考手册。除了“入门”章节的两个游戏制作"
-"教程之外，不包含渐进式教程。"
+"Rebel 文档旨在作为 Rebel Toolbox 完备参考手册。除了“入门”章节的两个游戏制作教"
+"程之外，不包含渐进式教程。"
 
 #: contributing/contributing_to_the_documentation.rst:31
 msgid ""
@@ -6246,8 +6261,8 @@ msgid ""
 "Pull Requests against other branches if your changes only apply to that "
 "specific version of the documentation."
 msgstr ""
-"**拉取请求应该默认使用** ``master`` **分支。**\\ 请在修改只对特定版本的 "
-"Godot 有意义时，才针对其他分支（比如 ``2.1`` 或 ``3.0``\\ ）提交拉取请求。"
+"**拉取请求应该默认使用** ``master`` **分支。**\\ 请在修改只对特定版本的有意义"
+"时。"
 
 #: contributing/contributing_to_the_documentation.rst:45
 msgid ""
@@ -6274,7 +6289,7 @@ msgid ""
 msgstr ""
 "要编辑已有页面，请先定位其 ``.rst`` 源文件并在你喜欢的文本编辑器中打开。然后"
 "你就可以将修改提交、推送到你的 Fork 中，然后创建拉取请求。\\ **注意，请勿在此"
-"编辑** ``classes/`` **中的页面。**\\ 它们是根据 Godot 的 `XML 类参考 "
+"编辑** ``classes/`` **中的页面。**\\ 它们是根据 Rebel Engine 的 `XML 类参考 "
 "<https://github.com/godotengine/godot/tree/master/doc/classes>`__\\ 自动生成"
 "的。详情请参阅 :doc:`updating_the_api_documentation`\\ 。"
 
@@ -6419,12 +6434,12 @@ msgstr "请以普通句子的形式编写标题，不要所有单词都大写：
 #: contributing/contributing_to_the_documentation.rst:118
 #, fuzzy
 msgid "**Good:** Understanding signals in Rebel Engine"
-msgstr "**良好：**\\ Understanding signals in Godot"
+msgstr "**良好：**\\ Understanding signals in Rebel Engine"
 
 #: contributing/contributing_to_the_documentation.rst:119
 #, fuzzy
 msgid "**Bad:** Understanding Signals In Rebel Engine"
-msgstr "**欠佳：**\\ Understanding Signals In Godot"
+msgstr "**欠佳：**\\ Understanding Signals In Rebel Engine"
 
 #: contributing/contributing_to_the_documentation.rst:121
 msgid ""
@@ -6502,9 +6517,9 @@ msgid ""
 "readable code, we chose to restrict our usage of C++ to a subset for a few "
 "reasons:"
 msgstr ""
-"从 Godot 4.0 开始，代码库中所使用的 C++ 标准是 **C++17** 的子集。现代 C++ 带"
-"来了许多机会，让我们能够编写更快、更易读的代码，但我们选择将我们对 C++ 的使用"
-"限制在一个子集中，原因有这么几点："
+"代码库中所使用的 C++ 标准是 **C++17** 的子集。现代 C++ 带来了许多机会，让我们"
+"能够编写更快、更易读的代码，但我们选择将我们对 C++ 的使用限制在一个子集中，原"
+"因有这么几点："
 
 #: contributing/cpp_usage_guidelines.rst:12
 msgid ""
@@ -6522,8 +6537,8 @@ msgid ""
 "professional C++ programmers). Rebel Engine's codebase is known to be easy "
 "to learn from, and we'd like to keep it that way."
 msgstr ""
-"易于让新手贡献者掌握代码（他们可能不是专业的 C++ 程序员）。Godot 的代码库是公"
-"认的易于学习，我们希望继续保持。"
+"易于让新手贡献者掌握代码（他们可能不是专业的 C++ 程序员）。Rebel Engine 的代"
+"码库是公认的易于学习，我们希望继续保持。"
 
 #: contributing/cpp_usage_guidelines.rst:19
 msgid ""
@@ -6577,9 +6592,9 @@ msgid ""
 "(standard template library)?` for more information."
 msgstr ""
 "我们不允许使用 `STL <https://en.wikipedia.org/wiki/"
-"Standard_Template_Library>`__\\ ，因为 Godot 提供了自有的数据类型（及其他工"
-"具）。详情请参阅 :ref:`about/faq:why does rebel engine not use stl (standard "
-"template library)?`\\ 。"
+"Standard_Template_Library>`__\\ ，因为 Rebel Engine 提供了自有的数据类型（及"
+"其他工具）。详情请参阅 :ref:`about/faq:why does rebel engine not use stl "
+"(standard template library)?`\\ 。"
 
 #: contributing/cpp_usage_guidelines.rst:48
 #, fuzzy
@@ -6589,7 +6604,7 @@ msgid ""
 "described below:"
 msgstr ""
 "这意味着拉取请求中\\ **不应该**\\ 使用 ``std::string``\\ 、\\ "
-"``std::vector`` 等工具。请使用如下所述的 Godot 数据类型代替："
+"``std::vector`` 等工具。请使用如下所述的 Rebel Engine 数据类型代替："
 
 #: contributing/cpp_usage_guidelines.rst:51
 msgid "Use ``String`` instead of ``std::string``."
@@ -6615,9 +6630,9 @@ msgid ""
 "datatypes like Vector and Array. Therefore, List should be avoided in new "
 "code unless necessary."
 msgstr ""
-"Godot 还有一个 List 数据类型（是个链表）。虽然 List 在代码库中有所使用，但一"
-"般性能都比 Vector 和 Array 等数据类型要差。因此，除非必要，否则应该避免在新代"
-"码中使用 List。"
+"Rebel Engine 还有一个 List 数据类型（是个链表）。虽然 List 在代码库中有所使"
+"用，但一般性能都比 Vector 和 Array 等数据类型要差。因此，除非必要，否则应该避"
+"免在新代码中使用 List。"
 
 #: contributing/cpp_usage_guidelines.rst:63
 msgid "``auto`` keyword"
@@ -6696,9 +6711,9 @@ msgid ""
 "For the API documentation, the goal is to make it easy to read for everyone "
 "and precise."
 msgstr ""
-"Godot 社区丰富且具国际化。用户来自世界各地。他们中的一些人很年轻，很多人不是"
-"母语为英语的人。这就是为什么我们都必须使用清晰和通用的语言写作。对于类参考手"
-"册，目标是让每个人都能轻松和精确阅读。"
+"Rebel Toolbox 社区丰富且具国际化。用户来自世界各地。他们中的一些人很年轻，很"
+"多人不是母语为英语的人。这就是为什么我们都必须使用清晰和通用的语言写作。对于"
+"类参考手册，目标是让每个人都能轻松和精确阅读。"
 
 #: contributing/docs_writing_guidelines.rst:10
 msgid "In summary, always try to:"
@@ -7224,14 +7239,14 @@ msgid ""
 "When you edit XML files in the Rebel Engine repository, replace existing "
 "arguments written like 'this' or \\`this\\` with ``[code]this[/code]``."
 msgstr ""
-"在类参考手册中，始终使用 ``[code][/code]`` 包围参数。在文档和 Godot 中，它将"
-"显示为 ``这样``\\ 。编辑 Godot 仓库中的 XML 文件时，请用 ``[code]this[/"
-"code]`` 替换现在的参数，如 'this' 或 \\`this\\`。"
+"在类参考手册中，始终使用 ``[code][/code]`` 包围参数。在文档和 Rebel Engine "
+"中，它将显示为 ``这样``\\ 。编辑 Rebel Engine 仓库中的 XML 文件时，请用 "
+"``[code]this[/code]`` 替换现在的参数，如 'this' 或 \\`this\\`。"
 
 #: contributing/docs_writing_guidelines.rst:455
 #, fuzzy
 msgid "Common vocabulary to use in Rebel Toolbox's documentation"
-msgstr "Godot 文档中的常用词汇"
+msgstr "Rebel Toolbox 文档中的常用词汇"
 
 #: contributing/docs_writing_guidelines.rst:457
 msgid ""
@@ -7423,9 +7438,9 @@ msgid ""
 "and the `docs front page <https://docs.rebeltoolbox.com>`__ on what steps to "
 "follow."
 msgstr ""
-"本页介绍了如果你想通过编写或审阅文档, 或翻译现有的文档来为Godot引擎做贡献, 需"
-"要遵循的规则. 另外, 请看 `godot-docs GitHub仓库的README <https://github.com/"
-"godotengine/godot-docs>`_ 和 `docs front page <https://"
+"本页介绍了如果你想通过编写或审阅文档, 或翻译现有的文档来为Rebel Toolbox引擎做"
+"贡献, 需要遵循的规则. 另外, 请看 `godot-docs GitHub仓库的README <https://"
+"github.com/godotengine/godot-docs>`_ 和 `docs front page <https://"
 "docs.godotengine.org>`_ , 了解应该遵循哪些步骤以及如何联系docs团队."
 
 #: contributing/documentation_guidelines.rst:12
@@ -7456,8 +7471,8 @@ msgid ""
 "you want to update the description of a class, its methods, or properties, "
 "read :doc:`updating_the_api_documentation`."
 msgstr ""
-"类参考的源文件位于 `Godot 引擎仓库 <https://github.com/godotengine/"
-"godot>`_\\ 中。我们会用它来生成本文档的 :ref:`Godot API <toc-api>` 章节。如果"
+"类参考的源文件位于 `Rebel Engine 引擎仓库 <https://github.com/godotengine/"
+"godot>`_\\ 中。我们会用它来生成本文档的 :ref:`Rebel API <toc-api>` 章节。如果"
 "你想要更新类、方法、属性等的描述信息，请参"
 "阅 :doc:`updating_the_api_documentation`\\ 。"
 
@@ -7472,7 +7487,7 @@ msgid ""
 "here: :doc:`updating_the_api_documentation`."
 msgstr ""
 "如果你想编辑 **API参考手册** , 请注意它 *不* 应该在godot-docs仓库中完成. 而"
-"是, 你应该编辑Godot的主仓库的 ``doc/classes/*`` XML文件. 这些文件随后将用于生"
+"是, 你应该编辑Rebel的主仓库的 ``doc/classes/*`` XML文件. 这些文件随后将用于生"
 "成编辑器内文档以及在线文档的API参考手册. 在这"
 "里 :doc:`updating_the_api_documentation` 阅读更多."
 
@@ -7572,7 +7587,7 @@ msgid ""
 "class, or an overview of the input management in Rebel Engine)."
 msgstr ""
 "文档: 一个页面, 如果可能的话, 一次只描述一个且只有一个概念(例如Sprite类的方法"
-"列表, 或者Godot中输入管理的概述)."
+"列表, 或者Rebel Engine中输入管理的概述)."
 
 #: contributing/documentation_guidelines.rst:82
 msgid ""
@@ -7618,7 +7633,8 @@ msgstr "如何贡献"
 msgid ""
 "Everyone is most welcome to contribute to the Rebel Toolbox. Here are some "
 "ways in which you can contribute to the project:"
-msgstr "热烈欢迎大家为 Godot 进行贡献。你可以通过这些途径为本项目进行贡献："
+msgstr ""
+"热烈欢迎大家为 Rebel Toolbox 进行贡献。你可以通过这些途径为本项目进行贡献："
 
 #: contributing/how_can_i_contribute.rst:7
 #, fuzzy
@@ -7694,9 +7710,9 @@ msgid ""
 "RebelEngine>`__. We use XML files to write it, so the process to contribute "
 "to the API documentation differs from writing the online manual."
 msgstr ""
-"因为参考是包含在 Godot 编辑器中的，它的源文件是 `Godot 仓库 <https://"
-"github.com/godotengine/godot>`_\\ 的一部分。我们是用 XML 文件来编写的，所以贡"
-"献类参考的流程和编写在线手册的流程有所不同。"
+"因为参考是包含在 Rebel Engine 编辑器中的，它的源文件是 `Rebel Engine 仓库 "
+"<https://github.com/godotengine/godot>`_\\ 的一部分。我们是用 XML 文件来编写"
+"的，所以贡献类参考的流程和编写在线手册的流程有所不同。"
 
 #: contributing/how_can_i_contribute.rst:70
 msgid "Contributing to the engine"
@@ -7724,11 +7740,11 @@ msgid ""
 "GitHub interface to request a *pull* from one of their fork's branches to "
 "one branch of the original (often named *upstream*) repository."
 msgstr ""
-"Godot 使用的所谓“PR 工作流程”对于许多使用 Git 的项目来说都很常见，并且对于资"
-"深自由软件贡献者应该很熟悉。其思想就是只有少数（如果有的话）能直接提交给 "
-"*master* 分支。而贡献者 *fork* 项目（即创建它的副本，他们可以按照自己的意愿修"
-"改），然后使用 GitHub 的界面从其 fork 的某个分支请求 *pull* 到原始（通常命名"
-"为 *upstream*\\ ）仓库的某个分支。"
+"Rebel Toolbox 使用的所谓“PR 工作流程”对于许多使用 Git 的项目来说都很常见，并"
+"且对于资深自由软件贡献者应该很熟悉。其思想就是只有少数（如果有的话）能直接提"
+"交给 *master* 分支。而贡献者 *fork* 项目（即创建它的副本，他们可以按照自己的"
+"意愿修改），然后使用 GitHub 的界面从其 fork 的某个分支请求 *pull* 到原始（通"
+"常命名为 *upstream*\\ ）仓库的某个分支。"
 
 #: contributing/pr_workflow.rst:14
 msgid ""
@@ -7750,7 +7766,7 @@ msgid ""
 "organization of Rebel Engine's Git repository."
 msgstr ""
 "我们将一起通过一个例子来展示典型的工作流程和相关的Git命令. 但首先, 让我们快速"
-"了解一下Godot的Git仓库的组织结构."
+"了解一下Rebel Engine的Git仓库的组织结构."
 
 #: contributing/pr_workflow.rst:25
 msgid "Git source repository"
@@ -7789,12 +7805,12 @@ msgid ""
 "modification, which quickly leads to PRs with an unreadable Git history "
 "(especially after peer review)."
 msgstr ""
-"Git 版本控制系统是用于跟踪源代码的连续编辑的工具——目的是高效地为 Godot 做贡"
-"献，\\ *强烈*\\ 建议学习 Git 命令行的基础知识。Git 有一些图形界面，但是它们通"
-"常会鼓励用户养成关于 Git 和 PR 工作流程的不良习惯，因此我们建议不要去使用。特"
-"别是，我们建议不要使用 GitHub 的在线编辑器进行代码贡献（尽管可以进行较小的修"
-"复或文档更改），因为它会对每个文件和每个修改强制执行一次提交，因此很快导致 "
-"PR 的 Git 历史记录不可读（尤其是在同行评审之后）。"
+"Git 版本控制系统是用于跟踪源代码的连续编辑的工具——目的是高效地为 Rebel "
+"Toolbox 做贡献，\\ *强烈*\\ 建议学习 Git 命令行的基础知识。Git 有一些图形界"
+"面，但是它们通常会鼓励用户养成关于 Git 和 PR 工作流程的不良习惯，因此我们建议"
+"不要去使用。特别是，我们建议不要使用 GitHub 的在线编辑器进行代码贡献（尽管可"
+"以进行较小的修复或文档更改），因为它会对每个文件和每个修改强制执行一次提交，"
+"因此很快导致 PR 的 Git 历史记录不可读（尤其是在同行评审之后）。"
 
 #: contributing/pr_workflow.rst:44
 #, fuzzy
@@ -7835,12 +7851,11 @@ msgid ""
 "PR for the ``main`` branch in priority. Release managers can then cherry-"
 "pick the fix to a stable branch if relevant."
 msgstr ""
-"稳定分支以其版本命名，例如：\\ ``3.1`` 和 ``2.1``\\ 。它们用于将 ``master`` "
-"分支中的错误修复和增强功能回传到当前维护的稳定版本（例如 3.1.2 或 2.1.6）。一"
-"般说来，最后一个稳定分支会被维护到下一个次要版本（例如 ``3.0`` 分支被维护到"
-"了 Godot 3.1 的发布）。如果你想针对被维护的稳定分支做 PR，请先检查你的修改是"
-"否也与 ``master`` 分支有关，如果是，请优先为 ``master`` 分支做 PR。发布管理者"
-"可以在相关的情况下将修复的内容挑选到稳定分支。"
+"稳定分支以其版本命名，例如：\\ ``1.0`` 和 ``1.1``\\ 。它们用于将 ``main`` 分"
+"支中的错误修复和增强功能回传到当前维护的稳定版本（例如 1.1.1）。一般说来，最"
+"后一个稳定分支会被维护到下一个次要版本。如果你想针对被维护的稳定分支做 PR，请"
+"先检查你的修改是否也与 ``main`` 分支有关，如果是，请优先为 ``main`` 分支做 "
+"PR。发布管理者可以在相关的情况下将修复的内容挑选到稳定分支。"
 
 #: contributing/pr_workflow.rst:65
 #, fuzzy
@@ -7871,8 +7886,8 @@ msgid ""
 "Click it, and after a while you should be redirected to your own fork of the "
 "Rebel Engine repo, with your GitHub username as namespace:"
 msgstr ""
-"点击它，一段时间后，您应该被重定向到您自己的 Godot 仓库分叉，并将 GitHub 用户"
-"名作为名称空间："
+"点击它，一段时间后，您应该被重定向到您自己的 Rebel Engine 仓库分叉，并将 "
+"GitHub 用户名作为名称空间："
 
 #: contributing/pr_workflow.rst:83
 #, fuzzy
@@ -7971,8 +7986,8 @@ msgid ""
 "feature in Rebel Engine's project manager, which is coded in the ``editor/"
 "project_manager.cpp`` file."
 msgstr ""
-"下面, 我们将假设你想在Godot的项目管理器中实现一个功能, 该功能在 ``editor/"
-"project_manager.cpp`` 文件中编码."
+"下面, 我们将假设你想在Rebel Engine的项目管理器中实现一个功能, 该功能在 "
+"``editor/project_manager.cpp`` 文件中编码."
 
 #: contributing/pr_workflow.rst:140
 msgid "Branching"
@@ -8329,8 +8344,7 @@ msgstr ""
 "在这一行，有一个“Pull request”链接。点击它将打开一个表单，让你在 "
 "``godotengine/godot`` 上游仓库发出 Pull request。它应该显示你的两个提交，并说"
 "明“Able to merge”（能够合并）。如果不是这样（例如，它有更多的提交，或者说有合"
-"并冲突），请勿创建 PR，因为出现了问题。到 `Godot 贡献者聊天 <https://"
-"chat.godotengine.org/>`_\\ 去寻求支持吧 :)"
+"并冲突），请勿创建 PR，因为出现了问题。"
 
 #: contributing/pr_workflow.rst:367
 msgid ""
@@ -8405,8 +8419,8 @@ msgid ""
 "when and how a given file was last modified."
 msgstr ""
 "确实, 如果对某些修订进行了一些修订, 以解决原始提交中的错误, 错别字等, 则它们"
-"与将来的变更日志阅读器无关, 后者希望了解Godot代码库中发生了什么, 或者何时以及"
-"如何进行给定文件是最后修改的."
+"与将来的变更日志阅读器无关, 后者希望了解Rebel Engine代码库中发生了什么, 或者"
+"何时以及如何进行给定文件是最后修改的."
 
 #: contributing/pr_workflow.rst:434
 msgid ""
@@ -8584,7 +8598,7 @@ msgid ""
 "Rebel Engine build that includes code from the pull request in question."
 msgstr ""
 "许多人正在GitHub上开发新功能或修复错误。为了帮助引擎开发，你可能会被要求用"
-"Godot构建来测试这些拉取请求，该构建包括有关拉取请求中的代码。"
+"Rebel Engine构建来测试这些拉取请求，该构建包括有关拉取请求中的代码。"
 
 #: contributing/testing_pull_requests.rst:8
 #, fuzzy
@@ -8725,8 +8739,8 @@ msgid ""
 "than 90 days ago, or to test on platforms and configurations that are not "
 "supported by Rebel Engine's GitHub Actions setup."
 msgstr ""
-"对于最后一次更新超过90天的拉取请求，或者在Godot的GitHub Actions设置不支持的平"
-"台和配置上进行测试，可能需要采用这种方法。"
+"对于最后一次更新超过90天的拉取请求，或者在Rebel Engine的GitHub Actions设置不"
+"支持的平台和配置上进行测试，可能需要采用这种方法。"
 
 #: contributing/testing_pull_requests.rst:94
 msgid ""
@@ -8756,8 +8770,8 @@ msgid ""
 "api>` section of the documentation and in the Rebel Engine editor, from the "
 "help menu."
 msgstr ""
-"类参考可以在在线文档的\\ :ref:`类 <toc-api>`\\ 章节中查看，也可以在 Godot 编"
-"辑器的帮助菜单中打开。"
+"类参考可以在在线文档的\\ :ref:`类 <toc-api>`\\ 章节中查看，也可以在 Rebel "
+"Engine 编辑器的帮助菜单中打开。"
 
 #: contributing/updating_the_api_documentation.rst:9
 #, fuzzy
@@ -8768,7 +8782,8 @@ msgid ""
 "needs you, and all of us, to contribute."
 msgstr ""
 "类参考中，有一些方法、变量、信号缺少描述。还有一些在最近的发布中发生了改变，"
-"需要更新。开发者们无法自行编写所有参考。Godot 需要你，需要大家一起作出贡献。"
+"需要更新。开发者们无法自行编写所有参考。Rebel Toolbox 需要你，需要大家一起作"
+"出贡献。"
 
 #: contributing/updating_the_api_documentation.rst:14
 #, fuzzy
@@ -8797,8 +8812,8 @@ msgid ""
 "GitHub repository: `docs/ <https://github.com/RebelToolbox/RebelEngine/tree/"
 "main/docs>`__."
 msgstr ""
-"你可以在 Godot 的 GitHub 仓库中找到类参考的源文件：\\ `doc/classes/ <https://"
-"github.com/godotengine/godot/tree/master/doc/classes>`_\\ 。"
+"你可以在 Rebel Engine 的 GitHub 仓库中找到类参考的源文件：\\ `doc/classes/ "
+"<https://github.com/godotengine/godot/tree/master/doc/classes>`_\\ 。"
 
 #: contributing/updating_the_api_documentation.rst:33
 #, fuzzy
@@ -8861,10 +8876,10 @@ msgid ""
 "the ``--doctool`` option. For example, if you're on 64-bit Linux, the "
 "command is::"
 msgstr ""
-"为了达到这个目的，你首先需要编译 Godot。方法请参阅 :doc:`/development/"
-"compiling/introduction_to_the_buildsystem` 页面。然后，在 Godot 根目录中使用 "
-"``--doctool`` 选项运行编译出的 Godot 二进制文件。例如，在 64 位 Linux 下，命"
-"令为： ::"
+"为了达到这个目的，你首先需要编译 Rebel Engine。方法请参阅 :doc:`/development/"
+"compiling/introduction_to_the_buildsystem` 页面。然后，在 Rebel Engine 根目录"
+"中使用 ``--doctool`` 选项运行编译出的 Rebel Engine 二进制文件。例如，在 64 "
+"位 Linux 下，命令为： ::"
 
 #: contributing/updating_the_api_documentation.rst:60
 #, fuzzy
@@ -8875,9 +8890,9 @@ msgid ""
 "API in your commits. You can discard changes in other XML files using ``git "
 "checkout``."
 msgstr ""
-"在 doc/classes 中的 XML 文件此时应该是与当前 Godot 引擎的特性一致的。你可以使"
-"用 ``git diff`` 查看不同之处。请让你的提交仅包含与你修改的 API 相关的改动。可"
-"以使用 ``git checkout`` 放弃对其他 XML 文件的修改。"
+"在 doc/classes 中的 XML 文件此时应该是与当前 Rebel Engine 引擎的特性一致的。"
+"你可以使用 ``git diff`` 查看不同之处。请让你的提交仅包含与你修改的 API 相关的"
+"改动。可以使用 ``git checkout`` 放弃对其他 XML 文件的修改。"
 
 #: contributing/ways_to_contribute.rst:2
 msgid "Ways to contribute"
@@ -8891,9 +8906,9 @@ msgid ""
 "personal interest and for the love of creating a libre engine of exceptional "
 "quality."
 msgstr ""
-"Godot 引擎是一个非盈利、由社区驱动的自由且开源项目。几乎所有的开发人员（不仅"
-"包括我们的首席开发人员 Juan， 还有下方更多人员）都在 *无偿* 利用他们的空闲时"
-"间，出于个人兴趣以及对创建一个质量卓越的自由引擎的热爱。"
+"Rebel Toolbox 引擎是一个非盈利、由社区驱动的自由且开源项目。几乎所有的开发人"
+"员（不仅包括我们的首席开发人员 Juan， 还有下方更多人员）都在 *无偿* 利用他们"
+"的空闲时间，出于个人兴趣以及对创建一个质量卓越的自由引擎的热爱。"
 
 #: contributing/ways_to_contribute.rst:9
 #, fuzzy
@@ -8903,9 +8918,9 @@ msgid ""
 "big project, making it possible for everybody to bring something positive to "
 "the engine, regardless of their skill set:"
 msgstr ""
-"这意味着要发展壮大,Godot需要尽可能多的用户通过为引擎做出贡献而参与进来. 有许"
-"多方法可以为这样一个大项目做出贡献, 无论他们的技能是什么, 每个人都可以为引擎"
-"带来积极的一面:"
+"这意味着要发展壮大,Rebel Toolbox需要尽可能多的用户通过为引擎做出贡献而参与进"
+"来. 有许多方法可以为这样一个大项目做出贡献, 无论他们的技能是什么, 每个人都可"
+"以为引擎带来积极的一面:"
 
 #: contributing/ways_to_contribute.rst:14
 #, fuzzy
@@ -8918,11 +8933,11 @@ msgid ""
 "engine, which has no marketing budget and can therefore only rely on its "
 "community to become more mainstream."
 msgstr ""
-"**成为社区的一份子。**\\ 为 Godot 做贡献并帮助它变得更好的最佳方式，就是使用"
-"这个引擎，并且在口头、游戏的致谢或启动界面、博客文章、教程、演示、游戏开发或"
-"自由软件活动等场合进行宣传，也可以在问答、论坛、贡献者聊天、Discord 等渠道帮"
-"忙回答问题。参与进来！成为用户并宣扬它，有助于宣传我们的强大引擎。它没有营销"
-"预算，因此只能依靠社区使其变得更加主流。"
+"**成为社区的一份子。**\\ 为 Rebel Toolbox 做贡献并帮助它变得更好的最佳方式，"
+"就是使用这个引擎，并且在口头、游戏的致谢或启动界面、博客文章、教程、演示、游"
+"戏开发或自由软件活动等场合进行宣传，也可以在问答、论坛、贡献者聊天、Discord "
+"等渠道帮忙回答问题。参与进来！成为用户并宣扬它，有助于宣传我们的强大引擎。它"
+"没有营销预算，因此只能依靠社区使其变得更加主流。"
 
 #: contributing/ways_to_contribute.rst:22
 #, fuzzy
@@ -8935,11 +8950,11 @@ msgid ""
 "your awesome projects, each new game increases our credibility on the "
 "gamedev market!"
 msgstr ""
-"**制作游戏.** 为了说服新用户, 尤其是整个行业,Godot是相关市场的一个参与者, 我"
-"们需要使用Godot制作出色游戏已不是什么秘密. 我们知道该引擎在2D和3D游戏方面具有"
-"很大的潜力, 但是鉴于其年轻的年龄, 我们仍然缺乏吸引人们关注Godot的重要发行版"
-"本. 因此, 请继续从事出色的项目, 每款新游戏都会提高我们在游戏开发市场上的信"
-"誉！"
+"**制作游戏.** 为了说服新用户, 尤其是整个行业,Rebel Engine是相关市场的一个参与"
+"者, 我们需要使用Rebel Engine制作出色游戏已不是什么秘密. 我们知道该引擎在2D和"
+"3D游戏方面具有很大的潜力, 但是鉴于其年轻的年龄, 我们仍然缺乏吸引人们关注"
+"Rebel Engine的重要发行版本. 因此, 请继续从事出色的项目, 每款新游戏都会提高我"
+"们在游戏开发市场上的信誉！"
 
 #: contributing/ways_to_contribute.rst:29
 #, fuzzy
@@ -8970,12 +8985,13 @@ msgid ""
 "some money to the project, check `our website <https://rebeltoolbox.com>`__ "
 "for details."
 msgstr ""
-"**捐赠.** Godot是一个非盈利项目, 但它可以从用户捐赠中受益. 除了服务器托管费用"
-"和活动宣传材料等日常开支外, 我们还会在必要时使用捐款来购买硬件(例如, 使用捐款"
-"购买一台Macbook Pro来开发Retina/HiDPI支持, 以及和macOS相关的其他功能). 最重要"
-"的是, 我们会使用捐款聘请全职开发引擎的核心开发人员. 即使月薪不高, 我们也需要"
-"稳定的捐款收入才能维持, 而目前为止, 全职开发对项目非常有益. 如果您想为该项目"
-"捐款, 请访问 `我们的网站 <https://godotengine.org/donate>`_ 了解详细信息."
+"**捐赠.** Rebel Engine是一个非盈利项目, 但它可以从用户捐赠中受益. 除了服务器"
+"托管费用和活动宣传材料等日常开支外, 我们还会在必要时使用捐款来购买硬件(例如, "
+"使用捐款购买一台Macbook Pro来开发Retina/HiDPI支持, 以及和macOS相关的其他功"
+"能). 最重要的是, 我们会使用捐款聘请全职开发引擎的核心开发人员. 即使月薪不高, "
+"我们也需要稳定的捐款收入才能维持, 而目前为止, 全职开发对项目非常有益. 如果您"
+"想为该项目捐款, 请访问 `我们的网站 <https://godotengine.org/donate>`_ 了解详"
+"细信息."
 
 #: contributing/ways_to_contribute.rst:51
 msgid "Contributing code"
@@ -8990,7 +9006,7 @@ msgid ""
 "making it `free and open source software <https://en.wikipedia.org/wiki/"
 "Free_and_open-source_software>`__."
 msgstr ""
-"能够学习、使用、修改和再分发对引擎源代码修改是 Godot 的 `MIT <https://"
+"能够学习、使用、修改和再分发对引擎源代码修改是 Rebel Engine 的 `MIT <https://"
 "tldrlegal.com/license/mit-license>`_ 许可证授予您的基本权利，使其成为 `自由且"
 "开源的软件 <https://en.wikipedia.org/wiki/Free_and_open-source_software>`_ 。"
 
@@ -9004,10 +9020,10 @@ msgid ""
 "- via a so-called \"pull request\" (PR), i.e. a proposal to directly merge "
 "one or more Git commits (patches) into the main development branch."
 msgstr ""
-"因此, 每个人都有权修改 `Godot 的源代码 <https://github.com/godotengine/"
-"godot>`_ , 并以补丁(描述预定更改的文本文件)的形式将这些修改发送回上游项目, 或"
-"者——用现代的工作流程——通过所谓的 \"拉取请求\"(PR), 直接请求将一个或多个Git "
-"commits(补丁)合并到主开发分支."
+"因此, 每个人都有权修改 `Rebel Engine 的源代码 <https://github.com/"
+"godotengine/godot>`_ , 并以补丁(描述预定更改的文本文件)的形式将这些修改发送回"
+"上游项目, 或者——用现代的工作流程——通过所谓的 \"拉取请求\"(PR), 直接请求将一个"
+"或多个Git commits(补丁)合并到主开发分支."
 
 #: contributing/ways_to_contribute.rst:65
 msgid "Contributing code changes upstream has two big advantages:"
@@ -9046,8 +9062,8 @@ msgid ""
 "the style to use in the C++ code (indentation, brackets, etc.) or the Git "
 "and PR workflow."
 msgstr ""
-"为了确保良好的合作和整体质量,Godot的开发者对代码贡献实行一些规则, 例如关于C+"
-"+代码的风格(缩进, 括号等)或Git和PR工作流程."
+"为了确保良好的合作和整体质量,Rebel Engine的开发者对代码贡献实行一些规则, 例如"
+"关于C++代码的风格(缩进, 括号等)或Git和PR工作流程."
 
 #: contributing/ways_to_contribute.rst:84
 #, fuzzy
@@ -9078,8 +9094,8 @@ msgid ""
 msgstr ""
 "所有的拉动请求在被接受之前必须经过一个审查过程。根据修改的范围，负责引擎修改"
 "部分的维护者可能需要一些时间来提供他们的审查。我们重视所有的贡献者，并希望他"
-"们在此期间保持耐心，因为在像Godot这样的开源项目中，预计会有更多的贡献者来验证"
-"它们。"
+"们在此期间保持耐心，因为在像Rebel Toolbox这样的开源项目中，预计会有更多的贡献"
+"者来验证它们。"
 
 #: contributing/ways_to_contribute.rst:99
 msgid "Testing and reporting issues"
@@ -9152,7 +9168,7 @@ msgid ""
 "need a GitHub account to be able to open a new issue there, and click on the "
 "**New issue** button."
 msgstr ""
-"Godot 使用 `GitHub 的问题跟踪器 <https://github.com/godotengine/godot/"
+"Rebel Engine 使用 `GitHub 的问题跟踪器 <https://github.com/godotengine/godot/"
 "issues>`_\\ 来获取错误报告和改进建议。你需要一个 GitHub 帐户才能在那里开启新"
 "问题，然后点击 **New issue**\\ （新问题）按钮。"
 
@@ -9177,8 +9193,8 @@ msgid ""
 "identify it and hopefully fix it. Here are some of the most important infos "
 "that you should always provide:"
 msgstr ""
-"因此, 你应该始终问自己: 要提供什么相关信息, 以便其他Godot贡献者可以理解bug, "
-"发现并希望修复该它. 以下是你应始终提供的一些最重要的信息:"
+"因此, 你应该始终问自己: 要提供什么相关信息, 以便其他Rebel Engine贡献者可以理"
+"解bug, 发现并希望修复该它. 以下是你应始终提供的一些最重要的信息:"
 
 #: contributing/ways_to_contribute.rst:146
 msgid ""
@@ -9208,9 +9224,9 @@ msgid ""
 "Engine and experiencing a known issue fixed in a later version, so knowing "
 "this from the start helps to speed up the diagnosis."
 msgstr ""
-"**Godot 版本。**\\ 这是必要信息。某些问题可能存在于当前稳定版本，但在开发分支"
-"中已修复，或者相反。你也可能还在使用过时的 Godot 版本，遇到了在后续版本中已经"
-"修复的已知问题，因此从一开始就知道这一点有助于加快诊断速度。"
+"**Rebel Engine 版本。**\\ 这是必要信息。某些问题可能存在于当前稳定版本，但在"
+"开发分支中已修复，或者相反。你也可能还在使用过时的 Rebel Engine 版本，遇到了"
+"在后续版本中已经修复的已知问题，因此从一开始就知道这一点有助于加快诊断速度。"
 
 #: contributing/ways_to_contribute.rst:161
 msgid ""
@@ -9246,7 +9262,7 @@ msgstr ""
 msgid ""
 "There are two separate resources referred to as \"documentation\" in Rebel "
 "Documentation:"
-msgstr "在 Godot 中有两个不同的资源会被称为“文档”："
+msgstr "在 Rebel Toolbox 中有两个不同的资源会被称为“文档”："
 
 #: contributing/ways_to_contribute.rst:181
 #, fuzzy
@@ -9259,10 +9275,11 @@ msgid ""
 "make a pull request. See :doc:`updating_the_api_documentation` "
 "and :doc:`api_writing_guidelines` for more details."
 msgstr ""
-"**类参考。**\\ 这是 Godot API 的完整文档，会暴露给 GDScript 和其他脚本语言。"
-"可以在离线状态下，直接在 Godot 的代码编辑器中查阅，也可以在 :ref:`Godot API "
-"<toc-api>` 在线查阅。要对类参考做出贡献，你需要编辑与类对应的 XML 文件，并创"
-"建拉取请求详情请参阅 :doc:`updating_the_api_documentation` "
+"**类参考。**\\ 这是 Rebel Engine API 的完整文档，会暴露给 GDScript 和其他脚本"
+"语言。可以在离线状态下，直接在 Rebel Engine 的代码编辑器中查阅，也可以"
+"在 :ref:`Rebel Engine API <toc-api>` 在线查阅。要对类参考做出贡献，你需要编辑"
+"与类对应的 XML 文件，并创建拉取请求详情请参"
+"阅 :doc:`updating_the_api_documentation` "
 "和 :doc:`api_writing_guidelines`\\ 。"
 
 #: contributing/ways_to_contribute.rst:189
@@ -9391,7 +9408,7 @@ msgid ""
 "For a general overview of SCons usage for Rebel Engine, "
 "see :doc:`introduction_to_the_buildsystem`."
 msgstr ""
-"有关 Godot 的 SCons 用法的一般概述，请参"
+"有关 Rebel Engine 的 SCons 用法的一般概述，请参"
 "阅 :doc:`introduction_to_the_buildsystem`。"
 
 #: development/compiling/build_for_android.rst:47
@@ -9686,7 +9703,7 @@ msgstr "Xcode 10.0(或更高版本)以及iOS(10.0)SDK和命令行工具."
 #, fuzzy
 msgid ""
 "To get the Rebel Engine source code for compiling, see :doc:`getting_source`."
-msgstr "要获取编译所需的 Godot 源码，请参阅 :doc:`getting_source`\\ 。"
+msgstr "要获取编译所需的 Rebel Engine 源码，请参阅 :doc:`getting_source`\\ 。"
 
 #: development/compiling/compiling_for_ios.rst:26
 #: development/compiling/compiling_for_osx.rst:43
@@ -9886,8 +9903,8 @@ msgid ""
 "contained mode` by creating a file called ``._sc_`` or ``_sc_`` in the ``bin/"
 "`` folder."
 msgstr ""
-"如果你想为自己的 Godot 构建和官方发布使用单独的编辑器设置，你可以通过在 "
-"``bin/`` 文件夹中创建一个名为 ``._sc_`` 或 ``_sc_`` 的文件来启"
+"如果你想为自己的 Rebel Engine 构建和官方发布使用单独的编辑器设置，你可以通过"
+"在 ``bin/`` 文件夹中创建一个名为 ``._sc_`` 或 ``_sc_`` 的文件来启"
 "用 :ref:`tutorials/io/data_paths:self-contained mode`\\ 。"
 
 #: development/compiling/compiling_for_osx.rst:69
@@ -9993,7 +10010,7 @@ msgid ""
 "You can then zip the ``osx_template.app`` folder to reproduce the "
 "``osx.zip`` template from the official Rebel Engine distribution::"
 msgstr ""
-"然后你可以压缩 ``osx_template.app`` 文件夹来复制 Godot 官方发行的 "
+"然后你可以压缩 ``osx_template.app`` 文件夹来复制 Rebel Engine 官方发行的 "
 "``osx.zip`` 模板： ::"
 
 #: development/compiling/compiling_for_osx.rst:142
@@ -10195,8 +10212,8 @@ msgid ""
 "``Win32``, ``x64`` or ``ARM``), get the ``libEGL.dll`` and the "
 "``libGLESv2.dll``, putting them along with the executable."
 msgstr ""
-"将其中一个复制到Godot源文件夹中的 ``misc/dist/uwp_template``, 并将二进制文件"
-"重命名为 ``godot.uwp.exe`` . 从在 ``winrt/10/src/Release_%arch%`` "
+"将其中一个复制到Rebel Engine源文件夹中的 ``misc/dist/uwp_template``, 并将二进"
+"制文件重命名为 ``godot.uwp.exe`` . 从在 ``winrt/10/src/Release_%arch%`` "
 "( ``%arch%`` 可以是 ``Win32``, ``x64`` 或 ``ARM``)下的ANGLE源代码, 获取 "
 "``libEGL.dll`` 和 ``libGLESv2.dll``, 将它们与可执行文件放在一起."
 
@@ -10216,10 +10233,9 @@ msgid ""
 "you have compiled the export templates for. If you don't want to replace the "
 "templates, you can set the \"Custom Package\" property in the export window."
 msgstr ""
-"将这些模板移动到Godot设置中的路径 ``[versionstring]\\templates`` 文件夹, 其"
-"中 `versionstring` 是你编译导出模板针对的Godot版本——例如 ``3.0.alpha`` 针对"
-"Godot 3的alpha版本. 如果你不想替换模板, 可以在导出窗口中设置 ``自定义包`` 属"
-"性."
+"将这些模板移动到Rebel Engine设置中的路径 ``[versionstring]\\templates`` 文件"
+"夹, 其中 `versionstring` 是你编译导出模板针对的Rebel Engine版本. 如果你不想替"
+"换模板, 可以在导出窗口中设置 ``自定义包`` 属性."
 
 #: development/compiling/compiling_for_uwp.rst:99
 msgid "Running UWP apps with Visual Studio"
@@ -10253,9 +10269,9 @@ msgid ""
 "also need to build it for ARM if you plan to run on a device. You can also "
 "use MSBuild if you're comfortable with the command line."
 msgstr ""
-"如果还没有构建Godot, 请从ANGLE源打开 ``winrt/10/src/angle.sln`` 解决方案, 并"
-"将其构建到 Release/Win32 目标. 如果你计划在设备上运行, 则可能还需要为ARM构建"
-"它. 如果你对命令行感到满意, 也可以使用MSBuild."
+"如果还没有构建Rebel Engine, 请从ANGLE源打开 ``winrt/10/src/angle.sln`` 解决方"
+"案, 并将其构建到 Release/Win32 目标. 如果你计划在设备上运行, 则可能还需要为"
+"ARM构建它. 如果你对命令行感到满意, 也可以使用MSBuild."
 
 #: development/compiling/compiling_for_uwp.rst:115
 msgid ""
@@ -10287,8 +10303,8 @@ msgid ""
 "set \"Content\" to ``True`` so it's included in the project."
 msgstr ""
 "在相同的 \"二进制\" 过滤器中, 选择 \"添加>现有项\" 并指向你拥有的针对UWP的"
-"Godot可执行文件. 在 \"属性\" 窗口中, 将 \"内容\" 设置为 ``True``, 以使它包含"
-"在项目中."
+"Rebel Engine可执行文件. 在 \"属性\" 窗口中, 将 \"内容\" 设置为 ``True``, 以使"
+"它包含在项目中."
 
 #: development/compiling/compiling_for_uwp.rst:129
 #, fuzzy
@@ -10302,9 +10318,9 @@ msgid ""
 msgstr ""
 "右键单击 ``Package.appxmanifest`` 文件并选择\"打开使用……> XML(Text)编辑器\". "
 "在 ``Package/Applications/Application`` 元素中, 将 ``$targetnametoken$.exe`` "
-"中的 ``Executable`` 属性替换为 ``godot.uwp.exe`` (或者调用你的Godot可执行文"
-"件, 无论它是什么). 同时将 ``EntryPoint`` 属性更改为 ``GodotUWP.App`` . 这将确"
-"保在应用程序启动时正确调用Godot可执行文件."
+"中的 ``Executable`` 属性替换为 ``rebel.uwp.exe`` (或者调用你的Rebel Engine可"
+"执行文件, 无论它是什么). 同时将 ``EntryPoint`` 属性更改为 ``RebelUWP.App`` . "
+"这将确保在应用程序启动时正确调用Rebel Engine可执行文件."
 
 #: development/compiling/compiling_for_uwp.rst:136
 #, fuzzy
@@ -10316,7 +10332,7 @@ msgid ""
 "they're copied to the app."
 msgstr ""
 "在Visual Studio项目文件夹中创建一个名为 ``game`` 的文件夹(*不是* 过滤器), 你"
-"可以在其中放置 ``data.pck`` 文件或Godot项目文件. 之后, 请确保使用 \"添加>现有"
+"可以在其中放置 ``data.pck`` 文件或Rebel项目文件. 之后, 请确保使用 \"添加>现有"
 "项目\" 命令将其全部包含在内, 并将其 \"内容\" 属性设置为 ``True``, 以便将它们"
 "复制到应用程序中."
 
@@ -10486,8 +10502,8 @@ msgid ""
 "the browser. The editor version requires threads support and is not "
 "recommended over the native build. You can build the editor with::"
 msgstr ""
-"也可以建立一个可以在浏览器中运行的 Godot 编辑器版本。编辑器版本需要线程支持，"
-"不推荐使用本地构建。你可以用以下方法构建编辑器： ::"
+"也可以建立一个可以在浏览器中运行的 Rebel Editor 编辑器版本。编辑器版本需要线"
+"程支持，不推荐使用本地构建。你可以用以下方法构建编辑器： ::"
 
 #: development/compiling/compiling_for_web.rst:102
 #, fuzzy
@@ -10680,7 +10696,7 @@ msgstr ""
 #: development/compiling/compiling_for_windows.rst:88
 #, fuzzy
 msgid "Downloading Rebel Engine's source"
-msgstr "下载 Godot 的源代码"
+msgstr "下载 Rebel Engine 的源代码"
 
 #: development/compiling/compiling_for_windows.rst:90
 #, fuzzy
@@ -10701,8 +10717,8 @@ msgid ""
 "add the Rebel Engine source folder to the list of exceptions in your "
 "antivirus software."
 msgstr ""
-"为了防止编译过程中由于连续病毒扫描而导致的速度减慢，请将 Godot 源文件夹添加到"
-"杀毒软件中的例外列表中。"
+"为了防止编译过程中由于连续病毒扫描而导致的速度减慢，请将 Rebel Engine 源文件"
+"夹添加到杀毒软件中的例外列表中。"
 
 #: development/compiling/compiling_for_windows.rst:101
 #, fuzzy
@@ -10715,7 +10731,7 @@ msgstr ""
 "对于 Windows Defender，请按 :kbd:`Windows` 键，输入“Windows Defender "
 "Settings”然后按 :kbd:`Enter`\\ 。在 **病毒和威胁防护** 下，进入\\ **病毒和威"
 "胁防护设置**\\ ，并向下滚动至\\ **排除项**\\ 。单击\\ **添加或删除排除项"
-"**\\ ，然后添加 Godot 源文件夹。"
+"**\\ ，然后添加 Rebel Engine 源文件夹。"
 
 #: development/compiling/compiling_for_windows.rst:111
 msgid "Selecting a compiler"
@@ -10743,9 +10759,9 @@ msgid ""
 "MinGW can produce more optimized binaries using link-time optimization (see "
 "below), making it a better choice for production use."
 msgstr ""
-"在开发过程中，通常最好使用 Visual Studio 编译器，因为链接 Godot 二进制文件的"
-"速度比 MinGW 更快。但是，MinGW 可以利用链接时优化（见下文）来生成更多优化的二"
-"进制文件，从而使其成为生产使用的更好选择。"
+"在开发过程中，通常最好使用 Visual Studio 编译器，因为链接 Rebel Engine 二进制"
+"文件的速度比 MinGW 更快。但是，MinGW 可以利用链接时优化（见下文）来生成更多优"
+"化的二进制文件，从而使其成为生产使用的更好选择。"
 
 #: development/compiling/compiling_for_windows.rst:126
 msgid "Running SCons"
@@ -10806,7 +10822,7 @@ msgid ""
 "final executable smaller and faster by adding the SCons option "
 "``target=release_debug``."
 msgstr ""
-"如果您正在编译Godot用于生产用途, 那么您可以通过添加SCons选项 "
+"如果您正在编译Rebel Engine用于生产用途, 那么您可以通过添加SCons选项 "
 "``target=release_debug`` 来使最终的可执行文件更小更快."
 
 #: development/compiling/compiling_for_windows.rst:157
@@ -10817,9 +10833,9 @@ msgid ""
 "optimization is a memory-intensive process, this will require about 7 GB of "
 "available RAM while compiling."
 msgstr ""
-"如果你用MinGW编译Godot, 你可以通过添加SCons选项 ``use_lto=yes`` 来使二进制文"
-"件更小更快. 由于链接时优化是一个内存密集的过程, 在编译时需要大约7GB的可用内"
-"存."
+"如果你用MinGW编译Rebel Engine, 你可以通过添加SCons选项 ``use_lto=yes`` 来使二"
+"进制文件更小更快. 由于链接时优化是一个内存密集的过程, 在编译时需要大约7GB的可"
+"用内存."
 
 #: development/compiling/compiling_for_windows.rst:168
 #, fuzzy
@@ -10847,8 +10863,8 @@ msgid ""
 "You will be able to open Rebel Engine's source in a Visual Studio solution "
 "now, and able to build Rebel Engine using Visual Studio's **Build** button."
 msgstr ""
-"您现在可以在 Visual Studio 解决方案中打开 Godot 的源代码，并能够通过 Visual "
-"Studio 的\\ **构建**\\ 按钮构建 Godot。"
+"您现在可以在 Visual Studio 解决方案中打开 Rebel Engine 的源代码，并能够通过 "
+"Visual Studio 的\\ **构建**\\ 按钮构建 Rebel Engine。"
 
 #: development/compiling/compiling_for_windows.rst:182
 msgid ""
@@ -10956,7 +10972,8 @@ msgid ""
 "Windows export templates are created by compiling Rebel Engine without the "
 "editor, with the following flags::"
 msgstr ""
-"Windows 导出模板是通过编译不使用编辑器的 Godot 来创建的，带有以下标志： ::"
+"Windows 导出模板是通过编译不使用编辑器的 Rebel Engine 来创建的，带有以下标"
+"志： ::"
 
 #: development/compiling/compiling_for_windows.rst:273
 #, fuzzy
@@ -10987,8 +11004,8 @@ msgid ""
 "in the ``bin\\`` directory of your Rebel Engine source folder, so the next "
 "time you build, you will automatically have the custom templates referenced."
 msgstr ""
-"在这种情况下, 您不需要复制它们, 只需引用在Godot源文件夹的 ``bin\\`` 目录中生"
-"成的文件, 因此下次构建时, 将自动引用自定义模板."
+"在这种情况下, 您不需要复制它们, 只需引用在Rebel Engine源文件夹的 ``bin\\`` 目"
+"录中生成的文件, 因此下次构建时, 将自动引用自定义模板."
 
 #: development/compiling/compiling_for_x11.rst:2
 msgid "Compiling for X11 (Linux, \\*BSD)"
@@ -11135,8 +11152,9 @@ msgid ""
 "optimization is a memory-intensive process, this will require about 7 GB of "
 "available RAM while compiling."
 msgstr ""
-"如果你用GCC编译Godot, 你可以通过添加SCons选项 ``use_lto=yes`` 来使可执行文件"
-"更小更快. 由于链接时优化是一个内存密集的过程, 在编译时需要大约7GB的可用内存."
+"如果你用GCC编译Rebel Engine, 你可以通过添加SCons选项 ``use_lto=yes`` 来使可执"
+"行文件更小更快. 由于链接时优化是一个内存密集的过程, 在编译时需要大约7GB的可用"
+"内存."
 
 #: development/compiling/compiling_for_x11.rst:156
 msgid ""
@@ -11189,7 +11207,7 @@ msgstr "要创建标准导出模板, 必须将生成的文件复制到:"
 msgid ""
 "and named like this (even for \\*BSD which is seen as \"Linux X11\" by Rebel "
 "Engine):"
-msgstr "并以此命名(即使对于\\*BSD, 它也被Godot视为\" Linux X11\"):"
+msgstr "并以此命名(即使对于\\*BSD, 它也被Rebel Engine视为\" Linux X11\"):"
 
 #: development/compiling/compiling_for_x11.rst:207
 msgid ""
@@ -11207,8 +11225,8 @@ msgid ""
 "in the ``bin/`` directory of your Rebel Engine source folder, so the next "
 "time you build, you automatically have the custom templates referenced."
 msgstr ""
-"您甚至不需要复制它们, 只需引用在Godot源文件夹的 ``bin/`` 目录中生成的文件, 因"
-"此下次构建时, 将自动引用自定义模板."
+"您甚至不需要复制它们, 只需引用在Rebel Engine源文件夹的 ``bin/`` 目录中生成的"
+"文件, 因此下次构建时, 将自动引用自定义模板."
 
 #: development/compiling/compiling_for_x11.rst:218
 msgid "Using Clang and LLD for faster development"
@@ -11220,14 +11238,16 @@ msgid ""
 "You can also use Clang and LLD to build Rebel Engine. This has two upsides "
 "compared to the default GCC + GNU ld setup:"
 msgstr ""
-"你也可以使用Clang和LD来构建Godot. 与默认的GCC + GNU ld设置相比, 这有两个好处:"
+"你也可以使用Clang和LD来构建Rebel Engine. 与默认的GCC + GNU ld设置相比, 这有两"
+"个好处:"
 
 #: development/compiling/compiling_for_x11.rst:223
 #, fuzzy
 msgid ""
 "LLD links Rebel Engine significantly faster compared to GNU ld or gold. This "
 "leads to faster iteration times."
-msgstr "与GNU ld或gold相比,LD链接Godot的速度明显更快. 这导致更快的迭代时间."
+msgstr ""
+"与GNU ld或gold相比,LD链接Rebel Engine的速度明显更快. 这导致更快的迭代时间."
 
 #: development/compiling/compiling_for_x11.rst:225
 msgid "Clang tends to give more useful error messages compared to GCC."
@@ -11313,8 +11333,8 @@ msgid ""
 "Instead of running ``scons <build arguments>``, run ``pyston-scons <build "
 "arguments>`` to compile Rebel Engine."
 msgstr ""
-"现在就不是执行 ``scons <构建参数>`` 了，要编译 Godot 请执行 ``pyston-scons <"
-"构建参数>``\\ 。"
+"现在就不是执行 ``scons <构建参数>`` 了，要编译 Rebel Engine 请执行 ``pyston-"
+"scons <构建参数>``\\ 。"
 
 #: development/compiling/compiling_for_x11.rst:259
 msgid ""
@@ -11420,7 +11440,7 @@ msgid ""
 msgstr ""
 "胶水源码是包装函数，将被管理的方法调用。必须在构建最终二进制文件之前生成这些"
 "源文件。要生成它们，首先，您必须使用选项 ``tools=yes`` 和 ``mono_glue=no`` 构"
-"建一个临时的 Godot 二进制文件： ::"
+"建一个临时的 Rebel Engine 二进制文件： ::"
 
 #: development/compiling/compiling_with_mono.rst:57
 #, fuzzy
@@ -11431,7 +11451,7 @@ msgid ""
 "directory::"
 msgstr ""
 "构建完成后，您需要运行带有参数 ``--generate-mono-glue`` 的编译后的可执行文"
-"件，后跟输出目录的路径。在 Godot 目录中，此路径必须是 ``modules/mono/"
+"件，后跟输出目录的路径。在 Rebel Engine 目录中，此路径必须是 ``modules/mono/"
 "glue``\\ ： ::"
 
 #: development/compiling/compiling_with_mono.rst:63
@@ -11444,11 +11464,11 @@ msgid ""
 "Once these files are generated, you can build Rebel Engine for all the "
 "desired targets without having to repeat this process."
 msgstr ""
-"这个命令会让 Godot 生成 ``modules/mono/glue/mono_glue.gen.cpp`` 文件、在 "
-"``modules/mono/glue/GodotSharp/GodotSharp/Generated`` 生成 Godot API 的 C# 解"
-"决方案、并在 ``modules/mono/glue/GodotSharp/GodotSharpEditor/Generated`` 生成"
-"编辑器工具的 C# 解决方案。这些文件生成后，为任何所需的目标构建 Godot 都是无需"
-"重复这一过程的。"
+"这个命令会让 Rebel Engine 生成 ``modules/mono/glue/mono_glue.gen.cpp`` 文件、"
+"在 ``modules/mono/glue/RebelSharp/RebelSharp/Generated`` 生成 Rebel Engine "
+"API 的 C# 解决方案、并在 ``modules/mono/glue/RebelSharp/RebelSharpEditor/"
+"Generated`` 生成编辑器工具的 C# 解决方案。这些文件生成后，为任何所需的目标构"
+"建 Rebel Engine 都是无需重复这一过程的。"
 
 #: development/compiling/compiling_with_mono.rst:69
 #, fuzzy
@@ -11466,8 +11486,8 @@ msgstr ""
 "称将根据你的系统和配置而不同, 但应该是 ``bin/godot.<platform>.tools."
 "<bits>.mono`` 的形式, 例如 ``bin/godot.x11.tools.64.mono`` 或 ``bin/"
 "godot.windows.tools.64.mono.exe`` . 要特别注意 **.mono** 的后缀!如果你以前编"
-"译的Godot不支持Mono, 你可能会有类似的没有这个后缀的二进制. 这些二进制文件不能"
-"用来生成Mono胶水."
+"译的Rebel Engine不支持Mono, 你可能会有类似的没有这个后缀的二进制. 这些二进制"
+"文件不能用来生成Mono胶水."
 
 #: development/compiling/compiling_with_mono.rst:79
 #: development/engine/custom_servers.rst:498
@@ -11483,9 +11503,9 @@ msgid ""
 "generate the glue. Rebel Engine will print a warning at startup if it was "
 "built without the glue sources."
 msgstr ""
-"**不要使用** ``mono_glue=no`` **来构建您的发布版 Godot** . 此选项会禁用C#脚"
-"本, 它仅用于控制生成胶水代码的临时二进制文件. 如果Godot是在没有胶水源码的情况"
-"下构建的, 它将在启动时打印一条警告."
+"**不要使用** ``mono_glue=no`` **来构建您的发布版 Rebel Engine** . 此选项会禁"
+"用C#脚本, 它仅用于控制生成胶水代码的临时二进制文件. 如果Rebel Engine是在没有"
+"胶水源码的情况下构建的, 它将在启动时打印一条警告."
 
 #: development/compiling/compiling_with_mono.rst:85
 #, fuzzy
@@ -11498,7 +11518,7 @@ msgid ""
 msgstr ""
 "每次ClassDB注册的API更改时, 都必须重新生成胶水源码. 即, 例如, 当将新方法注册"
 "到脚本API时, 或该方法的参数之一发生更改时. 如果ClassDB和胶水源码之间的API不匹"
-"配,Godot将在启动时打印一条错误."
+"配,Rebel Engine将在启动时打印一条错误."
 
 #: development/compiling/compiling_with_mono.rst:93
 msgid "Rebuild with Mono glue"
@@ -11535,9 +11555,9 @@ msgid ""
 "project/engine/src/main/jniLibs/`` and Gradle takes care of the rest."
 msgstr ""
 "如果您不是静态链接Mono运行时, 则构建脚本会将Mono运行时共享库"
-"(``monosgen-2.0``)放置在输出目录中的Godot二进制文件旁边. 分发Godot时, 请确保"
-"包括此库. 以Android为目标平台时, 不需要任何额外的步骤, 因为该库会自动复制到 "
-"``#platform/android/java/libs``, 而Gradle会处理其余的工作."
+"(``monosgen-2.0``)放置在输出目录中的Rebel Engine二进制文件旁边. 分发Rebel "
+"Engine时, 请确保包括此库. 以Android为目标平台时, 不需要任何额外的步骤, 因为该"
+"库会自动复制到 ``#platform/android/java/libs``, 而Gradle会处理其余的工作."
 
 #: development/compiling/compiling_with_mono.rst:114
 #, fuzzy
@@ -11549,9 +11569,9 @@ msgid ""
 "Engine. More details about this directory in :ref:`Data "
 "directory<compiling_with_mono_data_directory>`."
 msgstr ""
-"与 \"经典\"Godot构建不同, 在启用Mono模块(取决于目标平台)的情况下构建时, 将为"
-"编辑器和导出模板两者一块创建数据目录. 该目录对于正常运行很重要, 必须与Godot一"
-"起分发. 有关此目录的更多详细信息, 参见 :ref:`Data directory "
+"与 \"经典\"Rebel Engine构建不同, 在启用Mono模块(取决于目标平台)的情况下构建"
+"时, 将为编辑器和导出模板两者一块创建数据目录. 该目录对于正常运行很重要, 必须"
+"与Rebel Engine一起分发. 有关此目录的更多详细信息, 参见 :ref:`Data directory "
 "<compiling_with_mono_data_directory>` ."
 
 #: development/compiling/compiling_with_mono.rst:122
@@ -11582,8 +11602,8 @@ msgid ""
 "of Rebel Engine. It must be distributed together with the Rebel Engine "
 "executable."
 msgstr ""
-"数据目录是启用了Mono模块的Godot二进制文件的依赖项. 它包含对Godot正确运行的重"
-"要文件. 它必须与Godot可执行文件一起分发."
+"数据目录是启用了Mono模块的Rebel Engine二进制文件的依赖项. 它包含对Rebel "
+"Engine正确运行的重要文件. 它必须与Rebel Engine可执行文件一起分发."
 
 #: development/compiling/compiling_with_mono.rst:167
 msgid ""
@@ -11618,8 +11638,8 @@ msgid ""
 "``data_<APPNAME>``, where ``<APPNAME>`` is the application name as specified "
 "in the project setting ``application/config/name``."
 msgstr ""
-"必须以其原始名称将该目录放置在Godot导出模板旁边. 导出项目时,Godot还会将此目录"
-"与游戏可执行文件一起复制, 但名称将更改为 ``data_<APPNAME>`` , 其中 "
+"必须以其原始名称将该目录放置在Rebel导出模板旁边. 导出项目时,Rebel Editor还会"
+"将此目录与游戏可执行文件一起复制, 但名称将更改为 ``data_<APPNAME>`` , 其中 "
 "``<APPNAME>`` 是项目设置 ``application/config/name`` 中指定的应用程序名称."
 
 #: development/compiling/compiling_with_mono.rst:184
@@ -11639,7 +11659,7 @@ msgstr "``bin/data.mono.<platform>.<bits>.<target>/Mono/lib``"
 #: development/compiling/compiling_with_mono.rst:189
 #, fuzzy
 msgid "``/osx_template.app/Contents/Frameworks/RebelSharp/Mono/lib``"
-msgstr "``/osx_template.app/Contents/Frameworks/GodotSharp/Mono/lib``"
+msgstr "``/osx_template.app/Contents/Frameworks/RebelSharp/Mono/lib``"
 
 #: development/compiling/compiling_with_mono.rst:191
 #: development/compiling/compiling_with_mono.rst:213
@@ -11649,14 +11669,15 @@ msgstr "``bin/data.mono.<platform>.<bits>.<target>/Mono/etc``"
 #: development/compiling/compiling_with_mono.rst:191
 #, fuzzy
 msgid "``/osx_template.app/Contents/Resources/RebelSharp/Mono/etc``"
-msgstr "``/osx_template.app/Contents/Resources/GodotSharp/Mono/etc``"
+msgstr "``/osx_template.app/Contents/Resources/RebelSharp/Mono/etc``"
 
 #: development/compiling/compiling_with_mono.rst:197
 #, fuzzy
 msgid ""
 "The name of the data directory for the Rebel Engine editor will always be "
 "``RebelSharp``. The contents of this directory are the following:"
-msgstr "Godot编辑器的数据目录名称将始终为 ``GodotSharp``. 该目录的内容如下:"
+msgstr ""
+"Rebel Editor编辑器的数据目录名称将始终为 ``RebelSharp``. 该目录的内容如下:"
 
 #: development/compiling/compiling_with_mono.rst:200
 msgid "``Api``"
@@ -11677,8 +11698,8 @@ msgid ""
 "if the Rebel Editor is distributed as a bundle, the contents of the data "
 "directory may be placed in the following locations:"
 msgstr ""
-"``Api`` 子目录包含Godot API程序集. 在macOS上, 如果Godot编辑器作为捆绑分发, 则"
-"数据目录的内容可能位于以下位置:"
+"``Api`` 子目录包含Rebel Engine API程序集. 在macOS上, 如果Rebel Editor编辑器作"
+"为捆绑分发, 则数据目录的内容可能位于以下位置:"
 
 #: development/compiling/compiling_with_mono.rst:209
 msgid "``bin/data.mono.<platform>.<bits>.<target>/Api``"
@@ -11687,17 +11708,17 @@ msgstr "``bin/data.mono.<platform>.<bits>.<target>/Api``"
 #: development/compiling/compiling_with_mono.rst:209
 #, fuzzy
 msgid "``<bundle_name>.app/Contents/Frameworks/RebelSharp/Api``"
-msgstr "``<bundle_name>.app/Contents/Frameworks/GodotSharp/Api``"
+msgstr "``<bundle_name>.app/Contents/Frameworks/RebelSharp/Api``"
 
 #: development/compiling/compiling_with_mono.rst:211
 #, fuzzy
 msgid "``<bundle_name>.app/Contents/Frameworks/RebelSharp/Mono/lib``"
-msgstr "``<bundle_name>.app/Contents/Frameworks/GodotSharp/Mono/lib``"
+msgstr "``<bundle_name>.app/Contents/Frameworks/RebelSharp/Mono/lib``"
 
 #: development/compiling/compiling_with_mono.rst:213
 #, fuzzy
 msgid "``<bundle_name>.app/Contents/Resources/RebelSharp/Mono/etc``"
-msgstr "``<bundle_name>.app/Contents/Resources/GodotSharp/Mono/etc``"
+msgstr "``<bundle_name>.app/Contents/Resources/RebelSharp/Mono/etc``"
 
 #: development/compiling/compiling_with_mono.rst:215
 msgid "``bin/data.mono.<platform>.<bits>.<target>/Tools``"
@@ -11706,7 +11727,7 @@ msgstr "``bin/data.mono.<platform>.<bits>.<target>/Tools``"
 #: development/compiling/compiling_with_mono.rst:215
 #, fuzzy
 msgid "``<bundle_name>.app/Contents/Frameworks/RebelSharp/Tools``"
-msgstr "``<bundle_name>.app/Contents/Frameworks/GodotSharp/Tools``"
+msgstr "``<bundle_name>.app/Contents/Frameworks/RebelSharp/Tools``"
 
 #: development/compiling/compiling_with_mono.rst:218
 #, fuzzy
@@ -11718,8 +11739,8 @@ msgid ""
 "this folder and its contents."
 msgstr ""
 "``Mono`` 子目录是可选的. 分发编辑器时将需要它, 因为当用户安装的Mono版本与构建"
-"Godot编辑器的版本不同时会出现问题. 生成编辑器时, 将 ``copy_mono_root=yes`` 传"
-"递给SCons以便创建此文件夹及其内容."
+"Rebel Editor编辑器的版本不同时会出现问题. 生成编辑器时, 将 "
+"``copy_mono_root=yes`` 传递给SCons以便创建此文件夹及其内容."
 
 #: development/compiling/compiling_with_mono.rst:223
 #, fuzzy
@@ -11727,7 +11748,7 @@ msgid ""
 "The ``Tools`` subdirectory contains tools required by the editor, like the "
 "``RebelTools`` assemblies and its dependencies."
 msgstr ""
-"``Tools`` 子目录包含编辑器所需的工具, 如 ``GodotTools`` 程序集及其依赖项."
+"``Tools`` 子目录包含编辑器所需的工具, 如 ``RebelTools`` 程序集及其依赖项."
 
 #: development/compiling/compiling_with_mono.rst:227
 msgid "Building the Mono runtime"
@@ -11741,9 +11762,9 @@ msgid ""
 "the case when targeting other platforms like Android, iOS and WebAssembly. "
 "You will have to build the Mono runtime yourself for those platforms."
 msgstr ""
-"当为桌面构建Godot时, 你很可能会使用系统上安装的预构建的Mono运行时. 在针对其他"
-"平台(如Android, iOS和WebAssembly)时, 可能不会出现这种情况. 你将不得不自己为这"
-"些平台构建Mono运行时."
+"当为桌面构建Rebel Engine时, 你很可能会使用系统上安装的预构建的Mono运行时. 在"
+"针对其他平台(如Android, iOS和WebAssembly)时, 可能不会出现这种情况. 你将不得不"
+"自己为这些平台构建Mono运行时."
 
 #: development/compiling/compiling_with_mono.rst:235
 msgid "Targeting Android"
@@ -11772,8 +11793,8 @@ msgid ""
 "(This path may be different on your system)."
 msgstr ""
 "一旦你建立了Mono, 你就可以按照本页和 :doc:`Compiling for Android</"
-"development/compiling/build_for_android>` 页面中描述的说明继续构建Godot. 请确"
-"保让SCons知道你刚刚构建的Mono运行时的位置, 例如. ``scons [...] "
+"development/compiling/build_for_android>` 页面中描述的说明继续构建Rebel "
+"Engine. 请确保让SCons知道你刚刚构建的Mono运行时的位置, 例如. ``scons [...] "
 "mono_prefix=\"$HOME/mono-installs/android-armeabi-v7a-release\"`` (这个路径在"
 "你的系统上可能不同)."
 
@@ -11792,9 +11813,10 @@ msgid ""
 "be different on your system)."
 msgstr ""
 "一旦你构建了Mono, 你就可以按照本页面和 :doc:`Compiling for iOS</development/"
-"compiling/compiling_for_ios>` 页面中描述的说明来构建Godot. 请确保让SCons知道"
-"你刚刚构建的Mono运行时的位置, 例如. ``scons [...] mono_prefix=\"$HOME/mono-"
-"installs/ios-arm64-release\"`` (这个路径在你的系统上可能不同)."
+"compiling/compiling_for_ios>` 页面中描述的说明来构建Rebel Engine. 请确保让"
+"SCons知道你刚刚构建的Mono运行时的位置, 例如. ``scons [...] "
+"mono_prefix=\"$HOME/mono-installs/ios-arm64-release\"`` (这个路径在你的系统上"
+"可能不同)."
 
 #: development/compiling/compiling_with_mono.rst:260
 #, fuzzy
@@ -11802,8 +11824,8 @@ msgid ""
 "After building Rebel Engine for each architecture, you will notice SCons has "
 "copied the Mono libraries for each of them to the output directory:"
 msgstr ""
-"在为每个架构构建Godot之后, 你会注意到SCons已经将每个架构的Mono库复制到输出目"
-"录中:"
+"在为每个架构构建Rebel Engine之后, 你会注意到SCons已经将每个架构的Mono库复制到"
+"输出目录中:"
 
 #: development/compiling/compiling_with_mono.rst:273
 msgid ""
@@ -11830,7 +11852,7 @@ msgid ""
 "templates. The Rebel Editor will look for the libraries in ``<templates>/"
 "iphone-mono-libs/lib<name>.iphone.fat.a``."
 msgstr ""
-"``iphone-mono-libs`` 文件夹必须与导出模板一起分发.Godot编辑器将在 "
+"``iphone-mono-libs`` 文件夹必须与导出模板一起分发.Rebel Editor编辑器将在 "
 "``<templates>/iphone-mono-libs/lib<name>.iphone.fat.a`` 中查找库."
 
 #: development/compiling/compiling_with_mono.rst:298
@@ -11854,8 +11876,8 @@ msgid ""
 "may be different on your system)."
 msgstr ""
 "一旦你建立了Mono, 你就可以按照本页和 :doc:`Compiling for the Web</"
-"development/compiling/compiling_for_web>` 页面中描述的说明继续建立Godot. 请确"
-"保让SCons知道你刚刚构建的Mono运行时的位置, 例如. ``scons [...] "
+"development/compiling/compiling_for_web>` 页面中描述的说明继续建立Rebel "
+"Engine. 请确保让SCons知道你刚刚构建的Mono运行时的位置, 例如. ``scons [...] "
 "mono_prefix=\"$HOME/mono-installs/wasm-runtime-release\"`` (这个路径在你的系"
 "统上可能不同)."
 
@@ -11872,8 +11894,8 @@ msgid ""
 "the SCons ``platform`` option, e.g.: ``<templates>/bcl/windows``, "
 "``<templates>/bcl/javascript``."
 msgstr ""
-"导出模板还必须包括每个目标平台的BCL(基础类库).Godot在 ``<templates>/bcl/"
-"<target_platform>`` 中查找BCL文件夹, 其中 ``<target_platform>`` 是传递给"
+"导出模板还必须包括每个目标平台的BCL(基础类库).Rebel Engine在 ``<templates>/"
+"bcl/<target_platform>`` 中查找BCL文件夹, 其中 ``<target_platform>`` 是传递给"
 "SCons ``platform`` 选项的相同名称, 例如. ``<templates>/bcl/windows``, "
 "``<templates>/bcl/javascript``."
 
@@ -11881,7 +11903,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "Alternatively, Rebel Engine will look for them in the following locations:"
-msgstr "或者,Godot会在以下地点寻找它们:"
+msgstr "或者,Rebel Engine会在以下地点寻找它们:"
 
 #: development/compiling/compiling_with_mono.rst:320
 msgid "``<templates>/bcl/monodroid``"
@@ -11927,8 +11949,8 @@ msgid ""
 "the editor will use the BCL it's running on (``<data_folder>/Mono/lib/mono/"
 "4.5``) if it cannot find the BCL in the export templates."
 msgstr ""
-"如果目标平台与Godot编辑器的平台相同, 那么编辑器在导出模板中找不到BCL时, 就会"
-"使用它所运行的BCL(``<data_folder>/Mono/lib/mono/4.5``)."
+"如果目标平台与Rebel Editor编辑器的平台相同, 那么编辑器在导出模板中找不到BCL"
+"时, 就会使用它所运行的BCL(``<data_folder>/Mono/lib/mono/4.5``)."
 
 #: development/compiling/compiling_with_mono.rst:340
 msgid "AOT cross-compilers"
@@ -11941,7 +11963,8 @@ msgid ""
 "needs to have access to the Mono cross-compilers for that platform and "
 "architecture."
 msgstr ""
-"要对其他平台进行超前(AOT)编译,Godot需要访问该平台和架构的Mono交叉编译器."
+"要对其他平台进行超前(AOT)编译,Rebel Engine需要访问该平台和架构的Mono交叉编译"
+"器."
 
 #: development/compiling/compiling_with_mono.rst:345
 #, fuzzy
@@ -11950,8 +11973,8 @@ msgid ""
 "compilers folder. The location of this folder is ``<data_folder>/Tools/aot-"
 "compilers/``."
 msgstr ""
-"Godot将在AOT编译器文件夹中寻找交叉编译器可执行文件. 这个文件夹的位置是 "
-"``<data_folder>/Tools/aot-compilers/``."
+"Rebel Engine将在AOT编译器文件夹中寻找交叉编译器可执行文件. 这个文件夹的位置"
+"是 ``<data_folder>/Tools/aot-compilers/``."
 
 #: development/compiling/compiling_with_mono.rst:348
 #, fuzzy
@@ -11960,9 +11983,9 @@ msgid ""
 "directory. The executable name is ``<triple>-mono-sgen``, e.g.: ``aarch64-"
 "apple-darwin-mono-sgen``."
 msgstr ""
-"构建完成后, 将可执行文件复制到Godot AOT编译器目录下. 可执行文件的名称是 ``<三"
-">-mono-sgen``, 例如:``aarch64-apple-darwin-mono-sgen``. ``aarch64-apple-"
-"darwin-mono-sgen``."
+"构建完成后, 将可执行文件复制到Rebel Engine AOT编译器目录下. 可执行文件的名称"
+"是 ``<三>-mono-sgen``, 例如:``aarch64-apple-darwin-mono-sgen``. ``aarch64-"
+"apple-darwin-mono-sgen``."
 
 #: development/compiling/compiling_with_mono.rst:352
 msgid "Command-line options"
@@ -11981,7 +12004,7 @@ msgstr "**module_mono_enabled** \\ =yes | **no**"
 #: development/compiling/compiling_with_mono.rst:359
 #, fuzzy
 msgid "Build Rebel Engine with the Mono module enabled."
-msgstr "在启用Mono模块的情况下构建Godot."
+msgstr "在启用Mono模块的情况下构建Rebel Engine."
 
 #: development/compiling/compiling_with_mono.rst:361
 msgid "**mono_glue**\\ =\\ **yes** | no"
@@ -12026,7 +12049,7 @@ msgstr "**copy_mono_root** \\ =yes | **no**"
 msgid ""
 "Whether to copy the Mono framework assemblies and configuration files "
 "required by the Rebel Editor."
-msgstr "是否复制Godot编辑器所需的Mono框架程序集和配置文件."
+msgstr "是否复制Rebel Editor编辑器所需的Mono框架程序集和配置文件."
 
 #: development/compiling/compiling_with_script_encryption_key.rst:2
 msgid "Compiling with script encryption key"
@@ -12081,14 +12104,15 @@ msgid ""
 "Set this key as environment variable in the console that you will use to "
 "compile Rebel Engine, like this:"
 msgstr ""
-"在控制台中将此处的密钥（key）设置为环境变量，编译 Godot 时会用到，如下所示："
+"在控制台中将此处的密钥（key）设置为环境变量，编译 Rebel Engine 时会用到，如下"
+"所示："
 
 #: development/compiling/compiling_with_script_encryption_key.rst:49
 #, fuzzy
 msgid ""
 "Compile Rebel export templates and set them as custom export templates in "
 "the export preset options."
-msgstr "编译 Godot 导出模板，并在导出预设的选项中将它们设置为自定义导出模板。"
+msgstr "编译 Rebel 导出模板，并在导出预设的选项中将它们设置为自定义导出模板。"
 
 #: development/compiling/compiling_with_script_encryption_key.rst:52
 #, fuzzy
@@ -12110,8 +12134,8 @@ msgid ""
 "your Rebel Engine build. Rebel Engine is encrypting the scripts during "
 "export, but can't read them at runtime."
 msgstr ""
-"如果出现如下错误, 这意味着密钥没有正确地包含在Godot构建中.Godot在导出过程中对"
-"脚本进行加密, 但在运行时无法读取它们."
+"如果出现如下错误, 这意味着密钥没有正确地包含在Rebel Engine构建中.Rebel Engine"
+"在导出过程中对脚本进行加密, 但在运行时无法读取它们."
 
 #: development/compiling/cross-compiling_for_ios_on_linux.rst:2
 msgid "Cross-compiling for iOS on Linux"
@@ -12125,7 +12149,7 @@ msgid ""
 "Rebel Engine for iOS anytime you want."
 msgstr ""
 "此过程有些复杂, 需要很多步骤, 但只要你正确配置了环境, 就可以随时随地轻松为iOS"
-"编译Godot."
+"编译Rebel Engine."
 
 #: development/compiling/cross-compiling_for_ios_on_linux.rst:11
 msgid "Disclaimer"
@@ -12258,7 +12282,7 @@ msgstr ""
 #: development/compiling/cross-compiling_for_ios_on_linux.rst:118
 #, fuzzy
 msgid "Compiling Rebel Engine for iPhone"
-msgstr "为 iPhone 编译 Godot"
+msgstr "为 iPhone 编译 Rebel Engine"
 
 #: development/compiling/cross-compiling_for_ios_on_linux.rst:120
 msgid ""
@@ -12283,8 +12307,8 @@ msgid ""
 "Now you can compile for iPhone using SCons like the standard Rebel Engine "
 "way, with some additional arguments to provide the correct paths:"
 msgstr ""
-"现在你可以使用SCons像标准Godot方式一样编译iPhone, 带有一些其他参数以提供正确"
-"的路径:"
+"现在你可以使用SCons像标准Rebel Engine方式一样编译iPhone, 带有一些其他参数以提"
+"供正确的路径:"
 
 #: development/compiling/cross-compiling_for_ios_on_linux.rst:141
 msgid "Producing fat binaries"
@@ -77578,7 +77602,7 @@ msgid ""
 "included in the HTML as a ``<script>``. The name is generated from the "
 "*Export Path* during the export process."
 msgstr ""
-"``$GODOT_URL`` : 主JavaScript文件的名称，它提供了启动引擎所需"
+"``$GAME_URL`` : 主JavaScript文件的名称，它提供了启动引擎所需"
 "的 :js:class:`Engine` 类，必须作为 ``<script>`` 包含在HTML中。这个名字是在导"
 "出过程中从*导出路径Export Path* 生成的。"
 
@@ -77589,7 +77613,7 @@ msgid ""
 "be later overridden. See :js:attr:`EngineConfig` for the full list of "
 "overrides."
 msgstr ""
-"``$GODOT_CONFIG`` : 一个JavaScript对象，包含导出选项，以后可以被重写。参"
+"``$GAME_CONFIG`` : 一个JavaScript对象，包含导出选项，以后可以被重写。参"
 "见 :js:attr:`EngineConfig` 获取完整的重写列表。"
 
 #: tutorials/platforms/customizing_html5_shell.rst:58
@@ -77604,7 +77628,7 @@ msgid ""
 "``$REBEL_PROJECT_NAME``: The project name as defined in the Project "
 "Settings. It is a good idea to use it as a ``<title>`` in your template."
 msgstr ""
-"``$GODOT_PROJECT_NAME``: 在项目设置中定义的项目名称。在你的模板中使用它作为 "
+"``$REBEL_PROJECT_NAME``: 在项目设置中定义的项目名称。在你的模板中使用它作为 "
 "``<title>`` 是一个好主意。"
 
 #: tutorials/platforms/customizing_html5_shell.rst:64
@@ -77617,10 +77641,10 @@ msgid ""
 "HTML ``head`` element from the Rebel Editor, e.g. for different Web export "
 "presets."
 msgstr ""
-"``$GODOT_HEAD_INCLUDE``. 在HTML文件中, 在 ``<head>`` 标签结尾前包含的一个自定"
-"义字符串. 它是在*Html / Head Include*部分的导出选项中自定义的. 虽然你可以完全"
-"控制你所创建的HTML页面, 但这个变量对于从Godot Editor中配置HTML``head`` 元素的"
-"部分内容很有用, 例如, 对于不同的Web导出预设."
+"``$HEAD_INCLUDE``. 在HTML文件中, 在 ``<head>`` 标签结尾前包含的一个自定义字符"
+"串. 它是在*Html / Head Include*部分的导出选项中自定义的. 虽然你可以完全控制你"
+"所创建的HTML页面, 但这个变量对于从Godot Editor中配置HTML``head`` 元素的部分内"
+"容很有用, 例如, 对于不同的Web导出预设."
 
 #: tutorials/platforms/customizing_html5_shell.rst:70
 msgid ""
@@ -84444,14 +84468,14 @@ msgstr "完整的定义列表"
 #: tutorials/scripting/c_sharp/c_sharp_features.rst:211
 #, fuzzy
 msgid "``REBEL`` is always defined for Rebel Projects."
-msgstr "所有 Godot 项目都会定义 ``GODOT``\\ 。"
+msgstr "所有 Godot 项目都会定义 ``REBEL``\\ 。"
 
 #: tutorials/scripting/c_sharp/c_sharp_features.rst:213
 #, fuzzy
 msgid ""
 "One of ``REBEL_64`` or ``REBEL_32`` is defined depending on if the "
 "architecture is 64-bit or 32-bit."
-msgstr "根据架构是 64 位还是 32 位，会定义 ``GODOT_64`` 或 ``GODOT_32``\\ 。"
+msgstr "根据架构是 64 位还是 32 位，会定义 ``REBEL_64`` 或 ``REBEL_32``\\ 。"
 
 #: tutorials/scripting/c_sharp/c_sharp_features.rst:215
 #, fuzzy
@@ -84462,8 +84486,8 @@ msgid ""
 "``get_name()`` method of the :ref:`OS <class_OS>` singleton, but not every "
 "possible OS the method returns is an OS that Rebel with Mono runs on."
 msgstr ""
-"根据操作系统，会定义 ``GODOT_X11`` 、 ``GODOT_WINDOWS`` 、 ``GODOT_OSX`` 、 "
-"``GODOT_ANDROID`` 、 ``GODOT_IOS`` 、 ``GODOT_HTML5`` 、 ``GODOT_SERVER`` 的"
+"根据操作系统，会定义 ``REBEL_X11`` 、 ``REBEL_WINDOWS`` 、 ``REBEL_OSX`` 、 "
+"``REBEL_ANDROID`` 、 ``REBEL_IOS`` 、 ``REBEL_HTML5`` 、 ``REBEL_SERVER`` 的"
 "其中之一，将来可能会更改这些名称。这些名称是根据 :ref:`OS <class_OS>` 单例的 "
 "``get_name()`` 方法创建的，但这个函数所能够返回的操作系统并不是都能够运行使"
 "用 Mono 的 Godot。"
@@ -84480,7 +84504,7 @@ msgid ""
 "One of ``REBEL_PC``, ``REBEL_MOBILE``, or ``REBEL_WEB`` depending on the "
 "platform type."
 msgstr ""
-"``GODOT_PC`` , ``GODOT_MOBILE`` 或 ``GODOT_WEB`` 中的一种, 取决于平台类型."
+"``REBEL_PC`` , ``REBEL_MOBILE`` 或 ``REBEL_WEB`` 中的一种, 取决于平台类型."
 
 #: tutorials/scripting/c_sharp/c_sharp_features.rst:226
 #, fuzzy
@@ -84488,7 +84512,7 @@ msgid ""
 "One of ``REBEL_ARM64_V8A`` or ``REBEL_ARMEABI_V7A`` on Android only "
 "depending on the architecture."
 msgstr ""
-"``GODOT_ARM64_V8A`` 或 ``GODOT_ARMEABI_V7A`` 中的一个，仅在 Android 系统上，"
+"``REBEL_ARM64_V8A`` 或 ``REBEL_ARMEABI_V7A`` 中的一个，仅在 Android 系统上，"
 "取决于架构。"
 
 #: tutorials/scripting/c_sharp/c_sharp_features.rst:228
@@ -84496,7 +84520,7 @@ msgstr ""
 msgid ""
 "One of ``REBEL_ARM64`` or ``REBEL_ARMV7`` on iOS only depending on the "
 "architecture."
-msgstr "``GODOT_ARM64`` 或 ``GODOT_ARMV7`` 中的一个, 仅在iOS上, 取决于架构."
+msgstr "``REBEL_ARM64`` 或 ``REBEL_ARMV7`` 中的一个, 仅在iOS上, 取决于架构."
 
 #: tutorials/scripting/c_sharp/c_sharp_features.rst:230
 #, fuzzy
@@ -84504,7 +84528,7 @@ msgid ""
 "Any of ``REBEL_S3TC``, ``REBEL_ETC``, and ``REBEL_ETC2`` depending on the "
 "texture compression type."
 msgstr ""
-"``GODOT_S3TC`` , ``GODOT_ETC`` 和 ``GODOT_ETC2`` 中的任一种, 取决于纹理压缩类"
+"``REBEL_S3TC`` , ``REBEL_ETC`` 和 ``REBEL_ETC2`` 中的任一种, 取决于纹理压缩类"
 "型."
 
 #: tutorials/scripting/c_sharp/c_sharp_features.rst:232
@@ -84514,7 +84538,7 @@ msgid ""
 "prefixed: ``foo`` -> ``REBEL_FOO``."
 msgstr ""
 "所有在导出菜单中添加的自定义功能都会被大写并加上前缀: ``foo`` -> "
-"``GODOT_FOO`` ."
+"``REBEL_FOO`` ."
 
 #: tutorials/scripting/c_sharp/c_sharp_features.rst:234
 #, fuzzy
