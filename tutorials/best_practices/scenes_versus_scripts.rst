@@ -64,7 +64,7 @@ Named types
 In some cases, a user can register a script as a new type within the editor
 itself. This displays it as a new type in the node or resource creation dialog
 with an optional icon. In these cases, the user's ability to use the script
-is much more streamlined. Rather than having to...
+is much more streamlined. Rather than having to…
 
 1. Know the base type of the script they would like to use.
 
@@ -91,7 +91,7 @@ like the other nodes and resources in the system. One need not do any of the
 above work. The creation dialog even has a search bar to look up the type by
 name.
 
-There are two systems for registering types...
+There are two systems for registering types…
 
 - :doc:`Custom Types </tutorials/plugins/editor/making_plugins>`
 

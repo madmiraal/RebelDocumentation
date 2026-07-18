@@ -943,7 +943,7 @@ Creating a base class for interactable VR objects
 
 With the ``Script`` tab still open, create a new GDScript called ``VR_Interactable_Rigidbody.gd``.
 
-.. tip:: You can create GDScripts in the ``Script`` tab by pressing ``File -> New Script...``.
+.. tip:: You can create GDScripts in the ``Script`` tab by pressing ``File -> New Script…``.
 
 Once you have ``VR_Interactable_Rigidbody.gd`` open, add the following code:
 

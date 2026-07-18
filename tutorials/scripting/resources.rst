@@ -15,7 +15,7 @@ arrange user interfaces, etc. **Resources** are **data containers**. They don't
 do anything on their own: instead, nodes use the data contained in resources.
 
 Anything Rebel Engine saves or loads from disk is a resource. Be it a scene (a ``.tscn``
-or an ``.scn`` file), an image, a script... Here are some ``Resource`` examples:
+or an ``.scn`` file), an image, a script… Here are some ``Resource`` examples:
 :ref:`Texture <class_Texture>`, :ref:`Script <class_Script>`, :ref:`Mesh
 <class_Mesh>`, :ref:`Animation <class_Animation>`, :ref:`AudioStream
 <class_AudioStream>`, :ref:`Font <class_Font>`, :ref:`Translation
@@ -186,7 +186,7 @@ Rebel Editor makes it easy to create custom Resources in the Inspector.
 The Inspector will now display your Resource script's custom properties. If one edits
 those values and saves the resource, the Inspector serializes the custom properties
 too! To save a resource from the Inspector, click the Inspector's tools menu (top right),
-and select "Save" or "Save As...".
+and select "Save" or "Save As…".
 
 If the script's language supports :ref:`script classes <tutorials/scripting/gdscript/gdscript_basics:registering named classes>`,
 then it streamlines the process. Defining a name for your script alone will add it to
@@ -314,9 +314,9 @@ Let's see some examples.
             }
         }
 
-    Instead of just inlining the Dictionary values, one could also, alternatively...
+    Instead of just inlining the Dictionary values, one could also, alternatively…
 
-    1. Import a table of values from a spreadsheet and generate these key-value pairs, or...
+    1. Import a table of values from a spreadsheet and generate these key-value pairs, or…
 
     2. Design a visualization within the editor and create a simple plugin that adds it
        to the Inspector when you open these types of Resources.

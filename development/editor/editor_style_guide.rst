@@ -13,7 +13,7 @@ since there will be fewer review steps required.
 Writing style
 -------------
 
-- **Write messages (errors, warnings, ...) as full sentences.** They should start
+- **Write messages (errors, warnings, …) as full sentences.** They should start
   with an uppercase letter and end with a period.
 - **Try to keep sentences short.** This makes it more likely that their translations
   will be short as well, which is a good thing to avoid UI bugs.
@@ -37,9 +37,9 @@ Capitalize text in buttons and menu actions:
 - **Good:** *Open Editor Data Folder*
 - **Bad:** *Open editor data folder*
 
-If a menu action opens a modal dialog, suffix it with an ellipsis (``...``).
+If a menu action opens a modal dialog, suffix it with an ellipsis (``…``).
 
-- **Good:** *Editor Settings...*
+- **Good:** *Editor Settings…*
 - **Bad:** *Editor Settings*
 
 Inspector sections

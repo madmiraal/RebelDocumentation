@@ -13,7 +13,7 @@ https://code.visualstudio.com/docs/cpp/introvideos-cpp
 Importing Rebel Engine
 ----------------------
 
-From the **File** menu, select **Open Folder...**.
+From the **File** menu, select **Open Folder…**.
 
 .. figure:: img/vs-code-open-folder.png
    :figclass: figure-w480
@@ -105,7 +105,7 @@ Click **create a launch.json file**.
 Select the suggested **C++ (GDB/LLDB)** debugger.
 
 Add a **{} C/C++: (gdb) Launch** configuration.
-If necessary, use the **Add Configuration...** button to get the template prompt.
+If necessary, use the **Add Configuration…** button to get the template prompt.
 
 .. figure:: img/vs-code-add-gdb-launch-configuration.png
    :figclass: figure-w480

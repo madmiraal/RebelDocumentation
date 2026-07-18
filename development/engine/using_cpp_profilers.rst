@@ -138,7 +138,7 @@ Xcode Instruments
 
 .. image:: img/cpp_profiler_xcode_menu.png
 
-- In the Time Profiler window, click on the **Target** menu, select **Choose target...**
+- In the Time Profiler window, click on the **Target** menu, select **Choose target…**
   and specify the path to the Rebel Engine binary, command line arguments and environment variables
   in the next window.
 

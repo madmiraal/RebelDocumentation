@@ -7,7 +7,7 @@ Rebel Engine is not based on Qt, but Qt Creator can be used to develop other C++
 Import Rebel Engine
 -------------------
 
-From the Qt Creator's welcome screen select **Create Project...**.
+From the Qt Creator's welcome screen select **Create Project…**.
 
 .. figure:: img/qt-creator-welcome.png
    :figclass: figure-w480
@@ -23,12 +23,12 @@ Under **Projects**, select **Import Project** and then **Import Existing Project
 
    Import Existing Project
 
-Click **Choose...**.
+Click **Choose…**.
 
 Enter the project name and location.
 The Project name can be anything, but it makes sense to call it ``RebelEngine``.
 The Location is the root folder where you cloned RebelEngine.
-You can use the Browse... button to locate the folder.
+You can use the Browse… button to locate the folder.
 
 .. figure:: img/qt-creator-project-name-and-location.png
    :figclass: figure-w480
@@ -71,7 +71,7 @@ Wait for Qt Creator to import Rebel Engine.
 As improvements are made to Rebel Engine, files and folders are added, removed and renamed.
 Qt Creator does not automatically update the files and folders;
 unless you are personally making the changes.
-To update the project's files and folders, right-click on the RebelEngine project and select **Edit Files...**.
+To update the project's files and folders, right-click on the RebelEngine project and select **Edit Files…**.
 
 .. figure:: img/qt-creator-edit-files.png
    :figclass: figure-w480

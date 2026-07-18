@@ -261,7 +261,7 @@ From the Oxford dictionary:
     The 'Oxford comma' is an optional comma before the word 'and' at the end of a list:
     *We sell books, videos, and magazines.*
 
-    [...] Not all writers and publishers use it, but it can clarify the meaning of a sentence when the items in a list are not single words:
+    […] Not all writers and publishers use it, but it can clarify the meaning of a sentence when the items in a list are not single words:
     *These items are available in black and white, red and yellow, and blue and green.*
 
 **Don't** leave the last element of a list without a comma:
@@ -474,7 +474,7 @@ The tabs or dockable panels on either side of the viewport are
 ``docks``. You have the ``FileSystem dock``, the ``Scene dock`` that
 contains your scene tree, the ``Import dock``, the ``Node dock``, and
 the ``Inspector`` or ``Inspector dock``. With the default layout you may
-call the tabbed docks ``tabs``: the ``Scene tab``, the ``Node tab``...
+call the tabbed docks ``tabs``: the ``Scene tab``, the ``Node tab``…
 
 The Animation, Debugger, etc. at the bottom of the viewport are
 ``panels``. Together they make up the ``bottom panels``.

@@ -15,7 +15,7 @@ Creating a theme
 ----------------
 
 Like any other resources, themes can be created directly in the file system dock
-by right-clicking and selecting **New Resource...**, then selecting **Theme**
+by right-clicking and selecting **New Resource…**, then selecting **Theme**
 and clicking **Create**. This is especially useful for creating project-wide
 themes.
 

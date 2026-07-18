@@ -126,7 +126,7 @@ In the same "Binaries" filter, select "Add > Existing Item" and point to the
 Rebel Engine executable for UWP you have. In the "Properties" window, set "Content"
 to ``True`` so it's included in the project.
 
-Right-click the ``Package.appxmanifest`` file and select "Open With... > XML
+Right-click the ``Package.appxmanifest`` file and select "Open With… > XML
 (Text) Editor". In the ``Package/Applications/Application`` element, replace
 the ``Executable`` attribute from ``$targetnametoken$.exe`` to
 ``rebel.uwp.exe`` (or whatever your Rebel Engine executable is called). Also change

@@ -269,7 +269,7 @@ Export presets
 
 Next, you can configure the export settings by clicking on **Project -> Export**.
 
-Create a new export preset by clicking **Add...** and selecting a platform. You
+Create a new export preset by clicking **Add…** and selecting a platform. You
 can make as many presets as you like with different settings.
 
 .. image:: img/export_presets_window.png
@@ -294,7 +294,7 @@ PC (Linux/macOS/Windows)
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 Exporting PC platforms works the same across the three supported operating
-systems. Open the export window and click **Add...** to create the preset(s) you
+systems. Open the export window and click **Add…** to create the preset(s) you
 want to make. Then click **Export Project** and choose a name and destination
 folder. Choose a location *outside* of your project folder.
 

@@ -122,7 +122,7 @@ You only need to do the above steps once, as long as you keep that local
 metadata is hidden in its ``.git`` subfolder).
 
 .. note:: *Branch it, pull it, code it, stage it, commit, push it, rebase
-          it... technologic.*
+          it… technologic.*
 
           This bad take on Daft Punk's *Technologic* shows the general
           conception Git beginners have of its workflow: lots of strange
@@ -461,7 +461,7 @@ upstream ``master`` branch, which you can do with:
           ``git pull --rebase upstream master`` which would update your
           currently checked out branch, ``fetch`` will only update the
           ``upstream/master`` reference (which is distinct from your local
-          ``master`` branch... yes it's confusing, but you'll become familiar
+          ``master`` branch… yes it's confusing, but you'll become familiar
           with this little by little).
 
 This will open a text editor (``vi`` by default, see

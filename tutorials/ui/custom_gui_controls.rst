@@ -1,8 +1,8 @@
 Custom GUI controls
 ===================
 
-So many controls...
--------------------
+So many controls…
+-----------------
 
 Yet there are never enough. Creating your own custom controls that act
 just the way you want them to is an obsession of almost every GUI

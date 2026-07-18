@@ -13,7 +13,7 @@ Rebel Engine supports the following 3D *scene file formats*:
 
 * glTF 2.0 **(recommended)**. Rebel Engine has full support for both text (``.gltf``) and binary (``.glb``) formats.
 * DAE (COLLADA), an older format that is fully supported.
-* OBJ (Wavefront) format + their MTL material files. This is also fully supported, but pretty limited (no support for pivots, skeletons, animations, PBR materials, ...).
+* OBJ (Wavefront) format + their MTL material files. This is also fully supported, but pretty limited (no support for pivots, skeletons, animations, PBR materials, …).
 * FBX, supported via the Open Asset Import library. However, FBX is proprietary, so we recommend using other formats
   listed above, if suitable for your workflow.
 

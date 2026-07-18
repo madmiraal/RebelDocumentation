@@ -38,7 +38,7 @@ loading bars and any other piece of code relying on that value.
 These sections should appear in order, but it can be hard to distinguish them.
 The only difference between them is the first element in the heading for all of
 the items in the section. For example, the heading of all external resources
-should start with ``[ext_resource .....]``.
+should start with ``[ext_resource …]``.
 
 A TSCN file may contain single-line comments starting with a semicolon (``;``).
 However, comments will be discarded when saving the file using the Rebel Editor.
@@ -47,7 +47,7 @@ Entries inside the file
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 A heading looks like
-``[<resource_type> key=value key=value key=value ...]``
+``[<resource_type> key=value key=value key=value …]``
 where resource_type is one of:
 
 - ``ext_resource``
@@ -271,7 +271,7 @@ have different methods to refer to internal and external resources, you can have
 the same ID for both an internal and external resource.
 
 For example, to refer to the resource ``[ext_resource id=3 type="PackedScene"
-path=....]``, you would use ``ExtResource(3)``.
+path=…]``, you would use ``ExtResource(3)``.
 
 External resources
 ~~~~~~~~~~~~~~~~~~

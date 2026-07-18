@@ -14,7 +14,7 @@ program such as Blender, and then bring it back into the Rebel Editor.
 
     Only Blender 2.83 and newer can import glTF files exported by Rebel Engine.
 
-To export a scene in the editor go to **Project > Tools > Export GLTF...**
+To export a scene in the editor go to **Project > Tools > Export GLTF…**
 
 .. image:: img/gltf_godot_export.png
 

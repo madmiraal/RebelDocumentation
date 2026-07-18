@@ -239,7 +239,7 @@ is to avoid ending up in a situation where changing one class results in
 adversely effecting other classes.
 
 Scripts and scenes, as extensions of engine classes, should abide
-by *all* OOP principles. Examples include...
+by *all* OOP principles. Examples include…
 
 - `SOLID <https://en.wikipedia.org/wiki/SOLID>`__
 - `DRY <https://en.wikipedia.org/wiki/Don%27t_repeat_yourself>`__
@@ -280,13 +280,13 @@ When changing levels, one can then swap out the children of the "World" node.
 control over how their game world transitions.
 
 The next step is to consider what gameplay systems one's project requires.
-If one has a system that...
+If one has a system that…
 
 1. tracks all of its data internally
 2. should be globally accessible
 3. should exist in isolation
 
-... then one should create an :doc:`autoload 'singleton' node </tutorials/scripting/singletons_autoload>`.
+… then one should create an :doc:`autoload 'singleton' node </tutorials/scripting/singletons_autoload>`.
 
 .. note::
 
@@ -329,7 +329,7 @@ own place in the hierarchy as a sibling or some other relation.
 
   When should one do this? Well, this is subjective. The dilemma arises when
   one must micro-manage when a node must move around the SceneTree to preserve
-  itself. For example...
+  itself. For example…
 
   - Add a "player" node to a "room".
   - Need to change rooms, so one must delete the current room.
@@ -340,7 +340,7 @@ own place in the hierarchy as a sibling or some other relation.
     - If not, one can just create the two rooms, move the player
       and delete the old one. No problem.
 
-    If so, one will need to...
+    If so, one will need to…
 
     - Move the player somewhere else in the tree.
     - Delete the room.

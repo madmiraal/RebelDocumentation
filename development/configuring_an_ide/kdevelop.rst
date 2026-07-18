@@ -40,7 +40,7 @@ Click **Finish** and wait for KDevelop to finish importing the project.
 Build Rebel Engine
 ------------------
 
-From the **Project** menu, select **Open Configuration...**.
+From the **Project** menu, select **Open Configuration…**.
 
 .. figure:: img/kdevelop-open-configuration.png
    :figclass: figure-w480
@@ -79,7 +79,7 @@ You can now build Rebel Engine. From the **Project** menu, select **Build Select
 Configure C++ support
 ---------------------
 
-From the **Project** menu, select **Open Configuration...** again.
+From the **Project** menu, select **Open Configuration…** again.
 Select **Language Support**.
 
 .. figure:: img/kdevelop-language-support.png
@@ -97,7 +97,7 @@ Click **OK** to save the changes.
 Run and debug Rebel Engine
 --------------------------
 
-From the **Run** menu, select **Configure Launches...**.
+From the **Run** menu, select **Configure Launches…**.
 
 .. figure:: img/kdevelop-configure-launches.png
    :figclass: figure-w480

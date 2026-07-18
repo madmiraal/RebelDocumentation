@@ -92,7 +92,7 @@ callback, which is called before each physics step at a constant frame rate
 (60 times per second by default). This method will be passed a ``delta``
 parameter, which is a floating-point number equal to the time passed in
 *seconds* since the last step. When using the default 60 Hz physics update rate,
-it will typically be equal to ``0.01666...`` (but not always, see below).
+it will typically be equal to ``0.01666…`` (but not always, see below).
 
 .. note::
 

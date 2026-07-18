@@ -14,11 +14,11 @@ Y or Z? This article covers a variety of topics related to these dilemmas.
   In laymen's terms:
 
   "As the size of a problem domain increases, the runtime length of the
-  algorithm..."
+  algorithm…"
 
-  - Constant-time, ``O(1)``: "...does not increase."
-  - Logarithmic-time, ``O(log n)``: "...increases at a slow rate."
-  - Linear-time, ``O(n)``: "...increases at the same rate."
+  - Constant-time, ``O(1)``: "…does not increase."
+  - Logarithmic-time, ``O(log n)``: "…increases at a slow rate."
+  - Linear-time, ``O(n)``: "…increases at the same rate."
   - Etc.
 
   Imagine if one had to process 3 million data points within a single frame. It
@@ -71,7 +71,7 @@ Contiguous memory stores imply the following operation performance:
 
     - Slowest add/remove *from the front*.
 
-    - If doing many inserts/removals *from the front*, then...
+    - If doing many inserts/removals *from the front*, then…
 
         1. invert the array.
 
@@ -117,7 +117,7 @@ the expense of memory and some minor operational efficiency.
     - Hash operations are constant-time, so even if an algorithm must do more
       than one, as long as the number of hash calculations doesn't become
       too dependent on the density of the table, things will stay fast.
-      Which leads to...
+      Which leads to…
 
 2. Maintaining an ever-growing size for the table.
 
@@ -308,7 +308,7 @@ The answer may not be immediately clear to new Rebel users.
 
 :ref:`AnimatedTexture <class_AnimatedTexture>` is a texture that
 the engine draws as an animated loop rather than a static image.
-Users can manipulate...
+Users can manipulate…
 
 1. the rate at which it moves across each section of the texture (fps).
 
@@ -340,7 +340,7 @@ an :ref:`AnimationPlayer <class_AnimationPlayer>` node in conjunction with
 the AnimatedSprite.
 
 AnimationPlayers are also the tool one will need to use if they wish to design
-more complex 2D animation systems, such as...
+more complex 2D animation systems, such as…
 
 1. **Cut-Out animations:** editing sprites' transforms at runtime.
 
