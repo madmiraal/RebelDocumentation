@@ -139,7 +139,7 @@ Exporting bit flags
 -------------------
 
 Integers used as bit flags can store multiple ``true``/``false`` (boolean)
-values in one property. By using the export hint ``int, FLAGS, ...``, they
+values in one property. By using the export hint ``int, FLAGS, …``, they
 can be set from the editor::
 
     # Set any of the given flags from the editor.

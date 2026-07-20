@@ -9,13 +9,13 @@ Create a new project
 --------------------
 
 From Code::Blocks' main screen,
-click **Create a new project** or select **File > New > Project...**
+click **Create a new project** or select **File > New > Project…**
 
 .. figure:: img/code-blocks-file-new-project.png
    :figclass: figure-w480
    :align: center
 
-   Create a new project...
+   Create a new project…
 
 In the **New project** window,
 from **Projects**, select **Empty project**, and click **Go**.
@@ -67,7 +67,7 @@ Add Rebel files to the project
 ------------------------------
 
 To add all the Rebel source files to the project,
-right-click on the **RebelEngine** project and select **Add files recursively...**.
+right-click on the **RebelEngine** project and select **Add files recursively…**.
 
 .. figure:: img/code-blocks-add-files-recursively.png
    :figclass: figure-w480
@@ -102,29 +102,29 @@ files and folders are added, removed and renamed.
 Code::Blocks does not automatically update the files and folders;
 unless you are personally making the changes.
 Whenever you want to update the project's files and folders,
-simply, right-click on the **RebelEngine** project and select **Remove files...**.
+simply, right-click on the **RebelEngine** project and select **Remove files…**.
 
 .. figure:: img/code-blocks-remove-files.png
    :figclass: figure-w480
    :align: center
 
-   Remove files...
+   Remove files…
 
 This will remove all the project's files and folders.
-Now, simply **Add files recursively...** again.
+Now, simply **Add files recursively…** again.
 
 
 Configure the build
 -------------------
 
 The first step is to change the project properties.
-Right-click on the new project and select **Properties...**.
+Right-click on the new project and select **Properties…**.
 
 .. figure:: img/code-blocks-open-properties.png
    :figclass: figure-w480
    :align: center
 
-   Project properties...
+   Project properties…
 
 Check the **This is a custom Makefile** property.
 
@@ -137,13 +137,13 @@ Check the **This is a custom Makefile** property.
 Click **OK** to save the changes.
 
 The next step is to change the build options.
-Right-click on the **RebelProject** project and select **Build Options...**.
+Right-click on the **RebelProject** project and select **Build Options…**.
 
 .. figure:: img/code-blocks-open-build-options.png
    :figclass: figure-w480
    :align: center
 
-   Project build options...
+   Project build options…
 
 Select the **"Make" commands** tab.
 Remove all the existing commands for all the build targets.
@@ -175,7 +175,7 @@ Configure the run
 -----------------
 
 Once **SCons** has successfully built the desired target,
-reopen the project **Properties...**.
+reopen the project **Properties…**.
 Select the **Build targets** tab.
 In the **Output filename** field, browse to the ``bin`` folder and select the compiled file.
 
@@ -202,13 +202,13 @@ Save your settings
 By default, Code::Blocks does not save your workspace settings.
 To avoid opening your project each time,
 you can set Code::Blocks to open the default workspace on start-up.
-Go to **Settings > Environment...**.
+Go to **Settings > Environment…**.
 
 .. figure:: img/code-blocks-settings-environment.png
    :figclass: figure-w480
    :align: center
 
-   Environment settings...
+   Environment settings…
 
 Under **General settings** find the **On application start-up** section.
 Select the **Open default workspace** option.

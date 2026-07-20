@@ -71,13 +71,13 @@ Create a Build Configuration
 
 Rebel Engine uses `SCons <https://scons.org/>`__ as the :doc:`build system </development/compiling/introduction_to_the_buildsystem>`.
 We need to create the build configurations manually.
-From the configurations menu, select **Edit Configurations...**.
+From the configurations menu, select **Edit Configurations…**.
 
 .. figure:: img/clion-edit-configurations.png
    :figclass: figure-w480
    :align: center
 
-   Edit Configurations...
+   Edit Configurations…
 
 To add a configuration, click the :kbd:`+` icon in the top-left corner.
 From **Add New Configuration**, select **Custom Build Application**.
@@ -113,7 +113,7 @@ It makes sense to give your build targets the same name as your run targets.
 
 You will need to create a new build tool.
 To the right of the **Build** drop-down list,
-click the three dots: ``...``.
+click the three dots: ``…``.
 
 .. figure:: img/clion-build.png
    :figclass: figure-w480
@@ -153,7 +153,7 @@ Click **OK** to save the build tool.
 Click **OK** to select your new build tool.
 
 Now, create a new clean tool.
-To the right of the **Clean** drop-down list, click the three dots: ``...``.
+To the right of the **Clean** drop-down list, click the three dots: ``…``.
 
 .. figure:: img/clion-clean.png
    :figclass: figure-w480
@@ -215,7 +215,7 @@ you will be prompted to add an executable.
    Specify the executable
 
 To the right of the **Executable** drop-down list,
-click the three dots: ``...``.
+click the three dots: ``…``.
 
 Browse to the `bin` folder,
 and select the created executable.

@@ -26,8 +26,8 @@ Setting up the export template
 
 The :doc:`/tutorials/export/exporting_for_android` documentation describes how to create an Android export template for Rebel Engine. However, a few extra settings are needed for XR deployment.
 
-Open the export settings again by opening the **Project > Export...** menu and select the Android export template you created. 
-If you haven't created it yet, do so now by pressing **Add...** and selecting **Android**.
+Open the export settings again by opening the **Project > Export…** menu and select the Android export template you created.
+If you haven't created it yet, do so now by pressing **Add…** and selecting **Android**.
 
 Scroll down to the **Xr Features** section. Here, the important setting is the **Xr Mode** which should be set to **OpenXR**.
 Note that the other options shown here should be set according to your project's needs.

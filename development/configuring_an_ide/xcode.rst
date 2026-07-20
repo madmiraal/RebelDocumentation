@@ -29,7 +29,7 @@ Importing the project
    :align: center
 
 - Add a Command Line Tool target which will be used for indexing the project by
-  choosing **File > New > Target...**.
+  choosing **File > New > Target…**.
 
 .. figure:: img/xcode_3_add_new_target.png
    :figclass: figure-w480

@@ -29,7 +29,7 @@ the project folder. Rebel Editor provides a dialog for generating those files an
 placing them where they need to be.
 
 In the main toolbar, click the ``Project`` dropdown. Then click
-``Project Settings...``. Go to the ``Plugins`` tab and then click
+``Project Settings…``. Go to the ``Plugins`` tab and then click
 on the ``Create`` button in the top-right.
 
 You will see the dialog appear, like so:

@@ -7,7 +7,7 @@ Use cases
 Oftentimes one would like to add functionality to one's game after it has been
 deployed.
 
-Examples of this include...
+Examples of this include…
 
 - Downloadable Content: the ability to add features and content to one's game.
 - Patches: the ability to fix a bug that is present in a shipped product.
@@ -67,7 +67,7 @@ process will build that type of file for the chosen platform.
     If one wishes to support mods for their game, they will need their users to
     create similarly exported files. Assuming the original game expects a
     certain structure for the PCK's resources and/or a certain interface for
-    its scripts, then either...
+    its scripts, then either…
 
     1. The developer must publicize documentation of these expected structures/
        interfaces, expect modders to install Rebel Engine, and then also expect

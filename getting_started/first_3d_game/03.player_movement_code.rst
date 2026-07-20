@@ -202,7 +202,7 @@ fall speed separately. Be sure to go back one tab so the lines are inside the
 
 For the vertical velocity, we subtract the fall acceleration multiplied by the
 delta time every frame. Notice the use of the ``-=`` operator, which is a
-shorthand for ``variable = variable - ...``.
+shorthand for ``variable = variable - …``.
 
 This line of code will cause our character to fall in every frame. This may seem
 strange if it's already on the floor. But we have to do this for the character

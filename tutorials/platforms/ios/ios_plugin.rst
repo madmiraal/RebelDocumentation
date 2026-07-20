@@ -14,7 +14,7 @@ An iOS plugin requires a ``.gdip`` configuration file, a binary file which can b
 
 2. The Rebel Editor automatically detects and imports ``.gdip`` files inside ``res://ios/plugins`` and its subdirectories.
 
-3. You can find and activate detected plugins by going to Project -> Export... -> iOS and in the Options tab, scrolling to the Plugins section.
+3. You can find and activate detected plugins by going to Project -> Export… -> iOS and in the Options tab, scrolling to the Plugins section.
 
 .. image:: img/ios_export_preset_plugins_section.png
 

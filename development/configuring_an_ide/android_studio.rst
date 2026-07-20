@@ -58,13 +58,13 @@ There are also tasks for building all the targets simultaneously.
 Finally, there are tasks to create the release and debug versions of the Rebel Android templates.
 
 To configure the Gradle tasks in Android Studio, you will need to enable the Gradle Setting.
-From the menu select **File > Settings...**.
+From the menu select **File > Settings…**.
 
 .. figure:: img/android-studio-settings.png
    :figclass: figure-w480
    :align: center
 
-   Settings...
+   Settings…
 
 Under **Experimental**, enable **Configure all Gradle tasks during Gradle Sync (this can make Gradle Sync slower)**.
 

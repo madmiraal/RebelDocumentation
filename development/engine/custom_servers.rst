@@ -26,7 +26,7 @@ What for?
 - Adding support for a new input device.
 - Adding writing threads.
 - Adding a custom VoIP protocol.
-- And more...
+- And more…
 
 Creating a Rebel Server
 -----------------------

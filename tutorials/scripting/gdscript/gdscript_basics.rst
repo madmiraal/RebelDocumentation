@@ -1503,7 +1503,7 @@ the :ref:`Object.connect() <class_Object_method_connect>` method::
 .. note::
 
     To use signals, your class has to extend the ``Object`` class or any
-    type extending it like ``Node``, ``KinematicBody``, ``Control``...
+    type extending it like ``Node``, ``KinematicBody``, ``Control``…
 
 In the ``Game`` node, we get both the ``Character`` and ``Lifebar`` nodes, then
 connect the character, that emits the signal, to the receiver, the ``Lifebar``

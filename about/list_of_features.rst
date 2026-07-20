@@ -360,7 +360,7 @@ Scripting
 While Rebel Engine will keep VisualScript supported, we recommend
 :ref:`trying out GDScript <toc-learn-scripting-gdscript>` instead.
 
-**GDNative (C, C++, Rust, D, ...):**
+**GDNative (C, C++, Rust, D, …):**
 
 - When you need it, link to native libraries for higher performance and third-party integrations.
 
@@ -534,7 +534,7 @@ The editor UI can easily be extended in many ways using add-ons.
 - RichTextLabel for :doc:`text formatted using BBCode </tutorials/ui/bbcode_in_richtextlabel>`.
 - Trees (can also be used to represent tables).
 - Color picker with RGB and HSV modes.
-- Containers (horizontal, vertical, grid, flow, center, margin, aspect ratio, draggable splitter, ...).
+- Containers (horizontal, vertical, grid, flow, center, margin, aspect ratio, draggable splitter, …).
 - Controls can be rotated and scaled.
 
 **Sizing:**
@@ -591,7 +591,7 @@ File formats
 - Read and write :ref:`class_JSON` files.
 - Read and write INI-style configuration files using :ref:`class_ConfigFile`.
 
-   - Can (de)serialize any Rebel Engine datatype, including Vector2/3, Color, ...
+   - Can (de)serialize any Rebel Engine datatype, including Vector2/3, Color, …
 
 - Read XML files using :ref:`class_XMLParser`.
 - Pack game data into a PCK file (custom format optimized for fast seeking),

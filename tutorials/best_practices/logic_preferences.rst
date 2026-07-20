@@ -142,7 +142,7 @@ programmed logic, which results in opportunities for errors and bugs. If one
 isn't careful, they can develop a system that bloats the technical debt of
 the application.
 
-As such, the best options would be...
+As such, the best options would be…
 
 1. To use a static level for smaller games.
 

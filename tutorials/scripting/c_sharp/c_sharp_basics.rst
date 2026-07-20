@@ -123,7 +123,7 @@ In Visual Studio Code:
           for the C# tools plugin to work.
 
 To configure a project for debugging open the Rebel project folder in VS Code.
-Go to the Run tab and click on **Add Configuration...**. Select **C# Godot**
+Go to the Run tab and click on **Add Configuration…**. Select **C# Godot**
 from the dropdown menu. Open the ``tasks.json`` and ``launch.json`` files that
 were created. Change the executable setting in ``launch.json`` and  command
 settings in ``tasks.json`` to your Rebel Editor executable path. Now, when you start
