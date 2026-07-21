@@ -14,7 +14,7 @@ a *pull* from one of their fork's branches to one branch of the original
 The resulting *pull request* (PR) can then be reviewed by other contributors,
 which might approve it, reject it, or most often request that modifications
 be done. Once approved, the PR can then be merged by one of the core
-developers, and its commit(s) will become part of the target branch (usually
+developers, and its commits will become part of the target branch (usually
 the *master* branch).
 
 We will go together through an example to show the typical workflow and

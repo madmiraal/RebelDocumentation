@@ -480,7 +480,7 @@ Now if you go to the ``RebelEngine/modules/summator/docs`` folder, you will see
 that it contains a ``Summator.xml`` file, or any other classes that you referenced
 in your ``get_classes`` function.
 
-Edit the file(s) following :doc:`/contributing/updating_the_api_documentation` and recompile the engine.
+Edit the file following :doc:`/contributing/updating_the_api_documentation` and recompile the engine.
 
 Once the compilation process is finished, the docs will become accessible within
 the engine's built-in documentation system.
@@ -502,13 +502,13 @@ you can also create your own custom icons for classes to appear in the editor.
 For the actual process of creating editor icons to be integrated within the engine,
 please refer to :doc:`/development/editor/creating_icons` first.
 
-Once you've created your icon(s), proceed with the following steps:
+Once you've created your icons, proceed with the following steps:
 
 1. Create an ``icons`` folder in the root of the module.
 
 2. Move your newly created ``svg`` icons (optimized or not) into that folder.
 
-3. Recompile the engine and run the editor. Now the icon(s) will appear in
+3. Recompile the engine and run the editor. Now the icons will appear in
    editor's interface where appropriate.
 
 Summing up

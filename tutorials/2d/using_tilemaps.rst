@@ -84,8 +84,8 @@ of the editor window:
 
 .. image:: img/tilemap_tool.png
 
-First, you need to add the texture(s) that you'll use for the tiles. Click the
-"Add Texture(s) to TileSet" button and select the ``tilesheet.png`` image.
+First, you need to add the textures that you'll use for the tiles. Click the
+"Add Texture to TileSet" button and select the ``tilesheet.png`` image.
 
 Next, click "New Single Tile" and drag in the image to select the tile you want.
 Click the "Enable Snap" button to make it easier to select the entire tile. A

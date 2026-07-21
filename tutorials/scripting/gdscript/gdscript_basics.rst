@@ -851,11 +851,11 @@ nature of the tab-based indentation, ``elif`` can be used instead of
 ::
 
     if [expression]:
-        statement(s)
+        statements
     elif [expression]:
-        statement(s)
+        statements
     else:
-        statement(s)
+        statements
 
 Short statements can be written on the same line as the condition::
 
@@ -902,7 +902,7 @@ using ``break`` or continued using ``continue``:
 ::
 
     while [expression]:
-        statement(s)
+        statements
 
 for
 ^^^
@@ -948,11 +948,11 @@ It's the equivalent of the ``switch`` statement found in many other languages, b
 Basic syntax::
 
     match [expression]:
-        [pattern](s):
+        pattern:
             [block]
-        [pattern](s):
+        pattern:
             [block]
-        [pattern](s):
+        pattern:
             [block]
 
 

@@ -124,7 +124,7 @@ After overriding, a new field is added for this specific configuration:
     :ref:`project settings "override.cfg" functionality <class_ProjectSettings>`
     (which is unrelated to feature tags), remember that feature tags still apply.
     Therefore, make sure to *also* override the setting with the desired feature
-    tag(s) if you want them to override base project settings on all platforms
+    tags if you want them to override base project settings on all platforms
     and configurations.
 
 Default overrides

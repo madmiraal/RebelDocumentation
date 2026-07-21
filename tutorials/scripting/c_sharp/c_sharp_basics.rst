@@ -57,7 +57,7 @@ In summary, you must have installed the .NET SDK
 Additional notes
 ~~~~~~~~~~~~~~~~
 
-Be sure to install the 64-bit version of the SDK(s)
+Be sure to install the 64-bit version of the SDK
 if you are using the 64-bit version of Rebel Engine.
 
 If you are building Rebel Engine from source, install the latest stable version of
