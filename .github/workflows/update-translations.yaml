@@ -126,7 +126,7 @@ jobs:
               --head update-translation-files                                                     \
               --title "Update Translation Files"                                                  \
               --body "Updates the Rebel Documentation translation files with the latest changes." \
-              --label "PR Type: Maintenance"
+              --label "PR Type: Technical"
             echo "New Pull Request created"
           fi
 
@@ -181,6 +181,6 @@ jobs:
               --head weblate                          \
               --title "Update Translations"           \
               --body "New translations from Weblate." \
-              --label "PR Type: Enhancement"
+              --label "PR Type: Improvement"
             echo "New Pull Request created"
           fi
