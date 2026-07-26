@@ -93,7 +93,16 @@ jobs:
             echo "No files have changed."
           else
             echo "Translation files have been updated."
-            echo "has_changes=yes" >> "$GITHUB_ENV"
+            git diff --shortstat
+            files_changed=$(git diff --shortstat | cut -d " " -f 2)
+            insertions=$(git diff --shortstat | cut -d " " -f 5)
+            deletions=$(git diff --shortstat | cut -d " " -f 7)
+            if [ "$files_changed" == "1" ] && [ "$insertions" == "1" ] && [ "$deletions" == 1 ]; then
+              echo "Single change detected."
+              echo "Ignoring change; because it's probably only the POT-Creation-Date in the docs.pot file."
+            else
+              echo "has_changes=yes" >> "$GITHUB_ENV"
+            fi
           fi
 
       - name: Create commit
