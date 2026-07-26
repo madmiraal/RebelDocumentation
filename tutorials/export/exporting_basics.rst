@@ -294,7 +294,7 @@ PC (Linux/macOS/Windows)
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 Exporting PC platforms works the same across the three supported operating
-systems. Open the export window and click **Add…** to create the preset(s) you
+systems. Open the export window and click **Add…** to create the preset you
 want to make. Then click **Export Project** and choose a name and destination
 folder. Choose a location *outside* of your project folder.
 

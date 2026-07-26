@@ -387,8 +387,8 @@ This is usually greatly simplified in dynamically typed languages:
 
 ::
 
-    for s in strings:
-        print(s)
+    for string in strings:
+        print(string)
 
 Container datatypes (arrays and dictionaries) are iterable. Dictionaries
 allow iterating the keys:

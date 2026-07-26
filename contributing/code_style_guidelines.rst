@@ -81,7 +81,7 @@ command:
 
 ::
 
-    clang-format -i <path/to/file(s)>
+    clang-format -i <path/to/file>
 
 - ``-i`` means that the changes should be written directly to the file (by
   default clang-format would only output the fixed version to the terminal).
@@ -279,7 +279,7 @@ command:
 
 ::
 
-    black -l 120 <path/to/file(s)>
+    black -l 120 <path/to/file>
 
 - ``-l 120`` means that the allowed number of characters per line is 120.
   This number was agreed upon by the developers.

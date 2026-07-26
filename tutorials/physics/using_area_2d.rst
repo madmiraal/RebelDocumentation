@@ -33,8 +33,8 @@ behavior. We'll look at how to use those in the section below.
 
 *Monitoring* and *Monitorable* are used to enable and disable the area.
 
-The "Collision" section is where you configure the area's collision layer(s)
-and mask(s).
+The "Collision" section is where you configure the area's collision layers
+and masks.
 
 The "Audio Bus" section allows you to override audio in the area, for example to
 apply an audio effect when the player moves through.

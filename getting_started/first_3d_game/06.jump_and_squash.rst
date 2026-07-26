@@ -12,7 +12,7 @@ Controlling physics interactions
 --------------------------------
 
 Physics bodies have access to two complementary properties: layers and masks.
-Layers define on which physics layer(s) an object is.
+Layers define on which physics layers an object is.
 
 Masks control the layers that a body will listen to and detect. This affects
 collision detection. When you want two bodies to interact, you need at least one
