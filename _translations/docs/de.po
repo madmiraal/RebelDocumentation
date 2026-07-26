@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Rebel Documentation 1.0\n"
 "Report-Msgid-Bugs-To: https://github.com/RebelToolbox/RebelDocumentation\n"
-"POT-Creation-Date: 2026-07-26 15:49+0000\n"
+"POT-Creation-Date: 2026-07-26 18:23+0000\n"
 "PO-Revision-Date: 2023-09-18 08:20+0000\n"
 "Last-Translator: Anonynonymouse <tom.spaine60388@gmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/rebel-toolbox/"
@@ -8382,11 +8382,12 @@ msgstr ""
 "*Upstream* bezeichnet)."
 
 #: contributing/pr_workflow.rst:14
+#, fuzzy
 msgid ""
 "The resulting *pull request* (PR) can then be reviewed by other "
 "contributors, which might approve it, reject it, or most often request that "
 "modifications be done. Once approved, the PR can then be merged by one of "
-"the core developers, and its commit(s) will become part of the target branch "
+"the core developers, and its commits will become part of the target branch "
 "(usually the *master* branch)."
 msgstr ""
 "Die resultierende *Pull-Anfrage* (PR) kann dann von anderen Mitwirkenden "
@@ -18311,8 +18312,8 @@ msgstr ""
 #: development/engine/custom_modules_in_cpp.rst:483
 #, fuzzy
 msgid ""
-"Edit the file(s) following :doc:`/contributing/"
-"updating_the_api_documentation` and recompile the engine."
+"Edit the file following :doc:`/contributing/updating_the_api_documentation` "
+"and recompile the engine."
 msgstr ""
 "Bearbeiten Sie die Datei(en) gemäß der Anleitung :ref:"
 "`doc_updating_the_class_reference` und kompilieren Sie die Engine neu."
@@ -18371,7 +18372,8 @@ msgstr ""
 "Integration in die Engine finden Sie zuerst unter :ref:`doc_editor_icons`."
 
 #: development/engine/custom_modules_in_cpp.rst:505
-msgid "Once you've created your icon(s), proceed with the following steps:"
+#, fuzzy
+msgid "Once you've created your icons, proceed with the following steps:"
 msgstr ""
 "Führen Sie die folgenden Schritte aus, nachdem Sie Ihre Symbole erstellt "
 "haben:"
@@ -18388,8 +18390,9 @@ msgstr ""
 "in diesen Ordner."
 
 #: development/engine/custom_modules_in_cpp.rst:511
+#, fuzzy
 msgid ""
-"Recompile the engine and run the editor. Now the icon(s) will appear in "
+"Recompile the engine and run the editor. Now the icons will appear in "
 "editor's interface where appropriate."
 msgstr ""
 "Kompilieren Sie die Engine neu und führen Sie den Editor aus. Jetzt werden "
@@ -25282,9 +25285,10 @@ msgid "Controlling physics interactions"
 msgstr "Steuerung der physikalischen Interaktionen"
 
 #: getting_started/first_3d_game/06.jump_and_squash.rst:14
+#, fuzzy
 msgid ""
 "Physics bodies have access to two complementary properties: layers and "
-"masks. Layers define on which physics layer(s) an object is."
+"masks. Layers define on which physics layers an object is."
 msgstr ""
 "Physikalische Körper haben zugriff auf zwei komplementäre Eigenschaften: "
 "Ebenen und Masken. Ebenen definieren auf welcher/-n physikalischen Ebene(n) "
@@ -34352,10 +34356,10 @@ msgstr ""
 "unten im Editorfenster geöffnet:"
 
 #: tutorials/2d/using_tilemaps.rst:87
+#, fuzzy
 msgid ""
-"First, you need to add the texture(s) that you'll use for the tiles. Click "
-"the \"Add Texture(s) to TileSet\" button and select the ``tilesheet.png`` "
-"image."
+"First, you need to add the textures that you'll use for the tiles. Click the "
+"\"Add Texture to TileSet\" button and select the ``tilesheet.png`` image."
 msgstr ""
 "Zuerst müssen Sie die Textur(en) hinzufügen, die Sie für die Kacheln "
 "verwenden. Klicken Sie auf die Schaltfläche \"Textur(en) zu TileSet "
@@ -49403,10 +49407,11 @@ msgid "Chorus"
 msgstr "Chorus (Chor)"
 
 #: tutorials/audio/audio_buses.rst:121
+#, fuzzy
 msgid ""
 "The Chorus effect duplicates the incoming audio, delays the duplicate "
 "slightly and uses an LFO to continuously modulate the pitch of the "
-"duplicated signal before mixing the duplicated signal(s) and the original "
+"duplicated signal before mixing the duplicated signal and the original "
 "together again. This creates a shimmering effect and adds stereo width to "
 "the sound."
 msgstr ""
@@ -58356,8 +58361,8 @@ msgstr "PC (Linux/MacOS/Windows)"
 #, fuzzy
 msgid ""
 "Exporting PC platforms works the same across the three supported operating "
-"systems. Open the export window and click **Add…** to create the preset(s) "
-"you want to make. Then click **Export Project** and choose a name and "
+"systems. Open the export window and click **Add…** to create the preset you "
+"want to make. Then click **Export Project** and choose a name and "
 "destination folder. Choose a location *outside* of your project folder."
 msgstr ""
 "Der Export von PC-Plattformen funktioniert auf allen drei unterstützten "
@@ -62308,11 +62313,12 @@ msgstr ""
 "hinzugefügt:"
 
 #: tutorials/export/feature_tags.rst:123
+#, fuzzy
 msgid ""
 "When using the :ref:`project settings \"override.cfg\" functionality "
 "<class_ProjectSettings>` (which is unrelated to feature tags), remember that "
 "feature tags still apply. Therefore, make sure to *also* override the "
-"setting with the desired feature tag(s) if you want them to override base "
+"setting with the desired feature tags if you want them to override base "
 "project settings on all platforms and configurations."
 msgstr ""
 "Benutzt man die Funktion :ref:`project settings \"override.cfg\" "
@@ -79915,9 +79921,10 @@ msgstr ""
 "aktivieren und zu deaktivieren."
 
 #: tutorials/physics/using_area_2d.rst:36
+#, fuzzy
 msgid ""
-"The \"Collision\" section is where you configure the area's collision "
-"layer(s) and mask(s)."
+"The \"Collision\" section is where you configure the area's collision layers "
+"and masks."
 msgstr ""
 "Im Abschnitt \"Collision\" konfigurieren Sie die Kollisionsebene(n) und die "
 "Maske(n) des Bereichs."
@@ -86772,8 +86779,8 @@ msgstr "Zusätzliche Anmerkungen"
 #: tutorials/scripting/c_sharp/c_sharp_basics.rst:60
 #, fuzzy
 msgid ""
-"Be sure to install the 64-bit version of the SDK(s) if you are using the 64-"
-"bit version of Rebel Engine."
+"Be sure to install the 64-bit version of the SDK if you are using the 64-bit "
+"version of Rebel Engine."
 msgstr ""
 "Stellen Sie sicher, dass Sie die 64-Bit-Version des SDKs installieren, wenn "
 "Sie die 64-Bit-Version von Godot verwenden."

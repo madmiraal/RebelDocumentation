@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Rebel Documentation 1.0\n"
 "Report-Msgid-Bugs-To: https://github.com/RebelToolbox/RebelDocumentation\n"
-"POT-Creation-Date: 2026-07-26 15:49+0000\n"
+"POT-Creation-Date: 2026-07-26 18:23+0000\n"
 "PO-Revision-Date: 2023-09-18 08:20+0000\n"
 "Last-Translator: Houtaroy <Houtaroy@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -7718,11 +7718,12 @@ msgstr ""
 "为 *upstream*\\ ）仓库的某个分支。"
 
 #: contributing/pr_workflow.rst:14
+#, fuzzy
 msgid ""
 "The resulting *pull request* (PR) can then be reviewed by other "
 "contributors, which might approve it, reject it, or most often request that "
 "modifications be done. Once approved, the PR can then be merged by one of "
-"the core developers, and its commit(s) will become part of the target branch "
+"the core developers, and its commits will become part of the target branch "
 "(usually the *master* branch)."
 msgstr ""
 "然后, 生成的 *拉取请求* (PR)可以由其他贡献者审查, 可能批准它, 拒绝它, 或者最"
@@ -17502,8 +17503,8 @@ msgstr ""
 #: development/engine/custom_modules_in_cpp.rst:483
 #, fuzzy
 msgid ""
-"Edit the file(s) following :doc:`/contributing/"
-"updating_the_api_documentation` and recompile the engine."
+"Edit the file following :doc:`/contributing/updating_the_api_documentation` "
+"and recompile the engine."
 msgstr "编译以下文件 :ref:`doc_updating_the_class_reference` 并重新编译引擎."
 
 #: development/engine/custom_modules_in_cpp.rst:485
@@ -17555,7 +17556,8 @@ msgstr ""
 "`doc_editor_icons`."
 
 #: development/engine/custom_modules_in_cpp.rst:505
-msgid "Once you've created your icon(s), proceed with the following steps:"
+#, fuzzy
+msgid "Once you've created your icons, proceed with the following steps:"
 msgstr "创建图标后, 请执行以下步骤:"
 
 #: development/engine/custom_modules_in_cpp.rst:507
@@ -17568,8 +17570,9 @@ msgid ""
 msgstr "将新创建的 ``svg`` 图标(已优化或未优化)移动到该文件夹中."
 
 #: development/engine/custom_modules_in_cpp.rst:511
+#, fuzzy
 msgid ""
-"Recompile the engine and run the editor. Now the icon(s) will appear in "
+"Recompile the engine and run the editor. Now the icons will appear in "
 "editor's interface where appropriate."
 msgstr ""
 "重新编译引擎并运行编辑器. 现在, 相应的图标将出现在编辑器的界面中合适的位置中."
@@ -23749,9 +23752,10 @@ msgid "Controlling physics interactions"
 msgstr "控制物理交互"
 
 #: getting_started/first_3d_game/06.jump_and_squash.rst:14
+#, fuzzy
 msgid ""
 "Physics bodies have access to two complementary properties: layers and "
-"masks. Layers define on which physics layer(s) an object is."
+"masks. Layers define on which physics layers an object is."
 msgstr ""
 "物理实体可以访问两个互补的属性：层和遮罩。层（Layer）定义的是该对象位于哪些物"
 "理层上。"
@@ -31657,10 +31661,10 @@ msgid ""
 msgstr "单击TileSet属性,\"TileSet\" 面板将在编辑器窗口底部打开:"
 
 #: tutorials/2d/using_tilemaps.rst:87
+#, fuzzy
 msgid ""
-"First, you need to add the texture(s) that you'll use for the tiles. Click "
-"the \"Add Texture(s) to TileSet\" button and select the ``tilesheet.png`` "
-"image."
+"First, you need to add the textures that you'll use for the tiles. Click the "
+"\"Add Texture to TileSet\" button and select the ``tilesheet.png`` image."
 msgstr ""
 "首先，您需要添加图块所使用的纹理。点击“添加纹理到图块集”按钮，选择 "
 "``tilesheet.png`` 的图片。"
@@ -46911,10 +46915,11 @@ msgid "Chorus"
 msgstr "和声(Chorus)"
 
 #: tutorials/audio/audio_buses.rst:121
+#, fuzzy
 msgid ""
 "The Chorus effect duplicates the incoming audio, delays the duplicate "
 "slightly and uses an LFO to continuously modulate the pitch of the "
-"duplicated signal before mixing the duplicated signal(s) and the original "
+"duplicated signal before mixing the duplicated signal and the original "
 "together again. This creates a shimmering effect and adds stereo width to "
 "the sound."
 msgstr ""
@@ -55156,8 +55161,8 @@ msgstr "PC（Linux/macOS/Windows）"
 #, fuzzy
 msgid ""
 "Exporting PC platforms works the same across the three supported operating "
-"systems. Open the export window and click **Add…** to create the preset(s) "
-"you want to make. Then click **Export Project** and choose a name and "
+"systems. Open the export window and click **Add…** to create the preset you "
+"want to make. Then click **Export Project** and choose a name and "
 "destination folder. Choose a location *outside* of your project folder."
 msgstr ""
 "导出 PC 平台在三个支持的操作系统中的工作原理是一样的。打开导出窗口，点击\\ **"
@@ -58864,11 +58869,12 @@ msgid "After overriding, a new field is added for this specific configuration:"
 msgstr "覆盖后, 将为此特定配置添加一个新字段:"
 
 #: tutorials/export/feature_tags.rst:123
+#, fuzzy
 msgid ""
 "When using the :ref:`project settings \"override.cfg\" functionality "
 "<class_ProjectSettings>` (which is unrelated to feature tags), remember that "
 "feature tags still apply. Therefore, make sure to *also* override the "
-"setting with the desired feature tag(s) if you want them to override base "
+"setting with the desired feature tags if you want them to override base "
 "project settings on all platforms and configurations."
 msgstr ""
 "当使用\\ :ref:`项目设置的“override.cfg”功能 <class_ProjectSettings>`\\ 时（与"
@@ -76050,9 +76056,10 @@ msgid "*Monitoring* and *Monitorable* are used to enable and disable the area."
 msgstr "*Monitoring* 和 *Monitorable* 用于启用和禁用该区域检测."
 
 #: tutorials/physics/using_area_2d.rst:36
+#, fuzzy
 msgid ""
-"The \"Collision\" section is where you configure the area's collision "
-"layer(s) and mask(s)."
+"The \"Collision\" section is where you configure the area's collision layers "
+"and masks."
 msgstr "在 \"碰撞(Collision)\" 部分, 可以配置区域的碰撞层和掩码."
 
 #: tutorials/physics/using_area_2d.rst:39
@@ -83026,8 +83033,8 @@ msgstr "补充说明"
 #: tutorials/scripting/c_sharp/c_sharp_basics.rst:60
 #, fuzzy
 msgid ""
-"Be sure to install the 64-bit version of the SDK(s) if you are using the 64-"
-"bit version of Rebel Engine."
+"Be sure to install the 64-bit version of the SDK if you are using the 64-bit "
+"version of Rebel Engine."
 msgstr "如果您使用 64 位版本的 Godot，请务必安装 64 位版本的 SDK。"
 
 #: tutorials/scripting/c_sharp/c_sharp_basics.rst:63
