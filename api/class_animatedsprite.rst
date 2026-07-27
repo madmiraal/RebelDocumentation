@@ -169,7 +169,7 @@ The displayed animation frame's index.
 | *Getter* | get_sprite_frames()      |
 +----------+--------------------------+
 
-The :ref:`SpriteFrames<class_SpriteFrames>` resource containing the animation(s).
+The :ref:`SpriteFrames<class_SpriteFrames>` resource containing frames and animation data.
 
 ----
 

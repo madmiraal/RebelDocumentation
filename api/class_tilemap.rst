@@ -373,7 +373,7 @@ Friction value for static body collisions (see ``collision_use_kinematic``).
 | *Getter*  | get_collision_layer()      |
 +-----------+----------------------------+
 
-The collision layer(s) for all colliders in the TileMap. See :ref:`Collision layers and masks <tutorials/physics/physics_introduction:collision layers and masks>` in the documentation for more information.
+The collision layers for all colliders in the TileMap. See :ref:`Collision layers and masks <tutorials/physics/physics_introduction:collision layers and masks>` in the documentation for more information.
 
 ----
 
@@ -389,7 +389,7 @@ The collision layer(s) for all colliders in the TileMap. See :ref:`Collision lay
 | *Getter*  | get_collision_mask()      |
 +-----------+---------------------------+
 
-The collision mask(s) for all colliders in the TileMap. See :ref:`Collision layers and masks <tutorials/physics/physics_introduction:collision layers and masks>` in the documentation for more information.
+The collision mask for all colliders in the TileMap. See :ref:`Collision layers and masks <tutorials/physics/physics_introduction:collision layers and masks>` in the documentation for more information.
 
 ----
 
@@ -473,7 +473,7 @@ The TileMap orientation mode. See :ref:`Mode<enum_TileMap_Mode>` for possible va
 | *Getter*  | get_occluder_light_mask()      |
 +-----------+--------------------------------+
 
-The light mask assigned to all light occluders in the TileMap. The TileSet's light occluders will cast shadows only from Light2D(s) that have the same light mask(s).
+The light mask assigned to all light occluders in the TileMap. The TileSet's light occluders will cast shadows only from :ref:`Light2D<class_Light2D>`\ s that have the same light mask.
 
 ----
 
