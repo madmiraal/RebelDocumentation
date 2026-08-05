@@ -287,8 +287,9 @@ Returns the arc cosine of ``s`` in radians. Use to get the angle of cosine ``s``
 
 ::
 
-    # c is 0.523599 or 30 degrees if converted with rad2deg(s)
     c = acos(0.866025)
+
+``s`` is 0.523599 or 30 degrees if converted with :ref:`rad2deg<class_@GDScript_method_rad2deg>`
 
 ----
 
@@ -300,8 +301,9 @@ Returns the arc sine of ``s`` in radians. Use to get the angle of sine ``s``. ``
 
 ::
 
-    # s is 0.523599 or 30 degrees if converted with rad2deg(s)
     s = asin(0.5)
+
+``s`` is 0.523599 or 30 degrees if converted with :ref:`rad2deg<class_@GDScript_method_rad2deg>`
 
 ----
 
@@ -563,7 +565,7 @@ Rounds ``s`` downward (towards negative infinity), returning the largest whole n
 
 See also :ref:`ceil<class_@GDScript_method_ceil>`, :ref:`round<class_@GDScript_method_round>`, :ref:`stepify<class_@GDScript_method_stepify>`, and :ref:`int<class_int>`.
 
-**Note:** This method returns a float. If you need an integer and ``s`` is a non-negative number, you can use ``int(s)`` directly.
+**Note:** This method returns a float. If you need an integer and ``s`` is a non-negative number, you can use :ref:`int<class_int>`\ ``(s)`` directly.
 
 ----
 

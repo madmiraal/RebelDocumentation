@@ -658,7 +658,7 @@ Returns the currently focused item, or ``null`` if no item is focused.
 
 In :ref:`SELECT_ROW<class_Tree_constant_SELECT_ROW>` and :ref:`SELECT_SINGLE<class_Tree_constant_SELECT_SINGLE>` modes, the focused item is same as the selected item. In :ref:`SELECT_MULTI<class_Tree_constant_SELECT_MULTI>` mode, the focused item is the item under the focus cursor, not necessarily selected.
 
-To get the currently selected item(s), use :ref:`get_next_selected<class_Tree_method_get_next_selected>`.
+To get the currently selected item, use :ref:`get_next_selected<class_Tree_method_get_next_selected>`.
 
 ----
 

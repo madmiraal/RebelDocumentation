@@ -1164,7 +1164,7 @@ Trail particles' color will vary along this :ref:`GradientTexture<class_Gradient
 | *Getter*  | get_trail_divisor()      |
 +-----------+--------------------------+
 
-Emitter will emit ``amount`` divided by ``trail_divisor`` particles. The remaining particles will be used as trail(s).
+Emitter will emit ``amount`` divided by ``trail_divisor`` particles. The remaining particles will be used as trails.
 
 ----
 

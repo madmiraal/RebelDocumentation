@@ -47,7 +47,7 @@ Property Descriptions
 | *Getter*  | get_occluder_light_mask()      |
 +-----------+--------------------------------+
 
-The LightOccluder2D's light mask. The LightOccluder2D will cast shadows only from Light2D(s) that have the same light mask(s).
+The LightOccluder2D's light mask. The LightOccluder2D will cast shadows only from :ref:`Light2D<class_Light2D>`\ s that have the same light mask.
 
 ----
 

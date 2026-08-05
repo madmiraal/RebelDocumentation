@@ -61,7 +61,7 @@ Property Descriptions
 | *Getter*  | get_layer_mask()      |
 +-----------+-----------------------+
 
-The render layer(s) this ``VisualInstance`` is drawn on.
+The render layers this ``VisualInstance`` is drawn on.
 
 This object will only be visible for :ref:`Camera<class_Camera>`\ s whose cull mask includes the render object this ``VisualInstance`` is set to.
 
