@@ -37,7 +37,7 @@ The ``ProximityGroup`` uses the :ref:`SceneTree<class_SceneTree>` groups in the 
     - "planets|5|4|7"
     - "planets|5|4|8"
     - "planets|5|4|9"
-    - ...
+    - …
 
 If there is another ``ProximityGroup`` named ``"PlanetMars"`` with group name ``"planets"``, and one of its coordinates is ``Vector3(5, 4, 7)``, it would normally create the :ref:`SceneTree<class_SceneTree>` group called ``"planets|5|4|7"``. However, since this group name already exists, this ``ProximityGroup`` object will be *added* to the existing one. ``"PlanetEarth"`` is already in this group. As long as both nodes don't change their transform and stop intersecting (or exit the scene tree), they are grouped together. As long as this intersection exists, any call to :ref:`broadcast<class_ProximityGroup_method_broadcast>` will affect *both* ``ProximityGroup`` nodes.
 

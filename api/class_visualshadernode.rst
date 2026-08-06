@@ -109,7 +109,7 @@ Method Descriptions
 
 - :ref:`Array<class_Array>` **get_default_input_values** **(** **)** |const|
 
-Returns an :ref:`Array<class_Array>` containing default values for all of the input ports of the node in the form ``[index0, value0, index1, value1, ...]``.
+Returns an :ref:`Array<class_Array>` containing default values for all of the input ports of the node in the form ``[index0, value0, index1, value1, …]``.
 
 ----
 
@@ -125,7 +125,7 @@ Returns the default value of the input ``port``.
 
 - void **set_default_input_values** **(** :ref:`Array<class_Array>` values **)**
 
-Sets the default input ports values using an :ref:`Array<class_Array>` of the form ``[index0, value0, index1, value1, ...]``. For example: ``[0, Vector3(0, 0, 0), 1, Vector3(0, 0, 0)]``.
+Sets the default input ports values using an :ref:`Array<class_Array>` of the form ``[index0, value0, index1, value1, …]``. For example: ``[0, Vector3(0, 0, 0), 1, Vector3(0, 0, 0)]``.
 
 ----
 

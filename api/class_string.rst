@@ -847,7 +847,7 @@ Returns the MD5 hash of the string as a string.
 
 Performs a case-insensitive *natural order* comparison to another string. Returns ``-1`` if less than, ``1`` if greater than, or ``0`` if equal. "less than" or "greater than" are determined by the `Unicode code points <https://en.wikipedia.org/wiki/List_of_Unicode_characters>`__ of each string, which roughly matches the alphabetical order. Internally, lowercase characters will be converted to uppercase during the comparison.
 
-When used for sorting, natural order comparison will order suites of numbers as expected by most people. If you sort the numbers from 1 to 10 using natural order, you will get ``[1, 2, 3, ...]`` instead of ``[1, 10, 2, 3, ...]``.
+When used for sorting, natural order comparison will order suites of numbers as expected by most people. If you sort the numbers from 1 to 10 using natural order, you will get ``[1, 2, 3, …]`` instead of ``[1, 10, 2, 3, …]``.
 
 **Behavior with different string lengths:** Returns ``1`` if the "base" string is longer than the ``to`` string or ``-1`` if the "base" string is shorter than the ``to`` string. Keep in mind this length is determined by the number of Unicode codepoints, *not* the actual visible characters.
 

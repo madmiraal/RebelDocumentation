@@ -63,7 +63,7 @@ Below a small example of how it can be used:
     func _process(delta):
         if !connected:
             # Try to contact server
-            udp.put_packet("The answer is... 42!".to_utf8())
+            udp.put_packet("The answer is 42!".to_utf8())
         if udp.get_available_packet_count() > 0:
             print("Connected: %s" % udp.get_packet().get_string_from_utf8())
             connected = true
