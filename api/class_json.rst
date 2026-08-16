@@ -71,20 +71,20 @@ The ``indent`` parameter controls if and how something is indented, the string u
         ]
     }
     
-    ## JSON.print(my_dictionary, "...")
+    ## JSON.print(my_dictionary, "➝")
     {
-    ..."name": "my_dictionary",
-    ..."version": "1.0.0",
-    ..."entities": [
-    ......{
-    ........."name": "entity_0",
-    ........."value": "value_0"
-    ......},
-    ......{
-    ........."name": "entity_1",
-    ........."value": "value_1"
-    ......}
-    ...]
+    ➝"name": "my_dictionary",
+    ➝"version": "1.0.0",
+    ➝"entities": [
+    ➝➝{
+    ➝➝➝"name": "entity_0",
+    ➝➝➝"value": "value_0"
+    ➝➝},
+    ➝➝{
+    ➝➝➝"name": "entity_1",
+    ➝➝➝"value": "value_1"
+    ➝➝}
+    ➝]
     }
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`

@@ -68,7 +68,7 @@ Below a small example of how to use it:
         if dtls.get_status() == PacketPeerDTLS.STATUS_CONNECTED:
             if !connected:
                 # Try to contact server
-                dtls.put_packet("The answer is... 42!".to_utf8())
+                dtls.put_packet("The answer is 42!".to_utf8())
             while dtls.get_available_packet_count() > 0:
                 print("Connected: %s" % dtls.get_packet().get_string_from_utf8())
                 connected = true

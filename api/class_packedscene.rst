@@ -53,7 +53,7 @@ Can be used to save a node to a file. When saving, the node as well as all the n
     # Only `node` and `rigid` are now packed.
     var result = scene.pack(node)
     if result == OK:
-        var error = ResourceSaver.save("res://path/name.scn", scene)  # Or "user://..."
+        var error = ResourceSaver.save("res://path/name.scn", scene)  # Or "user://…"
         if error != OK:
             push_error("An error occurred while saving the scene to disk.")
 

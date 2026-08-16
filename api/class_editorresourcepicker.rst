@@ -175,7 +175,7 @@ This virtual method can be implemented to handle context menu items not handled 
 
 - void **set_create_options** **(** :ref:`Object<class_Object>` menu_node **)** |virtual|
 
-This virtual method is called when updating the context menu of ``EditorResourcePicker``. Implement this method to override the "New ..." items with your own options. ``menu_node`` is a reference to the :ref:`PopupMenu<class_PopupMenu>` node.
+This virtual method is called when updating the context menu of ``EditorResourcePicker``. Implement this method to override the "New …" items with your own options. ``menu_node`` is a reference to the :ref:`PopupMenu<class_PopupMenu>` node.
 
 **Note:** Implement :ref:`handle_menu_selected<class_EditorResourcePicker_method_handle_menu_selected>` to handle these custom items.
 

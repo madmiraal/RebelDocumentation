@@ -42,7 +42,6 @@ Example:
         # Will be called with the parameters passed to the "forEach" callback
         # [0, 0, [JavaScriptObject:1173]]
         # [255, 1, [JavaScriptObject:1173]]
-        # ...
         # [0, 9, [JavaScriptObject:1180]]
         print(args)
 
